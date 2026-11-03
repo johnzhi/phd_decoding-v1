@@ -238,35 +238,33 @@ The following references are cited by stable source ID. Full supplied-library ti
 
 - **[B1-19]** Jeong et al. (2025). Optimization and economic evaluation of carbon dioxide BOG Re-liquefaction process considering storage pressure and nitrogen impurity. [10.1016/j.energy.2025.135837](https://doi.org/10.1016/j.energy.2025.135837). [Retained PDF](../papers/B1-19.pdf).
 
-- **[B2-01]** Effects of pipeline distance, injectivity and capacity on CO2 pipeline and storage site selection. [10.1016/j.ijggc.2016.05.006](https://doi.org/10.1016/j.ijggc.2016.05.006). [Retained PDF](../papers/B2-01.pdf).
+- **[B2-01]** Wang, Fimbres Weihs, Neal & Wiley (2016). Effects of pipeline distance, injectivity and capacity on CO2 pipeline and storage site selection. [10.1016/j.ijggc.2016.05.006](https://doi.org/10.1016/j.ijggc.2016.05.006). [Retained PDF](../papers/B2-01.pdf).
 
-- **[B2-04]** Optimizing carbon capture and storage infrastructure including physics-based reservoir modelling. [10.1016/j.compchemeng.2025.109293](https://doi.org/10.1016/j.compchemeng.2025.109293). [Retained PDF](../papers/B2-04.pdf).
+- **[B2-04]** Bertoni, Møyner, Wiegner & Gazzani (2025). Optimizing carbon capture and storage infrastructure including physics-based reservoir modelling. [10.1016/j.compchemeng.2025.109293](https://doi.org/10.1016/j.compchemeng.2025.109293). [Retained PDF](../papers/B2-04.pdf).
 
-- **[B2-08]** Optimal design and cost of ship-based CO2 transport under uncertainties and fluctuations. [10.1016/j.ijggc.2020.103190](https://doi.org/10.1016/j.ijggc.2020.103190). [Retained PDF](../papers/B2-08.pdf).
+- **[B2-08]** Bjerketvedt, Tomasgard & Roussanaly (2020). Optimal design and cost of ship-based CO2 transport under uncertainties and fluctuations. [10.1016/j.ijggc.2020.103190](https://doi.org/10.1016/j.ijggc.2020.103190). [Retained PDF](../papers/B2-08.pdf).
 
-- **[B2-12]** Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains. [10.1016/j.ccst.2024.100190](https://doi.org/10.1016/j.ccst.2024.100190). [Retained PDF](../papers/B2-12.pdf).
+- **[B2-12]** Fraga, Korre, Nie & Durucan (2024). Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains. [10.1016/j.ccst.2024.100190](https://doi.org/10.1016/j.ccst.2024.100190). [Retained PDF](../papers/B2-12.pdf).
 
-- **[B2-13]** How to transport carbon dioxide with minimal environmental impacts today and tomorrow A prospective life cycle assessment. [10.1016/j.jclepro.2025.145659](https://doi.org/10.1016/j.jclepro.2025.145659). [Retained PDF](../papers/B2-13.pdf).
+- **[B2-13]** Nöhl et al. (2025). How to transport carbon dioxide with minimal environmental impacts today and tomorrow A prospective life cycle assessment. [10.1016/j.jclepro.2025.145659](https://doi.org/10.1016/j.jclepro.2025.145659). [Retained PDF](../papers/B2-13.pdf).
 
 - **[B2-17]** Progress and perspectives in source-sink matching for CCUS A critical review. [10.1016/j.rser.2025.116313](https://doi.org/10.1016/j.rser.2025.116313). [Retained PDF](../papers/B2-17.pdf).
 
-- **[B3-11]** Planning of carbon capture and storage with pinch analysis techniques. [10.1016/j.cherd.2013.04.007](https://doi.org/10.1016/j.cherd.2013.04.007). [Retained PDF](../papers/B3-11.pdf).
+- **[B3-11]** Ooi, Foo, Ng & Tan (2013). Planning of carbon capture and storage with pinch analysis techniques. [10.1016/j.cherd.2013.04.007](https://doi.org/10.1016/j.cherd.2013.04.007). [Retained PDF](../papers/B3-11.pdf).
 
-- **[B3-14]** A unified model for the deployment of carbon capture and storage. [10.1016/j.apenergy.2014.01.080](https://doi.org/10.1016/j.apenergy.2014.01.080). [Retained PDF](../papers/B3-14.pdf).
+- **[B3-14]** Lee, Tan & Chen (2014). A unified model for the deployment of carbon capture and storage. [10.1016/j.apenergy.2014.01.080](https://doi.org/10.1016/j.apenergy.2014.01.080). [Retained PDF](../papers/B3-14.pdf).
 
-- **[B3-29]** Integrated modelling and simulation of liquefied CO2 tank and cargo handling system with new marine transportation greenhouse gas intensity. [10.1016/j.energy.2025.139624](https://doi.org/10.1016/j.energy.2025.139624). [Retained PDF](../papers/B3-29.pdf).
+- **[B3-29]** Jeon et al. (2026). Integrated modelling and simulation of liquefied CO2 tank and cargo handling system with new marine transportation greenhouse gas intensity. [10.1016/j.energy.2025.139624](https://doi.org/10.1016/j.energy.2025.139624). [Retained PDF](../papers/B3-29.pdf).
 
-- **[B3-33]** Ship transport—A low cost and low risk CO2 transport option in the Nordic countries. [10.1016/j.ijggc.2016.08.024](https://doi.org/10.1016/j.ijggc.2016.08.024). [Retained PDF](../papers/B3-33.pdf).
+- **[B3-33]** Kjärstad, Skagestad, Eldrup & Johnsson (2016). Ship transport—A low cost and low risk CO2 transport option in the Nordic countries. [10.1016/j.ijggc.2016.08.024](https://doi.org/10.1016/j.ijggc.2016.08.024). [Retained PDF](../papers/B3-33.pdf).
 
-- **[B3-37]** The impact of time-varying CO2 injection rate on large scale storage in the UK Bunter Sandstone. [10.1016/j.ijggc.2017.10.011](https://doi.org/10.1016/j.ijggc.2017.10.011). [Retained PDF](../papers/B3-37.pdf).
+- **[B3-37]** Kolster, Agada, Mac Dowell & Krevor (2018). The impact of time-varying CO2 injection rate on large scale storage in the UK Bunter Sandstone. [10.1016/j.ijggc.2017.10.011](https://doi.org/10.1016/j.ijggc.2017.10.011). [Retained PDF](../papers/B3-37.pdf).
 
-- **[B3-38]** At what Pressure Shall CO2 Be Transported by Ship An in-Depth Cost Comparison of 7 and 15 Barg Shipping. [10.3390/en14185635](https://doi.org/10.3390/en14185635). [Retained PDF](../papers/B3-38.pdf).
+- **[B3-38]** Roussanaly, Deng, Skaugen & Gundersen (2021). At what Pressure Shall CO2 Be Transported by Ship An in-Depth Cost Comparison of 7 and 15 Barg Shipping. [10.3390/en14185635](https://doi.org/10.3390/en14185635). [Retained PDF](../papers/B3-38.pdf).
 
-- **[B3-39]** Linking the Effect of Reservoir Injectivity and CO2 Transport Logistics in the Nordic Region. [10.1016/j.egypro.2017.03.1824](https://doi.org/10.1016/j.egypro.2017.03.1824). [Retained PDF](../papers/B3-39.pdf).
+- **[B3-39]** Johnsson, Skagestad, Eldrup & Kjärstad (2017). Linking the Effect of Reservoir Injectivity and CO2 Transport Logistics in the Nordic Region. [10.1016/j.egypro.2017.03.1824](https://doi.org/10.1016/j.egypro.2017.03.1824). [Retained PDF](../papers/B3-39.pdf).
 
-- **[B3-42]** Carbon dioxide capture, transport and storage supply chains Optimal economic and environmental performance of infrastructure rollout. [10.1016/j.ijggc.2022.103635](https://doi.org/10.1016/j.ijggc.2022.103635). [Retained PDF](../papers/B3-42.pdf).
-
-- **[B3-46]** Progress and perspectives in source-sink matching for CCUS_A critical review. [10.1016/j.rser.2025.116313](https://doi.org/10.1016/j.rser.2025.116313). [Retained PDF](../papers/B3-46.pdf).
+- **[B3-42]** Becattini et al. (2022). Carbon dioxide capture, transport and storage supply chains Optimal economic and environmental performance of infrastructure rollout. [10.1016/j.ijggc.2022.103635](https://doi.org/10.1016/j.ijggc.2022.103635). [Retained PDF](../papers/B3-42.pdf).
 
 - **[B4-01]** Nasir & Go (2024). Carbon capture and storage at Malaysia power plants Evaluation of its feasibility and requisite enablers. [10.1016/j.jclepro.2024.143173](https://doi.org/10.1016/j.jclepro.2024.143173). [Retained PDF](../papers/B4-01.pdf).
 

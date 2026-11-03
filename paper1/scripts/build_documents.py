@@ -25,7 +25,9 @@ def render():
  text=(ROOT/'manuscript/Paper_1_draft.template.md').read_text();ids=sorted(set(re.findall(r'B[1-4]-\d\d',text)),key=lambda s:tuple(map(int,s[1:].split('-'))))
  refs=[]
  for sid in ids:
-  x=cat[sid];ident=x['doi'];link=('https://doi.org/'+ident) if ident.startswith('10.') else '../'+x['pdf_path']
+  x=cat[sid]
+  if x['duplicate_of']:continue  # One bibliography entry per publication; aliases remain in the catalogue.
+  ident=x['doi'];link=('https://doi.org/'+ident) if ident.startswith('10.') else '../'+x['pdf_path']
   refs.append(f"- **[{sid}]** {x['author_year']+'. ' if x['author_year'] else ''}{x['title']}. [{ident}]({link}). [Retained PDF](../{x['pdf_path']}).")
  for key,val in {'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
  if re.search(r'\{\{[A-Z_]+\}\}',text):raise ValueError('Unfilled manuscript token')
@@ -34,5 +36,5 @@ def render():
  # A digest copy lets the researcher review citations and coverage in an editable document.
  digest=ROOT/'docs/evidence_digest.md'
  subprocess.run(['pandoc',str(digest),'--from=markdown','--standalone','-o',str(ROOT/'docs/evidence_digest.docx')],check=True)
- print(f'Rendered manuscript and digest DOCX; {len(ids)} cited sources; {len(text.split())} manuscript words including tables/references.')
+ print(f'Rendered manuscript and digest DOCX; {len(refs)} unique bibliography entries; {len(text.split())} manuscript words including tables/references.')
 if __name__=='__main__':render()

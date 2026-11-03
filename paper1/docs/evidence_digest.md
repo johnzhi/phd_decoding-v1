@@ -220,7 +220,7 @@ Transfer limits: Specific-demand labels kWel/ton are dimensionally inconsistent 
 
 ### B2-01 — Effects of pipeline distance, injectivity and capacity on CO2 pipeline and storage site selection
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2016.05.006. [PDF](../papers/B2-01.pdf).
+Wang, Fimbres Weihs, Neal & Wiley (2016). Identifier: 10.1016/j.ijggc.2016.05.006. [PDF](../papers/B2-01.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 3, 4, 5.
 
@@ -250,7 +250,7 @@ Transfer limits: Cost and EOR revenue objectives; do not import EOR credits or s
 
 ### B2-04 — Optimizing carbon capture and storage infrastructure including physics-based reservoir modelling
 
-See supplied first page. Identifier: 10.1016/j.compchemeng.2025.109293. [PDF](../papers/B2-04.pdf).
+Bertoni, Møyner, Wiegner & Gazzani (2025). Identifier: 10.1016/j.compchemeng.2025.109293. [PDF](../papers/B2-04.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 4, 5, 9, 10.
 
@@ -290,7 +290,7 @@ Transfer limits: Review summaries are secondary evidence; do not use them to cer
 
 ### B2-08 — Optimal design and cost of ship-based CO2 transport under uncertainties and fluctuations
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2020.103190. [PDF](../papers/B2-08.pdf).
+Bjerketvedt, Tomasgard & Roussanaly (2020). Identifier: 10.1016/j.ijggc.2020.103190. [PDF](../papers/B2-08.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 6, 7, 8, 12.
 
@@ -330,7 +330,7 @@ Transfer limits: Boundary excludes onward shipping and final geological storage;
 
 ### B2-12 — Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains
 
-See supplied first page. Identifier: 10.1016/j.ccst.2024.100190. [PDF](../papers/B2-12.pdf).
+Fraga, Korre, Nie & Durucan (2024). Identifier: 10.1016/j.ccst.2024.100190. [PDF](../papers/B2-12.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 5, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 20, 21.
 
@@ -340,7 +340,7 @@ Transfer limits: Post-capture gate-to-gate boundary; no capture penalty or match
 
 ### B2-13 — How to transport carbon dioxide with minimal environmental impacts today and tomorrow A prospective life cycle assessment
 
-See supplied first page. Identifier: 10.1016/j.jclepro.2025.145659. [PDF](../papers/B2-13.pdf).
+Nöhl et al. (2025). Identifier: 10.1016/j.jclepro.2025.145659. [PDF](../papers/B2-13.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 3, 4, 5, 6, 8.
 
@@ -500,7 +500,7 @@ Transfer limits: Reported 21.8–40.9 kWh/t refers to specified pipeline-feed st
 
 ### B3-11 — Planning of carbon capture and storage with pinch analysis techniques
 
-See supplied first page. Identifier: 10.1016/j.cherd.2013.04.007. [PDF](../papers/B3-11.pdf).
+Ooi, Foo, Ng & Tan (2013). Identifier: 10.1016/j.cherd.2013.04.007. [PDF](../papers/B3-11.pdf).
 
 Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
 
@@ -530,7 +530,7 @@ Transfer limits: Historical scenario costs and excluded-sink assumptions cannot 
 
 ### B3-14 — A unified model for the deployment of carbon capture and storage
 
-See supplied first page. Identifier: 10.1016/j.apenergy.2014.01.080. [PDF](../papers/B3-14.pdf).
+Lee, Tan & Chen (2014). Identifier: 10.1016/j.apenergy.2014.01.080. [PDF](../papers/B3-14.pdf).
 
 Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
 
@@ -680,7 +680,7 @@ Transfer limits: Do not transfer broad review ranges without feed state, process
 
 ### B3-29 — Integrated modelling and simulation of liquefied CO2 tank and cargo handling system with new marine transportation greenhouse gas intensity
 
-See supplied first page. Identifier: 10.1016/j.energy.2025.139624. [PDF](../papers/B3-29.pdf).
+Jeon et al. (2026). Identifier: 10.1016/j.energy.2025.139624. [PDF](../papers/B3-29.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 4, 5, 6, 7, 8, 9, 10.
 
@@ -720,7 +720,7 @@ Transfer limits: Flexibility changes project value but did not reverse preferred
 
 ### B3-33 — Ship transport—A low cost and low risk CO2 transport option in the Nordic countries
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2016.08.024. [PDF](../papers/B3-33.pdf).
+Kjärstad, Skagestad, Eldrup & Johnsson (2016). Identifier: 10.1016/j.ijggc.2016.08.024. [PDF](../papers/B3-33.pdf).
 
 Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
 
@@ -760,7 +760,7 @@ Transfer limits: CO2-avoided transport costing already exists; input pressure, g
 
 ### B3-37 — The impact of time-varying CO2 injection rate on large scale storage in the UK Bunter Sandstone
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2017.10.011. [PDF](../papers/B3-37.pdf).
+Kolster, Agada, Mac Dowell & Krevor (2018). Identifier: 10.1016/j.ijggc.2017.10.011. [PDF](../papers/B3-37.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 3, 4, 5, 7.
 
@@ -770,7 +770,7 @@ Transfer limits: Direct counter-evidence to assuming dynamics always matter. Inj
 
 ### B3-38 — At what Pressure Shall CO2 Be Transported by Ship An in-Depth Cost Comparison of 7 and 15 Barg Shipping
 
-See supplied first page. Identifier: 10.3390/en14185635. [PDF](../papers/B3-38.pdf).
+Roussanaly, Deng, Skaugen & Gundersen (2021). Identifier: 10.3390/en14185635. [PDF](../papers/B3-38.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 3, 4, 7, 8, 9, 10.
 
@@ -780,7 +780,7 @@ Transfer limits: 7 barg is not 7 bara. Baseline capacity limits 50/10 kt; larger
 
 ### B3-39 — Linking the Effect of Reservoir Injectivity and CO2 Transport Logistics in the Nordic Region
 
-See supplied first page. Identifier: 10.1016/j.egypro.2017.03.1824. [PDF](../papers/B3-39.pdf).
+Johnsson, Skagestad, Eldrup & Kjärstad (2017). Identifier: 10.1016/j.egypro.2017.03.1824. [PDF](../papers/B3-39.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1.
 
@@ -810,7 +810,7 @@ Transfer limits: Table 5 total rate 22620 Mt/year does not equal country-row sum
 
 ### B3-42 — Carbon dioxide capture, transport and storage supply chains Optimal economic and environmental performance of infrastructure rollout
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2022.103635. [PDF](../papers/B3-42.pdf).
+Becattini et al. (2022). Identifier: 10.1016/j.ijggc.2022.103635. [PDF](../papers/B3-42.pdf).
 
 Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 2, 3, 5, 6, 7, 10, 11, 15, 16, 17.
 
