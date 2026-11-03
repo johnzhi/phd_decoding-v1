@@ -1,0 +1,10 @@
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.zip binary
+*.png binary
+*.csv text eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+paper1/original/proposal_extracted.txt -whitespace

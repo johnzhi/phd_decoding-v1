@@ -1,0 +1,294 @@
+P001 | Dynamic Carbon Break-Even Analysis of Cross-Border CO₂ Storage: Effects of Reservoir Deliverability and Transport Utilisation
+P002 |  
+P003 | Quick Summary: I have retained the original research aim and three objectives as proposed. 
+P004 | Based on the literature reviewed, several studies have examined reservoir injectivity, shipping utilisation, CCS network optimisation and life-cycle GHG emissions. However, I have not yet identified a study that directly examines how time-dependent reservoir injection capacity and shipping utilisation jointly influence the cumulative carbon break-even conditions between domestic and cross-border storage under a consistent baseline.
+P005 | The main revisions focus on strengthening the literature review and providing more detailed methodology equations, particularly for reservoir injection capacity, transportation utilisation, CO₂ mass balance and net GHG mitigation. I also included a comparison between static and dynamic models (B0–B3) to evaluate whether the proposed approach produces different carbon break-even conditions and storage pathway decisions.
+P006 | Abstract
+P007 | Cross-border geological CO₂ storage may be useful when nearby reservoirs cannot inject captured CO₂ at the required rate or become available only after a delay. Accessing distant sinks, however, adds energy requirements and GHG emissions from conditioning, terminals and transportation. This paper develops a proposed dynamic carbon break-even assessment for domestic-only, foreign-only and mixed storage pathways using the same industrial source and no-CCS reference. Annual injection limits, storage commissioning, voyage-related transport utilisation and emissions from the CCS chain are linked to the amount of CO₂ retained. The approach will compare static and dynamic screening models to test whether their different assumptions change cumulative net GHG mitigation and pathway preference. Existing studies have already modelled stochastic CO₂ shipping and multi-period CCS emissions optimisation; the intended contribution is therefore the matched net-mitigation test under unequal storage deliverability, rather than a claim to first introduce those established components. The proposed Japan–Malaysia–Australia application will require site-specific data and model benchmarking before numerical conclusions can be reported.
+P008 | Keywords: carbon capture and storage; cross-border CO₂ transport; reservoir injectivity; transport utilisation; life-cycle greenhouse gas emissions; carbon break-even; storage deliverability; scenario analysis
+P009 | 1. Introduction
+P010 | The technical suitability of a geological CO₂ storage destination cannot be inferred from total storage capacity or transport distance alone. Storage requires sufficient reservoir injectivity, available wells and infrastructure, and an operating schedule compatible with CO₂ captured at the source. Where domestic injection is constrained, a foreign destination may accommodate a greater share of the captured stream but requires additional conditioning, transportation and handling. The comparison therefore involves two different quantities: the mass of CO₂ that can be permanently retained and the additional GHG emissions caused by making that storage possible.
+P011 | Evidence from the Nordic region shows that better reservoir injectivity can compensate for a longer transport distance in cost terms (Johnsson et al., 2017). More recent CCS-chain models already incorporate time-dependent infrastructure development, transport mode selection, costs and emissions (Becattini et al., 2022; Fraga et al., 2024). Research has also integrated time-varying injectivity profiles into CCS networks (Budiarto et al., 2025). Consequently, it would be inaccurate to describe dynamic CCS network assessment or integrated transport–storage modelling as entirely new. The narrower question addressed here is whether operational transport utilisation and time-dependent reservoir deliverability jointly change the climate break-even boundary separating preferable domestic and foreign pathways.
+P012 | Geological capacity, injection rate and available storage service answer different planning questions. Capacity describes the estimated cumulative quantity of CO₂ that a formation may hold. Injectivity concerns the flow that can be introduced subject to pressure and well constraints. Deliverable capacity additionally requires developed wells, commissioning, accessible transport links and operating reliability. A large prospective resource does not necessarily provide a useful annual CO₂ sink during the source project’s operating window. This distinction is particularly relevant when sources can capture CO₂ before a domestic sink is commissioned.
+P013 | Karvounis and Blunt (2021) assessed North Sea storage resources and modelled regional injection potential, illustrating the substantial difference between resource inventory and injection capability. Kolster et al. (2018), using reservoir simulation for the UK Bunter Sandstone, investigated changing injection schedules and found that the importance of temporal variation was conditional on the reservoir cases considered. These studies support the inclusion of time-dependent limits but do not imply that every reservoir requires a complex pressure-resolved dynamic model. The modelling detail should be proportional to the decision being analysed.
+P014 | Johnsson et al. (2017) linked reservoir injectivity with the costs of pipeline and ship logistics for Nordic sources. Their analysis indicated that shipping CO₂ farther west to more injective formations may be economically preferable to nearer alternatives with poor injectivity. That result offers an important counterexample to distance-only sink selection. It should not, however, be interpreted as proof that the longer pathway necessarily delivers greater net life-cycle GHG mitigation; emissions from conditioning, voyage operations and any additional permanently retained CO₂ must be evaluated together.
+P015 | A more recent planning contribution by Budiarto et al. (2025) derived time-dependent reservoir injectivity profiles from well-level analysis and incorporated those profiles into mixed-integer CCS infrastructure optimisation. This considerably narrows any claim that dynamic injection limits are themselves a novel feature. In the present study they are a necessary input to the environmental question, rather than the sole proposed contribution.
+P016 | The relative performance of pipelines and ships depends on annual flow, route geometry, operating pressure, conditioning requirements and infrastructure use. Kang et al. (2015) reported that, in selected South Korean scenarios, changing annual flow could reverse the cost ranking between shipping and pipelines; the compared modes also had different route distances. Their findings demonstrate that unit cost depends on project configuration and cannot be transferred to a new region without matching cost base, system boundary and route conditions.
+P017 | Shipping can serve dispersed coastal CO₂ sources, but available throughput depends on vessel cargo capacity, the number of trips, sailing times, port turnaround and operational reliability. Bjerketvedt et al. (2020) formulated a two-stage stochastic mixed-integer model for a Norwegian chain carrying 0.4 MtCO₂/year over 715 km. Their results show that weather-related delays, temporary storage and uncertain operating conditions affect equipment sizing, costs and the amount of CO₂ that can be transported. In their case, transporting 99% of captured CO₂ minimised average transport-chain cost at €33.8/tCO₂; increasing the required transport rate to 100% raised the marginal cost of the final 1% to €41.9/tCO₂. These are cost results, not estimates of whole-chain net GHG mitigation. The study nevertheless demonstrates why transport availability and uncaptured or released CO₂ must be represented explicitly.
+P018 | Bjerketvedt et al. (2020) also found that deterministic planning could underestimate buffer capacity and increase expected transport cost by approximately €1.9/tCO₂ under the uncertainties examined. Their work already establishes the value of stochastic shipping logistics; the proposed Paper 1 therefore does not claim operational uncertainty modelling as a new method. Instead, it will use verified shipping behaviour to assess changes in annual permanently stored CO₂ and cumulative net mitigation relative to a matched industrial baseline.
+P019 | A useful distinction for environmental analysis is between absolute energy consumption, annual emissions and emissions intensity. A vessel may produce more total fuel-related GHG emissions when transporting more cargo, even as emissions per tonne decline. Moreover, an increase in flow may require an additional vessel or terminal expansion, producing a discontinuous change rather than a smooth linear relationship. The present framework therefore proposes a voyage-based description of the shipping chain, with separate conditioning and terminal loads, and uses a simpler flow-based pipeline description only where appropriate data justify it.
+P020 | Beiron et al. (2022) provide a complementary utilisation example at the capture stage: for 110 Swedish biomass- and waste-fired combined heat and power plants, low full-load hours increased capture cost per tonne because capital expenditure was spread over less captured CO₂. That result supports treating annual throughput and asset use explicitly, but it should not be extrapolated to a vessel fuel-emission relationship without a marine operating model. Their reported cost boundary extends to local truck transport and excludes onward ship transport and final geological storage.
+P021 | A comparison of domestic and foreign storage must use the same industrial service and the same reference emissions, otherwise a route may appear beneficial merely because different quantities of production, capture or storage have been assumed. The climate outcome of interest is net GHG emissions avoided relative to a common no-CCS reference, not the mass shipped. The analysis must distinguish captured CO₂, injected CO₂, CO₂ retained over the chosen time horizon and additional emissions from operating or building the CCS chain.
+P022 | Yuan et al. (2023) demonstrated that conclusions concerning the life-cycle cost and carbon emissions of ship transport depend on the selected system boundary. In their systematic review, Emborg et al. (2026) found substantial variation among 33 CCS life-cycle studies and reported that fewer than half considered the entire CCS chain. They also identified inconsistent treatment of energy demand and future electricity-carbon intensity. These findings justify a transparent inventory encompassing capture-related changes, compression, liquefaction, terminal operations, shipping or pipeline transport, injection, monitoring and relevant asset life cycles.
+P023 | Fraga et al. (2024) developed a multi-period, multi-objective CCS-chain model covering conditioning, shipping and pipelines, intermediate storage, and injection at geological storage fields. Their prospective inventory included shipping operations and infrastructure construction, with emissions analysed over a 30-year horizon. The reported GHG burden of the post-capture chain ranged from 3.3% to 14.2% of CO₂ stored across the studied configurations. Shipping operations were an important source of emissions, and a greater weight on climate impacts changed fleet composition, well-development choices and transport routes. These results directly challenge any novelty claim based on combining storage, shipping, infrastructure development and GHG emissions for the first time.
+P024 | The system boundary in Fraga et al. (2024) begins after CO₂ capture and uses one tonne of transported CO₂ as the reference flow for the prospective batch-transport inventory. Their analysis provides robust evidence for post-capture emissions and cost–emissions trade-offs, but does not itself constitute a matched no-CCS industrial comparison for routes that permanently store different portions of the available CO₂. Paper 1 will test this narrower additionality question using equal industrial output, explicit treatment of CO₂ that remains unstored, and cumulative avoided GHG emissions rather than only emissions per transported or stored tonne.
+P025 | Becattini et al. (2022) proposed a time-dependent mixed-integer model for Swiss waste-to-energy CCS infrastructure, including a North Sea sink and a hypothetical domestic sink with later availability. The work demonstrates that commissioning schedules and transport-mode flexibility can change infrastructure rollout and costs over 25 years. Fraga et al. (2024) further examined multi-period emissions–cost trade-offs, while Budiarto et al. (2025) contributed physically informed annual injection constraints. Accordingly, the available literature already covers several components of the intended methodology.
+P026 | A related GHGT-17 contribution by Fraga et al. (2024, conference paper) examined 15 scenarios for standalone and interconnected UK, Northern Lights and Stella Maris CCS networks. Its implemented model minimised cost over 30 years and tested delayed storage availability, delayed source connections and network integration. Consequently, storage commissioning delays and international shipping flexibility also have prior methodological coverage. The remaining question is whether combining those logistical effects with different net retained volumes changes the climate preference under a common counterfactual.
+P027 | Burger et al. (2026) examined how pipeline deployment constraints affect Swiss CCS expansion and found that allowing additional non-pipeline transport modes could close a modelled sequestration shortfall. Their results reinforce that additional storage enabled by transport alternatives and the associated cost trade-off are established research topics. Paper 1 therefore does not claim novelty from demonstrating that longer-distance or multimodal transport can enable more storage. Instead, it tests whether the joint representation of reservoir injection profiles and operational ship loading changes the net-mitigation decision compared with consistent static screening.
+P028 | The remaining question addressed here is more specific: under the same industrial production baseline, how much does jointly accounting for annual injection limits and utilisation-sensitive shipping operations change the carbon break-even boundary, compared with using constant injection rates and fixed transport-emission factors? The study will measure this effect by comparing four nested models and by examining whether any pathway-selection change persists across plausible parameter ranges. This is a testable hypothesis rather than an assertion that the combination is absent from all existing literature.
+P029 | Table 1: Selected literature and its relevance to the proposed assessment
+P030 | Study
+P031 | Established evidence
+P032 | Boundary for this paper
+P033 | Johnsson et al. (2017)
+P034 | Injectivity can change the economic preference for a more distant sink.
+P035 | Does not directly establish a whole-chain net-GHG advantage.
+P036 | Kang et al. (2015)
+P037 | Transport mode rankings change with flow and route configuration.
+P038 | Costs and unequal distances do not establish climate break-even.
+P039 | Bjerketvedt et al. (2020)
+P040 | Weather and shipping fluctuations affect capacity and buffer needs.
+P041 | Operational effects must be connected to net mitigation.
+P042 | Becattini et al. (2022)
+P043 | Yearly CCS deployment and storage readiness affect network development.
+P044 | Benchmark dynamic inputs without duplicating investment optimisation.
+P045 | Fraga et al. (2024)
+P046 | Multi-period CCS chains integrate costs and emissions for transport and storage.
+P047 | Test matched-source incremental climate benefit and ranking robustness.
+P048 | Budiarto et al. (2025)
+P049 | Time-dependent injection profiles can constrain CCS network design.
+P050 | Use physically grounded limits to test climate break-even rather than only cost.
+P051 | Emborg et al. (2026)
+P052 | LCA studies use inconsistent boundaries and energy assumptions.
+P053 | Apply and disclose one matched accounting boundary.
+P054 | Beiron et al. (2022)
+P055 | Plant throughput/full-load hours strongly affect capture cost; includes local truck transport.
+P056 | Supports utilisation-cost explanation, not ship fuel intensity or full-chain storage emissions.
+P057 | Fraga et al. (2024, GHGT-17)
+P058 | 30-year international CCS scenarios cover network interconnection, commissioning delays and ship fleets.
+P059 | International flexibility and sink timing are not new; test their incremental climate effect under a matched baseline.
+P060 | Burger et al. (2026)
+P061 | Constrained pipeline deployment can limit cumulative storage; multimodal transport can overcome the bottleneck in a Swiss planning case.
+P062 | Shows benefit of alternate modes already established; does not by itself test injectivity-by-utilisation carbon break-even under a matched source baseline.
+P063 | 
+P064 | Proposed contribution. The study develops a transparent net-mitigation comparison between domestic-only, cross-border-only and mixed storage for a common industrial source. Its intended contribution is the measured incremental value of combining time-dependent sink deliverability and operational transport utilisation, rather than the mathematical identity of a break-even difference or a claim to the first CCS chain optimisation model. A credible contribution will require evidence that the joint model changes pathway selection, the estimated break-even region, or the identified conditions under which simpler models are adequate.
+P065 | This study has three objectives: 
+P066 | To evaluate how reservoir injection capacity, accessible geological storage capacity and infrastructure development timelines influence annual and cumulative CO₂ storage under domestic and cross-border configurations.
+P067 | To quantify how transportation distance, CO₂ flow rate, transportation mode and infrastructure utilisation affect energy consumption, lifecycle GHG emissions and emissions intensity.
+P068 | To determine the carbon break-even conditions under which additional permanent CO₂ storage enabled by cross-border transportation outweighs the associated incremental lifecycle GHG emissions.
+P069 | The remainder of this paper is organised as follows. Section 2 presents the system boundary, dynamic storage and transport equations, net GHG accounting, and carbon break-even analysis. Section 3 describes the proposed Japan–Malaysia–Australia case-study configuration and data requirements. Section 4 identifies the numerical comparisons to be conducted once a validated dataset is assembled. Section 5 states the current limitations and the conclusions that remain to be tested.
+P070 | 2. Methodology
+P071 | 2.1. Generalised problem statement and system boundary
+P072 | A common industrial source is assessed under three specified configurations: D (domestic-only), F (foreign-only) and M (mixed domestic and foreign). The same annual industrial output, pre-capture source emissions, project horizon and physical capture technology are assumed unless a clearly documented scenario changes them. The prospective time horizon is 2030–2050, consistent with the current proposal. Annual time steps are used for source–sink allocation and storage commissioning; ship-operation calculations may use voyage-level time resolution within each year.
+P073 | The foreground system begins at the industrial CO₂ stream before capture and extends through separation, compression or liquefaction, transport, intermediate storage, injection and long-term retention. The no-CCS baseline includes emissions associated with the same industrial service. Electricity and fuel supply emissions, incremental CCS construction, wells, monitoring and decommissioning are included where data are adequate, with exclusions reported. Exported utilities, co-products and credits from other activities will not be introduced unless a consistent attribution or system-expansion rule is specified across all pathways.
+P074 | Storage-site access, permits and commercial availability are treated as feasibility conditions, not inferred from prospective geological resources. The initial Japan–Malaysia–Australia configuration is a geographic test concept; no country-level storage figure will be substituted for a verified site-specific injection rate.
+P075 | The distinction from Fraga et al. (2024) is an emissions-counterfactual distinction rather than an assertion that comparable multi-period logistics or transport LCI components are absent. The model will not treat post-capture emissions per tonne stored as equivalent to net avoided emissions until the reference industrial emissions, additional capture energy, any un-stored CO₂ and other foreground and upstream impacts have been reconciled.
+P076 | 2.2. CO₂ mass balance and source–sink allocation
+P077 | Let t denote year, s denote the assessed pathway, and r denote an eligible storage site. Qₜ (tCO₂/year) is the CO₂ associated with the same industrial service that is eligible for capture; cₛₜ is captured CO₂, and uₛₜ = Qₜ − cₛₜ is the amount left uncaptured. The constraint 0 ≤ cₛₜ ≤ Qₜ applies to each pathway. Let xₛᵣₜ be CO₂ injected at site r, Bₛₜ be total temporary inventory before final injection (including end-of-year material awaiting transport), vₛₜ be deliberately released captured CO₂, and ℓₛₜ be other measured CO₂ losses. The source and pathway mass balance is expressed in Eq. (1).
+P078 | cₛₜ + Bₛ,ₜ₋₁ = ∑ᵣ xₛᵣₜ + vₛₜ + Bₛₜ + ℓₛₜ
+P079 | (1)
+P080 | Uncaptured CO₂, vₛₜ and ℓₛₜ must be recorded separately. The reference comparison includes the emissions from uₛₜ and captured-stream releases that are not retained, but those same quantities are not counted again as incremental GHG burdens in the simplified retention expression. The base operating rule is to curtail capture when neither same-year transport and injection nor available buffer capacity can accept additional CO₂. A separate sensitivity case permits continuing capture followed by a documented release after a transport disruption. The two operating policies are not mixed within one comparison. The annual balance must reconcile with shorter-period buffer inventories and any pipeline or vessel inventory crossing the year boundary.
+P081 | 2.2.1. Definition of domestic, foreign and mixed allocation
+P082 | Let D and F denote domestic and foreign sinks. The domestic-only pathway sets injection to F to zero, and the foreign-only pathway sets injection to D to zero. For a mixed pathway, each yearly split must satisfy xₛ,D,t ≥ 0, xₛ,F,t ≥ 0 and xₛ,D,t + xₛ,F,t ≤ cₛₜ + Bₛ,ₜ₋₁, subject to losses, available storage and route constraints in Eq. (1). At the screening stage, mixed allocation will be evaluated using a prespecified grid of domestic shares (e.g., 0–100% in stated increments); each share is assessed under identical input assumptions. The climate-preferred share is the feasible share with the largest cumulative net mitigation, while transport cost and any dual-network capital costs are reported separately. This scenario search is not presented as a new mathematical network optimisation algorithm.
+P083 | 2.3. Reservoir injectivity and storage-capacity constraints
+P084 | For storage site r in year t, let Iᵣₜ be the technically allowable injection throughput, aᵣₜ be an availability indicator or fraction, and Kᵣ be the accessible cumulative capacity allocated to the studied project. The delivered mass cannot exceed injection service or remaining capacity.
+P085 | 0 ≤ xₛᵣₜ ≤ aᵣₜ Iᵣₜ
+P086 | (2)
+P087 | ∑_{τ≤t} xₛᵣτ ≤ Kᵣ
+P088 | (3)
+P089 | Availability is zero before a sink is technically commissioned and accessible to the source. Four initial profile classes are considered: constant, ramp-up, declining and delayed-start injection. These are externally specified engineering scenarios, not pressure-coupled reservoir predictions. Where well tests, published injection simulations or site development schedules are available, they will replace assumed profiles. The model will record whether availability is technical, permitted or commercially contracted, rather than treating national storage-resource estimates as operational injection services.
+P090 | To distinguish injection from credited permanent storage, let ρᵣₜ denote the fraction of injected CO₂ expected to remain stored under a defined monitoring and permanence accounting horizon. For the study horizon, the retained stock may be represented as follows, provided the retention parameter appropriately accounts for leakage timing:
+P091 | Rₛ = ∑ₜ ∑ᵣ ρᵣₜ xₛᵣₜ
+P092 | (4)
+P093 | For cases with material delayed leakage, a stock-and-flow retention model should replace the simplified factor ρᵣₜ. Geological injection and permanent retention will be reported separately and must not be conflated.
+P094 | 2.4. Transportation operations and infrastructure utilisation
+P095 | Annual marine demand Mₖₜ is the mass assigned to route and vessel class k in year t. Each vessel has nominal CO₂ cargo capacity Vₖ, while λₖₜ (0 < λₖₜ ≤ 1) is the assumed average loading fraction of operated voyages. The integer number of loaded departures nₖₜ must be sufficient to transport the assigned mass as constrained by Eq. (5); unused voyages and partially loaded trips cannot be counted as fully delivered CO₂. Voyage time covers outward sailing, ballast/return sailing, loading and unloading, and operational delays as described by Eq. (6).
+P096 | Feasible departures also depend on the available fleet Nₖₜ and annual ship operating time H_oper,k. Equation (7) is an aggregate vessel-hour constraint; where port availability, voyage overlap or buffer dynamics could bind, a shorter time step h is applied using Eq. (17). CO₂ scheduled but not delivered within the required period remains in a recognised buffer or is subject to curtailment/release. The model will not equate nominal fleet throughput with actual storage injections.
+P097 | nₖₜ ≥ Mₖₜ / (Vₖ λₖₜ) ;   nₖₜ ∈ ℤ₊
+P098 | (5)
+P099 | T_round,k = dₖ/u_loaded,k + dₖ/u_return,k + T_port,k + T_delay,k
+P100 | (6)
+P101 | nₖₜ · T_round,k ≤ Nₖₜ · H_oper,k
+P102 | (7)
+P103 | All sailing and loading terms will use consistent hours and tonnes. For a given number of trips, actual load factors are checked from Mₖₜ/(nₖₜVₖ), and the specified λₖₜ is reconciled with that realised fraction; nₖₜ is never treated as a fractional voyage. If Nₖₜ = 0, marine delivery on that route is zero, and utilisation is reported as not applicable rather than divided by zero. The method distinguishes fleet-capacity utilisation from single-voyage cargo loading.
+P104 | Annual fleet utilisation is actual transported mass divided by the technically achievable mass with nominal vessel capacity, not by a denominator that already embeds the observed loading fraction:
+P105 | Uₖₜ = Mₖₜ · T_round,k / (Nₖₜ · H_oper,k · Vₖ)    (Nₖₜ > 0)
+P106 | (8)
+P107 | Here 0 ≤ Uₖₜ ≤ 1 for feasible marine allocations and the selected operating-time assumptions. Pipeline utilisation is actual flow divided by allowable annual throughput, with relevant operating pressures assessed separately. Fuel consumption need not vary proportionally with loading: additional vessels, voyage thresholds, speed changes and port energy can create non-linear or stepwise changes in total emissions and emissions intensity.
+P108 | 2.5. Transport energy demand and GHG emissions
+P109 | Ship fuel demand is calculated independently for loaded sailing, ballast or return sailing and port operations, with engine power or fuel-rate relationships calibrated against published CO₂-carrier studies when available. Terminal electricity, liquefaction, temporary storage, recompression and injection energy are evaluated separately. A preliminary annual marine inventory is:
+P110 | G_ship,ₛₜ = [F_laden,ₛₜ + F_return,ₛₜ + F_port,ₛₜ] EF_fuel,ₜ + E_term,ₛₜ EF_grid,ₜ
+P111 | (9)
+P112 | In Eq. (9), F represents fuel use for loaded voyages, return voyages and port operations. Terminal electricity is shown separately for transparency, but must be assigned to either the marine transport term or the conditioning/terminal term in the full-chain inventory, never both. Fuel and electricity factors will use consistent physical units. Embodied emissions of ships, tanks and terminals will be counted as asset construction emissions once in the appropriate project period and not repeatedly assigned to the same annual throughput.
+P113 | For each pathway the incremental non-retention GHG burden is defined relative to the same industrial reference. It includes incremental capture-related process and energy emissions, conditioning and terminal energy, transport fuel and upstream fuel emissions, injection energy, construction/operation of CCS assets, and other non-retention GHG effects within the declared system boundary. When a component differs among routes, its route-specific activity and emissions factor must be used. The sum is given in Eq. (10).
+P114 | For model validation, the post-capture emissions inventory will be checked independently against the broad contributions considered by Fraga et al. (2024): ship fuel, conditioning electricity, intermediate storage, infrastructure construction, injection-well development and geographically differentiated electricity factors. Reported chain intensities will not be used as a direct substitute for route-specific values; they are external plausibility bounds where technology and boundaries are comparable.
+P115 | Gₛₜ = G_capture,ₛₜ + G_condition,ₛₜ + G_transport,ₛₜ + G_injection,ₛₜ + G_assets,ₛₜ + G_other,ₛₜ
+P116 | (10)
+P117 | Direct release of uncaptured CO₂ or previously captured CO₂ is counted in total pathway emissions Eˢₜ. Under the optional retained-mass representation, these releases instead reduce retained CO₂ Rₛ; they must not be added again to incremental Gₛₜ. Any other GHG consequences, including methane leakage from upstream energy supply, are included in Gₛₜ once. The model must report a process-by-process inventory reconciliation that proves E⁰−Eˢ and the simplified retention expression agree when its stated assumptions hold.
+P118 | 2.6. Common baseline and net GHG mitigation
+P119 | The primary functional comparison is the same industrial production and annual baseline emissions, evaluated for the same 2030–2050 time window. Let E⁰ₜ be the reference system GHG emissions and Eˢₜ the total pathway emissions for the same output. Cumulative net mitigation Aₛ is:
+P120 | Aₛ = ∑ₜ (E⁰ₜ − Eˢₜ)
+P121 | (11)
+P122 | If the source system and accounting assumptions are identical, the same result can be expressed as retained source CO₂ minus incremental non-retention GHG burden:
+P123 | Aₛ = Rₛ − ∑ₜ Gₛₜ
+P124 | (12)
+P125 | Equation (12) is a consistency check, not a universal replacement for the reference-system comparison in Eq. (11). It is valid only when the same fossil-origin CO₂ source, industrial output and reference emissions apply, each retained source tonne represents one counterfactual tonne of CO₂ avoided, and incremental Gₛₜ excludes the corresponding source releases. Biogenic CO₂, direct air capture, displaced energy production, co-product credits, temporal leakage and non-CO₂ process changes require their own explicit counterfactual accounting. The accounting horizon for retention is declared separately from the 2030–2050 operating horizon.
+P126 | Two additional indicators are required: annual or cumulative transport GHG intensity per tonne transported, and mitigation efficiency per tonne captured. Both use explicitly defined denominators, and an intensity ratio is not reported when its denominator is zero.
+P127 | I_transport,ₛ = (∑ₜ G_transport,ₛₜ) / (∑ₜ M_transport,ₛₜ)
+P128 | (13)
+P129 | η_mit,ₛ = Aₛ / (∑ₜ cₛₜ)
+P130 | (14)
+P131 | 2.7. Carbon break-even conditions
+P132 | The paired comparison is made between pathway F and pathway D under the same industrial source and baseline. Incremental net mitigation ΔA is the additional retained counterfactual CO₂ minus additional full-chain GHG burden:
+P133 | ΔA_F−D = A_F − A_D = (R_F − R_D) − ∑ₜ (G_F,ₜ − G_D,ₜ)
+P134 | (15)
+P135 | When ΔA_F−D is positive, the cross-border case has greater cumulative net mitigation. The carbon break-even frontier is the set of input combinations for which ΔA_F−D = 0. Under the simplified retention formulation, this corresponds to ΔR = ΔG. The analysis will solve or numerically map the frontier as a function of annual injectivity, commissioning year, voyage distance, vessel loading, electricity emission factor and source throughput. The mixed pathway will be evaluated as a third candidate, with domestic and foreign injection jointly constrained rather than assumed superior.
+P136 | Break-even is not necessarily a single geographic distance or a unique threshold. Vessel requirements can change in discrete steps, and delayed commissioning can make the difference in retained CO₂ time-dependent. Hence a boundary curve or region is more appropriate than asserting one universal shipping distance beyond which foreign storage is favoured.
+P137 | 2.8. Sensitivity and uncertainty analysis
+P138 | A factorial core design will vary domestic injection limit, foreign injection limit, readiness year, annual CO₂ capture potential, shipping distance, vessel capacity/loading and electricity/fuel emission factors. The base case will include both high-utilisation and underutilised transport states. A separate test will apply common time-dependent capture supply and alternative injection profiles. The following planned comparisons are important: (B0) static injectivity plus constant tCO₂ transport factors; (B1) dynamic injectivity plus constant transport factors; (B2) static injectivity plus operationally resolved transport; and (B3) both dynamic injectivity and operational transport. These cases isolate the contribution from each modelling refinement.
+P139 | Deterministic one-at-a-time and global sensitivity analyses will first be performed with defensible parameter bounds from published data. If probability distributions and correlations can be justified, the uncertainty analysis will estimate the probability of greater foreign net mitigation:
+P140 | P_benefit = Pr(ΔA_F−D > 0 | specified parameter distributions)
+P141 | (16)
+P142 | A numerical probability will not be presented if the source evidence only supports uncertain ranges. Structural uncertainty will be assessed by testing alternative asset-life allocation, storage retention and electricity-decarbonisation assumptions. Results will report absolute avoided emissions, transport intensity and retained mass side-by-side to prevent misinterpretation of low emissions intensity as greater total climate benefit.
+P143 | 2.9. Data provenance and model validation
+P144 | Published data will be collected with publication year, currency and cost base, functional unit, assessed route, CO₂ purity/phase, system boundary and technology assumptions. The initial model will use a single industrial source and specific candidate reservoirs, not a national average storage capacity. Geographic routes will be traced using credible locations and practical maritime corridors rather than straight-line distance. Where a published study reports only aggregate transportation energy, it will not be treated as component-level liquefaction or ship-fuel evidence.
+P145 | Model verification will include a yearly CO₂ material-balance residual test, zero-throughput and zero-availability checks, vessel scheduling feasibility, correct handling of operational delays and confirmation that transport leakage is not double counted. Independent validation will compare transport-cost and scale trends with Kang et al. (2015), ship buffer and scheduling sensitivity with Bjerketvedt et al. (2020), and published CCS-chain emission results with Fraga et al. (2024), while acknowledging differences in source, geography and boundary. Reservoir input profiles will be cross-checked against published reservoir analyses, but passing such checks will not make hypothetical sites commercially deployable.
+P146 | Bjerketvedt et al. (2020) provides a benchmark for the sensitivity of transport completion to buffer size, voyage delays and variable source flow; Fraga et al. (2024) provides a benchmark for ship-capacity effects, chain-component GHG accounting and the distinction between absolute emissions and emissions intensity. Benchmarking will compare shared subprocesses and qualitative relationships first. Differences in geography, project period and LCI system boundaries will be reported; matching a literature result is not proof that the full Japan–Malaysia–Australia model has been validated.
+P147 | 2.10. Voyage-level feasibility and benchmark comparison
+P148 | Annual vessel capacity alone may conceal short-lived transport bottlenecks. When the available data permit, short operating periods h will be used to connect captured or conditioned CO₂, loading, venting and source-side buffer inventory. The following operational balance supplements, rather than replaces, the annual balance in Eq. (1):
+P149 | bₛₕ = bₛ,ₕ₋₁ + qₛₕᶜᵒⁿᵈ − mₛₕˡᵒᵃᵈ − vₛₕ ;    0 ≤ bₛₕ ≤ Bₛᵐᵃˣ                                      (17)
+P150 | Here b is buffer inventory, qᶜᵒⁿᵈ the amount conditioned during operating period h, mˡᵒᵃᵈ the mass loaded for dispatch, and v the amount released following transport interruption. Loading from the buffer is restricted by available vessels, cargo load limits and departures within each period. Actual marine emissions depend on the number of operated voyages and the loaded/return operating states:
+P151 | Fⱼ = ḟⱼˡᵃᵈᵉⁿ τⱼˡᵃᵈᵉⁿ + ḟⱼʳᵉᵗᵘʳⁿ τⱼʳᵉᵗᵘʳⁿ + ḟⱼᵖᵒʳᵗ τⱼᵖᵒʳᵗ                                        (18)
+P152 | The fuel rates ḟ and operating times τ are route-, ship-, loading- and speed-dependent; their values will be fitted to compatible literature-based operational data when possible. This formulation is a proposed simplified screening relationship, not a reproduction of the Bjerketvedt stochastic optimisation model. It permits operating-time and utilisation effects without assuming that each trip has identical emissions.
+P153 | The methodological benchmark consists of four increasingly detailed variants: B0 (constant injection and fixed transport factor), B1 (dynamic injection only), B2 (operational marine transport only), and B3 (both refinements). The incremental effect of adopting the fully resolved model on the climate comparison is:
+P154 | ΔΔA = (Aꜰ − Aᴅ)ᴮ³ − (Aꜰ − Aᴅ)ᴮ⁰                                                        (19)
+P155 | 𝓘 = D_B3 − D_B2 − D_B1 + D_B0 ;  D_Bj = A_F,Bj − A_D,Bj
+P156 | (20)
+P157 | The nested models B0–B3 will be compared using both a main contrast, D_B3 − D_B0, and the interaction contrast in Eq. (20). A change of preferred pathway is material only if all candidates have feasible shipping and injection schedules, the same reference system and retained-mass accounting, and the result persists across plausible uncertainty ranges. The B0-to-B3 contrast must not be interpreted entirely as an interaction: the separate effects of deliverability and shipping resolution are accounted for through B1 and B2. A null interaction or no decision change remains a reportable finding about the limits of added model complexity.
+P158 | 3. Proposed Japan–Malaysia–Australia CCS Case Study
+P159 | 3.1. Case study description
+P160 | The proposed numerical study uses a common Japanese industrial CO₂ source or cluster and compares access to domestic storage in Japan with candidate foreign storage services in Malaysia and Australia. These are prospective assessment configurations, not verified commercial routes or confirmed reservoir-development projects. Specific source and sink locations, capacities, commissioning dates and shipping routes must be documented using site-appropriate evidence before the numerical study is conducted.
+P161 | The three principal configurations are domestic-only storage (D), foreign-only storage (F), and mixed domestic–foreign storage (M). Foreign-only storage may be assessed separately for Malaysia and Australia. All routes will be evaluated for the same industrial product output, baseline emissions, capture technology, and 2030–2050 planning horizon. The annual CO₂ quantities captured, transported, injected, vented or retained will be reported separately.
+P162 | Table 2: Proposed source–sink configurations and their modelling role
+P163 | Configuration
+P164 | Route / allocation
+P165 | Purpose
+P166 | D — domestic only
+P167 | Japan source → eligible Japanese sink
+P168 | Reference storage pathway under domestic injection constraints
+P169 | F-MY — cross-border
+P170 | Japan source → Malaysian sink via feasible transport chain
+P171 | Test extra transport burden versus Malaysian storage availability
+P172 | F-AU — cross-border
+P173 | Japan source → Australian sink via feasible transport chain
+P174 | Test different shipping distance, operating assumptions and storage availability
+P175 | M — mixed
+P176 | Japan source → domestic sink + eligible foreign sink
+P177 | Test partial domestic injection service and residual foreign allocation
+P178 | 
+P179 | 3.2. Scenario design
+P180 | Controlled experiments will hold industrial output and reference emissions fixed while varying injection-rate profiles, availability dates, distance, fleet size, voyage load fraction and electricity/fuel emissions factors. These experiments first isolate main effects, then examine joint interactions. The Japan–Malaysia–Australia regional application is a second-stage exercise conditional on identifying specific sinks and justified operational parameter ranges.
+P181 | An equal-storage control will also be run by restricting domestic and cross-border cases to the same cumulative retained CO₂ wherever feasible. This control isolates the incremental transport-and-conditioning burden from the separate benefit of storing additional CO₂. The principal unequal-storage comparison then permits each pathway to use its available deliverability, capturing the combined effects of access and chain emissions. Controlled one-source/two-sink experiments will precede any country-specific interpretation.
+P182 | Table 3: Planned scenario groups for testing the carbon break-even hypothesis
+P183 | Group
+P184 | Variable(s)
+P185 | Research purpose
+P186 | S0 — no CCS
+P187 | Matched industrial output and baseline emissions
+P188 | Calculate reference life-cycle emissions
+P189 | S1 — static screening
+P190 | Constant injection and fixed transport emission factors
+P191 | Establish a simpler model benchmark
+P192 | S2 — storage deliverability
+P193 | Injection rate, decline/ramp-up, commissioning year
+P194 | Examine cumulative storage constraints
+P195 | S3 — transport utilisation
+P196 | Flow, cargo capacity, voyage availability and route length
+P197 | Estimate loading-dependent absolute and unit emissions
+P198 | S4 — energy and retention
+P199 | Grid factors, fuels, losses and retention assumptions
+P200 | Test whole-chain climate sensitivity
+P201 | S5 — mixed allocation
+P202 | Domestic injection share and residual foreign storage
+P203 | Compare domestic, foreign and combined routes
+P204 | uₛₜ
+P205 | Annual source CO₂ left uncaptured (Qₜ − cₛₜ)
+P206 | tCO₂/year
+P207 | nₖₜ; Nₖₜ
+P208 | Loaded trips; available ships in route/class k and year t
+P209 | trips/year; ships
+P210 | λₖₜ; Uₖₜ
+P211 | Average voyage load fraction; annual fleet-capacity utilisation
+P212 | dimensionless
+P213 | D_Bj; 𝓘
+P214 | Foreign-minus-domestic benefit in benchmark variant j; two-factor interaction
+P215 | tCO₂e
+P216 | 
+P217 | 3.3. Input data, processing and quality control
+P218 | The case-study database will be organised by source, sink, transport route, energy system, GHG inventory and availability period. Each parameter will be labelled as (i) verified site-specific, (ii) published scenario-based, or (iii) an explicit sensitivity assumption. Geological resource estimates will not be substituted for contracted or commercially available annual injection service. All transport coefficients will retain their original units, functional units, system boundaries and applicable years. Electricity factors will be differentiated by location and year where supported.
+P219 | At drafting stage, no verified pairing of a named Japanese industrial source with specific injection-ready reservoirs in Japan, Malaysia and Australia has been established. Accordingly, transport route selection, annual injection capacity, retention parameters and storage access cannot yet be treated as confirmed observations. Hypothetical sensitivity inputs will be labelled as such. The regional application may be narrowed to one defensible domestic–foreign pair if sufficiently comparable public data cannot be found for three countries.
+P220 | 4. Planned Results and Discussion 
+P221 | 4.1. Storage deliverability and transport utilisation
+P222 | The planned results will report (i) annual and cumulative injected and retained CO₂; (ii) the fate of uncaptured and released CO₂; (iii) absolute whole-chain emissions and emissions per transported tonne; (iv) actual fleet utilisation and voyage feasibility; (v) equal-storage control comparisons; (vi) the carbon break-even frontier under unequal deliverability; and (vii) the four-model benchmark, including the interaction in Eq. (20). Any economic performance indicator will be clearly distinguished from the primary climate objective.
+P223 | 4.2. Carbon break-even frontiers and model comparison
+P224 | Scientific value will be assessed by determining whether B3 changes the magnitude, uncertainty interval or sign of foreign-minus-domestic net mitigation relative to B0. The separate B1 and B2 comparisons will show whether injection resolution or ship-operation resolution drives the change, and the interaction contrast will test their non-additive effect. No outcome will be described as a finding until model outputs and a reproducible input dataset are available.
+P225 | The analysis will compare net mitigation from the static model with the dynamic model under identical baseline emissions and industrial output. A change in the preferred pathway will be treated as a substantive finding only when it remains credible across plausible parameter ranges. The results will distinguish total emissions from emissions intensity, particularly when vessel or infrastructure capacity changes in discrete steps.
+P226 | 4.3. Uncertainty and robustness
+P227 | Sensitivity ranges will include sink injection limits, commissioning delay, transport distance, vessel loading and available operating hours, source flow variability, electricity emission factors, CO₂ loss and retention assumptions. Each distribution used for probability-of-benefit calculations must have a documented source and justified dependence structure. Where distributions cannot be supported, deterministic intervals and structural scenarios will replace unsupported probabilistic precision.
+P228 | 5. Conclusions and Limitations 
+P229 | The initially proposed Japan–Malaysia–Australia system should not be treated as an established commercial transport route. Specific Japanese emission sources, potential Malaysian and Australian storage sites, shipping distances, annual injection profiles, permitting conditions and electricity-emission scenarios must be substantiated before the quantitative case is performed. The first model is likely to use simplified, externally specified injection profiles rather than pressure-coupled full-physics reservoir simulation. Marine fuel use may require calibration to a limited set of existing ship designs; model error and scalability therefore need explicit treatment.
+P230 | An additional limitation is the time horizon used to credit geological retention. This must be declared separately from the 2030–2050 project modelling period. The environmental assessment should not assume that all injected CO₂ is permanently retained without an explicit retention, risk or monitoring rationale. Economic results, if included for contextual interpretation, will use consistent base years and remain secondary to the primary carbon break-even question.
+P231 | Appendix A. Parameters and Variables
+P232 | The notation below supports screening equations (1)–(20), including an optional short-term voyage inventory balance and the four-model interaction comparison.
+P233 | Table A1: Selected variables and parameters for Paper 1
+P234 | Symbol
+P235 | Definition
+P236 | Typical unit
+P237 | t; s; r
+P238 | Year; assessed pathway; candidate storage site
+P239 | —
+P240 | Qₜ
+P241 | Annual source CO₂ eligible for capture
+P242 | tCO₂/year
+P243 | cₛₜ
+P244 | CO₂ captured under pathway s in year t
+P245 | tCO₂/year
+P246 | xₛᵣₜ
+P247 | CO₂ delivered for injection at site r
+P248 | tCO₂/year
+P249 | Bₛₜ; vₛₜ; ℓₛₜ
+P250 | Buffer inventory; venting; other handling losses
+P251 | tCO₂ or tCO₂/year
+P252 | Iᵣₜ; aᵣₜ; Kᵣ
+P253 | Annual injection limit; availability; accessible cumulative capacity
+P254 | tCO₂/year; fraction; tCO₂
+P255 | ρᵣₜ; Rₛ
+P256 | Retained fraction; cumulative retained CO₂
+P257 | fraction; tCO₂
+P258 | Mₖₜ; Vₖ; λₖₜ
+P259 | Marine transport demand; cargo capacity; loading factor
+P260 | tCO₂/year; tCO₂/voyage; fraction
+P261 | nₖₜ; Nₖₜ; Uₖₜ
+P262 | Trips; vessels; transport utilisation
+P263 | voyages/year; vessels; fraction
+P264 | T_round,k; H_oper,k
+P265 | Round-trip time; operating time available
+P266 | time/voyage; time/year
+P267 | Gₛₜ; G_ship,ₛₜ
+P268 | Whole-chain GHG burden; shipping component
+P269 | tCO₂e/year
+P270 | E⁰ₜ; Eˢₜ
+P271 | Matched baseline and pathway life-cycle emissions
+P272 | tCO₂e/year
+P273 | Aₛ; ΔA_F−D
+P274 | Cumulative net avoided emissions; difference between routes
+P275 | tCO₂e
+P276 | EF_fuel; EF_grid
+P277 | Fuel and grid emission factors
+P278 | tCO₂e/fuel unit; tCO₂e/energy unit
+P279 | 
+P280 | References
+P281 | Becattini, V., Gabrielli, P., Antonini, C., Campos, J., Acquilino, A., Sansavini, G., & Mazzotti, M. (2022). Carbon dioxide capture, transport and storage supply chains: Optimal economic and environmental performance of infrastructure rollout. International Journal of Greenhouse Gas Control, 117, 103635. https://doi.org/10.1016/j.ijggc.2022.103635
+P282 | Beiron, J., Normann, F., & Johnsson, F. (2022). A techno-economic assessment of CO₂ capture in biomass and waste-fired combined heat and power plants – A Swedish case study. International Journal of Greenhouse Gas Control, 118, 103684. https://doi.org/10.1016/j.ijggc.2022.103684
+P283 | Bjerketvedt, V. S., Tomasgard, A., & Roussanaly, S. (2020). Optimal design and cost of ship-based CO₂ transport under uncertainties and fluctuations. International Journal of Greenhouse Gas Control, 103, 103190. https://doi.org/10.1016/j.ijggc.2020.103190
+P284 | Budiarto, O., Purwanto, W. W., Halimatussadiah, A., & Maharsi, D. A. (2025). Multi-period superstructure optimization for CCS source-sink matching in South Sumatra industrial clusters. Carbon Neutrality, 4, 20. https://doi.org/10.1007/s43979-025-00135-w
+P285 | Burger, J., Shu, D. Y., Bardow, A., & Sansavini, G. (2026). Beyond pipelines: Multi-modal CO₂ transport enables timely CO₂ capture, transport, and storage deployment. International Journal of Greenhouse Gas Control, 154, 104698. https://doi.org/10.1016/j.ijggc.2026.104698
+P286 | Emborg, M., Kisieliene, L., Thonemann, N., Eftekhari, A. A., & Olsen, S. I. (2026). Life cycle assessment of carbon capture and storage value chains: A systematic, critical literature review. Sustainable Production and Consumption, 64, 282–304. https://doi.org/10.1016/j.spc.2025.09.015
+P287 | Fraga, D. M., Korre, A., Nie, Z., & Durucan, Ş. (2024). Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains. Carbon Capture Science & Technology, 11, 100190. https://doi.org/10.1016/j.ccst.2024.100190
+P288 | Fraga, D. M., Korre, A., Nie, Z., & Durucan, Ş. (2024, GHGT-17 conference paper). Exploring the value of CO₂ shipping transport flexibility in international batchwise transportation carbon capture and storage networks. 17th International Conference on Greenhouse Gas Control Technologies, Calgary, Canada. https://ssrn.com/abstract=5070419
+P289 | Johnsson, F., Skagestad, R., Eldrup, N. H., & Kjärstad, J. (2017). Linking the effect of reservoir injectivity and CO₂ transport logistics in the Nordic region. Energy Procedia, 114, 6860–6869. https://doi.org/10.1016/j.egypro.2017.03.1824
+P290 | Kang, K., Seo, Y., Chang, D., Kang, S.-G., & Huh, C. (2015). Estimation of CO₂ transport costs in South Korea using a techno-economic model. Energies, 8(3), 2176–2196. https://doi.org/10.3390/en8032176
+P291 | Karvounis, P., & Blunt, M. J. (2021). Assessment of CO₂ geological storage capacity of saline aquifers under the North Sea. International Journal of Greenhouse Gas Control, 111, 103463. https://doi.org/10.1016/j.ijggc.2021.103463
+P292 | Kolster, C., Agada, S., Mac Dowell, N., & Krevor, S. (2018). The impact of time-varying CO₂ injection rate on large scale storage in the UK Bunter Sandstone. International Journal of Greenhouse Gas Control, 68, 77–85. https://doi.org/10.1016/j.ijggc.2017.10.011
+P293 | Roussanaly, S., Deng, H., Skaugen, G., & Gundersen, T. (2021). At what pressure shall CO₂ be transported by ship? An in-depth cost comparison of 7 and 15 barg shipping. Energies, 14(18), 5635. https://doi.org/10.3390/en14185635
+P294 | Yuan, J., Gu, H., Nian, V., & Zhu, L. (2023). Influence of system boundary conditions on the life cycle cost and carbon emissions of CO₂ transport. International Journal of Greenhouse Gas Control, 124, 103847. https://doi.org/10.1016/j.ijggc.2023.103847

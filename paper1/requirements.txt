@@ -1,0 +1,4 @@
+# Tested versions. Standard-library calculations; these packages render/check artifacts.
+matplotlib==3.10.8
+openpyxl==3.1.5
+PyMuPDF==1.26.6
