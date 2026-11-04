@@ -1,0 +1,14 @@
+{
+  "supplement_sha256": "355320a1f70aa45d1b8d21c94a933ea048cc82488095d76e08c5db0ea3f3336e",
+  "source_tables": 3,
+  "embedded_figures": 10,
+  "annual_grid_cells": 720,
+  "printed_numeric_cells": 250,
+  "blank_cells": 470,
+  "max_auxiliary_colour_difference": 0.06666666666666671,
+  "interpretation": "Native tables match DOCX; annotations visually transcribed and independently checked for cell occupancy and approximate source colour. Colour precision is not used in calculations.",
+  "supplement_numeric_records": 352,
+  "all_extracted_records": 1642,
+  "physical_optimisation_reproduced": false,
+  "net_mitigation_model_completed": false
+}

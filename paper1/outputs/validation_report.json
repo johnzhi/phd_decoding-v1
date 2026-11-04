@@ -2,7 +2,7 @@
   "pdf_files": 93,
   "unique_publications": 92,
   "unique_pdf_pages": 1301,
-  "extracted_records": 1290,
+  "extracted_records": 1642,
   "curated_records": 250,
   "analysis_inputs": 134,
   "source_checks": "All PDF SHA256 hashes, page counts and curated source tokens pass. Token checks locate text; table mapping and interpretation require human review.",

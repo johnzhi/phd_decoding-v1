@@ -8,3 +8,4 @@
 *.py text eol=lf
 *.md text eol=lf
 paper1/original/proposal_extracted.txt -whitespace
+*.emf binary

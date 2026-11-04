@@ -1,0 +1,61 @@
+{
+  "source_count": 14,
+  "reservoir_count": 8,
+  "nominal_annual_source_mtpa": 5.327,
+  "nominal_source_30_bins_mt": 159.81,
+  "sum_candidate_reservoir_capacity_mt": 537.4,
+  "hub_distance_values": 46,
+  "summary": [
+    {
+      "scenario": "SW-A",
+      "first_year": 2027,
+      "last_year": 2056,
+      "annual_bins": 30,
+      "printed_numeric_cells": 100,
+      "sum_printed_allocations_mt": 152.8,
+      "main_paper_cumulative_mt": 153.21,
+      "printed_minus_main_mt": -0.41,
+      "conditional_rounding_lower_mt": 147.8,
+      "conditional_rounding_upper_mt": 157.8,
+      "main_total_inside_conditional_rounding_envelope": true,
+      "nominal_source_over_horizon_mt": 159.81,
+      "source_rate_precision_halfwidth_mtpa": 0.007,
+      "allocated_before_estimated_start_count": 0,
+      "interpretation": "Rounded allocation replay; not independently reproduced MILP or calibrated whole-chain mitigation. MW-D reported total shares the same main-paper value as MW-A."
+    },
+    {
+      "scenario": "MW-A",
+      "first_year": 2027,
+      "last_year": 2056,
+      "annual_bins": 30,
+      "printed_numeric_cells": 76,
+      "sum_printed_allocations_mt": 159.4,
+      "main_paper_cumulative_mt": 159.81,
+      "printed_minus_main_mt": -0.41,
+      "conditional_rounding_lower_mt": 155.6,
+      "conditional_rounding_upper_mt": 163.2,
+      "main_total_inside_conditional_rounding_envelope": true,
+      "nominal_source_over_horizon_mt": 159.81,
+      "source_rate_precision_halfwidth_mtpa": 0.007,
+      "allocated_before_estimated_start_count": 0,
+      "interpretation": "Rounded allocation replay; not independently reproduced MILP or calibrated whole-chain mitigation. MW-D reported total shares the same main-paper value as MW-A."
+    },
+    {
+      "scenario": "MW-D",
+      "first_year": 2027,
+      "last_year": 2056,
+      "annual_bins": 30,
+      "printed_numeric_cells": 74,
+      "sum_printed_allocations_mt": 159.5,
+      "main_paper_cumulative_mt": 159.81,
+      "printed_minus_main_mt": -0.31,
+      "conditional_rounding_lower_mt": 155.8,
+      "conditional_rounding_upper_mt": 163.2,
+      "main_total_inside_conditional_rounding_envelope": true,
+      "nominal_source_over_horizon_mt": 159.81,
+      "source_rate_precision_halfwidth_mtpa": 0.007,
+      "allocated_before_estimated_start_count": 0,
+      "interpretation": "Rounded allocation replay; not independently reproduced MILP or calibrated whole-chain mitigation. MW-D reported total shares the same main-paper value as MW-A."
+    }
+  ]
+}

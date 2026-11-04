@@ -1,0 +1,15 @@
+source,industry_type,co2_rate_mtpa,capture_cost_usd_per_t,source_table,docx_row
+s1,Coal Fired Power Plant,0.554,82.20,S1,2
+s2,Coal Fired Power Plant,0.415,93.02,S1,3
+s3,Gas Fired Power Plant,0.324,107.25,S1,4
+s4,Gas Fired Power Plant,0.299,78.59,S1,5
+s5,Gas Fired Power Plant,0.238,110.21,S1,6
+s6,Gas Fired Power Plant,0.155,91.06,S1,7
+s7,Combined Cycle Power Plant,0.475,112.46,S1,8
+s8,Combined Cycle Power Plant,0.393,106.92,S1,9
+s9,Combined Cycle Power Plant,0.254,108.8,S1,10
+s10,Combined Cycle Power Plant,0.063,139.76,S1,11
+s11,Oil Refinery,0.698,122.95,S1,12
+s12,Cement Plant,1.054,89.68,S1,13
+s13,Natural Gas Processing,0.327,15.22,S1,14
+s14,Ammonia Plant,0.078,40.60,S1,15

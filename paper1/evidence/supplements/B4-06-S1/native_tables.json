@@ -1,0 +1,377 @@
+{
+  "paragraphs": [
+    {
+      "paragraph": 1,
+      "text": "SUPPLEMENTARY MATERIALS"
+    },
+    {
+      "paragraph": 3,
+      "text": "Table S1 Sources, Emission and Capture Cost"
+    },
+    {
+      "paragraph": 5,
+      "text": "Table S2 Reservoir Capacity, Availability, and Storage Cost"
+    },
+    {
+      "paragraph": 7,
+      "text": "Table S3 Distance to Hub"
+    },
+    {
+      "paragraph": 10,
+      "text": "Fig. S1 Storage Efficiency vs Pressure Reservoir – r1"
+    },
+    {
+      "paragraph": 12,
+      "text": "Fig. S2 Storage Efficiency vs Pressure Reservoir – r2"
+    },
+    {
+      "paragraph": 14,
+      "text": "Fig. S3 Storage Efficiency vs Pressure Reservoir – r4"
+    },
+    {
+      "paragraph": 17,
+      "text": "Fig. S4 Storage Efficiency vs Pressure Reservoir – r5"
+    },
+    {
+      "paragraph": 20,
+      "text": "Fig. S5 Storage Efficiency vs Pressure Reservoir – r6 "
+    },
+    {
+      "paragraph": 23,
+      "text": "Fig. S6 Storage Efficiency vs Pressure Reservoir – r7 "
+    },
+    {
+      "paragraph": 25,
+      "text": "Fig. S7 Storage Efficiency vs Pressure Reservoir – r8"
+    },
+    {
+      "paragraph": 28,
+      "text": "Fig. S8 Annual CO₂ Injection Volume in the SW-A Scenario (MILP result)"
+    },
+    {
+      "paragraph": 30,
+      "text": "Fig. S9 Annual CO₂ Injection Volume in the MW-A Scenario (MILP result)"
+    },
+    {
+      "paragraph": 32,
+      "text": "Fig. S10 Annual CO₂ Injection Volume in the MW-D Scenario (MILP result)"
+    }
+  ],
+  "tables": [
+    [
+      [
+        "Source Notation",
+        "Industry Type",
+        "CO2 Rate (MTPA)\n(ms,t)",
+        "  \n($ per ton)"
+      ],
+      [
+        "s1",
+        "Coal Fired Power Plant",
+        "0.554",
+        "82.20"
+      ],
+      [
+        "s2",
+        "Coal Fired Power Plant",
+        "0.415",
+        "93.02"
+      ],
+      [
+        "s3",
+        "Gas Fired Power Plant",
+        "0.324",
+        "107.25"
+      ],
+      [
+        "s4",
+        "Gas Fired Power Plant",
+        "0.299",
+        "78.59"
+      ],
+      [
+        "s5",
+        "Gas Fired Power Plant",
+        "0.238",
+        "110.21"
+      ],
+      [
+        "s6",
+        "Gas Fired Power Plant",
+        "0.155",
+        "91.06"
+      ],
+      [
+        "s7",
+        "Combined Cycle Power Plant",
+        "0.475",
+        "112.46"
+      ],
+      [
+        "s8",
+        "Combined Cycle Power Plant",
+        "0.393",
+        "106.92"
+      ],
+      [
+        "s9",
+        "Combined Cycle Power Plant",
+        "0.254",
+        "108.8"
+      ],
+      [
+        "s10",
+        "Combined Cycle Power Plant",
+        "0.063",
+        "139.76"
+      ],
+      [
+        "s11",
+        "Oil Refinery",
+        "0.698",
+        "122.95"
+      ],
+      [
+        "s12",
+        "Cement Plant",
+        "1.054",
+        "89.68"
+      ],
+      [
+        "s13",
+        "Natural Gas Processing",
+        "0.327",
+        "15.22"
+      ],
+      [
+        "s14",
+        "Ammonia Plant",
+        "0.078",
+        "40.60"
+      ]
+    ],
+    [
+      [
+        "Reservoir Sink",
+        "Type",
+        "CO2 Storage Capacity (MT)\n(Zhang & Lau, 2022)",
+        "Estimation of Injection Start Time",
+        " ($ per ton)"
+      ],
+      [
+        "r1",
+        "Gas reservoir",
+        "68",
+        "2039",
+        "1.84 to 3.47"
+      ],
+      [
+        "r2",
+        "Oil Reservoir",
+        "6.8",
+        "2033",
+        "7.09"
+      ],
+      [
+        "r3",
+        "Oil Reservoir",
+        "4.3",
+        "2035",
+        "11.15"
+      ],
+      [
+        "r4",
+        "Oil Reservoir",
+        "23.3",
+        "2035",
+        "5.81 to 6.02"
+      ],
+      [
+        "r5",
+        "Gas reservoir",
+        "234",
+        "2037",
+        "2.00"
+      ],
+      [
+        "r6",
+        "Gas reservoir",
+        "85",
+        "2029",
+        "1.53"
+      ],
+      [
+        "r7",
+        "Gas reservoir",
+        "102",
+        "2027",
+        "3.40 to 4.47"
+      ],
+      [
+        "r8",
+        "Oil Reservoir",
+        "14",
+        "2027",
+        "4.04 to 5.40"
+      ]
+    ],
+    [
+      [
+        "Distance to Hub (km)",
+        "Distance to Hub (km)",
+        "Distance to Hub (km)",
+        "Distance to Hub (km)"
+      ],
+      [
+        "",
+        "",
+        "h1",
+        "h2"
+      ],
+      [
+        "Sink",
+        "r1",
+        "124",
+        "205"
+      ],
+      [
+        "Sink",
+        "r2",
+        "126",
+        "159"
+      ],
+      [
+        "Sink",
+        "r3",
+        "114",
+        "166"
+      ],
+      [
+        "Sink",
+        "r4",
+        "56",
+        "100"
+      ],
+      [
+        "Sink",
+        "r5",
+        "204",
+        "158"
+      ],
+      [
+        "Sink",
+        "r6",
+        "179",
+        "134"
+      ],
+      [
+        "Sink",
+        "r7",
+        "165",
+        "120"
+      ],
+      [
+        "Sink",
+        "r8",
+        "83",
+        "36"
+      ],
+      [
+        "Source",
+        "s1",
+        "187",
+        "116"
+      ],
+      [
+        "Source",
+        "s2",
+        "103",
+        "203"
+      ],
+      [
+        "Source",
+        "s3",
+        "107",
+        "60"
+      ],
+      [
+        "Source",
+        "s4",
+        "86",
+        "88"
+      ],
+      [
+        "Source",
+        "s5",
+        "85",
+        "82"
+      ],
+      [
+        "Source",
+        "s6",
+        "110",
+        "62"
+      ],
+      [
+        "Source",
+        "s7",
+        "108",
+        "61"
+      ],
+      [
+        "Source",
+        "s8",
+        "59",
+        "106"
+      ],
+      [
+        "Source",
+        "s9",
+        "87",
+        "89"
+      ],
+      [
+        "Source",
+        "s10",
+        "81",
+        "91"
+      ],
+      [
+        "Source",
+        "s11",
+        "90",
+        "80"
+      ],
+      [
+        "Source",
+        "s12",
+        "106",
+        "211"
+      ],
+      [
+        "Source",
+        "s13",
+        "90",
+        "190"
+      ],
+      [
+        "Source",
+        "s14",
+        "107",
+        "62"
+      ],
+      [
+        "Junction Nodes",
+        "g1",
+        "98",
+        "-"
+      ],
+      [
+        "Junction Nodes",
+        "g2",
+        "-",
+        "88"
+      ]
+    ]
+  ]
+}

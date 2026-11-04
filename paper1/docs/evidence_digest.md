@@ -2,9 +2,11 @@
 
 The current library contains **93 supplied PDF files, 92 unique publications and 1,301 physical pages across the unique publications**. B3-46 is a duplicate publication of B2-17. File hashes and original filenames are preserved in the source catalogue. Reuploads of previously supplied titles reuse the already downloaded version; this package does not assert that every reuploaded binary was separately compared. The retained PDFs are authoritative for this draft.
 
-**48 unique publications have targeted methods/results extraction; 44 have abstract/relevance screening.** Targeted extraction is selective, not an assertion that every number in every paper has been inventoried. This is a purposive supplied-library synthesis, not a completed systematic review. The full numerical data in unsupplied supplements are not represented.
+**48 unique publications have targeted methods/results extraction; 44 have abstract/relevance screening.** Targeted extraction is selective, not an assertion that every number in every paper has been inventoried. This is a purposive supplied-library synthesis, not a completed systematic review. The Budiarto supplement is now supplied and reviewed; other unsupplied supplements remain outside the evidence base.
 
-The extraction ledger contains **1,290 records**: 1,097 preserved earlier records plus 193 atomic records from the nine new papers. Records may contain ranges or grouped cases and are not independent measurements. `curated_values.csv` contains 250 explicitly located quantities (including selected earlier values). `analysis_inputs.csv` contains 134 rows, of which 75 are published fleet counts and 59 support 49 calculations. The 124-row results file therefore contains **49 derived results and 75 directly reported fleet outputs**. Do not add overlapping tables together to count unique data.
+The extraction ledger contains **1,642 records**: 1,097 preserved earlier records plus 193 atomic records from the nine new papers and 352 numeric records from the Budiarto supplement (102 native-table entries and 250 printed annual allocations). Records may contain ranges or grouped cases and are not independent measurements. `curated_values.csv` contains 250 explicitly located quantities (including selected earlier values). `analysis_inputs.csv` contains 134 rows, of which 75 are published fleet counts and 59 support 49 calculations. The 124-row results file therefore contains **49 derived results and 75 directly reported fleet outputs**. Do not add overlapping tables together to count unique data.
+
+The separate supplement tables and annual grid retain a further 352 numeric records and 470 blank figure cells. The new annual replay is additional to the original 49 benchmark calculations; its outputs are not a new MILP optimisation.
 
 The broad extraction ledger is an audit trail, not a harmonised input file. Only the dedicated analysis inputs enter calculations. Source input, simulated result, observation and derived quantity must remain distinct. No source-wide transferability is implied by accepting a quantity for its stated context.
 
@@ -910,13 +912,13 @@ Transfer limits: Illustrative economic superstructure, not a measured internatio
 
 ### B4-06 — Multi-period superstructure optimization for CCS source-sink matching in South Sumatra industrial clusters
 
-Budiarto et al. (2025). Identifier: 10.1007/s43979-025-00135-w. [PDF](../papers/B4-06.pdf).
+Budiarto et al. (2025). Identifier: 10.1007/s43979-025-00135-w. [PDF](../papers/B4-06.pdf). [Supplement review](supplement_review.md).
 
-Reading stage: Targeted methods/results extraction. Checked sections: pp1,7–10,12,16.
+Reading stage: targeted main-paper and supplementary tables/figures extraction. Checked sections: pp1,7–10,12,16; supplement B4-06-S1 Tables S1–S3 and Figures S1–S10.
 
-Reservoir-constrained source–sink optimisation links well simulations, readiness and multi-well development. SW-A stores 153.21 Mt and MW-A/MW-D store 159.81 Mt. This supplies a coherent published retention benchmark, but no complete GHG inventory for additional wells/pressure management.
+Reservoir-constrained source–sink optimisation links well simulations, readiness and multi-well development. SW-A stores 153.21 Mt and MW-A/MW-D store 159.81 Mt. This supplies a coherent published retention benchmark, but no complete GHG inventory for additional wells/pressure management. Supplement now supplies 14 source rates/costs, 8 capacities/start years/costs, 46 hub distances, and 250 rounded annual injection annotations across three scenarios. Source rates sum to 5.327 Mt/y and 159.81 Mt over 30 years.
 
-Transfer limits: South Sumatra simulation proxy; full reservoir time profiles and key inputs are in unsupplied supplements.
+Transfer limits: South Sumatra simulation proxy. Supplementary inputs and annual MILP allocation heatmaps are supplied; annotations have one decimal precision. Exact raw allocation output and annual physical maximum injection limits kr,t are not supplied as tabulated data. Capture/well GHG inventory and full network/process inputs remain incomplete.
 
 ### B4-07 — Optimization and assessment of carbon capture, transport and storage supply chains for industrial sectors The cost of resilience
 

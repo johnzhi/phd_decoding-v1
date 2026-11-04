@@ -1,0 +1,9 @@
+reservoir,reservoir_type,capacity_mt,estimated_start_year,storage_cost_reported,storage_cost_low_usd_per_t,storage_cost_high_usd_per_t,source_table,docx_row
+r1,Gas reservoir,68,2039,1.84 to 3.47,1.84,3.47,S2,2
+r2,Oil Reservoir,6.8,2033,7.09,7.09,7.09,S2,3
+r3,Oil Reservoir,4.3,2035,11.15,11.15,11.15,S2,4
+r4,Oil Reservoir,23.3,2035,5.81 to 6.02,5.81,6.02,S2,5
+r5,Gas reservoir,234,2037,2.00,2.00,2.00,S2,6
+r6,Gas reservoir,85,2029,1.53,1.53,1.53,S2,7
+r7,Gas reservoir,102,2027,3.40 to 4.47,3.40,4.47,S2,8
+r8,Oil Reservoir,14,2027,4.04 to 5.40,4.04,5.40,S2,9
