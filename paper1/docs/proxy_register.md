@@ -29,3 +29,16 @@ The supplied B4-06-S1 document closes the missing source table, reservoir resour
 ## Implemented operating comparison
 
 The separate B0–B3 model uses Indonesian allocation-output envelopes and Noh & Kang shipping designs/distance scenarios. Its availability windows, greedy dispatch and static transformations are declared structural conventions. Jeong MGO combustion/SFOC inputs are explicitly transferred to an MDO-rate scenario. No country label, complete LCA or independently calibrated rate constraint is inferred. See [model scope and controls](operational_model.md).
+
+## Reference-inventory transfers
+
+| Component | Selected source | Use | Transfer limit |
+|---|---|---|---|
+| Capture engineering | NETL NGCC/PC CANSOLV workbooks and paired PC report, D5-48/49/50 | Six electric-replacement cases and two mutually exclusive heat-plus-auxiliary cases | Power-host reference designs; not the industrial model or14 measured process demands. No heat/turbine-derate double charge. |
+| Electricity | NVE climate and market disclosures D5-02; Japan R8 reporting workbook D5-38 | Explicit historical-factor sensitivities | Physical climate, reporting CO₂ and market scopes remain distinct; no forecast, marginal factor or matched supplier inferred. |
+| Heat | Japan R8 heat reporting workbook D5-16 | Heat-route accounting sensitivity | Heat quality, industrial steam supply and complete lifecycle boundary are unverified. |
+| Marine fuel | IMO MEPC.391(81), D5-54, Appendix2 row5 | Default MDO/MGO ULSFO WtW factor4.01089kgCO₂e/kg fuel | Actual bunker grade, upstream supply, idle and process fuel remain unknown. |
+| Independent reservoir reference | Illinois St.Peter/Knox-Potosi simulation D6-22 |12 located quantities retained for a future pressure/rate benchmark | Not observed Mt.Simon service or original South Sumatra constraints; no interior annual-rate curve fabricated. |
+| Ocean conditions | Copernicus D5-53/55 | Two located point snapshots only | Cannot establish weather frequency, vessel limits or calendars. |
+
+These transfers are implemented as component-inventory sensitivities. The near-zero positive5,000km allowance under the Norway climate factor cannot establish a robust full-chain benefit. Other inventory terms and retention remain unresolved.

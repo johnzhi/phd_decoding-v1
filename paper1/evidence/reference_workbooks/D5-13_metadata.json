@@ -1,0 +1,36 @@
+{
+  "document_id": "D5-13",
+  "source_sha256": "dfd25cdc0a992851ebec656e5c2765ffe6067f4efb62b1c5ec67c28b4c02f14d",
+  "cells": 8902,
+  "numeric_cached_cells": 2777,
+  "formula_cells": 1702,
+  "sheets": [
+    {
+      "sheet": "メニュー別係数（秋告示最終）",
+      "dimension": "A1:T133",
+      "nonempty_or_formula_cells": 2122
+    },
+    {
+      "sheet": "【R3夏告示】R元年度新規参入事業者",
+      "dimension": "B2:O89",
+      "nonempty_or_formula_cells": 931
+    },
+    {
+      "sheet": "【R3夏告示】R2年度新規参入事業者",
+      "dimension": "A2:I85",
+      "nonempty_or_formula_cells": 495
+    },
+    {
+      "sheet": "係数一覧（熱供給事業者）",
+      "dimension": "A1:G57",
+      "nonempty_or_formula_cells": 97
+    },
+    {
+      "sheet": "係数一覧（小売電気事業者） (夏告示) (2)",
+      "dimension": "A1:I1280",
+      "nonempty_or_formula_cells": 5257
+    }
+  ],
+  "macros_executed": false,
+  "external_links_refreshed": false
+}

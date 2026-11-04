@@ -1,0 +1,78 @@
+value_id,document_id,value,unit,locator,source_token,interpretation
+NGCC_B_rate,D5-48,0.9,fraction,Cost Parameters!B34,0.9,CANSOLV capture design rate; not an additional multiplier on already captured source mass.
+NGCC_B_flow,D5-48,493475.60454139963,lbCO2/hour as reported,Cost Parameters!B35,493475.60454139963,Published reference CO2 flow; caches read without recalculating macros.
+NGCC_B_derate,D5-48,52.10000000000002,MW,Cost Parameters!B49,52.10000000000002,"Steam-turbine electric opportunity loss, not thermal GJ demand."
+NGCC_B_aux,D5-48,33.92,MW,Cost Parameters!B50,33.92,"Total additional electrical auxiliary load, including capture/compression; do not add a separate duplicate compression load."
+NGCC_C_rate,D5-48,0.95,fraction,Cost Parameters!C34,0.95,CANSOLV capture design rate; not an additional multiplier on already captured source mass.
+NGCC_C_flow,D5-48,520890.91557154566,lbCO2/hour as reported,Cost Parameters!C35,520890.91557154566,Published reference CO2 flow; caches read without recalculating macros.
+NGCC_C_derate,D5-48,54.900000000000006,MW,Cost Parameters!C49,54.900000000000006,"Steam-turbine electric opportunity loss, not thermal GJ demand."
+NGCC_C_aux,D5-48,35.760000000000005,MW,Cost Parameters!C50,35.760000000000005,"Total additional electrical auxiliary load, including capture/compression; do not add a separate duplicate compression load."
+NGCC_D_rate,D5-48,0.97,fraction,Cost Parameters!D34,0.97,CANSOLV capture design rate; not an additional multiplier on already captured source mass.
+NGCC_D_flow,D5-48,531857.0409833994,lbCO2/hour as reported,Cost Parameters!D35,531857.0409833994,Published reference CO2 flow; caches read without recalculating macros.
+NGCC_D_derate,D5-48,57.400000000000006,MW,Cost Parameters!D49,57.400000000000006,"Steam-turbine electric opportunity loss, not thermal GJ demand."
+NGCC_D_aux,D5-48,36.99,MW,Cost Parameters!D50,36.99,"Total additional electrical auxiliary load, including capture/compression; do not add a separate duplicate compression load."
+PC_B_rate,D5-50,0.9,fraction,Cost Parameters!B43,0.9,CANSOLV capture design rate; not an additional multiplier on already captured source mass.
+PC_B_flow,D5-50,1047150,lbCO2/hour as reported,Cost Parameters!B44,1047150,Published reference CO2 flow; caches read without recalculating macros.
+PC_B_derate,D5-50,98.20000000000005,MW,Cost Parameters!B58,98.20000000000005,"Steam-turbine electric opportunity loss, not thermal GJ demand."
+PC_B_aux,D5-50,56.34,MW,Cost Parameters!B59,56.34,"Total additional electrical auxiliary load, including capture/compression; do not add a separate duplicate compression load."
+PC_C_rate,D5-50,0.95,fraction,Cost Parameters!C43,0.95,CANSOLV capture design rate; not an additional multiplier on already captured source mass.
+PC_C_flow,D5-50,1105467,lbCO2/hour as reported,Cost Parameters!C44,1105467,Published reference CO2 flow; caches read without recalculating macros.
+PC_C_derate,D5-50,102.80000000000007,MW,Cost Parameters!C58,102.80000000000007,"Steam-turbine electric opportunity loss, not thermal GJ demand."
+PC_C_aux,D5-50,59.36,MW,Cost Parameters!C59,59.36,"Total additional electrical auxiliary load, including capture/compression; do not add a separate duplicate compression load."
+PC_D_rate,D5-50,0.99,fraction,Cost Parameters!D43,0.99,CANSOLV capture design rate; not an additional multiplier on already captured source mass.
+PC_D_flow,D5-50,1152028,lbCO2/hour as reported,Cost Parameters!D44,1152028,Published reference CO2 flow; caches read without recalculating macros.
+PC_D_derate,D5-50,108.39999999999998,MW,Cost Parameters!D58,108.39999999999998,"Steam-turbine electric opportunity loss, not thermal GJ demand."
+PC_D_aux,D5-50,62.129999999999995,MW,Cost Parameters!D59,62.129999999999995,"Total additional electrical auxiliary load, including capture/compression; do not add a separate duplicate compression load."
+PC_REPORT_90_product,D5-49,474979,kg/hour,physical PDF page 44,"474,979","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_reboiler_in,D5-49,499356,kg/hour,physical PDF page 43,"499,356","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_reboiler_return,D5-49,457357,kg/hour,physical PDF page 43,"457,357","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_reclaimer,D5-49,5585,kg/hour,physical PDF page 43,"5,585","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_dryer,D5-49,250,kg/hour,physical PDF page 44,250,"Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_h_reboiler_in,D5-49,2994.07,kJ/kg,physical PDF page 43,"2,994.07","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_h_reboiler_return,D5-49,439.34,kJ/kg,physical PDF page 43,439.34,"Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_h_reclaimer_in,D5-49,3098.44,kJ/kg,physical PDF page 43,"3,098.44","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_h_reclaimer_return,D5-49,913.81,kJ/kg,physical PDF page 43,913.81,"Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_h_dryer_in,D5-49,3408.95,kJ/kg,physical PDF page 44,"3,408.95","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_h_dryer_return,D5-49,863.65,kJ/kg,physical PDF page 44,863.65,"Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_90_capture_aux,D5-49,14700,kW,physical PDF page 48,"14,700",Paired report additional electrical load; turbine derate is excluded from this heat+aux route.
+PC_REPORT_90_compression,D5-49,38030,kW,physical PDF page 48,"38,030",Paired report additional electrical load; turbine derate is excluded from this heat+aux route.
+PC_REPORT_90_bop_new,D5-49,40250,kW,physical PDF page 48,"40,250",Paired report additional electrical load; turbine derate is excluded from this heat+aux route.
+PC_REPORT_90_bop_base,D5-49,37520,kW,physical PDF page 48,"37,520",Paired report additional electrical load; turbine derate is excluded from this heat+aux route.
+PC_REPORT_95_product,D5-49,501431,kg/hour,physical PDF page 47,"501,431","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_reboiler_in,D5-49,527172,kg/hour,physical PDF page 46,"527,172","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_reboiler_return,D5-49,482834,kg/hour,physical PDF page 46,"482,834","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_reclaimer,D5-49,5586,kg/hour,physical PDF page 46,"5,586","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_dryer,D5-49,264,kg/hour,physical PDF page 47,264,"Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_h_reboiler_in,D5-49,2994.07,kJ/kg,physical PDF page 46,"2,994.07","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_h_reboiler_return,D5-49,439.34,kJ/kg,physical PDF page 46,439.34,"Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_h_reclaimer_in,D5-49,3098.44,kJ/kg,physical PDF page 46,"3,098.44","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_h_reclaimer_return,D5-49,913.81,kJ/kg,physical PDF page 46,913.81,"Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_h_dryer_in,D5-49,3408.95,kJ/kg,physical PDF page 47,"3,408.95","Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_h_dryer_return,D5-49,863.65,kJ/kg,physical PDF page 47,863.65,"Exhibits3-2/3-3/3-4: reboiler24/25, reclaimer27/28, dryer33/32, product34/35. Net reported utility enthalpy import, not a verbatim reboiler-duty measurement."
+PC_REPORT_95_capture_aux,D5-49,15500,kW,physical PDF page 49,"15,500",Paired report additional electrical load; turbine derate is excluded from this heat+aux route.
+PC_REPORT_95_compression,D5-49,40150,kW,physical PDF page 49,"40,150",Paired report additional electrical load; turbine derate is excluded from this heat+aux route.
+PC_REPORT_95_bop_new,D5-49,40350,kW,physical PDF page 49,"40,350",Paired report additional electrical load; turbine derate is excluded from this heat+aux route.
+PC_REPORT_95_bop_base,D5-49,37520,kW,physical PDF page 49,"37,520",Paired report additional electrical load; turbine derate is excluded from this heat+aux route.
+imo_wtt,D5-54,17.7,gCO2e/MJ,physical PDF page 51,17.7,Appendix2 row5 fossil MDO/MGO ULSFO default upstream intensity.
+imo_lcv,D5-54,0.0427,MJ/g fuel,physical PDF page 51,0.0427,Same pathway LCV.
+imo_co2,D5-54,3.206,gCO2/g fuel,physical PDF page 51,3.206,"Same MDO/MGO pathway, all ICEs."
+imo_ch4,D5-54,5e-05,gCH4/g fuel,physical PDF page 51,0.00005,"Fuel-default methane coefficient, not LNG engine slip."
+imo_n2o,D5-54,0.00018,gN2O/g fuel,physical PDF page 51,0.00018,Fuel-default nitrous oxide coefficient.
+gwp_ch4,D5-54,28,gCO2e/gCH4,physical PDF page 5,CH4 28,Guideline GWP100.
+gwp_n2o,D5-54,265,gCO2e/gN2O,physical PDF page 5,N2O 265,Guideline GWP100.
+NVE_physical_climate_2019,D5-02,17,gCO2e/kWh,Klimadeklarasjon!C2,17,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_market_disclosure_2019,D5-02,396.27,gCO2/kWh,Varedeklarasjon!C2,396.27,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_physical_climate_2020,D5-02,7.83,gCO2e/kWh,Klimadeklarasjon!C3,7.83,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_market_disclosure_2020,D5-02,401.94,gCO2/kWh,Varedeklarasjon!C3,401.94,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_physical_climate_2021,D5-02,11,gCO2e/kWh,Klimadeklarasjon!C4,11,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_market_disclosure_2021,D5-02,404.91,gCO2/kWh,Varedeklarasjon!C4,404.91,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_physical_climate_2022,D5-02,19.1,gCO2e/kWh,Klimadeklarasjon!C5,19.1,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_market_disclosure_2022,D5-02,502.31,gCO2/kWh,Varedeklarasjon!C5,502.31,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_physical_climate_2023,D5-02,15,gCO2e/kWh,Klimadeklarasjon!C6,15,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_market_disclosure_2023,D5-02,598.61,gCO2/kWh,Varedeklarasjon!C6,598.61,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_physical_climate_2024,D5-02,11.85,gCO2e/kWh,Klimadeklarasjon!C7,11.85,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_market_disclosure_2024,D5-02,534.84,gCO2/kWh,Varedeklarasjon!C7,534.84,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_physical_climate_2025,D5-02,9.4,gCO2e/kWh,Klimadeklarasjon!C8,9.4,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+NVE_market_disclosure_2025,D5-02,430.93,gCO2/kWh,Varedeklarasjon!C8,430.93,As-reported NVE disclosure series; physical climate and market declaration are not interchangeable.
+JP_R8_electric_fallback,D5-38,0.000416,tCO2/kWh,小売電気事業者係数一覧（基礎・調整後、夏公表）R8.8.3!C1499,0.000416,"Official fallback reporting coefficient; R6 supply data with header-specific menus, for R7 emissions/R8 reporting. Not an actual supplier or forecast."
+JP_R8_heat_fallback,D5-16,0.0532,tCO2/GJ,係数一覧（熱供給事業者）!D47,0.0532,Official heat fallback reporting coefficient; heat quality/steam compatibility and full LCA remain unestablished.

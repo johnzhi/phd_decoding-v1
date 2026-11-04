@@ -64,3 +64,11 @@ python -m unittest discover -s paper1/tests -v
 The tests check located inputs, all 75 source fleet counts, zero-source behaviour, annual and total material balances, source and injection limits, buffer bounds, operating hours, fuel integration, preservation of static-proxy totals, equal-injection targets and the interaction identity. These verify implementation and selected source cases; they do not validate real reservoir physics or a complete regional lifecycle model.
 
 Online investigation is recorded in `evidence/online/search_log.json`. Chrome tools were unavailable. One public GitHub repository query found no matching repository; this is not an exhaustive web search. The source paper's p18 says underlying data are available from the corresponding author on reasonable request. No author message was sent.
+
+## Subsequent reference-inventory extension
+
+The original operating outputs above retain their combustion-only boundary for audit. `reference_inventory.py` now replaces that fuel component with the IMO MDO/MGO default WtW scenario and adds named NETL/utility references against captured mass. It evaluates20 utility scenarios and2,980 paired balances. See [reference review](reference_dataset_review.md) for source boundaries and results. No missing duty, supplier identity or lifecycle component is zero-imputed.
+
+Under the restricted fleet-adequacy control at5,000km, the NGCC90 replacement reference with Norway's2025 climate-disclosure factor leaves about+0.009Mt, compared with−0.984Mt using the Japanese reporting-electricity fallback and−1.207Mt for the paired PC90 heat-plus-auxiliary route/Japanese fallbacks. These partial balances supersede a climate interpretation of the earlier+1.281Mt combustion-only margin. Full net avoided emissions remain uncomputed.
+
+The two uploaded wave files contain one point/time each, and the IBDP seismic-rate catalogue does not contain injection-rate histories. Independent St.Peter/Knox-Potosi simulation values are retained for future reservoir benchmarking without inventing missing annual curves. Realistic calendars and original independent rate constraints remain unresolved.

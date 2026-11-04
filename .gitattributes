@@ -9,3 +9,10 @@
 *.md text eol=lf
 paper1/original/proposal_extracted.txt -whitespace
 *.emf binary
+
+*.nc binary
+*.xlsm binary
+*.gz binary
+*.db binary
+*.rdv binary
+paper1/original/** -text -diff -whitespace

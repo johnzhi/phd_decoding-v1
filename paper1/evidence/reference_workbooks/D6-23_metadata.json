@@ -1,0 +1,41 @@
+{
+  "document_id": "D6-23",
+  "source_sha256": "3065d3635f009a3d89d46fd99f0365d726bd40c50353b380c657c2b80c4f3407",
+  "cells": 450940,
+  "numeric_cached_cells": 402809,
+  "formula_cells": 111364,
+  "sheets": [
+    {
+      "sheet": "All",
+      "dimension": "A1:R19581",
+      "nonempty_or_formula_cells": 281029
+    },
+    {
+      "sheet": "Located",
+      "dimension": "A1:AA5398",
+      "nonempty_or_formula_cells": 113326
+    },
+    {
+      "sheet": "Plots",
+      "dimension": "A4:AK183",
+      "nonempty_or_formula_cells": 72
+    },
+    {
+      "sheet": "Trigger Changes",
+      "dimension": "A1:D63",
+      "nonempty_or_formula_cells": 46
+    },
+    {
+      "sheet": "Used",
+      "dimension": "A1:AO2823",
+      "nonempty_or_formula_cells": 34875
+    },
+    {
+      "sheet": "Azimuth",
+      "dimension": "A1:E5398",
+      "nonempty_or_formula_cells": 21592
+    }
+  ],
+  "macros_executed": false,
+  "external_links_refreshed": false
+}

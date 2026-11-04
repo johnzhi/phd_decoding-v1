@@ -1,0 +1,66 @@
+{
+  "document_id": "D5-50",
+  "source_sha256": "c8261e589a15ec07c97f2fc5f1c379f644b287bf1301755d436bd3a831bb723a",
+  "cells": 184160,
+  "numeric_cached_cells": 16509,
+  "formula_cells": 159366,
+  "sheets": [
+    {
+      "sheet": "Disclaimer",
+      "dimension": "A1:A9",
+      "nonempty_or_formula_cells": 4
+    },
+    {
+      "sheet": "User Input",
+      "dimension": "A1:AH49",
+      "nonempty_or_formula_cells": 251
+    },
+    {
+      "sheet": "Summary",
+      "dimension": "A1:G46",
+      "nonempty_or_formula_cells": 240
+    },
+    {
+      "sheet": "Charts",
+      "dimension": "A1:AK1500",
+      "nonempty_or_formula_cells": 18017
+    },
+    {
+      "sheet": "Results",
+      "dimension": "A1:AB685",
+      "nonempty_or_formula_cells": 19124
+    },
+    {
+      "sheet": "Cost Parameters",
+      "dimension": "A1:H117",
+      "nonempty_or_formula_cells": 303
+    },
+    {
+      "sheet": "NG_Aux_Parameters",
+      "dimension": "A1:AC82",
+      "nonempty_or_formula_cells": 532
+    },
+    {
+      "sheet": "UserInput_PlantData",
+      "dimension": "A1:HL704",
+      "nonempty_or_formula_cells": 130365
+    },
+    {
+      "sheet": "ProjectedSalesPrice",
+      "dimension": "A1:M1671",
+      "nonempty_or_formula_cells": 15118
+    },
+    {
+      "sheet": "Water Availability",
+      "dimension": "A1:G54",
+      "nonempty_or_formula_cells": 191
+    },
+    {
+      "sheet": "CostIndices",
+      "dimension": "C1:J43",
+      "nonempty_or_formula_cells": 15
+    }
+  ],
+  "macros_executed": false,
+  "external_links_refreshed": false
+}

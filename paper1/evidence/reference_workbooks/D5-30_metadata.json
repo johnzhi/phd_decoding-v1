@@ -1,0 +1,16 @@
+{
+  "document_id": "D5-30",
+  "source_sha256": "c6030f18b611b7d14cefa80e6baa9b73ff87d890f6c6bac9f7c64b64aaf04ac9",
+  "cells": 4720,
+  "numeric_cached_cells": 2237,
+  "formula_cells": 0,
+  "sheets": [
+    {
+      "sheet": "電気事業者別排出係数一覧 (令和4年7月14日改訂版）",
+      "dimension": "A1:N1147",
+      "nonempty_or_formula_cells": 4720
+    }
+  ],
+  "macros_executed": false,
+  "external_links_refreshed": false
+}

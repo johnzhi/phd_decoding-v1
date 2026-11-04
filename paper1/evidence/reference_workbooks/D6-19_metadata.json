@@ -1,0 +1,21 @@
+{
+  "document_id": "D6-19",
+  "source_sha256": "c6fd55976804e6e6c9108d0e0ccac20117b903e13906502420d00ecc0c1ba01d",
+  "cells": 180348,
+  "numeric_cached_cells": 171720,
+  "formula_cells": 51516,
+  "sheets": [
+    {
+      "sheet": "Local_crs_metres",
+      "dimension": "A1:U4294",
+      "nonempty_or_formula_cells": 90174
+    },
+    {
+      "sheet": "SLB_crs_feet",
+      "dimension": "A1:U4295",
+      "nonempty_or_formula_cells": 90174
+    }
+  ],
+  "macros_executed": false,
+  "external_links_refreshed": false
+}

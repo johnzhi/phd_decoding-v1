@@ -1,0 +1,13 @@
+value_id,value,unit,document_id,pdf_page,source_token,evidence_type,formation,limitation
+stp_reference_pressure,1343,psia,D6-22,14,"1,343",Model initial condition,St.Peter,St. Peter reference depth3294ft; do not mix with Mt.Simon reservoir or pressure datum.
+stp_reference_depth,3294,ft,D6-22,14,"3,294",Model reference depth,St.Peter,Reference initial pressure1343psia.
+stp_initial_gradient,0.4,psi/ft,D6-22,14,0.40,Model initial condition,St.Peter,Under-pressured equilibrium assumption based on MDT data.
+stp_max_bhp,1980,psia,D6-22,15,"1,980",Simulation pressure constraint,St.Peter,"At3470ft; borrowed fracture-gradient estimate is a source assumption, not a measured Japanese limit."
+stp_bhp_depth,3470,ft,D6-22,15,"3,470",Simulation pressure-constraint depth,St.Peter,"St.Peter interval, not IBDP Mt.Simon injection history."
+stp_simulation_horizon,20,years,D6-22,15,20-year,Simulation design,St.Peter,No extrapolation to30 years or synthetic interpolation of interior years.
+stp_target_rate,2000000,tCO2/year,D6-22,15,2 million,Simulation target,St.Peter,Target was constrained by maximum bottomhole pressure; not achieved constant flow.
+stp_rate_first_year,660000,tCO2/year,D6-22,21,"660,000",Simulation output,St.Peter,First-year pressure-limited result; not field measurement.
+stp_rate_last_year,1164000,tCO2/year,D6-22,21,"1,164,000",Simulation output,St.Peter,Twentieth-year result; interior annual values are not invented.
+stp_rate_average,990000,tCO2/year,D6-22,20,"990,000",Simulation output,St.Peter,"Twenty-year average rate, not maximum at all years."
+potosi_initial_model_rate,90000,tCO2/year,D6-22,21,"90,000",Simulation output,Knox-Potosi,Initial seismic/log-derived model; later model revisions differ strongly.
+potosi_homogeneous_target,2000000,tCO2/year,D6-22,21,2 million,Revised simulation design/output,Knox-Potosi,Revised homogeneous case reaches target; cannot substitute for initial model or St.Peter history.

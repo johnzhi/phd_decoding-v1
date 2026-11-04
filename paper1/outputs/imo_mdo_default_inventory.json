@@ -1,0 +1,9 @@
+{
+  "fuel_pathway": "MDO/MGO(ULSFO)_f_SR_gm",
+  "ttw_co2_kg_per_kg": 3.206,
+  "ttw_ch4_n2o_kgco2e_per_kg": 0.049100000000000005,
+  "wtt_kgco2e_per_kg": 0.75579,
+  "wtw_kgco2e_per_kg": 4.01089,
+  "gwp_horizon": 100,
+  "scope": "2024 guideline default fuel pathway, not certified actual bunker fuel. Additional idle/process duties remain separate."
+}

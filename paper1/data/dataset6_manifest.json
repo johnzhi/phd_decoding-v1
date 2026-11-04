@@ -1,0 +1,518 @@
+[
+  {
+    "id": "file_0000000090248207b0da5b48445084ec",
+    "batch_id": "D6-01",
+    "result": {
+      "original_filename": "manifest-sha256.txt",
+      "size_bytes": 4722
+    },
+    "path": "original/dataset6/D6-01/manifest-sha256.txt",
+    "sha256": "4fece378edaaec306aa6d58653fdff7563de8caa5b6a4429e87950754ef31ee1",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000d57c82119f74cd19e2b194f3",
+    "batch_id": "D6-02",
+    "result": {
+      "original_filename": "bagit.txt",
+      "size_bytes": 55
+    },
+    "path": "original/dataset6/D6-02/bagit.txt",
+    "sha256": "e91f941be5973ff71f1dccbdd1a32d598881893a7f21be516aca743da38b1689",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_000000004e7c82119146895965b58c7c",
+    "batch_id": "D6-03",
+    "result": {
+      "original_filename": "bag-info.txt",
+      "size_bytes": 140
+    },
+    "path": "original/dataset6/D6-03/bag-info.txt",
+    "sha256": "99d6cb88e6031ac9842b97409335d0528a9f1f77af93976d544e4b32233c2161",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000072248207a085fb97579c9a3d",
+    "batch_id": "D6-04",
+    "result": {
+      "original_filename": "tagmanifest-sha256.txt",
+      "size_bytes": 323
+    },
+    "path": "original/dataset6/D6-04/tagmanifest-sha256.txt",
+    "sha256": "96f824f7acbb75cc0388878f8cc58b0525204d28e78d90aedee66edda4576718",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000f1548211942ab013a4779897",
+    "batch_id": "D6-05",
+    "result": {
+      "original_filename": "manifest-sha512.txt",
+      "size_bytes": 6706
+    },
+    "path": "original/dataset6/D6-05/manifest-sha512.txt",
+    "sha256": "dad5e09da16040418de76a60bcf56e2ed14b31513c355ec165e4b8882713dd63",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_000000008bc882119a2a25db1c679d4d",
+    "batch_id": "D6-06",
+    "result": {
+      "original_filename": "tagmanifest-sha512.txt",
+      "size_bytes": 579
+    },
+    "path": "original/dataset6/D6-06/tagmanifest-sha512.txt",
+    "sha256": "7a7c7a4f46471f741712cc4884fb9a4f1810c90aac8e7eeb472b0aa25c606625",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000167c8211b593ca152ac155fc",
+    "batch_id": "D6-07",
+    "result": {
+      "original_filename": "IBDP - CO2 DataShare Terms Final.pdf",
+      "size_bytes": 256865
+    },
+    "path": "original/dataset6/D6-07/IBDP - CO2 DataShare Terms Final.pdf",
+    "sha256": "acab481e01d9db11c5f96e0ccf1c6bbae222eb3448dfa2ef771f5fdc81624014",
+    "duplicate_of": "",
+    "pages": 5,
+    "page_text_path": "evidence/dataset6/D6-07/pages.json"
+  },
+  {
+    "id": "file_00000000b6948207bd331ebc3d01d65a",
+    "batch_id": "D6-08",
+    "result": {
+      "original_filename": "IBDP_20151217_Risk_Management_Report_FINAL.pdf",
+      "size_bytes": 1041911
+    },
+    "path": "original/dataset6/D6-08/IBDP_20151217_Risk_Management_Report_FINAL.pdf",
+    "sha256": "f58d1d122599a40ddfa57a24d3ec3269c94db805a5612bb9fc9aacd5728ff2d2",
+    "duplicate_of": "",
+    "pages": 82,
+    "page_text_path": "evidence/dataset6/D6-08/pages.json"
+  },
+  {
+    "id": "file_00000000d89082119e1b71b62c3d8673",
+    "batch_id": "D6-09",
+    "result": {
+      "original_filename": "MGSC_20051231_Topical_Report_Assess_CO2_Capture_Options_Illinois_Basin_Carbon_Dioxide_Sources_X.pdf",
+      "size_bytes": 13600616
+    },
+    "path": "original/dataset6/D6-09/MGSC_20051231_Topical_Report_Assess_CO2_Capture_Options_Illinois_Basin_Carbon_Dioxide_Sources_X.pdf",
+    "sha256": "2dd006751d86cf98f21da74a3d4c2c3291663b5fb8e2386b7d24bfccda493c65",
+    "duplicate_of": "",
+    "pages": 46,
+    "page_text_path": "evidence/dataset6/D6-09/pages.json"
+  },
+  {
+    "id": "file_000000008af08207a1730bed6bb1d1e5",
+    "batch_id": "D6-10",
+    "result": {
+      "original_filename": "2014 02 20_PSI_TDLAS_Sensor_IBDP Field Testing_Final Report_Rev2.pdf",
+      "size_bytes": 2317995
+    },
+    "path": "original/dataset6/D6-10/2014 02 20_PSI_TDLAS_Sensor_IBDP Field Testing_Final Report_Rev2.pdf",
+    "sha256": "76e11cce0a4306bd1c87dd2017402f1c588ac94c7def0135920cb10143873a41",
+    "duplicate_of": "",
+    "pages": 24,
+    "page_text_path": "evidence/dataset6/D6-10/pages.json"
+  },
+  {
+    "id": "file_0000000092bc8211b80584ffb29e9e0f",
+    "batch_id": "D6-11",
+    "result": {
+      "original_filename": "MGSC_20040930_Topical_Report_Task2_3_CO2_Capture_Transportions_Options_X2.pdf",
+      "size_bytes": 10909139
+    },
+    "path": "original/dataset6/D6-11/MGSC_20040930_Topical_Report_Task2_3_CO2_Capture_Transportions_Options_X2.pdf",
+    "sha256": "d8997f5bb5742a6ac1947d078af4b520dc313520bc8a9c111d288cdcc906fa8b",
+    "duplicate_of": "",
+    "pages": 221,
+    "page_text_path": "evidence/dataset6/D6-11/pages.json"
+  },
+  {
+    "id": "file_00000000d0888211bc4117bdc1aa0a95",
+    "batch_id": "D6-12",
+    "result": {
+      "original_filename": "ADM_CO2_Capture_Facility_Triameric-CCUS.pdf",
+      "size_bytes": 7866712
+    },
+    "path": "original/dataset6/D6-12/ADM_CO2_Capture_Facility_Triameric-CCUS.pdf",
+    "sha256": "941943e758654c7b0ee689fe3fb360412ce854ac65b52a8d71b47dd1ade43748",
+    "duplicate_of": "",
+    "pages": 31,
+    "page_text_path": "evidence/dataset6/D6-12/pages.json"
+  },
+  {
+    "id": "file_0000000005c08211b5479dc3a2125ea7",
+    "batch_id": "D6-13",
+    "result": {
+      "original_filename": "MGSC_20180124_Topical_Report_Knox_Project_DOE-DE-FE0002068-4.pdf",
+      "size_bytes": 2947088
+    },
+    "path": "original/dataset6/D6-13/MGSC_20180124_Topical_Report_Knox_Project_DOE-DE-FE0002068-4.pdf",
+    "sha256": "a14fc8c1f4a2283ec27bd44e941a9d38f7ba0a94c0129dfaf7af0b6738c0c0e1",
+    "duplicate_of": "",
+    "pages": 22,
+    "page_text_path": "evidence/dataset6/D6-13/pages.json"
+  },
+  {
+    "id": "file_00000000b8b082079c47eefd7d9b9b12",
+    "batch_id": "D6-14",
+    "result": {
+      "original_filename": "Monitoring_CO2_Injection_for_Carbon_Capture_and_Storage_Using_Time-Lapse_3D_VSPS.pdf",
+      "size_bytes": 1176590
+    },
+    "path": "original/dataset6/D6-14/Monitoring_CO2_Injection_for_Carbon_Capture_and_Storage_Using_Time-Lapse_3D_VSPS.pdf",
+    "sha256": "0dcd8ccd921e10057f3381186fbf5fe923f8499a45448942829d8c7caff2fe38",
+    "duplicate_of": "",
+    "pages": 7,
+    "page_text_path": "evidence/dataset6/D6-14/pages.json"
+  },
+  {
+    "id": "file_00000000c09082118cf237d4b48d12a7",
+    "batch_id": "D6-15",
+    "result": {
+      "original_filename": "Thumbs.db",
+      "size_bytes": 10752
+    },
+    "path": "original/dataset6/D6-15/Thumbs.db",
+    "sha256": "b9a555556ffd21c49c25f49c0d7f0bd262ce49e2fb937e9c29e0ca7c0e2b83b8",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000a830820784d89c82b3b63109",
+    "batch_id": "D6-16",
+    "error": "file exceeds the executor transfer limit of 32 MiB",
+    "original_filename": "MGSC_20151001_Topical_Report_3_Site_Characterization_Modelling_Monitoring_Final.pdf"
+  },
+  {
+    "id": "file_000000003b0882119111a2af15b7bf47",
+    "batch_id": "D6-17",
+    "error": "file exceeds the executor transfer limit of 32 MiB",
+    "original_filename": "IBDP_2007_Topical_Report_2D_Seismic_Interpretation.pdf"
+  },
+  {
+    "id": "file_00000000fc0c8207ae65c0edd0c2bbca",
+    "batch_id": "D6-18",
+    "result": {
+      "original_filename": "20180702.rdv",
+      "size_bytes": 2294387
+    },
+    "path": "original/dataset6/D6-18/20180702.rdv",
+    "sha256": "daece84954b25e4bdc4fab6837c8caee6dd8db46de29f17417e005bd576e1292",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000128882078baf730eb601485a",
+    "batch_id": "D6-19",
+    "result": {
+      "original_filename": "DD_relocations_catalogue_20200428_regionletters_95pcnt_confidence.xlsx",
+      "size_bytes": 2625103
+    },
+    "path": "original/dataset6/D6-19/DD_relocations_catalogue_20200428_regionletters_95pcnt_confidence.xlsx",
+    "sha256": "c6fd55976804e6e6c9108d0e0ccac20117b903e13906502420d00ecc0c1ba01d",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000005148211801eeb27d17de674",
+    "batch_id": "D6-20",
+    "result": {
+      "original_filename": "README_InducedSeismicityCatalog.txt",
+      "size_bytes": 1251
+    },
+    "path": "original/dataset6/D6-20/README_InducedSeismicityCatalog.txt",
+    "sha256": "93ef449ef3bf55bc1d1244c68f028aa835c096e0915a429ba9520777c319b33d",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000fba88211a7c9eabffc8a7ba8",
+    "batch_id": "D6-21",
+    "result": {
+      "original_filename": "bag-info.txt",
+      "size_bytes": 140
+    },
+    "path": "original/dataset6/D6-21/bag-info.txt",
+    "sha256": "99d6cb88e6031ac9842b97409335d0528a9f1f77af93976d544e4b32233c2161",
+    "duplicate_of": "D6-03"
+  },
+  {
+    "id": "file_00000000b45c82079aff4a4be372ca35",
+    "batch_id": "D6-22",
+    "result": {
+      "original_filename": "MGSC_20120530_Topical_Report_CO2_Injectivity_Storage_Capacity_Plume_Size.pdf",
+      "size_bytes": 3003512
+    },
+    "path": "original/dataset6/D6-22/MGSC_20120530_Topical_Report_CO2_Injectivity_Storage_Capacity_Plume_Size.pdf",
+    "sha256": "f0e904787706ec34b4c1ab89b8be590cbca79129b51b69931ad39b247e30356a",
+    "duplicate_of": "",
+    "pages": 29,
+    "page_text_path": "evidence/dataset6/D6-22/pages.json"
+  },
+  {
+    "id": "file_0000000062b882119feb16ddf96c0914",
+    "batch_id": "D6-23",
+    "result": {
+      "original_filename": "EventRates20180702.xlsx",
+      "size_bytes": 6732077
+    },
+    "path": "original/dataset6/D6-23/EventRates20180702.xlsx",
+    "sha256": "3065d3635f009a3d89d46fd99f0365d726bd40c50353b380c657c2b80c4f3407",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000b2088207bdc233beb5fd629c",
+    "batch_id": "D6-24",
+    "result": {
+      "original_filename": "FAQs_Flyer_Blue_final_cropped.pdf",
+      "size_bytes": 7853881
+    },
+    "path": "original/dataset6/D6-24/FAQs_Flyer_Blue_final_cropped.pdf",
+    "sha256": "e8d258e6c1cce7b5723d3396a4d3ce858704181decd39e7af1b15f21c0b90a05",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset6/D6-24/pages.json"
+  },
+  {
+    "id": "file_00000000778c82079ec9d0dd255f2b0b",
+    "batch_id": "D6-25",
+    "result": {
+      "original_filename": "IBDP_Brochure_FinalWeb.pdf",
+      "size_bytes": 1877022
+    },
+    "path": "original/dataset6/D6-25/IBDP_Brochure_FinalWeb.pdf",
+    "sha256": "0e90ae23a94a79a4008937618be19b93a8f59210437655dbb2422652c9b641c7",
+    "duplicate_of": "",
+    "pages": 6,
+    "page_text_path": "evidence/dataset6/D6-25/pages.json"
+  },
+  {
+    "id": "file_00000000e60882119590db7999355b93",
+    "batch_id": "D6-26",
+    "result": {
+      "original_filename": "IBDP_FactSheet_2015_Final_sm.pdf",
+      "size_bytes": 1575123
+    },
+    "path": "original/dataset6/D6-26/IBDP_FactSheet_2015_Final_sm.pdf",
+    "sha256": "b66d2e1a5113e0783c5ee866de05b6ed2b90b5fdd4e06eda5fb9a92743b28414",
+    "duplicate_of": "",
+    "pages": 2,
+    "page_text_path": "evidence/dataset6/D6-26/pages.json"
+  },
+  {
+    "id": "file_0000000048b08211a6e848d83cd4be9c",
+    "batch_id": "D6-27",
+    "result": {
+      "original_filename": "MVA-Shallow-Final_sm.pdf",
+      "size_bytes": 2616074
+    },
+    "path": "original/dataset6/D6-27/MVA-Shallow-Final_sm.pdf",
+    "sha256": "4bb9ad74265e8f7fb0142efdc5e1a763c52d01a7a32951ba21604775d2dfac41",
+    "duplicate_of": "",
+    "pages": 4,
+    "page_text_path": "evidence/dataset6/D6-27/pages.json"
+  },
+  {
+    "id": "file_0000000076c88211b75916bbc06f12ac",
+    "batch_id": "D6-28",
+    "result": {
+      "original_filename": "Seismicity_org_032113FullFinalSm.pdf",
+      "size_bytes": 518546
+    },
+    "path": "original/dataset6/D6-28/Seismicity_org_032113FullFinalSm.pdf",
+    "sha256": "b8e36115aeccc48ac2f2b38132435d55357e1598b8f72e69a824707cd72060d4",
+    "duplicate_of": "",
+    "pages": 2,
+    "page_text_path": "evidence/dataset6/D6-28/pages.json"
+  },
+  {
+    "id": "file_00000000212482078a0252694717f5c4",
+    "batch_id": "D6-29",
+    "error": "file exceeds the executor transfer limit of 32 MiB",
+    "original_filename": "MGSC_20150115_Topical_Report_5_Site_Development_Operations_Closure_T-5withAppendix-Final.pdf"
+  },
+  {
+    "id": "file_00000000e1808211a1f1d2009b1ed519",
+    "batch_id": "D6-30",
+    "result": {
+      "original_filename": "What_is_a_Seismic_Survey_032113FullFinalSm.pdf",
+      "size_bytes": 643546
+    },
+    "path": "original/dataset6/D6-30/What_is_a_Seismic_Survey_032113FullFinalSm.pdf",
+    "sha256": "7fb251e58d4ccb341bb1d4741901c67434c12194cda46f947a14165fb01dcde0",
+    "duplicate_of": "",
+    "pages": 2,
+    "page_text_path": "evidence/dataset6/D6-30/pages.json"
+  },
+  {
+    "id": "file_000000005214820789493fa95bf5da20",
+    "batch_id": "D6-31",
+    "result": {
+      "original_filename": "FAQs_Flyer_Green_final_cropped.pdf",
+      "size_bytes": 7322070
+    },
+    "path": "original/dataset6/D6-31/FAQs_Flyer_Green_final_cropped.pdf",
+    "sha256": "bb2882df395791775b6aeef9f504857e15806f8c30d5736e8d59366e4ff32617",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset6/D6-31/pages.json"
+  },
+  {
+    "id": "file_000000003d108211a0ce8ae44b427fe6",
+    "batch_id": "D6-32",
+    "result": {
+      "original_filename": "FAQs_Flyer_Yellow_final_cropped.pdf",
+      "size_bytes": 7515440
+    },
+    "path": "original/dataset6/D6-32/FAQs_Flyer_Yellow_final_cropped.pdf",
+    "sha256": "93e0fd45af9d8cdb03bef527a13f14a9e0504fe9761aa2258df84440ac1bafa0",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset6/D6-32/pages.json"
+  },
+  {
+    "id": "file_000000004ee882119e33bdb46f9c9906",
+    "batch_id": "D6-33",
+    "result": {
+      "original_filename": "Financial-Assurance-fact-sheet2.pdf",
+      "size_bytes": 1140316
+    },
+    "path": "original/dataset6/D6-33/Financial-Assurance-fact-sheet2.pdf",
+    "sha256": "d3468a700e2e8f4263750a90079f0250680e23e66d65ee4aee17cc662647b820",
+    "duplicate_of": "",
+    "pages": 2,
+    "page_text_path": "evidence/dataset6/D6-33/pages.json"
+  },
+  {
+    "id": "file_000000005c1082118aa13f71c308e473",
+    "batch_id": "D6-34",
+    "result": {
+      "original_filename": "LIST of Illinois State Geological Survey Circulars (various publication dates) available in EDX.txt",
+      "size_bytes": 3028
+    },
+    "path": "original/dataset6/D6-34/LIST of Illinois State Geological Survey Circulars (various publication dates) available in EDX.txt",
+    "sha256": "4d9c8d81270bc9fb873349ae67d5b543b69e996924f747f0b0d61d8b3ae0191e",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_000000005ea082118003797fe8c776d6",
+    "batch_id": "D6-35",
+    "result": {
+      "original_filename": "Greenhouse gas Laser Imaging Tomography Experiment (GreenLITE) Final Technical Report - Online Reference Path.txt",
+      "size_bytes": 292
+    },
+    "path": "original/dataset6/D6-35/Greenhouse gas Laser Imaging Tomography Experiment (GreenLITE) Final Technical Report - Online Reference Path.txt",
+    "sha256": "4129ba5204eb66f57befce0c9b75287c799b40a25c5a88faee11ec726a8b478e",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000c7648207a057aafe4fe7cd05",
+    "batch_id": "D6-36",
+    "result": {
+      "original_filename": "Greenhouse gas Laser Imaging Tomography Experiment (GreenLITE) Final Technical Report.pdf",
+      "size_bytes": 4376033
+    },
+    "path": "original/dataset6/D6-36/Greenhouse gas Laser Imaging Tomography Experiment (GreenLITE) Final Technical Report.pdf",
+    "sha256": "d307c5c0153eeedb37c1ccc72fe3ade0277d14f88ce287148b29ec3934224f05",
+    "duplicate_of": "",
+    "pages": 49,
+    "page_text_path": "evidence/dataset6/D6-36/pages.json"
+  },
+  {
+    "id": "file_000000006a348211932deaa9bd0bc5e4",
+    "batch_id": "D6-37",
+    "result": {
+      "original_filename": "TC_Book_final.pdf",
+      "size_bytes": 31247018
+    },
+    "path": "original/dataset6/D6-37/TC_Book_final.pdf",
+    "sha256": "0567d96243e7bc0d41a5e5db7ceb8ef6bbd85717d84017d2a02c56f1d0a38661",
+    "duplicate_of": "",
+    "pages": 258,
+    "page_text_path": "evidence/dataset6/D6-37/pages.json"
+  },
+  {
+    "id": "file_00000000bfbc820795290461b48eccf7",
+    "batch_id": "D6-38",
+    "result": {
+      "original_filename": "MGSC_20120500_Risk_Status_Report_V2.pdf",
+      "size_bytes": 1326851
+    },
+    "path": "original/dataset6/D6-38/MGSC_20120500_Risk_Status_Report_V2.pdf",
+    "sha256": "70123a487e58a3fa94689e7fcbb231effe062a9f2bc92a061f3c1912c2845e70",
+    "duplicate_of": "",
+    "pages": 27,
+    "page_text_path": "evidence/dataset6/D6-38/pages.json"
+  },
+  {
+    "id": "file_0000000059988211974e2aeb1dc603d4",
+    "batch_id": "D6-39",
+    "error": "file exceeds the executor transfer limit of 32 MiB",
+    "original_filename": "MGSC_20150105_Topical_Report_4_Drilling_Completion_Data_Collection_Plan_Final_20150206.pdf"
+  },
+  {
+    "id": "file_000000004d5c821187cd0cc13530fcd3",
+    "batch_id": "D6-40",
+    "result": {
+      "original_filename": "IBDP_20120224_First_InSAR_Monitoring_Report.pdf",
+      "size_bytes": 4911040
+    },
+    "path": "original/dataset6/D6-40/IBDP_20120224_First_InSAR_Monitoring_Report.pdf",
+    "sha256": "e2fc5301464131287436a2c5e7c7c3d65d3f796045b1325a49be5ff4b621507f",
+    "duplicate_of": "",
+    "pages": 50,
+    "page_text_path": "evidence/dataset6/D6-40/pages.json"
+  },
+  {
+    "id": "file_0000000082c08207b6063a858af0056b",
+    "batch_id": "D6-41",
+    "result": {
+      "original_filename": "SPIE-Dobler-9645-22_Spatial_Mapping_Greenhouse_Gas_Laser_Absorption_Sprectometers_final_v6.pdf",
+      "size_bytes": 1873394
+    },
+    "path": "original/dataset6/D6-41/SPIE-Dobler-9645-22_Spatial_Mapping_Greenhouse_Gas_Laser_Absorption_Sprectometers_final_v6.pdf",
+    "sha256": "b16fe0ff3deed6d8bf99dc3486d7ecc43033466242eaa2cbec892d67a487f37c",
+    "duplicate_of": "",
+    "pages": 14,
+    "page_text_path": "evidence/dataset6/D6-41/pages.json"
+  },
+  {
+    "id": "file_00000000a4808211916d938dc51e0d4e",
+    "batch_id": "D6-42",
+    "result": {
+      "original_filename": "1211523415_20190529_CCS1_Well_Integrity_Report_with_PNX_20190306.pdf",
+      "size_bytes": 1821524
+    },
+    "path": "original/dataset6/D6-42/1211523415_20190529_CCS1_Well_Integrity_Report_with_PNX_20190306.pdf",
+    "sha256": "4dfb8586727a7681947a016ffddb1449273fe37074d2b3ba6ab23a83e8fbedee",
+    "duplicate_of": "",
+    "pages": 19,
+    "page_text_path": "evidence/dataset6/D6-42/pages.json"
+  },
+  {
+    "id": "file_00000000852c82118a511d84b2f6f973",
+    "batch_id": "D6-43",
+    "result": {
+      "original_filename": "MEPC.391(81).pdf",
+      "size_bytes": 1604538
+    },
+    "path": "original/dataset6/D6-43/MEPC.391(81).pdf",
+    "sha256": "f7601f21ad7a52404eff7cfc1d2c4a07d4ae03356be1ab57a26a4f23f0634c5f",
+    "duplicate_of": "D5-54",
+    "pages": 69,
+    "page_text_path": "evidence/dataset6/D6-43/pages.json"
+  },
+  {
+    "id": "file_000000005de8821184213d2aed01a213",
+    "batch_id": "D6-44",
+    "result": {
+      "original_filename": "P509479-0696ca12-96f5-4999-8894-d53bf50a091a.pdf",
+      "size_bytes": 3529746
+    },
+    "path": "original/dataset6/D6-44/P509479-0696ca12-96f5-4999-8894-d53bf50a091a.pdf",
+    "sha256": "e54cbae882107393998a8e1fe31654c5fb2775f1819bb9a12c4fea9e95ba5ac8",
+    "duplicate_of": "D5-56",
+    "pages": 68,
+    "page_text_path": "evidence/dataset6/D6-44/pages.json"
+  }
+]

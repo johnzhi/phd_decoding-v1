@@ -1,0 +1,746 @@
+[
+  {
+    "id": "file_000000000e8c8207ac49f38b041edc02",
+    "batch_id": "D5-01",
+    "result": {
+      "original_filename": "Electricity sales in Norway with and without guarantees of origin 2025 (138 TWh).xlsx",
+      "size_bytes": 7553
+    },
+    "path": "original/dataset5/D5-01/Electricity sales in Norway with and without guarantees of origin 2025 (138 TWh).xlsx",
+    "sha256": "96b8970e1ad4df5c299cd19383a518c115b495cd5fbc6fb9b9e4952ea2a876e0",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000136c821188d5b977478fbc51",
+    "batch_id": "D5-02",
+    "result": {
+      "original_filename": "stromdeklarasjoner-faktorer.xlsx",
+      "size_bytes": 20018
+    },
+    "path": "original/dataset5/D5-02/stromdeklarasjoner-faktorer.xlsx",
+    "sha256": "985528af9e703e8c50f10366ea71e2e33e5476db8cdea6f9658dcbbf1ace99bb",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000008e88207b9941b6fd769367a",
+    "batch_id": "D5-03",
+    "result": {
+      "original_filename": "ichiran_2025r (1).pdf",
+      "size_bytes": 1154899
+    },
+    "path": "original/dataset5/D5-03/ichiran_2025r (1).pdf",
+    "sha256": "476b10098630d2f5d5830b59945776fbab60f7a1df66be26661dd02b61afe809",
+    "duplicate_of": "",
+    "pages": 23,
+    "page_text_path": "evidence/dataset5/D5-03/pages.json"
+  },
+  {
+    "id": "file_000000001e948207a761ebcefe2d1262",
+    "batch_id": "D5-04",
+    "result": {
+      "original_filename": "260213_heat_tsutatsu_app1.pdf",
+      "size_bytes": 448330
+    },
+    "path": "original/dataset5/D5-04/260213_heat_tsutatsu_app1.pdf",
+    "sha256": "b4cd46e11404dd012c5899762b2f028d3a878fc5e8a9048ecedd3d0623489dec",
+    "duplicate_of": "",
+    "pages": 4,
+    "page_text_path": "evidence/dataset5/D5-04/pages.json"
+  },
+  {
+    "id": "file_000000005d108207aef2f80ef58ff287",
+    "batch_id": "D5-05",
+    "result": {
+      "original_filename": "app9_rev.pdf",
+      "size_bytes": 201579
+    },
+    "path": "original/dataset5/D5-05/app9_rev.pdf",
+    "sha256": "6fab49d34ca04bac35f1992529b3ef432e2ead3874fc9c350f0fb796c18b15d9",
+    "duplicate_of": "",
+    "pages": 4,
+    "page_text_path": "evidence/dataset5/D5-05/pages.json"
+  },
+  {
+    "id": "file_0000000087248207aad34a6494e047e1",
+    "batch_id": "D5-06",
+    "result": {
+      "original_filename": "260213_heat_tsutatsu_all.pdf",
+      "size_bytes": 1000956
+    },
+    "path": "original/dataset5/D5-06/260213_heat_tsutatsu_all.pdf",
+    "sha256": "f20d3ee6f48b27427199bc5823301ec56db9561500fb76be8ee9572b494d88c2",
+    "duplicate_of": "",
+    "pages": 46,
+    "page_text_path": "evidence/dataset5/D5-06/pages.json"
+  },
+  {
+    "id": "file_00000000a77482118a723114cce56fa5",
+    "batch_id": "D5-07",
+    "result": {
+      "original_filename": "app3_rev.pdf",
+      "size_bytes": 306963
+    },
+    "path": "original/dataset5/D5-07/app3_rev.pdf",
+    "sha256": "d7637c15a8648b656143d779abbf16adc9a4bb98e47b2bdbe1d7c6ce61b5a024",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-07/pages.json"
+  },
+  {
+    "id": "file_0000000012bc8207aa62f212f97a2fbc",
+    "batch_id": "D5-08",
+    "result": {
+      "original_filename": "full_rev.pdf",
+      "size_bytes": 862838
+    },
+    "path": "original/dataset5/D5-08/full_rev.pdf",
+    "sha256": "65f2301aee4a1e395b7df24298f24c2c6bf4afde303cdd901ef68fae069a7a89",
+    "duplicate_of": "",
+    "pages": 59,
+    "page_text_path": "evidence/dataset5/D5-08/pages.json"
+  },
+  {
+    "id": "file_0000000020b082118989a5a80bb1f642",
+    "batch_id": "D5-09",
+    "result": {
+      "original_filename": "app8_rev.pdf",
+      "size_bytes": 294172
+    },
+    "path": "original/dataset5/D5-09/app8_rev.pdf",
+    "sha256": "b5a022b75f092f1a7f32a2b186cadd7ad68372b60ef6d52700776111c6bbc9e5",
+    "duplicate_of": "",
+    "pages": 2,
+    "page_text_path": "evidence/dataset5/D5-09/pages.json"
+  },
+  {
+    "id": "file_000000008b5c8211a7db859869333a92",
+    "batch_id": "D5-10",
+    "result": {
+      "original_filename": "260213_gas_tsutatsu_app5.pdf",
+      "size_bytes": 415558
+    },
+    "path": "original/dataset5/D5-10/260213_gas_tsutatsu_app5.pdf",
+    "sha256": "b49efa1c42196b83a713e02ee6656979e920ed3d173912b3bab0c9b2cbc8088f",
+    "duplicate_of": "",
+    "pages": 3,
+    "page_text_path": "evidence/dataset5/D5-10/pages.json"
+  },
+  {
+    "id": "file_0000000024ec8207b063d07ca97a50d8",
+    "batch_id": "D5-11",
+    "result": {
+      "original_filename": "260213_gas_tsutatsu_main.pdf",
+      "size_bytes": 124875
+    },
+    "path": "original/dataset5/D5-11/260213_gas_tsutatsu_main.pdf",
+    "sha256": "d1ca07c596e637d4e4de4cdea766299604fa263170c06fcf3eeea0f31a88640e",
+    "duplicate_of": "",
+    "pages": 6,
+    "page_text_path": "evidence/dataset5/D5-11/pages.json"
+  },
+  {
+    "id": "file_000000009c5c8211aa2ac284cdb32944",
+    "batch_id": "D5-12",
+    "result": {
+      "original_filename": "260213_gas_tsutatsu_all.pdf",
+      "size_bytes": 840855
+    },
+    "path": "original/dataset5/D5-12/260213_gas_tsutatsu_all.pdf",
+    "sha256": "d96c845f106f1db2a89d1bfa44dc919c3d9fa729c2e80fcc82c33663576e6330",
+    "duplicate_of": "",
+    "pages": 27,
+    "page_text_path": "evidence/dataset5/D5-12/pages.json"
+  },
+  {
+    "id": "file_000000001190821199c34323973bf1c7",
+    "batch_id": "D5-13",
+    "result": {
+      "original_filename": "r06_heat_coefficient_rev3.xlsx",
+      "size_bytes": 168274
+    },
+    "path": "original/dataset5/D5-13/r06_heat_coefficient_rev3.xlsx",
+    "sha256": "dfd25cdc0a992851ebec656e5c2765ffe6067f4efb62b1c5ec67c28b4c02f14d",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000055e08211907c2f0ec66582b1",
+    "batch_id": "D5-14",
+    "result": {
+      "original_filename": "r07_heat_coefficient.xlsx",
+      "size_bytes": 170430
+    },
+    "path": "original/dataset5/D5-14/r07_heat_coefficient.xlsx",
+    "sha256": "7ec9bfde2c4e90068bf18f234ac074537a93962969981b6f3079a56324147ebc",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_000000006578820799d28f9d0818e73c",
+    "batch_id": "D5-15",
+    "result": {
+      "original_filename": "r07_heat_coefficient.pdf",
+      "size_bytes": 116521
+    },
+    "path": "original/dataset5/D5-15/r07_heat_coefficient.pdf",
+    "sha256": "9f111676a159c4d971ac70d886b7ebc875df5d37fde53fd17203c1a0c57ac779",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-15/pages.json"
+  },
+  {
+    "id": "file_0000000001d48211a623bfbc2a1c832c",
+    "batch_id": "D5-16",
+    "result": {
+      "original_filename": "r08_heat_coefficient.xlsx",
+      "size_bytes": 27743
+    },
+    "path": "original/dataset5/D5-16/r08_heat_coefficient.xlsx",
+    "sha256": "b05bb9b70893eeb8b95c8e71379474b0cd4b10dc857e63af16baf549b76b426e",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000d4c8821190b1880e248e7eb8",
+    "batch_id": "D5-17",
+    "result": {
+      "original_filename": "h23_coefficient.pdf",
+      "size_bytes": 41029
+    },
+    "path": "original/dataset5/D5-17/h23_coefficient.pdf",
+    "sha256": "e259a2d991c5b0f41363ab860669aa46536f8a774953c9b1b52558cbadfe184c",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-17/pages.json"
+  },
+  {
+    "id": "file_00000000f9a482118ea0ad2e1006796b",
+    "batch_id": "D5-18",
+    "result": {
+      "original_filename": "h24_coefficient.pdf",
+      "size_bytes": 44447
+    },
+    "path": "original/dataset5/D5-18/h24_coefficient.pdf",
+    "sha256": "0729c6843a8909e0b296b9494dc0423f35ed99431f8cb0bcd1e4a966e4bc7c7c",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-18/pages.json"
+  },
+  {
+    "id": "file_00000000376c8211b0962c5567c3ac8a",
+    "batch_id": "D5-19",
+    "result": {
+      "original_filename": "r08_heat_coefficient.pdf",
+      "size_bytes": 110461
+    },
+    "path": "original/dataset5/D5-19/r08_heat_coefficient.pdf",
+    "sha256": "115f1f31be91b16b3fd3d302c524ba11b146429cea82ad126914c14e58612dff",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-19/pages.json"
+  },
+  {
+    "id": "file_00000000869482119a456a0eca45bfde",
+    "batch_id": "D5-20",
+    "result": {
+      "original_filename": "h25_coefficient.pdf",
+      "size_bytes": 65883
+    },
+    "path": "original/dataset5/D5-20/h25_coefficient.pdf",
+    "sha256": "6d99fa477136959c99878d2e080d3c23c7493afae59b1247b209fcc84b0d7920",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-20/pages.json"
+  },
+  {
+    "id": "file_00000000575c821184f3f1b81ae7eec1",
+    "batch_id": "D5-21",
+    "result": {
+      "original_filename": "h26_coefficient_rev.pdf",
+      "size_bytes": 88820
+    },
+    "path": "original/dataset5/D5-21/h26_coefficient_rev.pdf",
+    "sha256": "1a828aeba6df62b929fcd40f7f619f97c5c4ba16ddd6b3e76ba74e097edbcef7",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-21/pages.json"
+  },
+  {
+    "id": "file_00000000f5988211afa56be222b3cb49",
+    "batch_id": "D5-22",
+    "result": {
+      "original_filename": "h27_coefficient_rev2.pdf",
+      "size_bytes": 138393
+    },
+    "path": "original/dataset5/D5-22/h27_coefficient_rev2.pdf",
+    "sha256": "c038484cda4129226a34ec8027690f67fff52e67d571a9d4109be24c8d372aa5",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-22/pages.json"
+  },
+  {
+    "id": "file_000000009a0882119c8918efc7018a9b",
+    "batch_id": "D5-23",
+    "result": {
+      "original_filename": "h28_coefficient_rev2 (1).pdf",
+      "size_bytes": 126781
+    },
+    "path": "original/dataset5/D5-23/h28_coefficient_rev2 (1).pdf",
+    "sha256": "912e1ceb725d8ed2ab5ce5ca1bc1fb95e9fe82a7e48bb9dcdd9193c7c2c2597b",
+    "duplicate_of": "",
+    "pages": 2,
+    "page_text_path": "evidence/dataset5/D5-23/pages.json"
+  },
+  {
+    "id": "file_00000000d3b08211aae8aa427fb9becc",
+    "batch_id": "D5-24",
+    "result": {
+      "original_filename": "h28_coefficient_rev2.pdf",
+      "size_bytes": 126781
+    },
+    "path": "original/dataset5/D5-24/h28_coefficient_rev2.pdf",
+    "sha256": "912e1ceb725d8ed2ab5ce5ca1bc1fb95e9fe82a7e48bb9dcdd9193c7c2c2597b",
+    "duplicate_of": "D5-23",
+    "pages": 2,
+    "page_text_path": "evidence/dataset5/D5-24/pages.json"
+  },
+  {
+    "id": "file_00000000aa5082078d2818225c438839",
+    "batch_id": "D5-25",
+    "result": {
+      "original_filename": "h29_coefficient_rev4.pdf",
+      "size_bytes": 346145
+    },
+    "path": "original/dataset5/D5-25/h29_coefficient_rev4.pdf",
+    "sha256": "319e561f76ba1b1001ad4568acc0d15e263b2c2962d4602eb9dba787500c7f6a",
+    "duplicate_of": "",
+    "pages": 6,
+    "page_text_path": "evidence/dataset5/D5-25/pages.json"
+  },
+  {
+    "id": "file_000000001bf08211acd66202b999112f",
+    "batch_id": "D5-26",
+    "result": {
+      "original_filename": "errata_201901.pdf",
+      "size_bytes": 92593
+    },
+    "path": "original/dataset5/D5-26/errata_201901.pdf",
+    "sha256": "b39eab5f274652b66833450637762fbce32cd26823347c3d0e343613a8a02271",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-26/pages.json"
+  },
+  {
+    "id": "file_0000000076f882118992ce125258c97f",
+    "batch_id": "D5-27",
+    "result": {
+      "original_filename": "h31_coefficient_rev.pdf",
+      "size_bytes": 639219
+    },
+    "path": "original/dataset5/D5-27/h31_coefficient_rev.pdf",
+    "sha256": "d9f4fe7ec9d66ae6227c90fb501594476c2262689145c9fbce21f5dcfc5ccdc6",
+    "duplicate_of": "",
+    "pages": 8,
+    "page_text_path": "evidence/dataset5/D5-27/pages.json"
+  },
+  {
+    "id": "file_00000000259c8207998e6a1dd4ce9e19",
+    "batch_id": "D5-28",
+    "result": {
+      "original_filename": "r02_coefficient_rev.pdf",
+      "size_bytes": 330188
+    },
+    "path": "original/dataset5/D5-28/r02_coefficient_rev.pdf",
+    "sha256": "68b3cd33083e1e89826d339e37c5ff6c28334bf93a0cf884025120a57ac3b7f4",
+    "duplicate_of": "",
+    "pages": 11,
+    "page_text_path": "evidence/dataset5/D5-28/pages.json"
+  },
+  {
+    "id": "file_0000000063d08211ac585e320ebad5cc",
+    "batch_id": "D5-29",
+    "result": {
+      "original_filename": "h30_coefficient_rev.pdf",
+      "size_bytes": 555450
+    },
+    "path": "original/dataset5/D5-29/h30_coefficient_rev.pdf",
+    "sha256": "776ef2636463a7579b5ff91685e661a1daa30ba4ac0f24d2be3aca7abf68c3c6",
+    "duplicate_of": "",
+    "pages": 6,
+    "page_text_path": "evidence/dataset5/D5-29/pages.json"
+  },
+  {
+    "id": "file_0000000098f88207a5dcfd4d7eef8729",
+    "batch_id": "D5-30",
+    "result": {
+      "original_filename": "r04_coefficient_rev4.xlsx",
+      "size_bytes": 92877
+    },
+    "path": "original/dataset5/D5-30/r04_coefficient_rev4.xlsx",
+    "sha256": "c6030f18b611b7d14cefa80e6baa9b73ff87d890f6c6bac9f7c64b64aaf04ac9",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000069408211820eef0a1925e44f",
+    "batch_id": "D5-31",
+    "result": {
+      "original_filename": "r03_coefficient_rev.pdf",
+      "size_bytes": 861588
+    },
+    "path": "original/dataset5/D5-31/r03_coefficient_rev.pdf",
+    "sha256": "b59f192497ad35deeff5de55186a13aafcca7191635412ffcd30e7e1e6ac847d",
+    "duplicate_of": "",
+    "pages": 13,
+    "page_text_path": "evidence/dataset5/D5-31/pages.json"
+  },
+  {
+    "id": "file_000000001cd882118c680c23ee3b5c9a",
+    "batch_id": "D5-32",
+    "result": {
+      "original_filename": "r04_coefficient_rev4.pdf",
+      "size_bytes": 407590
+    },
+    "path": "original/dataset5/D5-32/r04_coefficient_rev4.pdf",
+    "sha256": "d3c2ae64a698b6d21a0a0294c66f6bef7cd5946b161513901a54c06c74c58578",
+    "duplicate_of": "",
+    "pages": 16,
+    "page_text_path": "evidence/dataset5/D5-32/pages.json"
+  },
+  {
+    "id": "file_00000000d34482079d25752488866bcc",
+    "batch_id": "D5-33",
+    "result": {
+      "original_filename": "r06_denki_coefficient_rev10.xlsx",
+      "size_bytes": 199018
+    },
+    "path": "original/dataset5/D5-33/r06_denki_coefficient_rev10.xlsx",
+    "sha256": "51a65755d4d72f618d91ca380b815b27ac7430bbbc0e31949ffdc3b77f5d498a",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000e7288211a4784dfd25ca8c5d",
+    "batch_id": "D5-34",
+    "result": {
+      "original_filename": "r05_coefficient_rev4.xlsx",
+      "size_bytes": 110093
+    },
+    "path": "original/dataset5/D5-34/r05_coefficient_rev4.xlsx",
+    "sha256": "e7affbfce2e479ee93508e38b83ced756dda43849e4cba562dc9d4c1f9da20b1",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000b26c8207ac79121fda9b44cf",
+    "batch_id": "D5-35",
+    "result": {
+      "original_filename": "r05_coefficient_rev4.pdf",
+      "size_bytes": 1385539
+    },
+    "path": "original/dataset5/D5-35/r05_coefficient_rev4.pdf",
+    "sha256": "47ed67c5d04ca82aa8d84b08ec50b408e49ca6e47c63d5eb4e93202bf92f75be",
+    "duplicate_of": "",
+    "pages": 18,
+    "page_text_path": "evidence/dataset5/D5-35/pages.json"
+  },
+  {
+    "id": "file_00000000d49c8207959f8d1c50cfcdca",
+    "batch_id": "D5-36",
+    "result": {
+      "original_filename": "r06_denki_coefficient_rev10.pdf",
+      "size_bytes": 372195
+    },
+    "path": "original/dataset5/D5-36/r06_denki_coefficient_rev10.pdf",
+    "sha256": "0cd1c9db6b310bbf66f828438f944792149b33ce4fc79e8a486434c39e2b738d",
+    "duplicate_of": "",
+    "pages": 23,
+    "page_text_path": "evidence/dataset5/D5-36/pages.json"
+  },
+  {
+    "id": "file_000000009df08211897ef16749b5424c",
+    "batch_id": "D5-37",
+    "result": {
+      "original_filename": "r07_denki_coefficient_rev4.xlsx",
+      "size_bytes": 111408
+    },
+    "path": "original/dataset5/D5-37/r07_denki_coefficient_rev4.xlsx",
+    "sha256": "0989bb4f8060b9a9865d7ac788de6e2187c664bd84c4753e40f75abc90bd947e",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000bae48211bf548e79e106d5a5",
+    "batch_id": "D5-38",
+    "result": {
+      "original_filename": "r08_denki_coefficient_rev4.xlsx",
+      "size_bytes": 112705
+    },
+    "path": "original/dataset5/D5-38/r08_denki_coefficient_rev4.xlsx",
+    "sha256": "ff3312010c9b4ca749a7e0dbc0b717d34c97312f9506894284df2f2541f82718",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000e0948211a3a8fa4a1a4798e2",
+    "batch_id": "D5-39",
+    "result": {
+      "original_filename": "r07_denki_coefficient_rev4.pdf",
+      "size_bytes": 384757
+    },
+    "path": "original/dataset5/D5-39/r07_denki_coefficient_rev4.pdf",
+    "sha256": "3194f71a872150736fe8f70aaa4eda046c875dd7556259dd4b47e94f0d303a30",
+    "duplicate_of": "",
+    "pages": 18,
+    "page_text_path": "evidence/dataset5/D5-39/pages.json"
+  },
+  {
+    "id": "file_00000000b7308207b0500109052b0a27",
+    "batch_id": "D5-40",
+    "result": {
+      "original_filename": "r06_gas_coefficient_rev2.xlsx",
+      "size_bytes": 166751
+    },
+    "path": "original/dataset5/D5-40/r06_gas_coefficient_rev2.xlsx",
+    "sha256": "e52efc900c4a81be19e2086bdb3be8b6a849421b17e69017ee3775144e9f8291",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000318c8207991ec57baf087719",
+    "batch_id": "D5-41",
+    "result": {
+      "original_filename": "r08_denki_coefficient_rev4.pdf",
+      "size_bytes": 313097
+    },
+    "path": "original/dataset5/D5-41/r08_denki_coefficient_rev4.pdf",
+    "sha256": "d83900ff9e9405c212dd3c10db342412f10f37fee37c2417b234b595e405e0be",
+    "duplicate_of": "",
+    "pages": 18,
+    "page_text_path": "evidence/dataset5/D5-41/pages.json"
+  },
+  {
+    "id": "file_0000000055d082119213f1c357f7b5fa",
+    "batch_id": "D5-42",
+    "result": {
+      "original_filename": "r06_gas_coefficient_rev2.pdf",
+      "size_bytes": 168194
+    },
+    "path": "original/dataset5/D5-42/r06_gas_coefficient_rev2.pdf",
+    "sha256": "5b054652a425039cd543da1631c14396eac48e37730b98116a00e4a7ddea1944",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-42/pages.json"
+  },
+  {
+    "id": "file_0000000099a88211b415231c688523fa",
+    "batch_id": "D5-43",
+    "result": {
+      "original_filename": "r07_gas_coefficient.pdf",
+      "size_bytes": 147611
+    },
+    "path": "original/dataset5/D5-43/r07_gas_coefficient.pdf",
+    "sha256": "6c72a82137e88692d28daada428ae91a8c103fb21b5aa69f993f140c069a355c",
+    "duplicate_of": "",
+    "pages": 1,
+    "page_text_path": "evidence/dataset5/D5-43/pages.json"
+  },
+  {
+    "id": "file_00000000e5848211b56bc7c2f202dcd8",
+    "batch_id": "D5-44",
+    "result": {
+      "original_filename": "r07_gas_coefficient.xlsx",
+      "size_bytes": 169632
+    },
+    "path": "original/dataset5/D5-44/r07_gas_coefficient.xlsx",
+    "sha256": "dba71944ceb02de9d94c31d0dae334956eeb6632779013a744a19215df853a36",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_000000007a148211a2764ea23bbdc02b",
+    "batch_id": "D5-45",
+    "result": {
+      "original_filename": "r08_gas_coefficient.xlsx",
+      "size_bytes": 31831
+    },
+    "path": "original/dataset5/D5-45/r08_gas_coefficient.xlsx",
+    "sha256": "6f333bc3667eee85e65de54b6a59d3f22226f3ff8149cda7b5b09cd4310829bf",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000059cc82118c775a930c290dad",
+    "batch_id": "D5-46",
+    "result": {
+      "original_filename": "r08_gas_coefficient.pdf",
+      "size_bytes": 280221
+    },
+    "path": "original/dataset5/D5-46/r08_gas_coefficient.pdf",
+    "sha256": "34c0ba7bb6586015e41d39b38a73892baf3aadfa4c255c5a1bab3981bb54cfae",
+    "duplicate_of": "",
+    "pages": 2,
+    "page_text_path": "evidence/dataset5/D5-46/pages.json"
+  },
+  {
+    "id": "file_00000000a5108211adc755514853e839",
+    "batch_id": "D5-47",
+    "result": {
+      "original_filename": "ichiran_2025r.pdf",
+      "size_bytes": 1154899
+    },
+    "path": "original/dataset5/D5-47/ichiran_2025r.pdf",
+    "sha256": "476b10098630d2f5d5830b59945776fbab60f7a1df66be26661dd02b61afe809",
+    "duplicate_of": "D5-03",
+    "pages": 23,
+    "page_text_path": "evidence/dataset5/D5-47/pages.json"
+  },
+  {
+    "id": "file_00000000315c821180935aa50c81e3f1",
+    "batch_id": "D5-48",
+    "result": {
+      "original_filename": "NETL Public NGCC CCRD - March 2023.xlsm",
+      "size_bytes": 4061571
+    },
+    "path": "original/dataset5/D5-48/NETL Public NGCC CCRD - March 2023.xlsm",
+    "sha256": "0a0008fb462b769f9412fbff0bfd366ad3c647016d5b05ce144c316ff2200e97",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000c4c88211b906d85c8982b650",
+    "batch_id": "D5-49",
+    "result": {
+      "original_filename": "EliminatingtheDerateofCarbonCaptureRetrofitsRevision2_033123.pdf",
+      "size_bytes": 8088677
+    },
+    "path": "original/dataset5/D5-49/EliminatingtheDerateofCarbonCaptureRetrofitsRevision2_033123.pdf",
+    "sha256": "c3603c4b166fcf3ac406ca616aa0f893349a2989fb7ed09512d02b08437772b4",
+    "duplicate_of": "",
+    "pages": 222,
+    "page_text_path": "evidence/dataset5/D5-49/pages.json"
+  },
+  {
+    "id": "file_0000000040388207bed648444500f610",
+    "batch_id": "D5-50",
+    "result": {
+      "original_filename": "NETL Public PC CCRD - March 2023.xlsm",
+      "size_bytes": 6709361
+    },
+    "path": "original/dataset5/D5-50/NETL Public PC CCRD - March 2023.xlsm",
+    "sha256": "c8261e589a15ec07c97f2fc5f1c379f644b287bf1301755d436bd3a831bb723a",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000012388211b9dce192c22996a3",
+    "batch_id": "D5-51",
+    "result": {
+      "original_filename": "CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf",
+      "size_bytes": 1555161
+    },
+    "path": "original/dataset5/D5-51/CostandPerformanceofRetrofittingNGCCUnitsforCarbonCaptureRevision3_053123.pdf",
+    "sha256": "6054c3eace7fbe419232797fcf1be3e72a060498d7d663d49ce767026d39a4da",
+    "duplicate_of": "",
+    "pages": 76,
+    "page_text_path": "evidence/dataset5/D5-51/pages.json"
+  },
+  {
+    "id": "file_00000000b5388207a8aabe58ca0dc5f3",
+    "batch_id": "D5-52",
+    "result": {
+      "original_filename": "NETLsCarbonCaptureRetrofitDatabases_072523.pdf",
+      "size_bytes": 1529718
+    },
+    "path": "original/dataset5/D5-52/NETLsCarbonCaptureRetrofitDatabases_072523.pdf",
+    "sha256": "7714dfd62451ab3f2e39987cbb474547b55ec0d0d4b8124c1cbd43f84a21dd70",
+    "duplicate_of": "",
+    "pages": 20,
+    "page_text_path": "evidence/dataset5/D5-52/pages.json"
+  },
+  {
+    "id": "file_0000000002588211904d44f8406b4222",
+    "batch_id": "D5-53",
+    "result": {
+      "original_filename": "cmems_mod_glo_wav_my_0.2deg_PT3H-i_1793807319859.nc",
+      "size_bytes": 34966
+    },
+    "path": "original/dataset5/D5-53/cmems_mod_glo_wav_my_0.2deg_PT3H-i_1793807319859.nc",
+    "sha256": "15c977b6089dfed6bff75d406e9e57e299152942af262622a961f77e2976d98c",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000029bc821184377253db09a472",
+    "batch_id": "D5-54",
+    "result": {
+      "original_filename": "MEPC.391(81).pdf",
+      "size_bytes": 1604538
+    },
+    "path": "original/dataset5/D5-54/MEPC.391(81).pdf",
+    "sha256": "f7601f21ad7a52404eff7cfc1d2c4a07d4ae03356be1ab57a26a4f23f0634c5f",
+    "duplicate_of": "",
+    "pages": 69,
+    "page_text_path": "evidence/dataset5/D5-54/pages.json"
+  },
+  {
+    "id": "file_000000005e6c8211916b5851ebc7b4a4",
+    "batch_id": "D5-55",
+    "result": {
+      "original_filename": "cmems_mod_glo_wav_my_0.2deg_PT3H-i_1793807240905.nc",
+      "size_bytes": 34966
+    },
+    "path": "original/dataset5/D5-55/cmems_mod_glo_wav_my_0.2deg_PT3H-i_1793807240905.nc",
+    "sha256": "2dcc8be7b8090db5ed2d7ae284981294a931eab8fb88ab112128de5778b1b20e",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_0000000074988211b7c36e94453641fd",
+    "batch_id": "D5-56",
+    "result": {
+      "original_filename": "P509479-0696ca12-96f5-4999-8894-d53bf50a091a.pdf",
+      "size_bytes": 3529746
+    },
+    "path": "original/dataset5/D5-56/P509479-0696ca12-96f5-4999-8894-d53bf50a091a.pdf",
+    "sha256": "e54cbae882107393998a8e1fe31654c5fb2775f1819bb9a12c4fea9e95ba5ac8",
+    "duplicate_of": "",
+    "pages": 68,
+    "page_text_path": "evidence/dataset5/D5-56/pages.json"
+  },
+  {
+    "id": "file_00000000d4fc82119258f6114b6fe4d0",
+    "batch_id": "D5-57",
+    "result": {
+      "original_filename": "GLOBAL_MULTIYEAR_WAV_001_032.xml",
+      "size_bytes": 45772
+    },
+    "path": "original/dataset5/D5-57/GLOBAL_MULTIYEAR_WAV_001_032.xml",
+    "sha256": "ddb43afe18250d6339977ef8ffbd1d03ef32a39e2de5b84105e1411cefb2fcb9",
+    "duplicate_of": ""
+  },
+  {
+    "id": "file_00000000661c8211af6ce6861c431d8a",
+    "batch_id": "D5-58",
+    "result": {
+      "original_filename": "CMEMS-GLO-SQO-001-032.pdf",
+      "size_bytes": 1366799
+    },
+    "path": "original/dataset5/D5-58/CMEMS-GLO-SQO-001-032.pdf",
+    "sha256": "458669a019ab561620463b43e3afcef3cacfed492e3a45f041369e9ecb32de09",
+    "duplicate_of": "",
+    "pages": 9,
+    "page_text_path": "evidence/dataset5/D5-58/pages.json"
+  },
+  {
+    "id": "file_0000000081148211aa0f2bef6d9b47eb",
+    "batch_id": "D5-59",
+    "result": {
+      "original_filename": "CMEMS-GLO-PUM-001-032.pdf",
+      "size_bytes": 614593
+    },
+    "path": "original/dataset5/D5-59/CMEMS-GLO-PUM-001-032.pdf",
+    "sha256": "ca3579f8b6be5095b00831d04d96ab335c0335e366c957c3bbca4282b42a789c",
+    "duplicate_of": "",
+    "pages": 21,
+    "page_text_path": "evidence/dataset5/D5-59/pages.json"
+  },
+  {
+    "id": "file_00000000a7508211bcca8b0a4354fb8b",
+    "batch_id": "D5-60",
+    "result": {
+      "original_filename": "CMEMS-GLO-QUID-001-032.pdf",
+      "size_bytes": 8149935
+    },
+    "path": "original/dataset5/D5-60/CMEMS-GLO-QUID-001-032.pdf",
+    "sha256": "cb15664fddd77816ff4de5ccc87ac494a74004c9bf23a8f0d44179c48f8dd5e9",
+    "duplicate_of": "",
+    "pages": 65,
+    "page_text_path": "evidence/dataset5/D5-60/pages.json"
+  }
+]

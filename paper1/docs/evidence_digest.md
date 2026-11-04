@@ -14,6 +14,12 @@ The original proposal, earlier preparation snapshot and earlier scaffold are ret
 
 The Google Drive folder was not ingested: no callable Drive capability was available in this session. The uploaded planetary-limit ZIP exceeded the file-transfer tool's 32 MiB limit and could not be archived or inspected; the standalone planetary-limit PDF is in the library. No data from that ZIP are claimed as extracted.
 
+## Reference-data update
+
+The later reference-data intake has104 uploads:100 accessible files and95 distinct accessible binaries; four oversized IBDP reports remain unavailable. These include official factors, NETL files, IMO guidance, dataset snapshots and IBDP reports/catalogues. They are catalogued separately from the original92-publication literature review. Page text is indexed, but targeted scientific review covers only the components used or screened for model suitability. See [reference review](reference_dataset_review.md) for the source-specific findings.
+
+The new dedicated registers contain77 located reference-inventory inputs,8 derived NETL capture cases and12 located Illinois simulation quantities. They overlap original source material and are not additional independent measurements. The current Japanese tables contain3,269 located factor records; the raw17-workbook archive holds1,013,036 cached/formula cells including errors, not validated observations. Two wave snapshots yield34 located variables and no weather calendar. The source-driven extension produces2,980 partial inventory comparisons; complete net avoided GHG remains uncomputed.
+
 ## Main interpretation
 
 A defensible Paper 1 contribution is a reproducible test of the additional decision value of jointly representing time-varying storage service and operational shipping. Prior work already includes dynamic infrastructure, common-reference emissions, reservoir constraints, resilience, operational shipping and carbon payback. The current draft contains actual literature calculations and a clearly labelled cross-study proxy stress test, with the complete annual regional comparison kept as a specified extension.

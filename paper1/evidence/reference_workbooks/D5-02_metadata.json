@@ -1,0 +1,21 @@
+{
+  "document_id": "D5-02",
+  "source_sha256": "985528af9e703e8c50f10366ea71e2e33e5476db8cdea6f9658dcbbf1ace99bb",
+  "cells": 80,
+  "numeric_cached_cells": 35,
+  "formula_cells": 0,
+  "sheets": [
+    {
+      "sheet": "Varedeklarasjon",
+      "dimension": "A1:F8",
+      "nonempty_or_formula_cells": 48
+    },
+    {
+      "sheet": "Klimadeklarasjon",
+      "dimension": "A1:D8",
+      "nonempty_or_formula_cells": 32
+    }
+  ],
+  "macros_executed": false,
+  "external_links_refreshed": false
+}

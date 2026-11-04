@@ -12,3 +12,5 @@ The package retains 92 unique publications across 93 supplied PDFs. Review cover
 The Budiarto supplementary material is now archived and extracted: see the [supplement review](paper1/docs/supplement_review.md) and [annual allocation reconstruction](paper1/outputs/supplement_scenario_summary.csv).
 
 The [operational B0–B3 model](paper1/docs/operational_model.md) now includes144 proxy comparisons, scheduling/inventory checks, fleet controls and explicit missing-inventory thresholds. It does not claim complete regional lifecycle mitigation.
+
+The [reference-data review](paper1/docs/reference_dataset_review.md) covers104 recent uploads:100 archived, with four oversized IBDP reports recorded as unavailable. NETL capture utilities, official energy-factor scenarios and IMO fuel defaults now support2,980 partial inventory comparisons. See the [specific datasets still needed](paper1/docs/reference_data_requests.md) for injection-monitoring histories and multi-year waves. The two uploaded wave files contain snapshots, and IBDP event rates are microseismic rather than CO₂ injection rates.

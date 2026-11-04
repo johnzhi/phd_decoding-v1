@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render manuscript tables and DOCX from the retained inputs/results."""
 from pathlib import Path
-import csv,re,subprocess
+import csv,json,re,subprocess
 ROOT=Path(__file__).resolve().parents[1]
 def read(p):return list(csv.DictReader((ROOT/p).open(encoding='utf-8')))
 def table(headers,rows):
@@ -39,6 +39,12 @@ def render():
   [x['storage_proxy'],x['one_way_distance_km'],x['source_reference_fleet'],x['selected_fleet'],f"{float(x['initial_completion_fraction'])*100:.1f}",x['design_target_met']] for x in design])
  controls=table(['Control','Higher route (km)','Added vessels per route','Additional injection (Mt)','Additional active ship CO₂ (Mt)','Uninventoried allowance (Mt)'],[
   [x['control'].replace('B3 ',''),x['higher_distance_km'],x['fleet_margin_each_route'],f"{float(x['additional_injected_t'])/1e6:.3f}",f"{float(x['additional_ship_co2_t'])/1e6:.3f}",f"{float(x['uninventoried_allowance_t'])/1e6:+.3f}"] for x in ctrl])
+ capture=table(['Reference case','Accounting route','Heat (GJ/t captured)','Auxiliary electricity (kWh/t)','Total make-up electricity (kWh/t)'],[
+  [x['case_id'].replace('_',' '),x['route'].replace('_',' '),f"{float(x['heat_gj_per_t']):.3f}" if x['heat_gj_per_t'] else 'Not used in this route',f"{float(x['auxiliary_kwh_per_t']):.3f}",f"{float(x['electricity_kwh_per_t']):.3f}" if x['route']=='electric_makeup' else 'Heat + auxiliaries only'] for x in read('data/netl_capture_reference_cases.csv')])
+ reference_rows=read('outputs/reference_inventory_comparisons.csv')
+ labels={'NGCC_CANSOLV_90__NO_2025_climate':'NGCC90 make-up; Norway climate disclosure','NGCC_CANSOLV_90__JP_R8_fallback':'NGCC90 make-up; Japan reporting fallback','PC_REPORT_CANSOLV_90__JP_R8_fallback':'PC90 heat + auxiliaries; Japan reporting fallbacks'}
+ inventory=table(['Utility reference (distinct accounting scopes)','Higher route (km)','Additional captured (Mt)','Additional IMO-default marine WtW (MtCO₂e)','Remaining allowance (Mt)'],[
+  [labels[x['utility_scenario']],x['higher_distance_km'],f"{float(x['additional_captured_t'])/1e6:.3f}",f"{float(x['additional_marine_default_wtw_tco2e'])/1e6:.3f}",f"{float(x['remaining_uninventoried_allowance_t'])/1e6:+.3f}"] for x in reference_rows if x['model_case']=='99pct_design_control' and x['higher_distance_km'] in ['5000','10000'] and x['utility_scenario'] in labels])
  text=(ROOT/'manuscript/Paper_1_draft.template.md').read_text();ids=sorted(set(re.findall(r'B[1-4]-\d\d',text)),key=lambda s:tuple(map(int,s[1:].split('-'))))
  refs=[]
  for sid in ids:
@@ -47,7 +53,21 @@ def render():
   ident=x['doi'];link=('https://doi.org/'+ident) if ident.startswith('10.') else '../'+x['pdf_path']
   refs.append(f"- **[{sid}]** {x['author_year']+'. ' if x['author_year'] else ''}{x['title']}. [{ident}]({link}). [Retained PDF](../{x['pdf_path']}).")
  refs.append('- **[B4-06-S1]** Budiarto et al. (2025). Supplementary materials: Tables S1–S3 and Figures S1–S10. [Retained DOCX](../original/supplements/43979_2025_135_MOESM1_ESM.docx). Parent publication DOI 10.1007/s43979-025-00135-w.')
- for key,val in {'OPERATIONAL_COMPARISON_TABLE':operating,'OPERATIONAL_DESIGN_TABLE':fleetdesign,'OPERATIONAL_CONTROL_TABLE':controls,'SUPPLEMENT_PARAMETER_TABLE':parameter,'ANNUAL_REPLAY_TABLE':annual,'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
+ manifests={x['batch_id']:x for i in [5,6] for x in json.loads((ROOT/f'data/dataset{i}_manifest.json').read_text())}
+ reference_titles={
+  'D5-01':'Norwegian electricity disclosure. Electricity sales in Norway with and without guarantees of origin, 2025 (138 TWh). Supplied Excel export; volumes recovered from native XML.',
+  'D5-02':'NVE. Electricity-disclosure factor workbook: climate and market declarations, 2019–2025. Supplied Excel file.',
+  'D5-16':'Japan Ministry of the Environment. R8 heat-supplier emission coefficients. Supplied official reporting workbook; header-specific reporting/performance years retained.',
+  'D5-38':'Japan Ministry of the Environment. R8 electricity-supplier emission coefficients, revision 4. Supplied official reporting workbook; header-specific reporting/performance years retained.',
+  'D5-48':'US DOE/NETL. Public NGCC Carbon Capture Retrofit Database, March 2023. Supplied macro workbook; reference caches only.',
+  'D5-49':'US DOE/NETL. Eliminating the Derate of Carbon Capture Retrofits, Revision 2, 31 March 2023. DOE/NETL-2023/3850. Supplied technical report.',
+  'D5-50':'US DOE/NETL. Public PC Carbon Capture Retrofit Database, March 2023. Supplied macro workbook; reference caches only.',
+  'D5-54':'International Maritime Organization (2024). Resolution MEPC.391(81): 2024 Guidelines on Life Cycle GHG Intensity of Marine Fuels. Supplied official PDF.',
+  'D6-22':'Leetaru, Brown, Lee, Senel and Couëslan (2012). CO₂ Injectivity, Storage Capacity, Plume Size, and Reservoir and Seal Integrity of the Ordovician St. Peter Sandstone and the Cambrian Potosi Formation in the Illinois Basin. DOE/FE0002068-1, issued 30 May 2012. Supplied simulation report.'}
+ for sid in sorted(set(re.findall(r'D[56]-\d\d',text))):
+  if sid not in reference_titles:raise ValueError(f'Missing reference description: {sid}')
+  refs.append(f"- **[{sid}]** {reference_titles[sid]} [Retained original](../{manifests[sid]['path'].replace(' ','%20')}).")
+ for key,val in {'REFERENCE_CAPTURE_TABLE':capture,'REFERENCE_INVENTORY_TABLE':inventory,'OPERATIONAL_COMPARISON_TABLE':operating,'OPERATIONAL_DESIGN_TABLE':fleetdesign,'OPERATIONAL_CONTROL_TABLE':controls,'SUPPLEMENT_PARAMETER_TABLE':parameter,'ANNUAL_REPLAY_TABLE':annual,'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
  if re.search(r'\{\{[A-Z_]+\}\}',text):raise ValueError('Unfilled manuscript token')
  out=ROOT/'manuscript/Paper_1_draft.md';out.write_text(text)
  subprocess.run(['pandoc',str(out),'--from=markdown','--standalone','--resource-path='+str(out.parent),'-o',str(out.with_suffix('.docx'))],check=True)

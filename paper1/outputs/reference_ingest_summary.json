@@ -1,0 +1,42 @@
+{
+  "uploaded_references": 104,
+  "available": 100,
+  "unavailable": [
+    "D6-16",
+    "D6-17",
+    "D6-29",
+    "D6-39"
+  ],
+  "native_workbooks": 17,
+  "archived_workbook_cells": 1013036,
+  "japan_current_factor_records": 3269,
+  "wave_coverage": [
+    {
+      "document_id": "D5-53",
+      "timestamps": 1,
+      "latitudes": 1,
+      "longitudes": 1,
+      "time_start": "2026-08-31T21:00:00.000000000",
+      "time_end": "2026-08-31T21:00:00.000000000",
+      "latitude": -6.400000095367432,
+      "longitude": 128.39999389648438,
+      "calendar_usable": false,
+      "reason": "One timestamp and one grid point; no historical availability distribution or route coverage can be estimated."
+    },
+    {
+      "document_id": "D5-55",
+      "timestamps": 1,
+      "latitudes": 1,
+      "longitudes": 1,
+      "time_start": "2026-08-31T21:00:00.000000000",
+      "time_end": "2026-08-31T21:00:00.000000000",
+      "latitude": 18.0,
+      "longitude": 116.19998931884766,
+      "calendar_usable": false,
+      "reason": "One timestamp and one grid point; no historical availability distribution or route coverage can be estimated."
+    }
+  ],
+  "bag_payload_sha256_matches": 27,
+  "bag_payload_sha256_expected": 31,
+  "all_workbooks_cached_not_recalculated": true
+}
