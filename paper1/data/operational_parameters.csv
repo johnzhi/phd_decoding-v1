@@ -1,0 +1,31 @@
+parameter_id,value,unit,study_id,pdf_page,locator,source_token,scope_note
+vessel_volume_40000,40000,m3,B4-09,3,Table 2,40K,"Published conceptual vessel design, not a procurement claim."
+fuel_rate_40000,35.8,kg fuel/hour/1000 m3,B4-09,5,Table 5,35.8,Original MDO fuel-rate proxy; applied over active cycle phases as in p7 Eq20. Idle fuel is unquantified.
+vessel_volume_80000,80000,m3,B4-09,3,Table 2,80K,"Published conceptual vessel design, not a procurement claim."
+fuel_rate_80000,25.1,kg fuel/hour/1000 m3,B4-09,5,Table 5,25.1,Original MDO fuel-rate proxy; applied over active cycle phases as in p7 Eq20. Idle fuel is unquantified.
+vessel_volume_120000,120000,m3,B4-09,3,Table 2,120 K,"Published conceptual vessel design, not a procurement claim."
+fuel_rate_120000,21.6,kg fuel/hour/1000 m3,B4-09,5,Table 5,21.6,Original MDO fuel-rate proxy; applied over active cycle phases as in p7 Eq20. Idle fuel is unquantified.
+density_table1,1154,kgCO2/m3,B4-09,3,Table 1,1154,Conditional choice of explicit Table1 value; conflicting prose remains flagged. Reproduces all75 published fleet counts.
+speed,15,knots,B4-09,5,Table 5,15,"Constant design speed, no invented weather distribution."
+loading,12,hours,B4-09,5,Table 5,12,One loading berth is a declared model structure.
+unloading,12,hours,B4-09,5,Table 5,12,One receiving berth is a declared model structure.
+port_approach_departure,12,hours per port,B4-09,5,Table 5; p6 Eq15,12,Two ports give two such terms per round trip.
+outbound_fill,98,percent,B4-09,5,Table 5,98,First load includes source-derived heel charge.
+return_heel,5,percent,B4-09,5,Table 5,5,"Heel is inventory, not geological storage."
+buffer_volume_percent,150,percent of vessel volume per terminal,B4-09,5,Table 5,150,Same conceptual loading/unloading terminals; converted with chosen density.
+operating_hours,8000,hours per nominal year,B4-09,6,Below Eq17,8000,Duration is published. Staggered or synchronised window placement is an analyst scheduling convention.
+year_hours,8760,hours per nominal year,B4-09,6,Eq17,8760,Thirty nominal8760-hour model-year bins retain2027–2056 labels; leap-year calendars are not asserted.
+distance_1000,1000,km one way,B4-09,3,Table 2,1000,Published distance scenario; no actual domestic/foreign route identification.
+distance_5000,5000,km one way,B4-09,3,Table 2,5000,Published distance scenario; no actual domestic/foreign route identification.
+distance_10000,10000,km one way,B4-09,3,Table 2,"10,000",Published distance scenario; no actual domestic/foreign route identification.
+distance_15000,15000,km one way,B4-09,3,Table 2,"15,000",Published distance scenario; no actual domestic/foreign route identification.
+distance_20000,20000,km one way,B4-09,3,Table 2,"20,000",Published distance scenario; no actual domestic/foreign route identification.
+distillate_combustion_factor,3.206,tCO2/t fuel,B1-19,4,Section 3.4,3.206,Published MGO combustion factor transferred as a distillate-fuel scenario to MDO fuel-rate proxy. Not a measured MDO LCA or well-to-wake CO2e factor.
+reliq_compressor_40000_1,312.6,kW,B4-09,7,Table 8,312.6,"Nameplate compressor duty. Optional8000h/year costing-duty envelope only, not an inferred operating duty or whole BOG model."
+reliq_compressor_40000_2,128.9,kW,B4-09,7,Table 8,128.9,"Nameplate compressor duty. Optional8000h/year costing-duty envelope only, not an inferred operating duty or whole BOG model."
+reliq_compressor_80000_1,625.2,kW,B4-09,7,Table 8,625.2,"Nameplate compressor duty. Optional8000h/year costing-duty envelope only, not an inferred operating duty or whole BOG model."
+reliq_compressor_80000_2,257.8,kW,B4-09,7,Table 8,257.8,"Nameplate compressor duty. Optional8000h/year costing-duty envelope only, not an inferred operating duty or whole BOG model."
+reliq_compressor_120000_1,937.8,kW,B4-09,7,Table 8,937.8,"Nameplate compressor duty. Optional8000h/year costing-duty envelope only, not an inferred operating duty or whole BOG model."
+reliq_compressor_120000_2,386.7,kW,B4-09,7,Table 8,386.7,"Nameplate compressor duty. Optional8000h/year costing-duty envelope only, not an inferred operating duty or whole BOG model."
+generator_sfoc,197.5,g fuel/kWh,B1-19,4,Equations 5–6 discussion,197.5,"MGO generator specific fuel consumption transferred as a scenario; includes fuel-to-electricity conversion, so do not divide by generator efficiency again."
+completion_design_percent,99,percent,B2-08,7,Section 5.1.1,99 %,"Published transport-completion criterion transferred as an explicit design control:99% of the continuous source/service envelope, not a local reliability probability. The denominator is declared separately."

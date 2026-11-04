@@ -32,6 +32,13 @@ def render():
   ['Numeric hub distances',str(replay['hub_distance_values']),'Table S3']])
  annual=table(['Scenario','Printed cells','Sum of printed allocations (Mt)','Main-paper total (Mt)','Printed minus main (Mt)'],[
   [x['scenario'],x['printed_numeric_cells'],f"{float(x['sum_printed_allocations_mt']):.1f}",f"{float(x['main_paper_cumulative_mt']):.2f}",f"{float(x['printed_minus_main_mt']):+.2f}"] for x in sup])
+ op=read('outputs/operational_comparisons.csv');design=read('outputs/operational_design_adequacy.csv');ctrl=read('outputs/operational_controls.csv')
+ operating=table(['Higher route (km)','Variant','Lower injected (Mt)','Higher injected (Mt)','Additional active ship CO₂ (Mt)','Uninventoried allowance (Mt)'],[
+  [x['higher_distance_km'],x['variant'],f"{float(x['lower_injected_t'])/1e6:.3f}",f"{float(x['higher_injected_t'])/1e6:.3f}",f"{float(x['additional_ship_combustion_co2_t'])/1e6:.3f}",f"{float(x['differential_uninventoried_burden_allowance_tco2e'])/1e6:+.3f}"] for x in op if x['group']=='primary' and x['size_m3']=='40000' and x['static_policy']=='aggregate_mean' and x['higher_distance_km'] in ['5000','10000']])
+ fleetdesign=table(['Service proxy','Route (km)','Reference fleet','Selected fleet','Initial/reference injection (%)','99% target met'],[
+  [x['storage_proxy'],x['one_way_distance_km'],x['source_reference_fleet'],x['selected_fleet'],f"{float(x['initial_completion_fraction'])*100:.1f}",x['design_target_met']] for x in design])
+ controls=table(['Control','Higher route (km)','Added vessels per route','Additional injection (Mt)','Additional active ship CO₂ (Mt)','Uninventoried allowance (Mt)'],[
+  [x['control'].replace('B3 ',''),x['higher_distance_km'],x['fleet_margin_each_route'],f"{float(x['additional_injected_t'])/1e6:.3f}",f"{float(x['additional_ship_co2_t'])/1e6:.3f}",f"{float(x['uninventoried_allowance_t'])/1e6:+.3f}"] for x in ctrl])
  text=(ROOT/'manuscript/Paper_1_draft.template.md').read_text();ids=sorted(set(re.findall(r'B[1-4]-\d\d',text)),key=lambda s:tuple(map(int,s[1:].split('-'))))
  refs=[]
  for sid in ids:
@@ -40,7 +47,7 @@ def render():
   ident=x['doi'];link=('https://doi.org/'+ident) if ident.startswith('10.') else '../'+x['pdf_path']
   refs.append(f"- **[{sid}]** {x['author_year']+'. ' if x['author_year'] else ''}{x['title']}. [{ident}]({link}). [Retained PDF](../{x['pdf_path']}).")
  refs.append('- **[B4-06-S1]** Budiarto et al. (2025). Supplementary materials: Tables S1–S3 and Figures S1–S10. [Retained DOCX](../original/supplements/43979_2025_135_MOESM1_ESM.docx). Parent publication DOI 10.1007/s43979-025-00135-w.')
- for key,val in {'SUPPLEMENT_PARAMETER_TABLE':parameter,'ANNUAL_REPLAY_TABLE':annual,'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
+ for key,val in {'OPERATIONAL_COMPARISON_TABLE':operating,'OPERATIONAL_DESIGN_TABLE':fleetdesign,'OPERATIONAL_CONTROL_TABLE':controls,'SUPPLEMENT_PARAMETER_TABLE':parameter,'ANNUAL_REPLAY_TABLE':annual,'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
  if re.search(r'\{\{[A-Z_]+\}\}',text):raise ValueError('Unfilled manuscript token')
  out=ROOT/'manuscript/Paper_1_draft.md';out.write_text(text)
  subprocess.run(['pandoc',str(out),'--from=markdown','--standalone','--resource-path='+str(out.parent),'-o',str(out.with_suffix('.docx'))],check=True)

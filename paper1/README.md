@@ -15,6 +15,7 @@ python -m pip install -r paper1/requirements.txt
 python paper1/scripts/ingest_budiarto_supplement.py
 python paper1/scripts/replay_budiarto_supplement.py
 python paper1/scripts/reproduce.py
+python paper1/scripts/operational_model.py
 python -m unittest discover -s paper1/tests -v
 python paper1/scripts/build_workbook.py
 python paper1/scripts/build_documents.py
@@ -35,3 +36,7 @@ The supplied scholarly PDFs retain their original rights and licences; no reposi
 ## Budiarto supplement update
 
 The supplied supplementary DOCX is archived in `original/supplements/`. [Supplement review](docs/supplement_review.md) explains the 102 native-table values,250 rounded annual injection annotations and 470 blank grid cells. The 14 source rates sum to 5.327 Mt/year; over 30 annual bins this matches the reported 159.81 Mt multi-well storage total. Rounded annual schedules are replayed explicitly, without claiming an independent MILP or whole-chain mitigation simulation.
+
+## Operational model
+
+B0–B3 now run with explicitly declared aggregate service proxies, ship/terminal inventories and deterministic availability conventions. [Model scope and controls](docs/operational_model.md) explain the 144 comparisons and why they are conditional. [Operating inputs](data/operational_parameters.csv) list 30 source-located quantities; [data gaps](data/operational_data_gaps.csv) identify what is still required for full lifecycle GHG. Missing quantities are not zeroed, and complete net avoided emissions remain uncomputed.

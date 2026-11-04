@@ -35,5 +35,5 @@ class ResearchChecks(unittest.TestCase):
  def test_source_loss_correction_is_disclosed(self):
   text=(ROOT/'manuscript/Paper_1_draft.template.md').read_text()
   self.assertIn('double-count',text);self.assertIn('\\Delta L_{\\mathrm{inc}}',text)
-  self.assertIn('No numerical B0–B3 result is reported',text)
+  self.assertIn('Complete lifecycle net avoided GHG is not computed',text)
 if __name__=='__main__':unittest.main()

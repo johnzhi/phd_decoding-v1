@@ -1,0 +1,20 @@
+{
+  "date_client": "2026-11-04",
+  "chrome_available": false,
+  "searches": [
+    {
+      "url": "https://github.com/search?q=%22Budiarto%22%20%22CCS%22&type=repositories",
+      "method": "public GitHub repository search through the configured proxy",
+      "http_status": 200,
+      "repository_result_count": 0,
+      "limitation": "One narrow repository query; not an exhaustive online or code search. No new quantitative inputs were obtained."
+    }
+  ],
+  "primary_data_availability_statement": {
+    "source_id": "B4-06",
+    "physical_pdf_page": 18,
+    "statement": "The data and material analyzed in this current study are available from the corresponding author on reasonable request."
+  },
+  "publisher_browsing": "No Chrome tools available. Publisher domains are outside the current configured HTTP allowlist. No bypass was attempted; no online publisher data are claimed as reviewed.",
+  "author_contact": "No message was sent. An optional data-request draft is saved separately."
+}

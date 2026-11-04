@@ -1,0 +1,13 @@
+{
+  "published_fleet_cases": 75,
+  "published_fleet_matches": 75,
+  "comparison_rows": 144,
+  "contrast_rows": 36,
+  "unique_model_runs": 138,
+  "control_cases": 6,
+  "design_adequacy_cases": 6,
+  "optional_generator_scenarios": 144,
+  "full_lifecycle_results_generated": false,
+  "storage_physics_calibrated": false,
+  "climate_metric": "Uninventoried differential burden allowance; conditional fossil-source one-for-one and injected-as-retained interpretation only. Missing lifecycle/leakage terms are not assigned zero."
+}

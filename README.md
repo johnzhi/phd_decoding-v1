@@ -10,3 +10,5 @@ Paper 1 research draft and evidence are in [paper1/](paper1/README.md).
 The package retains 92 unique publications across 93 supplied PDFs. Review coverage is 48 targeted extractions and 44 abstract/relevance screens. It contains 1,642 extracted-value records and reproducible published-case benchmarks. The full annual Japan–Malaysia–Australia simulation is not claimed as completed; geographic proxies and accounting limits are explicit in the draft.
 
 The Budiarto supplementary material is now archived and extracted: see the [supplement review](paper1/docs/supplement_review.md) and [annual allocation reconstruction](paper1/outputs/supplement_scenario_summary.csv).
+
+The [operational B0–B3 model](paper1/docs/operational_model.md) now includes144 proxy comparisons, scheduling/inventory checks, fleet controls and explicit missing-inventory thresholds. It does not claim complete regional lifecycle mitigation.

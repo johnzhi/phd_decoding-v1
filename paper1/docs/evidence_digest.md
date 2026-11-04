@@ -6,7 +6,7 @@ The current library contains **93 supplied PDF files, 92 unique publications and
 
 The extraction ledger contains **1,642 records**: 1,097 preserved earlier records plus 193 atomic records from the nine new papers and 352 numeric records from the Budiarto supplement (102 native-table entries and 250 printed annual allocations). Records may contain ranges or grouped cases and are not independent measurements. `curated_values.csv` contains 250 explicitly located quantities (including selected earlier values). `analysis_inputs.csv` contains 134 rows, of which 75 are published fleet counts and 59 support 49 calculations. The 124-row results file therefore contains **49 derived results and 75 directly reported fleet outputs**. Do not add overlapping tables together to count unique data.
 
-The separate supplement tables and annual grid retain a further 352 numeric records and 470 blank figure cells. The new annual replay is additional to the original 49 benchmark calculations; its outputs are not a new MILP optimisation.
+The separate supplement tables and annual grid retain a further 352 numeric records and 470 blank figure cells. The new annual replay is additional to the original 49 benchmark calculations; its outputs are not a new MILP optimisation. The separate operational extension now implements B0–B3 with 144 comparisons, explicit service proxies and incomplete lifecycle accounting; see `operational_model.md`.
 
 The broad extraction ledger is an audit trail, not a harmonised input file. Only the dedicated analysis inputs enter calculations. Source input, simulated result, observation and derived quantity must remain distinct. No source-wide transferability is implied by accepting a quantity for its stated context.
 
@@ -948,4 +948,9 @@ Reading stage: Targeted methods/results extraction. Checked sections: pp1,3,5–
 
 Seventy-five shipping cases cover 40/80/120 thousand m3 ships, 1–20 Mt/y and 1,000–20,000 km. Fleet counts are integer and BOG reliquefaction/terminal costs are explicit. Published fleet table is retained as model output; the inconsistent density is on hold.
 
-Transfer limits: Density printed inconsistently (Table 1 versus p6); do not reconstruct cargo/fleet from an assumed correction.
+Transfer limits: Table 1 density is conditionally selected and reproduces 75 source fleet cases. Conflicting prose remains unresolved; this is not independent thermophysical validation.
+
+
+## Operational-model update
+
+The new forward model uses a separate 30-row located parameter register, supplementary source/schedule datasets and declared structural conventions. It produces144 comparisons and 36 contrasts, plus equal-injection, added-vessel and fleet-adequacy controls. Complete lifecycle net avoided GHG remains uncomputed. Refer to the [operational-model scope](operational_model.md) and the current manuscript; this extends the earlier supporting benchmarks.

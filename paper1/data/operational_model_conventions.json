@@ -1,0 +1,17 @@
+{
+  "source": "Sum of the fourteen study-defined captured CO2 rates in supplementary Table S1; constant nominal flow in the original thirty labelled annual bins.",
+  "time": "8760-hour nominal model years labelled 2027–2056. Calendar placement is an engineering scenario, not an observed weather series.",
+  "storage": "Aggregate rounded allocation outputs used explicitly as exogenous service proxies; not independent physical kr,t inputs. Injected mass is reported without asserting permanence.",
+  "static_proxies": ["aggregate_mean: constant thirty-bin mean", "ready_mean: each reservoir's total divided over its post-readiness bins"],
+  "transport_model": "Greedy deterministic batch shuttle; one loading berth and one receiving berth; cargo assigned at loading start and received at unloading end. Published port durations and cargo/heel volumes are used.",
+  "availability": "Published8000 operating hours placed either in evenly staggered per-vessel windows or synchronised windows. Each active phase must finish within its window. Full nominal cycle must fit when loading begins. This conservative dispatch rule is a modelling choice, not proof of optimal scheduling.",
+  "fleet": "Reference fleet from the published annual integer-capacity equation; fixed across the thirty bins. Added-vessel and minimum-added-fleet99%-of-continuous-reference controls are separate decisions.",
+  "inventory": "Initial empty cargo system. Initial heel charged from captured source CO2. Export, import and marine stocks are balanced. Project-end stock receives no geological storage credit.",
+  "capture_policy": "Capture curtailed at export-buffer capacity. No captured-source venting or leakage process is simulated; the model is a closed engineering inventory benchmark, not measured zero leakage.",
+  "included_emissions": ["active ship fuel-combustion CO2 using a declared MGO-factor transfer to an MDO fuel-rate scenario"],
+  "optional_process_scenario": "Published nameplate compressor power multiplied by8000h/year and a published generator SFOC. This is a costing-duty envelope, not a calculated BOG duty.",
+  "unquantified_components": ["capture heat/electricity and supply chain", "liquefaction and pressure mismatch", "actual terminal and BOG-control duty", "fuel upstream CH4/N2O", "idle and waiting fuel", "wells, pressure management and water handling", "injection power", "asset construction, monitoring and decommissioning", "retention/leakage"],
+  "missing_values": "Not assigned zero. Complete net avoided GHG remains uncomputed.",
+  "allowance_identity": "DeltaA = DeltaR_injected - DeltaG_ship_CO2 - DeltaU, conditional on compatible fossil-source counterfactual and retention reconciliation; the model reports the first two terms, so DeltaU must be less than the reported allowance for a positive full advantage.",
+  "optimality": "No cost, climate or mixed-allocation optimum is claimed. Forward simulation and restricted added-fleet design controls are implemented."
+}
