@@ -1,0 +1,210 @@
+Prospective techno-economic and life cycle assessment a review across established and emerging carbon capture, storage and utilization CCS CCU technologies
+
+PHYSICAL_PAGE 11
+Wang et al.                                                                                                               10.3389/fenrg.2024.1412770
+
+
+
+
+Cost Engineering (AACE) expects for a class 4 estimate (AACE,                 combining materials science, process design, TEA and LCA to
+2020). In general, FOAK cost estimates are most appropriate for               enable the efﬁcient screening of materials and effectively rank
+technologies that have advanced to at least large pilot plant or full-        their performance against critical performance indicators, such as
+scale testing of the new technology (e.g., TRL 6-8). Technologies at          Henry selectivity, Purity, Productivity, Net Carbon Avoidance Cost,
+earlier stages of development are inherently much riskier (Rubin              Climate Change, and Materials Resources: Metals/Minerals. This
+et al., 2021). The maturity of technologies across different TRLs             holistic approach underlines the signiﬁcance of integrating various
+necessitates a varied approach to process contingency, as                     dimensions to identify the most suitable structures for cost-effective
+recommended by existing guidelines (AACE, 2020). The selection                and environmentally friendly carbon capture processes.
+of an appropriate process contingency value for technologies at                    Advancements in adsorption technologies offer low-cost,
+lower TRLs, which exhibit a broader range and greater uncertainties,          energy-efﬁcient alternatives to traditional absorption systems. Yet,
+demands careful technical and empirical judgment based on the                 scaling up solid adsorbents for commercial use remains challenging.
+speciﬁc technology’s current state. Moreover, system contingency,             Collaborations, such as between BASF and Svante, have successfully
+which accounts for additional capital costs associated with system            scaled up of the CALF-20 (Zinc-based Calgary Framework) MOF
+integration and complexity following the ﬁrst commercial                      sorbents, highlighting potential for industrial applications (Lin
+installation, also relies on professional judgment for accurate               et al., 2021).
+estimation.                                                                        For the evaluation of emerging CO₂ utilization technologies, a
+     Projecting the FOAK costs to NOAK further ampliﬁes these                 systematic evaluation methodology sensitive to the technology’s
+uncertainties. The adoption of the hybrid costing method, which               developmental stage is crucial. Roh et al. (2020) proposed a
+integrates uncertainties linked to learning curve analyses, adds              systematic methodology designed for this purpose, unfolding in
+another layer of complexity. The challenge of calculating LRs is              three strategic steps: the gathering of primary data, the generation of
+exacerbated by the scarcity of high-quality data. Thomassen et al.            secondary data, and the calculation of performance indicators. This
+(2020) emphasized the importance of understanding the drivers of              structured approach highlights how the accuracy of performance
+learning at different developmental stages and advocated for a                indicators at TRLs 2 and 3 hinges signiﬁcantly on the type of energy
+hybrid approach that combines expert projections with                         powering the CCU system and the realistic recovery rates of CO₂-
+extrapolated performance metrics derived from learning curves.                based products. Through four illustrative case studies including
+Similarly, recent research by Sievert et al. (2024) on the cost               electrochemical CO₂ reduction, ethylene production, synthetic fuels
+estimation of DAC systems highlighted the critical role of expert             and microalgal co-ﬁring power plant, which demonstrated the
+elicitation, particularly in the absence of empirical data for the            applicability of their methodology in assessing speciﬁc CO₂
+analysis of novel technological components.                                   utilization technologies.
+     Despite the pervasive uncertainties in cost estimation for                    In the domain of CO₂ conversion to chemicals, the development
+emerging technologies, acknowledging, and meticulously                        and optimization of catalysts are crucial for the transformation of
+analysing these uncertainties through methods such as sensitivity             CO₂ (Artz et al., 2018). The effectiveness of new catalysts is typically
+analysis and Monte Carlo simulations enables decision-makers to               measured by their conversion efﬁciency, selectivity, or space-time
+make more informed decisions. For more comprehensive                          yield within laboratory reactors. However, the ultimate validation of
+uncertainty discussion of methods for applications of low-carbon              a catalyst’s performance lies in its application at the plant level.
+technologies, one may refer to relevant publications (Van Der Spek            Spiekermann et al., (2023) contributed to this area by assessing
+et al., 2020; Way et al., 2022) in the ﬁeld.                                  catalysts for CO₂ hydrogenation through a process optimization
+                                                                              approach. By employing consistent assumptions to mediate the
+4.3.2 Assessment for technologies at low TRLs                                 trade-offs between reaction kinetics and process design, and by
+    Evaluating early-stage technologies in hybrid methods presents            ﬁne-tuning parameters, their work bridges the link of lab-scale data
+signiﬁcant challenges, particularly for those still under development         on novel catalysts to their process-level performance.
+(TRL<6). Early technology assessments carry higher uncertainties
+due to insufﬁcient operational and performance data (Zimmermann               4.3.3 Inﬂuence of background system
+et al., 2022). This often results in overlooking innovative                        The uncertainties linked with technological progress and
+technologies and underestimating the importance of process                    renewable energy proliferation make it challenging to project
+intensiﬁcation and optimization in scale-up phases (Van Der                   background systems, particularly due to the energy-intensive
+Spek et al., 2017), a critical challenge in rapidly evolving ﬁelds            nature of CO₂ capture from industrial and atmospheric sources.
+seeking promising yet immature technologies.                                  Therefore, it is critical to incorporate dynamic background scenarios
+    In CO₂ capture technology, the broad range of solvents and                into the quantitative analysis of CCS/CCU technologies. Roussanaly
+sorbents available in labs poses a challenge in accurately predicting         et al. (2021) introduced comprehensive guidelines for evaluating the
+their CO₂ capture capacities. Traditional metrics like selectivity and        costs of CCS technologies, underscoring the need for transparent
+working capacity do not always correlate with ultimate process                scenarios that realistically portray future heat and power supply
+efﬁciency, underscoring the need for integrating process modeling             strategies. These evaluations must account for the variability in costs
+and optimization early in material selection. For instance, the study         and emissions intensity of heat and power, which are highly location
+by Burns et al. (2020) on over 5000 MOFs highlights the necessity of          and situation-dependent, thereby affecting CO₂ avoidance costs and
+integrating detailed process modelling and optimization into                  the comparative assessment of CO₂ capture technologies.
+sorbent screening processes. Innovations like the PrISMa                           In the long term, post-2050, the grid is expected to accommodate
+(Charalambous et al., 2023) platform demonstrate the beneﬁts of               all power demand with a reliable supply of net-zero-emissions
+
+
+
+Frontiers in Energy Research                                             11                                                             frontiersin.org
+
+
+PHYSICAL_PAGE 12
+Wang et al.                                                                                                               10.3389/fenrg.2024.1412770
+
+
+
+
+electricity for all users. However, in the short term, CO₂ utilization         exceeding the costs associated with pipeline transport noted in prior
+processes may require the deployment of clean power generation and             studies, which also reﬂects the urgency to build corresponding
+energy storage to enable the 24/7 operation likely needed for economic         transport infrastructures.
+viability. Many CO₂ utilization processes require signiﬁcant amounts               Eligible CO₂ storage zones must meet several criteria to ensure
+of clean electricity, water, and green hydrogen. Given the complexities        safety and efﬁciency. These include adequate capacity and injection
+of transporting and storing hydrogen, it is crucial to integrate the           rates, the containment ability of sealing rocks to prevent CO₂
+design of hydrogen production with CO₂ utilization to ensure                   migration, geochemical and geomechanical stability, appropriate
+efﬁciency and feasibility (National Academies of Sciences,                     stratigraphy and reservoir depth, favourable geothermal and
+Engineering, and Medicine, 2023).                                              hydrodynamic conditions, and low seismic activity (Nunes and
+     Biermann et al. (2022) proposed a novel approach for                      Costa, 2021). Continuous monitoring of the post-operational
+integrating local heat sources in post-combustion CO₂ capture                  phase of CO₂ injection is also crucial. Based on the EU
+processes, enhancing abatement cost effectiveness. Their                       experience, most regulatory challenges are attributed to the
+methodology, based on multi-period linear optimization, aims to                geologic CO₂ storage component of the CCS chain, particularly
+identify an optimal mix of heat sources that minimizes costs or                in managing CO₂ geological storage risks and predicting and
+reduces external energy imports, considering the existing site’s               quantifying the costs of potential CO₂ leakage in long-term
+energy system capacity. This provides more realistic values                    liability scenarios (Rocha and Costa, 2021).
+compared to annually averaging, which can vary from 7% to 26%                      Enabling and expanding CO₂ utilization requires consideration
+and 9%–66% for higher costs and emissions respectively.                        of policies, regulations, equity, and environmental justice. The most
+     Regarding CO₂-based products, Christensen and Petrenko                    effective and efﬁcient policies for enabling CO₂ utilization would
+(2017) analysed four policy scenarios to assess synthetic fuel                 ensure that externalities from GHGs from all sources are considered
+production potentials under varying electricity source restrictions.           in the full cost of using the technology. Additionally, these policies
+They concluded that substantial production volumes are achievable              should incentivize knowledge creation and reduce costs and risks for
+only with subsidies ranging from 1.00 to 1.50 euros per litre,                 early adopters rather than subsidize speciﬁc technologies (National
+indicating that signiﬁcant policy support and energy cost are                  Academies of Sciences, Engineering, and Medicine, 2023).
+essential for the widespread adoption of power-to-liquids
+technologies (Zhou et al., 2022).
+                                                                               5 Prospective life cycle assessment
+4.3.4 Evaluation of overall supply chain
+     The holistic integration of CCS/CCU systems reveals signiﬁcant            5.1 LCA frameworks: Introduction and
+opportunities to reﬁne transport and storage cost estimations. In the          deﬁnitions
+United States, the existing infrastructure boasts 9,000 miles of
+pipelines dedicated primarily to CO₂ transportation, with 90%                       Heijungs and Frischknecht (1998) deﬁne Life Cycle Assessment
+utilized for EOR processes. This contrasts starkly with Europe,                as a “systematic method for evaluating the environmental impacts of
+where with lack of specialized CO₂ pipeline infrastructure in                  a product or system through all stages of its life cycle, from raw
+operation, however, around 40 dedicated transport projects have                material extraction through production, use, and disposal.” This
+been planned recently in the North Sea region (IEA, 2020). To                  comprehensive approach ensures that environmental impacts are
+effectively scale up CCS/CCU technologies, developing a versatile              not simply shifted from one stage or category to another.
+infrastructure capable of accommodating diverse CO₂ transport                  Traditionally, LCA studies have focused on analyzing well-
+methods is essential to manage large CO₂ volumes efﬁciently.                   established systems after they have been deﬁned, requiring
+     Roussanaly et al. (2021) criticized the oversimpliﬁcation of              extensive data on both background and foreground processes,
+transport and storage costs into a ﬁxed per-tonne charge. They                 and typically aligning the assessment time in the present
+proposed a more detailed approach considering factors such as CO₂              (Cucurachi et al., 2018). Notwithstanding the importance of the
+ﬂow rate, mode of transport, distance, and storage type, to derive             traditional LCA approach, a prospective element seems to be
+more accurate cost estimates. The National Energy Technology                   missing. Anticipating an improvement in system performance
+Laboratory (NETL, 2022) introduced a CO₂ transport cost model                  may be difﬁcult, at early stages of system design when applying
+to estimate the ﬁnancial aspects of pipeline transportation, enabling          changes is easy; however implementing potential improvements
+adjustments for various project-speciﬁc variables such as CO₂ mass             becomes difﬁcult and costly if the need for such change is
+ﬂow rate and pipeline length. The UK’s Department for Business,                apparent at later stages of system design (Collingridge, 1982).
+Energy, and Industrial Strategy (BEIS, 2018) provided cost estimates           This dilemma highlights the importance of adopting a strategic
+for shipping CO₂ to geological storage sites, factoring in the                 approach to capture the environmental implications of technologies
+complete infrastructure requirements of CO₂ shipping chains,                   during their early development phases by shifting the focus of the
+including liquefaction and temporary storage processes. Recently,              LCA study to a more distant future. Prospective LCA addresses this
+Oeuvray et al. (2024) published a comprehensive multi-criteria                 dilemma by intervening in the early growth phases when the
+assessment considering realistic CO₂ transport options including               technology’s environmental blueprint can still be meaningfully
+tank containers that can be transported by trucks, trains, barges, or          shaped and modelling background system scenarios, for instance,
+ships, dedicated tanks permanently integrated with different                   future energy systems (Arvidsson et al., 2018).
+transport modes or pipelines. Their analysis revealed that short-                   In Table 2, side-by-side comparison of various LCA
+term transport costs could soar above 200 EUR per ton of CO₂,                  methodologies is presented.
+
+
+
+Frontiers in Energy Research                                              12                                                           frontiersin.org
+
+
+PHYSICAL_PAGE 21
+Wang et al.                                                                                                            10.3389/fenrg.2024.1412770
+
+
+
+
+   • Deployment Gap and Policy Interventions: A signiﬁcant gap             the ﬁeld evolves, continuous improvement in modelling
+     exists between the current CCS/CCU deployment (400 Mt                 approaches and technology assessments will be crucial for
+     CO₂/year) and the Net Zero targets (1 Gt CO₂/year) by 2030.           informing policy decisions and guiding the global response to
+     Recent projected costs of DACCS cast doubt on achieving the           climate change.
+     $100/ton CO2 target. Effective and robust policy
+     interventions, particularly market-based policies, are crucial
+     for reducing costs, creating market demand, and accelerating          Author contributions
+     large-scale deployment.
+   • Comprehensive System and Life Cycle Evaluation: Prospective              PW: Conceptualization, Data Curation, Formal Analysis,
+     assessments must consider changes over time in both                   Methodology, Visualization, Writing–original draft. AJR:
+     background and foreground systems. A comprehensive life               Conceptualization,   Data    Curation,     Formal     Analysis,
+     cycle analysis framework is needed to evaluate cost reductions        Methodology, Visualization, Writing–original draft. SP:
+     and environmental impacts during the scaling-up of                    Conceptualization, Funding Acquisition, Resources, Supervision,
+     technologies.                                                         Writing–review and editing.
+   • Trade-offs within planetary boundaries: Integrating IAMs
+     with prospective assessments helps navigate trade-offs
+     between renewable energy sources, socioeconomic factors,              Funding
+     and resource availability, expanding the assessment to
+     include broader impact categories.                                        The author(s) declare that ﬁnancial support was received for the
+   • Technology        Superstructure    and      High-Resolution          research, authorship, and/or publication of this article. PW: TU
+     Assessments: Expanding the technology superstructure in               Wien global budget; AJR: Funded by the European Union. This
+     modeling to include various TRLs and conducting high-                 project has received funding from the European Union’s Horizon
+     resolution, regionalized assessments are vital for optimizing         Europe research and innovation programme under grant agreement
+     resource use and planning effective mitigation pathways.              No. 101075727.
+   • Carbon Circular Economy: Current IAMs inadequately
+     represent and integrate CO₂ utilization within a carbon
+     circular economy framework, highlighting the need for                 Acknowledgments
+     better incorporation of CCU.
+   • Open-Sourced and Flexible Tools: Adopting integrated tools                The authors would like to thank the participants of the GRC
+     like “Premise” and “PyPSA” that combine prospective                   Gordon Research Conference Carbon Capture, Utilization, and
+     assessments and enhanced IAMs enhances the transparency               Storage (2023), of the Autumn School of Open Approaches to
+     and applicability of assessments.                                     Time in LCA (2023).
+   • Data Uncertainties: Addressing data uncertainties and
+     reﬁning the integration of prospective assessment results
+     with IAMs can improve the credibility and impact of these             Conﬂict of interest
+     models on policy and IPCC reports, accelerating CCS/CCU
+     deployment.                                                               The authors declare that the research was conducted in the
+                                                                           absence of any commercial or ﬁnancial relationships that could be
+    This review indicates that there are still numerous challenges         construed as a potential conﬂict of interest.
+and limitations associated with applying prospective approaches to
+CCS/CCU technologies. Building a variety of consistent future
+scenarios of various likelihood is a complex, highly                       Publisher’s note
+interdisciplinary task. The different communities including
+IAMs, TEA, LCA (industry ecology), process system                              All claims expressed in this article are solely those of the authors
+engineering (PSE), experimental groups, stakeholders in both               and do not necessarily represent those of their afﬁliated
+research and industry, which should interact more closely to               organizations, or those of the publisher, the editors and the
+integrate multiple scales and develop the technologies needed to           reviewers. Any product that may be evaluated in this article, or
+achieve sustainable development. The effectiveness of these                claim that may be made by its manufacturer, is not guaranteed or
+scenarios is often constrained by the creativity of those who              endorsed by the publisher.
+devise them and the willingness of the audience to accept their
+plausibility. Capturing disruptive changes, such as technological
+breakthroughs, wars, climate tipping points, and unforeseeable             Author disclaimer
+events, ranges from difﬁcult to impossible. However, the objective
+in question does not revolve around predicting future outcomes                 Views and opinions expressed are however those of the
+but rather shaping them through a collaborative approach that              author(s) only and do not necessarily reﬂect those of the
+involves engaging stakeholders and informing policy decisions,             European Union or European Climate, Infrastructure and
+thereby actively inﬂuencing the course of technological                    Environment Executive Agency (CINEA). Neither the European
+advancement through strategic investment and innovation. As                Union nor the granting authority can be held responsible for them.
+
+
+
+Frontiers in Energy Research                                          21                                                             frontiersin.org

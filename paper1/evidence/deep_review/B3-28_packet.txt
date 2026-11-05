@@ -1,0 +1,184 @@
+Carbon dioxide liquefaction and transport optimization for marine carbon sequestration A comprehensive review
+
+PHYSICAL_PAGE 2
+M. Yang et al.                                                                                               Renewable and Sustainable Energy Reviews 235 (2026) 116945
+
+
+drive natural gas liquefaction while injecting CO2 for enhanced gas re­              liquefaction conditions, vessel selection, business models, and
+covery. Expanding on this, Kim et al. [20] integrated cryogenic CCUS                 cross-border regulation. It also emphasized persistent constraints,
+with power-to-gas technologies for net-zero CO2 economies. While both                including high energy consumption, limited economic viability, and the
+studies focus on cold energy synergy, Kim D et al. [19] examine con­                 absence of international regulations. Therefore, optimizing the lique­
+ventional LNG-CCS coupling, whereas Kim Y et al. [20] extend this                    faction and transportation processes not only helps reduce costs but also
+concept to renewable-driven systems. Both highlight the need for                     significantly enhances the economic viability of the system, particularly
+multi-objective optimization, pointing out the absence of a systematic               in transnational and deep-sea storage applications. However, it is
+review in oceanic CCS applications. In 1996, the Sleipner oil field in the           observed that existing research mainly focuses on single dimensions,
+Norwegian North Sea launched the world's first industrial-scale CO2                  such as the thermodynamic efficiency of liquefaction energy consump­
+geological storage project. This marked the transition of CCS technology             tion, economies of scale in transportation, or the impact of vessel design
+from proof-of-concept to practical application. A series of long-term                on costs, there is a lack of systematic review of the synergistic in­
+monitoring campaigns has verified stable storage, confirming the tech­               teractions and systemic coupling among these three factors. This rep­
+nology's practicality [21,22].                                                       resents a deficiency in current research and the significance of
+    However, achieving large-scale ocean sequestration requires more                 undertaking this study.
+than advances in capture and injection sections. In terms of capacity, a                  In conclusion, existing research on CO2 liquefaction and trans­
+single CO2 plume in deep saline aquifers can store several million tons of           portation has made positive advances in energy efficiency improve­
+CO2 [23]. Under typical geological sequestration conditions, CO2 is                  ments, transportation mode selection, and energy utilization. However,
+injected as a supercritical or liquid-like fluid. This state has a much              it still lacks a comprehensive and integrated approach. In the context of
+higher density than gaseous CO2, allowing a greater mass to be trans­                ocean carbon sequestration, the issue of multi-stage coordinated opti­
+ported and stored per unit volume of pore space [24,25]. As shown in                 mization has not been sufficiently explored.
+Fig. 1, the liquefaction and transportation of CO2 are the critical link
+between source capture and final storage. For long-distance, multi-na­               2. Thermodynamic fundamentals and engineering pathways for
+tional, and transoceanic situations, and for coastal or island regions               CO2 liquefaction
+lacking suitable geological conditions [26–28], the feasibility and eco­
+nomics of the system are determined by CO2 liquefaction and trans­                      In the research on the synergistic optimization of CO2 liquefaction
+portation. Previous studies have approached this topic from various                  and transportation systems, an in-depth analysis of the liquefaction
+perspectives, including optimization of liquefaction energy consump­                 process itself forms the basis for optimization studies. This chapter fo­
+tion, shipping technology and safety, as well as storage stability and               cuses on the thermodynamic principles and engineering pathways for
+environmental risks [29–31].                                                         CO2 liquefaction, emphasizing its thermodynamic properties. It sys­
+    Feng and Tatiana [32] evaluated the energy and economic aspects of               tematically illustrates the physical properties and phase characteristics
+CO2 liquefaction and the specific electricity demand was estimated to be             of CO2, providing a foundation for understanding and comparing the
+60-120 kWh/t CO2, exceeding that of capture and compression. Bennæs                  design principles, energy efficiency, and optimization potential of
+et al. [33] noted that at low-to-medium capture scales, shipping has                 various liquefaction cycle systems.
+higher economic feasibility than pipeline transportation due to its flex­
+ibility. However, as scale increases, the proportion of transportation
+costs in total cost decreases from about 22% to 10%. It indicates that the           2.1. Physical properties and phase characteristics of CO2
+transportation should be balanced with project scales. Vakili et al. [34]
+emphasize that capital expenditures for marine transportation, vessel                    CO2, as a common industrial by-product gas, has thermophysical
+design, and route planning are decisive for the economic viability of CCS            properties that play a crucial role in the design of liquefaction systems.
+projects, as they directly determine transport costs and efficiency. Cha             The triple point of CO2 occurs at approximately − 56.6 ◦ C and 5.18 bar,
+et al. [35] proposed a long-distance, large-scale CCS model based on                 while its critical point is at 31.1 ◦ C and 73.8 bar [36]. Fig. 2 clearly il­
+liquefied CO2 shipping from a holistic value chain perspective. The study            lustrates the phase transition behavior of CO2 at different temperatures
+systematically the determinants of system success. It examined                       and pressures, which is essential for the precise design of the liquefac­
+                                                                                     tion process. Li et al. [37] conducted a systematic evaluation of the
+
+
+
+
+                 Fig. 1. Simplified schematic diagram of the entire process: Carbon dioxide liquefaction, transportation, and ocean sequestration.
+
+                                                                                 2
+
+
+PHYSICAL_PAGE 14
+M. Yang et al.                                                                                              Renewable and Sustainable Energy Reviews 235 (2026) 116945
+
+
+batch injection at storage sites may still introduce 2-5 days of period­           conducting pilot-scale deployments on established maritime corridors to
+icity. SCO2 hydrate transport, if realized, could take 1-2 weeks due to            generate operational cost data for model validation. Regarding long-
+slower slurry formation but reduced injection preparation time. These              term reliability, material corrosion in CO2-rich environments and
+durations highlight the need for scheduling models that account for                structural longevity are still unquantified at commercial scale. Specific
+vessel cycles, weather constraints, and storage site capacity. Future              research directions include: (1) accelerated corrosion testing for candi­
+research should focus on dynamic scheduling and buffer storage opti­               date materials under realistic CO2-H2O impurity conditions; (2) inte­
+mization to address these operational challenges.                                  grating structural health monitoring systems on demonstration vessels
+    By comparing the advantages and disadvantages of the three CO2                 to establish predictive maintenance frameworks.
+transport methods in Table 2, it is clear that: LCO2 has become the                    Table 3 systematically summarizes the methodologies and primary
+central solution for large-scale, long-distance CCS chains due to its high         conclusions from relevant literature. Based on a comprehensive analysis
+transport density and energy efficiency. GCO2, with its high technical             of the literature listed in Table 3, current CO2 shipping technology is
+maturity (TRL 6-7) and simplified system, is suitable for short-to-                transitioning from short-term retrofits of existing LNG vessels to the
+medium-distance continuous pipeline transport but requires additional              development of purpose-built vessels for long-term applications.
+compression stations. SCO2, transported via hydrates or slurries, offers           Research indicates that modifying the temperature control systems and
+high safety and potential for cold energy utilization. However, its                piping of LNG carrier enables their rapid conversion into LCO2 transport
+development is constrained by technical challenges such as slow hydrate            platforms. However, the long-term operational sustainability and large-
+nucleation rates and low heat transfer efficiency, with its TRL currently          scale economic viability of such retrofitted systems remain subjects of
+at 5-6. LTLP-LCO2 is optimal for regions with established cryogenic                ongoing evaluation. The long-term corrosion resistance of materials in
+infrastructure and moderate-to-long distances; HPAT-GCO2 is suited for             CO2-rich environments and overall structural longevity are key chal­
+tropical ports with short offshore distances and existing LNG infra­               lenges, which collectively underscore the necessity of advancing dedi­
+structure; and SCO2 remains experimental, with potential for Arctic                cated CO2 carrier technology.
+applications. Future research should deepen in three key areas: First,                 As shown in Fig. 15, the subsea transfer system for tankers in­
+establish a systematic evaluation framework for determining the appli­             corporates various technical elements aimed at improving trans­
+cable boundaries of transport methods; Second, promote synergistic                 portation efficiency and stability. As transport scales expand and
+design between transport and energy recovery, particularly focusing on             voyages lengthen, core design challenges have shifted from technical
+cold energy utilization in liquid and solid systems and its coupling with          feasibility to ensuring safety and structural reliability during extended
+power generation and energy storage systems; Third, accelerate break­              operations. In this context, the integration of liquefaction processes with
+throughs in critical technologies such as hydrate formation and stability,         transport systems, along with the development of high-performance
+optimization of slurry rheological properties, and pipeline structural             materials for deep-sea environments, is central to advancing efficient
+design. Addressing these challenges will significantly enhance the effi­           and stable CO2 maritime transport. Additionally, the management and
+ciency and safety of CO2 transport systems, reduce costs, and provide              recovery of BOG emerge as a critical factor affecting the economics and
+more reliable technical assurance for the practical application of marine          safety of long-distance transport.
+CCS technologies.
+                                                                                   4.3. BOG (boil-off gas) management and recovery
+4.2. Design and operation of marine transportation systems
+                                                                                       During the CO2 transportation for ocean sequestration, the shipboard
+    With the advancement of CCS toward large-scale offshore applica­               liquefaction system generates cold losses and BOG. BOG primarily forms
+tions, the design and operation of liquid CO2 shipping systems have                when temperature fluctuations, vessel vibrations, and heat exchange
+become critical factors determining the energy efficiency and economic             during transport cause partial vaporization of liquid CO2, thereby
+viability of the entire chain. Existing research has explored avenues such         increasing the gas-phase pressure within the tanks [139]. Shipboard
+as LNG vessel retrofitting, specialized design, energy efficiency optimi­          reliquefaction systems stabilize pressure through compression, cooling,
+zation, and cold energy recovery. However, two critical gaps persist:              and energy recovery. Current research focuses on three strategies for
+insufficient full-chain techno-economic assessment of vessel options,              refrigeration energy supply: fuel-side cold energy recovery, optimized
+and lack of large-scale demonstration data validating long-term opera­             mixed refrigerant cycles, and power-reliquefaction integration. How­
+tional reliability.                                                                ever, these approaches involve distinct trade-offs between efficiency
+    Regarding techno-economic assessment, current studies compare                  gains and system complexity.Fuel-side cold energy utilization prioritizes
+retrofitting versus purpose-built options using isolated cost models,              energy recovery over external refrigeration, depending on the fuel type
+without accounting for transport distance, liquefaction energy demand,             and level of integration. Liquid ammonia is primarily applied through
+or storage site characteristics. Key research directions include: (1)              two principal technical pathways: one as a circulating refrigerant, and
+developing dynamic cost models that link vessel capital expenditure to             the other as a direct cooling source. In the liquid ammonia-driven
+regional infrastructure and route-specific operating profiles; (2)                 cooling route, Lu et al. [140] and Yiqun et al. [141] employed the
+
+Table 2
+Comparative analysis of three transportation methods.
+  Mode of            Phase State             Strengths                       Challenges and Limitations                  Applicable Scenarios
+  transportation
+
+  LCO2               Pure liquid CO2         ● High density                  ● Complex system                            large-scale and long-distance transportation
+                                             ● High energy efficiency        ● High energy consumption for
+                                                                               liquefaction
+                                                                             ● Strict temperature control requirements
+  GCO2               Dense-phase             ● Simple operating conditions   ● High energy consumption of booster        short-distance transportation with stable
+                     compressed CO2          ● Low cost                        stations                                  supply
+  SCO2               CO2 hydrate Or          ● High safety                   ● Slow nucleation rate                      small-to-medium-scale transportation with
+                     Hydrate slurry          ● Mild operating conditions     ● Low heat transfer efficiency              high safety requirements
+                                             ● Utilization of low-           ● Poor fluidity caused by non-Newtonian
+                                               temperature cold energy         rheological properties
+                                                                             ● Limited large-scale application
+
+
+                                                                              14
+
+
+PHYSICAL_PAGE 16
+M. Yang et al.                                                                                                Renewable and Sustainable Energy Reviews 235 (2026) 116945
+
+
+
+
+                                        Fig. 15. Subsea Transfer Tanker system designed for liquid CO2 transport [130].
+
+
+
+
+                                 Fig. 16. Variation in liquid ammonia utilization efficiency under shipboard conditions [140].
+
+
+                                                                                      decomposition protocols to enable comparative evaluation of fuel-side,
+                                                                                      MRC, and integrated systems under unified boundary conditions. Sec­
+                                                                                      ond, large-scale demonstration data are lacking. Long-term sea trials
+                                                                                      under variable ambient temperatures and load profiles are required to
+                                                                                      validate model predictions and calibrate control strategies for real-world
+                                                                                      maritime environments.
+
+
+                                                                                      4.4. Intelligent control and system-level operational optimization
+                                                                                      scheduling
+
+                                                                                          As the CO2 liquefaction process becomes more complex with
+                                                                                      increasing operational steps, traditional control methods that rely on
+                                                                                      fixed parameters and empirical rules struggle to manage load fluctua­
+                                                                                      tions and ship-shore coordination challenges. Recent research focuses on
+                                                                                      two complementary intelligent strategies: multi-objective optimization
+                                                                                      using evolutionary algorithms for system design, and AI-driven predic­
+                                                                                      tive control for dynamic operation.
+Fig. 17. Effect of LCO2 storage pressure on unit energy consumption of various            Multi-objective optimization at the design level prioritizes energy-
+reliquefaction systems [142].
+                                                                                      cost-efficiency trade-offs through evolutionary algorithms. NSGA-II
+                                                                                      emerges as the dominant methodological choice across diverse system
+integration achieves theoretical optima but faces operational stability               configurations. Sadni et al. [151] integrated NSGA-II with TOPSIS for
+challenges.                                                                           multiple organic Rankine cycle (ORC) configurations, identifying R290
+    However, two critical gaps persist. First, there is insufficient cross-           as optimal for energy-thermal efficiency balance. Jeong et al. [152]
+system techno-economic assessment. Current studies optimize isolated                  coupled NSGA-II with Aspen HYSYS to optimize a two-stage separation
+reliquefaction cycles without quantifying the trade-offs between                      with MRC process for re-liquefaction of nitrogen-containing BOG. The
+refrigeration energy savings, propulsion efficiency penalties, and safety             results demonstrated improvements in energy consumption per unit,
+system costs. Specific research directions include: (1) integrated vessel-            emissions, and economic performance. These studies demonstrate
+level energy models that couple propulsion, reliquefaction, and auxil­                NSGA-II's versatility in thermodynamic system optimization. However,
+iary loads to identify optimal operating modes across voyage profiles;                they differ in decision-making integration: Sadni uses TOPSIS for final
+(2) standardized special energy consumption metrics and energy loss                   selection, while Jeong relies on direct Pareto analysis. Costa et al. [153]
+
+                                                                                 16

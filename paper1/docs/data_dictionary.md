@@ -7,7 +7,7 @@ All CSV files are UTF-8. `pdf_page` is a physical 1-based PDF page, including fr
 - `new_batch_values.csv`: 193 new atomic records from B4. Contains value ID, source, original unit, page/table, scenario, evidence type, boundary, transfer limits and source locator excerpt.
 - `curated_values.csv`: 250 atomic located quantities, overlapping the broad ledger. `ACCEPTED_FOR_STATED_CONTEXT` means usable only with the stated boundary. `HOLD_CONFLICT` prevents calculation with inconsistent source values.
 - `analysis_inputs.csv`: 134-row exact subset of curated values. Every registered row is used. `group` selects a defined calculation or reported output. No context-only value enters the model.
-- `issues.csv`: 49 source/interpretation issues, including a partly closed supplement-availability issue, with handling instructions. A source token match does not resolve an issue.
+- `issues.csv`: 55 source/interpretation issues, including a partly closed supplement-availability issue, with handling instructions. A source token match does not resolve an issue.
 - `proposal_claim_audit.csv`: original 14 proposed references linked to supplied primary PDFs, with corrections. This is a claim audit, not endorsement of novelty.
 - `calculated_results.csv`: 49 derived rows and 75 directly transcribed published fleet outputs. `input_ids`, `equation`, units and boundary are explicit. `Rxxx` is an output ID, not an empirical observation.
 
@@ -54,3 +54,29 @@ The allowance is injected-mass difference minus inventoried active ship-combusti
 - `ibdp_bag_checksum_audit.csv`: payload/tag checks for supplied SHA256/SHA512 manifests.27/31 payload matches are partial validation; four oversized reports remain absent. IBDP terms and attribution are retained with the originals.
 
 The original1,642-record literature ledger stays stable. Dedicated input/factor tables overlap source records and must not be summed into a count of independent data. Raw cell preservation, curated extraction, derived results and analyst conventions remain separate.
+
+## Japanese case-evidence intake
+
+`dataset7_manifest.json` and `dataset7_catalogue.csv` identify26 uploads,25 retained files,17 PDFs/1,186 indexed pages and the unavailable oversized IBDP ZIP. `case_numeric_values.csv` contains420 located quantities, including180 coordinate-located monthly/cumulative cells,8 fiscal cells and overlapping component/test records. These are not420 independent observations. Dedicated registers remain separate from the original1,642-record ledger.
+
+`tomakomai_monthly_history.csv` preserves printed strings and exact10^4t conversion for45 months; cumulative/formation/combined series are not reconciled silently. `tomakomai_shutin_tests.csv` distinguishes local-clock dates, measurement duration, elapsed window, prior average rate and cause; the final ongoing window is empty. `tomakomai_falloff_reference.csv` contains nine source-inferred effective-property cases. `tomakomai_completion_scenarios.csv` preserves conditional completion-policy capacities, not annual rates or adopted probabilities. `tomakomai_history_audit.csv` reports rather than removes rounding/source differences.
+
+`japan_company_emissions.csv` contains225 category/year cells,108 numeric; missing reports stay missing. `japan_facility_candidates.csv` has78 reporting-year records without automatic site merging or conversion of total GHG into capture supply. The identity audit prevents joining ENEOS additional information to Nippon Steel metadata. `cppi_port_reference.csv` preserves424 nonempty port-name rows; container indices/berth shares are not absolute CO2-terminal delays. D7-07 native cells are an additional8,008 raw cells, separate from the earlier17-workbook archive.
+
+`northern_lights_components.csv` retains25 numeric and31 blank activity cells. `case_evidence_calculations.csv` has8 derived checks; `northern_lights_storage_proxy_comparisons.csv` has100 optional average-storage-burden transfers with null full-LCA results. Captured-source fugitives/aggregate shipping are not added to the existing ship-fuel model. All reference scope, phase, horizon and GWP differences remain explicit in the case review.
+
+## Follow-up full-text review and component checks
+
+`deep_review_cards.json` contains 44 manually written reading cards with actual reviewed physical pages, methods, findings, transfer limits and located candidate quantities. `prepare_deep_review.py` creates navigation packets only; `finalize_deep_review.py` checks the manual cards before updating the catalogue/digest. All 92 unique publications now have targeted full-text review, with zero abstract-only. This is selected-passages review, not exhaustive numerical/supplement extraction.
+
+`deep_review_values.csv` has 140 located records, overlapping source evidence rather than extending a count of independent observations. Eighteen accepted entries form `limitation_benchmark_inputs.csv`: two for a paired MEA utility reference and 16 for within-source benchmarks. The other 122 remain context/HOLD. `limitation_benchmark_results.csv` gives eight within-source calculations, preserving fault-pressure-increase and volumetric boundaries. `deep_capture_reference_case.csv` pairs heat/electricity from the same MEA case; `MEA_reference_comparisons.csv` has ten replacement-utility sensitivities with blank full-LCA results.
+
+`property_check_inputs.csv` locates the printed temperature, pressure and conflicting density quantities. `property_consistency.csv` gives two independent pure-fluid EOS calculations under explicit pressure-reference interpretations. They are model results, not additional measurements. `property_consistency_summary.json` records CoolProp/EOS version and provenance; `property_fleet_sensitivity.csv` checks all 75 fleet counts without replacing original source inputs.
+
+## Shared-source mixed benchmark
+
+`mixed_model_conventions.json` declares the common 1 Mt/y source class, disjoint reservoir groups, route distances, objective, source topology and missing terms. These structural choices are not extracted observations. `mixed_reservoir_plans.csv` contains 2,880 planned reservoir/year flows with resource/readiness/exogenous allocation envelopes; `mixed_trip_plans.csv` contains 720 integer route/year voyage/cargo/fuel records. `mixed_solver_audit.csv` has 12 annual MILP results. A zero reported solver gap concerns only the stated annual surrogate objective.
+
+`mixed_operational_comparisons.csv` has 72 fixed-plan operating reevaluations; `mixed_operational_annual.csv` has 2,160 annual rows. Common-source conservation, ending inventory, active hours and null complete-LCA outputs are explicit. Route source shares are constant within each nominal year and sum to no more than the common potential; blocked unused shares are not adaptively reassigned. Dedicated export/receiving berths are a declared topology. `dispatch_policy_controls.csv` gives 18 additional original-design checks under three rules, not observations or proof of optimal dispatch. Full specification: [mixed allocation](mixed_allocation.md).
+
+The workbook is a display copy of CSV registers. XML-prohibited control codes introduced by PDF font extraction are removed from workbook text only; the original PDF and UTF-8 CSV excerpts remain unchanged. Formula-like text is escaped in the workbook.

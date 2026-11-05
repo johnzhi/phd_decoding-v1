@@ -1,0 +1,230 @@
+Multiperiod strategic planning of CO2 capture, transport, utilization and storage with multimodal transportation
+
+PHYSICAL_PAGE 2
+E. Ayotte-Sauvé et al.                                                                                      Computers and Chemical Engineering 206 (2026) 109525
+
+
+taking into account the heterogeneous landscape of industrial emission           source-sink matching present in other models. To handle large scale case
+sources across the country. Moreover, existing infrastructure and                studies, a simple heuristic algorithm is proposed to lower calculation
+geographical features must be factored in the analysis. This includes            times while yielding high quality solutions. The features of the proposed
+diverse geology, topography, waterways, protected lands (wildlife, First         model and algorithm are highlighted on an illustrative case study for
+Nations), population density, as well as existing infrastructure (e.g.           Eastern Canada.
+roads, railroads, electrical grid, oil & gas pipelines).                             This paper is organized as follows. The next section provides an
+    Expanding CCUS infrastructure over time will presumably imply an             overview of the scientific literature on multiperiod strategic planning
+increase in the CO2 volumes to be captured, transported and seques­              models for CCUS. We then summarize the scope and highlight the
+tered. On the transportation side, pipelines are often favoured to               contributions of the present study. In Section 3, the problem addressed is
+transport large volumes of CO2 via trunklines to benefit from economies          detailed and the mathematical formulation proposed is described. Sec­
+of scale. However, pipeline development typically takes years to com­            tion 4 describes the proposed heuristic algorithm and Section 5 presents
+plete and the trade-off between building excess pipeline capacity in             an illustrative Eastern Canada case study. Optimization results are then
+advance versus adding capacity gradually (e.g. via parallel lines) must          analyzed. Concluding remarks and avenues for future work are identi­
+be evaluated. For new pipelines, CO2 can be transported in supercritical         fied in Section 6.
+phase due to its economically desirable fluid properties (e.g. high den­
+sity, low viscosity) and acceptable corrosion rates (IPCC, 2005). How­           2. Literature overview and contribution
+ever, this mode of transport requires rigorous safety assessments and
+compliance with evolving regulatory standards, particularly in or near           2.1. Literature overview: modelling
+populated areas. Based on a recent inquiry of pipeline operators
+(Cauchois et al., 2021), gas phase CO2 may be favoured for CO2 trans­                Over the years, various optimization models have been developed for
+portation via repurposed oil and gas pipelines within safe operating             the strategic planning of CCUS value chains. For an in-depth review of
+pressure ranges.                                                                 the topic, the reader is referred to Zhang et al. (2022) and Tapia et al.
+    Vehicle transportation of liquid CO2 on railcars, ships and trucks           (2018). For a short overview of national scale ship and pipeline studies,
+offers a means of moving smaller volumes. In particular, vehicles can be         see d’Amore et al. (2021b). For a treatment of pipeline-specific CCUS
+used to adapt to the ramp-up phase of transport volumes while pipelines          value chain modelling, see Homsi et al. (2025). We complement these
+are being built, or when pipeline economies of scale are insufficient and        reviews by focusing on models that include multimodal transportation.
+pressurization costs are prohibitive. Vehicles can also enhance network          At a high level, CCUS strategic planning models consider the temporal
+robustness by providing a backup transportation means in the event of            evolution of decisions in one of two ways, either by considering the time
+temporary pipeline link failures, e.g. unplanned maintenance (Gabrielli          horizon as one static block (single period models), or by decomposing it
+et al., 2022). They can be a viable alternative to pipelines depending on        in a finite set of time periods (multiperiod models). Single period
+existing transport infrastructure (e.g. railways, roads) as well as on the       planning models can offshoot costs by more than 50 % (Middleton et al.,
+distances and volumes involved. In particular, for inland emitters               2012). As a consequence, this literature overview centers on multiperiod
+located far from existing or planned pipeline trunklines, existing rail          models. Approaches to this problem can be partitioned into two cate­
+networks can offer a cost-effective substitute to pipelines when only            gories: those that are geographically approximate (Han and Lee, 2011a)
+small railway extensions (spurs) are necessary to reach the appropriate          and those that are geographically explicit (Middleton et al., 2020) in
+sites. Compared to rail transportation, trucks can cover shorter distances       their transportation routing plans. Only a minority of modeling frame­
+and transport smaller volumes. For transportation to offshore injection          works fall into the latter category. In order to instantiate what will be
+sites or to intermediate floating storage platforms (FSI), ships can be an       referred to as geographically explicit models, a candidate pipeline
+economically viable alternative to offshore pipelines when distances are         network encapsulating promising pipeline routes is determined before
+above a certain threshold (e.g. 500-1000 km), determined by a ship’s             carrying out the numerical optimization. These potential pipeline paths
+tank pressure and the flow rate involved (IEAGHG, 2020; Baroudi et al.,          can be generated by first rasterizing the geographical features of the
+2021). Transitioning from liquid phase transport in vehicles to super­           region of interest (Hoover et al., 2020). A cost is then associated to each
+critical (or gas) phase pipelines (and vice versa) involves state change         possible pipeline path by associating a weight factor to each
+processes (e.g. liquefaction, heating-compression, (re)conditioning,             geographical feature, while also considering the orientation of pipeline
+depressurization). Since vehicle transport is inherently batchwise and           segments passing through the center of each raster cell. A candidate
+pipeline flow is continuous, transshipment from one to the other re­             pipeline network can then be generated by calculating least-cost paths
+quires buffer storage (i.e., temporary tanks). For a comparison of CO2           (e.g. via Dijkstra’s algorithm) for each source-sink pair, or more effi­
+transport modes in terms of their technology readiness level, contrib­           ciently, for each pair of adjacent nodes in a Delaunay triangulation
+uting cost factors and other considerations, the reader is referred to           (Middleton and Bielicki, 2009; Morbee et al., 2012). In this work, we
+Galeazzi et al. (2023).                                                          designate as “geographically explicit” the approaches that include such
+    To be an impactful carbon management measure, the pace of CCUS               candidate pipeline networks as well as precise shipping routes, roads
+implementation in Canada and elsewhere must accelerate (Lane et al.,             and railroads. Other approaches are termed “geographically
+2021). To support this effort, numerical optimization models provide a           approximate”.
+comprehensive view of the trade-offs involved. These include the in­                 In the context of CCUS investigations in Korea, the research team at
+fluence of policy measures (e.g. carbon pricing, subsidies) on attaining         POSTECH proposed multiple optimization models over the years. Han
+CO2 capture targets and costs, as well as the impact of risk and uncer­          and Lee (2011a) introduced a single period MILP model with pipeline,
+tainty (e.g. geological uncertainty, environmental risk), the latter which       ship, rail and truck transportation. With no explicit transportation
+is not covered in this work.                                                     network or routing, this model pairs geographical regions using average
+    The present study introduces a new multiperiod mixed-integer linear          distances. The authors apply a superstructure including various types of
+programming (MILP) model for the strategic planning of CCUS,                     capture technologies and industries to four geographical regions, three
+including transportation by pipelines, ships, trains and trucks. This            geological storage areas and two utilization regions, each with multiple
+model constitutes the core of the strategic planning tool in Natural Re­         technological options. This model is extended to a multiperiod context
+sources Canada’s (NRCan) National CCUS Assessment Framework                      in Han et al. (2012) and tested on a modified version of the case study
+(NCAF), a decision support platform for the strategic planning of large-         originally introduced in Han and Lee (2011a) with four 5-year time
+scale CCUS projects in Canada (Symonds et al., 2025). It includes                periods from 2011 to 2030. In Han and Lee (2011b), the authors put
+geographically explicit pipeline network design, as opposed to direct            forward a 2-stage stochastic programming version of their single period
+
+                                                                             2
+
+
+PHYSICAL_PAGE 22
+E. Ayotte-Sauvé et al.                                                                                            Computers and Chemical Engineering 206 (2026) 109525
+
+
+     Ngas : Set of (k,i,j,c) in K × I × I × C such that gas pipeline arc k going from i to j admits capacity trend c
+     Nsup : Set of (k,i,j,c) in K × I × I × C such that supercritical pipeline arc k going from i to j admits capacity trend c
+     NV : Set of (k,i,j,v) in K × I × I × V such that arc k going from i to j admits vehicles of type v (shipping routes, roads or railroads)
+     M: Set of CO2 capture units. The term "capture unit" refers to "emitting process + capture + purification + compression + drying" IM : Set of tuples
+(i, m) ∈ Ie × M where capture unit m is located at emitter site i in Ie
+      gas
+     IM : Set of tuples (i, m) ∈ IM for which m is a capture unit with gas CO2 output
+      sup
+     IM   : Set of tuples (i, m) ∈ IM for which m is a capture unit with supercritical CO2 output
+     liq
+    IM   : Set of tuples (i, m) ∈ IM for which m is a capture unit with liquid CO2 output
+    Ieq : Set of tuples (i, iʹ) ∈ (I\Imix ) × (I\Imix ) for which yi,h = yiʹ,h , ∀h ∈ H
+    Ileq : Set of tuples (i, iʹ) ∈ (I\Imix ) × (I\Imix ) for which yi,h ≤ yiʹ,h , ∀h ∈ H
+    Ior : Set of tuples (i, iʹ) ∈ (I\Imix ) × (I\Imix ) for which the sum of yi,h + yiʹ,h over all h in H is at most 1, i.e. at most one site between i and i’ can be
+selected over the whole time horizon
+    Parameters
+    Oh : Duration of time period h (year)
+    Qmax
+       k,c : Maximal annual capacity of a pipeline with trend c (i.e. linear piece c) built on arc k (Mtonnes/year)
+    Qrtk : Maximal flow of CO2 on new rail or new road k (Mtonnes/year)
+    Qei,m,h : Maximal annual CO2 capture capacity of unit m at emitter site i in Ie during period h (Mtonnes/year)
+      g
+    Qi,h : Maximal annual injection rate (i.e. injectivity) of reservoir at geological site i during period h
+    (Mtonnes/year)
+    Qres
+     i : Lifetime capacity of reservoir site i (Mtonnes)
+    Qliq                                                  liq        liq
+     i : Maximal value for the sum of intermediate flows x1,i,h and x2,i,h at inland site I, big-M constant (Mtonnes/year)
+      gas                                          gas
+    Qi : Maximal value of intermediate flow x1,i at site I, big-M constant (Mtonnes/year)
+    Qsup
+     i   : Maximal value of intermediate flow xsup
+                                               1,i + 1i∕
+                                                               sup
+                                                       ∈Igsea x2,i at site I, big-M constant (Mtonnes/year)
+
+    Qload
+     i,v : Maximal tons per year of CO2 loaded on all vehicles of type v at site i, big-M constant (Mtonnes/year)
+    Qunload
+     i,v,h : Maximal tons per year of CO2 unloaded from all vehicles of type v at site i during period h, big-M constant (Mtonnes/year)
+
+    ̃ load : Loading rate of a single vehicle of type v at site i, loading a single full cargo (Mtonnes/year)
+    Q i,v
+
+    ̃ unload : Unloading rate of a single vehicle of type v at site i, unloading a single full cargo (Mtonnes/year)
+    Q i,v
+
+    ̃ dir : Unloading rate of a single injection ship of type v for direct injection at site i during period h, unloading a single full cargo (Mtonnes/year)
+    Q i,v,h
+
+    ̃ ind : Unloading rate of a single ship of type v to an FSI at site I, unloading a single full cargo (Mtonnes/year)
+    Q i,v
+   Qcap
+      v    : Cargo capacity of a vehicle of type v (Mtonnes)
+   δk : Length of arc k (km)
+   σ k,v : Average speed of a vehicle of type v on arc k (km/year)
+   τmax
+    v      : Maximal proportion of a year a vehicle of type v is active, i.e. 1 - proportion of a year this vehicle must be inactive, τmax
+                                                                                                                                        v  ∈ [0, 1]. For ships,
+berth time between trips is counted as active time (year/vehicle)
+   τberth
+    i,v : Proportion of a year a ship of type v is berthed at site i before a single trip; τi,v
+                                                                                                 berth
+                                                                                                       ∈ [0, 1] This excludes loading-unloading and planned
+downtime in a year where ships must remain inactive (year/trip)
+    μζξ,i : For state change process from state ξ to state ζ, ratio of outlet CO2 flow over inlet CO2 flow. In the interval]0,1]. ξ= gas, liq, sup; ζ = gas, liq,
+sup, dir, ind, res (-)
+   VCpk,c,h : Variable cost for pipeline arc k of capacity c during period h ($/tonne)
+    FCpk,c,h : Fixed cost for pipeline arc k of capacity c during period h (M$)
+    FCok,v,h : Fixed costs (OPEX and CAPEX) proportional to the annual number of vehicle trips of a given type v along a route k during period h (M
+$/trip)
+   FCrst
+      v,h : Fixed cost proportional to the number of vehicles of type v during period h. This excludes fixed costs (e.g. capital) for new vehicles, see
+FCnew
+  v,h (M$/vehicle)
+    FCnew
+      v,h : Fixed cost proportional to the number of new vehicles of type v purchased during period h (M$/vehicle)
+    FCrtk,h : Fixed cost for building a rail spur or road on arc k during period h (M$)
+    VCrst
+      k,v,h : Variable costs (OPEX and CAPEX) proportional to the annual CO2 tonnage transported by a fleet of vehicles of a given type v on a given
+route k during period h ($/tonne)
+   VCtime
+      v,h : Variable costs (OPEX and CAPEX) proportional to the cumulative period of activity (in years) of the fleet of vehicles of type v during period
+h (M$/year)
+   VCload
+     i,v,h : Variable loading cost at site i for vehicles of type v during period h ($/tonne)
+    VCunload
+      i,v,h  : Variable unloading cost at site i for vehicles of type v during period h ($/tonne)
+    FCei,m,h : Fixed cost for capture unit m at site i during period h (M$)
+    VCei,m,h : Variable cost for capture unit m at site i during period h ($/tonne)
+          g
+    FCi,h : Fixed cost for opening geological site i during period h (M$)
+          g
+    VCi,h : Variable cost for injecting CO2 from pipelines at geological site during period h ($/tonne)
+    VCdir
+      i,h : Variable cost for direct injection from ships at offshore reservoir i during period h, excludes conditioning ($/tonne)
+
+
+
+                                                                                 22
+
+
+PHYSICAL_PAGE 27
+E. Ayotte-Sauvé et al.                                                                                                                 Computers and Chemical Engineering 206 (2026) 109525
+
+Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic model             Seo, Y., Lee, S., Kim, J., Huh, C., Chang, D., 2017. Determination of optimal volume of
+    for optimally phasing in CO2 capture and storage infrastructure. Environ. Model.                    temporary storage tanks in a ship-based carbon capture and storage (CCS) chain
+    Softw. 37, 193–205. https://doi.org/10.1016/j.envsoft.2012.04.003.                                  using life cycle cost (LCC) including unavailability cost. Int. J. Greenh. Gas Control
+Middleton, R.S., 2013. A new optimization approach to energy network modeling:                          64, 11–22. https://doi.org/10.1016/j.ijggc.2017.06.017.
+    anthropogenic CO2 capture coupled with enhanced oil recovery. Int. J. Energy Res.               Smit, S., Hyslop, C., Lang, J., Hans, F., Kuramochi, T., Hale, T., Manya-Gutierrez, D.C.,
+    37, 1794–1810. https://doi.org/10.1002/er.2993.                                                     Schubert, S., Straub, S., Fraser, E., Dossi, F., Salsabila, N., Green, F., Hay, N., Hsu A.,
+Middleton, R.S., Yaw, S., 2018. The cost of getting CCS wrong: uncertainty,                             Smith, S. 2024. Net zero tracker (2024) net zero stocktake 2024: NewClimate
+    infrastructure design, and stranded CO2. Int. J. Greenh. Gas Control 70, 1–11.                      institute, Oxford Net Zero, Energy and Climate Intelligence Unit and Data-Driven
+    https://doi.org/10.1016/j.ijggc.2017.12.011.                                                        EnviroLab. https://netzeroclimate.org/wp-content/uploads/2024/09/Net_Zero_St
+Middleton, R.S., Yaw, S.P., Hoover, B.A., Ellett, K.M., 2020. SimCCS: an open-source tool               ocktake_2024.pdf/(accessed 22 Aug 2025).
+    for optimizing CO2 capture, transport, and storage infrastructure. Environ. Model.              Symonds, R., Shokrollahi, M., Hughes, R., Navarri, P., Modler, R., 2025. Systematic
+    Softw. 124, 104560. https://doi.org/10.1016/j.envsoft.2019.104560.                                  approach to the design, modeling, and techno-economic-environmental analysis of
+Morbee, J., Serpa, J., Tzimas, E., 2012. Optimised deployment of a European CO2                         CO2 capture technologies as part of the National CCUS assessment framework
+    transport network. Int. J. Greenh. Gas Control 7, 48–61. https://doi.org/10.1016/j.                 (NCAF). Carbon Capture Sci. Technol. 16, 100439. https://doi.org/10.1016/j.
+    ijggc.2011.11.011.Joris.                                                                            ccst.2025.100439.
+Vandeginste, V., Piessens, K., 2008. Pipeline design for a least-cost router application for        Talsma, C., Middleton, E., Middleton, R., 2022. CostMAP PRO: addressing the massive
+    CO₂ transport in the CO₂ sequestration cycle. Int. J. Greenh. Gas Control 2, 571–581.               scale CO2 pipeline challenge. In: Proc. GHGT-16. https://doi.org/10.2139/
+    https://doi.org/10.1016/j.ijggc.2008.02.001.                                                        ssrn.4273192.
+Morgan, D., Guinan, A., Sheriff, A., 2023. FECM/NETL CO2 Transport Cost Model (2023):               Tapia, J.F.D., Lee, J.Y., Ooi, R.E., Foo, D.C., Tan, R.R., 2018. A review of optimization
+    Description and User’s Manual. National Energy Technology Laboratory. https://doi.                  and decision-making models for the planning of CO2 capture, utilization and storage
+    org/10.2172/1992905. DOE/NETL-2023/4385.                                                            (CCUS) systems. Sustain. Prod. Consum. 13, 1–15. https://doi.org/10.1016/j.
+Nam, H., Lee, T., Lee, J., Lee, J., Chung, H., 2013. Design of carrier-based offshore CCS               spc.2017.10.001.
+    system: plant location and fleet assignment. Int. J. Greenh. Gas Control 12, 220–230.           U.S. Department of Transportation, Bureau of Transportation Statistics, 2023. Navigable
+    https://doi.org/10.1016/j.ijggc.2012.10.002.                                                        waterway network lines. https://geodata.bts.gov/datasets/usdot::navigable-wate
+Nakazawa, N., Kikuchi, K., Ishii, K., Yamaguchi, T., Ohta, M., Ozaki, M., 2013. Ship-                   rway-network-lines/(accessed 22 Aug 2025).
+    based CO2 injection into subseabed geological formations using a flexible riser pipe            Whitman, C., Yaw, S., Hoover, B., Middleton, R., 2022. Scalable algorithms for designing
+    pickup system. Energy Procedia 37, 3176–3183. https://doi.org/10.1016/j.                            CO2 capture and storage infrastructure. Optim. Eng. 23, 1057–1083. https://doi.
+    egypro.2013.06.204.                                                                                 org/10.1007/s11081-021-09621-3.
+Canada, Natural Resources, 2021. CanVec - Transportation - Railway (1:50,000).                      Yoo, B.C., 2013. Development of CO2 terminal and CO2 carrier for future commercialized
+    Government of Canada open data portal. https://open.canada.ca/data/en/dataset/                      CCS market. Int. J. Greenh. Gas Control 12, 323–332. https://doi.org/10.1016/j.
+    2dac78ba-8543-48a6-8f07-faeef56f9895/ accessed 22 Aug 2025.                                         ijggc.2012.11.008.
+Nie, Z., Korre, A., Durucan, S., Zhang, Y., Fraga, D., 2021. Techno-economic portfolio              Zhang, K., Lau, H.C., Chen, Z., 2023. The contribution of carbon capture and storage to
+    assessment and optimisation tool for CO2 transport and storage and guidelines for                   Canada’s net-zero plan. J. Clean. Prod 404, 136901. https://doi.org/10.1016/j.
+    the development of flexible CCS networks, ALIGN-CCUS D2.4.1 and D2.4.2.                             jclepro.2023.136901.
+Pamidighantam, S., Wang, J., Christie, M., Abeysinghe, E., Ellett, K., Kammer, R.,                  Zhang, X., Li, K., Wei, N., Li, Z., Fan, J.L., 2022. Advances, challenges, and perspectives
+    Yaw, S., Middleton, R., Hoover, B., 2020. A science gateway for simulating the                      for CCS source-sink matching models under carbon neutrality target. Carbon
+    economics of carbon sequestration technologies: SimCCS2.0: PEARC20: practice and                    Neutral. 1. https://doi.org/10.1007/s43979-022-00007-7.
+    experience in advanced research computing. In: ACM Proceedings, pp. 262–269.                    Zhou, C., Liu, P., Li, Z., 2014. A superstructure-based mixed-integer programming
+    https://doi.org/10.1145/3311790.3396654.                                                            approach to optimal design of pipeline network for large-scale CO2 transport. AIChE
+                                                                                                        J 60, 2442–2461. https://doi.org/10.1002/aic.14436.
+
+
+
+
+                                                                                               27

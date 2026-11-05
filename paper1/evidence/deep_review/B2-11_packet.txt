@@ -1,0 +1,216 @@
+A techno-economic assessment of CO2 capture in biomass and waste-fired combined heat and power plants – A Swedish case study
+
+PHYSICAL_PAGE 2
+J. Beiron et al.                                                                                      International Journal of Greenhouse Gas Control 118 (2022) 103684
+
+
+                                                                                   impact on the operation of DH networks; and (iii) the national level,
+    Nomenclature                                                                   aggregating the carbon captured from all DH systems in Sweden for
+                                                                                   comparison with proposed national targets. In addition, the cost for
+    BECCS          bio-energy carbon capture and storage                           carbon capture and local transport is estimated, considering scale effects
+    CAPEX          capital expenditures                                            and the geographic distribution of plants, and is expressed as a marginal
+    CCS            carbon capture and storage                                      abatement cost curve for the plants included in this work.
+    CHP            combined heat and power
+    CO2            carbon dioxide                                                  2. Method
+    COP            coefficient of performance
+    DH             district heating                                                    The techno-economic assessment of and potential for CCS from CHP
+    FGC            flue gas condenser                                              plants in Sweden is based on a set of models, as illustrated in Fig. 1. A
+    HOB            heat-only boiler                                                process model provides the CHP steam cycle performance when driving
+    HPFWH          high-pressure feedwater preheater                               an MEA-based CO2 absorption unit, for a set of CHP plant case studies.
+    LHV            lower heating value                                             The energy demands of the capture plant are calculated using the carbon
+    LPFWH          low-pressure feedwater preheater                                capture plant model of Ignell and Johansson (2021). The modeled
+    MEA            monoethanolamine                                                process performances are used as inputs to the DH system unit
+    OPEX           operational expenditures                                        commitment model, which assesses the impact on CHP plant operating
+                                                                                   patterns of integrating carbon capture, including full-load hours and
+                                                                                   carbon capture potential. The unit commitment analysis is applied to all
+                                                                                   CHP plants in Sweden (biomass and waste-fired) in their respective local
+economic incentives are in place, it should be possible to establish               DH system contexts, based on a CHP plant database. Finally, applying
+full-scale projects within a few years, as the post-combustion carbon              the process and system model results, an estimation is made of the
+capture technology can be seen as commercially available. The Stock­               capital and operational expenditures of carbon capture, as well as the
+holm utility company Stockholm Exergi targets year 2025 for full-scale             costs for CO2 truck transport to an intermediate storage hub, in prepa­
+implementation of CCS in their newest biomass-fired CHP plant. In the              ration for onward ship transport and final storage. Based on the cost
+abovementioned public inquiry, it was proposed to establish a reversed             estimates, a marginal abatement cost curve for CHP plants with CCS is
+governmental auctioning system to finance the ramping up of BECCS to               developed. The following subsections describe the Swedish CHP plant
+meet the 2030 target. In addition to policy-driven incentives, there is an         portfolio, the modeling methods applied, and the economic assumptions
+emerging voluntary market for negative emissions, whereby several                  made in relation to the cost estimations.
+companies have declared that they will offset their emissions, in some
+cases also including historical emissions, as announced by Microsoft (             2.1. CHP plant database
+Smith, 2020). BECCS should be attractive for such a compensation
+program, owing to the high permeance of the CO2 removal (i.e.,                         The CHP plant database contains information on all the Swedish CHP
+long-term carbon storage of 100-1000 years).                                       plants that combust biomass or waste (110 plants in total), located in 78
+    In previous studies, the global potential for municipal solid waste to         geographically distributed local DH systems. The data encompass
+contribute to BECCS has been estimated (Pour et al., 2018), along with a           nominal CHP plant heat and electricity production capacities, flue gas
+techno-economic screening of biomass-based power generation with                   condenser installations, live steam conditions and year of commis­
+BECCS (Bhave et al., 2017). Magnanelli et al. (2021) studied options for           sioning. Fig. 2 presents the distributions of steam cycle power-to-heat
+the design and operation of carbon capture integrated in a                         ratios, thermal capacity, and fuel type for all the plants in the data­
+waste-to-energy plant. The energy penalty of hot potassium carbonate               base. The fuel is here divided into biomass (typically residues from the
+capture technology applied to a biomass-fired CHP plant was quantified             forest industry) and waste, (municipal solid waste, a certain fraction of
+(Gustafsson et al., 2021). However, there are few previous studies on              which is fossil-based in the form of plastics). The thermal capacities of
+BECCS applied specifically to CHP plants or the implications for DH                the boilers range from 7 MW to 540 MW, and the steam cycles have
+systems of retrofitting CHP plants with CCS.                                       power-to-heat ratios in the range of 0.1–0.65. Thus, there is a wide va­
+    A particular challenge for applying BECCS at CHP plants is that they           riety of plant types with differing designs, examples of which are given
+have fewer full-load hours than large coal-fired, base-load power plants           in Section 2.2. Although it may seem obvious that the application of CCS
+and industrial units, the exception being waste-fired CHP plants, which            in the smaller plants (with capacities down to around 10 MW included in
+typically have a high number of full-load hours. This will cause the in­           this study) will be associated with higher costs, all the plants are
+vestment cost to be allocated to a lower number of hours, thereby                  included so as to assess the entire cost range for CCS. Details of the
+driving up the capture cost. As CHP plants are also typically smaller in           database are available in the Supplementary Material.
+size than power plants, this also increases the specific capture cost due to
+a lower economy of scale for both the capture and transport logistics.             2.2. Process modeling of CHP steam cycles with carbon capture
+Despite the favorable conditions for BECCS in the Swedish DH system,
+the cost range for capture in the available plants, considering the size               Steady-state process models of CHP plants are developed in Ebsilon
+range of the CHP plants and their operational characteristics, is not              Professional and simulate the impact on steam cycle performance of the
+known.                                                                             integration of amine-based, post-combustion carbon capture. In total, 14
+    This work provides a techno-economic assessment of absorption-                 steam cycle designs with different fuel types, live steam conditions, and
+based CO2 capture in Swedish CHP plants, with respect to the carbon                power-to-heat ratios are considered to represent the range of CHP plants
+capture potential, plant performance and utilization, and costs. Given             in the database. Fig. 3 gives a schematic overview of the steam cycle
+the conditions for CHP plants outlined above, the aim of the study is to           designs modeled, where steam extractions A–C are optional and used to
+quantify the impact of CCS on biomass and waste-fired CHP plants and               cover the range of performances of the considered plants. The included
+DH system unit commitment, as well as the effect of plant scale and                steam extractions and the corresponding pressures for each plant
+utilization on the cost of capture. For the existing capacity of Swedish           modeled are given in Table 1, together with the live steam temperatures
+CHP plants, the implementation of carbon capture is evaluated on the               and pressures. The steam turbine isentropic efficiency is set to 88%,
+following three energy system levels: (i) the process level, i.e., the             independent of case. The boiler is represented in the model by a steam
+impact on CHP plant performance; (ii) the DH system level, i.e., the               generator component, with a boiler efficiency of 90%, and with fuel
+
+                                                                               2
+
+
+PHYSICAL_PAGE 7
+J. Beiron et al.                                                                                                       International Journal of Greenhouse Gas Control 118 (2022) 103684
+
+
+Table 4                                                                                   plants located nearby from which CO2 could be collected.
+Economic assumptions made for the calculation of the carbon capture opera­                    The truck transport cost is calculated using the parameters listed in
+tional expenditures.                                                                      Table 6. The cost includes vehicle investments, fuel, labor and mainte­
+  Utility                                    Cost                        Unit             nance. Eqs. (3)–(6) present an overview of the calculations. The number
+  Electricity (Cel)                          40                          €/MWh
+                                                                                          of trucks required, Ntrucks, is dimensioned based on the volume of CO2
+  District heating (CDH)                     15                          €/MWh            captured during 1 day of full-load operation (YCO2,day) and the volume of
+  Cooling water (Ccw)                        0.02                        €/m3             CO2 transported per day per truck, YCO2,day,truck, which is a function of
+  MEA make-up (CMEA)                         2,000                       €/m3             the distance traveled, L, and vehicle speed, v. Truck drivers are assumed
+                                                                                          to work 8-hour shifts (tshift), with three shifts per day (Nshifts,day). Drivers
+                                                                                          work 5 days per week, resulting in the need for 5 drivers per truck. The
+around -17 €/MWh (i.e., negative) in Sweden (excluding taxes) (The
+                                                                                          fuel cost is calculated based on the number of trips per day (with full-
+Swedish Energy Agency, 2021).
+           (                 )     (                  )                                   load operation, Ntrips,day) and the driving distance per trip. The cost of
+OPEX = Cel − Δel,SC + Pel,CCS + CDH − ΔDH,SC − QnewFGC + Ccw Vcw                          the drivers’ wages and fuel costs are multiplied by the plant capacity
+             + CMEA VMEA                                                                  factor, to account for seasonally varying operation. The maintenance
+                                                                                          cost is calculated as 5% of the investment cost.
+                                                                                (2)
+                                                                                                    2L
+    The electricity and cooling water demands to drive the CO2 ab­                        ttrip =      + tload                                                                      (3)
+                                                                                                     v
+sorption and compression are estimated from a process simulation
+model developed in Aspen Plus (Ignell and Johansson, 2021), while the                                        tshift
+liquefaction electricity and cooling demands are based on a previous                      YCO2,day,truck =          ∗ Nshifts,day ∗ Ytruck                                          (4)
+                                                                                                             ttrip
+publication (Deng et al., 2019). The CO2 is assumed to be compressed to
+15 bar and -25◦ C. The impacts on steam cycle electricity and DH gen­                                  YCO2,day
+                                                                                          Ntrucks =                                                                                 (5)
+eration of operating with CCS are obtained from the steam cycle process                               YCO2,day,truck
+simulation model. The utility demands are assumed to be independent of
+load level and to scale linearly with plant size.                                                        YCO2,day
+                                                                                          Ntrips,day =                                                                              (6)
+                                                                                                          Ytruck
+2.4.3. Local CO2 transport cost
+    Once captured, compressed, and liquefied, the CO2 is transported                      3. Results
+from the CHP plant to an intermediate storage hub, from where it is
+subsequently transported by ship to a permanent storage site (Fig. 4).                       The results are presented in three parts. First, the process simulation
+The transport of CO2 between the plant and the hub is assumed to be by                    results are given. Second, unit commitments of DH systems with CCS
+truck, since all CHP plants have access to the road network infrastruc­                   from CHP plants are analyzed. In the third part, cost estimations are
+ture. Train transport could be a feasible option for CHP plants located in                provided together with a marginal abatement cost curve.
+cities with access to the railway network, although it would not neces­
+sarily be cost-competitive compared to truck transport for sites with                     3.1. Process level impact of CCS on CHP plant performance
+small volumes of CO2 to transport (Kujanpää and Pursiheimo, 2017).
+Pipeline transport is not the most likely option in Sweden, due to the                        Operating CHP plants with carbon capture affects the plant perfor­
+lack of an existing large-scale pipe grid, potential problems with public                 mance. Fig. 5 plots the percentage of nominal steam cycle electricity and
+acceptance, and a rock-ground that makes the building of (underground)                    DH production retained when operating CHP plants with CCS. The
+pipelines expensive (Kjärstad et al., 2016).                                             symbols in Fig. 5a represent the 14 CHP plants modeled (Table 1) and
+    The present work considers seven intermediate storage hubs that                       are distinguished by fuel type (waste/biomass) and type of steam
+have coastal locations (Table 5). Four of these are industrial sites with                 extraction (turbine/primary steam). The results pertain to full-load
+considerable CO2 emissions that have been identified by Kjärstad et al.                  operation (i.e., boiler load kept constant with/without CCS) with a
+(2016) as possible hub locations. The remaining hubs are cities in re­                    90% capture rate.
+gions with a high population density, i.e., there are several large CHP                       The steam cycle electricity generation with CCS depends on where
+                                                                                          the reboiler steam is extracted. CHP plants with turbine extraction
+                                                                                          (yellow dots) retain 75%–85% of the nominal electricity production,
+Table 5                                                                                   independent of the steam cycle power-to-heat ratio and live steam pa­
+Intermediate storage hubs with (modeled) annual volumes of CO2 to transport,
+                                                                                          rameters; the scattering of the yellow dots is mainly a result of the
+including emissions from the CHP plants and industries located at the hub sites.
+                                                                                          different available extraction pressures of the cases. Plants that use
+The hub locations are shown in Fig. 9. The modeled CHP plant CO2 captured
+corresponds to the case with 64% heat recovery.
+                                                                                          primary steam to drive the CCS reboiler have significantly lower levels
+                                                                                          of electricity retention, between 37% and 68%, where the higher values
+  Hub/site         Source of site   CHP plant CO2         Industrial CO2 capture
+                                                                                          correspond to the hot-water boilers (Eksjö CHP plant and Mun­
+                   emissions        capture potential     potential [kt/year] (
+                                    (modeled) [kt/year]   Johnsson et al., 2020)          kegärdsverket) that have low power-to-heat ratios. The low percentage
+  Luleå            Industry (Iron   720                   3,300
+                   & Steel)                                                               Table 6
+  Östrand         Industry (Pulp   1,690                 2,300                           Economic assumptions made in the truck transport cost calculations.
+                   & Paper)
+                                                                                            Parameter                                        Value                      Unit
+  Stockholm        CHP plants       6,575                 0
+  Oxelösund       Industry (Iron   2,650                 1,500                             Investment cost                                  280,000                    €/truck
+                   & Steel)                                                                 Fuel cost                                        0.6                        €/km
+  Lysekil          Industry         460                   1,500                             Driver wages                                     80,000                     €/year/driver
+                   (Refinery)                                                               Loading time (tload)                             1                          h/trip
+  Gothenburg       CHP plants &     1,580                 500                               Capacity (Ytruck)                                33                         m3 CO2/trip
+                   Industry                                                                 Speed (v)                                        50                         km/h
+                   (Refinery)                                                               Interest rate                                    10                         %
+  Helsingborg      CHP plants       2,290                 0                                 Lifetime                                         10                         years
+
+
+                                                                                      7
+
+
+PHYSICAL_PAGE 14
+J. Beiron et al.                                                                                                            International Journal of Greenhouse Gas Control 118 (2022) 103684
+
+     advanced KM CDR processTM. Int. J. Greenh. Gas Control 92, 102847. https://doi.                Romanchenko, D., Odenberger, M., Göransson, L., Johnsson, F., 2017. Impact of
+     org/10.1016/j.ijggc.2019.102847.                                                                    electricity price fluctuations on the operation of district heating systems: a case study
+Ignell, V., Johansson, E., 2021. Local Infrastructures for CCS Clusters - a Case Study of                of district heating in Göteborg, Sweden. Appl. Energy 204, 16–30. https://doi.org/
+     Two CHP Plants in Gothenburg [MSc Thesis]. Chalmers University of Technology.                       10.1016/j.apenergy.2017.06.092.
+IPCC, 2018. Global Warming of 1.5 C. AN IPCC Special Report on the Impacts of Global                Saarinen, L., 2008. Modelling and Control of a District Heating System [MSc Thesis].
+     Warming of 1.5C above Pre-Industrial Levels and Related Global Greenhouse Gas                       Uppsala University.
+     Emission Pathways.                                                                             Sandberg, P., 2020. Northern lights - a European CO2 transport and storage network
+Johnsson, F., Normann, F., Svensson, E., 2020. Marginal abatement cost curve of                          [Presentation slides]. Retrieved from https://zeroemissionsplatform.eu/co2-ts-infras
+     industrial CO2 capture and storage – a Swedish case study. Front. Energy Res. 8, 175.               tructure/.
+     https://doi.org/10.3389/fenrg.2020.00175.                                                      Schweiger, G., Rantzer, J., Ericsson, K., Lauenburg, P., 2017. The potential of power-to-
+Jung, J., 2010. Energy Mapping of the Waste Incineration Plant in Uppsala [MSc Thesis].                  heat in Swedish district heating systems. Energy 137, 661–669. https://doi.org/
+     Uppsala University.                                                                                 10.1016/j.energy.2017.02.075.
+Kärki, J., Tsupari, E., Thomasson, T., Arasto, A., Pikkarainen, T., 2017. Achieving                SOU, 2020. Vägen till en klimatpositiv framtid - Betänkande av Klimatpolitiska
+     negative emissions with the most promising business case for bio-CCS in power and                   vägvalsutredningen. Stockholm.
+     CHP production. Energy Proc. 114, 5994–6002. https://doi.org/10.1016/j.                        Spett, T., 2006. Optimering av elproduktionen på Dåva kraftvärmeverk [MSc Thesis].
+     egypro.2017.03.1734.                                                                                Umeå University.
+Kemper, J., 2015. Biomass and carbon dioxide capture and storage: a review. Int. J.                 Starfelt, F., Tomas-Aparicio, E., Li, H., Dotzauer, E., 2015. Integration of torrefaction in
+     Greenh. Gas Control 40, 401–430. https://doi.org/10.1016/j.ijggc.2015.06.012.                       CHP plants - a case study. Energy Convers. Manage. 90, 427–435. https://doi.org/
+Kjärstad, J., Skagestad, R., Eldrup, N.H., Johnsson, F., 2016. Ship transport — a low cost              10.1016/j.enconman.2014.11.019.
+     and low risk CO2 transport option in the Nordic countries. Int. J. Greenh. Gas                 Statistics Sweden, 2019. Electricity supply, district heating and supply of natural and
+     Control 54, 168–184. https://doi.org/10.1016/j.ijggc.2016.08.024.                                   gasworks gas 2018, Sveriges officiella statistik.
+Kouri, S., Tsupari, E., Kärki, J., Teir, S., Sormunen, R., Arponen, T., Tuomaala, M., 2017.        The Swedish Energy Agency, 2021. Trädbränsle-, torv- och avfallspriser [Accessed 2021-
+     The potential for CCUS in selected industrial sectors - summary of concept                          07-07] [WWW Document]. URL https://www.energimyndigheten.se/statistik/den-o
+     evaluations in Finland. Energy Proc. 114, 6418–6431. https://doi.org/10.1016/j.                     fficiella-statistiken/statistikprodukter/tradbransle-och-torvpriser/.
+     egypro.2017.03.1778.                                                                           The Swedish Envirnomental Protection Agency, 2004. Rapport 5401 - Sammanställning
+Kujanpää, L., Pursiheimo, E., 2017. Techno-economic evaluation of flexible CCS concepts                av bränsledata. Halter och bränslenyckeltal.
+     in a CHP system. Energy Proc. 114, 6638–6649. https://doi.org/10.1016/j.                       Tsupari, E., Arponen, T., Hankalin, V., Kärki, J., Kouri, S., 2017. Feasibility comparison
+     egypro.2017.03.1818.                                                                                of bioenergy and CO2 capture and storage in a large combined heat, power and
+Levihn, F., Linde, L., Gustafsson, K., Dahlen, E., 2019. Introducing BECCS through HPC to                cooling system. Energy 139, 1040–1051. https://doi.org/10.1016/j.
+     the research agenda: the case of combined heat and power in Stockholm. Energy                       energy.2017.08.022.
+     Rep. 5, 1381–1389. https://doi.org/10.1016/j.egyr.2019.09.018.                                 Wiesner, E., 2017. Optimization and Energy Efficiency Measures in Modified Combined
+Magnanelli, E., Mosby, J., Becidan, M., 2021. Scenarios for carbon capture integration in                Heat and Power Plant Processes - a Case Study of Changed Processes in Mälarenergi
+     a waste-to-energy plant. Energy 227, 120407. https://doi.org/10.1016/j.                             Power Plant [MSc Thesis]. Uppsala University.
+     energy.2021.120407.                                                                            Zheng, R.F., Barpaga, D., Mathias, P.M., Malhotra, D., Koech, P.K., Jiang, Y., Bhakta, M.,
+Öberg, S., 2017. Design of Partial CO2 Capture from Waste Fired CHP Plants. Chalmers                    Lail, M., Rayer, A., Whyatt, G.A., Freeman, C.J., Zwoster, A.J., Weitz, K.K.,
+     University of Technology.                                                                           Heldebrant, D.J., 2020. A single-component water-lean post-combustion CO2
+Pettersson, N., Eriksson, N., 2006. Small Scale Generation of Electric Power in Arvika                   capture solvent with exceptionally low operational heat and total costs of capture -
+     [MSc Thesis]. Karlstad University.                                                                  comprehensive experimental and theoretical evaluation. Energy Environ. Sci. 13,
+Pour, N., Webley, P.A., Cook, P.J., 2018. Potential for using municipal solid waste as a                 4106–4113. https://doi.org/10.1039/d0ee02585b.
+     resource for bioenergy with carbon capture and storage (BECCS). Int. J. Greenh. Gas
+     Control 68, 1–15. https://doi.org/10.1016/j.ijggc.2017.11.007.
+
+
+
+
+                                                                                               14

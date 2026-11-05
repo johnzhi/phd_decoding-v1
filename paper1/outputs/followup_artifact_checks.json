@@ -1,0 +1,15 @@
+{
+  "manuscript_tables": 15,
+  "manuscript_embedded_images": 10,
+  "workbook_sheets": 62,
+  "verified_workbook_data_rows": {
+    "Follow-up review values": 140,
+    "Mixed annual operation": 2160,
+    "Mixed operating comparisons": 72,
+    "Japanese case values": 420,
+    "Source issues": 55
+  },
+  "unit_tests_passed": 48,
+  "unit_test_command": "python -m unittest discover -s paper1/tests -v",
+  "scientific_limit": "Source/implementation checks, not independent field validation or complete regional LCA."
+}

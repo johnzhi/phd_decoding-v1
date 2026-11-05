@@ -1,0 +1,197 @@
+Estimating the pressure-limited CO2 injection and storage capacity of the United States saline formations Effect of the presence of hydrocarbon reservoirs
+
+PHYSICAL_PAGE 2
+H. Jahediesfanjani et al.                                                                            International Journal of Greenhouse Gas Control 79 (2018) 14–24
+
+
+(European Commission, 2013). Continued use of fossil fuels makes the             understandings of the entire phenomenon, which results in highly
+problem of produced greenhouse gases (GHGs) and especially CO2                   variable estimates of potential storage capacity (Heidug, 2013). Many
+emission into atmosphere and associated harmful effects on the climate           of the models estimate the CO2 storage capacity of a given formation
+very important.                                                                  based on its pore volume and a CO2 storage efficiency value (volumetric
+     In this regard, International Energy Agency (IEA) proposed two              models). Bachu (2015) reviewed many of these models and evaluated
+climate-change prevention scenarios: 1. 2 ° Celsius (2DS) and 2. Beyond          the effects of various parameters on the estimated CO2 storage effi-
+2DS (B2DS) that tend to suggest practical ways to reduce emission of             ciency under different reservoir and boundary conditions. These models
+GHGs into atmosphere to limit average global temperature change to               define the saline formation as a homogeneous porous medium with
+2 °C for 2DS and below 2 °C for B2DS scenarios (IEA, 2017). Based on             uniform properties in which hydrodynamic and buoyancy forces must
+the reported evaluations, the CO2 Capture and Storage (CCS) will be              overcome viscous and capillary forces for the injected CO2 plume to
+responsible for up to 14% of reduction of global CO2 emissions to meet           propagate into and through the saline formation. It is ultimately the
+2DS and an additional 32% of the path from 2DS to B2DS by 2060 and               rock, brine, and CO2 conditions and properties that determine which
+beyond (IEA, 2017). Practically, it means that worldwide, by 2060, on            force dominates and may affect the ultimate CO2 storage efficiency. The
+average approximately 7.0 billion metric tonnes (gigatonnes, Gt) of CO2          estimated CO2 storage efficiency is eventually used with the reservoir
+must be captured and stored each year to meet B2DS (IEA, 2017), as               pore volume to estimate the CO2 storage capacity of a saline formation
+also emphasized at the 2015 Paris Climate Conference (Paris climate              (Celia et al., 2015).
+report, 2016). According to IEA forecasts, the United States should store            There are several models in the literature that each report a dif-
+1.0 Gt/year of CO2 (IEA, 2017). Note that the mentioned estimate is              ferent methodology to estimate saline formations’ CO2 injection and
+only based on the B2DS requirements. The current annual GHGs                     storage capacity at national or semi-national level. Some of these
+emissions in the United States are approximately 7.0 Gt of CO2                   models are discussed here. For example, the U.S. Department of Energy
+equivalents (EPA, 2015), of which a high percentage would have to be             (DOE) and the U.S. Geological Survey (USGS) have each developed a
+eliminated by energy fuel switching and transformations to meet the              distinct, comprehensive method to estimate the national CO2 storage
+B2DS requirements.                                                               capacity in saline formations by developing a different method to es-
+     In this regard, CO2 from anthropogenic sources used for enhanced            timate ranges of appropriate CO2 storage efficiency values. These
+oil recovery (EOR) has gained some attention during the last few years           models, along with the Szulczewski et al. (2012) model and a few
+because the CO2-EOR process produces additional oil from oil reservoirs          others such as the Eccles et al. (2012) model, are reviewed below. All of
+while allowing some CO2 to be stored within the reservoir structure.             these models are developed based on somewhat different assumptions
+However, the additional oil recovery due to the CO2-EOR operation is             and considerations and are fundamentally different from our proposed
+usually in the range of 5 to 15% of the original oil in place (OOIP)             pressure-limited dynamic model that is based on CO2 injectivity and
+(Jahediesfanjani, 2017) for each amenable reservoir, so the corre-               underground fracture pressure limitations (Jahediesfanjani et al.,
+sponding CO2 storage capacity volume of these reservoirs is at least an          2017). Nevertheless, because these reports have reported CO2 injection
+order of magnitude less than the billions of metric tonnes required for          and storage capacity of major U.S. onshore saline formations, they are
+effective climate change mitigation (USGS CO2 assessment team,                   reviewed below.
+2013a, 2013b, and NETL, 2012).                                                       As part of a national study, the U.S. DOE developed a method to
+     Underground saline formations have been recommended as an al-               estimate the capacity of the saline formations to hold and store CO2
+ternative site for CO2 storage due to their widespread availability and          (Goodman et al., 2011) They incorporated the volumetric method to
+considerable capacity to hold and store CO2.                                     estimate the ultimate CO2 capacity of a given saline formation, and
+     Assuming that the required technology and infrastructure exists to          estimated CO2 storage efficiency assuming that net-to-gross thickness,
+capture and transport CO2, an important concern is to estimate the most          effective-to-total porosity, volumetric displacement, and microscopic
+likely volume of CO2 that can be injected and stored annually in U.S.            displacement can be represented by log-odds normal distributions at
+underground saline formations, and to determine whether that volume              regional and national levels. Monte Carlo simulations were used to
+is sufficient to meet the B2DS requirements (IEA, 2017). To more rea-            estimate saline formation storage efficiencies ranging from 0.40 to
+listically and accurately model and estimate CO2 injection and storage           5.5% for three different lithologies over the 10% and 90% probability
+capacity in saline formations, we have developed a model that takes              ranges, respectively. The CO2 capacity of a saline formation can be
+into account some limitations associated with the CO2 injection into a           estimated by multiplying its estimated storage efficiency by its esti-
+given formation such as underground pressure build-up limitations                mated pore volume. Utilizing the developed approach, the CO2 storage
+imposed by the rock fracturing pressure and the presence of hydro-               capacity of saline formations throughout the United States was esti-
+carbon reservoirs within these aquifers. The developed method esti-              mated to be 2300 and 22,000 Gt for the low and high estimates, re-
+mates the pressure-limited CO2 injection and storage capacity of a               spectively (NETL, 2012).
+saline formation by applying 3D numerical simulation only on the ef-                 A similar method was developed by the USGS (USGS CO2 assess-
+fective injection area (Aeff) surrounding each CO2 injection well uti-           ment team, 2013a and 2013b) to estimate the CO2 storage capacity of
+lizing TOUGH2-ECO2N simulation software. The result of applying this             192 storage assessment units (SAUs) in 33 sedimentary basins
+method is considered as further refinement of the estimates by USGS of           throughout the United States. In this previous model, the USGS national
+CO2 storage capacity in saline formations in the United States taking            assessment team accounted for two mechanisms for CO2 storage after
+into account underground pressure limitations.                                   injection: buoyant and residual trapping, each with a very different
+     The next step in the process is to plan the number, spacing, and            range of storage efficiency values. The model estimated fixed buoyant
+injection rates of CO2 injection wells on a national level to safely ac-         storage efficiencies using petroleum field observations and injection
+commodate the needed CO2 underground storage capacity. The esti-                 histories. The residual storage efficiencies were estimated using a re-
+mated storage capacity needs to be matched with large stationary                 lationship based on a capillary trapping number and mobility factor
+sources that will be subject of one of our future investigations.                calculations, which required knowledge of CO2 and brine residual sa-
+                                                                                 turations, viscosities, and relative permeability values (Brennan, 2014).
+2. Literature review                                                             Monte Carlo simulations (Blondes et al., 2013) were used to estimate
+                                                                                 the effect of uncertain parameters. The results were published as ranges
+   Many researchers have developed models to estimate the ultimate               of CO2 storage capacity for each saline formation, with total national
+capacity of a given saline formation to store and hold CO2 (Bandilla             CO2 storage capacity for all 192 SAUs ranging from 2000 to 4000 Gt
+et al., 2015). These models use different assumptions and                        based on 5% and 95% probability (P5 and P95) analyses, respectively
+
+                                                                            15
+
+
+PHYSICAL_PAGE 4
+H. Jahediesfanjani et al.                                                                                    International Journal of Greenhouse Gas Control 79 (2018) 14–24
+
+
+full details in our previous paper with an example (Mount Simon                        be around 1432 Mt/year, if all of these formations are fully developed.
+Sandstone in Illinois Basin) (Jahediesfanjani et al., 2017). This proce-               The full development of these SAUs would require drilling 3766 in-
+dure is repeated and described in more details for the Sligo, Hosston,                 jection wells in equal 25 km by 25 km spacing. It would allow injection
+and Cotton Valley Formation SAU in Gulf of Mexico in Appendix I.                       and storage of 71.6 Gt of CO2 over the injection duration of 50 years.
+    CO2 injection density indicates how well or poorly a portion of a                      As shown in Table 2, note that 12 of the 25 SAUs are in Group 1,
+formation receives and stores injected CO2 while remaining within an                   with an average CID of only 30,000 metric tonnes of CO2 per year per
+acceptable pressure range. Certainly, the major goal of any commercial                 well. This means 1570 injection wells would need to be drilled and
+CO2 injection and storage project would be to optimize CID based on the                operated to inject only 42 Mt of CO2 per year. Because of very low in-
+prevailing reservoir conditions so that the maximum annual volume of                   jection capacity these SAUs were eliminated from further consideration.
+CO2 per well is injected while the maximum reservoir pressure is kept                  Similarly, an additional 4 of the remaining 13 SAUs are in Group 2 with
+below 80% of the reservoir fracture pressure.                                          an average CID value of only 145,000 metric tonnes of CO2 per year per
+    The value of CID used by Zhou et al. (2010) is five million metric                 well. This indicates that 1090 CO2 injection wells are required to inject
+tonnes (Mt) of CO2 per year per project; that of Senel and Chugunov                    only 140 Mt of CO2 per year, which also might be considered lower than
+(2013) based on the Illinois Basin Decatur Project, is approximately                   industrial practice. The CID values for these 16 SAUs are based on the
+335,000 metric tonnes of CO2 per year per well; both studies were                      most likely values for reservoir properties and some areas of these SAUs
+performed for the Mount Simon Formation of the Illinois Basin. In our                  might have higher CID values. However, because of the lack of sufficient
+study the minimum, most likely, and maximum optimum CID is ob-                         data to investigate the matter, we base our analysis and screening
+tained for each SAU using the generalized type curves of                               process on the most likely values. Consequently, we do not recommend
+Jahediesfanjani et al. (2017). For evaluation and comparison purposes,                 these SAUs for CO2 injection and storage, unless a relatively efficient
+the most likely estimated values of CID are then classified into the six               pressure management technique is planned, such as brine extraction
+groups shown in Table 1. The classification is arbitrary and is based on               before or during CO2 injection.
+our experience in evaluation of CO2 injection capacity under different                     Out of the remaining nine SAUs, three are in Group 3, with an
+saline formation geological and petrophysical properties that are used                 average CID of 380,000 metric tonnes per year per well; four are in
+to estimate and report the ultimate most likely annual and 50-year CO2                 Group 4, with an average CID of 680,000 metric tonnes per year per
+storage capacity of each SAU. However, due to economics or develop-                    well; one is in Group 5, with CID of 1,820,000 metric tonnes per year
+ment limitations, operators will tend to develop those SAUs with higher                per well; and one is in Group 6 with a CID of 2,750,000 metric tonnes
+values of CID (Groups 3 and higher in Table 1) over poorly performing                  per year per well. These nine SAUs have moderate to high values of CID,
+SAUs (Groups 1 and 2 in Table 1). The process of estimating the pres-                  which characterizes them as the best candidates for CO2 injection and
+sure-limited dynamic CO2 injection and storage capacity under a series                 storage. Our investigation estimates that 1110 CO2 injection wells are
+of conditions and scenarios is fully described below for the U.S. Gulf of              required to inject approximately 1.25 Gt of CO2 per year for 50 years,
+Mexico Basin.                                                                          resulting in approximately 62.5 Gt of CO2 storage without requiring
+                                                                                       pressure management techniques such as brine extraction.
+3.1. Pressure-limited (dynamic) CO2 injection and storage capacity of the                  It is important to consider that the estimated volumes are obtained
+U.S. Gulf of Mexico basin                                                              based on the most likely property values for each SAU and, in reality,
+                                                                                       reservoir property distribution and heterogeneity may dictate certain
+    Based on the USGS assessment (USGS CO2 assessment team, 2013a                      CO2 injection development strategies throughout each SAU. In other
+and 2013b), the U.S. Gulf of Mexico Basin within the U.S. portion of the               words, there may be some sweet and favorable spots within each SAU
+Gulf Coastal Plain contains 27 SAUs, with a total area of approximately                that may be able to handle higher than the estimated CO2 injection
+2.7 million km2 (667.1 million acres) available for CO2 storage. These                 rates, and some zones with poorer properties that may disqualify them
+SAUs, summarized in Table 2, cover most of southern and eastern                        from development for CO2 injection. For further investigation and to
+Texas, all of Louisiana, much of Mississippi, southern Arkansas,                       determine what portion of each SAU is appropriate for CO2 injection
+southern Alabama, and limited parts of Florida and Georgia.                            and storage development considerations, the mentioned nine most fa-
+    The USGS-assessed (USGS CO2 assessment team, 2013a and 2013b)                      vorable SAUs were studied in more detail. Due to space constraints, the
+most likely values of depth, net thickness, porosity, permeability, and                mentioned process is described here only for the Sligo and Hosston
+other properties were used to obtain the CO2 injection parameters for                  Formations and Cotton Valley Group SAU, which is the most important
+the 27 SAUs in the U.S. Gulf of Mexico Basin. Table 2 summarizes the                   SAU in the U.S. Gulf of Mexico Basin with the greatest CO2 injection
+results of the calculation procedure and shows estimated CID, the cor-                 and storage potential.
+responding injection group, total SAU annual injection rate (Vt),                          Maps of depth and thickness for all studied SAUs were created using
+number of wells required to inject the estimated volumes (Nw), and the                 data from the USGS national assessment (USGS CO2 assessment team,
+50-year total CO2 storage capacity of each SAU. It was not possible to                 2013a,b) in order to generate CO2 injection density maps. The devel-
+estimate CO2 injection and storage parameters for the Knowles and                      oped process is explained in detail for the Sligo and Hosston Formations
+Winn Limestones and Calvin Sandstone SAU and the Tertiary Slope and                    and Cotton Valley Group SAU in Appendix I.
+Basin Floor SAU because the USGS national assessment (USGS CO2                             Figs. 1 and 2 present the CO2 injection density (CID) of the Sligo and
+assessment team, 2013a,b) did not report all the properties necessary                  Hosston Formations and the Cotton Valley Group, respectively, in the
+for the calculation procedure. Based on Table 2 and utilizing the                      Sligo and Hosston Formations and Cotton Valley Group SAU. Part of the
+Jahediesfanjani et al. (2017) model, the total annual CO2 injection for                area, indicated in pink, shows very low estimated CID. The rest of the
+the remaining 25 SAUs in the U.S. Gulf of Mexico Basin is estimated to                 SAU area, with CID of at least 250,000 metric tonnes of CO2 per year per
+
+Table 1
+Ranges of CO2 injection density (CID) values, in Mega tonnes (Mt)/ year/ well, classified into six groups.
+                                                   Very poor            Poor                 Acceptable             Moderate               Rich                 Very rich
+                                                   Group 1              Group 2              Group 3                Group 4                Group 5              Group 6
+
+  Minimum (greater or equal) Mt/year/well          0                    0.1                  0.25                   0.50                   1.0                  2.5
+  Maximum (less than) Mt/year/well                 0.1                  0.25                 0.50                   1.0                    2.5                  –
+
+
+
+
+                                                                                  17
+
+
+PHYSICAL_PAGE 11
+H. Jahediesfanjani et al.                                                                                                  International Journal of Greenhouse Gas Control 79 (2018) 14–24
+
+
+    basin: Geological Survey Open–File Report 2012 87. pp. 1144. accessed 13 April                    of United States oil and gas resources: results, methodology, and supporting data
+    2017. http://pubs.usgs.gov/of/2012/1144/.                                                         (1995). U.S. Geological Survey Digital Data Series DDS-30, Version 2. pp. 44. [ac-
+Heidug, W., 2013. Methods to Assess Geologic CO2 Storage Capacity: Status and Best                    cessed 13 April 2017]. http://certmapper.cr.usgs.gov/data/noga95/prov47/text/
+    Practice. Workshop Report from International Energy Agency [accessed 13 April                     prov47.pdf/.
+    2017]. https://www.iea.org/publications/freepublications/publication/workshop_                Senel, O., Chugunov, N., 2013. CO2 injection in a saline formation: Preinjection reservoir
+    report_methodstoassessgeologicCO2storagecapacity.pdf/.                                            modeling and uncertainty analysis for Illinois Basin: Decatur Project. Energy Procedia
+IEA (International Energy Agency), 2017. Energy Technology Perspective. [accessed 13                  37, 4598–4611.
+    April 2017]. http://www.iea.org/publications/freepublications/publication/                    Swanson, S.M., Karlsen, A.W., 2009. USGS Assessment of Undiscovered Oil and Gas
+    technologyroadmapcarboncaptureandstorage.pdf/.                                                    Resources for the Oligocene Frio and Anahuac Formations, Onshore Gulf of Mexico
+IHS Inc, 2012. PIDM [Petroleum Information Data Model] Relational U.S. Well Data [data                Basin, USA. Article # 10178. American Association of Petroleum Geologists Search
+    Current As of December 23, 2011]. IHS Inc., Englewood, Colo.                                      and Discovery, pp. 1–l45. [accessed 13 April 2017]. http://www.
+Jahediesfanjani, H., 2017. Application of decline curve analysis to estimate recovery                 searchanddiscovery.com/documents/2009/10178swanson/images/swanson/.
+    factors for carbon dioxide enhanced oil recovery, chap. C of Verma, M.K., ed., Three          Szulczewski, M.L., MacMinn, C.W., Herzog, H.J., Juanes, R., 2012. Lifetime of carbon
+    approaches for estimating recovery factors in carbon dioxide enhanced oil recovery:               capture and storage as a climate-change mitigation technology. Proc. Natl. Acad. Sci.
+    U.S. Geological Survey Scientific Investigations Report C1-C20, 5062. https://doi.                U. S. A. 109 (14), 5185–5189. https://doi.org/10.1073/pnas.1115347109. [accessed
+    org/10.3133/sir20175062C.                                                                         13 April 2017]. http://www.pnas.org/content/109/14/5185.full.pdf?with-ds=
+Jahediesfanjani, H., Warwick, P.D., Anderson, S.T., 2017. 3D Pressure-limited approach                yes/.
+    to model and estimate CO2 injection and storage capacity: saline Mount Simon                  U.S. Geological Survey Geologic Carbon Dioxide Storage Resources Assessment Team,
+    Formation. Greenhouse Gases: Sci Technol 7 (6), 1080–1096. https://doi.org/10.                    2013a. National Assessment of Geologic Carbon Dioxide Storage Resources—Results
+    1002/ghg.1701/full?wol1URL=/doi/10.1002/ghg.1701/full&regionCode=US-DC&                           (ver. 1.1, September 2013): U.S. Geological Survey Circular 1386. pp. 41.
+    identityKey=311cc928-6636-4861-845c-7ef89dd14803/. [accessed 1 October                            (Supersedes ver. 1.0 released June 26, 2013.). http://pubs.usgs.gov/circ/1386/.
+    2017].                                                                                        Warwick, P.D., 2017. Geologic Assessment of Undiscovered Conventional Oil And Gas
+Mathias, S.A., Gluyas, J.G., González Martínez de Miguel, G.J., Hosseini, S.A., 2011. Role            Resources In The Lower Paleogene Midway and Wilcox Groups, and the Carrizo Sand
+    of partial miscibility on pressure buildup due to constant rate injection of CO2 into             of the Claiborne Group, of the northern Gulf Coast region. Geological Survey
+    closed and open brine aquifers. Water Resour. Res. 47 (12).                                       Open–File Report 2017, 1111. pp. 67. https://doi.org/10.3133/ofr20171111.
+Nehring Associates Inc, 2012. Significant Oil and Gas Fields of the United States Database            [accessed 27 September 2017].
+    [data Current As of December 2012]. Nehring Associates Inc., Colorado Springs, Colo.          Yang, Z., Niemi, A., Tian, L., Joodaki, S., Erlström, M., 2015a. Modeling of pressure
+NETL (National Energy Technology Laboratory), 2012. Carbon Utilization and Storage,                   buildup and estimation of maximum injection rate for geological CO2 storage at the
+    Atlas IV. [accessed 13 April 2017]. https://www.netl.doe.gov/File%20Library/                      South Scania site, Sweden. Greenhouse Gases: Sci. Technol. 5 (3), 277–290.
+    Research/Coal/carbon-storage/atlasiv/Atlas-IV-2012.pdf/.                                      Yang, Z., Tian, L., Joodaki, S., Fagerlund, F., Pasquali, R., Vernon, R., 2015b. Assessing
+Paris Climate Report, 2016. Aggregate Effect of the Intended Nationally Determined                    CO2 storage capacity in the Dalders Monocline of the Baltic Sea Basin using dynamic
+    Contributions: An Update. [accessed 13 April 2017]. http://unfccc.int/resource/                   models of varying complexity. Int. J. Greenhouse Gas Control 43, 149–160.
+    docs/2016/cop22/eng/02.pdf/.                                                                  Zhou, Q., Birkholzer, J.T., Mehnert, E., Lin, Y.F., Zhang, K., 2010. Modeling basin- and
+Pruess, K., 2005. A TOUGH2 Fluid Property Module For Mixtures Of Water, NaCl and                      plume-scale processes of CO2 storage for full-scale deployment. Groundwater 48 (4),
+    CO2. LBNL-57952. Lawrence Berkley National Laboratory, Berkley, CA USA.                           494–514.
+Schenk, C.J., Viger, R.J., 1995. Western Gulf Province (047), part of national assessment
+
+
+
+
+                                                                                             24

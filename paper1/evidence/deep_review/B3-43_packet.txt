@@ -1,0 +1,257 @@
+Risk management optimization framework for the optimal deployment of carbon capture and storage system under uncertainty
+
+PHYSICAL_PAGE 3
+S. Zhang, et al.                                                                                       Renewable and Sustainable Energy Reviews 113 (2019) 109280
+
+
+
+
+                                                 Fig. 1. Three kinds of carbon capture technologies [12].
+
+
+introduces the proposed risk management methodology. Section 4                  optimize the spatially dispersed CO2 sources and sinks. This model can
+shows the detailed mathematical formulations. In Section 5, the case            determine where to retroﬁt CO2 sources with capture technology,
+study of power plants in Northeastern China is implemented to illus-            where to store CO2 through a dedicated pipeline network topology and
+trate the applications of the proposed models and solution approach.            the quantity of CO2 to be transported. They show the application of the
+Section 6 discusses the results and comparisons of three risk metrics.          SimCCS model through a case study in California to highlight the im-
+Section 7 proﬀers prospects on practical implications. Finally, Section 8       portance of regional CCS planning by examining the sensitivity of CCS
+provides several conclusions and future outlooks for CCS planning               infrastructure. Sun and Chen [24] present the improved ChinaCCS
+problem.                                                                        Decision Support System (DSS) for optimizing CO2 pipeline network by
+                                                                                generating a cost-minimizing CCS system. This ChinaCCS DSS assists in
+                                                                                determining the sources, sinks, amounts for CO2 captured and storage,
+2. Literature review
+                                                                                as well as the paths and sizes of pipeline. The features of the proposed
+                                                                                approach are illustrated through a detailed case study for Bei-
+    There has been an extensive amount of research employing math-
+                                                                                jing–Tianjin–Hebei Region in China. Then, Sun and Chen [25] develop
+ematical programming to optimize both deterministic and uncertain
+                                                                                a multi-stage MILP model for source-sink matching within ChinaCCUS
+CCS planning problems. For example, Tan et al. [20] present a con-
+                                                                                DSS. The Beijing–Tianjin–Hebei region in China is still chosen as a case
+tinuous-time mixed integer nonlinear programming (MINLP) model
+                                                                                study to address the application of the updated model. They ﬁnd that
+with the consideration of injection limit, reservoir capacity and tem-
+                                                                                the multi-stage model could result in better pipeline connectivity
+poral constraints for an optimal CCS network. The objective of their
+                                                                                compared to the single-stage model.
+model is to maximize the reduction of CO2 emission including both
+                                                                                    More recently, the concept of thorough carbon capture utilization
+captured CO2 and CO2 emission of compensatory power generation. To
+                                                                                and storage (CCUS) supply chain is proposed by Hasan et al. [26]. They
+guarantee the global optimality, this model is linearized into a mixed
+                                                                                regard the network of CCUS as a supply chain of CO2 where various
+integer linear programming (MILP) model by replacing the bilinear
+                                                                                industrial CO2 emission sources supply CO2, and demands of CO2 come
+terms. Then, a discrete-time MILP model is presented by Tan et al. [21]
+                                                                                from various utilization and sequestration sites. Then, Hasan et al. [27]
+for addressing the optimal CO2 source-sink matching problem. The
+                                                                                propose a multi-scale framework for the optimal supply chain design for
+temporal aspects of source-sink matching are considered because the
+                                                                                CCUS in the United State, which requires decision making at material,
+operating lives of sources and sinks may not completely overlap,
+                                                                                process and supply chain levels simultaneously. They formulate a
+especially when the storage sinks are not immediately ready for de-
+                                                                                MINLP model to address the supply chain optimization problem and
+ployment. Unlike the CO2 source-sink matching models, a uniﬁed MILP
+                                                                                then simplify the model to a MILP model by assuming that up to 90% of
+model capable of optimizing both carbon capture retroﬁt and source-
+                                                                                a selected CO2 source is available. Analogously, Ravi et al. [28] address
+sink matching issues simultaneously is developed by Lee et al. [22].
+                                                                                the supply chain problem by optimizing appropriate sources, capture
+This model uniﬁes the problems of grid power capture retroﬁtting and
+                                                                                technologies, pipeline network and CO2 storage sites for a minimum
+the subsequent CO2 source-sink matching within a single optimization
+                                                                                overall cost to achieve nationwide CO2 reduction target in the Neth-
+framework. Furthermore, they perform sensitivity analysis to show the
+                                                                                erlands. Five diﬀerent scenarios are formulated by varying the levels
+interaction between carbon emission and power losses in the system.
+                                                                                and industrial activities of source and storage sites. d’Amore et al. [29]
+Although these aforementioned studies are not meant to be a detailed
+                                                                                introduce a spatially explicit, multi-echelon and time-dependent MILP
+CCS infrastructure planning tool, their hypothetical case studies pro-
+                                                                                model for the economic optimization of a European CCS supply chain
+vide great insights for the early-stage planning of CCS.
+                                                                                for a 20 years' planning horizon. Their results indicate the good Eur-
+    Some papers focus on a speciﬁc region or country, mostly in-
+                                                                                opean potential for carbon sequestration and give some indications on
+vestigating CCS network in terms of economic optimization. For in-
+                                                                                the total cost for CCS in Europe.
+stance, Middleton and Bielicki [23] propose a comprehensive MILP
+                                                                                    The aforementioned studies rely on deterministic optimization
+model named SimCCS that guides decision-maker to economically
+
+                                                                            3
+
+
+PHYSICAL_PAGE 8
+S. Zhang, et al.                                                                                                       Renewable and Sustainable Energy Reviews 113 (2019) 109280
+
+
+Table 1                                                                                     Table 3
+Power plants: CO2 emission, operation time, capital and O&M cost for capture                Pipelines: diameter, capacity bound, capital and O&M cost. Sources [52].
+facility. Sources [22,50].
+                                                                                             Diameter          Flowrate         Flowrate            Capital Cost    Yearly O&M
+  Plant    Operation       Composition     Emission   Capital cost ($)   O&M                 (inches)          lower bound      upper bound         ($/km)          Cost ($/km)
+           time (y)                        (Mt/y)                        cost ($/t)                            (Mt/y)           (Mt/y)
+
+  1        0–30            14%             9.20       250.17 × 107       30.28               8                 0.43             1.13                42.44 × 103     1697.87
+  2        0–40            18%             6.15       173.92 × 107       23.78               12                0.90             3.25                95.50 × 103     3820.21
+  3        5–30            11%             5.90       182.82 × 107       23.19               16                2.60             6.86                169.79 × 103    6791.48
+  4        10–40           17%             5.86       168.80 × 107       23.10               20                5.49             12.26               265.29 × 103    10611.69
+  5        0–40            15%             5.58       165.78 × 107       22.43               24                9.81             19.69               382.02 × 103    15280.84
+  6        10–50           15%             5.00       151.81 × 107       21.12
+
+
+                                                                                            Table 4
+composition and α β γ n m are all estimated parameters.                                     Distances between sources and sinks (km). Sources [50].
+   Among the existing CO2 transportation alternatives, pipeline is
+                                                                                             Sink
+considered as the most mature approach for large volume CO2 trans-
+portation. Various available pipeline cost models have been reviewed                         Source                     MA                            MB                   MC
+and compared by Knoope et al. [51]. In this study, the weight-based
+                                                                                             1                          285.0                         483.9                447.4
+model is employed for cost evaluation of pipeline, as expressed in
+                                                                                             2                          273.6                         648.0                653.9
+equations (24)–(26) [51].                                                                    3                          626.4                         363.3                218.3
+                                                                                             4                          166.3                         616.4                820.9
+Wmaterial = π⋅ρmaterial ⋅L⋅( r− tp)                                              (24)        5                          921.8                         701.9                245.3
+                                                                                             6                          173.1                         412.9                787.4
+            Pmax ×r
+tp =
+       2 × Sp × Ff × Ef                                                          (25)
+                                                                                            the relevant data is same to case I. The target of this case is to minimize
+                   Cp                                                                       ETC and risk metric simultaneously within the CCS deployment plan-
+I = Wmaterial ×
+                   fm                                                            (26)       ning. The formulations of the three risk management metrics are em-
+                                                                                            ployed respectively to reduce the risk imposed by the uncertainty. Thus,
+wherein Wmaterial in equation (24) is the weight of the pipeline with
+                                                                                            a multi-objective optimization problem is formulated and the optimal
+certain material and is calculated according to its density (ρmaterial),
+                                                                                            solutions with each risk management metric will yield Pareto curves. A
+length (L), diameter (r) and thickness (tp). The wall thickness of the
+                                                                                            wide variety of Pareto-optimal solutions can be obtained for selection
+pipeline is obtainable through equation (25) with knowing the max-
+                                                                                            according to decision-maker's preference.
+imum operation pressure (Pmax), diameter, minimum yield stress (Sp),
+                                                                                                The initial step in both cases is to generate adequate scenarios re-
+design factor (Ff) and longitudinal joint factor (Ef). Such that the total
+                                                                                            presenting the varied carbon tax price. Before performing the models,
+capital cost can be achieved with equation (26), by dividing the weight
+                                                                                            stochastic convergence analysis is needed to determine the number of
+times material price (Cp) by a fraction factor (fm). The pipeline dia-
+                                                                                            scenarios. Fig. 3 shows the convergence of the expected value of total
+meters to be considered in the model should not be arbitrary but in
+                                                                                            cost with the number of scenarios. It can be found that ETC is steady
+discrete values of standard size. Therefore, this study uses the data
+                                                                                            enough to accurately approximate the expectation when scenarios are
+presented by Yue et al. [52] to obtain the possible diameter values for
+                                                                                            no less than 450. Thus 450 scenarios of diﬀerent carbon taxes are
+various ﬂow rate ranges; and then employ the weight-based model to
+                                                                                            generated with Monte Carlo for CCS planning.
+obtain the capital cost with certain diameter. The related pipeline in-
+formation is summarized in Table 3 and the distance data between
+sources and sinks are given in Table 4.                                                     6. Results and discussions
+
+
+5.2. Case implementation                                                                       In this section, the obtain results for the two cases are presented in
+                                                                                            Section 6.1 and 6.2 respectively.
+    Case I: Stochastic Model is implemented to make the best CCS
+planning towards the minimum ETC if the decision-maker is risk-neu-                         6.1. Results for two-stage stochastic programming model
+tral. The operating horizon is subdivided into 50 time periods with 1
+year lasting for each, and the uncertainty of carbon tax is concurrently                        Carbon tax price will inﬂuence decision-maker's attitude for parti-
+investigated in terms of diﬀerent scenarios. This work assumes it fol-                      cipating in the CCS system, so this section will evaluate the interaction
+lows the normal distribution with mean value of $ 50/t CO2, deviation                       between carbon tax policy and construction of CCS system with con-
+of $ 10/t CO2 though the historical record varies a lot. This model could                   sidering the uncertainty of the carbon tax price. The two-stage sto-
+serve as a decision support tool for the government policy maker to                         chastic programming model with 450 scenarios is solved. Noted that
+determine the appropriate ranges of carbon tax, or for the industrial                       the carbon tax for each scenario is unique. Through model optimiza-
+emitters to decide the most economical strategy for CO2 reduction.                          tion, the most desired planning result is obtained at the expected total
+    Case II. Risk management models with three diﬀerent risk metrics                        cost of $ 643.46 × 108, which is the minimum summation of the costs
+are implemented if the decision-maker is risk-adverse. In this case, all                    for CCS capital cost ($ 41.57 × 108), CCS O&M cost ($ 108.11 × 108)
+
+Table 2
+Potential reservoirs: type, injection limit, start time, capital and O&M cost for storage facility. Sources [22,50].
+  Sink                  Type                           Injection limit (Mt/y)                     Start time (y)                 Capital cost ($)                  O&M cost ($/t)
+
+  MA                    Oil Field                      28                                         0                              40 × 107                          12
+  MB                    Saline formation               20                                         10                             66 × 107                          8
+  MC                    Saline formation               30                                         15                             50 × 107                          5
+
+
+
+                                                                                        8
+
+
+PHYSICAL_PAGE 11
+S. Zhang, et al.                                                                                            Renewable and Sustainable Energy Reviews 113 (2019) 109280
+
+
+                                                                                      should also be noted that it is diﬃcult for the metric to cover the low-
+                                                                                      cost scenarios because the spread of the costs for all the scenarios is
+                                                                                      relatively narrowed.
+                                                                                          Regarding probabilistic ﬁnancial risk and downside risk metrics,
+                                                                                      these two are related since they both involve establishing a threshold
+                                                                                      predeﬁned by the decision-maker. The risk is measured by the ex-
+                                                                                      pectation of scenarios whose costs are higher than the threshold.
+                                                                                      However, the threshold value is subjective and often diﬃcult to ex-
+                                                                                      plicitly predeﬁned. While between the two metrics, downside risk is
+                                                                                      believed easier to be solved than probabilistic ﬁnancial risk as fewer
+                                                                                      binary variables are included.
+                                                                                          The inclusion of the most appropriate risk metric relies on the
+                                                                                      willing of decision-maker. If the decision-maker is more concerned with
+                                                                                      the variability of the results, the variability index should be used. This
+                                                                                      risk measure only penalizes the solutions higher than the expectation.
+                                                                                      While if he/she cannot tolerate the cost higher than a speciﬁc threshold,
+                                                                                      probabilistic ﬁnancial risk or downside risk are suitable, because they
+                                                                                      concentrate more on the threshold.
+
+
+Fig. 10. The histograms of cost distribution before and after probabilistic ﬁ-        7. Practical implications
+nancial risk management-ε (3).
+                                                                                          The ﬁndings of this study highlight several important implications
+6.2.3. Results for downside risk management                                           about the importance of carbon tax uncertainty in the large-scale de-
+    The downside risk metric is similar to probabilistic ﬁnancial risk                ployment of CCS for Northeast China. First, this study identiﬁes the
+metric, but it reduces the number of binary variables. In the calculation             relationship between the two reduction options: carbon tax and carbon
+of the downside risk, the threshold value Ω is also set to $                          capture and storage. This could serve as a decision support tool for the
+710.00 × 108. By solving the MO-DR model via the ε-constraint ap-                     government policy-maker to determine the appropriate ranges of
+proach, an approximated Pareto curve as depicted in Fig. 11 is ob-                    carbon tax, or for the industrial emitters to decide the most economical
+tained, where the abscissa denotes the downside risk, and the ordinate                strategy for CO2 reduction. Second, although the proposed risk man-
+denotes ETC of the CCS system. The lower and upper bounds of                          agement framework will push up the expected total cost of CCS plan-
+downside risk can be obtained through the two extreme solutions ﬁrst:                 ning, inclusion of risk metrics can yield more robust designs. In this
+the minimal downside risk solution and the minimal ETC solution; then,                way, a wide variety of Pareto-optimal solutions can be obtained for
+according to the downside risk ranges, the value of ε-parameter is                    selection according to decision-maker's preference. The case of
+evenly distributed to 4 values between the lower and upper bounds of                  Northeast China study reveals that the huge cost for the cleaner pro-
+the downside risk objective, i.e., from $ 15.69 × 108 to $ 24.81 × 108.               duction with CCS has hindered its deployment. A tax concession policy
+Once again as expected, it can be found that as the downside risk in-                 (higher than $ 50/t) or low-interest loans can somehow achieve the
+creases from $ 13.38 × 108 to $ 27.09 × 108, the ETC decreases from $                 promotion. Finally, this study can be used as a base case before the
+663.07 × 108 to $ 642.64 × 108. As shown in Fig. 12, the primary cost                 implementation of nationwide CCS system.
+comes from the O&M cost of CCS system, which contributes most
+among all the Pareto optimal solutions.                                               8. Conclusions
+    The histograms of cost distribution before and after managing the
+downside risk (ε (3) risk level) are shown in Fig. 13. Also, after                        The motivation for this study is to provide quantitative information
+managing the downside risk, the probability of having high cost greater               for policy-makers to make an eﬃcient decision on the issue of CCS
+than $ 710.00 × 108 is only 10.00%. It can be found that the shapes of                planning under uncertainty arisen from ﬂuctuation in price of carbon
+the Pareto curve in this case are almost the same with that in prob-
+abilistic ﬁnancial risk model. This is because the main ideas behind
+these two metrics are identical, which are all focus on the parts that
+greater than the predeﬁned threshold. However, as for the cost dis-
+tribution, it can be found that downside risk metric prefers to CCS
+operation while probabilistic risk metric prefers to surcharge.
+
+
+6.3. Comparisons of the risk metrics
+
+    By analyzing the results obtained from the stochastic programming
+model and the three risk management models, it can be found that risk
+management always entails an increase of ETC in the CCS planning for
+risk reduction. Nevertheless, inclusion of risk metrics to the optimal
+deployment of CCS system under uncertainty can yield more robust
+designs and each one has advantages and disadvantages.
+    For the metric of variability index, it can be concluded that the
+variability index is appropriate if the decision-maker prefers a solution
+near the expectation. This risk metric is in linear representation, so the
+programming problem can be solved more easily. Compared with the
+formal variance, variability index seems more reasonable since the
+scenarios with lower costs than expectation are not penalized, but it                        Fig. 11. The Pareto-optimal curve for downside risk and ETC.
+
+
+                                                                                 11

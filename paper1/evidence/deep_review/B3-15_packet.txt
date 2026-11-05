@@ -1,0 +1,191 @@
+Modeling a Carbon Capture, Transport, and Storage Infrastructure for Europe
+
+PHYSICAL_PAGE 2
+                                                                                                                    P.-Y. Oei et al.
+
+
+or the electrolytic production of iron, may become avail-         particular, we investigate in the nature of the CO2 trans-
+able in the future. However, the extent to which they could       port infrastructure that would emerge in Northwest Europe,
+be applied on a large scale as well as prove economically         i.e., in Germany and to its south and east, ranging to
+viable is unknown. Thus the CCTS technology remains the           France and up to the North Sea and its neighboring states.
+only short- and mid-term CO2 mitigation option for these          Several scenarios, differing by the estimate of geological
+sectors. At the same time, an application in these sectors        storage available, the availability of onshore storage, and
+will lead to lower capture costs than in the energy sector        the expected CO2 certificate price in 2050, are run. We
+due to the higher CO2 concentration in the flue gas [20,          find that under certain extreme assumptions, such as a rel-
+31]. Despite this fact, industrial partners have made only        atively high CO2 price, and very optimistic CO2 storage
+little effort to bring forward CCTS projects. Most indus-         availability, a large-scale CCTS roll-out might indeed be
+trial companies also lack the financial possibilities to invest   expected. However, in a more realistic scenario, includ-
+into a demonstration unit including transport and storage         ing lower storage availability and public resistance to
+of CO2 . One major argument against putting pressure on           onshore storage, a large-scale roll-out is not going to hap-
+industrial facilities in Europe is the fear of losing interna-    pen. In all scenarios, CCTS deployment is highest in CO2
+tional competitiveness when facing higher production costs        intensive non-energy industries, where emissions cannot
+due to CCTS. This apprehension was, for example, present          be avoided by fuel switching or alternative production
+in the design of the allocation scheme for EU-ETS emis-           processes.
+sion allowances. The pure grandfathering approach did not             The next section provides an overview of existing lit-
+put any pressure on the emission efficiency of existing           erature and models, both theoretical and applied, e.g., to
+facilities (as widely criticized, e.g., in [26]) and thus free    North America or Europe. Section 3 specifies our own
+allowances were used instead of pushing for CCTS. The             model, called CCTS-Mod and its data. We then apply
+only two large-scale industry CCTS demonstration projects         CCTS-Mod to analyze the potential development of a CCTS
+in Europe, ULCOS Florange (a steel making plant in Lor-           infrastructure in Europe under certain scenarios. Section 5
+raine, France), and Green Hydrogen (a hydrogen plant in           summarizes the findings and provides conclusions.
+Rotterdam, Netherlands) initially applied for NER300 fund-
+ing, but then, in 2012, withdrew their application [39]. It
+is worth noting that those industry CCTS projects that are        2 Model
+currently operating face favorable and very site-specific
+conditions. Either CO2 capture is disproportionally inex-         Recent literature points out that the real bottlenecks to
+pensive due the specific process (e.g., ethanol production,       CCTS deployment are transport and storage infrastructure
+in Decatur, Illinous, USA ), or the CO2 has to be captured        [17]. Against this background, only a few simplified CCTS
+regardless in order to market the product (e.g., natural gas      models actually address the pipeline transport of large vol-
+with a too high CO2 -concentration as in, e.g., Sleipner field,   umes of CO2 . The Global Energy Technology Strategy
+Norway), or additional revenue from CO2 -enhanced oil             Program (GTSP) modeled the adoption of a CCTS sys-
+recovery changes the economics of the CCTS project (e.g.,         tem within three fossil-fuel-intensive electricity generation
+Weyburn Project in Saskatchewan, Canada). Hirschhausen            regions of the US. The results show that CCTS implemen-
+et al. [19] analyzed the discrepancy between the hopes put        tation depends more on CO2 injection rates and total reser-
+into the technology and its current state of development.         voir capacity than on the number of potential consumers
+In Addition to the points mentioned above, they found that        who would use the CO2 for enhanced oil recovery (EOR)
+there was a lack of technological focus on cheap capturing        [7].
+technologies. Also, blue sky expectations on cost reduc-             McPherson et al. [35] and Kobos et al. [32] introduced
+tions and learning curves, as well as the fact that the costs     the “String of Pearls” concept to evaluate and demon-
+and complexity related to regulatory issues of CO2 trans-         strate the means for achieving an 18 % reduction in carbon
+port and regulatory and technological issues of CO2 storage       intensity by 2012 in Texas using CCTS. Their dynamic sim-
+were neglected. Moreover, persisting negotiations and com-        ulation model connects each CO2 source to the nearest sink
+plicated environmental assessments for CO2 storage fueled         and automatically routes pipelines to the next neighboring
+by “not in my backyard” (NIMBY) concerns hindered the             sink, thus creating a trunkline connection for all of the sinks.
+implementation of planned demonstration projects.                 While the model can determine an optimal straight-line
+    Against this background, the question arises of what          pipeline network, it is not possible to group flows from sev-
+contribution the CCTS technology can realistically make           eral sources to one sink. Fritze [11] developed a least-cost
+toward European CO2 emission reduction.                           path model connecting each source with the nearest exist-
+    We apply the CCTS-Mod model to analyze the poten-             ing CO2 sink. The paper examines a hypothetical case of
+tial development of a CCTS infrastructure in Europe. In           main trunk lines constructed by the US Federal Government
+
+
+PHYSICAL_PAGE 7
+Modeling a Carbon Capture, Transport, and Storage Infrastructure for Europe
+
+
+Table 2 Variable costs in e
+per tCO2 treated in the             Technology                 2010             2020            2030             2040             2050
+capturing system
+                                    Coal                       32               32              31               31               31
+                                    Lignite                    29               29              29               29               28
+                                    NGCC                       47               47              45               44               44
+Source: Own calculation based       Cement                     17               17              17               17               17
+on Tzimas [47], Ho et al. [20],     Iron and Steel             16               16              16               16               16
+Öko Institut [31], and Rubin et    Refineries                 47               47              45               44               44
+al. [45].
+
+
+component ensures the shortest possible routing for the                 uneconomical, given a bad ratio of investment costs and
+CO2 .                                                                   exploitable storage capacity. The overall storage potential
+   Planning and development (P&D) costs include ROW                     of Europe is thus overestimated due to the lack of more
+costs, land purchase, and routing costs which occur only for            detailed information. The total storage capacity is set to
+the first pipeline built on a certain route. This leads to the          94 Gt, spread among 41 Gt saline aquifers and 3 Gt depleted
+construction of pipelines along corridors.                              gas fields onshore and, offshore, 30 Gt saline aquifers and
+                                                                        20 Gt depleted gas fields (see Table 8 in Appendix).
+3.3 CO2 Storage                                                             According to Heddle et al. [16], the costs for CO2 storage
+                                                                        are determined by factors including type of storage facil-
+Data on CO2 storage is difficult to come by and verify.                 ity, storage depth, permeability, number of injection points,
+Using available data, we derived our own estimates of loca-             injection pressure, etc. Therefore, total storage costs vary
+tion and capacity of the European on- and offshore storage.             significantly in different studies [44]. A characteristic value
+The exact location of the storage fields is being modeled               for a storage project is the sum of costs per injection well
+as closely to the geological formation as possible. Bentham             including site development, drilling, surface facilities, and
+[3], Bentham et al. [4], Brook et al. [5], and Hazeldine [15]           monitoring investments for a given annual CO2 injection
+are used to get data for the UK and for offshore storage                rate. Storage investments exhibit a strong sunk cost char-
+beneath the North Sea. Greenpeace [14] give good estimates              acter and according to IEA [21] variable costs total only 7
+for storage potential in Germany, while Radoslaw et al. [43]            to 8 %. Therefore, we implement storage costs on a total
+focusses on Poland. The feasibility study for Europe-wide               costs basis (see Table 4). A more recent estimate of stor-
+CO2 Infrastructure from the European Commission [1] and                 age costs from IEAGHG and ZEP [25] examining different
+the Geo Capacity project [12] are used to estimate storage              settings and uncertainties on technological and regulatory
+potential when no more accurate country-specific study was              issues arrive at figures similar to those presented above.
+available to the public. These studies, however, only grant                 One option that is said to improve the economics of CO2
+public access to storage data on a 50 x 50 km grid. This                storage and CCTS in general is CO2 -enhanced oil recov-
+means that some of these formations might consist of sev-               ery [24]. The technology is increasingly used in the US and
+eral smaller neighboring aquifers. The example of Germany               Canada [39] and might also be an option to provide addi-
+shows that the majority of the aggregated storage poten-                tional investment incentive for CCTS projects in Europe.
+tial can actually be found in small reservoir of 50 Mt or               Studies look intensively into the interaction of these two
+less [14]. The exploration of such very small reservoirs is             technologies. Some regional studies on the UK and Norwe-
+                                                                        gian potential [29, 30] as well as larger scope studies (e.g.,
+                                                                        on the North Sea region [36] or the US [6]) are also avail-
+Table 3 Investment cost by pipeline diameter and respective annual      able. In general, it is up to future research to determine
+transport capacity                                                      whether the combination of the two technologies can still be
+Diameter (m)      Annual transport           Investment costs (e per    considered as CO2 abatement, when taking into account the
+                  capacity (mio tCO2 / a)    tCO2 and km)               emissions from additionally recovered oil and assessing dif-
+                                                                        ferent injection strategies (see, e.g., [2]). For our approach,
+0.2               6                          0.29                       we do not consider CO2 -EOR as a storage option.
+0.4               18                         0.19
+0.8               71                         0.10
+1.2               174                        0.06                       4 Scenarios and Results
+1.6               338                        0.04
+                                                                        The level of uncertainty about the size and configuration of
+Source: Own calculations based on IEA [21] and Ainger et al. [1]        the pipeline network emanates from the uncertainty about
+
+
+PHYSICAL_PAGE 17
+Modeling a Carbon Capture, Transport, and Storage Infrastructure for Europe
+
+
+16. Heddle, G., Herzog, H., Klett, M. (2003). The Economics of              34. Kuramochi, T., Ramı́rez, A., Turkenburg, W., Faaij, A. (2012).
+    CO2 Storage. MIT LFEE 2003-003 R. Massachusetts Institute of                Comparative assessment of CO2 capture technologies for carbon-
+    Technology.                                                                 Intensive industrial processes. Progress in Energy and Combustion
+17. Herold, J., Ruester, S., von Hirschhausen, C. (2010a). Verti-               Science, 38(1), 87–112.
+    cal integration and market structure along the extended value           35. McPherson, B., Allis, R., Biediger, B., Brown, J., Cappa, G.
+    added chain including carbon capture, transport and sequestration           (2009). In Southwest regional partnership on carbon sequestra-
+    (CCTS). Project report for the european commission. Project No,             tion. Revised semiannual report. New Mexico institute of mining
+    213744. SECURE Work package 5.3.2.                                          and technology, Socorro. USA: New Mexico.
+18. Herold, J., von Hirschhausen, C., Ruester, S. (2010b). In Carbon        36. Mendelevitch, R. (2013). The Role of CO2 -EOR for the Devel-
+    capture, transport and storage in Europe: a problematic energy              opment of a CCTS Infrastructure in the North Sea Region: A
+    bridge to nowhere? CEPS Working Document 341. Belgium:                      Techno-Economic Model and Application. Discussion Papers of
+    Brussels.                                                                   DIW Berlin. German Institute for Economic Research, 1308, 1–
+19. Hirschhausen, C.v., Herold, J., Oei, P.-Y. (2012). How a low                51.
+    carbon innovation can fail—tales from a lost decade for car-            37. Middleton, R., Herzog, H., Keating, G., Kuby, M., Liao, X.
+    bon capture, transport, and sequestration (CCTS). Economics of              (2007). Optimization for geologic carbon sequestration and car-
+    Energy & Environmental Policy, 2, 115–123.                                  bon credit pricing. Sixth annual conference on carbon capture &
+20. Ho, M.T., Allinson, G.W., Wiley, D.E. (2010). Compari-                      sequestration.
+    son of MEA capture cost for low CO2 emissions sources                   38. Middleton, R.S., & Bielicki, J.M. (2009). A scalable infrastructure
+    in     Australia.    http://www.sciencedirect.com/science/article/          model for carbon capture and storage: SimCCS. Energy Policy,
+    B83WP-50G5H9G-3/2/c46881a78b698c9ca910a8dafdb39877.                         37(3), 1052–1060.
+21. IEA. (2005). In Building the cost curves for CO2 storage: Euro-         39. MIT (2012). Carbon capture and sequestration technologies
+    pean sector. Tech. rep., international energy agency. France:               @ MIT. Carbon apture and sequestration project database.
+    Paris.                                                                      Tech. rep., Massachusetts Institute of Technology. URL http://
+22. IEA. (2009). In CO2 Capture and storage—a key carbon abate-                 sequestration.mit.edu/tools/projects/index capture.htmlAccessed:
+    ment option. Tech. rep., international energy agency. France:               7thOctober2013.
+    Paris.                                                                  40. Neele, F., Hendriks, C., Brandsma, R. (Feb. 2009). Geocapacity:
+23. IEA. (2012). In Energy Technology Perspectives 2012. Pathways               economic feasibility of CCS in networked systems. Energy Proce-
+    to a clean energy system. Tech. rep., international energy agency.          dia, 1(1), 4217–4224. URLhttp://www.sciencedirect.com/science/
+    France: Paris.                                                              article/pii/S1876610209008753.
+24. IEA, & UNIDO. (2011). In Technology roadmap carbon cap-                 41. Oei, P.-Y., Herold, J., Tissen, A. (2011). CO2 Speicherung in
+    ture and storage in industial applications. Tech. rep., international       Deutschland: Eine Brckentechnologie als Klimaloesung? [in Ger-
+    energy agency. united nations industrial development organiza-              man]. Zeitschrift fr Energiewirtschaft, 35(4), 263–273.
+    tion. France: Paris.                                                    42. Platts (January 2011). Power system database Europe. The
+25. IEAGHG, Z.EP. (2011). In The costs of CO2 storage—post                      McGraw-Hill companies.
+    demonstration CCS in the EU. Tech. rep., IEA greenhouse gas R &         43. Radoslaw, T., Barbara, U.-M., Adam, W. (2009). CO2 storage
+    D programme (IEAGHG) and european technology platform for                   capacity of deep aquifers and hydrocarbon fields in Poland—EU
+    zero emission power plants (ZEP). Belgium: Brussels.                        GeoCapacity project results. Energy Procedia, 1(1), 2671–2677.
+26. IETA (2012). Briefing on the EU’s emissions trading scheme.             44. RECCS. (2010). In RECCS plus: comparison of renewable energy
+    Tech. rep.,International Emissions Trading Association.                     technologies with carbon dioxide capture and storage. Tech. rep.,
+27. IPCC (2005). IPCC special report on carbon dioxide capture and              federal ministry for the environment, Nature Conservation and
+    storage. Tech. rep., intergovernmental panel on climate change              Nuclear Safety (BMU). Germany: Berlin.
+    (IPCC), Internet:Accessed: 31 July 2009.                                45. Rubin, E.S., Yeh, M.A., Berkenpas, M., Davison, J. (2007). Use of
+28. Kazmierczak, T., Brandsma, R., Neele, F., Hendriks, C. (2008).              experience curves to estimate the future cost of power plants with
+    In Algorithm to create a CCS low-cost pipeline network. Energy              CO2 capture. International Journal of Greenhouse Gas Control,
+    Procedia 1 (1), 1617–1623, greenhouse gas control technologies              1(2), 188–197.
+    9, proceedings of the 9th international conference on greenhouse        46. Tavoni, M., & van der Zwaan, B. (2011). Nuclear Versus Coal
+    gas control technologies (GHGT-9), (pp. 16–20). Washington DC,              plus CCS: a comparison of two competitive base-Load climate
+    USA: November 2008.                                                         control options. Environmental Modeling and Assessment, 16,
+29. Kemp, A., & Kasim, S. (2012). The Economics of CO2 -EOR                     431–440.
+    Cluster Developments in the UK Central North Sea/Outer Moray            47. Tzimas, E. (2009). In The cost of carbon capture and storage
+    Firth. North Sea Study Occational Paper, 123, 1–64.                         demonstration projects in Europe. Tech. rep., JRC Scientific and
+30. Klokk, O., Schreiner, P., Pagès-Bernaus, A., Tomasgard, A.                 Technical Reports, European Commission.
+    (2010). Optimizing a CO2 value chain for the Norwegian conti-           48. VGB (2011). Geplante Neubauprojekte in der EU [in German].
+    nental shelf. Energy Policy, 38, 6604–6614.                                 Tech. rep. VGB PowerTech e, V.
+31. Öko Institut. (2012). In Potenziale und Chancen der Technolo-          49. WorleyParsons, S.chlumberger. (2011). In Economic assessment
+    gie zur CO2 - Abtrennung und Ablagerung (CCS) fr industrielle               of carbon capture and storage technologies: 2011 update. Tech.
+    Prozessemissionen [in German]. Study for the world wildlife.                rep., The Global CCS Institute. Australia: Camberra.
+    Tech. rep.                                                              50. ZEP. (2011a). In The costs of CO2 Capture. Post Demonstra-
+32. Kobos, P.H., Malczynski, L.A., Borns, D.J., McPherson, B.J.                 tion CCS in the EU. Tech. rep., European technology platform for
+    (2007). The ’String of Pearls’: The Integrated Assessment Cost              zero emissions fossil fuel power plants. Zero Emissions Platform.
+    and Source-Sink Model. The 6th Annual Carbon Capture &                      Belgium: Brussels.
+    Sequestration Conference, Pittsburgh, PA, May 7–10, 2007.               51. ZEP. (2011b). In The costs of CO2 transport. Post demonstra-
+33. Kuby, M.J., Bielicki, J.M., Middleton, R.S. (2011). Optimal spa-            tion CCS in the EU. Tech. rep., European technology platform for
+    tial deployment of carbon dioxide capture and storage given a               zero emissions fossil fuel power plants. zero emissions platform.
+    price on carbon dioxide.                                                    Belgium: Brussels.

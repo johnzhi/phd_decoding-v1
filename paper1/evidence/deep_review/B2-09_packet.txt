@@ -1,0 +1,238 @@
+Risk aware planning of CO2 transport and geological storage networks for net zero buildings under capacity and injectivity uncertainty
+
+PHYSICAL_PAGE 3
+G. Kattel et al.                                                                                                               Energy & Buildings 357 (2026) 117200
+
+
+requires next-generation models that formally internalize these physical            relying on CCUS to meet sectoral emission budgets for construction
+uncertainties and directly quantify the resulting risk to system                    materials, understanding not just the probability but also the potential
+deliverability.                                                                     magnitude of a delivery shortfall is essential for effective risk manage-
+                                                                                    ment. Building on these ideas, this work applies a budgeted uncertainty
+2.1. Foundational CCUS network modeling and source-sink matching                    set to both pipeline capacities and well injectivities within an exact
+                                                                                    network MILP, allowing conservatism to be adjusted as a design
+    Planning CO2 capture, transport, and storage systems has evolved                parameter.
+around integrated techno-economic frameworks that represent source-                     Another approach explores uncertainty by sampling multiple storage
+sink networks as costed graphs solved using Mixed integer linear pro-               scenarios. Olson and Yaw [33] solve deterministic optimizations for
+gramming (MILP). MILP is widely used in infrastructure planning                     each case and identify a core set of pipelines and wells common to most
+because it can jointly represent discrete investment decisions within a             optimal networks. While insightful, this separates uncertainty from
+single optimization model [23–26]. Zhang et al. [27] review how recent              optimization and lacks a coherent risk metric. In contrast, this study
+CCUS source-sink matching and network models are almost always                      integrates uncertainty within the optimization, combining budgeted
+written as mixed-integer linear programs on costed graphs, often with               robustness with Conditional Value-at-Risk on storage shortfall to
+Geographic Information System (GIS) tools for route generation and                  construct cost-risk tradeoff curves for different risk preferences. This
+clustering, and they note that most of these frameworks still rely on               integrated methodology provides a direct link between infrastructure
+deterministic parameters and scenario analysis rather than formal                   investment and the financial or regulatory risk of failing to sequester
+robustness inside the model. Tan et al. [28] extended this line by pro-             promised emissions from the building sector's supply chain.
+posing a multiperiod source-sink matching formulation that accounts for
+time, injection-rate limits, and storage capacities, which helps capture            2.3. Technical underpinnings of uncertainty in transport and storage
+temporal feasibility, but they still treat each route as a simple link and do
+not design shared trunks, hubs, or discrete pipelines and wells in a                    The disconnect between deterministic planning models and real-
+network. Gu et al. [29] later used a genetic algorithm to jointly select            world project risks stems from well-characterized physical un-
+source-sink pairs, routes, and pipeline layouts, gaining flexibility in             certainties. The storage and transport literature agrees that injectivity
+search but sacrificing the transparency of an exact MILP and omitting               and pipeline capacity are central to CCUS feasibility and inherently
+detailed discounted economics. These studies show how to match and                  uncertain. The Intergovernmental Panel on Climate Change (IPCC)
+route CO2, but none of them simultaneously co-designs hubs, integer                 guidelines explain how injectivity depends on reservoir properties, fluid
+pipelines and wells, and finance-aware net present cost in one exact                behavior, and well pressures, emphasizing monitoring and pressure
+network model. For the capital-intensive planning of shared infra-                  management [34]. International Energy Agency Greenhouse Gas R&D
+structure to decarbonize regional industrial clusters, such as those pro-           Program (IEAGHG) and best-practice documents highlight that early
+ducing steel and cement for the building sector, this gap in integrated,            estimates of injectivity and storage capacity can vary widely [35,36],
+asset-specific design is significant. This study addresses this gap by              while multiphase-flow simulations show capillary pressure–saturation
+formulating a network MILP that sizes discrete pipelines and wells, en-             relationships strongly influence storage efficiency [37]. A recent review
+forces node-wise mass balance, and minimizes discounted net cost for a              notes that capacity estimates for large formations often span broad
+CCUS cluster.                                                                       ranges until more data are collected [38]. These studies underscore the
+    More recent work moves toward dynamic cluster planning. Wu et al.               need to treat injectivity and capacity as ranges rather than fixed values.
+[30] introduce an optimization-based CCUS cluster model that plans                  Recent works quantify injectivity and pressure uncertainty for planning
+capture, pipeline expansion, and storage deployment over multiple time              models: Mishra et al. [39] estimate injectivity indices from trans-
+periods, showing how dynamic targets can change the timing and choice               missibility data, showing wide plausible intervals within a single for-
+of investments. However, this cluster framework still assumes fixed ca-             mation; Tadjer and Bratvold [40] use Bayesian learning with reservoir
+pacities and does not incorporate uncertainty in pipeline capacity or               ensembles to express storage performance probabilistically; De Simone
+storage injectivity as a design driver. This represents a critical oversight        et al. [41] highlight errors from simple pressure superposition in
+for infrastructure that must guarantee performance over multi-decadal               multiple-sink systems, adding uncertainty to effective injectivity limits.
+horizons aligned with building lifespans and decarbonization pledges.               While these studies address injectivity uncertainty, a formal link to
+In contrast, the present work uses a simpler, synthetic test system but             source-sink matching (SSM) network design is still lacking. This lack of
+embeds uncertain capacities directly in the network MILP, so that to-               integration means that sophisticated geoscientific understanding of
+pology, sizing, and operating patterns are optimized under explicit                 subsurface risk rarely informs the high-level infrastructure design
+robustness and risk-aversion settings.                                              models used for regional decarbonization planning. This work models
+                                                                                    injectivity as an uncertain parameter within the network MILP, hedges it
+2.2. Emerging approaches to uncertainty in CCUS planning                            below a nominal value, and analyzes its impact on network design and
+                                                                                    cost.
+   A smaller group of CCUS studies explicitly models uncertainty in                     On the transport side, an IEAGHG technical assessment [42] explains
+planning. He et al. [31] developed both a worst-case MILP for interval              how impurities, phase behavior, and operating pressure change CO2
+uncertainty and a two-stage stochastic MILP for stochastic parameters in            density and compression needs, which in turn affect effective pipeline
+source-sink matching, and they showed that robust and stochastic de-                capacity and cost. This results in a design challenge where pipeline ca-
+signs can diverge significantly from deterministic solutions. However,              pacity is not a fixed value but is variable and complex to determine, as it
+their models focus on matching flows between sources and sinks and do               depends on specific source composition, flow rates, and route topog-
+not design shared pipelines, hubs, or discrete wells. Wu et al. [32] later          raphy [43]. Consequently, these inherent technical uncertainties intro-
+proposed an inexact dynamic source-sink matching model for CCUS                     duce significant gaps into safety planning, where assumptions about
+clusters that combines interval linear programming with chance-                     failure rates, release models, and safety thresholds critically affect the
+constrained programming to plan capture, transport, and storage                     accuracy of quantitative risk assessments for pipeline infrastructure
+under both interval and probabilistic uncertainties. That formulation               [44]. Despite this evidence of variable capacity, most existing CCUS
+moves beyond simple sensitivity analysis, but it mainly controls the                network MILPs still assign single deterministic values to this asset.
+probability of violating injectivity constraints rather than giving plan-           Treating pipeline capacity as fixed ignores a major source of deliver-
+ners a clear handle on how many capacities can deteriorate at once or               ability risk for networks tasked with continuous operation to abate
+how large the shortfalls might be. For policymakers and investors                   emissions from baseload industrial plants serving the construction
+
+                                                                                3
+
+
+PHYSICAL_PAGE 8
+G. Kattel et al.                                                                                                                      Energy & Buildings 357 (2026) 117200
+
+
+along with summary metrics such as the NPC, total pipeline length, and               Table 1
+total storage capacity. Second, the Γ-robust analyses generate response              Characteristics of CO2 emission sources used in the model.
+curves and contour plots that illustrate how the NPC, total pipeline ki-               Source    Industrial       Annual              Specific CO2       Source of
+lometers, and number of wells vary with changes in the robustness                                type             production          emission (tCO2/t   specific
+budgets for pipeline capacity and well injectivity. These outputs identify                                        capacity            product)           emission data
+which uncertainty source drives cost most significantly and reveal                     S1        Cement plant     10 Mt cement        0.6 tCO2/ton       [68]
+threshold values of Γ where discrete investments in additional pipelines                                                              cement
+or wells are triggered. Third, the CVaR-shortfall formulation reports, for             S2        Iron & steel     8 Mt steel          1.92 tCO2/ton      [69]
+                                                                                                 mill                                 steel
+a range of risk-aversion coefficients, the expected NPC, the discounted
+                                                                                       S3        Coal-fired       2000 MW             2.31 lb CO2/       [70]
+CVaR of annual shortfall, the mean annual shortfall, and the corre-                              power plant                          kWh
+sponding infrastructure sizing. These results define a cost–risk frontier              S4        Cement plant     10 Mt cement        0.6 tCO2/ton       [68]
+and show staircase changes in pipeline length and well counts, quanti-                                                                cement
+                                                                                       S5        Ammonia          2 Mt ammonia        2.4 tCO2/ton       [71]
+fying the investment needed to reduce exposure to large storage deficits.
+                                                                                                 synthesis                            ammonia
+Together, the outputs from all three formulations enable a direct com-                           plant
+parison of design strategies, clarifying the trade-offs between nominal
+                                                                                     Note: Specific emission values are obtained from literature sources shown in the last
+cost, robustness to capacity uncertainty, and financial risk due to storage
+                                                                                     column, while production capacities are assumed for modeling purposes.
+shortfalls.
+
+4. Case study                                                                        Table 2
+                                                                                     Annual CO2 emission and associated cost parameters for each industrial source.
+    The case study employs a stylized carbon capture, transport, and
+                                                                                       Source    Annual          Capital         Fixed cost   Variable       Salvage
+storage (CCTS) network to demonstrate the proposed optimization                                  emission        cost ($M)       ($M/year)    cost           value ($M)
+framework. Fig. 3 illustrates the synthetic layout comprising five emis-                         (MtCO2/                                      ($/tCO2)
+sion source (S1 -S5 ), one intermediate hub (H1 ), and two potential stor-                       year)
+age sinks (R1 -R2 ). The figure is drawn to scale; the scale bar at lower left         S1        6               432             13.095       53.99          21.6
+indicates distances in kilometers. Inter-site distances are measured as                S2        15.36           1105.92         32.832       47.155         55.296
+straight-line separations between node coordinates, and pipeline lengths               S3        18.396          1200.339        35.4307      54.4           60.01695
+                                                                                       S4        6               432             13.095       53.99          21.6
+in the optimization model are approximated by these straight-line dis-
+                                                                                       S5        4.8             82.08            6.6744      10.045          4.104
+tances. This is a common assumption in early-stage CO2 pipeline plan-
+ning, where detailed right-of-way information is unavailable, and the
+study region is large enough that moderate routing deviations change                 specific CO2 emissions per unit of product. The selection of these specific
+absolute lengths but not the relative ordering of candidate routes. The              industries is directly connected to net-zero building pathways through
+locations and labels of all nodes are purely hypothetical and do not                 operational energy use and embodied materials. The cement plants and
+correspond to any real industrial plants, hubs, or storage complexes.                the iron & steel mill represent primary sources of embodied carbon in
+This is a deliberate choice: the network is intentionally designed as a              construction materials. The coal-fired power plant represents a signifi-
+synthetic test system to exercise the deterministic, Γ-robust, and CVaR-             cant source of operational carbon from building electricity supply. This
+shortfall formulations under controlled conditions. The red nodes (S)                composition allows the model to evaluate infrastructure planning for the
+represent upstream industrial CO2 sources, the blue node (H) denotes a               exact industrial clusters that must be decarbonized to achieve credible
+hub that can consolidate flows or enable trunk pipeline routing, and the             net-zero building pathways.
+green nodes (R) indicate deep-saline aquifer storage sites. Dashed lines                 Table 2 summarizes the annual CO2 emissions, capital cost, fixed
+correspond to all candidate pipeline arcs considered in the optimization             operating cost, and variable operating cost for each industrial source.
+model, defining feasible source-to-hub-to-sink transport paths. This                 The data are compiled from literature source [32]. In the referenced
+layout therefore serves as a numerical experiment for evaluating model               study, cost parameters are presented as interval ranges; however, the
+behavior under consistent network topology and parameterization.                     midpoint of each interval is adopted here for consistency. These values
+    The data for the CO2 sources are summarized in Tables 1 and 2.                   are chosen to be broadly representative of large industrial facilities and
+Table 1 describes the characteristics of the five sources (S1-S5), which             are used solely to parameterize the synthetic case study. The capital cost,
+are assumed to represent a cement plant, an iron and steel mill, a coal-             originally expressed in $M/tCO2, is converted into total capital invest-
+fired power plant, another cement plant, and an ammonia synthesis                    ment ($M) by multiplying it with the annual quantity of CO2 captured.
+plant, respectively, along with their annual production capacities and               Similarly, the normalized fixed operating cost ($M/tCO2) is multiplied
+                                                                                     by the annual captured CO2 to obtain the annual fixed cost ($M/year).
+                                                                                     Capture efficiency for post-combustion capture systems is typically re-
+                                                                                     ported in the range of 85–95% [34]; a uniform value of 90% is applied in
+                                                                                     this study. The salvage value for chemical and process plants generally
+                                                                                     ranges from 0 to 10% of the initial capital cost [61], and a representative
+                                                                                     value of 5% is assumed for a project lifetime of 20 years. The annual CO2
+                                                                                     emissions for each industry (MtCO2/year) are then estimated by multi-
+                                                                                     plying the annual production capacity by the corresponding specific
+                                                                                     emission factor provided in Table 1.
+                                                                                         The data related to the CO2 storage sinks are presented in Table 3.
+                                                                                     The values are obtained from the same literature source as the CO2
+                                                                                     source data, which in turn derived the sink parameters following the
+                                                                                     cost estimates of De Simone and Krevor [41]. Two sinks are considered
+                                                                                     in this study, all assumed to be DSAs, which represent the most viable
+                                                                                     and geographically extensive option for large-scale CO2 storage. As with
+                                                                                     the sources, these sink parameters are representative of deep-saline
+       Fig. 3. Synthetic CCUS source-sink-hub network used for analysis.             storage options reported in the literature and should be viewed as
+
+                                                                                 8
+
+
+PHYSICAL_PAGE 17
+G. Kattel et al.                                                                                                                       Energy & Buildings 357 (2026) 117200
+
+
+investment decisions that couple all scenarios. Multi-period build-out              supporting net-zero building strategies. The results indicate that cred-
+compounds this growth by adding another dimension to both invest-                   ible CCUS-based abatement claims depend on delivery-assured perfor-
+ment and operation variables. Consequently, national-scale instances                mance rather than nominal capacity, and that reliability standards
+with many sources, sinks, candidate corridors, time periods, and sce-               expressed through robustness budgets or tail-risk limits can be trans-
+narios can become computationally demanding, and direct solution with               lated into concrete infrastructure requirements and cost premiums. This
+off-the-shelf solvers may not be practical without additional structure.            enables policy and investment design that explicitly trades upfront
+    For regional and national applications, decomposition and tailored              spending against the risk of under-delivery that can undermine opera-
+approximations are likely to be needed. A practical pathway is to reduce            tional and embodied carbon accounting for buildings.
+the candidate network before optimization using GIS-based corridor                      The numerical magnitudes are illustrative because the case study is
+screening, routing feasibility filters, and clustering of nearby sources and        synthetic and abstracts routing, permitting, detailed hydraulics, and
+sinks to limit the number of arcs and binaries. On the uncertainty side,            formation-specific pressure management. Future work should parame-
+scenario reduction and structured uncertainty sets can preserve the                 terize the framework for real regions using public source and storage
+dominant risk patterns while keeping the model tractable. Algorithmi-               datasets, incorporate phased build-out, and represent storage perfor-
+cally, variants of Benders decomposition can separate investment de-                mance uncertainty with pressure constraints, learning, and correlated
+cisions from operational and scenario subproblems, while column-and-                risks.
+constraint generation can be used for robust counterparts and large
+scenario sets. Heuristic or hybrid strategies are also appropriate for              CRediT authorship contribution statement
+early-stage planning, for example solving a coarse aggregated model to
+identify priority corridors and sinks, then refining locally with higher-               Gaurav Kattel: Writing – review & editing, Writing – original draft,
+fidelity candidate sets and uncertainty descriptions. These approaches              Visualization, Validation, Resources, Methodology, Formal analysis,
+allow the framework to remain usable as the scope expands, while                    Data curation, Conceptualization. Anup Paudel: Writing – review &
+retaining the core objective of delivery-assured infrastructure planning.           editing, Writing – original draft, Validation, Methodology, Data cura-
+    Despite the above limitations, the framework provides a clear tem-              tion, Conceptualization. Seungkeun Yeom: Writing – review & editing,
+plate for linking net-zero building objectives to enabling CCUS infra-              Methodology, Conceptualization. Juui Kim: Writing – review & editing,
+structure under uncertainty. A regional application can proceed by                  Methodology, Conceptualization. Taehoon Hong: Writing – review &
+translating building-driven decarbonization pathways into sectoral                  editing, Validation, Supervision, Methodology, Conceptualization. Jun-
+capture demand trajectories for electricity generation and construction-            Ki Choi: Writing – review & editing, Writing – original draft, Validation,
+material supply chains, then jointly optimizing transport and storage               Supervision, Project administration, Methodology, Funding acquisition,
+investments under explicit deliverability risk metrics. The deterministic           Conceptualization.
+baseline can be used to identify least-cost corridors and sinks, the robust
+analysis to test deliverability under bounded underperformance, and the
+CVaR analysis to quantify the cost of meeting reliability requirements              Declaration of competing interest
+that can be stated as performance standards. This structure also supports
+phased deployment by identifying discrete expansion thresholds and by                   The authors declare that they have no known competing financial
+linking monitoring outcomes to predefined upgrade actions.                          interests or personal relationships that could have appeared to influence
+                                                                                    the work reported in this paper.
+7. Conclusion
+                                                                                    Acknowledgement
+    This study developed a risk-aware planning framework for CO2
+transport and geological storage networks that supports CCUS-enabled                   The author would like to express gratitude to the US Department of
+net-zero building pathways by explicitly linking infrastructure design              Energy for supporting this work through their funding of the Industrial
+to delivery assurance. A network-based mixed-integer linear program-                Assessment Center program (DE-EE0009721).
+ming model was formulated to co-design transport and storage infra-
+structure by selecting discrete pipeline capacity through parallel pipes            Data availability
+and discrete injection capacity through wells, subject to annual mass
+balance and capacity and injectivity constraints. Two uncertainty                       Data will be made available on request.
+treatments were integrated: a Γ-robust hedge that protects feasibility
+under bounded reductions in per-pipe capacity and per-well injectivity,             References
+and a scenario-based two-stage formulation that penalizes annual
+storage-target shortfall using Conditional Value at Risk at a confidence             [1] Intergovernmental Panel on Climate Change (IPCC), Synthesis Report of the IPCC
+level of 0.95.                                                                           Sixth Assessment Report (AR6): Headline Statements. 2023, Intergovernmental
+                                                                                         Panel on Climate Change: Geneva, Switzerland.
+    Under representative conditions of moderate transport distances and              [2] International Energy Agency, Iron and Steel Technology Roadmap. 2020,
+typical cost structures in the synthetic case study, ensuring deliverability             International Energy Agency (IEA): Paris, France.
+against worst-case injectivity underperformance increases system cost                [3] United Nations Economic Commission for Europe. COP27: UN Report Shows
+                                                                                         Pathways to Carbon Neutrality for Energy-Intensive Steel Industry. 2022 10
+by 52%, nearly three times the 18% increase required to hedge an                         October 2025]; Available from: https://unece.org/climate-change/press/cop27-
+equivalent pipeline capacity shortfall, while joint worst-case degrada-                  un-report-shows-pathways-carbon-neutrality-energy-intensive-steel.
+tion increases cost by 72%. This asymmetry identifies storage injectivity            [4] International Energy Agency, The Role of CCUS in Low-Carbon Power Systems.
+                                                                                         2020, International Energy Agency (IEA): Paris, France.
+uncertainty as the dominant driver of cost and reliability risk under the            [5] Sapkota, S., J. Park, and J.-K. Choi, Forecasting of energy and emissions for the
+assumed conditions. The Conditional Value at Risk results further                        cement sector: a comprehensive review and scenario-based assessment. Resources,
+quantify the price of delivery assurance: halving the discounted tail                    Environment and Sustainability, 2026. 23.
+                                                                                     [6] M. Bui, C.S. Adjiman, A. Bardow, E.J. Anthony, A. Boston, S. Brown, P.S. Fennell,
+shortfall from approximately 200 MtCO2 to approximately 100 MtCO2
+                                                                                         S. Fuss, A. Galindo, L.A. Hackett, J.P. Hallett, H.J. Herzog, G. Jackson, J. Kemper,
+requires an approximately 52% increase in expected system cost,                          S. Krevor, G.C. Maitland, M. Matuszewski, I.S. Metcalfe, C. Petit, G. Puxty,
+revealing an explicit cost-risk frontier and threshold-driven expansions                 J. Reimer, D.M. Reiner, E.S. Rubin, S.A. Scott, N. Shah, B. Smit, J.P.M. Trusler,
+in optimal pipelines and wells.                                                          P. Webley, J. Wilcox, N. Mac Dowell, Carbon capture and storage (CCS): the way
+                                                                                         forward, Energ. Environ. Sci. 11 (5) (2018) 1062–1176.
+    Beyond methodological contribution, the findings have direct im-                 [7] L. Sun, W. Chen, Development and application of a multi-stage CCUS source–sink
+plications for policymakers, planners, and infrastructure investors                      matching model, Appl. Energy 185 (2017) 1424–1432.
+
+
+                                                                               17

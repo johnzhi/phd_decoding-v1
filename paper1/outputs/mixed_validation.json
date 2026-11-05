@@ -1,0 +1,13 @@
+{
+  "annual_milp_cases": 12,
+  "optimal_solver_cases": 12,
+  "operational_reevaluations": 72,
+  "annual_operating_rows": 2160,
+  "dispatch_control_cases": 18,
+  "source_shared": true,
+  "reservoir_groups_disjoint": true,
+  "maximum_combined_mass_residual_t": 1.1845258995890617e-08,
+  "complete_lca": false,
+  "independent_storage_calibration": false,
+  "global_detailed_optimum": false
+}

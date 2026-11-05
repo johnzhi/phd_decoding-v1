@@ -1,0 +1,250 @@
+Optimised deployment of a European CO2 transport network
+
+PHYSICAL_PAGE 2
+                                        J. Morbee et al. / International Journal of Greenhouse Gas Control 7 (2012) 48–61                                            49
+
+
+would be the construction of numerous pipelines linking individual                 see below, the pan-European scope of our InfraCCS model requires
+CO2 sources with sinks, sized to meet the transport needs of individ-              close to 100 nodes, i.e. four times more than the latter two stud-
+ual capture facilities. This implies that pipelines will be constructed            ies, and also almost double the number of nodes included in the
+in the context of individual CCS projects and their planning and                   case study of Middleton and Bielicki (2009). Since the computa-
+construction will be synchronous to the development of the CO2                     tional complexity of the optimisation process can be assumed to
+capture facilities. However, as pointed out by Morbee et al. (2010),               be exponential in the number of nodes, the major contribution of
+this approach is likely to impede the large-scale deployment of CCS                our InfraCCS model is that it introduces a number of methodological
+as it will not allow for the expansion and sharing of the infras-                  improvements which allow for a pan-European scope with multi-
+tructure with other CO2 sources, which in turn will be required to                 ple time-steps while keeping the model computationally tractable.
+develop their own pipelines, resulting in deployment delays due to                 As will be explained below, these improvements in InfraCCS con-
+permitting procedures, and additional costs, since pipeline costs do               sist of the use of computational geometry techniques for automatic
+not scale proportionally with transport capacities. Apparently, this               clustering and pipeline preselection,2 as well as a mathematically
+situation would be most detrimental for CO2 sources that are either                convenient yet realistic pipeline costing concept. Furthermore, our
+of small size or located away from suitable storage sites. Alterna-                model contains an enhanced routing algorithm that can deliver
+tively, as also highlighted by the European Commission (2010b),                    slightly more accurate results than the eight-neighbour-cell algo-
+the development of integrated pipeline networks, planned and con-                  rithm used by both Middleton and Bielicki (2009) and Broek et al.
+structed initially at regional or national level and oversized to meet             (2010a,b).
+the transport needs of multiple CO2 sources, would take advantage                      Pan-European networks of CO2 have been considered in previ-
+of economies of scale and enable the connection of additional CO2                  ous research. The CO2Europipe project (Neele et al., 2010) develops
+sources with sinks in the course of the pipeline lifetime. As an exam-             a large-scale European CCS transport and storage network. In con-
+ple, Morbee et al. (2010) and the European Commission (2010b) cite                 trast to our optimisation-based model, their approach is based
+the Pre-Front End Engineering Design Study of a CCS network for                    mostly on manual design. The model developed by Mendelevitch
+Yorkshire and Humber (CO2Sense, 2010), which showed that ini-                      et al. (2010) provides an optimisation view of North-West European
+tial investment in spare pipeline capacity would be cost-effective                 CO2 infrastructure over time, using a grid of cells of approximately
+even if subsequent developments were not to join the network                       100 km × 100 km, with pipelines only possible in North-South,
+for up to 11 years. They point out that the CO2Sense (2010) study                  East-West and 45◦ angles between the cells. By contrast, the clus-
+also conﬁrmed experience from other sectors i.e. that investing in                 tering and triangulation approach used in InfraCCS allows for free
+integrated networks would catalyse the large-scale deployment of                   location of sources and sinks, and does not put any constraints on
+CCS technologies by consolidating permitting procedures, reduc-                    pipeline angles. On the other hand, Mendelevitch et al. (2010) endo-
+ing the cost of connecting CO2 sources with sinks and ensuring                     genise the decision regarding the amount of CO2 captured (as is also
+that captured CO2 can be stored as soon as the capture facility                    the case in e.g. Broek et al., 2010a,b), while our InfraCCS model takes
+becomes operational. In the longer run, according to the European                  an external capture scenario as input.
+Commission (2010b), such integrated networks could be expanded                         The remainder of the paper is organised as follows. Section 2
+and interlinked to reach CO2 sources across Europe and distant                     describes the InfraCCS methodology and the innovations that make
+storage sites, leading to the development of a true trans-European                 it computationally tractable. As an illustration of the model, Sec-
+network, similar to the existing networks for electricity and gas. The             tion 3 presents the input assumptions and model outcomes of the
+European Commission (2010b) suggests that the realisation of such                  simulation of two case studies. Section 4 provides a discussion of
+CO2 transport infrastructure would require a timely start of coordi-               the results, and Section 5 summarises our conclusions.
+nated infrastructure planning and development at European level.
+    The aim of this paper is to present an optimisation model, named               2. Methodology
+the InfraCCS model, that can describe the likely extent and cost of a
+CO2 transport network at European scale for the period 2015–2050.                  2.1. Optimisation model
+Our work ﬁts in the existing CCS literature on the economics of CO2
+transport. A large part of this literature deals with direct source-sink              The objective of our InfraCCS tool is to ﬁnd the optimal, i.e. cost-
+connections (with occasional attention for the beneﬁts of coor-                    minimising, pipeline network that is capable of transporting given
+dinated infrastructure, as in e.g. Svensson et al., 2004), or with                 amounts of CO2 from capture sources to the optimal sinks.3 Let
+pre-deﬁned transport system options, such as Odenberger et al.                     us deﬁne this problem more precisely. All sources and sinks are
+(2008) or Haugen et al. (2010). Our work, by contrast, aims at                     ‘nodes’ in the network. Let N denote the total number of nodes.
+computing an optimal network, under the assumption of interna-                     Assume that there are P possible pipelines that connect these nodes,
+tional coordination. The CO2 network optimisation question has                     and T possible points in time at which these pipelines can be built.
+recently received signiﬁcant attention. Kazmierczak et al. (2009),                 The objective of the optimisation is to ﬁnd the optimal choice of
+for example, provide a CO2 pipeline network optimisation algo-                     pipelines (among the P possible pipelines) that should be built at
+rithm based on a heuristic approach. Rather than developing a                      each of the T points in time, in order to make sure that all CO2
+heuristic solution, our model follows the approach of Middleton
+and Bielicki (2009), who formulate the problem as a mixed-
+integer linear programme that can be solved towards a global                          2
+                                                                                        An alternative way to address the same issue is the methodology proposed by
+optimum using state-of-the-art optimisation engines. Middleton                     Johnson and Ogden (2010), who construct a candidate pipeline network for Texas
+and Bielicki’s (2009) model is limited to a static snapshot and does               and surroundings based on existing natural gas pipeline rights-of-way.
+                                                                                      3
+                                                                                        Transporting CO2 by ship would be an alternative to pipelines. While our
+not include a gradual build-up over time, apparently because the
+                                                                                   InfraCCS model is ﬂexible enough to accommodate shipping, we do not consider
+resulting model would be “extremely computationally intensive                      it here, for the sake of expositional clarity. Indeed, pipelines currently seem to be
+to solve” (p. 1059). Our InfraCCS tool, by contrast, does include                  the most mature technology for CO2 transport. Despite some technical challenges
+the gradual deployment of infrastructure over the course of ﬁve                    compared to natural gas pipelines, the large-scale transportation of CO2 by pipeline
+interdependent time-steps. Timing is also considered by e.g. Broek                 is an established industrial process in the USA, with 3900 km of pipelines transport-
+                                                                                   ing 30 Mt of CO2 annually (Morbee et al., 2010). Furthermore, the fact that many
+et al. (2010a,b) and Klokk et al. (2010). However, these two models                possible CO2 sources and sinks are onshore, provides an additional advantage to
+are focused on one country and the applications described include                  pipelines. In support of this argument, Tzimas (2009) notes that only one out of the
+only around 20 nodes (sources and sinks combined). As we will                      seven archetypal projects identiﬁed by ZEP (2008) envisages CO2 transport by ship.
+
+
+PHYSICAL_PAGE 8
+                                                J. Morbee et al. / International Journal of Greenhouse Gas Control 7 (2012) 48–61                                           55
+
+
+alternatively CPLEX 12.2 and XPRESS 20.0. In our experience, the                           Table 1
+                                                                                           Assumptions about quantities of CO2 captured [Mt/y].
+fastest results are obtained with CPLEX, presumably because it has
+speciﬁc features for solving network problems (IBM ILOG, 2010).                                                       2015          2020    2025         2030        2050
+The output of the optimisation is processed using a combination of                           Austria                  –              –         –           3.5          7.6
+MATLAB R2010a and ArcGIS 9.3.                                                                Belgium                  –              –         –           6.1         28.4
+                                                                                             Bulgaria                 –              –         9.4        13.6         23.3
+                                                                                             Czech Republic           –              –        10.0        18.5         58.3
+3. Results                                                                                   Denmark                  –              –         –           2.8         14.3
+                                                                                             Estonia                  –              –         –           –            9.7
+3.1. Input assumptions                                                                       Finland                  –              –         3.1         7.4         22.2
+                                                                                             France                   –              –         –           9.9         25.6
+                                                                                             Germany                  1.5            5.2      95.1       181.0        315.9
+    In order to demonstrate the use of the InfraCCS tool, we apply it                        Greece                   –              –         –           7.9         42.4
+in order to determine the optimal network that would be required                             Hungary                  –              –         –           5.5         16.4
+to transport all CO2 captured in the EU-27 according the Power                               Ireland                  –              –         –           –            9.9
+                                                                                             Italy                    1.5            3.2      12.0        23.6         83.7
+Choices scenario (Eurelectric, 2010). The Power Choices scenario,
+                                                                                             Netherlands              1.5            4.2      10.9        16.0         48.6
+which is based on the PRIMES model, is chosen for this purpose                               Poland                   1.5            4.7      24.7        43.7        138.1
+because it is in line with the EU’s 80% to 95% greenhouse gas                                Portugal                 –              –         –           7.6         16.1
+emissions reductions targets by 2050 (implying near-complete                                 Romania                  –              –         4.7        14.8         40.5
+decarbonisation of the power sector), and hence provides a view on                           Slovakia                 –              –         2.7         6.3         15.2
+                                                                                             Slovenia                 –              –         –           2.5          5.3
+large-scale pan-European deployment of CCS in the power sector.16                            Spain                    1.5            2.8      10.7        43.2         74.7
+The scenario implies a reduction of CO2 emissions from the power                             Sweden                   –              –         –           –           10.1
+sector to 150 Mt/y by 2050, compared to 1423 Mt/y in 2005. This                              United Kingdom           1.5           16.0      33.1        70.5        162.5
+is achieved through more than 40% electricity production from                                Total                    9             36      216          484         1169
+renewable energy sources (RES), close to 30% of nuclear power,
+and the remaining 30% from fossil fuels. The latter entails the con-
+struction of 63 GW of CCS-equipped power stations by 2030 and an                           emissions per node, with the same 5 Mt/y threshold as described
+additional 128 GW between 2030 and 2050.                                                   above. Hence, the location of CCS plants is based on current emis-
+    Since the Power Choices report by Eurelectric (2010) provides the                      sions from the power sector, i.e. on the location of current fossil fuel
+amount of CCS only at aggregate European level, we need to make                            power plants. Put otherwise, we implicitly assume that CCS will be
+an assumption on how this breaks down to individual countries. To                          mainly deployed through retroﬁtting of capture units onto exist-
+achieve maximum realism, we use a two-pronged approach. First,                             ing plants, or through the construction of new CCS power plants on
+we use the break-down of CO2 captured per country as stated in                             brownﬁeld sites of current fossil-fuel plants. For the year 2015, the
+the Baseline 2009 scenario (Capros et al., 2010), which is also based                      amount of CO2 captured per EEPR project is assumed to be 1.5 Mt/y
+on the PRIMES model. Secondly, since the total amount of CO2 cap-                          (which is a realistic value since these projects are typically 250 MW
+tured in the Baseline 2009 scenario is lower than in the Power Choices                     plants), and this value is directly assigned to each of the 6 nodes that
+scenario, the incremental amount of CO2 captured in the Power                              are closest to the 6 proposed EEPR sites. Furthermore, to improve
+Choices scenario is allocated to individual countries proportionally                       realism of the results, the location of these 6 nodes is moved to the
+to current power sector emissions. However, to avoid unrealistic                           location of the EEPR sites.18
+fragmentation of CO2 capture sites, countries which – based on the                             Storage capacities Kn per node are taken from our clustering
+proportional allocation – would capture less than 5 Mt/y of CO2 , are                      exercise, so they are based on the public data available from the EU
+excluded until they reach the 5 Mt/y threshold.17 This procedure is                        GeoCapacity project (Vangkilde-Pedersen et al., 2009a,b,c). How-
+applied to the years t2 = 2020, t3 = 2025, t4 = 2030 and t5 = 2050. For                    ever, he EU GeoCapacity project does not provide annual injectivity
+t1 = 2015, we assume that the only CO2 captured is from the 6 CCS                          per storage site. There is currently large uncertainty about annual
+projects funded by the European Energy Programme for Recovery                              injecivity of CO2 in storage sites, and ongoing projects such as
+(EEPR), as listed by the European Commission (2009). Our resulting                         the Sleipner project typically use only a fraction of the maximum
+assumptions about the quantities of CO2 captured per country over                          injectivity of the reservoir. We make the assumption that the ratio
+time are shown in Table 1.                                                                 Kn /Sn,t should be comparable to the R/P ratio of the petroleum
+    The optimisation model takes as an input the values of Cn,t ,                          sector, i.e. we make the apparently reasonable assumption that
+i.e. the amount of CO2 captured at each node at each point in                              injection of a ﬂuid into a reservoir is technically comparable to the
+time. Therefore, for countries with more than one source node, the                         extraction of a ﬂuid from the reservoir. According to BP (2010),
+assumption about the total national amount of CO2 captured in                              the global R/P ratio of oil was 45.7 years in 2009. We therefore set
+each of the years 2020, 2025, 2030 and 2050, needs to be broken-                           Sn,t ≡ Kn /45.7y. This assumption is very similar to the approach
+down to the individual source nodes in the country. In the same vein                       used by Neele et al. (2010) to model large reservoirs: they use the
+as the above, the allocation is done proportionally to current CO2                         same formula, but with 40 years instead of 45.7 years.
+                                                                                               We choose the discount rate  = 7.5%, which is midway
+                                                                                           between the rate of 5.5% suggested for cost–beneﬁt analysis of
+ 16
+                                                                                           European regional investment projects (Florio, 2008) and typical
+     A different choice of scenario would obviously lead to a different network struc-
+ture, although many elements (e.g. bulk pipelines to the North Sea) are likely to
+                                                                                           industrial discount rates for this type of projects (around 10%).19
+remain similar across a relatively wide range of scenarios. A complete study of the        Furthermore, we choose tT = 10 years, implying that the infras-
+uncertainties in CO2 network deployment, based on a range of scenarios, is outside         tructure needs to be able to continue to store a constant ﬂow of CO2
+of the scope of this paper.
+ 17
+     In some countries, the Baseline 2009 scenario foresees less than 5 Mt/y (but
+strictly more than 0 Mt/y) of CO2 captured at some points in time. Since the Baseline
+                                                                                            18
+2009 scenario is based on microeconomic modelling in PRIMES, we do not exclude                 On average the distance between the old location and the new location of the 6
+these countries in such cases. Countries with under 5 Mt/y are only excluded if the        nodes that are moved is only 66 km, so this move does not fundamentally disturb
+amount of CO2 captured results only from our proportional distribution of the incre-       the results of the clustering procedure.
+                                                                                            19
+mental CO2 captured in the Power Choices scenario compared to the Baseline 2009                The results of a sensitivity analysis using a 15% discount rate are shown in
+scenario.                                                                                  Appendix A.
+
+
+PHYSICAL_PAGE 12
+                                       J. Morbee et al. / International Journal of Greenhouse Gas Control 7 (2012) 48–61                                               59
+
+
+                                           Case 1                                              Case 2
+                    Total pipeline
+                                                                                                                                        17602
+                    length
+                    [km]
+                                                                                    11663
+                                                                                                                                 9052
+
+                                                                           5739
+                                                                                                                       4778
+                                                                  3392
+                                                 908     1074                                        1191     1356
+
+
+                                                 2015    2020     2025     2030     2050             2015     2020     2025      2030    2050
+
+
+                    Cumulative                                                                                                           37.2
+                    investment
+                    [Billion EUR]
+
+                                                                                     16.5
+
+                                                                                                                                 10.5
+                                                                            5.9                                            5.3
+                                                                   3.4
+                                                 0.6      0.9                                        0.8       1.1
+
+
+                                                 2015    2020     2025     2030     2050             2015     2020     2025      2030    2050
+
+
+                    Cost per tonne
+                    of CO2                                                                           13.6
+                    transported
+                    (assuming 15%                9.9
+
+                    annual capital
+                    charge of                                                                                  4.7
+                                                                                                                           3.7
+                                                                                                                                          4.8
+                                                          3.6                                                                    3.2
+                    cumulative                                     2.3      1.8      2.1
+                    investment)
+                    [EUR / tCO2]                 2015    2020     2025     2030     2050             2015     2020     2025      2030    2050
+
+
+                    Number of
+                    countries                                                        23                                                   23
+                    involved in
+                                                                                                                                  18
+                    cross-border
+                                                                            14
+                    transport of
+                                                                                                                           10
+                    CO2
+                                                                    2
+                                                  0        0                                          0        0
+
+                                                 2015    2020     2025     2030     2050             2015     2020     2025      2030    2050
+
+
+
+                                     Fig. 8. Characteristics of the optimal CO2 networks assuming double discount rate.
+
+
+
+
+the ﬂow reverses and the same pipeline now brings excess CO2 from                 pipeline network length of 13,359 km, while their most optimistic
+Romania and Bulgaria to Slovakia, where it feeds into the large bulk              scenario without onshore storage requires a total pipeline network
+pipeline to the North Sea.                                                        length of 15,889 km.20
+    Fig. 7 summarises the main characteristics of the CO2 networks                   Undiscounted cumulative investment in our simulations could
+shown in Figs. 5 and 6. When onshore aquifers are excluded (i.e.                  reach 5–10 billion euros by 2030, and 16–36 billion euros by 2050.
+Case 2), the total pipeline network becomes roughly 50% longer                    Clearly this is strongly dependent on the CO2 capture scenario: the
+and more than twice as expensive. In both cases, the largest growth               Power Choices scenario that is used here assumes near-complete
+of the network takes place between 2030 and 2050, because the                     decarbonisation of the European electricity system, hence a large
+Power Choices scenario foresees a major step-up of CCS during that                role for CCS. However, it should be noted that the analysis does not
+period. By 2050, network length could reach 11,000–17,000 km. It
+is interesting to observe that these results have the same order of
+magnitude as the optimisation results of Mendelevitch et al. (2010):               20
+                                                                                      As already explained in the introduction, the set-up of the model by
+their most optimistic scenario with onshore storage requires a total              Mendelevitch et al. (2010) is different from ours, so the comparison is only indicative.

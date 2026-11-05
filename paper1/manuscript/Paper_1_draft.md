@@ -1,15 +1,15 @@
 ---
 title: 'Dynamic carbon break-even analysis of domestic and cross-border CO₂ storage: an evidence-constrained framework and published-case benchmarks'
-subtitle: 'Paper 1 — research draft v4, reference-inventory extension'
-date: '4 November 2026'
+subtitle: 'Paper 1 — research draft v6, shared-source and evidence checks'
+date: '5 November 2026'
 lang: en-GB
 ---
 
-**Draft status.** B0–B3 have now been implemented for a common-source, aggregate-service proxy and event-based shipping model. The model reports injected mass, inventories, ship-combustion CO₂ and the conditional allowance for uninventoried differential burdens. Complete lifecycle net avoided GHG is not computed. A separate extension now includes NETL reference capture utilities, IMO default well-to-wake fuel and explicitly separated utility-accounting scenarios. The supplied Indonesian allocations and published ship designs are scenario inputs, not measured Japanese geology or available international routes. Source/figure/table locators, structural scheduling conventions and missing quantities are explicit. Author names, affiliations and target-journal formatting remain to be supplied.
+**Draft status.** B0–B3, a shared-source annual allocation benchmark, detailed fixed-plan operating reevaluation and three dispatch rules are implemented. Complete lifecycle net avoided GHG is not computed. All 92 unique supplied publications have targeted full-text review; extraction remains selective. Empirical inputs retain source locators, and model structures are declared separately. Annual allocation outputs are exogenous service proxies, not independently calibrated physical rate limits. The Japan–Malaysia–Australia application remains provisional. Author names, affiliations and journal formatting remain to be supplied.
 
 # Abstract
 
-Cross-border CO₂ storage can enable additional injection when local service is constrained, but transport scheduling and incomplete emissions accounting can change the comparison. This study develops a source-traceable dynamic proxy model using supplied published evidence. Four variants combine static or annual aggregate storage-service proxies with fixed-factor or event-based shipping. The model tracks capture curtailment, integer fleets, port operations, source/destination buffers, initial heel and uncredited endpoint inventory over the original thirty nominal annual bins. Published shipping inputs reproduce all 75 reported fleet cases. However, that annual capacity calculation does not establish detailed scheduling feasibility: under the declared staggered-calendar proxy, a lower-service 1,000 km case needs three rather than two vessels to meet a transferred 99%-of-reference design criterion. Equal-injection and additional-vessel controls distinguish transport penalties from additional throughput. After fleet-adequacy control, the conditional allowance for uninventoried differential burdens is approximately +1.281 Mt at 5,000 km and −4.923 Mt at 10,000 km relative to the lower-service 1,000 km proxy. Calendar and fleet choices can change the sign, so no robust destination preference follows. The reference-inventory extension now adds NETL utility proxies and IMO default well-to-wake shipping. In the 5,000 km design-controlled case, a Norwegian-climate-factor/NGCC-reference scenario leaves only about 0.009 Mt for other differential burdens; Japanese fallback-factor scenarios are negative. Actual site utilities, process duty, injection/assets, availability and retention remain unvalidated. Positive margins at this scale cannot establish robustness against the unresolved input uncertainties. The results establish a reproducible feasibility and accounting test, rather than complete regional lifecycle mitigation or independently calibrated reservoir performance.
+Cross-border CO₂ storage can enable additional injection when local service is constrained, but shipping schedules and incomplete inventories can change the comparison. This study develops a source-traceable dynamic benchmark from 92 supplied publications, each reviewed in selected full-text passages. Four controlled variants combine static or annual service proxies with fixed-factor or event-based shipping, tracking capture curtailment, integer fleets, initial heel and uncredited closing inventory. Published inputs reproduce all 75 reported fleet cases; an independent pure-CO₂ equation-of-state calculation supports the selected table density under two explicit pressure interpretations. Annual fleet arithmetic nevertheless fails to establish operating feasibility. After fleet control, the conditional allowance for omitted differential burdens is +1.281 Mt at 5,000 km and −4.923 Mt at 10,000 km relative to a lower-service 1,000 km benchmark. A Norwegian electricity/NGCC reference and IMO-default fuel pathway reduce the 5,000 km margin to +8.69 kt; an optional published storage-component reference changes it to −4.44 kt. Japanese reporting-factor utility scenarios are negative. A separate annual mixed-integer model couples one 1 Mt/y source to disjoint reservoir groups. Twelve plans are reevaluated in 72 operating cases. Under one declared partition and fleet control, short-only, long-only and mixed operation inject 23.94, 29.53 and 29.87 Mt, respectively, from a common 30 Mt potential. Alternative dispatch rules materially affect some outcomes. These results test model structure and accounting sensitivity. They do not reproduce the original optimisations, establish an operational optimum, calibrate local maximum injection rates or complete a regional lifecycle comparison.
 
 **Keywords:** geological CO₂ storage; source–sink matching; deliverability; shipping; lifecycle accounting; carbon break-even; reproducible research.
 
@@ -29,17 +29,17 @@ Operational transport and lifecycle modelling are likewise well developed. Bjerk
 
 A narrower question remains useful: under a common industrial-production counterfactual, when does jointly resolving annual storage deliverability and operational shipping change the magnitude, sign or robustness of the difference between domestic and foreign mitigation? This question allows an unchanged ranking or small interaction. Kolster et al., for example, find limited long-horizon sensitivity to substantial multi-year injection-rate variation in the studied Bunter cases [B3-37, pp3–7]. A model-comparison study should retain such a null-effect benchmark.
 
-This draft makes three present contributions. First, it creates a page-located evidence register that distinguishes observations, published model inputs, published outputs and calculations. Second, it implements a controlled four-variant service/shipping comparison with explicit mass balances, inventories, scheduling conventions and fleet-adequacy controls. Third, it quantifies source-based capture-utility and marine-fuel inventory sensitivities, identifying the remaining differential-burden allowance and the missing terms needed for full net avoided emissions. Supporting pressure, conditioning, buffer and BOG calculations audit common parameter-transfer errors. The exact absence of this model-comparison question from all prior literature is not asserted by the supplied-library review.
+This draft makes four present contributions. First, it creates a page-located evidence register that distinguishes observations, published model inputs, published outputs and calculations. Second, it implements a controlled four-variant service/shipping comparison with explicit mass balances, inventories, scheduling conventions and fleet-adequacy controls. Third, it quantifies source-based capture-utility and marine-fuel inventory sensitivities, identifying the remaining differential-burden allowance and the missing terms needed for full net avoided emissions. Fourth, it couples disjoint reservoir groups to one source in an annual mixed-integer benchmark and reevaluates the plans under detailed operating and dispatch controls. Supporting pressure, conditioning, buffer, BOG and fluid-property calculations audit parameter-transfer errors. Prior work already covers multimodal phased networks, compensatory power and proxy-to-physics reevaluation; those individual features are not novelty claims [B2-06, pp3–6; B3-09, pp6–9; B3-23, pp10–12]. The exact absence of this model-comparison question from all prior literature is not asserted by the supplied-library review.
 
 # 2. Evidence and methods
 
 ## 2.1 Library, extraction and scope
 
-The original literature corpus contains 93 PDF files representing 92 unique publications and 1,301 physical pages across the unique publications. The two supplied versions of the source–sink matching review B2-17/B3-46 are counted once as a publication and retained as separate files. Previously downloaded originals are reused for same-title reuploads; binary equivalence of every reupload has not been established. The retained PDFs and the supplementary DOCX, identified by SHA256, define the original literature evidence. A later reference-data intake contains 104 uploads, of which 100 were accessible and four exceeded the per-file transfer limit. It includes regulatory factors, NETL spreadsheets/reports, IMO guidance, Copernicus snapshots and IBDP materials, with separate coverage and evidence-type records. The DOCX belongs to B4-06 and is not counted as a new publication or PDF.
+The original literature corpus contains 93 PDF files representing 92 unique publications and 1,301 physical pages across the unique publications. The two supplied versions of the source–sink matching review B2-17/B3-46 are counted once as a publication and retained as separate files. Previously downloaded originals are reused for same-title reuploads; binary equivalence of every reupload has not been established. The retained PDFs and the supplementary DOCX, identified by SHA256, define the original literature evidence. A later reference-data intake contains 104 uploads, of which 100 were accessible and four exceeded the per-file transfer limit. It includes regulatory factors, NETL spreadsheets/reports, IMO guidance, Copernicus snapshots and IBDP materials, with separate coverage and evidence-type records. The DOCX belongs to B4-06 and is not counted as a new publication or PDF. A third intake contains 26 uploads, 25 accessible files and 1,186 indexed pages across 17 PDFs, including Tomakomai technical chapters and Northern Lights component inventories. These pages are not claimed as exhaustively reviewed.
 
-Targeted methods/results extraction covers 48 unique publications. Another 44 have abstract/relevance screening, so the review is a purposive synthesis of supplied materials rather than an exhaustive systematic review. The ledger contains 1,642 extracted records, including ranges and grouped cases. This number is not a count of independent observations. The Google Drive folder and oversized planetary-limit ZIP were not ingested; the standalone planetary-limit PDF is included. No uninspected contents are represented as evidence.
+The initial extraction covered 48 unique publications. Follow-up review now covers selected methods/results passages in the other 44, giving 92 unique publications with targeted full-text review and none at abstract-only stage. Manual reading cards identify reviewed pages, methods, findings and transfer limits; automated navigation packets do not constitute review. A separate register adds 140 located numeric records: two are selected for a named MEA utility reference, 16 for within-source benchmark arithmetic, and 122 remain context or HOLD. This is a purposive supplied-library synthesis rather than an exhaustive systematic review. The original ledger retains 1,642 records, including ranges and grouped cases; the new registers overlap source information and are not added as independent observations. This number is not a count of independent observations. The Google Drive folder and oversized planetary-limit ZIP were not ingested; the standalone planetary-limit PDF is included. No uninspected contents are represented as evidence.
 
-A separate curated PDF table records 250 atomic quantities, their original units, physical page/table, scenario, evidence type, inventory boundary and transfer limits. A 134-row subset enters the present analysis: 59 quantities support 49 calculations, and 75 entries preserve the published large-ship fleet table. An additional 352 numeric supplementary records comprise 102 native-table entries and 250 one-decimal annual allocation annotations. The full 720-cell figure grid preserves its 470 blanks separately. The annual reconstruction uses these supplementary tables and annotations in a dedicated pipeline. A dedicated 30-row operational-parameter register additionally locates every shipping/fuel/design quantity used by the new model; these quantities overlap the ledger and are not independent observations. The broad extraction ledger is not a ready-to-run harmonised input file. Values marked HOLD and context-only quantities cannot enter the calculation script. The source audit records 49 unresolved or consequential interpretation issues; an issue can remain open where the affected data are excluded from the calculation.
+A separate curated PDF table records 250 atomic quantities, their original units, physical page/table, scenario, evidence type, inventory boundary and transfer limits. A 134-row subset enters the present analysis: 59 quantities support 49 calculations, and 75 entries preserve the published large-ship fleet table. An additional 352 numeric supplementary records comprise 102 native-table entries and 250 one-decimal annual allocation annotations. The full 720-cell figure grid preserves its 470 blanks separately. The annual reconstruction uses these supplementary tables and annotations in a dedicated pipeline. A dedicated 30-row operational-parameter register additionally locates every shipping/fuel/design quantity used by the new model; these quantities overlap the ledger and are not independent observations. The broad extraction ledger is not a ready-to-run harmonised input file. Values marked HOLD and context-only quantities cannot enter the calculation script. The source audit records 55 consequential interpretation issues; an issue can remain open where the affected data are excluded from the calculation.
 
 The calculations preserve original denominators. Unit conversions and algebraic definitions are distinguished from empirical inputs. Published minima and maxima are not treated as probability distributions. No cost factor is converted into GHG, no national resource is assigned as a source's annual allocation, and no missing graph scale is filled with an assumed value. Reported numbers retain their source precision even where machine-readable outputs carry additional computational decimals.
 
@@ -49,29 +49,31 @@ The intended Japan–Malaysia–Australia application is screened against the da
 
 Malaysian Field X studies provide pressure constraints and thermal mechanisms but are anonymised; the studies cannot be assumed to describe one contracted storage service [B1-09, p13; B1-11, pp5–6]. The South-West Hub model supplies an Australian conceptual reference while excluding thermal stresses, so it cannot simply be combined with Malaysian thermal limits as a calibrated Australian sink [B1-12, pp18,21–22]. Regional resources and historical governance assessments do not establish present storage access.
 
-The user authorised explicitly disclosed geographic proxies when local data are unavailable. The present numerical draft therefore selects the internally coherent South Sumatra single- versus multi-well outcomes as the storage-service benchmark. It uses published Norwegian post-capture GHG outcomes as separate burden scenarios. These substitutions test accounting sensitivity; they do not make Indonesian geology Japanese, or Norwegian energy factors applicable to an Asian route. No African dataset is introduced merely because a geographic proxy is permitted.
+The user authorised explicitly disclosed geographic proxies when local data are unavailable. The present numerical draft therefore selects the internally coherent South Sumatra single- versus multi-well outcomes as the storage-service benchmark. Published Norwegian post-capture GHG outcomes are retained only in the supporting accounting audit in Appendix A. The main operational results use explicit component inventories. These substitutions test accounting sensitivity; they do not make Indonesian geology Japanese, or Norwegian energy factors applicable to an Asian route. No African dataset is introduced merely because a geographic proxy is permitted.
 
 | Required component | Evidence selected | Role | Remaining transfer limit |
 |---|---|---|---|
 | Common source–sink storage comparison | Budiarto B4-06, p16 | Published lower/higher cumulative storage | Indonesian industrial system; annual allocation figures now supplied, but exact physical rate-constraint arrays remain unavailable |
-| Post-capture burden scenarios | Fraga B2-12, pp18,20 | Reported GHG intensity scenarios | Different country/network portfolios; includes fugitives |
+| Supporting accounting audit | Fraga B2-12, pp18,20 | Appendix A diagnostic only | Different country/network portfolios; includes fugitives |
 | Feed/pressure conditioning | Roussanaly B3-38, p7 Table 3 | Within-feed process comparison | Different inlet states cannot be pooled as one uncertainty range |
 | Thermal pressure constraint | Tan B1-11, pp5–6 Tables 2–3 | Within-seal pressure sensitivity | Analytical field-specific ceiling, not an annual rate factor |
 | Buffer and transport completion | Bjerketvedt B2-08, pp7–8 | Denominator and completion benchmark | Original route/weather assumptions |
 | BOG process emissions | Jeong B1-19, p7 Table 6; p13 Table A6 | Partial-process intensity | Excludes full propulsion/upstream chain |
-| Large-ship fleet counts | Noh and Kang B4-09, p6 Table 7 | Published integer fleet outputs | Density discrepancy prevents independent reconstruction |
+| Large-ship fleet counts | Noh and Kang B4-09, p6 Table 7 | All 75 reconstructed with explicitly selected Table 1 density | Conflicting prose excluded; pure-fluid EOS check does not validate actual cargo |
+
+The later Tomakomai reports provide a Japanese historical benchmark:45 monthly table records,17 shut-in/test records and nine fall-off interpretations [D7-20, p3; D7-22, pp10–11; D7-18, p10]. The project stopped injection in November2019 and remained in monitoring in the supplied2026 newsletters [D7-25, p1]. Its data improve local evidence without establishing current contracted storage. A prospective pressure-constrained Case2 is retained under its original hypothetical restart, completion and plume constraints; reported capacity labels are not converted into annual maximum-rate arrays.
 
 ## 2.3 Published-case calculations
 
 The thermal benchmark compares the same seal under isothermal conditions and estimated cooling. For each seal, the pressure-ceiling reduction is the printed isothermal ceiling minus the printed cooled ceiling, divided by the former when expressed as a percentage. This percentage describes the stated pressure ceiling, not pressure headroom above initial reservoir pressure, and not an injection-rate reduction. Original psi labels are retained because pressure datums are not sufficiently clear to justify further conversion [B1-11, pp5–6].
 
-Conditioning comparisons use four electricity requirements from the same source table: pure feed and pressurised inland feed, each at 7 and 15 barg. Differences are calculated within each feed case; pure-to-inland ratios are descriptive comparisons of different inlet conditions [B3-38, p7 Table 3]. No electricity emission factor is added, because a compatible regional/year background has not been selected.
+Conditioning comparisons use four electricity requirements from the same source table: pure feed and pressurised inland feed, each at 7 and 15 barg. Differences are calculated within each feed case; pure-to-inland ratios are descriptive comparisons of different inlet conditions [B3-38, p7 Table 3]. No electricity emission factor is applied to this within-feed conditioning benchmark because its actual regional/year supply is unselected; the separate reference-inventory scenarios do not establish that supply.
 
 Buffer ratios divide the reported buffer by the 5,000 t ship capacity. The 99% and 100% transport-completion cases are kept separate. The paper's use of average-cycle captured mass as another denominator is not relabelled as ship capacity [B2-08, pp7–8].
 
 For the BOG benchmark, annual purge-plus-auxiliary-generation CO₂ from Table 6 is divided by transported mass from Table A6 for the same process and impurity case. Emissions are in t/y and mass in thousands of t/y; the resulting numerical ratio is kgCO₂/t transported. These are partial-process CO₂ intensities. They are neither full lifecycle CO₂e factors nor fractions of cargo necessarily lost to atmosphere [B1-19, pp7,13].
 
-The large-ship source prints 1,154 kg/m³ in Table 1 and 1.1546 kg/m³ in the fleet-method prose. The operational scenario explicitly selects Table 1: together with the other printed inputs it reproduces all 75 fleet counts in Table 7. The inconsistent prose is not repaired or used. This arithmetic validation supports the declared Table 1 scenario but does not independently validate fluid properties [B4-09, pp3,5–6].
+The large-ship source prints 1,154 kg/m³ in Table 1 and 1.1546 kg/m³ in the fleet-method prose. The operational scenario explicitly selects Table 1: together with the other printed inputs it reproduces all 75 fleet counts in Table 7. The inconsistent prose is not repaired or used. This reproduces the declared Table 1 arithmetic. The independent pure-fluid equation-of-state check in Section 2.10 additionally tests physical consistency without repairing the prose or replacing the selected density [B4-09, pp3,5–6].
 
 The Budiarto supplement adds three native tables and ten embedded figures [B4-06-S1]. Tables S1–S3 are extracted directly from DOCX cells; no OCR is needed for their 102 numeric entries. Figures S8–S10 provide annual MILP allocation heatmaps for 2027–2056. All 250 printed one-decimal annotations are transcribed with reservoir/year and image-cell locators. The 470 blank cells retain a distinct status. For reconstruction, totals sum the printed allocations, interpreting a blank as no reported allocation rather than a measured physical zero. Automated cell-occupancy and approximate colour checks support visual annotation review; colour-derived precision is not used in calculations.
 
@@ -79,7 +81,7 @@ The annotated heatmaps are outputs mr,t selected by the original optimisation, w
 
 The display-resolution audit assumes conventional rounding to the nearest 0.1 Mt/y. For n annotated cells, the conditional sum envelope is the printed sum ±0.05n Mt over one-year bins. This is a bound derived from the printed precision, conditional on the rounding convention and blank interpretation, rather than a confidence interval. Values are not scaled to force agreement with the main paper. Rounded annual sums can slightly exceed the nominal source rate; that alone is not evidence of physical excess injection.
 
-## 2.4 Mitigation accounting and a deliberately bounded proxy score
+## 2.4 Mitigation accounting
 
 For an actual pathway s under common industrial production, net avoided GHG is defined by an explicit no-CCS counterfactual:
 
@@ -87,27 +89,7 @@ $$A_s=\sum_t(E_{0,t}-E_{s,t}). \tag{1}$$
 
 Under a fossil-source counterfactual where each retained tonne displaces one emitted tonne and all additional burdens are consistently counted, this can be reconciled as retained source CO₂ minus additional lifecycle GHG. Captured-source CO₂ vented or leaked must reduce retained mass; it must not also be subtracted as the same source loss within additional GHG. Upstream fuel methane and other incremental emissions remain additional burdens. Biogenic sources, direct air capture, displacement and co-products require their own counterfactual treatment.
 
-The selected published aggregate GHG factors do not yet permit this reconciliation. Fraga's reported post-capture inventory includes fugitive emissions associated with intermediate facilities, transport and injection, as well as energy and construction terms [B2-12, pp8,16–18,23]. The Budiarto outcome is reported CO₂ stored. Combining these without separating source-loss terms can double-count a loss. The present cross-study quantity is therefore defined as a **reported-burden score**, not net avoided emissions:
-
-$$S_i=R_i\left(1-\frac{e_i^{\mathrm{rep}}}{1000}\right), \tag{2}$$
-
-where R is published cumulative stored mass and the reported intensity is in kgCO₂e/t stored. The factor 1,000 converts kilograms to tonnes; it is a unit definition. Equation (2) is an accounting diagnostic constructed from two published datasets. It is not claimed as an empirical result in either source.
-
-For a lower-storage reference L and higher-storage case H, score equality gives:
-
-$$\frac{R_H}{R_L}=\frac{1-e_L^{\mathrm{rep}}/1000}{1-e_H^{\mathrm{rep}}/1000}. \tag{3}$$
-
-Equivalently, the reported-intensity crossing for a given storage ratio is:
-
-$$e_{H,*}^{\mathrm{rep}}=1000\left[1-\frac{R_L}{R_H}\left(1-\frac{e_L^{\mathrm{rep}}}{1000}\right)\right]. \tag{4}$$
-
-These are score crossings. To obtain a physical mitigation comparison, let Linc be captured-source losses already included in reported GWP and also deducted in the retained-mass accounting, and let Gom be additional GHG omitted from the adopted reported factor. After a compatible fossil-source and mass reconciliation:
-
-$$\Delta A=\Delta S+\Delta L_{\mathrm{inc}}-\Delta G_{\mathrm{om}}. \tag{5}$$
-
-The correction may also require revising R if the source's “stored” quantity actually denotes injection without the required retention adjustment. Neither correction is assigned an invented value here. Additional capture utilities, extra well development and pressure-management burdens are examples requiring evidence. Thus a positive score is insufficient to establish positive whole-chain mitigation advantage.
-
-The proxy uses the published single-well SW-A storage outcome for L and the multi-well MW-A outcome for H. The lowest of the six reported Fraga best-solution intensities, Northern Lights at 0.7 MPa, is selected as a transparent reference. This is a normalisation choice, not a claim that the configuration is available domestically or is optimal in another region. Each of the six published outcomes is assigned to H in turn. No unreported intermediate GHG value is sampled and no probability is attached to a scenario.
+The primary numerical comparisons use our common-source operating model and explicitly named component inventories. The earlier cross-pairing of independently optimised published storage/GHG outcomes is retained as a supporting diagnostic in Appendix A. It does not establish a full mitigation result or reproduce either original optimiser.
 
 ## 2.5 Reproducibility and checks
 
@@ -146,6 +128,42 @@ The selected fossil MDO/MGO ULSFO pathway in the 2024 IMO guideline supplies WtT
 The extension applies twenty utility scenarios to the 144 original paired results and five design-controlled route cases, giving 2,980 component-inventory comparisons. Capture utilities are charged to captured mass, including uncredited endpoint material, while source-carbon benefit remains conditional on injected mass and retention reconciliation. The initial operating model is unchanged. Remaining process, utility-scope, idle/terminal, injection/asset and retention terms remain in the unquantified differential burden.
 
 The new data do not establish weather calendars or calibrated physical service. Each of the two NetCDF subsets has one timestamp and one point, so no annual weather-frequency estimate is made. The IBDP seismic catalogues are not CO₂ flow/pressure series. A 2012 Illinois study provides independent St.Peter/Knox-Potosi simulation reference values, including first/last/average St.Peter rates of 0.660/1.164/0.990 Mt/y at a 1,980 psia cap over twenty years [D6-22, pp14–15,20–22]. These are not observed Mt.Simon injection limits or a full annual constraint array. The four unavailable reports and partial BagIt validation are recorded explicitly.
+
+## 2.8 Japanese historical and component-inventory checks
+
+The rotated Tomakomai table is extracted from native PDF word coordinates, preserving180 monthly/cumulative cells, their original precision and eight fiscal cells [D7-20, p3]. Reported zeros, monthly/fiscal discrepancies and formation-specific totals remain distinct. Selected shut-in windows include measurement times, prior average rates and causes; an ongoing final test has no zero-imputed endpoint [D7-22, pp10–11]. Neither achieved throughput nor test-derived effective permeability is interpreted as an independent maximum injection limit.
+
+A hydrostatic reference calculation evaluates pressure-datum sensitivity:
+
+$$\Delta P=(\rho_{\mathrm{high}}-\rho_{\mathrm{low}})g_0\Delta z. \tag{8}$$
+
+The source gives density470–670kg/m³ and52m vertical separation between sensor and completion [D7-22, p12]. Standard gravity9.80665m/s² is a declared reference constant. This calculation checks the stated scale of depth correction; it does not fit a reservoir pressure history or establish a safe injection rate.
+
+The Northern Lights prospective report supplies separate numeric transport/storage components, with blank activity cells preserved as unknown [D7-15, pp12–13]. To avoid overlapping existing ship-fuel accounting and unresolved captured-source fugitives, an optional sensitivity transfers only printed storage rows excluding `Other process emissions`, normalised by that study's127.8Mt stored. Scaling an average lifetime burden by additional stored mass is explicitly a reference sensitivity rather than a marginal asset model. Customer capture/liquefaction, GWP/phase inconsistencies and missing activities are not closed by this transfer.
+
+Japanese company/facility exports are retained as screening evidence [D7-03; D7-04; D7-06]. Total reported GHG is not capture supply. The additional-information file's ENEOS references conflict with Nippon Steel metadata, so those records are not joined [D7-01]. Report-year and emissions-year labels remain separate. The supplied CPPI annex is container-port context, not a CO₂-terminal schedule [D7-07]; EXCOOL specifications do not provide an international fuel/availability curve [D7-10].
+
+## 2.9 Shared-source allocation and dispatch checks
+
+A separate annual mixed-integer benchmark uses the published 1 Mt/y transport flow class [B4-09, pp3,6], over the same 30 nominal bins: 30 Mt of common potential, not a measured Japanese plant. The eight MW-A reservoirs are partitioned into disjoint groups r1–r4 and r5–r8. Each group serves one route, and a swapped assignment is a structural control. SW-A and MW-A share reservoirs and are never added as independent sinks. Short/long distances are the published 1,000/5,000 or 1,000/10,000 km scenarios, not measured national routes.
+
+For allocation x in tonnes and integer annual voyages z, the objective is the named partial component score:
+
+$$\max\ \sum_{r,t}x_{r,t}(1-u/1000)-\frac{g}{1000}\sum_{a,t}f_a z_{a,t}. \tag{9}$$
+
+Here u is the NETL NGCC90/NVE-2025-climate utility reference in kg/t captured; g is the IMO-default fuel factor in kgCO₂e/kg fuel; and f is active-cycle kg fuel/voyage. The annual approximation equates planned capture and injection. It constrains total annual allocation to 1 Mt, each reservoir to its reported resource/readiness and exogenous MW-A allocation envelope, and each route to cargo per voyage times integer voyages. Voyage counts cannot exceed the reference fleet times the floor of available hours divided by cycle duration. These are explicit surrogate service bounds; blank annotations imply no reported service in this benchmark rather than geological zero capacity. All source and reservoir constraints are coupled in one solve. Short-only, long-only and mixed modes, two partitions and two distances give 12 annual plans, solved with SciPy/HiGHS at a requested zero relative MIP gap. A complete lifecycle objective is unavailable.
+
+Each fixed annual plan is then reevaluated using the operating model, three dispatch rules and either the reference fleet or one added vessel per assigned route: 72 cases. The two routes have dedicated export tanks/loading berths and receiving terminals. Their scheduled source shares sum to at most the common potential at every time; unused shares are not adaptively reassigned. Actual capture, injection, inventory and fuel replace the annual approximations. This is a conservative fixed-plan reevaluation, not detailed reoptimisation or proof of a globally best operating plan. Asset/idle burdens of assigned vessels remain missing, including any inactive route fleet.
+
+The dispatch rules choose an eligible vessel by index, earliest availability-window end, or least accumulated active hours. Eighteen additional controls apply all three rules to the six original selected-fleet cases, preserving source, fleets, service and calendars. These are feasibility and algorithm-sensitivity checks; no observed operator schedule is available to validate them. Multimodal integer planning and model-to-model reevaluation are established approaches [B2-06, pp3–6; B3-23, pp10–12].
+
+## 2.10 Independent component and within-source benchmarks
+
+The selected ship density is checked with the published pure-CO₂ Span–Wagner equation of state, implemented in CoolProp 8.0.0 [EOS]. At the source temperature of −50°C, two reference interpretations retain the unresolved pressure datum: 700 kPa absolute, or 700 kPa gauge plus the defined standard atmosphere of 101.325 kPa. These are reference calculations, not measured local pressure or mixture properties. All 75 fleet cases are recomputed as a sensitivity while the original table density remains unchanged.
+
+Three within-source checks avoid cross-pairing optimised studies: compensated-power intensity in Chong et al.; pressure-constrained rates across five Cihan et al. reservoir realisations; and proxy versus full-physics well-placement gains in Musayev et al. [B3-09, pp6–9; B3-16, p9; B3-23, p12]. Original volumetric units are retained where a reference-state density is unavailable.
+
+A further utility reference replaces NETL with the same-paper MEA demand of 3.6 GJ/t captured and 0.1 MWh/t captured in Beiron et al. [B2-11, pp3–4]. The electricity boundary already includes absorption, compression and liquefaction. No extra liquefaction or district-heating credit is added. Japan's separate heat/electricity reporting fallbacks produce an accounting sensitivity; actual compatibility with the paper's 120°C/3 bar steam and an industrial plant remains unverified. Heat/electricity pairs are transferred together rather than assembled from unrelated process cases.
 
 # 3. Results
 
@@ -261,26 +279,7 @@ Across the 18 paired Jeong cases, calculated purge-plus-auxiliary-generation int
 
 The published large-ship fleet table also shows why annual throughput and distance need explicit representation. At 5 Mt/y, reported fleet counts for the 40,000 m³ design increase from 2 ships at 1,000 km to 24 at 20,000 km; the corresponding 120,000 m³ design uses 1 and 8 ships [B4-09, p6 Table 7]. The source fleet arithmetic is now reconstructed using the explicitly selected Table 1 density; its independent property validity remains unestablished. None is evidence that the proposed vessel or route is commercially available. The full 75-case table remains machine-readable in the repository.
 
-## 3.5 Supporting accounting audit: published aggregate-burden score
-
-The six Fraga best-solution intensities span 32.8–142.1 kgCO₂e/t stored. Their underlying networks, source portfolios and pressure configurations differ, so comparisons do not isolate pressure as a causal variable [B2-12, pp18,20]. With 32.8 kgCO₂e/t as the reference, Equation (3) gives score-equality storage uplifts from zero to 12.74%.
-
-Cross-pairing these intensities with the South Sumatra storage outcomes gives the results below. The 4.31% storage uplift exceeds the score-equality requirement for the two Northern Lights and two combined-concept intensity scenarios, but is smaller than that for the two Stella Maris scenarios. This finding concerns the constructed score only. In particular, the negative Stella Maris score differences do not show that its real infrastructure has negative mitigation or is inferior for its intended source portfolio.
-
-| High-storage burden scenario | Reported GWP (kgCO₂e/t stored) | Storage uplift for score equality (%) | Δ reported-burden score (MtCO₂e) |
-|---|---|---|---|
-| Northern Lights, 0.7 MPa | 32.8 | 0.00 | +6.384 |
-| Northern Lights, 1.5 MPa | 46.3 | 1.42 | +4.226 |
-| Stella Maris, 0.7 MPa | 142.1 | 12.74 | -11.084 |
-| Stella Maris, 1.5 MPa | 139.0 | 12.33 | -10.588 |
-| Combined, 0.7 MPa | 41.5 | 0.91 | +4.993 |
-| Combined, 1.5 MPa | 39.2 | 0.67 | +5.361 |
-
-![Storage uplift required for equality of the reported-burden score, relative to the 32.8 kgCO₂e/t reference. Bars use the six published Fraga outcomes; the dashed line is the calculated Budiarto storage uplift. This is a cross-study accounting stress test, with fugitive-loss and omitted-burden corrections outstanding.](../outputs/figures/proxy_thresholds.png)
-
-For the fixed published storage ratio, Equation (4) yields **72.74 kgCO₂e/t stored** as the high-storage scenario's reported-intensity crossing. It is useful as an audit target: an analysis claiming an advantage from these particular gross-storage values must examine its incremental inventory near this magnitude. It is not a generic allowable transport emission factor, a calibrated Japanese break-even threshold or a policy limit. Equation (5) determines how reconciling source losses and omitted GHG would change the score comparison.
-
-## 3.6 Reference-inventory results and remaining margins
+## 3.5 Reference-inventory results and remaining margins
 
 The six NETL database reference cases give auxiliary electricity of approximately 118–153 kWh/t captured, with total electric make-up equivalents of approximately 323–391 kWh/t. These are different energy-accounting quantities. The paired PC report gives net reported steam-utility enthalpy of approximately 2.752/2.750 GJ/t and additional auxiliaries of approximately 116.763/116.626 kWh/t at the 90/95% capture designs. Different cases/versions are retained rather than forced to one apparent precision.
 
@@ -310,6 +309,73 @@ IMO default upstream and non-CO₂ terms add 0.75579 and 0.04910 kgCO₂e/kg fue
 
 The approximately +0.009 Mt remainder in the 5,000 km Norwegian-climate-factor/NGCC90 reference is about nine thousand tonnes over the horizon. It is smaller than unresolved service-annotation, calendar and asset/process uncertainties and cannot establish a robust benefit. The Japanese fallback electricity and paired heat-plus-auxiliary cases give negative component balances. These are sensitivity results, not geographic destination rankings or proof of complete disadvantage: omitted differential terms and retention treatment still matter.
 
+## 3.6 Japanese historical evidence and storage-component sensitivity
+
+The Tomakomai dataset now supports located historical checks and a published pressure-constrained scenario. It does not independently reproduce the source reservoir forecast. The historical table contains discrepancies that must remain visible: for April2018 the printed Moebetsu cumulative quantity is174kt, while the combined row prints188kt. The monthly/fiscal replay is retained without normalisation [D7-20, p3].
+
+![Tomakomai monthly and cumulative quantities transcribed from the printed historical table. Source rounding and the original cumulative-row discrepancies are preserved. These are achieved historical injections, not maximum annual capacity or a future operating forecast.](../outputs/figures/tomakomai_reported_history.png)
+
+| Evidence/check | Located result | Interpretation |
+|---|---|---|
+| Historical injection table | 45 monthly records;180 monthly/cumulative cells | Achieved rounded history, not maximum service |
+| Shut-in/fall-off records | 17 test windows;9 interpreted effective-property cases | Open final duration and distinct rate versions preserved |
+| Hydrostatic correction span | 101.99 kPa | Sensor/datum component check; no forecast validation |
+| Case2 capacity labels | P90/P50/P10:1.47/4.70/7.93 Mt | Published conditional simulations; no adopted probabilities |
+| Northern Lights appendix sum | 3.311298 MtCO2e | Numeric entries only; headline3.32Mt remains distinct |
+
+The hydrostatic correction span is approximately101.99kPa, consistent with the source's approximate100kPa statement and about4.08 times its25kPa history-match comparison level. The pressure plot's MPaA/MPaG labelling and sensor corrections need resolution before fitting absolute pressure [D7-22, pp9,12–14]. The source's Case2 uses a12.93MPaG completion-top limit,220kt/y operating rate with June shut-in, and pressure/plume screening over1,000 years; the30-realisation capacity labels are1.47/4.70/7.93Mt for P90/P50/P10 [D7-18, pp51–53]. These are conditional published simulations, not observed annual service or a new probability model.
+
+Northern Lights'25 printed numeric appendix entries sum to3.31129812MtCO₂e rather than the3.32Mt headline. Its appendix ship-fuel quantity also differs from discussion text. These internal differences and source-carbon fugitives prevent treating the headline footprint as a complete compatible additive factor [D7-15, pp7,11–13]. The selected storage-only subset gives2.098748kgCO₂e per reference tonne stored.
+
+| Higher route (km) | Previous partial margin (kt) | Added selected storage reference (kt) | Margin after proxy (kt) |
+|---|---|---|---|
+| 5000 | +8.69 | 13.13 | -4.44 |
+| 10000 | -7730.24 | 12.95 | -7743.19 |
+
+For the design-controlled5,000km/NGCC90/Norway-climate scenario, that optional subset adds approximately13.13kt and changes the remaining margin from+8.69kt to−4.44kt. The sign reversal is conditional on an average-burden transfer; it demonstrates the fragility of the near-zero margin rather than a robust regional disadvantage. Other process/assets, inventory harmonisation and retention remain unresolved.
+
+## 3.7 Shared-source plans and operational reevaluation
+
+All 12 annual MILPs report optimal status at zero reported relative gap. This concerns the stated annual surrogate objective only. The 72 detailed reevaluations conserve the common source; the maximum combined capture-minus-injection-minus-closing-inventory residual is below 0.001 t, a numerical implementation check. Route active hours remain within 8,000 h per vessel per nominal year. Closing material receives no storage credit.
+
+| Long route (km) | Short reservoir group | Mode | Annual plan (Mt) | Operating injection (Mt) | Partial component score (Mt) |
+|---|---|---|---|---|---|
+| 5000 | r1–r4 | short | 24.000 | 23.944 | 23.473 |
+| 5000 | r1–r4 | long | 29.600 | 29.525 | 27.806 |
+| 5000 | r1–r4 | mixed | 30.000 | 29.870 | 29.051 |
+| 5000 | r5–r8 | short | 29.600 | 29.544 | 28.962 |
+| 5000 | r5–r8 | long | 24.000 | 23.925 | 22.532 |
+| 5000 | r5–r8 | mixed | 30.000 | 29.888 | 29.283 |
+| 10000 | r1–r4 | short | 24.000 | 23.944 | 23.473 |
+| 10000 | r1–r4 | long | 29.600 | 29.503 | 26.362 |
+| 10000 | r1–r4 | mixed | 30.000 | 29.847 | 28.741 |
+| 10000 | r5–r8 | short | 29.600 | 29.544 | 28.962 |
+| 10000 | r5–r8 | long | 24.000 | 23.903 | 21.358 |
+| 10000 | r5–r8 | mixed | 30.000 | 29.879 | 29.256 |
+
+The table holds index dispatch and one added vessel per assigned route fixed and reports both group assignments. For the 5,000 km case with r1–r4 on the short route, annual short-only, long-only and mixed plans allocate 24.0, 29.6 and 30.0 Mt. Operating reevaluation injects 23.944, 29.525 and 29.870 Mt. Thus the coarse plan overstates realised injection even after the additional-vessel control. Mixed routing can use complementary service windows in this constructed topology, but the result is conditional on output-derived envelopes, dedicated berths and incomplete burdens. It is not evidence that any named international route is available or climate-optimal.
+
+![Planned and operating injection for the common-source benchmark. Both disjoint-group assignments and both long-route distances are shown under index dispatch and the added-vessel control; the dotted line is the common 30 Mt potential.](../outputs/figures/mixed_allocation_reevaluation.png)
+
+| Service | Route (km) | Fleet | Index injection (Mt) | Earliest-window Δ (kt) | Least-active Δ (kt) |
+|---|---|---|---|---|---|
+| SW-A | 1000 | 3 | 152.676 | -0.00 | +28.36 |
+| MW-A | 1000 | 3 | 159.073 | +0.22 | +0.22 |
+| MW-A | 5000 | 7 | 158.934 | +39.41 | +39.41 |
+| MW-A | 10000 | 14 | 158.844 | +3.47 | +1.69 |
+| MW-A | 15000 | 21 | 158.694 | +15.52 | +18.78 |
+| MW-A | 20000 | 25 | 158.001 | -1162.15 | -698.56 |
+
+For the original six selected-fleet cases, alternative priorities change injection by approximately −1.162 to +0.039 Mt relative to index dispatch. The largest negative effect occurs on the 20,000 km route; the range is a deterministic model sensitivity, not a confidence interval or an observed disruption distribution. These checks close the implementation gap for alternative dispatch while exposing dependence on the rule and calendar. They do not validate actual operating behaviour or establish an optimal policy.
+
+## 3.8 Fluid-property and within-source checks
+
+At −50°C and 700 kPa absolute, the independent pure-fluid calculation gives 1,154.60 kg/m³, 0.052% above the selected 1,154 kg/m³ table value. The gauge-plus-standard-atmosphere interpretation gives 1,154.84 kg/m³; both are liquid states. Recomputed fleets still match all 75 reported cases. This supports the table value's physical consistency for the named pure-fluid references. It does not establish source pressure datum, actual cargo purity or measured carrier performance; the inconsistent 1.1546 kg/m³ prose remains excluded.
+
+Within Cihan et al., the five no-brine optimal simulated rates are 1.968–3.229 Mt/y against a 5 Mt/y target, giving 35.42–60.64% shortfalls under the paper's 1 MPa **fault-pressure increase** constraint [B3-16, p9]. That increment is not an absolute bottomhole-pressure cap, and the simulated rates are not Japanese measured service. Musayev et al.'s selected proxy predicts an 11.38% well-placement gain, while full-physics reevaluation gives 3.19% from its own baseline [B3-23, p12]. This provides a within-study example of why an approximate optimum needs independent-model reevaluation, without converting the reported volumes to unsupported mass. Chong et al.'s 752.5 tCO₂/h divided by 2,250 MW gives 0.33444 tCO₂/MWh under matched-power accounting [B3-09, pp6–9].
+
+The paired MEA reference gives 233.12 kgCO₂/t captured using the Japanese reporting fallbacks. In the original 5,000 km design-controlled comparison, replacement of the NETL/Norway utility scenario leaves a −1.449 Mt partial allowance before the optional Northern Lights storage reference, or −1.462 Mt with it. These remain reporting-factor/process-reference sensitivities with null complete-LCA results. The calculation demonstrates the importance of capture utility supply and boundary, rather than selecting a geographically convenient low factor.
+
 # 4. Discussion
 
 ## 4.1 What the present evidence supports
@@ -318,11 +384,11 @@ The literature supports the mechanism behind Paper 1: usable storage service can
 
 The present calculations expose three practical failures that such an audit can prevent. A thermal pressure decrease can be mislabelled as a rate decrease. A buffer-to-cycle-mass ratio can be mislabelled as a buffer-to-ship ratio. A lifecycle factor containing captured-source fugitives can be subtracted from already loss-adjusted retained mass, counting the loss twice. Each produces an apparently numerical answer while changing the underlying question.
 
-The score crossing is consequently a diagnostic intermediate result. It shows how the published storage ratio interacts algebraically with the adopted reported intensities. It cannot decide between actual domestic and foreign services until the inventories are decomposed and geographically compatible. Reporting the correction term is preferable to setting unreported capture, well and water-handling burdens to zero. No Monte Carlo probability, confidence interval or country ranking is inferred from the selected cases.
+The cross-study score crossing in Appendix A remains a diagnostic intermediate result. It shows how the published storage ratio interacts algebraically with the adopted reported intensities. It cannot decide between actual domestic and foreign services until the inventories are decomposed and geographically compatible. Reporting the correction term is preferable to setting unreported capture, well and water-handling burdens to zero. No Monte Carlo probability, confidence interval or country ranking is inferred from the selected cases.
 
 ## 4.2 How to use geographic proxies responsibly
 
-A published non-local reservoir case can test whether a decision is sensitive to a particular service pattern, provided its provenance and limitations remain visible. It cannot establish that a Japanese sink has the same permeability, pressure interference, temperature response or commissioning date. The present Indonesian benchmark is retained under its original identity. The supplied rounded annual allocation profiles can now be used as labelled published schedules for replay and validation. Using them as exogenous proxy schedules in an additional scenario would require explicit disclosure; they do not establish independent physical service upper bounds or a local geological calibration.
+A published non-local reservoir case can test whether a decision is sensitive to a particular service pattern, provided its provenance and limitations remain visible. It cannot establish that a Japanese sink has the same permeability, pressure interference, temperature response or commissioning date. The present Indonesian benchmark is retained under its original identity. The supplied rounded annual allocation profiles can now be used as labelled published schedules for replay and validation. The implemented annual and operating benchmarks explicitly use them as exogenous proxy schedules; they do not establish independent physical service upper bounds or a local geological calibration.
 
 Process proxies require the same care. Norwegian electricity and transport assumptions are scenario inputs here, not replacement estimates for Japanese or Malaysian energy systems. Resource estimates identify where to investigate; they do not allocate storage capacity to the chosen source. Studies of legal liability and governance can organise access questions but cannot certify current permits. A geographic scenario is physically meaningful only after source, route, terminal and storage-service constraints can be satisfied together.
 
@@ -346,21 +412,69 @@ The physical break-even condition is additional retained source CO₂ equal to a
 
 ## 4.4 Limitations
 
-The supplied-library review is selective: 44 unique publications remain at abstract/relevance stage and targeted extraction of the other 48 is not an exhaustive inventory of every supplement or numerical claim. The 1,642 records include contextual values unsuitable as direct model parameters. The score analysis combines independently optimised studies and does not reproduce either original optimisation, whose complete physical constraint arrays, detailed process/network inputs and code are not fully supplied. The Budiarto supplementary tables and rounded annual results are supplied and included; exact raw allocations and maximum-rate arrays remain distinct requirements.
+All 92 unique supplied publications now have targeted full-text review, including selected methods/results passages in the 44 previously abstract-only papers. Numerical extraction remains selective: the original 1,642 records and separate 140-record follow-up register include context and HOLD quantities, not a harmonised regional input set. Unsupplied supplements and unreviewed numerical claims remain outside the evidence base. The original Budiarto and Fraga optimisations are not reproduced. Their incomplete physical arrays, raw allocations and network/process inputs constrain exact reproduction; their cross-study score is consequently supporting Appendix A material rather than the primary result.
 
-Unresolved source quantities are excluded where they cannot support the calculation. For Noh and Kang, the explicitly selected Table 1 density reconstructs all 75 fleet cases; the inconsistent prose value is excluded, and the reconstruction does not independently validate a physical property. File hashes and source-token checks establish provenance; they do not validate a reservoir forecast, measured permanent retention, commercial access or model assumptions. Missing quantities are identified rather than assigned plausible-looking values. The manuscript is an evidence-based methods and operational-proxy draft. The full regional lifecycle model, calibrated physical injection constraints, alternative dispatch validation and shared-source mixed optimisation remain specified research stages.
+The implemented shared-source MILP and alternative dispatch controls reduce the previous modelling gaps within declared annual/proxy boundaries. They do not optimise detailed dispatch globally, adapt source shares during operation, establish actual berth calendars or include all asset and lifecycle terms. Allocation-output envelopes are not independently calibrated maximum injection constraints. The pure-fluid EOS check independently supports density consistency, but does not validate actual mixed cargo. Tomakomai history, fall-off interpretations and pressure-datum checks improve Japanese evidence; they do not independently calibrate a new pressure-rate forecast or establish today's allocated service.
+
+File hashes and source-token checks establish provenance; balances and solver checks establish implementation properties. None validates measured permanent retention, current commercial access or the full regional counterfactual. Source identity mismatches, printed monthly/fiscal differences and Northern Lights inventory conflicts are preserved rather than silently harmonised. A full Japan–Malaysia–Australia lifecycle result still requires actual source/process utilities, compatible conditioning and vessel duties, native paired pressure/rate/temperature histories with independent model checks, site-specific assets/pressure management and retention evidence. Missing terms remain unquantified; a small positive partial allowance is insufficient evidence of a robust advantage.
 
 # 5. Conclusions
 
-The implemented four-variant model makes the consequences of simplified shipping and service representations reviewable. Located published inputs reproduce all 75 source fleet counts, while the event model demonstrates that annual capacity arithmetic alone does not establish scheduling feasibility under a stated availability calendar and terminal configuration. Initial heel, capture curtailment and endpoint inventories materially belong in the balance.
+The four-variant operating model shows why annual fleet arithmetic alone cannot establish shipping feasibility. Common-source, equal-injection, fleet and dispatch controls change the size and sometimes the sign of partial comparisons. NETL/MEA utility references, IMO-default fuel and the optional published storage-component reference expose a fragile 5,000 km margin; none provides a robust destination ranking.
 
-Fleet-adequacy, equal-injection and added-vessel controls change the interpretation. After a declared design control, conditional allowances differ in sign between the selected 5,000 and 10,000 km scenarios. Calendar and fleet perturbations also change signs. These results support testing design feasibility and model sensitivity; they do not establish a robust geographic route preference.
+The new mixed-integer benchmark shares one source across disjoint reservoir groups and reevaluates 12 annual plans in 72 operating cases. It establishes reviewable source conservation, integer voyages and conditional gains from mixed routing within its surrogate service envelopes. Operational reevaluation reduces planned injection; alternative vessel priorities can materially change delivery. Annual optimality is therefore insufficient to establish an operating or full climate optimum.
 
-Complete lifecycle mitigation remains uncomputed. NETL utility references and an IMO default fuel pathway are now included as explicit scenarios; site-matched utilities, actual process/idle duty, injection/assets, reliable operating calendars and retention remain incomplete. The reported allowance defines how small the unknown differential burdens must be for a full advantage. The reference-inventory extension nearly exhausts the 5,000 km conditional allowance even in a low electricity-factor case. The next substantive data needs are site-compatible utilities and physical injection constraints, a multi-year wave time series with vessel limits, and complete process/asset/retention inventories. A full regional conclusion cannot be obtained by treating the remaining terms as zero.
+The evidence base now includes targeted full-text review of all 92 unique supplied publications, Japanese injection/test histories and an independent pure-fluid density check. The remaining work is empirical and regional: calibrate independent pressure-rate constraints, identify a matched industrial-production/capture baseline, obtain actual vessel/terminal histories and complete compatible process, asset and retention inventories. Until those requirements are met, Paper 1 is an evidence-based methods and benchmark manuscript with partial inventory results, not a completed regional lifecycle assessment.
 
 # Data and code availability
 
 The accompanying GitHub research branch contains accessible reference uploads and their limits/terms, the original literature PDFs, supplementary DOCX and its source images/tables, original proposal, source catalogue and page text, full extraction ledger, curated/analysis inputs, issue log, calculated CSV/JSON results, figure sources, tests and editable manuscript. The input register records every empirical quantity used in the calculations. Historical preparation outputs are separately archived and superseded by the current documents. The supplied scholarly documents retain their original rights and licences.
+
+# Appendix A. Supporting cross-study accounting diagnostic
+
+## A.1 Definition and reconciliation limits
+
+The selected published aggregate GHG factors do not yet permit this reconciliation. Fraga's reported post-capture inventory includes fugitive emissions associated with intermediate facilities, transport and injection, as well as energy and construction terms [B2-12, pp8,16–18,23]. The Budiarto outcome is reported CO₂ stored. Combining these without separating source-loss terms can double-count a loss. The present cross-study quantity is therefore defined as a **reported-burden score**, not net avoided emissions:
+
+$$S_i=R_i\left(1-\frac{e_i^{\mathrm{rep}}}{1000}\right), \tag{2}$$
+
+where R is published cumulative stored mass and the reported intensity is in kgCO₂e/t stored. The factor 1,000 converts kilograms to tonnes; it is a unit definition. Equation (2) is an accounting diagnostic constructed from two published datasets. It is not claimed as an empirical result in either source.
+
+For a lower-storage reference L and higher-storage case H, score equality gives:
+
+$$\frac{R_H}{R_L}=\frac{1-e_L^{\mathrm{rep}}/1000}{1-e_H^{\mathrm{rep}}/1000}. \tag{3}$$
+
+Equivalently, the reported-intensity crossing for a given storage ratio is:
+
+$$e_{H,*}^{\mathrm{rep}}=1000\left[1-\frac{R_L}{R_H}\left(1-\frac{e_L^{\mathrm{rep}}}{1000}\right)\right]. \tag{4}$$
+
+These are score crossings. To obtain a physical mitigation comparison, let Linc be captured-source losses already included in reported GWP and also deducted in the retained-mass accounting, and let Gom be additional GHG omitted from the adopted reported factor. After a compatible fossil-source and mass reconciliation:
+
+$$\Delta A=\Delta S+\Delta L_{\mathrm{inc}}-\Delta G_{\mathrm{om}}. \tag{5}$$
+
+The correction may also require revising R if the source's “stored” quantity actually denotes injection without the required retention adjustment. Neither correction is assigned an invented value here. Additional capture utilities, extra well development and pressure-management burdens are examples requiring evidence. Thus a positive score is insufficient to establish positive whole-chain mitigation advantage.
+
+The proxy uses the published single-well SW-A storage outcome for L and the multi-well MW-A outcome for H. The lowest of the six reported Fraga best-solution intensities, Northern Lights at 0.7 MPa, is selected as a transparent reference. This is a normalisation choice, not a claim that the configuration is available domestically or is optimal in another region. Each of the six published outcomes is assigned to H in turn. No unreported intermediate GHG value is sampled and no probability is attached to a scenario.
+
+## A.2 Diagnostic results
+
+The six Fraga best-solution intensities span 32.8–142.1 kgCO₂e/t stored. Their underlying networks, source portfolios and pressure configurations differ, so comparisons do not isolate pressure as a causal variable [B2-12, pp18,20]. With 32.8 kgCO₂e/t as the reference, Equation (3) gives score-equality storage uplifts from zero to 12.74%.
+
+Cross-pairing these intensities with the South Sumatra storage outcomes gives the results below. The 4.31% storage uplift exceeds the score-equality requirement for the two Northern Lights and two combined-concept intensity scenarios, but is smaller than that for the two Stella Maris scenarios. This finding concerns the constructed score only. In particular, the negative Stella Maris score differences do not show that its real infrastructure has negative mitigation or is inferior for its intended source portfolio.
+
+| High-storage burden scenario | Reported GWP (kgCO₂e/t stored) | Storage uplift for score equality (%) | Δ reported-burden score (MtCO₂e) |
+|---|---|---|---|
+| Northern Lights, 0.7 MPa | 32.8 | 0.00 | +6.384 |
+| Northern Lights, 1.5 MPa | 46.3 | 1.42 | +4.226 |
+| Stella Maris, 0.7 MPa | 142.1 | 12.74 | -11.084 |
+| Stella Maris, 1.5 MPa | 139.0 | 12.33 | -10.588 |
+| Combined, 0.7 MPa | 41.5 | 0.91 | +4.993 |
+| Combined, 1.5 MPa | 39.2 | 0.67 | +5.361 |
+
+![Storage uplift required for equality of the reported-burden score, relative to the 32.8 kgCO₂e/t reference. Bars use the six published Fraga outcomes; the dashed line is the calculated Budiarto storage uplift. This is a cross-study accounting stress test, with fugitive-loss and omitted-burden corrections outstanding.](../outputs/figures/proxy_thresholds.png)
+
+For the fixed published storage ratio, Equation (4) yields **72.74 kgCO₂e/t stored** as the high-storage scenario's reported-intensity crossing. It is useful as an audit target: an analysis claiming an advantage from these particular gross-storage values must examine its incremental inventory near this magnitude. It is not a generic allowable transport emission factor, a calibrated Japanese break-even threshold or a policy limit. Equation (5) determines how reconciling source losses and omitted GHG would change the score comparison.
+
 
 # References
 
@@ -380,7 +494,11 @@ The following references are cited by stable source ID. Full supplied-library ti
 
 - **[B2-04]** Bertoni, Møyner, Wiegner & Gazzani (2025). Optimizing carbon capture and storage infrastructure including physics-based reservoir modelling. [10.1016/j.compchemeng.2025.109293](https://doi.org/10.1016/j.compchemeng.2025.109293). [Retained PDF](../papers/B2-04.pdf).
 
+- **[B2-06]** Multiperiod strategic planning of CO2 capture, transport, utilization and storage with multimodal transportation. [10.1016/j.compchemeng.2025.109525](https://doi.org/10.1016/j.compchemeng.2025.109525). [Retained PDF](../papers/B2-06.pdf).
+
 - **[B2-08]** Bjerketvedt, Tomasgard & Roussanaly (2020). Optimal design and cost of ship-based CO2 transport under uncertainties and fluctuations. [10.1016/j.ijggc.2020.103190](https://doi.org/10.1016/j.ijggc.2020.103190). [Retained PDF](../papers/B2-08.pdf).
+
+- **[B2-11]** A techno-economic assessment of CO2 capture in biomass and waste-fired combined heat and power plants – A Swedish case study. [10.1016/j.ijggc.2022.103684](https://doi.org/10.1016/j.ijggc.2022.103684). [Retained PDF](../papers/B2-11.pdf).
 
 - **[B2-12]** Fraga, Korre, Nie & Durucan (2024). Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains. [10.1016/j.ccst.2024.100190](https://doi.org/10.1016/j.ccst.2024.100190). [Retained PDF](../papers/B2-12.pdf).
 
@@ -388,9 +506,15 @@ The following references are cited by stable source ID. Full supplied-library ti
 
 - **[B2-17]** Progress and perspectives in source-sink matching for CCUS A critical review. [10.1016/j.rser.2025.116313](https://doi.org/10.1016/j.rser.2025.116313). [Retained PDF](../papers/B2-17.pdf).
 
+- **[B3-09]** Planning of carbon capture storage deployment using process graph approach. [10.1016/j.energy.2014.08.060](https://doi.org/10.1016/j.energy.2014.08.060). [Retained PDF](../papers/B3-09.pdf).
+
 - **[B3-11]** Ooi, Foo, Ng & Tan (2013). Planning of carbon capture and storage with pinch analysis techniques. [10.1016/j.cherd.2013.04.007](https://doi.org/10.1016/j.cherd.2013.04.007). [Retained PDF](../papers/B3-11.pdf).
 
 - **[B3-14]** Lee, Tan & Chen (2014). A unified model for the deployment of carbon capture and storage. [10.1016/j.apenergy.2014.01.080](https://doi.org/10.1016/j.apenergy.2014.01.080). [Retained PDF](../papers/B3-14.pdf).
+
+- **[B3-16]** Optimal well placement and brine extraction for pressure management during CO2 sequestration. [10.1016/j.ijggc.2015.07.025](https://doi.org/10.1016/j.ijggc.2015.07.025). [Retained PDF](../papers/B3-16.pdf).
+
+- **[B3-23]** Optimization of CO2 injection and brine production well placement using a genetic algorithm and artificial neural network-based proxy model. [10.1016/j.ijggc.2023.103915](https://doi.org/10.1016/j.ijggc.2023.103915). [Retained PDF](../papers/B3-23.pdf).
 
 - **[B3-29]** Jeon et al. (2026). Integrated modelling and simulation of liquefied CO2 tank and cargo handling system with new marine transportation greenhouse gas intensity. [10.1016/j.energy.2025.139624](https://doi.org/10.1016/j.energy.2025.139624). [Retained PDF](../papers/B3-29.pdf).
 
@@ -420,6 +544,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 
 - **[B4-06-S1]** Budiarto et al. (2025). Supplementary materials: Tables S1–S3 and Figures S1–S10. [Retained DOCX](../original/supplements/43979_2025_135_MOESM1_ESM.docx). Parent publication DOI 10.1007/s43979-025-00135-w.
 
+- **[EOS]** Span, R. and Wagner, W. (1996). A New Equation of State for Carbon Dioxide Covering the Fluid Region from the Triple-Point Temperature to 1100 K at Pressures up to 800 MPa. Journal of Physical and Chemical Reference Data 25, 1509–1596. [DOI 10.1063/1.555991](https://doi.org/10.1063/1.555991). Equation implemented in CoolProp 8.0.0; software metadata records EOS key Span-JPCRD-1996. This reference calculation is additional to the supplied-PDF corpus.
+
 - **[D5-01]** Norwegian electricity disclosure. Electricity sales in Norway with and without guarantees of origin, 2025 (138 TWh). Supplied Excel export; volumes recovered from native XML. [Retained original](../original/dataset5/D5-01/Electricity%20sales%20in%20Norway%20with%20and%20without%20guarantees%20of%20origin%202025%20(138%20TWh).xlsx).
 
 - **[D5-02]** NVE. Electricity-disclosure factor workbook: climate and market declarations, 2019–2025. Supplied Excel file. [Retained original](../original/dataset5/D5-02/stromdeklarasjoner-faktorer.xlsx).
@@ -437,3 +563,25 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[D5-54]** International Maritime Organization (2024). Resolution MEPC.391(81): 2024 Guidelines on Life Cycle GHG Intensity of Marine Fuels. Supplied official PDF. [Retained original](../original/dataset5/D5-54/MEPC.391(81).pdf).
 
 - **[D6-22]** Leetaru, Brown, Lee, Senel and Couëslan (2012). CO₂ Injectivity, Storage Capacity, Plume Size, and Reservoir and Seal Integrity of the Ordovician St. Peter Sandstone and the Cambrian Potosi Formation in the Illinois Basin. DOE/FE0002068-1, issued 30 May 2012. Supplied simulation report. [Retained original](../original/dataset6/D6-22/MGSC_20120530_Topical_Report_CO2_Injectivity_Storage_Capacity_Plume_Size.pdf).
+
+- **[D7-01]** Supplied Japanese GHG additional-information export. ENEOS references; entity mismatch with Nippon Steel metadata remains unresolved. [Retained original](../original/dataset7/D7-01/ghg_emission_additional_info.csv).
+
+- **[D7-03]** Japan GHG reporting disclosure. Supplied company category/year emissions export,2009–2023. Nippon Steel identity per separately supplied metadata. [Retained original](../original/dataset7/D7-03/ghg_emission_amount.csv).
+
+- **[D7-04]** Japan GHG reporting disclosure. Supplied company metadata identifying Nippon Steel, specified-emitter code985336900. [Retained original](../original/dataset7/D7-04/info.csv).
+
+- **[D7-06]** Japan GHG reporting disclosure. Supplied specified-facility list with reporting-year labels,2021–2023. [Retained original](../original/dataset7/D7-06/tokutei_jigyosho_list.csv).
+
+- **[D7-07]** World Bank. Supplied Container Port Performance Index Excel data annex, with2020–2025 indices and2025 port statistics. [Retained original](../original/dataset7/D7-07/P509479-3615350c-eada-483c-807f-be2da4e0a644.xlsx).
+
+- **[D7-10]** Mitsubishi Shipbuilding Co., Ltd. (2024). Liquefied CO2 Carrier EXCOOL. Mitsubishi Heavy Industries Technical Review61(2), June2024. [Retained original](../original/dataset7/D7-10/e612050.pdf).
+
+- **[D7-15]** Gentile, Cauchois, Ålund and Renzi. Carbon footprint of the Northern Lights JV CO2 transport and storage value chain. Carbon Limits/Northern Lights JV; prospective assessment describing status as of March2023. [Retained original](../original/dataset7/D7-15/Report-Carbon-footprint-of-the-Northern-Lights-JV-co2-transport-and-storage-value-chain.pdf).
+
+- **[D7-18]** Japan CCS Co., Ltd. Tomakomai large-scale CCUS demonstration, FY2019, Chapter5: Integrated reservoir evaluation. Supplied Japanese technical chapter. [Retained original](../original/dataset7/D7-18/2019jccs_toma_chapter5.pdf).
+
+- **[D7-20]** Japan CCS Co., Ltd. Tomakomai large-scale CCUS demonstration, FY2024, Chapter3: CO2 injection/storage testing. Supplied Japanese technical chapter. [Retained original](../original/dataset7/D7-20/2024jccs_toma_chapter3r.pdf).
+
+- **[D7-22]** Japan CCS Co., Ltd. Tomakomai large-scale CCUS demonstration, FY2024, Chapter5: Integrated reservoir evaluation. Supplied Japanese technical chapter. [Retained original](../original/dataset7/D7-22/2024jccs_toma_chapter5.pdf).
+
+- **[D7-25]** Japan CCS Co., Ltd. (2026). Tomakomai CCUS Demonstration Project information, October2026. Supplied English newsletter. [Retained original](../original/dataset7/D7-25/202610_ENG.pdf).

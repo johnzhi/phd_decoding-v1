@@ -1,0 +1,107 @@
+CO2 maritime transportation
+
+PHYSICAL_PAGE 2
+858                                   S. Decarre et al. / International Journal of Greenhouse Gas Control 4 (2010) 857–864
+
+
+
+
+                                                                      Fig. 1. Basic cases.
+
+
+600 MWth). For the study, CO2 is considered free of impu-                            dration process, and between D 78 million and D 90 million for
+rities and water. Two CO2 sources locations are considered                           the pipeline.
+(Fig. 1):                                                                          • a source in the harbour area. CO2 is delivered at 1.7 bar; 25 ◦ C, at
+                                                                                     the liquefaction stage.
+• a source at 100 km fare from the harbour. CO2 is transported in
+  a supercritical phase by a 15 in. internal diameter pipeline. It is              2.2. Liquefaction, storage and loading
+  delivered at the terminal at 100 bar and at ambient temperature.
+  The gas is available at 1.7 bar with a content of 28% of water after                Between all the possible options of transport we selected two
+  capture, CO2 conditioning is presented on Fig. 2 and described in                thermodynamic conditions of liquid CO2 : a low temperature to
+  Bonnissel et al. (2007); The evaluation performed in this study                  limit tank cost thanks to lower pressure (−50 ◦ C, 7 bar) and a
+  leads to a total cost of D 83 million for the compression & dehy-                high temperature to limit energy penalty in the liquefaction plant
+
+
+
+
+                                                   Fig. 2. Process ﬂow diagram for the dense phase case.
+
+
+PHYSICAL_PAGE 5
+                                              S. Decarre et al. / International Journal of Greenhouse Gas Control 4 (2010) 857–864                              861
+
+
+
+
+                                                                         Fig. 8. Offshore unloading.
+
+
+• Pumps with a total power of 5.2 MW, for an offshore unloading,                           100% (tank full at 95%, keeping a volume for the boil off). It takes into
+• Dynamic position for offshore unloading,                                                 account the new regulations on biologic prevention pollution (bal-
+• The most economical propulsion in order to reach a speed of 16.5                         last are full of water, their loading procedures are described) and
+  knots.                                                                                   the IGC code relative to possible damages. As the ship as an axial
+• Following the existing regulations: SOLAS (Safety Of Life At Sea),                       symmetry, all the damages are simulated at port on a watertight
+  IGC (Ship Carrying Liqueﬁed Gas in Bulk) and MARPOL (MARitime                            bulkhead. ARGOS simulations show that IGC criteria are completely
+  POLution).                                                                               respected.
+
+    Based on these speciﬁcations a ship is designed (Fig. 7). 7                            2.4. On or offshore unloading
+tanks, as the one presented previously, are integrated. Cofferdams
+(600 mm) are placed between the tanks and the front and back parts                         2.4.1. Onshore terminal
+of the ship in order to limit thermal exchanges and allow inspec-                             This terminal is similar to the loading one. Temporary storage
+tions. Possible dilatation of the tanks was considered in the design                       will be twice the one present on the ship in order to have a safety
+of a new ﬁxing system including wood parts.                                                margin, this hypothesis could be optimised integrating the man-
+    Different solutions for the propulsion are considered:                                 agement of a complete ﬂeet of CO2 ships. Possible reuse of the liquid
+Architecture        Advantages                      Disadvantages                          CO2 frigories will have to be integrated in a more detailed study.
+Electric-diesel     Better consumption,             CAPEX high, complexity
+                    architecture optimisation,      (higher breakage risk), site           2.4.2. Offshore unloading
+                    low power installed             coverage consuming
+Diesel (type        CAPEX, well known               OPEX (higher consumption
+                                                                                              Between all the possibilities a direct unloading is considered. In
+CODAD,              technology, less breakage       than electric-diesel)                  order to ﬁt with the constraints: maximum time on place 24 h in
+COmbinaison         risk than electric-diesel                                              the North Sea, injection power of 5.2 MW for 30,000 m3 of CO2 at
+Diesel                                                                                     −30 ◦ C, 15 bar (Fig. 8). To be able to respected them, 4 wells are nec-
+Alternateur
+                                                                                           essary to achieve a ﬂowrate of 350 t/h, maximum value tolerated
+Diesel)
+2T motors           CAPEX, well known               Pollution, no dynamic                  by the aquifer. Conditions imposed at the well head are 0 ◦ C and
+                    technology, OPEX                position, heavy                        110 bar. Pumps on the ship will furnish the energy to reach 95 bar,
+                                                                                           the static pressure over the 200 m water depth, will complete it.
+    The best option is the electric-diesel but could be considered as                      During this phase, CO2 temperature increases a bit. To avoid more
+too much expensive by the future clients for sequestration oper-                           energy consumption and CO2 release, CO2 is naturally heated by
+ations. Then a more classical architecture like the CODAD type                             thermal exchange between a Bare pipe and sea water, before reach-
+(diesel) is our ﬁnal choice. Two motors, fed by heavy fuel oil,                            ing the well head. To increase thermal exchanges the pipe (X60) is
+will be connected to an adjustable blade propeller (Diameter 7 m).                         not buried and is only coated against the corrosion. Due to the very
+The energy necessary on board will be provided by four diesel                              low temperature at the inlet of the pipe, some ice will form on exter-
+alternators.                                                                               nal pipe wall over few kilometres. Table 2 summarises different
+    Installation of the different utilities on board is realised in par-                   possibilities depending on currents and internal pipe diameter. The
+allel with the stability analysis of the ship. The stability analysis is                   optimum between steel mass and pressure drop leads to the choice
+realised using the software ARGOS with a working load from 10% to                          of a 10 in. NPS (internal diameter of 10 in.) for a designing pres-
+
+Table 2
+Pipe length necessary to reach the injection conditions.
+
+                                           Solution with 4 injection lines
+
+  Flow rate per well (bpd)                 49,528            49,528            49,528           49,528            49,528             49,528   49,528        49,528
+  External current velocity (m/s)          0.005             0.5               0.005            0.5               0.005              0.5      0.005         0.5
+  Pump outlet temperature (◦ C)            −22               −23               −23.7            −24.2             −24.2              −24.4    −24.4         −24.5
+  Internal diameter (”)                    8                 8                 10               10                12                 12       14            14
+  Pressure drop (bar)                      21.0              9.0               6.2              2.4               2.2                0.7      0.9           0.3
+  Subsea pipe length (km)                  7                 3                 6.5              2.5               6                  2        5.5           2
+  Ice deposition length (km)               3                                   3                                  3                           2.5
+  Injection temperature (◦ C)              0.1               −0.4              0.0              −0.6              0.0                −1.6     −0.1          −0.3
+  CO2 velocity (m/s)                       2.8               2.8               1.8              1.8               1.2                1.2      0.9           0.9
+  Steel mass (t)                           671               288               974              375               1295               432      1616          587
+  Pipe volume (m3)                         908.0             389.2             1317.4           506.7             1751.2             583.7    2184.9        794.5
+  Topside pump power (MW)                  5.43              5.55              5.18             4.76              4.73               4.58     4.59          4.53
+
+
+PHYSICAL_PAGE 8
+864                                             S. Decarre et al. / International Journal of Greenhouse Gas Control 4 (2010) 857–864
+
+
+Bonnissel, M., Broutin, P., Fradet, A., Odru, P., Ruer, J., Saysset, S., 2007. Technical     Svensson, R., Odenberger, M., Johnsson, F., Strömberg, L., 2007. Transportation
+   and economic assessment of CO2 transportation for CCS purposes. The Journal                  Infrastructure for CCS – Experiences and Expected Development. Chalmers Uni-
+   of Pipeline Engineering 6 (3), 173–179.                                                      versity of Technology and Vattenfall, Sweden.
+Chauvel, A., Fournier, G., Raimbault, C., (new, revised and expanded edition) 2003.
+   Manual of Process Economic Evaluation. Éditions Technip, Paris.

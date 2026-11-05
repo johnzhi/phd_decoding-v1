@@ -1,0 +1,191 @@
+Shared CO₂ capture, transport, and storage for decarbonizing industrial clusters
+
+PHYSICAL_PAGE 3
+T.A. Gunawan et al.                                                                                                                Applied Energy 359 (2024) 122775
+
+
+industrial corridor in Southeast Louisiana.                                          simplified (straight line) representation of pipelines [25]. It is important
+                                                                                     to note that all of these studies were for a specific industrial type in the
+2. Prior work                                                                        US that might overlook the potential of sharing pipeline networks
+                                                                                     among a range of different industrial facilities. For multi-industrial
+    Removal of CO₂ from industrial gas streams has been practiced for                types, Sun et al. [44] applied a screening methodology to identify po­
+decades. In the U.S. the installed capacity for CO₂ removal at natural gas           tential CCS clusters at a state-wide level in Spain and found comple­
+processing plants was about 0.4 million tonnes per year (MtCO₂/y) in                 mentarities between larger and smaller capture facilities sharing
+1972 [11,12] and grew to about 25 MtCO₂/y by 2019, when it                           transport and storage infrastructure. Berghout et al. [45,46] investigated
+accounted for an estimated 63% of global CO₂ removal capacity [13].                  shared-infrastructure design trade-offs for a cluster of 16 facilities in an
+Among different CO₂ removal technologies as described by Feron et al.                industrial zone in the city of Rotterdam and found that significant
+[14], Chao et al. [15], and National Energy Technology Laboratory's                  reduction of capture costs can be achieved by sharing a centralized CO₂
+(NETL) publications [16,17], absorption systems using amine solvents                 capture system. In another study in the Netherlands, Knoope et al. [47]
+are the most technologically mature and widely utilized for removing                 assessed the impact that uncertainty in CO₂ emission prices can have on
+CO₂ from the near-atmospheric-pressure streams with relatively low CO₂               the deployment of shared CCS infrastructure and concluded that build­
+concentrations [10,12,18,19] commonly found at most existing indus­                  ing CCS networks can be stimulated if capture costs are low and there is
+trial facilities. State-of-the-art amine-based systems can remove 95% or             cooperation among nearby power and industrial facilities. However,
+more of the CO₂ in an emissions stream [18].                                         both Berghout et al. and Knoope et al. simplified the modelling of CO₂
+    Costs for CO₂ capture to decarbonize fossil-fuel power plants have               transport networks, similar to the approach by Pilorgé et al. Using
+been extensively modeled by Rubin et al. [20], Vasudevan et al. [21],                optimized transport routes, pipeline capacities, and costs, Middleton
+and NETL [22,23]. However, modelling for industrial facilities is more               and Yaw [48] investigated technical uncertainties in developing CCS
+limited. Some studies have utilized simplified (technology-agnostic) cost            networks and found CO₂ injection and storage introduce the largest
+estimation methods, for example Bains et al. [24] for petroleum power                uncertainties in the techno-economic performance of a cluster of CO₂
+plant, natural gas power plant, coal power plant, cement, refinery, iron             capture plants sharing transport and storage infrastructure. Our study
+and steel, ethylene, ethylene oxide, ammonia, hydrogen, ethanol and                  extends the literature on shared CCS infrastructure designs by including
+natural gas processing, and Pilorgé et al. [25] for process-originated              small-scale facilities and a wide range of industrial types, evaluating
+emissions in refining, hydrogen, petrochemicals, ammonia, bio­                       different scenarios for minimizing overall CCS costs, considering real­
+ethanol, iron and steel, cement and lime. Other studies include more-                istic CO₂ pipeline routings and well-characterized CO₂ injection sites.
+detailed technology modelling, but for limited types of industries e.g.,
+Leeson et al. [26] for cement, refinery, iron and steel, pulp and paper,             3. CO₂ capture cost model
+ethylene oxide, ammonia, hydrogen, ethanol and natural gas processing,
+Lisbona et al. [27] for cement and some generic (unspecified) coal or                   Our CO₂ capture cost model estimates the levelized cost of CO₂
+natural gas fueled industrial facilities, and Hughes and Zoelle [28] for             capture as a function of CO₂ concentration in the target stream and
+ammonia, cement, iron and steel, ethylene oxide, ethanol, hydrogen,                  annual CO₂ capture rate. The model was developed by designing and
+natural gas processing, coal-to-liquids, and gas-to-liquids. Moreover,               simulating the performance of capture facilities to determine individual
+industrial analyses by Tock et al. [29] and Pérez-Calvo et al. [30],                equipment capacities at the capture facility. Equipment purchase costs
+including otherwise excellent studies do not include additional energy               are estimated based on these capacities and then cost factoring is
+generation (and its associated costs) for meeting parasitic heat and                 applied, as discussed in detail in Section 3.3, to estimate total installed
+electricity needs of the CO₂ capture plant. The cost for such energy                 capital costs. Capital cost estimates combined with fixed and variable
+supply is important, since even when some waste heat is available from               operating cost estimates are used to calculate levelized CO₂ capture
+the existing industrial process, it will typically be insufficient as                costs.
+described by Johnsson et al. [31] and Roussanaly et al. [32]. Our carbon
+capture modelling work here addresses these limitations of prior studies.            3.1. Underlying process designs
+In particular, this study explores CO₂ capture for retrofitting at a wide
+range of existing industrial facilities, since retrofits will be important for           Using the Aspen + chemical process modelling tool, we designed and
+achieving emissions reductions rapidly [10,33].                                      simulated the performance of amine-based CO₂ capture facilities
+    Beyond CO₂ capture cost studies, there is also attention paid in the             comprising (1) CO₂ absorption/desorption columns, (2) CO₂ compres­
+literature to the integration of CO₂ capture with transport and under­               sion to a pressure suitable for pipeline transport, (3) CO₂ dehydration to
+ground storage systems. The limited number of power or industrial                    remove residual water, (4) an integrated cogeneration plant to deliver
+sector CCS projects that have been built to date have been designed with             all of the heat and power needed by the capture plant, and (5) a cooling
+dedicated CO₂ pipelines connecting individual point sources of CO₂ to                water system (Fig. 1). By including cogeneration within the facility, our
+storage sites, including at SaskPower's Boundary Dam [34], Air Prod­                 designs assume that waste heat from the existing process is unavailable
+uct's Port Arthur [35], Shell Quest [36] and Petra Nova [37]. But policy             to help deliver the heat needed to operate the CO₂ capture system. We
+studies addressing future large-scale deployment of CCS envision                     note that a dedicated cogeneration plant has been built for most
+sharing of pipeline and storage infrastructures and a number of design               commercial-scale amine-based industrial CO₂ capture retrofit projects in
+studies for shared-infrastructure have been published, such as by Labor              North America, including Boundary Dam [34,49], Quest [36], and Petra
+Energy Partnership [38], International Energy Agency [39], United                    Nova [37,50]. Our cogeneration system is natural gas fired, and the CO₂
+States Department of Energy [40], and Great Plains Institute [41]. For               emissions from this are assumed to be vented in most cases, which re­
+example, Edwards and Celia investigated ethanol biorefineries in the                 duces the net CO₂ capture at the facility. However, we also consider one
+Midwestern U.S. capturing CO₂ and sharing trunk pipelines to carry CO₂               case in which the cogeneration CO2 emissions are captured (see dashed
+to enhanced oil recovery operations in the Permian Basin in Texas [42].              line in Fig. 1).
+They in turn used the results to understand the level of government                      An industrial stream targeted for CO₂ removal can be characterized
+subsidy needed for economic viability. Tao et al. investigated sharing of            by the concentration of CO₂ in the stream and the mass flow of the
+a pipeline and storage network among 156 prospective fossil fuel power               stream. We developed separate process simulations for target streams
+plants in the U.S, or equivalent to 100 GW of power capacity that would              having CO₂ concentrations of 5 mol%, 10 mol% and 15 mol%. We
+be fitted with CO₂ capture [43]. Pilorgé et al. investigated capture,               designed for a CO₂ capture ratio (ψ CO₂) of 95% in each case, as calculated
+transport, and storage networks for process industries, but with                     using Eq. 1.
+
+                                                                                 3
+
+
+PHYSICAL_PAGE 8
+T.A. Gunawan et al.                                                                                                                         Applied Energy 359 (2024) 122775
+
+
+
+
+                              Fig. 5. Regression curve fits for estimating total installed capital cost of CO₂ capture for Nth-of-a-kind plants.
+
+
+                                                                                           3.4. Levelized cost of CO₂ capture
+Table 3
+Parameter values for Eq. 6.
+                                                                                               The capital cost estimates developed above, together with fixed and
+  % mol CO₂              5%                10%               15%               94%         variable operating costs (discussed below) provide inputs for estimating
+  Nth-of-a-kind (NOAK)                                                                     total levelized costs of CO₂ capture (LCC), as follows
+  C0                     637               532               496               133
+  b                      0.167             0.197             0.207             0.528               (CRF × CCAP ) + OPEX CAP,FIX + OPEX CAP,VAR
+                                                                                           LCC =                                                                        (9)
+  R2                     0.91              0.92              0.92              0.99                              0.9 × Ṁ CO2 ,CAP
+  Early mover (EM)
+  C0                     892               745               695               133
+                                                                                           where CCAP is total installed capital cost for the capture plant, and CRF is
+  b                      0.167             0.197             0.207             0.528
+  R 2
+                         0.91              0.92              0.92              0.99        the annual capital recovery factor,
+  First-of-a-kind (FOAK)                                                                           (            )
+  C0                     1103              922               860               133                   i⋅(1 + i)T
+                                                                                           CRF = (                )                                               (10)
+  b                      0.167             0.197             0.207             0.528                       T
+                                                                                                   (1 + i) − 1
+  R2                     0.91              0.92              0.92              0.99
+                                                                                           with weighted average cost of capital, i, and asset economic life, T (in
+Quest and Petra Nova as FOAK projects are over 15% higher, through                         years). ṀCO₂,CAP is as defined earlier (annual amount of CO₂ captured if
+still with in the uncertainty bounds of such estimates. The lower pub­                     the plant is operating at full capacity all year), and we assume a 90%
+lished estimates for these two projects may stem from lower design                         annual plant capacity factor. (The actual annual CO₂ capture rates cor­
+capture rates for those plants (80–90%), the use of some waste heat that                   responding to the seven values of ṀCO₂,CAP given earlier are 0.09, 0.26,
+reduced the needed capacity of the dedicated cogeneration block                            0.52, 1.03, 2.06, 3.08, and 5.13 MtCO₂/y.) Finally, OPEXCAP,FIX and
+providing parasitic energy needs, and/or the exclusion of certain                          OPEXCAP,VAR are annual fixed and variable operating costs:
+ancillary costs from the published estimates. Early-mover projects might                   OPEX CAP,FIX = CLAB + CA&O + CO&M + CITF                                   (11)
+typically relate to the second and third projects in a region (or between
+10th and 20th projects world-wide), and projects beyond those might be                     OPEX CAP,VAR = CMEA + CH2O + CELC + CNAT                                   (12)
+categorized as Nth-of-a-kind [81]. In the real world, all such projections
+                                                                                               Fixed operating cost includes direct labor costs (CLAB), administra­
+will depend very much on whether new projects have the access and
+                                                                                           tive and general overhead costs (CA&O), annual operating and
+capacity to learn from previous projects.
+
+
+Table 4
+Comparison of CO₂ capture plant cost estimates from this work (Eq. 8) with published cost estimates (adjusted to 2020$ using CEPCI indices) for actual CO₂ capture
+projects: Boundary Dam [34,49], Quest [36], and Petra Nova [37,50].
+  Project name                                                                             Boundary Dam                        Quest                          Petra Nova1
+
+  Location                                                                                 Saskatchewan, Canada                Alberta, Canada                Texas, USA
+  Operation year                                                                           2014                                2015                           2017
+  Designed capacity of CO₂ capture                   (million tonnes / year)               1                                   1                              1.6
+  CO₂ concentration in target stream                 (mol%)                                11.4                                18                             14
+  Published total capital expenditure                (million 2020$)                       9622                                663                            699
+  Estimated total capital expenditure
+    Nth-of-a-kind3                                   (million 2020$)                       537                                 480                            464
+    Early mover3                                     (million 2020$)                       752                                 672                            650
+    First-of-a-kind3                                 (million 2020$)                       931                                 832                            804
+
+Notes
+1)
+   Operation was suspended in 2020.
+2)
+   Excluding coal plant refurbishment costs.
+3)
+   By linear interpolation (or extrapolation) from modeled concentration levels.
+
+                                                                                       8
+
+
+PHYSICAL_PAGE 19
+T.A. Gunawan et al.                                                                                                                                  Applied Energy 359 (2024) 122775
+
+[111] Breeze Paul. Coal-fired power plants. Power Generation Technologies; 2019.               [122] Shi C, Elgarni M, Mahinpey N. Process design and simulation study: CO2
+[112] IEA GHG Technical Report, “Further Assessment of Emerging CO 2 Capture                         utilization through mixed reforming of methane for methanol synthesis. Chem
+      Technologies for the Power Sector and their Potential to Reduce Costs,” [Online].              Eng Sci 2021;233. https://doi.org/10.1016/j.ces.2020.116364.
+      Available: www.ieaghg.org; 2019.                                                         [123] Dursun D, Sengul F. Waste minimization study in a solvent-based paint
+[113] IEA GHG Technical Report, “Update Techno-Economic Benchmarks for Fossil                        manufacturing plant. Resour Conserv Recycl 2006;47(4):316–31. https://doi.org/
+      Fuel-Fired Power Plants with CO₂ Capture,” [Online]. Available: www.ieaghg.org;                10.1016/j.resconrec.2005.12.004.
+      2020.                                                                                    [124] Environmental Protection Agency. “Control of VOC Emissions from Ink and Paint
+[114] IEA GHG Technical Report, “Future role of CCS Technologies in the Power                        Manufacturing Process,” EPA-450/3–92-013. North Carolina, USA. 1992.
+      Sector,”. Cheltenham, UK: IEA environmental projects ltd. (IEAGHG); 2020                 [125] NETL. Cost of capturing CO2 from industrial sources. 2014.
+      [Online]. Available: www.ieaghg.org.                                                     [126] IEA GHG Technical Report, “CO2 capture in natural gas production by adsorption
+[115] Arnaiz del Pozo C, Cloete S. Techno-economic assessment of blue and green                      processes for CO2 storage, EOR and EGR,” [Online]. Available: www.ieaghg.org;
+      ammonia as energy carriers in a low-carbon future. Energ Conver Manage 2022;                   2017.
+      255. https://doi.org/10.1016/j.enconman.2022.115312.                                     [127] Middleton RS, Kuby MJ, Bielicki JM. Generating candidate networks for
+[116] Morales Mora MA, Vergara CP, Leiva MA, Martínez Delgadillo SA, Rosa-                           optimization: the CO2 capture and storage optimization problem. Comput
+      Domínguez ER. Life cycle assessment of carbon capture and utilization from                     Environ Urban Syst 2012;36(1):18–29. https://doi.org/10.1016/j.
+      ammonia process in Mexico. J Environ Manage 2016;183:998–1008. https://doi.                    compenvurbsys.2011.08.002.
+      org/10.1016/j.jenvman.2016.09.048.                                                       [128] Rui Z. Comprehensive investigation into historical pipeline construction costs and
+[117] Valeh-e-Sheyda P, Rashidi H, Ghaderzadeh F. Integration of commercial CO2                      engineering economic analysis of Alaska in-state gas pipeline. Fairbanks, USA:
+      capture plant with primary reformer stack of ammonia plant. J Therm Anal                       University of Alaska; 2011.
+      Calorim 2019;135(3):1899–909. https://doi.org/10.1007/s10973-018-7215-x.                 [129] Morgan D, Grant T. FE/NETL CO2 transport cost model (2018): Description and
+[118] Period R, Author P, Gloria A Busse. Demonstration of Carbon Capture and                        User’s manual. In: DOE/NETL-2018/1877. Oak Ridge, TN; 2018 [Online].
+      Sequestration of Steam Methane Reforming Process Gas Used for Large-Scale                      Available: www.osti.gov.
+      Hydrogen Production. 2019.                                                               [130] Hoover B, Yaw S, Middleton R. CostMAP: an open-source software package for
+[119] Thengane SK, Hoadley A, Bhattacharya S, Mitra S, Bandyopadhyay S. Exergy                       developing cost surfaces using a multi-scale search kernel. Int J Geogr Inf Sci
+      efficiency improvement in hydrogen production process by recovery of chemical                  2020;34(3):520–38. https://doi.org/10.1080/13658816.2019.1675885.
+      energy versus thermal energy. Clean Techn Environ Polic 2016;18(5):1391–404.             [131] Mohd Nawi WNR, Wan Alwi SR, Manan ZA, Klemeš JJ, Varbanov PS. Regional
+      https://doi.org/10.1007/s10098-016-1094-2.                                                     and total site CO2 integration considering purification and pressure drop. Chem
+[120] IEA GHG Technical Report, “Techno-Economic Evaluation of HYCO Plant                            Eng Trans 2016;52:1171–6. https://doi.org/10.3303/CET1652196.
+      Integrated to Ammonia - Urea or Methanol Production with CCS,” [Online].                 [132] Smith E, Morris J, Kheshgi H, Teletzke G, Herzog H, Paltsev S. The cost of CO2
+      Available: www.ieaghg.org; 2017.                                                               transport and storage in global integrated assessment modeling. Int J Greenhouse
+[121] Collodi G, Azzaro G, Ferrari N, Santos S. Demonstrating Large Scale Industrial                 Gas Control 2021;109. https://doi.org/10.1016/j.ijggc.2021.103367.
+      CCS through CCU - A Case Study for Methanol Production. In: Energy Procedia.
+      Elsevier Ltd; 2017. p. 122–38. https://doi.org/10.1016/j.egypro.2017.03.1155.
+
+
+
+
+                                                                                          19

@@ -1,0 +1,134 @@
+Assessing-the-cost-reduction-potential-of-CCUS-cluster-projects-of-coal-fired-plants-in-Guangdong
+
+PHYSICAL_PAGE 7
+850                                                   Front. Earth Sci. 2023, 17(3): 844−855
+
+
+
+Table 3   Basic information of the three coal-fired plants in Shanwei
+                                 Total investment/     Capacity/     Commissioning      Distance from     Distance from      Distance from CO2
+No.             Plant             (RMB, billion)         MW             year            coastline/km       LF-2A/km         treatment center/km
+1           Haifeng Plant              8.50            2 × 1000           2015               <1                164.96                    62.67
+2           Jiahuwan Plant             8.83            2 × 1000           2019               <1                122.30                    52.11
+                                                                     2 units in 2008;
+3         Honghaiwan Plant            11.00             4 × 600                              <1                118.56                    5.05
+                                                                     2 units in 2011
+* The distance between CO2 treatment center and LF-2A structure is 113.56 km.
+
+
+Transportation from the Honghaiwan Plant to the                             zation) approach through calculating zero net present
+treatment center is through onshore pipelines, and the                      value (NPV) by the end of the lifetime for most CCUS
+transportation modes of the other two plants are offshore                   economic research (Kourkoumpas et al., 2016; Szabolcs
+pipelines. Figure 2 shows the specific locations of the                     and Calin, 2018; Judit et al., 2020). EBITDA is a useful
+three coal-fired plants and the treatment center.                           metric for the evaluation of large investments. However,
+   Theoretically, the expansion of the capture scale is                     EBITDA can only assess the feasibility of the project at a
+beneficial for the reduction of unit cost. Thus, the case                   macro level. To evaluate the cost reduction potential of
+study is divided into two scenarios to analyze the cost                     CCUS cluster project, we put forward a unit emission
+reduction potential of the CCUS cluster project. We                         reduction cost equation which is based on our previous
+assumed that three coal-fired power plants capture 1 and                    economic evaluation research method (Liang et al.,
+3 million tonnes of CO2 per year for scenarios I and II,                    2019). The revised emission reduction cost analysis
+respectively.                                                               model was established for this study:
+
+3.2   Methodology                                                                              ∑
+                                                                                               l
+                                                                                                 Ic + It + Is + On + +T n + S n
+                                                                                               n=0
+                                                                                                               (1 + r)n
+The cost of CCUS cluster projects can be divided into                                    C=                                          ,           (1)
+capital cost and operation and maintenance cost. It can                                                  ∑
+                                                                                                         l
+                                                                                                           Qn − An
+also be subdivided into capture cost, transportation cost
+                                                                                                         n=0
+                                                                                                               (1 + r)n
+and storage cost. Generally, economic feasibility of
+CCUS project is evaluated based on the EBITDA                               where C is the unit emission reduction cost (CNY/tCO2);
+(Earnings before interest, taxes, depreciation and amorti-                  Ic is the capital investment of carbon capture facilities; It
+
+
+
+
+               Fig. 2   Geographical location of the CCUS cluster projects (this figure was created by using ArcGIS 6.0 software).
+
+
+PHYSICAL_PAGE 9
+852                                                        Front. Earth Sci. 2023, 17(3): 844−855
+
+
+
+Table 6 Cost comparative analysis of individual CCUS projects and CCUS cluster projects: Scenario II, wherein the total emission reduction is
+9 million tonnes
+                                                                           Fixed operating and maintenance   NPV      Cost of
+                 Capture                  Capital cost/million CNY                                                               Percentage of
+                                                                                  cost/million CNY                     CO2
+                 capacity/ Pipeline                                                                        (absolute             cost reduction
+Item                                                                                                        value)/ avoidance/
+                 (million length/     Capture Transportation Storage        Capture Transportation Storage (million   (CNY/       in the cost of
+                             km                                                                                                  CO2 avoidance
+                  tonnes)             facilities facilities  facilities                                              tCO2−1)
+                                                                                                             CNY)
+Haifeng             3      164.96      2580         1000          862        103.2      123.72       120      7033.3    392.34      24.04%
+   Plant
+Jiahuwan            3       122.3      2580         1000          862        103.2       91.73       120     6024.96    336.09      11.33%
+   Plant
+Honghaiwan          3      118.56      2580         1000          862        103.2       88.92       120     6004.01    334.92      10.93%
+   Plant
+CCUS                9      228.23      3870         1500          862        1548         171        240     173632.2   298.02          /
+   Cluster
+   Project:
+   Scenario II
+
+
+separately deployed 1 million tonnes of CO2 in the CCUS                        maximum cost reduction potential compared to the other
+project, the unit emission reduction costs were 646.41,                        two power plants. This is mainly because the Haifeng
+568.82, and 567.66 CNY/tCO2. The capital costs of                              Plant is furthest away from the LF-2A structure.
+capture facilities in different plants are the same, but                       Therefore, emission sources which are far away from
+those of transportation and storage facilities are greatly                     potential storage sites will benefit more from the
+reduced, owing to the distance between capture point and                       construction of the CCUS cluster project. The capture
+the LF-2A structure. In the CCUS cluster project, when                         capacity of Scenario II is three times that in Scenario I,
+three projects of 1 million tonne capacity become one                          and the unit CO2 reduction cost dropped from 475.81 to
+project of 3 million tonne capacity, the operating and                         298.02 CNY/t, reducing by 37.37%. Consequently, the
+maintenance cost does not simply increase linearly by                          scale of CCUS cluster projects has a significant impact on
+threefold. This study assumes that this cost increases only                    the unit emission reduction cost.
+twofold according to Liang’s research, but it may be                             From a comprehensive perspective, the CCUS cluster
+lower in practice. The distance between the Honghaiwan                         project saves 118.49 CNY/tCO2 over the average cost of
+Power Plant and the CO2 treatment center is 5 km, and                          individual projects (594.30 CNY/tCO2) in Scenario I (by
+the cost of onshore pipeline transportation is relatively                      19.94%). The CCUS cluster project saves 56.43
+low, which is ignored to simplify the calculation. CO2                         CNY/tCO2 over the average cost of individual projects
+captured by each power plant has been compressed and                           (354.45 CNY/tCO2) in Scenario II (by 15.92%). Even
+purified before being transported to the treatment center;                     taking the learning effect (which means CCUS project
+thus, the CO2 treatment center contains less large                             could benefits from experience gathered in different
+equipment and its capital cost is also negligible.                             CCUS application and reduce the emission reduction
+   According to the pipeline network planning in Fig. 2                        cost) into account, it will take at least 35 years to reduce
+and parameter setting in Table 4, the unit emission                            20% cost for individual CCUS project in power plant
+reduction cost of the CCUS cluster project included three                      (IEA, 2020). As a comparison, only 3 power plants in the
+coal-fired power plants (475.81 CNY/t of CO2) using                            case study form a CCUS cluster project could contribute
+formula E1. Compared with individual CCUS projects,                            around 15%−20% cost reduce at current stage. It is
+the unit CO2 reduction cost of CCUS cluster projects                           obvious for the stakeholders to concern building CCUS
+decreased significantly, dropping 26.39%, 16.35%, and                          project cluster will be a robust pathway to achieve carbon
+16.18% for the Haifeng Plant, Jiahuwan Plant, and                              neutrality.
+Honghaiwan Plant, respectively.
+   Table 5 presents that when three coal-fired plants
+deployed 3 million tonnes of CO2 in the CCUS project,                          4     Discussion and conclusions
+the CO2 of avoidance is 392.34, 336.09, and 334.92
+CNY/t, respectively. For the CCUS cluster project, the                         Carbon peak and carbon neutrality climate targets put
+unit CO2 reduction cost drops to 298.02 CNY/t.                                 forward higher requirements for low-carbon transforma-
+Compared to individual CCUS projects, this value                               tion for all industrial sectors in China. As most industrial
+dropped 24.04%, 11.33%, and 10.09% for the Haifeng                             sectors cannot replace fossil fuels in the short-term,
+Plant, Jiahuwan Plant, and Honghaiwan Plant, respec-                           CCUS will play a key role in the progress of China’s low-
+tively. Compared with Scenario I, the CO2 of avoidance                         carbon transformation. By summarizing the development
+of individual CCUS projects decreased rapidly with the                         trend of international CCUS projects, this study suggests
+expansion of the capture scale (Fig. 3).                                       that industrial sectors should consider the cluster
+   In both Scenarios I and II, the Haifeng plant has the                       construction of CCUS projects in the future. CCUS
+
+
+PHYSICAL_PAGE 12
+                         Muxin LIU et al. Assessing the cost reduction potential of CCUS cluster projects                             855
+
+
+
+Zheng S J, Yao Y B, Liu D M, Cai Y D, Liu Y, Li X W (2019).               South China Sea for a low-carbon development in Guangdong
+   Nuclear magnetic resonance T2 cutoffs of coals: a novel method by      Province, China. Int J Greenh Gas Control, 70: 76–87
+   multifractal analysis theory. Fuel, 241: 715–724                    Zhu L, Duan H B, Fan Y (2015). CO2 mitigation potential of CCS in
+Zhou D, Li P C, Liang X, Liu M X, Wang L (2018). A long-term              China – an evaluation based on an integrated assessment model. J
+   strategic plan of offshore CO2 transport and storage in northern       Cleaner Produc, 103: 934–947

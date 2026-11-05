@@ -1,0 +1,226 @@
+Comparison of methods for geologic storage of carbon dioxide in saline formations
+
+PHYSICAL_PAGE 2
+330                                  A. Goodman et al. / International Journal of Greenhouse Gas Control 18 (2013) 329–342
+
+
+1.2. Development of CO2 storage methods                                           unmineable coal seams. This method was recently compared to the
+                                                                                  US-DOE and USGS methods (Popova et al., 2012). Storage estimates
+    Early storage estimates compiled by the Intergovernmental                     for Australia can be found in the 2009 Queensland CO2 Geological
+Panel on Climate Change in 2005 are associated with a high degree                 Storage Atlas (Bradshaw et al., 2011).
+of uncertainty (IPCC, 2005). The upper limit for deep saline forma-                  Other methods were developed for CO2 storage that consider
+tions, for example, was reported as “uncertain, but could possibly                closed or semi-closed boundaries in which saline formations are
+be 1 × 104 GT of CO2 ”. As discussed by Bradshaw et al. (2007), early             surrounded by low permeability seals were native ﬂuids cannot be
+storage estimates applied by various researchers used inconsistent                displaced upon CO2 injection (Economides and Ehlig-Economides,
+methods that did not allow for comparison. These estimates were                   2009; van der Meer and Yavuz, 2009; Zhou et al., 2008). In these
+highly variable and often contradictory. In some cases worldwide                  cases, over-pressurization will need to be addressed upon injec-
+estimates were smaller than country estimates. Recently, initia-                  tion of CO2 to prevent damage to the formation. Zhou et al. (2008)
+tives for assessing CO2 geologic storage potential that have been                 developed a detailed quick assessment method for CO2 storage in
+conducted since 1993 were summarized (Dooley, 2011).                              closed and semi-closed systems where they account for the com-
+    To address inconsistent storage estimates, the Carbon Seques-                 pressibility of the formation rock and ﬂuids and the maximum
+tration Leadership Forum (CSLF) created a task force in 2005 to                   pressure build-up to avoid geo-mechanical damage to the forma-
+develop a consistent method for estimating CO2 storage in deep                    tion. Recently, Szulczewski et al. (2012) released a storage method
+saline aquifers, coal beds, and hydrocarbon reservoirs. This method               that accounts for ﬂuid dynamics and injection rates and provides
+was formally published in CSLF reports (CSLF, 2010) and a peer-                   CO2 storage estimates for saline formation throughout the United
+reviewed article (Bachu et al., 2007). The boundary conditions were               States. Because they examine both CO2 migration and pressure
+assumed to be open where the native formation ﬂuids would be                      build-up, this method is applicable to formations with open or
+displaced upon injection of CO2 and pressure build-up would be                    closed boundaries.
+dissipated. This method was widely accepted. Most of today’s world
+storage estimates, with the exception of the United States, are based             1.3. CO2 storage terminology and classiﬁcation
+on the CSLF method. Some recent examples of by application of the
+CSLF method worldwide include the following: “Estimation of CO2                       Currently there is no standard classiﬁcation procedure to cate-
+aquifer storage potential in Japan” (Takahashi et al., 2009), “Assess-            gorize CO2 storage estimates developed by a particular method. The
+ment of potential for geological storage of carbon dioxide in Ireland             CSLF has proposed a Techno-Economic Resource Pyramid where
+and Northern Ireland” (Lewis et al., 2009), and “CO2 storage capacity             CO2 storage can be categorized into theoretical, effective, practi-
+of deep aquifers and hydrocarbon ﬁelds in Poland–EU Geo Capac-                    cal and matched capacity (Bachu et al., 2007). The US-DOE applies
+ity project results” (Radoslaw et al., 2009). In addition, the North              a CO2 Storage Classiﬁcation Framework analogous to the explo-
+American Carbon Atlas Partnership (NACSA, 2012) which includes                    ration and development of oil and gas accumulations. In this case,
+Canada, the U.S., and Mexico in part applies the CSLF method for                  CO2 storage can be categorized as prospective storage resource,
+CO2 storage estimates.                                                            contingent storage resource, or capacity (US-DOE-NETL, 2010b).
+    The United States Department of Energy’s (US-DOE) Carbon                      CO2 resource is deﬁned as the pore volume within the charac-
+Storage program also developed a CO2 storage method in conjunc-                   terized geologic formation and capacity is deﬁned as the quantity
+tion with its Regional Carbon Sequestration Partnerships (RCSPs)                  of CO2 anticipated to be commercially storable by available tech-
+for volumetric CO2 storage in oil and gas reservoir, deep saline                  nology applied to known formations from a given date forward
+formations, and unmineable coal seams in the United States and                    under deﬁned conditions and includes economic, regulatory, and
+portions of Canada (US-DOE-NETL, 2012). The boundary conditions                   legal constraints. The IEA-GHG advised a storage classiﬁcation with
+were also considered to be open as with the CSLF method. The                      CO2 categories common to both the CSLF and US-DOE (IEA-GHG,
+US-DOE’s National Energy Technology Laboratory (NETL) published                   2009). IEA-GHG categories include Theoretical Storage Resource,
+CO2 storage estimates in the 2007 and 2008 Carbon Sequestration                   Characterized Storage Resource, Effective Storage Resource, Prac-
+Atlas of the United States and Canada (US-DOE-NETL, 2007, 2008).                  tical Storage Capacity, Contingent Storage Resource, Unusable
+This methodology was updated and underwent extensive exter-                       Storage Resource, and Uncharacterized Storage Resource. For the
+nal review. Reﬁned CO2 storage estimates were published in the                    methods described above, the CSLF reports effective storage capac-
+2010 and 2012 Carbon Sequestration Atlas of the United States and                 ity, the US-DOE reports prospective storage resource, the USGS
+Canada (US-DOE-NETL, 2010a, 2012). While the CSLF and US-DOE                      reports technically accessible storage resource, the quick assess-
+methods were developed independently, the CSLF Task Force (CSLF,                  ment method reports CO2 storage capacity (Zhou et al., 2008),
+2008) and IEA-GHG (IEA-GHG, 2009) reported the CSLF and US-DOE                    and Szulczewski et al. (2012) report CO2 migration-limited and
+methodologies to be equivalent, with the exception that the CSLF                  pressure-limited capacity.
+methodology accounts directly for residual gas saturation while the
+US-DOE method accounts for residual gas saturation stochastically.                1.4. Storage efﬁciency and mechanism
+    In 2007, the United States Geologic Survey as authorized by the
+Energy Independence and Security Act (Public Law 110-140) began                      Efﬁciency of storage of CO2 in saline formations is a ubiquitous
+developing a CO2 storage method to conduct a national assess-                     term found in all storage methods. Typically this term deﬁnes a
+ment of the United States in conjunction with the Environmental                   fraction of the pore space that will be occupied by the injected
+Protection Agency (EPA) and DOE. As with the CSLF and US-DOE                      CO2 (Goodman et al., 2011). In general, a generic efﬁciency value
+methods, the USGS also assumed the boundary conditions would                      can be broadly applied to formations of interest. In 1992, it was
+be open. They released their ﬁrst report describing the assessment                assumed that 2% of the pore volume could be used as storage
+method in 2010 (Brennan et al., 2010) and a second report with                    space, however, this value is arbitrary and may lead to unreliable
+method updates and details of the method implementation in 2013                   results (van der Meer and Yavuz, 2009). A speciﬁc efﬁciency can
+(Blondes et al., 2013). The CO2 storage assessment results for the                be calculated for individual formations based on site and geologic
+conterminous United States were recently released in June of 2013.                parameters. Efﬁciency is dependent on boundary conditions of the
+    CO2 Geological Storage Solutions in Australia also developed a                formation. In open systems, the fraction of accessible pore vol-
+method for CO2 storage based on migration assisted storage. They                  ume is typically estimated by the use of displacement terms (Lake,
+consider saline formations, depleted oil and gas ﬁelds, and deep                  1989). In closed systems, the fraction of accessible pore volume is
+
+
+PHYSICAL_PAGE 6
+334                                        A. Goodman et al. / International Journal of Greenhouse Gas Control 18 (2013) 329–342
+
+Table 2
+Key saline formation parameters.
+
+ Parameter                  Symbol      Unit       Formation
+
+                                                   A        B        C          D        E         F         G          H          I        J         K        L         M
+
+ Lengtha                    Lt          km         200      100        50       300        40        50        90        90         30        60       50       70       100
+ Widtha                     W           km         200      200       100       200       100       100       200       100        200       100      100       80       100
+ Net thicknessa             H           m          200      400      2000       100       900       700       500       200        200       600      200       15        40
+ Gross thicknessb           Hg          m          416      831      4156       208      1870      1455      1412       416        416      1694      416       31        83
+ Porositya                                          0.2      0.2       0.2       0.2       0.2       0.2       0.08      0.2        0.2       0.08     0.2      0.2       0.06
+ CO2 densitya                          kg/m3      800      700       500       700       500       500       500       700        600       500      600      600       800
+ Permeabilitya              k           mD         100      100       400       100       400       400        60       900        100        60      100      300        50
+ Pore compressibilityc      Bp          GPa−1        0.3      0.3       0.3       0.3       0.3       0.3       0.3       0.3        0.3       0.3      0.3      0.3       0.3
+ Brine compressibilityd     Bw          GPa−1        0.35     0.37      0.51      0.33      0.44      0.38      0.51      0.38       0.48      0.47     0.49     0.39      0.36
+ Pressure buildupe          P          Mpa         10       10         5         5         5         5        10         5         15        15       15       10        10
+ a
+   Baseline values from Szulczewski et al. (2012).
+ b
+   Calculated by dividing the baseline net thickness by the mean net-to gross thickness efﬁciency term [0.48 for clastics, 0.41 for dolomite, and 0.35 for limestone].
+ c
+   Set to range between 1 × 10–10 Pa−1 and 5 × 10–10 Pa−1 .
+ d
+   Calculated as described by Battistelli et al. (1997).
+ e
+   50% of the initial hydrostatic pressure at the top of the storage formation.
+
+
+
+
+requirements. As described in the US-DOE method, “net-to-gross                           4.1. CSLF: Bachu et al. (2007) method
+thickness efﬁciency is estimated by Monte Carlo sampling for saline
+formations based directly on the 10th and 90th percentiles of net-                           CO2 storage estimates from the CSLF: Bachu et al. (2007)
+to-gross thickness as reported by IEA-GHG (Goodman et al., 2011).”                       method were calculated from Eq. (1) by applying the method
+By applying the US-DOE method, we calculated a mean net-to-                              deterministically for saline formation datasets A through M sum-
+gross thickness efﬁciency for clastics (0.48), dolomite (0.41), and                      marized in Table 2. Baseline length (Lt ) multiplied by width (W)
+limestone (0.35) lithologies. We then approximated gross thickness                       from Table 2 produced trap area (A), gross thickness (Hg ) from
+by dividing net thickness provided by Szulczewski et al. (2012) by                       Table 2 was used as average gross thickness (h), porosity () and
+the mean net-to gross thickness efﬁciency term based on lithology                        CO2 density () were used directly from Table 2, and the Swirr is the
+reported above.                                                                          irreducible water saturation was set to 0.4 for all formation data
+    Pore compressibility, brine compressibility, and sustainable                         sets based on data supplied by Szulczewski et al. (2012). Capac-
+pressure build-up are required by the closed system method                               ity coefﬁcients, Cc *(1 − Swirr ), were used directly from the IEA-GHG
+authored by Zhou et al. (2008). Pore compressibility varies widely                       (2009) as a function of lithology based on their 10th, 50th, and 90th
+depending upon subsurface material. Szulczewski et al. (2012) set                        percentiles: Clastics (1.86, 2.70, and 6.00)%; Dolomite (2.58, 3.26,
+an average compressibility for each formation to 1 × 10−10 Pa−1                          and 5.54)%; and Limestone (1.41, 2.04, and 3.27)%.
+because little or no data was available for compressibility of
+the aquifers and caprocks chosen in their work. The IEA-GHG                              4.2. US-DOE (2007, 2008) and US-DOE (2010, 2012) method
+(2009) reported pore compressibility between 2.8 × 10−10 Pa−1 and
+6.9 × 10−10 Pa−1 . Zhou et al. (2008) reported pore compressibility                          CO2 storage resource estimates from the US-DOE (2007, 2008)
+for deep formations ranging from (4.5 × 10−11 to 4.5 × 10−9 ) Pa−1 .                     and US-DOE (2010, 2012) methods were calculated by Monte Carlo
+Others reported compressibility for sandstones and limestones                            simulation using the program GoldSim (see Supplementary Section
+between (1 × 10−11 and 1 × 10−10 ) Pa−1 (Domenico and Schwartz,                          for description of the GoldSim Model). Baseline values from Table 2
+1998; Fjar et al., 1991). In this study, low and high values or                          for parameters At , hg , tot , and  shown in Eq. (2) were applied to the
+pore compressibility were set at 1 × 10−10 Pa−1 and 5 × 10−10 Pa−1 ,                     US-DOE (2007, 2008) and US-DOE (2010, 2012) methods for each
+respectively. Brine compressibility for each formation was directly                      saline formation data set. For US-DOE (2007, 2008), Esaline values
+calculated while assuming the brine could be represented by a                            applied were (0.7, 2.1, and 4.7)% based on their 15th, 50th, and
+sodium chloride solution (Battistelli et al., 1997). Sustainable pres-                   85th percentiles. For US-DOE (2010, 2012), Esaline values applied
+sure build-up refers to a pressure that the storage formation                            were based on lithology at their 10th, 50th, and 90th percentiles
+can accommodate without undergoing geo-mechanical damage                                 and are as follows: Clastics (0.5, 2.0 and 5.4)%; Dolomite (0.64, 2.2,
+(Neuzil, 2003). By following the example by Zhou et al. (2008), sus-                     and 5.5)%; and Limestone (0.40, 1.5, and 4.1)%.
+tainable pressure build-up was calculated by taking “50% of the
+initial hydrostatic pressure at the top of the storage formation.”
+The initial hydrostatic pressure was calculated by multiplying the                       4.3. USGS: Brennan et al. (2010) method
+depth at the top of the formation by the hydrostatic pressure gra-
+dient for fresh water (0.009792 MPa/m) (Schlumberger, 2012). All                            For the USGS: Brennan et al. (2010) method, all parameters
+geologic parameters described above are compiled in Table 2 and                          were treated stochastically in the Monte Carlo simulation program
+the Supplementary Section.                                                               GoldSim (See Supplementary Section for GoldSim Model descrip-
+                                                                                         tion). Minimum, baseline, and maximum values in a triangular
+                                                                                         distribution were applied to ASF , TPI , PI , CO2 density, and residual
+                                                                                         trapping efﬁciency according to Eq. (3). Table 2 provides baseline
+4. Application of CO2 storage methods to general saline                                  values for saline formations A through M. Minimum and maxi-
+formation data sets                                                                      mum values were calculated by the uncertainty analysis provided
+                                                                                         by Szulczewski et al. (2012) and are tabulated in the Supplemen-
+   The authors worked with the corresponding authors of the                              tary Section. Buoyant trapping was set to 0% because the caprock
+methods applied in this study to ensure that each method was                             of the selected rectangular volumes of the saline formation data
+applied to the general saline formation data sets correctly.                             sets created by Szulczewski et al. (2012) were assumed to be
+
+
+PHYSICAL_PAGE 14
+342                                            A. Goodman et al. / International Journal of Greenhouse Gas Control 18 (2013) 329–342
+
+
+Massachusetts Institute of Technology, Cambridge, MA;                                           Carbon Dioxide in Saline Formations, NETL Technical Report Series. U.S. Depart-
+Quanlin Zhou, Lawrence Berkeley National Laboratory (LBNL),                                     ment of Energy, National Energy Technology Laboratory, Morgantown, WV, pp.
+                                                                                                1–84.
+Earth Sciences Division, Berkeley, CA; Scott Frailey, Illinois State                        Goodman, A., Hakala, A., Bromhal, G., Deel, D., Rodosta, T., Frailey, S., Small, M., Allen,
+Geologic Survey, Midwest Geological Sequestration Consortium;                                   D., Romanov, V., Fazio, J., Huerta, N., McIntyre, D., Kutchko, B., Guthrie, G., 2011.
+Charlie Gorecki, Energy & Environmental Research Center (EERC),                                 U.S. DOE methodology for the development of geologic storage potential for
+                                                                                                carbon dioxide at the national and regional scale. Int. J. Greenhouse Gas Control
+University of North Dakota; Kelly Rose, United States Department                                5, 952–965.
+of Energy, National Energy Technology Laboratory, Albany, Oregon;                           IPCC, 2005. Carbon dioxide capture and storage. In: Bert Metz, O.D., Heleen, de C.,
+and Bob Dilmore, United States Department of Energy, National                                   Manuela, L., Leo, M. (Eds.), Intergovernmental Panel on Climate Change. Inter-
+                                                                                                governmental Panel on Climate Change, p. 431.
+Energy Technology Laboratory, Pittsburgh, PA.
+                                                                                            JCGM, 2008. Evaluation of Measurement Data-Supplement 1 to the Guide to the
+                                                                                                Expression of Uncertainty in Measurement – Propagation of Distributions Using
+Appendix A. Supplementary data                                                                  a Monte Carlo Method. Joint Committee on Guides in Metrology.
+                                                                                            Lake, L.W., 1989. Enhanced Oil Recovery. Prentice Hall, Englewood Cliffs, NJ.
+                                                                                            Lewis, D., Bentham, M., Cleary, T., Vernon, R., O’Neill, N., Kirk, K., Chadwick, A.,
+   Supplementary data associated with this article can be found, in                             Hilditch, D., Michael, K., Allinson, G., Neal, P., Ho, M., 2009. Energy Procedia 1,
+the online version, at doi:10.1016/j.ijggc.2013.07.016.                                         2655–2662.
+                                                                                            NACSA, 2012. North American Carbon Atlas Partnership. http://www.netl.doe.gov/
+                                                                                                technologies/carbon seq/global/nacap.html
+References                                                                                  Neuzil, C.E., 2003. Hydromechanical coupling in geologic processes. Hydrogeol. J. 11,
+                                                                                                41–83.
+Abdi, H., 2007. The Bonferonni and Sidak Corrections for Multiple Comparisons. Sage,        Popova, O., Small, M., McCoy, S., Thomas, A., Karimi, B., Goodman, A., Carter, K., 2012.
+    Thousand Oaks, CA.                                                                          Comparative analysis of carbon dioxide storage resource assessment method-
+Bachu, S., Bonijoy, D., Bradshaw, J., Burruss, R., Holloway, S., Christensen, N.P., Math-       ologies. Environ. Geosci. 19, 105–124.
+    iassen, O.M., 2007. CO2 storage capacity estimation: methodology and gaps. Int.         R-Project, 2008. A Language and Environment for Statistical Computing. R Foun-
+    J. Greenhouse Gas Control 1, 430–443.                                                       dation for Statistical Computing. R Development Core Team, Vienna, Austria
+Battistelli, A., Calore, C., Pruess, K., 1997. The simulator Tough2/EWASG for modeling          http://www.r-project.org/
+    geothermal reservoirs with brines and non-condensible gas. Geothermics 26               Radoslaw, T., Barbara, U.-M., Adam, W., 2009. CO(2) storage capacity of deep aquifers
+    (TOUGH2), 437–464.                                                                          and hydrocarbon ﬁelds in Poland - EU GeoCapacity Project results. Energy Pro-
+Blondes, M.S., Brennan, S.T., Merrill, M.D., Buursink, M.L., Warwick, P.D., Cahan, S.M.,        cedia 1, 2671–2677.
+    Cook, T.A., Corum, M.D., Craddock, W.H., DeVera, C.A., Drake, R.M., Drew, L.J.,         Schlumberger, 2012. Oilﬁeld Glossary. http://www.glossary.oilﬁeld.slb.com/
+    Freeman, P.A., Lohr, C.D., Olea, R.A., Roberts-Ashby, T.L., Slucher, E.R., Varela,      Szulczewski, M., Juanes, R., 2009. A simple but rigorous model for calculating CO2
+    B.A., 2013. National Assessment of Geologic Carbon Dioxide Storage Resources                storage capacity in deep saline aquifers at the basin scale. Energy Procedia 1,
+    – Methodology Implementation. U. S. Geological Survey., pp. 1–35, Open File                 3307–3314.
+    Report 1055.                                                                            Szulczewski, M.L., MacMinn, C.W., Herzog, H.J., Juanes, R., 2012. Lifetime of carbon
+Bradshaw, B., Spencer, L., Lahtinen, A., Khider, K., Ryan, D., Colwell, J., Chirinos,           capture and storage as a climate-change mitigation technology. Proc. Natl. Acad.
+    A., Bradshaw, J., Draper, J., Hodgkinson, J., McKillop, M., 2011. An Assessment             Sci. U.S.A. 109, 5185–5189.
+    of Queensland’s CO2 Geological Storage Prospectivity – The Queensland CO2               Takahashi, T., Ohsumi, T., Nakayama, K., Koide, K., Miida, H., 2009. Estimation of
+    Geological Storage Atlas.                                                                   CO(2) Aquifer Storage Potential in Japan. Energy Procedia 1, 2631–2638.
+Bradshaw, J., Bachu, S., Bonijoy, D., Burruss, R., Holloway, S., Christensen, N.P., Math-   US-DOE-NETL, 2007. Carbon Sequestration Atlas of the United States and Canada.
+    iassen, O.M., 2007. CO2 storage capacity estimation: issues and development of              U.S. Deparment of Energy – National Energy Technology Laboratory – Ofﬁce of
+    standards. Int. J. Greenhouse Gas Control 1, 62–68.                                         Fossil Energy http://www.netl.doe.gov/technologies/carbon seq/refshelf/atlas/
+Brennan, S.T., Burruss, R.C., Merrill, M.D., Freeman, P.A., Ruppert, L.F., 2010. A Proba-   US-DOE-NETL, 2008. Carbon Sequestration Atlas of the United State and
+    bilistic Assessment Methodology for the Evaluation of Geologic Carbon Dioxide               Canada, 2nd ed. U.S. Deparment of Energy – National Energy Technology
+    Storage. U. S. Geological Survey., pp. 1–39, Open File Report 1127.                         Laboratory – Ofﬁce of Fossil Energy http://www.netl.doe.gov/technologies/
+CSLF, 2008. In: Bachu, S. (Ed.), Comparison between Methodologies Recommended                   carbon seq/refshelf/atlas/
+    for Estimation of CO2 Storage Capacity in Geological Media. Carbon Sequestra-           US-DOE-NETL, 2010a. Carbon Sequestration Atlas of the United State and
+    tion Leadership Forum (CSLF).                                                               Canada, 3rd ed. U.S. Deparment of Energy – National Energy Technology
+CSLF, 2010. Carbon Sequestration Leadership Forum. http://www.cslforum.org/                     Laboratory – Ofﬁce of Fossil Energy http://www.netl.doe.gov/technologies/
+Domenico, P.A., Schwartz, F.W., 1998. Physical and Chemical Hydrogeology, 2nd ed.               carbon seq/refshelf/atlas/
+    John Wiley & Sons.                                                                      US-DOE-NETL, 2010b. Site Screening, Selection and Characterization for Storage
+Dooley, J.J., 2011. Valuing national and basin level geologic CO2 storage capacity              of CO2 in Deep Geologic Formations. United State Department of Energy:
+    assessments in a broader context. Int. J. Greenhouse Gas Control 5, 117–178.                National Energy Technology Laboratory http://www.netl.doe.gov/technologies/
+Economides, M.J., Ehlig-Economides, C.A., 2009. Sequestering carbon dioxide in a                carbon seq/refshelf/BPM-SiteScreening.pdf
+    closed underground volume. SPE 124430, 1–9.                                             US-DOE-NETL, 2012. The United States 2012 Carbon Utilization and Storage
+EPA, 2010. Safe Drinking Water Act, Ofﬁce of Ground Water & Drinking Water.                     Atlas, 4th ed. U.S. Deparment of Energy – National Energy Technology
+    http://www.epa.gov/safewater/sdwa                                                           Laboratory – Ofﬁce of Fossil Energy http://www.netl.doe.gov/technologies/
+Fjar, E., Holt, R.M., Horsrud, P., Raaen, A.M., 1991. Petroleum Related Rock Mechanics.         carbon seq/refshelf/atlas/
+    Elsevier, Amsterdam.                                                                    van der Meer, L.G.H.B., Yavuz, F., 2009. CO2 storage capacity calculations for the
+IEA-GHG, 2009. Development of Storage Coefﬁcients for CO2 Storage in Deep Saline                Dutch subsurface. Energy Proc. 1, 2615–2622.
+    Formations, IEA Greeen house Gas R&D Programme (IEA-GHG), Report Number                 Zhou, Q., Birkholzer, J.T., Tsang, C.-F., Rutqvist, J., 2008. A method for quick assess-
+    2009/13.                                                                                    ment of CO2 storage capacity in closed and semi-closed saline formation. Int. J.
+Goodman, A., Bromhal, G., Strazisar, B., Rodosta, T., Guthrie, G., 2013. Comparison of          Greenhouse Gas Control 2, 626–639.
+    Publicly Available Methods for Development of Geologic Storage Estimates for

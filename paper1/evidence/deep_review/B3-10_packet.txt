@@ -1,0 +1,228 @@
+Optimization of liquefaction cycles applied to CO2 coming from onshore pipeline to offshore ship transportation
+
+PHYSICAL_PAGE 6
+A. Costa, L. Dubois, D. Thomas et al.                                                                                              Carbon Capture Science & Technology 13 (2024) 100280
+
+
+                  Table 4
+                  Capital cost variable of components (∗ : Fp = 1 for P < 5 barg).
+
+                    Equipment Type                K1        K2           K3              B1          B2           FBM         C1            C2            C3
+
+                    Compressors Centrifugal       2.2897    1.3604       −0.1027         –           –            2.7         –             –             –
+                    Floating head HX              4.8306    −0.8509      0.3187          1.63        1.66∗        –           0.03881       −0.11272      0.08183
+                    Turbines                      2.2476    1.4965       −0.1618         –           –            1           –             –             –
+                    Vertical towers and vessels   3.4974    0.4485       0.1074          2.25        1.82         –           –             –             –
+
+
+
+
+    The cooling water temperature rise is a parameter that is often ne-                       Table 5
+glected and ﬁxed. However, it inﬂuences the outlet temperature of the                         Base case assumptions for OPEX.
+cooling water, which is directly related to the liquefaction temperature                       Parameter                                     Value
+of the refrigerant ﬂuid (closed and hybrid cycles) and CO2 (open cycle).
+                                                                                               Utility Cost (𝐶𝑈 𝑇 )                          Electricity: 100 €/MWh
+When its value is increased, the ﬂow rate of cooling water decreases, re-
+                                                                                                                                             Cooling water: 0.3 €/m3
+ducing the load on cooling towers or air condensers, but the liquefaction                      Operating Labor Cost (COL )                   54,000 €/labor/year (Chauvy et al., 2020)
+pressure increases, resulting in greater compressor consumption.                               Direct supervisory and clerical labor         0.18 COL
+    In the presence of impurities, vapor-liquid equilibria appear between                      Maintenance and repairs                       0.06 CAPEX
+                                                                                               Operating supplies                            0.15 (0.06 CAPEX)
+the compounds, resulting in a loss of CO2 in the purge streams that reject
+                                                                                               Laboratory charges                            0.15 COL
+most of the non-condensable gases. In this study, this loss is quantiﬁed                       Patents and royalties                         0.03 OPEX
+by the ﬁnal recovery rate of the liquefaction process:                                         Local taxes and insurance                     0.032 CAPEX
+                                                                                               Plant overhead costs                          0.6 (1.18 COL + 0.06 CAPEX)
+               𝑚𝐶𝑂2 𝑜𝑢𝑡                                                                        Administration costs                          0.15 (1.18 COL + 0.06 CAPEX)
+𝑅𝑒𝑐𝑜𝑣𝑒𝑟𝑦 =                                                                     (1)
+                𝑚𝐶𝑂2 𝑖𝑛                                                                        Distribution and selling costs                0.11 OPEX
+                                                                                               Research and development                      0.05 OPEX
+where 𝑚𝐶𝑂2 is the CO2 mass ﬂowrate (tCO2 /h) at inlet (𝑖𝑛) and outlet
+(𝑜𝑢𝑡) of the liquefaction unit.
+                                                                                                       [             ]
+                                                                                              𝐶𝐵𝑀 = 𝐶𝑝0 𝐵1 + 𝐵2 𝐹𝑃 𝐹𝑀 = 𝐶𝑝0 𝐹𝐵𝑀                                                     (5)
+2.2. Energy analysis
+                                                                                              log10 𝐹𝑝,ℎ𝑥 = 𝐶1 + 𝐶2 log10 (𝑃 ) + 𝐶3 [log10 (𝑃 )]2                                   (6)
+    The analysis of energy, in accordance with the ﬁrst law of thermo-                                           𝑃 𝐷
+                                                                                                             2 𝑆𝑡 𝐸−1.2 𝑃
+                                                                                                                          + 𝐶𝐴
+dynamics, primarily examines the energy quantity associated with a                            𝐹𝑝,𝑣𝑒𝑠𝑠𝑒𝑙 =                                                                           (7)
+                                                                                                                      𝑡𝑚𝑖𝑛
+process, disregarding losses. The Key Performance Indicator (KPI) com-
+monly employed to demonstrate system eﬃciency is the electrical con-                          where 𝐶𝑝0 represents the purchased equipment cost at ambient operating
+sumption per ton of CO2 . In a liquefaction unit, the predominant energy                      pressure using carbon steel construction, 𝑆 is the size of the equipment,
+requirement arises from electrical consumption, mainly driven by the                          𝐹𝑀 is the material factor (assumed as 1 for carbon steel), 𝐹𝑃 is the pres-
+compressors. Turbines give negative electrical consumption as a gener-                        sure factor, 𝑃 is the pressure (bar), D is the diameter (m), 𝑡𝑚𝑖𝑛 is the
+ation of electricity.                                                                         minimum allowable vessel thickness (6,3.10-3 m), 𝐶𝐴 is the corrosion
+                                                                                              allowance (3,15.10-3 m), 𝐸 is the weld eﬃciency (0.9), 𝑆𝑡 is the allow-
+                 𝑊𝐶 +𝑊𝑇                                                                       able stress for carbon steel (944 bar) and 𝐵𝑖 , 𝐶𝑖 and 𝐾𝑖 are constants.
+𝐸𝑐𝑜𝑛𝑠𝑢𝑚𝑝𝑡𝑖𝑜𝑛 =                                                                 (2)
+                  𝑚𝐶𝑂2 𝑜𝑢𝑡                                                                        For the distillation column using Mellapack 250Y, the costs for pack-
+                                                                                              ing, distributor, distributor support, chimney tray collector, and packing
+where 𝐸𝑐𝑜𝑛𝑠𝑢𝑚𝑝𝑡𝑖𝑜𝑛 is the electrical consumption of the process
+                                                                                              support grid and auxiliaries (cladding, distributor, connections, ladders,
+(kWh/tCO2 ), 𝑊𝐶 is the compressor mechanical power rate (kW), 𝑊𝑇
+                                                                                              platforms and handrails, etc.) are calculate with Wang et al. (Wang et al.,
+is the turbine mechanical power rate (kW).
+                                                                                              2015) correlations.
+                                                                                                  The contingency cost is subject to variation based on the reliability
+2.3. Economic analysis                                                                        of cost data and the completeness of the available process ﬂowsheet.
+                                                                                              It serves as a safeguard against oversights and inaccurate information
+    The methodology for calculating Capital Expenditures (CAPEX) and                          and is integrated into the cost assessment. Unless speciﬁed otherwise,
+Operational Expenditures (OPEX) of a process is based on (Turton et al.,                      contingency costs and fees are assumed to be 15 % and 3 % of the bare
+2018). The Chemical Engineering Plant Cost Index (CEPCI) serves as an                         module cost, respectively. The summation of these costs with the bare
+indicator to account for inﬂation in equipment and services costs re-                         module cost yields the total module cost.
+lated to the chemical process industries. The following formula, derived                          Operational Expenditures (OPEX) can be determined using a range
+from the CEPCI, is employed for adjusting the actual cost (𝐶𝑎𝑐𝑡𝑢𝑎𝑙 ) to a                     of known or estimated costs outlined in Table 5. These costs encompass
+reference year (𝐶𝑟𝑒𝑓 𝑒𝑟𝑒𝑛𝑐𝑒 ):                                                                CAPEX, operating labor cost, and utility cost.
+                      (             )                                                             The OPEX is expressed by the equation:
+                         𝐼𝑎𝑐𝑡𝑢𝑎𝑙
+𝐶𝑎𝑐𝑡𝑢𝑎𝑙 = 𝐶𝑟𝑒𝑓 𝑒𝑟𝑒𝑛𝑐𝑒                                                 (3)                                       (     )
+                        𝐼𝑟𝑒𝑓 𝑒𝑟𝑒𝑛𝑐𝑒                                                           𝑂𝑃 𝐸𝑋 = 1.235 𝐶𝑈 𝑇 + 2.735 𝐶𝑂𝐿 + 0.180 𝐶𝐴𝑃 𝐸𝑋                           (8)
+where C represents the cost (€), and I is the index (-) with the subscripts                       Given that the CAPEX represents the overall plant cost, it is spread
+‘actual’ and ‘reference’ indicating their respective values. Costs are com-                   out over the plant’s lifespan, typically considered as 25 years. Finally,
+puted using the CEPCI of 2022, valued at 816.2 (Maxwell, 2022).                               the CAPEX is annualized by factoring with an inﬂation rate using the
+    Economic analysis involves estimating CAPEX, which is calculated                          following equation:
+based on purchased equipment cost (𝐶𝑝0 ), bare module cost (𝐶𝐵𝑀 )                                                              𝑖(1 + 𝑖)𝑛
+encompassing direct and indirect costs, contingency costs, and fees.                          𝐶 𝐴𝑃 𝐸𝑋𝑎 = 𝐶 𝐴𝑃 𝐸𝑋                                                                    (9)
+                                                                                                                             (1 + 𝑖)𝑛 − 1
+Eqs. (4)-(7) are utilized for CAPEX calculation, with parameters detailed
+                                                                                              where 𝐶𝐴𝑃 𝐸𝑋𝑎 denotes the annuity cost (€), 𝑖 is the inﬂation rate
+in Table 4.
+                                                                                              (6.5%) (Chauvy et al., 2020) and 𝑛 is the number of years of annuity
+log10 𝐶𝑝0 = 𝐾1 + 𝐾2 log10 (𝑆) + 𝐾3 [log10 (𝑆)]2                                (4)            interest.
+
+                                                                                     6
+
+
+PHYSICAL_PAGE 10
+A. Costa, L. Dubois, D. Thomas et al.                                                                                  Carbon Capture Science & Technology 13 (2024) 100280
+
+
+                                                                                           minima occur at 70 and 72 bar, respectively. They are closely tied to the
+                                                                                           overall process recovery, which escalates with pressure but encounters
+                                                                                           diﬃculty in attaining the 90 % mark. This variance in recovery com-
+                                                                                           pared to the closed cycle is attributed to the interplay of interactions
+                                                                                           between nitrogen and carbon dioxide. In this scenario, the liquefaction
+                                                                                           temperature rises, and despite the heightened compression, the vapor
+                                                                                           mixture contains a greater concentration of CO2 than in a colder mix-
+                                                                                           ture. In terms of exergy eﬃciency, the peak is reached at 78 bar with an
+                                                                                           approximate recovery rate of 85 %.
+                                                                                               The outcomes from the hybrid cycle analysis (Fig. 13) indicate a
+                                                                                           correlation between consumption and recovery rate. Speciﬁcally, an in-
+                                                                                           crease in recovery is accompanied by an increase in consumption. When
+                                                                                           pressure is varied at a constant temperature, there’s a slight increase
+                                                                                           in electrical consumption but a notable enhancement in recovery. Con-
+                                                                                           versely, raising the temperature results in both higher electrical con-
+                                                                                           sumption and increased recovery. Notably, at a temperature of −48 °C,
+                                                                                           exergy eﬃciency reaches its peak for a pressure of 18 bar, with the op-
+                                                                                           timum eﬃciency attained at a recovery rate of 99.25 % for an electrical
+                                                                                           consumption of 47.1 kWh/tCO2 .
+                                                                                               The ﬁndings from the preceding analyses underscore that both the
+                                                                                           closed cycle and the hybrid cycle stand out as the most promising ap-
+                                                                                           proaches for mitigating CO2 losses in purge streams. The hybrid cycle
+                                                                                           not only exhibits slightly lower energy consumption compared to the
+                                                                                           closed cycle across various instances of pure CO2 , but also demonstrates
+                                                                                           superior performance in scenarios involving CO2 with impurities. More-
+                                                                                           over, in cases where the outlet CO2 pressure is constrained to 7 bar to
+                                                                                           prevent dry ice formation, there exists a remarkably narrow tempera-
+                                                                                           ture range (−54 to −50 °C), due to liquefaction temperature of CO2 at
+                                                                                           this pressure. However, the introduction of a second degree of freedom
+Fig. 10. Impact of the electricity price variation on liquefaction cost for several
+                                                                                           through variations in liquefaction pressure enables the manipulation of
+cycle.
+                                                                                           variables, thereby widening the maneuvering zone. This facilitates the
+                                                                                           reduction of consumption while simultaneously ensuring eﬀective man-
+tem’s compression ratio. The second most inﬂuential parameter is the                       agement of CO2 losses.
+isentropic eﬃciency of the compressors, with a variation of 5 to 6 %                           Nevertheless, the simulations were conducted as for pure CO2 , con-
+compared to the baseline scenario for a 5 % change of the isentropic                       sidering complete liquefaction for the intermediate stage of both the
+compressor eﬃciency. Eﬃciency directly aﬀects the power consump-                           closed and hybrid cycles. To increase the degrees of freedom in the pro-
+tion of the compressors.                                                                   cess, heat exchangers HX2 for both cycles and HX4 for the closed cycle
+                                                                                           were added to the variables of the objective function, minimizing the
+3.3. CO2 with impurities case studies                                                      electrical consumption of the process.
+                                                                                               The results from the optimized hybrid cycle (Fig. 14), where partial
+    The impurities contained in the CO2 modify the dew point of the                        liquefaction takes place at the intermediate stage in the HX2 heat ex-
+ﬂuid, requiring more signiﬁcant refrigeration of the ﬂuid to achieve suf-                  changer, consistently demonstrate lower consumption and consequently
+ﬁcient CO2 liquefaction. However, the triple point of CO2 is at −56.6 °C.                  higher exergy eﬃciency compared to scenarios where the stream under-
+The formation of dry ice inside a heat exchanger would seriously dam-                      goes complete liquefaction at the intermediate stage. In this instance, the
+age it. Therefore, a limit of −54 °C is set to ensure that no dry ice forms                optimal exergetic point (−48 °C and 18 bar) stands at 33.5 kWh/tCO2 ,
+in the process. In the closed cycle, the liquefaction temperature of heat                  representing nearly a 30 % reduction of energy consumption compared
+exchanger HX6 is varied to obtain liquid CO2 while reducing the amount                     to full liquefaction at the intermediate stage. The liquid fraction ﬂuctu-
+of CO2 leaving with the non-condensable gases. In the open cycle, the                      ates between 75 % and 90 %, with a tendency to increase at lower ﬁxed
+variable is the pressure of compressor C1, which allows for complete                       temperatures for the last stage liquefaction. Pressure exerts a minimal
+liquefaction of the stream with the cooling water. Finally, in the hybrid                  inﬂuence on the variation of this intermediate liquid fraction. Notably,
+cycle, both pressure and temperature are variables that are adjusted re-                   the maximum exergy eﬃciency is altered and peaks at 79.65 % in this
+spectively at turbine T3 and heat exchanger HX4, providing an addi-                        scenario, occurring at −38 °C and 18 bar. At this stage, the recovery
+tional degree of freedom compared to the two previous processes.                           rate reaches 97.60 %, accompanied by a cost of 8.63 €/tCO2 , which cor-
+                                                                                           responds to a consumption rate of 28.9 kWh/tCO2 .
+3.3.1. Case 1: CO2 ﬂow containing 2 % of N2
+    The results of the closed cycle considering a variation of liquefaction
+temperature (Fig. 11) show a decrease in energy consumption directly                       3.3.2. Case 2: CO2 ﬂow containing maximal gas pipeline impurities
+related to the installation cost. The recovery, expressing the inverse of                      This scenario corresponds to the most stringent speciﬁcations accept-
+CO2 loss, decreases with increasing temperature while remaining signif-                    able, expected water, in the pipeline resumed in Table 1. Comparing
+icantly high (>98 %). Exergy eﬃciency exhibits a maximum at −52 °C,                        the results obtained with CO2 with 2 % nitrogen for the hybrid cycle,
+corresponding to the optimal utilization of energy relative to the amount                  a slight overall increase in consumption can be observed (Fig. 15). The
+of recovered and liqueﬁed CO2 .                                                            maximum exergy eﬃciency is 74.8 % and occurs at −40 °C and 20 bar.
+    Fig. 12 demonstrates the outcomes of the open cycle concerning esca-                   The liquefaction cost for this point is 9.35 €/tCO2 for a consumption of
+lating compressor pressure ranging from 64 to 82 bar before undergoing                     32.5 kWh/tCO2 with a recovery of 95.5 %. Compared to 2 % nitrogen,
+liquefaction via cooling water. As the compressor pressure rises, both                     the recovery is lower by 2 %, but overall, the price per ton of CO2 is
+electrical consumption and liquefaction cost exhibit a minimum. These                      slightly increased with 0.7 €.
+
+                                                                                      10
+
+
+PHYSICAL_PAGE 14
+A. Costa, L. Dubois, D. Thomas et al.                                                                                  Carbon Capture Science & Technology 13 (2024) 100280
+
+
+
+
+                                        Fig. 17. Evolution of total cost as a function of CO2 recovery and carbon tax for both case.
+
+
+
+                                                                                         4. Conclusion
+
+                                                                                             Based on the comprehensive analysis conducted on the carbon cap-
+                                                                                         ture, transport and storage, several key insights emerge regarding the
+                                                                                         optimal strategies and conﬁgurations for minimizing energy consump-
+                                                                                         tion and avoiding CO2 losses.
+                                                                                             The sensitivity study on cooling water temperature rise revealed a
+                                                                                         delicate balance between temperature increase and ﬂow rate, with an
+                                                                                         optimal 7 °C rise for the closed cycle and 5 °C for the open cycle. This
+                                                                                         optimization minimizes liquefaction costs while considering electrical
+                                                                                         consumption and operational expenses.
+                                                                                             In the simulation of pure CO2 processes, it was observed that diﬀer-
+                                                                                         ent cycles exhibit comparable electrical consumption, with variations
+                                                                                         inﬂuenced by cooling water temperatures and inlet pressures. Notably,
+                                                                                         the open cycle demonstrated superiority at lower cooling water temper-
+                                                                                         atures, while refrigerants like ammonia proved advantageous, particu-
+                                                                                         larly as temperatures increased.
+                                                                                             When considering CO2 with impurities, adjustments in liquefaction
+                                                                                         parameters are essential to prevent dry ice formation and optimize CO2
+                                                                                         recovery. The closed cycle exhibited decreased energy consumption
+                                                                                         with higher liquefaction temperatures, whereas the open cycle’s perfor-
+                                                                                         mance was aﬀected by compressor pressure variations. The hybrid cy-
+                                                                                         cle emerged as a promising solution, oﬀering lower energy consumption
+Fig. 18. CO2 avoided as a function of CO2 recovery for the case 2 with
+                                                                                         and improved CO2 recovery compared to both closed and open cycles.
+distillation. (Emissions factor (from (Coppitters et al., 2023)) of electricity
+                                                                                         By introducing additional degrees of freedom, such as adjustments in
+(kgCO2e / kWh): Wind = 0.011; European Network of Transmission System Op-
+                                                                                         both temperature and pressure, the hybrid cycle enables precise control
+erators (ENTSO-E) = 0.399; Natural gas = 0.450; Coal = 1.000).
+                                                                                         over variables, leading to enhanced eﬃciency and reduced CO2 losses.
+                                                                                             Overall, the hybrid cycle standing out as a versatile and eﬃcient
+    The Fig. 18 illustrates the CO2 avoided in function of the CO2 recov-                solution for addressing the complexities of CO2 puriﬁcation and lique-
+ery for diﬀerent energy sources. It can be noted that at 98 % recovery,                  faction from pipeline. These insights contribute to advancing the de-
+for ENTSO-E and natural gas, 2 % of CO2 are lost, while for coal, a little               velopment of sustainable practices in carbon capture, furthering eﬀorts
+more than 4 % of CO2 are lost. A more signiﬁcant change in the slope                     towards mitigating climate change.
+can be observed beyond 97.5 % recovery. These observations show that                         To meet the speciﬁcations for transportation by ship, it is necessary
+the source of electricity has a considerable impact on the carbon bal-                   to add a distillation column to the liquefaction process. The impurities
+ance of the CCUS chain. However, in the case of a scenario involving                     and the column entail an additional consumption compared to a pure
+transport by ship, it is important not to overlook the emissions related                 CO2 case, almost doubling from 21.8 kWh/tCO2 to 40.9 kWh/tCO2 for a
+to fuel consumption, which are negligible in the context of transport                    recovery of 98.1 %. Regarding the cost of the liquefaction, it is between
+by pipeline. The global CO2 emissions of the full CCUS chain must be                     7 and 14 €/tCO2 depending on the impurities present in the CO2 . In com-
+considered to assess the real impact of the CCUS solution.                               parison to the other part of the CCS chain, this cost represents between
+
+                                                                                    14

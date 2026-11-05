@@ -1,0 +1,296 @@
+Beyond pipelines Multi-modal CO2 transport enables timely CO2 capture, transport, and storage deployment
+
+PHYSICAL_PAGE 3
+J. Burger et al.                                                                                        International Journal of Greenhouse Gas Control 154 (2026) 104698
+
+
+2. Methods                                                                          the penalty variable 𝐸𝑦𝑝𝑒𝑛 for missed emission targets (see Eqs. (1) and
+                                                                                    (6)). The variable allows quantifying the gap between feasible CO2
+2.1. Modeling framework                                                             sequestration and policy goals when infrastructure is constrained.
+                                                                                        The modeled CCTS system comprises three distinct parts: capture,
+    We minimize the net present cost (Eq. (1)) of expanding and operat-             transport, and storage of CO2 . On the capture side, the emitters produce
+ing the CCTS infrastructure using the energy system optimization tool               a flue gas which, when leaving the system, causes greenhouse gas
+ZEN-garden. The tool can model the spatial and temporal deployment                  emissions. To abate industrial emissions, the CO2 can be separated
+of technologies within a system transition. In the following, we give a             from the flue gas via capture units. Compression or liquefaction pre-
+brief overview of the cost calculations and emissions accounting. We                pares the CO2 for transport, depending on the requirements of the
+refer to the ZEN-garden documentation for details on mass balance,                  subsequent transport mode. We assume identical impurity requirements
+operational, and other constraints (Mannhardt et al., 2025; Reliability             for all transport modes and, therefore, do not explicitly model the
+and Risk Engineering lab, 2025).                                                    purification step. The transport part consists of a range of onshore
+     ∑       (                                                      )               and offshore transport modes: onshore connections based on trucks,
+ min    𝐷𝐹𝑦 𝐶𝐴𝑃 𝐸𝑋𝑦𝑎𝑛𝑛 + 𝑂𝑃 𝐸𝑋𝑦𝑡𝑒𝑐ℎ + 𝑂𝑃 𝐸𝑋𝑦𝑐𝑎𝑟𝑟𝑖𝑒𝑟 + 𝑐 𝑝𝑒𝑛 ⋅ 𝐸𝑦𝑝𝑒𝑛   (1)
+                                                                                    trains, and barges require liquefied CO2 , whereas onshore pipelines
+     𝑦∈
+                                                                                    use compressed supercritical CO2 . For offshore transport, two transport
+    All future annualized investment (𝐶𝐴𝑃 𝐸𝑋𝑦𝑎𝑛𝑛 ) and operating                    modes are included: offshore pipelines, which transport supercritical
+(𝑂𝑃 𝐸𝑋𝑦 ) cash flows are discounted with the discount factor 𝐷𝐹𝑦 to the             CO2 , and maritime ships, which require liquid CO2 (Oeuvray et al.,
+initial planning period 𝑦0 in the optimization horizon . The invest-               2024; IPCC, 2005).
+ment costs are annualized over the technologies’ lifetime (Reliability                  Unitary pipeline costs decrease with increasing transport capacity,
+and Risk Engineering lab, 2025). The optimization horizon  comprises               as pipeline construction costs depend primarily on distance (Oeuvray
+the planning periods 𝑦 which have an interval of dy years between
+                                                                                    et al., 2024; IPCC, 2005). The dependence on distance leads to poor
+them. The interval is considered in computing the discount factor
+                                                                                    representation of the resulting expenses when capital expenditures
+(Eq. (2)). The term 𝑐 𝑝𝑒𝑛 ⋅ 𝐸𝑦𝑝𝑒𝑛 represents a penalty cost for missing
+                                                                                    (CAPEX) are linearly scaled with capacity, as is common in linear
+emission goals, such as annual emission limits, emission budgets, or
+                                                                                    energy system models (Bröchin et al., 2024). A more accurate repre-
+CO2 sequestration goals. The penalty cost 𝑐 𝑝𝑒𝑛 is set high enough such
+                                                                                    sentation requires the introduction of binary variables to approximate
+that penalty emissions 𝐸𝑦𝑝𝑒𝑛 are only produced by the optimization to
+                                                                                    the non-linear behavior of CAPEX, following standard practice in CCTS
+avoid infeasible solutions.
+                                                                                    literature (d’Amore and Bezzo, 2017; d’Amore et al., 2019; Bennæs
+        ⎧∑          ( )dy(𝑦−𝑦0 )+𝑖
+                      1                                                             et al., 2024; Middleton et al., 2020). We follow this approach and use a
+        ⎪ 𝑖∈[0,dy−1] 1+𝑟             if 𝑦 < max(),
+𝐷𝐹𝑦 = ⎨( )dy(max()−𝑦0 )                                             (2)            mixed integer linear program to optimize the transition pathway. The
+        ⎪ 1                          otherwise.                                     binary variables 𝑔𝑗,𝑒,𝑦 represent the decision to install a pipeline on an
+        ⎩  1+𝑟
+                                                                                    edge 𝑒 ∈  in investment period 𝑦 ∈ . The CAPEX of on- and offshore
+   Main outputs of the transition pathway optimization are the total                pipelines is calculated as:
+built capacities 𝑆ℎ,𝑝,𝑦 of the technologies ℎ. For any given location 𝑝
+and planning period 𝑦, the total capacity 𝑆ℎ,𝑝,𝑦 of technology ℎ is the             𝐶𝐴𝑃 𝐸𝑋𝑗,𝑒,𝑦 = 𝑔𝑗,𝑒,𝑦 ⋅ 𝑑𝑗,𝑒 ⋅ 𝐶𝐴𝑃 𝐸𝑋𝑗𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒 + 𝛥𝑆𝑗,𝑒,𝑦 ⋅ 𝐶𝐴𝑃 𝐸𝑋𝑗𝑐𝑎𝑝𝑎𝑐𝑖𝑡𝑦
+sum of previous capacity additions 𝛥𝑆ℎ,𝑝,𝑦 that have not yet reached                                   ∀𝑗 ∈ {onshore pipeline, offshore pipeline}.                   (7)
+their lifetime 𝑙ℎ . Both the total capacity 𝑆ℎ,𝑝,𝑦 and the capacity additions
+𝛥𝑆ℎ,𝑝,𝑦 are limited to 𝑠𝑚𝑎𝑥
+                          ℎ,𝑝,𝑦
+                                and 𝛥𝑠𝑚𝑎𝑥
+                                      ℎ,𝑝,𝑦
+                                            , respectively:                             Unlike the other transport technologies, the CAPEX of pipelines
+                                                                                    depends on both the capacity addition 𝛥𝑆𝑗,𝑒,𝑦 and the distance 𝑑𝑗,𝑒 , with
+                   ∑
+                   𝑦
+𝑆ℎ,𝑝,𝑦 =                        𝛥𝑆ℎ,𝑝,𝑦̃                                 (3)        parameters 𝐶𝐴𝑃 𝐸𝑋𝑗𝑐𝑎𝑝𝑎𝑐𝑖𝑡𝑦 and 𝐶𝐴𝑃 𝐸𝑋𝑗𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒 , respectively (Becattini
+                (      ⌈ ⌉ )                                                        et al., 2022). The result is a linear investment cost curve with an offset
+                        𝑙
+           𝑦=max
+           ̃     𝑦0 ,𝑦− 𝑑ℎ +1
+                        𝑦                                                           due to 𝑔𝑗,𝑒,𝑦 ⋅ 𝑑𝑗,𝑒 ⋅ 𝐶𝐴𝑃 𝐸𝑋𝑗𝑑𝑖𝑠𝑡𝑎𝑛𝑐𝑒 , approximating the economies of scale
+0 ≤ 𝑆ℎ,𝑝,𝑦 ≤ 𝑠max                                                        (4)        while keeping the computational complexity low.
+              ℎ,𝑝,𝑦
+                                                                                        The last part of the CCTS chain is the permanent geological CO2
+0 ≤ 𝛥𝑆ℎ,𝑝,𝑦 ≤ 𝛥𝑠max
+                ℎ,𝑝,𝑦                                                    (5)        storage, which is modeled as a CO2 sink at the storage sites. In the
+                                                                                    model, CO2 capture, transport, and permanent storage at a sink pre-
+    In this study, capacity limits are required for non-pipeline transport
+modes, as size limitations are a disadvantage compared to pipelines.                vents the release of industrial flue gases and, thus, reduces overall
+The driver for building the CCTS infrastructure in our model is a                   emissions. Due to large uncertainty in the cost data and the study
+minimum target for sequestering CO2 . Sequestered CO2 is often a                    focusing on the transport part, storage sites are assumed to be service
+direct component of countries’ climate strategies, and can be directly              providers in the presented model and incur only operational costs and
+implemented without additional assumptions, e.g., on how to allocate                emissions, without explicit investment costs. All storage sites have a
+emission budgets:                                                                   maximum total and annual CO2 storage capacity.
+        ∑                        CO −𝑠𝑡𝑜𝑟𝑒𝑑
+𝐸𝑦𝑝𝑒𝑛 +     𝑈 CO2 −𝑠𝑡𝑜𝑟𝑒𝑑,𝑛,𝑦 ≥ 𝑒𝑦 2        .                          (6)          2.2. Modeling speed of pipeline construction
+           𝑛
+    The minimum sequestration target sets a lower bound for storing
+       CO −𝑠𝑡𝑜𝑟𝑒𝑑
+CO2 (𝑒𝑦 2         ) for each planning period 𝑦. The model enforces the                  To model the limited speed and difficulty of constructing new
+lower bound at the storage sites, where the stored CO2 leaves the                   transport technologies 𝑗 ∈  , we include temporal diffusion limits
+system boundary. The amount of CO2 exiting the system 𝑈 CO2 −𝑠𝑡𝑜𝑟𝑒𝑑,𝑛,𝑦             based on the formulation by Leibowicz et al. (2016). Their formulation
+is summed over all nodes 𝑛. The approach accounts for direct CO2 losses             assumes that infrastructure investments are implicitly aggregated over
+within the supply chain, as these reduce the total amount reaching the              a spatial region, as is common in energy system models. As the study
+storage sites. The model includes life-cycle emission factors for energy            focuses on the transport sector, the respective constraints are included
+inputs and technology installation and operation (Burger et al., 2024;              only for the transport technologies 𝑗 ∈  and edges. The diffusion limit
+Nöhl et al., 2025). However, life-cycle emissions of the CCTS chains                sets an upper bound on the capacity addition 𝛥𝑆𝑗,𝑒,𝑦 for each transport
+are excluded from the CO2 balance in Eq. (6). Policy goals generally                technology 𝑗 on each edge 𝑒 ∈  per year 𝑦 (Leibowicz et al., 2016):
+only include direct emissions in their sequestration targets, which is                        (              )
+                                                                                    𝛥𝑆𝑗,𝑒,𝑦 ≤ (1 + 𝜗𝑗 )dy − 1 𝐾𝑗,𝑒,𝑦 + dy 𝜁𝑗 .                            (8)
+well approximated by our approach. The sequestration target includes
+
+                                                                                3
+
+
+PHYSICAL_PAGE 6
+J. Burger et al.                                                                                                          International Journal of Greenhouse Gas Control 154 (2026) 104698
+
+
+Table 1
+Transport cost parameters for the different transport modes. Some parameters scale per distance 𝑑 and are specific for each edge. The size of a CO2 transport
+connection is measured in tons of CO2 per year (tpy). Details on transport cost calculations can be found in Section A.5 and in the ZEN-garden documentation
+(Reliability and Risk Engineering lab, 2025).
+ Transport mode          CAPEX                                                 OPEX                                                   Source
+                                        ( € )                      ( € )                ( € )                    (        €    )
+                         Per capacity    ktpy
+                                                    Per distance    km
+                                                                               Fixed     ktpy
+                                                                                                      Variable       kt CO2 km
+
+ Pipeline onshore        1000                       100 000                    0                      8                               Becattini et al. (2022)
+ Pipeline offshore       1710                       171 000                    0                      13.68                           d’Amore et al. (2021a) and Becattini et al. (2022)
+ Ship                    9⋅𝑑                        0                          0                      60                              Becattini et al. (2022)
+ Barge                   17 ⋅ 𝑑                     0                          0                      60                              Becattini et al. (2022)
+ Train                   8⋅𝑑                        0                          30 000                 160                             Becattini et al. (2022)
+ Truck                   4⋅𝑑                        0                          44 300                 480                             Becattini et al. (2022)
+
+
+ Table 2                                                                                        that the realistic growth of CCTS capacity is unlikely to exceed, and
+ Diffusion parameters used in scenarios 2–4 and the sensitivity analysis.                       most likely falls well below 40 %. Nemet et al. (2023) report even
+ Results for the capacity- and the distance-based diffusion limits are in the                   lower values for the growth of historical technologies between 1.1 and
+ Supplementary Information.                                                                     14.3 %. In scenarios 2–4, we assume growth rates of 12 %, aligning
+   Parameter                            Scenarios   Sensitivity    Unit                         with historically observed diffusion rates (Nemet et al., 2023). We
+                                           2–4       analysis
+                                                                                                use a value from the upper end of the range due to the substantially
+   Technology diffusion rate                12        0–50         %
+                                                                                                higher estimations of necessary CCTS deployment by Kazlou et al.
+               ⎧ capacity                  n/a      0.02–3.9       Mt CO2 ∕year
+   Pioneering ⎪                                                                                 (2024). To address the uncertainty, we conduct a sensitivity analysis to
+                   distance                n/a      15–300         km
+   addition of ⎨
+               ⎪ capacity-distance         160       8–620         Mt CO2 km∕year               investigate combinations of the diffusion rate and pioneering capacity
+               ⎩
+                                                                                                addition parameters that make CCTS deployment too slow to meet
+   Knowledge depreciation                       0       0          %
+                                                                                                climate targets. In scenarios 2–4, pipelines require a minimum flow of
+                                                                                                60 % of their maximum capacity to avoid unrealistically large unused
+                                                                                                capacities (Wang et al., 2014).
+the emissions have to be compensated and the time-dependent cost of                                 The resulting mixed-integer linear program is solved with Gurobi
+installing and operating direct air capture (Sievert et al., 2024).                             13.0 (Gurobi Optimization, LLC, 2026). We conclude the optimization
+    Two main parameters determine the speed with which the pipeline                             with an optimality gap of 1 % or after 24 h, which results in optimality
+network can grow: the pioneering capacity addition 𝜁 and the technol-                           gaps of up to 1.9 %. The model size reaches 300’000 continuous and
+ogy diffusion rate 𝜗 (Eq. (13)). While scenarios 2–4 assume a standard                          8300 binary variables.
+value for the diffusion speed, a subsequent sensitivity analysis of both
+parameters shows their influence on the results. The diffusion speed                            4. Results
+parameters correspond to phases within the scale-up of a new industry.
+According to Kazlou et al. (2024), the number of announced projects                             4.1. Unconstrained deployment
+and their success rate determine the diffusion speed in the earliest
+phase, called the formative phase. The stable growth rate controls                                  The unconstrained deployment scenario serves as a benchmark
+the subsequent acceleration and growth phases (Kazlou et al., 2024).                            for the constrained technology diffusion. In this scenario, pipeline
+Although our model does not explicitly distinguish between the dif-                             capacities can be expanded without limitations based on previously
+ferent phases, we can translate these terms into the two parameters                             built capacities. While we account for a construction time, this merely
+determining the deployment speed: The pioneering capacity addition                              translates into a delay at the start of the optimization horizon.
+corresponds to the realized projects within the formative phase and                                 In the unconstrained case, the optimal network layout (Fig. 2)
+their size. The realized projects need to consider both announcements                           utilizes a large backbone pipeline to connect Switzerland to storage lo-
+of projects and their success rates. Whether and how many projects                              cations in the North Sea. The cross-border backbone pipeline is installed
+succeed can only be assessed relatively late before the expected start                          early on and subsequently expands within Switzerland. Two branches
+of operation. In 2025, no large CO2 pipelines operate in Europe, and                            of larger pipelines collect the CO2 from smaller feeder pipelines that
+projects are only announced, based on which we can estimate the                                 connect the individual emitters. By 2050, almost all considered emitters
+pioneering capacity addition. The size of currently announced new CO2                           feed their CO2 into the network comprising 843 km of onshore cross-
+pipeline projects in Europe (see Fig. 4 and Supplementary Information                           border backbone pipelines, 1700 km of offshore pipelines, and an
+Table 4) is used as a reference (Clean Air Task Force, 2024b). Based on                         additional 945 km of domestic pipelines. The final layout and pipeline
+these projects, pioneering capacity addition values range from 55 to                            distances align closely with a previous official study for a Swiss pipeline
+around 3700 Mt CO2 km∕year. Historical success rates in CCTS projects                           layout based on exact corridors (Saipem, 2020), with the total length
+have been reported to range from 20 % (Abdulla et al., 2021) up to                              differing by less than 10 %.
+50 % (Martin-Roberts et al., 2021). Based on historical success rates,                              The pipeline capacities built in the unconstrained case exactly meet
+we assume 40 % of projects to be realized and multiply this success                             the sequestration targets, as few constraints restrict the planning and
+rate by the median size (in capacity, distance, and capacity-distance)                          construction of CCTS infrastructure. The transport network consists
+of announced pipeline projects (Table 2).                                                       solely of pipelines, as the cost minimization exploits the economies of
+    Similarly, the growth rate is difficult to estimate before stable                           scale of pipelines and plans far enough ahead (Fig. 3a). The optimiza-
+growth actually materializes (Nemet et al., 2023), as projections for                           tion model can meet the demand for CO2 transportation by rapidly
+growth of other technologies have shown: Historical estimations un-                             expanding pipeline infrastructure. The network expands from no ex-
+derestimated the take-off speed of photovoltaics, but also overesti-                            isting pipelines to 915 km within 3 years, which may be unrealistic for
+mated the growth of nuclear power generation (Hoekstra, 2017; IAEA,                             CO2 transport (Neele et al., 2011; d’Amore and Bezzo, 2017).
+1975; World Nuclear Association, 2025). Even the deployment of CCTS                                 To avoid repeated pipeline expansions and benefit from low costs
+systems has already been overestimated, with one report estimating                              per tonne of CO2 transported, pipelines are built to their final required
+large-scale facilities with a combined annual capture capacity of 1                             size in the first time step. However, the resulting large transport capac-
+GtCO2 operational by 2025 (IEA, 2009). Kazlou et al. (2024) estimate                            ities lead to unrealistically low pipeline utilization rates in the early
+
+                                                                                          6
+
+
+PHYSICAL_PAGE 12
+J. Burger et al.                                                                                                           International Journal of Greenhouse Gas Control 154 (2026) 104698
+
+
+Frattini, Linda, Becattini, Viola, Mazzotti, Marco, 2024. Main current legal and                    Morbee, Joris, Serpa, Joana, Tzimas, Evangelos, 2012. Optimised deployment of a
+    regulatory frameworks for carbon dioxide capture, transport, and storage in the                     European CO2 transport network. Int. J. Greenh. Gas Control. 7 (2012), 48–61.
+    European Economic Area. Int. J. Greenh. Gas Control. 136, 104172. http://dx.doi.                    http://dx.doi.org/10.1016/j.ijggc.2011.11.011.
+    org/10.1016/j.ijggc.2024.104172.                                                                Neele, Filip, Koenen, Mariëlle, Van Deurzen, Jeroen, Seebregts, Ad, Groenen-
+Gabrielli, Paolo, Campos, Jordi, Becattini, Viola, Mazzotti, Marco, Sansavini, Giovanni,                berg, Heleen, Thielemann, Thomas, 2011. Large-scale CCS transport and storage
+    2022. Optimization and assessment of carbon capture, transport and storage supply                   networks in North-west and Central Europe. In: Energy Procedia. Vol. 4, pp.
+    chains for industrial sectors: The cost of resilience. Int. J. Greenh. Gas Control. 121,            2740–2747. http://dx.doi.org/10.1016/j.egypro.2011.02.176.
+    103797. http://dx.doi.org/10.1016/j.ijggc.2022.103797.                                          Negri, Valentina, Galán-Martín, Ángel, Pozo, Carlos, Fajardy, Mathilde,
+George, Violet, 2023. Summit carbon solutions postpones CO2 pipeline until 2026. Car-                   Reiner, David M., Mac Dowell, Niall, Guillén-Gosálbez, Gonzalo, 2021. Life
+    bon Her. URL: https://carbonherald.com/summit-carbon-solutions-postpones-co2-                       cycle optimization of BECCS supply chains in the European Union. Appl. Energy
+    pipeline-until-2026/.                                                                               298 (February), 117252. http://dx.doi.org/10.1016/j.apenergy.2021.117252.
+George, Violet, 2025. Summit considers leaving North Dakota out of carbon pipeline                  Nemet, Gregory, Greene, Jenna, Müller-Hansen, Finn, Minx, Jan C., 2023. Dataset on
+    route. URL: https://carbonherald.com/summit-considers-leaving-north-dakota-out-                     the adoption of historical technologies informs the scale-up of emerging carbon
+    of-carbon-pipeline-route/ (Visited 14 October 2025),                                                dioxide removal measures. Commun. Earth & Environ. 4 (1), 397. http://dx.doi.
+Global CCS Institute, 2025. Global Status of CCS 2025. Tech. Rep., Global CCS                           org/10.1038/s43247-023-01056-1.
+    Institute, URL: https://www.globalccsinstitute.com/wp-content/uploads/2025/10/                  Nöhl, Julian, Burger, Johannes, Oeuvray, Pauline, Becattini, Viola, Seiler, Jan,
+    Global-Status-of-CCS-2025-report-9-October.pdf.                                                     Shu, David Y., Mazzotti, Marco, Bardow, André, 2025. How to transport carbon
+Gough, Clair, O’Keefe, Laura, Mander, Sarah, 2014. Public perceptions of CO2 trans-                     dioxide with minimal environmental impacts today and tomorrow? A prospective
+    portation in pipelines. Energy Policy 70, 106–114. http://dx.doi.org/10.1016/j.                     life cycle assessment. J. Clean. Prod. 514, 145659. http://dx.doi.org/10.1016/j.
+    enpol.2014.03.039.                                                                                  jclepro.2025.145659.
+Grubb, Michael, Jordan, Nino David, Hertwich, Edgar, Neuhoff, Karsten, Das, Kasturi,                Noothout, Paul, Wiersma, Frank, Hurtado, Omar, Macdonald, Doug, Kemper, Jasmin,
+    Bandyopadhyay, Kaushik Ranjan, Van Asselt, Harro, Sato, Misato, Wang, Ranran,                       Van Alphen, Klaas, 2014. CO2 pipeline infrastructure – lessons learnt. In: Energy
+    Pizer, William A., Oh, Hyungna, 2022. Carbon leakage, consumption, and trade.                       Procedia. Vol. 63, Austin, TX, USA, pp. 2481–2492. http://dx.doi.org/10.1016/j.
+    Annu. Rev. Environ. Resour. 47 (1), 753–795. http://dx.doi.org/10.1146/annurev-                     egypro.2014.11.271.
+    environ-120820-053625.                                                                          Northern Lights JV DA, 2024a. Liquid CO2 Quality Specifications. URL:
+Gurobi Optimization, LLC, 2026. Gurobi Optimizer reference manual. URL: https:                          https://safety4sea.com/wp-content/uploads/2024/03/Northern-Lights-GS-co2-
+    //www.gurobi.com.                                                                                   2024_03.pdf (Visited 30 October 2025).
+Heidelberg Materials, 2025. The world’s first carbon captured net-zero cement. URL:                 Northern Lights JV DA, 2024b. Northern Lights’ first CO2 transport ship ready for
+    https://www.evozero.com/ (Visited 14 July 2025).                                                    delivery. URL: https://norlights.com/news/northern-lights-first-co2-transport-ship-
+Hoekstra, Auke, 2017. Photovoltaic growth: reality versus projections of the                            ready-for-delivery/ (Visited 16 July 2025).
+    International Energy Agency – with 2018 update (by Auke Hoekstra). URL:                         Oeuvray, Pauline, Burger, Johannes, Roussanaly, Simon, Mazzotti, Marco, Becattini, Vi-
+    https://maartensteinbuch.com/2017/06/12/photovoltaic-growth-reality-versus-                         ola, 2024. Multi-criteria assessment of inland and offshore carbon dioxide transport
+    projections-of-the-international-energy-agency/ (Visited 13 November 2025).                         options. J. Clean. Prod. 443, 140781. http://dx.doi.org/10.1016/j.jclepro.2024.
+Holm, Sigmund Eggen, Winther, Martin Saue, Straus, Julian, Roussanaly, Simon, 2025.                     140781.
+    How to best transport CO2 to offshore storages? Carbon Capture Sci. Technol. 15,                Peletiri, Suoton P., Rahmanian, Nejat, Mujtaba, Iqbal M., 2018. CO2 pipeline design:
+    100416. http://dx.doi.org/10.1016/j.ccst.2025.100416.                                               A review. Energies 11 (9), 2184. http://dx.doi.org/10.3390/en11092184.
+Homaei, Shamim, Anantharaman, Rahul, Backe, Stian, Roussanaly, Simon, Tomas-                        Pérez-Calvo, José-Francisco, Mazzotti, Marco, 2022. Techno-economic assessment of
+    gard, Asgeir, 2026. High-capture-rate carbon capture and storage enables cost-                      post-combustion CO2 capture using aqueous piperazine at different flue gas
+    effective decarbonization of Europe’s power sector. Commun. Sustain. 1 (1), 34.                     compositions and flowrates via a general optimization methodology. Int. J. Greenh.
+    http://dx.doi.org/10.1038/s44458-026-00036-8.                                                       Gas Control. 114, 103587. http://dx.doi.org/10.1016/j.ijggc.2022.103587.
+IAEA, 1975. Annual Report. Tech. Rep., International Atomic Energy Agency (IAEA),
+                                                                                                    Reliability and Risk Engineering lab, 2025. ZEN-garden Documentation. URL: https:
+    Austria, URL: https://www.iaea.org/sites/default/files/gc/gc19-544_en.pdf (Visited
+                                                                                                        //zen-garden.readthedocs.io/en/latest/index.html (Visited 23 December 2025).
+    13 November 2025).
+                                                                                                    Saipem, 2020. CO2NET Grobes Design und Kostenschätzung für ein CO2 Sammel-
+IEA, 2009. Technology Roadmap - Carbon Capture and Storage. Tech. Rep., In-
+                                                                                                        Netzwerk in der Schweiz. Tech. Rep., URL: https://www.aramis.admin.ch/Default?
+    ternational Energy Agency (IEA), URL: https://iea.blob.core.windows.net/assets/
+                                                                                                        DocumentID=67550 (Visited 13 November 2025).
+    6fb1a978-4fa3-4ab0-8ef4-7d18cc9c1880/CCSRoadmap2009.pdf.
+                                                                                                    Sievert, Katrin, Schmidt, Tobias S., Steffen, Bjarne, 2024. Considering technology
+IEA, 2021. Net Zero by 2050 - A Roadmap for the Global Energy Sector. Tech. Rep.,
+                                                                                                        characteristics to project future costs of direct air capture. Joule 8 (4), 979–999.
+    International Energy Agency (IEA).
+                                                                                                        http://dx.doi.org/10.1016/j.joule.2024.02.005.
+IPCC, 2005. IPCC Special Report on Carbon Dioxide Capture and Storage. Prepared by
+                                                                                                    Sievert, Katrin, Stefanescu, Alexandru Stefan, Oeuvray, Pauline, Steffen, Bjarne, 2025.
+    Working Group III of the Intergovernmental Panel on Climate Change. Tech. Rep.
+                                                                                                        The impact of financing structures on the cost of carbon dioxide transport. Energy
+IPCC, 2022. Climate Change 2022: Mitigation of Climate Change. Contribution of
+                                                                                                        Econ. 143, 108253. http://dx.doi.org/10.1016/j.eneco.2025.108253.
+    Working Group III to the Sixth Assessment Report of the Intergovernmental Panel
+                                                                                                    Stewart, R.J., Scott, V., Haszeldine, R.S., Ainger, D., Argent, S., 2014. The feasibility of
+    on Climate Change. Tech. Rep., Intergovernmental Panel on Climate Change,
+                                                                                                        a European-wide integrated CO 2 transport network. Greenh. Gases: Sci. Technol.
+    Cambridge, UK.
+                                                                                                        4 (4), 481–494. http://dx.doi.org/10.1002/ghg.1410.
+Kazlou, Tsimafei, Cherp, Aleh, Jewell, Jessica, 2024. Feasible deployment of carbon
+                                                                                                    Swiss Federal Office for the Environment FOEN, 2024. Schadstoffregister SwissPRTR.
+    capture and storage and the requirements of climate targets. Nat. Clim. Chang. 14
+                                                                                                        URL:      https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/zustand/
+    (10), 1047–1055. http://dx.doi.org/10.1038/s41558-024-02104-0.
+                                                                                                        schadstoffregister-swissprtr.html (Visited 16 February 2024).
+Lane, Joe, Greig, Chris, Garnett, Andrew, 2021. Uncertain storage prospects create a
+                                                                                                    Wang, Z., Fimbres Weihs, G.A., Cardenas, G.I., Wiley, D.E., 2014. Optimal pipeline
+    conundrum for carbon capture and storage ambitions. Nat. Clim. Chang. 11 (11),
+                                                                                                        design for CCS projects with anticipated increasing CO2 flow rates. Int. J. Greenh.
+    925–936. http://dx.doi.org/10.1038/s41558-021-01175-7.
+Leibowicz, Benjamin D., Krey, Volker, Grubler, Arnulf, 2016. Representing spatial                       Gas Control. 31, 165–174. http://dx.doi.org/10.1016/j.ijggc.2014.10.010.
+    technology diffusion in an energy system optimization model. Technol. Forecast.                 Wei, Yi-Ming, Kang, Jia-Ning, Liu, Lan-Cui, Li, Qi, Wang, Peng-Tao, Hou, Juan-Juan,
+    Soc. Change 103, 350–363. http://dx.doi.org/10.1016/j.techfore.2015.06.001.                         Liang, Qiao-Mei, Liao, Hua, Huang, Shi-Feng, Yu, Biying, 2021. A proposed global
+Levina, Ellina, Gerrits, Bruno, Blanchard, Mathilde, 2023. CCS in Europe - Regional                     layout of carbon capture and storage in line with a 2 ◦ C climate target. Nat. Clim.
+    Overview. Tech. Rep., Global CCS Institute.                                                         Chang. 11 (2), 112–118. http://dx.doi.org/10.1038/s41558-020-00960-0.
+Mannhardt, Jacob, Gabrielli, Paolo, Sansavini, Giovanni, 2024. Understanding the                    World Nuclear Association, 2025. Global Nuclear Performance. URL: https://world-
+    vicious cycle of myopic foresight and constrained technology deployment in                          nuclear.org/our-association/publications/world-nuclear-performance-report/global-
+    transforming the European energy system. IScience 27 (12), 111369. http://dx.                       nuclear-industry-performance (Visited 13 November 2025).
+    doi.org/10.1016/j.isci.2024.111369.                                                             Yeates, Christopher, Abdelshafy, Ali, Schmidt-Hattenberger, Cornelia, Walther, Grit,
+Mannhardt, Jacob, Ganter, Alissa, Burger, Johannes, De Marco, Francesco, Kunz, Lukas,                   2024. Industrial CO2 transport in Germany: Comparison of pipeline routing
+    Schmidt-Engelbertz, Lukas, Gabrielli, Paolo, Sansavini, Giovanni, 2025. ZEN-garden:                 scenarios. Int. J. Greenh. Gas Control. 137, 104225. http://dx.doi.org/10.1016/
+    Optimizing energy transition pathways with user-oriented data handling. SoftwareX                   j.ijggc.2024.104225.
+    29, 102059. http://dx.doi.org/10.1016/j.softx.2025.102059.                                      ZEP, 2020. A Trans-European CO2 Transportation Infrastructure for CCUS: Opportuni-
+Martin-Roberts, Emma, Scott, Vivian, Flude, Stephanie, Johnson, Gareth, Haszel-                         ties & Challenges. Tech. Rep., Zero Emissions Platform (ZEP).
+    dine, R. Stuart, Gilfillan, Stuart, 2021. Carbon capture and storage at the end of              ZEP, 2025. Designing Europe’s CO2 Market and Infrastructure. Tech. Rep., Zero
+    a lost decade. One Earth 4 (11), 1569–1584. http://dx.doi.org/10.1016/j.oneear.                     Emissions Platform (ZEP).
+    2021.10.002.
+Middleton, Richard S., Yaw, Sean P., Hoover, Brendan A., Ellett, Kevin M., 2020.
+    SimCCS: An open-source tool for optimizing CO2 capture, transport, and storage
+    infrastructure. Environ. Model. Softw. 124 (October 2019), 104560. http://dx.doi.
+    org/10.1016/j.envsoft.2019.104560.
+
+
+                                                                                               12

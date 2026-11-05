@@ -45,6 +45,23 @@ def render():
  labels={'NGCC_CANSOLV_90__NO_2025_climate':'NGCC90 make-up; Norway climate disclosure','NGCC_CANSOLV_90__JP_R8_fallback':'NGCC90 make-up; Japan reporting fallback','PC_REPORT_CANSOLV_90__JP_R8_fallback':'PC90 heat + auxiliaries; Japan reporting fallbacks'}
  inventory=table(['Utility reference (distinct accounting scopes)','Higher route (km)','Additional captured (Mt)','Additional IMO-default marine WtW (MtCO₂e)','Remaining allowance (Mt)'],[
   [labels[x['utility_scenario']],x['higher_distance_km'],f"{float(x['additional_captured_t'])/1e6:.3f}",f"{float(x['additional_marine_default_wtw_tco2e'])/1e6:.3f}",f"{float(x['remaining_uninventoried_allowance_t'])/1e6:+.3f}"] for x in reference_rows if x['model_case']=='99pct_design_control' and x['higher_distance_km'] in ['5000','10000'] and x['utility_scenario'] in labels])
+ case_summary=json.loads((ROOT/'outputs/case_evidence_summary.json').read_text());case_calc={x['result_id']:x for x in read('outputs/case_evidence_calculations.csv')}
+ cases=table(['Evidence/check','Located result','Interpretation'],[
+  ['Historical injection table','45 monthly records;180 monthly/cumulative cells','Achieved rounded history, not maximum service'],
+  ['Shut-in/fall-off records','17 test windows;9 interpreted effective-property cases','Open final duration and distinct rate versions preserved'],
+  ['Hydrostatic correction span',f"{float(case_calc['TOMA_hydrostatic_correction_span']['value']):.2f} kPa",'Sensor/datum component check; no forecast validation'],
+  ['Case2 capacity labels','P90/P50/P10:1.47/4.70/7.93 Mt','Published conditional simulations; no adopted probabilities'],
+  ['Northern Lights appendix sum',f"{float(case_calc['NL_sum_printed_appendix']['value'])/1e6:.6f} MtCO2e",'Numeric entries only; headline3.32Mt remains distinct']])
+ storage=table(['Higher route (km)','Previous partial margin (kt)','Added selected storage reference (kt)','Margin after proxy (kt)'],[
+  [x['higher_distance_km'],f"{float(x['previous_partial_allowance_t'])/1000:+.2f}",f"{float(x['additional_selected_storage_proxy_tco2e'])/1000:.2f}",f"{float(x['remaining_allowance_after_proxy_t'])/1000:+.2f}"] for x in read('outputs/northern_lights_storage_proxy_comparisons.csv') if x['higher_distance_km'] in ['5000','10000'] and x['utility_scenario']=='NGCC_CANSOLV_90__NO_2025_climate'])
+ mixed=table(['Long route (km)','Short reservoir group','Mode','Annual plan (Mt)','Operating injection (Mt)','Partial component score (Mt)'],[
+  [x['higher_distance_km'],'r1–r4' if x['partition']=='first_four_short' else 'r5–r8',x['mode'],f"{float(x['planned_injection_t'])/1e6:.3f}",f"{float(x['injected_t'])/1e6:.3f}",f"{float(x['partial_component_score_t'])/1e6:.3f}"] for x in read('outputs/mixed_operational_comparisons.csv') if x['dispatch_policy']=='index' and x['added_vessels_per_route']=='1'])
+ dc=read('outputs/dispatch_policy_controls.csv');dispatch_rows=[]
+ for x in dc:
+  if x['dispatch_policy']!='index':continue
+  alt=[next(z for z in dc if z['storage_proxy']==x['storage_proxy'] and z['distance_km']==x['distance_km'] and z['dispatch_policy']==policy) for policy in ['earliest_window_end','least_active_hours']]
+  dispatch_rows.append([x['storage_proxy'],x['distance_km'],x['fleet'],f"{float(x['injected_t'])/1e6:.3f}"]+[f"{float(z['difference_from_default_t'])/1000:+.2f}" for z in alt])
+ dispatch=table(['Service','Route (km)','Fleet','Index injection (Mt)','Earliest-window Δ (kt)','Least-active Δ (kt)'],dispatch_rows)
  text=(ROOT/'manuscript/Paper_1_draft.template.md').read_text();ids=sorted(set(re.findall(r'B[1-4]-\d\d',text)),key=lambda s:tuple(map(int,s[1:].split('-'))))
  refs=[]
  for sid in ids:
@@ -53,7 +70,8 @@ def render():
   ident=x['doi'];link=('https://doi.org/'+ident) if ident.startswith('10.') else '../'+x['pdf_path']
   refs.append(f"- **[{sid}]** {x['author_year']+'. ' if x['author_year'] else ''}{x['title']}. [{ident}]({link}). [Retained PDF](../{x['pdf_path']}).")
  refs.append('- **[B4-06-S1]** Budiarto et al. (2025). Supplementary materials: Tables S1–S3 and Figures S1–S10. [Retained DOCX](../original/supplements/43979_2025_135_MOESM1_ESM.docx). Parent publication DOI 10.1007/s43979-025-00135-w.')
- manifests={x['batch_id']:x for i in [5,6] for x in json.loads((ROOT/f'data/dataset{i}_manifest.json').read_text())}
+ refs.append('- **[EOS]** Span, R. and Wagner, W. (1996). A New Equation of State for Carbon Dioxide Covering the Fluid Region from the Triple-Point Temperature to 1100 K at Pressures up to 800 MPa. Journal of Physical and Chemical Reference Data 25, 1509–1596. [DOI 10.1063/1.555991](https://doi.org/10.1063/1.555991). Equation implemented in CoolProp 8.0.0; software metadata records EOS key Span-JPCRD-1996. This reference calculation is additional to the supplied-PDF corpus.')
+ manifests={x['batch_id']:x for i in [5,6,7] for x in json.loads((ROOT/f'data/dataset{i}_manifest.json').read_text())}
  reference_titles={
   'D5-01':'Norwegian electricity disclosure. Electricity sales in Norway with and without guarantees of origin, 2025 (138 TWh). Supplied Excel export; volumes recovered from native XML.',
   'D5-02':'NVE. Electricity-disclosure factor workbook: climate and market declarations, 2019–2025. Supplied Excel file.',
@@ -64,10 +82,22 @@ def render():
   'D5-50':'US DOE/NETL. Public PC Carbon Capture Retrofit Database, March 2023. Supplied macro workbook; reference caches only.',
   'D5-54':'International Maritime Organization (2024). Resolution MEPC.391(81): 2024 Guidelines on Life Cycle GHG Intensity of Marine Fuels. Supplied official PDF.',
   'D6-22':'Leetaru, Brown, Lee, Senel and Couëslan (2012). CO₂ Injectivity, Storage Capacity, Plume Size, and Reservoir and Seal Integrity of the Ordovician St. Peter Sandstone and the Cambrian Potosi Formation in the Illinois Basin. DOE/FE0002068-1, issued 30 May 2012. Supplied simulation report.'}
- for sid in sorted(set(re.findall(r'D[56]-\d\d',text))):
+ reference_titles.update({
+  'D7-01':'Supplied Japanese GHG additional-information export. ENEOS references; entity mismatch with Nippon Steel metadata remains unresolved.',
+  'D7-03':'Japan GHG reporting disclosure. Supplied company category/year emissions export,2009–2023. Nippon Steel identity per separately supplied metadata.',
+  'D7-04':'Japan GHG reporting disclosure. Supplied company metadata identifying Nippon Steel, specified-emitter code985336900.',
+  'D7-06':'Japan GHG reporting disclosure. Supplied specified-facility list with reporting-year labels,2021–2023.',
+  'D7-07':'World Bank. Supplied Container Port Performance Index Excel data annex, with2020–2025 indices and2025 port statistics.',
+  'D7-10':'Mitsubishi Shipbuilding Co., Ltd. (2024). Liquefied CO2 Carrier EXCOOL. Mitsubishi Heavy Industries Technical Review61(2), June2024.',
+  'D7-15':'Gentile, Cauchois, Ålund and Renzi. Carbon footprint of the Northern Lights JV CO2 transport and storage value chain. Carbon Limits/Northern Lights JV; prospective assessment describing status as of March2023.',
+  'D7-18':'Japan CCS Co., Ltd. Tomakomai large-scale CCUS demonstration, FY2019, Chapter5: Integrated reservoir evaluation. Supplied Japanese technical chapter.',
+  'D7-20':'Japan CCS Co., Ltd. Tomakomai large-scale CCUS demonstration, FY2024, Chapter3: CO2 injection/storage testing. Supplied Japanese technical chapter.',
+  'D7-22':'Japan CCS Co., Ltd. Tomakomai large-scale CCUS demonstration, FY2024, Chapter5: Integrated reservoir evaluation. Supplied Japanese technical chapter.',
+  'D7-25':'Japan CCS Co., Ltd. (2026). Tomakomai CCUS Demonstration Project information, October2026. Supplied English newsletter.'})
+ for sid in sorted(set(re.findall(r'D[567]-\d\d',text))):
   if sid not in reference_titles:raise ValueError(f'Missing reference description: {sid}')
   refs.append(f"- **[{sid}]** {reference_titles[sid]} [Retained original](../{manifests[sid]['path'].replace(' ','%20')}).")
- for key,val in {'REFERENCE_CAPTURE_TABLE':capture,'REFERENCE_INVENTORY_TABLE':inventory,'OPERATIONAL_COMPARISON_TABLE':operating,'OPERATIONAL_DESIGN_TABLE':fleetdesign,'OPERATIONAL_CONTROL_TABLE':controls,'SUPPLEMENT_PARAMETER_TABLE':parameter,'ANNUAL_REPLAY_TABLE':annual,'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
+ for key,val in {'MIXED_TABLE':mixed,'DISPATCH_TABLE':dispatch,'CASE_EVIDENCE_TABLE':cases,'STORAGE_PROXY_TABLE':storage,'REFERENCE_CAPTURE_TABLE':capture,'REFERENCE_INVENTORY_TABLE':inventory,'OPERATIONAL_COMPARISON_TABLE':operating,'OPERATIONAL_DESIGN_TABLE':fleetdesign,'OPERATIONAL_CONTROL_TABLE':controls,'SUPPLEMENT_PARAMETER_TABLE':parameter,'ANNUAL_REPLAY_TABLE':annual,'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
  if re.search(r'\{\{[A-Z_]+\}\}',text):raise ValueError('Unfilled manuscript token')
  out=ROOT/'manuscript/Paper_1_draft.md';out.write_text(text)
  subprocess.run(['pandoc',str(out),'--from=markdown','--standalone','--resource-path='+str(out.parent),'-o',str(out.with_suffix('.docx'))],check=True)

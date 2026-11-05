@@ -1,0 +1,206 @@
+Optimal well placement and brine extraction for pressure management during CO2 sequestration
+
+PHYSICAL_PAGE 2
+176                                    A. Cihan et al. / International Journal of Greenhouse Gas Control 42 (2015) 175–187
+
+
+Pumping, transportation, treatment and disposal of extracted brine                 optimal rate control parameters of wells, resulting in smooth and
+can be challenging and costly (Harto and Veil, 2011; Harto et al.,                 continuous objective functions (Montoglou et al., 2004; Bellout
+2011; Middleton et al., 2012; Sullivan et al., 2013a,b). Therefore,                et al., 2012), although examples of using derivative-based meth-
+minimizing the volume of extracted brine, while maximizing CO2                     ods with numerical reservoir models also exist in the literature for
+storage and meeting other constraints needed for safe and efﬁcient                 optimal well placement problems (e.g., Zandvliet et al., 2008; Zhang
+GCS operations, is an essential objective of the pressure manage-                  et al., 2010).
+ment with brine extraction schemes.                                                    The irregularity of objective functions due to complex reser-
+    To reduce the limitations of the brine extraction schemes with                 voir heterogeneity and geometry can easily cause derivative-based
+respect to the necessity of dealing with large volumes of extracted                method solutions to be stuck in a local minimum. In addi-
+brine, in an earlier work (Birkholzer et al., 2012), the concept                   tion to that, the discrete nature of grid-based numerical models
+of “impact-driven pressure management (IDPM)” was introduced                       for well locations and the presence of complex well control
+with the goal to limit pressure increases primarily where environ-                 parameters (time-dependent functions with multiple parameters
+mental impact is a concern, such as at a critically-stressed fault                 for injection/extraction/bottom-hole pressure control) make the
+and/or a leaky well ﬁeld. To design and optimize “impact-driven”                   derivative-free global optimization methods more suitable for solv-
+pressure management options, Birkholzer et al. (2012) employed a                   ing the coupled optimal well placement and rate control problems
+derivative-based optimization methodology coupling the iTOUGH2                     in application to GCS. However, global optimization methods such
+inverse-modeling framework (Finsterle, 2004; Finsterle and Zhang,                  as commonly used evolutionary algorithms require a large number
+2011) and an analytical solution for single-phase ﬂow in mul-                      of forward model runs to reach a global optimum. As a result par-
+tilayered aquifer systems (Cihan et al., 2011). The optimization                   allelization of the algorithms in the multi-processor computer or
+methodology was applied for brine extraction in response to a                      cluster environment is typically needed for solving larger reservoir
+hypothetical injection scenario nearby a critically-stressed fault in a            problems in a computationally efﬁcient manner (Guyagular et al.,
+multilayered aquifer system. Time-dependent pumping rates from                     2000; Bellout et al., 2012).
+a series of extraction wells at ﬁxed locations (either near to the                     This study, built upon our earlier work in Birkholzer et al. (2012),
+injection zone or close to a fault) were computed to keep pressure                 presents a global optimization methodology for pressure manage-
+buildup along the fault at or below a critical value for fault slip-               ment during geologic CO2 sequestration. A modiﬁed differential
+page, while minimizing the brine extraction ratio (brine extraction                evolution (DE) algorithm is introduced for solving constrained
+ratio is deﬁned as ratio of total volume of extracted brine divided by             global optimization problems involving well placement and brine
+the total volume of injected ﬂuid.). The results from this study sug-              extraction to control pressure increases during GCS. DE is a par-
+gest that optimization of brine extraction can allow for a signiﬁcant              allel direct search method that was originally developed by Storn
+reduction in the brine extraction volumes needed to keep pressure                  and Price (1995) and has been proven to be a very powerful evolu-
+increase in the storage formation below a given critical value. How-               tionary algorithm (Storn and Price, 1996) with good convergence
+ever, the placing of injection and extraction wells is not intuitive               properties, simplicity of use and understanding, and suitability for
+in real cases because of heterogeneity in reservoir properties and                 parallelization. Since the DE’s ﬁrst development, different variants
+complex reservoir geometry.                                                        have been proposed for accelerating its convergence rate (Price
+    The brine extraction schemes coupled with CO2 injection,                       et al., 2005), but the original method is in general applicable to
+which become particularly important for industrial-scale appli-                    unconstrained optimization problems. In this work, we have mod-
+cations, must involve optimal well placement and control of                        iﬁed the DE algorithm based on Deb (2000) to solve constrained
+injection/extraction rates in storage formations. Decisions on loca-               global optimization problems relevant to GCS projects.
+tions and operational rates of extraction wells can have substantial                   In the following, ﬁrst a formal description of the optimization
+inﬂuence on total volume of extracted brine required to meet pres-                 problem is given focusing on brine extraction for pressure manage-
+sure buildup-related constraints. Non-optimal well placements and                  ment during GCS. Then, the constrained differential evolution (CDE)
+pumping rates can cause unnecessarily high extraction volume of                    methodology is described and tested for a simple optimization
+brine and/or the pulling of CO2 into brine extraction wells. Efﬁ-                  problem whose optimal solution can be found with other opti-
+cient computerized algorithms combining reservoir models and                       mization methods. Finally, a more realistic application of the global
+optimization methods are needed to make proper decisions on well                   optimization methodology is presented for CO2 injection scenar-
+locations and control parameters. In this study, optimization algo-                ios in the Vedder Formation in the Southern San Joaquin Basin in
+rithms coupled with reservoir models are employed to minimize                      California, USA. Optimal placements of wells and selection of brine
+objective function (e.g., brine extraction ratio) by evaluating the                pumping rates are evaluated for different realizations of reser-
+outcome of reservoir models based on selections of well locations                  voir heterogeneity subject to maximum pressure buildup along the
+and injection/extraction rates.                                                    faults. Well locations and rates are also optimized under the con-
+    Many applications involving reservoir models with optimiza-                    straint that no CO2 is to be pulled into extraction wells. A numerical
+tion algorithms, both derivative-based and global algorithms, exist                vertically averaged two-phase ﬂow simulator is employed as the
+in the literature for solving practical subsurface problems related                forward model for the optimization calculations with the CDE.
+to hydrocarbon production (e.g., Guyagular et al., 2000; Yeten
+et al., 2003; Sarma and Chen, 2008; Wang et al., 2012), or ground-                 2. Problem description
+water production and groundwater remediation (e.g., Gorelick,
+1983; Ahlfeld and Heidari, 1994; Maskey et al., 2002; Montoglou                       The focus in this paper is on optimization of brine extraction for
+et al., 2004). Speciﬁcally for optimal well placement problems,                    controlling pressure locally in environmental impact zones (e.g.,
+due to complex reservoir geometry and heterogeneity in reser-                      faults, leaky abandoned well ﬁelds). Let the total volume of injected
+voir rock properties, objective functions tend to be highly irregular              CO2 be denoted by Vinj and the total volume of extracted ﬂuid by
+with multiple local optima in the parameter space (Bayer and                       Vext . The goal is to minimize the extraction ratio deﬁned by Vext /Vinj .
+Finkel, 2004; Humphries et al., 2013). Global optimization methods                 The optimization problem involving the objective function and the
+that involve derivative-free algorithms are generally preferred to                 constraints, respectively, can be formally expressed as
+solve optimization problems including optimal well placement. The
+derivative-based optimization algorithms (e.g., gradient projection                                            Vext
+                                                                                   Minimize          f (p) =                                             (1)
+method, sequential quadratic programming) are generally used for                                               Vinj
+
+
+PHYSICAL_PAGE 10
+184                                          A. Cihan et al. / International Journal of Greenhouse Gas Control 42 (2015) 175–187
+
+
+
+
+                                                                                           Fig. 9. Total brine extraction rates through extraction wells, optimized for each
+                                                                                           realization.
+
+
+                                                                                           zones around the injection zone and between the faults are more
+                                                                                           extensive relative to the other realizations. This causes stronger
+                                                                                           pressure buildup and thus requires the highest extraction ratio.
+                                                                                           Likewise, according to the contour maps of the log permeability
+                                                                                           for the generated heterogeneous ﬁelds (Fig. 10), the lowest extrac-
+                                                                                           tion ratio occurring in Realization 3 appears to correlate with the
+                                                                                           presence of relatively high permeability zones around the faults,
+                                                                                           especially on the east side where the injected CO2 ﬂows mainly in
+                                                                                           that direction. In Realizations 2 and 3, a single extraction well was
+                                                                                           sufﬁcient to achieve a minimum brine extraction ratio and to meet
+                                                                                           the constraints. The CDE algorithm gave zero production for the
+                                                                                           second extraction wells in those cases.
+                                                                                               Our earlier experiences showed that under homogeneous con-
+                                                                                           ditions without concerns of CO2 breakthrough in extraction wells,
+                                                                                           the minimum extraction ratios are generally achieved when the
+                                                                                           relative distance between the wells and the impact zones tend to
+Fig. 8. Evolution of maximum pressure buildup as a function of time along the three
+                                                                                           be at minimum. However, results from this study show that hetero-
+faults (a) without brine extraction and (b) with optimal brine extraction.                 geneity, reservoir geometry and slope that change the CO2 plume
+                                                                                           migration path and shape have a signiﬁcant effect on the selection
+                                                                                           of well locations (Fig. 10). High variability in the extraction ratios
+and successfully satisﬁed Constraints 1 and 2 for all the realizations                     among the different realizations (Table 4) indicates the importance
+(see Fig. 8b). Table 4 summarizes the optimization results for the                         of the heterogeneity and its characterization in a real CO2 stor-
+realizations. Estimated minimum extraction ratios range from 38%                           age project. The optimum locations of the extraction wells are also
+to 67%. Fig. 9 shows the estimated total extraction rates (from 1 or 2                     affected by the heterogeneity.
+wells) as a function of time. The highest extraction ratio occurs for
+Realization 1 with the extraction period extending about 5 years                           5. Discussion
+beyond the end of injection. This is consistent with our earlier sim-
+ulations without brine extraction where the lowest injection rate                             Optimization studies for real injection/extraction operations
+without threshold violation occurred for Realization 1 (Table 3).                          typically require evaluating optimal conditions for multiple real-
+From Fig. 7, qualitatively it can be seen that lower permeability                          izations of hydraulic properties, especially if data are very limited
+
+
+
+Table 4
+Optimal parameter values of the extraction wells for 5 Mt/yr injection and Pmax = 1 MPa.
+
+ Parameters                 R1                                   R2                                    R3                 R4                R5
+
+                            W1                 W2                W1                   W2               W1                 W1                W1                 W2
+
+ r (km)                       2.830             7.927              4.539               6.695             4.670              4.679             2.449              2.794
+  (deg)                    234.927            77.485            179.304              44.233           133.569            227.825           134.704            130.368
+ Q0 (m3 /s)                   0.064             0.115              0.014               0.095             0.121              0.171             0.032              0.128
+ b2 (yr)                      0.998             0.976              0.993               0.997             0.998              0.774             0.993              0.861
+ t0 (yr)                      1.116             0.053              1.016               2.753             6.328              0.000             6.852              4.434
+ t1 (yr)                     48.000            48.338             49.290              48.058            43.112             48.002            41.752             43.792
+ t2 (yr)                      0.834             4.840              1.579               0.697             0.290              0.956             0.675              1.295
+ Extraction ratio             0.0.672                              0.0.393                               0.0.380            0.0.654                              0.0.534
+
+
+PHYSICAL_PAGE 13
+                                                A. Cihan et al. / International Journal of Greenhouse Gas Control 42 (2015) 175–187                                             187
+
+
+    operations. 10th International Conference on Greenhouse Gas Control                     Pawar, R., Bromhal, G., Carroll, S., Chu, S., Dilmore, R., Gastelum, J., Oldenburg, C.,
+    Technologies, GHGT-10. Energy Procedia 4, 4221–4229.                                        Stauffer, P., Zhang, Y., Guthrie, G., 2014. Quantiﬁcation of key long-term risks at
+Court, B., Bandilla, K.W., Celia, M.A., Janzen, A., Dobossy, M., Nordbotten, J.M., 2012.        CO2 sequestration sites: latest results from US DOE’s National Risk Assessment
+    Applicability of vertical-equilibrium and sharp-interface assumptions in CO2                Partnership (NRAP) Project. Energy Procedia 63, 4816–4823.
+    sequestration modeling. Int. J. Greenhouse Gas Control 10, 134–147.                     Price, K., Storn, R., Lampinen, J., 2005. Differential Evolution: A Practical Approach
+Deb, K., 2000. An efﬁcient constraint handling method for genetic algorithms.                   to Global Optimization. Springer, Berlin, Germany.
+    Comput. Methods Appl. Mech. Eng. 186, 311–338.                                          Rudolph, G., 1996. Convergence of evolutionary algorithms in general search
+Deng, H., Stauffer, P.H., Dai, Z., Jaio, Z., Surdam, R.S., 2012b. Simulation of                 spaces. In: Proceedings of the third IEEE Conference on Evolutionary
+    industrial-scale CO2 storage: multi-scale heterogeneity and its impacts on                  Computation. IEEE Press, New York, NY, pp. 50–54.
+    storage capacity, injectivity and leakage. Int. J. Greenhouse Gas Control 10,           Sarma, P., Chen, W.H., 2008. Efﬁcient well placement optimization with
+    397–418.                                                                                    gradient-based algorithm and adjoint models. In: Proceedings of the SPE
+Dentz, M., Tartakovsky, D.M., 2009. Abrupt-interface solution for carbon dioxide                Intelligent Energy Conference and Exhibition (SPE 112257), Amsterdam, The
+    injection into porous media. Transp. Porous Media 79 (1), 15–27.                            Netherlands.
+Deutsch, C.V., Journel, A.G., 1998. GSLIB Geostatistical Software Library and User’s        Shamshiri, H., Jafarpour, B., 2012. Controlled CO2 injection into heterogeneous
+    Guide, second ed. Oxford Univ. Press, New York, NY, pp. 369.                                geologic formations for improved solubility and residual trapping. Water
+Finsterle, S., 2004. Multiphase inverse modeling: review and iTOUGH2                            Resour. Res. 48, W02530, http://dx.doi.org/10.1029/2011WR010455
+    applications. Vadose Zone J. 3, 747–762.                                                Spellucci, P., 1998. A new technique for inconsistent problems in the SQP method.
+Finsterle, S., Zhang, Y., 2011. Solving iTOUGH2 simulation and optimization                     Math. Method Oper. Res. 47, 355–500.
+    problems using the PEST protocol. Environ. Modell. Softw. 26, 959–968, http://          Storn, R., Price, K., 1996. Minimizing the real functions of the ICEC’96 contest by
+    dx.doi.org/10.1016/j.envsoft.2011.02.008                                                    differential evolution. In: Proceedings of IEEE International Conference on
+Gasda, S.E., Nilsen, H.M., Dahle, H.K., Gray, W.G., 2012. Effective models for CO2              Evolutionary Computation, pp. 842–844.
+    migration in geological systems with varying topography. Water Resour. Res.             Storn, R., Price, K., 1997. Differential evolution—a simple and efﬁcient heuristic
+    48, W10546, http://dx.doi.org/10.1029/2012WR012264                                          for global optimization over continuous spaces. J. Global Optim. 11,
+Gorelick, S.M., 1983. A review of distributed parameter groundwater management                  341–359.
+    modeling methods. Water Resour. Res. 19 (2), 305–319, http://dx.doi.org/10.             Storn, R., Price, K.V., 1995. Differential evolution: a simple and efﬁcient adaptive
+    1029/WR019i002p00305                                                                        scheme for global optimization over continuous spaces. In: Tech. Rep.
+Guo, B., Bandilla, K.W., Doster, F., Keilegavlen, E., Celia, M.A., 2014. A vertically           TR-95-012. Int. Comput. Sci. Instit., Berkeley, CA.
+    integrated model with vertical dynamics for CO2 storage. Water Resour. Res.             Sullivan, E.J., Chu, S.P., Stauffer, P.H., Middleton, R.S., Pawar, R.J., 2013a. A method
+    50, http://dx.doi.org/10.1002/2013WR015215                                                  and cost model for treatment of water extracted during geologic CO2 storage.
+Guyagular, B., Horne, R.H., Rogers, L., Rosenzweig, J.J., 2000. Optimization of well            Int. J. Greenhouse Gas Control 12, 372–381.
+    placement in a Gulf of Mexico waterﬂooding project. In: SPE Annual Technical            Sullivan, E.J., Chu, S.P., Stauffer, P.H., Pawar, R.J., 2013b. A CO2-PENS model of
+    Conference and Exhibition (SPE 63221), Dallas, Texas.                                       methods and costs for treatment of water extracted during geologic carbon
+Harto, C.B., Veil, J.A., 2011. Management of extracted water from carbon                        sequestration. Desalin. Water Treat. 51 (7–9), 1487–1493.
+    sequestration projects. In: Argonne National Laboratory Report,                         USGS, 2007. Petroleum systems and geologic assessment of oil and gas in the San
+    ANL/EVS/R-11/1, January 2011., pp. 38.                                                      Joaquin Basin Province. In: Scheirer, Allegra Hosford (Ed.), Professional Paper
+Harto, C.B., Veil, J.A., McNemar, A.T., 2011. Extracting water from carbon                      1713. U.S. Geological Survey, California.
+    sequestration projects: quantities, costs, and environmental considerations. In:        Van Genuchten, M.T., 1980. A closed form equation for predicting the hydraulic
+    Abstract from 10th Annual Conference on Carbon Capture & Sequestration,                     conductivity of unsaturated soils. Soil Sci. Soc. Am. J. 44, 892–898.
+    May 2–5, 2011, Pittsburgh, PA.                                                          Wainwright, H., Finsterle, S., Zhou, Q., Birkholzer, J.T., 2013. Modeling the
+Humphries, T.D., Haynes, R.D., James, L.A., 2013. Simultaneous and sequential                   Performance of large-scale CO2 storage systems: a comparison of different
+    approaches to joint optimization of well placement and control. Comput.                     sensitivity analysis methods. Int. J. Greenhouse Gas Control 17,
+    Geosci.,, http://dx.doi.org/10.1007/s10596-013-9375-x                                       189–205.
+Juanes, R., MacMinn, C.W., Szulczewski, M.L., 2010. The footprint of the CO2 plume          Wang, H., Ciaurri, D.E., Durlofsky, L.J., Corminelli, A., 2012. Optimal well placement
+    during carbon dioxide storage in saline aquifers: storage efﬁciency for capillary           under uncertainty using a retrospective optimization framework. SPE J. 5
+    trapping at the basin scale. Transp. Porous Media 82 (1), 19–30.                            (March (1)), 112–121.
+Leverett, M.C., 1941. Capillary behaviour in porous solids. Trans. AIME (142),              Wu, Y.-S., Huyakorn, P.S., Park, N.S., 1994. A vertical equilibrium model for
+    159–172.                                                                                    assessing nonaqueous phase liquid contamination and remediation of
+Maskey, S., Jonoski, A., Solomatine, D.P., 2002. Groundwater remediation strategy               groundwater systems. Water Resour. Res. 30 (4), 903–912, http://dx.doi.org/
+    using global optimization algorithms. J. Water Resour. Plann. Manage. 128 (6),              10.1029/93WR03412
+    431–440.                                                                                Yeten, B., Durlofksy, L.J., Aziz, K., 2003. Optimization of nonconventional well type,
+Middleton, R.S., Keating, E., Stauffer, P.H., Jordan, A., Viswanathan, H., Kang, Q.,            location, and trajectory. SPE J. 8 (September (03)), 200–210.
+    Carey, B., Mulkey, M., Sullivan, J., Chu, S.P., Esposito, R., 2012. The multiscale      Zaharie, D., 2002. Critical values for the control parameters of differential evolution
+    science of CO2 capture and storage: from the pore scale to the regional scale.              algorithms. In: Matoušek, R., Ošmera, P. (Eds.), Proceedings of MENDEL 2002,
+    Energy Environ. Sci. 5, 7328, http://dx.doi.org/10.1039/C2EE03227A                          8th International Conference on Soft Computing, June 5–7, 2002. Brno
+Montoglou, A., Papantoniou, M., Giannoulopoulos, P., 2004. Management of coastal                University of Technology, Faculty of Mechanical Engineering, Institute of
+    aquifers based on nonlinear optimization and evolutionary algorithms. J.                    Automation and Computer Science, Brno, Brno, Czech Republic, pp. 62–67.
+    Hydrol. 297 (1–4), 209–228.                                                             Zandvliet, M.J., Handels, M., van Essen, G.M., Brouwer, D.R., Jansen, J.D., 2008.
+Nicot, J.P., 2008. Evaluation of large-scale CO2 storage on freshwater sections of              Adjoint-based well-placement optimization under production constraints. SPE
+    aquifers: an example from the Texas Gulf Coast Basin. Int. J. Greenhouse Gas                J. 13 (December (04)), 392–399.
+    Control 2 (4), 582–593.                                                                 Zhang, K., Li, G., Reynolds, A.C., Yao, J., Zhang, L., 2010. Optimal well placement
+Nordbotten, J.M., Celia, M.A., Bachu, S., 2005. Injection and storage of CO2 in deep            using an adjoint gradient. J. Pet. Sci. Eng. 73 (3–4), 220–226.
+    saline aquifers: analytical solution for CO2 plume evolution during injection.          Zhang, Z., Agarwal, R., 2013. Numerical simulation and optimization of CO2
+    Transp. Porous Media 58 (3), 339–360.                                                       sequestration in saline aquifers. Comput. Fluids 80, 79–87.
+Parker, J.C., Lenhard, R.J., 1989. Vertical integration of three-phase ﬂow equations        Zhou, Q., Birkholzer, J.T., 2011. On scale and magnitude of pressure build-up
+    for analysis of light hydrocarbon plume movement. Transp. Porous Media 5,                   induced by large-scale geologic storage of CO2 . Greenhouse Gases: Sci.
+    187–206.                                                                                    Technol. 1, 11–20, http://dx.doi.org/10.1002/ghg3.001.

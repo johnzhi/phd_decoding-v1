@@ -1,0 +1,283 @@
+Optimal design of European supply chains for carbon capture and storage from industrial emission sources including pipe and ship transport
+
+PHYSICAL_PAGE 4
+F. d’Amore et al.                                                                                                            International Journal of Greenhouse Gas Control 109 (2021) 103372
+
+
+Table 1                                                                                                  The optimisation results will provide the best CCS design configurations,
+Parameter Ψn,C , describing which nodes n are located in country C.                                      by determining the optimal selection, sizing and location of capture
+  Country           Nodes                                                                                options across the different sectors, and the optimal transportation arcs
+  C                 n                                                                                    and means, with particular attention to choosing pipelines or ships, to
+                                                                                                         connect CO2 sources to onshore and offshore geological sequestration
+  Austria           s10, r24
+                                                                                                         basins (Fig. 1).
+  Belgium           s12, c2, c3, c57, c66, r11, r57, p1
+                                                                                                             The next section will elucidate the modelling inputs and assumptions
+  Bulgaria          c13, r18
+                                                                                                         in terms of capture, transport and sequestration stages, following which
+  Croatia           c48, c82, r41
+                                                                                                         a description of the mathematical formulation and of the investigated
+  Cyprus
+  Czech R.          s8, s9, c68, c73, c78, c110
+                                                                                                         scenarios will be provided. Then, the results will be presented and dis­
+  Denmark           c1
+                                                                                                         cussed. Some final remarks will conclude the work.
+  Estonia           c90, p5
+  Finland           c104, r22
+                                                                                                         2. Inputs and modelling assumptions
+  France            s22,s24,c27,c41,c81,c85,c86,c92,c93,c106,c107,r29,r31,r37,r38,r39,
+                    p11,                                                                                     This study proposes a MILP modelling framework for the economic
+                    p12, p28                                                                             optimisation of a Europe-wide SC for CCS from significant industrial CO2
+  Germany           s4,s7,s13, s14,s16, s23, s25,c9, c12,c14,c19,c22,c28,c29,c37,c43,c44,                emission sources, i.e. steel, cement and oil refining sectors (Fig. 2). All
+                    c45, c49,                                                                            the CCS stages are included in the analysis, namely capture plants
+                    c50,c58,c59,c63,c64,c70,c72,c74,c76,c91,c95,c101,c103,c109,r2,r3,                    tailored for specific emissions sectors, transport through pipelines (both
+                    r19, r25,                                                                            onshore and offshore) or ships and sequestration into appropriate
+                    r26, r40, r48, r49, r52, r53, r58, p2, p3, p4                                        geological basins (both onshore and offshore) (Fig. 1). The spatially
+  Greece            c20, c21, c32, c42, c67, r14, r15, r21, p6                                           explicit features are described through nodes n = {s1− 25 , c1− 111 , r1− 59 ,
+  Hungary           s2, s21, r20                                                                         z1− 53 , o1− 34 , p1− 31 }, comprising:
+  Ireland           c35, c51, c54
+  Italy             s19,c24,c47,c53,c94,c105,c108,c111,r1,r8,r33,r34,r35,r36,r50,p13,                     • n = {s1− 25 } ≡ steeln , describing 25 iron and steel industries nodes,
+                    p14, p15,                                                                               each emitting at least 1 Mt of CO2 /year and representing 82% of
+                    p30, p31                                                                                European emissions from steel mills (EEA, 2020);
+  Latvia            c71, p16                                                                              • n = {c1− 111 } ≡ cementn , describing 111 cement plants nodes, each
+  Lithuania         c52                                                                                     emitting at least 0.5 Mt of CO2 /year and representing 66% of Eu­
+  Luxemburg         c84                                                                                     ropean emissions from cement sector (EEA, 2020);
+  Netherlands       c102, r5, r9, r54, r59, p10, p17, p18                                                 • n = {r1− 59 } ≡ refineryn , describing 59 refineries nodes, each emitting
+  Norway            c36, r7, r12, p27                                                                       at least 1 Mt of CO2 /year and representing 86% of European emis­
+  Poland            s1, s5, s15, c7, c8, c15, c17, c18, c25, c26, r13                                       sions from refining sector (EEA, 2020);
+  Portugal          c10, c16, c38, r28, r42, p19                                                          • n = {z1− 53 } ≡ sequen , describing 53 sequestration nodes, both
+  Romania           s11, c23, c31, c39, c55, c87, c89, c100, r23, r51, p20                                  onshore and offshore (EU GeoCapacity Project, 2009);
+  Slovakia          s18, c11, c96, r55                                                                    • n = {o1− 34 } ≡ offshoren , describing 34 virtual nodes characterising
+  Slovenia          c79                                                                                     offshore transport routes (d’Amore et al., 2021);
+  Spain             s17,c5,c6,c40,c46,c56,c60,c61,c62,c65,c75,c77,c80,c97,r4,r30,r43,                     • n = {p1− 31 } ≡ portn , describing 31 harbours for CO2 ship transport
+                    r44, r45,
+                                                                                                            (Eurostat, 2020; WPS, 2020).
+                    r46, r47, p7, p8, p9, p29
+  Sweden            s3, s6, c4, r32, p21
+                                                                                                             The geographic position and characteristics of nodes steeln , cementn ,
+  Switzerland       c98
+                                                                                                         refineryn , sequen and offshoren are taken from d’Amore et al. (2021),
+  U. Kingdom        s20, c30, c33, c69, c83, c88, c99, r6, r10, r16, r17, r27, r56, p22, p23, p24,
+                                                                                                         while the location of ports portn will be discussed subsequently. This
+                    p25, p26
+                                                                                                         study investigates the characteristics of CCS infrastructures also at
+                                                                                                         nationwide level, too; thus, European countries are listed in set C and
+(Belgium) and Brunsbüttel (Germany) to offshore unloading and injec­                                     nodes n (e.g., emission points, ports) are associated to their corre­
+tion in the North Sea; Kjärstad et al. (2016) proposed a techno-economic                                sponding nation C through the parameter Ψn,C (Table 1).
+analysis for the Scandinavian region of ship transport for both onshore                                      As for capture options, this study builds on the methodology of
+and offshore unloading; while (Bjerketvedt et al., 2020) analysed the                                    d’Amore et al. (2021), in which capture plants were designed through
+costs of ship CO2 transport from a cement plant located in Brevik to a                                   set k = {ks1,2,3 , kc, kr1,2,3 }, respectively referred to CO2 capture from
+harbour in Kollsnes (Norway). Differently, other contributions provided                                  steel mills (i.e., k = ks ≡ ks1,2,3 ), cement plants (i.e., k = kc) and re­
+information on theoretical ship-based transport journeys, as in the re­                                  fineries (i.e., k = kr ≡ kr1,2,3 ). In particular, the following assessment of
+ports by ZEP (2011) and by IEAGHG (2020).                                                                the different capture plants k was proposed in that analysis:
+     However, a comprehensive design study aiming at assessing the
+competitiveness of ship-based CO2 transport, and at optimising the                                        • the capture steps implemented for steel mills were: absorption cap­
+overall multi-echelon infrastructure in a wide and integrated context is                                    ture from power plant stack (step1 ), from blast furnace stoves and
+still missing. Thus, this contribution aims at providing a comprehensive                                    from coke oven flue gas (step2 ), and from sinter plant (step3 ) (Ho
+SC model for the optimisation of a CCS network from European indus­                                         et al., 2013). These steps were combined (i.e., costs weighted on
+trial emission sources (steel industries, cement plants and refineries),                                    percentage contributions of the capture stages over total carbon
+comprising both pipelines (onshore and offshore) and ships to existing                                      abatement) to obtain ks1 =step1 , ks2 =step1+2 , ks3 =step1+2+3 ;
+docks to model the transport infrastructure. Additionally, alongside                                      • the techno-economic parameters employed to describe capture
+pursuing a Europe-wide carbon reduction target, the CCS network will                                        technologies kc in cement plants were determined assuming to install
+be comparatively optimised for country-wise CO2 avoidance objectives,                                       oxy-fuel combustion capture plants (Gardarsdottir et al., 2019;
+too, in order to assess how nation-based policies may impact CCS                                            Voldsund et al., 2019);
+configuration and costs with respect to a global (i.e. European) solution.
+
+
+                                                                                                     4
+
+
+PHYSICAL_PAGE 5
+F. d’Amore et al.                                                                                                       International Journal of Greenhouse Gas Control 109 (2021) 103372
+
+
+Table 2                                                                                            Table 4
+Capture efficiencies ηk [%], rate of additional emissions due to capture operation                 Transport parameters: ranges of admisible flowrates [Qmin
+                                                                                                                                                         q − Qq ] [t of CO2 /
+                                                                                                                                                              max
+
+ρk , costs of CO2 avoidance CCAk [€/t], fixed fixCCAk   [%] and variable varkCCA [%]               year], onshore pipeline and offshore pipeline unitary transport costs UTCpipe
+                                                                                                                                                                             q
+cost components, and reference-case captured flowrate IN0,k [Mt of CO2 /year]                      [€/km/t of CO2 ], and ship unitary transport cost, described through a slope
+over technologies k. Costs in €2018 . Steel mill: ks1 =absorption from power plant,                UTCship,s [€/km/t of CO2 ] and an intercept UTCship,i   [€/t of CO2 ] coefficients,
+                                                                                                       q                                               q
+ks2 = ks1 +blast furnace stoves and coke oven flue gas, ks3 = ks1 + ks2 +sinter
+                                                                                                   over set q = {q1− 4 }. Pipeline costs are taken from d’Amore et al. (2021), while
+plant. Cement plant: kc=oxy-fuel capture. Refinery: kr1 =pre-combustion cap­
+                                                                                                   ship costs are retrieved from IEAGHG (2020).
+ture from methane reformer, kr2 = kr1 +post-combustion on power unit, kr3 =
+ kr1 + kr2 +further emissions from other sources. Data are summarised from                          Flowrate discretisation           Pipeline transport cost    Ship transport cost
+d’Amore et al. (2021).                                                                                      Range                     UTCpipe                    UTCship,s    UTCship,i
+                                                                                                                                         q                          q            q
+  Capture plant                 Efficiency        Avoidance cost                   Reference
+                                                                                                    Size    Qmin
+                                                                                                             q
+                                                                                                                          Qmax
+                                                                                                                           q          Onshore       Offshore     Offshore
+                Option          ηk       ρk       CCAk       fixCCA
+                                                                k         varCCA
+                                                                             k
+                                                                                   IN0,k
+                                                                                                    q       [kt/year]     [kt/year]   [€/km/t]      [€/km/t]     [€/km/t]     [€/t]
+  Sector        k               [%]      [-]      [€/t]      [%]          [%]      [Mt/year]
+                                                                                                    q1      250           1500        0.054         0.081        0.00609      12.911
+  Steel         ks1             0.31     1.0      48.4       0.20         0.80     3.1
+                                                                                                    q2      1500          2500        0.028         0.042        0.00609      11.911
+  Steel         ks2             0.62     1.2      50.6       0.22         0.78     6.3
+                                                                                                    q3      2500          7500        0.016         0.024        0.00609      7.911
+  Steel         ks3             0.76     1.2      52.9       0.23         0.77     7.7
+                                                                                                    q4      7500          30000       0.010         0.015        0.00609      7.911
+  Cement        kc              0.90     1.0      44.4       0.83         0.17     0.7
+  Refinery      kr1             0.11     1.2      42.6       0.30         0.70     0.3
+  Refinery      kr2             0.33     1.2      73.5       0.57         0.43     1.0              • as for oil refineries, pre-combustion was considered to capture a
+  Refinery      kr3             0.80     1.2      89.5       0.50         0.50     2.8                quota of emissions from methane reformer (step1 ) (IEAGHG, 2017),
+                                                                                                      additional CO2 was captured through post-combustion on power unit
+                                                                                                      (step2 ) (NETL, 2015), and further emissions from other sources
+Table 3                                                                                               (step3 ) (Van Straelen et al., 2010). By combining these steps it was
+Ship transport: definition and location of ports considered in this study (Euro­                      possible to obtain kr1 =step1 , kr2 =step1+2 , kr3 =step1+2+3 .
+stat, 2020; WPS, 2020).
+  Node definition                                                     Location                         The detailed techno-economic characteristics of capture plants k are
+  Port                                                                Latitude     Longitude
+                                                                                                   described in Table 2 by summarising the results reported in d’Amore
+  portn ∈ n          Name                      Country                [rad]        [rad]           et al. (2021), and following the indications given in that same article
+                                                                                                   these data are employed to determine the unitary cost of CO2 avoidance
+  p1                 Antwerpen                 Belgium                0.8939       0.0765
+                                                                                                   UCCk,n [€/t of CO2 ] through capture plant k installed in node n.
+  p2                 Bremerhaven               Germany                0.9346       0.1498
+  p3                 Hamburg                   Germany                0.9346       0.1744
+                                                                                                   2.1. Transport modes
+  p4                 Wilhelmshaven             Germany                0.9344       0.1424
+  p5                 Tallinn                   Estonia                1.0374       0.4323
+                                                                                                       This contribution addresses the problem of transporting the CO2
+  p6                 Peiraias                  Greece                 0.6624       0.4125
+                                                                                                   among nodes by means of pipelines (either onshore or offshore) and
+  p7                 Algeciras                 Spain                  0.6306       − 0.0951
+                                                                                                   ships. Offshore areas are discretised through subset offshoren (reported
+  p8                 Barcelona                 Spain                  0.7216       0.0378
+                                                                                                   in d’Amore et al., 2021) and transportation arcs are considered as
+  p9                 Valencia                  Spain                  0.6885       − 0.0056
+                                                                                                   offshore if they fall within these areas. The possibility to store CO2
+  p10                Dunkerque                 Netherlands            0.8907       0.0415
+                                                                                                   offshore in uncertain or limited capacity basins (e.g. in the Adriatic basin
+  p11                Le Havre                  France                 0.8634       0.0027          Teatini et al., 2014) is not taken into account here. Differently from
+  p12                Marseille                 France                 0.7556       0.0937          d’Amore et al. (2021), this study introduces the possibility of ship
+  p13                Genova                    Italy                  0.7749       0.1557          transport among existing European ports towards offshore storage in the
+  p14                Taranto                   Italy                  0.7065       0.3005          North Sea area. To make the problem computationally tractable, a
+  p15                Trieste                   Italy                  0.7969       0.2402          limited set of existing ports n = {p1− 31 } ≡ portn was considered here,
+  p16                Riga                      Latvia                 0.9947       0.4207          comprising 27 ports taken from the largest ones in terms of gross weight
+  p17                Amsterdam                 Netherlands            0.9148       0.0839          of goods handled (Eurostat, 2020), plus 4 additional large-scale har­
+  p18                Rotterdam                 Netherlands            0.9056       0.0748          bours (i.e., Lorient in France, Gijn in Spain, Cagliari and Augusta in
+  p19                Sines                     Portugal               0.6624       − 0.1548        Italy) whose strategic location is dictated by the proximity of significant
+  p20                Constanta                 Romania                0.7710       0.4998          industrial CO2 emission sources (WPS, 2020) (Table 3).
+  p21                Gȵteborg                  Sweden                 1.0071       0.2082
+  p22                Immingham                 U. Kingdom             0.9360       − 0.0033        2.1.1. Pipeline
+  p23                London                    U. Kingdom             0.8988       0.0087              Pipeline option is discretised through set q = {q1− 4 } to account scale
+  p24                Milford Haven             U. Kingdom             0.9026       − 0.0879        effects over costs due to overall transport size, and the previously
+  p25                Southampton               U. Kingdom             0.8883       − 0.0244        mentioned set q defines the ranges [Qminq − Qq ] [t of CO2 /year] of ad­
+                                                                                                                                                   max
+  p26                Tees Hartlepool           U. Kingdom             0.9530       − 0.0202
+                                                                                                   missible flowrates. These ranges are employed to define the unitary
+  p27                Bergen                    Norway                 1.0540       0.0926
+                                                                                                   transport costs through pipeline UTCpipeq   [€/km/t of CO2 ], which are
+  p28                Lorient                   France                 0.8334       − 0.0586
+                                                                                                   calculated as in d’Amore et al. (2021), and following that previous study
+  p29                Gijn                      Spain                  0.7598       − 0.0988
+                                                                                                   increased of a multiplicative factor Ωn,n′ =1.5 in case of offshore paths
+  p30                Cagliari                  Italy                  0.6844       0.1589
+                                                                                                   between nodes n and n (Table 4).
+                                                                                                                                 ′
+  p31                Augusta                   Italy                  0.6492       0.2655
+
+
+
+
+                                                                                               5
+
+
+PHYSICAL_PAGE 16
+F. d’Amore et al.                                                                                                         International Journal of Greenhouse Gas Control 109 (2021) 103372
+
+
+ried out to assess the possibility to cluster small scale emission points                               operating costs. Ind. Eng. Chem. Res. 51, 11445–11457. https://doi.org/10.1021/
+                                                                                                        ie3004754.
+and to integrated existing facilities with renewable energy production
+                                                                                                   Ho, M.T., Bustamante, A., Wiley, D.E., 2013. Comparison of CO2 capture economics for
+(e.g., bioenergy with carbon capture and storage).                                                      iron and steel mills. Int. J. Greenh. Gas Control 19, 145–159. https://doi.org/
+                                                                                                        10.1016/j.ijggc.2013.08.003.
+CRediT authorship contribution statement                                                           IEAGHG, 2017. Understanding the Cost of Retrofitting CO2 capture in an Integrated Oil
+                                                                                                        Refinery. https://ieaghg.org/publications/technical-reports/reports-list/10-techni
+                                                                                                        cal-reviews/819-2017-tr8-understanding-the-cost-of-retrofitting-co2-capture-in-an-i
+   Federico d’Amore: Conceptualization, Methodology, Investigation,                                     ntegrated-oil-refinery (accessed 17 May 2021).
+Software, Writing - review & editing. Matteo Carmelo Romano:                                       IEAGHG, 2020. The Status and Challenges of CO2 Shipping Infrastructures. https
+                                                                                                        ://ieaghg.org/ccs-resources/blog/new-ieaghg-report-the-status-and-challenges-of
+Conceptualization, Methodology, Writing - review & editing. Fabrizio                                    -co2-shipping-infrastructures (accessed 17 May 2021).
+Bezzo: Supervision, Conceptualization, Methodology, Writing - review                               IPCC, 2018. Global warming of 1.5◦ C. An IPCC special report on the impacts of global
+& editing.                                                                                              warming of 1.5◦ C above pre-industrial levels and related global greenhouse gas
+                                                                                                        emission pathways, in the context of strengthening the global response to the threat
+                                                                                                        of climate change. http://report.ipcc.ch/sr15/pdf/sr15_spm_final.pdf (accessed 17
+Declaration of Competing Interest                                                                       May 2021).
+                                                                                                   Kalyanarengan Ravi, N., Van Sint Annaland, M., Fransoo, J.C., Grievink, J.,
+                                                                                                        Zondervan, E., 2016. Development and implementation of supply chain optimization
+    The authors declare no competing interests.                                                         framework for CO2 capture and storage in the Netherlands. Comput. Chem. Eng.
+                                                                                                        102, 40–51. https://doi.org/10.1016/j.compchemeng.2016.08.011.
+Acknowledgements                                                                                   Kamalinejad, M., Sheykhbahaee, A., Mazaheri, S., 2016. Financial Feasibility Study
+                                                                                                        between Purchasing and Hiring LNG Carrier In Iranian LNG Industry. Int. J. Coast.
+                                                                                                        Offshore Eng. 1, 25–31.
+    This research was supported by the Department of Industrial Engi­                              Kjärstad, J., Skagestad, R., Eldrup, N.H., Johnsson, F., 2016. Ship transport-A low cost
+neering, University of Padova (grant 2019DII126: ’Optimising supply                                     and low risk CO2 transport option in the Nordic countries. Int. J. Greenh. Gas
+chains for carbon capture, transport, utilisation, and sequestration,                                   Control 54, 168–184. https://doi.org/10.1016/j.ijggc.2016.08.024.
+                                                                                                   Lee, S.Y., Lee, J.U., Lee, I.B., Han, J., 2017. Design under uncertainty of carbon capture
+including emission points from industrial clusters’).                                                   and storage infrastructure considering cost, environmental impact, and preference
+                                                                                                        on risk. Appl. Energy 189, 725–738. https://doi.org/10.1016/j.
+References                                                                                              apenergy.2016.12.066.
+                                                                                                   Leeson, D., Mac Dowell, N., Shah, N., Petit, C., Fennell, P.S., 2017. A Techno-economic
+                                                                                                        analysis and systematic review of carbon capture and storage (CCS) applied to the
+Aspelund, A., Mølnvik, M.J., De Koeijer, G., 2006. Ship Transport of CO2. Chem. Eng.                    iron and steel, cement, oil refining and pulp and paper industries, as well as other
+    Res. Des. 84, 847–855. https://doi.org/10.1205/cherd.5147.                                          high purity sources. Int. J. Greenh. Gas Control 61, 71–84. https://doi.org/10.1016/
+Bjerketvedt, V.S., Tomasgaard, A., Roussanaly, S., 2020. Optimal design and cost of ship-               j.ijggc.2017.03.020.
+    based CO2 transport under uncertainties and fluctuations. Int. J. Greenh. Gas Control          Middleton, R.S., Yaw, S., 2018. The cost of getting CCS wrong: uncertainty,
+    103, 103190. https://doi.org/10.1016/j.ijggc.2020.103190.                                           infrastructure design, and stranded CO2. Int. J. Greenh. Gas Control 70, 1–11.
+d’Amore, F., Bezzo, F., 2017. Economic optimisation of European supply chains for CO2                   https://doi.org/10.1016/j.ijggc.2017.12.011.
+    capture, transport and sequestration. Int. J. Greenh. Gas Control 65, 99–116. https://         Morbee, J., Serpa, J., Tzimas, E., 2012. Optimised deployment of a European CO2
+    doi.org/10.1016/j.ijggc.2017.08.015.                                                                transport network. Int. J. Greenh. Gas Control 7, 48–61. https://doi.org/10.1016/j.
+d’Amore, F., Bezzo, F., 2020. Optimal European cooperative supply chains for carbon                     ijggc.2011.11.011.
+    capture, transport, and sequestration with costs share policies. AIChE J 66, 16872.            NETL, 2015. Cost and performance baseline for fossil energy plants Volume 1a:
+    https://doi.org/10.1002/aic.16872.                                                                  Bituminous coal (PC) and natural gas to electricity, Revision 3. https://www.osti.
+d’Amore, F., Romano, M.C., Bezzo, F., 2021. Carbon capture and storage from energy                      gov/biblio/1480987-cost-performance-baseline-fossil-energy-plants-volume-bitumi
+    and industrial emission sources: a Europe-wide supply chain optimisation. J. Clean.                 nous-coal-pc-natural-gas-electricity-revision (accessed 17 May 2021).
+    Prod. 290, 125202 https://doi.org/10.1016/j.jclepro.2020.125202.                               Sea-Distances, 2020. Ports distances. https://sea-distances.org/ (accessed 17 May 2021).
+EEA, 2020. European Pollutant Release and Transfer Register. https://prtr.eea.europa.              Tapia, J.F.D., Lee, J.Y., Ooi, R.E.H., Foo, D.C.Y., Tan, R.R., 2018. A review of
+    eu/#/pollutantreleases (accessed 17 May 2021).                                                      optimization and decision-making models for the planning of CO2 capture,
+Elahi, N., Shah, N., Korre, A., Durucan, S., 2014. Multi-period least cost optimisation                 utilization and storage (CCUS) systems. Sustain. Prod. Consum. 13, 1–15. https://
+    model of an integrated carbon dioxide capture transportation and storage                            doi.org/10.1016/j.spc.2017.10.001.
+    infrastructure in the UK. Energy Procedia 63, 2655–2662. https://doi.org/10.1016/              Teatini, P., Castelletto, N., Gambolati, G., 2014. 3D geomechanical modeling for CO2
+    j.egypro.2014.11.288.                                                                               geological storage in faulted formations. A case study in an offshore northern
+Elahi, N., Shah, N., Korre, A., Durucan, S., 2017. Multi-stage Stochastic Optimisation of a             Adriatic reservoir. Italy. Int. J. Greenh. Gas Control 22, 63–76. https://10.1016/j.
+    CO2 Transport and Geological Storage in the UK. Energy Procedia 114, 6514-6525.                     ijggc.2013.12.021.
+    https://doi.org/10.1016/j.egypro.2017.03.1787.                                                 United Nations, 2015. Paris agreement. https://unfccc.int/sites/default/files/english_
+EU GeoCapacity Project, 2009. Assessing European Capacity for Geological Storage of                     paris_agreement.pdf (accessed 17 May 2021).
+    Carbon Dioxide. www.geology.cz/geocapacity/publications (accessed 17 May                       Van Straelen, J., Geuzebroek, F., Goodchild, N., Protopapas, G., Mahony, L., 2010. CO2
+    2021).                                                                                              capture for refineries, a practical approach. Int. J. Greenh. Gas Control 4, 316–320.
+European Commission, 2017. Report from the commission to the European Parliament                        https://doi.org/10.1016/j.ijggc.2009.09.022.
+    and the Council on Implementation of Directive 2009/31/EC on the Geological                    Voldsund, M., Gardarsdottir, S.O., De Lena, E., Pérez-Calvo, J.F., Jamali, A., Berstad, D.,
+    Storage of Carbon Dioxide [WWW Document]. https://www.eumonitor.eu/                                 Fu, C., Romano, M.C., Roussanaly, S., Anantharaman, R., Hoppe, H., Sutter, D.,
+    9353000/1/j4nvke1fm2yd1u0_j9vvik7m1c3gyxp/vkcwef2pnyrx/v=s7z/f=/com                                 Mazzotti, M., Gazzani, M., Cinti, G., Jordal, K., 2019. Comparison of technologies for
+    (2017)37_en.pdf (accessed 17 May 2021).                                                             CO2 capture from cement production-Part 1: Technical evaluation. Energies 12, 559.
+European Commission, 2020. Carbon Capture and Geological Storage. https://ec.europa.                    https://doi.org/10.3390/en12030559WPS, 2020.
+    eu/clima/policies/innovation-fund/ccs_en#tab-0-0 (accessed 17 May 2021).                       World port source, World map. http://www.worldportsource.com/ports/region.php
+Eurostat, 2020. Top cargo ports in 2017. https://ec.europa.eu/eurostat/web/products-e                   (accessed 17 May 2021).
+    urostat-news/-/DDN-20190711-1 (accessed 17 May 2021).                                          Yoo, B.Y., Lee, S.G., Rhee, K.P., Na, H.S., Park, J.M., 2011. New CCS system integration
+FRED, 2020. Producer price index by industry: deep sea freight transportation services.                 with CO2 carrier and liquefaction process. Energy Procedia 4, 2308–2314. https://
+    https://fred.stlouisfed.org/series/PCU4831114831115 (accessed 17 May 2021).                         doi.org/10.1016/j.egypro.2011.02.121.
+Gardarsdottir, S.O., De Lena, E., Romano, M.C., Roussanaly, S., Voldsund, M., Pérez-              ZEP, 2011. The cost of CO2 transport: post-demonstration CCS in the EU, European
+    Calvo, J.F., Berstad, D., Fu, C., Anantharaman, R., Sutter, D., Gazzani, M.,                        Technology Platform for Zero Emission Fossil Fuel Power Plants. https://www.globa
+    Mazzotti, M., Cinti, G., 2019. Comparison of technologies for CO2 capture from                      lccsinstitute.com/archive/hub/publications/119811/costs-co2-transport-post-
+    cement production-Part 2: Cost analysis. Energies 12, 542. https://doi.org/10.3390/                 demonstration-ccs-eu.pdf (accessed 17 May 2021).
+    en12030542.
+Han, J.H., Lee, I.B., 2012. Multiperiod stochastic optimization model for carbon capture
+    and storage infrastructure under uncertainty in CO2 emissions, product prices, and
+
+
+
+
+                                                                                              16

@@ -1,0 +1,2016 @@
+[
+  {
+    "study_id": "B2-02",
+    "reviewed_physical_pages": [
+      11,
+      12,
+      13,
+      20
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Review of prospective TEA/LCA across technology maturity, scale-up, hybrid costing and foreground/background scenarios. Table2 distinguishes prospective from dynamic LCA; later sections discuss semantic matching between IAM technologies and LCI processes and the need for transparent model assumptions.",
+    "findings": "Comparisons depend on maturity, energy integration, functional-unit matching and future backgrounds. The review reports a cited heat-integration study where annual averaging differs materially from multi-period optimisation. A process in an integrated-assessment model need not map unambiguously to one inventory activity.",
+    "transfer_limits": "This is secondary methodological synthesis, not measured heat/electricity or a supplier-matched inventory for our source. Cited percentages are context, not transferable uncertainty ranges or probability distributions. Static official factors do not become complete prospective backgrounds by virtue of being official.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B202_heat_cost_low",
+        "value": 7,
+        "unit": "percent higher cost reported for cited heat-integration comparison",
+        "physical_page": 12,
+        "source_token": "7%",
+        "meaning": "Secondary account of annual averaging difference; primary Biermann study not supplied",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B202_heat_cost_high",
+        "value": 26,
+        "unit": "percent higher cost reported for cited comparison",
+        "physical_page": 12,
+        "source_token": "26%",
+        "meaning": "Secondary comparison upper reported value",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B202_heat_emission_low",
+        "value": 9,
+        "unit": "percent higher emissions reported for cited comparison",
+        "physical_page": 12,
+        "source_token": "9%",
+        "meaning": "Secondary account; not a probability range",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B202_heat_emission_high",
+        "value": 66,
+        "unit": "percent higher emissions reported for cited comparison",
+        "physical_page": 12,
+        "source_token": "66%",
+        "meaning": "Secondary comparison upper reported value",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B2-03",
+    "reviewed_physical_pages": [
+      3,
+      7
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Annual-budget deterministic and two-stage stochastic CCUS deployment MILPs with rolling horizons and sample-average approximation. Source/sink selection, start times and single source-sink pipelines are decisions. After a connection is chosen, annual transported quantity is constant. Geological storage volumes are uncertain inputs; full capture is imposed at selected sources.",
+    "findings": "The Illinois Basin case compares network decisions under capacity uncertainty. The stochastic design reduces the reported mean shortfall from4,795kt to145.24kt per scenario over plant operating lives. It evaluates fixed designs on5,000 scenarios, rather than inferring a generic probability of storage success. The analysis already combines temporal planning and uncertain sink capacities.",
+    "transfer_limits": "Objective is economic benefit including social cost/EOR revenue under budgets, not harmonised lifecycle net mitigation. Source capture equals emissions by assumption. Missing supplements contain economic/cost details. Its uncertain volumes and recourse results do not supply physical annual pressure-constrained injection maxima or transferable reliability distributions.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B203_sources",
+        "value": 820,
+        "unit": "sources",
+        "physical_page": 7,
+        "source_token": "820",
+        "meaning": "Illinois Basin region emission-source count",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B203_initial",
+        "value": 458673,
+        "unit": "ktCO2/year",
+        "physical_page": 7,
+        "source_token": "458,673",
+        "meaning": "Initial regional reported emissions",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B203_final",
+        "value": 204723,
+        "unit": "ktCO2/year",
+        "physical_page": 7,
+        "source_token": "204,723",
+        "meaning": "Final annual emissions in the stochastic planning case",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B203_horizon",
+        "value": 25,
+        "unit": "years",
+        "physical_page": 7,
+        "source_token": "25 years",
+        "meaning": "2026–2050 planning horizon",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B203_det_shortfall",
+        "value": 4795,
+        "unit": "ktCO2 per scenario over operating lives",
+        "physical_page": 7,
+        "source_token": "4,795",
+        "meaning": "Reported mean undesirable capture deviation for deterministic design",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B203_stoch_shortfall",
+        "value": 145.24,
+        "unit": "ktCO2 per scenario over operating lives",
+        "physical_page": 7,
+        "source_token": "145.24",
+        "meaning": "Same measure for stochastic design",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B2-05",
+    "reviewed_physical_pages": [
+      3,
+      7,
+      8
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Transition-pathway MILP models technology lifetimes, capacity additions, multimodal flows and speed-of-pipeline-deployment limits. Stored CO2 targets include direct source-stream losses; lifecycle burdens are represented in the model but excluded from the sequestration balance in Eq6. Storage is modelled as a service with annual/cumulative limits and operating costs/emissions, without explicit storage investment.",
+    "findings": "Constraining pipeline expansion produces unmet storage targets, while barges/ships bridge deployment limits. Early pipeline utilization is low; temporary multimodal capacity changes the transition even when final infrastructure looks similar. The body reports4.8Mt cumulative shortfall but Figure3 caption says1.7Mt, so that benchmark is held pending reconciliation.",
+    "transfer_limits": "Cost-optimal transport deployment and direct sequestration targets do not establish full matched-source net climate benefit. Barge shares are tonne-kilometre shares, not source mass fractions or vessel availability. Storage-service simplification does not supply calibrated well pressure constraints. Supplement details are still needed to reproduce the original scenarios.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B205_body_shortfall",
+        "value": 4.8,
+        "unit": "MtCO2 cumulative",
+        "physical_page": 7,
+        "source_token": "4.8",
+        "meaning": "Body constrained-pipeline shortfall; conflicting figure caption",
+        "status": "HOLD_CONFLICT",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B205_caption_shortfall",
+        "value": 1.7,
+        "unit": "MtCO2 cumulative",
+        "physical_page": 8,
+        "source_token": "1.7",
+        "meaning": "Figure3 caption constrained-pipeline shortfall; conflicts with body",
+        "status": "HOLD_CONFLICT",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B205_annual_shortfall",
+        "value": 23,
+        "unit": "percent of annual sequestration target",
+        "physical_page": 7,
+        "source_token": "23",
+        "meaning": "Maximum cited annual target miss",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B205_barge_low",
+        "value": 2,
+        "unit": "percent tonne-km",
+        "physical_page": 8,
+        "source_token": "2 to 13",
+        "meaning": "Barge transport share lower value in specified2044–2050 years",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B205_barge_high",
+        "value": 13,
+        "unit": "percent tonne-km",
+        "physical_page": 8,
+        "source_token": "2 to 13",
+        "meaning": "Barge transport share upper value; not mass share",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B2-06",
+    "reviewed_physical_pages": [
+      6,
+      15,
+      19,
+      22
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Multiperiod strategic CCUS MILP includes gas/liquid/supercritical state changes, buffer balances, capture units, pipeline capacity choices and truck/rail/ship fleets, including direct offshore injection and floating storage interfaces. Yearly decisions are identical within a planning period; vehicle activity includes berth and travel/loading constraints. An illustrative Eastern Canada network uses GIS-based candidate links and a heuristic to reduce computational burden.",
+    "findings": "Time discretisation and transshipment constraints affect feasible infrastructure. Limiting emitter vehicle loading/unloading to5Mt/y prevents concentrating49.4Mt/y of train-to-offshore-pipeline transfers at one emitter. The constrained example uses trains, pipelines and a40kt ship delivering779kt/y in the last two years. The authors explicitly call the costs/geographic weighting illustrative while Canadian data are being developed.",
+    "transfer_limits": "An annual strategic fleet formulation does not validate detailed ship schedules. Cost weights transferred from US studies and assumed transshipment capability are not actual Japanese terminal designs. It already represents phase transitions, buffers, utilization and changing injection limits, so these are prior art rather than unique Paper1 contributions. Monetary values are2025CAD; no conversion to GHG is justified.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B206_horizon",
+        "value": 20,
+        "unit": "years",
+        "physical_page": 15,
+        "source_token": "20 years",
+        "meaning": "Illustrative planning horizon beginning2025",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B206_transshipment_cap",
+        "value": 5,
+        "unit": "MtCO2/year",
+        "physical_page": 19,
+        "source_token": "5 Mtonnes/year",
+        "meaning": "Imposed emitter loading/unloading limit; modelling scenario",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B206_offshore_flow",
+        "value": 49.4,
+        "unit": "MtCO2/year",
+        "physical_page": 19,
+        "source_token": "49.4",
+        "meaning": "Earlier unconstrained train-to-pipeline flow at Point Tupper",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B206_ship_cargo",
+        "value": 40,
+        "unit": "ktCO2",
+        "physical_page": 19,
+        "source_token": "40 ktonnes",
+        "meaning": "Illustrative late-horizon ship cargo capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B206_ship_flow",
+        "value": 779,
+        "unit": "ktCO2/year",
+        "physical_page": 19,
+        "source_token": "779",
+        "meaning": "Illustrative Newfoundland transport in years19/20",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B2-07",
+    "reviewed_physical_pages": [
+      3,
+      4,
+      13,
+      21
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "PRISMA-guided source-sink/network co-optimisation review distinguishes contextual references from17 direct-evidence studies. Its extraction protocol codes system boundary, decisions, uncertainty, scale, computational reporting and limitations. It distinguishes sequential, monolithic and decomposition approaches and separates demonstrated methods from prospective AI/digital-twin capabilities.",
+    "findings": "The review argues for auditable feasibility/objective/runtime/gap reporting and matched static/perfect-information controls. Its proposed future scale benchmarks and digital-twin/learning directions are evaluation priorities, not verified achievements. Cross-study evidence does not support a universal algorithm ranking.",
+    "transfer_limits": "The supplementary search/exclusion/extraction matrix is not supplied with our library, so the reported systematic-review workflow is described rather than independently reproduced. Counts are review metadata, not empirical reservoir or transport inputs. Prospective AI/closed-loop concepts do not validate safe operating policies or local access.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B207_direct_studies",
+        "value": 17,
+        "unit": "studies",
+        "physical_page": 4,
+        "source_token": "17 studies",
+        "meaning": "Direct-evidence synthesis count",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B207_unique_records",
+        "value": 1142,
+        "unit": "records",
+        "physical_page": 4,
+        "source_token": "1,142",
+        "meaning": "Post-deduplication working corpus",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B207_initial_records",
+        "value": 1569,
+        "unit": "records",
+        "physical_page": 4,
+        "source_token": "1,569",
+        "meaning": "Reported records before deduplication",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B2-09",
+    "reviewed_physical_pages": [
+      3,
+      8,
+      17
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Network MILP uses budgeted uncertainty for pipeline capacity and well injectivity, plus CVaR shortfall risk. It jointly designs shared hubs, integer pipelines/wells and discounted cost. The case is explicitly synthetic: five emission sources, one hub and two sinks, with assumed production capacities and straight-line geometry.",
+    "findings": "Risk preferences create discrete investment/cost-versus-shortfall tradeoffs. The authors state that regional use requires real source/storage data, pressure management, learning and correlated risks; the illustrative magnitudes do not calibrate physical deliverability. Model scale and uncertain asset capacities are distinct from a validated pressure forecast.",
+    "transfer_limits": "Literature emission factors combined with assumed production are not observed source emissions. Robustness budgets/CVaR scenario preferences are design parameters, not measured probabilities for our sites. It is strong prior art for injectivity/capacity uncertainty, but no site-specific kr,t or actual permits can be transferred.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B209_steel_factor",
+        "value": 1.92,
+        "unit": "tCO2/t steel",
+        "physical_page": 8,
+        "source_token": "1.92",
+        "meaning": "Literature factor used in a synthetic case, not observed capture supply",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B209_steel_capacity",
+        "value": 8,
+        "unit": "Mt steel/year assumed",
+        "physical_page": 8,
+        "source_token": "8 Mt steel",
+        "meaning": "Assumed synthetic production capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B209_cement_factor",
+        "value": 0.6,
+        "unit": "tCO2/t cement",
+        "physical_page": 8,
+        "source_token": "0.6",
+        "meaning": "Literature factor for synthetic cement sources",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B2-11",
+    "reviewed_physical_pages": [
+      3,
+      4,
+      5,
+      10
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Steam-cycle process models and an hourly district-heating unit-commitment model assess110 Swedish biomass/waste CHP plants. Fixed boiler load and maintained industrial-process heat define the reference service. A90% MEA capture case assumes reboiler duty3.6MJ/kg captured at120C with3bar steam, and0.1MWh/t electricity including capture/compression/liquefaction. Heat recovery is treated through the DH system rather than a generic negative capture duty.",
+    "findings": "Plant utilization and size jointly drive capture/local truck-transport costs. Higher heat recovery can change DH dispatch and electricity demand; the118% heat-recovery case requires heat pumps with0.17MWh/t additional electricity and COP3. It is not free energy or more than100% solvent heat-efficiency. Reported costs exclude onward ship transport and geological storage.",
+    "transfer_limits": "This provides a transparent alternative MEA utility reference, not measured Japanese steel/refinery demand. Preserve the specified flue-gas/CHP conditions and avoid adding another liquefaction/compression charge. No DH displacement credit can be applied without a matched heating-system counterfactual. Biogenic/fossil shares cannot be transferred to a fossil industrial baseline.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B211_heat",
+        "value": 3.6,
+        "unit": "MJ/kgCO2 captured",
+        "physical_page": 3,
+        "source_token": "3.6",
+        "meaning": "MEA reboiler heat input for13–15%CO2 biomass/waste flue gas and90% capture",
+        "status": "ACCEPTED_FOR_STATED_REFERENCE",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B211_electric",
+        "value": 0.1,
+        "unit": "MWh/tCO2 captured",
+        "physical_page": 4,
+        "source_token": "0.1 MWh/tCO2",
+        "meaning": "Published capture electricity assumption; absorption/compression/liquefaction boundary",
+        "status": "ACCEPTED_FOR_STATED_REFERENCE",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B211_reboiler_temperature",
+        "value": 120,
+        "unit": "degreeC",
+        "physical_page": 3,
+        "source_token": "120",
+        "meaning": "Reboiler heat temperature",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B211_steam_pressure",
+        "value": 3,
+        "unit": "bar as reported",
+        "physical_page": 3,
+        "source_token": "3 bar",
+        "meaning": "Delivered steam pressure",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B211_capture_rate",
+        "value": 90,
+        "unit": "percent",
+        "physical_page": 3,
+        "source_token": "90%",
+        "meaning": "Reference MEA capture design",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B211_heatpump_power",
+        "value": 0.17,
+        "unit": "MWh/tCO2",
+        "physical_page": 4,
+        "source_token": "0.17 MWh/tCO2",
+        "meaning": "Additional electricity in118% heat recovery case",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B211_heatpump_COP",
+        "value": 3,
+        "unit": "ratio",
+        "physical_page": 4,
+        "source_token": "COP = 3",
+        "meaning": "Heat pump assumption in that case",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B2-14",
+    "reviewed_physical_pages": [
+      3,
+      4,
+      9
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "ITEAM-CCS hub integrates onshore/offshore suitability, tiered storage capacities, techno-economics, source pairing and candidate pipelines. Separate onshore/offshore assessment criteria reflect different data and technical schemes. The authors explicitly limit the framework to macro-assessment/preliminary feasibility rather than project design.",
+    "findings": "Table3 distinguishes theoretical/effective resource inGt from source-matched annual amounts inMt/a at specified distance thresholds. National-scale spatial and cost heterogeneity supports cross-regional screening; a large resource does not automatically become developed yearly storage service.",
+    "transfer_limits": "P50 resource labels and annual matched source quantities are different metrics. National matching is not pressure-constrained well delivery or contracted capacity. No Chinese basin value is assigned to a Japanese sink; detailed underlying geological/economic data are not fully supplied.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B214_theoretical",
+        "value": 2507.3,
+        "unit": "GtCO2",
+        "physical_page": 9,
+        "source_token": "2507.3",
+        "meaning": "China total theoretical capacity,Table3",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B214_effective",
+        "value": 1499.8,
+        "unit": "GtCO2",
+        "physical_page": 9,
+        "source_token": "1499.8",
+        "meaning": "China total effective capacity,Table3",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B214_matched800",
+        "value": 6107.4,
+        "unit": "MtCO2/year matched source amount",
+        "physical_page": 9,
+        "source_token": "6107.4",
+        "meaning": "Table3 total matched at800km; not independent annual injection service",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B2-17",
+    "reviewed_physical_pages": [
+      5,
+      9,
+      22
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Critical review separates geographic assessment scales and compares material-balance/volumetric capacity equations for depleted reservoirs, saline formations and coal seams. Parameters include density, effective thickness, porosity, recovery/water history and storage-efficiency factors, which differ by method and trapping mechanism.",
+    "findings": "The review identifies multi-source geotechnical data, dynamic node-level carbon footprints, coordinated infrastructure and consistent spatiotemporal data as research needs. Its proposed integration with renewables/hydrogen is prospective. Capacity formulas require formation-specific inputs and compatible trapped-volume definitions.",
+    "transfer_limits": "Review equations are not site calibration and do not provide independent annual pressure/rate arrays. GWP, storage factors and method-specific capacities cannot be mixed across bases. B3-46 is the same publication and remains excluded from unique-publication counting. Underlying data are stated available on request.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-01",
+    "reviewed_physical_pages": [
+      2,
+      4,
+      11
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Historical UNFCCC/CDM policy analysis separates capture/compression, transport and storage and examines non-permanence, cross-border accounting and the economic value of temporary versus permanent credits. Crediting period is distinct from physical retention duration.",
+    "findings": "Temporary credits can lose value when crediting periods are shorter than actual retention. The conclusion treats CCS classification within the then-current climate regime as a policy question. Historical capacity/cost tables are secondary context, not a current service database.",
+    "transfer_limits": "The2006 regime discussion does not establish present permits, accepted accounting or liability transfers. Crediting horizons are not leakage probabilities or measured retention fractions; old global resource ranges and capture costs are not Paper1 physical inputs.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B301_energy_credit_period",
+        "value": 21,
+        "unit": "years (historical policy discussion)",
+        "physical_page": 11,
+        "source_token": "21 years",
+        "meaning": "Then-current maximum energy-project crediting period",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B301_forestry_credit_period",
+        "value": 60,
+        "unit": "years (historical policy discussion)",
+        "physical_page": 11,
+        "source_token": "60 years",
+        "meaning": "Then-current forestry crediting period; not CCS permanence",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-02",
+    "reviewed_physical_pages": [
+      2,
+      4,
+      7
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Legal/policy assessment reviews US environmental/tort liability and proposes adaptive risk management using insurance, bonding and pooled funding. It distinguishes active injection, operator post-closure responsibility and public long-term stewardship, with performance conditions for any transfer.",
+    "findings": "Risk can persist without atmospheric leakage, including brine displacement and pressure effects. The proposed funding tiers aim to preserve operator incentives and finance monitoring/remediation. Example monitoring periods are discussed as policy mechanisms rather than empirically optimal retention horizons.",
+    "transfer_limits": "This2009 analysis is not a current permit or a quantitative leakage-rate dataset. Suggested15/30/50year arrangements cannot be turned into certain closure dates, zero future liability or permanence guarantees. Site-specific risk and regulation remain independent inputs.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-03",
+    "reviewed_physical_pages": [
+      3,
+      9,
+      11
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "UK-port regulatory analysis compares the Port Marine Safety Code, dangerous-goods harbour rules and COMAH with CO2 loading/unloading, temporary storage and intermodal transfer. It identifies exclusions/classification issues and evaluates amendment/guidance pathways.",
+    "findings": "Table2 maps gaps to recommendations and implementation mechanisms. The authors argue for context-specific hazards rather than assuming nonflammable CO2 poses no major-accident risk; handling quantity, temperature, pressure and phase matter.",
+    "transfer_limits": "Recommendations are not proof that amendments were adopted or that a particular port is licensed. Generic cryogenic pressure/temperature descriptions are not vessel-specific operability limits, terminal dwell times or release probabilities. No quantitative risk frequency is transferred.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-04",
+    "reviewed_physical_pages": [
+      3,
+      7,
+      10
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Croatian cluster screening combines source maps, possible transport corridors, geological screening and conceptual compositional reservoir models. Confidentiality prevents detailed static/well inputs; historical production/final pressure are matched in generic models, with projected production and EOR periods.",
+    "findings": "Eastern and Central clusters differ in source density and hub needs. The Eastern cluster combines about0.86Mt/y of emissions with23Mt screened capacity at18–65km source distances. These are candidate configurations, not evidence of an operational source-storage contract.",
+    "transfer_limits": "Generic EOR screening and total resource cannot establish annual service or a full climate benefit once oil-production consequences are included. Costs use their original vintage. Confidential data prevent independently reproducing reservoir forecasts, and numerical screening thresholds are not universal safety criteria.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B304_east_emissions",
+        "value": 0.86,
+        "unit": "MtCO2/year",
+        "physical_page": 10,
+        "source_token": "0.86",
+        "meaning": "Eastern-cluster reported source emissions",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B304_east_capacity",
+        "value": 23,
+        "unit": "MtCO2 screened storage capacity",
+        "physical_page": 10,
+        "source_token": "23 Mt",
+        "meaning": "Combined Benicanci/Boksic candidate capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B304_distance_low",
+        "value": 18,
+        "unit": "km",
+        "physical_page": 10,
+        "source_token": "18 km",
+        "meaning": "Eastern candidate source-distance lower value",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B304_distance_high",
+        "value": 65,
+        "unit": "km",
+        "physical_page": 10,
+        "source_token": "65 km",
+        "meaning": "Eastern candidate source-distance upper value",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B304_central_emissions",
+        "value": 2.5,
+        "unit": "MtCO2/year",
+        "physical_page": 10,
+        "source_token": "2.5",
+        "meaning": "Central-cluster reported source emissions",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-05",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      7,
+      9,
+      10
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Python clustering/source-sink framework combines DBSCAN, minimum spanning trees and alternative redirection rules with weighted cost/emissions objectives. Effective geological storage uses a volumetric efficiency equation. Great-circle pipeline approximations omit terrain, protected land and detailed least-cost routing; uncertainty is propagated through the transport-cost model.",
+    "findings": "Kazakhstan case results depend on clustering radius and redirection rule. Full redirection at100km gives201.38USD/t reported total cost versus207.61 for partial redirection. Capture dominates the reported environmental inventory. This supports testing topology and accounting, not adopting a universal near-zero transport burden.",
+    "transfer_limits": "Cost/emission outcomes are scenario-specific and pipeline geometry is approximate. National emission totals and volumetric resource are not a plant capture stream or pressure-limited annual service. User-friendly/open-code claims do not establish independent hydraulic/site validation; the original implementation/data must be checked before reproduction.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B305_source_total",
+        "value": 148.53,
+        "unit": "MtCO2/year",
+        "physical_page": 6,
+        "source_token": "148.53",
+        "meaning": "Reported Kazakhstan industrial-source aggregate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B305_full_cost100",
+        "value": 201.38,
+        "unit": "USD/tCO2",
+        "physical_page": 7,
+        "source_token": "201.38",
+        "meaning": "100km clustering/full-redirection reported total cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B305_partial_cost100",
+        "value": 207.61,
+        "unit": "USD/tCO2",
+        "physical_page": 7,
+        "source_token": "207.61",
+        "meaning": "Same radius/partial-redirection cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-06",
+    "reviewed_physical_pages": [
+      7,
+      9
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Cost comparison of three Guangdong coal-plant standalone versus shared capture/transport/storage projects. Scenarios assume1Mt/y or3Mt/y captured per plant, giving cluster totals3Mt/y and9Mt/y. Pipeline distances and shared facilities enter discounted unit-abatement-cost calculations.",
+    "findings": "The cluster cost decreases from475.81 to298.02CNY/t when the assumed capture scale triples. Table6 reports scenario-specific reductions relative to individual projects, and explicitly assumes shared O&M grows by only twofold. Body/table rates resolve the implausible abstract300Mt/y statement for these scenarios.",
+    "transfer_limits": "Scale economies in cost are not GHG reductions. Capture rates are assumed scenarios, not observed operation. Table6 monetary/NPV entries and source-wide O&M scaling need reconciliation before independent financial reproduction; no cost-to-emissions conversion is used. Abstract-rate error remains recorded rather than silently repaired.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B306_capture_small",
+        "value": 1,
+        "unit": "MtCO2/year per plant assumed",
+        "physical_page": 7,
+        "source_token": "1 and",
+        "meaning": "ScenarioI capture assumption",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B306_capture_large",
+        "value": 3,
+        "unit": "MtCO2/year per plant assumed",
+        "physical_page": 7,
+        "source_token": "3 million",
+        "meaning": "ScenarioII capture assumption",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B306_cluster_small_cost",
+        "value": 475.81,
+        "unit": "CNY/tCO2 avoided",
+        "physical_page": 9,
+        "source_token": "475.81",
+        "meaning": "Reported3Mt/y cluster cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B306_cluster_large_cost",
+        "value": 298.02,
+        "unit": "CNY/tCO2 avoided",
+        "physical_page": 9,
+        "source_token": "298.02",
+        "meaning": "Reported9Mt/y cluster cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B306_cost_drop",
+        "value": 37.37,
+        "unit": "percent",
+        "physical_page": 9,
+        "source_token": "37.37",
+        "meaning": "Reported scale-related unit-cost reduction",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-08",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      9
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Process/economic optimisation of partial BOG reliquefaction for a semi-pressurised CO2 carrier. Compressor work rises sharply when condensing light impurities. The objective includes reliquefaction expenditure, fuel-generated emissions penalties and the value of recovered CO2, rather than only physical mass conservation.",
+    "findings": "The100,000m3 case specifies cargo density1155kg/m3, assumed0.12%/day BOG and6000kg/h process BOG load. Under the study fuel/carbon-price assumptions, the optimum reliquefaction fraction spans97.2–98.1%, not necessarily100%. Economic LCC benefits include sale/recovery assumptions.",
+    "transfer_limits": "This old design/cost case does not establish the actual BOR, duty or venting of our vessel. The volume, insulation, composition and storage state differ. Financial optimum fractions are not universal cargo-loss rates or environmental optima; BOG generated, reliquefied and atmospherically vented must remain separate.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B308_ship_volume",
+        "value": 100000,
+        "unit": "m3",
+        "physical_page": 3,
+        "source_token": "100,000",
+        "meaning": "Assumed cargo capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B308_density",
+        "value": 1155,
+        "unit": "kg/m3",
+        "physical_page": 3,
+        "source_token": "1155",
+        "meaning": "Cargo density assumption",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B308_bog_rate",
+        "value": 0.12,
+        "unit": "percent/day of cargo",
+        "physical_page": 3,
+        "source_token": "0.12",
+        "meaning": "Assumed BOG rate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B308_bog_load",
+        "value": 6000,
+        "unit": "kg/hour",
+        "physical_page": 3,
+        "source_token": "6000",
+        "meaning": "Design BOG process load",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B308_optimum_low",
+        "value": 97.2,
+        "unit": "percent reliquefaction",
+        "physical_page": 9,
+        "source_token": "97.2%",
+        "meaning": "Reported economic-optimum lower value",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B308_optimum_high",
+        "value": 98.1,
+        "unit": "percent reliquefaction",
+        "physical_page": 9,
+        "source_token": "98.1%",
+        "meaning": "Reported economic-optimum upper value",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-09",
+    "reviewed_physical_pages": [
+      2,
+      3,
+      7,
+      8
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "P-graph superstructure selects power-plant capture technologies and source-sink matches under a relative cost limit. It explicitly represents lost power and compensatory generation to maintain the power-service baseline, plus cumulative sink capacity. MSG/SSG/LP techniques explore network alternatives.",
+    "findings": "The base case retains2250MW output with275MW compensatory generation. Reported residual emissions752.5t/h imply0.33444t/MWh, consistent with the rounded0.334 table result. A separate350Mt capture/240Mt storage example exposes a110Mt storage deficit. Compensation and finite storage were therefore prior art well before Paper1.",
+    "transfer_limits": "Illustrative power-sector values are not an industrial-source regional inventory. Aggregate relative costs simplify economics, and cumulative capacity is not a pressure-constrained annual forecast. The capture/post-retrofit source baseline and compensatory generation cannot be mixed with a different industrial service.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B309_output",
+        "value": 2250,
+        "unit": "MW",
+        "physical_page": 7,
+        "source_token": "2250",
+        "meaning": "Base-case maintained grid output",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B309_compensatory_power",
+        "value": 275,
+        "unit": "MW",
+        "physical_page": 7,
+        "source_token": "275",
+        "meaning": "Compensatory generation",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B309_residual",
+        "value": 752.5,
+        "unit": "tCO2/hour",
+        "physical_page": 7,
+        "source_token": "752.5",
+        "meaning": "Base-case residual emissions including compensation",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B309_reported_intensity",
+        "value": 0.334,
+        "unit": "tCO2/MWh",
+        "physical_page": 7,
+        "source_token": "0.334",
+        "meaning": "Rounded base-case carbon footprint",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B309_source1_cumulative",
+        "value": 200,
+        "unit": "MtCO2",
+        "physical_page": 8,
+        "source_token": "200",
+        "meaning": "Case2 maximum captured source1",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B309_source2_cumulative",
+        "value": 150,
+        "unit": "MtCO2",
+        "physical_page": 8,
+        "source_token": "150",
+        "meaning": "Case2 maximum captured source2",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B309_sink1",
+        "value": 100,
+        "unit": "MtCO2",
+        "physical_page": 8,
+        "source_token": "100",
+        "meaning": "Case2 sink1 cumulative capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B309_sink2",
+        "value": 140,
+        "unit": "MtCO2",
+        "physical_page": 8,
+        "source_token": "140",
+        "meaning": "Case2 sink2 cumulative capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-10",
+    "reviewed_physical_pages": [
+      3,
+      8,
+      14
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Process simulation compares closed refrigerant, open CO2 and hybrid liquefaction configurations for pipeline-to-ship interfaces. Composition, inlet pressure, cooling-water conditions, heat-exchanger pinches and refrigerant selection are explicit. Purification is needed to achieve the ship specification for impurity-containing feed.",
+    "findings": "Pure CO2 can liquefy near-28C at15bar, whereas studied impure streams require approximately26/44bar at the same temperature. Cooling-water temperature and exchanger approach strongly affect electricity demand. The paper gives cost/recovery tradeoffs and different suitable configurations by feed condition.",
+    "transfer_limits": "No single kWh/t factor can be transferred without inlet/outlet state, purity and compression boundary. Electricity-price sensitivity is financial, not physical GHG. Pure/impure pressure figures retain original bar units; avoid unqualified barg/bara conversion or duplicate liquefaction/compression charges.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B310_pure_temperature",
+        "value": -28,
+        "unit": "degreeC",
+        "physical_page": 3,
+        "source_token": "−28",
+        "meaning": "PureCO2 liquefaction comparison temperature",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B310_pure_pressure",
+        "value": 15,
+        "unit": "bar as reported",
+        "physical_page": 3,
+        "source_token": "15 bar",
+        "meaning": "Minimal pureCO2 pressure at stated temperature",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B310_impure_pressure1",
+        "value": 26,
+        "unit": "bar as reported",
+        "physical_page": 3,
+        "source_token": "26 bar",
+        "meaning": "First impure-feed liquefaction pressure",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B310_impure_pressure2",
+        "value": 44,
+        "unit": "bar as reported",
+        "physical_page": 3,
+        "source_token": "44 bar",
+        "meaning": "Second impure-feed liquefaction pressure",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-11",
+    "reviewed_physical_pages": [
+      4,
+      8
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Pinch-analysis storage supply/demand composite curves represent source and reservoir operating windows, cumulative loads and annual injection-rate limits. Time pinch and grand-composite curves identify extra storage needs and excess capacity before detailed source-sink pairing.",
+    "findings": "The examples show that excess cumulative capacity can coexist with a time-specific deficit. Detailed curves guide pairings while attempting to avoid unnecessary route changes. A reported case has40Mt additional storage needed at one time and80Mt total excess elsewhere; these are distinct time/location quantities.",
+    "transfer_limits": "The illustrative constant rates and operating lives are imposed planning inputs, not reservoir forecasts or measured annual maxima. No voyage physics, local GHG or calibrated pressure data are supplied. Multiple examples on the same page must not be combined as one dataset.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B311_A_rate",
+        "value": 40,
+        "unit": "MtCO2/year assumed",
+        "physical_page": 4,
+        "source_token": "40",
+        "meaning": "Table3 reservoirA constant injection rate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B311_A_capacity",
+        "value": 400,
+        "unit": "MtCO2 assumed",
+        "physical_page": 4,
+        "source_token": "400",
+        "meaning": "Table3 reservoirA cumulative capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B311_B_rate",
+        "value": 60,
+        "unit": "MtCO2/year assumed",
+        "physical_page": 4,
+        "source_token": "60",
+        "meaning": "Table3 reservoirB rate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B311_B_capacity",
+        "value": 660,
+        "unit": "MtCO2 assumed",
+        "physical_page": 4,
+        "source_token": "660",
+        "meaning": "Table3 reservoirB cumulative capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B311_excess",
+        "value": 80,
+        "unit": "MtCO2",
+        "physical_page": 8,
+        "source_token": "80 Mt",
+        "meaning": "Reported temporal case excess storage, not deficit offset at the required time",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-12",
+    "reviewed_physical_pages": [
+      2,
+      5
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "CO2Europipe clusters European point sources and sinks from Geocapacity/EPER databases and performs source-sink matching for future transport corridors. National and cross-border clusters are screened under reference, offshore-only and EOR scenarios; source inventories date to2005/2007.",
+    "findings": "The study illustrates how restricting onshore storage concentrates cross-border flows and demands parallel pipelines. It explicitly calls some750Mt/y corridor results unrealistic. Rough pipeline construction rates are calculations from projected network totals, not observed contractor schedules.",
+    "transfer_limits": "Historical scenario forecasts for2020–2050 are not actual deployed routes or current available storage. The250kt/y source screening threshold is not a minimum capture-plant size. No full lifecycle inventory, reservoir-pressure validation or shipping operating calendar follows from clustered resources.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B312_source_threshold",
+        "value": 250,
+        "unit": "ktCO2/year",
+        "physical_page": 2,
+        "source_token": "250 kt",
+        "meaning": "Minimum source size used for clustering",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B312_reference_border_share",
+        "value": 25,
+        "unit": "percent captured CO2 in2030 scenario",
+        "physical_page": 5,
+        "source_token": "25%",
+        "meaning": "Projected cross-border share in reference scenario",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B312_alternative_border_share",
+        "value": 70,
+        "unit": "percent captured CO2 in alternate scenarios",
+        "physical_page": 5,
+        "source_token": "70%",
+        "meaning": "Projected offshore-only/EOR cross-border share; not observed trade",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-13",
+    "reviewed_physical_pages": [
+      2,
+      8,
+      12
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "InfraCCS combines automatic source/sink clustering, candidate pipeline preselection, geographic routing and a tractable multistep network optimisation. Offset-linear capacity costing approximates pipeline economies of scale; a PRIMES/PowerChoices capture scenario drives deployment.",
+    "findings": "Contrasting planning assumptions change projected2050 network length and investment: the displayed cases give11,663km/16.5billionEUR and17,602km/37.2billionEUR. Shared coordinated deployment and timing are therefore established planning components.",
+    "transfer_limits": "These are historical model projections rather than current pipeline inventories, actual permissions or independent injection capacities. Cost per tonne depends on a15% annual capital-charge convention, not a physical emission factor. Original code/network inputs remain necessary for full reproduction.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B313_case1_length2050",
+        "value": 11663,
+        "unit": "km modelled pipeline",
+        "physical_page": 12,
+        "source_token": "11663",
+        "meaning": "Projected2050 Case1 length",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B313_case2_length2050",
+        "value": 17602,
+        "unit": "km modelled pipeline",
+        "physical_page": 12,
+        "source_token": "17602",
+        "meaning": "Projected2050 Case2 length",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B313_case1_investment",
+        "value": 16.5,
+        "unit": "billionEUR cumulative",
+        "physical_page": 12,
+        "source_token": "16.5",
+        "meaning": "Projected2050 Case1 investment",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B313_case2_investment",
+        "value": 37.2,
+        "unit": "billionEUR cumulative",
+        "physical_page": 12,
+        "source_token": "37.2",
+        "meaning": "Projected2050 Case2 investment",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-14",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      7
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Unified multiperiod MILP jointly selects capture retrofits, source-sink allocation and compensatory low-carbon generation under power-cost, timing, injection-rate and cumulative-capacity limits. Emissions from replacement power are deducted from capture benefits; decisions change at time-interval boundaries.",
+    "findings": "The illustrated carbon reduction saturates at68.44% once cost limits reach1.45 or above; additional nominal resource does not always improve storage if injection or cost constraints bind. Temporal source/sink overlap and retrofit technology can determine the allocation. This is direct prior art for matched-output compensation and time-dependent constrained mitigation.",
+    "transfer_limits": "Dimensionless cost and synthetic plant/sink cases do not supply a regional industrial inventory. Static exogenous injection limits are not calibrated pressure feedback. Higher gross capacity can have no effect, so Paper1 must allow null effects rather than force a preferred route.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B314_saturated_reduction",
+        "value": 68.44,
+        "unit": "percent",
+        "physical_page": 7,
+        "source_token": "68.44%",
+        "meaning": "Illustrated maximum carbon-emission reduction",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B314_cost_limit",
+        "value": 1.45,
+        "unit": "relative grid-cost ceiling",
+        "physical_page": 7,
+        "source_token": "1.45",
+        "meaning": "Cost limit where the illustrated benefit levels off",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B314_actual_cost",
+        "value": 1.44,
+        "unit": "relative grid cost",
+        "physical_page": 7,
+        "source_token": "1.44",
+        "meaning": "Reported actual grid cost at that solution",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-15",
+    "reviewed_physical_pages": [
+      2,
+      4,
+      7,
+      12
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "CCTS-Mod minimises discounted capture/certificate, pipeline planning/capacity and storage-investment costs with source mass balances and discrete pipeline additions. It distinguishes treated versus emitted streams and annual injection capacity investment. Regional storage availability and carbon-price scenarios determine whether facilities join the system.",
+    "findings": "Restricted offshore-only storage materially changes rollout and total stored volumes. The model notes that data are difficult to verify and its94Gt storage representation may overestimate exploitable capacity because suitable small/deep/dispersed resources may be uneconomic.",
+    "transfer_limits": "Historical cost/certificate scenarios are not current construction, commercial allocation or full lifecycle mitigation. Variable storage costs are treated as negligible relative to capital, which does not imply zero operating GHG. Annual injection investment remains an exogenous planning representation, not a calibrated reservoir forecast.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B315_total_resource",
+        "value": 94,
+        "unit": "GtCO2 modelled storage resource",
+        "physical_page": 7,
+        "source_token": "94 Gt",
+        "meaning": "Scenario resource total, with explicit overestimation warning",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B315_offshore_total",
+        "value": 2.1,
+        "unit": "GtCO2 over40years",
+        "physical_page": 12,
+        "source_token": "2.1 GtCO2",
+        "meaning": "Reported offshore-only case cumulative storage",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-16",
+    "reviewed_physical_pages": [
+      2,
+      3,
+      9,
+      10
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Constrained differential evolution couples injection/extraction well locations and time-dependent brine rates to reservoir models. It minimises produced-brine/injected-CO2 volume ratio, subject to no CO2 breakthrough at producers and pressure-buildup limits at specified impact zones/faults. Well drilling costs are excluded from the proxy objective.",
+    "findings": "For five heterogeneous realisations and a1MPa fault-pressure-buildup constraint, Table3 gives optimal constant no-brine injection rates1.968,2.739,3.229,2.061 and2.451Mt/y. Optimal brine extraction can support a higher target, but placement and heterogeneity affect extraction volumes and the active number of producers.",
+    "transfer_limits": "These are source-model results, not measured annual deliverability or transferable Japanese pressure limits. The1MPa criterion is a pressure increase at impact zones, not an absolute injection-well cap. Brine treatment/disposal and drilling GHG must be independently quantified; the optimisation objective does not supply them.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B316_pressure_buildup",
+        "value": 1,
+        "unit": "MPa pressure increase at faults",
+        "physical_page": 9,
+        "source_token": "1 MPa",
+        "meaning": "Constraint for Table3 no-brine cases",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B316_rate1",
+        "value": 1.968,
+        "unit": "MtCO2/year",
+        "physical_page": 9,
+        "source_token": "1.968",
+        "meaning": "Realisation1 optimal constant injection without extraction",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B316_rate2",
+        "value": 2.739,
+        "unit": "MtCO2/year",
+        "physical_page": 9,
+        "source_token": "2.739",
+        "meaning": "Realisation2 same quantity",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B316_rate3",
+        "value": 3.229,
+        "unit": "MtCO2/year",
+        "physical_page": 9,
+        "source_token": "3.229",
+        "meaning": "Realisation3 same quantity",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B316_rate4",
+        "value": 2.061,
+        "unit": "MtCO2/year",
+        "physical_page": 9,
+        "source_token": "2.061",
+        "meaning": "Realisation4 same quantity",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B316_rate5",
+        "value": 2.451,
+        "unit": "MtCO2/year",
+        "physical_page": 9,
+        "source_token": "2.451",
+        "meaning": "Realisation5 same quantity",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B316_target_rate",
+        "value": 5,
+        "unit": "MtCO2/year",
+        "physical_page": 9,
+        "source_token": "5 Mt/yr",
+        "meaning": "Higher injection goal for the pressure-management example",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published reservoir simulation design input"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-17",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      9,
+      10
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Review of saline-formation trapping, multiphase/geochemical processes, leakage pathways and economics. It distinguishes structural/stratigraphic and residual trapping from dissolution and mineral precipitation, and explains capillary breakthrough/fracture constraints.",
+    "findings": "Storage safety depends on site-specific pressure, sealing and geochemical conditions. Its reproduced cost/design tables include computed well rates and disparate pressure/thickness/permeability scenarios; they are not operational field measurements. Mineral trapping depends on mineralogy and reaction kinetics rather than an assumed instantaneous permanent fraction.",
+    "transfer_limits": "Global resource ranges and historical secondary costs are not annual service or current permits. Extreme calculated well rates require the original design assumptions before use. No universal retention fraction, leakage distribution or brine-management burden is extracted from narrative trapping descriptions.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-18",
+    "reviewed_physical_pages": [
+      4,
+      6,
+      7
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Transparent screening/ranking framework scores primary containment, secondary containment and attenuation from weighted geological/surface properties. User-assigned quality and confidence scores are kept separate. Illustrative Rio Vista, Ventura and Mammoth Mountain cases compare known geological features.",
+    "findings": "The paper explicitly describes score boundaries as arbitrary and acknowledges that candidate-site characteristics were not directly measured for these demonstrations. Consistent weights are needed for comparisons; greater knowledge can improve the apparent desirability even without changing physical attributes.",
+    "transfer_limits": "Ordinal quality/confidence scores are not leakage probabilities, physical containment guarantees or calibrated pressure limits. They can organise screening but cannot set a retention multiplier or a CVaR distribution. Historical examples do not establish available injection service.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B318_quality_low",
+        "value": -2,
+        "unit": "ordinal score",
+        "physical_page": 4,
+        "source_token": "–2",
+        "meaning": "Poor end of quality rubric, not a probability",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B318_quality_high",
+        "value": 2,
+        "unit": "ordinal score",
+        "physical_page": 4,
+        "source_token": "+2",
+        "meaning": "Excellent end of quality rubric",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B318_confidence_low",
+        "value": 0.1,
+        "unit": "subjective confidence score",
+        "physical_page": 4,
+        "source_token": "0.1",
+        "meaning": "Highly uncertain rubric endpoint",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B318_confidence_high",
+        "value": 2,
+        "unit": "subjective confidence score",
+        "physical_page": 4,
+        "source_token": "2 is very",
+        "meaning": "Very certain rubric endpoint",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-19",
+    "reviewed_physical_pages": [
+      3,
+      8,
+      12
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Applies six transparent high-level storage-resource methods to a common saline-formation dataset and compares both raw capacity and normalised overall efficiency. Methods differ in boundary assumptions, trapping mechanisms, permeability/lithology classes and sustainable-pressure treatment.",
+    "findings": "Open-boundary resource methods are often not statistically distinguishable for the tested formations despite different raw efficiency definitions. The study normalises by formation pore space before comparison, illustrating why copying method-specific efficiencies into another formula can misstate resource.",
+    "transfer_limits": "It excludes site-specific project design and economic/legal access; only selected methods consider injectivity. Its uncertainty intervals are conditional on the common geological dataset and do not supply our local capacity probabilities or annual kr,t. Similar resource estimates do not establish similar safe injection rates.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-20",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      10
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Reservoir simulations compare vertical/horizontal wells and fracture configurations in an Illinois-basin storage/seal model based on FutureGen characterisation. Geometry, permeability/fracture scenarios and pressure-limited injection determine stored mass and plume/trapping behaviour.",
+    "findings": "Table2 shows configuration-dependent cumulative injection and end-of-injection rates: the vertical case13.14Mt/0.68Mt/y versus a6k horizontal case17.54Mt/0.85Mt/y. Fractures can improve access but expand plume extent and possible interaction with conductive pathways; post-injection trapping mechanisms must be assessed separately.",
+    "transfer_limits": "Simulated fractures are not a universal injectivity uplift or approved operating method. End rates and cumulative totals cannot recover an unreported annual curve. Increased storage must be assessed with sealing, fracture propagation, drilling and operating burdens, not only tonnes injected.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B320_vertical_mass",
+        "value": 13.14,
+        "unit": "MtCO2 over source injection interval",
+        "physical_page": 6,
+        "source_token": "13.14",
+        "meaning": "Case-v cumulative simulated injection",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B320_vertical_endrate",
+        "value": 0.68,
+        "unit": "MtCO2/year",
+        "physical_page": 6,
+        "source_token": "0.68",
+        "meaning": "Case-v end-of-injection rate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B320_horizontal_mass",
+        "value": 17.54,
+        "unit": "MtCO2 over source injection interval",
+        "physical_page": 6,
+        "source_token": "17.54",
+        "meaning": "Case-h-6k cumulative simulated injection",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B320_horizontal_endrate",
+        "value": 0.85,
+        "unit": "MtCO2/year",
+        "physical_page": 6,
+        "source_token": "0.85",
+        "meaning": "Case-h-6k end-of-injection rate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-21",
+    "reviewed_physical_pages": [
+      3,
+      9,
+      14
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Comparative legal/governance analysis of EU and China offshore CCS uses doctrinal and discourse analysis through the Collingridge-dilemma lens. It examines binding rules, policy architecture, technology maturity, environmental safeguards and cross-sector coordination.",
+    "findings": "The study contrasts governance pathways rather than supplying a quantified causal deployment model. It proposes adaptive permitting, coordination and economic-incentive mechanisms and identifies unresolved liability, legitimacy and cross-border fragmentation questions.",
+    "transfer_limits": "Policy statements and proposed governance instruments do not establish current authorisation for a named route. London-Protocol developments require jurisdiction/project-specific checks; the review does not allocate capacity or validate physical retention. No permitting delay, probability or emissions factor is inferred.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-22",
+    "reviewed_physical_pages": [
+      4,
+      13,
+      20
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Three-layer energy-law framework compares international, national and local/permitting issues across four European CO2 transport development scenarios. It combines legal assessment with stakeholder engagement and distinguishes cross-border instruments, domestic regulation and local approvals.",
+    "findings": "The2017 legal matrix identifies different barriers for Germany, Belgium, the Netherlands, UK and Norway. Commercial readiness requires available CO2, legal pathways, supportive parties, storage access and a viable business plan; these are separate conditions, not substitutes for one another.",
+    "transfer_limits": "The historical status matrix is not current legal advice or evidence of2026 route approval. Qualitative legal rankings are not quantified commissioning dates, delay distributions or contracted annual storage service. Current treaties, permissions and operator contracts must be verified independently.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-23",
+    "reviewed_physical_pages": [
+      3,
+      8,
+      12
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Genetic-algorithm well-placement optimisation compares a reservoir simulator with ANN proxies and a proxy retrained using new simulator evaluations. The Pohang model tests injector/producer combinations and CO2 breakthrough; offline and online-updated proxy strategies are explicitly compared.",
+    "findings": "Table3.3 shows an offline proxy predicting11.38% improvement while full-physics reevaluation gives3.19%. Updating the proxy reduces disagreement between predicted and simulator-evaluated improvements. This directly supports evaluating a coarse-model selected decision under the more detailed model.",
+    "transfer_limits": "Full-physics validation here is model-to-model, not field validation or proof of global optimality. Cumulative quantities are reported in10^8m3 with their source basis; they are not converted to tonnes without state/composition. The proxy training domain and well-layout constraints cannot be transferred as universal injectivity.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B323_offline_initial",
+        "value": 1.7045,
+        "unit": "10^8m3 as reported",
+        "physical_page": 12,
+        "source_token": "1.7045",
+        "meaning": "Case2 proxy initial cumulative CO2",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B323_offline_optimal",
+        "value": 1.8985,
+        "unit": "10^8m3 as reported",
+        "physical_page": 12,
+        "source_token": "1.8985",
+        "meaning": "Case2 proxy optimal cumulative CO2",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B323_physics_initial",
+        "value": 1.8415,
+        "unit": "10^8m3 as reported",
+        "physical_page": 12,
+        "source_token": "1.8415",
+        "meaning": "Case2 full-physics initial quantity",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B323_physics_optimal",
+        "value": 1.9002,
+        "unit": "10^8m3 as reported",
+        "physical_page": 12,
+        "source_token": "1.9002",
+        "meaning": "Case2 full-physics reevaluated optimum",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B323_proxy_gain",
+        "value": 11.38,
+        "unit": "percent",
+        "physical_page": 12,
+        "source_token": "11.38%",
+        "meaning": "Reported proxy improvement",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B323_physics_gain",
+        "value": 3.19,
+        "unit": "percent",
+        "physical_page": 12,
+        "source_token": "3.19%",
+        "meaning": "Reported full-physics improvement",
+        "status": "ACCEPTED_FOR_STATED_BENCHMARK",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-24",
+    "reviewed_physical_pages": [
+      3,
+      9,
+      14
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Coupled/harmonised national MARKAL and regional TIMES-PanEU energy-system models compare least-cost CCS under energy-service demands, trade, fuel-price and storage scenarios. Optimisation uses perfect foresight and five-year steps from2010 to2050; key economic/technology assumptions are harmonised while national policies and demand can differ.",
+    "findings": "National and regional models yield different projected CCS deployment, partly from nuclear-policy, fuel/technology and trade assumptions. The discussed2050 captured quantities are474Mt in national runs versus569Mt in the regional model, with country-specific storage allocations.",
+    "transfer_limits": "These are historical energy-system scenarios, not actual2050 operating commitments or a controlled CO2-route-only comparison. Differences cannot be assigned solely to transport or injectivity because energy mixes/policies also change. No ship fuel curve, site-pressure validation or current capacity allocation follows.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B324_national2050",
+        "value": 474,
+        "unit": "MtCO2 in2050 model-year output",
+        "physical_page": 9,
+        "source_token": "474 MtCO2",
+        "meaning": "Projected national-model captured quantity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B324_regional2050",
+        "value": 569,
+        "unit": "MtCO2 in2050 model-year output",
+        "physical_page": 9,
+        "source_token": "569 MtCO2",
+        "meaning": "Projected TIMES-PanEU captured quantity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-25",
+    "reviewed_physical_pages": [
+      3,
+      9,
+      14
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Component-based cooperative cost-allocation model represents heterogeneous network-user requirements and derives an equal-component sharing rule with scaling and coalitional-rationality properties. A stylised Rotterdam transport/conditioning network illustrates the component decomposition.",
+    "findings": "Tables map onshore/offshore radius, capacity classes and conditioning levels to shared components and player groups. The later cost tables explicitly use older ZEP/JRC estimates to demonstrate relative scaling, while warning that absolute costs may no longer be accurate.",
+    "transfer_limits": "Requirement levels1/2 are categorical in several dimensions, not physical Mt/y or pressure. Cost-allocation fairness is distinct from physical feasibility, lifecycle GHG allocation or a commercial tariff. Do not use the tables as current asset-emission or capacity data.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-26",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      8
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Scottish industrial-cluster feasibility/cost study combines2014 point-source emissions, estimated technically capturable fractions, feeder connections and potential reuse of existing gas pipelines. It evaluates clustering and capacity expansion rather than inferring that all site emissions can be captured.",
+    "findings": "Table2 distinguishes5.68Mt/y emitted from4.19Mt/y estimated capture, with site-specific assumed fractions. Existing Feeder10 nominal unboosted3.5Mt/y and theoretical10Mt/y gas-phase capacities imply different infrastructure needs. Feeder8 availability is expressly unconfirmed.",
+    "transfer_limits": "Historical source inventories and theoretical pipeline reuse are not current permission or contracted access. Capture fractions are engineering estimates, not a universal90% multiplier. CAPEX/cost savings are not lifecycle GHG, and boosting/conditioning requirements must be resolved before treating a reused line as available transport.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B326_emissions",
+        "value": 5.68,
+        "unit": "MtCO2/year",
+        "physical_page": 6,
+        "source_token": "5.68",
+        "meaning": "Selected2014 site total emissions",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B326_capture",
+        "value": 4.19,
+        "unit": "MtCO2/year estimated",
+        "physical_page": 6,
+        "source_token": "4.19",
+        "meaning": "Selected sites estimated capture",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B326_nominal_pipe",
+        "value": 3.5,
+        "unit": "MtCO2/year nominal unboosted",
+        "physical_page": 8,
+        "source_token": "3.5 Mt",
+        "meaning": "Feeder10 scenario capacity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B326_theoretical_pipe",
+        "value": 10,
+        "unit": "MtCO2/year theoretical gas-phase",
+        "physical_page": 8,
+        "source_token": "10 Mt",
+        "meaning": "Theoretical upper configuration, not confirmed operating service",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-28",
+    "reviewed_physical_pages": [
+      4,
+      12,
+      15,
+      16
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Marine-CCS review covers CO2 phase/heat-transfer behaviour, liquefaction cycles, transport concepts, BOG recovery and integrated vessel control. It compares cold-energy, ammonia/refrigerant and other integrated options and distinguishes simulation studies from shipboard evidence.",
+    "findings": "The synthesis identifies coupled propulsion/reliquefaction/auxiliary modelling, standardised specific-energy boundaries and long-term sea trials as unresolved needs. Claimed benefits depend on ambient conditions, pressure, fuel-side cooling availability and impurities; many proposed controls remain simulation-based.",
+    "transfer_limits": "Secondary cross-study percentage savings are not directly comparable to primary matched-feed cases. LNG/ammonia cold-energy benefits cannot be transferred to a distillate-only ship with no such integration. The review supplies neither actual voyage duty nor validated wave/operating limits for our design.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-30",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      9
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Life-cycle shipping model explores interconnected LPG/CO2 cargo systems with four boundary conventions. Vessel engine work, lifetime utilisation, construction and operation feed emissions/cost calculations. One boundary treats both materials as cargo; another includes downstream LPG carbon/source and CO2 sink effects.",
+    "findings": "The reported combined-cargo shipping factor0.048tCO2/t-cargo has a different denominator/boundary from stored-source CO2. The CO2-only example reports0.67Mt emissions and7.43Mt transported over its lifetime. Changing financial discount rates changes costs/profit but leaves physical transported/emitted quantities unchanged.",
+    "transfer_limits": "A multi-cargo factor cannot be inserted as a per-tonne-stored or universal international CO2 factor. Tanker operating-cost proxies and country electricity assumptions remain source-specific. Cargo carbon must not be reclassified as independent transport emissions or avoided source emissions without a matched counterfactual.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B330_combined_factor",
+        "value": 0.048,
+        "unit": "tCO2/t combined cargo",
+        "physical_page": 9,
+        "source_token": "0.048",
+        "meaning": "Combined-LPG/CO2 shipping factor, distinct functional unit",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B330_CO2only_emission",
+        "value": 0.67,
+        "unit": "MtCO2 lifetime shipping",
+        "physical_page": 6,
+        "source_token": "0.67",
+        "meaning": "Reported CO2-only ship emissions",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B330_CO2only_transport",
+        "value": 7.43,
+        "unit": "MtCO2 lifetime cargo",
+        "physical_page": 6,
+        "source_token": "7.43",
+        "meaning": "Reported CO2-only transported quantity",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-31",
+    "reviewed_physical_pages": [
+      3,
+      4,
+      5,
+      6,
+      10
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Industrial capture process models span target-stream5/10/15/94mol% CO2 and multiple flow scales. Low-concentration cases use30wt% MEA,95% design capture and natural-gas cogeneration supplying parasitic heat/electricity; high-purity cases use dehydration/compression with grid electricity and a small gas boiler. Capturing cogeneration CO2 is a distinct larger system.",
+    "findings": "Coupled mass/carbon/energy balances show why capturing cogeneration emissions increases capture equipment/load and changes the functional denominator. The text reports about3.6GJ/t heat for low-concentration MEA cases and93% HHV cogeneration efficiency(84%steam,9%electricity). Compression reaches86barg before pumping to110barg; these are not ship-liquefaction conditions.",
+    "transfer_limits": "Cost correlations by concentration/technology maturity are not lifecycle factors. Simulation capacities are full8760h design equivalents, not actual plant calendars. Pretreatment is not physically generalised and key process/equipment details are in unsupplied SI. Do not add grid or heat-supply emissions on top of the same cogeneration supply or apply capture fraction twice.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B331_MEA",
+        "value": 30,
+        "unit": "wt percent in water",
+        "physical_page": 4,
+        "source_token": "30 wt%",
+        "meaning": "Published solvent formulation",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B331_capture_design",
+        "value": 95,
+        "unit": "percent",
+        "physical_page": 4,
+        "source_token": "95%",
+        "meaning": "Low-concentration design capture",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B331_compressor_pressure",
+        "value": 86,
+        "unit": "barg",
+        "physical_page": 5,
+        "source_token": "86 barg",
+        "meaning": "Compression-stage outlet",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B331_pump_pressure",
+        "value": 110,
+        "unit": "barg",
+        "physical_page": 5,
+        "source_token": "110 barg",
+        "meaning": "Final pump pressure",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B331_heat_approx",
+        "value": 3.6,
+        "unit": "GJ/tCO2 approximately",
+        "physical_page": 6,
+        "source_token": "3.6 GJ/tCO",
+        "meaning": "Reported approximate parasitic heat for low-concentration cases",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B331_cogen_HHV",
+        "value": 93,
+        "unit": "percent",
+        "physical_page": 6,
+        "source_token": "93%",
+        "meaning": "Cogeneration totalHHV efficiency; not a boiler-only efficiency",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-32",
+    "reviewed_physical_pages": [
+      3,
+      11,
+      17
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Whole-chain financial comparison uses discounted NPV and real-options analysis for coal-plant capture, ship/offshore-pipeline transport and storage. Options include capture shutdown, abandonment and switching reservoir under uncertain prices, utilisation and storage volumes. Continuous liquefaction and batch shipping require temporary storage.",
+    "findings": "Flexible decisions can change project value and ship-versus-pipeline investment decisions. The financial model is compared with literature cost cases and shows why matching electricity/fuel assumptions changes reported levelised transport costs. Reservoir exhaustion and abandonment probabilities are conditional model outputs.",
+    "transfer_limits": "Option values and financial scenario probabilities are not measured maritime reliability, pressure-limited injection or a lifecycle climate optimum. Historical2010-price component assumptions and20–40% flashed-gas recirculation descriptions do not imply atmospheric vent losses. Storage access and energy-state compatibility still need separate evidence.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-33",
+    "reviewed_physical_pages": [
+      3,
+      8,
+      14
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Nordic transport study compares ship and pipeline costs across volumes/distances, selected source hubs and alternative storage sites with different injectivity. It examines ramp-up, pipeline underutilisation and cluster scale using historical regional source inventories.",
+    "findings": "For a500km/10Mtpa pipeline example,25% utilisation for the first ten years increases specific cost from8.4 to16.1EUR/t versus immediate full utilisation. More injective distant sinks and flexible shipping can be financially attractive; outcomes depend on network/cost assumptions and buildup of connected volumes.",
+    "transfer_limits": "These are cost and scenario comparisons, not whole-chain climate rankings. Early utilisation does not determine ship fuel intensity or weather availability. Historical sources and candidate sites do not establish current capture contracts or injection access; no economic break-even distance becomes a carbon break-even distance.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B333_full_cost",
+        "value": 8.4,
+        "unit": "EUR/tCO2 transport",
+        "physical_page": 8,
+        "source_token": "8.4",
+        "meaning": "Illustrative full-utilisation pipeline cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B333_ramp_cost",
+        "value": 16.1,
+        "unit": "EUR/tCO2 transport",
+        "physical_page": 8,
+        "source_token": "16.1",
+        "meaning": "25% first-ten-year utilisation case cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-34",
+    "reviewed_physical_pages": [
+      3,
+      5,
+      7
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Conceptual maritime chain uses HYSYS conditioning/liquefaction, a designed30,000m3 carrier, receiving/injection equipment and onshore/offshore options. Two storage-state alternatives and several refrigeration/propulsion options are compared; integer ship additions matter.",
+    "findings": "The selected economic case uses-30C/15bar. Offshore unloading/injection uses5.2MW in the stated design with a24hour maximum on-station constraint. Reported350km/1100km financial crossovers differ by offshore versus harbour-to-harbour pipeline comparison.",
+    "transfer_limits": "The technical design and old-vintage cost assumptions do not establish an actual fleet, universal offshore availability or a carbon break-even distance. Vessel-specific pumping power cannot be applied throughout every phase or transferred to another tank size/state without engineering support. No wave shutdown probability is inferred.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B334_offshore_power",
+        "value": 5.2,
+        "unit": "MW design unloading/injection",
+        "physical_page": 5,
+        "source_token": "5.2 MW",
+        "meaning": "Published30,000m3 design duty",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B334_onstation",
+        "value": 24,
+        "unit": "hours maximum in stated design",
+        "physical_page": 5,
+        "source_token": "24 h",
+        "meaning": "Offshore on-station constraint, not an annual weather calendar",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B334_offshore_cost_cross",
+        "value": 350,
+        "unit": "km financial crossover",
+        "physical_page": 7,
+        "source_token": "350 km",
+        "meaning": "Study-specific ship/offshore-pipeline cost comparison",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B334_onshore_cost_cross",
+        "value": 1100,
+        "unit": "km financial crossover",
+        "physical_page": 7,
+        "source_token": "1100 km",
+        "meaning": "Study-specific harbour/onshore-pipeline cost comparison",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-40",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      9
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Pressure-limited US saline-formation assessment assigns equally spaced injection wells and uses3D TOUGH2-ECO2N simulations with geological properties and an80%-of-fracture-pressure constraint. Injection fronts/interference, hydrocarbon-reservoir coverage and economic minimum-rate screens govern aggregate development scenarios.",
+    "findings": "The reported Group3-and-higher rates change from1596.8 to682.7 to273.7Mt/y across hydrocarbon-reservoir handling scenarios. The250kt/y/well cutoff is an economic-development filter, not a physical minimum. Pressure-limited capacity is distinct from pore-volume resource and depends on well-development assumptions.",
+    "transfer_limits": "National aggregate rates and25km spacing do not establish site service, local fracture limits, existing wells or commercial access. Published simulation outputs are useful independent pressure-constrained benchmarks, but a complete annual kr,t array and underlying realisations are not supplied. Constant50-year development scenarios are not observed operations.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B340_fracture_fraction",
+        "value": 80,
+        "unit": "percent fracture-pressure modelling constraint",
+        "physical_page": 3,
+        "source_token": "80%",
+        "meaning": "Source-model pressure criterion; not transferred to Tomakomai",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B340_spacing",
+        "value": 25,
+        "unit": "km each grid direction",
+        "physical_page": 3,
+        "source_token": "25 km by 25 km",
+        "meaning": "Assumed development spacing",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B340_economic_cutoff",
+        "value": 250000,
+        "unit": "tCO2/year per well",
+        "physical_page": 6,
+        "source_token": "250,000",
+        "meaning": "Economic threshold for screened development groups",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B340_scenario1_rate",
+        "value": 1596.8,
+        "unit": "MtCO2/year national model aggregate",
+        "physical_page": 9,
+        "source_token": "1596.8",
+        "meaning": "Group3+ Scenario1 simulated rate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B340_scenario2_rate",
+        "value": 682.7,
+        "unit": "MtCO2/year national model aggregate",
+        "physical_page": 9,
+        "source_token": "682.7",
+        "meaning": "Group3+ Scenario2 simulated rate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B340_scenario3_rate",
+        "value": 273.7,
+        "unit": "MtCO2/year national model aggregate",
+        "physical_page": 9,
+        "source_token": "273.7",
+        "meaning": "Group3+ Scenario3 simulated rate",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-43",
+    "reviewed_physical_pages": [
+      3,
+      7,
+      11
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Two-stage stochastic CCS deployment framework compares expected cost with variability, probabilistic financial risk and downside-risk metrics. Discrete capture/network decisions couple scenarios, while epsilon constraints trace economic-versus-risk tradeoffs for uncertain carbon-tax conditions.",
+    "findings": "Risk-metric selection changes the types of costly scenarios penalised and the resulting design. Threshold-dependent probabilistic/downside criteria reflect decision-maker preferences; computational difficulty differs with binary risk indicators. The study motivates explicit risk definitions rather than an undefined generic uncertainty score.",
+    "transfer_limits": "Financial scenario probabilities/subjective thresholds are not empirical failure probabilities, uncertain physical injectivity distributions or a probability of climate benefit. This is prior art for risk-aware planning, not site calibration or a complete lifecycle comparison. No distribution is imported into Paper1.",
+    "numeric_records": []
+  },
+  {
+    "study_id": "B3-44",
+    "reviewed_physical_pages": [
+      3,
+      6,
+      8
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "SimCCS combines least-cost geographic candidate-network generation with a MILP for source/reservoir opening, discrete pipeline sizes and flow conservation. Source/sink bounds and a system-wide capture target are linked in one atemporal infrastructure decision.",
+    "findings": "The California demonstration uses37 major sources and14 oil-field reservoirs. Aggregation creates cost economies, but the paper explicitly states pipeline construction costs were artificially reduced to emphasise network capabilities. It also states the2009 model is atemporal and each target is reoptimised from scratch.",
+    "transfer_limits": "Low transport cost is not a transferable realistic price or GHG factor. Approximate radial-injectivity/property formulas have stated domains and do not resolve time-dependent pressure fronts. Original site data/code are needed for exact case reproduction; later dynamic SimCCS versions are not the same original model.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B344_sources",
+        "value": 37,
+        "unit": "sources in illustrative case",
+        "physical_page": 6,
+        "source_token": "37 largest",
+        "meaning": "California demonstration source count",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B344_reservoirs",
+        "value": 14,
+        "unit": "reservoirs in illustrative case",
+        "physical_page": 6,
+        "source_token": "14 largest",
+        "meaning": "California demonstration oil-field reservoir count",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  },
+  {
+    "study_id": "B3-45",
+    "reviewed_physical_pages": [
+      4,
+      9,
+      13
+    ],
+    "review_scope": "Targeted full-text methods/results review; not exhaustive numeric/supplement extraction",
+    "methods": "Europe-wide economic MILP designs capture at steel/cement/refinery sources, pipeline/ship routes and onshore/offshore storage. Country-specific versus collective European capture targets and storage restrictions are compared; sector-specific capture and multimodal costs enter the supply-chain objective.",
+    "findings": "Offshore-only scenarios require more expensive transport and injection despite similar capture cost. Country-level and Europe-wide targets can change which sources capture CO2, not merely their destination. The paper highlights transnational cooperation requirements alongside economic savings.",
+    "transfer_limits": "Cost-optimal source selection changes composition, so it is not a matched-source climate comparison. Representing all CCS stages economically does not provide complete lifecycle GHG. Ship-unit-cost sensitivity and projected fleets do not validate operational schedules, pressure-constrained annual service or actual cross-border access.",
+    "numeric_records": [
+      {
+        "value_id": "deep_B345_steel_sources",
+        "value": 25,
+        "unit": "industrial nodes",
+        "physical_page": 4,
+        "source_token": "25 iron",
+        "meaning": "Steel facilities represented in the model",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B345_offshore_total_cost",
+        "value": 81.4,
+        "unit": "EUR/tCO2",
+        "physical_page": 9,
+        "source_token": "81.4",
+        "meaning": "Reported offshore-only total cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B345_offshore_transport_cost",
+        "value": 14.3,
+        "unit": "EUR/tCO2",
+        "physical_page": 9,
+        "source_token": "14.3",
+        "meaning": "Same scenario transport cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      },
+      {
+        "value_id": "deep_B345_offshore_storage_cost",
+        "value": 18,
+        "unit": "EUR/tCO2",
+        "physical_page": 9,
+        "source_token": "18.0",
+        "meaning": "Same scenario sequestration cost",
+        "status": "CONTEXT_ONLY_UNTIL_MATCHED",
+        "evidence_type": "Published study input/output; see stated context"
+      }
+    ]
+  }
+]

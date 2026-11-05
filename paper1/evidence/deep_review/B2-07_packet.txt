@@ -1,0 +1,203 @@
+From point-to-point to hub-and-cluster a systematic review of co-optimization of source–sink matching and transport networks for large-scale CO2 sequestration
+
+PHYSICAL_PAGE 3
+Hu et al.                                                                                                                                                  10.3389/fenvs.2026.1966624
+
+
+
+
+TABLE 1 Comparison with representative reviews and the verifiable incremental scope of this study.
+
+
+
+     Review                  Primary scope                   SSM           Network                  Hubs/              AI/digital                  Audit and quantitative
+                                                                            design                 clusters              twins                            evidence
+ Tapia et al. (2018)    CCUS optimization and                Partial    Partial                 Limited              No                     Narrative taxonomy
+                        decision models
+
+ Sleiti et al. (2022)   CO2 pipeline engineering,            No         Yes                     Partial              Digital-twin           Engineering comparison
+                        safety, cost                                                                                 concept
+
+ Yao et al. (2025)      Offshore storage from a              Yes        Partial                 Partial              No                     Domain synthesis
+                        source–sink perspective
+
+ Lin et al. (2026)      Source–sink matching                 Yes        Partial                 Yes                  Partial                Comparative tables
+
+ Rahmanta et al.        Mathematical CCUS-network            Yes        Yes                     Partial              Limited                Model taxonomy
+ (2026)                 models
+
+ Present review         Coupled SSM–network                  Yes        Yes                     Yes                  Critical evidence      PRISMA-guided 17-study direct-evidence
+                        planning                                                                                     appraisal              synthesis + SI extraction matrix
+
+“Partial” indicates that a topic is discussed but is not the organizing focus. The comparison concerns scope and reporting features, not journal quality or citation impact.
+
+
+source-sink matching and transport network optimization.                                                A reproducible database search and screening workflow was
+However, current applications remain largely localized and                                         used. The Search Methodology subsection reports the databases,
+scenario-specific, and no integrated optimization framework has                                    search date, search strings, deduplication rule, operational eligibility
+yet been established to coordinate source-sink matching, transport                                 criteria, screening counts, and evidence-coding protocol (Table 2).
+network design, and operational scheduling throughout the                                          The PRISMA 2020 flow diagram is presented in Figure 2; the
+planning and operation process (Gahlot et al., 2025; Li et al., 2025).                             complete search record, exclusion log, and direct-evidence matrix
+     Recent reviews provide complementary accounts of SSM                                          are provided in the Supplementary Material.
+progress, CCUS-network modelling, and regional application (Lin                                         This synthesis contributes an evidence-based comparison of
+et al., 2026; Rahmanta et al., 2026; Table 1). This review addresses a                             integrated CCUS planning approaches. It defines co-optimization
+narrower question: how source allocation, shared transport topology                                through explicit links among source allocation, network design,
+and capacity, and operational feasibility are represented jointly in                               operational flow, and storage constraints; distinguishes sequential,
+planning models. Its contribution is an explicit evidence framework                                monolithic, and decomposition-based coordination; and evaluates
+that distinguishes sequential, jointly optimized, and decomposition-                               methods according to the evidence reported for feasibility, solution
+based coordination, and separates demonstrated CCUS results from                                   quality, computational performance, and predictive or monitoring
+transferable or prospective AI and digital-twin capabilities. It does                              capability. The cross-study comparison is based on a transparent 17-
+not infer a universal method ranking where direct comparative                                      study direct-evidence subset; the remaining references provide
+evidence is unavailable. The overall logical structure of this review                              contextual, methodological, physical, governance, or prospective
+and the relationships among core concepts are illustrated in Figure 1.                             evidence.
+
+                                                                                                   2.2 Search methodology
+2 Methods
+                                                                                                        A de novo search was conducted in Web of Science Core
+2.1 Review design                                                                                  Collection and Scopus on 16 September 2026. The search
+                                                                                                   combined CCUS/CCS terms with source-sink matching or
+     This review examines two coupled CCUS infrastructure-                                         allocation, CO2 transport-network or hub/cluster terms, and
+planning problems: source–sink matching (SSM) and CO2                                              optimization or planning terms. No year, language, document-
+transport-network optimization. It asks how published studies                                      type, subject-area, or open-access filters were applied. The
+jointly represent source allocation, network topology and                                          complete database-specific strings are reported in Supplementary
+capacity, CO2 flow, and storage availability, and what evidence                                    Table S1a. The search identified 518 Web of Science records and
+supports the use of alternative solution methods.                                                  1,051 Scopus records (n = 1,569 before deduplication).
+     The review defines the scope and evolution of SSM, from point-to-                                  Records were deduplicated using DOI as the primary identifier;
+point connections to multi-source, multi-sink, and hub-and-cluster                                 where at least one record lacked a DOI, exact normalized title and
+configurations. It then examines transport-network optimization,                                   publication year were used. A total of 427 duplicates were removed,
+including transport modes, route and capacity decisions, physical                                  leaving 1,142 unique records for title-and-abstract screening. Direct-
+constraints, and governance conditions. The synthesis compares                                     evidence eligibility was defined at the study level and applied to each
+mathematical programming, decomposition, metaheuristics,                                           full-text report. A report qualified only when it (i) examined a
+uncertainty treatment, and emerging data-driven approaches, while                                  CCUS/CCS system containing identifiable CO2 sources and
+distinguishing established applications from prospective methods.                                  geological storage sinks; (ii) presented a quantitative planning or
+
+
+
+Frontiers in Environmental Science                                                            03                                                                               frontiersin.org
+
+
+PHYSICAL_PAGE 13
+Hu et al.                                                                                                                                           10.3389/fenvs.2026.1966624
+
+
+
+
+TABLE 4 Representative deployment and model scales relevant to integrated planning.
+
+
+
+            Case/study                  Region and status                    Sources/sinks                Reported transport scale                   Planning implication
+                                           (audit date)
+ Porthos (2026)                         Rotterdam–North Sea;            Multiple port emitters/           >30 km onshore + >20 km offshore;         Shared trunk capacity and
+                                        construction in progress        depleted gas fields               avg. 2.5 Mt a−1; 37 Mt storage            phased access
+
+ Northern Lights (Equinor, 2026)        Norway/ cross-border;           Multiple ship-delivered           1.5 Mt a−1 Phase 1; ~100 km subsea;       Ship–hub–pipeline
+                                        Phase 1 completed               emitters/offshore reservoir       expansion to ≥5 Mt a−1                    coordination and reservation
+
+ Summit Carbon Solutions (Iowa          US Midwest; proposed/           Dispersed biogenic sources/       Iowa filing: ~688 miles, 6–24 inch        Route approval and stakeholder
+ Utilities Commission, 2026)            permitting                      geological storage                                                          constraints
+
+ Li et al. (2024)                       China; planning model           1,186 sources/329 sinks           ~80,700 km candidate/shared layout        National-scale geospatial and
+                                                                                                                                                    combinatorial burden
+
+Project status was checked on 4 August 2026. Project figures describe different system boundaries and are not cost-performance benchmarks. DN, nominal diameter.
+
+
+
+
+    FIGURE 7
+    Applicability map of CO2 transport modes.
+
+
+
+
+their high upfront capital requirements make economic                                         et al., 2025). Therefore, while pipelines remain preferable in
+performance highly dependent on transport volume and network                                  concentrated, high-throughput settings, dispersed or complex
+utilization. Consequently, pipelines are best suited to regions with                          cross-regional systems may require multimodal configurations
+concentrated emission sources, stable demand, and clearly identified                          combining pipelines with shipping, rail, or road transport.
+storage sites (Bogs et al., 2026).                                                                CO2 gathering hubs can integrate dispersed emission sources
+     Shipping, rail, and road transport are more appropriate for low-                         and connect pipelines with rail or shipping to form multimodal
+volume flows, dispersed sources, and early-stage demonstration                                transport networks, thereby improving system flexibility while
+projects (Al Baroudi et al., 2021). Shipping offers flexible routing                          reducing overall transport costs (Hyypiä et al., 2026). In hard-to-
+and relatively low initial investment, making it suitable for offshore                        abate sectors and cross-regional deployments, multimodal transport
+and long-distance transport or for regions lacking established                                and coordinated regional optimization have become important
+pipeline networks (Global CCS Institute, 2025c). Coastal shipping                             means of enhancing CCUS system resilience (Kattel et al., 2026).
+demand has also been studied in a broader transport context                                   Table 5 compares the applicable conditions, cost structures, key
+(Schrobback et al., 2024). Rail and road transport are better suited                          technical parameters, and typical applications of different CO2
+to short-distance, small-scale, or temporary CO2 transfer; however,                           transport modes. Pipelines are most suitable for large-scale
+their limited carrying capacity, service frequency, and higher unit                           continuous transport, shipping for cross-regional transport and
+costs restrict their use for continuous large-scale transport (Uddin                          offshore storage, and rail and road transport for small-scale or
+
+
+
+Frontiers in Environmental Science                                                       13                                                                         frontiersin.org
+
+
+PHYSICAL_PAGE 21
+Hu et al.                                                                                                               10.3389/fenvs.2026.1966624
+
+
+
+
+optimization states must share traceable interfaces, while                   5.5 Priority research questions and
+uncertainty calibration and a safety filter define which actions             evaluation priorities
+may be automated. Early digital-shadow and pipeline-twin
+studies provide components of this architecture, but not yet full              RQ1. How can physically valid co-optimization be scaled to
+closed-loop assurance (Gahlot et al., 2025; Sleiti et al., 2022).              national systems? Existing studies screen large source–sink
+    Multi-agent reinforcement learning is likely to emerge where               sets or model selected capacity and injectivity risks, but do
+emitters, transport operators, and storage providers retain separate           not jointly demonstrate scale, discrete expansion, and dense-
+information and objectives. Agents could coordinate capacity                   phase hydraulics (Li et al., 2024; Xiang et al., 2026; Kattel et al.,
+reservation, routing, and injection through shared prices or                   2026). Benchmarks exceeding 1,000 sources and 300 sinks should
+constraints, extending agent-based multimodal and Markov-game                  report feasibility, hydraulic residuals, phase violations, runtime,
+approaches (Uddin et al., 2025; Chen and Hosseini, 2026). Progress             memory, optimality gaps, and sensitivity to hydraulic
+will depend on constrained learning, privacy-preserving                        approximations.
+coordination, stable behavior under entry or failure, and                      RQ2. How should adaptive investment respond to uncertainty
+comparison with centralized optimization; unconstrained reward                 and disruption? Multi-period, robust, and minimum-regret
+maximization is not adequate for safety-critical operation.                    models capture selected uncertainties but rarely link new
+    Carbon-market-driven network evolution is expected to become               information to recourse and multimodal recovery (Budiarto
+a central planning paradigm as carbon prices, contracts, tax credits,          et al., 2025; Bogs et al., 2026; Olson and Yaw, 2025). Matched
+and third-party-access tariffs affect when emitters connect and                scenario trees should compare expected and worst-case cost,
+whether shared capacity is bankable. Future models will likely                 regret, stranded capacity, service shortfall, recovery time, and
+integrate market clearing, cooperative cost allocation, and                    value of information against static and perfect-
+infrastructure expansion across scenarios rather than treating                 information baselines.
+carbon price as a single exogenous trajectory. Evaluation should               RQ3. Which governance mechanisms can sustain shared,
+distinguish efficient network design from distributive outcomes by             multi-owner CCUS networks? Hub and cross-border
+reporting utilization, stranded capacity, cost recovery, and                   studies highlight shared capacity but generally treat tariffs,
+stakeholder-specific gains (Bogs et al., 2026; Wang et al., 2026;              access, and cost allocation as exogenous (Sun et al., 2021;
+Yiallourides et al., 2026).                                                    Uddin et al., 2025; Yiallourides et al., 2026). Candidate
+    Integration with hydrogen and CCS hubs may transform                       mechanisms should be assessed for budget balance,
+corridor planning by coupling CO2 capture and transport with                   individual rationality, coalition stability, incentive
+hydrogen supply, synthetic-fuel production, ports, and shared                  compatibility, utilization, cost recovery, emissions served,
+energy infrastructure. Cement–methanol co-production illustrates               and distributional outcomes.
+potential cross-vector synergies, while hub studies show the                   RQ4. How should AI-enabled methods be benchmarked
+importance of aggregation and staged connections (He et al.,                   against optimization baselines? DRL, PINNs, graph learning,
+2026; Sun et al., 2021). These synergies should not be assumed:                and surrogates show case-specific promise, but no common
+joint models must account for incompatible operating profiles,                 CCUS protocol accounts for training, inference, and feasibility
+energy penalties, additional dependencies, and alternative uses of             repair (Fang et al., 2025; Gahlot et al., 2025; Karniadakis et al.,
+scarce low-carbon hydrogen.                                                    2021; Mazhar et al., 2026). Studies should report hardware,
+    Quantum-assisted optimization is the most speculative                      data, seeds, total computational effort, feasible-solution rates,
+direction. No study in the audited 86-reference corpus                         repair time, objective gaps, calibration, and out-of-distribution
+demonstrates a quantum advantage for a realistic CCUS                          performance.
+network. A defensible near-term research program would                         RQ5. What evidence is required before digital twins can
+therefore test hybrid quantum–classical routines only on                       support closed-loop decisions? Existing digital shadows
+clearly defined subproblems—such as candidate-arc selection                    and pipeline twins support monitoring and state
+or scenario sampling—and compare solution quality, total                       estimation but do not establish safe multi-operator control
+elapsed time, scaling, and energy use with strong classical                    (Gahlot et al., 2025; Sleiti et al., 2022). Validation should
+solvers. Forecasts should remain conditional until hardware                    cover sensing and latency, estimation error, uncertainty
+limits, encoding overhead, and reproducibility are addressed.                  calibration, fault detection, system uptime and
+    Overall, the reviewed evidence supports coupled planning of                interoperability, human override, auditability, and
+source allocation, transport capacity, and storage use, with                   degradation under missing or corrupted data.
+mathematical programming providing the most auditable
+basis for strategic decisions. It does not establish a general
+advantage for metaheuristics, AI, or digital twins, because                  Data availability statement
+comparable evidence on solution quality, computational
+effort, and operational robustness remains limited. Priority                     Publicly available datasets were analyzed in this study. This
+advances include physically valid large-scale benchmarks,                    data can be found here: All data were extracted from previously
+adaptive planning under uncertainty, and governance-aware                    published peer-reviewed journal articles and conference
+shared-infrastructure models. The five research questions                    proceedings cited in the reference list. No new data were
+below translate these needs into measurable evaluation                       generated by the authors, and no centralized data repository
+priorities.                                                                  or accession numbers are associated with this study. The original
+
+
+
+Frontiers in Environmental Science                                      21                                                            frontiersin.org

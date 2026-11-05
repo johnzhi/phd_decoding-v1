@@ -1,0 +1,245 @@
+CCS in the North Sea region A comparison on the cost-effectiveness of storing CO2 in the Utsira formation at regional and national scales
+
+PHYSICAL_PAGE 2
+1518                                N. Strachan et al. / International Journal of Greenhouse Gas Control 5 (2011) 1517–1532
+
+
+conﬁrm that the degree and speed of CCS penetration in the world                  et al., 2007). In the ﬁrst case, most studies fail to include speciﬁc
+power generation mix is dependent on the climate targets estab-                   local technical, economic, political or physical constraints, mak-
+lished (e.g. no policy, 450 ppm, 550 ppm).                                        ing it difﬁcult for local stakeholders and policy makers to interpret
+    The deployment of CCS will require an efﬁcient and cost-                      the signiﬁcance of the results. In the second case, the develop-
+effective CO2 pipeline, or network of pipelines, connecting                       ment of the national energy systems (including CCS) are mostly
+signiﬁcant sources of CO2 with potential CO2 sinks. Three types                   optimized for local conditions disregarding the inﬂuence of devel-
+of sinks are considered as having the largest potential for CO2 stor-             opments taken place outside the national frontiers. In comparison
+age: deep saline formations (aquifers), depleted oil ﬁelds and gas                to these cases as well as the studies cited earlier, an assessment
+ﬁelds (IPCC, 2005). They will most likely play different roles in the             of the cost-effectiveness of storage of external CO2 storage options
+(possible) development of a CO2 infrastructure; due to differences                such as Utsira as both part of national and regional strategies will
+in costs, capacity, time availability, etc. There is greater geologi-             provide further insights into the feasibility of this option.
+cal uncertainty over the potential to store CO2 in saline aquifers                    The aim of this study is to investigate the role of CCS – and specif-
+(compared to depleted oil and gas ﬁelds). To date saline aquifers                 ically shared regional North Sea storage resources such as the Utsira
+have not been well characterized geologically because of their lim-               formation in long-term decarbonisation pathways at the national
+ited economic value. Nonetheless, they are regarded as a key part of              and regional level. The paper focuses on countries in the North
+CCS deployment because: (i) they are widely distributed around the                Sea region (Denmark, Germany, Netherlands, Norway and the UK)
+globe; (ii) they commonly have very large pore volumes; and (iii)                 and examines the time period 2010–2050. The speciﬁc research
+they have been used successfully for natural gas storage onshore                  questions are:
+and CO2 storage offshore, e.g. at the Sleipner ﬁeld in the Utsira for-
+mation (Norwegian sector) (IPCC, 2005; Bachu and Adams, 2003;                     • What is the potential role of the Utsira formation as a common
+Haszeldine, 2006).                                                                  CO2 storage resource for the countries in the North Sea region?
+    Different storage reservoirs are heterogeneous (in their physical             • Does this role change from a national or regional modelling per-
+characteristics, size, location, etc.) and this will impact how and                 spective on decarbonisation pathways?
+when they are utilized. Keating et al. (2011) assesses the impact of              • Will the capacity of Utsira (cumulative and per year) be sufﬁcient
+reservoir uncertainty (parameters such as permeability, porosity,                   over time according to the national and regional models?
+formation thickness) and conclude that reservoir uncertainty is a                 • Would different network layouts inﬂuence the cost and deploy-
+major driver of the entire CCS infrastructure system. This ﬁnding is                ment of CCS and Utsira in the region?
+echoed in other studies (Ambrose et al., 2008). Ramirez et al. (2010),
+explored the differences in availability-time, costs and capacities
+                                                                                      This paper hence focuses on the innovative use of national and
+of the storage ﬁelds in the Netherlands, while CO2Europipe (2010),
+                                                                                  regional energy systems models to investigate the economic fea-
+undertakes a similar study for Europe.
+                                                                                  sibility and range of trade-offs in using the Utsira formation as a
+    In fact, studies of trans-boundary transport crossing the North
+                                                                                  large common North Sea resource for CCS. The layout of this paper
+Sea have indicated that common use of North Sea geological
+                                                                                  is as follows: Section 2 summarizes methods, including the par-
+aquifers, such as the Utsira formation, may be indispensable
+                                                                                  tial harmonization of the national and regional models, together
+when large amounts of CO2 need to be stored in the region (e.g.,
+                                                                                  with common (and sensitivity) scenarios undertaken. Section 3
+Markussen et al., 2002; Damen et al., 2009; Broek et al., 2010a). In
+                                                                                  presents core decarbonisation scenario results from the national
+addition to its potential large storage capacity (estimated at about
+                                                                                  MARKAL/TIMES models for the countries bordering the North Sea
+42 GtCO2 (Bøe et al., 2002)), its access to a number of countries
+                                                                                  (United Kingdom (UK), the Netherlands, Germany, Denmark and
+could increase the cost-effectiveness of CCS in the region. Never-
+                                                                                  Norway) and from the regional Pan European TIMES (TIMES PanEU)
+theless, these studies also recognize that there is a considerable
+                                                                                  model, with Section 4 presenting sensitivity scenarios. Section 5
+lack of knowledge on how and at what costs CO2 storage at the
+                                                                                  presents a discussion on the results obtained, while Section 6
+Utsira formation could be cost-effectively tuned to the develop-
+                                                                                  presents conclusions for the role of North Sea CO2 storage resources
+ment of national energy supply systems in the countries and as
+                                                                                  within national and regional decarbonisation pathways.
+part of a regional strategy in the North Sea region. Prior studies
+(Mendelevitch et al., 2010; Morbee et al., 2010), have investigated
+a trans-European CO2 network. More speciﬁcally, a previous tech-                  2. Methodology
+nical report (IEA-GHG, 2005) covers a number of the same issues
+as this paper for a North Sea regional CCS strategy, but excluded                 2.1. Modelling approach
+large aquifers with large potential CO2 storage (such as Utsira),
+matched CO2 sources and sinks at lowest cost but without the use                      The starting point of this analysis is the three national
+of a dynamic systems model, only focused on transport and stor-                   techno-economic linear optimization MARKAL (MARket Alloca-
+age costs but with no capture cost, only considered current point                 tion) models that are developed for the Netherlands, Norway and
+sources of CO2 (but no future projections of CO2 producing sec-                   the UK. In addition, the regional Pan European TIMES (The Inte-
+tors), and had no optimization (as no projections) in the context of              grated MARKAL/EFOM System) model (see Blesl et al., 2010), that
+comparison to other mitigation options. This paper addresses these                includes all member states of the EU-27 plus Norway, Iceland and
+weaknesses in evaluating a North Sea CCS strategy and compares                    Switzerland, was used for the region as a whole and for Germany
+ﬁndings at a national and regional level. This is at the core of this             and Denmark with national boundaries. MARKAL and TIMES are
+article.                                                                          integrated energy systems modelling platforms that can be tailored
+    Exporting CO2 to Utsira would require the deployment of a large               to analyze energy, economic and environmental issues at the global,
+(and costly) CO2 infrastructure. The development of such a network                national and municipal level over several decades. These mod-
+will be driven by the role of CCS in each country, costs and avail-               elling platforms are currently used by over 100 modelling teams
+ability of local storage. Until now, most European energy (or just                worldwide and have been heavily utilized for analytical insights for
+electricity) system studies dealing with the development of CCS as                energy policy (e.g., Loulou et al., 2009; Strachan et al., 2009; Chen,
+a part of the portfolio of mitigation measures either take a regional             2005; Smekens, 2004). MARKAL and TIMES are partial economic
+(e.g., Odenberger and Johnsson, 2010; Uyterlinde et al., 2006), or                equilibrium models formulated as linear optimization problems
+a national perspective (e.g., Kemp and Kasim, 2008; Martinsen                     (Loulou et al., 2004). MARKAL/TIMES computes energy balances
+
+
+PHYSICAL_PAGE 4
+1520                                        N. Strachan et al. / International Journal of Greenhouse Gas Control 5 (2011) 1517–1532
+
+Table 2
+Development of fossil fuel prices for two different scenarios (D2007/GJ).
+
+                                       2000            2005            2010             2015             2020           2025           2030            2040                2050
+
+ WEO 2008 (HP: high fossil fuel price scenario)a
+ Oil                 D/GJ            4.5               7.5             13.4             13.4             14.7           15.5           16.4            18.1                20
+ Natural gas         D/GJ            2.4               4.1              8.1              8.4              9.3            9.8           10.3            11.7                13.2
+ Coal                D/GJ            1.3               2                3.9              3.9              3.8            3.6            3.5             3.4                 3.2
+ WEO 2007 (LP: low fossil fuel price scenario)a
+ Oil                 D/GJ            4.5               7.6               8.1             7.9              8.1            8.3            8.5                 8.7             8.9
+ Natural gas         D/GJ            2.4               4.8               4.9             4.9              5.1            5.3            5.5                 5.8             6.1
+ Coal                D/GJ            1.3               1.9               1.8             1.9              1.9            2              2                   2.1             2.2
+  a
+      1 USD2007 = 0.77 D2007 .
+
+
+the individual detail for each model. The model horizon, discount                         but the future demand might potentially increase from other users
+rate, energy prices (Table 2) were fully harmonized amongst the                           such as hydrogen fuelled vehicles. The future hydrogen demand in
+models included in this article. The discount rate used (5%) repre-                       the Dutch model is based on current users of hydrogen and indus-
+sents a trade-off between a pure social discount rate and a higher                        trial sector projections. This might result in an underestimation of
+commercial rate of return. Electricity trade (import/export) in the                       the CO2 capture potential from hydrogen production compared to
+national MARKAL models were harmonized with the projections                               the other models.
+of the TIMES PanEU model as an EU model covering price differ-
+ential and physical interconnector capacity in regional electricity                       2.4. CO2 transport and storage
+markets. This is implemented as a ﬁxed or upper bound constraint
+in the national models.                                                                   2.4.1. Domestic transport and storage
+    Cost and efﬁciency data of power plants with CCS and the fos-                            The cost of CO2 transport was estimated using a harmonized
+sil fuel reference plants included in the models were harmonized                          approach. As point of departure, the following assumptions were
+if the divergence to the reference data was signiﬁcant. A full com-                       made:
+parison of the data used by the different models and reported in
+the literature can be found in Hoefnagels and Ramirez (2010). The                         • All CO2 is transported by pipeline. Transport by ship or truck is
+reference data is summarized in Table 9 (Appendix A).                                       not considered.
+                                                                                          • CO2 is transported in supercritical phase through pipelines
+2.2.1. Fossil fuel prices                                                                   (>80 bar). For distances larger than 150 km, booster stations are
+     For energy prices, the core assumption follows the forecast to                         included to prevent pressure drops below 80 bar and related
+2030 provided by the International Energy Agency (IEA) World                                phase changes.
+Energy Outlook (WEO) 2008, and reﬂect substantial rises in the                            • Calculations are based on pure CO2 streams. Even though impu-
+price of oil, natural gas and coal. Lower energy prices according to                        rities could impact thermodynamic properties of the CO2 stream
+WEO 2007 are included as a sensitivity in national model runs. Fos-                         and could affect pipeline requirements, this is not considered in
+sil fuel prices are extrapolated from 2030 to 2050. The coal, oil and                       this research.
+natural gas price trends used for both cases are shown in Table 2.
+     Similar fossil fuel prices are used for climate constrained runs                        Several studies have addressed the potential beneﬁts of
+(see Section 2.5). In terms of how endogenous fuel prices would                           economies of scale for CO2 pipeline networks. For instance, Kuby
+be to the climate policy, this depends on legislated CO2 targets for
+non-OECD countries, as well as the overall use of coal and other
+                                                                                          Table 3
+fossil fuels (i.e. conventional vs. CCS) in a climate constrained world.
+                                                                                          CO2 sources available in the TIMES PanEU and national models.
+Because of these uncertainties, and as we are focusing on the role of
+CCS rather than on price responses to climate targets, we are using                                                      TIMES PanEU          Netherlands         Norway    UK
+                                                                                                                         modela
+the same fuel prices in different climate regimes. We also note that
+the paper has a sensitivity of overall lower fossil fuel prices (see                           CO2 capture from power plants
+Table 2).                                                                                      Coal, post combustion    X                     Xb                            X
+                                                                                                 capture (amine)
+                                                                                               Coal, oxyfuelling        X
+2.3. CO2 sources                                                                               Coal, pre-combustion     X                     Xb                            X
+                                                                                                 capture (IGCC)
+                                                                                               Gas, post combustion     X                     Xb                  X         X
+    Table 3 depicts the CO2 sources from power generation and
+                                                                                                 capture (amine)
+industries available for CO2 capture in the TIMES PanEU and                                    Gas, oxyfuelling         X
+national models. The sources for Germany and Denmark are simi-                                 Gas, pre-combustion                                                X
+lar to the regional TIMES PanEU model because they use the same                                  capture (SMR,
+                                                                                                 GTCCH2 )
+model. Post-combustion and pre-combustion CO2 capture is avail-
+                                                                                               CO2 capture from industries
+able in all models, but the Norwegian model is limited to gas ﬁred                             Cement production        X                     X                   X
+power plants. Note that CO2 capture from steam methane reform-                                 Ammonia production       X                     X                             X
+ing (SMR) is available in all models for hydrogen production, but                              Hydrogen production      X                     X                   X         X
+includes co-generation of electricity in the Norwegian model and                               Iron and steel           X                     X
+                                                                                               Reﬁnery/chemical                               X                   X
+is therefore listed with the CO2 capture options from power plants.
+                                                                                                 industry
+Oxyfuel (coal and gas) CO2 capture is only available in the TIMES                              Ethylene (oxide)                               X
+PanEU model.                                                                                     production
+    All models also include a range of industrial sources available                        a
+                                                                                             Used for the regional projections and the national projections of Germany and
+for CO2 capture of which hydrogen production is available in all                          Denmark.
+                                                                                           b
+models. Hydrogen is currently mainly used for chemical processes,                            Including retroﬁt.
+
+
+PHYSICAL_PAGE 15
+Table 12
+Results of the TIMES PanEU model for the C-80 scenario.
+
+ C-80 PET-model                United Kingdom                       Denmark                            Germany                            Norway                             The Netherlands
+
+                               2010    2020   2030    2040   2050   2010   2020   2030   2040   2050   2010   2020   2030   2040   2050   2010   2020   2030   2040   2050   2010   2020   2030   2040   2050
+
+ Electricity generation mix (GW)
+ Coal                         21       16     1       1      0      5      3      1      –      –      56     40     15     4      –      –      –      –      –      –      5      4      2      2      1
+ Coal CCS                     –        3      26      41     31     –      0      2      2      2      0      4      32     55     46     –      –      –      –      –      –      0      4      5      5
+ Gas                          39       44     40      27     26     2      3      3      4      5      33     26     22     20     28     0      0      0      0      0      16     17     15     11     5
+ Gas CCS                      0        0      0       3      27     –      –      0      0      2      –      –      –      3      16     0      0      0      0      0      –      –      0      7      21
+ Nuclear                      12       13     12      13     12     –      –      –      –      –      19     3      –      –      –      –      –      –      –      –      0      0      0      –      –
+ Oil                          7        7      4       0      –      1      0      –      –      –      5      2      1      1      1      –      –      –      –      –      0      0      –      –      –
+ Hydro                        2        2      2       2      3      –      –      –      –      0      5      5      5      5      5      28     28     28     29     30     0      0      0      0      0
+
+
+
+
+                                                                                                                                                                                                                N. Strachan et al. / International Journal of Greenhouse Gas Control 5 (2011) 1517–1532
+ Wind                         4        16     31      36     69     4      9      11     15     28     28     45     62     74     102    1      1      0      12     12     4      8      17     20     26
+ Biowaste and others          3        4      5       6      22     1      1      1      1      2      8      7      8      9      11     0      0      0      0      0      1      2      2      2      3
+ Imports                      –        –      –       –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –
+ Marine                       0        0      0       4      20     –      –      –      –      –      –      –      –      –      –      –      –      –      –      7      –      –      –      –      –
+ Solar                        –        –      –       –      –      0      0      0      0      0      6      14     20     24     26     –      –      –      –      –      0      0      0      0      3
+ Storage                      3        3      3       3      3      –      –      –      –      –      6      6      6      6      6      1      1      1      1      1      –      –      –      –      –
+ Total                        91       108    124     138    212    12     16     19     22     39     165    151    171    201    241    30     30     30     42     50     26     32     41     46     64
+ Electricity generation (PJ)
+ Coal                         496      424    2       1      –      70     47     6      –      –      916    990    86     1      –      –      –      –      –      –      91     94     51     –      –
+ Coal CCS                     –        64     536     641    461    –      9      34     34     1      1      96     772    1174   993    –      –      –      –      –      –      3      118    121    120
+ Gas                          569      392    133     53     15     16     14     9      0      0      271    200    197    73     98     0      0      0      0      0      206    154    91     15     9
+ Gas CCS                      7        7      7       48     522    –      –      0      10     29     –      –      –      38     232    8      11     11     0      0      –      –      5      98     305
+ Nuclear                      275      340    324     351    324    –      –      –      –      –      526    79     –      –      –      –      –      –      –      –      14     14     14     –      –
+ Oil                          9        0      –       0      –      –      0      –      –      –      32     25     15     16     2      –      –      –      –      –      –      0      –      –      –
+ Hydro                        28       28     31      33     43     –      –      –      –      0      106    113    117    117    117    492    492    493    515    527    0      1      1      1      1
+ Wind                         25       155    346     398    700    34     84     115    145    280    171    334    550    651    973    3      4      4      112    112    30     83     192    225    300
+ Bio, oth. Ren. and waste     53       66     86      113    114    15     19     22     25     30     120    146    177    199    251    3      4      5      4      5      30     39     35     35     55
+ Imports                      22       80     82      56     78     – 10   −32    −40    −50    −82    −57    79     217    85     −35    −39    −85    −82    −113   −151   63     63     −17    43     −86
+ Marine                       0        1      1       57     216    –      –      –      –      –      –      –      –      –      –      –      –      –      –      94     –      –      –      –      –
+ Solar PV                     –        –      –       –      –      0      0      0      0      0      21     48     68     80     86     –      –      –      –      –      0      0      0      0      11
+ Storage                      10       10     10      10     10     –      –      –      –      –      24     24     24     24     24     3      3      3      3      3      –      –      –      –      –
+ Total                        1495     1565   1557    1759   2482   125    141    146    164    257    2132   2133   2223   2459   2740   469    428    434    521    589    435    452    491    539    714
+ CO2 capture and storage
+ All CCS                      1        17     108     152    172    –      2      10     14     10     0      27     179    286    288    2      2      9      2      2      –      4      44     60     98
+ CCS electricity              1        17     107     139    144    –      2      10     13     7      0      25     176    265    262    2      2      9      1      0      –      4      43     51     84
+ CCS process/industry         –        0      1       12     28     –      –      0      1      2      –      2      3      21     26     –      –      0      1      2      –      –      1      8      14
+ Enhanced oil recovery        –        –      –       –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –
+ Oil/gas ﬁeld – low           1        1      1       0      21     –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –
+   transport
+ Oil/gas ﬁeld – high          –        –      –       –      0      –      –      –      –      –      0      2      50     51     49     –      –      –      –      –      –      12     69     85     56
+   transport
+ Aquiﬁer                      –        –      –       –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –
+ Utsira basin                 –        17     95      95     95     –      2      10     34     30     –      21     132    226    271    –      –      –      –      –      –      –      –      –      –
+ Mineralization               –        0      12      56     74     –      –      –      0      0      –      –      0      –      0      2      2      9      2      2      –      0      5      34     41
+ Net exports                  –        –      –       –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –      –
+ CO2 and system costs
+ CO2 emissions (MtCO2 )       521      475    346     230    73     49     43     31     24     8      760    704    435    257    136    36     39     32     20     12     167    161    138    103    45
+ Marginal cost of CO2         N/A      N/A    N/A     N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A    N/A
+   (D2000/t)
+ Undiscounted energy          256      278    333     261    278    17     22     26     20     22     273    304    350    265    253    14     27     22     34     39     83     89     104    89     85
+   system cost (D billion)
+ Discounted energy system     173      127    103     54     39     11     10     8      4      3      184    139    108    55     36     9      12     7      7      5      56     41     32     18     12
+   cost (D billion)
+
+
+
+
+                                                                                                                                                                                                                1531

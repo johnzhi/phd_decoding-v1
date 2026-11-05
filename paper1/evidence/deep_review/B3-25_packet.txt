@@ -1,0 +1,176 @@
+Cost allocation in CO2 transport A multi-actor perspective A general model to evaluate costs in infrastructure construction
+
+PHYSICAL_PAGE 12
+A. van Beek et al.                                                                                                                Journal of Cleaner Production 435 (2024) 140271
+                       Table 7
+                       Cost allocations based on the equal component cost sharing rule for the construction costs of a CO2 transport infrastructure
+                       in four different cost scenarios.
+                        Player                          Baseline            FIX↑ 25%                   VAR↑ 25%                      REUSE + VAR
+                        Heavy emitters                  52.3                59.3 (↑ 13.3%)             58.4 (↑ 11.7%)                52.3 (↑ 0%)
+                        Distant emitters                89.8                96.8 (↑ 7.8%)              105.3 (↑ 17.2%)               89.8 (↑ 0%)
+                        Small emitters                  30.1                33.5 (↑ 11.5%)             34.1 (↑ 13.5%)                30.1 (↑ 0%)
+                        Greenhouses                     23.4                28.2 (↑ 20.5%)             24.5 (↑ 4.5%)                 33.4 (↑ 42.7%)
+                        Hydrogen producers              20.4                25.2 (↑ 23.5%)             20.7 (↑ 1.5%)                 22.4 (↑ 9.8%)
+
+
+
+    Several interesting observations can be made here. The equality of                      Additionally, our framework is not restricted to equal component
+the total costs for the scenarios FIX↑ 25% and VAR↑ 25% allows for                      cost sharing. For each 𝙴𝙸𝙲, non-negative, but not necessarily equal
+a ‘fair’ comparison of the corresponding cost allocations. The equal                    weights can be assigned to the players requiring this component. Using
+component cost sharing rule behaves as we would expect. It is clear that                these weights to determine the cost sharing rule instead, one could,
+the players who require conditioning for re-use (4 and 5) are relatively                e.g., account for players unequally using or benefiting from a com-
+most affected by an increase in fixed costs, since this is a relatively large           ponent. Coalitional rationality and advantageous scaling still hold in
+part of their (allocated) costs. Similarly, the distant emitters are most               the same way. While mathematically our framework allows for un-
+affected by the increase in variable costs, due to their large onshore                  equal component cost sharing, a practical limitation of our approach
+transport radius.                                                                       is that it does not establish a specific procedure to determine the
+    For the REUSE+VAR cost scenario, only the players who require                       corresponding unequal weights to be used in the cost allocation. Future
+conditioning for re-use purposes face an increase in allocated costs. The               work addressing this could take inspiration from Wang et al. (2013),
+larger requirement for onshore transport radius of player 4 compared to                 who propose such a procedure in the context of collaborative eco-
+player 5 means the former is affected more by the increase in variable                  industrial parks, incorporating asymmetry between players (albeit not
+costs.                                                                                  on a per-component basis) through so-called distribution coefficients
+                                                                                        based partly on the investment costs required for a player to collaborate
+5. Concluding remarks                                                                   with the other players in the park.
+
+
+    Motivated by the necessity for new infrastructures to support the                   CRediT authorship contribution statement
+ongoing climate and energy transition in general, and CO2 transport
+infrastructures for CCUS in particular, we develop a general model for                      Andries van Beek: Conceptualization, Formal analysis, Method-
+infrastructure construction from a multi-actor perspective. We account                  ology, Writing – original draft, Writing – review & editing. Mirjam
+for the heterogeneous requirements of the users for the characteristics                 Groote Schaarsberg: Conceptualization, Methodology, Visualization,
+of an infrastructure by mathematically decomposing this infrastructure                  Writing – original draft. Peter Borm: Conceptualization, Methodology,
+into so-called elementary infrastructure components (𝙴𝙸𝙲s). The main                    Supervision, Writing – review & editing. Herbert Hamers: Conceptual-
+theoretical contribution of this paper lies in Definition 3.1 accompanied               ization, Methodology, Supervision. Mattijs Veneman: Conceptualiza-
+by Theorem 3.2: we define a cost function that supports the component-                  tion, Methodology.
+based modeling of infrastructures, as despite its generic structure we
+can still determine the costs per 𝙴𝙸𝙲. An additional advantage of                       Declaration of competing interest
+Theorem 3.2 is that it directly results in a natural cost allocation rule:
+the equal component cost sharing rule of Definition 3.4. This allocation                    The authors declare that they have no known competing finan-
+rule also satisfies the desirable properties of coalitional rationality and             cial interests or personal relationships that could have appeared to
+advantageous scaling (Theorem 3.5), under the reasonable requirement                    influence the work reported in this paper.
+of regularity of the cost function (Definition 3.3).
+    While CCUS is heavily debated, it is a potentially effective path-                  Data availability
+way towards decarbonization, with numerous real-world initiatives for
+CO2 transport infrastructures to enable CCUS. Our model is developed                         No data was used for the research described in the article.
+primarily with this application in mind. Importantly, significant stake-
+holder collaboration is required for the successful realization of such                 Appendix A. Proof of Theorem 3.2
+projects. We believe appropriate cost allocation is one of the key aspects
+of collaboration on infrastructure construction, in general and for CCUS                    Let 𝜁𝑘 ∈ {1, … , 𝑛𝑘 } for all 𝑘 ∈ 𝑀. We show that the costs of the
+specifically. By taking a multi-actor perspective, explicitly taking into               corresponding boxlike infrastructure, as determined by 𝜅(𝑋̃ 𝜁1 , … , 𝑋̃ 𝜁𝑚 ),
+                                                                                                                                                      1          𝑚
+account the heterogeneity in the requirements of different potential                    equal the sum of the costs of all 𝙴𝙸𝙲s within this box. Concretely, we
+users, our model yields a well-substantiated cost allocation method                     show that
+for collaborative infrastructure construction. The allocation mechanism                                         ∑  ∑
+we propose aligns with existing game-theoretic allocation literature.                   𝜅(𝑋̃ 𝜁1 , … , 𝑋̃ 𝜁𝑚 ) =           𝜆(𝐶 𝛼1 ,…,𝛼𝑚 ),                        (5)
+                                                                                              1        𝑚
+                                                                                                              𝑘∈𝑀 𝛼𝑘 ∈{1,…,𝜁𝑘 }
+However, while much existing work allows user requirements to differ
+over one or two characteristics, our model allows for heterogeneity                     where, as given in (2),
+in an arbitrary number of characteristics of the prospective infrastruc-                                 ∑                ∑                            ∏(                   )
+                                                                                        𝜆(𝐶 𝛼1 ,…,𝛼𝑚 ) =                            𝑏𝛼1 ,…,𝛼𝑚 (𝐾, 𝐿)     𝑋̃ 𝑘 − 𝑋̃ 𝑘
+                                                                                                                                                             𝛼𝑘     𝛼𝑘 −1
+                                                                                                                                                                             . (6)
+ture, provided that the corresponding costs can be translated into the                                     𝑀𝐶𝛼 ⊆𝐾⊆𝑀𝐶 𝑀𝐷
+                                                                                                                      𝛼 ⊆𝐿⊆𝑀                           𝑘∈𝐾
+                                                                                                                             𝐷
+structure of our cost function as discussed in Section 3.2.
+    As demonstrated in Section 4, the theoretical framework is very                         In (6), for all 𝛼𝑘 ∈ {1, … , 𝜁𝑘 }, 𝑘 ∈ 𝑀, we sum over all 𝐾 ⊆ 𝑀𝐶
+suitable to model the specific case of a CO2 transport infrastructure                   and 𝐿 ⊆ 𝑀𝐷 such that 𝑀𝐶𝛼 = {𝑘 ∈ 𝑀𝐶 | 𝛼𝑘 > 1} ⊆ 𝐾 and 𝑀𝐷          𝛼 = {𝑘 ∈
+
+for CCUS-hubs in the port of Rotterdam area presented in Section 2.                     𝑀𝐷 | 𝛼𝑘 > 1} ⊆ 𝐿, i.e., for all 𝑘 ∈ 𝑀 such that 𝛼𝑘 > 1 we have 𝑘 ∈ 𝐾 ∪𝐿.
+However, its use is not restricted to CO2 transport infrastructures. One                Put differently, we only sum over 𝐾 ⊆ 𝑀𝐶 and 𝐿 ⊆ 𝑀𝐷 if 𝛼𝑘 = 1 for
+could further validate the general model in additional case studies,                    all 𝑘 ∈ 𝑀 ⧵ (𝐾 ∪ 𝐿). Consequently, we may rewrite
+since the generic structure of the cost function allows for it to be                    ∑       ∑                        ∑     ∑ ∑          ∑
+                                                                                                        𝜆(𝐶 𝛼1 ,…,𝛼𝑚 ) =                          𝑏𝛼1 ,…,𝛼𝑚 (𝐾, 𝐿)
+adapted to different types of infrastructures.                                          𝑘∈𝑀 𝛼𝑘 ∈{1,…,𝜁𝑘 }                 𝐾⊆𝑀𝐶 𝐿⊆𝑀𝐷 𝑘∈𝐾∪𝐿 𝛼𝑘 ∈{1,…,𝜁𝑘 }
+
+
+                                                                                   12
+
+
+PHYSICAL_PAGE 14
+A. van Beek et al.                                                                                                                 Journal of Cleaner Production 435 (2024) 140271
+
+
+found in the literature, and cover a range of CO2 transport infrastruc-               Table 8
+                                                                                      Onshore transport pipeline system cost estimates in million euros for different combi-
+ture designs with varying characteristics. Although ZEP’s and JRC’s
+                                                                                      nations of pipeline length and yearly transport capacity, based on Annex 3 from ZEP
+cost estimates as absolute numbers might no longer be accurate, they                  (2011) and Table 10 from Serpa et al. (2011).
+do provide insight in the relative changes in investment costs due to                  Capacity (Mt/y)        Per km (JRC)         10 km feeders (ZEP)        180 km spine (ZEP)
+changes in type of terrain (onshore or offshore), transport capacity, or
+                                                                                       2.5                    0.59                 11.5                       147
+transport radius.                                                                      5                      0.64
+    ZEP presents total transport cost estimates for different combi-                   10                                          15                         226
+nations of pipeline length and yearly transport capacity. They also                    15                     0.83
+perform a simple sensitivity analysis, where they conclude that invest-
+ment costs account for circa 90% of total CO2 transport costs, the                    Table 9
+relation between costs and transport length is almost linear, and the                 Offshore transport pipeline system cost estimates in million euros for different combi-
+actual use of the transport pipeline does (almost) not influence the costs            nations of pipeline length and yearly transport capacity, based on Annex 3 from ZEP
+as long as it does not exceed its maximum capacity.                                   (2011) and Table 10 from Serpa et al. (2011).
+    Serpa et al. (2011) state that the capital costs of a CO2 pipeline                 Capacity (Mt/y)                      Per km (JRC)                      180 km spine (ZEP)
+system consist of pipeline material and installation costs, and costs for              2.5                                  1.18                              250
+system equipment such as pumping and filtering stations and (digital)                  5                                    1.28
+                                                                                       10                                                                     338
+control systems. They develop a heuristic and simplified approach to
+                                                                                       15                                   1.78
+estimate CO2 pipeline costs. They express a linear relationship between
+costs and pipeline length, where the specific cost parameters depend on
+the terrain (onshore or offshore), the yearly transport capacity and the
+quality of CO2.                                                                           We combine JRC’s variable cost estimates corresponding to 2.5 Mt/y
+    Next, we discuss the derivation of the cost parameter values used                 and 10 Mt/y with ZEP’s data to find approximations for the fixed costs,
+in the application in Section 4. Recall from Sections 2 and 4.1 that,                 in the following way. The 10 km feeders are seen as a simple onshore
+based on the aforementioned two studies, we consider costs consisting                 transport system that is sufficiently conditioned for transportation to
+of fixed (system) and variable (pipeline) costs, for both onshore and                 the shore — conditioning level 1. Hence, we estimate fixed costs for
+offshore transportation. There is a linear relationship between the costs             this type of pipeline at approximately 11.5 − 10 ⋅ 0.59 = 5.6 million
+and the required transport radius, where the specific cost parameters                 euros for a small yearly capacity and 15 − 10 ⋅ 0.735 = 7.65 for a large
+depend on the terrain and the transport capacity. Further, conditioning               capacity. The 180 km spine from ZEP is seen as a system that has a
+requirements only influence the fixed portion of the costs,11 together                more advanced conditioning level due to the long distance, and is re-
+with the capacity.                                                                    use ready — conditioning level 2. Again using the two variable cost
+    Since CCUS is one of the key enabling technologies for accelerating               parameters, the corresponding fixed costs are estimated in a similar
+and realizing decarbonization of industries, new insights in costs and                way, which yields approximately 40.8 and 93.7 for small and large
+cost drivers, especially of shared CO2 transport infrastructures, will                capacity, respectively.
+emerge regularly. The parameters that we use are based on non-recent
+                                                                                      Offshore cost parameters
+studies and the estimates are rough. Therefore, we present our parame-
+                                                                                          Next, we consider offshore system costs. Again, we use a combina-
+ter derivation in such a way that if better, more recent or more accurate
+                                                                                      tion of JRC and ZEP data (see Table 9).
+data becomes available, one can easily adapt the cost parameters.
+                                                                                          Using a similar linear interpolation approach as with the onshore
+What parameters?                                                                      cost parameter estimations, we find offshore variable costs of approx-
+    In Section 4.1, it becomes clear that we only need to find 10                     imately 1.18 and 1.53 for small and large capacity, respectively, and
+different cost parameters for the corresponding total cost function. We               use this to derive the corresponding offshore fixed costs estimates of
+have continuous characteristics ‘onshore transport radius’ and ‘offshore              approximately 37.6 and 62.6.
+transport radius’, 𝑀𝐶 = {1, 2}, and discrete characteristics ‘transport               Parameters for application
+capacity’ and ‘CO2 conditioning’, 𝑀𝐷 = {3, 4}. Finally from the entries                   The parameter estimates used in Section 4 are summarized un-
+in the requirement matrix 𝑋 we see that both discrete variables only                  der ‘baseline’ in Table 10. As explained previously, the derived cost
+take two values.                                                                      function parameters are rough estimates based on rather non-recent
+Onshore cost parameters                                                               sources. To avoid the impression of working with accurate cost esti-
+   We start with the cost parameters for onshore transportation. In                   mates, we round up all estimates. In this table, we also present the
+Table 8, we combine ZEP’s and JRC’s transport cost estimates into one                 first two scenarios in which the cost parameters differ, as discussed in
+table.                                                                                Section 4.2.
+   JRC’s data refer to pipeline costs only, while ZEP’s data refer to total
+                                                                                      Appendix D. Detailed calculations of Section 4.1
+pipeline system costs. Since, we use this data only for inspirational and
+exemplary purposes, we combine this data without further corrections
+                                                                                          In Section 4, we only show a numerical breakdown of cost function
+for potential price level differences. First, we interpolate the JRC
+                                                                                      𝜅 for the component-based infrastructure cost problem, by providing
+data to find that for 10 Mt/y capacity the pipeline costs per km are
+                                                                                      different cost functions depending on the capacity level and the level
+approximately 0.735 million euros.
+                                                                                      of conditioning. This is simply a more intuitive representation of a more
+                                                                                      general cost function as formulated in Definition 3.1. In particular, we
+                                                                                      have
+  11
+     It is not clear how exactly the conditioning requirements influence the
+infrastructure construction costs. Unfortunately, Knoope (2015) concludes in          𝜅(𝑧1 , 𝑧2 , 𝑧3 , 𝑧4 , 𝑧5 ) = 𝛽∅ (𝑧3 , 𝑧4 ) + 𝛽{1} (𝑧3 )𝑧1 + 𝛽{2} (𝑧3 )𝑧2 + 𝛽{5} (𝑧3 )𝑧5 ,   (8)
+her CO2 infrastructure cost model review that cost models for pumping stations
+(related to conditioning of the CO2) are not validated, and also EBN (2018)
+                                                                                      with 𝑧1 ∈ {10, 30, 80}, 𝑧2 ∈ {0, 30}, 𝑧3 ∈ {1, 2}, 𝑧4 ∈ {1, 2} and
+notes that there is no reference cost known for pumping stations. Mallon              𝑧5 ∈ {0, 1}. The coefficient values are derived in Appendix C and
+et al. (2013) apply a cost model to estimate the investments costs of pumping         summarized in Table 10. Using the more general notation, we have
+stations, but the actual investment costs seem to be 3 to 5 times higher than         𝛽∅ (1, 1) = 6, 𝛽∅ (2, 1) = 8, 𝛽∅ (1, 2) = 42, 𝛽∅ (2, 2) = 94, 𝛽{1} (1) = 0.6,
+its estimates.                                                                        𝛽{1} (2) = 0.75, 𝛽{2} (1) = 1.2, 𝛽{2} (2) = 1.6, 𝛽{5} (1) = 38 and 𝛽{5} (2) = 64.
+
+                                                                                 14

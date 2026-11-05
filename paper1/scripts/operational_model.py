@@ -54,14 +54,20 @@ class Ship:
  trips_year:int=0
 
 class Shuttle:
- def __init__(self,annual_service,distance,size=40000,calendar='staggered',source_tpa=None,fleet_margin=0,target_injected_t=None):
+ def __init__(self,annual_service,distance,size=40000,calendar='staggered',source_tpa=None,fleet_margin=0,target_injected_t=None,dispatch_policy='index',fixed_fleet=None):
   p=parameters();self.p=p;self.size=size;self.distance=distance;self.calendar=calendar;self.H=p['year_hours'];self.W=p['operating_hours'];self.Hend=len(annual_service)*self.H;self.I=list(annual_service)
-  self.source=float(source_tpa) if source_tpa is not None else sum(float(x['co2_rate_mtpa']) for x in read('data/supplement_sources.csv'))*1e6
+  default_source=sum(float(x['co2_rate_mtpa']) for x in read('data/supplement_sources.csv'))*1e6
+  self.source_schedule=list(map(float,source_tpa)) if isinstance(source_tpa,(list,tuple)) else [float(source_tpa) if source_tpa is not None else default_source]*len(self.I)
+  if len(self.source_schedule)!=len(self.I) or min(self.source_schedule)<0:raise ValueError('Source schedule must be nonnegative and match service years')
+  self.source=max(self.source_schedule);self.dispatch_policy=dispatch_policy
+  if dispatch_policy not in ['index','earliest_window_end','least_active_hours']:raise ValueError(dispatch_policy)
   self.q=self.source/self.H;self.rho=p['density_table1']/1000;self.net=size*self.rho*(p['outbound_fill']-p['return_heel'])/100;self.heel=size*self.rho*p['return_heel']/100
   self.leg=distance/(p['speed']*1.852);self.out=p['port_approach_departure']+self.leg;self.back=self.out;self.cycle=p['loading']+self.out+p['unloading']+self.back
   self.target=target_injected_t;self.fleet_margin=fleet_margin;self.nar=math.floor(self.W/self.cycle)
   if self.nar<1:raise ValueError('No full source-model trip within annual operating budget')
-  self.N=max(1,math.ceil(self.source/(self.net*self.nar)))+fleet_margin;self.ships=[Ship() for _ in range(self.N)];self.buffer=size*self.rho*p['buffer_volume_percent']/100
+  self.N=int(fixed_fleet) if fixed_fleet is not None else max(1,math.ceil(self.source/(self.net*self.nar)))+fleet_margin
+  if self.N<1:raise ValueError('At least one assigned ship is required for a shuttle')
+  self.ships=[Ship() for _ in range(self.N)];self.buffer=size*self.rho*p['buffer_volume_percent']/100
   self.fuel_rate=p[f'fuel_rate_{size}']*size/1000;self.factor=p['distillate_combustion_factor'];self.now=0.;self.export=0.;self.imported=0.;self.C=0.;self.R=0.;self.fuel=0.;self.max_balance=0.;self.event_count=0
   self.annual=[];self.capture_y=0.;self.inject_y=0.;self.fuel_y=0.;self.delivered_y=0.;self.inventory_open=0.;self.origin_busy=False;self.destination_busy=False;self.max_export=0.;self.max_import=0.
  def window(self,index):
@@ -95,7 +101,11 @@ class Shuttle:
   changed=True
   while changed:
    changed=False
-   for i,s in enumerate(self.ships):
+   order=list(range(self.N))
+   if self.dispatch_policy=='earliest_window_end':order.sort(key=lambda i:(self.window(i)[1],i))
+   elif self.dispatch_policy=='least_active_hours':order.sort(key=lambda i:(self.ships[i].active_year,i))
+   for i in order:
+    s=self.ships[i]
     if s.phase=='AVAILABLE' and not self.origin_busy and self.can_run(i,self.cycle):
      heel_add=self.heel if s.heel==0 else 0.;payload=self.next_payload();need=payload+heel_add
      if payload<=TOL:continue
@@ -110,7 +120,7 @@ class Shuttle:
   while self.now<self.Hend-TOL:
    self.event_count+=1
    if self.event_count>300000:raise RuntimeError('Event loop did not converge')
-   y=min(int((self.now+TOL)/self.H),len(self.I)-1);inj=self.I[y]/self.H
+   y=min(int((self.now+TOL)/self.H),len(self.I)-1);inj=self.I[y]/self.H;self.q=self.source_schedule[y]/self.H
    self.complete_events();self.dispatch();self.balance()
    q_capture=self.q if self.next_payload()>TOL else 0.
    year_end=min((y+1)*self.H,self.Hend);candidates=[year_end]
@@ -137,11 +147,11 @@ class Shuttle:
    if abs(self.now-year_end)<1e-5:
     self.complete_events();self.balance();stock=self.inventory();max_hours=max(s.active_year for s in self.ships)
     if max_hours>self.W+1e-4:raise ArithmeticError(f'Annual active-hour bound exceeded: {max_hours}')
-    self.annual.append(dict(year=2027+y,captured_t=self.capture_y,injected_t=self.inject_y,uncaptured_t=self.source-self.capture_y,inventory_open_t=self.inventory_open,inventory_close_t=stock,export_close_t=self.export,import_close_t=self.imported,marine_close_t=sum(s.payload+s.heel for s in self.ships),cargo_delivered_t=self.delivered_y,fuel_kg=self.fuel_y,combustion_co2_t=self.fuel_y/1000*self.factor,modelled_balance_t=self.inject_y-self.fuel_y/1000*self.factor,started_trips=sum(s.trips_year for s in self.ships),active_vessel_hours=sum(s.active_year for s in self.ships),max_active_hours_one_ship=max_hours,active_utilisation=sum(s.active_year for s in self.ships)/(self.N*self.W),waiting_or_unavailable_vessel_hours=sum(s.waiting_year for s in self.ships)))
+    self.annual.append(dict(year=2027+y,captured_t=self.capture_y,injected_t=self.inject_y,uncaptured_t=self.source_schedule[y]-self.capture_y,inventory_open_t=self.inventory_open,inventory_close_t=stock,export_close_t=self.export,import_close_t=self.imported,marine_close_t=sum(s.payload+s.heel for s in self.ships),cargo_delivered_t=self.delivered_y,fuel_kg=self.fuel_y,combustion_co2_t=self.fuel_y/1000*self.factor,modelled_balance_t=self.inject_y-self.fuel_y/1000*self.factor,started_trips=sum(s.trips_year for s in self.ships),active_vessel_hours=sum(s.active_year for s in self.ships),max_active_hours_one_ship=max_hours,active_utilisation=sum(s.active_year for s in self.ships)/(self.N*self.W),waiting_or_unavailable_vessel_hours=sum(s.waiting_year for s in self.ships)))
     self.inventory_open=stock;self.capture_y=self.inject_y=self.fuel_y=self.delivered_y=0.
     for s in self.ships:s.active_year=s.waiting_year=0.;s.trips_year=0
   self.balance()
-  return self.annual,dict(fleet=self.N,fleet_margin=self.fleet_margin,target_injected_t=self.target,cargo_per_delivery_t=self.net,roundtrip_hours=self.cycle,source_model_roundtrips_per_ship=self.nar,max_mass_balance_residual_t=self.max_balance,final_inventory_t=self.inventory(),final_heel_t=sum(s.heel for s in self.ships),max_export_inventory_t=self.max_export,max_import_inventory_t=self.max_import,buffer_capacity_t=self.buffer,event_count=self.event_count)
+  return self.annual,dict(fleet=self.N,fleet_margin=self.fleet_margin,target_injected_t=self.target,dispatch_policy=self.dispatch_policy,cargo_per_delivery_t=self.net,roundtrip_hours=self.cycle,source_model_roundtrips_per_ship=self.nar,max_mass_balance_residual_t=self.max_balance,final_inventory_t=self.inventory(),final_heel_t=sum(s.heel for s in self.ships),max_export_inventory_t=self.max_export,max_import_inventory_t=self.max_import,buffer_capacity_t=self.buffer,event_count=self.event_count)
 
 def continuous(annual_service,distance,size=40000,source_tpa=None):
  p=parameters();Q=source_tpa if source_tpa is not None else sum(float(x['co2_rate_mtpa']) for x in read('data/supplement_sources.csv'))*1e6

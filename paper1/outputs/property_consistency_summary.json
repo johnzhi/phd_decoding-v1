@@ -1,0 +1,12 @@
+{
+  "CoolProp_version": "8.0.0",
+  "EOS_reference_key": "Span-JPCRD-1996",
+  "EOS_citation": "Span and Wagner(1996),J.Phys.Chem.Ref.Data25:1509; DOI10.1063/1.555991. Implemented in CoolProp8.0.0.",
+  "model_type": "Published multiparameter pure-CO2 equation of state; model calculation, not an additional empirical measurement.",
+  "saturation_pressure_at_source_temperature_pa": 682341.6147571979,
+  "fleet_cases": 75,
+  "eos_fleet_matches": 75,
+  "source_density_replaced": false,
+  "source_prose_repaired": false,
+  "actual_mixture_validated": false
+}

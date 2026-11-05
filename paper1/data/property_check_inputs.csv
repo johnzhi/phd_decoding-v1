@@ -1,0 +1,5 @@
+parameter_id,value,unit,study_id,physical_page,source_token,scope
+temperature,-50,degreeC,B4-09,3,− 50,Table1
+pressure,700,kPa as reported,B4-09,3,700,Table1; pressure datum not explicit
+table_density,1154,kg/m3,B4-09,3,1154,Selected Table1 density
+prose_density,1.1546,kg/m3 as printed,B4-09,6,1.1546,Inconsistent prose retained; not repaired

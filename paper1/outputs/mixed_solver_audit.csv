@@ -1,0 +1,13 @@
+case_id,higher_distance_km,partition,mode,solver_status,mip_gap,max_constraint_violation_mt,planned_injection_t,planned_trip_count,planned_fuel_kg,planned_partial_component_score_t,source_potential_t
+5000_first_four_short_short,5000,first_four_short,short,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,24000000.0,576,98975089.34773219,23516324.197918113,30000000
+5000_first_four_short_long,5000,first_four_short,long,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,29600000.0,710,414792480.80633545,27829385.939298194,30000000
+5000_first_four_short_mixed,5000,first_four_short,mixed,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,30000000.0,720,183102015.0323974,29157225.951466758,30000000
+5000_last_four_short_short,5000,last_four_short,short,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,29600000.0,710,122000544.1612671,29003742.19006853,30000000
+5000_last_four_short_long,5000,last_four_short,long,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,24000000.0,576,336507702.7386609,22563607.01419457,30000000
+5000_last_four_short_mixed,5000,last_four_short,mixed,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,30000000.0,720,127842691.77825774,29378865.018513553,30000000
+10000_first_four_short_short,10000,first_four_short,short,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,24000000.0,576,98975089.34773219,23516324.197918113,30000000
+10000_first_four_short_long,10000,first_four_short,long,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,29600000.0,710,780782401.6126709,26361440.62583527,30000000
+10000_first_four_short_mixed,10000,first_four_short,mixed,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,30000000.0,720,257330956.71706262,28859501.83155315,30000000
+10000_last_four_short_short,10000,last_four_short,short,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,29600000.0,710,122000544.1612671,29003742.19006853,30000000
+10000_last_four_short_long,10000,last_four_short,long,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,24000000.0,576,633423469.4773217,21372710.534540143,30000000
+10000_last_four_short_mixed,10000,last_four_short,mixed,Optimization terminated successfully. (HiGHS Status 7: Optimal),0.0,0.0,30000000.0,720,132997479.39524838,29358189.73240844,30000000

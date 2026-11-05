@@ -1,0 +1,9 @@
+fiscal_year,series,reported_months,sum_printed_monthly_t,reported_fiscal_t,difference_t,handling
+2016,moebetsu,12,30000.0,29000.0,1000.0,Keep printed precision; do not force monthly/fiscal agreement or infer missing months. FY2019 table stops at December.
+2016,both,12,30000.0,29000.0,1000.0,Keep printed precision; do not force monthly/fiscal agreement or infer missing months. FY2019 table stops at December.
+2017,moebetsu,12,125000.0,127000.0,-2000.0,Keep printed precision; do not force monthly/fiscal agreement or infer missing months. FY2019 table stops at December.
+2017,both,12,125000.0,127000.0,-2000.0,Keep printed precision; do not force monthly/fiscal agreement or infer missing months. FY2019 table stops at December.
+2018,moebetsu,12,79100.00,80000.0,-900.00,Keep printed precision; do not force monthly/fiscal agreement or infer missing months. FY2019 table stops at December.
+2018,both,12,79400.00,80000.0,-600.00,Keep printed precision; do not force monthly/fiscal agreement or infer missing months. FY2019 table stops at December.
+2019,moebetsu,9,65000.0,65000.0,0.0,Keep printed precision; do not force monthly/fiscal agreement or infer missing months. FY2019 table stops at December.
+2019,both,9,65000.0,65000.0,0.0,Keep printed precision; do not force monthly/fiscal agreement or infer missing months. FY2019 table stops at December.

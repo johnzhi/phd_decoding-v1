@@ -1,0 +1,242 @@
+[
+  {
+    "batch_id": "D7-01",
+    "id": "file_0000000061088207a0d09f40a118460b",
+    "original_filename": "ghg_emission_additional_info.csv",
+    "path": "original/dataset7/D7-01/ghg_emission_additional_info.csv",
+    "size_bytes": 16518,
+    "sha256": "9ca186f047726f1013157c7e42e8cce07da6c128831aa361b32d92fe61a25a94"
+  },
+  {
+    "batch_id": "D7-02",
+    "id": "file_00000000b9dc8207a198f0bbd490e8a1",
+    "original_filename": "calculation_changes.txt",
+    "path": "original/dataset7/D7-02/calculation_changes.txt",
+    "size_bytes": 668,
+    "sha256": "253774829b4388f8ab19706f9be492154eec890c95090448bd3f44a7cf8737c7"
+  },
+  {
+    "batch_id": "D7-03",
+    "id": "file_0000000012dc8207a571201206775082",
+    "original_filename": "ghg_emission_amount.csv",
+    "path": "original/dataset7/D7-03/ghg_emission_amount.csv",
+    "size_bytes": 3957,
+    "sha256": "cacf91729a3d2a18671c8f8ca970e6cb4524053595aae970e9e89a7c6d68cbd8"
+  },
+  {
+    "batch_id": "D7-04",
+    "id": "file_00000000b2d8820784cbceef1b7bc8c7",
+    "original_filename": "info.csv",
+    "path": "original/dataset7/D7-04/info.csv",
+    "size_bytes": 372,
+    "sha256": "9ae8226f56cabba8f0b33a14670c9b403f29a45ce8ddc04b6cea642baaa0ddb1"
+  },
+  {
+    "batch_id": "D7-05",
+    "id": "file_00000000359c82078c930916d83b4b3b",
+    "original_filename": "README.txt",
+    "path": "original/dataset7/D7-05/README.txt",
+    "size_bytes": 59,
+    "sha256": "b23ade90c3f326efb7849befd78ff167f2a04222180406e172162bbc6d891b40"
+  },
+  {
+    "batch_id": "D7-06",
+    "id": "file_00000000aa14820787debbbb88125efe",
+    "original_filename": "tokutei_jigyosho_list.csv",
+    "path": "original/dataset7/D7-06/tokutei_jigyosho_list.csv",
+    "size_bytes": 18239,
+    "sha256": "1c2fd96299c9049cf79f90bd539a95bdda3c5e99d9fb7b85e649a881563cfbd2"
+  },
+  {
+    "batch_id": "D7-07",
+    "id": "file_00000000ea4c8207bc923ed33d8ab812",
+    "original_filename": "P509479-3615350c-eada-483c-807f-be2da4e0a644.xlsx",
+    "path": "original/dataset7/D7-07/P509479-3615350c-eada-483c-807f-be2da4e0a644.xlsx",
+    "size_bytes": 136871,
+    "sha256": "ea648e81b5d406c0a43ce79c0b306551dc1067c25d78717463e761545b328385"
+  },
+  {
+    "batch_id": "D7-08",
+    "id": "file_00000000a6c48207b19331322b45d8b8",
+    "original_filename": "PDF.pdf",
+    "path": "original/dataset7/D7-08/PDF.pdf",
+    "size_bytes": 166298,
+    "sha256": "bb0c4ee9c0529f15006e2eb2cf573ecfbbe3c03781d91b9bc9957022e4fd228d",
+    "pages": 3,
+    "page_text_path": "evidence/dataset7/D7-08/pages.json"
+  },
+  {
+    "batch_id": "D7-09",
+    "id": "file_00000000b3488207bafc61d9791e0a73",
+    "original_filename": "Annex 10.pdf",
+    "path": "original/dataset7/D7-09/Annex 10.pdf",
+    "size_bytes": 905436,
+    "sha256": "4bed1e62e83a082d6630eccd577278337f3da83163e6c38b75ba652573f16579",
+    "pages": 67,
+    "page_text_path": "evidence/dataset7/D7-09/pages.json"
+  },
+  {
+    "batch_id": "D7-10",
+    "id": "file_00000000d0008207b3b334481a4d855e",
+    "original_filename": "e612050.pdf",
+    "path": "original/dataset7/D7-10/e612050.pdf",
+    "size_bytes": 620000,
+    "sha256": "64bc382725269f18f8e76f6600f58b33228af18d9d272d32585b67d1d6576acf",
+    "pages": 3,
+    "page_text_path": "evidence/dataset7/D7-10/pages.json"
+  },
+  {
+    "batch_id": "D7-11",
+    "id": "file_0000000087f48207afad21c8aa2e3745",
+    "original_filename": "2024jccs_toma_chapter8r.pdf",
+    "path": "original/dataset7/D7-11/2024jccs_toma_chapter8r.pdf",
+    "size_bytes": 734881,
+    "sha256": "3397f6727068f01d9af1c9bc57ba9cfff239eede3466bae97fb1bd272fe540da",
+    "pages": 16,
+    "page_text_path": "evidence/dataset7/D7-11/pages.json"
+  },
+  {
+    "batch_id": "D7-12",
+    "id": "file_00000000aa448207b37aece44491b6a0",
+    "original_filename": "2024jccs_toma_chapter7.pdf",
+    "path": "original/dataset7/D7-12/2024jccs_toma_chapter7.pdf",
+    "size_bytes": 1720775,
+    "sha256": "dedc183114af6a0c5796fa603d214b06c1f0039fba709575402d2be1b465b6c6",
+    "pages": 57,
+    "page_text_path": "evidence/dataset7/D7-12/pages.json"
+  },
+  {
+    "batch_id": "D7-13",
+    "id": "file_000000007054820781a9f791416a813b",
+    "original_filename": "Summary-Carbon-footprint-of-the-Northern-Lights-JV-co2-transport-and-storage-value-chain.pdf",
+    "path": "original/dataset7/D7-13/Summary-Carbon-footprint-of-the-Northern-Lights-JV-co2-transport-and-storage-value-chain.pdf",
+    "size_bytes": 338789,
+    "sha256": "136827780cde978c7235d805f0dc5f63819c1ea426f49771c3fa8ec9dcccea7c",
+    "pages": 2,
+    "page_text_path": "evidence/dataset7/D7-13/pages.json"
+  },
+  {
+    "batch_id": "D7-14",
+    "id": "file_000000008ee082079809b63aff939854",
+    "original_filename": "reference_data_requests.md",
+    "path": "original/dataset7/D7-14/reference_data_requests.md",
+    "size_bytes": 2452,
+    "sha256": "0bd11064810dcfda8025c2b9e6b24a893d273265c3cdd1463e48090bbe296365"
+  },
+  {
+    "batch_id": "D7-15",
+    "id": "file_0000000065048207b34ae35a6f905d56",
+    "original_filename": "Report-Carbon-footprint-of-the-Northern-Lights-JV-co2-transport-and-storage-value-chain.pdf",
+    "path": "original/dataset7/D7-15/Report-Carbon-footprint-of-the-Northern-Lights-JV-co2-transport-and-storage-value-chain.pdf",
+    "size_bytes": 957915,
+    "sha256": "8b75750fdb70a0006b2c4f44ca5e6e7a7a824c01ba93f54b60929f376c6b03d4",
+    "pages": 14,
+    "page_text_path": "evidence/dataset7/D7-15/pages.json"
+  },
+  {
+    "batch_id": "D7-16",
+    "id": "file_000000002a8c8207b0ca881f99a8f25d",
+    "original_filename": "Northern-Lights-Annual-Report-2025.pdf",
+    "path": "original/dataset7/D7-16/Northern-Lights-Annual-Report-2025.pdf",
+    "size_bytes": 6357813,
+    "sha256": "ec15aafdb10a40ed85c44a11dc8a110e187c55e0602c88f771a11cfdf3500382",
+    "pages": 72,
+    "page_text_path": "evidence/dataset7/D7-16/pages.json"
+  },
+  {
+    "batch_id": "D7-17",
+    "id": "file_0000000063c88207bdc3ca9c44da423a",
+    "original_filename": "2024jccs_toma_chapter6.pdf",
+    "path": "original/dataset7/D7-17/2024jccs_toma_chapter6.pdf",
+    "size_bytes": 15893499,
+    "sha256": "1a8e244ae08edb7732a2d513e284b37f6243c90320c37d433cf10b281f9b8a6d",
+    "pages": 394,
+    "page_text_path": "evidence/dataset7/D7-17/pages.json"
+  },
+  {
+    "batch_id": "D7-18",
+    "id": "file_0000000092d08207a0813be0ea790c39",
+    "original_filename": "2019jccs_toma_chapter5.pdf",
+    "path": "original/dataset7/D7-18/2019jccs_toma_chapter5.pdf",
+    "size_bytes": 24565737,
+    "sha256": "30a21645991ac4bcc03dc44b948808aa09b4361870de979dc55a8f8afeedf0a1",
+    "pages": 146,
+    "page_text_path": "evidence/dataset7/D7-18/pages.json"
+  },
+  {
+    "batch_id": "D7-19",
+    "id": "file_000000003b488207ac2c49d25ac95071",
+    "original_filename": "2018jccs_toma_chapter5.pdf",
+    "path": "original/dataset7/D7-19/2018jccs_toma_chapter5.pdf",
+    "size_bytes": 33119500,
+    "sha256": "decff2edf1ef9b7fd5ff525cce7a53eea94c28e9bd4de50d78c4ac519d2628d9",
+    "pages": 223,
+    "page_text_path": "evidence/dataset7/D7-19/pages.json"
+  },
+  {
+    "batch_id": "D7-20",
+    "id": "file_00000000c6708207a0aa5fbd93e77027",
+    "original_filename": "2024jccs_toma_chapter3r.pdf",
+    "path": "original/dataset7/D7-20/2024jccs_toma_chapter3r.pdf",
+    "size_bytes": 361020,
+    "sha256": "9ce1849d7febdbc8d5637e3d46a04d1b20f489e205ef206dbd124ce929e6553f",
+    "pages": 4,
+    "page_text_path": "evidence/dataset7/D7-20/pages.json"
+  },
+  {
+    "batch_id": "D7-21",
+    "id": "file_000000006ce08207891e7c0b8e9d30f3",
+    "original_filename": "2024jccs_toma_chapter2.pdf",
+    "path": "original/dataset7/D7-21/2024jccs_toma_chapter2.pdf",
+    "size_bytes": 1272499,
+    "sha256": "5cc807a3c5127c42f36461501540506e24ef1de4533d2e819cda4e882433f1ea",
+    "pages": 20,
+    "page_text_path": "evidence/dataset7/D7-21/pages.json"
+  },
+  {
+    "batch_id": "D7-22",
+    "id": "file_00000000ace08207854ce1379d4360a6",
+    "original_filename": "2024jccs_toma_chapter5.pdf",
+    "path": "original/dataset7/D7-22/2024jccs_toma_chapter5.pdf",
+    "size_bytes": 14584294,
+    "sha256": "5b53d0d3ccf691f3887da0160e6cd527e72ea8a9a75c8c07af1f251a3cd9bd92",
+    "pages": 104,
+    "page_text_path": "evidence/dataset7/D7-22/pages.json"
+  },
+  {
+    "batch_id": "D7-23",
+    "id": "file_00000000df08820792a0b9beb9bc54d7",
+    "original_filename": "201812_ENG.pdf",
+    "path": "original/dataset7/D7-23/201812_ENG.pdf",
+    "size_bytes": 3293784,
+    "sha256": "4be6ed4926d0066e6e4d70bd1a25ec140401f678cf8cda1ddd2006f677595e1a",
+    "pages": 19,
+    "page_text_path": "evidence/dataset7/D7-23/pages.json"
+  },
+  {
+    "batch_id": "D7-24",
+    "id": "file_000000005cdc8207a996532c24aadbc0",
+    "original_filename": "202609_ENG.pdf",
+    "path": "original/dataset7/D7-24/202609_ENG.pdf",
+    "size_bytes": 5450947,
+    "sha256": "4c026f39a100890e8d1d7d354900876cc024c854ab0224ac76007a9c6595859c",
+    "pages": 21,
+    "page_text_path": "evidence/dataset7/D7-24/pages.json"
+  },
+  {
+    "batch_id": "D7-25",
+    "id": "file_0000000001dc8207a5b4a04e06fb689d",
+    "original_filename": "202610_ENG.pdf",
+    "path": "original/dataset7/D7-25/202610_ENG.pdf",
+    "size_bytes": 5296025,
+    "sha256": "92c3e769c9aa46560f5ec889098c24dc50643db653d55a180793d88a6c83b33d",
+    "pages": 21,
+    "page_text_path": "evidence/dataset7/D7-25/pages.json"
+  },
+  {
+    "batch_id": "D7-26",
+    "id": "file_0000000018488207968f30cca4268368",
+    "original_filename": "IBDP_2007_Topical_Report_2D_Seismic_Interpretation.zip",
+    "error": "file exceeds the executor transfer limit of 32 MiB"
+  }
+]

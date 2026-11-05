@@ -1,0 +1,25 @@
+{
+  "uploaded": 26,
+  "available": 25,
+  "unavailable": [
+    "D7-26"
+  ],
+  "indexed_pdf_files": 17,
+  "indexed_pdf_pages": 1186,
+  "located_numeric_records": 420,
+  "monthly_history_rows": 45,
+  "shutin_tests": 17,
+  "falloff_reference_tests": 9,
+  "northern_lights_numeric_components": 25,
+  "northern_lights_blank_components": 31,
+  "new_derived_checks": 8,
+  "optional_storage_proxy_comparisons": 100,
+  "entity_mismatch_unresolved": true,
+  "independent_maximum_annual_injection_array": false,
+  "complete_lca": false,
+  "company_emission_cells": 225,
+  "reported_company_cells": 108,
+  "facility_rows": 78,
+  "cppi_ports": 424,
+  "cppi_native_cells": 8008
+}

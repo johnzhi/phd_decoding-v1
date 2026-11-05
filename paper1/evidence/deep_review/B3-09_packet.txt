@@ -1,0 +1,218 @@
+Planning of carbon capture storage deployment using process graph approach
+
+PHYSICAL_PAGE 2
+642                                                   F.K. Chong et al. / Energy 76 (2014) 641e651
+
+
+various geological formations, such as depleted oil or gas reservoirs,         complex, case-speciﬁc goal functions especially to handle the
+inaccessible coal deposits, saline aquifers and other geological               deployment of CCS retroﬁt with concern for cost-effectiveness [25].
+structures of sufﬁcient integrity.                                                 On the other hand, different techniques have also been devel-
+    Note however that, retroﬁtting power plant with CCS has some               oped for carbon storage planning problem, in order to match
+major issues, one of which is the energy consumption of additional             multiple CO2 sources and sinks (storage sites). Graphical techniques
+process equipment to isolate and compress CO2. When plants are                 based on pinch analysis were developed to cater for capacity [26]
+retroﬁtted for capture, the power output of the retroﬁtted plant is            and injectivity constraints [27]. Diamante et al. [28] improved
+15e20% lower than original output due to parasitic energy de-                  their previous work [27] by considering time availability of sources
+mands (i.e. the additional energy demands for CO2 capture) [9]. In             and sinks, simultaneously with injectivity limits. However,
+addition, capital cost for plants with CCS will be 25e50% higher               geographical distances and pipeline costs between various sources
+than that of baseline plants due to the additional process equip-              and sinks are neglected due to inherent simpliﬁcations and lower
+ment, such as air separation units for OFC and absorption columns              expandability of pinch approaches.
+for FGS [9]. Subsequently, these equipment cause a drop in plant                   Different mathematical optimisation models have also been
+thermal efﬁciency of 5e10%, resulting in an increase in the cost of            presented for the carbon storage problem. A discrete-time MILP
+electricity generated [12]. To compensate for the power loss,                  model was developed for optimal source-sink matching with
+additional electricity also needs to be generated from new plants in           temporal, injection rate and storage capacity constraints [25]. This
+order to maintain the grid-wide power output prior to CCS                      constraint is tackled by dividing a ﬁnite planning horizon into
+deployment, which ultimately contributes to incremental costs.                 discrete time intervals. However, this model is only suitable for
+Alternatively, electricity may need to be imported from nearby                 mid-term planning of CCS option for plants located in close
+regions (if these have surplus supply); such measures may, of                  geographical proximity to sinks. For an increase in precision,
+course, potentially compromise energy security or independence of              shorter time intervals are required in the model, which results in
+a country. Failure to compensate for the energy penalties incurred             the increase in model variables with the associated penalties in
+by CCS will result in power shortages. All of these complex con-               computational effort. A related continuous-time MILP model for
+siderations result in the need for proper planning of CCS deploy-              CO2 source-sink matching in CCS systems also developed [29]. This
+ment in power generation sector. Market allocation optimisation                model accounts for CO2 emission penalties result from generating
+model has been used to analyse economic aspect of CCS systems                  electricity to compensate for grid-wide CCS power losses
+[13]. Life cycle assessment has also been used to study the trade-             [16,17,20,21]. The main assumption of Tan et al. [29] is by omitting
+offs between different environmental impacts after implementa-                 injection rate, since physical characteristic of CO2 sinks capacity is
+tion of CCS systems [14]. However, there are still signiﬁcant un-              more signiﬁcant. Later, Lee and Chen [30] proposed an improved
+certainties with respect to economics of CCS systems and technical             MILP model for similar problems. Lee et al. [31] has recently pre-
+uncertainties in CO2 life cycle [15], mainly are grid power problems           sented a uniﬁed multi-period MILP model to consider CCS retroﬁt
+and CO2 source-sink matching.                                                  planning and CO2 source-sink matching simultaneously.
+    Pinch analysis was ﬁrst introduced to address CCS planning                     As mentioned, different approaches for planning CCS deploy-
+problem, particularly for carbon capture planning [16e18]. In the              ment have been proposed, each with their own unique advantages
+seminal work of Tan et al. [16], which was an extension based on               and disadvantages. In this work, we propose a novel alternative
+carbon emission pinch analysis [19], useful insights and perfor-               approach to CCS system planning based on process network syn-
+mance targets (e.g. minimum extent of retroﬁt) to facilitate the CCS           thesis (PNS), which is based on process graph (P-graph). P-graph
+retroﬁt planning stage are obtained using the graphical tool known             methodology is a powerful approach which utilises graph theory
+as the CCS planning composite curve. However, there are several                to perform an efﬁcient search of the solution space of a given
+limitations in this approach. First, it only handles highly aggregated         problem domain. P-graph framework was ﬁrst introduced by
+energy sources and demands, in which planning can only be made                 Friedler et al. [32] for synthesis of process system. This approach
+at the sectorial level. Besides, various design constraints and eco-           resorts to the well-established mathematics of graph theory and it
+nomic considerations for detailed planning cannot be included.                 is heavily based on a unique class of graphs as well as combina-
+Shenoy and Shenoy [17] employed table algorithm and nearest                    torial techniques [32]. It focuses on structures of the whole system
+neighbour algorithm to design the carbon emission networks, and                and rigorously examines all possible structures from mathematical
+followed by total cost optimisation using mixed integer linear                 perspective, while allowing for a more efﬁcient search of the so-
+programming (MILP) formulation. A signiﬁcant advantage of this                 lution space than is possible from MILP approaches. A wide range
+methodology is that network can be designed separately, without                of successful application has then been reported, which include
+requiring the cost data. Therefore, many alternative networks can              molecular design [33], reaction pathway synthesis [34,35], syn-
+be obtained by just varying order of satisfaction in table algorithm.          thesis of separation network [36e39], heat exchanger network
+The drawback of this methodology is the optimum network can                    synthesis [40], process synthesis [41e43], and energy supply chain
+only be obtained after going through few distinct stages of analysis.          [44,45]. However, no attempt has been reported for the use of P-
+A recent work of Sahu et al. [18] improves the previous work of Tan            graph for CCS planning problem, which is the main aim of this
+et al. [16], where compensatory power was assumed to be gener-                 work.
+ated only from carbon-neutral sources. The group makes use of                      This paper proposes a P-graph approach for the systematic
+algebraic technique to handle cases where compensatory power is                planning of CCS deployment in the power generation sector. The
+generated from both carbon-neutral and non-carbon-neutral                      rest of the work is organised as below. First, a formal problem
+sources.                                                                       statement is given. A brief explanation on methodology used in this
+    In order to overcome the limitation of pinch analysis techniques,          paper is next discussed. A literature case study on carbon capture is
+several works based on mathematical optimisation techniques have               adapted as base case and solved using P-graph approach. Further-
+been developed for the planning of CCS deployment. These include               more, different parameters are used to illustrate the potential
+those based on superstructure model [20e22] and automated tar-                 future scenarios in CCS planning; and sensitivity analysis is carried
+geting technique [23,24]. Mathematical optimisation technique is               out by generating Pareto optimal curve. Extensions are then
+preferable, when detailed planning scenarios are encountered.                  developed from this base case to determine appropriate source-
+Such models also provide an opportunity to integrate more                      sink matching for carbon capture planning based on temporal
+
+
+PHYSICAL_PAGE 7
+                                                                   F.K. Chong et al. / Energy 76 (2014) 641e651                                                  647
+
+Table 4                                                                                     5.2. Scenario 2
+Power sector data after CC retroﬁt in Base Case.
+
+ Plant             CC            Final power       Final carbon    Increase in cost             In Base Case and Scenario 1, the power demand is assumed to be
+                   technique     output (MW)       emissions       per unit of              same and so does the power output from each plant. Power de-
+                                                   (t CO2/h)       power (%)                mand is estimated to be about 30% higher in 30 years time, as
+ 1                 OFC            450               60             60                       economic output grows more than doubles and prosperity expands
+ 2                 OFC            375               50             60                       across a world with population growing rapidly [50]. The trend is
+ 3                 None           250              125              0
+                                                                                            especially pronounced in the developing world, where many
+ 4                 None           300              150              0
+ 5                 None           400              200              0                       countries are characterised by rapid economic development, pop-
+ 6                 None           200              140              0                       ulation growth and rising energy intensity. Therefore power output
+ Compensatory      None           275               27.5           40                       of some power plants shall be increased to meet the demand. In this
+ Total                           2250              752.5           26.9                     scenario, power output of Plants 3, 4 and 6 are increased by
+                                                                                            100 MW, 150 MW and 100 MW respectively. Increasing the power
+                                                                                            output will increase the carbon emissions proportionately as well.
+Table 5                                                                                     The emission factors are kept constant in this scenario, thus the
+Key results for Base Case and Scenarios 1e3.                                                carbon emissions of Plants 3, 4 and 5 are now 175 t/h, 225 t/h and
+ Parameter                         Base case Scenario 1 Scenario 2 Scenario 3
+                                                                                            210 t/h. Apart from these, the other data are remained the same as
+                                                                                            Base Case.
+ Final carbon footprint (t/MWh)    0.334       0.278       0.295          0.308
+                                                                                                This scenario is solved using SSG and LP algorithms in PNS
+ Relative reduction (%)            56.12       63.56       59.90          59.65
+ Grid relative power cost          1.269       1.296       1.296          1.274             Studio. The results of this scenario is summarised in forth column of
+ Power from unmodiﬁed plants       1150        850         1200           1150              Table 5. The optimal solution is to retroﬁt Plant 1, 2 and 6 using OFC
+    (MW)                                                                                    and keeping the others unmodiﬁed. The ﬁnal carbon footprint is
+ Power from retroﬁtted plants      825         1050        1050           880               0.2946 t/MWh; this is lower than Base Case but higher than Sce-
+    (MW)
+ Power from new plants (MW)        275         350         350            220
+                                                                                            nario 1. The corresponding reduction of carbon footprint is only
+                                                                                            59.90% of the baseline level while the cost increment is kept within
+                                                                                            30% of base cost. The carbon footprint reduction is still lower than
+                                                                                            that for Scenario 1, but the cost increment is the highest among all
+5.1. Scenario 1                                                                             cases. The graphical representation of optimum solution for ret-
+                                                                                            roﬁtting power plants in this scenario is also included as Fig. S3 in
+    In the ﬁrst scenario, it is assumed that all power plants imple-                        the supplementary ﬁle.
+menting CCS will be subsidised by government, thus reducing the                                 Similar to Scenario 1, one extra power plant is chosen for CCS
+power cost from retroﬁtted power plants. It was reported that                               retroﬁt as compared to Base Case. However, this scenario still has
+major policy initiatives are required for reducing the carbon                               higher carbon footprint than that of Scenario 1; while both Sce-
+emissions globally and subsidies to low-carbon technologies such                            narios 1 and 2 have the same cost increment. This indicates that
+as CCS is an important element of future climate policies around the                        increment in power demand does not help in carbon emission
+world [49].                                                                                 reduction as much as having subsidies from government when CCS
+    This scenario makes use of the same data as in the Base Case,                           is employed.
+except that the increment cost of electricity in the retroﬁtted plant
+will be assumed as 50%, as compared to the initial assumption of
+                                                                                            5.3. Scenario 3
+60% (as compared to unmodiﬁed plants). It is assumed that 10%
+increment is to be subsidised by the government. Having ﬁnancial
+                                                                                               Carbon capture technologies are still relatively immature (as
+support from the government, it is expected that more power
+                                                                                            compared to other clean fuel technologies) and there is potential in
+plants will undergo CCS retroﬁt, and hence lower total CO2 emis-
+                                                                                            improving them further, for example through effective use of heat
+sion. The main objective remains the same as that in Base Case,
+                                                                                            integration within power plants [51]. In this scenario, it is assumed
+which is to maximise CO2 reduction while keeping electricity cost
+                                                                                            that the removal ratios of carbon capture technologies increase
+increment within 30% from base cost.
+                                                                                            while the relative power losses decrease. Same data as Base Case is
+    Solving the case study using SSG and LP algorithms in PNS
+                                                                                            used here, except that the removal ratio of both carbon capture
+Studio, yields an optimal result where Plants 1, 2 and 4 require OFC
+                                                                                            technologies and their power losses, which are given in Table 6.
+retroﬁt, while keeping the others unchanged. The ﬁnal carbon
+                                                                                            This scenario is also solved using SSG and LP algorithms in PNS
+emission after CCS retroﬁt is determined as 625 t/h. The summary
+                                                                                            Studio.
+of this scenario is given in the third column in Table 5. The ﬁnal
+                                                                                               Solving this scenario yields the optimal results in which Plants 1
+carbon footprint of resulting electricity mix is 0.2778 t CO2/MWh,
+                                                                                            and 2 were retroﬁtted with OFC technology, i.e. identical to that of
+which is 63.56% lower than the baseline level. The increment of
+                                                                                            the Base Case. A ﬁnal carbon footprint of 0.3076 t/MWh is achieved
+electricity cost is still within 30% of the base cost. The overall op-
+                                                                                            and corresponds to a reduction of 59.65% from the baseline level.
+timum solution to this scenario is shown using P-graph represen-
+                                                                                            The unit power cost increases by 27.4%, which is slightly higher
+tation, which is included as Fig. S2 in the supplementary ﬁle.
+                                                                                            than that of Base Case. The summary is given in the ﬁfth column in
+    As compared to the Base Case, this results in higher reduction in
+                                                                                            Table 5. The graphical representation of the optimum solution for
+carbon emissions and slightly higher unit cost of power. It shows
+one extra power plant can install OFC compared to Base Case
+without compromising the economic limit set beforehand. It is                               Table 6
+obvious that having subsidies support, the power sector is able to                          Technology new data for Scenario 3.[8,51].
+have more plants retroﬁtted and reduce emission of greenhouse
+                                                                                              Technology                Removal ratio         Relative power losses
+gases. This result, when compared with that of Base Case, clearly
+indicates how sensitive are the carbon footprint reduction to the                             OFC                       0.95                  0.20
+                                                                                              FGS                       0.90                  0.10
+cost increment from retroﬁtting a power plant.
+
+
+PHYSICAL_PAGE 11
+                                                                    F.K. Chong et al. / Energy 76 (2014) 641e651                                                                  651
+
+[22] Koo J, Han K, Yoon ES. Integration of CCS, emissions trading and volatilities of        [37] Heckl I, Kovacs Z, Friedler F, Fan LT, Liu J. Algorithmic synthesis of an optimal
+     fuel prices into sustainable energy planning, and its robust optimization.                   separation network comprising separators of different classes. Chem Eng
+     Renew Sustain Energy Rev 2011;15:665e72.                                                     Process Process Intensif 2007;46:656e65.
+[23] Ooi REH, Foo DCY, Tan RR. Targeting for carbon sequestration retroﬁt planning           [38] Feng G, Fan LT, Friedler F. Synthesizing alternative sequences via a P-graph-
+     in the power generation sector for multi-period problems. Appl Energy                        based approach in azeotropic distillation systems. Waste Manag 2000;20:
+     2014;113:477e87.                                                                             639e43.
+[24] Ooi REH, Foo DCY, Tan RR, Ng DKS, Smith R. Carbon constrained Energy                    [39] Bertok B, Friedler F, Feng G, Fan LT. Systematic generation of the optimal and
+     planning (CCEP) for sustainable power generation sector with automated                       alternative ﬂowsheets for azeotropic distillation systems. Comput Aided
+     targeting model. Ind Eng Chem Res 2013;52:9889e96.                                           Chem Eng 2001;9:351e6.
+[25] Tan RR, Aviso KB, Bandyopadhyay S, Ng DKS. Optimal source-sink matching in              [40] Nagy AB, Adonyi R, Halasz L, Friedler F, Fan LT. Integrated synthesis of process
+     carbon capture and storage systems with time, injection rate and capacity                    and heat exchanger networks: algorithmic approach. Appl Therm Eng
+     constraints. Environ Prog Sustain Energy 2013;32:411e6.                                      2001;21:1407e27.
+[26] Ooi REH, Foo DCY, Ng DKS, Tan RR. Planning of carbon capture and storage                [41] Friedler F. Process integration, modelling and optimisation for energy saving
+     with pinch analysis techniques. Chem Eng Res Des 2013;91:2721e31.                            and pollution reduction. Appl Therm Eng 2010;30:2270e80.
+[27] Diamante JAR, Tan RR, Foo DCY, Ng DKS, Aviso KB, Bandyopadhyay S.                       [42] Halasz L, Povoden G, Narodoslawsky M. Sustainable processes synthesis for
+     A graphical approach for pinch-based SourceSink matching and sensitivity                    renewable resources. Resour Conserv Recycl 2005;44:293e307.
+     analysis in carbon capture and storage systems. Ind Eng Chem Res 2013;52:               [43] Varbanov PS, Friedler F. P-graph methodology for cost-effective reduction of
+     7211e22.                                                                                     carbon emissions involving fuel cell combined cycles. Appl Therm Eng
+[28] Diamante JAR, Tan RR, Foo DCY, Ng DKS, Aviso KB, Bandyopadhyay S. Uniﬁed                     2008;28:2020e9.
+     pinch approach for targeting of carbon capture and storage (CCS) systems                [44] Lam HL, Varbanov PS, Klemes JJ. Optimisation of regional energy supply
+     with multiple time periods and regions. J Clean Prod 2014:1e8.                               chains utilising renewables: P-graph approach. Comput Chem Eng 2010;34:
+[29] Tan RR, Aviso KB, Bandyopadhyay S, Ng DKS. Continuous-time optimization                      782e92.
+     model for sourceesink matching in carbon capture and storage systems. Ind               [45] Lam HL, Klemes JJ, Varbanov PS, Kravanja Z. P-graph synthesis of open-
+     Eng Chem Res 2012;51:10015e20.                                                               structure biomass networks. Ind Eng Chem Res 2012;52:172e80.
+[30] Lee J-Y, Chen C-L. Comments on “Continuous-time optimization model for                  [46] Peters MS, Timmerhaus KD, West RE. Plant design and economics for chemical
+     sourceesink matching in carbon capture and storage systems.” Ind Eng Chem                    engineers. 5th ed. New York: McGraw-Hill Education; 2004.
+     Res 2012;51:11590e1.                                                                    [47] PNS Studio. PNS studio; 2012.
+[31] Lee J-Y, Tan RR, Chen C-L. A uniﬁed model for the deployment of carbon                  [48] Amann J-M, Kanniche M, Bouallou C. Natural gas combined cycle power plant
+     capture and storage. Appl Energy 2014;121:140e8.                                             modiﬁed into an O2/CO2 cycle for CO2 capture. Energy Convers Manag
+                     n K, Huang YW, Fan LT. Graph-theoretic approach to process
+[32] Friedler F, Tarja                                                                            2009;50:510e21.
+     synthesis: axioms and theorems. Chem Eng Sci 1992;47:1973e88.                           [49] Aune FR, Liu G, Rosendahl KE, Sagen EL. Subsidising carbon capture. Effects on
+[33] Friedler F, Fan LT, Kalotai L, Dallos A. A combinatorial approach for generating             energy prices and market shares in the power market. Norway: Research
+     candidate molecules with desired properties based on group contribution.                     Department of Statistics; 2009. p. 1e27. Discussion Papers.
+     Comput Chem Eng 1998;22:809e17.                                                         [50] ExxonMobil. The outlook for energy: a view to 2040. Texas 2012:1e56.
+[34] Seo H, Lee D-Y, Park S, Fan LT, Shaﬁe S, Berto     k B, et al. Graph-theoretical       [51] David J, Herzog H. The cost of carbon capture. In: Williams DJ, Durie RA,
+     identiﬁcation of pathways for biochemical reactions. Biotechnol Lett 2001;23:                McMullan P, Paulson CAJ, Smith AY, editors. Proc 5th Int Conf Greenh Gas
+     1551e7.                                                                                      Control Technol, Cairns, Australia; 2000. p. 985e90.
+[35] Fan LT, Berto k B, Friedler F. A graph-theoretic method to identify candidate          [52] Kostevsek A, Klemes JJ, Varbanov PS, Cu   cek L, Petek J. Sustainability assess-
+     mechanisms for deriving the rate law of a catalytic reaction. Comput Chem                    ment of the locally integrated Energy sectors for a Slovenian municipality,
+     2002;26:265e92.                                                                              J Clean Produ. http://dx.doi.org/10.1016/j.jclepro.2014.04.008.
+[36] Kovacs Z, Ercsey Z, Friedler F, Fan LT. Exact super-structure for the synthesis of     [53] Klemes JJ, Varbanov PS, Kapustenko P. New developments in heat integration
+     separation-networks with multiple feed-streams and sharp separators.                         and intensiﬁcation, including total site, waste-to-energy, supply chains and
+     Comput Chem Eng 1999;23:S1007e10.                                                            fundamental concepts. Appl Therm Eng 2013;61:1e6.

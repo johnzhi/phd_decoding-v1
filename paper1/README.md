@@ -2,9 +2,9 @@
 
 Start with [the manuscript](manuscript/Paper_1_draft.md), its editable DOCX, [all extracted values](data/all_extracted_values.csv), and [the evidence digest](docs/evidence_digest.md).
 
-This package contains 92 unique supplied publications (93 PDFs), the original proposal, 1,642 extracted-value records, 250 curated PDF quantities and 134 original benchmark inputs, plus 352 numeric supplementary records. The results contain 49 calculations and 75 published fleet counts. Forty-eight publications have targeted extraction and 44 have abstract/relevance screening. These counts describe review coverage, not 92 fully inventoried papers.
+This package contains 92 unique supplied publications (93 PDFs), the original proposal, 1,642 extracted-value records, 250 curated PDF quantities and 134 original benchmark inputs, plus 352 numeric supplementary records. The results contain 49 calculations and 75 published fleet counts. All92 unique publications now have targeted full-text review:48 initial and44 follow-up selected methods/results reviews. The separate follow-up register adds140 located values, of which18 support named within-source/utility-reference calculations. These registers overlap; the counts do not represent an exhaustive inventory or independent observations.
 
-The draft includes real source-based benchmark results and an explicitly labelled cross-study proxy stress test. Indonesian storage outcomes and Norwegian post-capture intensities are not presented as measured Japanese geology or as a calibrated international project. See [proxy register](docs/proxy_register.md), [data dictionary](docs/data_dictionary.md), and [remaining work](docs/remaining_work.md).
+The main draft reports our controlled operating and shared-source benchmarks. The older cross-study score is supporting AppendixA material. Indonesian storage outcomes and Norwegian post-capture intensities are not presented as measured Japanese geology or as a calibrated international project. See [proxy register](docs/proxy_register.md), [data dictionary](docs/data_dictionary.md), and [remaining work](docs/remaining_work.md).
 
 ## Reproduce
 
@@ -19,6 +19,11 @@ python paper1/scripts/operational_model.py
 python paper1/scripts/ingest_reference_datasets.py
 python paper1/scripts/extract_ibdp_reference.py
 python paper1/scripts/reference_inventory.py
+python paper1/scripts/ingest_case_evidence.py
+python paper1/scripts/finalize_deep_review.py
+python paper1/scripts/property_consistency.py
+python paper1/scripts/limitation_benchmarks.py
+python paper1/scripts/mixed_allocation.py
 python -m unittest discover -s paper1/tests -v
 python paper1/scripts/build_workbook.py
 python paper1/scripts/build_documents.py
@@ -53,3 +58,17 @@ The evidence workbook now includes77 located reference-inventory inputs,8 NETL c
 Twenty distinct utility-accounting scenarios and the IMO MDO/MGO default fuel pathway produce2,980 partial inventory comparisons. Electrical replacement and heat-plus-auxiliary routes are mutually exclusive. The source-derived defaults improve the inventory but do not establish actual plant utilities, future grid factors or complete lifecycle GHG. The design-controlled5,000km case has only about+0.009Mt remaining allowance under the NGCC90/Norway-climate reference; Japanese fallback-factor examples are negative. No robust destination preference follows.
 
 Both uploaded wave subsets are single-point, single-time snapshots. IBDP microseismic event rates are separate from injection rates. The supplied St.Peter/Knox-Potosi report is an independent simulation reference; paired injection-monitoring rate/pressure histories remain needed. The BagIt audit verifies27/31 expected payloads rather than a complete bag. [IBDP attribution and terms](original/dataset6/ATTRIBUTION.md) accompany the retained files.
+
+## Japanese case evidence
+
+The [third intake review](docs/case_evidence_review.md) covers26 uploads,25 retained files and one oversized IBDP ZIP. It adds420 located numeric records,45 Tomakomai monthly history records,17 shut-in/test records,9 fall-off interpretations, Japanese company/facility reporting exports and the CPPI Excel annex. Native/formula cells and reported totals retain their original boundaries; source identity mismatches and blank cells remain unresolved.
+
+Eight derived checks and100 optional Northern Lights storage-component sensitivities are separate from the original operating results. The selected storage reference changes the previous near-zero5,000km margin from+8.69kt to−4.44kt under the stated transfer. This is not full LCA or a calibrated regional ranking. The [limitation-reduction report](docs/limitation_reduction_plan.md) records completed work and residual limits.
+
+## Follow-up review and shared-source benchmark
+
+The [44 reading cards and review report](docs/deep_review_report.md) identify selected full-text pages, methods, results and transfer limits. `deep_review_values.csv` retains140 located records; context/HOLD values cannot enter the new calculations. `limitation_benchmarks.py` adds8 within-source checks and10 paired-MEA utility sensitivities. The MEA reference is3.6GJ/t captured and100kWh/t captured from the same study, with its compression/liquefaction boundary preserved.
+
+The [mixed-model specification](docs/mixed_allocation.md) describes12 annual MILPs and72 detailed fixed-plan reevaluations: a single1Mt/y source, disjoint reservoir groups, integer voyages, two route assignments, two long distances, three dispatch policies and two fleet controls. Eighteen further dispatch controls preserve the original six designs. These are surrogate-envelope benchmarks, not independently calibrated physical constraints, a detailed operating optimum or full regional LCA. Missing duties/assets are not physical zeros.
+
+`property_consistency.py` independently checks the selected density with CoolProp8/Span–Wagner at the published temperature under two pressure-reference interpretations. The1154.60kg/m3 absolute-pressure reference is within0.06% of the1154kg/m3 table, and all75 fleets still match. The original table input is retained; actual cargo impurities and source datum remain unverified. [Specific remaining datasets](docs/reference_data_requests.md) now prioritise native Tomakomai rate/pressure/temperature and prospective-model exports; the oversized IBDP reports are an optional alternative rather than a prerequisite for unrelated work.

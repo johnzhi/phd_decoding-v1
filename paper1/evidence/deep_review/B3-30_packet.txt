@@ -1,0 +1,260 @@
+Influence of system boundary conditions on the life cycle cost and carbon emissions of CO2 transport
+
+PHYSICAL_PAGE 2
+J. Yuan et al.                                                                                       International Journal of Greenhouse Gas Control 124 (2023) 103847
+
+
+Ammonia CCS system, and discussed the impact of the capture, trans­               evaluating CO2 reduction potentials when shipping is used as means of
+portation, and storage processes on the CCS life cycle emission reduction         CO2 transport. The boundary conditions are further used to facilitate the
+effect. Viebahn et al. (2007) compared the life cycle assessment results          discussion of carbon price through which CO2 transport could become
+of fossil-fired power plants and wind and solar thermal power plants              commercially viable.
+with the consideration of life cycle carbon emissions of CCS.                         The rest of paper is organised as follows. Section 2 discusses the
+    In addition to focusing on the CCS value chain, the existing life cycle       methodology for computing the life cycle costs and CO2 emissions.
+assessment also conducts cost research on parts of the CCS value chain.           Section 3 presents the data and assumptions used in the case study.
+Seo et al. (2015) compared four carbon dioxide liquefaction systems               Section 4 provides the case study results and their implications. Section
+based on life cycle cost analysis, and selected the optimal carbon dioxide        5 concludes the paper with recommendation for future research.
+liquefaction system. The transportation stage in the CCS value chain has
+recently received more research and attention. Kalyanarengan Ravi                 2. Methodology
+et al. (2017) used the mixed integer linear programming method to
+propose an optimal pipeline transportation model with CO2-hub, which              2.1. Life cycle carbon emissions
+solves the problem of minimizing the life cycle cost of the CCS value
+chain transportation stage. Kjärstad et al. (2016) compared the cost or              A ship is a complex energy system with fuel supply, engine, air-
+benefit of pipeline transportation and ship transportation by changing            conditioning, lighting and other on-board energy-consuming compo­
+the distance and volume of carbon dioxide transportation, and obtained            nents (Yuan et al., 2019). A ship is also a part of a greater life cycle
+the respective applicable conditions for pipeline and ship through the            energy system from building and construction, ship operation and
+break-even point.                                                                 maintenance, to end-of-life management (Nian and Yuan, 2017). The
+    Kim et al. (2019) shown that in the CCS value chain, carbon emis­             shipping system was conceived from a system producing energy (V.
+sions during transportation account for about 23% of the total emissions          Nian, 2016; Wang et al., 2018) and products (V. Nian, 2016) to a system
+throughout the life cycle of CCS. Transportation is an important link in          delivering services (Wang et al., 2019). As such, shipping is defined as a
+the CCS value chain, but the pipeline transportation of carbon dioxide is         system for providing transport services for passenger and cargo.
+now researched more comprehensively. While there are discussions                      Based on the general system boundary conditions, a life cycle ship­
+about transporting CO2 using ships, such as an LPG tanker (Aspelund               ping system has both energy and non-energy inputs, and outputs carbon
+et al., 2006), very few studies have examined the costs and benefits of           emissions over the lifetime. It is assumed that the system boundary of
+CO2 transport by sea. Decarre et al. (2010) analysed the feasibility of           the shipping system can be formulated from three dimensions, including
+ship transportation, and studied the optimal cost of pipeline trans­              the boundary between the system and its environments, the boundary
+portation and ship transportation under different transportation vol­             between the main system and its sub-systems, and physical and temporal
+umes and transportation distances. When the source and sink of CO2 are            boundaries formatting the main system (Nian et al., 2014).
+not connected by land, transport by sea would be necessary. Therefore,                In this study, the life cycle shipping system is assumed to be focused
+there is still a need to further dissect the economic and environmental           on vessels transporting LPG. Coral Alameda, recorded in Clarksons
+advantages and/or disadvantages of CO2 transport in the CCS value                 Research Shipping Intelligence Network (2022), is an LPG ship with a
+chain to ascertain if long-distance transport of CO2 should be encour­            minimum tank temperature of − 104 ◦ C and a maximum tank pressure of
+aged by policy.                                                                   7 bar. The maximum tank pressure of the LPG ship recorded in Clark­
+    Lai et al. (2011) proposed a conceptual framework for evaluating              sons Research Shipping Intelligence Network (2022) can even reach 20
+green shipping practices and found that the environmental impact of the           bar. For the liquid carbon dioxide ship, with reference to Georg
+shipping industry cannot be ignored. In order to assess the carbon                Hegerland and Pande (2005), conditions close to the triple point (i.e.,
+emissions of CO2 transport using ship, the emissions of shipping itself           − 56.6◦ C, 5.2 bar) can reduce the shipping cost. It can be seen that the
+should be considered. It has been shown that the share of shipping                temperature and pressure of the LPG ship is sufficient for the trans­
+emissions globally has increased from 2.76% in 2012 to 2.89% in 2018              portation of liquid carbon dioxide. Therefore, it is technically feasible to
+(IMO 2020). Existing studies suggest a potential of reducing up to 75%            build or transform the LPG ship to the LPG/CO2 ship. Assuming existing
+of a ship’s CO2 emissions (IMO 2009) such as speed reduction (Euro­               ships, such as those used for transporting liquefied propane gas (LPG)
+pean Commission 2013), and optimal operational strategies (Dulebe­                can be used for CO2 (− 56.6◦ C, 5.2 bar (Panaitescu et al., 2018)) trans­
+nets, 2018; Dai et al., 2018). Besides the CO2 emissions due to the fuel          port, transporting CO2 could translate to an added revenue stream of a
+consumption, a ship is also associated with a life cycle carbon emissions         shipping company. Noted that two different cargos (i.e. LPG and CO2)
+from manufacturing to end-of-life scrapping (Gilbert et al., 2017), of            are transported in the same ship tank, tank cleaning is usually required
+which the process includes shipbuilding (Xie et al., 2017), operation             before loading the other type of cargo. This will increase the total
+(Corbett et al., 2009), maintenance (Styhre et al., 2017), and ship               operational cost. However, tank cleaning cost is relatively small
+scrapping and recycling (Du et al., 2017). Jain et al. (2016) quantified          compared to the transportation cost, which is not considered in this
+the material flow of a single ship by using the on-board documentation            paper.
+to obtain information at the end of the life of the ship, and put forward             Adapting from earlier developments, the conceptual framework of a
+suggestions for improvement of ship design, making ship recycling more            life cycle LPG shipping system would include shipbuilding, transporting
+environmentally friendly. Choi et al. (2016) studied the important role           LPG from export to import locations, and ship decommissioning at the
+of economic cost-benefit analysis methods and life cycle analysis                 end of life (Fig. 1). The carbon emissions are due to the use of energy and
+methods in the end-of-life recycling management of ships. While CO2               non-energy inputs as well as fuel combusted inside the ship’s engines. In
+transport can facilitate reduction of CO2 from combustion of fossil fuels         earlier developments, a “product” is defined and transformed across the
+on land, there are uncertainties associated with the cost and life cycle          process chain of the life cycle system so as to determine the life cycle
+CO2 emissions when the CCS value chain is enabled by international                system and boundary formations. In this study, the “product” is defined
+shipping.                                                                         as shipping service which is the delivery of LPG or captured CO2.
+    As a contribution to the literature, this study employs a scenario-               For the considered shipping system, the goal of its LCA study is
+based approach to evaluate the life cycle cost and CO2 emissions of               different from the LCA study on LPG/CO2 delivered. The life cycle car­
+transporting CO2 via a reference LPG tanker. The concept of inter­                bon emissions of the delivered “product” (i.e. LPG and/or CO2) should
+connected systems as proposed in V. Nian (2016) is employed to eval­              account for the emissions due to its production process. However, the
+uate the influence of system boundary conditions on the life cycle carbon         life cycle carbon emissions of the considered shipping system do not take
+emission accounting. The objective is to identify a reasonable basis for          into account the emissions from the production and consumption of the
+
+                                                                              2
+
+
+PHYSICAL_PAGE 5
+J. Yuan et al.                                                                                             International Journal of Greenhouse Gas Control 124 (2023) 103847
+
+
+maintenance. Since there is no valid operating data for LPG and CO2                  Table 3
+carriers, in order to clarify the problem, the crude oil carriers will be            Shipbuilding energy consumptions for different departments.
+selected as references for reasonable assumptions. The decommissioning                Department                      Electricity (kWh/LWT)      Other energy (tce/LWT)
+cost of the large scale projects such as power plants as seen in (IEA 2017;
+                                                                                      Production                      104.60                     0.03
+IEA 2015) is used as reference for the shipping system. Therefore, the                Coating                         1.53                       < 0.001
+decommissioning cost is assumed to be 15% of the capital expenditure                  Outfitting                      0.04                       0.06
+(CAPEX). The total discounted cost (TDC) over the lifetime of the ship                Assembly                        96.36                      0.004
+can be expressed as                                                                   Production Support              0.96                       –
+                                                                                      Total Energy Consumption        203.49                     0.10
+          ∑
+TDC =          (INVt + O&Mt + FUELt + DECOMMt − RESIDt )⋅(1 + r)− t
+         t=0,1,2,⋯
+                                                                                     transferred to tonne of coal equivalent (tce).
+                                                                          (15)
+                                                                                         Upon construction, the ship needs to be transported from the country
+where TDC represents the total discounted life cycle cost; INVt repre­               of construction to the country of exporting goods which include either
+sents the upfront investment costs for ship building; O&Mt represents                the LPG or CO2 exporter in this study. An immediate CO2 transport need
+the operating and maintenance costs (except fuel); FUELt represents the              is the use of CO2 for enhanced oil recovery (EOR) (Lake and Bryant,
+fuel costs during shipping; DECOMMt represents the cost of decom­                    October 2018). It is possible for LPG and CO2 exporters to form a
+missioning or scraping of the ship; RESIDt represents the scrap or salvage           complete close-loop economy as LPGs are usually produced from oil
+value recoverable at the end of life, all at year t. r represents the discount       exporting countries which would need EOR at some stage. Once the LPG
+rate.                                                                                cargo is delivered to LPG importer, the same port could reload the LPG
+    The NPV of levelized cost of transport (LCOT) services as delivered              tanker with liquid CO2 and export it back to the LPG exporter for the
+by the LPG ship over its lifetime can be expressed as                                EOR or geological storage. This could be the most economical
+                                                                                     arrangement for both LPG exporter and importer to maximise the usage
+                       TDC                                                           of marine fuel. In this study, it is assumed that the same ship would
+LCOT = ∑                            − t                                   (16)
+                 t=1,2,⋯ Qt ⋅(1 + r)                                                 repeat the same course of travel throughout the life cycle.
+                                                                                         The life cycle of a ship also includes maintenance downtime, loading
+in which                                                                             and unloading time, manoeuvre time and waiting time, in addition to
+Qt = QLPG,t + QCO2,t                                                      (17)       sailing time at sea. The average maintenance downtime is 33.89 days
+                                                                                     annually and the loading and unloading time and waiting time for each
+where Qt , QLPG,t , and QCO2,t represent the quantity of all cargo, LPG and          voyage are 3 days and 1 day respectively (Chatzinikolaou and Ventikos,
+CO2 respectively delivered at year t.                                                2015). Manoeuvre time accounts for 4% of each voyage time. The times
+    Freight charges for the provision of transportation services are the             of loading and unloading for LPG and CO2 are assumed to be the same.
+main revenue during the life cycle. Since there is no information on the             Therefore, the loading and unloading times for transporting both LPG
+price of CO2 transport, the price of CO2 transport is assumed to be                  and CO2 are twice as many as transporting only LPG or CO2. In addition,
+correlated to that of LPG transport. The total discounted income (TDI)               the transportation of liquefied gas needs to consider the effects of tem­
+can be presented as                                                                  perature and pressure. The density of liquefied petroleum gas and
+         ∑                                                                           typical liquefied carbon dioxide are 0.493 t/m3 and 1.2 t/m3 respec­
+TDI =         Pt ⋅Qt ⋅(1 + r)− t                                       (18)          tively (Aspelund et al., 2006) when the temperature and pressure are
+                                                                                     suitable for ship transportation. As such, the total weight of CO2 that can
+         t=0,1,2,⋯
+
+                                                                                     be loaded into the LPG tanker based on the assumed volumetric capacity
+where Pt represents the unit price offered by shipping company for
+                                                                                     exceeds the ship’s deadweight. Thus, the maximum tonnage for CO2
+transporting LPG or CO2.
+                                                                                     transport is capped at the LPG tanker’s deadweight.
+   The net profit and loss (PNL) of LPG and/or CO2 transport in this
+                                                                                         During the operation of the ship, the repair process of the ship is
+approach can be expressed as
+                                                                                     similar to the construction of the ship. According to Nian and Yuan
+PNL = ∑
+              TDI − TDC
+                                                                          (19)       (2017), the electricity and other energy consumed by the hourly main­
+                                                                                     tenance are 0.067 kWh/t and 0.0003 tce/t respectively. At the end of the
+                               − t
+            t=1,2,⋯ Qt ⋅(1 + r)
+                                                                                     ship’s lifetime, the ship will be scrapped and the useful materials will be
+3. Case study data and assumptions                                                   recovered. Energy input is required in the material recovery process, and
+                                                                                     the energy consumption during the disassembly process is shown in
+    According to the 2020 shipbuilding statistics, the 3 major ship­                 Table 4.
+building countries are shown in Table 2. In the shipbuilding stage, only                 The speed of the ship and the distance between ports has direct
+energy inputs such as fossil fuels and electricity are considered. All non-          impacts on the life cycle carbon emissions, costs, and revenue of the
+electrical energy consumption is reported as tonnes of coal equivalent               ship. Based on Eq. (2), the fuel consumptions of vessels at different speed
+(tce). During the construction of the ship, there are mainly six de­                 can be obtained as shown in Fig. 3. It can be found that vessels with
+partments consuming energy, including production, coating, outfitting,               different capacity values have the lowest energy consumption at a speed
+assembly, production support and logistics whose energy consumptions                 of around 8 knots. Since the tanker segment has been promoting larger
+based on per unit of lightweight tonnage (LWT) are reported in Table 3               sizes of vessels, the vessel with the largest capacity is chosen as the
+(Nian and Yuan, 2017). The unit of non-electric energy consumptions is               reference case study, and the optimal speed is set to be 8 knots.
+
+
+  Table 2                                                                                      Table 4
+  Major shipbuilding countries as of 2020.                                                     Energy consumption of ship decommissioning for different
+                                                                                               fuel types. MJ refers to mega joule.
+    Countries                             Completed Gross Tonnage (million)
+                                                                                                   Fuel type                                         MJ/LWT
+    South Korea                           49.60
+    China                                 43.90                                                    Liquefied propane gas                             753.62
+    Japan                                 13.05                                                    Diesel                                            130.78
+    Others                                5.00                                                     Electricity                                       0.9
+
+
+                                                                                 5
+
+
+PHYSICAL_PAGE 8
+J. Yuan et al.                                                                                                    International Journal of Greenhouse Gas Control 124 (2023) 103847
+
+
+
+
+                                            Fig. 4. Evaluation results for shipping system under three transportation scenarios.
+
+
+                                                                                               transported LPG is considered as a source for adding CO2 indirectly to
+Table 9
+                                                                                               the interconnected system, under the discount rate of 7%, the break-
+CO2 emissions from interconnected systems under different boundary
+                                                                                               even carbon price is 0.48$/t. Under the discount rate of 15%, there is
+conditions.
+                                                                                               no break-even carbon price. When the carbon price is greater than zero,
+  System                               Approach                        CO2 emissions (t)
+                                                                                               the total profit will be less than zero no matter how the carbon price
+  Shipping and power generation        cargo                           668,812.66              changes.
+                                       cargo and "sink"                − 6,762,609.44              When both CO2 and LPG are transported, the interconnection
+  Shipping and LPG system              cargo                           668,812.66
+                                       cargo and "source"              19,951,755.93
+                                                                                               amongst LPG production, CO2 production and shipping system would be
+  Interconnected system                cargo                           642,621.68              formed by using LPG and CO2 as the product across the system bound­
+                                       cargo, "sink" and "source"      11,985,160.13           aries. The total net profit or loss of the system can be expressed as:
+                                                                                               TPNLboth = TDI − TDC − CFuel ⋅p − 3⋅QLPG ⋅p + QCO2 ⋅p                         (25)
+    The break-even carbon prices when CO2 is transported are shown in
+                                                                                                   The break-even carbon prices when both CO2 and LPG transported
+Table 10. One setting is to consider the transported CO2 as cargo. Eq.
+                                                                                               are shown in Table 10. When both transported CO2 and LPG are treated
+(23) changes to be TPNLCO2 = TDI − TDC − CFuel ⋅p. Under the discount
+                                                                                               as cargo, under the discount rate of 7%, the break-even carbon price is
+rate of 7%, break-even carbon price is 113.97$/t. Under the discount
+                                                                                               726.49$/t. Under the discount rate of 15%, the break-even carbon price
+rate of 15%, there is no break-even carbon price greater than zero to
+                                                                                               is 405.58$/t. When the transported LPG is taken as a source for adding
+make the total net profit or loss of the system zero. In this setting, the loss
+                                                                                               CO2 and the transported CO2 as a “sink” for subtracting CO2 indirectly
+of the shipping company will be greater if the carbon price is higher. The
+                                                                                               from the interconnected system, under the discount rate of 7%, the
+other setting is to consider the transported CO2 as “sink” for subtracting
+                                                                                               break-even carbon price is 39.37$/t. Under the discount rate of 15%, the
+CO2 indirectly from the interconnected system. Under the discount rate
+                                                                                               break-even carbon price is 22.32$/t.
+of 7%, there is no break-even carbon price. When the carbon price is
+                                                                                                   From the results summarized in Table 10, it can be seen that when
+greater than zero, the total profit will be greater than zero no matter how
+                                                                                               both LPG and CO2 are treated as cargo, there are break-even carbon
+the carbon price changes. Under the discount rate of 15%, the break-
+                                                                                               prices under 7% discount rate for different settings, while under 15%
+even carbon price is 18.86$/t. That is, the shipping company can
+                                                                                               discount rate there is only a break-even carbon price for the setting that
+become profit when the carbon price is greater than 18.86$/t.
+                                                                                               both LPG and CO2 are transported. This is because the discount rate will
+    When only LPG is transported, the LPG and shipping system would
+                                                                                               affect the profitability of the shipping company. When the shipping
+be formed by using LPG as the product across the system boundary. The
+                                                                                               company is profitable, it is reasonable to impose the carbon price on the
+total net profit or loss of the system can be expressed as:
+                                                                                               shipping company for their emissions during transportation. Otherwise,
+TPNLLPG = TDI − TDC − CFuel ⋅p − 3 × QLPG ⋅p                                        (24)       the carbon price will further increase the shipping company’s losses. As
+                                                                                               expected, the shipping company is able to afford higher carbon price
+    The break-even carbon prices when LPG is transported are shown in
+                                                                                               when transporting both LPG and CO2. When the transported CO2 is
+Table 10. When the transported LPG is considered as cargo, the last term
+                                                                                               considered as “sink” of the emissions, it can be seen that the higher
+in Eq. (24), 3⋅QLPG ⋅p, will not be taken into account. Under the discount
+                                                                                               carbon price is preferred when the system boundary only considers the
+rate of 7%, the break-even carbon price is 14.13$/t. Under the discount
+                                                                                               transported CO2. This is because the shipping company will be more
+rate of 15%, there is no break-even carbon price, and the higher the
+                                                                                               profitable to transport CO2 with the higher carbon price. The carbon
+carbon price, the greater the loss of the shipping company. When the
+                                                                                               price with 18.86$/t will make the shipping company from loss to profit
+                                                                                               under the 15% discount rate. Therefore, the carbon price can enhance
+Table 10                                                                                       the willing of the shipping company to transport CO2. When the system
+The break-even carbon price under different system boundary conditions.                        boundary only considers the transported LPG, the carbon price will
+  Cargo            Settings              Break-even carbon          Break-even carbon          make the shipping company less profitable due to the “source” emission
+  transported                            price ($/t, 7%)            price ($/t, 15%)           of LPG. When both LPG and CO2 are considered in the system boundary,
+  CO2              cargo                 113.97                     –
+                                                                                               the total CO2 emission is positive as the emissions of LPG is larger than
+                   cargo and "sink"      –                          18.86                      the “sinked” CO2 by transporting. Therefore, there are afforded break-
+  LPG              cargo                 14.13                      –                          even carbon prices for shipping company to transport both LPG and CO2.
+                   cargo and             0.48                       –
+                   "source"
+                                                                                               5. Conclusion
+  CO2 and LPG      cargo                 726.49                     405.58
+                   cargo, "sink" and     39.37                      22.32
+                   "source"                                                                       In this paper, the life cycle cost and CO2 emissions of CO2 transport
+
+
+                                                                                           8

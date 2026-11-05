@@ -1,0 +1,189 @@
+A High-Precision Geo-Spatial-Techno-Economic Framework for CO2 Source-Sink Pairing Land-Sea Synergy and Cross-Regional Coalitions in China
+
+PHYSICAL_PAGE 3
+Environmental Science & Technology                                                    pubs.acs.org/est                                              Article
+
+
+
+
+Figure 3. Schematic figure of the zoning evaluation framework and analysis.
+
+quality specifications�prevents robust national-scale holistic                  screening, site suitability assessment, hierarchical storage
+evaluation.2,25,26 This gap impedes coordinated CCS planning
+
+
+
+
+                                                                                                                                                                   Downloaded from pubs.​acs.​org/​esthag/​article-pdf/​60/​27/​19170/​65298771/​acs.​est.​5c14041.​pdf by guest on 25 October 2026
+                                                                                capacity, techno-economic assessment, source-sink pairing,
+across sectors, regions, and land−offshore boundaries.                          and pipeline network generation algorithms were selected and
+   Site assessment for CO2 geological storage is commonly                       integrated into a software named “Integrated Techno-Economic
+conducted at basin, sub-basin/zone, and individual site scales,                 Assessment Model of Carbon Capture, Geological Utilization,
+depending on data type, accuracy, and methodological                            and Storage with hub, ITEAM-CCS hub”.12,31,32 The framework
+algorithms.17,27−30 Storage capacity evaluation generally covers                addresses inherent limitations of conventional basin-scale and
+four hierarchical dimensions: theoretical, effective, practical, and            sector-specific assessments by supporting national-scale cross-
+matched capacity, with assessment approaches evolving from                      regional and cross-sectoral comparative analysis. It further
+theoretical extrapolation to refined actuarial estimation for                   quantifies spatial heterogeneities across basins, geographical
+improved accuracy.27,28 The site suitability assessment and                     regions, industrial sectors, and administrative regions, and
+theoretical capacity evaluation of offshore CO2 geological                      delivers practical pathways for CCS collaboration, integrated
+storage in China primarily focus on individual basins or                        land-sea management, and cross-regional carbon corridor
+theoretical capacity assessments at the basin scale,29,30 without               planning to facilitate evidence-based policy formulation and
+considering the synthetic effects of capacity, suitability, cost, and           large-scale CCS deployment. Additional details regarding the
+policy. These high-resolution assessments are data-driven by a                  ITEAM-CCS model can be found in the papers by Wei, et al.11,12
+high-quality database (data type and resolution). The tiered                    It unlocks the intricacies of China’s CCS landscape, providing a
+geological-economic assessment with various algorithms and                      comprehensive understanding across sectors, regions, basins,
+data are shown in Figure 2. Notably, zone- and sub-basin-scale                  and land-sea boundaries, heralding a new era in CCS planning
+evaluations of site selection and tiered storage capacity are still             and implementation.
+limited, especially for China’s offshore regions.
+   These shortcomings are further exacerbated by China’s                        2. METHOD AND DATA
+incomplete onshore−offshore geological data sets, basin-                        High-precision evaluations of geological structures, techno-
+isolated and fragmented site assessment methodologies,                          economic factors, and carbon-neutrality targets are crucial steps
+generalized one-size-fits-all techno-economic models, assump-                   toward achieving large-scale deployment of carbon geological
+tion-dependent source−sink matching schemes, and emission                       storage and achieving neutrality goals. However, there is
+inventories confined to individual sectors or limited regions.                  currently a scarcity of publicly available assessment reports on
+Collectively, these prevailing limitations constrain a systematic               site selection and storage capacity for CO2 geological storage at
+understanding of national CCS development potential and                         the sub-basin and zone scales. This is particularly true for zone-
+industrial deployment pathways, hinder integrated evaluation of                 scale assessments and studies on onshore/offshore storage
+storage capacity, economic feasibility, source−sink optimization                capacities in China. Through data compilation and algorithm
+and policy adaptability across multiscale administrative and                    development, we propose a high-resolution framework for site
+geographic units, and may ultimately mislead stakeholder                        selection, hierarchical capacities, economic analysis, and source-
+decision-making and strategic CCS layout.                                       sink pairing. This involves a multiple-stage assessment
+   This study establishes a nationwide 1 km × 1 km high-                        integrating technical scheme definition, suitability, algorithms,
+resolution evaluation framework that systematically integrates                  data compilation, and data-driven analysis at ∼1 × 1 km2 grid
+zone-level onshore−offshore storage suitability, hierarchical                   resolution (Shown in Figure 3). This zone-scale methodology
+capacity quantification, techno-economic models of CCS                          complements site-scale tools (e.g., Petrel, TOUGH2, MRST, et
+projects, enterprise-level carbon emission accounting across                    al.) by geospatially integrating storage capacity, site suitability,
+multiple industries, and source−sink matching across the full                   and economic viability via stratigraphic analysis, cost-surface
+CCS chain (capture, pipeline transportation, and geological                     modeling, and multiobjective optimization. Unlike traditional
+storage) based on pipeline cost surfaces, and carbon reduction                  meter-to-hundred-meter-resolution single-reservoir models, our
+contribution forecasting, enabling comprehensive analysis at the                kilometer-gridded system enables national-scale CCS infra-
+kilometer scale and beyond. Figure 1 illustrates the schematic of               structure planning by identifying strategic storage hubs and
+the zone-level framework. A database of CO2 sources, geological                 optimizing cross-basin source-sink pairings. This shift from
+features, geographic characteristics, and related socioeconomic                 isolated project analysis to systematic evaluation addresses
+data in China and adjacent areas was established utilizing a wider              critical scale-resolution mismatches in carbon management
+range of high-precision data. Then, algorithms of CO2 source                    policies, providing both technical outputs (site suitability,
+                                                                        19172                                            https://doi.org/10.1021/acs.est.5c14041
+                                                                                                                    Environ. Sci. Technol. 2026, 60, 19170−19184
+
+
+PHYSICAL_PAGE 9
+Environmental Science & Technology                                                       pubs.acs.org/est                                               Article
+
+
+
+
+                                                                                                                                                                       Downloaded from pubs.​acs.​org/​esthag/​article-pdf/​60/​27/​19170/​65298771/​acs.​est.​5c14041.​pdf by guest on 25 October 2026
+Figure 6. Effective capacity density in China and adjacent areas (units: Mt/km2).
+
+Table 3. Hierarchical Capacities of CO2 Geological Storage in China (P50)
+     basins        theoretical capacity   effective capacity   matched capacity with 150 km   matched capacity with 300 km    matched capacity with 800 km
+ onshore Basins        1305.7 Gt             756.2 Gt                  3757.7 Mt/a                    4993.1 Mt/a                        5559.2 Mt/a
+ offshore Basins       1201.6 Gt             743.6 Gt                  453.3 Mt/a                     476.2 Mt/a                         548.2 Mt/a
+ total                 2507.3 Gt             1499.8 Gt                 4211.0 Mt/a                    5469.3 Mt/a                        6107.4 Mt/a
+
+   When the cost curve with 300 km matching distance is                            tional energy industries to CCS technologies. The scale and
+categorized by administrative regions (shown in Figure 10),                        cost-effectiveness of future emissions reductions are closely
+Cost curves exhibit distinct patterns�smooth transitions or                        linked to each region’s resource endowments, industrial
+stepwise features�across administrative areas, governed by                         foundations, and emission-reduction policy planning. Notably,
+source distributions (discrete point source or centralized hub in                  cross-administrative regional carbon mitigation strategies
+industry parks), zonal properties of storage site, and source-sink                 significantly shape carbon neutrality pathways within individual
+pairing efficiencies. Provinces like Shandong and Hebei exhibit                    areas, underscoring the crucial role of interjurisdictional
+smooth cost transitions due to centralized storage within the                      coordination in national decarbonization trajectories.
+Bohai Bay Basin, where gradual changes in transport distances                         3.6.2. Regional and Sectoral Heterogeneity. Hetero-
+and storage site properties minimize cost fluctuations. In                         geneity in geological storage capacity and matching costs for
+contrast, multistep features emerge in regions. For example,                       CCS emerges across basins, regions, industries, and admin-
+the cost curves of Inner Mongolia and Xinjiang span multiple                       istrative boundaries, shaped by physical attributes, economic
+sedimentary basins and blocks. At the same time, Jiangsu’s                         landscapes, and policy frameworks. Basin-wise, continental
+coverage includes subregions within the Subei Basin and South                      basins (e.g., Bohai Bay, Ordos) exhibit gradual cost transitions
+Yellow Sea Basin. This is due to disparities in storage site                       with high emission reduction potential. In contrast, marine
+selection across zones by emitters, which introduce discrete                       basins (e.g., East China Sea Shelf) incur stepwise higher costs
+jumps in total costs.                                                              due to intrabasin storage heterogeneity, which drives tiered
+   The CCS emission reduction curves vary significantly across                     transport and storage expenses. Regionally, low-GDP coal-rich
+administrative regions, resulting in notable administrative                        zones (Xinjiang, Inner Mongolia) offer cost-competitive
+heterogeneities in the economics and contributions of tradi-                       onshore sequestration via favorable subsurface properties and
+                                                                           19178                                             https://doi.org/10.1021/acs.est.5c14041
+                                                                                                                        Environ. Sci. Technol. 2026, 60, 19170−19184
+
+
+PHYSICAL_PAGE 15
+Environmental Science & Technology                                                             pubs.acs.org/est                                                Article
+
+  (39) Bachu, S. Comparison between Methodologies Recommended for                        (56) Leung, D. Y. C.; Caramanna, G.; Maroto-Valer, M. M. An
+Estimation of CO2 Storage Capacity in Geological Media by the CSLF Task                 overview of current status of carbon dioxide capture and storage
+Force on CO2 Storage Capacity Estimation and the USDOE Capacity and                     technologies. Renewable Sustainable Energy Rev. 2014, 39, 426−443.
+Fairways Subgroup of the Regional Carbon Sequestration Partnerships                      (57) Rowaihy, F.; Hamieh, A.; Odeh, N.; Hejazi, M.; Al-Juaied, M.;
+Program, 2008.                                                                          Afifi, A. M.; Hoteit, H. Decarbonizing Saudi Arabia energy and
+  (40) Pruess, K.; García, J.; Kovscek, T.; Oldenburg, C.; Rutqvist, J.;                industrial sectors: Assessment of carbon capture cost. Carbon Capture
+Steefel, C.; Xu, T. Code intercomparison builds confidence in                           Sci. Technol. 2025, 14, 100375.
+numerical simulation models for geologic disposal of CO2. Energy                         (58) Wei, N.; Lin, K. Y.; Liu, S. N.; Wang, W. D.; Cheng, G. Q.; Yang,
+2004, 29 (9−10), 1431−1444.                                                             L. X.; Jiao, Z. S.; Li, X. C. A Microflow and Bioinspired Dendritic
+  (41) Goodman, A.; Bromhal, G.; Strazisar, B.; Rodosta, T.; Guthrie,                   Topology Optimization for CO2 Capture, Utilization and Storage Hubs
+W. F.; Allen, D.; Guthrie, G. Comparison of methods for geologic                        in China: Integrating Microfluid Dynamics with Macro-Scale Infra-
+                                                                                        structure Design. ACS Sustainable Chem. Eng. 2026, 14 (9), 4403−
+storage of carbon dioxide in saline formations. Int. J. Greenhouse Gas
+                                                                                        4421.
+Control 2013, 18, 329−342.
+                                                                                         (59) Wei, N.; Li, X.; Jiao, Z.; Stauffer, P. H.; Liu, S.; Ellett, K.;
+  (42) Popova, O. H.; Small, M. J.; McCoy, S. T.; Thomas, A. C.; Rose,
+                                                                                        Middleton, R. S. A Hierarchical Framework for CO2 Storage Capacity
+S.; Karimi, B.; Carter, K.; Goodman, A. Spatial Stochastic Modeling of                  in Deep Saline Aquifer Formations. Front. Earth Sci. 2022, 9, 777323.
+Sedimentary Formations to Assess CO2 Storage Potential. Environ. Sci.                    (60) Rubin, E. S.; Davison, J. E.; Herzog, H. J. The cost of CO2 capture
+Technol. 2014, 48 (11), 6247−6255.                                                      and storage. Int. J. Greenhouse Gas Control 2015, 40, 378−400.
+
+
+
+
+                                                                                                                                                                              Downloaded from pubs.​acs.​org/​esthag/​article-pdf/​60/​27/​19170/​65298771/​acs.​est.​5c14041.​pdf by guest on 25 October 2026
+  (43) De Silva, P. N. K.; Ranjith, P. G. A study of methodologies for                   (61) EIA Oil and Gas Lease Equipment and Operating Costs 1994
+CO2 storage capacity estimation of saline aquifers. Fuel 2012, 93, 13−                  Through 2009; Energy Information Administration, Department of
+27.                                                                                     Energy: U.S, 2010.
+  (44) Celia, M. A.; Bachu, S.; Nordbotten, J. M.; Bandilla, K. W. Status                (62) Mi, L. Current status of global CO2 ocean sequestration and
+of CO2 storage in deep saline aquifers with emphasis on modeling                        opportunities and challenges in China offshore areas. CHINA OFF-
+approaches and practical simulations. Water Resour. Res. 2015, 51 (9),                  SHORE OIL AND GAS (GEOLOGY) 2023, vol 35, pp 123−135.
+6846−6892.                                                                               (63) Hamieh, A.; Rowaihy, F.; Al-Juaied, M.; Abo-Khatwa, A. N.; Afifi,
+  (45) Rose, K. Development of an Open Global Oil and Gas Infrastructure                A. M.; Hoteit, H. Quantification and analysis of CO2 footprint from
+Inventory and Geodatabase: United States, 2018.                                         industrial facilities in Saudi Arabia. Energy Convers. Manage.:X 2022, 16,
+  (46) Khosravi, M.; Askari, Z.; Okwen, R. T.; Taft, K. Evaluating the                  100299.
+regional geological characteristics of the St. Peter Sandstone and
+Everton Formation for CO2 storage in Southern Illinois: A case study
+on site-specific injection feasibility in Washington County, Illinois. Int.
+J. Greenhouse Gas Control 2025, 141, 104292.
+  (47) Zhang, Y.-F.; Qu, M.-L.; Yang, J.-P.; Foroughi, S.; Niu, B.; Yu, Z.-
+T.; Gao, X.; Blunt, M. J.; Lin, Q. Prediction of CO2 storage efficiency
+and its uncertainty using deep-convolutional GANs and pore network
+modelling. Appl. Energy 2025, 381, 125142.
+  (48) Edouard, M. N.; Okere, C. J.; Ejike, C.; Dong, P. C.; Suliman, M.
+A. M. Comparative numerical study on the co-optimization of CO2
+storage and utilization in EOR, EGR, and EWR: Implications for CCUS
+project development. Appl. Energy 2023, 347, 121448.
+  (49) Mathias, S. A.; Gluyas, J. G.; Goldthorpe, W. H.; Mackay, E. J.
+Impact of Maximum Allowable Cost on CO2 Storage Capacity in Saline
+Formations. Environ. Sci. Technol. 2015, 49 (22), 13510−13518.
+  (50) Knoope, M. M. J.; Guijt, W.; Ramírez, A.; Faaij, A. P. C. Improved
+cost models for optimizing CO2 pipeline configuration for point-to-
+point pipelines and simple networks. Int. J. Greenhouse Gas Control
+2014, 22, 25−46.
+  (51) McCoy, S. T.; Rubin, E. S. An engineering-economic model of
+pipeline transport of CO2 with application to carbon capture and
+storage. Int. J. Greenhouse Gas Control 2008, 2 (2), 219−229.
+  (52) Middleton, R. S.; Bielicki, J. M. A scalable infrastructure model
+for carbon capture and storage. Energy Policy 2009, 37 (3), 1052−1060.
+  (53) Leeson, D.; Mac Dowell, N.; Shah, N.; Petit, C.; Fennell, P. S. A
+Techno-economic analysis and systematic review of carbon capture and
+storage (CCS) applied to the iron and steel, cement, oil refining and
+pulp and paper industries, as well as other high purity sources. Int. J.
+Greenhouse Gas Control 2017, 61, 71−84.
+  (54) Zimmermann, A. W.; Wunderlich, J.; Müller, L.; Buchner, G. A.;
+Marxen, A.; Michailos, S.; Armstrong, K.; Naims, H.; McCord, S.;
+Styring, P.; Sick, V.; Schomäcker, R. Techno-Economic Assessment
+Guidelines for CO2 Utilization. Front. Energy Res. 2020, 8, 5.
+  (55) Bui, M.; Adjiman, C. S.; Bardow, A.; Anthony, E. J.; Boston, A.;
+Brown, S.; Fennell, P. S.; Fuss, S.; Galindo, A.; Hackett, L. A.; Hallett, J.
+P.; Herzog, H. J.; Jackson, G.; Kemper, J.; Krevor, S.; Maitland, G. C.;
+Matuszewski, M.; Metcalfe, I. S.; Petit, C.; Puxty, G.; Reimer, J.; Reiner,
+D. M.; Rubin, E. S.; Scott, S. A.; Shah, N.; Smit, B.; Trusler, J. P. M.;
+Webley, P.; Wilcox, J.; Mac Dowell, N. Carbon capture and storage
+(CCS): the way forward. Energy Environ. Sci. 2018, 11 (5), 1062−1176.
+
+                                                                                19184                                               https://doi.org/10.1021/acs.est.5c14041
+                                                                                                                               Environ. Sci. Technol. 2026, 60, 19170−19184

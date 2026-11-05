@@ -2,9 +2,9 @@
 
 The current library contains **93 supplied PDF files, 92 unique publications and 1,301 physical pages across the unique publications**. B3-46 is a duplicate publication of B2-17. File hashes and original filenames are preserved in the source catalogue. Reuploads of previously supplied titles reuse the already downloaded version; this package does not assert that every reuploaded binary was separately compared. The retained PDFs are authoritative for this draft.
 
-**48 unique publications have targeted methods/results extraction; 44 have abstract/relevance screening.** Targeted extraction is selective, not an assertion that every number in every paper has been inventoried. This is a purposive supplied-library synthesis, not a completed systematic review. The Budiarto supplement is now supplied and reviewed; other unsupplied supplements remain outside the evidence base.
+**All 92 unique publications now have targeted full-text review: 48 initial targeted extractions and 44 follow-up reviews of selected methods/results passages; none remain abstract-only.** Targeted extraction is selective, not an assertion that every number in every paper has been inventoried. This is a purposive supplied-library synthesis, not a completed systematic review. The Budiarto supplement is now supplied and reviewed; other unsupplied supplements remain outside the evidence base.
 
-The extraction ledger contains **1,642 records**: 1,097 preserved earlier records plus 193 atomic records from the nine new papers and 352 numeric records from the Budiarto supplement (102 native-table entries and 250 printed annual allocations). Records may contain ranges or grouped cases and are not independent measurements. `curated_values.csv` contains 250 explicitly located quantities (including selected earlier values). `analysis_inputs.csv` contains 134 rows, of which 75 are published fleet counts and 59 support 49 calculations. The 124-row results file therefore contains **49 derived results and 75 directly reported fleet outputs**. Do not add overlapping tables together to count unique data.
+The original extraction ledger contains **1,642 records**: 1,097 preserved earlier records plus 193 atomic records from the nine new papers and 352 numeric records from the Budiarto supplement (102 native-table entries and 250 printed annual allocations). Records may contain ranges or grouped cases and are not independent measurements. `curated_values.csv` contains 250 explicitly located quantities (including selected earlier values). `analysis_inputs.csv` contains 134 rows, of which 75 are published fleet counts and 59 support 49 calculations. The 124-row results file therefore contains **49 derived results and 75 directly reported fleet outputs**. Do not add overlapping tables together to count unique data.
 
 The separate supplement tables and annual grid retain a further 352 numeric records and 470 blank figure cells. The new annual replay is additional to the original 49 benchmark calculations; its outputs are not a new MILP optimisation. The separate operational extension now implements B0–B3 with 144 comparisons, explicit service proxies and incomplete lifecycle accounting; see `operational_model.md`.
 
@@ -19,6 +19,12 @@ The Google Drive folder was not ingested: no callable Drive capability was avail
 The later reference-data intake has104 uploads:100 accessible files and95 distinct accessible binaries; four oversized IBDP reports remain unavailable. These include official factors, NETL files, IMO guidance, dataset snapshots and IBDP reports/catalogues. They are catalogued separately from the original92-publication literature review. Page text is indexed, but targeted scientific review covers only the components used or screened for model suitability. See [reference review](reference_dataset_review.md) for the source-specific findings.
 
 The new dedicated registers contain77 located reference-inventory inputs,8 derived NETL capture cases and12 located Illinois simulation quantities. They overlap original source material and are not additional independent measurements. The current Japanese tables contain3,269 located factor records; the raw17-workbook archive holds1,013,036 cached/formula cells including errors, not validated observations. Two wave snapshots yield34 located variables and no weather calendar. The source-driven extension produces2,980 partial inventory comparisons; complete net avoided GHG remains uncomputed.
+
+## Japanese case-evidence update
+
+The third intake adds26 uploads,25 accessible files and1,186 indexed pages across17 PDFs. Its420 located quantities and separate source-native exports are reviewed in [the case-evidence report](case_evidence_review.md). Tomakomai provides45 monthly records,17 shut-in/test windows, nine fall-off interpretations and conditional pressure/capacity scenarios. These are historical observations and source-model outputs, not independently calibrated annual maximum service. The original92-publication coverage counts remain unchanged until the separate deepening review is completed.
+
+Northern Lights components support8 derived checks and100 optional sensitivity rows. The Japanese source exports contain an unresolved ENEOS/Nippon Steel mismatch. The CPPI annex is now archived. The IBDP ZIP remains unavailable because of the32MiB transfer limit. No uninspected ZIP content is claimed as evidence.
 
 ## Main interpretation
 
@@ -238,23 +244,27 @@ Transfer limits: Economic prior art, not a matched climate-benefit result; 15–
 
 ### B2-02 — Prospective techno-economic and life cycle assessment a review across established and emerging carbon capture, storage and utilization CCS CCU technologies
 
-See supplied first page. Identifier: 10.3389/fenrg.2024.1412770. [PDF](../papers/B2-02.pdf).
+. Identifier: 10.3389/fenrg.2024.1412770. [PDF](../papers/B2-02.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 11,12,13,20.
 
-Distinguishes evolving foreground technologies from changing socioeconomic/energy backgrounds and proposes integration with IAM scenarios.
+Review of prospective TEA/LCA across technology maturity, scale-up, hybrid costing and foreground/background scenarios. Table2 distinguishes prospective from dynamic LCA; later sections discuss semantic matching between IAM technologies and LCI processes and the need for transparent model assumptions.
 
-Transfer limits: Review-level recommendations, not an empirical energy coefficient or future grid trajectory for the proposed countries.
+Comparisons depend on maturity, energy integration, functional-unit matching and future backgrounds. The review reports a cited heat-integration study where annual averaging differs materially from multi-period optimisation. A process in an integrated-assessment model need not map unambiguously to one inventory activity.
+
+Transfer limits: This is secondary methodological synthesis, not measured heat/electricity or a supplier-matched inventory for our source. Cited percentages are context, not transferable uncertainty ranges or probability distributions. Static official factors do not become complete prospective backgrounds by virtue of being official.
 
 ### B2-03 — Multi-period Carbon Capture, Utilization, and Storage (CCUS) infrastructure design and planning under uncertainty
 
-See supplied first page. Identifier: 10.1016/j.compchemeng.2025.109300. [PDF](../papers/B2-03.pdf).
+. Identifier: 10.1016/j.compchemeng.2025.109300. [PDF](../papers/B2-03.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,7.
 
-Multi-period stochastic Illinois Basin CCUS planning uses rolling horizons and period budgets with uncertain geological volumes and recourse pipeline investment.
+Annual-budget deterministic and two-stage stochastic CCUS deployment MILPs with rolling horizons and sample-average approximation. Source/sink selection, start times and single source-sink pipelines are decisions. After a connection is chosen, annual transported quantity is constant. Geological storage volumes are uncertain inputs; full capture is imposed at selected sources.
 
-Transfer limits: Cost and EOR revenue objectives; do not import EOR credits or scenario probabilities into permanent-storage comparisons.
+The Illinois Basin case compares network decisions under capacity uncertainty. The stochastic design reduces the reported mean shortfall from4,795kt to145.24kt per scenario over plant operating lives. It evaluates fixed designs on5,000 scenarios, rather than inferring a generic probability of storage success. The analysis already combines temporal planning and uncertain sink capacities.
+
+Transfer limits: Objective is economic benefit including social cost/EOR revenue under budgets, not harmonised lifecycle net mitigation. Source capture equals emissions by assumption. Missing supplements contain economic/cost details. Its uncertain volumes and recourse results do not supply physical annual pressure-constrained injection maxima or transferable reliability distributions.
 
 ### B2-04 — Optimizing carbon capture and storage infrastructure including physics-based reservoir modelling
 
@@ -268,33 +278,39 @@ Transfer limits: Already integrates dynamic physics and infrastructure; accuracy
 
 ### B2-05 — Beyond pipelines Multi-modal CO2 transport enables timely CO2 capture, transport, and storage deployment
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2026.104698. [PDF](../papers/B2-05.pdf).
+. Identifier: 10.1016/j.ijggc.2026.104698. [PDF](../papers/B2-05.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,7,8.
 
-Swiss pipeline diffusion constraints cause a modelled 9% sequestration deficit; other transport modes close it at a 5% cost increase.
+Transition-pathway MILP models technology lifetimes, capacity additions, multimodal flows and speed-of-pipeline-deployment limits. Stored CO2 targets include direct source-stream losses; lifecycle burdens are represented in the model but excluded from the sequestration balance in Eq6. Storage is modelled as a service with annual/cumulative limits and operating costs/emissions, without explicit storage investment.
 
-Transfer limits: Transport-enabled additional sequestration already established. Scenario results are not Japanese operational evidence.
+Constraining pipeline expansion produces unmet storage targets, while barges/ships bridge deployment limits. Early pipeline utilization is low; temporary multimodal capacity changes the transition even when final infrastructure looks similar. The body reports4.8Mt cumulative shortfall but Figure3 caption says1.7Mt, so that benchmark is held pending reconciliation.
+
+Transfer limits: Cost-optimal transport deployment and direct sequestration targets do not establish full matched-source net climate benefit. Barge shares are tonne-kilometre shares, not source mass fractions or vessel availability. Storage-service simplification does not supply calibrated well pressure constraints. Supplement details are still needed to reproduce the original scenarios.
 
 ### B2-06 — Multiperiod strategic planning of CO2 capture, transport, utilization and storage with multimodal transportation
 
-See supplied first page. Identifier: 10.1016/j.compchemeng.2025.109525. [PDF](../papers/B2-06.pdf).
+. Identifier: 10.1016/j.compchemeng.2025.109525. [PDF](../papers/B2-06.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 6,15,19,22.
 
-Canadian strategic MILP includes ships, trains, trucks, pipelines, buffers, transshipment, fleet sizing and offshore injection, and tests temporal-resolution effects.
+Multiperiod strategic CCUS MILP includes gas/liquid/supercritical state changes, buffer balances, capture units, pipeline capacity choices and truck/rail/ship fleets, including direct offshore injection and floating storage interfaces. Yearly decisions are identical within a planning period; vehicle activity includes berth and travel/loading constraints. An illustrative Eastern Canada network uses GIS-based candidate links and a heuristic to reduce computational burden.
 
-Transfer limits: Integration of these components alone is not new. Heuristic cost improvements depend on the computational comparison and instance.
+Time discretisation and transshipment constraints affect feasible infrastructure. Limiting emitter vehicle loading/unloading to5Mt/y prevents concentrating49.4Mt/y of train-to-offshore-pipeline transfers at one emitter. The constrained example uses trains, pipelines and a40kt ship delivering779kt/y in the last two years. The authors explicitly call the costs/geographic weighting illustrative while Canadian data are being developed.
+
+Transfer limits: An annual strategic fleet formulation does not validate detailed ship schedules. Cost weights transferred from US studies and assumed transshipment capability are not actual Japanese terminal designs. It already represents phase transitions, buffers, utilization and changing injection limits, so these are prior art rather than unique Paper1 contributions. Monetary values are2025CAD; no conversion to GHG is justified.
 
 ### B2-07 — From point-to-point to hub-and-cluster a systematic review of co-optimization of source–sink matching and transport networks for large-scale CO2 sequestration
 
-See supplied first page. Identifier: 10.3389/fenvs.2026.1966624. [PDF](../papers/B2-07.pdf).
+. Identifier: 10.3389/fenvs.2026.1966624. [PDF](../papers/B2-07.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,4,13,21.
 
-PRISMA review directly synthesises 17 studies; emphasises auditable feasibility and optimality reporting, utilisation, phased access and governance.
+PRISMA-guided source-sink/network co-optimisation review distinguishes contextual references from17 direct-evidence studies. Its extraction protocol codes system boundary, decisions, uncertainty, scale, computational reporting and limitations. It distinguishes sequential, monolithic and decomposition approaches and separates demonstrated methods from prospective AI/digital-twin capabilities.
 
-Transfer limits: Review summaries are secondary evidence; do not use them to certify a global absence of the proposed method.
+The review argues for auditable feasibility/objective/runtime/gap reporting and matched static/perfect-information controls. Its proposed future scale benchmarks and digital-twin/learning directions are evaluation priorities, not verified achievements. Cross-study evidence does not support a universal algorithm ranking.
+
+Transfer limits: The supplementary search/exclusion/extraction matrix is not supplied with our library, so the reported systematic-review workflow is described rather than independently reproduced. Counts are review metadata, not empirical reservoir or transport inputs. Prospective AI/closed-loop concepts do not validate safe operating policies or local access.
 
 ### B2-08 — Optimal design and cost of ship-based CO2 transport under uncertainties and fluctuations
 
@@ -308,13 +324,15 @@ Transfer limits: Buffer ratios depend on 99% versus 100% transport case and deno
 
 ### B2-09 — Risk aware planning of CO2 transport and geological storage networks for net zero buildings under capacity and injectivity uncertainty
 
-See supplied first page. Identifier: 10.1016/j.enbuild.2026.117200. [PDF](../papers/B2-09.pdf).
+. Identifier: 10.1016/j.enbuild.2026.117200. [PDF](../papers/B2-09.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,8,17.
 
-Synthetic network compares deterministic, Gamma-robust and CVaR designs; equal nominal derating can cause very different well/pipeline cost increments.
+Network MILP uses budgeted uncertainty for pipeline capacity and well injectivity, plus CVaR shortfall risk. It jointly designs shared hubs, integer pipelines/wells and discounted cost. The case is explicitly synthetic: five emission sources, one hub and two sinks, with assumed production capacities and straight-line geometry.
 
-Transfer limits: Entire dataset is explicitly synthetic; no country-specific capacities, empirical probabilities or real sink availability.
+Risk preferences create discrete investment/cost-versus-shortfall tradeoffs. The authors state that regional use requires real source/storage data, pressure management, learning and correlated risks; the illustrative magnitudes do not calibrate physical deliverability. Model scale and uncertain asset capacities are distinct from a validated pressure forecast.
+
+Transfer limits: Literature emission factors combined with assumed production are not observed source emissions. Robustness budgets/CVaR scenario preferences are design parameters, not measured probabilities for our sites. It is strong prior art for injectivity/capacity uncertainty, but no site-specific kr,t or actual permits can be transferred.
 
 ### B2-10 — Exploring the value of CO2 shipping transport flexibility in international batchwise transportation carbon capture and storage networks
 
@@ -328,13 +346,15 @@ Transfer limits: Implemented analysis minimises cost after capture. Model name i
 
 ### B2-11 — A techno-economic assessment of CO2 capture in biomass and waste-fired combined heat and power plants – A Swedish case study
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2022.103684. [PDF](../papers/B2-11.pdf).
+. Identifier: 10.1016/j.ijggc.2022.103684. [PDF](../papers/B2-11.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,4,5,10.
 
-110 Swedish CHP plants yield a modelled potential up to 19.3 Mt/year, with capture plus trucking to nearest harbour costing 45–125 EUR/t.
+Steam-cycle process models and an hourly district-heating unit-commitment model assess110 Swedish biomass/waste CHP plants. Fixed boiler load and maintained industrial-process heat define the reference service. A90% MEA capture case assumes reboiler duty3.6MJ/kg captured at120C with3bar steam, and0.1MWh/t electricity including capture/compression/liquefaction. Heat recovery is treated through the DH system rather than a generic negative capture duty.
 
-Transfer limits: Boundary excludes onward shipping and final geological storage; biogenic/waste mixture needs a different reference than a fossil-only source.
+Plant utilization and size jointly drive capture/local truck-transport costs. Higher heat recovery can change DH dispatch and electricity demand; the118% heat-recovery case requires heat pumps with0.17MWh/t additional electricity and COP3. It is not free energy or more than100% solvent heat-efficiency. Reported costs exclude onward ship transport and geological storage.
+
+Transfer limits: This provides a transparent alternative MEA utility reference, not measured Japanese steel/refinery demand. Preserve the specified flue-gas/CHP conditions and avoid adding another liquefaction/compression charge. No DH displacement credit can be applied without a matched heating-system counterfactual. Biogenic/fossil shares cannot be transferred to a fossil industrial baseline.
 
 ### B2-12 — Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains
 
@@ -358,13 +378,15 @@ Transfer limits: Already models cumulative carbon payback. ISO-container ship co
 
 ### B2-14 — A High-Precision Geo-Spatial-Techno-Economic Framework for CO2 Source-Sink Pairing Land-Sea Synergy and Cross-Regional Coalitions in China
 
-See supplied first page. Identifier: 10.1021/acs.est.5c14041. [PDF](../papers/B2-14.pdf).
+. Identifier: 10.1021/acs.est.5c14041. [PDF](../papers/B2-14.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,4,9.
 
-China 1 km-grid source–sink framework reports theoretical/effective capacity and onshore/offshore cost differences and shared regional corridors.
+ITEAM-CCS hub integrates onshore/offshore suitability, tiered storage capacities, techno-economics, source pairing and candidate pipelines. Separate onshore/offshore assessment criteria reflect different data and technical schemes. The authors explicitly limit the framework to macro-assessment/preliminary feasibility rather than project design.
 
-Transfer limits: Theoretical and P50 effective resource totals are not annual injectable commercial service. Full-chain costs differ from storage-only costs.
+Table3 distinguishes theoretical/effective resource inGt from source-matched annual amounts inMt/a at specified distance thresholds. National-scale spatial and cost heterogeneity supports cross-regional screening; a large resource does not automatically become developed yearly storage service.
+
+Transfer limits: P50 resource labels and annual matched source quantities are different metrics. National matching is not pressure-constrained well delivery or contracted capacity. No Chinese basin value is assigned to a Japanese sink; detailed underlying geological/economic data are not fully supplied.
 
 ### B2-15 — Global analysis of geological CO2 storage by pressure-limited injection sites
 
@@ -388,13 +410,15 @@ Transfer limits: Includes EOR and economic oil-price assumptions; not a uniform 
 
 ### B2-17 — Progress and perspectives in source-sink matching for CCUS A critical review
 
-See supplied first page. Identifier: 10.1016/j.rser.2025.116313. [PDF](../papers/B2-17.pdf).
+. Identifier: 10.1016/j.rser.2025.116313. [PDF](../papers/B2-17.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 5,9,22.
 
-Reviews source, sink and matching methods and identifies data-scale mismatches, rigid networks and weak links to physical dynamic evolution.
+Critical review separates geographic assessment scales and compares material-balance/volumetric capacity equations for depleted reservoirs, saline formations and coal seams. Parameters include density, effective thickness, porosity, recovery/water history and storage-efficiency factors, which differ by method and trapping mechanism.
 
-Transfer limits: Same publication uploaded again as B3-46; count once. Review claims do not replace primary benchmark extraction.
+The review identifies multi-source geotechnical data, dynamic node-level carbon footprints, coordinated infrastructure and consistent spatiotemporal data as research needs. Its proposed integration with renewables/hydrogen is prospective. Capacity formulas require formation-specific inputs and compatible trapped-volume definitions.
+
+Transfer limits: Review equations are not site calibration and do not provide independent annual pressure/rate arrays. GWP, storage factors and method-specific capacities cannot be mixed across bases. B3-46 is the same publication and remains excluded from unique-publication counting. Underlying data are stated available on request.
 
 ### B2-18 — A prudent planetary limit for geologic carbon storage
 
@@ -408,63 +432,75 @@ Transfer limits: This is a precautionary scenario-dependent estimate, not a lega
 
 ### B3-01 — Carbon dioxide capture and storage—liability for non-permanence under the UNFCCC
 
-See supplied first page. Identifier: 10.1007/s10784-006-9004-4. [PDF](../papers/B3-01.pdf).
+. Identifier: 10.1007/s10784-006-9004-4. [PDF](../papers/B3-01.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,4,11.
 
-Discusses responsibility for leakage and cross-border CCS under the UNFCCC and historical Kyoto mechanisms.
+Historical UNFCCC/CDM policy analysis separates capture/compression, transport and storage and examines non-permanence, cross-border accounting and the economic value of temporary versus permanent credits. Crediting period is distinct from physical retention duration.
 
-Transfer limits: 2006 legal analysis; no claim that its description is the current Japan/Malaysia/Australia legal regime. Liability is not a physical retention factor.
+Temporary credits can lose value when crediting periods are shorter than actual retention. The conclusion treats CCS classification within the then-current climate regime as a policy question. Historical capacity/cost tables are secondary context, not a current service database.
+
+Transfer limits: The2006 regime discussion does not establish present permits, accepted accounting or liability transfers. Crediting horizons are not leakage probabilities or measured retention fractions; old global resource ranges and capture costs are not Paper1 physical inputs.
 
 ### B3-02 — Assessing a Liability Regime for Carbon Capture and Storage
 
-See supplied first page. Identifier: 10.1016/j.egypro.2009.02.277. [PDF](../papers/B3-02.pdf).
+. Identifier: 10.1016/j.egypro.2009.02.277. [PDF](../papers/B3-02.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,4,7.
 
-US-focused discussion combines existing tort/environmental liability with bonding, insurance and long-term stewardship funding.
+Legal/policy assessment reviews US environmental/tort liability and proposes adaptive risk management using insurance, bonding and pooled funding. It distinguishes active injection, operator post-closure responsibility and public long-term stewardship, with performance conditions for any transfer.
 
-Transfer limits: Historical policy proposal, not present applicable law or a quantified leakage probability.
+Risk can persist without atmospheric leakage, including brine displacement and pressure effects. The proposed funding tiers aim to preserve operator incentives and finance monitoring/remediation. Example monitoring periods are discussed as policy mechanisms rather than empirically optimal retention horizons.
+
+Transfer limits: This2009 analysis is not a current permit or a quantitative leakage-rate dataset. Suggested15/30/50year arrangements cannot be turned into certain closure dates, zero future liability or permanence guarantees. Site-specific risk and regulation remain independent inputs.
 
 ### B3-03 — Critical review and recommendations for strengthening health and safety and major accident prevention regulations for carbon capture and storage in UK ports
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2025.104479. [PDF](../papers/B3-03.pdf).
+. Identifier: 10.1016/j.ijggc.2025.104479. [PDF](../papers/B3-03.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,9,11.
 
-Identifies UK port health/safety regulatory gaps for large-scale CO2 handling and recommends guidance and legislative changes.
+UK-port regulatory analysis compares the Port Marine Safety Code, dangerous-goods harbour rules and COMAH with CO2 loading/unloading, temporary storage and intermodal transfer. It identifies exclusions/classification issues and evaluates amendment/guidance pathways.
 
-Transfer limits: Jurisdiction- and publication-date-specific; does not establish Asian terminal permission or physical operating limits.
+Table2 maps gaps to recommendations and implementation mechanisms. The authors argue for context-specific hazards rather than assuming nonflammable CO2 poses no major-accident risk; handling quantity, temperature, pressure and phase matter.
+
+Transfer limits: Recommendations are not proof that amendments were adopted or that a particular port is licensed. Generic cryogenic pressure/temperature descriptions are not vessel-specific operability limits, terminal dwell times or release probabilities. No quantitative risk frequency is transferred.
 
 ### B3-04 — Development of CCUS clusters in Croatia
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2023.103857. [PDF](../papers/B3-04.pdf).
+. Identifier: 10.1016/j.ijggc.2023.103857. [PDF](../papers/B3-04.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,7,10.
 
-Croatian assessment identifies three onshore clusters and prioritises eastern/central options while noting storage-characterisation gaps.
+Croatian cluster screening combines source maps, possible transport corridors, geological screening and conceptual compositional reservoir models. Confidentiality prevents detailed static/well inputs; historical production/final pressure are matched in generic models, with projected production and EOR periods.
 
-Transfer limits: Regional early economic screening; large theoretical resource does not prove storage deliverability.
+Eastern and Central clusters differ in source density and hub needs. The Eastern cluster combines about0.86Mt/y of emissions with23Mt screened capacity at18–65km source distances. These are candidate configurations, not evidence of an operational source-storage contract.
+
+Transfer limits: Generic EOR screening and total resource cannot establish annual service or a full climate benefit once oil-production consequences are included. Costs use their original vintage. Confidential data prevent independently reproducing reservoir forecasts, and numerical screening thresholds are not universal safety criteria.
 
 ### B3-05 — Optimizing carbon capture and storage CCS infrastructure development using a python tool for source-sink matching and cluster formation
 
-See supplied first page. Identifier: 10.1016/j.jclepro.2025.146563. [PDF](../papers/B3-05.pdf).
+. Identifier: 10.1016/j.jclepro.2025.146563. [PDF](../papers/B3-05.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,7,9,10.
 
-Kazakhstan Python MILP compares full/partial redirection and clustering radii. Claimed cost and emissions outcomes depend on cluster geometry.
+Python clustering/source-sink framework combines DBSCAN, minimum spanning trees and alternative redirection rules with weighted cost/emissions objectives. Effective geological storage uses a volumetric efficiency equation. Great-circle pipeline approximations omit terrain, protected land and detailed least-cost routing; uncertainty is propagated through the transport-cost model.
 
-Transfer limits: Abstract ambiguously calls a quantity both net abated and emissions; reconcile definitions and units before numerical transfer.
+Kazakhstan case results depend on clustering radius and redirection rule. Full redirection at100km gives201.38USD/t reported total cost versus207.61 for partial redirection. Capture dominates the reported environmental inventory. This supports testing topology and accounting, not adopting a universal near-zero transport burden.
+
+Transfer limits: Cost/emission outcomes are scenario-specific and pipeline geometry is approximate. National emission totals and volumetric resource are not a plant capture stream or pressure-limited annual service. User-friendly/open-code claims do not establish independent hydraulic/site validation; the original implementation/data must be checked before reproduction.
 
 ### B3-06 — Assessing-the-cost-reduction-potential-of-CCUS-cluster-projects-of-coal-fired-plants-in-Guangdong
 
-See supplied first page. Identifier: 10.1007/s11707-022-1030-1. [PDF](../papers/B3-06.pdf).
+. Identifier: 10.1007/s11707-022-1030-1. [PDF](../papers/B3-06.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 7,9.
 
-Three Guangdong coal plants are compared as standalone versus a 9 Mt/year cluster, with reported 15.92% unit-cost saving.
+Cost comparison of three Guangdong coal-plant standalone versus shared capture/transport/storage projects. Scenarios assume1Mt/y or3Mt/y captured per plant, giving cluster totals3Mt/y and9Mt/y. Pipeline distances and shared facilities enter discounted unit-abatement-cost calculations.
 
-Transfer limits: Abstract says 300 million tonnes per plant while cluster totals 9 million; apparent scale error needs body/table reconciliation.
+The cluster cost decreases from475.81 to298.02CNY/t when the assumed capture scale triples. Table6 reports scenario-specific reductions relative to individual projects, and explicitly assumes shared O&M grows by only twofold. Body/table rates resolve the implausible abstract300Mt/y statement for these scenarios.
+
+Transfer limits: Scale economies in cost are not GHG reductions. Capture rates are assumed scenarios, not observed operation. Table6 monetary/NPV entries and source-wide O&M scaling need reconciliation before independent financial reproduction; no cost-to-emissions conversion is used. Abstract-rate error remains recorded rather than silently repaired.
 
 ### B3-07 — Estimation of CO2 Transport Costs in South Korea Using a Techno-Economic Model
 
@@ -478,193 +514,231 @@ Transfer limits: Pipeline 530 km and shipping 724 km are unequal routes. Printed
 
 ### B3-08 — Optimum liquefaction fraction for boil-off gas reliquefaction system of semi-pressurized liquid CO2 carriers based on economic evaluation
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2012.05.016. [PDF](../papers/B3-08.pdf).
+. Identifier: 10.1016/j.ijggc.2012.05.016. [PDF](../papers/B3-08.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,9.
 
-Optimises reliquefied fraction against energy costs, CO2 sale value and venting penalty; economic optimum reported 95.7–98.2%.
+Process/economic optimisation of partial BOG reliquefaction for a semi-pressurised CO2 carrier. Compressor work rises sharply when condensing light impurities. The objective includes reliquefaction expenditure, fuel-generated emissions penalties and the value of recovered CO2, rather than only physical mass conservation.
 
-Transfer limits: This is a fraction of BOG in the studied process, not voyage load fraction, capture rate or geological retention.
+The100,000m3 case specifies cargo density1155kg/m3, assumed0.12%/day BOG and6000kg/h process BOG load. Under the study fuel/carbon-price assumptions, the optimum reliquefaction fraction spans97.2–98.1%, not necessarily100%. Economic LCC benefits include sale/recovery assumptions.
+
+Transfer limits: This old design/cost case does not establish the actual BOR, duty or venting of our vessel. The volume, insulation, composition and storage state differ. Financial optimum fractions are not universal cargo-loss rates or environmental optima; BOG generated, reliquefied and atmospherically vented must remain separate.
 
 ### B3-09 — Planning of carbon capture storage deployment using process graph approach
 
-See supplied first page. Identifier: 10.1016/j.energy.2014.08.060. [PDF](../papers/B3-09.pdf).
+. Identifier: 10.1016/j.energy.2014.08.060. [PDF](../papers/B3-09.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,3,7,8.
 
-P-graph planning already matches fixed-life source flows to capacity-limited sinks with earliest availability and capture retrofit penalties.
+P-graph superstructure selects power-plant capture technologies and source-sink matches under a relative cost limit. It explicitly represents lost power and compensatory generation to maintain the power-service baseline, plus cumulative sink capacity. MSG/SSG/LP techniques explore network alternatives.
 
-Transfer limits: Illustrative cases, not site data or marine operational energy model.
+The base case retains2250MW output with275MW compensatory generation. Reported residual emissions752.5t/h imply0.33444t/MWh, consistent with the rounded0.334 table result. A separate350Mt capture/240Mt storage example exposes a110Mt storage deficit. Compensation and finite storage were therefore prior art well before Paper1.
+
+Transfer limits: Illustrative power-sector values are not an industrial-source regional inventory. Aggregate relative costs simplify economics, and cumulative capacity is not a pressure-constrained annual forecast. The capture/post-retrofit source baseline and compensatory generation cannot be mixed with a different industrial service.
 
 ### B3-10 — Optimization of liquefaction cycles applied to CO2 coming from onshore pipeline to offshore ship transportation
 
-See supplied first page. Identifier: 10.1016/j.ccst.2024.100280. [PDF](../papers/B3-10.pdf).
+. Identifier: 10.1016/j.ccst.2024.100280. [PDF](../papers/B3-10.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,8,14.
 
-Pipeline-to-ship liquefaction/purification compares open, closed and hybrid cycles; impurities change recovery and energy.
+Process simulation compares closed refrigerant, open CO2 and hybrid liquefaction configurations for pipeline-to-ship interfaces. Composition, inlet pressure, cooling-water conditions, heat-exchanger pinches and refrigerant selection are explicit. Purification is needed to achieve the ship specification for impurity-containing feed.
 
-Transfer limits: Reported 21.8–40.9 kWh/t refers to specified pipeline-feed states, not compression from an atmospheric captured stream.
+Pure CO2 can liquefy near-28C at15bar, whereas studied impure streams require approximately26/44bar at the same temperature. Cooling-water temperature and exchanger approach strongly affect electricity demand. The paper gives cost/recovery tradeoffs and different suitable configurations by feed condition.
+
+Transfer limits: No single kWh/t factor can be transferred without inlet/outlet state, purity and compression boundary. Electricity-price sensitivity is financial, not physical GHG. Pure/impure pressure figures retain original bar units; avoid unqualified barg/bara conversion or duplicate liquefaction/compression charges.
 
 ### B3-11 — Planning of carbon capture and storage with pinch analysis techniques
 
 Ooi, Foo, Ng & Tan (2013). Identifier: 10.1016/j.cherd.2013.04.007. [PDF](../papers/B3-11.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 4,8.
 
-Graphical pinch approach matches source flows against sink availability, injection-rate and cumulative-capacity constraints.
+Pinch-analysis storage supply/demand composite curves represent source and reservoir operating windows, cumulative loads and annual injection-rate limits. Time pinch and grand-composite curves identify extra storage needs and excess capacity before detailed source-sink pairing.
 
-Transfer limits: Hypothetical examples show these temporal constraints predate current optimisation models; no shipping/GHG model.
+The examples show that excess cumulative capacity can coexist with a time-specific deficit. Detailed curves guide pairings while attempting to avoid unnecessary route changes. A reported case has40Mt additional storage needed at one time and80Mt total excess elsewhere; these are distinct time/location quantities.
+
+Transfer limits: The illustrative constant rates and operating lives are imposed planning inputs, not reservoir forecasts or measured annual maxima. No voyage physics, local GHG or calibrated pressure data are supplied. Multiple examples on the same page must not be combined as one dataset.
 
 ### B3-12 — Large-scale CCS transport and storage networks in North-west and Central Europe
 
-See supplied first page. Identifier: 10.1016/j.egypro.2011.02.176. [PDF](../papers/B3-12.pdf).
+. Identifier: 10.1016/j.egypro.2011.02.176. [PDF](../papers/B3-12.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,5.
 
-Source–sink mapping anticipates extensive international transport corridors and timely aquifer characterisation.
+CO2Europipe clusters European point sources and sinks from Geocapacity/EPER databases and performs source-sink matching for future transport corridors. National and cross-border clusters are screened under reference, offshore-only and EOR scenarios; source inventories date to2005/2007.
 
-Transfer limits: Historical projections to 2050 are scenarios, not a report of infrastructure now installed.
+The study illustrates how restricting onshore storage concentrates cross-border flows and demands parallel pipelines. It explicitly calls some750Mt/y corridor results unrealistic. Rough pipeline construction rates are calculations from projected network totals, not observed contractor schedules.
+
+Transfer limits: Historical scenario forecasts for2020–2050 are not actual deployed routes or current available storage. The250kt/y source screening threshold is not a minimum capture-plant size. No full lifecycle inventory, reservoir-pressure validation or shipping operating calendar follows from clustered resources.
 
 ### B3-13 — Optimised deployment of a European CO2 transport network
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2011.11.011. [PDF](../papers/B3-13.pdf).
+. Identifier: 10.1016/j.ijggc.2011.11.011. [PDF](../papers/B3-13.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,8,12.
 
-InfraCCS estimates a 2015–2050 least-cost European pipeline network, with clustering and candidate-route preselection.
+InfraCCS combines automatic source/sink clustering, candidate pipeline preselection, geographic routing and a tractable multistep network optimisation. Offset-linear capacity costing approximates pipeline economies of scale; a PRIMES/PowerChoices capture scenario drives deployment.
 
-Transfer limits: Historical scenario costs and excluded-sink assumptions cannot be transferred directly to Asia.
+Contrasting planning assumptions change projected2050 network length and investment: the displayed cases give11,663km/16.5billionEUR and17,602km/37.2billionEUR. Shared coordinated deployment and timing are therefore established planning components.
+
+Transfer limits: These are historical model projections rather than current pipeline inventories, actual permissions or independent injection capacities. Cost per tonne depends on a15% annual capital-charge convention, not a physical emission factor. Original code/network inputs remain necessary for full reproduction.
 
 ### B3-14 — A unified model for the deployment of carbon capture and storage
 
 Lee, Tan & Chen (2014). Identifier: 10.1016/j.apenergy.2014.01.080. [PDF](../papers/B3-14.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,7.
 
-Unified model already includes variable source rates, finite injection/capacity, sink readiness and compensatory power for capture energy losses.
+Unified multiperiod MILP jointly selects capture retrofits, source-sink allocation and compensatory low-carbon generation under power-cost, timing, injection-rate and cumulative-capacity limits. Emissions from replacement power are deducted from capture benefits; decisions change at time-interval boundaries.
 
-Transfer limits: Matched output and capture-energy adjustment are established. Marine operational utilisation and dynamic reservoir profiles still need a distinct test.
+The illustrated carbon reduction saturates at68.44% once cost limits reach1.45 or above; additional nominal resource does not always improve storage if injection or cost constraints bind. Temporal source/sink overlap and retrofit technology can determine the allocation. This is direct prior art for matched-output compensation and time-dependent constrained mitigation.
+
+Transfer limits: Dimensionless cost and synthetic plant/sink cases do not supply a regional industrial inventory. Static exogenous injection limits are not calibrated pressure feedback. Higher gross capacity can have no effect, so Paper1 must allow null effects rather than force a preferred route.
 
 ### B3-15 — Modeling a Carbon Capture, Transport, and Storage Infrastructure for Europe
 
-See supplied first page. Identifier: 10.1007/s10666-014-9409-3. [PDF](../papers/B3-15.pdf).
+. Identifier: 10.1007/s10666-014-9409-3. [PDF](../papers/B3-15.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,4,7,12.
 
-CCTS-Mod chooses capture, pipeline and storage investments and operating quantities given carbon prices/costs and capacity.
+CCTS-Mod minimises discounted capture/certificate, pipeline planning/capacity and storage-investment costs with source mass balances and discrete pipeline additions. It distinguishes treated versus emitted streams and annual injection capacity investment. Regional storage availability and carbon-price scenarios determine whether facilities join the system.
 
-Transfer limits: Price thresholds are model outcomes conditional on assumptions, not current universal deployment prices.
+Restricted offshore-only storage materially changes rollout and total stored volumes. The model notes that data are difficult to verify and its94Gt storage representation may overestimate exploitable capacity because suitable small/deep/dispersed resources may be uneconomic.
+
+Transfer limits: Historical cost/certificate scenarios are not current construction, commercial allocation or full lifecycle mitigation. Variable storage costs are treated as negligible relative to capital, which does not imply zero operating GHG. Annual injection investment remains an exogenous planning representation, not a calibrated reservoir forecast.
 
 ### B3-16 — Optimal well placement and brine extraction for pressure management during CO2 sequestration
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2015.07.025. [PDF](../papers/B3-16.pdf).
+. Identifier: 10.1016/j.ijggc.2015.07.025. [PDF](../papers/B3-16.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,3,9,10.
 
-Constrained differential evolution selects brine-extraction locations/rates under fault-pressure limits in a hypothetical California reservoir.
+Constrained differential evolution couples injection/extraction well locations and time-dependent brine rates to reservoir models. It minimises produced-brine/injected-CO2 volume ratio, subject to no CO2 breakthrough at producers and pressure-buildup limits at specified impact zones/faults. Well drilling costs are excluded from the proxy objective.
 
-Transfer limits: Water volume, treatment and disposal burdens must accompany extra storage; no transferable universal improvement ratio.
+For five heterogeneous realisations and a1MPa fault-pressure-buildup constraint, Table3 gives optimal constant no-brine injection rates1.968,2.739,3.229,2.061 and2.451Mt/y. Optimal brine extraction can support a higher target, but placement and heterogeneity affect extraction volumes and the active number of producers.
+
+Transfer limits: These are source-model results, not measured annual deliverability or transferable Japanese pressure limits. The1MPa criterion is a pressure increase at impact zones, not an absolute injection-well cap. Brine treatment/disposal and drilling GHG must be independently quantified; the optimisation objective does not supply them.
 
 ### B3-17 — Underground carbon dioxide storage in saline formations
 
-See supplied first page. Identifier: 10.1680/warm.2010.163.2.77. [PDF](../papers/B3-17.pdf).
+. Identifier: 10.1680/warm.2010.163.2.77. [PDF](../papers/B3-17.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,9,10.
 
-Reviews hydrodynamic, residual, solubility and mineral trapping and uncertainty in saline capacity estimates.
+Review of saline-formation trapping, multiphase/geochemical processes, leakage pathways and economics. It distinguishes structural/stratigraphic and residual trapping from dissolution and mineral precipitation, and explains capillary breakthrough/fracture constraints.
 
-Transfer limits: Older review; timescales and uncertainty preclude assigning a single permanent-retention fraction.
+Storage safety depends on site-specific pressure, sealing and geochemical conditions. Its reproduced cost/design tables include computed well rates and disparate pressure/thickness/permeability scenarios; they are not operational field measurements. Mineral trapping depends on mineralogy and reaction kinetics rather than an assumed instantaneous permanent fraction.
+
+Transfer limits: Global resource ranges and historical secondary costs are not annual service or current permits. Extreme calculated well rates require the original design assumptions before use. No universal retention fraction, leakage distribution or brine-management burden is extracted from narrative trapping descriptions.
 
 ### B3-18 — Screening and ranking framework for geologic CO2 storage site selection on the basis of health, safety, and environmental risk
 
-See supplied first page. Identifier: 10.1007/s00254-007-0947-8. [PDF](../papers/B3-18.pdf).
+. Identifier: 10.1007/s00254-007-0947-8. [PDF](../papers/B3-18.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 4,6,7.
 
-Spreadsheet framework ranks primary/secondary containment and attenuation using scores and uncertainty.
+Transparent screening/ranking framework scores primary containment, secondary containment and attenuation from weighted geological/surface properties. User-assigned quality and confidence scores are kept separate. Illustrative Rio Vista, Ventura and Mammoth Mountain cases compare known geological features.
 
-Transfer limits: Expert scores are not calibrated probabilities or numerical retained-mass factors.
+The paper explicitly describes score boundaries as arbitrary and acknowledges that candidate-site characteristics were not directly measured for these demonstrations. Consistent weights are needed for comparisons; greater knowledge can improve the apparent desirability even without changing physical attributes.
+
+Transfer limits: Ordinal quality/confidence scores are not leakage probabilities, physical containment guarantees or calibrated pressure limits. They can organise screening but cannot set a retention multiplier or a CVaR distribution. Historical examples do not establish available injection service.
 
 ### B3-19 — Comparison of methods for geologic storage of carbon dioxide in saline formations
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2013.07.016. [PDF](../papers/B3-19.pdf).
+. Identifier: 10.1016/j.ijggc.2013.07.016. [PDF](../papers/B3-19.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,8,12.
 
-Six estimation methods applied to 13 saline datasets often give statistically indistinguishable prospective estimates relative to geological uncertainty.
+Applies six transparent high-level storage-resource methods to a common saline-formation dataset and compares both raw capacity and normalised overall efficiency. Methods differ in boundary assumptions, trapping mechanisms, permeability/lithology classes and sustainable-pressure treatment.
 
-Transfer limits: Prospective capacity comparison is not annual usable injection or proof methods are interchangeable at detailed site scale.
+Open-boundary resource methods are often not statistically distinguishable for the tested formations despite different raw efficiency definitions. The study normalises by formation pore space before comparison, illustrating why copying method-specific efficiencies into another formula can misstate resource.
+
+Transfer limits: It excludes site-specific project design and economic/legal access; only selected methods consider injectivity. Its uncertainty intervals are conditional on the common geological dataset and do not supply our local capacity probabilities or annual kr,t. Similar resource estimates do not establish similar safe injection rates.
 
 ### B3-20 — Hydraulic fracturing to enhance injectivity and storage capacity of CO2 storage reservoirs Benefits and risks
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2020.103105. [PDF](../papers/B3-20.pdf).
+. Identifier: 10.1016/j.ijggc.2020.103105. [PDF](../papers/B3-20.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,10.
 
-Simulations report 13–71% capacity increases from fractures/horizontal configurations relative to an unfractured vertical base case.
+Reservoir simulations compare vertical/horizontal wells and fracture configurations in an Illinois-basin storage/seal model based on FutureGen characterisation. Geometry, permeability/fracture scenarios and pressure-limited injection determine stored mass and plume/trapping behaviour.
 
-Transfer limits: Do not confuse earlier-study 10–35% with this study's range; benefits include footprint/permitting risks, not free extra capacity.
+Table2 shows configuration-dependent cumulative injection and end-of-injection rates: the vertical case13.14Mt/0.68Mt/y versus a6k horizontal case17.54Mt/0.85Mt/y. Fractures can improve access but expand plume extent and possible interaction with conductive pathways; post-injection trapping mechanisms must be assessed separately.
+
+Transfer limits: Simulated fractures are not a universal injectivity uplift or approved operating method. End rates and cumulative totals cannot recover an unreported annual curve. Increased storage must be assessed with sealing, fracture propagation, drilling and operating burdens, not only tonnes injected.
 
 ### B3-21 — Barriers or boosters the role of governance pathways in deploying offshore carbon capture and storage comparative implications from the EU and China
 
-See supplied first page. Identifier: 10.3389/fmars.2025.1621290. [PDF](../papers/B3-21.pdf).
+. Identifier: 10.3389/fmars.2025.1621290. [PDF](../papers/B3-21.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,9,14.
 
-Compares EU legal and Chinese policy governance pathways and argues for a balanced portfolio of legal/policy tools.
+Comparative legal/governance analysis of EU and China offshore CCS uses doctrinal and discourse analysis through the Collingridge-dilemma lens. It examines binding rules, policy architecture, technology maturity, environmental safeguards and cross-sector coordination.
 
-Transfer limits: Doctrinal comparison, not proof of route permission or current treaty status in proposed countries.
+The study contrasts governance pathways rather than supplying a quantified causal deployment model. It proposes adaptive permitting, coordination and economic-incentive mechanisms and identifies unresolved liability, legitimacy and cross-border fragmentation questions.
+
+Transfer limits: Policy statements and proposed governance instruments do not establish current authorisation for a named route. London-Protocol developments require jurisdiction/project-specific checks; the review does not allocate capacity or validate physical retention. No permitting delay, probability or emissions factor is inferred.
 
 ### B3-22 — Three layers of energy law for examining CO2 transport for carbon-capture and storage
 
-See supplied first page. Identifier: 10.1093/jwelb/jwx035. [PDF](../papers/B3-22.pdf).
+. Identifier: 10.1093/jwelb/jwx035. [PDF](../papers/B3-22.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 4,13,20.
 
-Examines four European cross-border scenarios at international, national and local law levels.
+Three-layer energy-law framework compares international, national and local/permitting issues across four European CO2 transport development scenarios. It combines legal assessment with stakeholder engagement and distinguishes cross-border instruments, domestic regulation and local approvals.
 
-Transfer limits: Use to structure a route-feasibility register; historical European analysis is not applicable Asian legal advice.
+The2017 legal matrix identifies different barriers for Germany, Belgium, the Netherlands, UK and Norway. Commercial readiness requires available CO2, legal pathways, supportive parties, storage access and a viable business plan; these are separate conditions, not substitutes for one another.
+
+Transfer limits: The historical status matrix is not current legal advice or evidence of2026 route approval. Qualitative legal rankings are not quantified commissioning dates, delay distributions or contracted annual storage service. Current treaties, permissions and operator contracts must be verified independently.
 
 ### B3-23 — Optimization of CO2 injection and brine production well placement using a genetic algorithm and artificial neural network-based proxy model
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2023.103915. [PDF](../papers/B3-23.pdf).
+. Identifier: 10.1016/j.ijggc.2023.103915. [PDF](../papers/B3-23.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,8,12.
 
-ANN plus genetic algorithm approximates Pohang injection/extraction placement with fewer simulator runs.
+Genetic-algorithm well-placement optimisation compares a reservoir simulator with ANN proxies and a proxy retrained using new simulator evaluations. The Pohang model tests injector/producer combinations and CO2 breakthrough; offline and online-updated proxy strategies are explicitly compared.
 
-Transfer limits: Reported computational saving is case-specific, not an injection-rate gain or reservoir model accuracy guarantee.
+Table3.3 shows an offline proxy predicting11.38% improvement while full-physics reevaluation gives3.19%. Updating the proxy reduces disagreement between predicted and simulator-evaluated improvements. This directly supports evaluating a coarse-model selected decision under the more detailed model.
+
+Transfer limits: Full-physics validation here is model-to-model, not field validation or proof of global optimality. Cumulative quantities are reported in10^8m3 with their source basis; they are not converted to tonnes without state/composition. The proxy training domain and well-layout constraints cannot be transferred as universal injectivity.
 
 ### B3-24 — CCS in the North Sea region A comparison on the cost-effectiveness of storing CO2 in the Utsira formation at regional and national scales
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2011.08.009. [PDF](../papers/B3-24.pdf).
+. Identifier: 10.1016/j.ijggc.2011.08.009. [PDF](../papers/B3-24.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,9,14.
 
-Energy-system comparison finds substantial projected use of shared Utsira storage; annual injection constraints may limit those flows.
+Coupled/harmonised national MARKAL and regional TIMES-PanEU energy-system models compare least-cost CCS under energy-service demands, trade, fuel-price and storage scenarios. Optimisation uses perfect foresight and five-year steps from2010 to2050; key economic/technology assumptions are harmonised while national policies and demand can differ.
 
-Transfer limits: Regional market and climate-policy assumptions; annual flows and cumulative storage must not be conflated.
+National and regional models yield different projected CCS deployment, partly from nuclear-policy, fuel/technology and trade assumptions. The discussed2050 captured quantities are474Mt in national runs versus569Mt in the regional model, with country-specific storage allocations.
+
+Transfer limits: These are historical energy-system scenarios, not actual2050 operating commitments or a controlled CO2-route-only comparison. Differences cannot be assigned solely to transport or injectivity because energy mixes/policies also change. No ship fuel curve, site-pressure validation or current capacity allocation follows.
 
 ### B3-25 — Cost allocation in CO2 transport A multi-actor perspective A general model to evaluate costs in infrastructure construction
 
-See supplied first page. Identifier: 10.1016/j.jclepro.2023.140271. [PDF](../papers/B3-25.pdf).
+. Identifier: 10.1016/j.jclepro.2023.140271. [PDF](../papers/B3-25.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,9,14.
 
-Component-based equal cost-sharing rule addresses heterogeneous users, scaling and coalitional rationality.
+Component-based cooperative cost-allocation model represents heterogeneous network-user requirements and derives an equal-component sharing rule with scaling and coalitional-rationality properties. A stylised Rotterdam transport/conditioning network illustrates the component decomposition.
 
-Transfer limits: Financial cost allocation does not by itself allocate physical flows, embodied GHG or avoided-emission credits.
+Tables map onshore/offshore radius, capacity classes and conditioning levels to shared components and player groups. The later cost tables explicitly use older ZEP/JRC estimates to demonstrate relative scaling, while warning that absolute costs may no longer be accurate.
+
+Transfer limits: Requirement levels1/2 are categorical in several dimensions, not physical Mt/y or pressure. Cost-allocation fairness is distinct from physical feasibility, lifecycle GHG allocation or a commercial tariff. Do not use the tables as current asset-emission or capacity data.
 
 ### B3-26 — Reducing costs of carbon capture and storage by shared reuse of existing pipeline—Case study of a CO2 capture cluster for industry and power in Scotland
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2016.06.004. [PDF](../papers/B3-26.pdf).
+. Identifier: 10.1016/j.ijggc.2016.06.004. [PDF](../papers/B3-26.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,8.
 
-Scottish Feeder 10 reuse case connects coastal/industrial sources with staged 2–8 Mt/year capture scenarios.
+Scottish industrial-cluster feasibility/cost study combines2014 point-source emissions, estimated technically capturable fractions, feeder connections and potential reuse of existing gas pipelines. It evaluates clustering and capacity expansion rather than inferring that all site emissions can be captured.
 
-Transfer limits: Reuse suitability, available capacity and material compatibility need separate evidence at a new route.
+Table2 distinguishes5.68Mt/y emitted from4.19Mt/y estimated capture, with site-specific assumed fractions. Existing Feeder10 nominal unboosted3.5Mt/y and theoretical10Mt/y gas-phase capacities imply different infrastructure needs. Feeder8 availability is expressly unconfirmed.
+
+Transfer limits: Historical source inventories and theoretical pipeline reuse are not current permission or contracted access. Capture fractions are engineering estimates, not a universal90% multiplier. CAPEX/cost savings are not lifecycle GHG, and boosting/conditioning requirements must be resolved before treating a reused line as available transport.
 
 ### B3-27 — Life cycle assessment of carbon capture and storage value chains A systematic, critical literature review
 
@@ -678,13 +752,15 @@ Transfer limits: Review literature values remain secondary until original source
 
 ### B3-28 — Carbon dioxide liquefaction and transport optimization for marine carbon sequestration A comprehensive review
 
-See supplied first page. Identifier: 10.1016/j.rser.2026.116945. [PDF](../papers/B3-28.pdf).
+. Identifier: 10.1016/j.rser.2026.116945. [PDF](../papers/B3-28.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 4,12,15,16.
 
-Synthesises liquefaction, alternative physical states, BOG management and energy integration and identifies demonstration-data gaps.
+Marine-CCS review covers CO2 phase/heat-transfer behaviour, liquefaction cycles, transport concepts, BOG recovery and integrated vessel control. It compares cold-energy, ammonia/refrigerant and other integrated options and distinguishes simulation studies from shipboard evidence.
 
-Transfer limits: Do not transfer broad review ranges without feed state, process boundary, operating case and primary reference.
+The synthesis identifies coupled propulsion/reliquefaction/auxiliary modelling, standardised specific-energy boundaries and long-term sea trials as unresolved needs. Claimed benefits depend on ambient conditions, pressure, fuel-side cooling availability and impurities; many proposed controls remain simulation-based.
+
+Transfer limits: Secondary cross-study percentage savings are not directly comparable to primary matched-feed cases. LNG/ammonia cold-energy benefits cannot be transferred to a distillate-only ship with no such integration. The review supplies neither actual voyage duty nor validated wave/operating limits for our design.
 
 ### B3-29 — Integrated modelling and simulation of liquefied CO2 tank and cargo handling system with new marine transportation greenhouse gas intensity
 
@@ -698,53 +774,63 @@ Transfer limits: Already links dynamic tank operations, losses and GHG. The appr
 
 ### B3-30 — Influence of system boundary conditions on the life cycle cost and carbon emissions of CO2 transport
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2023.103847. [PDF](../papers/B3-30.pdf).
+. Identifier: 10.1016/j.ijggc.2023.103847. [PDF](../papers/B3-30.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,9.
 
-LPG-tanker and linked-power-system comparison shows changing system boundaries affects costs, emissions and break-even carbon price.
+Life-cycle shipping model explores interconnected LPG/CO2 cargo systems with four boundary conventions. Vessel engine work, lifetime utilisation, construction and operation feed emissions/cost calculations. One boundary treats both materials as cargo; another includes downstream LPG carbon/source and CO2 sink effects.
 
-Transfer limits: Carbon-price break-even is economic; distinguish from Paper 1's net-mitigation break-even. LPG co-service requires an explicit counterfactual.
+The reported combined-cargo shipping factor0.048tCO2/t-cargo has a different denominator/boundary from stored-source CO2. The CO2-only example reports0.67Mt emissions and7.43Mt transported over its lifetime. Changing financial discount rates changes costs/profit but leaves physical transported/emitted quantities unchanged.
+
+Transfer limits: A multi-cargo factor cannot be inserted as a per-tonne-stored or universal international CO2 factor. Tanker operating-cost proxies and country electricity assumptions remain source-specific. Cargo carbon must not be reclassified as independent transport emissions or avoided source emissions without a matched counterfactual.
 
 ### B3-31 — Shared CO₂ capture, transport, and storage for decarbonizing industrial clusters
 
-See supplied first page. Identifier: 10.1016/j.apenergy.2024.122775. [PDF](../papers/B3-31.pdf).
+. Identifier: 10.1016/j.apenergy.2024.122775. [PDF](../papers/B3-31.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,4,5,6,10.
 
-Louisiana cluster integrates process-based capture costs with pipeline routing and evaluates shared capture versus transport.
+Industrial capture process models span target-stream5/10/15/94mol% CO2 and multiple flow scales. Low-concentration cases use30wt% MEA,95% design capture and natural-gas cogeneration supplying parasitic heat/electricity; high-purity cases use dehydration/compression with grid electricity and a small gas boiler. Capturing cogeneration CO2 is a distinct larger system.
 
-Transfer limits: Cost savings and capture-stream concentrations do not establish climate benefit or cross-border deliverability.
+Coupled mass/carbon/energy balances show why capturing cogeneration emissions increases capture equipment/load and changes the functional denominator. The text reports about3.6GJ/t heat for low-concentration MEA cases and93% HHV cogeneration efficiency(84%steam,9%electricity). Compression reaches86barg before pumping to110barg; these are not ship-liquefaction conditions.
+
+Transfer limits: Cost correlations by concentration/technology maturity are not lifecycle factors. Simulation capacities are full8760h design equivalents, not actual plant calendars. Pretreatment is not physically generalised and key process/equipment details are in unsupplied SI. Do not add grid or heat-supply emissions on top of the same cogeneration supply or apply capture fraction twice.
 
 ### B3-32 — Investing in CO2 transport infrastructure under uncertainty A comparison between ships and pipelines
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2015.07.013. [PDF](../papers/B3-32.pdf).
+. Identifier: 10.1016/j.ijggc.2015.07.013. [PDF](../papers/B3-32.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,11,17.
 
-Ships/pipelines are compared with abandonment, temporary shutdown and alternate-sink options under uncertainty.
+Whole-chain financial comparison uses discounted NPV and real-options analysis for coal-plant capture, ship/offshore-pipeline transport and storage. Options include capture shutdown, abandonment and switching reservoir under uncertain prices, utilisation and storage volumes. Continuous liquefaction and batch shipping require temporary storage.
 
-Transfer limits: Flexibility changes project value but did not reverse preferred mode in the studied cases; do not assume flexibility always changes decisions.
+Flexible decisions can change project value and ship-versus-pipeline investment decisions. The financial model is compared with literature cost cases and shows why matching electricity/fuel assumptions changes reported levelised transport costs. Reservoir exhaustion and abandonment probabilities are conditional model outputs.
+
+Transfer limits: Option values and financial scenario probabilities are not measured maritime reliability, pressure-limited injection or a lifecycle climate optimum. Historical2010-price component assumptions and20–40% flashed-gas recirculation descriptions do not imply atmospheric vent losses. Storage access and energy-state compatibility still need separate evidence.
 
 ### B3-33 — Ship transport—A low cost and low risk CO2 transport option in the Nordic countries
 
 Kjärstad, Skagestad, Eldrup & Johnsson (2016). Identifier: 10.1016/j.ijggc.2016.08.024. [PDF](../papers/B3-33.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,8,14.
 
-Small coastal sources and long routes favour ships; better western injectivity may justify 800–1300 km additional transport economically.
+Nordic transport study compares ship and pipeline costs across volumes/distances, selected source hubs and alternative storage sites with different injectivity. It examines ramp-up, pipeline underutilisation and cluster scale using historical regional source inventories.
 
-Transfer limits: Closely related to Johnsson 2017; not independent proof of longer routes delivering more lifecycle net mitigation.
+For a500km/10Mtpa pipeline example,25% utilisation for the first ten years increases specific cost from8.4 to16.1EUR/t versus immediate full utilisation. More injective distant sinks and flexible shipping can be financially attractive; outcomes depend on network/cost assumptions and buildup of connected volumes.
+
+Transfer limits: These are cost and scenario comparisons, not whole-chain climate rankings. Early utilisation does not determine ship fuel intensity or weather availability. Historical sources and candidate sites do not establish current capture contracts or injection access; no economic break-even distance becomes a carbon break-even distance.
 
 ### B3-34 — CO2 maritime transportation
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2010.05.005. [PDF](../papers/B3-34.pdf).
+. Identifier: 10.1016/j.ijggc.2010.05.005. [PDF](../papers/B3-34.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,5,7.
 
-30,000 m3 carrier logistics compare approximately 7/15-bar storage regimes and shore/offshore terminals.
+Conceptual maritime chain uses HYSYS conditioning/liquefaction, a designed30,000m3 carrier, receiving/injection equipment and onshore/offshore options. Two storage-state alternatives and several refrigeration/propulsion options are compared; integer ship additions matter.
 
-Transfer limits: Older conceptual transport-cost thresholds depend on flow, route and assumptions, not universal climate thresholds.
+The selected economic case uses-30C/15bar. Offshore unloading/injection uses5.2MW in the stated design with a24hour maximum on-station constraint. Reported350km/1100km financial crossovers differ by offshore versus harbour-to-harbour pipeline comparison.
+
+Transfer limits: The technical design and old-vintage cost assumptions do not establish an actual fleet, universal offshore availability or a carbon break-even distance. Vessel-specific pumping power cannot be applied throughout every phase or transferred to another tank size/state without engineering support. No wave shutdown probability is inferred.
 
 ### B3-35 — Ship Transport of CO2 Technical Solutions and Analysis of Costs, Energy Utilization, Exergy Efficiency and CO2 Emissions
 
@@ -798,13 +884,15 @@ Transfer limits: Economic comparison, not a whole-chain climate ranking. Related
 
 ### B3-40 — Estimating the pressure-limited CO2 injection and storage capacity of the United States saline formations Effect of the presence of hydrocarbon reservoirs
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2018.09.011. [PDF](../papers/B3-40.pdf).
+. Identifier: 10.1016/j.ijggc.2018.09.011. [PDF](../papers/B3-40.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,9.
 
-US assessment accounts for pressure interference and exclusion buffers around hydrocarbon reservoirs when computing saline injection/storage potential.
+Pressure-limited US saline-formation assessment assigns equally spaced injection wells and uses3D TOUGH2-ECO2N simulations with geological properties and an80%-of-fracture-pressure constraint. Injection fronts/interference, hydrocarbon-reservoir coverage and economic minimum-rate screens govern aggregate development scenarios.
 
-Transfer limits: Pre-brine-extraction resource scenario, not developed service. Avoid regional capacity figures as project injection constraints.
+The reported Group3-and-higher rates change from1596.8 to682.7 to273.7Mt/y across hydrocarbon-reservoir handling scenarios. The250kt/y/well cutoff is an economic-development filter, not a physical minimum. Pressure-limited capacity is distinct from pore-volume resource and depends on well-development assumptions.
+
+Transfer limits: National aggregate rates and25km spacing do not establish site service, local fracture limits, existing wells or commercial access. Published simulation outputs are useful independent pressure-constrained benchmarks, but a complete annual kr,t array and underlying realisations are not supplied. Constant50-year development scenarios are not observed operations.
 
 ### B3-41 — Assessment of CO2 geological storage capacity of saline aquifers under the North Sea
 
@@ -828,33 +916,39 @@ Transfer limits: Already covers yearly baseline emissions and domestic/foreign r
 
 ### B3-43 — Risk management optimization framework for the optimal deployment of carbon capture and storage system under uncertainty
 
-See supplied first page. Identifier: 10.1016/j.rser.2019.109280. [PDF](../papers/B3-43.pdf).
+. Identifier: 10.1016/j.rser.2019.109280. [PDF](../papers/B3-43.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,7,11.
 
-Two-stage stochastic MILP studies carbon-tax uncertainty and financial risk measures with cost/risk trade-offs.
+Two-stage stochastic CCS deployment framework compares expected cost with variability, probabilistic financial risk and downside-risk metrics. Discrete capture/network decisions couple scenarios, while epsilon constraints trace economic-versus-risk tradeoffs for uncertain carbon-tax conditions.
 
-Transfer limits: Tax scenarios and financial-risk probabilities are not physical reservoir uncertainty distributions.
+Risk-metric selection changes the types of costly scenarios penalised and the resulting design. Threshold-dependent probabilistic/downside criteria reflect decision-maker preferences; computational difficulty differs with binary risk indicators. The study motivates explicit risk definitions rather than an undefined generic uncertainty score.
+
+Transfer limits: Financial scenario probabilities/subjective thresholds are not empirical failure probabilities, uncertain physical injectivity distributions or a probability of climate benefit. This is prior art for risk-aware planning, not site calibration or a complete lifecycle comparison. No distribution is imported into Paper1.
 
 ### B3-44 — A scalable infrastructure model for carbon capture and storage_SimCCS
 
-See supplied first page. Identifier: 10.1016/j.enpol.2008.09.049. [PDF](../papers/B3-44.pdf).
+. Identifier: 10.1016/j.enpol.2008.09.049. [PDF](../papers/B3-44.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,8.
 
-Integrated source, sink, capacity and pipeline routing minimises annualised capture/transport/storage cost in a California example.
+SimCCS combines least-cost geographic candidate-network generation with a MILP for source/reservoir opening, discrete pipeline sizes and flow conservation. Source/sink bounds and a system-wide capture target are linked in one atemporal infrastructure decision.
 
-Transfer limits: Foundational network planning; not a dynamic shipping LCA or matched-country net-mitigation experiment.
+The California demonstration uses37 major sources and14 oil-field reservoirs. Aggregation creates cost economies, but the paper explicitly states pipeline construction costs were artificially reduced to emphasise network capabilities. It also states the2009 model is atemporal and each target is reoptimised from scratch.
+
+Transfer limits: Low transport cost is not a transferable realistic price or GHG factor. Approximate radial-injectivity/property formulas have stated domains and do not resolve time-dependent pressure fronts. Original site data/code are needed for exact case reproduction; later dynamic SimCCS versions are not the same original model.
 
 ### B3-45 — Optimal design of European supply chains for carbon capture and storage from industrial emission sources including pipe and ship transport
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2021.103372. [PDF](../papers/B3-45.pdf).
+. Identifier: 10.1016/j.ijggc.2021.103372. [PDF](../papers/B3-45.pdf).
 
-Reading stage: Abstract/relevance screening; detailed inventory extraction pending. Checked sections: PDF pages 1.
+Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 4,9,13.
 
-European industrial CCS MILP includes capture, pipe/ship transport and on/offshore storage; national versus common targets affect costs.
+Europe-wide economic MILP designs capture at steel/cement/refinery sources, pipeline/ship routes and onshore/offshore storage. Country-specific versus collective European capture targets and storage restrictions are compared; sector-specific capture and multimodal costs enter the supply-chain objective.
 
-Transfer limits: Cost per tonne and source selection differ from a fixed common-source climate comparison; geographic restrictions are scenario-specific.
+Offshore-only scenarios require more expensive transport and injection despite similar capture cost. Country-level and Europe-wide targets can change which sources capture CO2, not merely their destination. The paper highlights transnational cooperation requirements alongside economic savings.
+
+Transfer limits: Cost-optimal source selection changes composition, so it is not a matched-source climate comparison. Representing all CCS stages economically does not provide complete lifecycle GHG. Ship-unit-cost sensitivity and projected fleets do not validate operational schedules, pressure-constrained annual service or actual cross-border access.
 
 ### B3-46 — Progress and perspectives in source-sink matching for CCUS_A critical review
 

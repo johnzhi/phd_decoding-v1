@@ -1,0 +1,12 @@
+# Specific remaining datasets
+
+The new files materially improve the reference inventory. The following would close the remaining gaps more efficiently than additional general reviews.
+
+1. **Wave history:** export VHM0, VMDR and a clearly identified period variable such as VTM02 or VTPK over a multi-year date range. Ensure start and end timestamps differ. Point time series at the existing two coordinates are a manageable first check; route-wide work also needs documented source/destination/route waypoints. Retain 3-hourly data and split by year/month if needed to keep each upload below32MiB. A vessel-specific operating envelope is still required before turning waves into speed reduction or port shutdowns.
+2. **Injection monitoring:** `readme__co2_injection_monitoring.txt` from the injection-monitoring collection, followed by selected CCS1 rate, bottomhole/formation pressure and temperature time series with timestamps, units, sensor locations, datums and quality flags. The seismic-event collection is separate. Small extracted CSV/NetCDF files are preferable to an 8.4 GB archive.
+3. **Four oversized reports:** split the site-characterisation/modelling report, 2D seismic interpretation, site-development/operations/closure report and drilling/completion report into files below32MiB, or supply the relevant pressure/rate/model-input tables and appendices. Filenames and unmatched hashes are in the reference catalogue/BagIt audit.
+4. **Capture conditions:** actual facility/technology heat and electricity data, or the NETL industrial model/report if a non-power reference is intended. Current uploads contain NGCC/PC CANSOLV references, not a calibrated 14-source utility inventory.
+5. **Energy supply:** identified Japanese supplier/menu and steam/heat source, or an explicitly selected alternative engineering supply. Regulatory fallback factors do not establish heat quality, boiler efficiency or complete lifecycle GHG.
+6. **Vessel/terminal operation:** actual fuel grade, operating-limit curves, maintenance timing and berth/port turnaround assumptions applicable to liquid CO₂ carriers. IMO fuel defaults and container-port reports do not supply those calendars.
+
+Raw South Sumatra physical injection constraints and unrounded allocations would still improve the original model comparison. The existing author data-request draft remains unsent. No permission or supplier availability is inferred from these research references.

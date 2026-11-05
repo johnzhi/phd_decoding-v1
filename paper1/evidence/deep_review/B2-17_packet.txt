@@ -1,0 +1,225 @@
+Progress and perspectives in source-sink matching for CCUS A critical review
+
+PHYSICAL_PAGE 5
+K. Lin et al.                                                                                              Renewable and Sustainable Energy Reviews 226 (2026) 116313
+
+
+                                                                                    geological characteristics (e.g., mineral reactivity), regional infrastruc­
+                                                                                    ture layout, CO2 storage policy frameworks, and environmental risk
+                                                                                    thresholds facilitates the construction of 3D decision-making models
+                                                                                    encompassing storage efficiency, safety redundancy, and economic
+                                                                                    feasibility, providing a scientific basis for project implementation [65].
+                                                                                        The multi-scale evaluation framework established based on this
+                                                                                    methodology is illustrated in Fig. 8. The CSLF categorizes geological CO2
+                                                                                    storage suitability assessment into five hierarchical scales: country,
+                                                                                    basin, regional, local, and site scales [66]. Country-scale assessments
+                                                                                    focus on contiguous geographic territories within jurisdictional bound­
+                                                                                    aries, typically encompassing multiple sedimentary basins or sub-units,
+                                                                                    aiming to identify high-potential basins using low-resolution data while
+                                                                                    evaluating storage types and risk profiles, as exemplified by sedimentary
+                                                                                    basin studies in China, India, and similar nations [67].
+                                                                                        Basin-scale assessments quantify storage potential for specific sedi­
+                                                                                    mentary basins, requiring integration of multi-source high-precision
+                                                                                    data, with the Paraná Basin serving as a representative case [68].
+                                                                                    Regional-scale assessments focus on geographically continuous zones
+                 Fig. 5. Types of gases in global GHG emissions.
+                                                                                    within basins exhibiting high source-sink matching or superior storage
+                                                                                    conditions. such as research on storage capacity in Lithuania’s Baltic
+                                                                                    Basin saline formations and residual oil zones, Malik et al. [69] inno­
+Table 1                                                                             vatively developed multi-scenario numerical models, pioneering Monte
+Atmospheric lifetime and GWP values for primary greenhouse gases. CO2 serves        Carlo uncertainty quantification to calculate theoretical maximum
+as the reference gas with a standardized GWP of 1. (data from Refs. [43,44]).       storage capacity: 96–407 Mt in saline formations and 64–267 Mt in oil
+  GHG                         CH4    N2O     HFC-     HFC-     SF6      CCl4        zones, while revealing critical impact mechanisms of caprock integrity
+                                             23       134a                          risks and brine migration pathways. Such assessments must avoid active
+  Life span (years)           12     114     270        14     3200       26        fault zones and mineral rights-dense areas, delineating storage bound­
+  Assessment time     20      72     289     12,000   3830     16,300   2700        aries via 3D geological modeling and pressure field simulations.
+    of global         years                                                             Local-scale assessments concentrate on screening candidate reser­
+    warming           100     25     298     14,800   1430     22,800   1400        voirs during pre-engineering phases, systematically verifying reservoir
+    potential         years
+                      500      7.6   153     12,200    435     32,600    435
+                                                                                    capacity, injection efficiency, and storage performance through nu­
+                      years                                                         merical simulations coupled with economic analyses [70,71]. Chen et al.
+                                                                                    [72] utilized Latin hypercube sampling to develop 1000 CO2
+                                                                                    storage-geothermal synergy models based on geological characteristics
+evaluating structural trap integrity, caprock breakthrough pressure, and            of northern Oman’s foreland basin, combining response surface meth­
+hydrogeological confinement indicators, utilizing multi-parameter                   odology to quantitatively analyze synergistic effects of reservoir tem­
+weighting models to compute regional-scale storage suitability indices,             perature gradients, pore pressure, and other parameters on CO2
+thereby establishing preliminary screening databases [63]. In interme­              injectivity and thermal extraction efficiency, ultimately establishing
+diate assessment, basin-scale 3D geological modeling techniques are                 multi-objective optimization decision matrices to provide siting foun­
+employed, integrating seismic inversion data, core test results, and                dations for combined storage-geothermal development. Site-scale as­
+historical injection cases, focusing on reservoir heterogeneity analysis,           sessments target specific storage units (e.g., aquifer blocks), requiring
+pressure transmission boundaries, and mineral carbonation potential, to             construction of multidimensional evaluation systems. Using the Enping
+establish multi-dimensional evaluation matrices incorporating core in­              15-1 oil field as an example, Chen et al. [73] established a 9-parameter
+dicators, enabling quantitative ranking of potential storage units [64].            evaluation system with three indicator layers (e.g., injectivity, storage
+During final evaluation stages, comprehensive consideration of reservoir            capacity, and containment security) based on geological data from Field
+
+
+
+
+      Fig. 6. European Union, China, America, India, and Japan, 2000–2024: (a) total CO2 emissions; (b) per capita CO2 emissions (data from Refs. [50,53]).
+
+                                                                                5
+
+
+PHYSICAL_PAGE 9
+K. Lin et al.                                                                                                          Renewable and Sustainable Energy Reviews 226 (2026) 116313
+
+
+Table 3
+Primary methodologies for quantifying CO2 storage capacity in confined geological formations.
+  Method type        Proposer      Storage type   Formula                                        Parameter description                                                      References
+                                                                   [
+  Material balance   CSLF          Oil and gas    MCO2,oil = ρCO2 Rf Ahφ(1 − Sw ) − Viw +        MCO2,oil : Geological CO2 storage capacity within oil reservoirs           [128]
+                                                      ]
+   method                          reservoirs     Vpw                                            (kg); ρCO2 : CO2 density at reservoir conditions (kg/m3); Rf :
+                                                                                                 Hydrocarbon recovery factor (%); A: Areal extent of reservoir
+                                                                                                 (m2); h: Effective thickness (m); φ: Mean porosity (%); Sw :
+                                                                                                 Average reservoir water saturation (%); Viw /Vpw : Cumulative
+                                                                                                 water injection/production volume (m3)
+                                                                          (            )
+                     CSLF          Unminable      MCO2,coal = ρCO2 Ahnc Gc 1 − fa − fm           MCO2,coal : CGS capacity in unminable coal seams (kg); nc :                [128]
+                                   coal seams                                                    Volumetric gas content of coal (kg/m3); Gc : Gas content of coal
+                                                                                                 seam (m3/kg); fa /fm : Ash and moisture content of coal (%)
+                     CSLF          Saline         Structural trapping: MCO2,g =                  MCO2,g : Structural trapping capacity (kg); Swirr : Irreducible water      [128]
+                                   reservoir      ρCO2 Ahφ(1 − Swirr )                           saturation; MCO2,r : Theoretical storage capacity for residual
+                                                  Residual trapping: MCO2,r = ρCO2r SCO2t φΔ     trapping (kg); ΔV: Rock volume previously CO2− saturated then
+                                                  V                                              water− flooded; SCO2t : CO2 saturation after brine re− influx;
+                                                  Solubility trapping: MCO2,d = (ρs XsCO2 −      MCO2,d : Theoretical storage capacity for solubility trapping (kg);
+                                                  ρi XiCO2 )Ahφ                                  ρs /ρi : Average densities at saturated/initial states; XsCO2 /XiCO2 :
+                                                                                                 CO2 mass fractions in formation water.
+  Volumetric         US-DOE        Oil and gas    MCO2,oil = ρCO2 Ahφ(1 − Sw )BE                 B: Formation volume factor (ratio of hydrocarbon volume at                 [129]
+   method                          reservoirs                                                    reservoir conditions to surface volumes, dimensionless); E:
+                                                                                                 Storage efficiency factor
+                     US-DOE        Unminable      MCO2,coal = ρCO2m AhCsmax E                    ρCO2m : CO2 density at standard conditions (kg/m3); Csmax :                [129]
+                                   coal seams                                                    Maximum CO2 adsorption capacity per unit coal volume at
+                                                                                                 standard conditions (0 ◦ C, 101325 Pa)
+                     US-DOE        Saline         MCO2,saline = ρCO2 AhφE                        MCO2,saline : CGS in saline reservoirs (kg)                                [129]
+                                   reservoir
+                                                                                                                                                                   2
+  Areal method       EC            Saline         MCO2,saline = ACF × A × SF                     ACF: Aquifer coverage factor; SF: Storage coefficient (kg/m )              [130]
+                                   reservoir
+                                                               (                  )
+  Dissolution        BACHU &       Saline         MCO2,saline = ρs XCO2
+                                                                    s   − ρi XCO2
+                                                                              i     AhφC         XCO2
+                                                                                                  s   /XCO2
+                                                                                                        i   : CO2 mass fractions in formation water under                   [131]
+    mechanism        ADAMS         reservoir                                                     saturated/initial states; C: diffusion-dissolution factors
+    method
+                                                                  [
+  Dissolution        Shen et al.   Oil and gas    MCO2,oil = ρCO2 Ahφ(1 − Swi ) − Viw +          Swi : Irreducible water saturation; Cws : CO2 solubility in water; Cos :   [132]
+                                                              (                   )
+    mechanism                      reservoirs     Vpw + Cws AhφSwi + Viw − Vpw +                 CO2 solubility in oil
+    method                                           (          )
+                                                  Cos 1 − Rf Ahφ(1 − Swi )
+                                                                           ]
+
+  Solubility-based   Li et al.     Saline         MCO2,saline = aAρw MnhRφ                       a: Areal fraction of CO2-suitable saline formations (default =             [133]
+    method                         reservoir                                                     0.01); n: Effective thickness ratio for aquifers (default = 0.1); R:
+                                                                                                 CO2 solubility coefficient in brine; ρw : Brine density under storage
+                                                                                                 conditions (kg/m3); M: CO2 molar mass (g/mol)
+
+
+
+regional to site-specific scales.                                                          possess gas reservoir capacities of 15.3 and 9.0 billion tons respectively
+   According to China’s CCUS 2021 annual report estimates, global                          using depleted reservoirs with CO2-EGR technology; China’s saline
+onshore geological CO2 storage capacity ranges from 6–42 trillion tons,                    formation storage totals about 2.42 trillion tons, with three core
+while offshore potential reaches 2–13 trillion tons, with deep saline                      zones—Songliao (694.5 billion tons), Tarim (552.8 billion tons), and
+formations contributing 98 % of global storage capacity [21]. Fig. 10                      Bohai Bay (490.6 billion tons) basins—comprising 50 % collectively.
+displays geological CCUS storage potential versus CO2 emissions for                        Other Asian regions exhibit total potential of 0.49–0.55 trillion tons.
+major countries and regions worldwide (Table 4). As Asia’s core storage                    Herein, Japan’s 140-billion-ton capacity primarily resides in offshore
+region, China’s total potential approximates 1.21–4.13 trillion tons.                      sedimentary basins like Tokyo Bay and Osaka Bay; Korea’s Jeju basin oil
+Specifically: Four major basins including Songliao, Bohai Bay, Ordos,                      reservoirs contribute 23.5 billion tons while North Pyongyang basin
+and Junggar Basins could achieve 5.1 billion tons of storage via                           aquifers account for 0.9 Gt; the total storage potential of Indonesia,
+CO2-EOR in oil fields; Ordos, Sichuan Bohai Bay and Tarim Basins                           Thailand, the Philippines, and Vietnam is approximately 54 billion tons.
+
+
+
+
+Fig. 10. Global assessment of CCUS geological storage potential versus CO2 emissions across key regions (storage capacity values represent median interval esti­
+mates) (modified after [21]).
+
+                                                                                     9
+
+
+PHYSICAL_PAGE 27
+K. Lin et al.                                                                                                                 Renewable and Sustainable Energy Reviews 226 (2026) 116313
+
+      study in Spain. Appl Energy 2021;300:117418. https://doi.org/10.1016/j.                           goals. ENERGY 2025;323:135774. https://doi.org/10.1016/j.
+      apenergy.2021.117418.                                                                             energy.2025.135774.
+[212] Zhang K, Bokka HK, Lau HC. Decarbonizing the energy and industry sectors in                 [232] Li K, Mao YF, Fan JL, Li JZ, Li XQ, Li JY, et al. A national-scale high-resolution
+      Thailand by carbon capture and storage. JOURNAL OF PETROLEUM SCIENCE                              CCUS-shared pipeline layout for retrofitting multisectoral plants via onshore-
+      AND ENGINEERING 2022;209:109979. https://doi.org/10.1016/j.                                       offshore geological storage. iScience 2024;27:110978. https://doi.org/10.1016/j.
+      petrol.2021.109979.                                                                               isci.2024.110978.
+[213] Bokka HK, Lau HC. Decarbonising Vietnam’s power and industry sectors by                     [233] Dalei NN, Joshi J. Potential matching of carbon capture storage and utilization
+      carbon capture and storage. ENERGY 2023;262:125361. https://doi.org/                              (CCSU) as enhanced oil recovery in perspective to Indian oil refineries. Clean
+      10.1016/j.energy.2022.125361.                                                                     Technol Environ Policy 2022;24:2701–17. https://doi.org/10.1007/s10098-022-
+[214] Vulin D, Mocilac IK, Jukic L, Arnaut M, Vodopic F, Saftic B, et al. Development of                02359-1.
+      CCUS clusters in Croatia. Int J Greenhouse Gas Control 2023;124:103857.                     [234] Zhao YH, Shakourifar N, Shahsavar N, Lei YX, Zhao BZ. A holistic framework for
+      https://doi.org/10.1016/j.ijggc.2023.103857.                                                      evaluating gigaton scale geological CO2 storage applied to the Alberta oil sands:
+[215] Yanez E, Ramirez A, Nunez-Lopez V, Castillo E, Faaij A. Exploring the potential of                physics, policy, and economics. Int J Greenhouse Gas Control 2024;134:104129.
+      carbon capture and storage-enhanced oil recovery as a mitigation strategy in the                  https://doi.org/10.1016/j.ijggc.2024.104129.
+      Colombian oil industry. Int J Greenhouse Gas Control 2020;94:102938. https://               [235] Xu M, Zhang JY, Wen ZG, Wang PT, Chen JH. Economic and environmental
+      doi.org/10.1016/j.ijggc.2019.102938.                                                              assessment of plant-level decarbonization in waste-to-energy industry with CCUS
+[216] Zhang S, Zhuang Y, Tao R, Liu LL, Zhang L, Du J. Multi-objective optimization for                 technology: evidence from China. Appl Energy 2025;381:125148. https://doi.
+      the deployment of carbon capture utilization and storage supply chain                             org/10.1016/j.apenergy.2024.125148.
+      considering economic and environmental performance. J Cleaner Prod 2020;270:                [236] Wang N, Hong XD, Yang Y, Sun JY, Wang JD, Yang YR, et al. Optimal CCUS
+      122481. https://doi.org/10.1016/j.jclepro.2020.122481.                                            supply chain toward carbon neutrality: novel framework for thermal power, iron-
+[217] Mao YF, Li K, Li JZ, Zhang X, Fan JL. Spatial heterogeneity of plant-level CCUS                   steel, and cement sectors. Ind Eng Chem Res 2024;63:4460–77. https://doi.org/
+      investment decisions in China’s cement industry under various policy incentives.                  10.1021/acs.iecr.3c03286.
+      Earths Future 2025;13:e2024EF004951. https://doi.org/10.1029/                               [237] Li ZZ, Zhu NG, Wen X, Liu Y. Assessment the impact of power generation hours on
+      2024EF004951.                                                                                     the abatement costs of CCUS on coal-fired power plants in China. Energy Econ
+[218] Xu M, Zhang X, Shen S, Wei SJ, Fan JL. Assessment of potential, cost, and                         2025;144:8305. https://doi.org/10.1016/j.eneco.2025.108305.
+      environmental benefits of CCS-EWR technology for coal-fired power plants in                 [238] Wang YH, Wen ZG, Xu M, Kosajan V. The carbon-energy-water nexus of the
+      yellow river basin of China. J Environ Manage 2021;292:112717. https://doi.                       carbon capture, utilization, and storage technology deployment schemes: a case
+      org/10.1016/j.jenvman.2021.112717.                                                                study in China’s cement industry. Appl Energy 2024;362:122991. https://doi.
+[219] Zhang K, Lau HC, Liu SY, Li HY. Carbon capture and storage in the coastal region                  org/10.1016/j.apenergy.2024.122991.
+      of China between shanghai and Hainan. ENERGY 2022;247:123470. https://doi.                  [239] Zhang K, Lau HC, Bokka HK, Hadia NJ. Decarbonizing the power and industry
+      org/10.1016/j.energy.2022.123470.                                                                 sectors in India by carbon capture and storage. ENERGY 2022;249:123751.
+[220] Lin XQ, Zan XY, Ying YX, Ji PJ, Wu A, Lu Q, et al. Technoeconomic assessment of                   https://doi.org/10.1016/j.energy.2022.123751.
+      offshore carbon storage multiphase source-sink matching based on multiwell                  [240] Hu DW, Zhou TF, Xu SF. Analysis of CCUS challenges in the yangtze river Delta
+      optimization in eastern coastal China. ACS Sustainable Chem Eng 2025;13:                          region, China. Pol J Environ Stud 2025;34:101–14. https://doi.org/10.15244/
+      5247–59. https://doi.org/10.1021/acssuschemeng.4c10624.                                           pjoes/186110.
+[221] Huang YQ, Liu LL, Zhen YH, Wang CZ, Ning XY, Li K, et al. A three-stage                     [241] Lane J, Greig C, Garnett A. Uncertain storage prospects create a conundrum for
+      evaluation model for biomass co-firing combined with carbon capture and storage                   carbon capture and storage ambitions. Nat Clim Change 2021;11:925–36. https://
+      (in oil wells) retrofit in coal-fired power plants based on multi-criteria decision-              doi.org/10.1038/s41558-021-01175-7.
+      making: an example from Hebei Province, China. ENERGY 2024;308:133051.                      [242] Zhang X, Li K, Wei N, Li Z, Fan J-L. Advances, challenges, and perspectives for
+      https://doi.org/10.1016/j.energy.2024.133051.                                                     CCUS source-sink matching models under carbon neutrality target. Carbon
+[222] Nie S, Cai GT, He JX, Wang SH, Bai RX, Chen XY, et al. Economic costs and                         Neutrality 2022;1:12. https://doi.org/10.1007/s43979-022-00007-7.
+      environmental benefits of deploying CCUS supply chains at scale: insights from              [243] Sun L, Chen W. The improved ChinaCCS decision support system: a case study for
+      the source-sink matching LCA-MILP approach. Fuel 2023;344:128047. https://                        beijing-tianjin-hebei region of China. Appl Energy 2013;112:793–9. https://doi.
+      doi.org/10.1016/j.fuel.2023.128047.                                                               org/10.1016/j.apenergy.2013.05.016.
+[223] Chauvy R, Lai YY, Chen PC. A geographical source-sink matching for carbon                   [244] Sun L, Chen W. Development and application of a multi-stage CCUS source-sink
+      capture and utilization deployment in Taiwan. Int J Greenhouse Gas Control                        matching model. Appl Energy 2017;185:1424–32. https://doi.org/10.1016/j.
+      2022;119:103722. https://doi.org/10.1016/j.ijggc.2022.103722.                                     apenergy.2016.01.009.
+[224] Zhang K, Lau HC, Chen ZX. Regional carbon capture and storage opportunities in              [245] Yang JF, Yang CH, Gu QY, Zhu CJ, Luo M, Zhong PQ. Economic evaluation and
+      Alberta, Canada. Fuel 2022;322:124224. https://doi.org/10.1016/j.                                 influencing factors of CCUS-EOR technology: a case study from a high water-
+      fuel.2022.124224.                                                                                 bearing oilfield in Xinjiang, China. Energy Rep 2023;10:153–60. https://doi.org/
+[225] Bokka HK, Zhang K, Lau HC. Carbon capture and storage opportunities in the                        10.1016/j.egyr.2023.06.013.
+      West Coast of India. Energy Rep 2022;8:3930–47. https://doi.org/10.1016/j.                  [246] Wang W, Liang ZZ, Zuo J, Li YH, Yang GL, Wang DW. The pore structure changes
+      egyr.2022.03.012.                                                                                 and CO2 migration dynamic characteristics in tight sandstone during supercritical
+[226] Wendt A, Sheriff A, Shih CY, Vikara D, Grant T. A multi-criteria CCUS screening                   CO2 geosequestration: a case study in the chang 7 layer, ordos basin, China. Fuel
+      evaluation of the Gulf of Mexico, USA. Int J Greenhouse Gas Control 2022;118:                     2025;379:133019. https://doi.org/10.1016/j.fuel.2024.133019.
+      103688. https://doi.org/10.1016/j.ijggc.2022.103688.                                        [247] Lin KY, Wei N, Zhang Y, Ali M, Chen Q, Wang WD, et al. Advances in machine-
+[227] Li K, Shen S, Fan JL, Xu M, Zhang X. The role of carbon capture, utilization and                  learning-driven CO2 geological storage: a comprehensive review and outlook.
+      storage in realizing China’s carbon neutrality: a source-sink matching analysis for               ENERGY & FUELS 2025. https://doi.org/10.1021/acs.energyfuels.5c02370.
+      existing coal-fired power plants. Resour Conserv Recycl 2022;178:106070.                    [248] Mishra A, Ni H, Mortazavi SA, Haese RR. Graph theory based estimation of
+      https://doi.org/10.1016/j.resconrec.2021.106070.                                                  probable CO2 plume spreading in siliciclastic reservoirs with lithological
+[228] Sun YQ, Yang Q, Zhou HW, Wang QR, Deng A, Tian T, et al. Plant-level analysis of                  heterogeneity. Adv Water Resour 2024;189:104717. https://doi.org/10.1016/j.
+      the CO2 emission reduction and water recovery potentials of near-term CCS-EWR                     advwatres.2024.104717.
+      retrofits coal-fired power plant in China. Resour Conserv Recycl 2025;217:                  [249] Hung Vo T, Yasin Q, Al-Mudhafar WJ, Lee K-K. Knowledge-based machine
+      108202. https://doi.org/10.1016/j.resconrec.2025.108202.                                          learning techniques for accurate prediction of CO2 storage performance in
+[229] Fan JL, Mao YF, Li K, Zhang X. Early opportunities for onshore and offshore CCUS                  underground saline aquifers. Appl Energy 2022;314:118985. https://doi.org/
+      deployment in the Chinese cement industry. ENGINEERING 2025;46:348–62.                            10.1016/j.apenergy.2022.118985.
+      https://doi.org/10.1016/j.eng.2024.09.011.                                                  [250] Nassabeh M, You ZJ, Keshavarz A, Iglauer S. Sub-surface geospatial intelligence
+[230] Gu CW, Li K, Gao SK, Li JY, Mao YF. CO2 abatement feasibility for blast furnace                   in carbon capture, utilization and storage: a machine learning approach for
+      CCUS retrofits in BF-BOF steel plants in China. ENERGY 2024;294:130756.                           offshore storage site selection. ENERGY 2024;305:132086. https://doi.org/
+      https://doi.org/10.1016/j.energy.2024.130756.                                                     10.1016/j.energy.2024.132086.
+[231] Wang PT, Zhang YX, Wang FY, Xu M. Carbon capture, utilization, and storage in               [251] Morkner P, Bauer J, Creason CG, Sabbatino M, Wingo P, Greenburg R, et al.
+      China’s high-emission industries: optimal deployment under carbon neutrality                      Distilling data to drive carbon storage insights. Comput Geosci 2022;158:104945.
+                                                                                                        https://doi.org/10.1016/j.cageo.2021.104945.
+
+
+
+
+                                                                                             27

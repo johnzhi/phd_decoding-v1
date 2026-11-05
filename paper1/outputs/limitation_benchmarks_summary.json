@@ -1,0 +1,9 @@
+{
+  "located_benchmark_inputs": 18,
+  "within_source_calculations": 8,
+  "MEA_reference_sensitivities": 10,
+  "MEA_heat_gj_per_t": 3.6,
+  "MEA_electricity_kwh_per_t": 100.0,
+  "MEA_JP_reporting_inventory_kg_per_t": 233.11999999999998,
+  "complete_lca": false
+}

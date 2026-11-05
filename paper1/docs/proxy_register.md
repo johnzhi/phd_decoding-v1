@@ -5,12 +5,12 @@ The user authorised using published data from another region when local data are
 | Component | Selected evidence | Actual origin | Use in this draft | What is not transferred |
 |---|---|---|---|---|
 | Coherent source–sink retention cases | Budiarto B4-06, p16 | South Sumatra industrial clusters, Indonesia | 153.21 and 159.81 Mt published cumulative storage outcomes, plus supplied rounded annual allocations from Figures S8–S10; proxy benchmark for lower/higher usable service | Japanese industrial source composition; Japanese annual injectivity; local pressure limits; well or construction GHG |
-| Post-capture chain intensity scenarios | Fraga B2-12, pp18/20 | Northern Lights/Stella Maris Norwegian chain configurations | Six reported optimisation results including fugitive terms; explicitly cross-paired with stored mass as diagnostic scores, requiring loss reconciliation before avoided-emissions use | Japanese/Malaysian/Australian grid mix, route geometry, permits, matched source or calibrated voyage schedule |
+| Post-capture chain intensity scenarios | Fraga B2-12, pp18/20 | Northern Lights/Stella Maris Norwegian chain configurations | Supporting AppendixA only: six reported optimisation results including fugitive terms cross-paired as diagnostic scores; not primary mitigation results | Japanese/Malaysian/Australian grid mix, route geometry, permits, matched source or calibrated voyage schedule |
 | Conditioning electricity | Roussanaly B3-38, p7 Table3 | Published pure-feed and pressurised inland-feed process cases | Separate benchmark demonstrating boundary sensitivity | A universal liquefaction factor or a uniform uncertainty distribution |
 | Thermal pressure ceiling | Tan B1-11, pp5/6 | Anonymised offshore Peninsular Malaysia field; analytical assumptions | Within-seal paired pressure calculations | Percentage rate/capacity losses, Japanese rock properties or site-specific operating approval |
 | Buffers and completion | Bjerketvedt B2-08, pp7/8 | 0.4 Mt/y, 715 km shipping case and original weather model | Denominator check for reported buffers | Japanese weather probabilities or a universal tank sizing rule |
 | BOG process emissions | Jeong B1-19, p7 Table6 and p13 TableA6 | Six process configurations and three nitrogen cases | Partial-process intensity calculation | Full propulsion emissions, whole-chain CO2e or a universal cargo-loss fraction |
-| Large-ship fleet | Noh & Kang B4-09, p6 Table7 | Original 75 conceptual shipping cases | Reported fleet counts retained as output benchmarks | Explicit Table 1 scenario now reproduces 75 fleet counts; conflicting prose, independent density verification and ship procurement/availability remain unresolved |
+| Large-ship fleet | Noh & Kang B4-09, p6 Table7 | Original 75 conceptual shipping cases | Reported fleet counts retained as output benchmarks | Explicit Table 1 scenario now reproduces 75 fleet counts; an independent pure-fluid EOS reference now supports Table1 consistency; conflicting prose, actual mixture/datum and ship procurement/availability remain unresolved |
 
 ## Screened regional candidates
 
@@ -42,3 +42,15 @@ The separate B0–B3 model uses Indonesian allocation-output envelopes and Noh &
 | Ocean conditions | Copernicus D5-53/55 | Two located point snapshots only | Cannot establish weather frequency, vessel limits or calendars. |
 
 These transfers are implemented as component-inventory sensitivities. The near-zero positive5,000km allowance under the Norway climate factor cannot establish a robust full-chain benefit. Other inventory terms and retention remain unresolved.
+
+## Follow-up transfers and design choices
+
+| Quantity | Source and use | Transfer boundary |
+|---|---|---|
+| Common 1 Mt/y source class | Noh B4-09 nominal transport class; new shared-source benchmark | Hypothetical capture potential, not measured plant or no-CCS production inventory |
+| Disjoint reservoir groups and two route assignments | MW-A allocation outputs; r1–r4/r5–r8 partition and swapped control | Analyst topology; no double counting of SW-A/MW-A; no actual domestic/foreign geography or physical capacity calibration |
+| Three dispatch priorities | Explicit model conventions | Sensitivity checks, not observed operator behaviour or global optimum |
+| Paired MEA heat/electricity | Beiron B2-11, pp3–4: 3.6 GJ/t and 0.1 MWh/t captured | Swedish CHP reference, includes compression/liquefaction; Japanese reporting-factor sensitivity, steam compatibility unverified |
+| Pure-fluid density | Span–Wagner/CoolProp at source temperature and two pressure interpretations | Independent model consistency; original table input retained; no measured mixture validation |
+| Tomakomai history/test records | D7-18/20/22 | Achieved rounded history and source-inferred properties, not new independent annual service constraints |
+| Selected Northern Lights storage components | D7-15 appendix, excluding source-carbon fugitives | Optional average-burden sensitivity with explicit conflicts; excludes duplicate shipping; not marginal site inventory or full LCA |

@@ -1,0 +1,160 @@
+Planning of carbon capture and storage with pinch analysis techniques
+
+PHYSICAL_PAGE 4
+2724                                chemical engineering research and design 9 1 ( 2 0 1 3 ) 2721–2731
+
+
+
+
+ Table 3 – CO2 storage capacity from reservoirs for case study.
+ Storage site           Start to end             Reservoir life considered in              CO2 injection rate               Total CO2
+                             (y)                    planning horizon (y)                         (Mt/y)                   capacity (Mt)
+
+ Reservoir A                3–12                              10                                      40                      400
+ Reservoir B                8–18                              11                                      60                      660
+ Reservoir C               13–21                               9                                      20                      180
+
+ Total                                                                                                                       1240
+
+
+
+(left shift of the demand composite curve is also permissible;          Similar to the hypothetical case, the objective of this case
+but not vertical shift). This corresponds to the case in Fig. 2(b).     study is to determine the amount of additional storage (if
+As shown, the arrows within the overlapping area between the            required) and also to identify excess storage capacity (if avail-
+two composite curves indicate the reservoirs (storage sources)          able). Table 3 shows the data of the reservoirs. As shown,
+are ready for use for the power plants (storage demands). In            Reservoirs A–C are identiﬁed for use, each with different stor-
+other words, 500 Mt CO2 load can be sent from power plants to           age capacity. Note that the total CO2 storage capacity of the
+the storage reservoirs (in the reverse direction of the arrows),        reservoirs is determined as 1240 Mt, with Reservoir A being
+within the given time interval. The opening on the left side            the earliest available storage source, i.e. in year 3 (see Table 3).
+of the composite curves indicates that additional storage of                Table 4 summarises the data for CO2 load captured from
+200 Mt is needed, due to the earliest storage by Reservoir A is         power plants in consideration and to be sent for storage in
+only available from year 10 onwards. This additional storage            the reservoirs. As shown, the total planning horizon for the
+requirement has to be fulﬁlled by outsourcing the storage with          case study is approximately 20 years, which is a reasonable
+an external party (e.g. other nearby geographical region). On           period for energy planning. In practice, longer time horizons
+the other hand, the amount of excess storage capacity of the            are subject to signiﬁcant uncertainties. The power plant ﬂeet
+reservoirs is identiﬁed from the opening of the right side of           comprises of coal, natural gas and oil power plants. To demon-
+the composite curve, i.e. 100 Mt from Reservoir B. This excess          strate the variation of power plants from the same fossil fuel
+storage may then be used by other neighbouring geographical             type, two coal power plants A and B are considered in the
+regions if they experience insufﬁcient storage capacity prob-           planning horizon with coal power plant B assumed to be a
+lem. Note that the additional storage requirement and excess            new plant constructed as replacement for coal plant A. As
+capacity in this problem are conceptually similar to heat inte-         such, coal power plant B requires storage for captured CO2
+gration problem where minimum hot and cold utilities are                towards the end of the planning horizon, i.e. from year 18
+needed (Linnhoff et al., 1982); or the resource conservation            onwards. Note that the availability of coal power plant B
+networks with external resources and waste discharge (Foo,              is only 4 years although realistically plant operation life is
+2012). Finally, note that the point where the two composite             more than 20 years. However, it is assumed that the plant
+curves touch is termed as the “time pinch”, which is the bottle-        is constructed late, and hence exceeds the planning hori-
+neck that limits the storage of CO2 load from the power plants          zon considered for this study. The remaining operating life
+to the reservoirs.                                                      of plant B can be considered in the next planning hori-
+    From above illustration, it is clear that the CSCC provides         zon.
+valuable insights for CCS planning problem, particularly in                 CSCCs for the case study are plotted in Fig. 3. For clarity
+identifying the bottleneck of the planning problem (i.e. the            on the proposed methodology, the CSCC in Fig. 2 is further
+pinch point in the CSCC). Storage capacity deﬁciency can be             enhanced in detailed where the curves are plotted based on
+mitigated from additional storage available from other reser-           a year-by-year basis, such that the original diagonal demand
+voirs located sufﬁcient close in geographical proximity. Excess         composite curve also takes the form of a “staircase”, as the CO2
+storage capacity in the reservoirs can be addressed with allo-          storage demand is now represented by horizontal bars, each
+cation to other power plants in the region. A case study is next        equals the storage demand required from the power plants
+used to demonstrate the application of the CSCC.                        for a particular year. From Fig. 3, it is observed that there are
+                                                                        potential matching regions for off-setting, identiﬁed from the
+4.       Case study                                                     overlapping region where both source and sink are available.
+                                                                        The source composite curve is then shifted to the left until it
+For this case, the allocation problem will be addressed for a           touches the sink composite curve at the time pinch, i.e. year
+speciﬁc geographical region within a time planning horizon.             8 (Fig. 4).
+
+
+
+
+ Table 4 – Captured CO2 load from power plants for case study.
+ Power plant                    Start to end          Plant life considered in           Average captured                Total CO2 load
+                                (y)                   planning horizon (y)               CO2 rate (Mt/y)                 (Mt)
+
+ Coal power plant A                  5–18                          14                            40                            560
+ Natural gas power plant             6–15                          10                            20                            200
+                                     8–15                           8                            20                            160
+ Oil power plant
+                                    16–17                           2                            40                             80
+                                    18–19                           2                            40                             80
+ Coal power plant B
+                                    20–21                           2                            60                            120
+ Total                                                                                                                        1200
+
+
+PHYSICAL_PAGE 8
+2728                                chemical engineering research and design 9 1 ( 2 0 1 3 ) 2721–2731
+
+
+
+
+                                        Fig. 8 – Detailed time composite curve for Option 1.
+
+
+pinch represents the years and corresponding amount where              using a macroscopic approach, without exact allocation of CO2
+excess storage is available from the storage reservoirs. From          load from power plants to reservoirs.
+Fig. 6(c), cumulative excess storage from year 9 to year 11 totals         The CSCC in Fig. 7 is further reﬁned by breaking down
+to 60 Mt CO2 , while that for year 22 corresponds to 20 Mt CO2 ,       the demand and source composite curves into their indi-
+leading to the total of 80 Mt CO2 . This result is consistent with     vidual constituents (i.e., power plants of coal, natural gas
+the initial estimation of excess storage capacity represented          and oil; Reservoirs A–C), instead of plotting for total storage
+by the sink–source composite curves in Fig. 4.                         capacity and requirement. To determine a possible pairing
+    Results from the GCC in Fig. 6 may also be transferred to          combination, the individual source and demand for each time
+form the “balanced CSCC” given in Fig. 7, to include details on        interval will be rearranged to ensure that once a power plant is
+the actual timing of the additional and excess storage avail-          paired to a reservoir, the plant will continue sending captured
+able in the planning horizon. The segments of the source               CO2 load to the same reservoir unless limited by the reser-
+composite curve from year 3 to year 7 are shifted to the               voir storage capacity, or operating life, as explained in Section
+left of the time pinch (i.e. year 8). The empty slot (where            2. This will ensure an economically viable pairing option to be
+the composite curve detaches from the original curve) in               identiﬁed, as setting up CCS facilities between a plant and stor-
+year 7 now conﬁrms the requirement of 40 Mt CO2 storage                age site often entails costly facilities (e.g. pipeline and booster
+identiﬁed by the GCC. Similarly, segments of the demand com-           compressors). As such, limiting the number of routes from
+posite curve from year 9 to year 21 are shifted to the right           a plant to a reservoir (where possible) will be the primary
+of the time pinch. Three (3) empty slots are created from              approach adopted when determining possible permutation
+the shift now represents the amount of excess storage avail-           options in pairing.
+able at 20 Mt CO2 per year from year 9 to year 11, as total                For the case study above, two (2) possible allocation options
+storage capacity of 100 Mt CO2 exceeds the required stor-              have been identiﬁed using the detailed CSCC, which is differ-
+age demand from the power plants of 80 Mt CO2 . Note also              entiated by the variation in pairing a power plant to a reservoir
+there exist an excess storage capacity of 20 Mt at the end of          for CO2 storage. Detailed CSCC for Option 1 is shown in Fig. 8.
+the planning horizon (in which can only be utilised in the             The allocation and connectivity between power plant and
+next planning horizon), making the total excess capacity of            reservoir is better explained with the schematic representa-
+80 Mt.                                                                 tion in Fig. 9. A total of 10 connections are established between
+                                                                       the power plants and reservoirs. The spare storage capacity
+7.    Detailed allocation and matching of CO2                          available from year 9 to year 11 is derived from Reservoir B to
+sources with storage reservoir                                         support neighbouring plant requirements in the area/region.
+                                                                       Detailed allocation and breakdown on the CO2 ﬂowrate trans-
+Following the identiﬁcation of planning targets, the case study        ported from the power plants to the reservoir is summarised
+is revisited to determine the allocation of storage demands            in Table 7 for easy reference. Based on results in Option 1, CO2
+and sources. In Sections 4–6, the planning problem is solved           captured from coal power plant A will be sent to Reservoir A
+
+
+
+
+                              Fig. 9 – Schematic representation of sink–source pairing for Option 1.
+
+
+PHYSICAL_PAGE 11
+                                  chemical engineering research and design 9 1 ( 2 0 1 3 ) 2721–2731                                  2731
+
+
+Lee, J.-Y., Chen, C.-L., 2012. Comments on “Continuous-Time             Tan, R.R., Culaba, A.B., Aviso, K.B., 2008. A fuzzy linear
+   Optimization Model for Source–Sink Matching in Carbon                   programming extension of the general matrix-based life cycle
+   Capture and Storage Systems”. Ind. Eng. Chem. Res. 51,                  model. J. Clean. Prod. 16, 1358–1367.
+   11590–11591.                                                         Tan, R.R., Ng, D.K.S., Foo, D.C.Y., Aviso, K.B., 2010. A crisp and
+Linnhoff, B., Townsend, D.W., Boland, D., Hewitt, G.F., Thomas,            fuzzy integer programming models for optimal carbon
+   B.E.A., Guy, A.R., Marshall, R.H., 1982. A User Guide on Process        sequestration retroﬁt in the power sector. Chem. Eng. Res.
+   Integration for the Efﬁcient Use of Energy. IChemE, Rugby.              Des. 88, 1580–1588.
+Manan, Z.A., Tan, Y.L., Foo, D.C.Y., 2004. Targeting the minimum        Turk, G.A., Cobb, T.B., Jankowski, D.J., Wolsky, A.M., Sparrow, F.T.,
+   water ﬂowrate using water cascade analysis technique. AIChE             1987. CO2 transport: a new application of the assignment
+   J. 50 (12), 3169–3183.                                                  problem. Energy 12, 123–130.
+Metz, B., Davidson, O., de Coninck, H.C., Loos, M., Meyer, L.A.         US Department of Energy, 2012. Enhanced oil recovery program.
+   (Eds.), 2005. IPCC Special Report on Carbon Dioxide Capture             www.fossil.energy.gov/programs/oilgas/eor/index.html
+   and Storage. Intergovernmental Panel on Climate Change.                 (accessed April 2012).
+   Cambridge University Press, Cambridge, United                        Wall, T.F., Liu, Y., Spero, C., Elliot, L., Khare, S., Rathnam, R.,
+   Kingdom/New York, NY (442 pp).                                          Zeenathal, F., Moghtaderi, B., Buhre, B., Sheng, C., Gupta, R.,
+ ˛
+Pekala,  Ł.M., Tan, R.R., Foo, D.C.Y., Jeżowski, J.M., 2010. Optimal      Yamada, T., Makino, K., Yu, J., 2009. An overview on oxy fuel
+   energy planning models with carbon footprint constraints.               coal combustion state of the art research and technology
+   Appl. Energy 87 (6), 1903–1910.                                         development. Chem. Eng. Res. Des. 87, 1003–1016.
+Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K.S., 2012. A          Williams, J.H., DeBenedictis, A., Ghanadan, R., Mahone, A.,
+   continuous-time optimization model for source–sink                      Moore, J., Morrow III, W.R., Price, S., Torn, M.S., 2012. The
+   matching in carbon capture and storage systems. Ind. Eng.               Technology path to deep greenhouse gas emissions cuts by
+   Chem. Res. 51, 10015–10020.                                             2050: the pivotal role of electricity. Science 335,
+Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K.S., 2013.               53.
+   Optimal source–sink matching in carbon capture and storage           Yang, H., Xu, Z., Fan, M., Gupta, R., Slimane, R.B., Bland, A.E.,
+   systems with time, injection rate and capacity constraints.             et al., 2008. Progress in carbon dioxide separation and
+   Environ. Prog. Sustain. Energy, 411–416.                                capture: a review. J. Environ. Sci. 20, 14–27.

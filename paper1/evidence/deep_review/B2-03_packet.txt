@@ -1,0 +1,216 @@
+Multi-period Carbon Capture, Utilization, and Storage (CCUS) infrastructure design and planning under uncertainty
+
+PHYSICAL_PAGE 2
+C.M. Aras and M.M.F. Hasan                                                                                             Computers and Chemical Engineering 202 (2025) 109300
+
+
+
+
+Fig. 1. Schematic diagram of a CCUS network. Designing a CCUS network entails capturing CO2 using an appropriate technology such as amine-based absorption at selected CO2
+emission sources and transporting them using pipelines for injection into underground storage reservoirs or for CO2 -EOR.
+
+
+points in time over a planning period. This necessitates the use of                     indeterminacy arising from the inaccuracy of the storage estimates.
+multi-period optimization models. Tan et al. (2012) developed a mixed                   In our previous work (Aras et al., 2025), we studied the effect of
+integer nonlinear programming (MINLP) model, for continuous-time                        geological storage volume and selling price uncertainties for designing
+optimization for source–sink matching in carbon capture and storage                     CCUS networks, where we employed a two-stage optimization approach
+systems and solved it as a reformulated mixed-integer linear program                    for the quantification of these uncertainties. However, to obtain a good
+(MILP). For the multi-period deployment of CCUS infrastructure across                   deployment schedule, a multi-period stochastic optimization approach
+Europe, InfraCCS (Morbee et al., 2012) incorporated the automatic                       is required which is the focus of this work. Furthermore, limitations
+clustering of sources and sinks. Middleton et al. (2012) extended the                   on financial resources which are required for the deployment and
+SimCCS to a multi-period setting to find potential CCS infrastruc-                      operation of capture plants and pipelines, necessitate the inclusion of
+ture deployment schedules for the Texas Panhandle area. Fraga et al.                    periodic budget allocation constraints. Such economic constraints must
+(2021) incorporated multiple modes of carbon capture and developed a                    be taken into account for finding an optimal planning schedule with
+multi-period MILP for the cost optimization of CCUS networks in Nor-                    the objective of minimizing the societal effects of CO2 emissions.
+way. Duarte et al. (2022) presented an MILP formulation for maximiz-                        The novel features of this work include: (1) a methodology for
+ing the net present value (NPV) of a CCUS supply chain considering dif-                 multi-period deployment of CCUS infrastructure over a deployment
+ferent capture technologies and multi-modal transport options for the                   time horizon to minimize the effect of geological storage volume uncer-
+captured CO2 . Fraga et al. (2024) extended their previous multi-period                 tainty; and (2) provision of an approach to gain insights for the strategic
+model to include considerations for CO2 conditioning, pipeline and                      decision making under limited annual budget allocation in each time
+batch-wise transportation, intermediate hub storage and injection at                    period.
+storage fields. Montagna et al. (2022) developed an MILP for the design                     This article is organized as follows. The CCUS network design prob-
+and optimization of long term CCUS supply chain networks with a par-                    lem statement is formally described in Section 2 and models for stochas-
+ticular focus in a comprehensive modeling of the CO2-EOR operations.                    tic CCUS network design are introduced in Section 3. The methodology
+    Additionally, uncertainties in model parameters make it even more                   used to solve the problem is presented in Section 4. The results for
+difficult to find a design and deployment schedule which is good                        multi-period CCUS infrastructure deployment in the Illinois Basin re-
+enough or, in some cases, robust for different realizations of these                    gion are presented in Section 5, followed by concluding remarks in
+uncertain parameters. Multiple previous studies have addressed how                      Section 6.
+to deal with different uncertainties in a multi-period setting. For in-
+stance, Han and Lee (2012) developed a multi-period stochastic MILP                     2. Problem statement
+for CCUS infrastructure deployment on the eastern coast of Korea
+under uncertain CO2 emissions, product selling prices and plant op-                         In this section, we define the scope of CCUS network infrastructure
+erational costs. He et al. (2014) used a multi-period stochastic MILP                   planning problem considered in this work. We state the problem as a
+framework for optimal source–sink matching considering uncertainties                    multi-period network design optimization problem, list the input pa-
+in the operating lives of sources, upper limits of the CO2 storage                      rameters, key decision variables and the choice of objective functions.
+capacities for the sinks, and the carbon footprint of the compensatory                  We also list the major assumptions that are used when building the
+power to make up for energy losses. Li et al. (2022) developed a                        model for CCUS multi-period infrastructure planning. Given a multi-
+stochastic MILP framework that integrates the design of sustainable                     period planning horizon and a finite budget allocation for each period,
+water, energy, waste treatment and CCUS networks to minimize CO2                        our goal is to make decisions regarding the following questions: Where
+emissions and waste generated. Wang and Papadokonstantakis (2024)                       to capture CO2 ? When to start the capture process? What should the
+proposed a multi-period optimization framework for CCUS activities in                   pipeline topology be? When should the pipelines be operational? Where
+the Austrian cement industry with uncertainties in production costs,                    to store the captured CO2 ? How much to store in a sink over time?
+carbon and product pricing, and storage capabilities. Tapia (2024)                          Let  be the set of sources of stationary or point CO2 emissions.
+incorporated the management of CO2 storage risk with the objective of                   For each source 𝑖, its geospatial coordinates given by latitude 𝐿𝑎𝑡𝑖 and
+maximizing satisfaction through minimizing such risks, and minimizing                   longitude 𝐿𝑜𝑛𝑖 , and the annual emission amount 𝐸𝑖 are known. Let 
+
+                                                                                    2
+
+
+PHYSICAL_PAGE 3
+C.M. Aras and M.M.F. Hasan                                                                                                Computers and Chemical Engineering 202 (2025) 109300
+
+
+be the set of sinks for CO2 . We consider two types of sinks, namely the              7. All cash flows occurring in the future are adjusted to their Net
+sequestration sinks and the utilization sinks. Let 𝑠𝑒𝑞 represent the set                Present Value (NPV) considering a discount factor.
+of sequestration sinks and let 𝑢𝑡𝑖𝑙 represent the set of utilization sinks.
+For each sink 𝑘, its geospatial coordinates are given by latitude 𝐿𝑎𝑡𝑘             3. Model formulations
+and longitude 𝐿𝑜𝑛𝑘 and for all sinks. The estimates of their storage
+volumes (or CO2 retention amounts) are realized at different values                3.1. Deterministic problem
+with different probabilities. These realizations are available using the
+cumulative distribution functions (CDFs) provided by past geological                   One of the major decisions is to select where and when to establish
+surveys.
+                                                                                   CO2 capture plants. To decide this, we define binary variable 𝜇𝑖,𝑡 as
+    Let the planning horizon be divided into a set of | | time periods.
+                                                                                   follows:
+All time periods are considered to be of equal durations. A budget is
+allocated for each time period. Let the 𝛺 be the set of scenario realiza-                 ⎧1   if source 𝑖 is selected for CO2 capture and is
+                                                                                          ⎪
+tions. Every scenario is characterized by a different set of realizations          𝜇𝑖,𝑡 = ⎨       operational time period 𝑡 onward,
+of the storage volumes for each sink.                                                     ⎪0   otherwise.
+                                                                                          ⎩
+    Given this information of sources, sinks, time periods considered,
+and scenario realizations, the objective is to perform optimal and timely          We also define variable ℎ𝑖,𝑘,𝑡 to represent the size or capacity of the
+selection of sources, sinks and determine the pipelines connecting                 pipeline to transfer captured CO2 from source 𝑖 to sink 𝑘 starting at
+them considering the allocated budget. Overall, we summarize the                   time period 𝑡. Let 𝑦𝑖,𝑘,𝑡 be the actual annual amount of CO2 transported
+multi-period CCUS infrastructure planning problem as follows:                      from source 𝑖 to sink 𝑘 starting from time period 𝑡.
+Given:                                                                                 With these key decision variables defined, we formulate the fol-
+                                                                                   lowing MILP model. We call the problem 𝑃 𝐷, where D stands for
+    •  sources with their locations, emission amounts, types                      deterministic CCUS network design and deployment optimization:
+    • 𝑠𝑒𝑞 sequestration sites with their locations and CDFs                                     ∑∑                    ∑∑
+    • 𝑢𝑡𝑖𝑙 utilization sites with their locations and CDFs                          𝑃 𝐷 ∶ max           𝐶𝑆𝑡 𝐸𝑖 𝜇𝑖,𝑡 −      (𝐶𝐼𝑖,𝑡 + 𝐶𝑂𝑖,𝑡 )𝜇𝑖,𝑡
+                                                                                                   𝑖∈ 𝑡∈                      𝑖∈ 𝑡∈
+    •  time periods                                                                               ∑∑
+                                                                                               −             𝐶𝑇𝑖,𝑘,𝑡 ℎ𝑖,𝑘,𝑡
+    • 𝛺 scenarios with different realizations of the storage volumes                                                                                                      (1)
+                                                                                                   𝑖∈ 𝑡∈
+    • Annual budget allocated for each time period                                                 ∑∑ ∑                             ∑∑ ∑
+                                                                                               −                   𝐶𝑆𝑡𝑡 𝑦𝑖,𝑘,𝑡 +                      𝑅𝑡 𝑦𝑖,𝑘,𝑡
+    • Economic data for sizing of the capture plants to be built (see
+                                                                                                   𝑖∈ 𝑡∈ 𝑘∈                      𝑖∈ 𝑡∈ 𝑘∈𝑢𝑡𝑖𝑙
+      more details in Section 1 of the Supplementary Information)
+                                                                                               s.t.
+    • Distances between the sources and sinks, and appropriate pipeline                            ∑                                ∑
+      costing factor (see more details in Section 2 of the Supplementary                                  (𝐶𝐼𝑖,𝑡 + 𝐶𝑂𝑖,𝑡 )𝜇𝑖,𝑡 +          𝐶𝑇𝑖,𝑘,𝑡 ℎ𝑖,𝑘,𝑡
+      Information), and                                                                             𝑖∈                             𝑖∈
+                                                                                                        ∑∑
+    • Planning horizon in which these decisions need to be made                                     +             𝐶𝑆𝑡𝑡 𝑦𝑖,𝑘,𝑡 ≤ 𝐵𝑡 ,                𝑡∈                   (2)
+                                                                                                        𝑖∈ 𝑘∈
+Determine:                                                                                          ∑
+                                                                                                           𝑦𝑖,𝑘,𝑡 = 𝐸𝑖 𝜇𝑖,𝑡 ,                       𝑖 ∈ , 𝑡 ∈           (3)
+    • All selected sources where capture plants need to be built                                   𝑘∈
+                                                                                                   ∑∑                     𝑆𝑡𝑘
+    • Operational start time of the capture plants at the selected sources                                     𝑦𝑖,𝑘,𝑡 ≤       ,                     𝑘∈                   (4)
+    • All selected sequestration and utilization sites where CO2 will be                            𝑖∈ 𝑡∈
+                                                                                                                           𝐿
+      sequestered or utilized                                                                      𝑦𝑖,𝑘,𝑡 ≤ ℎ𝑖,𝑘,𝑡 ,                                𝑖 ∈ , 𝑘 ∈ , 𝑡 ∈    (5)
+    • Pipeline network topology with connectivity between the selected                             ∑
+      sources and sinks                                                                                  𝜇𝑖,𝑡 ≤ 1,                                  𝑖∈                   (6)
+                                                                                                   𝑡∈
+    • Pipeline transportation capacity and operation start time, and
+    • Amount of captured CO2 to be transported from each selected                      The objective (Eq. (1)) is to maximize the overall economic gains
+      source to each selected sink from beginning of some time period              or benefits that could be achieved due to avoided social costs through
+                                                                                                                              ∑ ∑
+      in some scenario realization of the storage volumes                          CCUS over the entire planning horizon, 𝑖∈ 𝑡∈ 𝐶𝑆𝑡 𝐸𝑖 𝜇𝑖,𝑡 , plus the
+                                                                                   net present value (NPV) of the revenue generated from CO2 -EOR activ-
+                                                                                         ∑ ∑        ∑
+The goal is to find the decisions that need to be taken for multi-period           ities, 𝑖∈ 𝑡∈ 𝑘∈𝑢𝑡𝑖𝑙 𝑅𝑡 𝑦𝑖,𝑘,𝑡 , minus the cash flows associated with
+CCUS infrastructure deployment to maximize the total capture of CO2
+                                                                                   CCUS infrastructure deployment and operations which include the
+emissions in a way that the overall annual costs do not exceed the                                                                          ∑ ∑
+                                                                                   NPV of the investment and operational cash flows, 𝑖∈ 𝑡∈ (𝐶𝐼𝑖,𝑡 +
+annual budget allocation.                                                                                                                    ∑ ∑
+                                                                                   𝐶𝑂𝑖,𝑡 )𝜇𝑖,𝑡 , network topology construction cash flows, 𝑖∈ 𝑡∈ 𝐶𝑇𝑖,𝑘,𝑡
+   We make the following assumptions:                                                                                                        ∑ ∑        ∑
+                                                                                   ℎ𝑖,𝑘,𝑡 , and cash flows from for the storage operations, 𝑖∈ 𝑡∈ 𝑘∈
+    1. The overall costs include: (1) fixed, investment and operating              𝐶𝑆𝑡𝑡 𝑦𝑖,𝑘,𝑡 . Eq. (2) ensures that the cash flows associated with infras-
+       costs of CO2 capture; (2) costs of CO2 transportation; (3) cost of          tructure deployments do not exceed the allocated budget for CCUS
+       CO2 storage over the operational life of a capture plant.                   activities at any point in time. These cash flows refer to the turnkey
+    2. All infrastructure deployments are considered to be turnkey                 values of a CO2 project and include the initial investment cost and
+       projects.                                                                   operational and storage costs over the entire life of the CCUS project.
+    3. The capture plants are built at the scale equal to the annual               Eq. (3) ensures that if a capture plant is built at a source location, then
+       emissions at the source.                                                    all of the captured CO2 (which is equal to the emission amount) must
+    4. Once a decision is made to transport some quantity CO2 from a               be transported to the sinks. Eq. (4) is the storage capacity constraint
+       source to a sink, we assume that the same amount of CO2 will                that limits the cumulative amount of CO2 from all capture plants over
+       be transported each year.                                                   their operational lives to not exceed the total storage capacity of a sink.
+    5. We assume a pipeline connects a single source to a single sink.             Eq. (5) limits the amount transported through a pipeline by its capacity.
+    6. We assume a constant value of the CO2 storage cost on a $/ton               Finally, Eq. (6) ensures that a plant starts operation at any source only
+       basis which includes site screening, characterization, permitting           at a single point in time over the entire planning horizon.
+       and construction costs, its operational costs and post-injection                 Solving the optimization problem 𝑃 𝐷 provides us with the optimal
+       site care costs (Smith et al., 2021).                                       deployment schedule for the entire horizon. Due to large benefits, it is
+
+                                                                               3
+
+
+PHYSICAL_PAGE 11
+C.M. Aras and M.M.F. Hasan                                                                                                         Computers and Chemical Engineering 202 (2025) 109300
+
+
+Data availability                                                                               Li, Y., Wei, J., Yuan, Z., Chen, B., Gani, R., 2022. Sustainable synthesis of integrated
+                                                                                                     process, water treatment, energy supply, and CCUS networks under uncertainty.
+                                                                                                     Comput. Chem. Eng. 157.
+    Data will be made available on request.
+                                                                                                Massol, O., Tchung-Ming, S., Banal-Estañol, A., 2018. Capturing industrial CO2 emis-
+                                                                                                     sions in Spain: Infrastructures, costs and break-even prices. Energy Policy 115,
+                                                                                                     545–560.
+References                                                                                      Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture
+                                                                                                     and storage: Simccs. Energy Policy 37, 1052–1060.
+Aras, C.M., Ntaimo, L., Hasan, M.M.F., 2025. Optimal design of carbon capture,                  Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic
+    utilization and storage (CCUS) networks under uncertain geological storage volumes               model for optimally phasing in CO 2 capture and storage infrastructure. Environ.
+    and CO2 price. Comput. Chem. Eng. 201.                                                           Model. Softw. 37, 193–205.
+Chand, S., Hsu, V.N., Sethi, S., 2002. Forecast, solution, and rolling horizons in              Montagna, A.F., Angarita, J.D., Duarte, A.E., Uribe, A., Osorio, J.P., Gounaris, C.,
+    operations management problems: A classified bibliography. Manuf. Serv. Oper.                    Grossmann, I.E., 2022. Advanced optimization of multi-sink CO2-EOR operations
+    Manag. 4, 25–43.                                                                                 in the context of long-term CCUS supply chain design.
+d’Amore, F., Mocellin, P., Vianello, C., Maschio, G., Bezzo, F., 2018. Economic opti-           Morbee, J., Serpa, J., Tzimas, E., 2012. Optimised deployment of a European CO2
+    misation of European supply chains for CO2 capture, transport and sequestration,                 transport network. Int. J. Greenh. Gas Control. 7, 48–61.
+    including societal risk analysis and risk mitigation measures. Appl. Energy 223,            Ntaimo, L., 2024. Computational Stochastic Programming: Models, Algorithms, and
+    401–415.                                                                                         Implementation. Springer Cham.
+Diamante, J.A.R., Tan, R.R., Foo, D.C., Ng, D.K., Aviso, K.B., Bandyopadhyay, S., 2013.         Sethi, S., Sorger, G., 1991. A theory of rolling horizon desicion making. Ann. Oper.
+    A graphical approach for pinch-based source-sink matching and sensitivity analysis               Res. 29, 387–416.
+    in carbon capture and storage systems. Ind. Eng. Chem. Res. 52, 7211–7222.                  Smith, E., Morris, J., Kheshgi, H., Teletzke, G., Herzog, H., Paltsev, S., 2021. The cost of
+Duarte, A., Angarita, J.D., Espinosa-Cárdenas, J.P., Lizcano, J., García-Saravia, R.C.,              CO2 transport and storage in global integrated assessment modeling. Int. J. Greenh.
+    Uribe-Rodríguez, A., 2022. Multiperiod optimization model for CO2 capture,                       Gas Control. 109.
+    utilization and storage, Colombian case study. In: Montastruc, L., Negny, S. (Eds.),        Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2012. Continuous-time optimiza-
+    32nd European Symposium on Computer Aided Process Engineering. In: Computer                      tion model for source-sink matching in carbon capture and storage systems. Ind.
+    Aided Chemical Engineering, vol. 51, Elsevier, pp. 997–1002.                                     Eng. Chem. Res. 51, 10015–10020.
+EPA, 2016. US and climate change division - technical support document: Technical               Tapia, J.F.D., 2024. Optimal multi-period source-sink matching in carbon capture,
+    update of the social cost of carbon for regulatory impact analysis under executive               utilization, and storage (CCUS) systems under neutrosophic environment. J. Clean.
+    order 12866.                                                                                     Prod. 467.
+Fraga, D., Korre, A., Nie, Z., Durucan, S., 2021. Multi-period cost optimisation of             Wang, P., Papadokonstantakis, S., 2024. Multi-period stochastic optimization of in-
+    multi-mode carbon capture and storage chains.                                                    tegrating carbon capture and storage/utilization (CCS/CCU) for cement industry.
+Fraga, D.M., Korre, A., Nie, Z., Durucan, S., 2024. Multi-period, multi-objective                    In: Manenti, F., Reklaitis, G.V. (Eds.), 34th European Symposium on Computer
+    optimisation of the northern lights and stella maris carbon capture and storage                  Aided Process Engineering / 15th International Symposium on Process Systems
+    chains. Carbon Capture Sci. Technol. 11.                                                         Engineering. In: Computer Aided Chemical Engineering, vol. 53, Elsevier, pp.
+Glomb, L., Liers, F., Rösel, F., 2022. A rolling-horizon approach for multi-period                   2101–2106.
+    optimization. European J. Oper. Res. 300, 189–206.                                          Wang, P.T., Wei, Y.M., Yang, B., Li, J.Q., Kang, J.N., Liu, L.C., Yu, B.Y., Hou, Y.B.,
+Han, J.H., Lee, I.B., 2012. Multiperiod stochastic optimization model for carbon capture             Zhang, X., 2020. Carbon capture and storage in China’s power sector: Optimal
+    and storage infrastructure under uncertainty in CO 2 emissions, product prices, and              planning under the 2 ◦ C constraint. Appl. Energy 263.
+    operating costs. Ind. Eng. Chem. Res. 51, 11445–11457.                                      Warwick, P.D., Attanasi, E.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M.,
+Hasan, M.M.F., Boukouvala, F., First, E.L., Floudas, C.A., 2014. Nationwide, regional,               Doolan, C.A., Freeman, P.A., Karacan, C.O., Lohr, C.D., Merrill, M.D., Olea, R.A.,
+    and statewide CO2 capture, utilization, and sequestration supply chain network                   Shelton, J.L., Slucher, E.R., Varela, B.A., 2019. Energy resources program national
+    optimization. Ind. Eng. Chem. Res. 53, 7489–7506.                                                assessment of carbon dioxide enhanced oil recovery and associated carbon dioxide
+Hasan, M.M.F., First, E.L., Boukouvala, F., Floudas, C.A., 2015. A multi-scale framework             retention resources-results. http://dx.doi.org/10.3133/cir1489.
+    for CO2 capture, utilization, and sequestration: CCUS and CCU. Comput. Chem.                Warwick, P.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M., Cole-
+    Eng. 81, 2–21.                                                                                   man, J.L., Cook, T.A., Corum, M.D., Covault, J.A., Craddock, W.H., DeVera, C.A.,
+He, Y.J., Zhang, Y., Ma, Z.F., Sahinidis, N.V., Tan, R.R., Foo, D.C., 2014. Optimal                  Doolan, C., II, R.M.D., Drew, L.J., East, J.A., Freeman, P.A., Garrity, C.P., Goo-
+    source-sink matching in carbon capture and storage systems under uncertainty.                    ley, K.J., Gosai, M.A., Jahediesfanjani, H., Lohr, C.D., Mars, J.C., Merrill, M.D.,
+    Ind. Eng. Chem. Res. 53, 778–785.                                                                Olea, R.A., Roberts-Ashby, T.L., Rouse, W.A., Schruben, P.G., Schuenemeyer, J.H.,
+IEA, 2020. Energy technology perspectives 2020. URL www.iea.org/t&c/. (Accessed                      Slucher, E.R., Varela, B.A., Verma, M.K., 2013. National assessment of geologic
+    May 2024).                                                                                       carbon dioxide storage resources-results.
+Kall, P., Mayer, J., 2005. Stochastic Linear Programming Models, Theory, and                    Zhang, X., Li, K., Wei, N., Li, Z., Fan, J.L., 2022. Advances, challenges, and perspectives
+    Computation. Springer’s International Series.                                                    for CCUS source-sink matching models under carbon neutrality target. Carbon
+                                                                                                     Neutrality 1.
+
+
+
+
+                                                                                           11

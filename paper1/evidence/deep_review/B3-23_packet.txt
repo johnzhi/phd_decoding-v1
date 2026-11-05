@@ -1,0 +1,256 @@
+Optimization of CO2 injection and brine production well placement using a genetic algorithm and artificial neural network-based proxy model
+
+PHYSICAL_PAGE 2
+K. Musayev et al.                                                                                    International Journal of Greenhouse Gas Control 127 (2023) 103915
+
+
+production in synthetic models using vertical and horizontal wells. This              Employing proxy models can address this issue. The proxy model
+study revealed a trade-off between the CO2 breakthrough time and                  (also known as a surrogate model) is an approximation function that can
+pressure relief. To manage this, they examined two strategies: a vertical         replicate the computationally costly full physics reservoir models. Proxy
+injector with a series of brine producers located incrementally farther to        models, both physics-based (Cardoso and Durlofsky, 2010; Nguyen-Le
+the injectors and horizontal injection/extraction well pairs. With these          and Shin, 2022, 2019; Salehian and Çınar, 2019) and data-driven
+approaches, they showed that it is feasible to manage pressure relief and         (Golzari et al., 2015; Nguyen-Le et al., 2021; Nwachukwu et al., 2018;
+CO2 breakthrough time. Furthermore, their results confirmed that brine            Salehian et al., 2022; You et al., 2019), have been widely explored in
+production could increase the amount of CO2 stored 5.5 folds while                solving practical problems related to the hydrocarbon industry. On the
+maintaining the pressure build-up target.                                         other hand, in the case of GCS, optimization problems have been con­
+    Birkholzer et al. (2012) proposed the concept of “impact-driven               ducted mostly using high-fidelity numerical models as the evaluation
+pressure management (IDPM),” in which the brine extraction will be                function.
+targeted to meet the local pressure constraints rather than being equal to            This paper reports the implementation of an artificial neural network
+the volume of CO2 injected. The authors assessed the IDPM approach                (ANN)-based proxy model in well-placement optimization problems
+using passive relief wells, active relief wells, and combined passive and         involving pressure management of GCS. To the best of the authors’
+active wells. Passive refers to the condition where brine is produced by          knowledge, there are no reports on using the ANN model for well
+injection-induced pressure increase in the formation, and active refers to        placement optimization in the context of GCS. The proposed workflow
+actively pumping brine out. Their findings suggested that implementing            was tested by optimizing the CO2 injection and brine extraction well
+active relief wells and combined passive and active relief wells would            locations in the saline aquifer of the Pohang Basin, Korea. A single
+reduce the extracted brine volume significantly while meeting the                 realization of the reservoir was employed. The genetic algorithm (GA) is
+criteria for pressure build-up. On the other hand, applying only passive          used for both tuning the hyperparameters of the ANN and optimization
+relief wells did not show good results because pressure build-up excee­           of well configuration. For the optimization study, a set of ANN models
+ded the limit.                                                                    with different input features were developed, and the best-performing
+    Cihan et al. (2015) implemented a modified differential evolution             model on the test data was selected for deployment. The results from
+algorithm to optimize well placement and brine extraction rates. They             the proposed methodology were verified by comparison with those ob­
+employed a numerically vertically averaged two-phase flow model in                tained from the full-physics numerical model as an evaluator.
+optimization to make the computational process more efficient. Through
+this methodology, they estimated the optimal well locations with                  2. Methodology
+time-dependent extraction rates to manage the pressure.
+    Pressure management strategies were also applied in recent CO2                   This section presents the methodology used for the overall proced­
+storage studies in the Pohang Basin. Jun et al. (2019) examined the               ure. First, the description of the GCS site and the geological model
+optimization of well placement and operating conditions for injection             employed is provided. Next, a description of the optimization algorithms
+only and injection/extraction schemes using different well types and              employed is presented. Then, the development of a Proxy model is
+patterns. They showed that placing the producer well at the farthest              explained in detail. Lastly, the optimization procedure with various
+location closer to the risky zone (faults) resulted in the best combination       schemes is presented. Fig. 2.1 shows the major steps for the proposed
+of pressure management and delayed CO2 breakthrough. Kim and Shin                 optimization framework.
+(2019) proposed a dual tubing injection/extraction scheme using hori­
+zontal wells where injection occurs from the heel and production from             2.1. Site and geological model description
+the toe. With this approach, they managed to improve the performance
+of the storage system in the Pohang Basin. Hwang et al. (2016) inves­                 The saline aquifer in the Pohang Basin investigated in this study is
+tigated the optimal pressure-relief well design in the Pohang Basin. They         located in southeast Korea (Fig. 2.2). This aquifer was chosen as a small-
+optimized parameters, such as the distance between the producer and               scale pilot project as part of Korea’s effort to reduce emissions (Kim and
+the injector, brine-pumping rate, and CO2 injection rate. They reported           Shin, 2019). The aquifer bounded with faults outside and within is
+that storage capacity increased by 45% by producing resident brine                highly compartmentalized, representing a closed aquifer system. Injec­
+compared to the case without production. Han and Kim (2020) studied               tion without pressure management in this aquifer can result in
+the spacing between the injector/producer and the length of production            high-pressure build-up, which can reactivate pre-existing faults (Kim
+interval using a conceptual model representing a shallow layer of the             et al., 2018).
+Pohang Basin. They suggested that a shorter production interval placed                The 3D heterogeneous geological model of the Pohang basin was
+at the bottom of the reservoir could increase the CO2 breakthrough time,          adapted from previous research by Jun et al. (2019) and Kim and Shin
+enhancing the injection performance.                                              (2019). The depth of the geological interval considered as a target for
+    Previous studies suggested that the key challenge in applying relief          CO2 injection ranged from 613 m to 810 m. The Pohang basin has a
+wells in GCS operation is finding the balance between pressure control            complex structure with six faults existing within and at the boundary
+and CO2 breakthrough time. The well locations can have a substantial              identified through the seismic surveys: western side faults (WF1 and
+impact on pressure relief and CO2 breakthrough time (Buscheck et al.,             WF2) and eastern side faults (EF1, EF2, EF3, and EF4) (Jun et al., 2019)
+2012). Therefore, well locations must be designed carefully to obtain the         (Fig. 2.3). It was assumed that exceeding the critical pressure threshold
+most benefit from the extraction well (Cihan et al., 2015). Most studies          of 13 MPa may reactivate pre-existing faults.
+found the optimal well locations using a full physics numerical model as              The target CO2 storage horizon has a continuous low permeable layer
+the evaluation function (Cameron and Durlofsky, 2012; Hwang et al.,               that separates the reservoir into upper and lower aquifers (Fig. 2.4). This
+2016; Jun et al., 2019). While this approach provides accurate results, it        layer acts as a barrier for vertical flow that is essential to the GCS
+is computationally exhaustive.                                                    operation because the CO2 plume is expected to flow upwards in the
+    Using numerical models in optimization problems may not be                    vertical direction due to buoyancy. The upper aquifer consists of suc­
+feasible, particularly in well-placement problems. In well-placement              cessive layers of sandstone and mudstone, while the lower aquifer
+problems, the parameter space tends to have multiple local optima                 consists of alternating layers of sandstone, mudstone, and conglomerate
+because of the heterogeneity and complex reservoir geometry, which                (Kim et al., 2019). The average horizontal permeability of the upper and
+may require a large number of forward model runs to obtain a global               lower aquifer is 67.5 and 32.4 md, respectively (Jun et al., 2019). Only
+optimum (Cihan et al., 2015). As a result, computationally efficient              the upper aquifer was considered owing to limited computational
+methods are required.                                                             resources.
+
+                                                                              2
+
+
+PHYSICAL_PAGE 9
+K. Musayev et al.                                                                                   International Journal of Greenhouse Gas Control 127 (2023) 103915
+
+
+          Table 3.1                                                               • Case 2: optimization using only proxy model (ANN). The GA was
+          Tuned architecture of each model.                                         employed as an optimizer.
+            Model                             Architecture                        • Case 3: optimization using proxy model (ANN) updated during the
+                                                                                    process. The GA was employed as an optimizer.
+            Base Model                        {96, 24, 90, 67, 60}
+            Model A                           {99, 73, 63, 10, 41}
+            Model B                           {100, 86, 100, 11, 94}                 In all cases, the optimization was repeated several times with
+            Model C                           {99, 69, 27, 60, 71}               different random seed numbers. Only the best results are presented here.
+
+                                                                                 3.2.1. Case 1
+suggesting differences in the complexity of models in predicting the
+                                                                                     Initially, optimization was conducted using only a numerical simu­
+output.
+                                                                                 lator. The CMOST intelligent tool and built-in optimizer DECE were
+    Using the optimal ANN architectures, all models were retrained with
+                                                                                 used. The optimization progress is shown in Fig. 3.3. Optimization was
+a higher number of epochs. The optimal number of epochs was deter­
+                                                                                 conducted for 1000 experiments, and the optimal solution was reached
+mined by monitoring four-fold cross-validation MAE. The performances
+                                                                                 after 622 simulation runs.
+of the models on the test data are given in Fig. 3.2. Generally, a higher
+                                                                                     Fig. 3.4 shows the optimal well locations. Intuitively, the injection
+correlation factor (R2), lower MAPE, lower absolute relative error, and a
+                                                                                 well was expected to be farther away from the fault zones to ensure that
+lower MAE correspond to higher predictive model accuracy.
+                                                                                 the fault pressure remained below the critical threshold. As shown in
+    The Base Model represents the case where elapsed time and well
+                                                                                 Fig. 3.4, the injection well location was farther from the fault zones
+spatial locations were used as input. Although the performance of the
+                                                                                 (red). However, it revealed that the injection well is located close to the
+Base model was acceptable, it was not accurate. Because the Pohang
+                                                                                 west boundary, which increases the possibility of the CO2 plume
+basin is heterogeneous, the Base Model could not predict the cumulative
+                                                                                 reaching the boundary. No-flow conditions were assumed at boundaries
+CO2 accurately (Fig. 3.2 and Table 3.2). Hence, the predictive model
+                                                                                 throughout simulation. As a result, the boundaries prevent the CO2 from
+that is only trained using well locations is incapable of predicting the
+                                                                                 escaping. This makes sure that, regardless of whether the CO2 plume
+behavior of heterogeneous formation (Nwachukwu, 2018). This sug­
+                                                                                 reaches the boundary or not, the simulation appropriately represents the
+gests that the inclusion of features that are influential on injection and
+                                                                                 migration of the plume in the actual field condition. On the other hand,
+production behavior is required to build a model that accurately
+                                                                                 brine extraction was closer to the fault zones because it helped relieve
+predicts.
+                                                                                 the pressure.
+    In Model A, the well-block permeabilities and porosities were input
+individually to capture the heterogeneity effects. It is the worst per­
+                                                                                 3.2.2. Case 2
+forming model among all models. Although the permeability and
+                                                                                      In this case, the proxy model (Model B) was trained initially with 100
+porosity of the well blocks provide information on the reservoir prop­
+                                                                                 simulation runs. Later, the simulation went offline, and optimization
+erties, they increase the dimensionality of the input features. Because
+                                                                                 was conducted without further updates on the constructed model.
+the upper aquifer of the Pohang basin consists of 12 layers, adding
+                                                                                      Fig. 3.5 shows the cumulative CO2 of the best well locations obtained
+permeability and porosity of the well blocks as inputs in Model A
+                                                                                 at each generation evaluated using the proxy model (solid blue line) and
+increased the number of input features to 55 (Table 3.2). Increasing the
+                                                                                 actual numerical simulation (solid red line). Here the actual numerical
+number of input features in machine learning problems can make it
+                                                                                 simulation for the best well locations in each generation is shown for
+difficult to find a solution, which is referred to as the curse of dimen­
+                                                                                 illustration purposes only. Deviations from the actual reservoir output
+sionality (Géron, 2019). Thus, high dimensionality can be one of the
+                                                                                 were observed in most generations because of the low performance of
+reasons for the low performance.
+                                                                                 the ANN model in newly observed areas in the search space discovered
+    Models B and C are the best performing models (Fig. 3.2 and
+                                                                                 by the GA. Because the model was built using only 100 simulation runs,
+Table 3.2). Model B performed slightly better than Model C. The reason
+                                                                                 it is a rough approximation of the full physics model.
+why Model B and C outperformed other models can be explained by the
+                                                                                      Table 3.3 presents the optimization results from both full-physics
+significant decrease in the dimensionality of input variables while
+                                                                                 simulator and proxy models. "Error" refers to the percentage difference
+including the most informative features (e.g., permeability and porosity)
+                                                                                 between the cumulative CO2 amount obtained from the proxy model
+(Min et al., 2011).
+                                                                                 and the one obtained from the full-physics simulator for the initial and
+    The performance of Models B and C was deemed satisfactory, and
+                                                                                 optimal solutions. "Change" refers to the percentage change in the cu­
+both can be selected for deployment. Model B was chosen over C to
+                                                                                 mulative CO2 amount between the initial and optimal solutions. The
+conduct an optimization study owing to its slightly higher performance.
+                                                                                 optimization results showed that the optimization converged to a better
+For illustration purposes, the optimization using the Base and Model C
+                                                                                 solution compared to the initial starting point, and close agreement
+was also conducted. Table 3.2 provides a summary of the performances
+                                                                                 between the ANN prediction and simulation output was observed for the
+of all models.
+                                                                                 optimized configuration.
+                                                                                      Another point to notice from Fig. 3.5 is the number of objective
+3.2. Optimization results
+                                                                                 function evaluations. With an individual size of 200 and 500 genera­
+                                                                                 tions, 100,000 forward runs were performed during the GA optimization
+    Well-placement optimization was investigated in the upper aquifer
+                                                                                 process, which would be impractical without the fast proxy model.
+of the Pohang basin. In the process of optimization, two vertical wells
+                                                                                 Fig. 3.6 shows the optimal well locations obtained by Case 2.
+were utilized, one for CO2 injection and the other for brine production.
+The injector operated by a constant bottom hole pressure of 13.3 MPa,
+                                                                                 3.2.3. Case 3
+and the producer operated by a constant bottom hole pressure of 7.5
+                                                                                     In Case 3, the proxy model was updated twice during optimization.
+MPa. The producer will shut in if CO2 breaks through. As described in
+                                                                                 Eleven best solutions obtained from the first optimization using the
+detail in Section 2.5, three approaches were explored in the optimization
+                                                                                 initial model were evaluated in the simulator and added to the training
+task:
+                                                                                 data to update the model for the first time. The 10 best solutions ob­
+                                                                                 tained from the second optimization run using the first updated model
+ • Case 1: optimization using only the numerical simulator (CMG-
+                                                                                 were then added to the training data to update the model for the second
+   GEM). DECE algorithm was employed as an optimizer.
+                                                                                 time. After the second update, the model performance was deemed
+                                                                                 satisfactory. The final model used in the optimization process was
+
+                                                                             9
+
+
+PHYSICAL_PAGE 14
+K. Musayev et al.                                                                                        International Journal of Greenhouse Gas Control 127 (2023) 103915
+
+
+
+
+                                           Fig. 3.9. Optimal well locations obtained using Base Model, Model B and C.
+
+
+                                                                                       tuning the hyperparameters of the proxy model and for the ANN-based
+                                                                                       optimization.
+                                                                                           The results were validated by conducting the reservoir simulator-
+                                                                                       based optimization using the DECE optimization algorithm. The
+                                                                                       simulator-based optimization required 622 simulation runs to converge
+                                                                                       to the optimum. On the other hand, ANN-based optimization achieved a
+                                                                                       comparable solution with only 120 simulation runs, reducing the
+                                                                                       number of simulation runs by 80.7%. The following are the conclusions
+                                                                                       drawn from this study:
+
+                                                                                       1) ANN-based proxy is well suited for the optimization problem because
+                                                                                          of its accurate and fast predictions. Thousands of objective function
+                                                                                          evaluations can be achieved in seconds. ANN offers an alternative for
+                                                                                          tasks requiring many simulation runs.
+                                                                                       2) Selection of the most informative input feature is paramount for
+                                                                                          optimization study as irrelevant or non-informative features can
+                                                                                          result in sub-optimal solutions.
+                                                                                       3) Instead of using the permeability and porosity of well blocks indi­
+                                                                                          vidually as input to the model to capture the effects of heterogeneity,
+                                                                                          the inclusion of PP or average permeability and porosity along the
+                                                                                          well as input increased the accuracy of the ANN model. PP and the
+                                                                                          average permeability and porosity carry important information on
+                                                                                          the flow and storage capacity while reducing the dimensionality of
+Fig. 3.10. CO2 injection rate for the optimal well placements obtained by Base,           the input features.
+Model B and Model C.                                                                   4) Optimization based on the proxy model reduced the actual numerical
+                                                                                          simulation runs significantly, reaching comparable optimal solu­
+horizontal or multilateral) and the total number of wells. In addition,                   tions. Updating the proxy model with near-optimal solutions
+this study can be expanded to a joint optimization study of well place­                   increased the accuracy of the predictions during the optimization.
+ment and operating conditions. Finally, the proxy model developed in
+this study is based on an ANN, which is fully data-driven. Investigating               CRediT authorship contribution statement
+the physics-informed deep learning models would be useful for the
+optimization problem.                                                                      Kudrat Musayev: Investigation, Methodology, Software, Visualiza­
+                                                                                       tion, Writing – original draft, Formal analysis. Hyundon Shin: Funding
+5. Conclusions                                                                         acquisition, Resources, Validation, Writing – review & editing, Super­
+                                                                                       vision, Project administration, Funding acquisition. Viet Nguyen-Le:
+    This work presented the ANN-based optimization for CO2 injection                   Formal analysis, Investigation, Validation, Visualization, Supervision,
+and brine production well placement problem in the GCS. The proposed                   Writing – review & editing.
+optimization framework was evaluated in the upper aquifer of the
+Pohang basin. Four different ANN models with different input features
+                                                                                       Declaration of Competing Interest
+were constructed. The model that yielded the best performance on the
+test data was selected for deployment. The GA was employed for both
+                                                                                          The authors declare that they have no known competing financial
+
+                                                                                  14

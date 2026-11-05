@@ -1,0 +1,156 @@
+Hydraulic fracturing to enhance injectivity and storage capacity of CO2 storage reservoirs Benefits and risks
+
+PHYSICAL_PAGE 11
+N.J. Huerta, et al.                                                                                             International Journal of Greenhouse Gas Control 100 (2020) 103105
+
+
+Table 4                                                                                       experimental studies indicate that porosity can increase by as much as
+Total mass and percent of CO2 into free phase (FP), aqueous (AQ), and trapped                 43 % in acidified zones near the injection point, and decreases of as
+phase (TP) at injection end (20 yr) and simulation end (30 yr) for several cases.             much as 23 % can occur in the higher pH peripheral zones where
+                                   20 years                   30 years                        precipitation can occur. Additionally, these studies found that incon-
+                                                                                              gruent mineral dissolution tended to increase surface roughness and led
+                       Total, Mt   FP, %      AQ, %   TP, %   FP, %      AQ, %   TP, %        to reductions in CO2 flow rates and pressure increases within the sto-
+                                                                                              rage reservoir, leading to negative overall impacts on reservoir per-
+  Case-v               13.14       84.0       16.0    0.0     78.7       17.4    3.8
+  Case-h-3k            14.81       84.2       15.9    0.0     79.3       17.0    3.8          formance.
+  Case-h-3k-4f-b       16.25       83.2       16.8    0.0     77.9       18.2    3.8
+  Case-h-3k-4f-ai      19.56       78.1       21.9    0.0     73.2       23.7    3.1
+                                                                                              3.3. Worth of hydraulic fracturing in geologic carbon storage
+  Case-h-3k-4f-ad      14.84       84.2       15.8    0.0     79.3       17.0    3.8
+  Case-h-3k-4f-pi      16.25       83.2       16.9    0.0     77.9       18.2    3.8
+  Case-h-3k-4f-pd      16.19       83.2       16.8    0.0     78.0       18.2    3.8              Based on our analyses, we conclude that the CCUS community can
+  Case-h-6k            17.54       83.9       16.1    0.0     78.7       17.4    3.9          build upon decades of experience manipulating the subsurface for fossil
+  Case-h-6k-8f         19.10       82.7       17.3    0.0     77.3       18.8    3.9          fuel production to safely engineer geologic carbon storage reservoirs to
+  Case-h-6k-8f-ai-pi   22.44       77.7       22.3    0.0     72.7       24.1    3.2
+                                                                                              meet the operational needs for an economically-viable technology to
+                                                                                              reduce CO2 emissions. While hydraulic fracturing will not be appro-
+the total mass: the distribution of free phase (FP) CO2, CO2 dissolved in                     priate for all applications, it should be considered as an approach to
+brine (AP), and CO2 that is trapped (TP) in pore spaces. In all cases,                        improve the performance of low permeability reservoirs. As identified
+mobile free phase CO2 decreases by an average of 5.2 % (standard                              previously, it will be important to understand the stress conditions at
+deviation 0.20) as CO2 in the aqueous phase and trapped CO2 increases                         prospective storage sites, as compressional stress regimes are favorable
+from injection stop to simulation end. This decrease in mobile CO2                            for limiting injection-induced mechanical failure of overlying caprocks
+shows no strong correlation to well orientation, fracture number, or                          (Rutqvist et al., 2008). However, as demonstrated by the large volume
+fracture properties. As expected, no scenario shows a generally lower                         of anecdotal data available from the oil and gas industry (EIA, 2018),
+(or higher) risk profile over time.                                                           reservoir hydraulic fracturing can be performed with minimal risk of
+    There are, however, correlations with the initial distribution of CO2                     impacting overlying underground sources of drinking water.
+and the different parameters studied in the various cases. The vertical
+versus horizonal well orientation cases (without fractures) do not show                       4. Conclusions
+a significant difference in the distribution of immobilized CO2 (the
+combined trapped and aqueous phase amounts) over time. The vertical                               A prior modeling study was conducted to evaluate the impact of
+well is 21.3 %, the 3k horizontal well is 20.8 %, and the 6k horizontal                       hydraulic fracturing for increasing injectivity and capacity of CO2 sto-
+well is 21.3 %. However, when the horizontal wells with no fractures                          rage reservoirs (Ghaderi et al., 2009). Their results indicated that
+are compared to wells that have been hydraulically fractured there is a                       fracturing can increase injectivity and storage capacity by modest to
+small but systematic increase in the immobilized phase for the 3k well                        significant amounts (10%–35%). Our simulations support these earlier
+(1.32 %) and the 6k well (1.39 %). When fracture area is increased,                           findings, and demonstrated that horizontal wells with a series of hy-
+there is an impact to the immobilized phase for the 3k wells (4.76 %                          draulically-induced fractures maximized reservoir performance (both
+increase) and 6k wells (6% increase). The modest increase is due to the                       injectivity and storage) over nonfractured horizontal and vertical in-
+presence of the fracture area, which provides an increase in the amount                       jection wells. These findings highlight that targeted applications of
+of CO2 that can dissolve into the aqueous phase, though it has less                           hydraulic fracturing could be used to increase the performance of low
+impact on the trapped CO2.                                                                    permeability reservoirs. In particular, hydraulic fracturing could be
+    This initial CO2 distribution does play a role in the initial risk                        used in a horizontal well to connect two or more high permeability
+magnitude and time to achieve acceptable risk for site closure but                            zones that are separated by an impermeable or low-permeability baffle.
+generally, there is no significant positive or negative impact from hy-                       This would allow a single well to broadly access both layers, thereby
+draulic fracturing on the disposition of CO2 during the time simulated.                       maximizing total storage capacity of the reservoir, which is an im-
+                                                                                              portant consideration for addressing the large volumes of anthro-
+                                                                                              pogenic CO2 that must be injected to meet global atmospheric CO2
+3.2. Performance and uncertainty
+                                                                                              reduction goals (Paris Agreement, 2015). To further develop this as an
+                                                                                              option for CCUS additional work is needed in model verification using
+3.2.1. Injectivity and capacity: did we achieve our performance goal
+                                                                                              pilot-scale field data, additional risk assessment, in public outreach and
+    The results show that horizontal wells do improve injectivity and
+                                                                                              gaining public acceptance, and in quantifying the economic feasibility
+capacity and that there is an additional modest increase when the well
+                                                                                              through a cost-benefit analysis.
+is made longer and with more fractures. The real benefit, in this sce-
+nario at least, is linking up the high permeability intervals so that the
+operator can maximize injection into the laterally continuous high                            CRediT authorship contribution statement
+permeability zones.
+                                                                                                 Nicolas J. Huerta: Conceptualization, Methodology, Software,
+                                                                                              Investigation, Writing - original draft, Writing - review & editing. Kirk
+3.2.2. Uncertainty and the things accounted for and not accounted for in
+                                                                                              J. Cantrell: Conceptualization, Writing - original draft. Signe K.
+our work
+                                                                                              White: Conceptualization, Methodology, Software. Christopher F.
+    Geochemical response and physical alteration of the fractures was
+                                                                                              Brown: Conceptualization, Writing - review & editing, Supervision,
+not studied in this work, but it does bear mentioning the impact that
+                                                                                              Funding acquisition.
+some of these phenomena would have on the results. Numerous la-
+boratory- and simulation-based studies have been performed to eval-
+uate the impact of CO2 and coinjected gases, such as H2S and SO2, on                          Declaration of Competing Interest
+fluid flow in storage reservoirs (Cantucci et al., 2015; Izgec et al.,
+2008a, b; Xu et al., 2007). These efforts have revealed that mineral                              The authors declare that they have no known competing financial
+alterations during CO2 injection can result in significant changes in                         interests or personal relationships that could have appeared to influ-
+porosity and permeability within CO2 storage reservoirs. Modeling and                         ence the work reported in this paper.
+
+                                                                                         11
+
+
+PHYSICAL_PAGE 12
+N.J. Huerta, et al.                                                                                                           International Journal of Greenhouse Gas Control 100 (2020) 103105
+
+
+Acknowledgements                                                                                       Greenberg, S., Bauer, R., Will, R., Locke, I.I.R., Carney, M., Leetaru, H., Medler, J., 2017.
+                                                                                                            Geologic Carbon storage at a one million tonne demonstration project: lessons
+                                                                                                            learned from the Illinois Basin – Decatur Project. Energy Procedia 114, 5529–5539.
+   Funding for this research was provided by the National Risk                                         Izgec, O., Demiral, B., Bertin, H., Akin, S., 2008a. CO2Injection into Saline Carbonate
+Assessment Partnership (NRAP) in the U.S. DOE Office of Fossil                                              Aquifer Formations I: Laboratory Investigation. Transp. Porous Media 72, 1–24.
+Energy’s Carbon Sequestration Program. Pacific Northwest National                                      Izgec, O., Demiral, B., Bertin, H., Akin, S., 2008b. CO2 injection into saline carbonate
+                                                                                                            aquifer formations II: comparison of numerical simulations to experiments. Transp.
+Laboratory is operated by the Battelle Memorial Institute for the                                           Porous Media 73, 57–74.
+Department of Energy (DOE) under Contract DE-AC06-76RLO 1830.                                          Kell, S., 2011. State Oil and Gas Agency Groundwater Investigation and Their Role in
+STOMP simulations were performed using PNNL Institutional                                                   Advancing Regulatory Reforms. A Two-State Review, Ohio and Texas.
+                                                                                                       Kelly, M., Moody, M., Zeller, E., Rike, W., Berelsman, N., McNeil, C., Holley, J., Sullivan,
+Computing facilities.                                                                                       C., Appriou, D., Spane, F., Horner, J., Gilmore, T., 2012. Borehole Completion and
+                                                                                                            Characterization Summary Report for the Stratigraphic Well, Morgan County, Illinois.
+Appendix A. Supplementary data                                                                              FG-RPT-015 Rev 1/PNWD-4343. FutureGen Industrial Alliance, Washington, DC.
+                                                                                                       McGrail, B., Spane, F., Sullivan, E., Bacon, D., Hund, G., 2011. The Wallula basalt se-
+                                                                                                            questration pilot project. Energy Procedia 4 (2011), 5653–5660.
+    Supplementary material related to this article can be found, in the                                McGrail, B., Spane, F., Amonette, J., Thompson, C., Brown, C., 2014. Injection monitoring
+online version, at doi:https://doi.org/10.1016/j.ijggc.2020.103105.                                         at the Wallula basalt pilot project. Energy Procedia 63 (2014), 2939–2948.
+                                                                                                       Nghiem, L., Sammon, P., Grabenstetter, J., Ohkuma, H., 2004. Modeling CO2 storage in
+                                                                                                            aquifers with a fully-coupled geochemical EOS compositional simulator. In: SPE
+References                                                                                                  89474, Presented at the SPE/DOE Symposium on Improved Oil Recovery. Tulsa.
+                                                                                                            April 17-21.
+Adachi, J., Siebrits, E., Peirce, A., Desroches, J., 2007. Computer simulation of hydraulic            Pan, P., Rutqvist, J., Feng, X., Yan, F., 2013. Modeling of caprock discontinuous fracturing
+    fractures. Int. J. Rock Mech. Min. Sci. 44 (5), 739–757.                                                during CO2 injection into a deep brine aquifer. Int. J. Greenh. Gas Control. 19,
+Appriou, D., 2019. Assessment of the Geomechanical Risks Associated With CO2 Injection                      559–575.
+    at the FutureGen 2.0 Site. Application of the State of Stress Assessment Tool (SOSAT).             Paris Agreement, 2015. United Nations Treaty Collection. December 12. Registered on
+    PNNL-28657.                                                                                             November 4, 2016. Retrieved September 13, 2019.
+Battelle, 2011. Appalachian Basin – R.E. Burger Plant Geologic CO2 Sequestration Field                 Pruess, K., Garcia, J., Kovscek, T., Oldenburg, O., Rutqvist, J., Steefel, C., Xu, T., 2004.
+    Test. Battelle, Columbus, OH.                                                                           Code intercomparison builds confidence in numerical simulation models for geologic
+Bear, J., 1972. Dynamics of Fluids in Porous Media. American Elsevier Publishing                            disposal of CO2. Energy 29 (9–10), 1431–1444.
+    Company, Inc., New York.                                                                           Raziperichikolaee, S., Alvarado, V., Yin, S., 2013. Effect of hydraulic fracturing on long-
+Cantucci, B., Montegrossi, G., Buttinelli, M., Vaselli, O., Scrocca, D., Quattrocchi, F.,                   term storage of CO2 in stimulated saline aquifers. Appl. Energy 102, 1091–1104.
+    2015. Geochemical barriers in CO2 capture and storage feasibility studies. Transp.                 Rutqvist, J., Birkholzer, J., Chin-Fu, T., 2008. Coupled reservoir-geomechanical analysis
+    Porous Media 106, 107–143.                                                                              of the potential for tensile and shear failure associated with CO2 injection in multi-
+DOE, 2015. Carbon Storage Atlas, 5th edition. .                                                             layered reservoir-caprock systems. Int. J. Rock Mech. Min. Sci. 45 (2), 132–143.
+EIA, 2018. Hydraulically Fractured Horizontal Wells Account for Most New Oil and                       Snow, D., 1965. A Parallel Plate Model of Fractured Permeable Media. Ph.D. Thesis.
+    Natural Gas Wells. URL: https://www.eia.gov/todayinenergy/detail.php?id=                                University of California at Berkeley.
+    37815#. Date accessed: 03/04/2020. .                                                               Sullivan, E., Horner, J., Appriou, D., Brown, C., Gilmore, T., 2015. Continental sequence
+EPA, 2010. Federal requirements under the underground injection control (UIC) program                       stratigraphy of the Mount Simon at the FutureGen 2.0 site in Morgan County, Illinois.
+    for carbon dioxide (CO2) geologic sequestration (GS) wells. Fed. Regist. 75 (237).                      In: PNWD-SA-10484. Presented at the 2015 Carbon Capture, Utilization, and
+EPA, 2013a. Geologic Sequestration of Carbon Dioxide, Underground Injection Control                         Sequestration Conference. Pittsburgh, PA.
+    (UIC) Program Class VI Well Site Characterization Guidance. EPA 816-R-13-004.                      White, M., Bacon, D., McGrail, B., Watson, D., White, S., Zhang, Z., 2012. STOMP
+EPA, 2013b. Geologic Sequestration of Carbon Dioxide, Underground Injection Control                         Subsurface Transport Over Multiple Phases: STOMP-CO2 and STOMP-CO2E Guide:
+    (UIC) Program Class VI Well Area of Review Evaluation and Corrective Action                             Version 1.0. PNNL-21268. Pacific Northwest National Laboratory, Richland, WA.
+    Guidance. EPA 816-R-13-005.                                                                        White, S., Zhang, Z., Oostrom, M., 2016. Simulation of carbon dioxide injection at the
+FutureGen Industrial Alliance, 2013. Underground Injection Control Permit Applications                      FutureGen2.0 site: class VI permit model and local sensitivity analysis. Int. J. Greenh.
+    for FutureGen 2.0 Morgan County Class VI UIC Wells 1, 2, 3, and 4 – Supporting                          Gas Control. 55, 177–194.
+    Documentation, Jacksonville, Illinois.                                                             Xu, T., Apps, J., Pruess, K., Yamamoto, H., 2007. Numerical modeling of injection and
+FutureGen Industrial Alliance, 2015. Scientific and Technical Report. Pipeline and                          mineral trapping of CO2 with H2S and SO2 in a sandstone formation. Chem. Geol.
+    Regional Carbon Capture Storage Project. DE-FE0001882.                                                  242, 319–346.
+Ghaderi, S., Keith, D., Leonenko, Y., 2009. Feasibility of injecting large volume of CO2               Yonkofski, C., Tartakovsky, G., Huerta, N., Wentworth, A., 2019. Risk-based monitoring
+    into aquifers. Energy Procedia 1 (1), 3113–3120.                                                        designs for detecting CO2 leakage through abandoned wellbores: an application of
+Gilmore, T., Bonneville, A., Sullivan, C., Kelley, M., Appriou, D., Vermeul, V., White, S.,                 NRAP’s WLAT and DREAM tools. Int. J. Greenh. Gas Control. 91.
+    Zhang, Z., Bjornstad, B., Cornet, F., Gerst, J., Gupta, N., Hund, G., Horner, J., Last, G.,        Zhang, L., Dilmore, R., Namhata, A., Bromhal, G., 2018. Feasibility of CO2 migration
+    Lanigan, D., Oostrom, M., McNeil, C., Moody, M., Rockhold, M., Elliott, M., Spane, F.,                  detection using pressure and CO2 saturation monitoring above an imperfect primary
+    Strickland, C., Swartz, L., Thorne, P., Brown, C., Hoffman, J., Humphreys, K., 2016.                    seal of a geologic CO2 storage formation: a numerical investigation. Comput. Geosci.
+    Characterization and design of the FutureGen 2.0 carbon storage site. Int. J. Greenh.                   22 (3), 909–923.
+    Gas Control. 53, 1–10.
+
+
+
+
+                                                                                                  12

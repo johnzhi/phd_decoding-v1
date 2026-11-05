@@ -1,0 +1,250 @@
+Reducing costs of carbon capture and storage by shared reuse of existing pipeline—Case study of a CO2 capture cluster for industry and power in Scotland
+
+PHYSICAL_PAGE 4
+                                    P.A. Brownsort et al. / International Journal of Greenhouse Gas Control 52 (2016) 130–138                       133
+
+
+2. Methods                                                                         uncertainties in costs are likely to be greater than the differences
+                                                                                   between sectors.
+   This analysis was carried out in three stages:                                     However, since the Element Energy review (Pershad et al., 2013)
+                                                                                   other industrial CCS project costs and estimates have become avail-
+1. SPRI emission data was screened to identify sites with potential                able which can help to benchmark the data used here. These include
+   for industrial CCS projects based on criteria of CO2 emission vol-              the Air Products Port Arthur project (National Energy Technology
+   ume (≥0.1 Mt yr−1 ), distance from Feeder 8 or 10 and industry                  Laboratory, 2015) and four projects costed by the Teesside Collec-
+   type.                                                                           tive feasibility study (Pale Blu Dot Energy Ltd, 2015):
+2. For these selected sites, an estimate of potential capture rate and
+   an order of magnitude estimate of capital cost for capture plant                • Air Products, capture from large-scale hydrogen production
+   were made.                                                                        (project CAPEX £269 M, capacity 1 Mt yr−1 CO2 , ‘Speciﬁc CAPEX’
+3. For these sites, potential routes for connection to Feeder 10 were                269 £ t(CO2 )−1 yr, exchange rate 1.6 USD/GBP, not indexed);
+   identiﬁed and an order of magnitude capital cost estimate made                  • BOC, capture from hydrogen production (project CAPEX £56 M,
+   for these new links.                                                              capacity 0.3 Mt yr−1 CO2 , ‘Speciﬁc CAPEX’ 188 £ t(CO2 )−1 yr);
+                                                                                   • SSI Steelworks, capture from integrated power generation
+    This analysis was combined with Feeder 10 capacity information                   (project CAPEX £192 M, capacity 2.1 Mt yr−1 CO2 , ‘Speciﬁc CAPEX’
+to give an overall assessment of the potential to form an industrial                 91 £ t(CO2 )−1 yr);
+CCS cluster in Scotland, based on use of the existing pipeline, and                • GrowHow, capture from ammonia production (project CAPEX
+its likely cost.                                                                     £28 M, capacity 0.35 Mt yr−1 CO2 , ‘Speciﬁc CAPEX’ 80 £
+                                                                                     t(CO2 )−1 yr);
+                                                                                   • Lotte Chemicals, capture from small gas boiler (project CAPEX
+2.1. Analysis of emission data
+                                                                                     £35 M, capacity 0.05 Mt yr−1 CO2 , ‘Speciﬁc CAPEX’ 700 £
+                                                                                     t(CO2 )−1 yr).
+    CO2 emission data for 2014, company names and site addresses
+were extracted from the SPRI database; industry sector, and where
+appropriate, sub-sector were determined. Accurate locations of                         Although a power CCS project, costs from the Longannet FEED
+emission sources and the routes of Feeders 8 and 10 (National                      study (Scottish Power CCS Consortium, 2011) may also be com-
+Grid, 2016; Falkirk Council, 2015) were plotted on a Google Map;                   pared, having a ‘Speciﬁc CAPEX’ of 299 £ t(CO2 )−1 yr.
+an extract is shown in Fig. 1. The perpendicular distance of each                      While there are clear differences, these data suggest the values
+emitter from the nearest of these pipelines was measured. The dis-                 derived from the Element Energy review (Pershad et al., 2013) form
+tribution of emissions by scale, by sector and by location relative                a reasonable basis for the estimates made in this study.
+to the pipelines were determined, allowing selection of potential
+sites for industrial capture projects that could beneﬁt from re-use                2.3. Pipeline connection distances and cost estimates
+of the existing pipelines (described in Sections 3.1–3.3).
+                                                                                      For selected emissions sites, potential routes and alternatives
+2.2. Capture rate and capture cost estimates                                       for connection to Feeder 8 or 10 were plotted and measured on
+                                                                                   Google Maps, taking account of geography (water bodies, urban
+    Capture rates and costs for potential capture projects were esti-              areas) and existing pipeline corridors (Falkirk Council, 2015; Fife
+mated with reference to a recent high-level review of CCS costs                    Council, 2012). Where practical, sharing of pipeline sections was
+for UK industry carried out by the consultant Element Energy for                   assumed. Pipeline costs were estimated using a model published by
+the UK Government (Pershad et al., 2013). The proportion of total                  the US National Energy Technology Laboratory (NETL) (Grant et al.,
+emissions available for capture was estimated depending on the                     2013), which calculates materials, labour, right of way and miscel-
+complexity of industrial facilities in three bands: combined heat                  laneous costs as functions of pipeline length and diameter (costs
+and power (CHP) plant and general industry—100%; gas/oil sepa-                     were converted using an exchange rate of 1.6 USD/GBP but were not
+ration and treatment—75%; reﬁnery and petrochemicals—50%. For                      date indexed). Gas-phase transport in pipelines with diameters of
+each, a general efﬁciency for amine-solvent post-combustion cap-                   900 mm for shared sections and 500 mm for branch sections (nom-
+ture of 90% was applied leading to overall capture rates of 90%,                   inal 36 and 20 inches respectively) were assumed for compatibility
+67.5% and 45% respectively for the three bands, based on total                     with the existing 900 mm Feeder 10. Where pipeline sections cross
+emissions.                                                                         the Forth Estuary, the estimate for the crossing length was adjusted
+    Order of magnitude estimates of capital cost (CAPEX) at the                    up by a factor of 4, derived from comparison between the NETL
+‘total overnight cost’ level (Gerdes et al., 2016) for potential cap-              model and a ‘rule-of-thumb’ for terrain effects quoted in the NETL
+ture projects were based on the reference case data given in the                   study (Grant et al., 2013). Comparison of the NETL model with an
+Element Energy review (Pershad et al., 2013). ‘Total overnight costs’              alternative simpler cost model (Haszeldine et al., 2010) gave good
+are costs as if the project was completed ‘overnight’. They include                agreement on costs after compensating for exchange rate changes.
+all project costs, including ﬁnance costs and owner’s costs, as cal-
+culated up to the point of ﬁnal investment decision, they do not                   3. Results
+include cost escalation or interest on debt during the capital expen-
+diture period (Gerdes et al., 2016). Costs for the reference cases, for            3.1. Emission data distributions
+‘Nth of a kind’ projects, were normalised to a ‘Speciﬁc CAPEX’ per
+tonne of CO2 capture capacity, given in Table 1, with units of £                      SEPA’s pollution release inventory for 2014 includes records of
+t(CO2 )−1 yr (pounds per [tonne CO2 per year]). No costs were given                88 companies in Scotland with CO2 emissions greater than the
+in the review for capture projects on gas/oil separation and treat-                reporting threshold of 10,000 t yr−1 ; the total emission from these
+ment plant, the costs for capture from CHP plant were used for these               sources was 19.2 Mt CO2 . The data are dominated by emissions
+examples. These estimates should be treated cautiously, Element                    from electricity generation (10.2 Mt, 53%), in particular by emis-
+Energy note (Pershad et al., 2013) that a lack of high quality studies             sions from the one remaining large coal-burning power station,
+and numerous difﬁculties in arriving at their estimates mean the                   Longannet, which alone released 9.2 Mt or 48% of reported CO2
+
+
+PHYSICAL_PAGE 5
+134                                        P.A. Brownsort et al. / International Journal of Greenhouse Gas Control 52 (2016) 130–138
+
+Table 1
+Reference capital costs (Pershad et al., 2013) and derived ‘Speciﬁc CAPEX’ for a range of industrial emitters. Speciﬁc CAPEX is capital cost per unit of CO2 capture capacity
+(see Section 2.2).
+
+ Industry                                   Reference captured CO2               Adjusted total overnight costs              Speciﬁc CAPEX per unit of capture capacity CO2
+
+                                            Mt−1 yr                              £M, 2012                                    £ t(CO2 )−1 yr
+ Reﬁneries                                  0.81                                 220                                         272
+ Iron and steel large > 3 Mt yr−1           2.34                                 296                                         126
+ Iron and steel small < 3 Mt yr−1           0.09                                 35                                          389
+ Cement large > 0.45 Mt yr−1                0.66                                 127                                         192
+ Cement small < 0.45 Mt yr−1                0.29                                 115                                         397
+ Lime                                       0.22                                 95                                          432
+ Ammonia                                    0.41                                 36                                          88
+ Hydrogen                                   0.23                                 33                                          143
+ Ethylenea                                  0.79                                 41                                          52
+ CHP small < 0.2 Mt yr−1                    0.09                                 31                                          344
+ CHP medium 0.2-0.5 Mt yr−1                 0.25                                 60                                          240
+ CHP large > 0.5 Mt yr−1                    0.59                                 110                                         186
+  a
+    The calculated ﬁgure for the ethylene industry looks unduly low, the reference description suggests it should be related to costs for large CHP plant; hence that value
+(186 £ t(CO2 )−1 yr) was used in further calculation in the present study.
+
+
+emissions in 2014. Other than power, the industry sectors show a                          Fife, as well as major emitters in the Forth Valley and Grangemouth
+tapering distribution of CO2 emissions as follows: reﬁneries and gas                      areas.
+treatment (3.7 Mt, 20%), chemicals (1.9 Mt, 10%), pulp, paper and
+board (1.1 Mt, 6%), cement and glass (0.75 Mt, 4%), environmental
+services (0.62 Mt, 3%), food and drink (0.38 Mt, 2%), with primary                        3.3. Emitters selected for study
+metals (0.16 Mt), mineral extraction (0.15 Mt) and manufacturing
+(0.07 Mt) each emitting less than 1% of the total.                                            Sites were selected for further study of costs for capture plant
+   However, the closure of Longannet Power Station has been                               and pipeline connection by combining the emission data analysis
+announced for 2016 (Scottish Power, 2015); following this CO2                             and the location analysis. The selection was made from the twenty-
+emissions due to thermal power generation will be signiﬁcantly                            ﬁve largest emitters, listed in Fig. 1. Sites selected were those likely
+lower and process industry sources will dominate Scottish point-                          to have on-going emissions that were located with a distance from
+sources emissions.                                                                        Feeders 8 and 10 likely to be practical for pipeline connection and
+                                                                                          where use of these pipelines would be advantageous. Sites not
+                                                                                          meeting these criteria were Longannet Power Station (scheduled
+                                                                                          for closure 2016) (Scottish Power, 2015); Peterhead Power Station
+3.2. Location of emitters
+                                                                                          and two large emitters sited at St Fergus (no beneﬁt from using
+                                                                                          Feeder 10, though having potential for CO2 capture and connection
+    The location map plotted for all the SPRI-listed sites with emis-
+                                                                                          to offshore transport and storage infrastructure); and eight emit-
+sion in 2014 above the reporting threshold, shows that the majority
+                                                                                          ters sited more than 40 km from the feeder pipelines. The thirteen
+are situated in the Central Belt with other clusters in the north-east
+                                                                                          sites selected are listed in Table 2 together with their emissions in
+and around Dumfries in the south. Beyond these areas, a scatter of
+                                                                                          2014, distances from Feeder 8 or 10 and derived data (see below).
+emitters from various industries includes only a few large emission
+sites.
+    In 2014, twenty-ﬁve sites in Scotland emitted more than 0.1 Mt                        3.4. Estimates of capture potential
+CO2 . Their emission volumes and most locations are shown in
+Fig. 1; locations in Shetland (Sullom Voe CHP and Oil Terminal),                              The total CO2 emission from these sites in 2014 was 5.68 Mt.
+Orkney (Flotta Oil Terminal) and the Highlands (Lochaber Smelter)                         Using the capture rates discussed in the methods section, the esti-
+are not shown. Fig. 1 also shows the routes of Feeder 10, which                           mated annual capture potential was calculated for each emission
+passes close to the cluster of large emitters in the Grangemouth and                      site (Table 2). The data show that a total of around 4.2 Mt yr−1
+Forth Estuary areas, and of Feeder 8. The proposed Caledonia Clean                        CO2 could realistically be captured from these thirteen plants for
+Energy Project (CCEP), a coal-fuelled integrated gasiﬁcation com-                         emissions at 2014 levels.
+bined cycle power plant, is planned for a site in Grangemouth (not                            This potential capture volume is slightly above the reported gas-
+shown in Fig. 1), close to the existing reﬁnery (emitter 2 in Fig. 1).                    phase CO2 transport capacity of Feeder 10 of 3.5 Mt yr−1 , assuming
+It is anticipated to produce 3.8 Mt yr−1 CO2 to be transported via                        entry-point compression only (Element Energy, 2014). This capac-
+Feeder 10 to storage in the North Sea (Scottish Carbon Capture &                          ity is considered to be available without major investment and is
+Storage, 2015).                                                                           expandable to twice this capacity with investment on additional
+    Considering the measured distance of each emitter from the                            intermediate compression; this would allow other major projects,
+routes of Feeders 8 or 10 allows an indication to be given of the                         such as the proposed CCEP to use the pipeline also (see discussion
+potential importance of these existing pipelines to an integrated                         in Section 4).
+CCS network in Scotland. Of total point-source emissions in 2014
+above the 10,000 t yr−1 reporting threshold for CO2 , 88% (16.8 Mt)
+were within 40 km of one of these pipelines and 80% (15.3 Mt) were                        3.5. Estimates of capture costs
+within 22 km. Removing data for Longannet Power Station from the
+analysis, leaves ﬁgures for 2014 of 77% (7.6 Mt) of the remainder                            Order of magnitude cost estimates for CO2 capture plant at the
+within 40 km and 62% (6.2 Mt) within 22 km. The 40 km distance                            thirteen selected emitters were calculated from the estimated cap-
+includes all major emitters in the centre and east of Scotland, but                       ture potential and the speciﬁc capital cost per tonne of CO2 capture
+not those on the West Coast, Dumfriesshire, the Highlands and                             capacity derived above (Table 1). The ‘Speciﬁc CAPEX’ used and the
+Islands. The 22 km distance includes the major hydrocarbon sites in                       resulting estimates of capture project CAPEX are given in Table 2.
+
+
+PHYSICAL_PAGE 8
+                                     P.A. Brownsort et al. / International Journal of Greenhouse Gas Control 52 (2016) 130–138                        137
+
+
+    Each scenario is shown as option (a) for volume without CCEP,                      In both cases, funding for the development of CO2 infrastructure
+and option (b) including the proposed capture volume of CCEP.                       should recognise the wider, long-term beneﬁt of the investment
+    Examining Fig. 2 suggests that fully developing opportuni-                      and not be assessed solely as part of a single project or an
+ties for industrial CCS between the Grangemouth cluster and                         early-stage cluster. Here, UK electricity transmission developments
+the Fife/Upper Forth network may require some improvement in                        provide a practical example: they are funded from a system-wide
+capacity of Feeder 10 over its nominal, un-boosted capacity of                      levy rather than having costs allocated solely to the generator or
+3.5 Mt yr−1 CO2 . Adding capture from CCEP to the system would                      consumer who immediately beneﬁts. In recognition of its impor-
+immediately require expansion of the pipeline capacity above this                   tance, funding for CO2 infrastructure development should follow a
+level for all industrial CCS scenarios and, for those with both clusters            similar model, perhaps by hypothecating a relevant proportion of
+included, would require a capacity above the optimum suggested,                     the nationally retained carbon tax revenues.
+although within the maximum theoretical capacity of 10 Mt yr−1                         The development of industrial CCS is crucial to achieving
+for gas-phase transport of CO2 in Feeder 10 (Element Energy, 2014).                 economy-wide decarbonisation in line with Scottish, UK and EU
+                                                                                    mitigation targets, and global climate mitigation ambitions. Early
+                                                                                    regional support and investment in industrial CCS could protect the
+4.3. Comparison with other cluster proposals
+                                                                                    economic and social value of existing energy- and carbon-intensive
+                                                                                    industries that are expected to become increasingly exposed to
+    It is useful to compare the situation of the Central Scotland
+                                                                                    emissions reduction policies as EU carbon market reforms are
+industrial clusters with the other leading CCS industrial clusters,
+                                                                                    enacted (European Commission, 2015) and carbon markets intro-
+namely Rotterdam and Teesside, under consideration in Europe.
+                                                                                    duced in other major economic regions (International Emissions
+Both have a larger concentration of industrial emissions in the
+                                                                                    Trading Association, 2015). The provision of industrial CCS infras-
+immediate cluster area than Grangemouth (Rotterdam Climate
+                                                                                    tructure leveraging the existing pipeline asset in Central Scotland
+Initiative, 2011; Pale Blu Dot Energy Ltd, 2015). Rotterdam is plan-
+                                                                                    could provide a regional advantage in allowing early, low-carbon
+ning for an offshore CO2 pipeline from the port area to a storage site
+                                                                                    industrial development and attracting investment from industries
+fairly close offshore. Teesside has not selected a preferred storage
+                                                                                    looking to reduce their exposure to emissions liabilities.
+target, with connection to sites in the Southern or Central North
+                                                                                       Moreover, the combination of Feeder 10 onshore and the
+Sea both discussed. Central Scotland is not immediately local to an
+                                                                                    existing offshore infrastructure gives a unique importance to the
+offshore storage site, but the existence of Feeder 10, available at
+                                                                                    deployment of industrial CCS in Central Scotland, beyond its local
+low cost for conversion to CO2 transport, means it is not at a disad-
+                                                                                    regional impact, owing to the role this has in unlocking the com-
+vantage compared to these other areas and presents an excellent
+                                                                                    mercial development of the European-scale storage resource in the
+opportunity for CCS cluster development.
+                                                                                    Central North Sea. In initial stages CO2 from continental Europe
+    This further suggests value in investigating the potential for
+                                                                                    would most economically and ﬂexibly be delivered by ship. Peter-
+converting gas supply pipelines in other regions of Europe for
+                                                                                    head port has been favourably assessed for development of a
+CO2 transport connecting clusters of emitters to storage sites.
+                                                                                    CO2 import terminal (Giles, 2012), and direct ship delivery to off-
+This could be particularly relevant for inland emitters where new
+                                                                                    shore ofﬂoading facilities has also been suggested (de Kler et al.,
+pipeline development could prove controversial and costly. Such an
+                                                                                    2015). Longer-term, subject to sufﬁcient demand, pipelines could
+approach might facilitate more rapid CCS deployment as gas supply
+                                                                                    be developed connecting major storage formations to continental
+pipelines typically connect areas of high emissions to gas produc-
+                                                                                    export hubs (Haszeldine, 2009).
+ing regions where depleted ﬁelds, existing subsurface knowledge
+and higher chance of public acceptance increase the likelihood of
+efﬁcient and cost-effective CO2 storage delivery (Scott et al., 2015).
+                                                                                    5. Conclusions
+
+4.4. Implications of results for decarbonisation                                       CCS is widely recognised as a technology necessary to achieve, at
+                                                                                    least cost, regional, national and EU targets for CO2 emission reduc-
+    The total indicative capital cost for these capture and transport               tion. The Central North Sea is considered to be a major resource
+infrastructure developments, at around £1 billion (Section 3.7),                    for CO2 storage, but outwith Norway, CCS projects have yet to be
+leading to CO2 emissions reduction of around 4 Mt yr−1 , appears                    delivered. This study explores and calculates indicative costs for
+competitive with current investment to enable expansion in low-                     the use of the existing Feeder 10 natural gas pipeline, already eval-
+carbon renewable capacity. For example, the recently completed                      uated for CO2 transport, to facilitate the formation of a CCS cluster
+(2015) Beauly to Denny power transmission line facilitating expan-                  in Scotland. We identify a potential capture volume of 4.2 Mt yr−1
+sion of renewable generation in highland Scotland at a capital cost                 CO2 from thirteen selected industrial sites, amounting to 74% of
+of around £800 million enables power generation emissions reduc-                    the total emission of these sites, which are large emitters located
+tion of around 1–2 Mt yr−1 CO2 .                                                    <40 km from Feeder 10 in Fife, the Firth of Forth area and at the
+    To date, major CCS projects in the EU have not secured invest-                  Grangemouth petrochemicals complex.
+ment. EU capital support grants have been allocated, but the low                       Capital costs of carbon capture plant at individual sites are esti-
+and unstable EU Emissions Trading System carbon price, which for                    mated ranging from £32–163 M, giving a total of £983 M for all
+industrial emitters is partially derogated, has not given appropriate               thirteen sites. Capital costs for pipeline connections to Feeder 10
+incentive to invest. Feed-in-Tariff subsidies for low-carbon elec-                  are estimated considering two collection networks, one for Grange-
+tricity generation have been proposed, primarily in the UK, but no                  mouth (£20 M) and one connecting emitters in Fife and the upper
+funding model for industrial CCS has been developed. A recent anal-                 Forth area (£72 M). The previously estimated cost of refurbishing
+ysis (Societe Generale, 2015) prepared for the Teesside Collective                  Feeder 10 for CO2 transport is £79 M, compared to a replacement
+feasibility study favoured two models: an ‘Emitter Contract-for-                    cost estimated here of £150–320 M.
+Difference’, in essence a low-carbon production premium using a                        The scale of CO2 capture potential from industry is found to be
+subsidy adjusted against the carbon price; and a ‘Storage Driven’                   compatible with the basic capacity of Feeder 10. Known options
+approach, where a transport and storage infrastructure provider (or                 for expansion of Feeder 10 capacity, by provision of interme-
+‘market maker’ (Zero Emissions Platform, 2014)) charges a usage                     diate compression facilities, could accommodate increased CO2
+fee to emitters based on CO2 volume handled.                                        volumes from improved capture efﬁciency or connection of addi-

@@ -1,0 +1,19 @@
+{
+  "info_document": "D7-04",
+  "metadata": {
+    "事業者名": "日本製鉄株式会社",
+    "法人番号": "3010001008848",
+    "特定排出者コード": "985336900",
+    "所在地": "東京都千代田区",
+    "主たる事業": "製造業 鉄鋼業 製鉄業 高炉による製鉄業",
+    "従業員数": "28708",
+    "上場非上場の別（任意入力）": "上場",
+    "株式銘柄コード（任意入力）": "5401",
+    "ISINコード（任意入力）": "（記載なし）"
+  },
+  "additional_document": "D7-01",
+  "additional_mentions_ENEOS": true,
+  "additional_mentions_Nippon_Steel": false,
+  "status": "ENTITY_MISMATCH_UNRESOLVED",
+  "handling": "Do not merge additional-information statements or Scope1/2/3 values with the Nippon Steel company/facility inventory. Source identity requires export metadata."
+}

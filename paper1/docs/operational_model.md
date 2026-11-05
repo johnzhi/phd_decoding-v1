@@ -49,8 +49,8 @@ The nominal 5,000 km reference-fleet B3 allowance is about+11.514 Mt under stagg
 2. A compatible source capture heat/electricity inventory and its energy-supply emissions.
 3. Fuel upstream/non-CO₂ factors, realistic idle/port fuel, actual BOG/terminal duty and pressure-conditioning compatibility.
 4. Injection, extra wells, water/pressure management, construction, monitoring and retention inventories.
-5. Observed or defensibly designed availability calendars and fleet/berth constraints; validate alternative dispatch policies before treating the current greedy schedule as representative.
-6. A shared-source mixed-pathway dispatcher and a declared economic/climate design objective. Current lower/higher comparisons are separate common-source alternatives, not an optimised mixed network.
+5. Observed or defensibly designed availability calendars and fleet/berth constraints; three alternative priority controls are now implemented, but observed operator validation remains absent.
+6. The original lower/higher comparisons are separate alternatives. A subsequent shared-source annual MILP and fixed-plan operating reevaluation are now implemented; detailed adaptive joint optimisation and complete lifecycle objective remain separate. See mixed_allocation.md.
 
 A positive allowance is conditional; a negative allowance does not by itself prove a full disadvantage if omitted differential burdens favour that pathway. The complete accounting condition must be evaluated.
 
@@ -72,3 +72,7 @@ The original operating outputs above retain their combustion-only boundary for a
 Under the restricted fleet-adequacy control at5,000km, the NGCC90 replacement reference with Norway's2025 climate-disclosure factor leaves about+0.009Mt, compared with−0.984Mt using the Japanese reporting-electricity fallback and−1.207Mt for the paired PC90 heat-plus-auxiliary route/Japanese fallbacks. These partial balances supersede a climate interpretation of the earlier+1.281Mt combustion-only margin. Full net avoided emissions remain uncomputed.
 
 The two uploaded wave files contain one point/time each, and the IBDP seismic-rate catalogue does not contain injection-rate histories. Independent St.Peter/Knox-Potosi simulation values are retained for future reservoir benchmarking without inventing missing annual curves. Realistic calendars and original independent rate constraints remain unresolved.
+
+## Follow-up component and mixed-model checks
+
+All92 unique supplied papers now have targeted full-text review of selected passages. `property_consistency.py` independently supports the selected1154kg/m3 pure-fluid table density under explicit pressure-reference interpretations without repairing the prose or measuring actual cargo. `mixed_allocation.py` adds12 annual mixed-integer plans,72 operating reevaluations and18 dispatch controls; [its specification](mixed_allocation.md) defines source sharing, disjoint sink groups, fixed annual plans and residual limits. `limitation_benchmarks.py` adds the paired MEA utility reference. The optional selected Northern Lights storage subset changes the previous near-zero5,000km partial margin to−4.44kt; these later checks supersede any claim of a positive full lifecycle advantage.

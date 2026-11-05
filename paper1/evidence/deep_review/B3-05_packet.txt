@@ -1,0 +1,249 @@
+Optimizing carbon capture and storage CCS infrastructure development using a python tool for source-sink matching and cluster formation
+
+PHYSICAL_PAGE 3
+A. Togay et al.                                                                                                       Journal of Cleaner Production 525 (2025) 146563
+
+
+● Multi-Objective Optimization: Our model minimizes both transport                 of sources was connected using a minimum spanning tree to minimize
+  costs and emissions using a weighted goal programming approach,                  intra-cluster pipeline distances. This combined approach strikes a bal­
+  unlike legacy tools that treat environmental impact as a secondary               ance between clustering flexibility and computational efficiency,
+  constraint.                                                                      directly informing the routing, cost, and emission modeling of the CCS
+● Open-Source Accessibility: Designed for ease of use, the tool requires           network.
+  minimal input data to generate optimized CCS networks. Its modular                   The effectiveness of clustering in CCS depends on emission densities
+  architecture ensures adaptability to different regions, eliminating              and storage capacity. Northern Europe benefits from large clustering
+  reliance on proprietary software or region-specific calibrations,                radii and full redirection systems, ensuring continuous sequestration
+  simultaneously allowing dynamic analysis. By prioritizing                        during storage saturation (Northern Lights Project, 2020). In contrast,
+  simplicity, it empowers stakeholders in developing economies to                  low-density regions like Australia (27 Mt CO2 storage planned by 2030)
+  plan cost-effective CCS infrastructure.                                          use small clustering radii and localized storage, minimizing
+                                                                                   long-distance transport (Sivanathan, 2022). In regions with distant
+   Our approach builds on global case studies, including Norway’s                  sinks, such as the U.S. Midwest, large clustering radii consolidate
+Northern Lights and Malaysia’s offshore CCS clusters (Hatta et al.,                emissions for long-distance transport (Illinois Basin-Decatur Project),
+2022), while addressing their limitations. We integrate Garnett et al.’s           while partial redirection helps balance transport distances and infra­
+(2022) probabilistic storage capacity models into a user-friendly                  structure use (Smith et al., 2021). Offshore storage (e.g., North Sea)
+framework that accounts for evolving emission profiles, such as                    requires moderate to large clustering radii to optimize pipeline infra­
+Kazakhstan’s planned coal phaseouts. By removing manual workflows                  structure. The trade-off is crucial: full redirection simplifies logistics but
+and subjective assumptions, as seen in our earlier Kazakhstan work                 raises costs due to longer pipelines and compression, while partial
+(Khoyashov et al., 2024), our tool advances scalable, science-driven CCS           redirection increases flexibility by distributing emissions across multiple
+deployment that is both affordable and adaptable.                                  sinks. Cost efficiency depends on pipeline layout, compression needs,
+                                                                                   and economies of scale. As CCS expands, adaptive redirection strategies
+2. Source-sink matching scenarios                                                  will be key to balancing infrastructure investment and carbon storage
+                                                                                   efficiency.
+    In CCS hub design, clustering radius optimization depends on the                   Existing pipeline infrastructure plays a critical role in CCS hub
+geographic distribution and capacity of emission sources and storage               development, significantly reducing capital expenditures and deploy­
+sinks. Exploring different scenarios provides insights into how various            ment time. Repurposing pipelines lowers infrastructure costs, avoids
+parameters impact configurations.                                                  regulatory delays, and enables faster project implementation. In regions
+    Two primary methods manage source-sink relationships: full redi­               with established pipelines, CCS hubs can become operational sooner,
+rection (Fig. 1a) and partial redirection (Fig. 1b). Full redirection              making them a practical near-term emissions reduction solution.
+transfers all emissions from a full storage site to the nearest available
+sink, while partial redirection only redirects selected sources, keeping           3. Model framework
+others at the initial site. Unlike full redirection, partial redirection al­
+lows splitting emission hubs, offering greater flexibility in balancing                This section outlines the optimization framework used for designing
+storage use, particularly in regions with uneven source-sink                       a cost-efficient CCS infrastructure. The framework integrates economic,
+distributions.                                                                     environmental, and operational factors to efficiently match CO2 emis­
+    Clustering is essential for organizing emission sources into efficient         sion sources with storage sinks. A Mixed-Integer Linear Programming
+CCS hubs, enabling shared capture and storage infrastructure. This                 (MILP) model optimizes source-sink matching by minimizing total CCS
+approach reduces operational costs and enhances scalability. The                   costs (capture, transport, storage) while ensuring compliance with
+Density-Based Spatial Clustering of Applications with Noise (DBSCAN) is            storage capacity limits. Decision variables include CO2 flow assign­
+widely used for forming clusters of varying shapes and sizes while                 ments, pipeline construction decisions, and hub clustering choices. The
+detecting outliers (Zhang et al., 2023). Flexible clustering and adjustable        CCS-NetOptimizer code has been released as an open-source project to
+radii are crucial for CCS implementation, as sources may not fit pre­              support further research and practical implementation. The repository
+defined categories. In this study, DBSCAN was applied to the spatial               contains the Python implementation, required dependencies, and a
+coordinates of CO2 sources using two key parameters: eps, which defines            sample dataset for testing. Researchers and industry professionals can
+the maximum geographic distance between neighboring sources in a                   access, modify, and contribute to the project to enhance its capabilities.
+cluster, and min_samples, which sets the minimum number of points                  The source code is available at: https://github.com/aminatgy/CCS-Ne
+required to form a valid cluster. We set min_samples = 2 to allow small            tOptmizer.
+groups of emitters to form viable hubs, while varying eps to assess the
+effect of clustering radius on hub formation. After clustering, each group         3.1. Overview of the optimization framework
+
+                                                                                       The comprehensive workflow is illustrated in Fig. 2, detailing the
+                                                                                   step-by-step CCS optimization methodology. The figure represents data
+                                                                                   integration, where CO2 emission points, storage sites, and pipelines are
+                                                                                   identified and incorporated into the model. Next, data processing visu­
+                                                                                   alizes the spatial distribution of sources and sinks, overlaying infra­
+                                                                                   structure for precise network representation. The framework then
+                                                                                   generates multiple scenarios, including full and partial redirection,
+                                                                                   alongside optimized route generation. These scenarios are refined using
+                                                                                   clustering techniques, adjusting radii to evaluate different configura­
+                                                                                   tions. Multiple source–sink matching scenarios were constructed by a
+                                                                                   two-factor experimental design. (i) The clustering radius r was swept
+                                                                                   from 100 to 400 km and supplied as the eps argument in DBSCAN,
+                                                                                   thereby generating seven distinct hub configurations. (ii) For each
+Fig. 1. The diagram of sink-to-source connection by full and partial re­           radius two independent routing logics were applied: Full redirection, in
+directions on clustered sources.                                                   which DBSCAN members are piped through an MST prior to linkage to
+
+                                                                               3
+
+
+PHYSICAL_PAGE 6
+A. Togay et al.                                                                                                      Journal of Cleaner Production 525 (2025) 146563
+
+
+relies heavily on fossil fuels, with 82 % of its 23.6 GW power capacity                Optimal pipeline routes are selected to minimize total transportation
+sourced from them, making the power sector responsible for 80 % of                 distance and costs (Eq. (19)), where yijk determines whether route k is
+total CO2 emissions.                                                               used between source i and sink j. Infrastructure clustering is imple­
+    Effective CCS deployment requires understanding emission sources.              mented using Density-Based Spatial Clustering (DBSCAN), which en­
+Major CO2 emitters include 39 pulverized coal power plants (87.91 Mt               hances efficiency by grouping emission sources into shared transport
+CO2 annually), 19 natural gas power plants (11.59 Mt), and 6 gas pro­              networks. This method minimizes transport distances and costs while
+cessing plants (12.01 Mt). Industrial contributors include 11 cement               optimizing storage utilization.
+plants (8.06 Mt), 9 iron and steel plants (24.91 Mt), and 4 oil refineries           ∑                    ( (       ))
+(4.05 Mt), totaling 148.53 Mt CO2 annually.                                                dijk yijk = min d si , tj ∀i ∈ s                         (Eq. 19)
+                                                                                   k∈routes(i,j)
+    Key emission regions include Pavlodar, Ekibastuz, and Karaganda
+(coal-fired power and steel plants); Atyrau, Aktobe, and Mangystau (oil                Pipeline distances were approximated as great-circle paths and
+refineries and gas processing); Shymkent and Taraz (cement produc­                 therefore do not yet account for (i) elevation changes that raise
+tion); and Central and Western Kazakhstan (six major iron and steel                recompression energy, (ii) land-use constraints such as protected areas
+plants near ore deposits). These regions require a strategic CCS hub               and urban zones, or (iii) routing optimization via least-cost path algo­
+design to optimize transport logistics and reduce infrastructure costs.            rithms. International cost reviews (Bui et al., 2018) indicate that terrain
+                                                                                   complexity and water crossings can inflate capital expenditure by 10–30
+3.4.2. Storage capacity in Kazakhstan                                              %. Future work will couple the optimization engine to a high-resolution
+    Kazakhstan’s CO2 storage potential has been assessed using the                 GIS layer so that terrain penalties, land-acquisition costs, and routing
+USDOE method, aligned with the Carbon Sequestration Leadership                     constraints are explicitly reflected in both the economic and environ­
+Forum (CSLF) framework (Goodman et al., 2011; Bachu, 2008). Effec­                 mental objectives.
+tive CO2 storage capacity is estimated using:
+                                                                                   3.6. Uncertainty analysis
+MCO2 = E⋅A⋅h⋅φ⋅ρ                                                   (Eq. 16)
+
+Where E is the storage efficiency factor, A is the total area, h is the                To propagate parametric uncertainty into the transportation-cost
+formation thickness, ϕ is the porosity, and ρ is the CO2 density under             model, we implemented a Monte-Carlo (MC) simulation that mirrors
+reservoir conditions. Abuov et al. (2020) identified six major basins—­            the pipeline-cost framework of McCoy and Rubin (2008). For other
+Precaspian, Mangyshlak, South-Torgay, Ustyurt, Chu-Sarysu, and                     costs, the uncertainty range of inputs for the Kazakhstan case is not
+Zaysan—as the most suitable for CCS, ranking them by containment                   available. Five inputs with the largest influence on levelized cost were
+potential and feasibility.                                                         treated as stochastic: (i) the capital-recovery factor (CRF, U[0.10, 0.20]
+    The total CO2 storage capacity of Kazakhstan is estimated at                   yr− 1), (ii) the annual O&M rate (U[2,150, 4350] US $ km− 1 yr− 1), (iii)
+approximately 583 Gt, with 539 Gt located in the Precaspian, Man­                  the effective pipeline-capacity factor (U[0.50, 1.00]), (iv) a capital-cost
+gyshlak, South-Torgay, and Ustyurt basins, where most injected CO2 is              escalation multiplier (U[0.75, 1.25]) that captures engineering-estimate
+expected to be stored in hydrodynamic traps (Abuov et al., 2020). The              uncertainty, and (v) the compressor inlet pressure (U[12, 15] MPa). For
+Precaspian Basin is the most promising, providing the highest contain­             each of 5000 trials, the script randomly drew a value from each distri­
+ment potential and large-scale injection feasibility. This basin features          bution, re-executed the original routing routines for both full (F) and
+deep carbonate reservoirs and extensive salt domes that serve as natural           partial (P) redirection, and computed the annualized transport cost per
+seals, ensuring minimal leakage risks (Abuov et al., 2020).                        tonne of CO2. The empirical distributions were summarized by the
+    Seventeen optimal storage sites with a combined capacity of 5784 Mt            median (P50) and the 5th–95th percentiles, which form the 90 % con­
+CO2 have been identified (Table A2). T17 and T15 (Chu-Sarysu Basin)                fidence intervals visualized as error bars. This MC block was coded in
+offer high storage capacities, T16 (South-Torgay Basin) has thick for­             Python 3.12 using NumPy’s uniform sampler, providing a statistically
+mations and favorable porosity, and T14 and T13 (Zaysan Basin) pro­                robust envelope of likely transportation costs without altering any
+vide well-defined reservoir properties. All other identified sites belong to       deterministic calculation steps.
+the Precaspian Basin, which has extensive storage potential and favor­
+able geological conditions.                                                        4. Optimization results
+
+                                                                                   4.1. Comparison analysis of the scenarios
+3.5. Model constraints
+                                                                                       Clustering sources within a 100 km (Fig. 3a) radius minimizes total
+     The mathematical formulation of the CO2 source and sink matching              system costs by up to 25 % compared to dispersed storage strategies.
+tool was introduced to optimally assign CO2 sources to sinks, consid­              This cost reduction is due to pipeline consolidation and shared capture
+ering multiple constraints, including distance minimization, sink ca­              facilities, lowering per-tonne transportation and injection costs. How­
+pacity limits, and the possibility of multiple routes between a source and         ever, beyond 240 km (Fig. A2a), transportation costs rise dispropor­
+sink.                                                                              tionately due to pipeline pressure losses and additional compressor
+     Each CO2 source is assigned to a single sink to simplify allocation and       stations.
+enhance pipeline utilization efficiency (Eq. (17)), where xij = 1 if source            Full redirection is more cost-effective in Kazakhstan than partial
+i is connected to sink j.                                                          redirection since most CO2 storage sinks have large capacities but are far
+m
+                                                                                   from emission sources, except in the western region, where sources and
+∑
+      xij = 1, ∀i ∈ s                                              (Eq. 17)        sinks are closely aligned (Fig. A1, Appendix). In full redirection
+i=1                                                                                (Fig. A1a), all emissions from a full storage site are redirected to the
+    Storage limits prevent overloading of sinks (Eq. (18)), where Ci               nearest available sink, optimizing pipeline use and improving storage
+represents captured CO2 at source i, and Dj represents the maximum                 efficiency. In partial redirection (Fig. A1b), emissions are distributed
+                                                                                   across multiple sinks, allowing some sources to remain at their initial
+storage capacity of sink j.
+                                                                                   sites, increasing flexibility but potentially raising transport costs.
+n
+∑                                                                                  Developing CCS hubs with multiple emitters enhances cost efficiency in
+      Ci ⋅ xij ≤ Dj , ∀j ∈ T                                       (Eq. 18)
+i=1
+                                                                                   Kazakhstan (Khoyashov et al., 2024). Fig. 3a shows that a 100 km
+                                                                                   clustering scenario creates compact hubs, reducing pipeline length and
+
+                                                                               6
+
+
+PHYSICAL_PAGE 10
+A. Togay et al.                                                                                                             Journal of Cleaner Production 525 (2025) 146563
+
+
+developing standalone CCS legislation would enhance legal certainty for            Conceptualization. Woojin Lee: Writing – review & editing, Writing –
+investors. Drawing on global best practices, such as the European                  original draft, Validation, Supervision, Resources, Project administra­
+Union’s CCS Directive, can guide the creation of structured permitting             tion,    Methodology,      Funding     acquisition,   Data    curation,
+systems, long-term liability frameworks, and clear monitoring re­                  Conceptualization.
+quirements for safe and efficient CO2 storage.
+    Kazakhstan can also benefit from international collaboration.                  Declaration of Generative AI and AI-assisted technologies in the
+Several emerging economies—including China, India, Mexico, Saudi                   writing process
+Arabia, and South Africa—are in the process of crafting CCS regulations
+(Jiang et al., 2020). Engaging with these peer initiatives and aligning               During the preparation of this work, the authors used ChatGPT to
+domestic standards with ISO/TC 265 will grant access to technical                  improve the readability of some sentences. After using this tool, the
+know-how, multilateral funding, and best-practice monitoring protocols             authors reviewed and edited the content as needed and took full re­
+(ISO, 2024).                                                                       sponsibility for the publication’s content.
+    A structured carbon credit system could increase financial incentives
+for CCS, assigning higher credit values to CO2 capture and storage,
+making projects more attractive and globally competitive (IEA, 2021).              Declaration of competing interest
+To support effective implementation, government-backed pilot projects
+can demonstrate feasibility, validate economic and environmental                       The authors declare that they have no known competing financial
+benefits, and enhance local expertise through training programs.                   interests or personal relationships that could have appeared to influence
+    Transparent communication with industry stakeholders and the                   the work reported in this paper.
+public is essential for broad acceptance and establishing CCS as a key
+decarbonization strategy. With vast geological storage potential and a
+                                                                                   Acknowledgment
+strong oil and gas industry, Kazakhstan is well-positioned to become a
+regional CCS leader. However, achieving this requires coordinated ef­
+                                                                                       This research has been funded by Nazarbayev University Research
+forts from the government, industry, and international partners. By
+                                                                                   Grants (CRP: 211123CRP1605 and FDCRGP: 201223FD8805). It was
+fostering investment, streamlining regulations, and implementing tar­
+                                                                                   also supported by the Science Committee, Ministry of Science and
+geted financial mechanisms, Kazakhstan can transition from a technical
+                                                                                   Higher Education of the Republic of Kazakhstan (Grant No.
+CCS model to a real-world solution, accelerating the shift toward a low-
+                                                                                   BR24993138). The authors would like to thank the anonymous re­
+carbon economy.
+                                                                                   viewers who helped significantly improve the quality of the paper.
+
+5. Conclusions
+                                                                                   Appendix A. Supplementary data
+    The optimization of Kazakhstan’s CCS infrastructure through source-
+sink matching and clustering strategies presents significant opportu­                 Supplementary data to this article can be found online at https://doi.
+nities for reducing costs and enhancing environmental sustainability.              org/10.1016/j.jclepro.2025.146563.
+This study highlights the impact of clustering radii on CCS system effi­
+ciency, demonstrating that shorter radii (100 km) provide the lowest-              Data availability
+cost solutions due to efficient infrastructure utilization and minimal
+pipeline requirements, while longer radii (360 km) prioritize environ­                 Data will be made available on request.
+mental benefits at the expense of higher transport costs. Key findings
+indicate that integrating existing pipeline infrastructures significantly          References
+enhances cost efficiency, particularly in shorter clustering radii, whereas
+                                                                                   Abuov, Y., Seisenbayev, N., Lee, W., 2020. CO2 storage potential in sedimentary basins
+longer radii require additional investments in transport infrastructure.
+                                                                                       of Kazakhstan. Int. J. Greenh. Gas Control 103, 103186.
+The results also emphasize the necessity of balancing cost and envi­               Abuov, Y., Serik, G., Lee, W., 2022. Techno-economic assessment and life cycle
+ronmental objectives, with intermediate clustering radii (240 km) of­                  assessment of CO2-EOR. Environ. Sci. Technol. 56 (12), 8571–8580.
+fering a trade-off between affordability and emissions reductions. While           Bachu, S., 2008. CO2 storage in geological media: role, means, status and barriers to
+                                                                                       deployment. Prog. Energy Combust. Sci. 34 (2), 254–273.
+regional variations influence cost stabilization points, the overall trends        Benson, H.Y., Ogden, J.M., 2003. Mathematical programming techniques for designing
+align with international benchmarks on CCS hub formation and trans­                    minimum cost pipeline networks for CO2 sequestration. In: Greenhouse Gas Control
+port cost efficiency. CCS hub optimization involves complex trade-offs                 Technologies-6th International Conference. Pergamon, pp. 627–632.
+                                                                                   Bock, B., Rhudy, R., Herzog, H., Klett, M., Davison, J., Ugarte, D.G.D.L.T., Simbeck, D.,
+between cost and environmental efficiency. The 100 km radius is ideal                  2003. Economic evaluation of co2 storage and sink enhancement options. Office of
+for projects with financial constraints, offering the lowest cost per tonne            Scientific and Technical Information (OSTI.
+of CO2 abated. Meanwhile, 240 km–300 km scenarios provide a                        Bui, M., Adjiman, C.S., Bardow, A., Anthony, E.J., Boston, A., Brown, S., Fennell, P.S.,
+                                                                                       Fuss, S., Galindo, A., Hackett, L.A., Hallett, J.P., Herzog, H.J., Jackson, G.,
+balanced approach, stabilizing costs while minimizing emissions. Future                Kemper, J., Krevor, S., Maitland, G.C., Matuszewski, M., Metcalfe, I.S., Petit, C.,
+research should focus on refining CCS infrastructure optimization by                   Puxty, G., Reimer, J., Reiner, D.M., Rubin, E.S., Scott, S.A., Shah, N., Smit, B.,
+incorporating dynamic factors such as regulatory frameworks, evolving                  Trusler, J.P.M., Webley, P., Wilcox, J., Dowell, N.M., 2018. Carbon capture and
+                                                                                       storage (CCS): the way forward. Energy Environ. Sci. 11, 1062–1076.
+CO2 pricing mechanisms, and advancements in capture technologies.                  Decree of the President of the Republic, 2023. Of Kazakhstan on approval of the strategy
+Additionally, expanding the scope to include real-time adaptive clus­                  for achieving carbon neutrality of the Republic of Kazakhstan until 2060. Retrieved
+tering methods and dynamic storage capacity adjustments would further                  from. https://adilet.zan.kz/rus/docs/U2300000121.
+                                                                                   Diabate, M.F., Kalantari, F., Chen, S., Shi, J., Krishnamoorthy, H.S., 2024. Analyzing the
+enhance the robustness and applicability of CCS planning models to
+                                                                                       impact of pipeline length and CO2 mass flow rate on the transportation cost based on
+diverse local and global CCS hub cases.                                                the required number of booster pumps: a case study of Houston. SPE J. 29,
+                                                                                       3859–3875. https://doi.org/10.2118/219729-PA.
+                                                                                   Fan, J.L., Li, Z., Huang, X., Li, K., Zhang, X., Lu, X., et al., 2023. A net-zero emissions
+CRediT authorship contribution statement
+                                                                                       strategy for China’s power sector using carbon-capture utilization and storage. Nat.
+                                                                                       Commun. 14 (1), 5972.
+   Amina Togay: Writing – original draft, Visualization, Software,                 Garnett, A., Rodger, I., Lane, J. and Hurter, S., 2022. Basis of design for CCS Hubs-the
+Methodology, Investigation, Formal analysis, Data curation. Gaini                      importance of uncertainties in dynamic storage capacity. In Proceedings of the 16th
+                                                                                       Greenhouse Gas Control Technologies Conference (GHGT-16) (pp. 23-24).
+Serik: Writing – original draft, Visualization, Validation, Software,              Global CCS Institute, 2023. The global status of CCS: 2023. https://status23.globalccsi
+Methodology, Investigation, Formal analysis, Data curation,                            nstitute.com/.
+
+
+                                                                              10

@@ -1,0 +1,208 @@
+Optimum liquefaction fraction for boil-off gas reliquefaction system of semi-pressurized liquid CO2 carriers based on economic evaluation
+
+PHYSICAL_PAGE 2
+                                         B. Chu et al. / International Journal of Greenhouse Gas Control 10 (2012) 46–55                                             47
+
+                                                                                   Table 1
+  Nomenclature                                                                     Conditions of captured CO2 and semi-pressurized liquid CO2 .
+
+                                                                                     Item                 Unit             Captured CO2           Semi-pressurized
+  BOG         boil-off gas                                                                                                 (Sanpasertparnich      liquid CO2
+  BS          beneﬁt of CO2 sale, $/ton-BOG                                                                                et al., 2010)
+  CAPEX       capital expenditure                                                    Pressure             bar               1                       6.5
+  CCS         carbon capture and storage                                             Temperature          ◦
+                                                                                                            C              30                     −51
+  COP         coefﬁcient of performance                                              Composition          mole%
+  CL          fuel cost, $/kJ                                                          CO2                                 95.87                   99.06
+                                                                                       N2                                   0.02                    0.02
+  CP          penalty for unit CO2 emission, $/ton-CO2
+                                                                                       O2                                   0.001                   0.001
+  CS          CO2 sale price, $/ton-CO2                                                H2 O                                 4.11                    0.917
+  EOR         enhanced oil recovery                                                    SO2                                  0.001                   0.001
+  ET          total treatment expense, $/ton-BOG
+  EP          penalty for CO2 emission, $/ton-BOG
+  JT          Joule–Thomson                                                        for large liqueﬁed gas carriers, the cargo loss is expected to reach
+  MDO         marine diesel oil                                                    several tons per hour for big CO2 carriers. The penalty for the green-
+  ṁB         mass ﬂow rate of generated BOG, kg/h                                 house gas emission will probably be implemented in the future.
+  ṁL         mass ﬂow rate of liqueﬁed BOG, kg/h                                  The latter option of BOG reliquefaction requires equipment, usually
+  ṁV         mass ﬂow rate of vented BOG, kg/h                                    comprising turbo-machineries and heat exchangers. Additionally,
+  LCC         life-cycle cost                                                      it consumes electric energy generated at the expense of fuel oils,
+  LCO2        liqueﬁed carbon dioxide                                              implying a considerable operating expenditure. Full reliquefaction
+  LNG         liqueﬁed natural gas                                                 seems to be uneconomical because the electric load would increase
+  LPG         liqueﬁed petroleum gas                                               to liquefy the light-ends of nitrogen and oxygen. As a consequence,
+  OPEX        operating expenditure                                                there should be an optimum reliquefaction fraction that minimizes
+  PUF         polyurethane form                                                    the total treatment expense.
+  tCO2 e      ton carbon dioxide equivalent                                            This study presents a BOG reliquefaction system for liq-
+  Ẇtot (x)   total compressor work, kW                                            uefying the BOG generated from semi-pressurized liquid CO2
+  w(x)        speciﬁc work, kJ/kg                                                  carriers and determines the optimum liquefaction fraction that
+                                                                                   minimizes the total treatment expense. Because most practical
+  Greek symbol                                                                     liquefaction systems use Joule–Thomson refrigeration systems to
+  k        proportional constant of fuel (see Eq. (8))                             generate low temperature (Barrson, 1985), a cascade system with
+                                                                                   Joule–Thomson valves is considered in this study. The total treat-
+                                                                                   ment expense is estimated by deﬁning the reliquefaction expense,
+and cost-effective. For cost-effective CCS, EOR can be employed to                 the penalty for CO2 emissions, and the beneﬁt of recovered CO2
+store the captured CO2 . It can mitigate the life cycle cost of the CCS            through analyzing the CO2 market and utilization of CO2 . The effect
+supply chain (Ferguson et al., 2009). Holt et al. (2009) estimated the             of the reliquefaction fraction on the total treatment expense is also
+CO2 EOR potential in the UK and Norwegian oil ﬁeld of the North                    delineated.
+Sea. They stated that the cost for CO2 capture could be covered with
+the use of CO2 as EOR for oil prices in the range of 90–100 $/barrel.              2. Design of BOG reliquefaction system
+   To transport the greenhouse gas by ship, gaseous CO2 should be
+liqueﬁed to have a high density. Carbon dioxide exists as liquid on                2.1. Target carrier and cargo conditions
+the saturated liquid curve bounded by the triple point (−56.6 ◦ C,
+5.2 bar) and the critical point (31.1 ◦ C, 73.8 bar). The liquid density               The transportation of CO2 at low temperature and pressure has
+of CO2 depends considerably on temperature and pressure. Along                     some advantages though it is accompanied by a considerable oper-
+the saturated liquid curve, the density increases with decreas-                    ating cost for liquefaction or refrigeration. The saturated liquid
+ing temperature (equivalently decreasing pressure). Ozaki (1997)                   density ranges from 1200 kg/m3 at the triple point to 600 kg/m3
+proposed a “Semi-Ref” type (−55 ◦ C, 6 bar) of CO2 carrier with                    at the critical point. Thus, given the cargo volume, the ship is able
+capacity 22,000 m3 consisting of four spherical tanks of 5500 m3                   to transport almost two times as much at the triple point than at the
+unit capacity. He indicated that the maximum capacity for the                      critical point. In addition, the reduced design pressure has a posi-
+onshore spherical storage tanks for liquid CO2 near the triple point               tive impact on the material cost for the pressure vessels. For these
+was 20,000 m3 with about 34 m of diameter. Aspelund et al. (2006)                  reasons, the cargo condition is assumed to be 6.5 bar and −51 ◦ C.
+developed an LPG/CO2 semi-pressurized ship concept including liq-                      CO2 is captured at CO2 sources and delivered to the liquefaction
+uefaction, intermediate storage, loading and ofﬂoading systems.                    plant, where it is liqueﬁed into a semi-pressurized liquid at the
+They indicated that the triple point was the optimum transporta-                   cargo condition. The liqueﬁed CO2 is stored temporally and loaded
+tion condition by analyzing cost, energy utilization, exergy and CO2               into CO2 carriers. The composition of the liqueﬁed CO2 is different
+emission.                                                                          that of the delivered gas. The composition of the liqueﬁed CO2 is
+   One drawback with the low-temperature CO2 carriers is the                       obtained by compressing and refrigerating the captured gas from a
+boil-off gas (BOG) generation. During a loaded voyage, heat ingress                coal-ﬁred power plant (Sanpasertparnich et al., 2010) as shown in
+into the cargo tanks is caused by a signiﬁcant temperature differ-                 Table 1.
+ence (about 60–90 ◦ C), leading to a considerable amount of BOG. To                    The currently available cargo capacity of CO2 carriers, which
+prevent the overpressure of cargo tanks, the generated BOG should                  serve to transport CO2 as a commodity, ranges up to 1500 m3
+be properly treated.                                                               (Borresen, 2010). These carriers are small for the ship-based CCS
+   There are two options to treat the generated BOG: atmospheric                   purpose, and larger carriers are inevitable to rely on economies of
+venting and reliquefaction. The former leads to cargo loss and                     scale. Carriers with larger cargo capacity seem to be achievable with
+greenhouse gas emission with negligible operation cost. Consider-                  current shipbuilding technology. Yoo et al. (2010) has designed CO2
+ing the current technology for the cargo containment system design                 carriers, called the ECO2 carriers, with a capacity up to 100,000 m3 .
+
+
+PHYSICAL_PAGE 3
+48                                              B. Chu et al. / International Journal of Greenhouse Gas Control 10 (2012) 46–55
+
+Table 2                                                                                   Table 3
+Characteristics of the cargo containment system for semi-pressurized liquid CO2 .         Characteristics of BOG for reliquefaction.
+
+ Item                                       Unit                    Value                   Item                                  Unit                     Value
+
+ Cargo capacity                             m3                      100,000                 BOG rate                              %/day from total cargo      0.12
+ Cargo density                              kg/m3                   1155                    BOG load                              kg/h                     6000
+ Vertical cylinder type tank                m×m                     7 (D) × 25 (H)          BOG inlet pressure                    bar                         6.2
+                                                                                                                                  ◦
+ No. of cargo tanks                         EA                      100                     BOG inlet temperature                   C                       −28.5
+ Initial ﬁlling level                       %                       95                      BOG composition                       mole%
+ Maximum ﬁlling limit                       %                       98                       CO2                                                             98.386
+                                                                                             N2                                                               1.557
+                                                                                             O2                                                               0.056
+
+    In this study, we assume that the cargo capacity is 100,000 m3 .
+Characteristics of the cargo containment system of the semi-                                  Typically, LNG carriers have a BOG rate in the range of 0.1–0.15%
+pressurized liquid CO2 carrier are shown in Table 2. The vertical                         of the full cargo per day. Their cargo tanks are well thermally pro-
+cylindrical pressure vessels of IMO type C are installed. Several                         tected with special cryogenic insulation layers. On the contrary,
+tanks are assumed to consist of a cargo group, which is an elemen-                        semi-pressurized liquid CO2 carriers do not have to be insulated
+tary unit for cargo handling operation; all the vessels in a cargo                        as much as LNG carriers for the following reasons. First, the cargo
+group are loaded and unloaded simultaneously. Thus, the level,                            temperature of the CO2 carriers is far higher than that of the LNG
+pressure, and temperature in a cargo group are considered equal.                          carriers, roughly by 100 ◦ C. It implies that, given the same insula-
+The initial cargo ﬁlling level is 95%, allowing for the thermal expan-                    tion thickness for a similar cargo containment conﬁguration, the
+sion of the cargo but not exceeding the maximum ﬁlling limit of 98%                       heat ingress into CO2 cargo tanks is roughly two thirds of that into
+dictated by IGC Code (International Maritime Organization, 2008).                         LNG cargo tanks. Second, the CO2 cargo is not as valuable as the
+It is critical to keep the liquid level below the maximum limit for                       LNG carriers. Usually, the LNG BOG is used for fuel for propulsion or
+safety of cargo containment system.                                                       reliqueﬁed in a dedicated unit. Lastly, the CO2 BOG may be vented,
+                                                                                          unlike the ﬂammable LNG BOG. Venting of the former may be sub-
+3. BOG load                                                                               ject to greenhouse gas emission penalty, while that of the latter
+                                                                                          is strictly prohibited for the sake of safety as well as the emission
+    The BOG is generated due to the heat ingress into the low-                            penalty. As a consequence, it is not tempting to use as much insula-
+temperature cargo containment system from the surrounding air                             tion in the CO2 carriers as in the LNG carriers. On the basis of these
+and seawater. The BOG rate is directly proportional to the heat                           considerations, this study takes 0.12% of the full contents per day
+transfer rate from the surroundings to the cargo. The heat transfer                       for the nominal BOG rate, which corresponds to an insulation thick-
+rate largely depends on the heat transfer coefﬁcient and heat trans-                      ness of 10 cm. With that BOG rate, the BOG load is estimated to be
+fer area as well as the temperature difference. Precise estimation                        5400 kg/h for CO2 carriers with 100,000 m3 of cargo tank capacity.
+of the BOG rate requires detailed information on the carrier such                         Considering a margin for overload, the BOG load is assumed to be
+as the hull dimension, equipment arrangement, cargo tanks, insu-                          6000 kg/h.
+lation, environmental conditions, and voyage conditions. Because
+such information is not accessible for the moment, this study esti-                       3.1. Design of BOG reliquefaction system
+mates a BOG rate based on the following reasoning.
+    The simplest form of the cargo containment system is shown                                The pressure and temperature of the BOG into the reliquefaction
+in Fig. 1. The whole cargo containment system is insulated by the                         unit are assumed to be 6.2 bar and −28.5 ◦ C. The increase in the tem-
+polyurethane form (PUF) on the inner hull plate. To be on the con-                        perature is due to the heat ingress into the piping segments for the
+servative side for the heat transfer rate, the temperature on the                         BOG transport from the cargo tanks to the reliquefaction unit. Even
+inner hull is assumed to be equal to the stored cargo temperature.                        though they are insulated, heat ingress is inevitable. Characteristics
+Consequently, the heat transfer rate is controlled by the thickness                       of the BOG are summarized in Table 3.
+of the insulation layer.                                                                      The BOG composition is obtained on the basis of the phase
+                                                                                          equilibrium between the vapor (BOG) and liquid (semi-pressurized
+                                                                                          liquid CO2 ). Mole fractions of the light components such as nitrogen
+                                                                                          and oxygen in the generated BOG are signiﬁcantly increased from
+                                                                                          those in the stored liquid CO2 . Thus, the liquefaction temperature
+                                                                                          of the BOG should be lower than that of the semi-pressurized liquid
+                                                                                          CO2 for full reliquefaction.
+                                                                                              Commercial designs are available for BOG reliquefaction for
+                                                                                          conventional bulk gas carriers for LNG, LPG and crude (Cryostar,
+                                                                                          2007; Hamworthy Ltd., 2007a,b,c). Two processes are available
+                                                                                          to generate a low-temperature cold source (Barrson, 1985): one
+                                                                                          uses expansion turbines, and the other uses expansion valves or
+                                                                                          Joule–Thomson valves. Though the former has higher efﬁciency due
+                                                                                          to the shaft work recovery from the expansion turbines, the latter is
+                                                                                          capable of handling two-phase ﬂow with simpler equipment con-
+                                                                                          ﬁguration, a lower footprint, more straightforward operation, and
+                                                                                          less maintenance demand. Consequently, the latter type is consid-
+                                                                                          ered in this study.
+                                                                                              The reliquefaction fraction highly depends on the condensation
+                                                                                          temperature, as shown in Fig. 2. Assuming that the lowest pressure
+                                                                                          of the Joule–Thomson refrigeration process is atmospheric in
+                    Fig. 1. Simple sketch of insulation system.                           order for the air not to leak into the system, the condensation
+
+
+PHYSICAL_PAGE 10
+                                                   B. Chu et al. / International Journal of Greenhouse Gas Control 10 (2012) 46–55                                                     55
+
+
+the speciﬁc compression work. The cargo storage conditions may                               Hamworthy Ltd., 2007b. LPG Cooling and Reliquefaction. Hamworthy Brochure,
+also cause the optimum to change. For example, if the storage                                     Asker, Norway.
+                                                                                             Hamworthy Ltd., 2007c. VOC Recovery and Power Generation System. Hamworthy
+pressure (equivalently, the temperature) is elevated far above                                    Brochure, Asker, Norway.
+the triple point, the speciﬁc compression work is considerably                               Holt, T., Lindeberg, E., Wessel-Berg, D., 2009. EOR and CO2 disposal – economic and
+reduced. The derivative of the compression work, however, may                                     capacity potential in the North Sea. Proceedings of the GHGT-9, Washington,
+                                                                                                  DC, USA, 16–20 November 2008. Energy Procedia 1, 4159–4166.
+show an insigniﬁcant change with the reliquefaction fraction. As                             International Energy Agency, 2006. Energy Technology Perspectives 2006: Scenarios
+a consequence, it is expected that the change due to uncertainties                                & Strategies to 2050.
+in these factors would not be signiﬁcant considering the narrow                              International Maritime Organization, 2008. International Code for the Construc-
+                                                                                                  tion and Equipment of Ships Carrying Liqueﬁed Gasses in Bulk (IGC Code). IMO,
+domain for the optimum reliquefaction fraction.
+                                                                                                  London, UK.
+                                                                                             International Panel on Climate Change, 2007. Working group III contribution to the
+Acknowledgements                                                                                  intergovernmental panel on climate change fourth assessment report. In: The
+                                                                                                  9th Session of Working Group III of the IPCC, Bangkok, Thailand, 30 April–4 May.
+                                                                                             Kapteijn, P., 2010. Energy and environment: the ultimate test of E&P Intelligence.
+    This research was supported by WCU (World Class Univer-                                       Journal of Petroleum Technology 62, 38–41.
+sity) program through the National Research Foundation of Korea                              Kilicarslan, A., Hosoz, M., 2010. Energy and irreversibility analysis of a cascade
+                                                                                                  refrigeration system for various refrigerant couples. Energy Conversion and
+funded by the Ministry of Education, Science and Technology (R31-
+                                                                                                  Management 51, 2947–2954.
+2008-000-10045-0) and the Korean Ministry of Land, Transport and                             Kossoy, A., Ambrosi, P., 2010. State and Trends of the Carbon Market 2010. Carbon
+Maritime Affairs under a program called “Development of Technol-                                  Finance at the World Bank, Washington, DC, pp. 1–2.
+ogy for CO2 Marine Geological Storage”.                                                      Ozaki, M., 1997. CO2 injection and dispersion in mid-ocean depth by moving ship.
+                                                                                                  Waste Management 17, 369–373.
+                                                                                             Ozaki, M., Ohsumi, T., 2011. CCS from multiple sources to offshore storage site com-
+References                                                                                        plex via ship transport. Proceedings of the GHGT-10, Amsterdam, Netherlands,
+                                                                                                  19–23 September 2010. Energy Procedia 4, 2992–2999.
+Aspelund, A., Gundersen, T., 2009. A liqueﬁed energy chain for transport and utiliza-        Peters, M.S., Timmerhaus, K.D., West, R.E., 2003. Plant Design and Economics for
+    tion of natural gas for power production with CO2 capture and storage – part 1.               Chemical Engineers, ﬁfth ed. McGraw-Hill, New York.
+    Applied Energy 86, 781–792.                                                              Rauramo, J., 2010. Fortum CCS projects update. In: Conference Handbook, Proceed-
+Aspelund, A., Molnvik, M.J., Koeijer, G.D., 2006. Ship transport of CO2 technical solu-           ings of the CO2 Shipping Conference, London, UK, 6–7 May 2010, pp. 45–48.
+    tions and analysis of costs energy utilization, exergy analysis, and CO2 emissions.      Sanpasertparnich, T., Idem, R., Bolea, I., deMontigny, D., Tontiwachwuthikul, P., 2010.
+    Chemical Engineering Research and Design 84, 847–855.                                         Integration of post-combustion capture and storage into a pulverized coal-ﬁred
+Aspen Technology Inc., 2009. Aspen HYSYS: Process Modeling. Version 7.1. Aspen                    power plant. International Journal of Greenhouse Gas Control 4, 499–510.
+    Technology Inc., Massachusetts, USA.                                                     Skovholt, O., 1993. CO2 transportation system. Energy Conversion and Management
+Barrson, R.F., 1985. Cryogenic System, second ed. Oxford University Press, New York.              34, 1095–1103.
+Borresen, S.E., 2010. CCS value chains with CO2 shipping. In: Conference Handbook,           Svensson, R., Odenberger, M., Johnsson, F., Stromberg, L., 2004. Transportation sys-
+    21–23, Proceedings of the CO2 Shipping Conference 2010, 6–7 May, London, UK.                  tems for CO2 – application to carbon capture and storage. Energy Conversion
+Brussen, P., Vugt, J., Vries, L.B., Stapersma, D., Knoll, H., Boonstra, H., Keimpema, H.,         and Management 45, 2343–2353.
+    2006. CO2 -Emissions of Various Ship Types Simulated in an Operational Year              U.S. Energy Information Administration, 2010. International Energy Outlook 2010.
+    Proﬁle. TNO-rapport, April 2006, pp. 9–10.                                                    July. Washington, DC, pp. 25–26.
+Cryostar, 2007. Special Report – Reliqefaction System EcoRel. Cryostar Magazine,             Yoo, B.Y., Lee, S.G., Oh, Y.T., Han, J.H., Gang, H.D., Park, J.M., 2010. Achieving viability:
+    Hesingue, France.                                                                             delivering an integrated shipping solution for CCS using CO2 shipping. In: Con-
+Ferguson, R.C., Nichols, C., van Leeuwen, T., Kuuskraa, V.A., 2009. Storing CO2 with              ference Handbook, Proceedings of the CO2 Shipping Conference, London, UK,
+    enhanced oil recovery. Proc. GHGT-9, Washington, DC, USA, 16–20 November                      6–7 May, pp. 121–137.
+    2008. Energy Procedia 1, 1989–1996.                                                      Yoo, B.Y., Lee, S.G., Rhee, K.P., Na, H.S., Park, J.M., 2011. New CCS system integration
+Gale, J., Davison, J., 2004. Transmission of CO2 – safety and economic considerations.            with CO2 carrier and liquefaction process. Proceedings of the GHGT-10, Amster-
+    Energy 29, 1318–1319.                                                                         dam, Netherlands, 19–23 September 2010. Energy Procedia 4, 2992–2999.
+Hamworthy Ltd., 2007a. LNG Systems for Marine Application. Hamworthy Brochure,               Yunus, A.C., Michael, A.B., 2006. Thermodynamics: An Engineering Approach, ﬁfth
+    Asker, Norway.                                                                                ed. McGraw-Hill, New York.
