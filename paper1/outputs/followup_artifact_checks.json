@@ -1,15 +1,19 @@
 {
-  "manuscript_tables": 15,
-  "manuscript_embedded_images": 10,
-  "workbook_sheets": 62,
+  "manuscript_tables": 17,
+  "manuscript_embedded_images": 11,
+  "workbook_sheets": 72,
   "verified_workbook_data_rows": {
-    "Follow-up review values": 140,
-    "Mixed annual operation": 2160,
-    "Mixed operating comparisons": 72,
-    "Japanese case values": 420,
-    "Source issues": 55
+    "Partial compilation claims": 60,
+    "Tomakomai partial pairs": 7,
+    "EXCOOL trial leads": 7,
+    "Partial mass reconciliation": 3,
+    "Source issues": 58
   },
-  "unit_tests_passed": 48,
+  "unit_tests_passed": 54,
   "unit_test_command": "python -m unittest discover -s paper1/tests -v",
-  "scientific_limit": "Source/implementation checks, not independent field validation or complete regional LCA."
+  "baseline_commit": "c274c383aacd9be8e3aa974b68c93454aab16c61",
+  "unchanged_model_input_and_result_files": 24,
+  "comparison": "CSV records/JSON values compared across Git text-line-ending normalisation; uploaded originals separately SHA256 checked.",
+  "new_claims_accepted_as_calibrated_inputs": 0,
+  "scientific_limit": "Provenance/implementation and qualified transcription checks; not native telemetry, physical reservoir calibration or full regional LCA."
 }

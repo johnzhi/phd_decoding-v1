@@ -24,6 +24,7 @@ python paper1/scripts/finalize_deep_review.py
 python paper1/scripts/property_consistency.py
 python paper1/scripts/limitation_benchmarks.py
 python paper1/scripts/mixed_allocation.py
+python paper1/scripts/ingest_partial_evidence.py
 python -m unittest discover -s paper1/tests -v
 python paper1/scripts/build_workbook.py
 python paper1/scripts/build_documents.py
@@ -72,3 +73,9 @@ The [44 reading cards and review report](docs/deep_review_report.md) identify se
 The [mixed-model specification](docs/mixed_allocation.md) describes12 annual MILPs and72 detailed fixed-plan reevaluations: a single1Mt/y source, disjoint reservoir groups, integer voyages, two route assignments, two long distances, three dispatch policies and two fleet controls. Eighteen further dispatch controls preserve the original six designs. These are surrogate-envelope benchmarks, not independently calibrated physical constraints, a detailed operating optimum or full regional LCA. Missing duties/assets are not physical zeros.
 
 `property_consistency.py` independently checks the selected density with CoolProp8/Span–Wagner at the published temperature under two pressure-reference interpretations. The1154.60kg/m3 absolute-pressure reference is within0.06% of the1154kg/m3 table, and all75 fleets still match. The original table input is retained; actual cargo impurities and source datum remain unverified. [Specific remaining datasets](docs/reference_data_requests.md) now prioritise native Tomakomai rate/pressure/temperature and prospective-model exports; the oversized IBDP reports are an optional alternative rather than a prerequisite for unrelated work.
+
+## Partial monthly / EXCOOL intake — 6 November 2026
+
+Two new compilation files add six Tomakomai monthly mass/P/T pairs, one pressure/T-only row, seven EXCOOL trial records and four capture-energy leads. All58 numeric workbook cells plus two text claims are located in a separate60-record register. The linked nine primary PDFs are not retained or verified, so none of these values enters a calibrated operating, capture-GHG or reservoir model. Existing model results are unchanged.
+
+The [partial-evidence review](docs/partial_monthly_evidence_review.md) records the98.1t June mass discrepancy, missing December mass, CSV/workbook agreement, coarse-table compatibility and conditional trial EOS checks. Sparse monthly averages are not native telemetry or maximum-rate constraints. The supplied historical gap map remains evidence rather than instructions; it does not override the already implemented IMO or mixed benchmarks.

@@ -7,7 +7,7 @@ All CSV files are UTF-8. `pdf_page` is a physical 1-based PDF page, including fr
 - `new_batch_values.csv`: 193 new atomic records from B4. Contains value ID, source, original unit, page/table, scenario, evidence type, boundary, transfer limits and source locator excerpt.
 - `curated_values.csv`: 250 atomic located quantities, overlapping the broad ledger. `ACCEPTED_FOR_STATED_CONTEXT` means usable only with the stated boundary. `HOLD_CONFLICT` prevents calculation with inconsistent source values.
 - `analysis_inputs.csv`: 134-row exact subset of curated values. Every registered row is used. `group` selects a defined calculation or reported output. No context-only value enters the model.
-- `issues.csv`: 55 source/interpretation issues, including a partly closed supplement-availability issue, with handling instructions. A source token match does not resolve an issue.
+- `issues.csv`: 58 source/interpretation issues, including a partly closed supplement-availability issue, with handling instructions. A source token match does not resolve an issue.
 - `proposal_claim_audit.csv`: original 14 proposed references linked to supplied primary PDFs, with corrections. This is a claim audit, not endorsement of novelty.
 - `calculated_results.csv`: 49 derived rows and 75 directly transcribed published fleet outputs. `input_ids`, `equation`, units and boundary are explicit. `Rxxx` is an output ID, not an empirical observation.
 
@@ -80,3 +80,11 @@ The original1,642-record literature ledger stays stable. Dedicated input/factor 
 `mixed_operational_comparisons.csv` has 72 fixed-plan operating reevaluations; `mixed_operational_annual.csv` has 2,160 annual rows. Common-source conservation, ending inventory, active hours and null complete-LCA outputs are explicit. Route source shares are constant within each nominal year and sum to no more than the common potential; blocked unused shares are not adaptively reassigned. Dedicated export/receiving berths are a declared topology. `dispatch_policy_controls.csv` gives 18 additional original-design checks under three rules, not observations or proof of optimal dispatch. Full specification: [mixed allocation](mixed_allocation.md).
 
 The workbook is a display copy of CSV registers. XML-prohibited control codes introduced by PDF font extraction are removed from workbook text only; the original PDF and UTF-8 CSV excerpts remain unchanged. Formula-like text is escaped in the workbook.
+
+## Partial monthly and EXCOOL compilations
+
+`dataset8_manifest.json` identifies the two unchanged uploads. `D8-02_cells.jsonl.gz` preserves289 nonempty native workbook cells across six sheets; no macros, formulas or external links are executed. `partial_compilation_values.csv` locates58 numeric cells plus two text claims, all marked `SUPPLIED_TRANSCRIPTION_PRIMARY_PENDING_NOT_MODEL_INPUT`. The nine URLs in `partial_primary_source_leads.csv` are leads, not inspected primary documents. Counts overlap and do not extend the count of independent observations or92 unique reviewed publications.
+
+`tomakomai_paired_partial.csv` preserves seven calendar-month records, six with mass/P/T. Missing December mass/cumulative stays empty; calendar-average t/day uses calendar days rather than operating days. `partial_csv_workbook_agreement.csv` checks28 duplicate fields. `tomakomai_partial_reconciliation.csv` gives three consecutive-month balances and a conditional display-rounding bound; `tomakomai_partial_coarse_comparison.csv` compares12 masses with the retained rounded table without promoting them to verified native data.
+
+`excool_loading_trial_leads.csv` keeps seven test rows distinct, including two June2025 entries. `excool_trial_property_checks.csv` supplies pure-fluid, standard-atmosphere EOS reference results, not measured cargo phase/density or operating limits. `tomakomai_capture_energy_leads.csv` holds four unverified reboiler/aggregate leads outside the GHG model. `partial_supplied_gap_map.csv` retains the supplied status claims and separately explains the current implemented scope. Further interpretation: [partial review](partial_monthly_evidence_review.md).

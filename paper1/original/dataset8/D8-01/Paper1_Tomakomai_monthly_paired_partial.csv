@@ -1,0 +1,8 @@
+month,actual_injected_t_month,avg_bhp_MPa_basis_unverified,avg_bottomhole_temp_C,published_cumulative_Moebetsu_t,report_edition,official_pdf,note
+2019-02,4031.7,9.76,44.8,219609.4,201903,https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2019/03/201903_ENG.pdf,Moebetsu IW-2 monthly; value pairs refer to February
+2019-05,13962.4,9.92,43.9,260414.4,201906,https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2019/06/201906_ENG.pdf,Moebetsu IW-2; June comparison requires reconciliation
+2019-06,1315.4,9.64,41.3,261631.7,201907,https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2019/07/201907_ENG.pdf,"June monthly reported 1,315.4; cumulative delta from May = 1,217.3, discrepancy 98.1 tonnes"
+2019-09,10076.2,9.85,44.3,284418.3,201910,https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2019/10/201910_ENG.pdf,Moebetsu IW-2
+2019-10,4800.3,9.73,42.6,289218.7,201911,https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2019/11/201911_ENG.pdf,"Cumulative delta from Sep = 4,800.4, rounding 0.1"
+2019-11,10793.5,9.89,44.5,300012.2,201912,https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2019/12/201912_ENG.pdf,Injection halted 2019-11-22; December report has November totals
+2019-12,,9.56,39.7,,202001,https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2020/01/202001_ENG.pdf,Post-injection; December rate not separately tabulated; do not impute from pressure

@@ -1,0 +1,4 @@
+previous_month,month,monthly_injected_t,cumulative_delta_t,monthly_minus_delta_t,conditional_display_rounding_bound_t,within_conditional_rounding,scope
+2019-05,2019-06,1315.4,1217.3,98.1,0.15,False,"Only consecutive calendar months; no interpolation or forced correction. Bound assumes nearest0.1t printing in this supplied CSV, not confirmed source precision or a probability interval."
+2019-09,2019-10,4800.3,4800.4,-0.1,0.15,True,"Only consecutive calendar months; no interpolation or forced correction. Bound assumes nearest0.1t printing in this supplied CSV, not confirmed source precision or a probability interval."
+2019-10,2019-11,10793.5,10793.5,0.0,0.15,True,"Only consecutive calendar months; no interpolation or forced correction. Bound assumes nearest0.1t printing in this supplied CSV, not confirmed source precision or a probability interval."

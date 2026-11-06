@@ -1,6 +1,6 @@
 # Specific remaining datasets
 
-These requests target the remaining empirical gaps. Already received: the Budiarto supplement, CPPI Excel annex, Tomakomai selected chapters/monthly tables and the Northern Lights footprint reports.
+These requests target the remaining empirical gaps. The6November compilations add partial transcriptions and linked primary leads, not native logs. Already received: the Budiarto supplement, CPPI Excel annex, Tomakomai selected chapters/monthly tables and the Northern Lights footprint reports.
 
 1. **Tomakomai native injection monitoring — highest physical priority.** Timestamped Moebetsu injection mass/volume rate, cumulative mass, bottomhole/formation/wellhead pressure and temperature; pressure datum (absolute/gauge), sensor depth and completion/perforation geometry; density/PVT/composition, calibration and quality flags. Preserve sampling interval and time zone. Native CSV/Excel exports around the17 shut-in windows would permit independent transient checks; monthly rounded tables do not. The reports' history-match result is source-reported, not our calibration.
 2. **Prospective reservoir realisations.** D7-18 Case2/Case3 inputs and outputs for each realisation: grid/rock/fluid/boundary properties, well/completion configuration, rate and pressure series, imposed pressure/plume limits and evaluation dates. Need physical maximum-rate series distinct from chosen allocations. The source1.47/4.70/7.93Mt capacity labels are conditional simulations, not annual service or adopted probabilities.
@@ -11,3 +11,7 @@ These requests target the remaining empirical gaps. Already received: the Budiar
 7. **Optional independent alternatives/exact reproduction.** IBDP injection-monitoring README then selected CCS1 paired rate/pressure/temperature data (not seismic event rates). Four oversized IBDP reports/one ZIP remain inaccessible; relevant tables below32MiB are sufficient. South Sumatra unrounded allocations and independent kr,t arrays would enable original-model checks, as would full Fraga network/process inputs. The author request draft remains unsent.
 
 No new data are requested for unit definitions or analyst design choices. Missing physical inputs remain missing rather than assigned plausible values. A site proxy may be used only with a disclosed boundary and independent checks appropriate to the claimed result.
+
+## Immediate primary verification for the latest compilation
+
+The seven monthly newsletter links,2026 ClassNK EXCOOL article and Ishii capture-achievements presentation are listed in [the nine-source lead register](../data/partial_primary_source_leads.csv). Their PDFs were not retrievable through this environment. The most direct checks are the May/June2019 Moebetsu versus combined cumulative labels, the exact EXCOOL table P/T basis/timing/precision, and the reboiler/aggregate factor's process boundary. Native continuous logs and vessel duty remain needed even after those PDFs are verified.

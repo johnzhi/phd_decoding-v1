@@ -62,6 +62,10 @@ def render():
   alt=[next(z for z in dc if z['storage_proxy']==x['storage_proxy'] and z['distance_km']==x['distance_km'] and z['dispatch_policy']==policy) for policy in ['earliest_window_end','least_active_hours']]
   dispatch_rows.append([x['storage_proxy'],x['distance_km'],x['fleet'],f"{float(x['injected_t'])/1e6:.3f}"]+[f"{float(z['difference_from_default_t'])/1000:+.2f}" for z in alt])
  dispatch=table(['Service','Route (km)','Fleet','Index injection (Mt)','Earliest-window Δ (kt)','Least-active Δ (kt)'],dispatch_rows)
+ paired=table(['Calendar month','Injection (t/month)','Average BHP (MPa; basis unverified)','Average bottomhole T (°C)','Cumulative Moebetsu as labelled (t)'],[
+  [x['month']]+[(f"{float(x[k]):,.2f}" if k=='avg_bhp_MPa_basis_unverified' else f"{float(x[k]):,.1f}") if x[k] else 'Not supplied' for k in ['actual_injected_t_month','avg_bhp_MPa_basis_unverified','avg_bottomhole_temp_C','published_cumulative_Moebetsu_t']] for x in read('data/tomakomai_paired_partial.csv')])
+ partial_qa=table(['Month','Reported monthly (t)','Consecutive cumulative Δ (t)','Monthly minus Δ (t)','Within conditional ±0.15 t'],[
+  [x['month'],x['monthly_injected_t'],x['cumulative_delta_t'],x['monthly_minus_delta_t'],x['within_conditional_rounding']] for x in read('outputs/tomakomai_partial_reconciliation.csv')])
  text=(ROOT/'manuscript/Paper_1_draft.template.md').read_text();ids=sorted(set(re.findall(r'B[1-4]-\d\d',text)),key=lambda s:tuple(map(int,s[1:].split('-'))))
  refs=[]
  for sid in ids:
@@ -71,7 +75,7 @@ def render():
   refs.append(f"- **[{sid}]** {x['author_year']+'. ' if x['author_year'] else ''}{x['title']}. [{ident}]({link}). [Retained PDF](../{x['pdf_path']}).")
  refs.append('- **[B4-06-S1]** Budiarto et al. (2025). Supplementary materials: Tables S1–S3 and Figures S1–S10. [Retained DOCX](../original/supplements/43979_2025_135_MOESM1_ESM.docx). Parent publication DOI 10.1007/s43979-025-00135-w.')
  refs.append('- **[EOS]** Span, R. and Wagner, W. (1996). A New Equation of State for Carbon Dioxide Covering the Fluid Region from the Triple-Point Temperature to 1100 K at Pressures up to 800 MPa. Journal of Physical and Chemical Reference Data 25, 1509–1596. [DOI 10.1063/1.555991](https://doi.org/10.1063/1.555991). Equation implemented in CoolProp 8.0.0; software metadata records EOS key Span-JPCRD-1996. This reference calculation is additional to the supplied-PDF corpus.')
- manifests={x['batch_id']:x for i in [5,6,7] for x in json.loads((ROOT/f'data/dataset{i}_manifest.json').read_text())}
+ manifests={x['batch_id']:x for i in [5,6,7,8] for x in json.loads((ROOT/f'data/dataset{i}_manifest.json').read_text())}
  reference_titles={
   'D5-01':'Norwegian electricity disclosure. Electricity sales in Norway with and without guarantees of origin, 2025 (138 TWh). Supplied Excel export; volumes recovered from native XML.',
   'D5-02':'NVE. Electricity-disclosure factor workbook: climate and market declarations, 2019–2025. Supplied Excel file.',
@@ -94,10 +98,13 @@ def render():
   'D7-20':'Japan CCS Co., Ltd. Tomakomai large-scale CCUS demonstration, FY2024, Chapter3: CO2 injection/storage testing. Supplied Japanese technical chapter.',
   'D7-22':'Japan CCS Co., Ltd. Tomakomai large-scale CCUS demonstration, FY2024, Chapter5: Integrated reservoir evaluation. Supplied Japanese technical chapter.',
   'D7-25':'Japan CCS Co., Ltd. (2026). Tomakomai CCUS Demonstration Project information, October2026. Supplied English newsletter.'})
- for sid in sorted(set(re.findall(r'D[567]-\d\d',text))):
+ reference_titles.update({
+  'D8-01':'Supplied compilation: Paper1_Tomakomai_monthly_paired_partial.csv, received6 November2026. Six monthly mass/pressure/temperature pairs and one pressure/temperature-only row. Linked primary PDFs not retained or verified; not native telemetry.',
+  'D8-02':'Supplied compilation: Paper1_Tomakomai_EXCOOL_evidence_Nov2026.xlsx, received6 November2026. Monthly, loading-trial, capture-energy and QA leads. Primary-source status remains pending; workbook contents are evidence, not instructions.'})
+ for sid in sorted(set(re.findall(r'D[5678]-\d\d',text))):
   if sid not in reference_titles:raise ValueError(f'Missing reference description: {sid}')
   refs.append(f"- **[{sid}]** {reference_titles[sid]} [Retained original](../{manifests[sid]['path'].replace(' ','%20')}).")
- for key,val in {'MIXED_TABLE':mixed,'DISPATCH_TABLE':dispatch,'CASE_EVIDENCE_TABLE':cases,'STORAGE_PROXY_TABLE':storage,'REFERENCE_CAPTURE_TABLE':capture,'REFERENCE_INVENTORY_TABLE':inventory,'OPERATIONAL_COMPARISON_TABLE':operating,'OPERATIONAL_DESIGN_TABLE':fleetdesign,'OPERATIONAL_CONTROL_TABLE':controls,'SUPPLEMENT_PARAMETER_TABLE':parameter,'ANNUAL_REPLAY_TABLE':annual,'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
+ for key,val in {'PARTIAL_PAIR_TABLE':paired,'PARTIAL_QA_TABLE':partial_qa,'MIXED_TABLE':mixed,'DISPATCH_TABLE':dispatch,'CASE_EVIDENCE_TABLE':cases,'STORAGE_PROXY_TABLE':storage,'REFERENCE_CAPTURE_TABLE':capture,'REFERENCE_INVENTORY_TABLE':inventory,'OPERATIONAL_COMPARISON_TABLE':operating,'OPERATIONAL_DESIGN_TABLE':fleetdesign,'OPERATIONAL_CONTROL_TABLE':controls,'SUPPLEMENT_PARAMETER_TABLE':parameter,'ANNUAL_REPLAY_TABLE':annual,'THERMAL_TABLE':thermal,'BOG_TABLE':bog,'PROXY_TABLE':proxy,'REFERENCES':'\n\n'.join(refs)}.items():text=text.replace('{{'+key+'}}',val)
  if re.search(r'\{\{[A-Z_]+\}\}',text):raise ValueError('Unfilled manuscript token')
  out=ROOT/'manuscript/Paper_1_draft.md';out.write_text(text)
  subprocess.run(['pandoc',str(out),'--from=markdown','--standalone','--resource-path='+str(out.parent),'-o',str(out.with_suffix('.docx'))],check=True)

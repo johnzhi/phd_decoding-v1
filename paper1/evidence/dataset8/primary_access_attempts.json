@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2019/03/201903_ENG.pdf",
+    "http_status": null,
+    "pdf_received": false,
+    "failure_class": "URLError",
+    "reason_type": "PermissionError",
+    "handling": "No proxy/TLS bypass attempted; primary document not inspected."
+  },
+  {
+    "url": "https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf",
+    "http_status": null,
+    "pdf_received": false,
+    "failure_class": "URLError",
+    "reason_type": "PermissionError",
+    "handling": "No proxy/TLS bypass attempted; primary document not inspected."
+  },
+  {
+    "url": "https://www.japanccs.com/wp/wp-content/uploads/2020/09/Tomakomai-CCS-Demonstration-Project-Achievements-and-Future-Outlook_Shoichi-Ishii.pdf",
+    "http_status": null,
+    "pdf_received": false,
+    "failure_class": "URLError",
+    "reason_type": "PermissionError",
+    "handling": "No proxy/TLS bypass attempted; primary document not inspected."
+  },
+  {
+    "url": "https://www.jccs-tomakomai-monitoring.com/JCCS/wp-content/uploads/2019/03/201903_ENG.pdf",
+    "http_status": null,
+    "pdf_received": false,
+    "failure_class": "URLError",
+    "reason_type": "OSError",
+    "method": "Read-only request via inherited proxy; sandbox network permission enabled; TLS verification preserved."
+  },
+  {
+    "url": "https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf",
+    "http_status": null,
+    "pdf_received": false,
+    "failure_class": "URLError",
+    "reason_type": "OSError",
+    "method": "Read-only request via inherited proxy; sandbox network permission enabled; TLS verification preserved."
+  },
+  {
+    "url": "https://www.japanccs.com/wp/wp-content/uploads/2020/09/Tomakomai-CCS-Demonstration-Project-Achievements-and-Future-Outlook_Shoichi-Ishii.pdf",
+    "http_status": null,
+    "pdf_received": false,
+    "failure_class": "URLError",
+    "reason_type": "OSError",
+    "method": "Read-only request via inherited proxy; sandbox network permission enabled; TLS verification preserved."
+  }
+]

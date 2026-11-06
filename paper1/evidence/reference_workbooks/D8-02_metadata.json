@@ -1,0 +1,41 @@
+{
+  "document_id": "D8-02",
+  "source_sha256": "e04f342b032425acbc154922f5379b49558d900392a2eca955ff8b0496bf0f00",
+  "cells": 289,
+  "numeric_cached_cells": 58,
+  "formula_cells": 0,
+  "sheets": [
+    {
+      "sheet": "Tomakomai paired months",
+      "dimension": "",
+      "nonempty_or_formula_cells": 62
+    },
+    {
+      "sheet": "EXCOOL loading trials",
+      "dimension": "",
+      "nonempty_or_formula_cells": 64
+    },
+    {
+      "sheet": "Capture energy leads",
+      "dimension": "",
+      "nonempty_or_formula_cells": 35
+    },
+    {
+      "sheet": "Reconciliation QA",
+      "dimension": "",
+      "nonempty_or_formula_cells": 49
+    },
+    {
+      "sheet": "Original 10 gap map",
+      "dimension": "",
+      "nonempty_or_formula_cells": 55
+    },
+    {
+      "sheet": "READ ME",
+      "dimension": "",
+      "nonempty_or_formula_cells": 24
+    }
+  ],
+  "macros_executed": false,
+  "external_links_refreshed": false
+}

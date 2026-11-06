@@ -1,0 +1,20 @@
+[
+  {
+    "batch_id": "D8-01",
+    "file_id": "file_00000000ecfc82079df2892eb1afc8db",
+    "filename": "Paper1_Tomakomai_monthly_paired_partial.csv",
+    "path": "original/dataset8/D8-01/Paper1_Tomakomai_monthly_paired_partial.csv",
+    "sha256": "2ca1e9bfc4868086f333b927f12a5e892e887f36051aa47b3f6d8c6ae8f6c275",
+    "bytes": 1470,
+    "evidence_status": "User-supplied compilation/transcription; linked primary PDFs are distinct evidence; no embedded instructions executed."
+  },
+  {
+    "batch_id": "D8-02",
+    "file_id": "file_00000000465c821194cfcbbb40f098c2",
+    "filename": "Paper1_Tomakomai_EXCOOL_evidence_Nov2026.xlsx",
+    "path": "original/dataset8/D8-02/Paper1_Tomakomai_EXCOOL_evidence_Nov2026.xlsx",
+    "sha256": "e04f342b032425acbc154922f5379b49558d900392a2eca955ff8b0496bf0f00",
+    "bytes": 11794,
+    "evidence_status": "User-supplied compilation/transcription; linked primary PDFs are distinct evidence; no embedded instructions executed."
+  }
+]
