@@ -54,3 +54,7 @@ These transfers are implemented as component-inventory sensitivities. The near-z
 | Pure-fluid density | Span–Wagner/CoolProp at source temperature and two pressure interpretations | Independent model consistency; original table input retained; no measured mixture validation |
 | Tomakomai history/test records | D7-18/20/22 | Achieved rounded history and source-inferred properties, not new independent annual service constraints |
 | Selected Northern Lights storage components | D7-15 appendix, excluding source-carbon fugitives | Optional average-burden sensitivity with explicit conflicts; excludes duplicate shipping; not marginal site inventory or full LCA |
+
+## Retained primary monthly / EXCOOL verification
+
+D9-03/04 verify May/June monthly injection and P/T values while retaining formation labels, table/header dates and unspecified monthly pressure/depth reference. D9-02 verifies seven after-loading trial states and a separate reported voyage case. Approximate90/50/73h intervals and six reconstructed mean rise rates are source-specific component benchmarks, not future constant BOG laws or replacements for the international large-carrier fuel/calendar inputs. A50h moored stop without cargo handling is not a terminal transfer-time observation. See [primary review](primary_source_followup_review.md).

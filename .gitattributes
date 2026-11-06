@@ -16,3 +16,4 @@ paper1/original/proposal_extracted.txt -whitespace
 *.db binary
 *.rdv binary
 paper1/original/** -text -diff -whitespace
+paper1/evidence/dataset9/verification_package/** -text -diff -whitespace

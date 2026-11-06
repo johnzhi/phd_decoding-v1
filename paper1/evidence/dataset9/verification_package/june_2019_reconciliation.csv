@@ -1,0 +1,11 @@
+variable,value,units,provenance_or_limit
+May end Moebetsu-labeled cumulative,260414.4,tonnes,June 2019 JCCS report (201906_ENG.pdf) p.12
+June monthly Moebetsu injection,1315.4,tonnes,July 2019 JCCS report (201907_ENG.pdf) p.12
+June end Moebetsu cumulative,261631.7,tonnes,July 2019 JCCS report (201907_ENG.pdf) p.12
+June end Takinoue cumulative,98.2,tonnes,July 2019 JCCS report (201907_ENG.pdf) p.12
+June 29 overall cumulative,261729.8,tonnes,"July 2019 JCCS report (201907_ENG.pdf) total, visible on pages"
+Formation-labelled cumulative change,1217.3,tonnes,Calculated; mismatch against June injection
+June discrepancy,98.1,tonnes,Calculated; not independently corrected
+Overall cumulative change if May value denotes total,1315.4,tonnes,Calculated; matches monthly June injection exactly
+Difference: June sum of two formations minus reported total,0.1,tonnes,Calculated; 0.1 t likely tabulation/rounding but unconfirmed
+Implied May Moebetsu if May 260414.4 is combined total,260316.2,tonnes,HYPOTHESIS ONLY; not source-published corrected value

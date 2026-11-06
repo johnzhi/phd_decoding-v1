@@ -11,7 +11,7 @@
   "EXCOOL_test_rows": 7,
   "capture_energy_leads": 4,
   "primary_pdf_leads": 9,
-  "primary_pdfs_verified": 0,
+  "primary_pdfs_verified": 3,
   "consecutive_mass_checks": 3,
   "coarse_table_comparisons": 12,
   "coarse_table_rounding_compatible": 12,
@@ -23,5 +23,9 @@
   "pressure_datum_verified": false,
   "new_capture_GHG_or_shipping_fuel_model": false,
   "complete_lca": false,
-  "EOS_version": "8.0.0"
+  "EOS_version": "8.0.0",
+  "primary_value_claims_verified": 33,
+  "derived_claims_reproduced_from_primary": 2,
+  "claims_still_primary_pending": 25,
+  "monthly_complete_pairs_primary_verified": 2
 }

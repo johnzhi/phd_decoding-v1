@@ -1,0 +1,8 @@
+test_date,test_description,loaded_co2_tonnes,temperature_celsius,pressure_mpag,source_url,source_location,data_type
+July 2024,First loading / truck-to-ship,85.3,-35.3,1.11,https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf,p.5 Table 3 (PDF index page 5),"demonstration test, not annual operational duty"
+November 2024,Maizuru base,424.4,-46.4,0.68,https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf,p.5 Table 3 (PDF index page 5),"demonstration test, not annual operational duty"
+January 2025,Maizuru base low-T test,422.9,-49.3,0.6,https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf,p.5 Table 3 (PDF index page 5),"demonstration test, not annual operational duty"
+April 2025,Tomakomai base,446.7,-36.0,1.04,https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf,p.5 Table 3 (PDF index page 5),"demonstration test, not annual operational duty"
+June 2025,Tomakomai large volume,750.0,-41.1,0.88,https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf,p.5 Table 3 (PDF index page 5),"demonstration test, not annual operational duty"
+June 2025,Maizuru completive loading,743.2,-45.6,0.73,https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf,p.5 Table 3 (PDF index page 5),"demonstration test, not annual operational duty"
+July 2025,Maizuru coordinated operation,496.8,-47.8,0.64,https://www.classnk.or.jp/hp/pdf/research/rd/2026/12_e05.pdf,p.5 Table 3 (PDF index page 5),"demonstration test, not annual operational duty"

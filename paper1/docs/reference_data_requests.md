@@ -12,6 +12,8 @@ These requests target the remaining empirical gaps. The6November compilations ad
 
 No new data are requested for unit definitions or analyst design choices. Missing physical inputs remain missing rather than assigned plausible values. A site proxy may be used only with a disclosed boundary and independent checks appropriate to the claimed result.
 
-## Immediate primary verification for the latest compilation
+## Primary verification remaining after the latest uploads
 
-The seven monthly newsletter links,2026 ClassNK EXCOOL article and Ishii capture-achievements presentation are listed in [the nine-source lead register](../data/partial_primary_source_leads.csv). Their PDFs were not retrievable through this environment. The most direct checks are the May/June2019 Moebetsu versus combined cumulative labels, the exact EXCOOL table P/T basis/timing/precision, and the reboiler/aggregate factor's process boundary. Native continuous logs and vessel duty remain needed even after those PDFs are verified.
+The ClassNK2026 article and201906/201907 Tomakomai reports are received, retained and targeted-verified; do not request them again. The Ishii capture-achievements presentation and other five monthly PDFs remain unverified locally. The [current nine-source register](../data/partial_primary_source_leads.csv) distinguishes them. The ZIP's assertions of inspection in another session do not establish local verification.
+
+The highest physical priority remains native continuous rate/BHP/T with pressure/depth references and control metadata. The June29/header versus monthly table arithmetic supports a classification hypothesis, but an independent May formation baseline or JCCS erratum is needed to confirm correction. ClassNK's90/50/73h voyage case improves state/elapsed-time evidence but lacks actual fuel duty, transfer durations and yearly availability. Capture heat/electricity split and matched energy supply remain separate needs.

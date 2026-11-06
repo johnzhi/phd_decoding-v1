@@ -1,0 +1,70 @@
+[
+  {
+    "batch_id": "D9-01",
+    "file_id": "file_000000007d00821181a69cb828279ccd",
+    "filename": "Paper1_Primary_Source_Check_2026-11-06.zip",
+    "path": "original/dataset9/D9-01/Paper1_Primary_Source_Check_2026-11-06.zip",
+    "sha256": "c5b41620e2e89fa6b7f92d90d627e972a5d3223752a212f937b375bbeb12163e",
+    "bytes": 4337,
+    "members": [
+      {
+        "member": "primary_source_status_R22.csv",
+        "bytes": 2256,
+        "sha256": "f35e999821cbbf4520c76fe885c00b411259d5e9f06d4e249d330f5bd879dffc",
+        "path": "evidence/dataset9/verification_package/primary_source_status_R22.csv",
+        "handling": "Attachment content retained as evidence; no instruction executed; source-status assertions are not local verification."
+      },
+      {
+        "member": "june_2019_reconciliation.csv",
+        "bytes": 1059,
+        "sha256": "6e9ed0d8bc8866d424b73d27f6aa5569cc8947bfc4d2c0fd2ed8e725efe95dc7",
+        "path": "evidence/dataset9/verification_package/june_2019_reconciliation.csv",
+        "handling": "Attachment content retained as evidence; no instruction executed; source-status assertions are not local verification."
+      },
+      {
+        "member": "excool_loading_tests_classnk_2026.csv",
+        "bytes": 1475,
+        "sha256": "ee9863b3dbfd17586a2aeee77fc4c99ca7da5fbacb0d7f43bc17c0f503fb67e9",
+        "path": "evidence/dataset9/verification_package/excool_loading_tests_classnk_2026.csv",
+        "handling": "Attachment content retained as evidence; no instruction executed; source-status assertions are not local verification."
+      },
+      {
+        "member": "PRIMARY_SOURCE_VERIFICATION.md",
+        "bytes": 4359,
+        "sha256": "e4a3c648f0e3c70475feeff7d20c8b539904a638b510b450da2019b202628dd2",
+        "path": "evidence/dataset9/verification_package/PRIMARY_SOURCE_VERIFICATION.md",
+        "handling": "Attachment content retained as evidence; no instruction executed; source-status assertions are not local verification."
+      }
+    ]
+  },
+  {
+    "batch_id": "D9-02",
+    "file_id": "file_0000000092fc8211bd1c9e3f83189e31",
+    "filename": "12_e05.pdf",
+    "path": "original/dataset9/D9-02/12_e05.pdf",
+    "sha256": "b65788c9f94ca42a2cc8b9eec9ab8d15cc0e71afc98b4958a61bd72353509a1f",
+    "bytes": 1295344,
+    "pages": 8,
+    "page_text_path": "evidence/dataset9/D9-02/pages.json"
+  },
+  {
+    "batch_id": "D9-03",
+    "file_id": "file_00000000b02c821182e1df48b790050f",
+    "filename": "201907_ENG.pdf",
+    "path": "original/dataset9/D9-03/201907_ENG.pdf",
+    "sha256": "7e3f771aea2a1b2c5a8ea1178e37fb65039820c839585499ef5ede891b3fa688",
+    "bytes": 4900003,
+    "pages": 19,
+    "page_text_path": "evidence/dataset9/D9-03/pages.json"
+  },
+  {
+    "batch_id": "D9-04",
+    "file_id": "file_00000000e1b882119197561cc303ccde",
+    "filename": "201906_ENG.pdf",
+    "path": "original/dataset9/D9-04/201906_ENG.pdf",
+    "sha256": "8dd05c546e03c8d442612d716d3c1e89bf382640377f8a312808270b1ae4aae2",
+    "bytes": 4825456,
+    "pages": 19,
+    "page_text_path": "evidence/dataset9/D9-04/pages.json"
+  }
+]

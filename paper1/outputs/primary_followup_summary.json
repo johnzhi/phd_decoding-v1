@@ -1,0 +1,22 @@
+{
+  "uploaded_files": 4,
+  "retained_primary_pdfs": 3,
+  "indexed_primary_pages": 46,
+  "targeted_primary_value_records": 100,
+  "verified_loading_tests": 7,
+  "reported_voyage_phase_records": 3,
+  "verified_well_month_pairs": 10,
+  "verified_Moebetsu_monthly_pairs": 2,
+  "reproduced_calculations": 14,
+  "current_compilation_primary_verified": 33,
+  "current_compilation_derived_from_primary": 2,
+  "current_compilation_pending": 25,
+  "nominal_EOS_gas_reference_cases": 4,
+  "conditional_rounding_straddles": 3,
+  "conditional_rounding_entirely_below": 1,
+  "formation_label_issue_resolved": false,
+  "monthly_pressure_reference_verified": false,
+  "native_telemetry_received": false,
+  "model_inputs_or_optimisation_results_changed": false,
+  "complete_lca": false
+}

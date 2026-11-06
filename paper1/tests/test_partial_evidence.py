@@ -6,21 +6,22 @@ def read(p):
  with (ROOT/p).open(encoding='utf-8-sig') as f:return list(csv.DictReader(f))
 
 class PartialEvidenceChecks(unittest.TestCase):
- def test_original_identity_and_no_primary_validation_claim(self):
+ def test_original_identity_and_current_primary_boundary(self):
   m=json.loads((ROOT/'data/dataset8_manifest.json').read_text());self.assertEqual(len(m),2)
   for x in m:self.assertEqual(hashlib.sha256((ROOT/x['path']).read_bytes()).hexdigest(),x['sha256'])
   s=json.loads((ROOT/'outputs/partial_evidence_summary.json').read_text())
-  self.assertEqual(s['primary_pdfs_verified'],0);self.assertEqual(s['calibrated_model_inputs_added'],0)
+  self.assertEqual(s['primary_pdfs_verified'],3);self.assertEqual(s['calibrated_model_inputs_added'],0)
   for k in ['native_telemetry_received','maximum_rate_array_received','pressure_datum_verified','new_capture_GHG_or_shipping_fuel_model','complete_lca']:self.assertFalse(s[k])
-  leads=read('data/partial_primary_source_leads.csv');self.assertEqual(len(leads),9);self.assertTrue(all(x['status']=='LINK_ONLY_PRIMARY_NOT_RETAINED' for x in leads))
+  leads=read('data/partial_primary_source_leads.csv');self.assertEqual(len(leads),9);self.assertEqual(sum(x['status']=='LINK_ONLY_PRIMARY_NOT_RETAINED' for x in leads),6)
  def test_every_numeric_workbook_cell_is_preserved_without_model_eligibility(self):
   with gzip.open(ROOT/'evidence/reference_workbooks/D8-02_cells.jsonl.gz','rt') as f:cells={(x['sheet'],x['cell']):x for x in map(json.loads,f)}
   rows=read('data/partial_compilation_values.csv');self.assertEqual(len(rows),60);self.assertEqual(len({x['value_id'] for x in rows}),60)
   numeric={key for key,x in cells.items() if x['value_type']=='n' and isinstance(x['cached_value'],(int,float))}
   represented=set()
   for x in rows:
-   self.assertEqual(x['status'],'SUPPLIED_TRANSCRIPTION_PRIMARY_PENDING_NOT_MODEL_INPUT')
-   self.assertEqual(x['primary_pdf_retained'],'False');self.assertEqual(x['primary_page_verified'],'False')
+   self.assertIn(x['status'],{'SUPPLIED_TRANSCRIPTION_PRIMARY_PENDING_NOT_MODEL_INPUT','PRIMARY_VALUE_VERIFIED_CONTEXT_ONLY_NOT_CALIBRATED_INPUT','DERIVED_FROM_VERIFIED_PRIMARY_INPUTS_NOT_CORRECTED_OBSERVATION'})
+   self.assertEqual(x['original_compilation_status'],'SUPPLIED_TRANSCRIPTION_PRIMARY_PENDING_NOT_MODEL_INPUT')
+   if x['status']=='SUPPLIED_TRANSCRIPTION_PRIMARY_PENDING_NOT_MODEL_INPUT':self.assertEqual(x['primary_pdf_retained'],'False');self.assertEqual(x['primary_page_verified'],'False')
    key=x['sheet'],x['cell'];c=cells[key]['cached_value']
    if key in numeric:self.assertEqual(Decimal(str(c)),Decimal(x['value']));represented.add(key)
    else:self.assertIn(str(x['value']),str(c))

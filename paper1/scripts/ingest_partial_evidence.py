@@ -122,13 +122,17 @@ def plot(rows):
  import matplotlib.pyplot as plt
  fig,axes=plt.subplots(3,1,figsize=(8,6.8),sharex=True)
  for ax,(field,label,color) in zip(axes,[('actual_injected_t_month','Injection (t/month)','#28677d'),('avg_bhp_MPa_basis_unverified','Reported average BHP\n(MPa; basis unverified)','#826098'),('avg_bottomhole_temp_C','Reported average\nbottomhole temperature (°C)','#a16438')]):
-  valid=[x for x in rows if x[field]!=''];ax.scatter([date.fromisoformat(x['month']+'-15') for x in valid],[float(x[field]) for x in valid],c=color,s=32)
+  valid=[x for x in rows if x[field]!=''];verified=[x for x in valid if x['status'].startswith('PRIMARY_VALUE_VERIFIED')];pending=[x for x in valid if not x['status'].startswith('PRIMARY_VALUE_VERIFIED')]
+  ax.scatter([date.fromisoformat(x['month']+'-15') for x in pending],[float(x[field]) for x in pending],facecolors='none',edgecolors=color,s=32,label='Compilation only')
+  ax.scatter([date.fromisoformat(x['month']+'-15') for x in verified],[float(x[field]) for x in verified],c=color,s=38,label='Primary value checked')
   ax.set_ylabel(label,fontsize=9);ax.grid(alpha=.2);ax.set_axisbelow(True)
  axes[0].annotate('December amount not supplied',xy=(date(2019,12,15),.88),xycoords=('data','axes fraction'),ha='right',fontsize=8,color='#555')
  import matplotlib.dates as md
  axes[-1].xaxis.set_major_locator(md.MonthLocator());axes[-1].xaxis.set_major_formatter(md.DateFormatter('%b'));axes[-1].set_xlabel('Calendar month, 2019; gaps are not filled')
  fig.suptitle('Partial Tomakomai monthly compilation',fontsize=12)
- fig.text(.5,.015,'Supplied transcription; linked primary PDFs not verified. No connecting interpolation or pressure–rate fit.',ha='center',fontsize=8)
+ axes[0].legend(loc='lower right',fontsize=8,frameon=False)
+ note='Filled: primary-checked May/June values; open: compilation only. No interpolation or pressure–rate fit.' if any(x['status'].startswith('PRIMARY_VALUE_VERIFIED') for x in rows) else 'Supplied transcription; linked primary PDFs not verified. No interpolation or pressure–rate fit.'
+ fig.text(.5,.015,note,ha='center',fontsize=8)
  fig.tight_layout(rect=(0,.035,1,.96))
  for ext in ['png','pdf']:fig.savefig(ROOT/f'outputs/figures/tomakomai_partial_pairs.{ext}',dpi=220)
  plt.close(fig)

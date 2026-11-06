@@ -1,19 +1,22 @@
 {
-  "manuscript_tables": 17,
+  "manuscript_tables": 19,
   "manuscript_embedded_images": 11,
-  "workbook_sheets": 72,
+  "workbook_sheets": 80,
   "verified_workbook_data_rows": {
-    "Partial compilation claims": 60,
-    "Tomakomai partial pairs": 7,
-    "EXCOOL trial leads": 7,
-    "Partial mass reconciliation": 3,
-    "Source issues": 58
+    "Verified primary values": 100,
+    "Verified loading tests": 7,
+    "EXCOOL voyage reference": 3,
+    "Primary injection tables": 4,
+    "Primary dated headers": 2,
+    "Primary well means": 10,
+    "Primary calculation checks": 14,
+    "Source issues": 59
   },
-  "unit_tests_passed": 54,
+  "unit_tests_passed": 63,
   "unit_test_command": "python -m unittest discover -s paper1/tests -v",
-  "baseline_commit": "c274c383aacd9be8e3aa974b68c93454aab16c61",
+  "baseline_commit": "9052efbe658010bfe14596d2e4bdde1808c0b3d3",
   "unchanged_model_input_and_result_files": 24,
   "comparison": "CSV records/JSON values compared across Git text-line-ending normalisation; uploaded originals separately SHA256 checked.",
   "new_claims_accepted_as_calibrated_inputs": 0,
-  "scientific_limit": "Provenance/implementation and qualified transcription checks; not native telemetry, physical reservoir calibration or full regional LCA."
+  "scientific_limit": "Primary evidence and within-source component checks; not native telemetry, calibrated maximum injectivity, vessel fuel inventory or full regional LCA."
 }

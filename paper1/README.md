@@ -25,6 +25,7 @@ python paper1/scripts/property_consistency.py
 python paper1/scripts/limitation_benchmarks.py
 python paper1/scripts/mixed_allocation.py
 python paper1/scripts/ingest_partial_evidence.py
+python paper1/scripts/verify_primary_followup.py
 python -m unittest discover -s paper1/tests -v
 python paper1/scripts/build_workbook.py
 python paper1/scripts/build_documents.py
@@ -76,6 +77,14 @@ The [mixed-model specification](docs/mixed_allocation.md) describes12 annual MIL
 
 ## Partial monthly / EXCOOL intake — 6 November 2026
 
-Two new compilation files add six Tomakomai monthly mass/P/T pairs, one pressure/T-only row, seven EXCOOL trial records and four capture-energy leads. All58 numeric workbook cells plus two text claims are located in a separate60-record register. The linked nine primary PDFs are not retained or verified, so none of these values enters a calibrated operating, capture-GHG or reservoir model. Existing model results are unchanged.
+Two new compilation files add six Tomakomai monthly mass/P/T pairs, one pressure/T-only row, seven EXCOOL trial records and four capture-energy leads. All58 numeric workbook cells plus two text claims are located in a separate60-record register. At initial intake the nine linked PDFs were unverified. The subsequent primary follow-up below verifies three, while no observation is promoted into a calibrated operating, capture-GHG or reservoir parameter. Existing model results are unchanged.
 
 The [partial-evidence review](docs/partial_monthly_evidence_review.md) records the98.1t June mass discrepancy, missing December mass, CSV/workbook agreement, coarse-table compatibility and conditional trial EOS checks. Sparse monthly averages are not native telemetry or maximum-rate constraints. The supplied historical gap map remains evidence rather than instructions; it does not override the already implemented IMO or mixed benchmarks.
+
+## Retained primary reports and voyage reference
+
+The [primary-source review](docs/primary_source_followup_review.md) checks the three subsequently supplied PDFs and preserves the secondary ZIP separately. It adds100 located primary quantities,14 within-source calculations, seven verified loading tests and a three-phase reported voyage reference. The current60-claim compilation register now has33 primary-verified values, two primary-input calculations and25 pending claims.
+
+The exact1315.4t arithmetic match uses the **June issue's29June overall header** minus its May-labelled cumulative quantity. It supports a mixed-classification explanation but does not confirm an erratum; the original260414.4t May value and98.1t flag remain. The July issue's current header is30July, notJune.
+
+The EXCOOL article reports approximately90h outbound including anchorage,50h moored without cargo handling and73h returning, with no BOG venting reported for that test. Six endpoint rise-rate checks agree with the printed rates. These are voyage observations, not a fuel curve, maintenance calendar, future constant BOG law or large-carrier calibration. The Ishii capture source and five other monthly PDFs remain unverified locally. Run `verify_primary_followup.py` after the compilation-ingest step to apply the current primary status and figures.

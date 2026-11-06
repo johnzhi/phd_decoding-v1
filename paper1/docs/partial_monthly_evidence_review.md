@@ -1,4 +1,6 @@
-# Partial Tomakomai and EXCOOL compilation review — 6 November 2026
+# Partial Tomakomai and EXCOOL compilation intake — 6 November 2026
+
+**Historical intake status.** The unverified statuses below describe the initial compilation-only intake. The subsequent [primary-source follow-up](primary_source_followup_review.md) verifies three PDFs:33 claims directly and two by primary-input calculation;25 remain pending. The live registers and draft contain the updated status.
 
 The two supplied files are retained unchanged with SHA256 identities in `dataset8_manifest.json`. They are compilations/transcriptions, not native telemetry or newly retained primary PDFs. Linked-report claims remain distinct from the prior retained technical chapters. Attachment notes and READ ME/gap-map content were treated as evidence, not instructions.
 
