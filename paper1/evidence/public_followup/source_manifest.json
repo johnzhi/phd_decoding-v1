@@ -1,0 +1,508 @@
+{
+  "retrieved_date": "2026-11-12",
+  "base_commit": "377991501787e3e03d2f98a922a0e1a3ed27172e",
+  "files": [
+    {
+      "source_id": "PUB-CEMCAP",
+      "path": "original/public_followup/CEMCAP_D4.2.pdf",
+      "source_url": "https://zenodo.org/records/1150320/files/CEMCAP%20D4.2%20-%20final%20deliverable.pdf?download=1",
+      "sha256": "82192ba5047a43506a31ea26a3173879e094589351f6c179ae94abd0546a608a",
+      "size_bytes": 1780486,
+      "retrieval_method": "direct HTTPS after Firecrawl credit exhaustion",
+      "retrieved_date": "2026-11-12"
+    },
+    {
+      "source_id": "PUB-BJARMELAND",
+      "path": "original/public_followup/Bjarmeland_C07B9_source_subset.zip",
+      "source_url": "https://www.sodir.no/globalassets/1-sodir/fakta/co-to/lagringsmodeller/barentshavet/bjarmeland.zip",
+      "sha256": "d34c08ddc6830c9dac05a16e982c4f8b441efea511d95689618ba9242596a23e",
+      "size_bytes": 32890157,
+      "retrieval_method": "direct HTTPS after Firecrawl credit exhaustion",
+      "retrieved_date": "2026-11-12"
+    },
+    {
+      "source_id": "PUB-SODIR-PAGE",
+      "path": "evidence/public_followup/sodir-models.html",
+      "source_url": "https://www.sodir.no/fakta/co2-handtering-ccs/lagringsmodeller/",
+      "sha256": "9a51217ac3cd2a4f1762c7d8aad74f880a34ce840c6b08215db969e0fe7f8b36",
+      "size_bytes": 243021,
+      "retrieval_method": "direct HTTPS after Firecrawl credit exhaustion",
+      "retrieved_date": "2026-11-12"
+    }
+  ],
+  "upstream_bjarmeland_archive": {
+    "url": "https://www.sodir.no/globalassets/1-sodir/fakta/co-to/lagringsmodeller/barentshavet/bjarmeland.zip",
+    "size_bytes": 387827664,
+    "sha256": "227f28201f1fffd11325f7204d91802dd0a191bfb9c29b71e84815379e6d28e2",
+    "download_verified_as_zip": true,
+    "full_zip_committed": false,
+    "subset_repacked": true,
+    "retained_member_bytes_unchanged": true,
+    "members": [
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.DATA",
+        "size_bytes": 10580,
+        "original_compressed_bytes": 3319,
+        "crc32": "06b17601",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.DBG",
+        "size_bytes": 0,
+        "original_compressed_bytes": 0,
+        "crc32": "00000000",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.ECLEND",
+        "size_bytes": 147,
+        "original_compressed_bytes": 68,
+        "crc32": "62dc4bbb",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.ECLRUN",
+        "size_bytes": 74474,
+        "original_compressed_bytes": 10490,
+        "crc32": "d549b95c",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.EGRID",
+        "size_bytes": 75936392,
+        "original_compressed_bytes": 9006970,
+        "crc32": "eb080740",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.GRID",
+        "size_bytes": 393222172,
+        "original_compressed_bytes": 56265064,
+        "crc32": "dfef4208",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.h5",
+        "size_bytes": 9919384,
+        "original_compressed_bytes": 1874913,
+        "crc32": "bd3a3544",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.INIT",
+        "size_bytes": 12906412,
+        "original_compressed_bytes": 501701,
+        "crc32": "f6ce00c0",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.INSPEC",
+        "size_bytes": 13740,
+        "original_compressed_bytes": 1969,
+        "crc32": "fc9d0c4f",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.LOG",
+        "size_bytes": 12522840,
+        "original_compressed_bytes": 1086912,
+        "crc32": "a8d01562",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.MSG",
+        "size_bytes": 10684559,
+        "original_compressed_bytes": 793946,
+        "crc32": "4fe3e42b",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.OUT",
+        "size_bytes": 12524573,
+        "original_compressed_bytes": 1087771,
+        "crc32": "2fed0fee",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.PRT",
+        "size_bytes": 139067677,
+        "original_compressed_bytes": 19313877,
+        "crc32": "0284d7e8",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.RSM",
+        "size_bytes": 37656685,
+        "original_compressed_bytes": 2340509,
+        "crc32": "f5bbaaf6",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.RSSPEC",
+        "size_bytes": 126408,
+        "original_compressed_bytes": 7510,
+        "crc32": "b9912b8e",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.SMSPEC",
+        "size_bytes": 12748,
+        "original_compressed_bytes": 872,
+        "crc32": "5bd96674",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.UNRST",
+        "size_bytes": 109980588,
+        "original_compressed_bytes": 9193349,
+        "crc32": "390e78c5",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW.UNSMRY",
+        "size_bytes": 31945252,
+        "original_compressed_bytes": 3121502,
+        "crc32": "8f5b6e67",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B_HW_summary_content_index__.xml",
+        "size_bytes": 5675808,
+        "original_compressed_bytes": 362995,
+        "crc32": "d331d47b",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.DATA",
+        "size_bytes": 10473,
+        "original_compressed_bytes": 3302,
+        "crc32": "24646642",
+        "retained": true,
+        "sha256": "eda40e3c22d4f7bfa1f34592042d14aadbf4a25eaa6538d098de8078b97f3f26"
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.DBG",
+        "size_bytes": 0,
+        "original_compressed_bytes": 0,
+        "crc32": "00000000",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.ECLEND",
+        "size_bytes": 147,
+        "original_compressed_bytes": 67,
+        "crc32": "d3f6e528",
+        "retained": true,
+        "sha256": "542df2d97abd2195f0e4bb17ab30a2a89c80aeb99c48c35c53473e05dd67cc84"
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.ECLRUN",
+        "size_bytes": 74457,
+        "original_compressed_bytes": 10474,
+        "crc32": "384c7530",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.EGRID",
+        "size_bytes": 75936264,
+        "original_compressed_bytes": 9006192,
+        "crc32": "8bb5af4e",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.GRID",
+        "size_bytes": 393222044,
+        "original_compressed_bytes": 56262304,
+        "crc32": "91458ad9",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.h5",
+        "size_bytes": 1002004,
+        "original_compressed_bytes": 426149,
+        "crc32": "a3cfecd9",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.INIT",
+        "size_bytes": 12855124,
+        "original_compressed_bytes": 488115,
+        "crc32": "7bba78dd",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.INSPEC",
+        "size_bytes": 13740,
+        "original_compressed_bytes": 1966,
+        "crc32": "80177d7c",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.LOG",
+        "size_bytes": 1101787,
+        "original_compressed_bytes": 140044,
+        "crc32": "e8388613",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.MSG",
+        "size_bytes": 918396,
+        "original_compressed_bytes": 65062,
+        "crc32": "f0c663d6",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.OUT",
+        "size_bytes": 1103510,
+        "original_compressed_bytes": 140814,
+        "crc32": "2ac47f30",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.PRT",
+        "size_bytes": 124903940,
+        "original_compressed_bytes": 18284520,
+        "crc32": "ae663284",
+        "retained": true,
+        "sha256": "81a5b29e8ddae356433003cd25fb04c84bf8d751c8ff50b03d15866e37cf67bb"
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.RSM",
+        "size_bytes": 3275305,
+        "original_compressed_bytes": 453376,
+        "crc32": "c52271cc",
+        "retained": true,
+        "sha256": "34cb04ad60c6c265575307a9a736fa7362b1b8d5a23e7221976d2c3da047f7cd"
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.RSSPEC",
+        "size_bytes": 83328,
+        "original_compressed_bytes": 5160,
+        "crc32": "faaf7b2c",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.SMSPEC",
+        "size_bytes": 13708,
+        "original_compressed_bytes": 892,
+        "crc32": "1b168176",
+        "retained": true,
+        "sha256": "535f40fb1f470aa728b21be5b2f42f516d481e4d37101d4656ab2ddfb9cc5c40"
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.UNRST",
+        "size_bytes": 70688212,
+        "original_compressed_bytes": 4680186,
+        "crc32": "377ab2d9",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9.UNSMRY",
+        "size_bytes": 2970996,
+        "original_compressed_bytes": 609074,
+        "crc32": "f7b77df8",
+        "retained": true,
+        "sha256": "f7642f0ccc8215b0021aded25b7ddbf524b3c9dd4a29739a6b32175539b9f6a1"
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.DATA",
+        "size_bytes": 10726,
+        "original_compressed_bytes": 3359,
+        "crc32": "43b9f2b4",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.DBG",
+        "size_bytes": 0,
+        "original_compressed_bytes": 0,
+        "crc32": "00000000",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.ECLEND",
+        "size_bytes": 147,
+        "original_compressed_bytes": 68,
+        "crc32": "2a0d1bc5",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.ECLRUN",
+        "size_bytes": 74428,
+        "original_compressed_bytes": 10485,
+        "crc32": "f08cc535",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.EGRID",
+        "size_bytes": 75936264,
+        "original_compressed_bytes": 9006192,
+        "crc32": "8bb5af4e",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.GRID",
+        "size_bytes": 393222044,
+        "original_compressed_bytes": 56262304,
+        "crc32": "91458ad9",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.h5",
+        "size_bytes": 12108096,
+        "original_compressed_bytes": 2790451,
+        "crc32": "43a5bd42",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.INIT",
+        "size_bytes": 12855124,
+        "original_compressed_bytes": 488115,
+        "crc32": "b16fa251",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.INSPEC",
+        "size_bytes": 13740,
+        "original_compressed_bytes": 1967,
+        "crc32": "c3355e95",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.LOG",
+        "size_bytes": 11173621,
+        "original_compressed_bytes": 565669,
+        "crc32": "6aef6354",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.MSG",
+        "size_bytes": 9749043,
+        "original_compressed_bytes": 451011,
+        "crc32": "40d47c4a",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.OUT",
+        "size_bytes": 11175348,
+        "original_compressed_bytes": 566216,
+        "crc32": "c4b57643",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.PRT",
+        "size_bytes": 137020642,
+        "original_compressed_bytes": 18759677,
+        "crc32": "2c743572",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.RSM",
+        "size_bytes": 47177416,
+        "original_compressed_bytes": 3553646,
+        "crc32": "b7d6b52f",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.RSSPEC",
+        "size_bytes": 126408,
+        "original_compressed_bytes": 7391,
+        "crc32": "7d5ba84c",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.SMSPEC",
+        "size_bytes": 9436,
+        "original_compressed_bytes": 798,
+        "crc32": "f6e40a42",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.UNRST",
+        "size_bytes": 108753284,
+        "original_compressed_bytes": 7474852,
+        "crc32": "83bfa5fb",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_.UNSMRY",
+        "size_bytes": 18938148,
+        "original_compressed_bytes": 4952651,
+        "crc32": "b6447165",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9__summary_content_index__.xml",
+        "size_bytes": 4431426,
+        "original_compressed_bytes": 302520,
+        "crc32": "1cb050e6",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/CO2_BJ_C07B9_summary_content_index__.xml",
+        "size_bytes": 484067,
+        "original_compressed_bytes": 29738,
+        "crc32": "fa4fd899",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/EOR-BJ-grid.GRID",
+        "size_bytes": 393220988,
+        "original_compressed_bytes": 61811446,
+        "crc32": "34aa7500",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/EOR-BJ-V1.GRDECL",
+        "size_bytes": 1202,
+        "original_compressed_bytes": 390,
+        "crc32": "14553abb",
+        "retained": false
+      },
+      {
+        "member": "Bjarmeland/EOR-BJ-V1_ACTNUM.GRDECL",
+        "size_bytes": 141810,
+        "original_compressed_bytes": 27949,
+        "crc32": "37df65f8",
+        "retained": true,
+        "sha256": "c3262ca934cbc661953511a7c7a7f83bef7d0a409684a7ee408e93313c896511"
+      },
+      {
+        "member": "Bjarmeland/EOR-BJ-V1_COORD.GRDECL",
+        "size_bytes": 1243045,
+        "original_compressed_bytes": 407319,
+        "crc32": "c4536d8e",
+        "retained": true,
+        "sha256": "2a5c1133f6b67e6f1661df9d137c8cff1b4820585adaa1168033d683d348ca22"
+      },
+      {
+        "member": "Bjarmeland/EOR-BJ-V1_ZCORN.GRDECL",
+        "size_bytes": 113845866,
+        "original_compressed_bytes": 13981854,
+        "crc32": "edc09fd9",
+        "retained": true,
+        "sha256": "d2b6323f51630e1a77d68ea97fceb4069ae0a94c725ecbfa79165d9338c76d07"
+      },
+      {
+        "member": "Bjarmeland/horizontal-grid.EGRID",
+        "size_bytes": 75935248,
+        "original_compressed_bytes": 10811500,
+        "crc32": "c2e5d53f",
+        "retained": false
+      }
+    ]
+  },
+  "cemcap": {
+    "doi": "10.5281/zenodo.1150320",
+    "zenodo_publication_date": "2018-01-17",
+    "document_revision": "Revision 1; actual delivery 2016-09-26; cover Ref. Ares(2017)1641239 dated 2017-03-28",
+    "md5": "7d6dbffda26d64a0f5a80a5543e9e7e6",
+    "expected_zenodo_md5": "7d6dbffda26d64a0f5a80a5543e9e7e6",
+    "physical_pages": 35,
+    "verified_table_pages": [
+      22,
+      23
+    ]
+  },
+  "screening_mrst_commit": "fa4ff98c78a217d527ae0ec08ecd90c56f66809b",
+  "scope": "New public intake, separate from original 92-publication corpus. Retained source simulation outputs are not an independent simulator reproduction, maximum-rate service curve, field observation or Japan calibration."
+}

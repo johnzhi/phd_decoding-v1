@@ -41,3 +41,7 @@ Approximate outbound/moored/return durations are90/50/73h. Outbound includes off
 ## What changes
 
 Source status,14 within-source calculations, conditional property checks, the draft and workbook are updated. Existing operating, mixed-allocation and GHG results are unchanged. No large-carrier parameter or annual physical injection array is replaced by these observations. The Ishii capture-energy PDF and other five monthly PDFs remain unverified locally; native full-resolution rate/P/T with reference/control metadata and actual fuel/utility data remain priorities.
+
+## Subsequent public-source intake — 12 November 2026
+
+The [public reservoir/capture review](public_reservoir_capture_review.md) adds an official Norwegian Bjarmeland model with a 225 bar absolute BHP control and 4,951 paired native simulation rows, plus three verified CEMCAP heat/electricity/compression pairs. Their sources and provenance are separate from the three PDFs audited above. They provide disclosed geographic/process references without changing the Tomakomai mass/datum findings or promoting the unverified Ishii leads. Achieved volumetric simulation rates are not maximum annual mass service; complete reported capture heat/work is not a complete facility or lifecycle inventory. Regional integration still requires a reservoir rerun, effective-completion/warning checks and utility/conditioning compatibility.

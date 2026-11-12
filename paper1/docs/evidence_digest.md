@@ -16,13 +16,13 @@ The Google Drive folder was not ingested: no callable Drive capability was avail
 
 ## Reference-data update
 
-The later reference-data intake has104 uploads:100 accessible files and95 distinct accessible binaries; four oversized IBDP reports remain unavailable. These include official factors, NETL files, IMO guidance, dataset snapshots and IBDP reports/catalogues. They are catalogued separately from the original92-publication literature review. Page text is indexed, but targeted scientific review covers only the components used or screened for model suitability. See [reference review](reference_dataset_review.md) for the source-specific findings.
+The later reference-data intake has104 uploads:100 accessible files and95 distinct accessible binaries; four oversized IBDP reports remain unavailable. These include official factors, NETL files, IMO guidance, dataset snapshots and IBDP reports/catalogues. They are catalogued separately from the original 92-publication literature review. Page text is indexed, but targeted scientific review covers only the components used or screened for model suitability. See [reference review](reference_dataset_review.md) for the source-specific findings.
 
 The new dedicated registers contain77 located reference-inventory inputs,8 derived NETL capture cases and12 located Illinois simulation quantities. They overlap original source material and are not additional independent measurements. The current Japanese tables contain3,269 located factor records; the raw17-workbook archive holds1,013,036 cached/formula cells including errors, not validated observations. Two wave snapshots yield34 located variables and no weather calendar. The source-driven extension produces2,980 partial inventory comparisons; complete net avoided GHG remains uncomputed.
 
 ## Japanese case-evidence update
 
-The third intake adds26 uploads,25 accessible files and1,186 indexed pages across17 PDFs. Its420 located quantities and separate source-native exports are reviewed in [the case-evidence report](case_evidence_review.md). Tomakomai provides45 monthly records,17 shut-in/test windows, nine fall-off interpretations and conditional pressure/capacity scenarios. These are historical observations and source-model outputs, not independently calibrated annual maximum service. The original92-publication coverage counts remain unchanged until the separate deepening review is completed.
+The third intake adds26 uploads,25 accessible files and1,186 indexed pages across17 PDFs. Its420 located quantities and separate source-native exports are reviewed in [the case-evidence report](case_evidence_review.md). Tomakomai provides45 monthly records,17 shut-in/test windows, nine fall-off interpretations and conditional pressure/capacity scenarios. These are historical observations and source-model outputs, not independently calibrated annual maximum service. The original 92-publication coverage counts remain unchanged until the separate deepening review is completed.
 
 Northern Lights components support8 derived checks and100 optional sensitivity rows. The Japanese source exports contain an unresolved ENEOS/Nippon Steel mismatch. The CPPI annex is now archived. The IBDP ZIP remains unavailable because of the32MiB transfer limit. No uninspected ZIP content is claimed as evidence.
 
@@ -792,7 +792,7 @@ Reading stage: Targeted methods/results extraction (follow-up full-text review).
 
 Industrial capture process models span target-stream5/10/15/94mol% CO2 and multiple flow scales. Low-concentration cases use30wt% MEA,95% design capture and natural-gas cogeneration supplying parasitic heat/electricity; high-purity cases use dehydration/compression with grid electricity and a small gas boiler. Capturing cogeneration CO2 is a distinct larger system.
 
-Coupled mass/carbon/energy balances show why capturing cogeneration emissions increases capture equipment/load and changes the functional denominator. The text reports about3.6GJ/t heat for low-concentration MEA cases and93% HHV cogeneration efficiency(84%steam,9%electricity). Compression reaches86barg before pumping to110barg; these are not ship-liquefaction conditions.
+Coupled mass/carbon/energy balances show why capturing cogeneration emissions increases capture equipment/load and changes the functional denominator. The text reports about3.6GJ/t heat for low-concentration MEA cases and93% HHV cogeneration efficiency(84%steam,9%electricity). Compression reaches86barg before pumping to 110 barg; these are not ship-liquefaction conditions.
 
 Transfer limits: Cost correlations by concentration/technology maturity are not lifecycle factors. Simulation capacities are full8760h design equivalents, not actual plant calendars. Pretreatment is not physically generalised and key process/equipment details are in unsupplied SI. Do not add grid or heat-supply emissions on top of the same cogeneration supply or apply capture fraction twice.
 
@@ -1054,3 +1054,9 @@ Transfer limits: Table 1 density is conditionally selected and reproduces 75 sou
 ## Operational-model update
 
 The new forward model uses a separate 30-row located parameter register, supplementary source/schedule datasets and declared structural conventions. It produces144 comparisons and 36 contrasts, plus equal-injection, added-vessel and fleet-adequacy controls. Complete lifecycle net avoided GHG remains uncomputed. Refer to the [operational-model scope](operational_model.md) and the current manuscript; this extends the earlier supporting benchmarks.
+
+## Public reservoir/capture follow-up — 12 November 2026
+
+The [new primary-source review](public_reservoir_capture_review.md) retains the Norwegian Offshore Directorate's Bjarmeland case CO2_BJ_C07B9 with its input dependencies, native summaries and source warnings. Its4,951 paired records obey a 225 bar absolute BHP ceiling; six initial records are pressure-limited below the 1.5 millionSM3/day target. This is an oil/water/gas model with production and boundary multipliers, not observed or maximum annual mass storage service. No tonnes or retained-carbon credit are inferred from standard volumes.
+
+CEMCAP D4.2 Table 5.3 adds 42 located values and three complete paired reported MEA heat/work inventories. The design case uses 3.832GJ/t captured and 126.694kWh/t including compression, at 116.8°C/2.45bara steam and 110 bar product as printed. Cooling duty, solvent-solution makeup and process boundaries remain explicit. Actual utilities, upstream pretreatment/cooling supply and ship conditioning remain unverified; full facility/LCA coverage is not claimed. Firecrawl discovery and its credit-exhaustion fallback to native HTTPS downloads are recorded. Unverified parser-generated graph values and unmatched model inputs are excluded. Existing operating/GHG results remain unchanged.

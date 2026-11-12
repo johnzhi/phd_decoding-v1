@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "data": {
+    "web": [],
+    "tools": [
+      {
+        "provider": "iea-org",
+        "capability": "energy/dataset",
+        "description": "One dataset's metadata with a live probe of api.iea.org: year_min/year_max actually served, last_updated (MES latest published month or prices updated_at), coverage count, license, endpoint and cadence. Refused datasets are described but flagged."
+      },
+      {
+        "provider": "census-gov",
+        "capability": "census/saipe_status",
+        "description": "Before a collection run, to learn the current SAIPE year and whether the files changed."
+      },
+      {
+        "provider": "iea-org",
+        "capability": "energy/datasets",
+        "description": "Catalog of IEA datasets: every free CC BY 4.0 dataset served by api.iea.org (energy balances, electricity and heat, oil, gas, CO2 from fuel combustion, monthly electricity statistics, energy prices, monthly oil prices) plus the paid and account-gated products that `data` refuses, each with its license. No network call; `last_updated` is null here and probed live by `dataset`."
+      },
+      {
+        "provider": "census-gov",
+        "capability": "census/saipe_list",
+        "description": "Full collection of county poverty counts/rates and median household income for a year, optionally for one state."
+      },
+      {
+        "provider": "census-gov",
+        "capability": "census/saipe_get",
+        "description": "Fetch one county's poverty and median household income estimates (Gallatin County: state 30, county 031)."
+      }
+    ]
+  },
+  "id": "01a1cfa6-22e0-74bd-9a82-379c0ad2a519",
+  "creditsUsed": 0,
+  "agent_hints": [
+    "No web results were returned. If the task is still unresolved, use firecrawl_search again with {\"query\":\"<broader or alternative query>\",\"sources\":[\"web\"]}."
+  ],
+  "conversationId": "8ff86921-e51f-81b4-8c5b-bdada97865df"
+}

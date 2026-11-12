@@ -1,0 +1,8 @@
+value_id,source_id,keyword,value,unit,source_member,line_1based,source_token,interpretation,status,use_as_regional_calibrated_input
+BJ_injector_pressure_ceiling,PUB-BJARMELAND,WCONINJE,225,bar absolute; RSM WBHP BARSA,Bjarmeland/CO2_BJ_C07B9.DATA,542,GI    GAS      OPEN   RATE 1.5E6   1*   225,injector_pressure_ceiling,SOURCE_MODEL_CONTROL,False
+BJ_injector_surface_rate_target,PUB-BJARMELAND,WCONINJE,1.5E6,SM3/day; RSM WGIR,Bjarmeland/CO2_BJ_C07B9.DATA,542,GI    GAS      OPEN   RATE 1.5E6   1*   225,injector_surface_rate_target,SOURCE_MODEL_CONTROL,False
+BJ_reservoir_temperature,PUB-BJARMELAND,RTEMP,43,degC,Bjarmeland/CO2_BJ_C07B9.DATA,350,43 /,reservoir_temperature,SOURCE_MODEL_ASSUMPTION,False
+BJ_initial_pressure,PUB-BJARMELAND,EQUALS,151,bar; METRIC deck,Bjarmeland/CO2_BJ_C07B9.DATA,409,PRESSURE 151 /,initial_pressure,SOURCE_MODEL_ASSUMPTION,False
+BJ_base_porosity_before_overrides,PUB-BJARMELAND,EQUALS,.22,fraction,Bjarmeland/CO2_BJ_C07B9.DATA,69,PORO  0.22,base_porosity_before_overrides,SOURCE_MODEL_ASSUMPTION,False
+BJ_base_horizontal_permeability,PUB-BJARMELAND,EQUALS,900,mD; METRIC deck,Bjarmeland/CO2_BJ_C07B9.DATA,71,PERMX  900,base_horizontal_permeability,SOURCE_MODEL_ASSUMPTION,False
+BJ_base_vertical_permeability,PUB-BJARMELAND,EQUALS,450,mD; METRIC deck,Bjarmeland/CO2_BJ_C07B9.DATA,73,PERMZ  450,base_vertical_permeability,SOURCE_MODEL_ASSUMPTION,False

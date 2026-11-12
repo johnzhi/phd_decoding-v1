@@ -1,0 +1,62 @@
+{
+  "source_id": "PUB-BJARMELAND",
+  "case_id": "CO2_BJ_C07B9",
+  "paired_records": 4951,
+  "source_rsm_sha256": "34cb04ad60c6c265575307a9a736fa7362b1b8d5a23e7221976d2c3da047f7cd",
+  "source_deck_sha256": "eda40e3c22d4f7bfa1f34592042d14aadbf4a25eaa6538d098de8078b97f3f26",
+  "first_time_days": "1.000000",
+  "last_time_days": "18263.00",
+  "pressure_reference": "BARSA: absolute",
+  "max_injector_bhp_bar": "225.0000",
+  "injection_bhp_ceiling_bar": 225,
+  "records_above_pressure_ceiling": 0,
+  "rate_unit": "SM3/DAY",
+  "min_injection_rate": "853622.5",
+  "max_injection_rate": "1500000",
+  "rate_target_sm3_day": 1500000,
+  "records_below_rate_target": 6,
+  "cumulative_injected_sm3_as_printed": "2.74E+10",
+  "records_at_pressure_ceiling": 6,
+  "field_well_injection_series_agree": true,
+  "includes_resolved": [
+    "EOR-BJ-V1_COORD.GRDECL",
+    "EOR-BJ-V1_ZCORN.GRDECL",
+    "EOR-BJ-V1_ACTNUM.GRDECL"
+  ],
+  "source_run_end_report": "Error summary \n Comments               0\n Warnings               7\n Problems               0\n Errors                 0\n Bugs                   0",
+  "warnings": [
+    {
+      "line_1based": 1761164,
+      "text": "         100  Reading COMPDAT \n @--Warning\n @ Well GI completed in inactive cell                                      \n @  28 66 25                                                               \n @ Completion ignored                                                      \n         101  Reading WELLSTRE"
+    },
+    {
+      "line_1based": 1762712,
+      "text": " MIF ;  1459.3   10.00     0.0    0.0    0.0    0.0    0.0 152.54    0.0    0.0 1.5E06   2   0.18% \n @--Warning at 1459.28072  Days 30 Dec 2018\n @ Linear equations not fully converged - Run may go faster                \n @ if you increase MAXLIN (=40 - TUNING keyword)                           \n @--Message at 1459.28072  Days 30 Dec 2018\n @ Reducing MIF  timestep to  10.00       due to:                          "
+    },
+    {
+      "line_1based": 1763114,
+      "text": " Rep ;  1826.0    3.16     0.0    0.0    0.0    0.0    0.0 152.92    0.0    0.0 1.5E06   2   0.08% \n @--Warning at 1826.00000  Days  1 Jan 2020\n @ Linear equations not converged once for this report step                \n Reached report at        1826.0 Days     Cp/El/Mem:870.4/873.7/1791Mb   (1-Jan-2020)\n------------------------------------------------------------------------------------------------------------------------------  21\n REPORT                 Summary of report step                                 1826.00000  Days  report step   3,  1 Jan 2020"
+    },
+    {
+      "line_1based": 1765134,
+      "text": " MIF ;  4567.7   18.00     0.0    0.0    0.0    0.0    0.0 155.75    0.0    0.0 1.5E06   3   0.26% \n @--Warning at 4567.65139  Days  4 Jul 2027\n @ Linear equations not fully converged - Run may go faster                \n @ if you increase MAXLIN (=40 - TUNING keyword)                           \n @--Message at 4567.65139  Days  4 Jul 2027\n @ Reducing TPT  timestep to  7.500       due to:                          "
+    },
+    {
+      "line_1based": 1765898,
+      "text": " Rep ;  5479.0    0.67     0.0    0.0    0.0    0.0    0.0 156.68    0.0    0.0 1.5E06   1   0.02% \n @--Warning at 5479.00000  Days  1 Jan 2030\n @ Linear equations not converged once for this report step                \n Reached report at        5479.0 Days     Cp/El/Mem:2148.1/2154.3/1791Mb   (1-Jan-2030)\n------------------------------------------------------------------------------------------------------------------------------  31\n REPORT                 Summary of report step                                 5479.00000  Days  report step   5,  1 Jan 2030"
+    },
+    {
+      "line_1based": 1782598,
+      "text": " MIF ; 16120.1   22.00  2938.3 .90956 258.68 2601.6 7.6E05 154.50    0.0    0.0 1.5E06   4   0.40% \n @--Warning at 16120.11125 Days 19 Feb 2059\n @ Linear equations not fully converged - Run may go faster                \n @ if you increase MAXLIN (=40 - TUNING keyword)                           \n @--Message at 16120.11125 Days 19 Feb 2059\n @ Reducing TPT  timestep to  11.00       due to:                          "
+    },
+    {
+      "line_1based": 1783316,
+      "text": " Rep ; 18263.0   13.34  3418.9 .90937 252.20 2530.5 8.6E05 153.95    0.0    0.0 1.5E06   5   0.33% \n @--Warning at 18263.00000 Days  1 Jan 2065\n @ Linear equations not converged once for this report step                \n Reached report at       18263.0 Days     Cp/El/Mem:13601.1/13628.0/1791Mb   (1-Jan-2065)\n------------------------------------------------------------------------------------------------------------------------------  61\n REPORT                 Summary of report step                                 18263.00000 Days  report step  11,  1 Jan 2065"
+    }
+  ],
+  "independently_rerun": false,
+  "maximum_service_curve_generated": false,
+  "mass_conversion_performed": false,
+  "regional_model_inputs_replaced": false,
+  "scope": "Norwegian public compositional oil/water/gas model with pure-CO2 injection, initial porosity overrides and 150x edge-pore-volume multipliers. Producer OP2 shut until 2030 then opened. Achieved simulation schedule under a rate target and pressure ceiling, not saline-only validation or maximum injectivity. One GI completion is ignored as inactive; six solver-convergence warnings are retained. No mass conversion, interpolation, permanent-retention credit or oil counterfactual is inferred."
+}

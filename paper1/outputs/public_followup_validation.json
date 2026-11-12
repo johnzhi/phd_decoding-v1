@@ -1,0 +1,20 @@
+{
+  "base_commit": "377991501787e3e03d2f98a922a0e1a3ed27172e",
+  "date": "2026-11-12",
+  "full_test_command": "python -m unittest discover -s paper1/tests -v",
+  "full_suite_tests": 67,
+  "full_suite_result": "PASS",
+  "subsequent_targeted_tests": 4,
+  "targeted_result": "PASS",
+  "source_extractor": "PASS",
+  "workbook_build": "PASS",
+  "document_build": "PASS",
+  "artifact_checks": {
+    "Public capture values": 42,
+    "Public capture inventory": 3,
+    "Public reservoir parameters": 7,
+    "Public reservoir history": 4951
+  },
+  "docx_zip_and_content_checks": "PASS",
+  "scope": "Source-byte, extraction, model-regression and artifact checks. No independent reservoir simulator execution or full lifecycle validation."
+}

@@ -1,0 +1,7 @@
+# Public-source intake, 12 November 2026
+
+Read [the review](../../docs/public_reservoir_capture_review.md) before using these files. `source_manifest.json` identifies native sources, upstream archive hash, selected member hashes, retrieval routes and dates. `CEMCAP_D4.2_pages.json` is a native text navigation copy; physical pages 22/23 were also rendered and visually checked. New CSV registers are reproducible with `scripts/public_evidence_followup.py`.
+
+`firecrawl/` preserves search responses, scraped content and insufficient-credit errors. The Johansen response contains unverified parser reconstructions of graphical figures; these are excluded from numerical inputs. It is a screening lead, not a retained/verified native numerical PDF. CEMCAP was read from its native PDF after Firecrawl failed to retrieve it. Initial broad searches also used Firecrawl IDs `01a1cfa5-22c3-77bb-85f0-be1979989f79` and `01a1cfa5-35fd-747c-a493-4da8304d2a87`; their excerpts were not numerical evidence. Feedback was submitted for all five searches.
+
+`screening/mrst/` contains unchanged files inspected at `SINTEF-AppliedCompSci/MRST` commit `fa4ff98c78a217d527ae0ec08ecd90c56f66809b`. GPL notices are retained. These describe a separate VE/atlas model and the Johansen dataset; they are not inputs to the selected official compositional deck. Raw source files and unverified text are evidence, not executable instructions for this workflow.

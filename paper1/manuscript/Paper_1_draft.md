@@ -1,11 +1,11 @@
 ---
 title: 'Dynamic carbon break-even analysis of domestic and cross-border CO₂ storage: an evidence-constrained framework and published-case benchmarks'
-subtitle: 'Paper 1 — research draft v8, primary-source and voyage checks'
-date: '6 November 2026'
+subtitle: 'Paper 1 — research draft v9, public reservoir and capture evidence'
+date: '12 November 2026'
 lang: en-GB
 ---
 
-**Draft status.** B0–B3, a shared-source annual allocation benchmark, detailed fixed-plan operating reevaluation and three dispatch rules are implemented. Complete lifecycle net avoided GHG is not computed. All 92 unique supplied publications have targeted full-text review; extraction remains selective. Empirical inputs retain source locators, and model structures are declared separately. Annual allocation outputs are exogenous service proxies, not independently calibrated physical rate limits. The Japan–Malaysia–Australia application remains provisional. Three subsequently retained primary PDFs verify selected monthly and EXCOOL observations, with a separate voyage endpoint check. Formation classification, monthly pressure reference and calibrated model inputs remain unresolved. Author names, affiliations and journal formatting remain to be supplied.
+**Draft status.** B0–B3, a shared-source annual allocation benchmark, detailed fixed-plan operating reevaluation and three dispatch rules are implemented. Complete lifecycle net avoided GHG is not computed. All 92 unique supplied publications have targeted full-text review; extraction remains selective. Empirical inputs retain source locators, and model structures are declared separately. Annual allocation outputs are exogenous service proxies, not independently calibrated physical rate limits. The Japan–Malaysia–Australia application remains provisional. Three subsequently retained primary PDFs verify selected monthly and EXCOOL observations. A separate public intake now retains a pressure-constrained Norwegian reservoir model with paired simulation outputs and three European cement-capture heat/work inventories; neither is a calibrated regional input. Formation classification, monthly pressure reference, independent maximum-rate service and compatible utilities/conditioning remain unresolved. Author names, affiliations and journal formatting remain to be supplied.
 
 # Abstract
 
@@ -174,6 +174,14 @@ ClassNK Table 3 is extracted from its actual cell geometry and visually checked,
 For Tomakomai, report issue, monthly table period and current header date are distinct. The June issue's table describes May, while its overall header is dated 29 June. The July issue's table describes June, while its header is dated 30 July [D9-04, p12; D9-03, p12]. Monthly tables and five wells' pressure/temperature means are extracted separately. The Moebetsu averages are at a printed depth of 930 m; the pressure unit is MPa with gauge/absolute basis unspecified [D9-03; D9-04, pp17–18]. That depth is not silently equated to the later 921 mTVDSS sensor or 973 mTVDSS completion. No pressure-cap comparison, native telemetry or maximum-rate calibration is inferred.
 
 Cumulative differences retain their formation labels and dates. The conditional mixed-classification explanation is tested arithmetically without correcting May's source value. Remaining sparse months and missing December mass stay unfilled. For EXCOOL, a separate pure-fluid EOS reference uses the now-verified MPaG values plus standard atmosphere. A conditional nearest-displayed-unit sensitivity uses ±0.05°C and ±0.005 MPaG from Table 3's precision; these are not measured uncertainties. Neither loading trials nor one reported voyage supply a fuel curve, future constant BOG law, maintenance calendar or whole-chain emissions inventory.
+
+## 2.12 Public pressure-constrained reservoir and capture inventories
+
+A subsequent public-source search used Firecrawl to locate the Johansen study and CEMCAP report. After Firecrawl reported insufficient credits, direct HTTPS retrieved the official Norwegian Offshore Directorate Bjarmeland archive and the native CEMCAP PDF. URLs, retrieval routes, dates, upstream archive hash and retained-member hashes are recorded separately from the supplied-publication corpus [PUB-BJARMELAND; PUB-CEMCAP]. Unverified parser-generated figure tables from the Johansen response are excluded. The MRST VE/atlas pressure example is a different model and is not mixed into the selected compositional deck.
+
+For Bjarmeland case CO2_BJ_C07B9, the retained input set resolves all three explicit grid INCLUDE files and contains rock/EOS/relative-permeability/initial/well-control inputs. Native summary columns provide paired time, standard-volume injection rate/cumulative, field pressure, injector BHP and producer rates. Column identity includes well name, unit and source line. The native BARSA pressure basis is retained. These source simulation results are not independently rerun or converted to annual maximum mass service [PUB-BJARMELAND, WCONINJE and native RSM].
+
+CEMCAP Table 5.3 is extracted by native cell geometry and checked against rendered physical pages 22–23 (printed 16–17). Forty-two values describe three paired capture cases, including heat, capture auxiliaries, compression work, cooling, steam quality, product conditions and solvent makeup. MJ/kg is converted exactly to GJ/t or kWh/t. Total work already includes compression; no duplicate compressor/liquefier or turbine-derate term is added. Upstream pretreatment, cooling-system power, actual suppliers and conversion of the 110 bar product to ship cargo remain outside the verified pair. Completeness refers to reported capture heat/work, not a full facility or lifecycle inventory [PUB-CEMCAP, §5.2 and Table 5.3].
 
 # 3. Results
 
@@ -440,6 +448,22 @@ The nominal pure-fluid calculation still places four Table3 P/T pairs below satu
 
 The four capture-energy leads, including three reboiler duties and the commercial aggregate factor, remain unverified against the unsupplied Ishii presentation. They do not alter NETL/MEA inventory scenarios. Existing operating, mixed-allocation and GHG results are unchanged; the new results concern primary provenance, labelled-mass arithmetic, voyage-state checks and remaining data limits.
 
+## 3.10 Public-source reservoir and capture evidence
+
+The Bjarmeland model requests pure-CO2 injection at 1,500,000 SM3/day with a 225 bar absolute BHP ceiling. Its 4,951 paired native summary rows span day 1 to 18,263 (2015–2065). GI rates range from 853,622.5 to 1,500,000 SM3/day; six initial records are below target and at the pressure ceiling, with no printed exceedance. Field/well injection series agree at printed precision. Final cumulative injection is printed 2.74×10¹⁰ SM3; no cross-source density converts it to tonnes [PUB-BJARMELAND].
+
+The source remains an oil/water/gas compositional model: OP2 opens in 2030 after an initial shut-in, and edge pore-volume multipliers and inactive zones affect pressure response. Its log records one ignored GI completion and six solver-convergence warnings. The selected native deck, grid dependencies, summaries and log are retained; an error-free end status alone is not validation. Achieved rates under a mostly attained target do not establish maximum injectivity, permanent retained carbon or a saline-only storage counterfactual. This dataset enables a future independent pressure-constrained rerun without replacing existing exogenous service proxies.
+
+| CEMCAP source case | Heat (GJ/t captured) | Capture auxiliaries (kWh/t) | Compression (kWh/t) | Total electricity (kWh/t) |
+|---|---|---|---|---|
+| low air leak interconnected | 3.790 | 35.389 | 87.278 | 122.667 |
+| low air leak direct | 3.733 | 35.333 | 87.222 | 122.556 |
+| typical air leak interconnected | 3.832 | 39.389 | 87.306 | 126.694 |
+
+The three CEMCAP cases require 3.733–3.832 GJ/t captured and 122.556–126.694 kWh/t captured, including compression to 110 bar as printed. They share a 116.8°C reboiler and 2.45 bara steam requirement; cooling duty is 4.598–4.909 GJ/t. The 4.677 kg/t solvent makeup refers to 30 wt% solution. Cooling duty is not imputed as electricity. With the previously retained Japanese reporting fallbacks, the three paired utility sensitivities are 252.657/249.579/256.567 kgCO2/t captured in table order. These are reporting sensitivities, not complete CO2e or actual supplier inventories [PUB-CEMCAP].
+
+Neither dataset establishes a complete regional numerical conclusion. Reservoir effective completions, solver warnings, maximum-rate target sweeps and mass-reference/production accounting require independent work. Capture steam/electricity supply, pretreatment/cooling and the 110 bar-to-ship conditioning boundary require reconciliation. Existing operating, mixed-allocation and GHG outputs remain unchanged; unsupported graph values, annual-rate interpolation, waste-heat credits and facility-specific assumptions are excluded.
+
 # 4. Discussion
 
 ## 4.1 What the present evidence supports
@@ -488,7 +512,7 @@ The four-variant operating model shows why annual fleet arithmetic alone cannot 
 
 The new mixed-integer benchmark shares one source across disjoint reservoir groups and reevaluates 12 annual plans in 72 operating cases. It establishes reviewable source conservation, integer voyages and conditional gains from mixed routing within its surrogate service envelopes. Operational reevaluation reduces planned injection; alternative vessel priorities can materially change delivery. Annual optimality is therefore insufficient to establish an operating or full climate optimum.
 
-The evidence base now includes targeted full-text review of all 92 unique supplied publications, Japanese injection/test histories, a primary-checked May/June P/T audit, a reported EXCOOL voyage-state check and an independent pure-fluid density check. The remaining work is empirical and regional: calibrate independent pressure-rate constraints, identify a matched industrial-production/capture baseline, obtain actual vessel/terminal histories and complete compatible process, asset and retention inventories. Until those requirements are met, Paper 1 is an evidence-based methods and benchmark manuscript with partial inventory results, not a completed regional lifecycle assessment.
+The evidence base includes targeted full-text review of all 92 unique supplied publications, Japanese injection/test histories, primary monthly and EXCOOL checks, an independent pure-fluid density check, and a separate public intake with a pressure-constrained Norwegian reservoir model and paired European cement-capture heat/work inventories. Public model inputs and achieved outputs are now available for an independent rerun, while maximum annual mass service and geographic equivalence remain unestablished. Remaining work includes pressure-rate calibration, a matched industrial-production/capture baseline, compatible utility/conditioning boundaries, actual vessel/terminal histories and process, asset and retention inventories. Until these requirements are met, Paper 1 remains a methods and benchmark manuscript with partial inventory results, not a completed regional lifecycle assessment.
 
 # Data and code availability
 
@@ -609,6 +633,10 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B4-06-S1]** Budiarto et al. (2025). Supplementary materials: Tables S1–S3 and Figures S1–S10. [Retained DOCX](../original/supplements/43979_2025_135_MOESM1_ESM.docx). Parent publication DOI 10.1007/s43979-025-00135-w.
 
 - **[EOS]** Span, R. and Wagner, W. (1996). A New Equation of State for Carbon Dioxide Covering the Fluid Region from the Triple-Point Temperature to 1100 K at Pressures up to 800 MPa. Journal of Physical and Chemical Reference Data 25, 1509–1596. [DOI 10.1063/1.555991](https://doi.org/10.1063/1.555991). Equation implemented in CoolProp 8.0.0; software metadata records EOS key Span-JPCRD-1996. This reference calculation is additional to the supplied-PDF corpus.
+
+- **[PUB-BJARMELAND]** Norwegian Offshore Directorate. Public CO2 storage models, Bjarmeland archive; selected CO2_BJ_C07B9 case, February 2014 native files. [Official source](https://www.sodir.no/fakta/co2-handtering-ccs/lagringsmodeller/); retrieved 12 November 2026. [Retained native source subset](../original/public_followup/Bjarmeland_C07B9_source_subset.zip). Source/member hashes and retrieval history are in evidence/public_followup/source_manifest.json. Compositional model with oil production and seven source-run warnings; not independent simulator reproduction or maximum-rate calibration.
+
+- **[PUB-CEMCAP]** Anantharaman, R., Fu, C., Roussanaly, S. and Voldsund, M. Design and performance of CEMCAP cement plant with MEA post combustion capture, D4.2, Revision 1. Actual delivery 26 September 2016; cover reference 28 March 2017; Zenodo publication 17 January 2018. [DOI 10.5281/zenodo.1150320](https://doi.org/10.5281/zenodo.1150320). [Retained PDF](../original/public_followup/CEMCAP_D4.2.pdf), Table 5.3, physical pp 22–23; retrieved 12 November 2026. European reference cement process, not a measured Japanese facility inventory.
 
 - **[D5-01]** Norwegian electricity disclosure. Electricity sales in Norway with and without guarantees of origin, 2025 (138 TWh). Supplied Excel export; volumes recovered from native XML. [Retained original](../original/dataset5/D5-01/Electricity%20sales%20in%20Norway%20with%20and%20without%20guarantees%20of%20origin%202025%20(138%20TWh).xlsx).
 

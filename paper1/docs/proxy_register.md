@@ -58,3 +58,13 @@ These transfers are implemented as component-inventory sensitivities. The near-z
 ## Retained primary monthly / EXCOOL verification
 
 D9-03/04 verify May/June monthly injection and P/T values while retaining formation labels, table/header dates and unspecified monthly pressure/depth reference. D9-02 verifies seven after-loading trial states and a separate reported voyage case. Approximate90/50/73h intervals and six reconstructed mean rise rates are source-specific component benchmarks, not future constant BOG laws or replacements for the international large-carrier fuel/calendar inputs. A50h moored stop without cargo handling is not a terminal transfer-time observation. See [primary review](primary_source_followup_review.md).
+
+## Public-source additions — 12 November 2026
+
+| Component | Source and actual origin | Permitted use | Transfer limit / exclusions |
+|---|---|---|---|
+| Pressure-constrained reservoir dataset | PUB-BJARMELAND, Norwegian Offshore Directorate, case CO2_BJ_C07B9 | Retained native compositional inputs and 4,951 rate/pressure rows; 225 bar absolute BHP/1.5millionSM3/day target audit; future independent proxy rerun | Oil/water/gas model with production, boundary multipliers, ignored completion and six convergence warnings. Achieved SM3 rates are not maximum mass service, Japanese geology, retained carbon or EOR climate benefit. No cross-source density conversion. |
+| Complete reported capture heat/work pairs | PUB-CEMCAP D4.2 Table 5.3, European reference cement process | Three paired heat/auxiliary/compression inventories, steam quality, cooling and product conditions; separate Japanese reporting-factor sensitivity |110bar outlet; ship conditioning unresolved. No duplicate compression/turbine derate, cooling-to-power imputation, waste-heat credit or matched supplier claim. Pretreatment/cooling supply/materials/assets remain outside the verified pair; no full facility/LCA result. |
+| Johansen / MRST leads | Public accepted-manuscript scrape and pinned MRST source | Screening/source discovery only | Unverified figure-to-table parser output excluded. Separate VE 90%-overburden rule and geometry/poro/fluid data are not joined to the compositional deck. |
+
+[Full provenance, results and exclusions](public_reservoir_capture_review.md). This intake remains separate from the original 92-publication corpus and does not replace existing operating inputs.

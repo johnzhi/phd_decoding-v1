@@ -6,6 +6,8 @@ This package contains 92 unique supplied publications (93 PDFs), the original pr
 
 The main draft reports our controlled operating and shared-source benchmarks. The older cross-study score is supporting AppendixA material. Indonesian storage outcomes and Norwegian post-capture intensities are not presented as measured Japanese geology or as a calibrated international project. See [proxy register](docs/proxy_register.md), [data dictionary](docs/data_dictionary.md), and [remaining work](docs/remaining_work.md).
 
+The [12 November public-source follow-up](docs/public_reservoir_capture_review.md) adds a retained Norwegian Bjarmeland pressure-constrained model and 4,951 paired native simulation rows, plus three European CEMCAP paired capture heat/work inventories with 42 source-located quantities. Their geographic/process limits, native-file hashes, seven simulator warnings and excluded evidence are explicit. Achieved volumetric rates are not annual maximum mass service; complete reported heat/work is not full facility/LCA coverage. Existing operating results remain unchanged.
+
 ## Reproduce
 
 From the repository root:
@@ -26,6 +28,7 @@ python paper1/scripts/limitation_benchmarks.py
 python paper1/scripts/mixed_allocation.py
 python paper1/scripts/ingest_partial_evidence.py
 python paper1/scripts/verify_primary_followup.py
+python paper1/scripts/public_evidence_followup.py
 python -m unittest discover -s paper1/tests -v
 python paper1/scripts/build_workbook.py
 python paper1/scripts/build_documents.py
@@ -53,7 +56,7 @@ B0–B3 now run with explicitly declared aggregate service proxies, ship/termina
 
 ## Reference datasets and inventory extension
 
-The next intake contains **104 uploads,100 accessible files and95 distinct accessible binaries**. Four IBDP reports exceed the32MiB transfer-tool limit and are listed as unavailable. This intake is separate from the original92-publication review. Indexing a file does not imply exhaustive scientific review. See the [reference-data review](docs/reference_dataset_review.md) and [specific remaining data requests](docs/reference_data_requests.md).
+The next intake contains **104 uploads,100 accessible files and95 distinct accessible binaries**. Four IBDP reports exceed the32MiB transfer-tool limit and are listed as unavailable. This intake is separate from the original 92-publication review. Indexing a file does not imply exhaustive scientific review. See the [reference-data review](docs/reference_dataset_review.md) and [specific remaining data requests](docs/reference_data_requests.md).
 
 The evidence workbook now includes77 located reference-inventory inputs,8 NETL capture-reference cases,12 Illinois reservoir-simulation quantities,3,269 located current Japanese factor records and34 wave-snapshot variables. Counts overlap their original tables and are not counts of independent observations. The raw native workbook archive retains1,013,036 nonempty/formula cells from17 workbooks, including formulas, cached values and errors; macros and external links were not run. This archive is searchable JSONL in `evidence/reference_workbooks/`, not approved model inputs.
 

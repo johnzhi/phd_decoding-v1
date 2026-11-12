@@ -1,0 +1,34 @@
+{
+  "member": "Bjarmeland/CO2_BJ_C07B9.PRT",
+  "warnings": [
+    {
+      "line_1based": 1761164,
+      "text": "         100  Reading COMPDAT \n @--Warning\n @ Well GI completed in inactive cell                                      \n @  28 66 25                                                               \n @ Completion ignored                                                      \n         101  Reading WELLSTRE"
+    },
+    {
+      "line_1based": 1762712,
+      "text": " MIF ;  1459.3   10.00     0.0    0.0    0.0    0.0    0.0 152.54    0.0    0.0 1.5E06   2   0.18% \n @--Warning at 1459.28072  Days 30 Dec 2018\n @ Linear equations not fully converged - Run may go faster                \n @ if you increase MAXLIN (=40 - TUNING keyword)                           \n @--Message at 1459.28072  Days 30 Dec 2018\n @ Reducing MIF  timestep to  10.00       due to:                          "
+    },
+    {
+      "line_1based": 1763114,
+      "text": " Rep ;  1826.0    3.16     0.0    0.0    0.0    0.0    0.0 152.92    0.0    0.0 1.5E06   2   0.08% \n @--Warning at 1826.00000  Days  1 Jan 2020\n @ Linear equations not converged once for this report step                \n Reached report at        1826.0 Days     Cp/El/Mem:870.4/873.7/1791Mb   (1-Jan-2020)\n------------------------------------------------------------------------------------------------------------------------------  21\n REPORT                 Summary of report step                                 1826.00000  Days  report step   3,  1 Jan 2020"
+    },
+    {
+      "line_1based": 1765134,
+      "text": " MIF ;  4567.7   18.00     0.0    0.0    0.0    0.0    0.0 155.75    0.0    0.0 1.5E06   3   0.26% \n @--Warning at 4567.65139  Days  4 Jul 2027\n @ Linear equations not fully converged - Run may go faster                \n @ if you increase MAXLIN (=40 - TUNING keyword)                           \n @--Message at 4567.65139  Days  4 Jul 2027\n @ Reducing TPT  timestep to  7.500       due to:                          "
+    },
+    {
+      "line_1based": 1765898,
+      "text": " Rep ;  5479.0    0.67     0.0    0.0    0.0    0.0    0.0 156.68    0.0    0.0 1.5E06   1   0.02% \n @--Warning at 5479.00000  Days  1 Jan 2030\n @ Linear equations not converged once for this report step                \n Reached report at        5479.0 Days     Cp/El/Mem:2148.1/2154.3/1791Mb   (1-Jan-2030)\n------------------------------------------------------------------------------------------------------------------------------  31\n REPORT                 Summary of report step                                 5479.00000  Days  report step   5,  1 Jan 2030"
+    },
+    {
+      "line_1based": 1782598,
+      "text": " MIF ; 16120.1   22.00  2938.3 .90956 258.68 2601.6 7.6E05 154.50    0.0    0.0 1.5E06   4   0.40% \n @--Warning at 16120.11125 Days 19 Feb 2059\n @ Linear equations not fully converged - Run may go faster                \n @ if you increase MAXLIN (=40 - TUNING keyword)                           \n @--Message at 16120.11125 Days 19 Feb 2059\n @ Reducing TPT  timestep to  11.00       due to:                          "
+    },
+    {
+      "line_1based": 1783316,
+      "text": " Rep ; 18263.0   13.34  3418.9 .90937 252.20 2530.5 8.6E05 153.95    0.0    0.0 1.5E06   5   0.33% \n @--Warning at 18263.00000 Days  1 Jan 2065\n @ Linear equations not converged once for this report step                \n Reached report at       18263.0 Days     Cp/El/Mem:13601.1/13628.0/1791Mb   (1-Jan-2065)\n------------------------------------------------------------------------------------------------------------------------------  61\n REPORT                 Summary of report step                                 18263.00000 Days  report step  11,  1 Jan 2065"
+    }
+  ],
+  "source_note": "Warning locations are in the original member decoded with Latin-1 and splitlines; full PRT retained in source subset."
+}

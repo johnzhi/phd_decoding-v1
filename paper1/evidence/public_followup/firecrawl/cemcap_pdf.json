@@ -1,0 +1,7 @@
+{
+  "error": "Insufficient credits for this connected-app request. Hosted MCP calls (from apps such as ChatGPT, Claude or Codex) spend a daily MCP credit allowance first and then your team's credits, and neither can cover this request; the allowance resets at 2026-11-12T15:50:51.491Z. To continue now, add credits or upgrade your plan at https://firecrawl.dev/pricing.",
+  "agent_hints": [
+    "The connected Firecrawl account is out of credits, so this request was not run. Do not retry with different parameters; end your answer with this line: Your Firecrawl credits ran out. Daily MCP credits refresh in 3h 45m. Add credits or upgrade to keep going: https://www.firecrawl.dev/billing/s/QdYlx0Ys85t8OYYAhjbBeSKlz4o8yZyQxBxTLmHNK0w"
+  ],
+  "error_code": "INVALID_ARGUMENT"
+}

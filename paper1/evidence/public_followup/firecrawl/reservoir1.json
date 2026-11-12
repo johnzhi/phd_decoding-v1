@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "data": {
+    "web": [
+      {
+        "url": "https://repository.kaust.edu.sa/bitstreams/809eea99-dee3-49e9-9eae-563ea67932d5/download",
+        "title": "Rapid Simulation and Optimization of Geological CO2 ...",
+        "description": "by B Aslam · 2023 · Cited by 5 — ... bottom-hole pressure. ... For this case study, we use a sector model of Johansen formation, available as a public dataset from the MatMoRa project website.",
+        "position": 1,
+        "source": "web"
+      }
+    ],
+    "tools": [
+      {
+        "provider": "cer-rec-gc-ca",
+        "capability": "energy-data/energy_future",
+        "description": "Questions like \"CER 2026 projection of Alberta in situ bitumen output in 2035\", \"Brent price assumption in the Canada Net-zero scenario\", \"electricity generation by fuel in Ontario to 2050\"."
+      },
+      {
+        "provider": "cer-rec-gc-ca",
+        "capability": "energy-data/energy_statistics",
+        "description": "Questions like \"Canadian crude exports to PADD II in 2024\", \"Quebec electricity exports to New York last month and the price\", \"Alberta crude production by type\", \"LNG cargoes from Canada\"."
+      },
+      {
+        "provider": "bcb-gov-br",
+        "capability": "economic-data/payment_statistics",
+        "description": "SPI settlement volumes, payment-instrument mix, cash in circulation."
+      },
+      {
+        "provider": "ssd-api-jpl-nasa-gov",
+        "capability": "small-bodies/small_body_query",
+        "description": "Finding many small bodies at once: the largest asteroids, all Atiras, PHAs larger than 1 km, Jupiter Trojans with known albedo, comets with q below 1 au, or orbital elements for a class."
+      },
+      {
+        "provider": "sdmx-oecd-org",
+        "capability": "datasets/source_status",
+        "description": "Before or between records_list pulls: compare `version` and `obs_count` (or `content_hash`) with the last pull to know whether the segment changed."
+      }
+    ]
+  },
+  "id": "01a1cfa6-22ce-7018-82ab-74b8d1a3729f",
+  "creditsUsed": 2,
+  "agent_hints": [
+    "All 1 web results are excerpts only (#1 \"https://repository.kaust.edu.sa/bitstreams/809eea99-dee3-49e9-9eae-563ea67932d5/download\"). If you need more than an excerpt, use firecrawl_scrape with {\"url\":\"<one of these URLs>\",\"formats\":[\"markdown\"]}. Retrieve only needed pages; do not re-scrape results that already contain the required content."
+  ],
+  "conversationId": "8ff86921-e51f-81b4-8c5b-bdada97865df"
+}
