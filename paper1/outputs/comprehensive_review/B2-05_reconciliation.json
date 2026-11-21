@@ -1,0 +1,13 @@
+{
+  "study_id": "B2-05",
+  "checks": 49,
+  "synthetic_diffusion_rows": 9,
+  "native_Swiss_ZEN_garden_model_reproduced": false,
+  "public_code_and_SI_verified": false,
+  "pressure_constrained_storage_or_complete_utility_inventory": false,
+  "accepted_operating_GHG_inputs_changed": false,
+  "body_gap_Mt": 4.8,
+  "caption_gap_Mt": 1.7,
+  "resolution": "unresolved; weighting explanation is hypothetical, not recovered data",
+  "source_sha256": "39bcdff7077a5664a822fdecec62d4aeab5bdda58a40f6ed7ec4b94cf1a35a52"
+}

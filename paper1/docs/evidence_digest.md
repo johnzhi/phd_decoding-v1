@@ -278,7 +278,7 @@ Transfer limits: All12 pages,five figures,three tables,34 numbered equations,inl
 
 ### B2-05 — Beyond pipelines Multi-modal CO2 transport enables timely CO2 capture, transport, and storage deployment
 
-. Identifier: 10.1016/j.ijggc.2026.104698. [PDF](../papers/B2-05.pdf).
+Burger, Shu, Bardow & Sansavini (2026). Identifier: 10.1016/j.ijggc.2026.104698. [PDF](../papers/B2-05.pdf).
 
 Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,7,8.
 
@@ -286,7 +286,7 @@ Transition-pathway MILP models technology lifetimes, capacity additions, multimo
 
 Constraining pipeline expansion produces unmet storage targets, while barges/ships bridge deployment limits. Early pipeline utilization is low; temporary multimodal capacity changes the transition even when final infrastructure looks similar. The body reports4.8Mt cumulative shortfall but Figure3 caption says1.7Mt, so that benchmark is held pending reconciliation.
 
-Transfer limits: Cost-optimal transport deployment and direct sequestration targets do not establish full matched-source net climate benefit. Barge shares are tonne-kilometre shares, not source mass fractions or vessel availability. Storage-service simplification does not supply calibrated well pressure constraints. Supplement details are still needed to reproduce the original scenarios.
+Transfer limits: All 12 pages, six figures, two tables, 14 numbered equations and 73 references read/inspected under the comprehensive standard. Forty-nine limited checks reconstruct temporal/cost components and disclosed analyst cases, not the native Swiss optimization. The 4.8/1.7 Mt gap remains unresolved; period weights, CAPEX/annuity lineage, levelized-cost denominator and scenario-specific utilization need native checks. Two originals have scoped support; 71 other originals, ten dependencies and public code/data/SI remain unverified. Stored policy mass excludes lifecycle burdens; service-only storage and generic capture provide neither pressure-constrained service nor a complete same-case utility inventory. See pipeline_diffusion_comprehensive_findings.md; accepted numerical inputs remain unchanged.
 
 ### B2-06 — Multiperiod strategic planning of CO2 capture, transport, utilization and storage with multimodal transportation
 

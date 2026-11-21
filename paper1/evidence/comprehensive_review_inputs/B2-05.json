@@ -1,0 +1,149 @@
+{
+  "study_id": "B2-05",
+  "source": {
+    "path": "papers/B2-05.pdf",
+    "sha256": "39bcdff7077a5664a822fdecec62d4aeab5bdda58a40f6ed7ec4b94cf1a35a52",
+    "doi": "10.1016/j.ijggc.2026.104698"
+  },
+  "cited_sources": [
+    {
+      "study_id": "B3-42",
+      "path": "papers/B3-42.pdf",
+      "sha256": "6d475de6fccc3f6153272829e0f59d3dee1fe3d9cf93260dc5fe6b8ecfd2d6ea"
+    },
+    {
+      "study_id": "B3-13",
+      "path": "papers/B3-13.pdf",
+      "sha256": "ff86c737307a2d56c0524b25161eaeadf620b44c87725e4cd3e7a9a99470ab5d"
+    }
+  ],
+  "planning": {
+    "start_year": 2026,
+    "end_year": 2050,
+    "periods": 9,
+    "step_years": 3,
+    "discount_rate": 0.06
+  },
+  "reported": {
+    "target_Mt": 53,
+    "body_gap_Mt": 4.8,
+    "caption_gap_Mt": 1.7,
+    "annual_gap_max_percent": 23,
+    "multimodal_cost_increase_percent": 5,
+    "compensated_scenario2_vs1_percent": 34,
+    "compensated_scenario2_vs3_percent": 27,
+    "alternative_transport_lifecycle_ktCO2": 200,
+    "capture_rate": 0.99,
+    "domestic_first_year": 2040,
+    "domestic_max_Mtpy": 3,
+    "domestic_max_year": 2050,
+    "minimum_pipeline_utilization": 0.6
+  },
+  "diffusion": {
+    "theta": 0.12,
+    "pioneering_capacity_distance_printed": 160,
+    "pioneering_printed_unit": "MtCO2 km/year",
+    "knowledge_depreciation": 0,
+    "success_fraction": 0.4,
+    "sensitivity_theta_percent": [
+      0,
+      50
+    ],
+    "sensitivity_capacity": [
+      0.02,
+      3.9
+    ],
+    "sensitivity_distance": [
+      15,
+      300
+    ],
+    "sensitivity_capacity_distance": [
+      8,
+      620
+    ]
+  },
+  "transport_costs": [
+    {
+      "mode": "pipeline_onshore",
+      "capacity_EUR_per_ktpy": 1000,
+      "distance_EUR_per_km": 100000,
+      "fixed_OPEX_EUR_per_ktpy": 0,
+      "variable_EUR_per_kt_km": 8
+    },
+    {
+      "mode": "pipeline_offshore",
+      "capacity_EUR_per_ktpy": 1710,
+      "distance_EUR_per_km": 171000,
+      "fixed_OPEX_EUR_per_ktpy": 0,
+      "variable_EUR_per_kt_km": 13.68
+    },
+    {
+      "mode": "ship",
+      "capacity_EUR_per_ktpy": "9*d",
+      "distance_EUR_per_km": 0,
+      "fixed_OPEX_EUR_per_ktpy": 0,
+      "variable_EUR_per_kt_km": 60
+    },
+    {
+      "mode": "barge",
+      "capacity_EUR_per_ktpy": "17*d",
+      "distance_EUR_per_km": 0,
+      "fixed_OPEX_EUR_per_ktpy": 0,
+      "variable_EUR_per_kt_km": 60
+    },
+    {
+      "mode": "train",
+      "capacity_EUR_per_ktpy": "8*d",
+      "distance_EUR_per_km": 0,
+      "fixed_OPEX_EUR_per_ktpy": 30000,
+      "variable_EUR_per_kt_km": 160
+    },
+    {
+      "mode": "truck",
+      "capacity_EUR_per_ktpy": "4*d",
+      "distance_EUR_per_km": 0,
+      "fixed_OPEX_EUR_per_ktpy": 44300,
+      "variable_EUR_per_kt_km": 480
+    }
+  ],
+  "source_cost_lineage": {
+    "cited_original": "B3-42 TableB.2 physical p16; pp14–15 objective/units; p17 EqB.1 only",
+    "variable_EUR_per_t_km": {
+      "pipeline": 0.008,
+      "ship": 0.06,
+      "barge": 0.06,
+      "train": 0.16,
+      "truck": 0.48
+    },
+    "pipeline_alpha1_literal": "10^-6 EUR/tCO2",
+    "pipeline_alpha2_literal": "10^5 EUR/km",
+    "vehicle_alpha1_literal": {
+      "ship": ".009L",
+      "barge": ".017L",
+      "train": ".008L",
+      "truck": ".004L"
+    },
+    "note": "Numeric per-kt conversions match selected operating and vehicle coefficients. Original alpha1 is described as annualized; new table labels CAPEX. Pipeline capacity coefficients do not directly match. No native conversion or double-annualization conclusion is asserted."
+  },
+  "public_asset_links": [
+    "https://github.com/ZEN-universe/ZEN-models/tree/Beyond_pipelines_2026",
+    "https://github.com/johburger/ZEN-garden/tree/Beyond_pipelines_2026",
+    "https://doi.org/10.1016/j.ijggc.2026.104698"
+  ],
+  "synthetic_disclosure": "All toy recurrence/LP/lifetime/pooling/cost/capture and possible weighting examples are analyst cases, not recovered Swiss inputs or outputs. No exact plot digitization.",
+  "missing": {
+    "native_penalty_EUR_per_tCO2": null,
+    "versioned_native_code": null,
+    "input_scenarios_and_sensitivity_arrays": null,
+    "supplement_A1_A6_B1_and_figures": null,
+    "cluster_memberships_and_initial_knowledge": null,
+    "annual_target_and_gap_arrays": null,
+    "full_transport_candidate_graph": null,
+    "technology_lifetimes_and_construction_leads": null,
+    "capture_heat_electricity_and_suppliers": null,
+    "native_price_year_and_annuity_mapping": null,
+    "levelized_cost_denominator": null,
+    "DAC_compensation_inventory": null,
+    "pressure_constrained_storage_and_retained_fraction": null
+  }
+}

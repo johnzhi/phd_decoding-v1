@@ -1,0 +1,2513 @@
+{
+  "study_id": "B2-05",
+  "source_sha256": "39bcdff7077a5664a822fdecec62d4aeab5bdda58a40f6ed7ec4b94cf1a35a52",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All 12 physical pages read and rendered pages inspected, including six figures, two tables, 14 numbered equations and the full 73-entry bibliography. Limited source-component and analyst checks do not reproduce the native Swiss optimizer. Two originals have scoped primary checks; 71 other originals, ten dependencies and explicit code/data/SI remain unverified.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "original_model_status": "equation_components_and_analyst_examples_only_native_Swiss_ZEN_garden_model_not_reproduced",
+  "supplement_status": "explicit_publisher_SI_and_public_code_data_links_not_retained_or_verified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication, abstract and linked assets",
+      "assessment": "Read authors/ETH affiliations, keywords, both dataset links, received 12 February/revised 7 May/accepted 21 May/online 3 June2026, DOI and CC BY notice. Abstract 9%/5% are model-case claims; they are not measured infrastructure risks or a regional lifecycle conclusion."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction: all paragraphs and cited comparisons",
+      "assessment": "Read national/global capacity, industrial incentives, modal logistics/cost/LCA, European network literature, rights-of-way/opposition/regulation, failure rates, diffusion-history analogy, claimed methodological gap, three contributions and roadmap. Every73 printed reference is mapped below. Two originals have scoped checks; the other71 remain unverified. Prior Morbee text already mentions permitting delays; distinguish qualitative awareness from the new endogenous constraints."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        3
+      ],
+      "scope": "2 and2.1 Modeling framework",
+      "assessment": "Read objective, discount and lifetime conventions, capacity bounds, soft sequestration target and emission boundary, capture/conditioning/purity assumptions, all transport modes, binary offset-linear pipeline costs and service-only storage. Main PDF delegates mass balances, many constraints and numerical utility details to documentation/SI."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "scope": "2.2 Modeling speed of pipeline construction",
+      "assessment": "Read all Eq 8–14, knowledge/pioneering mechanisms, annual depreciation, regional edge clusters, three metric versions, units, binary reuse and complexity claim. Upper bounds couple choices across time; they do not alone guarantee a logistic S-curve or observation-calibrated forecast."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        5
+      ],
+      "scope": "3 and3.1 Swiss case: every assumption",
+      "assessment": "Read2026–2050/nine3-year planning periods, 6% financing,2023PRTR source vintage, identical willingness, generic 99% capture proxy, purity argument, candidate graph, Rhine restriction,500 km offshore cutoff, constant costs, announced NorthSea sites and53 Mt policy target. Native sources/geometry/state/utility arrays absent from main."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "3.2 All four scenarios and equal-service compensation",
+      "assessment": "Read unrestricted baseline, pipelines-only diffusion, multimodal diffusion, hypothetical domestic ramp, all-mode SI reference, DAC compensation, formative/growth phase parameter analogy, 40% success×median calibration, historical projections, 12% growth, zero depreciation, 60% minimum utilization and solver termination/size. Scenario comparison changes more than the diffusion constraint alone; minimum utilization is stated for 2–4. No exact native penalty, leads or cost arrays."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "4 and4.1 Unconstrained deployment",
+      "assessment": "Read every pipeline-layout/length, corridor comparison, rapid buildout, oversized capacity and early6%/18%/average8% utilization statement. The2050 network is a projection, not permitted infrastructure; 3-year controls do not establish actual dispatch. Wang support remains unverified."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "4.2 Constrained deployment and sensitivity",
+      "assessment": "Read4.8 Mt/9% cumulative and23% annual shortfalls, early knowledge building, final layout and Fig 4 parameter claims. Figure 3 caption instead1.7 Mt. Native annual outputs and weighting convention are needed to reconcile; do not repair from pixels or hypothesized weights."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "4.3 Both proposed hedges",
+      "assessment": "Read multimodal stages/tonne-km shares, 8% larger capacity-distance system, domestic storage assumptions, 40% smaller transport system, timing sensitivity, regulatory/pilot outlook and explicitly excluded geological/societal uncertainty. Figure 3b citation in scenario 3 discussion points to pipeline-only panel; Figure 5a is the actual multimodal result."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        9
+      ],
+      "scope": "4.4 Cost comparison and DAC compensation",
+      "assessment": "Read3–4×single-chain cost context, 5% system increase, 34%/27% compensation comparisons, small transport component, low lock-in interpretation and20–43% domestic sequestration share. Discounted/raw cost-per-tonne denominator and native DAC boundary remain unspecified in main; percentages may be rounding-compatible."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        10
+      ],
+      "scope": "5 Discussion and conclusion: all paragraphs",
+      "assessment": "Read contingency argument, transfer/buffer infrastructure, operator-financed redeployment proposal, domestic storage limits, lifecycle 200 kt comparison, policy/carbon-leakage alternatives, diffusion policy levers, 5% conclusion and parameter uncertainty. Scenario sensitivity is not a calibrated probability or a quantified risk-sharing/redeployment model."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "CRediT, generative AI, conflicts and funding",
+      "assessment": "Read each author role, Grammarly/Gemini v3 disclosure, author responsibility, ACCSESS101022487 funding and Bardow declared review/ownership interests. These statements neither validate nor invalidate numerical results."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        11
+      ],
+      "scope": "AppendixA and Data availability",
+      "assessment": "Read explicit publisher supplement notice and both exact Beyond_pipelines_2026 repository branches. No embedded files or matched local code/SI found. Public existence/contents/version/rights remain unverified while external retrieval is paused; native reproduction not attempted with guessed inputs."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        11,
+        12
+      ],
+      "scope": "Entire bibliography",
+      "assessment": "All 73 entries read, including wrapped author lists, titles, DOI/URLs, edition/visit dates and no-link reports. Native column transcription retained. Shortened structured identities are pointers, not a claim that original source texts or their citation chains were read."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        4
+      ],
+      "object": "Figure 1 regional-cluster schematic",
+      "inspection": "All nodes, connecting edges, Offshore/Country A/Country B labels, orange dotted cluster boundaries and legend/caption inspected. Clusters aggregate edges only; overlapping-looking node boundaries do not imply node aggregation or actual geographical permissions."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        7
+      ],
+      "object": "Figure 2 time-dependent network maps",
+      "inspection": "2035 European panel and2038/2044/2050Swiss panels; storage/emitter/transfer-hub symbols and offshore/onshore line colors inspected. Filled/hollow emitter symbols are visible but not separately defined in legend. No exact coordinates, corridor lengths or route feasibility digitized from the map."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        8
+      ],
+      "object": "Figure 3 panelsa/b, legends, axes and caption",
+      "inspection": "Inspected magnified both panels,2026–2050ticks, capacity-distance GtCO2 km/year left axes, annual MtCO2/year red right axes, mode bars/oversizing, annual dashed line, gray dashed deficit edge and pale gap fill. Panelb is scenario 2. Caption says1.7 Mt, body4.8 Mt; both preserved. Bar capacity-distance is not source mass, actual fleet capacity or annual injection service."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        8
+      ],
+      "object": "Figure 4 diffusion sensitivity contour",
+      "inspection": "Read0–50% growth axis, 0–about 620pioneering capacity-distance axis, 0–100% gap colorbar, red scenario 2cross, red project dots and caption including off-scale1100/3726points. Gap caption sum_y E lacks explicit interval weights for annual targets. Dots are project-size references, not per-project growth estimates or stochastic success samples. No exact contour/threshold arrays digitized."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        9
+      ],
+      "object": "Figure 5 panelsa/b and complete caption",
+      "inspection": "Both annual capacity-distance/tonne axes, barge/ship/offshore/onshore/oversized colors, gap and total/domestic sequestration curves inspected. Panela is scenario 3; panelb scenario 4. Plotted2041domestic increase can be a control representation of 2040availability; no invented exact initial injectivity or measured reservoir ramp."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        9
+      ],
+      "object": "Figure 6 stacked scenario costs, dual axes and legend",
+      "inspection": "Allcapture/conditioning/geological storage/pipeline onshore/offshore/barge/ship/removal colors,4scenarios, constrained bracket, billionEURleft andEUR/t storedright axes/caption inspected and magnified. Absolute cost and effective tonne denominator are not printed numerically. Do not read stacked monetary components as heat/work quantities or force raw53 Mt into the undisclosed levelization."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        6
+      ],
+      "object": "Table 1 every cell, header, unit and source",
+      "inspection": "All 6rows and4cost columns transcribed. Per-capacity usesEUR/ktpy despite caption explaining tpy; variable usesEUR/(ktCO2 km). Ship/barge/train/truck CAPEX9d/17d/8d/4d. Fixed OPEX30000/44300fortrain/truck. Offshore factors1.71. OPEX annual-time convention and price-year/annuity/source adaptation require code/SI; selected original checks do not validate entire table."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 all scenarios/sensitivity parameters and units",
+      "inspection": "12% main, 0–50% sensitivity; pioneering capacityn/a,.02–3.9 Mt/year; distancen/a, 15–300 km; capacity-distance160, 8–620 Mt km/year; knowledge depreciation0% main/sensitivity. Superscriptcap/dist and annual installation versus annual flow dimensions retained; dy numerical-year convention must be made explicit."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "min sum_y DF_y [CAPEXann_y+OPEXtech_y+OPEXcarrier_y+cpen Epen_y]",
+      "assessment": "Annualized currency streams discounted over blocks. Full annuity/utility/penalty inputs delegated. A finite penalty needs a bound against achievable marginal cost; otherwise slack can be chosen despite feasible targets. Analyst LP demonstrates this conditional point, not a native failure."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "DF_y=sum_{i=0}^{dy-1}(1/(1+r))^{dy(y-y0)+i} for y<maxY; final=(1/(1+r))^{dy(maxY-y0)}",
+      "assessment": "Nine consecutive indices, dy3 map2026–2050 into25 annual cash flows. Inserting calendar-year differences multiplies the step twice. Final weight is one year, not three; gap/cost integration should use compatible conventions. r6% is shared financing assumption, not observed project rate."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "S_h,p,y=sum_{ytilde=max(y0,y-ceil(l_h/dy)+1)}^y DeltaS_h,p,ytilde",
+      "assessment": "Literal ceiling keeps an asset in whole planning blocks. Analyst10-year lifetime spans12-year blocks; not an assertion about actual native lifetimes. Existing capacity/construction leads/salvage/cross-boundary retirement are not in this displayed equation."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "0<=S_h,p,y<=smax_h,p,y",
+      "assessment": "Nonnegative capacity upper bound; units vary by technology. Native bounds and edge/node mapping required; no calibrated pressure or vehicle dispatch constraint supplied by this alone."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "0<=DeltaS_h,p,y<=Deltasmax_h,p,y",
+      "assessment": "Additions bounded independently of total capacity. Annual flow capacity and per-period addition are distinct from transported mass."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "Epen_y+sum_n U_CO2-stored,n,y>=e_CO2-stored_y",
+      "assessment": "Soft annual stored-mass target accounts for direct chain losses but explicitly excludes lifecycle burdens. Storage leaves system boundary; permanent retention is assumed. No probability or pressure feasibility follows. Native penalty value and annual integration missing."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "CAPEX_j,e,y=g_j,e,y d_j,e CAPEXdistance_j+DeltaS_j,e,y CAPEXcapacity_j",
+      "assessment": "Offset-linear capacity cost uses existing binary and constant length. Table 1 ktpy units require1000factor for tpy values. Linking additions/builds/rebuilds/upgrades to binary constraints delegated; scale effect is an approximation, not a hydraulic pipeline design."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "DeltaS_j,e,y<=((1+theta_j)^dy-1)K_j,e,y+dy*zeta_j",
+      "assessment": "Technology growth and pioneering terms; theta annual fractional growth, dy numerical years. theta0still permits positive pioneering. Separate temporal units of zeta from units of annual flow; native convention unverified."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        4
+      ],
+      "expression_as_printed_or_labeled": "K_j,e,y=sum_{ytilde=y0}^{y-1}(1-delta)^{dy(y-ytilde)}DeltaS_j,e,ytilde",
+      "assessment": "Knowledge sums historical additions with annual depreciation. At delta0 knowledge survives physical asset retirement. This intentional distinction is not a material stock balance or evidence for retained CO2. No initial-stock term appears in this formula."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        4
+      ],
+      "expression_as_printed_or_labeled": "sum_edgesCE DeltaS<=((1+theta)^dy-1)sum_edgesCE Kcap+dy*zetacap",
+      "assessment": "Regional edge aggregation permits experience transfer between edges; cluster membership materially changes feasibility. Native cluster definitions/overlap/allocation missing. This aggregation is distinct from source/sink node clustering."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        4
+      ],
+      "expression_as_printed_or_labeled": "sum_edgesCE g_j,e,y*d_j,e<=((1+theta)^dy-1)sum_edgesCE Kdist+dy*zetadist",
+      "assessment": "Distance-only construction metric with same installed-edge binary; capacity expansion on an already constructed corridor requires implementation convention. Constantdistance×binary remains linear."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        4
+      ],
+      "expression_as_printed_or_labeled": "Kdist_j,e,y=sum_past (1-delta)^{dy(y-ytilde)}g_j,e,ytilde*d_j,e",
+      "assessment": "Past constructed length, not transported mass. Whether binary counts first install or repeated rebuild/expansion affects knowledge; no extra binary is intrinsically needed but native semantics must be checked."
+    },
+    {
+      "id": "E13",
+      "pages": [
+        4
+      ],
+      "expression_as_printed_or_labeled": "sum_edgesCE d_j,e*DeltaS_j,e,y<=((1+theta)^dy-1)sum_edgesCE Kcap-dist+dy*zetacap-dist",
+      "assessment": "Distance is a fixed coefficient: this remains linear, not a variable-variable product. Main case12%,160anddy3allows initial480 metric units per cluster. An upper bound alone does not force logistic saturation, imply a construction schedule or quantify actual project success."
+    },
+    {
+      "id": "E14",
+      "pages": [
+        4
+      ],
+      "expression_as_printed_or_labeled": "Kcap-dist_j,e,y=sum_past (1-delta)^{dy(y-ytilde)}d_j,e*DeltaS_j,e,ytilde",
+      "assessment": "Weighted historical annual-flow capacity. Metric depends on network segmentation/routing, lifetime/construction and cluster choices. Analyst recurrence reconstructs this component only, with no Swiss network or demand."
+    },
+    {
+      "id": "I01",
+      "pages": [
+        5,
+        6
+      ],
+      "expression_as_printed_or_labeled": "99% capture; comparison90–95%; pipeline minimum60% in scenarios2–4",
+      "assessment": "These inline ratios are assumptions with external source support not yet verified. Lower capture at fixed stored target increases required source feed/connected emitters; transported stored mass need not increase in every no-loss network. Minimum utilization is a scenario-specific modeling restriction, not a universal technical threshold."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        5,
+        9
+      ],
+      "expression_as_printed_or_labeled": "Domestic injectivity increases linearly from availability2040 to3Mt/year in2050; about43%annual share",
+      "assessment": "No explicit ramp equation or starting injectivity printed. Do not silently set2040rate tozero or infer pressure feasibility. 3/.43about7 Mt/year is only rounded ratio context, not a recovered target array."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        8
+      ],
+      "expression_as_printed_or_labeled": "Cumulative target gap in Figure4 caption: sum_y Epen_y, normalized by53Mt",
+      "assessment": "If Epen is an annual rate, weighted integration over 3-year blocks/final endpoint is required for total mass. If already period mass, sum is valid. Retain ambiguity and4.8versus1.7 conflict until native arrays/units establish convention."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        6
+      ],
+      "expression_as_printed_or_labeled": "Pioneering addition =40% success rate × median announced project size",
+      "assessment": "Deterministic calibration heuristic. Source probabilities20–50% and size55–3700 metric units do not give empirical confidence intervals for this network. Median(size×success) or size-correlated failure need not equal40% median(size)."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        10
+      ],
+      "expression_as_printed_or_labeled": "200ktCO2 /4.8MtCO2 <5%",
+      "assessment": "Arithmetic4.17% holds under body denominator; caption1.7 Mt gives11.76%. Neither comparison is the complete incremental chain footprint or a verified net-removal accounting."
+    },
+    {
+      "id": "A01",
+      "pages": [
+        3,
+        4,
+        6
+      ],
+      "expression_as_printed_or_labeled": "Analyst saturated bound: A_k=a K_k+dy*zeta; K_k=sum_past A_i fordelta0; a=(1+theta)^dy-1",
+      "assessment": "Independent linear-system verification and9-row recurrence. With positive a and no demand limit, additions grow without an intrinsic S-shaped saturation. This qualifies the equation form, not the validity of native finite-demand outputs."
+    },
+    {
+      "id": "A02",
+      "pages": [
+        3,
+        8
+      ],
+      "expression_as_printed_or_labeled": "Analyst possible annual gaps[.7,.85,.15]; simple sum1.7; weights[3,3,1]give4.8",
+      "assessment": "Demonstrates a mathematically possible time-weight explanation only. No source arrays are inferred and the conflict is not marked resolved."
+    },
+    {
+      "id": "A03",
+      "pages": [
+        3
+      ],
+      "expression_as_printed_or_labeled": "Analyst minimize6x+cE subjectx+E>=1,0<=x<=1,E>=0",
+      "assessment": "Independent LP withc5chooses slack despite hard-target feasibility; c7chooses service. Missing native penalty prevents a native conclusion."
+    },
+    {
+      "id": "A04",
+      "pages": [
+        3,
+        6
+      ],
+      "expression_as_printed_or_labeled": "Analyst100km pipeline: raw CAPEX=100000*100+1000*S_ktpy",
+      "assessment": "At1000 ktpy11millionEUR;2000 ktpy12 million. EUR/(t/year rated) declines11to6; this is not levelized EUR/t stored or an operating/GHG factor."
+    },
+    {
+      "id": "A05",
+      "pages": [
+        6,
+        9
+      ],
+      "expression_as_printed_or_labeled": "Analyst rounded ratio1.34/1.05-1 and conditional rounding intervals",
+      "assessment": "Nominal27.62%; nearest-integer rounding intervals overlap27%. Exact133.51/105.49gives a compatible example; no proven34/5/27numerical inconsistency."
+    },
+    {
+      "id": "A06",
+      "pages": [
+        3,
+        9
+      ],
+      "expression_as_printed_or_labeled": "Analyst3.2billionEUR/53Mt versus divided by discounted53Mt at2050",
+      "assessment": "Illustrates denominator sensitivity only.3.2 billion is an analyst example near plot scale, not an exact extracted cost. Native figure levelization remains open."
+    }
+  ],
+  "variables": [
+    {
+      "id": "V01",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "y,y0,Y,dy",
+      "assessment": "Consecutive period indices; 3 numerical years between controls, calendar labels2026…2050. Final cash-flowblockone year; annual physical integration separately required."
+    },
+    {
+      "id": "V02",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "r,DF,CAPEXann,OPEXtech,OPEXcarrier",
+      "assessment": "6% annual discount/annuity; DFdimensionless annual-blocksum; cost currency/annualstream basis requiresnativeyears andannuity mapping."
+    },
+    {
+      "id": "V03",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "cpen,Epen,e,Ustored",
+      "assessment": "EUR/tpenalty, annual massorrate conventions undisclosed; Eq 6storedtarget excludeslifecycle, while storage permanence is assumed at boundary."
+    },
+    {
+      "id": "V04",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "h,p,j,e,n,J,E,CE",
+      "assessment": "Technology, node/edge/location/transportcluster sets; regions aggregate edges rather than source nodes. Exactmemberships/nativeoverlaps missing."
+    },
+    {
+      "id": "V05",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "S,DeltaS,smax,Deltasmax,l",
+      "assessment": "Rated annual flow capacity and per-period additions, limits and lifetimeyears. Source Eq 3ceil rounds toblocks; daily service/stockmass requireadditionalconstraints."
+    },
+    {
+      "id": "V06",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "g,d,CAPEXdistance,CAPEXcapacity",
+      "assessment": "Binary installation, constantdistancekm; EUR/kmandEUR/ktpy. g meaningforfirstinstall/upgrade/rebuild and linkingconstraints delegated."
+    },
+    {
+      "id": "V07",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "theta,delta,zeta,K",
+      "assessment": "Annualfractionalgrowth/depreciation; historicalknowledge withsame metricunits as additions. zeta pioneering per numericalyear versus annual flowunit mustbeexplicit."
+    },
+    {
+      "id": "V08",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "cap/dist/cap-dist metrics",
+      "assessment": "MtCO2/year, km, MtCO2 km/year forannual rated flow, distance andtheirproduct. They are neither tonnesstored nor vessel counts. Segmentation/clustermembership matters."
+    },
+    {
+      "id": "V09",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "Table1ktpyversustpy",
+      "assessment": "1 ktpy=1000t/year; variableEUR/(ktkm)=1/1000EUR/(tkm). FixedOPEXannualbasis/priceyear and originalannualization not fully specified."
+    },
+    {
+      "id": "V10",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "Capture99%,utilization60%,pioneering40%",
+      "assessment": "Chosen assumption/calibration percentages, not observed bounds forall streams/technologies; 60% stated onlyscenarios 2–4."
+    },
+    {
+      "id": "V11",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "Domesticstorage2040,3Mt/year2050",
+      "assessment": "Hypotheticalavailability/linear increase; initialinjectivitynotgiven; 43% annualshare and20–43% rangeareroundedoutputs. No reservoirpressureorprobability inputs."
+    },
+    {
+      "id": "V12",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "Gap4.8/1.7Mtand53Mttarget",
+      "assessment": "Literal conflicting cumulative claims; no correctionoraccepted annualarray. Annual23% maxcannotverifyfromprintedarrays."
+    },
+    {
+      "id": "V13",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "2–13%bargeand8%/40%systemchanges",
+      "assessment": "Barge-tonne-km share andcapacity-distancesystemcontext; notmass allocation, fleet adequacy orpipe lengthwithoutnative definitions."
+    },
+    {
+      "id": "V14",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "Figure6currencyandEUR/tstored",
+      "assessment": "Discountedcostversusraw/discountedtonne denominator needsnativeformula; plotpixelsdonotprovideexactcomponentcosts orenergy quantities."
+    },
+    {
+      "id": "V15",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "symbols": "200ktlifecycleand4.8Mtgap",
+      "assessment": "Reportednonpipelineemissionscomparison, notcomplete incrementalCCTSmitigation, nativeDACbalance orpermanence/retention."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1
+      ],
+      "claim": "CCS is central to national strategies and industrial incentives",
+      "assessment": "Policy reports and green-product/tax-credit examples are historical/source-specific claims; originals and carbon-neutral product accounting unverified."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1
+      ],
+      "claim": "More than 7Gt2050capture versus64 Mtcurrent capacity implies more than 100-fold scale-up",
+      "assessment": "7Gt/64 Mt exceeds109fold under common units, but capacities, scenarios, dates, actual annual capture and guaranteed uptake differ; sources unverified."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        1
+      ],
+      "claim": "First-of-a-kind success and historic growth may not reach climate goals",
+      "assessment": "Literature-based motivation, not a native estimated probability for this Swiss network."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "European distance and storage geography make transport a deployment hurdle",
+      "assessment": "Source-specific European/project statements; no current legal access or allocated storage service inferred."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Modal transfers require terminals/buffers and large vehicle flows face congestion",
+      "assessment": "Operational motivation acknowledged. Main annual model does not demonstrate observed terminal/fleet/weather/river/calendar feasibility."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        2
+      ],
+      "claim": "European network literature often favors pipelines, even with uncertainty or shipping",
+      "assessment": "All named originals mapped. Two method/context checks do not verify the full literature or prove universal pipeline superiority."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        2
+      ],
+      "claim": "Non-pipeline modes can bridge early deployment until pipelines are economical",
+      "assessment": "Prior contribution acknowledged; exact Becattini cost-lineage passages checked separately, full earlier result/derivation verification remains open."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        2
+      ],
+      "claim": "Pipelines have lower costs/emissions at large scale and modal competition is distance-dependent",
+      "assessment": "Original modal cost/LCA data unverified; cannot transfer rank ordering to arbitrary Asian stream, route or energy suppliers."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        2
+      ],
+      "claim": "Rights-of-way, opposition, long construction and capabilities make pipeline rollout difficult",
+      "assessment": "Broad motivation partly supported qualitatively by Morbee page 2. Contemporary events, relative lead times and quantified industry-wide ranking remain unverified."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        2
+      ],
+      "claim": "Regulation/revenue and cancellations make CO2 unlike natural-gas pipeline growth",
+      "assessment": "Original legal/event/failure reports unverified. Announced project counts and financial uncertainty do not calibrate a pressure/retention or failure distribution."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        2
+      ],
+      "claim": "Existing studies lack endogenous deployment constraints of the proposed kind",
+      "assessment": "Scope of claimed gap must distinguish qualitative delays, constant caps and energy-system diffusion from this specific cluster/metric MILP. Full novelty survey not verified; main constraints alone have no logistic ceiling."
+    },
+    {
+      "id": "C12",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "ZEN-garden minimizes discounted whole-chain infrastructure/operation costs",
+      "assessment": "Displayed objective components checked; native mass balances, annuities, costs and code not retained. No author optimizer reproduced."
+    },
+    {
+      "id": "C13",
+      "pages": [
+        3
+      ],
+      "claim": "Generic capture/conditioning and identical purity suffice for transport comparison",
+      "assessment": "Assumption, not tested stream equivalence. Species, impurity-removal needs and mode/site inlet states/energy inventory absent."
+    },
+    {
+      "id": "C14",
+      "pages": [
+        3
+      ],
+      "claim": "Binary offset-linear pipeline costs improve scale representation tractably",
+      "assessment": "Equation structure supports a fixed offset and continuous capacity term. Native binary links/upgrade semantics and hydraulic validation absent; cited model originals mostly unverified."
+    },
+    {
+      "id": "C15",
+      "pages": [
+        3
+      ],
+      "claim": "Capacity/lifetime limits describe buildout",
+      "assessment": "Eq 3–5 have coherent block-index interpretation; ceiling lifetimes and construction/initial/salvage conventions need full model. They are not physical injectivity constraints."
+    },
+    {
+      "id": "C16",
+      "pages": [
+        3,
+        5
+      ],
+      "claim": "Stored-CO2 policy target includes direct losses but excludes lifecycle emissions",
+      "assessment": "Explicitly disclosed accounting boundary. Lifecycle factors elsewhere in model do not convert Eq 6 into a net-climate-benefit constraint. Geological sink service presumes storage permanence."
+    },
+    {
+      "id": "C17",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Knowledge and pioneering determine expansion speed",
+      "assessment": "Printed equations reconstructed only as components. Parameters and initial knowledge/cluster membership unresolved; theta0 does not preclude pioneering growth."
+    },
+    {
+      "id": "C18",
+      "pages": [
+        4
+      ],
+      "claim": "Regional clusters make deployment constraints more realistic than individual edges",
+      "assessment": "A pooling assumption permits knowledge sharing. Exact region definitions, portability, borders and data support not in main PDF. This is different from aggregation of nodes in InfraCCS."
+    },
+    {
+      "id": "C19",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Capacity, distance and combined metrics remain linear without new binaries",
+      "assessment": "True when candidate distances are constants and construction binaries already exist. Rebuild/expansion semantics and graph dependence need native checks; longer travel need not measure project complexity exactly."
+    },
+    {
+      "id": "C20",
+      "pages": [
+        5
+      ],
+      "claim": "Swiss2026–2050case uses9 periods, 6% financing and2023PRTRemitters",
+      "assessment": "Calendar/discount arithmetic reconstructed. Registry snapshot, currency year, actual willingness and facility capture services remain unverified."
+    },
+    {
+      "id": "C21",
+      "pages": [
+        5
+      ],
+      "claim": "Generic99% capture is optimistic/feasible and does not fundamentally change transport design",
+      "assessment": "External capture feasibility/cost sources unverified. At same stored target, lower capture requires more feed/facilities; same delivered mass can remain unchanged. Gathering distance/design may change; general invariance not established."
+    },
+    {
+      "id": "C22",
+      "pages": [
+        5
+      ],
+      "claim": "Emission targets rather than willingness drive source connections",
+      "assessment": "Perfect-foresight/social planner assumption. No contract/acceptance, production migration or stream availability validation."
+    },
+    {
+      "id": "C23",
+      "pages": [
+        5
+      ],
+      "claim": "Delaunay candidate network and500 kmoffshore cutoff have minor effects because graph stays connected",
+      "assessment": "Connectivity alone does not bound least-cost/flow error. Exact coordinates/directions/hydraulics absent; cut edges might change cost or modal alternatives. Prior preselection methodology has scoped source support."
+    },
+    {
+      "id": "C24",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Transport costs transferred from Becattini with offshore adjustment are constant over time",
+      "assessment": "Selected per-kt operating conversions and1.71multipliers check. New CAPEX labels, original annualized coefficients/pipeline alpha1, price-year and adaptation unresolved; do not declare table wholly source-verified."
+    },
+    {
+      "id": "C25",
+      "pages": [
+        5
+      ],
+      "claim": "Announced NorthSea storage and53 MtSwiss cumulative target define service",
+      "assessment": "Neither announced capacity nor a model sink proves allocated pressure-constrained service, schedules, permissions or retention. Full target/site arrays absent."
+    },
+    {
+      "id": "C26",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Four scenarios and time-dependentDACcompensation create comparable decarbonization",
+      "assessment": "Scenario3allows additional modes; scenario 4assumes domestic storage. Equal raw stored/removal targets need compatible DAC/process/lifecycle boundaries; code/inputs unverified."
+    },
+    {
+      "id": "C27",
+      "pages": [
+        6,
+        8
+      ],
+      "claim": "40% success×median project size and12% growth capture realistic deployment",
+      "assessment": "Deterministic plausible-parameter construction, not empirically validated Swiss diffusion probabilities. Historical failure fractions/phase analogies, project-size list and uncertainty remain unverified."
+    },
+    {
+      "id": "C28",
+      "pages": [
+        6
+      ],
+      "claim": "Historical PV/nuclear/CCS projections motivate broad sensitivity ranges",
+      "assessment": "All forecast originals/editions and context unverified. These analogies do not establish a probability distribution or transferable calibration."
+    },
+    {
+      "id": "C29",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "60% minimum pipeline flow avoids uneconomic oversizing in2–4",
+      "assessment": "An imposed utilization condition, not a universal physical limit. Scenario1has no such stated restriction; deployment-policy comparisons should disclose this simultaneous modeling difference."
+    },
+    {
+      "id": "C30",
+      "pages": [
+        6
+      ],
+      "claim": "Gurobi13.0 solves up to 300000continuous/8300binary variables with 1–1.9% gaps",
+      "assessment": "Reported runtime/optimality only.24htermination/gap do not certify exact global optimum or scientific/model correctness. Logs, environments and solver rights missing."
+    },
+    {
+      "id": "C31",
+      "pages": [
+        6
+      ],
+      "claim": "Unconstrained network has843 kmbackbone,1700 kmoffshore,945 kmdomestic and915 kmwithin3 years",
+      "assessment": "Arithmetic total3488 km retained; exact graph/lead times and claim ofless-than 10% corridor-study agreement not independently checked."
+    },
+    {
+      "id": "C32",
+      "pages": [
+        7
+      ],
+      "claim": "Unconstrained early capacity utilization is average8%, onshore6% then18%, with 15yearoversizing",
+      "assessment": "Plots qualitatively consistent with large idle capacity. Definition/weighting/denominator, exact time origin and economics need native arrays. Do not infer actual pressure-safe operation."
+    },
+    {
+      "id": "C33",
+      "pages": [
+        7
+      ],
+      "claim": "Constrained-only pipelines expand early for knowledge but fail annual targets",
+      "assessment": "Behavior plausible under the model constraints. Exact Swiss network optimization and target feasibility not reproduced."
+    },
+    {
+      "id": "C34",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Cumulative shortfall4.8 Mt, 9% target and annual peak23%",
+      "assessment": "4.8/53=9.06% supports body rounded9%. Figure 3caption1.7 Mt=3.21% conflicts. Annual peak/period integration remains unverified; weighting example does not resolve it."
+    },
+    {
+      "id": "C35",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Sensitivity requires around 200 metric pioneering units below40% growth",
+      "assessment": "Qualitative contour case interpretation only; exact thresholds depend jointly onparameters, topology, utilization and targets. No universal200threshold or risk probability inferred."
+    },
+    {
+      "id": "C36",
+      "pages": [
+        8
+      ],
+      "claim": "Announced project dots extend to 1100/3726 metric units and success could be lower forlarge projects",
+      "assessment": "Dated raw project database and size-dependent success analysis not verified. Fig 4 dots do not measure theta or prove median-times-success calibration."
+    },
+    {
+      "id": "C37",
+      "pages": [
+        8
+      ],
+      "claim": "Capacity-only and distance-only variants show similar patterns",
+      "assessment": "Explicitly delegated SI Fig11; unverified and not counted read."
+    },
+    {
+      "id": "C38",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Multimodal barges/ships remove target gaps in scenario 3",
+      "assessment": "Figure 5aillustrates reported solution. Text points also toFigure 3bwhich is scenario 2; pointer inconsistency retained. Network/clusters, terminal logistics and native feasibility not reproduced."
+    },
+    {
+      "id": "C39",
+      "pages": [
+        8
+      ],
+      "claim": "Ships bridge2035 and barges contribute2–13% tonne-km between2044–2050",
+      "assessment": "Tonne-km share is not tonnes, departures, vessel count or sea-time availability. Native mode/edge annual arrays absent."
+    },
+    {
+      "id": "C40",
+      "pages": [
+        8
+      ],
+      "claim": "Scenario3final network similar tobaseline and total system8% larger",
+      "assessment": "Source refers aggregate transport system size; preserve capacity-distance metric context rather than relabel as corridor length or vehicle inventory. Exact denominator/array unverified."
+    },
+    {
+      "id": "C41",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Domestic2040storage closes gap with around 40% smaller transport network",
+      "assessment": "Hypothetical availability/ramp; no pressure-constrained derivation. Source explicitly states uncertainty, other geological/social factors and slower-diffusion cases remain problematic. Pilot expectation is not commercial operation evidence."
+    },
+    {
+      "id": "C42",
+      "pages": [
+        9
+      ],
+      "claim": "Domestic storage supplies20–43% and exporting infrastructure remains required",
+      "assessment": "Reported shares/case conditional; exact initial ramp, annual denominator and optimization not reproduced."
+    },
+    {
+      "id": "C43",
+      "pages": [
+        9
+      ],
+      "claim": "Single-emitter alternatives cost3–4×shared pipelines; multimodal system only 5% more",
+      "assessment": "Prior cost originals unverified; whole-chain aggregate cost increase differs from per-route or per-tonne transport premium and cannot be transferred as a universal factor."
+    },
+    {
+      "id": "C44",
+      "pages": [
+        9
+      ],
+      "claim": "DACcompensation makes constrained-only case34% costlier thanbaseline and27% thanmultimodal",
+      "assessment": "Rounded percentages can coexist; no proven rounding conflict. Exact monetary series, DACtiming/inventory and discounted-tonne denominator required. Missing targets cannot be compensated merely by asserting permanent removal."
+    },
+    {
+      "id": "C45",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Non-pipeline capacity is flexible/relocatable and low-lock-in",
+      "assessment": "Economic interpretation/proposed strategy, not explicitly simulated fleet redeployment or probabilistic asset-risk valuation."
+    },
+    {
+      "id": "C46",
+      "pages": [
+        10
+      ],
+      "claim": "Large operator can finance/redistribute costs and redeploy vehicles across emitters",
+      "assessment": "Policy/business proposal with no financing/contract/transfer-buffer/calendar model reproduced. Distinguish from optimized results."
+    },
+    {
+      "id": "C47",
+      "pages": [
+        10
+      ],
+      "claim": "Alternative-mode lifecycle emissions200 ktare less than 5% of 4.8 Mtuncapturedgap",
+      "assessment": "Limited arithmetic4.17% verified. Total versus incremental emissions and full conditioning/energy/asset boundaries need native inventory; caption gap would give11.76%. This is not a retained-carbon or regional net-benefit factor."
+    },
+    {
+      "id": "C48",
+      "pages": [
+        10
+      ],
+      "claim": "Policy alternatives/carbonleakage/production relocation affect feasibility",
+      "assessment": "Qualitative discussion, not endogenous relocation or cross-border-consumption model. Original Davis/Grubbclaims unverified."
+    },
+    {
+      "id": "C49",
+      "pages": [
+        10
+      ],
+      "claim": "theta>20% andzeta>200can avoid bottlenecks and regulation can improve rollout",
+      "assessment": "Conditional scenario threshold example, not an empirical forecast, causalpolicyestimate or universal sufficient bound."
+    },
+    {
+      "id": "C50",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Open code/data enable replication and future application",
+      "assessment": "Both branchURLsand explicitSIlead preserved; actual contents, commit, license and numerical reproduction unverified. No archive/contact/publicabsence claim."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        2,
+        6,
+        8,
+        11
+      ],
+      "citation": "Abdulla et al. (2021). Explaining successful and failed investments in U.S. carbon capture and storage using empirical and expert assessments",
+      "doi_or_url_as_printed": "10.1088/1748-9326/abd19e",
+      "claim_links": [
+        "C10",
+        "C27"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        5,
+        11
+      ],
+      "citation": "Barlow et al. (2025). State of the Art: CCS Technologies 2025",
+      "doi_or_url_as_printed": "https://www.globalccsinstitute.com/wp-content/uploads/2025/08/State-of-the-Art-CCS-Technologies-2025-Global-CCS-Institute.pdf",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        9,
+        11
+      ],
+      "citation": "Becattini (2025). CITru in a Nutshell: Exploring CO2 Injection in the Swiss Subsurface",
+      "doi_or_url_as_printed": "https://www.citru.ethz.ch/export/sites/citru/.galleries/Dowloads_presentations/2_Becattini_CITru_Nutshell.pdf_2063069339.pdf",
+      "claim_links": [
+        "C41"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        2,
+        5,
+        6,
+        10,
+        11
+      ],
+      "citation": "Becattini et al. (2022). Carbon dioxide capture, transport and storage supply chains: Optimal economic and environmental performance of infrastructure rollout",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2022.103635",
+      "claim_links": [
+        "C07",
+        "C09",
+        "C23",
+        "C24",
+        "C46"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "primary_text_checked_scoped_partial_cost_lineage",
+      "assessment": "Exact B3-42 DOI/hash; pp14–16 text/render and p17 EqB.1 inspected. Supports transport rated-flow formulation, conditioning boundary, Delaunay reduction and selected variable-cost unit conversions. Table B.2 labels pipeline alpha1 as10^-6, not the new Table 1 value1 EUR/(t/year); vehicle alpha1 already uses an annualizing construction. Native adaptation and complete new CAPEX accounting remain unverified. No blanket validation of Table 1, Swiss diffusion results, full cited paper or underlying private communications.",
+      "primary_check_claim_scope": {
+        "C07": "Earlier bridging-result claim not verified in these cost passages",
+        "C09": "This source’s deployment-delay treatment not checked here",
+        "C23": "Delaunay reduction supported; routing-error/minor-effect conclusion unverified",
+        "C24": "Selected cost coefficients supported; complete CAPEX adaptation unverified",
+        "C46": "Local-storage and operator interpretation not validated by this cost check"
+      }
+    },
+    {
+      "id": "R05",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "Becattini et al. (2024). Accelerating the climate transition through scientist-led CO2 management pilot projects",
+      "doi_or_url_as_printed": "10.1038/s44286-024-00056-y",
+      "claim_links": [
+        "C04"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        2,
+        3,
+        11
+      ],
+      "citation": "Bennæs et al. (2024). Modeling a supply chain for carbon capture and offshore storage—A German–Norwegian case study",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2023.104028",
+      "claim_links": [
+        "C06",
+        "C14"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        1,
+        5,
+        7,
+        9,
+        11
+      ],
+      "citation": "BFE (2021). Energieperspektiven 2050+: Technischer Bericht. Gesamtdokumentation der Arbeiten",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C01",
+        "C04",
+        "C20",
+        "C25",
+        "C26",
+        "C41"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        5,
+        11
+      ],
+      "citation": "Brandl et al. (2021). Beyond 90% capture: Possible, but at what cost?",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2020.103239",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        3,
+        11
+      ],
+      "citation": "Bröchin et al. (2024). Harder, better, faster, stronger: understanding and improving the tractability of large energy system models",
+      "doi_or_url_as_printed": "10.1186/s13705-024-00458-z",
+      "claim_links": [
+        "C14"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        3,
+        10,
+        11
+      ],
+      "citation": "Burger et al. (2024). Environmental impacts of carbon capture, transport, and storage supply chains: Status and the way forward",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2023.104039",
+      "claim_links": [
+        "C16",
+        "C47"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        8,
+        9,
+        11
+      ],
+      "citation": "Carbon Gap (2025). Carbon Removal by Country",
+      "doi_or_url_as_printed": "https://tracker.carbongap.org/regional-analysis/national/",
+      "claim_links": [
+        "C41"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        5,
+        11
+      ],
+      "citation": "Clean Air Task Force (2024a). Carbon Capture and Storage: What Can We Learn from the Project Track Record?",
+      "doi_or_url_as_printed": "https://www.catf.us/resource/carbon-capture-storage-what-can-learn-from-project-track-record/",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        6,
+        8,
+        11
+      ],
+      "citation": "Clean Air Task Force (2024b). CCUS Database",
+      "doi_or_url_as_printed": "https://docs.google.com/spreadsheets/d/10SGBHyknvIc9ZyLKhOiPUa-Bx7oCQ7tIUqo-Ubi7ak0/edit?pli=1&gid=771308526#gid=771308526",
+      "claim_links": [
+        "C27",
+        "C36"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        1,
+        5,
+        11
+      ],
+      "citation": "Clean Air Task Force (2024c). Tracking CO2 Storage Project Capacity in Europe",
+      "doi_or_url_as_printed": "https://cdn.catf.us/wp-content/uploads/2024/01/18105138/CATF_TrackingCO2ProjectEurope_Brief.pdf",
+      "claim_links": [
+        "C04",
+        "C25"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "Corsten et al. (2013). Environmental impact assessment of CCS chains – Lessons learned and limitations from LCA literature",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2012.12.003",
+      "claim_links": [
+        "C08"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        2,
+        3,
+        6,
+        11
+      ],
+      "citation": "D’Amore and Bezzo (2017). Economic optimisation of European supply chains for CO2 capture, transport and sequestration",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2017.08.015",
+      "claim_links": [
+        "C06",
+        "C11",
+        "C14",
+        "C31"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "citation": "D’Amore et al. (2021a). Carbon capture and storage from energy and industrial emission sources: A Europe-wide supply chain optimisation",
+      "doi_or_url_as_printed": "10.1016/j.jclepro.2020.125202",
+      "claim_links": [
+        "C04",
+        "C06",
+        "C24",
+        "C43"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "D’Amore et al. (2021b). Optimal design of European supply chains for carbon capture and storage from industrial emission sources including pipe and ship transport",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2021.103372",
+      "claim_links": [
+        "C06"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        2,
+        3,
+        4,
+        11
+      ],
+      "citation": "D’Amore et al. (2019). European supply chains for carbon capture, transport and sequestration, with uncertainties in geological storage capacity: Insights from economic optimisation",
+      "doi_or_url_as_printed": "10.1016/j.compchemeng.2019.106521",
+      "claim_links": [
+        "C06",
+        "C14",
+        "C18"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "Danish Energy Agency (2024). Carbon Capture, Transport and Storage - Technology Data",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C05",
+        "C08"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        10,
+        11
+      ],
+      "citation": "Davis et al. (2018). Net-zero emissions energy systems",
+      "doi_or_url_as_printed": "10.1126/science.aas9793",
+      "claim_links": [
+        "C48"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "Douglas (2025). South Dakota bans use of eminent domain for carbon dioxide pipelines",
+      "doi_or_url_as_printed": "https://www.reuters.com/world/us/south-dakota-bans-use-eminent-domain-carbon-dioxide-pipelines-2025-03-06/",
+      "claim_links": [
+        "C09",
+        "C10"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "European Commission (2024). The Net-Zero Industry Act",
+      "doi_or_url_as_printed": "https://single-market-economy.ec.europa.eu/industry/sustainability/net-zero-industry-act_en",
+      "claim_links": [
+        "C04"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "European Commission (2025). Commission launches public consultation on CO2 markets and infrastructure",
+      "doi_or_url_as_printed": "https://energy.ec.europa.eu/news/commission-launches-public-consultation-co2-markets-and-infrastructure-2025-10-06_en",
+      "claim_links": [
+        "C10"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "European Commission/JRC/Tumara et al. (2024). Shaping the Future CO2 Transport Network for Europe",
+      "doi_or_url_as_printed": "https://data.europa.eu/doi/10.2760/582433",
+      "claim_links": [
+        "C04"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Frattini et al. (2024). Main current legal and regulatory frameworks for carbon dioxide capture, transport, and storage in the European Economic Area",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2024.104172",
+      "claim_links": [
+        "C10"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Gabrielli et al. (2022). Optimization and assessment of carbon capture, transport and storage supply chains for industrial sectors: The cost of resilience",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2022.103797",
+      "claim_links": [
+        "C23"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "George (2023). Summit carbon solutions postpones CO2 pipeline until 2026",
+      "doi_or_url_as_printed": "https://carbonherald.com/summit-carbon-solutions-postpones-co2-pipeline-until-2026/",
+      "claim_links": [
+        "C09",
+        "C10"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R29",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "George (2025). Summit considers leaving North Dakota out of carbon pipeline route",
+      "doi_or_url_as_printed": "https://carbonherald.com/summit-considers-leaving-north-dakota-out-of-carbon-pipeline-route/",
+      "claim_links": [
+        "C10"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R30",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "Global CCS Institute (2025). Global Status of CCS 2025",
+      "doi_or_url_as_printed": "https://www.globalccsinstitute.com/wp-content/uploads/2025/10/Global-Status-of-CCS-2025-report-9-October.pdf",
+      "claim_links": [
+        "C01",
+        "C02"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R31",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Gough et al. (2014). Public perceptions of CO2 transportation in pipelines",
+      "doi_or_url_as_printed": "10.1016/j.enpol.2014.03.039",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R32",
+      "pages": [
+        10,
+        12
+      ],
+      "citation": "Grubb et al. (2022). Carbon leakage, consumption, and trade",
+      "doi_or_url_as_printed": "10.1146/annurev-environ-120820-053625",
+      "claim_links": [
+        "C48"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R33",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Gurobi Optimization LLC (2026). Gurobi Optimizer reference manual",
+      "doi_or_url_as_printed": "https://www.gurobi.com",
+      "claim_links": [
+        "C30"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R34",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "Heidelberg Materials (2025). The world’s first carbon captured net-zero cement",
+      "doi_or_url_as_printed": "https://www.evozero.com/",
+      "claim_links": [
+        "C01"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R35",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Hoekstra (2017). Photovoltaic growth: reality versus projections of the International Energy Agency – with 2018 update (by Auke Hoekstra)",
+      "doi_or_url_as_printed": "https://maartensteinbuch.com/2017/06/12/photovoltaic-growth-reality-versus-projections-of-the-international-energy-agency/",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R36",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Holm et al. (2025). How to best transport CO2 to offshore storages?",
+      "doi_or_url_as_printed": "10.1016/j.ccst.2025.100416",
+      "claim_links": [
+        "C23"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R37",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Homaei et al. (2026). High-capture-rate carbon capture and storage enables cost-effective decarbonization of Europe’s power sector",
+      "doi_or_url_as_printed": "10.1038/s44458-026-00036-8",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R38",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "IAEA (1975). Annual Report",
+      "doi_or_url_as_printed": "https://www.iaea.org/sites/default/files/gc/gc19-544_en.pdf",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R39",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "IEA (2009). Technology Roadmap - Carbon Capture and Storage",
+      "doi_or_url_as_printed": "https://iea.blob.core.windows.net/assets/6fb1a978-4fa3-4ab0-8ef4-7d18cc9c1880/CCSRoadmap2009.pdf",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R40",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "IEA (2021). Net Zero by 2050 - A Roadmap for the Global Energy Sector",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C02"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R41",
+      "pages": [
+        3,
+        12
+      ],
+      "citation": "IPCC (2005). IPCC Special Report on Carbon Dioxide Capture and Storage",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C13"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R42",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "IPCC (2022). Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C01"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R43",
+      "pages": [
+        1,
+        2,
+        6,
+        12
+      ],
+      "citation": "Kazlou et al. (2024). Feasible deployment of carbon capture and storage and the requirements of climate targets",
+      "doi_or_url_as_printed": "10.1038/s41558-024-02104-0",
+      "claim_links": [
+        "C02",
+        "C03",
+        "C11",
+        "C27",
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R44",
+      "pages": [
+        9,
+        12
+      ],
+      "citation": "Lane et al. (2021). Uncertain storage prospects create a conundrum for carbon capture and storage ambitions",
+      "doi_or_url_as_printed": "10.1038/s41558-021-01175-7",
+      "claim_links": [
+        "C41"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R45",
+      "pages": [
+        2,
+        3,
+        4,
+        12
+      ],
+      "citation": "Leibowicz et al. (2016). Representing spatial technology diffusion in an energy system optimization model",
+      "doi_or_url_as_printed": "10.1016/j.techfore.2015.06.001",
+      "claim_links": [
+        "C11",
+        "C17",
+        "C18"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R46",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "Levina et al. (2023). CCS in Europe - Regional Overview",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C01"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R47",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Mannhardt et al. (2024). Understanding the vicious cycle of myopic foresight and constrained technology deployment in transforming the European energy system",
+      "doi_or_url_as_printed": "10.1016/j.isci.2024.111369",
+      "claim_links": [
+        "C11"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R48",
+      "pages": [
+        2,
+        3,
+        12
+      ],
+      "citation": "Mannhardt et al. (2025). ZEN-garden: Optimizing energy transition pathways with user-oriented data handling",
+      "doi_or_url_as_printed": "10.1016/j.softx.2025.102059",
+      "claim_links": [
+        "C12"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R49",
+      "pages": [
+        2,
+        6,
+        12
+      ],
+      "citation": "Martin-Roberts et al. (2021). Carbon capture and storage at the end of a lost decade",
+      "doi_or_url_as_printed": "10.1016/j.oneear.2021.10.002",
+      "claim_links": [
+        "C09",
+        "C10",
+        "C27"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R50",
+      "pages": [
+        3,
+        12
+      ],
+      "citation": "Middleton et al. (2020). SimCCS: An open-source tool for optimizing CO2 capture, transport, and storage infrastructure",
+      "doi_or_url_as_printed": "10.1016/j.envsoft.2019.104560",
+      "claim_links": [
+        "C14"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R51",
+      "pages": [
+        2,
+        4,
+        5,
+        12
+      ],
+      "citation": "Morbee et al. (2012). Optimised deployment of a European CO2 transport network",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2011.11.011",
+      "claim_links": [
+        "C06",
+        "C09",
+        "C18",
+        "C23",
+        "C24"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "primary_text_checked_scoped_method_and_qualitative_delay",
+      "assessment": "Exact B3-13 DOI/hash; pp1–3 text/render inspected. Supports InfraCCS multistep pipeline planning, clustering, Delaunay preselection and international coordination. Page2 explicitly discusses permitting delays, so prior work did not wholly ignore deployment hurdles. This does not verify B2-05’s exact2025 projected kilometres, its diffusion novelty survey, routing approximation or current infrastructure. No full cited-paper closure.",
+      "primary_check_claim_scope": {
+        "C06": "Multistep pipeline network method supported; exact2025projection unverified",
+        "C09": "Qualitative permitting delays explicitly supported by p2",
+        "C18": "Original node clustering supported; new regional-edge pooling not validated",
+        "C23": "Delaunay preselection supported; current candidate routing/hydraulics unverified",
+        "C24": "New constant-cost/native adaptation not verified by these pages"
+      }
+    },
+    {
+      "id": "R52",
+      "pages": [
+        2,
+        6,
+        12
+      ],
+      "citation": "Neele et al. (2011). Large-scale CCS transport and storage networks in North-west and Central Europe",
+      "doi_or_url_as_printed": "10.1016/j.egypro.2011.02.176",
+      "claim_links": [
+        "C10",
+        "C31"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R53",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Negri et al. (2021). Life cycle optimization of BECCS supply chains in the European Union",
+      "doi_or_url_as_printed": "10.1016/j.apenergy.2021.117252",
+      "claim_links": [
+        "C06"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R54",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Nemet et al. (2023). Dataset on the adoption of historical technologies informs the scale-up of emerging carbon dioxide removal measures",
+      "doi_or_url_as_printed": "10.1038/s43247-023-01056-1",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R55",
+      "pages": [
+        2,
+        3,
+        10,
+        12
+      ],
+      "citation": "Nöhl et al. (2025). How to transport carbon dioxide with minimal environmental impacts today and tomorrow? A prospective life cycle assessment",
+      "doi_or_url_as_printed": "10.1016/j.jclepro.2025.145659",
+      "claim_links": [
+        "C08",
+        "C16",
+        "C47"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R56",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Noothout et al. (2014). CO2 pipeline infrastructure – lessons learnt",
+      "doi_or_url_as_printed": "10.1016/j.egypro.2014.11.271",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R57",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Northern Lights JV DA (2024a). Liquid CO2 Quality Specifications",
+      "doi_or_url_as_printed": "https://safety4sea.com/wp-content/uploads/2024/03/Northern-Lights-GS-co2-2024_03.pdf",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R58",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Northern Lights JV DA (2024b). Northern Lights’ first CO2 transport ship ready for delivery",
+      "doi_or_url_as_printed": "https://norlights.com/news/northern-lights-first-co2-transport-ship-ready-for-delivery/",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R59",
+      "pages": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        12
+      ],
+      "citation": "Oeuvray et al. (2024). Multi-criteria assessment of inland and offshore carbon dioxide transport options",
+      "doi_or_url_as_printed": "10.1016/j.jclepro.2024.140781",
+      "claim_links": [
+        "C04",
+        "C05",
+        "C08",
+        "C13",
+        "C14",
+        "C43",
+        "C45"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R60",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Peletiri et al. (2018). CO2 pipeline design: A review",
+      "doi_or_url_as_printed": "10.3390/en11092184",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R61",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Pérez-Calvo and Mazzotti (2022). Techno-economic assessment of post-combustion CO2 capture using aqueous piperazine at different flue gas compositions and flowrates via a general optimization methodology",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2022.103587",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R62",
+      "pages": [
+        3,
+        6,
+        12
+      ],
+      "citation": "Reliability and Risk Engineering lab (2025). ZEN-garden Documentation",
+      "doi_or_url_as_printed": "https://zen-garden.readthedocs.io/en/latest/index.html",
+      "claim_links": [
+        "C12",
+        "C14",
+        "C24"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R63",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Saipem (2020). CO2NET Grobes Design und Kostenschätzung für ein CO2 Sammel-Netzwerk in der Schweiz",
+      "doi_or_url_as_printed": "https://www.aramis.admin.ch/Default?DocumentID=67550",
+      "claim_links": [
+        "C31"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R64",
+      "pages": [
+        5,
+        6,
+        9,
+        12
+      ],
+      "citation": "Sievert et al. (2024). Considering technology characteristics to project future costs of direct air capture",
+      "doi_or_url_as_printed": "10.1016/j.joule.2024.02.005",
+      "claim_links": [
+        "C26",
+        "C44"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R65",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Sievert et al. (2025). The impact of financing structures on the cost of carbon dioxide transport",
+      "doi_or_url_as_printed": "10.1016/j.eneco.2025.108253",
+      "claim_links": [
+        "C20"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R66",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Stewart et al. (2014). The feasibility of a European-wide integrated CO2 transport network",
+      "doi_or_url_as_printed": "10.1002/ghg.1410",
+      "claim_links": [
+        "C06",
+        "C08"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R67",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Swiss Federal Office for the Environment FOEN (2024). Schadstoffregister SwissPRTR",
+      "doi_or_url_as_printed": "https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/zustand/schadstoffregister-swissprtr.html",
+      "claim_links": [
+        "C20"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R68",
+      "pages": [
+        6,
+        7,
+        12
+      ],
+      "citation": "Wang et al. (2014). Optimal pipeline design for CCS projects with anticipated increasing CO2 flow rates",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2014.10.010",
+      "claim_links": [
+        "C29",
+        "C32"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R69",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Wei et al. (2021). A proposed global layout of carbon capture and storage in line with a 2°C climate target",
+      "doi_or_url_as_printed": "10.1038/s41558-020-00960-0",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R70",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "World Nuclear Association (2025). Global Nuclear Performance",
+      "doi_or_url_as_printed": "https://world-nuclear.org/our-association/publications/world-nuclear-performance-report/global-nuclear-industry-performance",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R71",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Yeates et al. (2024). Industrial CO2 transport in Germany: Comparison of pipeline routing scenarios",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2024.104225",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R72",
+      "pages": [
+        1,
+        2,
+        12
+      ],
+      "citation": "ZEP (2020). A Trans-European CO2 Transportation Infrastructure for CCUS: Opportunities & Challenges",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C04",
+        "C05",
+        "C08"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R73",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "ZEP (2025). Designing Europe’s CO2 Market and Infrastructure",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C08"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "citation": "Publisher supplement",
+      "doi_or_url_as_printed": "p11 AppendixA; pp5–9 SI sections A.5,A.6,B.1,Table4,Figs8,10,11,12",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Cost inputs, all-mode diffusion, announced project list, alternative metrics and domestic-storage sensitivities. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "Versioned native inputs",
+      "doi_or_url_as_printed": "https://github.com/ZEN-universe/ZEN-models/tree/Beyond_pipelines_2026",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "All four Swiss scenarios, targets, topology, diffusion clusters and sensitivity outputs. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "Versioned native code",
+      "doi_or_url_as_printed": "https://github.com/johburger/ZEN-garden/tree/Beyond_pipelines_2026",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Modified ZEN-garden implementation, environment and license; exact commit required. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        6
+      ],
+      "citation": "Solver/runtime archive",
+      "doi_or_url_as_printed": "p6 Gurobi13.0,1%/24h,up to1.9% gap",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "MIP bounds, logs, licenses and tolerances for independent optimality assessment. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "citation": "Technology and utility inventory",
+      "doi_or_url_as_printed": "p3 framework; p5 generic99% capture; p6 Table1",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Heat, electricity, cooling, conditioning states/suppliers, material and asset factors. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        3,
+        8,
+        9
+      ],
+      "citation": "Temporal conventions",
+      "doi_or_url_as_printed": "p3 Eq1–3,6; p8 Fig4; p9 Fig6",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Annual gap weights, construction leads, terminal year, retirement and discounted-tonne denominator. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        3,
+        5,
+        9
+      ],
+      "citation": "Storage realization",
+      "doi_or_url_as_printed": "p3 service sink; p5 domestic3Mt/year",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Native annual/total capacities, geology, pressure, availability and retained-carbon evidence. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        6,
+        8
+      ],
+      "citation": "Announced project calibration",
+      "doi_or_url_as_printed": "p6 historic success/median and Table2; p8 Fig4",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Dated project snapshot, size-success covariance, median calculations and uncertainty. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D09",
+      "pages": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Candidate network and practical operations",
+      "doi_or_url_as_printed": "p5 Delaunay/500km cutoff; p10 redeployment",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Coordinates, corridors, edge directions, terminal buffers, vehicles, river constraints and calendars. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D10",
+      "pages": [
+        5,
+        6,
+        9
+      ],
+      "citation": "DAC compensation and underlying source chain",
+      "doi_or_url_as_printed": "pp5–6 scenario comparison; p9 Fig6",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Time-dependent DAC costs, storage/transport/energy boundaries and net-removal equivalence. Not retained/verified for this audit; no public absence is inferred."
+    }
+  ],
+  "issues": [
+    {
+      "id": "O01",
+      "pages": [
+        3,
+        7,
+        8,
+        10
+      ],
+      "status": "OPEN_HOLD_NUMERIC_RESULT",
+      "finding": "4.8 Mt body/1.7 Mt Figure3 caption and sum-of-annual-gap/3-year block conventions unresolved. Preserve printed values; do not silently substitute the analyst possible weighting example.",
+      "action": "Obtain native annual gaps, weights and errata. Keep both published values on HOLD; do not promote the analyst weighting example into source evidence."
+    },
+    {
+      "id": "O02",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "status": "OPEN_IMPLEMENTATION_AND_UNITS",
+      "finding": "Consecutive indices versus calendar labels; final-year weights, ceiling retirement, construction/initial stocks, cluster definitions, pioneering temporal units, existing binary semantics and soft-penalty calibration require versioned code/SI.",
+      "action": "Inspect versioned native code and SI for indices, units, clusters, binary links, time discretization, boundary years and penalty calibration before native reproduction."
+    },
+    {
+      "id": "O03",
+      "pages": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "status": "OPEN_INTERPRETATION_AND_CALIBRATION",
+      "finding": "Linear reinforcing upper bounds are not by themselves S-shaped saturation or a calibrated failure/risk model.40% timesmedian, zero depreciation, 12% and200thresholds need original datasets and explicit uncertainty assessment.",
+      "action": "Verify original diffusion data, project snapshot and calibration; separate reinforcing bounds and scenario sensitivity from logistic saturation or a probability model."
+    },
+    {
+      "id": "O04",
+      "pages": [
+        3,
+        5,
+        6,
+        9
+      ],
+      "status": "OPEN_HOLD_COST_TRANSFER",
+      "finding": "Table 1unit/priceyear/annuity mapping not validated wholesale. Exact original shows annualized vehicle coefficients and a different literal pipeline capacity coefficient. Figure 6levelized-tonne denominator, DACcompensation and solver gaps remain open.",
+      "action": "Reconcile original and new cost conventions, currency years, annualization, exact cost series and levelized denominator. Retain source coefficients without silent correction."
+    },
+    {
+      "id": "O05",
+      "pages": [
+        3,
+        5,
+        9,
+        10
+      ],
+      "status": "OPEN_EXCLUDE_PHYSICAL_LIFECYCLE_INPUTS",
+      "finding": "Service-only storage/generic 99% capture/identical purity/policy targets do not supply pressure-constrained injectivity, retention or complete same-case heat/electricity/conditioning/cooling/supplier inventory. No accepted factor transferred.",
+      "action": "Exclude these quantities from accepted physical service, retention and complete operating/GHG inventories until compatible native evidence exists."
+    },
+    {
+      "id": "O06",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "OPEN_CASE_AND_GRAPH_LIMITS",
+      "finding": "Connectivity does not bound routing error;500 kmcutoff, scenario-specific60% minimum use, barge shares, annual capacity-distance and proposed vehicle redeployment need operational/domain qualification. Figure 3bwrongly cited forscenario 3.",
+      "action": "Audit graph and scenario controls against native arrays; verify modal/temporal feasibility. Correct the figure pointer only with explicit disclosure of the published mismatch."
+    },
+    {
+      "id": "O07",
+      "pages": [
+        1,
+        2,
+        5,
+        6,
+        11,
+        12
+      ],
+      "status": "OPEN_CITATION_AND_ASSET_BLOCKER",
+      "finding": "71of73original edges and ten dependencies remain unverified; publisherSIand two public code/data branches not retrieved underChrome pause. Two scoped primary checks do not close full originals or the native Swiss optimizer.",
+      "action": "Preserve code/data/SI URLs and continue local review. Retrieve external originals and assets only when the requested Chrome connection/access permits; do not claim absence or completion."
+    }
+  ],
+  "supplements": "Publisher Appendix A explicitly links SI. The main text mentions cost Section A.5, all-mode diffusion A.6/B.1, project Table 4 and Figs 8, 10, 11 and 12. The two public native input/code branch URLs are retained exactly; no matched local SI/code was found. Their contents, exact commits, licenses and correspondence are unverified. No claim of public absence and no author message. External retrieval remains paused pending the requested Chrome connection.",
+  "reproduction": "Independent implementations check printed discount/lifetime/knowledge/diffusion/cost components and reported ratios with disclosed analyst examples. Nine synthetic saturated-bound rows are not a Swiss network optimum. An independent LP illustrates finite-penalty behavior; analyst period weights show only a possible gap explanation. Native scenarios, sensitivity surfaces, parameter calibration, full mass/utility balances, DAC costs, solver logs and original author outputs remain unreproduced.",
+  "paper1_use": "Acknowledge multimodal transition/deployment planning as prior work and distinguish capacity-distance, stored policy mass and lifecycle mitigation. Keep the 4.8/1.7 Mt gap conflict, annuity/levelization, scenario assumptions and pressure/utility limits explicit. Do not transfer the 5% cost premium, 200 kt LCA result, storage capacity or diffusion parameters as accepted regional inputs. Original PDFs, accepted operating/GHG inputs and existing numerical results remain unchanged.",
+  "next_steps": "Keep the goal active. Continue B2-06 and local citation checks. When the requested Chrome connection permits retrieval, archive code/data at exact commits with licenses, publisher SI and errata. Check annual weights, gaps, annuities/units, penalties, clusters/topology, construction and scenario constraints; rerun native cases with permitted solvers and verify balances/bounds. Verify 71 remaining originals and necessary underlying chains; inspect all retained assets fully before any completion claim."
+}

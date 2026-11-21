@@ -1,0 +1,36 @@
+{
+  "study_id": "B2-05",
+  "source_sha256": "39bcdff7077a5664a822fdecec62d4aeab5bdda58a40f6ed7ec4b94cf1a35a52",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R04",
+      "cited_study": "B3-42",
+      "source_sha256": "6d475de6fccc3f6153272829e0f59d3dee1fe3d9cf93260dc5fe6b8ecfd2d6ea",
+      "doi": "10.1016/j.ijggc.2022.103635",
+      "targeted_pages": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "inspection": "All text/render pp14–16; p17 EqB.1 and explanatory paragraphs only, not its bibliography",
+      "supported": "Selected per-t/per-kt operating coefficients, fixed-distance pipeline term, rated flow, preselection and earlier annualized cost construction",
+      "unresolved": "New CAPEX adaptation, printed pipeline capacity coefficient and annuity mapping; underlying/private cost sources and full original model not verified"
+    },
+    {
+      "reference_id": "R51",
+      "cited_study": "B3-13",
+      "source_sha256": "ff86c737307a2d56c0524b25161eaeadf620b44c87725e4cd3e7a9a99470ab5d",
+      "doi": "10.1016/j.ijggc.2011.11.011",
+      "targeted_pages": [
+        1,
+        2,
+        3
+      ],
+      "inspection": "All text and rendered pages, including footnotes",
+      "supported": "Multistep network planning, clustering/Delaunay preselection and explicit qualitative permitting-delay concerns",
+      "unresolved": "Specific2025 projection, whole-literature novelty, actualcurrentnetwork, B2-05 diffusion parameters and full original model not verified"
+    }
+  ]
+}

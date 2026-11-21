@@ -1,0 +1,1370 @@
+{
+  "study_id": "B2-05",
+  "source_sha256": "39bcdff7077a5664a822fdecec62d4aeab5bdda58a40f6ed7ec4b94cf1a35a52",
+  "printed_entries": 73,
+  "additional_dependencies": 10,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        2,
+        6,
+        8,
+        11
+      ],
+      "citation": "Abdulla et al. (2021). Explaining successful and failed investments in U.S. carbon capture and storage using empirical and expert assessments",
+      "doi_or_url_as_printed": "10.1088/1748-9326/abd19e",
+      "claim_links": [
+        "C10",
+        "C27"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        5,
+        11
+      ],
+      "citation": "Barlow et al. (2025). State of the Art: CCS Technologies 2025",
+      "doi_or_url_as_printed": "https://www.globalccsinstitute.com/wp-content/uploads/2025/08/State-of-the-Art-CCS-Technologies-2025-Global-CCS-Institute.pdf",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        9,
+        11
+      ],
+      "citation": "Becattini (2025). CITru in a Nutshell: Exploring CO2 Injection in the Swiss Subsurface",
+      "doi_or_url_as_printed": "https://www.citru.ethz.ch/export/sites/citru/.galleries/Dowloads_presentations/2_Becattini_CITru_Nutshell.pdf_2063069339.pdf",
+      "claim_links": [
+        "C41"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        2,
+        5,
+        6,
+        10,
+        11
+      ],
+      "citation": "Becattini et al. (2022). Carbon dioxide capture, transport and storage supply chains: Optimal economic and environmental performance of infrastructure rollout",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2022.103635",
+      "claim_links": [
+        "C07",
+        "C09",
+        "C23",
+        "C24",
+        "C46"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "primary_text_checked_scoped_partial_cost_lineage",
+      "assessment": "Exact B3-42 DOI/hash; pp14–16 text/render and p17 EqB.1 inspected. Supports transport rated-flow formulation, conditioning boundary, Delaunay reduction and selected variable-cost unit conversions. Table B.2 labels pipeline alpha1 as10^-6, not the new Table 1 value1 EUR/(t/year); vehicle alpha1 already uses an annualizing construction. Native adaptation and complete new CAPEX accounting remain unverified. No blanket validation of Table 1, Swiss diffusion results, full cited paper or underlying private communications.",
+      "primary_check_claim_scope": {
+        "C07": "Earlier bridging-result claim not verified in these cost passages",
+        "C09": "This source’s deployment-delay treatment not checked here",
+        "C23": "Delaunay reduction supported; routing-error/minor-effect conclusion unverified",
+        "C24": "Selected cost coefficients supported; complete CAPEX adaptation unverified",
+        "C46": "Local-storage and operator interpretation not validated by this cost check"
+      }
+    },
+    {
+      "id": "R05",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "Becattini et al. (2024). Accelerating the climate transition through scientist-led CO2 management pilot projects",
+      "doi_or_url_as_printed": "10.1038/s44286-024-00056-y",
+      "claim_links": [
+        "C04"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        2,
+        3,
+        11
+      ],
+      "citation": "Bennæs et al. (2024). Modeling a supply chain for carbon capture and offshore storage—A German–Norwegian case study",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2023.104028",
+      "claim_links": [
+        "C06",
+        "C14"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        1,
+        5,
+        7,
+        9,
+        11
+      ],
+      "citation": "BFE (2021). Energieperspektiven 2050+: Technischer Bericht. Gesamtdokumentation der Arbeiten",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C01",
+        "C04",
+        "C20",
+        "C25",
+        "C26",
+        "C41"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        5,
+        11
+      ],
+      "citation": "Brandl et al. (2021). Beyond 90% capture: Possible, but at what cost?",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2020.103239",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        3,
+        11
+      ],
+      "citation": "Bröchin et al. (2024). Harder, better, faster, stronger: understanding and improving the tractability of large energy system models",
+      "doi_or_url_as_printed": "10.1186/s13705-024-00458-z",
+      "claim_links": [
+        "C14"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        3,
+        10,
+        11
+      ],
+      "citation": "Burger et al. (2024). Environmental impacts of carbon capture, transport, and storage supply chains: Status and the way forward",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2023.104039",
+      "claim_links": [
+        "C16",
+        "C47"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        8,
+        9,
+        11
+      ],
+      "citation": "Carbon Gap (2025). Carbon Removal by Country",
+      "doi_or_url_as_printed": "https://tracker.carbongap.org/regional-analysis/national/",
+      "claim_links": [
+        "C41"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        5,
+        11
+      ],
+      "citation": "Clean Air Task Force (2024a). Carbon Capture and Storage: What Can We Learn from the Project Track Record?",
+      "doi_or_url_as_printed": "https://www.catf.us/resource/carbon-capture-storage-what-can-learn-from-project-track-record/",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        6,
+        8,
+        11
+      ],
+      "citation": "Clean Air Task Force (2024b). CCUS Database",
+      "doi_or_url_as_printed": "https://docs.google.com/spreadsheets/d/10SGBHyknvIc9ZyLKhOiPUa-Bx7oCQ7tIUqo-Ubi7ak0/edit?pli=1&gid=771308526#gid=771308526",
+      "claim_links": [
+        "C27",
+        "C36"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        1,
+        5,
+        11
+      ],
+      "citation": "Clean Air Task Force (2024c). Tracking CO2 Storage Project Capacity in Europe",
+      "doi_or_url_as_printed": "https://cdn.catf.us/wp-content/uploads/2024/01/18105138/CATF_TrackingCO2ProjectEurope_Brief.pdf",
+      "claim_links": [
+        "C04",
+        "C25"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "Corsten et al. (2013). Environmental impact assessment of CCS chains – Lessons learned and limitations from LCA literature",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2012.12.003",
+      "claim_links": [
+        "C08"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        2,
+        3,
+        6,
+        11
+      ],
+      "citation": "D’Amore and Bezzo (2017). Economic optimisation of European supply chains for CO2 capture, transport and sequestration",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2017.08.015",
+      "claim_links": [
+        "C06",
+        "C11",
+        "C14",
+        "C31"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        1,
+        2,
+        5,
+        6,
+        9,
+        11
+      ],
+      "citation": "D’Amore et al. (2021a). Carbon capture and storage from energy and industrial emission sources: A Europe-wide supply chain optimisation",
+      "doi_or_url_as_printed": "10.1016/j.jclepro.2020.125202",
+      "claim_links": [
+        "C04",
+        "C06",
+        "C24",
+        "C43"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "D’Amore et al. (2021b). Optimal design of European supply chains for carbon capture and storage from industrial emission sources including pipe and ship transport",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2021.103372",
+      "claim_links": [
+        "C06"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        2,
+        3,
+        4,
+        11
+      ],
+      "citation": "D’Amore et al. (2019). European supply chains for carbon capture, transport and sequestration, with uncertainties in geological storage capacity: Insights from economic optimisation",
+      "doi_or_url_as_printed": "10.1016/j.compchemeng.2019.106521",
+      "claim_links": [
+        "C06",
+        "C14",
+        "C18"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "Danish Energy Agency (2024). Carbon Capture, Transport and Storage - Technology Data",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C05",
+        "C08"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        10,
+        11
+      ],
+      "citation": "Davis et al. (2018). Net-zero emissions energy systems",
+      "doi_or_url_as_printed": "10.1126/science.aas9793",
+      "claim_links": [
+        "C48"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "Douglas (2025). South Dakota bans use of eminent domain for carbon dioxide pipelines",
+      "doi_or_url_as_printed": "https://www.reuters.com/world/us/south-dakota-bans-use-eminent-domain-carbon-dioxide-pipelines-2025-03-06/",
+      "claim_links": [
+        "C09",
+        "C10"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "European Commission (2024). The Net-Zero Industry Act",
+      "doi_or_url_as_printed": "https://single-market-economy.ec.europa.eu/industry/sustainability/net-zero-industry-act_en",
+      "claim_links": [
+        "C04"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        2,
+        11
+      ],
+      "citation": "European Commission (2025). Commission launches public consultation on CO2 markets and infrastructure",
+      "doi_or_url_as_printed": "https://energy.ec.europa.eu/news/commission-launches-public-consultation-co2-markets-and-infrastructure-2025-10-06_en",
+      "claim_links": [
+        "C10"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "European Commission/JRC/Tumara et al. (2024). Shaping the Future CO2 Transport Network for Europe",
+      "doi_or_url_as_printed": "https://data.europa.eu/doi/10.2760/582433",
+      "claim_links": [
+        "C04"
+      ],
+      "bibliography_page": 11,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Frattini et al. (2024). Main current legal and regulatory frameworks for carbon dioxide capture, transport, and storage in the European Economic Area",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2024.104172",
+      "claim_links": [
+        "C10"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Gabrielli et al. (2022). Optimization and assessment of carbon capture, transport and storage supply chains for industrial sectors: The cost of resilience",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2022.103797",
+      "claim_links": [
+        "C23"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "George (2023). Summit carbon solutions postpones CO2 pipeline until 2026",
+      "doi_or_url_as_printed": "https://carbonherald.com/summit-carbon-solutions-postpones-co2-pipeline-until-2026/",
+      "claim_links": [
+        "C09",
+        "C10"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R29",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "George (2025). Summit considers leaving North Dakota out of carbon pipeline route",
+      "doi_or_url_as_printed": "https://carbonherald.com/summit-considers-leaving-north-dakota-out-of-carbon-pipeline-route/",
+      "claim_links": [
+        "C10"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R30",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "Global CCS Institute (2025). Global Status of CCS 2025",
+      "doi_or_url_as_printed": "https://www.globalccsinstitute.com/wp-content/uploads/2025/10/Global-Status-of-CCS-2025-report-9-October.pdf",
+      "claim_links": [
+        "C01",
+        "C02"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R31",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Gough et al. (2014). Public perceptions of CO2 transportation in pipelines",
+      "doi_or_url_as_printed": "10.1016/j.enpol.2014.03.039",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R32",
+      "pages": [
+        10,
+        12
+      ],
+      "citation": "Grubb et al. (2022). Carbon leakage, consumption, and trade",
+      "doi_or_url_as_printed": "10.1146/annurev-environ-120820-053625",
+      "claim_links": [
+        "C48"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R33",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Gurobi Optimization LLC (2026). Gurobi Optimizer reference manual",
+      "doi_or_url_as_printed": "https://www.gurobi.com",
+      "claim_links": [
+        "C30"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R34",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "Heidelberg Materials (2025). The world’s first carbon captured net-zero cement",
+      "doi_or_url_as_printed": "https://www.evozero.com/",
+      "claim_links": [
+        "C01"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R35",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Hoekstra (2017). Photovoltaic growth: reality versus projections of the International Energy Agency – with 2018 update (by Auke Hoekstra)",
+      "doi_or_url_as_printed": "https://maartensteinbuch.com/2017/06/12/photovoltaic-growth-reality-versus-projections-of-the-international-energy-agency/",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R36",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Holm et al. (2025). How to best transport CO2 to offshore storages?",
+      "doi_or_url_as_printed": "10.1016/j.ccst.2025.100416",
+      "claim_links": [
+        "C23"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R37",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Homaei et al. (2026). High-capture-rate carbon capture and storage enables cost-effective decarbonization of Europe’s power sector",
+      "doi_or_url_as_printed": "10.1038/s44458-026-00036-8",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R38",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "IAEA (1975). Annual Report",
+      "doi_or_url_as_printed": "https://www.iaea.org/sites/default/files/gc/gc19-544_en.pdf",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R39",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "IEA (2009). Technology Roadmap - Carbon Capture and Storage",
+      "doi_or_url_as_printed": "https://iea.blob.core.windows.net/assets/6fb1a978-4fa3-4ab0-8ef4-7d18cc9c1880/CCSRoadmap2009.pdf",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R40",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "IEA (2021). Net Zero by 2050 - A Roadmap for the Global Energy Sector",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C02"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R41",
+      "pages": [
+        3,
+        12
+      ],
+      "citation": "IPCC (2005). IPCC Special Report on Carbon Dioxide Capture and Storage",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C13"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R42",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "IPCC (2022). Climate Change 2022: Mitigation of Climate Change. Contribution of Working Group III to the Sixth Assessment Report",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C01"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R43",
+      "pages": [
+        1,
+        2,
+        6,
+        12
+      ],
+      "citation": "Kazlou et al. (2024). Feasible deployment of carbon capture and storage and the requirements of climate targets",
+      "doi_or_url_as_printed": "10.1038/s41558-024-02104-0",
+      "claim_links": [
+        "C02",
+        "C03",
+        "C11",
+        "C27",
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R44",
+      "pages": [
+        9,
+        12
+      ],
+      "citation": "Lane et al. (2021). Uncertain storage prospects create a conundrum for carbon capture and storage ambitions",
+      "doi_or_url_as_printed": "10.1038/s41558-021-01175-7",
+      "claim_links": [
+        "C41"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R45",
+      "pages": [
+        2,
+        3,
+        4,
+        12
+      ],
+      "citation": "Leibowicz et al. (2016). Representing spatial technology diffusion in an energy system optimization model",
+      "doi_or_url_as_printed": "10.1016/j.techfore.2015.06.001",
+      "claim_links": [
+        "C11",
+        "C17",
+        "C18"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R46",
+      "pages": [
+        1,
+        12
+      ],
+      "citation": "Levina et al. (2023). CCS in Europe - Regional Overview",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C01"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R47",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Mannhardt et al. (2024). Understanding the vicious cycle of myopic foresight and constrained technology deployment in transforming the European energy system",
+      "doi_or_url_as_printed": "10.1016/j.isci.2024.111369",
+      "claim_links": [
+        "C11"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R48",
+      "pages": [
+        2,
+        3,
+        12
+      ],
+      "citation": "Mannhardt et al. (2025). ZEN-garden: Optimizing energy transition pathways with user-oriented data handling",
+      "doi_or_url_as_printed": "10.1016/j.softx.2025.102059",
+      "claim_links": [
+        "C12"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R49",
+      "pages": [
+        2,
+        6,
+        12
+      ],
+      "citation": "Martin-Roberts et al. (2021). Carbon capture and storage at the end of a lost decade",
+      "doi_or_url_as_printed": "10.1016/j.oneear.2021.10.002",
+      "claim_links": [
+        "C09",
+        "C10",
+        "C27"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R50",
+      "pages": [
+        3,
+        12
+      ],
+      "citation": "Middleton et al. (2020). SimCCS: An open-source tool for optimizing CO2 capture, transport, and storage infrastructure",
+      "doi_or_url_as_printed": "10.1016/j.envsoft.2019.104560",
+      "claim_links": [
+        "C14"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R51",
+      "pages": [
+        2,
+        4,
+        5,
+        12
+      ],
+      "citation": "Morbee et al. (2012). Optimised deployment of a European CO2 transport network",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2011.11.011",
+      "claim_links": [
+        "C06",
+        "C09",
+        "C18",
+        "C23",
+        "C24"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "primary_text_checked_scoped_method_and_qualitative_delay",
+      "assessment": "Exact B3-13 DOI/hash; pp1–3 text/render inspected. Supports InfraCCS multistep pipeline planning, clustering, Delaunay preselection and international coordination. Page2 explicitly discusses permitting delays, so prior work did not wholly ignore deployment hurdles. This does not verify B2-05’s exact2025 projected kilometres, its diffusion novelty survey, routing approximation or current infrastructure. No full cited-paper closure.",
+      "primary_check_claim_scope": {
+        "C06": "Multistep pipeline network method supported; exact2025projection unverified",
+        "C09": "Qualitative permitting delays explicitly supported by p2",
+        "C18": "Original node clustering supported; new regional-edge pooling not validated",
+        "C23": "Delaunay preselection supported; current candidate routing/hydraulics unverified",
+        "C24": "New constant-cost/native adaptation not verified by these pages"
+      }
+    },
+    {
+      "id": "R52",
+      "pages": [
+        2,
+        6,
+        12
+      ],
+      "citation": "Neele et al. (2011). Large-scale CCS transport and storage networks in North-west and Central Europe",
+      "doi_or_url_as_printed": "10.1016/j.egypro.2011.02.176",
+      "claim_links": [
+        "C10",
+        "C31"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R53",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Negri et al. (2021). Life cycle optimization of BECCS supply chains in the European Union",
+      "doi_or_url_as_printed": "10.1016/j.apenergy.2021.117252",
+      "claim_links": [
+        "C06"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R54",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Nemet et al. (2023). Dataset on the adoption of historical technologies informs the scale-up of emerging carbon dioxide removal measures",
+      "doi_or_url_as_printed": "10.1038/s43247-023-01056-1",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R55",
+      "pages": [
+        2,
+        3,
+        10,
+        12
+      ],
+      "citation": "Nöhl et al. (2025). How to transport carbon dioxide with minimal environmental impacts today and tomorrow? A prospective life cycle assessment",
+      "doi_or_url_as_printed": "10.1016/j.jclepro.2025.145659",
+      "claim_links": [
+        "C08",
+        "C16",
+        "C47"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R56",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Noothout et al. (2014). CO2 pipeline infrastructure – lessons learnt",
+      "doi_or_url_as_printed": "10.1016/j.egypro.2014.11.271",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R57",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Northern Lights JV DA (2024a). Liquid CO2 Quality Specifications",
+      "doi_or_url_as_printed": "https://safety4sea.com/wp-content/uploads/2024/03/Northern-Lights-GS-co2-2024_03.pdf",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R58",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Northern Lights JV DA (2024b). Northern Lights’ first CO2 transport ship ready for delivery",
+      "doi_or_url_as_printed": "https://norlights.com/news/northern-lights-first-co2-transport-ship-ready-for-delivery/",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R59",
+      "pages": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        12
+      ],
+      "citation": "Oeuvray et al. (2024). Multi-criteria assessment of inland and offshore carbon dioxide transport options",
+      "doi_or_url_as_printed": "10.1016/j.jclepro.2024.140781",
+      "claim_links": [
+        "C04",
+        "C05",
+        "C08",
+        "C13",
+        "C14",
+        "C43",
+        "C45"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R60",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Peletiri et al. (2018). CO2 pipeline design: A review",
+      "doi_or_url_as_printed": "10.3390/en11092184",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R61",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Pérez-Calvo and Mazzotti (2022). Techno-economic assessment of post-combustion CO2 capture using aqueous piperazine at different flue gas compositions and flowrates via a general optimization methodology",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2022.103587",
+      "claim_links": [
+        "C21"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R62",
+      "pages": [
+        3,
+        6,
+        12
+      ],
+      "citation": "Reliability and Risk Engineering lab (2025). ZEN-garden Documentation",
+      "doi_or_url_as_printed": "https://zen-garden.readthedocs.io/en/latest/index.html",
+      "claim_links": [
+        "C12",
+        "C14",
+        "C24"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R63",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Saipem (2020). CO2NET Grobes Design und Kostenschätzung für ein CO2 Sammel-Netzwerk in der Schweiz",
+      "doi_or_url_as_printed": "https://www.aramis.admin.ch/Default?DocumentID=67550",
+      "claim_links": [
+        "C31"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R64",
+      "pages": [
+        5,
+        6,
+        9,
+        12
+      ],
+      "citation": "Sievert et al. (2024). Considering technology characteristics to project future costs of direct air capture",
+      "doi_or_url_as_printed": "10.1016/j.joule.2024.02.005",
+      "claim_links": [
+        "C26",
+        "C44"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R65",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Sievert et al. (2025). The impact of financing structures on the cost of carbon dioxide transport",
+      "doi_or_url_as_printed": "10.1016/j.eneco.2025.108253",
+      "claim_links": [
+        "C20"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R66",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Stewart et al. (2014). The feasibility of a European-wide integrated CO2 transport network",
+      "doi_or_url_as_printed": "10.1002/ghg.1410",
+      "claim_links": [
+        "C06",
+        "C08"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R67",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Swiss Federal Office for the Environment FOEN (2024). Schadstoffregister SwissPRTR",
+      "doi_or_url_as_printed": "https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/zustand/schadstoffregister-swissprtr.html",
+      "claim_links": [
+        "C20"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R68",
+      "pages": [
+        6,
+        7,
+        12
+      ],
+      "citation": "Wang et al. (2014). Optimal pipeline design for CCS projects with anticipated increasing CO2 flow rates",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2014.10.010",
+      "claim_links": [
+        "C29",
+        "C32"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R69",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Wei et al. (2021). A proposed global layout of carbon capture and storage in line with a 2°C climate target",
+      "doi_or_url_as_printed": "10.1038/s41558-020-00960-0",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R70",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "World Nuclear Association (2025). Global Nuclear Performance",
+      "doi_or_url_as_printed": "https://world-nuclear.org/our-association/publications/world-nuclear-performance-report/global-nuclear-industry-performance",
+      "claim_links": [
+        "C28"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R71",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "Yeates et al. (2024). Industrial CO2 transport in Germany: Comparison of pipeline routing scenarios",
+      "doi_or_url_as_printed": "10.1016/j.ijggc.2024.104225",
+      "claim_links": [
+        "C09"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R72",
+      "pages": [
+        1,
+        2,
+        12
+      ],
+      "citation": "ZEP (2020). A Trans-European CO2 Transportation Infrastructure for CCUS: Opportunities & Challenges",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C04",
+        "C05",
+        "C08"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "R73",
+      "pages": [
+        2,
+        12
+      ],
+      "citation": "ZEP (2025). Designing Europe’s CO2 Market and Infrastructure",
+      "doi_or_url_as_printed": "no URL supplied",
+      "claim_links": [
+        "C08"
+      ],
+      "bibliography_page": 12,
+      "verification_status": "unverified_original",
+      "assessment": "Identity and use mapped from retained B2-05; underlying original passages, methods, data and downstream sources have not been verified. A matching retained title is not verification."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        11
+      ],
+      "citation": "Publisher supplement",
+      "doi_or_url_as_printed": "p11 AppendixA; pp5–9 SI sections A.5,A.6,B.1,Table4,Figs8,10,11,12",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Cost inputs, all-mode diffusion, announced project list, alternative metrics and domestic-storage sensitivities. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "Versioned native inputs",
+      "doi_or_url_as_printed": "https://github.com/ZEN-universe/ZEN-models/tree/Beyond_pipelines_2026",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "All four Swiss scenarios, targets, topology, diffusion clusters and sensitivity outputs. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "Versioned native code",
+      "doi_or_url_as_printed": "https://github.com/johburger/ZEN-garden/tree/Beyond_pipelines_2026",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Modified ZEN-garden implementation, environment and license; exact commit required. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        6
+      ],
+      "citation": "Solver/runtime archive",
+      "doi_or_url_as_printed": "p6 Gurobi13.0,1%/24h,up to1.9% gap",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "MIP bounds, logs, licenses and tolerances for independent optimality assessment. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "citation": "Technology and utility inventory",
+      "doi_or_url_as_printed": "p3 framework; p5 generic99% capture; p6 Table1",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Heat, electricity, cooling, conditioning states/suppliers, material and asset factors. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        3,
+        8,
+        9
+      ],
+      "citation": "Temporal conventions",
+      "doi_or_url_as_printed": "p3 Eq1–3,6; p8 Fig4; p9 Fig6",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Annual gap weights, construction leads, terminal year, retirement and discounted-tonne denominator. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        3,
+        5,
+        9
+      ],
+      "citation": "Storage realization",
+      "doi_or_url_as_printed": "p3 service sink; p5 domestic3Mt/year",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Native annual/total capacities, geology, pressure, availability and retained-carbon evidence. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        6,
+        8
+      ],
+      "citation": "Announced project calibration",
+      "doi_or_url_as_printed": "p6 historic success/median and Table2; p8 Fig4",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Dated project snapshot, size-success covariance, median calculations and uncertainty. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D09",
+      "pages": [
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Candidate network and practical operations",
+      "doi_or_url_as_printed": "p5 Delaunay/500km cutoff; p10 redeployment",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Coordinates, corridors, edge directions, terminal buffers, vehicles, river constraints and calendars. Not retained/verified for this audit; no public absence is inferred."
+    },
+    {
+      "id": "D10",
+      "pages": [
+        5,
+        6,
+        9
+      ],
+      "citation": "DAC compensation and underlying source chain",
+      "doi_or_url_as_printed": "pp5–6 scenario comparison; p9 Fig6",
+      "claim_links": [],
+      "verification_status": "unverified_dependency",
+      "assessment": "Time-dependent DAC costs, storage/transport/energy boundaries and net-removal equivalence. Not retained/verified for this audit; no public absence is inferred."
+    }
+  ],
+  "native_bibliography_transcription": [
+    {
+      "page": 11,
+      "column": "left",
+      "text": "References\n\n\nAbdulla, Ahmed, Hanna, Ryan, Schell, Kristen R, Babacan, Oytun, Victor, David G,\n    2021. Explaining successful and failed investments in U.S. carbon capture and\n    storage using empirical and expert assessments. Environ. Res. Lett. 16 (1), 014036.\n    http://dx.doi.org/10.1088/1748-9326/abd19e.\nBarlow, Hughes,  Shahi, Shahrzad  S.M., Jeddizahed, Javad,  Kearns, David, 2025.\n    State  of  the  Art:  CCS  Technologies  2025.  Technical  Report,  Global  CCS\n     Institute, URL: https://www.globalccsinstitute.com/wp-content/uploads/2025/08/\n    State-of-the-Art-CCS-Technologies-2025-Global-CCS-Institute.pdf (Visited 20 March\n    2026).\nBecattini, Viola, 2025. CITru in a Nutshell: Exploring CO2  Injection in the Swiss\n    Subsurface.   Zurich,   Switzerland,   URL:   https://www.citru.ethz.ch/export/\n    sites/citru/.galleries/Dowloads_presentations/2_Becattini_CITru_Nutshell.pdf_\n    2063069339.pdf (Visited 20 November 2025).\nBecattini, Viola, Gabrielli, Paolo, Antonini, Cristina, Campos, Jordi, Acquilino, Alberto,\n    Sansavini, Giovanni, Mazzotti, Marco, 2022. Carbon dioxide capture, transport\n   and storage supply chains: Optimal economic and environmental performance\n    of infrastructure  rollout.  Int.  J. Greenh. Gas Control. 117 (January), 103635.\n    http://dx.doi.org/10.1016/j.ijggc.2022.103635.\n\n                                                                        1"
+    },
+    {
+      "page": 11,
+      "column": "right",
+      "text": "                            International Journal of Greenhouse Gas Control 154 (2026) 104698\n\n\n   Becattini,  Viola, Wiemer,  Stefan, Mazzotti, Marco, 2024. Accelerating the climate\n        transition through scientist-led CO2 management pilot projects. Nat. Chem. Eng.\n      1 (4), 267–269. http://dx.doi.org/10.1038/s44286-024-00056-y.\n   Bennæs, Anders, Skogset, Martin, Svorkdal, Tormod, Fagerholt, Kjetil, Herlicka, Lisa,\n       Meisel, Frank, Rickels, Wilfried, 2024. Modeling a supply chain for carbon capture\n      and offshore storage—A German–Norwegian case study. Int. J. Greenh. Gas Control.\n       132, 104028. http://dx.doi.org/10.1016/j.ijggc.2023.104028.\n   BFE, 2021. Energieperspektiven 2050+: Technischer Bericht. Gesamtdokumentation der\n       Arbeiten. Tech. Rep., Bundesamt für Energie BFE, Bern, CH.\n   Brandl, Patrick, Bui, Mai, Hallett, Jason P., Mac Dowell, Niall, 2021. Beyond 90%\n       capture: Possible, but at what cost? Int. J. Greenh. Gas Control. 105 (November\n       2020), 103239. http://dx.doi.org/10.1016/j.ijggc.2020.103239.\n   Bröchin, Manuel, Pickering, Bryn, Tröndle, Tim, Pfenninger, Stefan, 2024. Harder,\n        better, faster, stronger: understanding and improving the tractability of large energy\n      system models. Energy, Sustain. Soc. 14 (1), 27. http://dx.doi.org/10.1186/s13705-\n       024-00458-z.\n   Burger, Johannes, Nöhl, Julian, Seiler, Jan, Gabrielli, Paolo, Oeuvray, Pauline, Becat-\n         tini, Viola, Reyes-Lúa, Adriana, Riboldi, Luca, Sansavini, Giovanni, Bardow, André,\n      2024. Environmental impacts of carbon capture, transport, and storage supply\n       chains: Status and the way forward. Int. J. Greenh. Gas Control. 132, 104039.\n       http://dx.doi.org/10.1016/j.ijggc.2023.104039.\n   Carbon Gap, 2025. Carbon Removal by Country. URL: https://tracker.carbongap.org/\n       regional-analysis/national/ (Visited 20 November 2025).\n   Clean Air Task Force, 2024a. Carbon Capture and Storage: What Can We Learn from the\n       Project Track Record? Tech. Rep., Clean Air Task Force, URL: https://www.catf.us/\n       resource/carbon-capture-storage-what-can-learn-from-project-track-record/ (Visited\n      20 March 2026).\n   Clean  Air  Task  Force,  2024b. CCUS  Database.  URL:  https://docs.google.com/\n      spreadsheets/d/10SGBHyknvIc9ZyLKhOiPUa-Bx7oCQ7tIUqo-Ubi7ak0/edit?pli=1&\n      gid=771308526#gid=771308526 (Visited 22 September 2025).\n   Clean Air Task Force, 2024c. Tracking CO2 Storage Project Capacity in Europe. Tech.\n       Rep., Clean Air Task Force, URL: https://cdn.catf.us/wp-content/uploads/2024/01/\n       18105138/CATF_TrackingCO2ProjectEurope_Brief.pdf.\n   Corsten, Mariëlle, Ramírez, Andrea, Shen,  Li, Koornneef, Joris, Faaij, André, 2013.\n      Environmental impact assessment of CCS chains – Lessons learned and limitations\n      from LCA literature. Int. J. Greenh. Gas Control. 13, 59–71. http://dx.doi.org/10.\n       1016/j.ijggc.2012.12.003.\n   d’Amore, Federico, Bezzo, Fabrizio, 2017. Economic optimisation of European supply\n       chains for CO2 capture, transport and sequestration. Int. J. Greenh. Gas Control.\n      65 (August), 99–116. http://dx.doi.org/10.1016/j.ijggc.2017.08.015.\n   d’Amore, Federico, Romano, Matteo Carmelo, Bezzo, Fabrizio, 2021a. Carbon capture\n      and storage from energy and industrial emission sources: A Europe-wide supply\n       chain  optimisation.  J.  Clean. Prod. 290, 125202.  http://dx.doi.org/10.1016/j.\n       jclepro.2020.125202.\n   d’Amore, Federico, Romano, Matteo Carmelo, Bezzo, Fabrizio, 2021b. Optimal design\n       of European supply chains for carbon capture and storage from industrial emission\n       sources including pipe and ship transport. Int. J. Greenh. Gas Control. 109, 103372.\n       http://dx.doi.org/10.1016/j.ijggc.2021.103372.\n   d’Amore, Federico, Sunny, Nixon, Iruretagoyena, Diana, Bezzo, Fabrizio, Shah, Nilay,\n      2019. European supply chains for carbon capture, transport and sequestration,\n      with uncertainties in geological storage capacity: Insights from economic optimisa-\n        tion. Comput. Chem. Eng. 129, 106521. http://dx.doi.org/10.1016/j.compchemeng.\n      2019.106521.\n   Danish Energy Agency, 2024. Carbon Capture, Transport and Storage  - Technology\n       Data. Tech. Rep., Danish Energy Agency.\n   Davis,  Steven   J.,  Lewis,  Nathan   S.,  Shaner,  Matthew,  Aggarwal,  Sonia,  Ar-\n        ent, Doug, Azevedo, Inês L, Benson, Sally M, Bradley, Thomas, Brouwer, Jack,\n       Chiang,  Yet-Ming,  Clack,  Christopher  T.M.,  Cohen, Armond,  Doig,  Stephen,\n      Edmonds, Jae, Fennell, Paul, Field, Christopher B., Hannegan, Bryan, Hodge, Bri-\n       Mathias, Hoffert, Martin  I., Ingersoll, Eric, Jaramillo, Paulina, Lackner, Klaus S.,\n      Mach,  Katharine  J.,  Mastrandrea,  Michael,  Ogden,  Joan,  Peterson,  Per  F.,\n       Sanchez, Daniel L., Sperling, Daniel, Stagner, Joseph, Trancik, Jessika E., Yang, Chi-\n       Jen, Caldeira, Ken, 2018. Net-zero emissions energy systems. Science 360 (6396),\n       1–10. http://dx.doi.org/10.1126/science.aas9793.\n   Douglas, Leah, 2025. South Dakota bans use of eminent domain for carbon dioxide\n        pipelines. Reuters URL: https://www.reuters.com/world/us/south-dakota-bans-use-\n       eminent-domain-carbon-dioxide-pipelines-2025-03-06/.\n   European Commission, 2024. The Net-Zero Industry Act. URL: https://single-market-\n       economy.ec.europa.eu/industry/sustainability/net-zero-industry-act_en  (Visited 14\n       July 2025).\n   European  Commission,  2025.  Commission  launches  public  consultation on CO2\n      markets and  infrastructure. URL: https://energy.ec.europa.eu/news/commission-\n       launches-public-consultation-co2-markets-and-infrastructure-2025-10-06_en (Visited\n      10 December 2025).\n   European Commission, Joint Research Centre, Tumara, Dazen, Uihlein, Andreas, Hi-\n       dalgo Gonzáles, Ignacio, 2024. Shaping the Future CO2 Transport Network for\n       Europe. Tech. Rep., Publications Office of the European Union, Luxembourg, URL:\n       https://data.europa.eu/doi/10.2760/582433.\n\n1"
+    },
+    {
+      "page": 12,
+      "column": "left",
+      "text": "J. Burger et al.\n\n\nFrattini,  Linda,  Becattini,  Viola,  Mazzotti, Marco, 2024. Main  current  legal and\n    regulatory frameworks for carbon dioxide capture, transport, and storage in the\n    European Economic Area. Int. J. Greenh. Gas Control. 136, 104172. http://dx.doi.\n    org/10.1016/j.ijggc.2024.104172.\nGabrielli, Paolo, Campos, Jordi, Becattini, Viola, Mazzotti, Marco, Sansavini, Giovanni,\n    2022. Optimization and assessment of carbon capture, transport and storage supply\n    chains for industrial sectors: The cost of resilience. Int. J. Greenh. Gas Control. 121,\n    103797. http://dx.doi.org/10.1016/j.ijggc.2022.103797.\nGeorge, Violet, 2023. Summit carbon solutions postpones CO2 pipeline until 2026. Car-\n   bon Her. URL: https://carbonherald.com/summit-carbon-solutions-postpones-co2-\n    pipeline-until-2026/.\nGeorge, Violet, 2025. Summit considers leaving North Dakota out of carbon pipeline\n    route. URL: https://carbonherald.com/summit-considers-leaving-north-dakota-out-\n    of-carbon-pipeline-route/ (Visited 14 October 2025),\nGlobal CCS  Institute, 2025. Global  Status  of CCS 2025. Tech.  Rep., Global CCS\n     Institute, URL: https://www.globalccsinstitute.com/wp-content/uploads/2025/10/\n    Global-Status-of-CCS-2025-report-9-October.pdf.\nGough, Clair, O’Keefe, Laura, Mander, Sarah, 2014. Public perceptions of CO2 trans-\n    portation in pipelines. Energy Policy 70, 106–114. http://dx.doi.org/10.1016/j.\n    enpol.2014.03.039.\nGrubb, Michael, Jordan, Nino David, Hertwich, Edgar, Neuhoff, Karsten, Das, Kasturi,\n    Bandyopadhyay, Kaushik Ranjan, Van Asselt, Harro, Sato, Misato, Wang, Ranran,\n    Pizer, William A., Oh, Hyungna, 2022. Carbon leakage, consumption, and trade.\n    Annu. Rev. Environ. Resour. 47 (1), 753–795. http://dx.doi.org/10.1146/annurev-\n    environ-120820-053625.\nGurobi Optimization, LLC, 2026. Gurobi Optimizer reference manual. URL:  https:\n    //www.gurobi.com.\nHeidelberg Materials, 2025. The world’s first carbon captured net-zero cement. URL:\n    https://www.evozero.com/ (Visited 14 July 2025).\nHoekstra,  Auke,  2017.  Photovoltaic  growth:  reality  versus  projections  of  the\n    International Energy Agency – with 2018 update (by Auke  Hoekstra). URL:\n    https://maartensteinbuch.com/2017/06/12/photovoltaic-growth-reality-versus-\n    projections-of-the-international-energy-agency/ (Visited 13 November 2025).\nHolm, Sigmund Eggen, Winther, Martin Saue, Straus, Julian, Roussanaly, Simon, 2025.\n   How to best transport CO2 to offshore storages? Carbon Capture Sci. Technol. 15,\n    100416. http://dx.doi.org/10.1016/j.ccst.2025.100416.\nHomaei, Shamim, Anantharaman, Rahul, Backe,  Stian, Roussanaly, Simon, Tomas-\n    gard, Asgeir, 2026. High-capture-rate carbon capture and storage enables cost-\n    effective decarbonization of Europe’s power sector. Commun. Sustain. 1 (1), 34.\n    http://dx.doi.org/10.1038/s44458-026-00036-8.\nIAEA, 1975. Annual Report. Tech. Rep., International Atomic Energy Agency (IAEA),\n    Austria, URL: https://www.iaea.org/sites/default/files/gc/gc19-544_en.pdf (Visited\n   13 November 2025).\nIEA, 2009. Technology Roadmap  - Carbon Capture and  Storage. Tech.  Rep.,  In-\n    ternational Energy Agency (IEA), URL: https://iea.blob.core.windows.net/assets/\n    6fb1a978-4fa3-4ab0-8ef4-7d18cc9c1880/CCSRoadmap2009.pdf.\nIEA, 2021. Net Zero by 2050 - A Roadmap for the Global Energy Sector. Tech. Rep.,\n    International Energy Agency (IEA).\nIPCC, 2005. IPCC Special Report on Carbon Dioxide Capture and Storage. Prepared by\n   Working Group III of the Intergovernmental Panel on Climate Change. Tech. Rep.\nIPCC, 2022. Climate Change 2022: Mitigation of Climate Change. Contribution of\n   Working Group III to the Sixth Assessment Report of the Intergovernmental Panel\n   on Climate Change. Tech. Rep., Intergovernmental Panel on Climate Change,\n    Cambridge, UK.\nKazlou, Tsimafei, Cherp, Aleh, Jewell, Jessica, 2024. Feasible deployment of carbon\n    capture and storage and the requirements of climate targets. Nat. Clim. Chang. 14\n    (10), 1047–1055. http://dx.doi.org/10.1038/s41558-024-02104-0.\nLane, Joe, Greig, Chris, Garnett, Andrew, 2021. Uncertain storage prospects create a\n   conundrum for carbon capture and storage ambitions. Nat. Clim. Chang. 11 (11),\n    925–936. http://dx.doi.org/10.1038/s41558-021-01175-7.\nLeibowicz, Benjamin  D., Krey, Volker, Grubler, Arnulf, 2016. Representing  spatial\n    technology diffusion in an energy system optimization model. Technol. Forecast.\n    Soc. Change 103, 350–363. http://dx.doi.org/10.1016/j.techfore.2015.06.001.\nLevina, Ellina, Gerrits, Bruno, Blanchard, Mathilde, 2023. CCS in Europe  - Regional\n    Overview. Tech. Rep., Global CCS Institute.\nMannhardt, Jacob,  Gabrielli, Paolo, Sansavini, Giovanni, 2024. Understanding the\n    vicious  cycle  of myopic  foresight and  constrained technology deployment  in\n    transforming the European energy system. IScience 27 (12), 111369. http://dx.\n    doi.org/10.1016/j.isci.2024.111369.\nMannhardt, Jacob, Ganter, Alissa, Burger, Johannes, De Marco, Francesco, Kunz, Lukas,\n    Schmidt-Engelbertz, Lukas, Gabrielli, Paolo, Sansavini, Giovanni, 2025. ZEN-garden:\n    Optimizing energy transition pathways with user-oriented data handling. SoftwareX\n    29, 102059. http://dx.doi.org/10.1016/j.softx.2025.102059.\nMartin-Roberts, Emma,  Scott,  Vivian,  Flude,  Stephanie, Johnson,  Gareth,  Haszel-\n    dine, R. Stuart, Gilfillan, Stuart, 2021. Carbon capture and storage at the end of\n    a lost decade. One Earth 4 (11), 1569–1584. http://dx.doi.org/10.1016/j.oneear.\n    2021.10.002.\nMiddleton, Richard  S., Yaw, Sean  P., Hoover, Brendan A.,  Ellett, Kevin M., 2020.\n    SimCCS: An open-source tool for optimizing CO2 capture, transport, and storage\n    infrastructure. Environ. Model. Softw. 124 (October 2019), 104560. http://dx.doi.\n    org/10.1016/j.envsoft.2019.104560.\n\n                                                                        1"
+    },
+    {
+      "page": 12,
+      "column": "right",
+      "text": "                            International Journal of Greenhouse Gas Control 154 (2026) 104698\n\n\n   Morbee, Joris, Serpa, Joana, Tzimas, Evangelos, 2012. Optimised deployment of a\n      European CO2 transport network. Int. J. Greenh. Gas Control. 7 (2012), 48–61.\n       http://dx.doi.org/10.1016/j.ijggc.2011.11.011.\n   Neele,  Filip,  Koenen,  Mariëlle, Van  Deurzen,  Jeroen,  Seebregts,  Ad,  Groenen-\n       berg, Heleen, Thielemann, Thomas, 2011. Large-scale CCS transport and storage\n      networks in North-west and Central Europe.  In: Energy Procedia. Vol.  4, pp.\n      2740–2747. http://dx.doi.org/10.1016/j.egypro.2011.02.176.\n   Negri,   Valentina,   Galán-Martín,   Ángel,   Pozo,   Carlos,   Fajardy,   Mathilde,\n       Reiner, David  M., Mac  Dowell,  Niall,  Guillén-Gosálbez,  Gonzalo, 2021.  Life\n       cycle optimization of BECCS supply chains in the European Union. Appl. Energy\n      298 (February), 117252. http://dx.doi.org/10.1016/j.apenergy.2021.117252.\n   Nemet, Gregory, Greene, Jenna, Müller-Hansen, Finn, Minx, Jan C., 2023. Dataset on\n       the adoption of historical technologies informs the scale-up of emerging carbon\n       dioxide removal measures. Commun. Earth & Environ. 4 (1), 397. http://dx.doi.\n      org/10.1038/s43247-023-01056-1.\n   Nöhl,  Julian,  Burger,  Johannes,  Oeuvray,  Pauline,  Becattini,  Viola,  Seiler,  Jan,\n       Shu, David Y., Mazzotti, Marco, Bardow, André, 2025. How to transport carbon\n       dioxide with minimal environmental impacts today and tomorrow? A prospective\n         life cycle assessment. J. Clean. Prod. 514, 145659. http://dx.doi.org/10.1016/j.\n       jclepro.2025.145659.\n   Noothout, Paul, Wiersma, Frank, Hurtado, Omar, Macdonald, Doug, Kemper, Jasmin,\n      Van Alphen, Klaas, 2014. CO2 pipeline infrastructure – lessons learnt. In: Energy\n       Procedia. Vol. 63, Austin, TX, USA, pp. 2481–2492. http://dx.doi.org/10.1016/j.\n       egypro.2014.11.271.\n   Northern   Lights  JV  DA,  2024a.  Liquid  CO2   Quality   Specifications.  URL:\n       https://safety4sea.com/wp-content/uploads/2024/03/Northern-Lights-GS-co2-\n       2024_03.pdf (Visited 30 October 2025).\n   Northern Lights JV DA, 2024b. Northern Lights’  first CO2 transport ship ready for\n       delivery. URL: https://norlights.com/news/northern-lights-first-co2-transport-ship-\n       ready-for-delivery/ (Visited 16 July 2025).\n   Oeuvray, Pauline, Burger, Johannes, Roussanaly, Simon, Mazzotti, Marco, Becattini, Vi-\n        ola, 2024. Multi-criteria assessment of inland and offshore carbon dioxide transport\n       options.  J. Clean. Prod. 443, 140781. http://dx.doi.org/10.1016/j.jclepro.2024.\n      140781.\n   Peletiri, Suoton P., Rahmanian, Nejat, Mujtaba, Iqbal M., 2018. CO2 pipeline design:\n     A review. Energies 11 (9), 2184. http://dx.doi.org/10.3390/en11092184.\n   Pérez-Calvo, José-Francisco, Mazzotti, Marco, 2022. Techno-economic assessment of\n       post-combustion CO2  capture  using aqueous  piperazine  at  different  flue  gas\n       compositions and flowrates via a general optimization methodology. Int. J. Greenh.\n      Gas Control. 114, 103587. http://dx.doi.org/10.1016/j.ijggc.2022.103587.\n   Reliability and Risk Engineering lab, 2025. ZEN-garden Documentation. URL: https:\n       //zen-garden.readthedocs.io/en/latest/index.html (Visited 23 December 2025).\n   Saipem, 2020. CO2NET Grobes Design und Kostenschätzung für ein CO2 Sammel-\n      Netzwerk in der Schweiz. Tech. Rep., URL: https://www.aramis.admin.ch/Default?\n      DocumentID=67550 (Visited 13 November 2025).\n   Sievert,  Katrin, Schmidt, Tobias  S.,  Steffen, Bjarne, 2024. Considering technology\n        characteristics to project future costs of direct air capture. Joule 8 (4), 979–999.\n       http://dx.doi.org/10.1016/j.joule.2024.02.005.\n   Sievert, Katrin, Stefanescu, Alexandru Stefan, Oeuvray, Pauline, Steffen, Bjarne, 2025.\n      The impact of financing structures on the cost of carbon dioxide transport. Energy\n       Econ. 143, 108253. http://dx.doi.org/10.1016/j.eneco.2025.108253.\n   Stewart, R.J., Scott, V., Haszeldine, R.S., Ainger, D., Argent, S., 2014. The feasibility of\n      a European-wide integrated CO 2 transport network. Greenh. Gases: Sci. Technol.\n      4 (4), 481–494. http://dx.doi.org/10.1002/ghg.1410.\n   Swiss Federal Office for the Environment FOEN, 2024. Schadstoffregister SwissPRTR.\n      URL:    https://www.bafu.admin.ch/bafu/de/home/themen/chemikalien/zustand/\n       schadstoffregister-swissprtr.html (Visited 16 February 2024).\n  Wang, Z., Fimbres Weihs, G.A., Cardenas, G.I., Wiley, D.E., 2014. Optimal pipeline\n       design for CCS projects with anticipated increasing CO2 flow rates. Int. J. Greenh.\n      Gas Control. 31, 165–174. http://dx.doi.org/10.1016/j.ijggc.2014.10.010.\n   Wei, Yi-Ming, Kang, Jia-Ning, Liu, Lan-Cui, Li, Qi, Wang, Peng-Tao, Hou, Juan-Juan,\n       Liang, Qiao-Mei, Liao, Hua, Huang, Shi-Feng, Yu, Biying, 2021. A proposed global\n       layout of carbon capture and storage in line with a 2 ◦C climate target. Nat. Clim.\n      Chang. 11 (2), 112–118. http://dx.doi.org/10.1038/s41558-020-00960-0.\n  World Nuclear Association, 2025. Global Nuclear Performance. URL: https://world-\n       nuclear.org/our-association/publications/world-nuclear-performance-report/global-\n       nuclear-industry-performance (Visited 13 November 2025).\n   Yeates, Christopher, Abdelshafy,  Ali, Schmidt-Hattenberger, Cornelia, Walther, Grit,\n      2024.  Industrial CO2  transport  in Germany: Comparison  of  pipeline  routing\n       scenarios. Int. J. Greenh. Gas Control. 137, 104225. http://dx.doi.org/10.1016/\n       j.ijggc.2024.104225.\n   ZEP, 2020. A Trans-European CO2 Transportation Infrastructure for CCUS: Opportuni-\n        ties & Challenges. Tech. Rep., Zero Emissions Platform (ZEP).\n   ZEP, 2025. Designing Europe’s CO2 Market and  Infrastructure. Tech.  Rep., Zero\n       Emissions Platform (ZEP).\n\n\n\n\n\n2"
+    }
+  ],
+  "identity_check": {
+    "method": "DOI identity compared with URI in retained PDF bibliography links; no network retrieval",
+    "matched_doi_identities": 41,
+    "printed_doi_identities": 41,
+    "primary_passage_verification": false
+  }
+}
