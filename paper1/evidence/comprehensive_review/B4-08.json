@@ -1,0 +1,3097 @@
+{
+  "study_id": "B4-08",
+  "source_sha256": "2ce823ec9252e62017b76fe3281b0a05c80ed3a72b89f4caaa3dd7828e26fd4d",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All 22 retained PDF pages were read and visually inspected, including 14 figures, 18 tables, 5 numbered equations, nomenclature, Appendix A and 232 printed bibliography entries. Equation 4 and the appendix tables were magnified. Independent reconstruction matches all 24 basin/scenario aquifer resources at integer-Mt display precision. The density calculator and complete oil/gas field model remain unreproduced. Underlying originals, exact claim support, empirical derivations and external supplement availability remain open. The paper is not comprehensively complete.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22
+  ],
+  "original_model_status": "Eq5_bulk_resource_component_reproduced_field_EOS_and_pressure_service_not_reproduced",
+  "supplement_status": "internal_AppendixA_inspected_external_asset_availability_not_established",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Title, abstract, keywords and publication metadata",
+      "assessment": "Zhang and Lau, IJGGC 116 (2022) 103628; DOI 10.1016/j.ijggc.2022.103628. Received 8 July 2021, revised 5 February 2022, accepted 20 February 2022, online 10 March 2022. Elsevier copyright retained. The abstract reports regional resources and proposes a corridor; it does not measure regional injection service."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1. Introduction and literature positioning",
+      "assessment": "Read historical ASEAN emissions, mitigation/CCS necessity claims, prospective Northern Lights design and Dulang/BIGST/Kaliberau history or plans. These claims remain attributed pending exact primary-source checks. Publication-date plans do not establish current status."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "2. Method: source inventory, sinks and resource classification",
+      "assessment": "Plant-by-plant source estimates and field-by-field sink screening within 1,000 km of Singapore. Investigates oil OOIP exceeding 100 MMbbl and gas OGIP exceeding 1 Tcf. Authors classify oil/gas resources as contingent and saline aquifers as prospective. This is not independent commercial-capacity certification."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "scope": "2. Method: volumetric equations, recovery, MMP and aquifer assumptions",
+      "assessment": "Equations 1–5, Tables 2–4 and all symbols read. Oil/gas storage efficiency E=1 because field-specific data/simulations are limited. Aquifers use average geometry, assumed depth/seal and generic efficiency. The printed MMP pressure unit and detailed field-recovery selection need verification."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "scope": "3. Results: emissions, field resources, EOR/EGR and basin matching",
+      "assessment": "Read Tables 5–13, maps, distributions and rankings. Reported mid resources are gas 6,216 Mt, oil 500 Mt and aquifers 379,441 Mt; emissions 391.44 Mt/year. Static resources, source emissions and annual deliverability are distinct quantities."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "scope": "4. Discussion: ASEAN corridor and implementation",
+      "assessment": "Proposes Singapore–Minas/Arun/Malay links, conditional pipeline reuse, ships, shared infrastructure, finance, liability transfer and carbon credits. No complete flow allocation, ship/utility design, TEA or legal permission is established by these proposals."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        15
+      ],
+      "scope": "5. Conclusions; 6. Recommendation",
+      "assessment": "Read all five conclusions, the 987-year accounting ratio, EOR/EGR totals, readiness statements and proposed corridor benefits. No time-dependent reservoir simulation establishes a 987-year feasible operating service."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        15
+      ],
+      "scope": "Author statement, interests, acknowledgement and Appendix A",
+      "assessment": "Hon Chung Lau conceptualisation; Kai Zhang detailed analysis. No conflict declared. Singapore EDB Petroleum Engineering Professorship grant S13-1392-RF-Petroleum. Appendix A contains Tables 14–18 inside this main PDF; no separate supplement is inferred."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "scope": "Appendix A: all gas, oil and aquifer properties",
+      "assessment": "Read every row/header/reference of Tables 14–18, including rotated/landscape pages and missing cells. Published pressure/temperature, density, Bg/Bo and bulk composition are not a complete compositional PVT, well geometry or annual injection model."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "scope": "References, pp18–22",
+      "assessment": "232 printed entries were read and segmented using hanging indents. First-line counts by page are 37/56/50/52/37; Kueh (2005) continues from p19 to p20. Native line geometry is archived. Reading entries does not verify underlying originals or complete claim mapping."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        2
+      ],
+      "object": "F01: Historical stacked emissions and ten-country legend",
+      "inspection": "1950–2019 ASEAN fossil-fuel/cement CO2 series; all ten country labels, Mt axis, caption and OWID/World Bank attribution read. Historical totals exclude other GHGs and do not measure capturable streams."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        3
+      ],
+      "object": "F02: CCS pilot map, scale, markers and caption",
+      "inspection": "Dulang EOR and planned BIGST/Kaliberau sites, basin shading, labels, north arrow and 300 km/200 mile scale inspected. Symbols distinguish EOR from future CCS. Status is as published, not a 2026 observation."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        4
+      ],
+      "object": "F03: Basin map and caption",
+      "inspection": "Singapore-centred 1,000 km region, eight basin names and coastlines inspected. Basin outlines are not licensed storage boundaries or actual transport routes."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        5
+      ],
+      "object": "F04: Regional emission donut and caption",
+      "inspection": "All six regional labels/shares compared with Table 5: Singapore 43.05, Peninsular Malaysia 136.54, North Sumatra 10.38, Central Sumatra 18.83, South Sumatra 41.4, NW Java 141.24 Mt/year."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        6
+      ],
+      "object": "F05: Stationary-source map, size/type legends and caption",
+      "inspection": "Size bands 0–1, 1–5, 5–10, 10–20 and >20 Mt/year; power-fuel, cement, steel and refinery classes read. Dense clusters, scale and north inspected. No precise coordinates inferred from pixels."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        9
+      ],
+      "object": "F06: Sink map, field labels, size/type legends and caption",
+      "inspection": "Gas red, oil green and basin shading; capacity bands 0–10, 10–50, 50–100, 100–500 and >500 Mt. Crowded field labels inspected. Resource marker size is not an injection rate."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        10
+      ],
+      "object": "F07: Combined source/sink/pipeline map and caption",
+      "inspection": "Source/sink symbols, gas/oil pipeline colours and proposed CCS regions inspected. Existing pipeline geometry does not establish CO2 compatibility, access or capacity."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        12
+      ],
+      "object": "F08: Three histograms, all statistics/axes and caption",
+      "inspection": "All three panels are present: (a) emissions mean 3.058, SD 4.390, N=128; (b) oil/gas resource mean 121.9 Mt, SD 342.3, N=57; (c) aquifers mean 47,430 Mt, SD 33,228, N=8. The O&G mean needs reconciliation with table totals; no missing-panel claim is made."
+    },
+    {
+      "id": "F09",
+      "pages": [
+        12
+      ],
+      "object": "F09: Emission/resource regional pies and caption",
+      "inspection": "All regional labels read. Figure 9a uses rounded regional emissions; 9b includes gas, oil and aquifers. Distinguish this total-resource pie from Figure 13 oil/gas-only values."
+    },
+    {
+      "id": "F10",
+      "pages": [
+        13
+      ],
+      "object": "F10: Four resource-classification pies and caption",
+      "inspection": "Type shares, aquifer-basin, gas-basin and oil-basin shares read. Dominant aquifer share is approximately 98.3%; percentages do not establish confidence or annual accessibility."
+    },
+    {
+      "id": "F11",
+      "pages": [
+        13
+      ],
+      "object": "F11: Ten-field storage ranking and caption",
+      "inspection": "D-Alpha 2,171, Arun 1,268, Jerneh 384, Suban 234, Offshore NSB 221, South Lhok Sukon 170, Lawit 160, Duyong 149, Parigi 138, Kuala Langsa 132 Mt. Ranking uses mid resource, not readiness or injection rate."
+    },
+    {
+      "id": "F12",
+      "pages": [
+        13
+      ],
+      "object": "F12: Ten-field EOR/EGR ranking and caption",
+      "inspection": "Minas 767, Seligi 119, Arun 101, Dulang 99, Guntong 85, Tapis 85, Kotabatak 62.2, Cinta-Rama 59.2, Ardjuna 58.1, Bangko 55 MMbbl. Includes condensate EGR and oil EOR; not CO2 mass."
+    },
+    {
+      "id": "F13",
+      "pages": [
+        14
+      ],
+      "object": "F13: Oil/gas resource donut and caption",
+      "inspection": "Central 228.3, South 647.4, Penyu 8.1, Malay 1,567.7, West Natuna 89.8, North 1,799.5, NW Java 204.2, East Natuna 2,171 Mt; sum 6,716 Mt. Aquifers excluded."
+    },
+    {
+      "id": "F14",
+      "pages": [
+        14
+      ],
+      "object": "F14: ASEAN corridor diagram, route/field legends and caption",
+      "inspection": "Ship routes blue, cross-border pipelines black, domestic routes red; oil/gas/source symbols read. Distances Arun 890, Jerneh 510, Dulang 440, Tapis 400, Seligi 390, Minas 200 km. Approximate proposals, not engineering designs or allocations."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        3
+      ],
+      "object": "T01: Basin-distance table, all eight rows",
+      "inspection": "Central Sumatra 200, Penyu 230, South Sumatra 400, Malay 400, West Natuna 400, North Sumatra 800, NW Java 900, East Natuna 690 km. Basin distance and Figure 14 field distance have different referents."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        4
+      ],
+      "object": "T02: Source emission factors, units and references",
+      "inspection": "Coal 1, natural gas 0.5, fuel oil 0.8, waste-to-energy 0.8 tCO2/MWh; cement 0.9 t/t; iron/steel 1.9 t/t; refinery 0.043 t/bbl. These estimate emissions, not capture heat/electricity."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        4
+      ],
+      "object": "T03: Recovery mechanisms, all scenario values and references",
+      "inspection": "Low/mid/high: primary gas 70/75/80%; primary+secondary oil 30/35/40%; immiscible EOR 4.7/8.5/12.5%; miscible EOR 8/12/15%. Underlying empirical ranges remain unverified."
+    },
+    {
+      "id": "T04",
+      "pages": [
+        4
+      ],
+      "object": "T04: Aquifer efficiencies, all values and references",
+      "inspection": "Exactly 0.51/2/5.5%, converted once to fractions 0.0051/0.02/0.055. References Van der Meer, ADB, Bachu and DOE require original-source checks."
+    },
+    {
+      "id": "T05",
+      "pages": [
+        5
+      ],
+      "object": "T05: Six-region, four-sector emissions and totals",
+      "inspection": "Total 391.44 Mt/year; sectors 201.38 power, 58.01 cement, 94.7 steel, 37.35 refinery. Peninsular Malaysia 31.33 steel/7.11 refinery conflicts with Table 13 labels. Both preserved."
+    },
+    {
+      "id": "T06",
+      "pages": [
+        6
+      ],
+      "object": "T06: Seven gas basins, three storage/EGR scenarios and totals",
+      "inspection": "Mid resources Central 68, South 599, West 67, North 1,792, NW 138, East 2,171, Malay 1,381 Mt; total 6,216. Mid EGR 40+11+101+11=163 MMbbl. Low/high values and dash cells read."
+    },
+    {
+      "id": "T07",
+      "pages": [
+        6
+      ],
+      "object": "T07: All eleven Malaysian gas fields, scenarios and subtotals",
+      "inspection": "Mid Duyong 149, Jerneh 384, Lawit 160, Resak 84, Bintang 115, Tangga 85, Bujang 80, Inas 57, Sepat 64, Angsi 109, Bergading 95 Mt. Rounded rows sum 1,382 versus subtotal 1,381. Angsi EGR 8/11/14 MMbbl."
+    },
+    {
+      "id": "T08",
+      "pages": [
+        7
+      ],
+      "object": "T08: All thirteen Indonesian gas fields, scenarios and subtotals",
+      "inspection": "South mid values Suban 234, Kaliberau 109, Dayung 85, Sumpal 102, Musi 68 Mt. All remaining fields and condensate columns read. Subtotals 4,557/4,833/5,085 Mt; EGR 101/152/190 MMbbl. No annual limits supplied."
+    },
+    {
+      "id": "T09",
+      "pages": [
+        7
+      ],
+      "object": "T09: All seven oil basins, storage/EOR scenarios and totals",
+      "inspection": "Mid resources Penyu 8.1, Malay 186.7, Central 160.3, South 48.4, West 22.8, North 7.5, NW 66.2 Mt; total 500. Mid EOR 1,857 MMbbl. Rounded basin and field aggregation stages distinguished."
+    },
+    {
+      "id": "T10",
+      "pages": [
+        7
+      ],
+      "object": "T10: All nine Malaysian oil fields, scenarios and miscibility",
+      "inspection": "All labelled immiscible. Mid resources Rhu-Ara 8.1, Guntong 34.9, Seligi 48.6, Tapis 34.2, Pulai 3.2, Bekok 19.6, Sotong 8.4, Belumut 5.3, Dulang 32.5 Mt. Subtotal 194.8 includes Penyu and Malay."
+    },
+    {
+      "id": "T11",
+      "pages": [
+        8
+      ],
+      "object": "T11: All twenty-four Indonesian oil fields, scenarios and miscibility",
+      "inspection": "South Kuang 23.3, Kaji-Semoga 14, Sopa 4.3, Jene 6.8 Mt mid values. Every other row read. Rantau is miscible; Duri/Bima/Sundari/Nurbani lack EOR estimates but have storage. Subtotals 278.6/305.2/334.9 Mt and 755.2/1,358.3/1,989.4 MMbbl."
+    },
+    {
+      "id": "T12",
+      "pages": [
+        9
+      ],
+      "object": "T12: All eight aquifers, three scenarios and previous-study column",
+      "inspection": "All 24 basin values independently reconstructed at integer-Mt precision. Reported totals 96,757/379,441/1,043,461 Mt retained. Prior South Sumatra 7,700 Mt (ADB) and Malay 84,000 Mt (Junin) use different assumptions; not automatically harmonised."
+    },
+    {
+      "id": "T13",
+      "pages": [
+        11
+      ],
+      "object": "T13: Regional source/sink matching, all counts and totals",
+      "inspection": "Source counts 9/15/39/13/38/14 sum 128. Sinks include 57 oil/gas fields and eight basin-aquifers. Peninsular Malaysia refinery 31.33/steel 7.11 reverses Table 5. Total resource 386,157 Mt; emissions rounded 391 Mt/year."
+    },
+    {
+      "id": "T14",
+      "pages": [
+        15
+      ],
+      "object": "T14: Appendix: thirteen Indonesian gas fields, all properties/references",
+      "inspection": "Rotated table magnified. Water/burial depth, IGIP, ICIP, pressure, temperature, density, recovery, CO2, C1–C7+ and Bg inspected. South densities: Musi 223, Suban 483, Kaliberau 511, Dayung 449, Sumpal 520 kg/m3. Missing cells remain missing; bulk composition is not full PVT."
+    },
+    {
+      "id": "T15",
+      "pages": [
+        16
+      ],
+      "object": "T15: Appendix: eleven Malaysian gas fields, all properties/references",
+      "inspection": "Normal and rotated views inspected. Jerneh 15 MPa, 82.5°C, density 408, Bg 0.007; Angsi OCIP 95 MMbbl, 24 MPa, 119°C, density 492, Bg 0.006. Pressure basis and standard-gas conditions unspecified."
+    },
+    {
+      "id": "T16",
+      "pages": [
+        16
+      ],
+      "object": "T16: Appendix: nine Malaysian oil fields, all properties/references",
+      "inspection": "All water/burial depths, OOIP, P/T, recovery, Bo, API, density, references and 5,871 MMbbl subtotal read. Formation factor Bo does not establish free pore volume, retention or injectivity."
+    },
+    {
+      "id": "T17",
+      "pages": [
+        17
+      ],
+      "object": "T17: Appendix: twenty-four Indonesian oil fields, all properties/references",
+      "inspection": "Landscape table magnified. Kuang 15 MPa/98°C/rho346/Bo1.1; Kaji 9/42.63/377/1.2; Sopa 23/107.555/515/1.2; Jene 19/87.22/525/1.2. Sopa density 515 confirmed. Remaining rows, references and OOIP subtotal 26,107 MMbbl inspected."
+    },
+    {
+      "id": "T18",
+      "pages": [
+        18
+      ],
+      "object": "T18: Appendix: eight aquifer input rows, units and references",
+      "inspection": "Area km2, net sand thickness m, pressure MPa, temperature °C, density kg/m3, porosity % and references read. All eight rows archived. Thickness is already net; do not apply net-to-gross 0.3 a second time."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        2,
+        3
+      ],
+      "printed": "Eq1: m_CO2 = rho_CO2 Vg Bg R.",
+      "check": "Density kg/m3 × standard volume Sm3 × Bg m3/Sm3 × recovery fraction gives kg. R is labelled percent and requires division by 100. Tcf/scf conversion, standard conditions, unrounded Bg and field-recovery selection need clarification. No annual or pressure constraint."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        3
+      ],
+      "printed": "Eq2: m_CO2 = rho_CO2 Vg Bg (R + R_CO2), gas condensate.",
+      "check": "Printed recovery sum needs original derivation/implementation: condensate recovery and gas voidage do not automatically share a denominator. OCIP treatment remains unreproduced. Do not invent a field-model correction."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        4,
+        5
+      ],
+      "printed": "Eq3: m_CO2 = rho_CO2 Vo Bo (R + R_CO2), oil.",
+      "check": "Stock volume × formation factor × recovered fraction × density gives mass. Percentages and bbl-to-Sm3 conversion apply once. E=1 is implicit. Current versus generic recovery selection requires exact implementation."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        5
+      ],
+      "printed": "Eq4: MMP = -329.558 + 7.727[(8864.9/API)^(1/1.012) (1.005^T)] - 4.377[(8864.9/API)^(1/1.012)].",
+      "check": "Magnified render confirms 8864.9, exponent 1/1.012 and 1.005^T. T explicitly Fahrenheit; Appendix T is Celsius. MMP output unit and validity range are not specified locally. He2015/Li2021 derivations remain unchecked; no psi assumption or miscibility certification."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        2,
+        5,
+        9,
+        18
+      ],
+      "printed": "Eq5: m_CO2 = rho_CO2 A h phi E_sa.",
+      "check": "Area km2→m2 ×1e6; net thickness m; density kg/m3; porosity and efficiency each divided by 100; kg→Mt divided by 1e9. Independently reconstructs all 24 Table 12 basin values at displayed precision. No extra net-to-gross multiplier or pressure/rate law."
+    }
+  ],
+  "variables": [
+    "CO2 density: kg/m3, taken from the reported calculator at reservoir P/T. Calculator version/EOS, pressure basis and fluid composition remain unreproduced.",
+    "Mass: kg in equations, Mt/Gt in results; 1 Mt=1e9 kg, 1 Gt=1e12 kg. Mt/year is a flow, distinct from stock Mt.",
+    "Vg: initial gas at standard conditions, Sm3; tables use Tcf. Bg: m3/Sm3, rounded to three decimals. Standard T/P and unrounded factors missing.",
+    "Vo: OOIP at standard conditions, Sm3; tables use MMbbl. Bo: reservoir m3/standard m3. Conversion and formation factor apply once.",
+    "R and R_CO2: percentages. Table 3 generic primary/secondary and enhanced recovery factors coexist with Appendix current recovery; exact field selection unresolved.",
+    "MMP: empirical pressure output unit unresolved; T in Eq4 must be Fahrenheit. API gravity threshold ≥27 for EOR; storage alone does not establish EOR eligibility.",
+    "E: oil/gas storage coefficient assumed one because of limited data. It assumes recovered hydrocarbon voidage is available, without a field-specific pressure/sweep simulation.",
+    "A: basin area; h: NET sand thickness; phi: 15% or 20%. Assumed depth ≥1,000 m, seal integrity and net-to-gross 0.3 are screening assumptions. h is already net.",
+    "E_sa: 0.51/2/5.5 percent, not fractions. Generic ranges are not calibrated probabilities for these eight basins.",
+    "Power emissions use factors × capacity ×5,000 h/year; refinery estimates use 330 days/year, 95 lb/bbl→0.043 t/bbl and stated specific gravity 0.86. No complete capture heat/electricity inventory.",
+    "Authors call oil/gas contingent and aquifers prospective, citing SPE2017. Neither label independently establishes allocated commercial capacity or Japanese access.",
+    "P10/P50/P90 labels accompany low/mid/high assumptions; statistical sampling, correlations and field-specific uncertainty calibration are not established.",
+    "Distances are approximate basin/field values with different referents. Pipeline presence and contract expiry do not establish engineering reuse or rights.",
+    "N=128 plants, 57 oil/gas fields and eight basin-aquifers; these are not measured injection or captured-flow time series."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "ASEAN 2019 emissions 1.67 Gt/4.6%, rising trend and CCS necessity.",
+      "assessment": "Historical and literature attributions read; OWID/IPCC/IEA/Lau originals and exact scope remain unverified. No current national commitment inferred."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "claim": "Dulang, BIGST, Kaliberau and Northern Lights demonstrate CCS interest.",
+      "assessment": "Publication-date history/plans; underlying reports unverified. No 2026 operational status assumed."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        2,
+        4,
+        5
+      ],
+      "claim": "391.44 Mt/year sources; approximately 51% power, 24% steel, 15% cement, 10% refinery.",
+      "assessment": "Ratios broadly match Table 5. Generic emissions/utilisation are not captured flows; Table 13 sector labels conflict."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        15
+      ],
+      "claim": "386,157 Mt mid resource can store 987 years of regional emissions.",
+      "assessment": "386157/391.44≈986.5 rounds to 987. This stock/current-flow ratio omits pressure, rates, timing, access and future emissions."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        5,
+        6,
+        7,
+        13,
+        15
+      ],
+      "claim": "6,216 Mt gas resources; Arun ~1.3 Gt and D-Alpha ~2.2 Gt.",
+      "assessment": "Static estimates with E=1 and proxy recovery/Bg. D-Alpha explicitly undeveloped; Suban still depleting. Resources do not establish readiness."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        5,
+        7,
+        8,
+        13,
+        15
+      ],
+      "claim": "500 Mt oil resources and 1,857 MMbbl EOR, led by Minas.",
+      "assessment": "Tables/rankings read; full field model unreproduced. MMP and recovery selection unresolved. Produced oil is not automatically net mitigation."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        5,
+        6,
+        7,
+        13,
+        15
+      ],
+      "claim": "163 MMbbl condensate EGR; Arun 101 MMbbl.",
+      "assessment": "Reported outputs; Eq2/OCIP implementation remains unreproduced. Condensate barrels are not CO2 tonnes."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        5,
+        9,
+        13,
+        15,
+        18
+      ],
+      "claim": "Aquifers 379,441 Mt and approximately 98% of total.",
+      "assessment": "All 24 resource values reproduced at display precision; share ≈98.26%. Bulk resource is not pressure-constrained annual service."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "claim": "Minas, Arun and Malay are suitable receivers for Singapore/domestic CO2.",
+      "assessment": "Regional resource/distance argument; geology, injectivity, access and cross-border permissions need independent evidence."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        9,
+        10,
+        11,
+        14
+      ],
+      "claim": "468 km Grissik–Batam–Singapore pipeline could be reused after 2023 contract expiry.",
+      "assessment": "Conditional historical proposal citing SPC. Contract, materials, purity, compression, routing and access remain unverified."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        10,
+        11,
+        14,
+        15
+      ],
+      "claim": "ASEAN corridor lowers costs through scale and shared expertise/finance.",
+      "assessment": "Qualitative recommendation. No fully costed network, ship design, allocated flows or utility balance quantifies the claimed benefit."
+    },
+    {
+      "id": "C12",
+      "pages": [
+        10,
+        11,
+        14
+      ],
+      "claim": "S$5/t tax insufficient; S$25 planned in 2024; at least US$50/t for saline feasibility.",
+      "assessment": "Historical policy/financial assertions, not an independent TEA or current-tax verification. Currency/date and system boundaries unharmonised."
+    },
+    {
+      "id": "C13",
+      "pages": [
+        11,
+        14,
+        15
+      ],
+      "claim": "Finance, state liability transfer, carbon credits and public acceptance accelerate CCS.",
+      "assessment": "Recommendations, not existing permissions or quantified causal effects. Primary sources and jurisdictional scope unchecked."
+    },
+    {
+      "id": "C14",
+      "pages": [
+        11,
+        15
+      ],
+      "claim": "Southern Lights 1 Mt/year project could initiate the corridor.",
+      "assessment": "Authors’ proposal citing Lau2021a/b; not a constructed, allocated or permitted annual storage service."
+    },
+    {
+      "id": "C15",
+      "pages": [
+        12
+      ],
+      "claim": "Histogram oil/gas mean 121.9 Mt with N=57.",
+      "assessment": "Table gas+oil total 6716/57=117.82456 Mt. Data version/sample basis unresolved; preserve both, do not silently replace the histogram."
+    },
+    {
+      "id": "C16",
+      "pages": [
+        4,
+        5,
+        15,
+        16,
+        17,
+        18
+      ],
+      "claim": "Appendix field properties and generic recovery factors support all field estimates.",
+      "assessment": "Bulk properties are reported, but complete PVT, exact recovery selection, standard conditions and underlying field originals remain unverified."
+    }
+  ],
+  "references": [
+    {
+      "id": "R001",
+      "pages": [
+        18
+      ],
+      "citation": "Abadi, W., Rahmawan, I., Asfamudi, M., Kartoatmodjo, B., Tyberoe, G., 2012. Reservoir optimization case: identification of potential production optimization to maximize Belida lower Arang recovery. In: Thirty Sixth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA12-E-175.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        18
+      ],
+      "citation": "Abadi, W.G., Permana, B.R., Darmadi, Y., Fauzi, D., 2016. Analysis of production surveillance data to identify water movement from Dayung gas fractured basement reservoir. In: Fortieth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA16-522-E.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        18
+      ],
+      "citation": "Abd Rahman, M.S., 2012. An evaluation of energy recovery potential from flare gases on offshore oil and gas facilities. Universiti Teknologi Petronas, pp. 1–48. Doctoral dissertation. http://utpedia.utp.edu.my/3481/1/MOHD_SAFUAN_BIN_ABD_RAHM AN.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        18
+      ],
+      "citation": "Abdul Hamid, R.I.B., 2012. Study of minimum miscibility pressure of Malaysian light oil samples using different type of gases. Universiti Teknologi Petronas, pp. 1–58. Dissertation. http://utpedia.utp.edu.my/5613/1/dissertation%20fyp_ROSYA% 20ILA.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        18
+      ],
+      "citation": "Abdullah, M.A.Y., Olsen, B.S., 1999. Tapis-new opportunities from a maturing field. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Jakarta, Indonesia. Society of Petroleum Engineers, 20 AprilSPE-54339-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        18
+      ],
+      "citation": "Abedini, A., Torabi, F., 2014. Oil recovery performance of immiscible and miscible CO2 huff-and-puff processes. Energy Fuels 28 (2), 774–784.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        18
+      ],
+      "citation": "Achiat, R., Guttormsen, J., Waworuntu, R., 2009. Complex geomodeling: Dayung field a fractured pre-tertiary reservoir in the Southern Sumatra basin, Indonesia. In: Thirty Third Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA09-G-148.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        18
+      ],
+      "citation": "Afi, F.N., Dondo, M., Ratna, N., Aji, W.S., Noviansyah, M., Nurdin, S., Gunawan, H., 2015. Increasing brown oil field recovery factor by integrated subsurface review, drilling & workover operation, and surface facility reconfiguration – case study: Rama E platform reactivation. In: SPE/IATMI Asia Pacific Oil & Gas Conference and Exhibition. Nusa Dua, Bali, Indonesia. Society of Petroleum Engineers, 20 October. SPE-176245-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        18
+      ],
+      "citation": "Aji, W.S., Ageng, C., Yondo, A., Tejotriarso, S., Suciati, N., 2012. Complexity of Nurbani heavy oil carbonate reservoir and first development phase challenge. In: Thirty Sixth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA12- G-024.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        18
+      ],
+      "citation": "Aji, W.S., Sunarta, J., Gunawan, H., 2013. Integrated waterflood field management: success story of Widuri “H” water out well back on production, Widuri field, Asri basin, Southeast Sumatra. In: Thirty Seventh Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA13-E-018.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        18
+      ],
+      "citation": "Anggoro, S., Arif, I., Iswanto, Y., Mallett III, W.F., Subiyanto, B., 2009. Finding by-passed oil in a mature field by reprocessing and reinterpreting existing 3-D seismic; a case study of Petapahan field, Sumatera, Indonesia. In: Thirty Third Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA09-G-177.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        18
+      ],
+      "citation": "Asia Pacific Economic Cooperation (APEC), 2005. CO2 storage prospectivity of selected sedimentary basins in the region of China and South East Asia. APEC Energy Working Group EWG Project. https://www.apec.org/Publications/2005/06/CO2-St orage-Prospectivity-of-Selected-Sedimentary-Basins-in-the-Region-of-China-and-S outh-East-Asia.",
+      "role": "APEC2005: regional methodology and aquifer geometry/porosity, especially Table18. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        18
+      ],
+      "citation": "Asian Development Bank (ADB), 2013. Prospects for carbon capture and storage in Southeast Asia. ADB, pp. 1–167. https://www.adb.org/sites/default/files/publicatio n/31122/carbon-capture-storage-southeast-asia.pdf.",
+      "role": "ADB2013: regional methodology, Eq3 and Table4; prior South Sumatra resource. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        18
+      ],
+      "citation": "Bachu, S., 2015. Review of CO2 storage efficiency in deep saline aquifers. Int. J. Greenhouse Gas Control 40, 188–202.",
+      "role": "Bachu2015: Table4 aquifer efficiencies and methodology. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        18
+      ],
+      "citation": "Bachu, S., Bonijoly, D., Bradshaw, J., Burruss, R., Holloway, S., Christensen, N.P., Mathiassen, O.M., 2007. CO2 storage capacity estimation: methodology and gaps. Int. J. Greenhouse Gas Control 1 (4), 430–443.",
+      "role": "Bachu2007: volumetric storage-capacity methodology, Eqs1–3. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        18
+      ],
+      "citation": "Bate, K.J., Taslim, G., Halim, M.A.A., Hong, T.Y., 2004. Geocellular modelling of the fluvial deltaic and shallow marine reservoirs, Tangga Barat field, PM313 offshore Malay Basin. In: Petroleum Geoscience Conference and Exhibition. Kuala Lumpur, Malaysia. European Association of Geoscientists & Engineers, 15 December. cp-259- 00009.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        18
+      ],
+      "citation": "Bee, O.J., 2013. The petroleum of Indonesia. Springer Science & Business Media.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        18
+      ],
+      "citation": "Bishop, M.G., 2000. Petroleum systems of the Northwest Java province, Java and offshore Southeast Sumatra, Indonesia. US Dept. of the Interior, US Geological Survey. Open-File Report 99-50-R. 1-34.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        18
+      ],
+      "citation": "Bishop, M.G., 2002. Petroleum systems of the Malay Basin province, Malaysia. US Geological Survey. Open-File Report 99-50-T.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        18
+      ],
+      "citation": "Bou-Mikael, S., Asmadi, F., Marwoto, D., Cease, C., 2000. Minas surfactant field trial tests two newly designed surfactants with high EOR potential. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Brisbane, Australia. Society of Petroleum Engineers, 16 October. SPE-64288-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        18
+      ],
+      "citation": "Budi, S.U., 2001. Using the resistivity and GR log for guide control+ 415 M slimhole horwell section in the 3-5 M Baturaja limestone oil-rim thickness, between gas cap and water zone at Musi-28 well. Prabumulih, South Sumatera a field case study team approach. In: SPWLA 42nd Annual Logging Symposium. Houston, Texas. Society of Petroleum Engineers, 17 June. SPWLA-2001-Z.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        18
+      ],
+      "citation": "Carter, D.C., Kortlang, W., Smelcer, M., Troncoso, J.C., 1998. An integrated approach to horizontal well design and planning in Widuri field, offshore Southeast Sumatra, Indonesia. In: 26th Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 135–162.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        18
+      ],
+      "citation": "Caughey, C.A., Wahyudi, T., 1993. Gas reservoirs in the lower miocene Peutu formation, aceh timur, Sumatra. In: Twenty Second Annual Convention Proceedings, 1. AAPG Indonesian Petroleum Association, pp. 191–218.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        18
+      ],
+      "citation": "Caycedo, L., Diebold, J.B., 1979. An artificial lift system that utilizes cable suspended electrical submergible pumps. In: SPE Annual Technical Conference and Exhibition. Las Vegas, Nevada. Society of Petroleum Engineers, 23 September. SPE-8242-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        18
+      ],
+      "citation": "Cheong, Y.C., 1979. Geology and development of the Pulai field, offshore Peninsular Malaysia. AAPG Geological Society of Malaysia, pp. 98–99.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        18
+      ],
+      "citation": "Cherdasa, J.R., Prabowo, K., Ariadji, T., Sapiie, B., Syihab, Z., 2018. Formation evaluation and contingent storage capacity estimation for carbon capture storage and utilization: a case study from East Natuna. Modern Applied Science 12 (4), 151–170.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        18
+      ],
+      "citation": "Cooney, G., Littlefield, J., Marriott, J., Skone, T.J., 2015. Evaluating the climate benefits of CO2-enhanced oil recovery using life cycle analysis. Environ. Sci. Technol. 49 (12), 7491–7500.",
+      "role": "Cooney2015: EOR climate-benefit context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        18
+      ],
+      "citation": "Crumb, R.E., 1989. Petrophysical properties of the Bima Batu Raja carbonate reservoir, offshore NW Java. In: 18th Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 161–208.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        18
+      ],
+      "citation": "Darmadi, Y., Hughes, J., Danudjaja, S., Achdiat, R., 2014. Sumpal fractured basement field, structural attribute analysis and interpretation case study, workflow management and new insights from pre-stack depth migrated data and azimuthal stacks. In: Thirty Eighth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA14-G-144.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        18
+      ],
+      "citation": "Davidson, J.A., Victors, C.M., 1986. An overview of the performance of gas lift operations in the Ardjuna fields, Java Sea. In: 15th Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 227–241.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R030"
+    },
+    {
+      "id": "R031",
+      "pages": [
+        18
+      ],
+      "citation": "Davies, P.R., 1985. A brief review of the geology and hydrocarbon occurrences of the North Sumatra basin. In: Fourteenth Annual Post Convention Fieldtrip. AAPG Indonesian Petroleum Association, pp. 10–27.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R031"
+    },
+    {
+      "id": "R032",
+      "pages": [
+        18
+      ],
+      "citation": "Davis, S.J., Lewis, N.S., Shaner, M., Aggarwal, S., Arent, D., Azevedo, I.L., Caldeira, K., 2018. Net-zero emissions energy systems. Science 360 (6396).",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R032"
+    },
+    {
+      "id": "R033",
+      "pages": [
+        18
+      ],
+      "citation": "DeAngelo, J., Azevedo, I., Bistline, J., Clarke, L., Luderer, G., Byers, E., Davis, S.J., 2021. Energy systems in scenarios at net-zero CO2 emissions. Nat. Commun. 12 (1), 1–10.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R033"
+    },
+    {
+      "id": "R034",
+      "pages": [
+        18
+      ],
+      "citation": "Dong, S.N., Longwell, III, H.J., 1998. Drilling performance improvement case study- Lawit - a development drilling. In: IADC/SPE Asia Pacific Drilling Technology. Jakarta, Indonesia. Society of Petroleum Engineers, 07 September. SPE-47826-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R034"
+    },
+    {
+      "id": "R035",
+      "pages": [
+        18
+      ],
+      "citation": "Doust, H., 2017. Petroleum systems in Southeast Asian tertiary basins. AAPG Geological Society of Malaysia 64, 1–16.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R035"
+    },
+    {
+      "id": "R036",
+      "pages": [
+        18
+      ],
+      "citation": "Economic Research Institute for ASEAN and East Asia (ERIA), 2021. CO2 source sink match GIS system for Indonesia. https://static1.squarespace.com/static/60b8dd7a cb58186e05cb8387/t/60ebf39a085b1c120fb7c522/1626076071824/2021_ June_1st-Asia-CCUS-Network-Forum_ITB_Mohammad-Rachmat-Sule.pdfhttps ://www.asiaccusnetwork-eria.org/pmaps.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R036"
+    },
+    {
+      "id": "R037",
+      "pages": [
+        18
+      ],
+      "citation": "Elzinga, T., Ikert, P.L., Dale, A.J., 1991. Design of spread-mooring arrangements for very large storage tankers on shallow water for the Widuri field in the Java Sea. In: Offshore Technology Conference. Houston, Texas, 06 May. OTC-6661-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R037"
+    },
+    {
+      "id": "R038",
+      "pages": [
+        19
+      ],
+      "citation": "Equinor, 2019. Northern lights project concept report RE-PM673-00001. Stavanger, Norway. https://northernlightsccs.com/assets/documents/Northern-Lights-Project -Concept-report.pdf.",
+      "role": "Equinor2019: prospective Northern Lights concept; exact version match to later local intake not established. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R038"
+    },
+    {
+      "id": "R039",
+      "pages": [
+        19
+      ],
+      "citation": "Evans, S., Pearce, R., 2020. Mapped: The world’s coal power plants. CarbonBrief. https://www.carbonbrief.org/mapped-worlds-coal-power-plants.",
+      "role": "Evans/Pearce2020: coal-plant inventory/factor. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R039"
+    },
+    {
+      "id": "R040",
+      "pages": [
+        19
+      ],
+      "citation": "Fahman, M., Nur, F., Djalal, J.S., 1991. An overview of the Anoa field development. In: 20th Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 293–313.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R040"
+    },
+    {
+      "id": "R041",
+      "pages": [
+        19
+      ],
+      "citation": "Fanani, F., Boyce, B., Wong, R., Fahrul, A., Alwyn, C., 2006. Fractured basement plays, Penyu basin, Malaysia. In: Petroleum Geoscience Conference and Exhibition. Kuala Lumpur, Malaysia. European Association of Geoscientists & Engineers, 27 November. cp-256-00008.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R041"
+    },
+    {
+      "id": "R042",
+      "pages": [
+        19
+      ],
+      "citation": "Farajzadeh, R., Eftekhari, A.A., Dafnomilis, G., Lake, L.W., Bruining, J., 2020. On the sustainability of CO2 storage through CO2–Enhanced oil recovery. Appl. Energy 261, 114467.",
+      "role": "Farajzadeh2020: immiscible EOR assumptions and climate context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R042"
+    },
+    {
+      "id": "R043",
+      "pages": [
+        19
+      ],
+      "citation": "Fenter, D.J., Hadiatno, D., 1996. Reservoir simulation modeling of Natuna gas field for reservoir evaluation and development planning. In: SPE Asia Pacific Oil and Gas Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 28 October. SPE-87042-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R043"
+    },
+    {
+      "id": "R044",
+      "pages": [
+        19
+      ],
+      "citation": "Flores, J., 1982. Development and reservoir engineering studies for the Pulai field offshore Peninsular Malaysia. In: Offshore South East Asia Show. Singapore. Society of Petroleum Engineers, 09 February. SPE-10472-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R044"
+    },
+    {
+      "id": "R045",
+      "pages": [
+        19
+      ],
+      "citation": "Forrest, J.K., 2005. Five case histories of waterflooding in Indonesia’s Baturaja carbonate reservoirs - a consulting Reservoir Engineer’s view. In: Thirtieth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA05-E-107.",
+      "role": "Forrest2005: South Sumatra oil properties in Table17. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R045"
+    },
+    {
+      "id": "R046",
+      "pages": [
+        19
+      ],
+      "citation": "FracTracker, 2021. Oil refining and capacity. FracTracker Alliance. https://maps.fractrac ker.org/3.13/?appid=8e72a974af4c4fe9ba6875cee03078ee.",
+      "role": "FracTracker2021: refinery inventory. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R046"
+    },
+    {
+      "id": "R047",
+      "pages": [
+        19
+      ],
+      "citation": "Gael, B.T., Gross, S.J., McNaboe, G.J., 1995. Development planning and reservoir management in the Duri steam flood. In: SPE Western Regional Meeting. Bakersfield, California. Society of Petroleum Engineers, 08 March. SPE-29668-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R047"
+    },
+    {
+      "id": "R048",
+      "pages": [
+        19
+      ],
+      "citation": "Ginanjar, A., Hairunnisa, L.G.G., 2014. Integrated 3D dimensional static reservoir modeling, upper Zelda sandstone in Sundari field, Sunda basin. In: Thirty Eighth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA14- G-096.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R048"
+    },
+    {
+      "id": "R049",
+      "pages": [
+        19
+      ],
+      "citation": "Ginanjar, M., Mohede, H., Mlacnik, M., 2018. Improving the understanding of long-term behavior of a major fractured basement reservoir through material balance study. In: Forty Second Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA18-219-E.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R049"
+    },
+    {
+      "id": "R050",
+      "pages": [
+        19
+      ],
+      "citation": "Global CCS Institute. 2020. Global status of CCS 2020, Melbourne, Australia.",
+      "role": "Global CCS Institute2020: historical global project/status claim. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R050"
+    },
+    {
+      "id": "R051",
+      "pages": [
+        19
+      ],
+      "citation": "Global Energy Monitor (GEM), 2021. Global steel plant tracker. https://globalenergymo nitor.org/projects/global-steel-plant-tracker/tracker-map/.",
+      "role": "GEM2021: steel-plant inventory. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R051"
+    },
+    {
+      "id": "R052",
+      "pages": [
+        19
+      ],
+      "citation": "Gopalakrishnan, S.G., Shawari, R., Kassim, K., Ab Majid, M.N., Nor, M., 1999. Angsi: Malaysia’s first tight gas development. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Jakarta, Indonesia. Society of Petroleum Engineers, 20 April. SPE- 54335-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R052"
+    },
+    {
+      "id": "R053",
+      "pages": [
+        19
+      ],
+      "citation": "Gunadi, B., Suarsana, P., Marhaendrajana, T., 2005. Investigation of CO2 flooding potential in the Jatibarang field, a simulation study. In: Thirtieth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA05-E-044.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R053"
+    },
+    {
+      "id": "R054",
+      "pages": [
+        19
+      ],
+      "citation": "Guniawati, I., Dewanta, L., Nirwana, R., Elgar, J., 2010. Managing oil production and gas export from a mature field: a success story and future of a 20 year-old field in Natuna sea block A. In: Thirty Fourth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA10-E-142.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R054"
+    },
+    {
+      "id": "R055",
+      "pages": [
+        19
+      ],
+      "citation": "Hall, R., 2009. Hydrocarbon basins in SE Asia: understanding why they are there. Pet. Geosci. 15, 131–146.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R055"
+    },
+    {
+      "id": "R056",
+      "pages": [
+        19
+      ],
+      "citation": "Hamdan, M.K., Darman, N.B., Husain, D., Ibrahim, Z.B., 2005. Enhanced oil recovery in Malaysia: Making it a reality. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Jakarta, Indonesia. Society of Petroleum Engineers, 05 April. SPE-93329- MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R056"
+    },
+    {
+      "id": "R057",
+      "pages": [
+        19
+      ],
+      "citation": "Haribowo, N., Carmody, S., Cherdasa, J., 2013. Active petroleum system in the Penyu basin: exploration potential syn-rift and basement-drape plays. In: Thirty Seventh Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA13- G-041.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R057"
+    },
+    {
+      "id": "R058",
+      "pages": [
+        19
+      ],
+      "citation": "Hasan, M., Kamal, F.B., 1978. The discovery and development of Minas field. In: Proceedings of the South East Asia Petroleum Exploration Society, 4. AAPG South East Asia Petroleum Exploration Society, pp. 138–157.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R058"
+    },
+    {
+      "id": "R059",
+      "pages": [
+        19
+      ],
+      "citation": "Hasbollah, D.Z.A., Junin, R., Taib, A.M., Mazlan, A.N., 2020. Basin evaluation of CO2 geological storage potential in Malay basin, Malaysia. Geotechnics for Sustainable Infrastructure Development. Springer, Singapore, pp. 1405–1410.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R059"
+    },
+    {
+      "id": "R060",
+      "pages": [
+        19
+      ],
+      "citation": "Haynes, V.O., 1976. Energy use in petroleum refineries (No.). Oak Ridge National Lab., USA. ORNL/TM-5433. https://www.osti.gov/servlets/purl/7261027.",
+      "role": "Haynes1976: refinery emission basis, not capture utilities. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R060"
+    },
+    {
+      "id": "R061",
+      "pages": [
+        19
+      ],
+      "citation": "He, L.P., Shen, P.P., Liao, X.W., Gao, Q.C., Wang, C.S., Li, F.F., 2015. Study on CO2 EOR and its geological sequestration potential in oil field around Yulin city. J. Pet. Sci. Eng. 134, 199–204.",
+      "role": "He2015: essential Eq4 MMP correlation; output units, validity and derivation unchecked. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R061"
+    },
+    {
+      "id": "R062",
+      "pages": [
+        19
+      ],
+      "citation": "Hedriana, O., 2017. Assessment of CO2-EOR and storage capacity in South Sumatera and West Java basins. Energy Procedia 114, 4666–4678.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R062"
+    },
+    {
+      "id": "R063",
+      "pages": [
+        19
+      ],
+      "citation": "Hendih, A.R., Rinaldi, I., Williams, L.L., 2002. Investigation for mature Minas waterflood optimization. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Melbourne, Australia. Society of Petroleum Engineers, 08 October. SPE-77924-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R063"
+    },
+    {
+      "id": "R064",
+      "pages": [
+        19
+      ],
+      "citation": "Herzog, H., 2017. Financing CCS demonstration projects: Lessons learned from two decades of experience. Energy Procedia 114, 5691–5700.",
+      "role": "Herzog2017: financing and CCS scale-up discussion. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R064"
+    },
+    {
+      "id": "R065",
+      "pages": [
+        19
+      ],
+      "citation": "Hui, S.K., 1988. Waterflood development of the Guntong and Tabu fields. In: Offshore South East Asia Show. Singapore. Society of Petroleum Engineers, 02 February. SPE- 17690-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R065"
+    },
+    {
+      "id": "R066",
+      "pages": [
+        19
+      ],
+      "citation": "Ibrahim, R., Ismail, R., Shahud, N., Kumar, S., Isa, M.N.M., Yusop, Z.B., 2011. Time lapse seismic (4D) application for EOR immiscible water alternating gas (IWAG) programme in Dulang oil field, Peninsular Malaysia of the Malay Basin. In: SPE Enhanced Oil Recovery Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 19 July. SPE-144622-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R066"
+    },
+    {
+      "id": "R067",
+      "pages": [
+        19
+      ],
+      "citation": "IndustryAbout, 2019. Malaysia industrial map. Worldwide Industrial Information. https ://www.industryabout.com/malaysia-industrial-map.",
+      "role": "IndustryAbout2019: plant inventory and emission estimates. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R067"
+    },
+    {
+      "id": "R068",
+      "pages": [
+        19
+      ],
+      "citation": "Inoue, K., Ananto, Y.T., 1987. Case study of the Rantau waterflooding project. In: Sixteenth Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 47–69.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R068"
+    },
+    {
+      "id": "R069",
+      "pages": [
+        19
+      ],
+      "citation": "Intergovernmental Panel on Climate Change (IPCC). 2014. Climate Change 2014: Synthesis Report. Contribution of Working Groups I, II and III to the Fifth Assessment Report of the IPCC.",
+      "role": "IPCC2014: mitigation and climate context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R069"
+    },
+    {
+      "id": "R070",
+      "pages": [
+        19
+      ],
+      "citation": "Intergovernmental Panel on Climate Change (IPCC). 2018. Mitigation Pathways Compatible with 1.5oC in the Context of Sustainable Development.",
+      "role": "IPCC2018: mitigation pathways. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R070"
+    },
+    {
+      "id": "R071",
+      "pages": [
+        19
+      ],
+      "citation": "Intergovernmental Panel on Climate Change (IPCC), 2019a. Summary SPM for policymakers. https://www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_S PM_version_report_LR.pdf.",
+      "role": "IPCC2019a: warming/net-zero context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R071"
+    },
+    {
+      "id": "R072",
+      "pages": [
+        19
+      ],
+      "citation": "Intergovernmental Panel on Climate Change (IPCC), 2019b. Chapter 2 mitigation pathways compatible with 1.5◦C in the context of sustainable development. https:// www.ipcc.ch/site/assets/uploads/sites/2/2019/05/SR15_Chapter2_Low_Res.pdf..",
+      "role": "IPCC2019b: CCS and mitigation pathways. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R072"
+    },
+    {
+      "id": "R073",
+      "pages": [
+        19
+      ],
+      "citation": "Internal Revenue Service (IRS), 2021. US federal government website. Assessed 4 July 2021. https://www.irs.gov/instructions/i8933.",
+      "role": "IRS2021: historical 45Q comparison; exact rules/boundary unchecked. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R073"
+    },
+    {
+      "id": "R074",
+      "pages": [
+        19
+      ],
+      "citation": "International Energy Agency (IEA), 2020. Iron and Steel technology roadmap - Towards more sustainable steelmaking. https://iea.blob.core.windows.net/assets/eb0c8ec1 -3665-4959-97d0-187ceca189a8/Iron_and_Steel_Technology_Roadmap.pdf.",
+      "role": "IEA2020: steel-emission technology basis. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R074"
+    },
+    {
+      "id": "R075",
+      "pages": [
+        19
+      ],
+      "citation": "International Energy Agency (IEA), 2021a. Carbon capture, utilisation and storage: The opportunity in Southeast Asia. https://iea.blob.core.windows.net/assets/2c5107 92-7de5-458c-bc5c-95c7e2560738/CarbonCaptureUtilisationandStorage_TheOppo rtunityinSoutheastAsia.pdf.",
+      "role": "IEA2021a: regional CCS opportunities/plans. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R075"
+    },
+    {
+      "id": "R076",
+      "pages": [
+        19
+      ],
+      "citation": "International Energy Agency (IEA), 2021b. Net zero by 2050 a roadmap for the global energy sector. https://iea.blob.core.windows.net/assets/deebef5d-0c34-4539-9d0c -10b13d840027/NetZeroby2050-ARoadmapfortheGlobalEnergySector_CORR.pdf.",
+      "role": "IEA2021b: net-zero/CCS context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R076"
+    },
+    {
+      "id": "R077",
+      "pages": [
+        19
+      ],
+      "citation": "Iskandar, U.P., Sofyan, S., 2013. Ranking of Indonesia sedimentary basin and storage capacity estimates for CO2 geological storage. Energy Procedia 37, 5172–5180.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R077"
+    },
+    {
+      "id": "R078",
+      "pages": [
+        19
+      ],
+      "citation": "Japan International Cooperation Agency (JICA), 1978. Report on master plan study for the development of petroleum and natural gas in Malaysia. JICA. 2, 1–353. https:// openjicareport.jica.go.jp/pdf/10596534_01.pdf.",
+      "role": "JICA1978: Malaysian gas properties, Table15. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R078"
+    },
+    {
+      "id": "R079",
+      "pages": [
+        19
+      ],
+      "citation": "Jones, D.L., 2012. Available and emerging technologies for reducing greenhouse gas emissions from the iron and steel industry. US EPA, Office of Air Quality Planning and Standards, Sector Policies and Programs Division.",
+      "role": "Jones2012: steel-emission basis. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R079"
+    },
+    {
+      "id": "R080",
+      "pages": [
+        19
+      ],
+      "citation": "Jones, M., Reilly, M., Donald, A., Heidari, B., Oo, A., 2014. Minimising uncertainty for marginal field development by maximising the value of appraisal wells: measuring stress and 3D anisotropic rock properties in the Malay basin. In: Offshore Technology Conference-Asia. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 25 March. OTC-25011-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R080"
+    },
+    {
+      "id": "R081",
+      "pages": [
+        19
+      ],
+      "citation": "Junin, R., Hasbollah, D. Z. A., 2016. CO2 storage capacity assessment of deep saline aquifers in Malaysia. London United Kingdom. 18 (10) Part IX. https://www.resea rchgate.net/profile/Radzuan-Junin/publication/309563930_CO2_Storage_Capacity_ Assessment_of_Deep_Saline_Aquifers_in_Malaysia/links/5817641708ae90acb 2428d5f/CO2-Storage-Capacity-Assessment-of-Deep-Saline-Aquifers-in-Malaysia. pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R081"
+    },
+    {
+      "id": "R082",
+      "pages": [
+        19
+      ],
+      "citation": "Kadir, M., Rusli, M.R., Samsudin, B., Rahman, S., Norizan, S., Wee, T., Salleh, M.Z., 2021. First successful installation of through-tubing ceramic sand screen in Seligi oil field, offshore Peninsular Malaysia. In: International Petroleum Technology Conference. Society of Petroleum Engineers. Virtual, 16 March. IPTC-21440-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R082"
+    },
+    {
+      "id": "R083",
+      "pages": [
+        19
+      ],
+      "citation": "Karras, G., 2011. Oil refinery CO2 performance measurement. Communities for a Better Environment, Union of Concerned Scientists. https://www.baaqmd.gov/~/media/ files/engineering/proposed-reg-2-changes/public-comments/cbe-attachment-6-3-2- 12-ucs-2011.pdf?la=en.",
+      "role": "Karras2011: refinery emission benchmark. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R083"
+    },
+    {
+      "id": "R084",
+      "pages": [
+        19
+      ],
+      "citation": "Kechut, N.I., Nadeson, G., Ahmad, N., Raja, D.M., 2001. Evaluation of CO2 gas injection for major oil production fields in Malaysia-experimental approach case study: Dulang field. In: SPE Asia Pacific Improved Oil Recovery Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 08 October. SPE-72106-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R084"
+    },
+    {
+      "id": "R085",
+      "pages": [
+        19
+      ],
+      "citation": "Kim, Y., Han, J.K., 1996. Minerals and energy exploration and development expert group, oil and gas fields DB. Korea Institute of Geology, Mining & Materials 98 (43), 1–225. https://www.osti.gov/etdeweb/servlets/purl/20040710.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R085"
+    },
+    {
+      "id": "R086",
+      "pages": [
+        19
+      ],
+      "citation": "Kirana, I.N., Susanto, T., Mulyawan, R., 1997. Steam zone isolation strategies in the Duri steamflood. In: International Thermal Operations and Heavy Oil Symposium. Bakersfield, California, 10 February. SPE-37543-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R086"
+    },
+    {
+      "id": "R087",
+      "pages": [
+        19
+      ],
+      "citation": "Kishimoto, S., Hirata, T., Iijima, M., Ohishi, T., Higaki, K., Mitchell, R., 2009. Current status of MHI’s CO2 recovery technology and optimization of CO2 recovery plant with a PC fired power plant. Energy Procedia 1 (1), 1091–1098.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R087"
+    },
+    {
+      "id": "R088",
+      "pages": [
+        19
+      ],
+      "citation": "Klimkowski, Ł., Nagy, S., Papiernik, B., Orlic, B., Kempka, T., 2015. Numerical simulations of enhanced gas recovery at the Załęcze gas field in Poland confirm high CO2 storage capacity and mechanical integrity. Oil & Gas Science and Technology–Revue d’IFP Energies nouvelles 70 (4), 655–680.",
+      "role": "Klimkowski2015: primary gas recovery assumptions, Table3. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R088"
+    },
+    {
+      "id": "R089",
+      "pages": [
+        19
+      ],
+      "citation": "Kodl, E.J., 1994. Hydraulic fracturing of the Telisa formation at Kotabatak field Central Sumatra. In: Twenty Third Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 301–313.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R089"
+    },
+    {
+      "id": "R090",
+      "pages": [
+        19
+      ],
+      "citation": "Koning, T., Cameron, N., Clure, J., 2021. Undiscovered hydrocarbon potential in Sumatra. GeoExpro 18, 1–70. https://assets.geoexpro. com/uploads/56d77f0a-41b0-41c3-8aed-197983ce8c73/Geoscience%20Magazine %20GEO%20ExPro%20Vol.%2018,%20No.%201.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R090"
+    },
+    {
+      "id": "R091",
+      "pages": [
+        19
+      ],
+      "citation": "Koottungal, L., 2014. Worldwide EOR survey. Oil Gas J.",
+      "role": "Koottungal2014: EOR survey used in Table3. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R091"
+    },
+    {
+      "id": "R092",
+      "pages": [
+        19
+      ],
+      "citation": "Kovacs, P.P., 1982. Rama reservoir model study. In: Offshore South East Asia Show. Singapore. Society of Petroleum Engineers, 09 February. SPE-10461-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R092"
+    },
+    {
+      "id": "R093",
+      "pages": [
+        19,
+        20
+      ],
+      "citation": "Kueh, S., Wan-Mohamad, W.N., Hui, S.C., 2005. Initiatives for improving oil recovery at Guntong. In: SPE International Improved Oil Recovery Conference in Asia Pacific. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 05 December. SPE-97692- MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R093"
+    },
+    {
+      "id": "R094",
+      "pages": [
+        20
+      ],
+      "citation": "Kusumawatie, R., Simanjuntak, A., Pasteris, M., 2014. Cement slurry optimization for horizontal cementing prior to multistage stimulation in Sumatra light north field. In: Thirty-Eighth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA14-E-161.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R094"
+    },
+    {
+      "id": "R095",
+      "pages": [
+        20
+      ],
+      "citation": "Lake, L.W., Johns, R.T., Rossen, W.R., Pope, G.A., 2014. Fundamentals of enhanced oil recovery. Society of Petroleum Engineers, Richardson, Texas, USA.",
+      "role": "Lake2014: EOR recovery assumptions/derivations. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R095"
+    },
+    {
+      "id": "R096",
+      "pages": [
+        20
+      ],
+      "citation": "Lau, H.C., Ramakrishna, S., Zhang, K., Radhamani, A.V., 2021a. The role of carbon capture and storage in the energy transition. Energy Fuels 35 (9), 7364–7386.",
+      "role": "Lau2021a: CCS role/barriers and Southern Lights proposal. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R096"
+    },
+    {
+      "id": "R097",
+      "pages": [
+        20
+      ],
+      "citation": "Lau, H.C., Ramakrishna, Zhang, K., Hameed, M.Z.S., 2021b. A decarbonization roadmap for Singapore and its energy policy implications. Energies 14, 6455.",
+      "role": "Lau2021b: Singapore/Jurong capture and Southern Lights proposal. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R097"
+    },
+    {
+      "id": "R098",
+      "pages": [
+        20
+      ],
+      "citation": "Li, H., Lau, H.C., Wei, X., Liu, S., 2021. CO2 storage potential in major oil and gas reservoirs in the northern South China Sea. Int. J. Greenhouse Gas Control 108, 103328.",
+      "role": "Li2021: Eqs1–4 and recovery assumptions; MMP unit/implementation unchecked. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R098"
+    },
+    {
+      "id": "R099",
+      "pages": [
+        20
+      ],
+      "citation": "Liu, K., Clennell, B., Honari, A., Sayem, T., Rashid, A., Wei, X., Saeedi, A., 2013. Laboratory Investigation of Factors Affecting CO2 Enhanced Oil and Gas Recovery. In: SPE Enhanced Oil Recovery Conference. Kuala Lumpur, Malaysia. July 2013. SPE-165270-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R099"
+    },
+    {
+      "id": "R100",
+      "pages": [
+        20
+      ],
+      "citation": "Liu, S., Agarwal, R., Sun, B., Wang, B., Li, H., Xu, J., Fu, G., 2021. Numerical simulation and optimization of injection rates and wells placement for carbon dioxide enhanced gas recovery using a genetic algorithm. J. Cleaner Prod. 280, 124512.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R100"
+    },
+    {
+      "id": "R101",
+      "pages": [
+        20
+      ],
+      "citation": "Madon, M., Jong, J., Kessler, F.L., Murphy, C., Hamid, M.B.A., Sharef, N.B.M., 2019. Overview of the structural framework and hydrocarbon plays in the Penyu Basin. In: offshore Peninsular Malaysia, 68. AAPG Geological Society of Malaysia, pp. 1–23.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R101"
+    },
+    {
+      "id": "R102",
+      "pages": [
+        20
+      ],
+      "citation": "Madon, M., Yang, J.S., Abolins, P., Hassan, R.A., Yakzan, A.M., Zainal, S.B., 2004. Petroleum systems of the Northern Malay basin. In: Petroleum Geology Conference & Exhibition. Kuala Lumpur, Malaysia. AAPG Geological Society of Malaysia, 15 December. 125-134. https://gsm.org.my/products/702001-100556-PDF.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R102"
+    },
+    {
+      "id": "R103",
+      "pages": [
+        20
+      ],
+      "citation": "Mahasenan, N., Smith, S., Humphreys, K., 2003. The cement industry and global climate change: current and potential future cement industry CO2 emissions. In: Greenhouse Gas Control Technologies-6th International Conference, pp. 995–1000.",
+      "role": "Mahasenan2003: cement-emission factor. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R103"
+    },
+    {
+      "id": "R104",
+      "pages": [
+        20
+      ],
+      "citation": "Malone, B.P., Kovar, M., Djabar, M., Mansur, A., 1994. Enhanced productivity of the Telisa sand through improved fracture stimulation technique. In: Twenty Third Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 179–199.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R104"
+    },
+    {
+      "id": "R105",
+      "pages": [
+        20
+      ],
+      "citation": "Mandal, D., Yi, N.K., Mansur, R., Misman, R., Masoudi, R., 2013. A fast cost effective approach of early monetization of - a case study of Angsi. In: International Petroleum Technology Conference. Beijing, China. European Association of Geoscientists & Engineers, 26 March. cp-350-00441.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R105"
+    },
+    {
+      "id": "R106",
+      "pages": [
+        20
+      ],
+      "citation": "Mavar, K.N., Gaurina-Međimurec, N., Hrnˇcevi´c, L., 2021. Significance of enhanced oil recovery in carbon dioxide emission reduction. Sustainability 13 (4), 1800.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R106"
+    },
+    {
+      "id": "R107",
+      "pages": [
+        20
+      ],
+      "citation": "Martadinata, A.H., 1999. Gas potential of the Musi platform, South Sumatra. In: Proceedings of an International Conference on Gas Habitats of SE Asia and Australasia. AAPG Indonesian Petroleum Association, pp. 145–151.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R107"
+    },
+    {
+      "id": "R108",
+      "pages": [
+        20
+      ],
+      "citation": "Md Zin Che, L., Sering, L., Bakar, A.A., Sundal, E., Daudey, J., 2000a. Real-time data analysis while drilling provides risk management for both geological and geometric uncertainties in the Sotong K2.0 reservoir. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Brisbane, Australia, 16 October. SPE-64477-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R108"
+    },
+    {
+      "id": "R109",
+      "pages": [
+        20
+      ],
+      "citation": "Md Zin Che, L., Sering, L., Kamarrudin, S., Good, A., Gjerdingen, T., 2000b. Technology advancements in optimum wellbore placement. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Brisbane, Australia. Society of Petroleum Engineers, 16 October. SPE-64479-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R109"
+    },
+    {
+      "id": "R110",
+      "pages": [
+        20
+      ],
+      "citation": "Meckel, L.D., 2012. Exploring a 19th century basin in the 21st century: Seeing the north sumatra basin with new eyes. In: AAPG International Conference and Exhibition. Singapore, 16-19 September. 10464.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R110"
+    },
+    {
+      "id": "R111",
+      "pages": [
+        20
+      ],
+      "citation": "Meckel, L.D., Gidding, M., Sompie, M., Banukarso, M., Setoputri, A., Gunarto, M., Sim, D., 2012. Hydrocarbon systems of the offshore North Sumatra basin, Indonesia. In: Thirty Sixth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA12-G-012.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R111"
+    },
+    {
+      "id": "R112",
+      "pages": [
+        20
+      ],
+      "citation": "Megawatsoft, 2021. Carbon dioxide properties calculator. https://www.carbon-dioxide -properties.com/CO2TablesWeb.aspx.",
+      "role": "Megawatsoft2021: density calculator; EOS/version/pressure basis unreproduced. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R112"
+    },
+    {
+      "id": "R113",
+      "pages": [
+        20
+      ],
+      "citation": "Melzer, L. S., 2012. Carbon Dioxide enhanced oil recovery (CO2-EOR): Factors involved in adding Carbon Capture, Utilization and Storage (CCUS) to enhanced oil recovery. https://carboncapturecoalition.org/wp-content/uploads/2018/01/Melzer_CO2E OR_CCUS_Feb2012.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R113"
+    },
+    {
+      "id": "R114",
+      "pages": [
+        20
+      ],
+      "citation": "Metz, B., Davidson, O., Coninck, H.C., Loos, M., Meyer, L.A., Intergovernmental Panel on Climate Change (IPCC), 2005. IPCC special report on carbon dioxide capture and storage. Cambridge University Press, Cambridge, United Kingdom and New York, NY, USA, p. 442. Prepared by Working Group III of the Intergovernmental Panel on Climate Change [(eds.)]2005. https://www.ipcc.ch/site/assets/uploads/2018/03/ srccs_wholereport-1.pdf.",
+      "role": "Metz/IPCC2005: CCS role/context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R114"
+    },
+    {
+      "id": "R115",
+      "pages": [
+        20
+      ],
+      "citation": "Michael, E., Kuo, L.C., Suklis, J., 2007. Prediction of CO2 inert gas content in pre-tertiary reservoirs using basin modeling, South Sumatra, Indonesia. In: Thirty First Annual Convention Proceedings. AAPG Indonesian Petroleum Association. IPA07-G-112.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R115"
+    },
+    {
+      "id": "R116",
+      "pages": [
+        20
+      ],
+      "citation": "Ministry of Sustainability and the Environment (MSE), 2021. Carbon pricing act – Singapore. https://www.mse.gov.sg/policies/climate-change/cpa.",
+      "role": "MSE2021: historical Singapore carbon tax. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R116"
+    },
+    {
+      "id": "R117",
+      "pages": [
+        20
+      ],
+      "citation": "Mohamad, H., Mohamed, I., 2003. Oil discovery in the Sepat field. AAPG Geological Society of Malaysia 29, 294.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R117"
+    },
+    {
+      "id": "R118",
+      "pages": [
+        20
+      ],
+      "citation": "Mohamad, O., Yang, J., Chong, M.O., Zakaria, M.S., Ali, B.A., Cheng, C.B., 2008. Angsi K- sands production performance: a case history of hydraulically fractured retrograde gas condensate reservoir. In: Europec/EAGE Conference and Exhibition. Rome, Italy. Society of Petroleum Engineers, 09 June. SPE-113816-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R118"
+    },
+    {
+      "id": "R119",
+      "pages": [
+        20
+      ],
+      "citation": "Mohammad, A., Maung, U.M., 2000. The drilling and completion of the first monobore well in peninsular Malaysia. In: IADC/SPE Asia Pacific Drilling Technology. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 11 September. SPE-62773-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R119"
+    },
+    {
+      "id": "R120",
+      "pages": [
+        20
+      ],
+      "citation": "Mohd Ismail, I., Che Sidik, N.A., Syarani Wahi, F., Tan, G.L., Tom, F., Hillis, F., 2018. Increased oil production in super thin oil rim using the application of autonomous inflow control devices. In: SPE Annual Technical Conference and Exhibition. Dallas, Texas, USA. Society of Petroleum Engineers, 24 September. SPE-191590-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R120"
+    },
+    {
+      "id": "R121",
+      "pages": [
+        20
+      ],
+      "citation": "Mohd Nasir, M.A., Shamsuddin, S.A., Bakri, M.S.R., 2008. From shallow hazard to productive opportunity: opening a new gas play in the North Malay basin. In: International Petroleum Technology Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 03 December. IPTC-12642-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R121"
+    },
+    {
+      "id": "R122",
+      "pages": [
+        20
+      ],
+      "citation": "Mohede, H., Malick, K.M., Tyberoe, G., 2014. Suban-South Sumatra giant fractured gas reservoir development and challenges. In: Thirty Eighteenth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA14-E-324.",
+      "role": "Mohede2014: Suban properties in Table14. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R122"
+    },
+    {
+      "id": "R123",
+      "pages": [
+        20
+      ],
+      "citation": "A Muhamad, S., Teh, Y.H., Hassan, N.H., Sabri, H.A.R., Arif, I.A.M., Karim, A.H., 2008. Acid gas removal system for Tangga Barat cluster gas development - case study. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Perth, Australia. Society of Petroleum Engineers, 20 October. SPE-117125-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R123"
+    },
+    {
+      "id": "R124",
+      "pages": [
+        20
+      ],
+      "citation": "Mundt, P.A., 1982. Miocene reefs, offshore north Sumatra. In: Offshore South East Asia Show. Singapore. Society of Petroleum Engineers, 09 February. SPE-10424-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R124"
+    },
+    {
+      "id": "R125",
+      "pages": [
+        20
+      ],
+      "citation": "Murphy, D., Longley, I., 2005. The main producing hydrocarbon systems in SE Asia. In: Proceedings of the 2005 South East Asia Petroleum Exploration Society (SEAPEX) Conference. AAPG South East Asia Petroleum Exploration Society, pp. 1–59.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R125"
+    },
+    {
+      "id": "R126",
+      "pages": [
+        20
+      ],
+      "citation": "M Murrey, M.D., Cipolla, C.L., Nor, M., Manzoor Hussain, W.H., 2003. Fracture design, execution, and evaluation in retrograde condensate reservoirs: case history of the Angsi field, offshore Malaysia. In: SPE Annual Technical Conference and Exhibition. Denver, Colorado. Society of Petroleum Engineers, 05 October. SPE-84395-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R126"
+    },
+    {
+      "id": "R127",
+      "pages": [
+        20
+      ],
+      "citation": "Nakayama, K., Katoh, A., Takahashi, T., Ahmad, M., Fatt, R.W.H., Boyce, B.J.S., Bakar, Z. A.A., 2006. Malay basin CO2 predictability using seal integrity and equivalent grain size. In: Petroleum Geoscience Conference and Exhibition. Kuala Lumpur, Malaysia. European Association of Geoscientists & Engineers, 27 November. cp-256-00054.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R127"
+    },
+    {
+      "id": "R128",
+      "pages": [
+        20
+      ],
+      "citation": "Noble, R.A., Pratomo, K.H., Nugrahanto, K., Ibrahim, A.M., Prasetya, I., Mujahidin, N., Howes, J.V.C., 1997. Petroleum systems of northwest Java, Indonesia. In: Proceedings of an International Conference on Petroleum Systems of SE Asia and Australasia. AAPG Indonesian Petroleum Association, pp. 585–600.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R128"
+    },
+    {
+      "id": "R129",
+      "pages": [
+        20
+      ],
+      "citation": "Ong, S., Baim, A.S., Ibrahim, M.Z., Zheng, Z., 2000. Geomechanical analysis for Resak’s extended-reach drilling - a case example. In: IADC/SPE Asia Pacific Drilling Technology. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 11 September. SPE-62727-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R129"
+    },
+    {
+      "id": "R130",
+      "pages": [
+        20
+      ],
+      "citation": "Oldenburg, C.M., Stevens, S.H., Benson, S.M., 2004. Economic feasibility of carbon sequestration with enhanced gas recovery (CSEGR). Energy 29 (9-10), 1413–1422.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R130"
+    },
+    {
+      "id": "R131",
+      "pages": [
+        20
+      ],
+      "citation": "Omar, M.I., Md Ali, A., Ali, Z., Parapat, A.P., Speck, W., Winatasari, I., 2006. Coiled- tubing perforation and zonal isolation in harsh wellbore conditions. In: SPE Annual Technical Conference and Exhibition. San Antonio, Texas, USA. Society of Petroleum Engineers, 24 September. SPE-102241-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R131"
+    },
+    {
+      "id": "R132",
+      "pages": [
+        20
+      ],
+      "citation": "Ong, T.S., Lambert, M., Goodin, B.J., Othman, M., 2011. Malaysia east Belumut field: doubling a marginal field’s reserves by understanding the application of enabling technology. In: International Petroleum Technology Conference. Bangkok, Thailand. Society of Petroleum Engineers, 15 November. IPTC-14538-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R132"
+    },
+    {
+      "id": "R133",
+      "pages": [
+        20
+      ],
+      "citation": "Osman, S., Nianamuthu, M.F., Ismail, F.A., Idris, J.J.M., Ping, J., 2012. Sepat Barat Deep- 2: The deepest and hottest HPHT well in North Malay basin. In: Petroleum Geoscience Conference and Exhibition, 38. AAPG Geological Society of Malaysia, pp. 122–123.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R133"
+    },
+    {
+      "id": "R134",
+      "pages": [
+        20
+      ],
+      "citation": "Othman, M., Chong, M.B.O., Sai, R.M., Zainal, S., Yaacob, A.A., Zakaria, M.S., 2007. Meeting the challenges in alkaline surfactant pilot project implementation at Angsi field, offshore Malaysia. In: SPE Offshore Europe Oil and Gas Conference and Exhibition. Aberdeen, Scotland, U.K.. Society of Petroleum Engineers, 04 September. SPE-109033-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R134"
+    },
+    {
+      "id": "R135",
+      "pages": [
+        20
+      ],
+      "citation": "Our World in Data. 2021. Accessed 6 July 2021. https://ourworldindata.org/co2-and-oth er-greenhouse-gas-emissions.",
+      "role": "OWID2021: Figure1 historical emissions. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R135"
+    },
+    {
+      "id": "R136",
+      "pages": [
+        20
+      ],
+      "citation": "Pacala, S., Socolow, R., 2004. Stabilization wedges: solving the climate problem for the next 50 years with current technologies. Science 305 (5686), 968–972.",
+      "role": "Pacala/Socolow2004: mitigation/CCS role. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R136"
+    },
+    {
+      "id": "R137",
+      "pages": [
+        20
+      ],
+      "citation": "Paskvan, F., Baldauf, J., Agasi, A., 1996. Reservoir simulation and infill drilling results in the B-11 structure, Ardjuna basin, Indonesia. In: SPE Asia Pacific Oil and Gas Conference. Society of Petroleum Engineers, Adelaide, Australia, 28 October. SPE- 37027-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R137"
+    },
+    {
+      "id": "R138",
+      "pages": [
+        20
+      ],
+      "citation": "Pathak, P., Fidra, Y., Avida, H., Kahar, Z., Agnew, M., Hidayat, D., 2004. The Arun gas field in Indonesia: Resource management of a mature field. In: SPE Asia Pacific Conference on Integrated Modelling for Asset Management. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 29 March. SPE-87042-MS.",
+      "role": "Pathak2004: Arun properties in Table14. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R138"
+    },
+    {
+      "id": "R139",
+      "pages": [
+        20
+      ],
+      "citation": "Pederson, J.M., Stewart, W.F., Yuwono, I.P., 2002. Coaxing information from petrophysics and integrated data analysis: the Menggala south field case history, Sumatra, Indonesia. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Melbourne, Australia. Society of Petroleum Engineers, 08 October. SPE-77885-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R139"
+    },
+    {
+      "id": "R140",
+      "pages": [
+        20
+      ],
+      "citation": "Permadi, A.K., Yuwono, I.P., Simanjuntak, A.J.S., 2004. Effects of vertical heterogeneity on waterflood performance in stratified reservoirs: a case study in Bangko Field, Indonesia. In: SPE Asia pacific conference on integrated modelling for asset management. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 29 March. SPE-87016-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R140"
+    },
+    {
+      "id": "R141",
+      "pages": [
+        20
+      ],
+      "citation": "Permana, B.R., Darmadi, Y., Rahmawan, I., Siagian, T., 2018. Revealing hydrocarbon potential in a tight sand reservoir: a case study of the Baturaja sands in Sumpal field, South Sumatra Basin. In: Forty Second Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA18-318-G.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R141"
+    },
+    {
+      "id": "R142",
+      "pages": [
+        20
+      ],
+      "citation": "Perreau, M.E., 1993. Jerneh gas project challenges and implementation performance. In: SPE Asia Pacific Oil and Gas Conference. Singapore. Society of Petroleum Engineers, 08 February. SPE-25312-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R142"
+    },
+    {
+      "id": "R143",
+      "pages": [
+        20
+      ],
+      "citation": "Petronas, 2020. BIGST cluster technical study: continuous effort in transitioning to a low carbon economy. 16 December. https://www.petronas.com/mpm/highlights/bigst-c luster-technical-study-continuous-effort-transitioning-low-carbon-economy.",
+      "role": "Petronas2020: BIGST proposed pilots. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R143"
+    },
+    {
+      "id": "R144",
+      "pages": [
+        21
+      ],
+      "citation": "Pramudyo, Y.B., Hendar, S.M., Nur, H., Reihold, M., Jacobs, G., 2007. An integrated study of low permeability reservoir in the Bekasap field, central Sumatra basin, Indonesia. In: Asia Pacific Oil and Gas Conference and Exhibition. Jakarta, Indonesia. Society of Petroleum Engineers, 30 October. SPE-109846-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R144"
+    },
+    {
+      "id": "R145",
+      "pages": [
+        21
+      ],
+      "citation": "Premieroil, 2010. Creating value from rift basin exploration Premier’s SE Asia story. In: Finding Petroleum Conference. London, UK, pp. 170–196, 20 January. https://www. findingpetroleum.com/files/etb1/premier.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R145"
+    },
+    {
+      "id": "R146",
+      "pages": [
+        21
+      ],
+      "citation": "Prior, S.W., 1986. Bima Field, Indonesia, a sleeping giant. In: Fourth Circum Pacific Energy and Mineral Conference. AAPG Circum Pacific Council Publications, p. 199.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R146"
+    },
+    {
+      "id": "R147",
+      "pages": [
+        21
+      ],
+      "citation": "PT Energi Mega Persada Tbk (EMP), 2019. Annual report. 1-273. https://www.idx.co.id /StaticData/NewsAndAnnouncement/ANNOUNCEMENTSTOCK/From_EREP/202 005/83a3682340_f2bccef20d.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R147"
+    },
+    {
+      "id": "R148",
+      "pages": [
+        21
+      ],
+      "citation": "Purwanto, W.W., Muharam, Y., Pratama, Y.W., Hartono, D., Soedirman, H., Anindhito, R., 2016. Status and outlook of natural gas industry development in Indonesia. J. Nat. Gas Sci. Eng. 29, 55–65.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R148"
+    },
+    {
+      "id": "R149",
+      "pages": [
+        21
+      ],
+      "citation": "Putra, E., 2001. Multiphase pumps for light oil steam flood, from design and operation perspectives. In: SPE Asia Pacific Improved Oil Recovery Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 08 October. SPE-72143-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R149"
+    },
+    {
+      "id": "R150",
+      "pages": [
+        21
+      ],
+      "citation": "Qin, J., Li, Y., Wu, D., 2020. CCUS global progress and China’s policy suggestions. Pet. Geol. Recov. Efficiency (in Chinese). 27 (1), 20–28.",
+      "role": "Qin2020: miscible EOR assumptions, Table3. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R150"
+    },
+    {
+      "id": "R151",
+      "pages": [
+        21
+      ],
+      "citation": "Rachmawati, S.B., Sustakoski, R.J., Whitacre, T.P., Goggin, D.J., Levy, M., Bernath, A.B., Wu, G., 1997. Pattern waterflood development in a giant, mature oil field: Minas NW segment reservoir characterization, scale-up, and flow modeling. In: SPE Annual Technical Conference and Exhibition. San Antonio, Texas. Society of Petroleum Engineers, 05 October. SPE-38705-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R151"
+    },
+    {
+      "id": "R152",
+      "pages": [
+        21
+      ],
+      "citation": "Rahardja, A., Pristiwanto, H.P., 1994. Bekasap field hybrid streamtube model study. In: SPE Asia Pacific Oil and Gas Conference. Melbourne, Australia. Society of Petroleum Engineers, 07 November. SPE-28756-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R152"
+    },
+    {
+      "id": "R153",
+      "pages": [
+        21
+      ],
+      "citation": "Rassool, D., Havercroft, I., 2021. Financial CCS in developing countries. Global CCS Institute. https://www.globalccsinstitute.com/wp-content/uploads/2021/04/Fi nancing-CCS-In-Developing-Countries-V2-1.pdf.",
+      "role": "Rassool/Havercroft2021: finance, state liability and shared infrastructure. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R153"
+    },
+    {
+      "id": "R154",
+      "pages": [
+        21
+      ],
+      "citation": "Razak, E.A., Chan, K.S., Darman, N.B., 2010. Breaking oil recovery limit in Malaysian thin oil rim reservoirs: force balance revisited. In: SPE EUROPEC/EAGE Annual Conference and Exhibition. Barcelona, Spain. Society of Petroleum Engineers, 14 June. SPE-130388-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R154"
+    },
+    {
+      "id": "R155",
+      "pages": [
+        21
+      ],
+      "citation": "Riva, J.P., 1983. Assessment of undiscovered conventionally recoverable petroleum of Indonesia. US Geological Survey. https://pubs.usgs.gov/circ/1983/0899/report.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R155"
+    },
+    {
+      "id": "R156",
+      "pages": [
+        21
+      ],
+      "citation": "Roezin, S., 1974. The discovery and development of the Petapahan oil field, Central Sumatra. In: Third Annual Convention Proceedings. AAPG Indonesian Petroleum Association, pp. 111–127.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R156"
+    },
+    {
+      "id": "R157",
+      "pages": [
+        21
+      ],
+      "citation": "Robinson, K., 1985. Assessment of undiscovered conventionally recoverable petroleum in Tertiary sedimentary basins of Malaysia and Brunei. AAPG Geological Society of Malaysia 18, 119–131.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R157"
+    },
+    {
+      "id": "R158",
+      "pages": [
+        21
+      ],
+      "citation": "Rory, R., 1990. Geology of the South Lho Sukon ’A’ field North Sumatra, Indonesia. In: Nineteenth Annual Convention Proceedings, 1. AAPG Indonesian Petroleum Association, pp. 1–40.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R158"
+    },
+    {
+      "id": "R159",
+      "pages": [
+        21
+      ],
+      "citation": "Sagita, R., Sari, Q.C., Chalik, M., Rita, A., Waworuntu, R., Guttormsen, J., 2008. Reservoir characterization of complex basement–Dayung. In: Thirty Second Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA08-G-208.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R159"
+    },
+    {
+      "id": "R160",
+      "pages": [
+        21
+      ],
+      "citation": "Sahudi, K., Prasetya, I., 2005. Exploration in west Java: play concepts in the past, present and future, efforts to maintain reserves growth. In: Thirtieth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA05-G-085.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R160"
+    },
+    {
+      "id": "R161",
+      "pages": [
+        21
+      ],
+      "citation": "Salem, E.A., 1994. Reservoir management in Minas field: cooperative efforts between host country and operator to increase ultimate recovery. In: 14th World Petroleum Congress. Stavanger, Norway. Society of Petroleum Engineers, 29 May. WPC-26171.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R161"
+    },
+    {
+      "id": "R162",
+      "pages": [
+        21
+      ],
+      "citation": "Samsudin, Y., Darman, N., Husain, D., Hamdan, K., 2005. Enhanced oil recovery in Malaysia: making it a reality (Part II). In: SPE international improved oil recovery conference in Asia Pacific. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 05 December. SPE-95931-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R162"
+    },
+    {
+      "id": "R163",
+      "pages": [
+        21
+      ],
+      "citation": "Sardjito, E.F., Djumlati, S.H., 1991. Hydrocarbon prospect of pre tertiary basement in Kuang Area, South Sumatra. In: Twentieth Annual Convention Proceedings, 1. AAPG Indonesian Petroleum Association, pp. 255–277.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R163"
+    },
+    {
+      "id": "R164",
+      "pages": [
+        21
+      ],
+      "citation": "Satyana, A.H., Marpaung, L.P., Purwaningsih, M.E., Utama, M.K., 2007. Regional gas geochemistry of Indonesia: Genetic characterization and habitat of natural gases. In: Thirty First Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA07-G-050.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R164"
+    },
+    {
+      "id": "R165",
+      "pages": [
+        21
+      ],
+      "citation": "Selamat, S.B., Shamsuddin, S.A., 2011. Evaluation and optimization of enhanced oil recovery by WAG injection at Tapis and Guntong fields, Malaysia. In: SPE Enhanced Oil Recovery Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 19 July. SPE-145123-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R165"
+    },
+    {
+      "id": "R166",
+      "pages": [
+        21
+      ],
+      "citation": "Selamat, S.B., Teletzke, G.F., Patel, P.D., Darman, N.B., Shuhaimi, M.A., 2008. EOR: The new frontier in the Malay basin development. In: International Petroleum Technology Conference. Society of Petroleum Engineers. Kuala Lumpur, Malaysia, 03 December. IPTC-12805-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R166"
+    },
+    {
+      "id": "R167",
+      "pages": [
+        21
+      ],
+      "citation": "Seong, C.K., Abdullah, M.B., 1997. Peninsular gas utilisation project: planning and challenges to meet customers demand from the perspective of a national oil company. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 14 April. SPE-38074-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R167"
+    },
+    {
+      "id": "R168",
+      "pages": [
+        21
+      ],
+      "citation": "Seong, C.K., Hong, T.Y., 1995. A review of offshore oil fields development in Malaysia. In: SPE Asia Pacific Oil and Gas Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 20 March. SPE-29307-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R168"
+    },
+    {
+      "id": "R169",
+      "pages": [
+        21
+      ],
+      "citation": "Seong, C.K., Husain, D., Karim, A.H.A., 1995. Gas fields development in Malaysia. In: SPE Asia Pacific Oil and Gas Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 20 March. SPE-29318-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R169"
+    },
+    {
+      "id": "R170",
+      "pages": [
+        21
+      ],
+      "citation": "Sihombing, E.H., Indra, Y., Waworuntu, R.D., Priwastono, D., 2019. The stratigraphy of a lacustrine associated reservoir in the Belut formation, Block B, West Natuna Basin. In: Forty Third Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA19-G-437.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R170"
+    },
+    {
+      "id": "R171",
+      "pages": [
+        21
+      ],
+      "citation": "Sim, S.S.K., Turtata, A.T., Singhal, A.K., Hawkins, B.F., 2009. Enhanced gas recovery: Factors affecting gas-gas displacement efficiency. J. Can. Pet. Technol. 48 (08), 49–55.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R171"
+    },
+    {
+      "id": "R172",
+      "pages": [
+        21
+      ],
+      "citation": "Simamora, J.H., Ardianto, R.N., 2011. Integrating subsurface, well and surface data as a plan for waterflood project in Rantau field. In: SPE Project and Facilities Challenges Conference at METS. Doha, Qatar. Society of Petroleum Engineers, 13 February. SPE-142269-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R172"
+    },
+    {
+      "id": "R173",
+      "pages": [
+        21
+      ],
+      "citation": "Singapore Petroleum Company (SPC), 2021. Company website. Accessed 4 July 2021. https://www.spc.com.sg/our-business/ep/pipelines/.",
+      "role": "SPC2021: Grissik–Batam–Singapore pipeline proposal. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R173"
+    },
+    {
+      "id": "R174",
+      "pages": [
+        21
+      ],
+      "citation": "Sitawati, S., Nugroho, S.M., 2013. An example of factors affecting monetization efforts for high CO2 gas field development. In: Thirty-Seventh Annual Convention & Exhibition. AAPG Indonesian Petroleum Association. IPA13-BC-037.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R174"
+    },
+    {
+      "id": "R175",
+      "pages": [
+        21
+      ],
+      "citation": "Society of Petroleum Engineers (SPE), 2017. CO2 Storage Management System. https ://www.spe.org/industry/docs/SRMS.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R175"
+    },
+    {
+      "id": "R176",
+      "pages": [
+        21
+      ],
+      "citation": "Soeparjadi, R.A., 1983. Geology of the Arun gas field. J. Petroleum Technol. 35.06, 1–163.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R176"
+    },
+    {
+      "id": "R177",
+      "pages": [
+        21
+      ],
+      "citation": "Stewart, S.R., Sitinjak, J., 1989. Removal of calcium carbonate scale in Farida and Zelda fields, offshore Southeast Sumatra. In: 18th Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 315–334.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R177"
+    },
+    {
+      "id": "R178",
+      "pages": [
+        21
+      ],
+      "citation": "Stoian, E., Telford, A.S., 1966. Determination of natural gas recovery factors. J. Can. Pet. Technol. 5 (03), 115–129.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R178"
+    },
+    {
+      "id": "R179",
+      "pages": [
+        21
+      ],
+      "citation": "Suarsana, I.P., Badril, A., 2012. Integrated production analysis before implementation pilot water flooding and surveillance & monitoring during pilot water flooding on rantau structure zone 600. In: North Africa Technical Conference and Exhibition. Cairo, Egypt. Society of Petroleum Engineers, 20 February. SPE-153001-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R179"
+    },
+    {
+      "id": "R180",
+      "pages": [
+        21
+      ],
+      "citation": "Suarsana, I.P., Marhaendrajana, T., Gunadi, B., 2005. Gas injection programs in Pertamina West Java to obtain better recovery: field screening, laboratory and a simulation study. In: SPE International Improved Oil Recovery Conference in Asia Pacific. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 05 December. SPE- 97507-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R180"
+    },
+    {
+      "id": "R181",
+      "pages": [
+        21
+      ],
+      "citation": "Suarsana, P., Ascope, B.E., 2009. Work progress high CO2 gas reservoir in Indonesia (Pertamina). In: Workshop on Development of Natural Gas with High CO2 & Carbon Storage (CCS). Bali Indonesia, 20 March. 1-30. http://www.ccop.or.th/eppm/pr ojects/2/docs/4_Putu_Pertamina_CO2%20PROGRESS%20STUDY%20IN%20IND ONESIA%20MARCH%202009%20BALI.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R181"
+    },
+    {
+      "id": "R182",
+      "pages": [
+        21
+      ],
+      "citation": "Sudarmono, S.H., Abdat, T., 2003. The state of the art finding new oil and gas reserves in an old and mature area, offshore Northwest Java Sea. In: 29th Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 1–17.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R182"
+    },
+    {
+      "id": "R183",
+      "pages": [
+        21
+      ],
+      "citation": "Suhartanto, T., York, A.P., Hanif, A., Al-Megren, H., Green, M.L., 2001. Potential utilisation of Indonesia’s Natuna natural gas field via methane dry reforming to synthesis gas. Catal. Lett. 71 (1), 49–54.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R183"
+    },
+    {
+      "id": "R184",
+      "pages": [
+        21
+      ],
+      "citation": "Suklis, J., Arnold Ames, E.M., 2004. CO2 in South Sumatra–observations and prediction. In: IPA-AAPG Deepwater and Frontier Symposium. AAPG Indonesian Petroleum Association, pp. 269–277.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R184"
+    },
+    {
+      "id": "R185",
+      "pages": [
+        21
+      ],
+      "citation": "Sukor, N.R., Shamsuddin, A.H., Mahlia, T.M.I., Mat Isa, M.F., 2020. Techno-economic analysis of CO2 capture technologies in offshore natural gas field: implications to carbon capture and storage in Malaysia. Processes 8 (3), 350.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R185"
+    },
+    {
+      "id": "R186",
+      "pages": [
+        21
+      ],
+      "citation": "Sulitra, M.D., 1991. NSB ’A’ field: construction of geological model incorporating data from the anomalous well, NSB-A7. In: Twentieth Annual Convention Proceedings. AAPG Indonesian Petroleum Association, pp. 479–518, 1.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R186"
+    },
+    {
+      "id": "R187",
+      "pages": [
+        21
+      ],
+      "citation": "Sumii, T., Wakita, K., Matsubayashi, O., Fujii, K., Moritani, T., 1992. Explanatory notes for the energy- map of the circum pacific region Northwest Quardant. U.S. Department of the Interior, U.S. Geological survey, pp. 1–40. https://pubs.usgs. gov/cp/40/report.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R187"
+    },
+    {
+      "id": "R188",
+      "pages": [
+        21
+      ],
+      "citation": "Sutoto, A., 1991. Reservoir geology of the Belida field South Natuna sea, Block B. In: 20th Annual Convention Proceedings, 1. AAPG Indonesian Petroleum Association, pp. 453–478.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R188"
+    },
+    {
+      "id": "R189",
+      "pages": [
+        21
+      ],
+      "citation": "Suyoto, H., Bethancourt, J., 2010. A fractured pre-tertiary basement reservoir engineering study. In: Thirty Fourth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA10-E-064.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R189"
+    },
+    {
+      "id": "R190",
+      "pages": [
+        21
+      ],
+      "citation": "Syaefuddin, A., Bailey, T., Santoso, H.H., 2001. Geological modelling: backbone in developing a mature oil field (Jorang field case). In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Jakarta, Indonesia. Society of Petroleum Engineers, 17 April. SPE-68640-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R190"
+    },
+    {
+      "id": "R191",
+      "pages": [
+        21
+      ],
+      "citation": "Tamtomo, B., Yuswar, I., Widianto, E., 1997. Transgressive Talang Akar sands of the Kuang area, South Sumatra basin: origin, distribution and implication for exploration play concept. In: Proceedings of an International Conference on Petroleum Systems of SE Asia and Australasia. AAPG Indonesian Petroleum Association, pp. 699–708.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R191"
+    },
+    {
+      "id": "R192",
+      "pages": [
+        21
+      ],
+      "citation": "Teh, Y.H., Theseira, K., Abdul Karim, A.H., Hashim, N.S., Yakob, A.R., Musa, A.S., Sykahar, M.W., 2008. Preparing a gas field development plan: Tangga Barat cluster gas project. In: International Petroleum Technology Conference. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 03 December. IPTC-12488-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R192"
+    },
+    {
+      "id": "R193",
+      "pages": [
+        21
+      ],
+      "citation": "Tejo, B., Singamshetty, K., Tupamahu, L., Gunawan, I., Nugroho, W., Satriya, Y., 2020. A unique completion design using perforated drill pipe in the onshore Southern Sumatra basin. In: SPE/IATMI Asia Pacific Oil & Gas Conference and Exhibition. Bali, Indonesia. Society of Petroleum Engineers, 25 October. SPE-196550-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R193"
+    },
+    {
+      "id": "R194",
+      "pages": [
+        21
+      ],
+      "citation": "Thambydurai, R., Mustapha, A.F., Mueller, K.H., Dixon, M.R., 1988. Jerneh gas field development planning. In: SPE offshore South East Asia conference and exhibition. Singapore. Society of Petroleum Engineers, 02 Feb. SPE17702-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R194"
+    },
+    {
+      "id": "R195",
+      "pages": [
+        21
+      ],
+      "citation": "Thu, G.S., Heacock, D.W., Loveless, D.E., 1983. Exploration, development, and reservoir engineering studies for the tapis field offshore Peninsular Malaysia. J. Petroleum Technol. 35 (06), 1–051.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R195"
+    },
+    {
+      "id": "R196",
+      "pages": [
+        22
+      ],
+      "citation": "Tjahyadi, R., Suyasa, I., 2004. KLX/KLY reservoir management using integrated asset modeling, case study. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Perth, Australia. Society of Petroleum Engineers, 18 October. SPE-88602-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R196"
+    },
+    {
+      "id": "R197",
+      "pages": [
+        22
+      ],
+      "citation": "Todd, S.P., Dunn, M.E., Barwise, A.J.G., 1997. Characterizing petroleum charge systems in the Tertiary of SE Asia, 126. Geological Society Special Publications, pp. 25–47.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R197"
+    },
+    {
+      "id": "R198",
+      "pages": [
+        22
+      ],
+      "citation": "Ueda, M., Nakamura, K., Hudson, N., Ibrahim, M.Z., Selamat, K., Chen, P, 2003. Corrosion behavior of super 13Cr martensitic stainless steels in completion fluids. In: Corrosion 2003. San Diego, California. Society of Petroleum Engineers, 16 March. NACE-03097.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R198"
+    },
+    {
+      "id": "R199",
+      "pages": [
+        22
+      ],
+      "citation": "U.S. Department of Energy (DOE), 2015. ALTAS Carbon storage atlas 2015 Fifth Edition. National Energy Technology Laboratory. https://www.netl.doe.gov/sites/default/f iles/2018-10/ATLAS-V-2015.pdf.",
+      "role": "DOE2015: Table4 aquifer efficiency assumptions. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R199"
+    },
+    {
+      "id": "R200",
+      "pages": [
+        22
+      ],
+      "citation": "U.S. Energy Information Administration (EIA), 2020a. Emissions by plant and by region, Annual data for 2019. https://www.eia.gov/electricity/data/emissions/.",
+      "role": "EIA2020a: plant/fuel emission factors. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R200"
+    },
+    {
+      "id": "R201",
+      "pages": [
+        22
+      ],
+      "citation": "U.S. Energy Information Administration (EIA), 2020b. How much carbon dioxide is produced when different fuels are burned? https://www.eia.gov/tools/faqs/faq.ph p?id=73&t=11.",
+      "role": "EIA2020b: fuel emission factors. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R201"
+    },
+    {
+      "id": "R202",
+      "pages": [
+        22
+      ],
+      "citation": "Van der Meer, L.G.H., 1995. The CO2 storage efficiency of aquifers. Energy Convers. Manage. 36 (6-9), 513–518.",
+      "role": "Van der Meer1995: aquifer storage-efficiency basis. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R202"
+    },
+    {
+      "id": "R203",
+      "pages": [
+        22
+      ],
+      "citation": "Verma, M.K., 2015. Fundamentals of Carbon Dioxide-Enhanced Oil Recovery (CO2-EOR) - A Supporting Document of the Assessment Methodology for Hydrocarbon Recovery Using CO2-EOR Associated with Carbon Sequestration. U.S. Geological Survey. https: //pubs.usgs.gov/of/2015/1071/pdf/ofr2015-1071.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R203"
+    },
+    {
+      "id": "R204",
+      "pages": [
+        22
+      ],
+      "citation": "Von der Mehden, F., Lewis, S. W., 2004. Liquefied natural gas from Indonesia: The Arun project https://scholarship.rice.edu/bitstream/handle/1911/91497/liquefied-nat ural-gas-from-indonesia-the-arun-project.pdf?sequence=1.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R204"
+    },
+    {
+      "id": "R205",
+      "pages": [
+        22
+      ],
+      "citation": "Wang, M., Lee, H., Molburg, J., 2004. Allocation of energy use in petroleum refineries to petroleum products. Int. J. Life Cycle Assess. 9 (1), 34–44.",
+      "role": "Wang2004: refinery emission/energy allocation basis. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R205"
+    },
+    {
+      "id": "R206",
+      "pages": [
+        22
+      ],
+      "citation": "Wan-Mohamad, W.N., Abdullah, M.A.Y., Selamat, S.B., Elias, M.R., 2005. Application of improved and enhanced oil recovery strategies in the Tapis field. In: SPE International Improved Oil Recovery Conference in Asia Pacific. Kuala Lumpur, Malaysia. Society of Petroleum Engineers, 05 December. SPE-97693-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R206"
+    },
+    {
+      "id": "R207",
+      "pages": [
+        22
+      ],
+      "citation": "Wan-Nawawi, W.M., Coyne, P.L., Hinton, P.V., Razalli, R.M., 2002. Guntong-key challenges and issues in the management of a large complex oil field. In: SPE Asia Pacific Oil and Gas Conference and Exhibition. Melbourne, Australia. Society of Petroleum Engineers, 08 October. SPE-77835-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R207"
+    },
+    {
+      "id": "R208",
+      "pages": [
+        22
+      ],
+      "citation": "Waren, R., Finaldhi, E., Ramdhan, M., Aji, M., Qadly, H., Budiman, A.R., 2015. Unlocking the high hydrocarbon potential in very low quality formations in the Bangko and Balam south east field, Central Sumatra basin, Indonesia. In: Thirty Ninth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA15-G-207.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R208"
+    },
+    {
+      "id": "R209",
+      "pages": [
+        22
+      ],
+      "citation": "Wibowo, B.C., Dadang Sofyan, G., Tankersley, T., Dawson, W.C., 1996. Reservoir characterization by integrating production and geological information; case study: Kotabatak pattern waterflood. In: Twenty Fifth Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 329–342.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R209"
+    },
+    {
+      "id": "R210",
+      "pages": [
+        22
+      ],
+      "citation": "Widarsono, B., 2006. Indonesia’s natural gas: production, reserves and challenges. Indonesian J. Int. Law 4, 297–318.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R210"
+    },
+    {
+      "id": "R211",
+      "pages": [
+        22
+      ],
+      "citation": "Widiatmo, R., Waskito, L.B., Afi, F.N., Nugroho, P., Gunawan, H., 2017. Redevelopment of mature combination drive reservoir to enhance ultimate recovery in Asri basin, Indonesia. In: SPE/IATMI Asia Pacific Oil & Gas Conference and Exhibition. Jakarta, Indonesia. Society of Petroleum Engineers, 17 October. SPE-186402-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R211"
+    },
+    {
+      "id": "R212",
+      "pages": [
+        22
+      ],
+      "citation": "Wight, A., Friestad, H., Anderson, I., Wicaksono, P., Reminton, C.H., 1997. Exploration history of the offshore southeast Sumatra PSC, Java sea, Indonesia. Geol. Soc., London, Special Publicat. 126 (1), 121–142.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R212"
+    },
+    {
+      "id": "R213",
+      "pages": [
+        22
+      ],
+      "citation": "Wight, A.W.R., Reynolds, J.R., 1995. Geologic summary of Java. In: Seismic Atlas of Indonesian Oil and Gas Fields, 2. AAPG Indonesian Petroleum Association, pp. 1–13.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R213"
+    },
+    {
+      "id": "R214",
+      "pages": [
+        22
+      ],
+      "citation": "Wijaya, B.A., Adijaya, F.K., Avant, C., 2010. Case history: improving well productivity with improved perforation job design and execution method. In: Thirty Fourth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA10- E-083.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R214"
+    },
+    {
+      "id": "R215",
+      "pages": [
+        22
+      ],
+      "citation": "Wilkinson, J., Elliott, P., 2019. Malaysia: exciting times ahead. AAPG Geo Expro 18.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R215"
+    },
+    {
+      "id": "R216",
+      "pages": [
+        22
+      ],
+      "citation": "Wiratno, J., Ernata, W.M., 2020. What will be next? After a decade of exploration activities towards giant discovery in Indonesia. In: Digital Technical Conference. AAPG Indonesian Petroleum Association. IPA20-BC-124.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R216"
+    },
+    {
+      "id": "R217",
+      "pages": [
+        22
+      ],
+      "citation": "Woodling, G.S., Kaldi, J.G., Oentarsih, K.I., Roe, R.C., 1990. Integrated reservoir simulation study of the Bima field, offshore NW Java. In: 19th Annual Convention Proceedings, 2. AAPG Indonesian Petroleum Association, pp. 1–26.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R217"
+    },
+    {
+      "id": "R218",
+      "pages": [
+        22
+      ],
+      "citation": "World Bank Group, 2021. CO2 emission (kt) – Indonesia. https://data.worldbank. org/indicator/EN.ATM.CO2E.KT?locations=ID.",
+      "role": "World Bank2021: Figure1 historical emissions. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R218"
+    },
+    {
+      "id": "R219",
+      "pages": [
+        22
+      ],
+      "citation": "World Steel Association (WSA), 2012. Steel’s contribution to a low carbon future. World Steel Position Paper. https://www.worldsteel.org/en/dam/jcr:c3acc5fd-e3c2-458c -a2cc-8c4880b9334c/Steel%2527s+contribution+to+a+low+carbon+future.pdf.",
+      "role": "WSA2012: steel-emission factor. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R219"
+    },
+    {
+      "id": "R220",
+      "pages": [
+        22
+      ],
+      "citation": "Yaman, F., Ambismar, T., Bukhari, T., 1991. Gas exploration in Parigi and Pre-Parigi carbonate buildups, NW Java Sea. In: 20th Annual Convention Proceedings, 1. AAPG Indonesian Petroleum Association, pp. 319–346.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R220"
+    },
+    {
+      "id": "R221",
+      "pages": [
+        22
+      ],
+      "citation": "Yarmanto, T.L., Indrawardana, B.L., 1995. Tertiary tectonostratigraphic development of the Balam depocenter, Central Sumatra basin, Indonesia. In: Twenty Fourth Annual Convention Proceedings, 1. AAPG Indonesian Petroleum Association, pp. 33–45.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R221"
+    },
+    {
+      "id": "R222",
+      "pages": [
+        22
+      ],
+      "citation": "Yassin, A.A.M., 1988. Enhanced oil recovery in Malaysia. In: Offshore Southeast Asia show. Singapore. Society of Petroleum Engineers, 02 February. SPE-17693-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R222"
+    },
+    {
+      "id": "R223",
+      "pages": [
+        22
+      ],
+      "citation": "Yong, T.O., Soffian, R.M., 1992. Development planning of Seligi field offshore Pensinsular Malaysia. In: International Meeting on Petroleum Engineering. Beijing, China. Society of Petroleum Engineers, 24 March. SPE-22409-MS.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R223"
+    },
+    {
+      "id": "R224",
+      "pages": [
+        22
+      ],
+      "citation": "Yulianus, L.F., Setiawati, Y.D., Radiansyah, S., Syuhada, P.I., 2018. Unlocking potential reservoir of Pre-Parigi carbonate to new opportunity gas field: a case study of belut structure-offshore North West Java. In: Forty-Second Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA18-336-G.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R224"
+    },
+    {
+      "id": "R225",
+      "pages": [
+        22
+      ],
+      "citation": "Yunaz, D., Lumbantobing, S., Walla III, A., 2015. Implementation of pump upsizing in SLO north sustain increased production performance and leads to world class reservoir management. In: Thirty Ninth Annual Convention and Exhibition. AAPG Indonesian Petroleum Association. IPA15-E-132.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R225"
+    },
+    {
+      "id": "R226",
+      "pages": [
+        22
+      ],
+      "citation": "Yuwono, R.W., Fitriana, B.S., Kirana1, P.S., Djaelani1, S., Sjafwan, B.A., 2012. Biogenic gas exploration and development in Bentu PSC, central Sumatra basin. In: Indonesia AAPG International Conference and Exhibition. Singapore, 16-19 September. 10454.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R226"
+    },
+    {
+      "id": "R227",
+      "pages": [
+        22
+      ],
+      "citation": "Zahirovic, S., Seton, M., Müller, R.D., 2014. The cretaceous and cenozoic tectonic evolution of Southeast Asia. Solid Earth 5 (1), 227–273.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R227"
+    },
+    {
+      "id": "R228",
+      "pages": [
+        22
+      ],
+      "citation": "Zeliff, C.W., Trollope, S.W., Maulana, E., 1985. Exploration cycles in the corridor block, South Sumatra. In: Fourteenth Annual Convention Proceedings, 1. AAPG Indonesian Petroleum Association, pp. 379–400.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R228"
+    },
+    {
+      "id": "R229",
+      "pages": [
+        22
+      ],
+      "citation": "Zhang, N., Wei, M., Bai, B., 2018. Comprehensive review of worldwide CO2 immiscible flooding. In: SPE Improved Oil Recovery Conference. Tulsa, Oklahoma, USA. Society of Petroleum Engineers. April; 2018.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R229"
+    },
+    {
+      "id": "R230",
+      "pages": [
+        22
+      ],
+      "citation": "Zhang, T., 2020. CCS Development in Southeast Asia. Global CCS Institute. https://www. globalccsinstitute.com/wp-content/uploads/2020/05/Brief_CCS-Development-in -South-East-Asia_May-2020.pdf.",
+      "role": "Zhang2020: regional/Australia CCS proposal. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R230"
+    },
+    {
+      "id": "R231",
+      "pages": [
+        22
+      ],
+      "citation": "Zhou, D., Li, P., Zhao, Z., Liao, J., Zhang, C., Zhang, Y., Xie, H., Li, F., Peng, J., 2013. Assessment of CO2 storage potential for Guangdong province, China. Global CCS Institute. https://www.globalccsinstitute.com/archive/hub/publications/115603 /assessment-of-CO2-storage-potential-for-guangdong-province-china.pdf.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R231"
+    },
+    {
+      "id": "R232",
+      "pages": [
+        22
+      ],
+      "citation": "Zitha, P., Felder, R., Zornes, D., Brown, K., Mohanty, K., 2011. Increasing hydrocarbon recovery factors. Soc. Petroleum Eng. 1–9.",
+      "role": "Printed bibliography entry read; detailed claim/appendix-field mapping remains open. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B4-08_bibliography.json#R232"
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        3,
+        4,
+        5,
+        9,
+        15,
+        18
+      ],
+      "status": "RESOURCE_NOT_ANNUAL_SERVICE",
+      "finding": "Voidage/geometric resources with E=1 or generic E_sa omit pressure limits, injectivity, boundaries, interference and schedules.",
+      "action": "Use as attributed resources; obtain pressure/rate/well inputs before annual service or allocated-capacity claims."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        4,
+        5,
+        7,
+        8,
+        15,
+        16,
+        17
+      ],
+      "status": "OPEN_FIELD_MODEL_REPRODUCTION",
+      "finding": "Rounded Bg/Bo/density, current versus generic recovery selection and gas-condensate implementation do not supply an exact field model.",
+      "action": "Obtain unrounded inputs, standard conditions, calculator version and recovery rules. Do not tune corrections to match outputs."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        5
+      ],
+      "status": "HOLD_MMP_UNIT",
+      "finding": "Eq4 T is Fahrenheit; MMP output unit and validity range remain unestablished.",
+      "action": "Verify He2015/Li2021 originals before converting or certifying miscibility. Preserve exact printed notation."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        5,
+        11
+      ],
+      "status": "HOLD_SECTOR_LABELS",
+      "finding": "Peninsular Malaysia Table5 assigns 31.33 steel/7.11 refinery; Table13 assigns the reverse.",
+      "action": "Retain both. Do not choose a harmonised sector assignment without an original-source check or erratum."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        6,
+        9,
+        12
+      ],
+      "status": "OPEN_STATISTICAL_BASIS",
+      "finding": "Figure8b mean 121.9 Mt, N=57 differs from table total 6716/57=117.82456 Mt.",
+      "action": "Obtain histogram inputs/sample/version; preserve both quantities without a silent correction."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        4,
+        5,
+        9,
+        18
+      ],
+      "status": "OPEN_EMPIRICAL_UNCERTAINTY",
+      "finding": "Generic recovery/efficiency and assumed depth, seal and net-to-gross drive large uncertainty; percentile labels do not calibrate probabilities.",
+      "action": "Trace APEC/ADB/Bachu/DOE/SPE and field originals before assigning uncertainty or regional feasibility."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        9,
+        10,
+        11,
+        14,
+        15
+      ],
+      "status": "PENDING_PRIMARY_REFERENCES",
+      "finding": "232 bibliography entries read; most exact claim mappings and all underlying primary checks remain open for this record.",
+      "action": "Continue local exact-source checks. External retrieval remains paused pending the requested Chrome connection."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "status": "EXTERNAL_ASSETS_NOT_ESTABLISHED",
+      "finding": "AppendixA is internal to the 22-page PDF. No separate code/data/supplement verified; no embedded attachments.",
+      "action": "Do not infer web absence. Check publisher/archive availability when external access resumes."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        15,
+        16,
+        17,
+        18
+      ],
+      "status": "UNCONFIRMED_PARENT_FIELD_IDS",
+      "finding": "Eight South Sumatra resource/type/basin values match B4-06, but the parent does not explicitly name its anonymous reservoir IDs.",
+      "action": "Keep candidate identities unconfirmed. No PVT, well, readiness or annual-capacity join follows automatically."
+    }
+  ],
+  "supplements": "Appendix A (Tables14–18) is inside the retained main PDF and fully inspected. No embedded attachments exist. Separate publisher supplements, author data/code and errata have not been independently checked; absence locally is not proof of absence online. External retrieval remains paused under the user’s request to wait for Chrome.",
+  "reproduction": "reproduce_zhang_lau_aquifers.py independently implements Eq5 from the eight Table18 input rows and three Table4 efficiencies. All24 Table12 basin resources agree at integer-Mt display precision. Source aggregate totals are preserved separately from rounded row sums and unrounded calculations. Published densities are inputs, not an independently reproduced EOS. Complete oil/gas/EOR/MMP models, annual pressure response, economics and GHG remain unreproduced. No author code, guessed field recovery rule or assumed MMP unit is used.",
+  "paper1_use": "B4-06 reference55 is now checked against this exact retained original for regional resource provenance and limited fluid-property support. Eight South Sumatra capacities/types/basin match, totalling537.4Mt, but field-ID identities remain candidates. E=1 and missing pressure/rate feasibility are disclosed. No resource is converted into Japanese annual injection service, no disputed sector input is harmonised, and no complete capture utility or GHG inventory is inferred. Existing operating/GHG outputs remain unchanged.",
+  "next_steps": "Review exact retained SimCCS B3-44, then B1-01 and other main papers. Continue field-property/derivation originals and claim mapping; obtain unrounded field inputs, MMP units, histogram basis, sector labels and author assets. Keep external retrieval paused pending the requested Chrome connection. Save local audit checkpoints to the existing branch."
+}

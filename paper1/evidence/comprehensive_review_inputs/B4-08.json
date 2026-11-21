@@ -1,0 +1,35 @@
+{
+  "study_id": "B4-08",
+  "source_sha256": "2ce823ec9252e62017b76fe3281b0a05c80ed3a72b89f4caaa3dd7828e26fd4d",
+  "transcription": "Visually checked Tables4/12/18. Physical PDF pages4/9/18. Exact printed values retained. Net sand thickness is already net; do not multiply the assumed net-to-gross0.3 again. Densities are reported inputs, not an independent EOS result.",
+  "table4_efficiency_percent": {"low": 0.51, "mid": 2, "high": 5.5},
+  "table12_reported_total_Mt": {"low": 96757, "mid": 379441, "high": 1043461},
+  "table18": [
+    {"basin": "Central Sumatra", "area_km2": 117300, "net_sand_m": 150, "pressure_MPa_basis_unverified": 13, "temperature_C": 138, "density_kg_m3": 209, "porosity_percent": 15, "table12_reported_Mt": {"low": 2813, "mid": 11032, "high": 30338}},
+    {"basin": "Penyu", "area_km2": 51000, "net_sand_m": 450, "pressure_MPa_basis_unverified": 15, "temperature_C": 84, "density_kg_m3": 402, "porosity_percent": 15, "table12_reported_Mt": {"low": 7058, "mid": 27678, "high": 76114}},
+    {"basin": "South Sumatra", "area_km2": 133700, "net_sand_m": 300, "pressure_MPa_basis_unverified": 12, "temperature_C": 110, "density_kg_m3": 224, "porosity_percent": 15, "table12_reported_Mt": {"low": 6873, "mid": 26954, "high": 74123}},
+    {"basin": "Malay", "area_km2": 83000, "net_sand_m": 450, "pressure_MPa_basis_unverified": 15, "temperature_C": 70, "density_kg_m3": 507, "porosity_percent": 20, "table12_reported_Mt": {"low": 19315, "mid": 75746, "high": 208301}},
+    {"basin": "West Natuna", "area_km2": 69454, "net_sand_m": 450, "pressure_MPa_basis_unverified": 15, "temperature_C": 83, "density_kg_m3": 408, "porosity_percent": 15, "table12_reported_Mt": {"low": 9755, "mid": 38255, "high": 105202}},
+    {"basin": "North Sumatra", "area_km2": 258000, "net_sand_m": 390, "pressure_MPa_basis_unverified": 15, "temperature_C": 90, "density_kg_m3": 371, "porosity_percent": 15, "table12_reported_Mt": {"low": 28557, "mid": 111990, "high": 307973}},
+    {"basin": "Northwest Java", "area_km2": 140870, "net_sand_m": 270, "pressure_MPa_basis_unverified": 12, "temperature_C": 99, "density_kg_m3": 244, "porosity_percent": 15, "table12_reported_Mt": {"low": 7100, "mid": 27842, "high": 76564}},
+    {"basin": "East Natuna", "area_km2": 71927, "net_sand_m": 450, "pressure_MPa_basis_unverified": 15, "temperature_C": 75, "density_kg_m3": 463, "porosity_percent": 20, "table12_reported_Mt": {"low": 15286, "mid": 59944, "high": 164846}}
+  ],
+  "B4_06_capacity_candidates": [
+    {"parent_reservoir": "r1", "candidate_field": "Musi", "type": "gas", "reported_resource_Mt": 68, "locator": "Table8 p7; Table14 p15", "identity_status": "unconfirmed_capacity_type_basin_match"},
+    {"parent_reservoir": "r2", "candidate_field": "Jene", "type": "oil", "reported_resource_Mt": 6.8, "locator": "Table11 p8; Table17 p17", "identity_status": "unconfirmed_capacity_type_basin_match"},
+    {"parent_reservoir": "r3", "candidate_field": "Sopa", "type": "oil", "reported_resource_Mt": 4.3, "locator": "Table11 p8; Table17 p17", "identity_status": "unconfirmed_capacity_type_basin_match"},
+    {"parent_reservoir": "r4", "candidate_field": "Kuang", "type": "oil", "reported_resource_Mt": 23.3, "locator": "Table11 p8; Table17 p17", "identity_status": "unconfirmed_capacity_type_basin_match"},
+    {"parent_reservoir": "r5", "candidate_field": "Suban", "type": "gas", "reported_resource_Mt": 234, "locator": "Table8 p7; Table14 p15", "identity_status": "unconfirmed_capacity_type_basin_match"},
+    {"parent_reservoir": "r6", "candidate_field": "Dayung", "type": "gas", "reported_resource_Mt": 85, "locator": "Table8 p7; Table14 p15", "identity_status": "unconfirmed_capacity_type_basin_match"},
+    {"parent_reservoir": "r7", "candidate_field": "Sumpal", "type": "gas", "reported_resource_Mt": 102, "locator": "Table8 p7; Table14 p15", "identity_status": "unconfirmed_capacity_type_basin_match"},
+    {"parent_reservoir": "r8", "candidate_field": "Kaji-Semoga", "type": "oil", "reported_resource_Mt": 14, "locator": "Table11 p8; Table17 p17", "identity_status": "unconfirmed_capacity_type_basin_match"}
+  ],
+  "sector_label_conflict": {
+    "region": "Peninsular Malaysia",
+    "unit": "Mt/year",
+    "table5_p5": {"iron_and_steel": 31.33, "refinery": 7.11},
+    "table13_p11": {"iron_and_steel": 7.11, "refinery": 31.33},
+    "status": "unresolved_labels; preserve both; do not harmonise into accepted sector inputs"
+  },
+  "scope": "Independent static bulk-resource component and citation diagnostics only; not author field model, EOS, pressure-constrained annual service, modelled pipeline reuse or complete lifecycle inventory."
+}

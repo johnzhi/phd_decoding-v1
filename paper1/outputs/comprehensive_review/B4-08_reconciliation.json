@@ -1,0 +1,45 @@
+{
+  "source_sha256": "2ce823ec9252e62017b76fe3281b0a05c80ed3a72b89f4caaa3dd7828e26fd4d",
+  "outputs": 24,
+  "all_24_basin_values_match_at_integer_Mt": true,
+  "totals": {
+    "low": {
+      "calculated_sum_Mt": "96757.280784",
+      "sum_of_printed_basin_rows_Mt": "96757",
+      "printed_table12_total_Mt": 96757
+    },
+    "mid": {
+      "calculated_sum_Mt": "379440.3168",
+      "sum_of_printed_basin_rows_Mt": "379441",
+      "printed_table12_total_Mt": 379441
+    },
+    "high": {
+      "calculated_sum_Mt": "1043460.87120",
+      "sum_of_printed_basin_rows_Mt": "1043461",
+      "printed_table12_total_Mt": 1043461
+    }
+  },
+  "candidate_parent_resource_sum_Mt": "537.4",
+  "candidate_field_identities": "unconfirmed; same basin/type/capacity only; not an explicit parent field join",
+  "peninsular_malaysia_sector_conflict": {
+    "region": "Peninsular Malaysia",
+    "unit": "Mt/year",
+    "table5_p5": {
+      "iron_and_steel": 31.33,
+      "refinery": 7.11
+    },
+    "table13_p11": {
+      "iron_and_steel": 7.11,
+      "refinery": 31.33
+    },
+    "status": "unresolved_labels; preserve both; do not harmonise into accepted sector inputs"
+  },
+  "figure8b": {
+    "printed_mean_Mt": "121.9",
+    "printed_n": 57,
+    "gas_plus_oil_table_total_Mt": "6716",
+    "table_total_divided_by_printed_n_Mt": "117.8245614035087719298245614",
+    "status": "basis_unresolved; not a corrected histogram"
+  },
+  "interpretation": "Eq.5 bulk-resource component reproduced from published rounded inputs. No pressure, injection-rate, operational, EOS, complete field-by-field, financial or GHG model reproduced. Half a printed unit is a display-rounding comparison, not a measured uncertainty bound. Totals use different aggregation/display stages; preserve source totals, do not silently repair them."
+}

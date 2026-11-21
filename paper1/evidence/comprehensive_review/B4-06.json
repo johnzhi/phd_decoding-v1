@@ -3,7 +3,7 @@
   "source_sha256": "e8ceec0d96625b2fca7f58868f580a6843a31a0ad9eae78ef26695131e14e833",
   "review_date": "2026-11-21",
   "overall_status": "incomplete",
-  "assessment": "All 20 retained main-PDF pages were read and visually inspected, including 11 figures, 3 tables, the objective, all five printed constraint rows, the prose reservoir-inflow condition and nomenclature. The retained supplementary DOCX was read as native text/tables and inspected in a separate five-page render, covering all three tables and ten figures. The 720-cell heatmap grid, 250 annotations and 470 blanks were checked against the existing transcription. The 58 underlying cited sources, incomplete annual injection-limit/model inputs, cost bases, detailed map routes and independent process/well/MILP reproduction remain open. The paper is not comprehensively complete.",
+  "assessment": "All 20 retained main-PDF pages were read and visually inspected, including 11 figures, 3 tables, the objective, all five printed constraint rows, the prose reservoir-inflow condition and nomenclature. The retained supplementary DOCX was read as native text/tables and inspected in a separate five-page render, covering all three tables and ten figures. The 720-cell heatmap grid, 250 annotations and 470 blanks were checked against the existing transcription. The underlying cited-source chain (one of58 direct edges now checked for limited resource support), incomplete annual injection-limit/model inputs, cost bases, detailed map routes and independent process/well/MILP reproduction remain open. The paper is not comprehensively complete.",
   "processed_asset_note": "The supplement render has five derivative pages. They are not native publication pages and are excluded from the 1,301-page unique-corpus denominator.",
   "text_read_pages": [
     1,
@@ -1052,9 +1052,21 @@
         20
       ],
       "citation": "Zhang K, Lau HC (2022) Regional opportunities for CO2 capture and stor- age in Southeast Asia. Int J Greenh Gas Control 116:103628. https://doi. org/10.1016/j.ijggc.2022.103628",
-      "role": "Reservoircapacity/fluiddata; exact retainedB4-08. Primary text and claim support remain unverified.",
-      "verification_status": "unverified",
-      "retained_candidate": "B4-08"
+      "role": "Reservoir resource and fluid-property basis. Exact retained B4-08 primary text now checked; supports static regional resource provenance with limited bulk properties, not annual physical injection service.",
+      "verification_status": "primary_text_checked_partial_support_resource_not_annual_service",
+      "retained_candidate": "B4-08",
+      "primary_review": "evidence/comprehensive_review/B4-08.json",
+      "primary_sha256": "2ce823ec9252e62017b76fe3281b0a05c80ed3a72b89f4caaa3dd7828e26fd4d",
+      "primary_pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        15,
+        17
+      ],
+      "finding": "Eight same-basin/type/capacity matches total537.4Mt. Candidate fields Musi/Jene/Sopa/Kuang/Suban/Dayung/Sumpal/Kaji-Semoga do not establish anonymous parent IDs. E=1 voidage assumption, generic recovery and reported P/T/rho/Bg/Bo support a resource estimate, not kr,t, full PVT, well simulation or independent maximum annual deliverability."
     },
     {
       "id": "R56",
@@ -1181,7 +1193,7 @@
         20
       ],
       "status": "PENDING_PRIMARY_REFERENCES",
-      "finding": "All58 bibliography entries were read. Most originals are not retained. Two exact retained matches await comprehensive checks; related Fraga2024 is not the cited Fraga2021 paper.",
+      "finding": "All58 bibliography entries read. R55 is checked against retained Zhang/Lau2022 for partial resource support; its232 originals remain unverified. Exact SimCCS B3-44 remains next. Related Fraga2024 is not the cited Fraga2021 paper.",
       "action": "Continue exact-version citation checks. External retrieval remains paused under the user instruction."
     },
     {
@@ -1349,6 +1361,6 @@
   ],
   "supplements": "Retained B4-06-S1 DOCX and ten original media hashes verified. All native paragraphs, three tables, two OMML cost-header expressions and ten figures were inspected, using five separately rendered derivative pages and the complete 720-cell grid. The existing validator passes all 250 numeric annotations, 470 blanks, native-table identity and media identity checks. These supplied outputs do not establish annual kr,t inputs or availability of further author assets. No public retrieval or author contact was undertaken.",
   "reproduction": "audit_budiarto_fulltext.py produces21 transparent diagnostics: source/resource/cost sums, Figure11 differences, conditional early mass feasibility, reported retention differences, map endpoint sums and an annuity factor. The existing rounded heatmap replay remains explicitly separate from an independent MILP run. Reproducing HYSYS, PROSPER/PVT/JonesIPR, decline analysis and PuLP/CBC needs missing cases, arrays, code and coefficients. No guessed kr,t array or corrected cost inventory is created.",
-  "paper1_use": "Retain153.21/159.81Mt as attributed SouthSumatra retention benchmarks and5.327Mt/year as the source-accounting basis within that case. No Japanese geological calibration, annual physical-service profile, complete capture utility balance or34%GHG credit is transferred. The new cost, formulation and citation questions are disclosed separately. Existing operating and GHG results are unchanged.",
-  "next_steps": "Read the exact retained Zhang/Lau2022(B4-08) and SimCCS(B3-44) originals to check key citation edges; continue B1-01. Obtain raw kr,t, well/process cases, allowed arcs, segment costs, binary constraints, source-curtailment/backlog definitions, raw solutions and cost/phase clarifications before full reproduction. External original, supplement and erratum retrieval remains paused pending the requested Chrome connection."
+  "paper1_use": "Retain153.21/159.81Mt as attributed SouthSumatra retention benchmarks and5.327Mt/year as the source-accounting basis within that case. No Japanese geological calibration, annual physical-service profile, complete capture utility balance or34%GHG credit is transferred. The new cost, formulation and citation questions are disclosed separately. Existing operating and GHG results are unchanged. The R55 primary-source check now traces the537.4Mt resource total to E=1 regional voidage estimates, with unconfirmed anonymous field identities; no missing annual upper bound is supplied by that provenance check.",
+  "next_steps": "Review exact retained SimCCS B3-44, then B1-01. R55→B4-08 is checked with partial resource/property support; B4-08 underlying originals and complete field models remain open. Obtain raw kr,t, well/process cases, arcs, costs, binary constraints, source-balance definitions and cost/phase clarifications before full reproduction. External retrieval remains paused pending the requested Chrome connection."
 }

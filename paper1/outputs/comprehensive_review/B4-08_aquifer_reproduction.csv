@@ -1,0 +1,25 @@
+basin,case,efficiency_percent,independently_calculated_Mt,reported_Mt,calculated_minus_reported_Mt,nearest_integer_Mt,within_half_printed_unit,source_locator,scope
+Central Sumatra,low,0.51,2813.176575,2813,0.176575,2813,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Central Sumatra,mid,2,11032.065,11032,0.065,11032,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Central Sumatra,high,5.5,30338.17875,30338,0.17875,30338,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Penyu,low,0.51,7057.8135,7058,-0.1865,7058,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Penyu,mid,2,27677.7,27678,-0.3,27678,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Penyu,high,5.5,76113.675,76114,-0.325,76114,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+South Sumatra,low,0.51,6873.2496,6873,0.2496,6873,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+South Sumatra,mid,2,26953.92,26954,-0.08,26954,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+South Sumatra,high,5.5,74123.28,74123,0.28,74123,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Malay,low,0.51,19315.179,19315,0.179,19315,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Malay,mid,2,75745.8,75746,-0.2,75746,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Malay,high,5.5,208300.95,208301,-0.05,208301,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+West Natuna,low,0.51,9755.092116,9755,0.092116,9755,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+West Natuna,mid,2,38255.2632,38255,0.2632,38255,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+West Natuna,high,5.5,105201.9738,105202,-0.0262,105202,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+North Sumatra,low,0.51,28557.4653,28557,0.4653,28557,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+North Sumatra,mid,2,111990.06,111990,0.06,111990,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+North Sumatra,high,5.5,307972.665,307973,-0.335,307973,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Northwest Java,low,0.51,7099.594434,7100,-0.405566,7100,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Northwest Java,mid,2,27841.5468,27842,-0.4532,27842,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+Northwest Java,high,5.5,76564.2537,76564,0.2537,76564,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+East Natuna,low,0.51,15285.710259,15286,-0.289741,15286,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+East Natuna,mid,2,59943.9618,59944,-0.0382,59944,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service
+East Natuna,high,5.5,164845.89495,164846,-0.10505,164846,True,Eq.5 p5; Table4 p4; Table12 p9; Table18 p18,independent_bulk_resource_component_not_pressure_service

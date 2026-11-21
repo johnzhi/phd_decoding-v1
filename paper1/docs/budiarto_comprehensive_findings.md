@@ -2,7 +2,7 @@
 
 All 20 pages of B4-06 and the retained supplementary DOCX have now been read and visually inspected. The [detailed record](comprehensive_review/B4-06.md) covers the article's 11 figures, 3 tables, objective, five printed constraint rows, prose reservoir-inflow condition, nomenclature and 58 bibliography entries. The supplement adds 3 tables and 10 figures. Its five separately rendered pages are derivative views, not additional native publication pages.
 
-The paper remains **incomplete under the comprehensive-audit standard**. The 58 underlying cited originals, complete author simulation/optimisation inputs and several numerical conventions still need verification.
+The paper remains **incomplete under the comprehensive-audit standard**. One of its 58 direct citation edges now has partial primary support; the wider cited-source chain, complete author simulation/optimisation inputs and several numerical conventions still need verification.
 
 ## Checks that reproduce reported arithmetic
 
@@ -29,4 +29,6 @@ The [21 diagnostics](../outputs/comprehensive_review/B4-06_diagnostics.csv) are 
 
 Retain the South Sumatra quantities as attributed results within their original scenario. The review does not establish Japanese geology, commercial storage access, an independent annual maximum injection profile, a complete capture heat/electricity inventory or whole-chain GHG mitigation. Existing Paper1 operating/GHG outputs remain unchanged.
 
-The article states that data are available from the corresponding author on reasonable request. The [request draft](author_data_request.md) remains unsent. Exact retained primary matches B4-08 (Zhang/Lau2022) and B3-44 (SimCCS) are next citation priorities. The related Fraga2024 paper is not substituted for the cited Fraga2021 conference contribution. External retrieval remains paused pending the requested Chrome connection.
+The [Zhang/Lau2022 primary-source review](zhang_lau_comprehensive_findings.md) now traces all eight resource/type/basin values, totalling537.4Mt, to regional estimates with oil/gas storage efficiency E=1. Field-ID assignments remain unconfirmed; bulk properties do not supply complete PVT, well models or annual injection limits. This is partial support for resource provenance, not independent physical service.
+
+The article states that data are available from the corresponding author on reasonable request. The [request draft](author_data_request.md) remains unsent. Exact retained SimCCS B3-44 is the next citation priority. The related Fraga2024 paper is not substituted for the cited Fraga2021 conference contribution. External retrieval remains paused pending the requested Chrome connection.

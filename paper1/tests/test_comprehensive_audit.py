@@ -15,6 +15,9 @@ def rows(path):
 spec = importlib.util.spec_from_file_location('audit_diagnostics', ROOT / 'scripts/audit_diagnostics.py')
 diagnostics = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(diagnostics)
+zhang_spec = importlib.util.spec_from_file_location('reproduce_zhang_lau_aquifers', ROOT / 'scripts/reproduce_zhang_lau_aquifers.py')
+zhang = importlib.util.module_from_spec(zhang_spec)
+zhang_spec.loader.exec_module(zhang)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -64,7 +67,40 @@ class ComprehensiveAuditChecks(unittest.TestCase):
         self.assertEqual(refs['R31']['retained_candidate'], 'B3-44')
         self.assertEqual(refs['R55']['retained_candidate'], 'B4-08')
         self.assertIn('different title/year/DOI', refs['R14']['related_but_not_substituted'])
-        self.assertTrue(all(r['verification_status'] == 'unverified' for r in refs.values()))
+        self.assertEqual(refs['R55']['verification_status'], 'primary_text_checked_partial_support_resource_not_annual_service')
+        self.assertTrue(all(r['verification_status'] == 'unverified' for k,r in refs.items() if k != 'R55'))
+
+    def test_aquifer_component_reproduction_handles_units_and_net_thickness_once(self):
+        data = zhang.load_inputs()
+        result = zhang.calculate(data)
+        self.assertEqual(len(result), 24)
+        self.assertTrue(all(r['within_half_printed_unit'] for r in result))
+        self.assertTrue(all(r['nearest_integer_Mt'] == r['reported_Mt'] for r in result))
+        # Hand calculation: 1 km2 × 10 m × 500 kg/m3 × 20% × 2% = .02 Mt.
+        self.assertAlmostEqual(float(zhang.resource_mt(1,10,500,20,2)), .02)
+        south_mid = next(r for r in result if r['basin']=='South Sumatra' and r['case']=='mid')
+        self.assertAlmostEqual(float(south_mid['independently_calculated_Mt']), 26953.92)
+        self.assertNotAlmostEqual(float(south_mid['independently_calculated_Mt']), 26953.92*.3)
+
+    def test_resource_provenance_check_does_not_join_anonymous_fields_or_close_references(self):
+        data = zhang.load_inputs()
+        result = zhang.reconciliation(data, zhang.calculate(data))
+        self.assertEqual(float(result['candidate_parent_resource_sum_Mt']), 537.4)
+        self.assertTrue(all(r['identity_status'].startswith('unconfirmed') for r in data['B4_06_capacity_candidates']))
+        self.assertEqual(data['sector_label_conflict']['table5_p5']['iron_and_steel'],31.33)
+        self.assertEqual(data['sector_label_conflict']['table13_p11']['iron_and_steel'],7.11)
+        review = json.loads((ROOT/'evidence/comprehensive_review/B4-08.json').read_text())
+        bibliography = json.loads((ROOT/'evidence/comprehensive_review_inputs/B4-08_bibliography.json').read_text())
+        self.assertEqual(review['overall_status'],'incomplete')
+        self.assertEqual(review['text_read_pages'],list(range(1,23)))
+        self.assertEqual(review['visually_inspected_pages'],list(range(1,23)))
+        self.assertEqual(len(review['visuals']),32)
+        self.assertEqual(len(review['equations']),5)
+        self.assertEqual(len(review['references']),232)
+        self.assertEqual(bibliography['entry_count'],232)
+        self.assertEqual([r['id'] for r in review['references']],[r['id'] for r in bibliography['entries']])
+        self.assertTrue(all(r['verification_status']=='unverified' for r in review['references']))
+        self.assertEqual([r['pages'] for r in bibliography['entries'] if r['id']=='R093'],[[19,20]])
 
     def test_page_inventory_closes_without_duplicate_or_automatic_review(self):
         sources = {r['study_id']: r for r in rows('data/source_catalogue.csv') if not r['duplicate_of']}
