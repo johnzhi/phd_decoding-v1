@@ -1,0 +1,47 @@
+{
+  "citing_study": "B1-14",
+  "citing_sha256": "7ec340fa668a4d1ae467095965d5619766b265ac7a994574eabffe567a58a093",
+  "reference_id": "R09",
+  "cited_study": "B1-15",
+  "cited_path": "papers/B1-15.pdf",
+  "cited_sha256": "4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324",
+  "doi": "10.1016/j.egypro.2015.07.883",
+  "verification_status": "primary_text_checked_partial_support_limits",
+  "targeted_pages": [
+    1,
+    2,
+    3,
+    5,
+    6
+  ],
+  "inspection": "Native text and corresponding rendered pages checked for selected methods,observation and uncertainty passages. This is not a comprehensive B1-15 audit.",
+  "edges": [
+    {
+      "citing_pages": [
+        1,
+        2
+      ],
+      "citing_claim": "Earlier calibration uses pressure/arrival information and pressure match as a prerequisite for prediction.",
+      "primary_locator": "Class2015 pp1–3,6; abstract and approaches I/II",
+      "finding": "Supports pressure/arrival calibration and parameter correlations. ApproachI manually tunes six permeability modifiers; ApproachII includes inverse fitting. No joint ERT assimilation in these inspected methods. Do not infer priority or full absence of geophysical information: geological priors use geophysical data."
+    },
+    {
+      "citing_pages": [
+        5,
+        6
+      ],
+      "citing_claim": "Arrival sensors150m below surface have well/completion transport uncertainty.",
+      "primary_locator": "Class2015 p3,Section3 observation remarks",
+      "finding": "Explicitly places GMS150m below ground and describes annulus accumulation,filter crossing and upward travel. Arrival at the well must precede detection; uncertainties of several days motivate greater pressure weight. Does not quantify this study's actual delay or validate the3% model threshold."
+    },
+    {
+      "citing_pages": [
+        6
+      ],
+      "citing_claim": "Observed gaseous arrivals21.7/271days.",
+      "primary_locator": "Class2015 p5,Table3; p6 Table4 for different fitted cases",
+      "finding": "Same observed21.7/271days confirmed. ECLIPSE predictions18.9/272 or20.3/256days and DuMux case predictions differ from B1-14's21.8/283. They are different models of shared observations,not independent validation or interchangeable outputs."
+    }
+  ],
+  "remaining": "B1-15's other pages,figures,equations,citations and model cases remain for its own comprehensive audit. PartI2018 algorithm,raw multi-physical data and the other B1-14 originals remain unverified."
+}

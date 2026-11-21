@@ -1,0 +1,499 @@
+{
+  "study_id": "B1-14",
+  "source_sha256": "7ec340fa668a4d1ae467095965d5619766b265ac7a994574eabffe567a58a093",
+  "printed_entries": 39,
+  "named_dependencies": 8,
+  "entry_count": 47,
+  "entries": [
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Bacci, G., Korre, A., Durucan, S., 2011. Experimental investigation into salt precipitation during CO2 injection in saline aquifers. Energy Procedia 4450–4456. http://dx.doi. org/10.1016/j.egypro.2011.02.399.",
+      "id": "R01",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4: salt precipitation/dynamic permeability experiments. Original conditions,reversibility and Ketzin transfer unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Battistelli, A., Giorgis, T., Marzorati, D., 2005. Modeling halite precipitation around CO2 injection wells in depleted gas reservoirs. In: 67th European Association of Geoscientists and Engineers. EAGE Conference and Exhibition Incorporating SPE EUROPEC 2005. pp. 13–16.",
+      "id": "R02",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: modelling halite precipitation. Original process/equations and validity unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Baumann, G., 2013. Determination of Displacement and Evaporation/precipitation Processes via Pulsed Neutron-Gamma (PNG) Monitoring for CO2 Storage Operations (Ph.D. thesis). Technical University of Berlin, http://dx.doi.org/10.14279/ depositonce-3819.",
+      "id": "R03",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp4,8: PNG observations,salt and saturation interpretation. Thesis original and quantitative nearwell evidence unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Baumann, G., Henninges, J., DeLucia, M., 2014. Monitoring of saturation changes and salt precipitation during CO2 injection using pulsed neutron-gamma logging at the Ketzin pilot site. Int. J. Greenh. Gas Control 28, 134–146. http://dx.doi.org/10.1016/j.ijggc. 2014.06.023.",
+      "id": "R04",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4,8: salt evidence and layer saturation used to reject selective infiltration. Exact PNG interpretation,June2009 conditions and scope unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Bergmann, P., Diersch, M., Götz, J., Ivandic, M., Ivanova, A., Juhlin, C., Kummerow, J., Liebscher, A., Lüth, S., Meekes, S., Norden, B., Schmidt-Hattenberger, C., Wagner, F.M., Zhang, F., 2016. Review on geophysical monitoring of CO2 injection at Ketzin, Germany. J. Petrol. Sci. Eng. 139, 112–136. http://dx.doi.org/10.1016/j.petrol.2015. 12.007.",
+      "id": "R05",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,7: monitoring review and independent plume-direction comparison. Original observations,uncertainty and qualitative validation unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Bergmann, P., Schmidt-Hattenberger, C., Labitzke, T., Wagner, F., Just, A., Flechsig, C., Rippe, D., 2017. Fluid injection monitoring using electrical resistivity tomography – ﬁve years of CO2 injection at Ketzin, Germany. Geophys. Prospect. 65, 859–875. http://dx.doi.org/10.1111/1365-2478.12426.",
+      "id": "R06",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2–3: ERT coverage,time acquisition and barrier ambiguity. Full raw monitoring data/case provenance unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Bing, Z., Greenhalgh, S., 2000. Cross-hole resistivity tomography using diﬀerent electrode conﬁgurations. Geophys. Prospect. 48, 887–912. http://dx.doi.org/10.1046/j.1365- 2478.2000.00220.x.",
+      "id": "R07",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: low signal/noise for inhole/AB-MN electrode configurations. Original geometric/error analysis unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Chen, F., Wiese, B., Zhou, Q., Kowalsky, M.B., Norden, B., Kempka, T., Birkholzer, J.T., 2014. Numerical modeling of the pumping tests at the Ketzin pilot site for CO2 in- jection: model calibration and heterogeneity eﬀects. Int. J. Greenh. Gas Control 22, 200–212. http://dx.doi.org/10.1016/j.ijggc.2014.01.003.",
+      "id": "R08",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4: hydraulic barrier hypothesis and problematic cross-well pairs. Raw data,parameter bounds and whether logger fault is independently established require original checks."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Class, H., Mahl, L., Ahmed, W., Norden, B., Kühn, M., Kempka, T., 2015. Matching pressure measurements and observed CO2 arrival times with static and dynamic modelling at the Ketzin storage site. Energy Procedia 76, 623–632. http://dx.doi.org/ 10.1016/j.egypro.2015.07.883.",
+      "id": "R09",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_partial_support_limits",
+      "use_and_remaining_check": "pp1–2,5–6: targeted retained primary checks support pressure/arrival calibration and sensor-delay caveats,plus observed21.7/271days. Different model predictions are not interchangeable or independent validation. See B1-14_citation_checks.json; the cited paper remains comprehensively incomplete.",
+      "primary_source": "B1-15",
+      "primary_sha256": "4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324",
+      "primary_locator": "pp1–3,5–6; selected passages/Tables3–4",
+      "primary_check_record": "evidence/comprehensive_review_inputs/B1-14_citation_checks.json"
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Doetsch, J.A., Coscia, I., Greenhalgh, S., Linde, N., Green, A.G., Günther, T., 2010. The borehole-ﬂuid eﬀect in electrical resistivity imaging. Geophysics 75, F107–F114. http://dx.doi.org/10.1190/1.3467824.",
+      "id": "R10",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: borehole-fluid electrical effects. Exact magnitude and geometric applicability unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Doherty, J., Welter, D., 2010. A short exploration of structural noise. Water Resour. Res. 46, W05525. http://dx.doi.org/10.1029/2009WR008377.",
+      "id": "R11",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p4: structural noise caused by conceptual simplification. Exact derivation/likelihood implications unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Fleury, M., Gautier, S., Gland, N., Boulin, P., Norden, B., Schmidt-Hattenberger, C., 2013. Advanced and integrated petrophysical characterization for CO2 storage: application to the Ketzin site. Oil Gas Sci. Technol. Rev. IFP Energies nouvelles 68, 557–576. http://dx.doi.org/10.2516/ogst/2012084.",
+      "id": "R12",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: laboratory n1.65–1.8 range. Sample conditions,clay/pressure/temperature and transfer unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Förster, A., Norden, B., Zinck-Jørgensen, K., Frykman, P., Kulenkampﬀ, J., Spangenberg, E., Erzinger, J., Zimmer, M., Kopp, J., Borm, G., Juhlin, C., Cosma, C.G., Hurter, S., 2006. Baseline characterization of the CO2SINK geological storage site at Ketzin. Germany. Environmental Geosciences 13, 145–161. http://dx.doi.org/10.1306/eg. 02080605016.",
+      "id": "R13",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: baseline geology. Original static model/uncertainties and native mesh mapping unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Ivandic, M., Yang, C., Lüth, S., Cosma, C., Juhlin, C., 2012. Time-lapse analysis of sparse 3D seismic data from the CO2 storage pilot site at Ketzin, Germany. J. Appl. Geophys. 84, 14–28. http://dx.doi.org/10.1016/j.jappgeo.2012.05.010.",
+      "id": "R14",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p7: independent seismic westward plume interpretation. Exact observation period,geometry and quantitative comparison unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Jeddizahed, J., Rostami, B., 2016. Experimental investigation of injectivity alteration due to salt precipitation during CO2 sequestration in saline aquifers. Adv. Water Resour. 96, 23–33. http://dx.doi.org/10.1016/j.advwatres.2016.06.014.",
+      "id": "R15",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: salt/injectivity alteration experiments. Original units,state and field transfer unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Kempka, T., Kühn, M., 2013. Numerical simulations of CO2 arrival times and reservoir pressure coincide with observations from the Ketzin pilot site, Germany. Environ. Earth Sci. 70, 3675–3685. http://dx.doi.org/10.1007/s12665-013-2614-6.",
+      "id": "R16",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1,8: manually tuned near/far multipliers,long-term fits and short-term limitations. Complete original model and causal attribution unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Kempka, T., Kühn, M., Class, H., Frykman, P., Kopp, A., Nielsen, C., Probst, P., 2010. Modelling of CO2 arrival time at Ketzin – Part I. Int. J. Greenh. Gas Control 4, 1007–1015. http://dx.doi.org/10.1016/j.ijggc.2010.07.005.",
+      "id": "R17",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: early Ketzin arrival history match. Exact model,calibration and data support unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Kempka, T., Norden, B., 2017. Inverse modelling of hydraulic testing to revise the static reservoir model of the Stuttgart formation at the Ketzin pilot site. Energy Procedia 125, 640–649. http://dx.doi.org/10.1016/j.egypro.2017.08.264. European Geosciences Union General Assembly 2017, EGU Division Energy, Resources & Environment (ERE).",
+      "id": "R18",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: hydraulic inverse model and barrier limits. Exact updated static model,data exclusions and nonuniqueness unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Köhler, S., Zemke, J., Becker, W., Wiebach, J., Liebscher, A., Möller, F., Bannach, A., 2013. Operational reservoir monitoring at the CO2 pilot storage site Ketzin, Germany. In: Hou, M.Z., Xie, H., Were, P. (Eds.), Clean Energy Systems in the Subsurface: Production, Storage and Conversion, Springer Series in Geomechanics and Geoengineering. Springer Berlin Heidelberg, pp. 53–63. http://dx.doi.org/10.1007/ 978-3-642-37849-2_5.",
+      "id": "R19",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: operational monitoring overview. Native acquisition/metadata and sensor/control relationships unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Kummerow, J., Spangenberg, E., 2011. Experimental evaluation of the impact of the interactions of CO2-SO2, brine, and reservoir rock on petrophysical properties: a case study from the Ketzin test site, Germany. Geochemistry, Geophysics, Geosystems 12, Q05010. http://dx.doi.org/10.1029/2010GC003469.",
+      "id": "R20",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2–4,6: n1.62 and clay influence versus ambient core n2.6. Exact sample/electrical conditions and original range unverified."
+    },
+    {
+      "pages": [
+        8,
+        9
+      ],
+      "citation": "Lengler, U., Lucia, M.D., Kühn, M., 2010. The impact of heterogeneity on the distribution of CO2: numerical simulation of CO2 storage at Ketzin. Int. J. Greenh. Gas Control 4, 1016–1025. http://dx.doi.org/10.1016/j.ijggc.2010.07.004.",
+      "id": "R21",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1,8: stochastic heterogeneity,unknown fields and calibration freedom. Original cases and conclusions unverified; bibliography entry spans pp8–9."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Liebscher, A., Möller, F., Bannach, A., Köhler, S., Wiebach, J., Schmidt-Hattenberger, C., Weiner, M., Pretschner, C., Ebert, K., Zemke, J., 2013. Injection operation and op- erational pressure-temperature monitoring at the CO2 storage pilot site Ketzin, Germany – design, results, recommendations. Int. J. Greenh. Gas Control 15, 163–173. http://dx.doi.org/10.1016/j.ijggc.2013.02.019.",
+      "id": "R22",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: rate meter8m upstream,5s acquisition and550m pressure sensor. Original measurement correction/uncertainty and native data unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Lüth, S., Ivanova, A., Kempka, T., 2015. Conformity assessment of monitoring and si- mulation of CO2 storage: a case study from the Ketzin pilot site. Int. J. Greenh. Gas Control 42, 329–339. http://dx.doi.org/10.1016/j.ijggc.2015.08.005.",
+      "id": "R23",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1,8: seismic conformity metrics and proposed extension. Exact original validation criteria and model comparison unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Martens, S., Möller, F., Streibel, M., Liebscher, A., 2014. Completion of ﬁve years of safe CO2 injection and transition to the post-closure phase at the Ketzin pilot site. Energy Procedia 59, 190–197. http://dx.doi.org/10.1016/j.egypro.2014.10.366.",
+      "id": "R24",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1–2: approximately67kt injected/stored2008–2013 and monitoring overview. Original operational totals and retention scope unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Norden, B., Frykman, P., 2013. Geological modelling of the triassic Stuttgart formation at the Ketzin CO2 storage site, Germany. Int. J. Greenh. Gas Control 19, 756–774. http://dx.doi.org/10.1016/j.ijggc.2013.04.019.",
+      "id": "R25",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: revised geological model. Original facies,porosity,grid and provenance unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Oliver, D.S., Chen, Y., 2010. Recent progress on reservoir history matching: a review. Computational Geosciences 15, 185–221. http://dx.doi.org/10.1007/s10596-010- 9194-2.",
+      "id": "R26",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: cost/manual history-matching background. Review and underlying sources unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Pamukcu, Y., Hurter, S., Jammes, L., Vu-Hoang, D., Pekot, L., 2011. Characterizing and predicting short term performance for the In Salah Krechba ﬁeld CCS joint industry project. Energy Procedia 4, 3371–3378. http://dx.doi.org/10.1016/j.egypro.2011. 02.259.",
+      "id": "R27",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p8: alternative calibration freedoms in prior models. In Salah is a different field; exact original role and relevance unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Pruess, K., Müller, N., 2009. Formation dry-out from CO2 injection into saline aquifers: 1. Eﬀects of solids precipitation and their mitigation. Water Resour. Res. 45. http://dx. doi.org/10.1029/2008WR007101.",
+      "id": "R28",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4: salt dry-out,precipitation and rewetting. Full dynamical constitutive processes and field applicability unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Rücker, C., Günther, T., 2011. The simulation of ﬁnite ERT electrodes using the complete electrode model. Geophysics 76, F227–F238. http://dx.doi.org/10.1190/1.3581356.",
+      "id": "R29",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3/Figure1: complete finite-electrode sensitivity model. Original units,geometry,boundaries and numerical implementation unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Bösing, D., Labitzke, T., Möller, M., Schröder, S., Wagner, F.M., Schütt, H., 2013. Electrical resistivity tomography (ERT) for mon- itoring of CO2 migration – from tool development to reservoir surveillance at the Ketzin pilot site. Energy Procedia 37, 4268–4275. http://dx.doi.org/10.1016/j. egypro.2013.06.329.",
+      "id": "R30",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: earlier2D ERT and monitoring development. Original configuration/data treatment unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Kießling, D., Krüger, K., Rücker, C., Schütt, H., 2011. Application of a vertical electrical resistivity array (VERA) for monitoring CO2 migration at the Ketzin site: ﬁrst performance evaluation. Energy Procedia 4, 3363–3370. http://dx.doi.org/10.1016/j.egypro.2011.02.258.",
+      "id": "R31",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2–3: VERA measurement types/monitoring and barrier ambiguity. Original coverage and interpretations unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Labitzke, T., Schröder, S., Krüger, K., Rücker, C., Schütt, H., 2012. A modular geoelectrical monitoring system as part of the surveil- lance concept in CO2 storage projects. Energy Procedia 23, 400–407. http://dx.doi. org/10.1016/j.egypro.2012.06.062.",
+      "id": "R32",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: modular monitoring/barrier ambiguity background. Original data support unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Labitzke, T., Wagner, F., Rippe, D., 2016. Permanent crosshole electrical resistivity tomography (ERT) as an established method for the long-term CO2 monitoring at the Ketzin pilot site. Int. J. Greenh. Gas Control 52, 432–448. http://dx.doi.org/10.1016/j.ijggc.2016.07.024.",
+      "id": "R33",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: ERT acquisition and2D time-lapse history. Original filter and data/version correspondence unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Tiab, D., Donaldson, E., 2016. Petrophysics. Theory and Practice of Measuring Reservoir Rock and Fluid Transport Properties, 4th ed. Elsevier.",
+      "id": "R34",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: typical sandstone n1.6–2.6 range. Exact textbook edition/passages,assumptions and calibration transfer unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Wagner, F.M., Bergmann, P., Rücker, C., Wiese, B., Labitzke, T., Schmidt-Hattenberger, C., Maurer, H., 2015. Impact and mitigation of borehole related eﬀects in permanent crosshole resistivity imaging: an example from the Ketzin CO2 storage site. J. Appl. Geophys. 123, 102–111. http://dx.doi.org/10.1016/j.jappgeo.2015.10.005.",
+      "id": "R35",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3,7: borehole effects and ERT processing limitations. Original annulus/electrical model and magnitude unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Wiese, B., Böhner, J., Enachescu, C., Würdemann, H., Zimmermann, G., 2010. Hydraulic characterisation of the Stuttgart formation at the pilot test site for CO2 storage, Ketzin, Germany. Int. J. Greenh. Gas Control 4, 960–971. http://dx.doi.org/10.1016/ j.ijggc.2010.06.013.",
+      "id": "R36",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: pumping-test dates1.1–1.8m3/h and traditional ambiguity/barrier. Original tests,instrument swap/QA and reference pressures unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Wiese, B., Nimtz, M., Möller, F., Otto, C., Kühn, M., Liebscher, A., Schmidt-Hattenberger, C., 2012. Determination of thermodynamics in a CO2 injection well using pressure and distributed temperature sensing. IAHS Redbook 355, 286–290.",
+      "id": "R37",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: static gas-column correction550→640m and neglected friction/inertia. Original P/T/EOS/integral/metadata unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Wiese, B., Wagner, F., Norden, B., Maurer, H., Schmidt-Hattenberger, C., 2018. Fully Coupled Inversion on a Multi-Physical Reservoir Model – Part I: Theory and Concept. Int. J. Greenh. Gas Control.",
+      "id": "R38",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2–5,7–8: essential PartI forward/inverse equations,kr,Archie,normalisation and double regularisation. Exact original/code not identified locally. p4 twice prints Wiese2008,this issue instead of the bibliography2018 identity; do not silently repair or certify derivations."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Zimmer, M., Erzinger, J., Kujawa, C., 2011. The gas membrane sensor (GMS): a new method for gas measurements in deep boreholes applied at the CO2 SINK site. Int. J. Greenh. Gas Control 5, 995–1001. http://dx.doi.org/10.1016/j.ijggc.2010.11.007.",
+      "id": "R39",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: GMS detection method. Original sensor dynamics,depth and uncertainty unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "citation": "Native three-well hydraulic tests and logger QA",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "All nine candidate pairs,seven retained histories,pump schedules,reference pressures,error logs and instrument-swap evidence unavailable. Exclusion is an author-reported diagnosis,not independently verified logger failure."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2,
+        4,
+        6
+      ],
+      "citation": "Native CO2 rate/pressure/arrival observations",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "5s streams,period averaging,5min display data,P/T/EOS gas-column correction,550/640m datums and well-annulus/detection metadata unavailable."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3,
+        6,
+        7
+      ],
+      "citation": "Native ERT coordinates,quality,filters and covariance",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "45-electrode geometry/contact data,1008 configurations,raw/reciprocal data,226×273 ratios and exact mean/median/gap treatment unavailable. No independent filter/uncertainty reproduction."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        3,
+        4
+      ],
+      "citation": "Native petrophysical experiments and electrode geometry",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Sample masses,salinities,saturation/equilibration data,n fits and complete-electrode model absent. Prose55mm/15mm dimensions versus Figure1 centimetre-axis scale need clarification."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "citation": "Reservoir geometry and hydraulic/multiphase/electrical forward cases",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Mesh/layers/screens,porosity/facies,permeability parameterisation,boundaries,PVT/injection histories and code/version unavailable. Plume net-thickness weighting not explicitly defined here."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        4,
+        5,
+        8
+      ],
+      "citation": "Unpublished relative-permeability/core and salt histories",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Figure4 initial curves explicitly use unpublished Ketzin core measurements. Endpoints/exponents,skin geometry,dynamic salt/rewetting and native phase behaviour missing."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "citation": "Objective,regularisers and inverse algorithm implementation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PartI details plus raw weights/covariance,priors,Jacobian,sensitivity thresholds,iterations/stopping choices and alternative starts missing. Table1 observation cost is not a full native optimisation reproduction."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        1,
+        8,
+        9
+      ],
+      "citation": "External data/code/supplements,errata and reuse rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit availability notice identified locally. Public assets/version/rights remain unverified during requested Chrome wait; native9-page article is unchanged."
+    }
+  ]
+}

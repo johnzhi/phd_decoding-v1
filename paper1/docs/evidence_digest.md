@@ -170,7 +170,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 Ketzin inversion jointly uses hydraulic/CO2 pressure, arrival times and geoelectric observations. A near-injector permeability reduction to about 15 mD (roughly eightfold) and equivalent skin of 10 explain pressure overburden attributed to salt precipitation. Observed/modelled arrivals are 21.7/21.8 days and 271/283 days (p6).
 
-Transfer limits: The earlier hydraulic-barrier hypothesis is not substantiated after suspect data are removed, but non-uniqueness means a barrier is not excluded (p8). Do not turn the eightfold local permeability change into an eightfold annual site-capacity decline.
+Transfer limits: Comprehensive nine-page reading is recorded in evidence/comprehensive_review/B1-14.json:8 figures,2 tables,no own numbered equations,12 analyst/prose identities and68 limited checks. Preserve barrier nonexclusion after two suspect histories are removed. ERT cost downweight10,mean/median mapping,lower-bound n,unpublished SCAL,pressure-difference offsets and550/640m datum correction limit verification. Static skin10.1,local15mD/factor8 anddoubled pressure are conditional equivalents,not annual-rate factors. Figure1 core/axis scale andcaption colour questions remain open. One scoped Class2015 citation check supports sensor/calibration caveats andshared observed arrivals;38 originals plus8 dependencies andessential PartI/native inversions remain unverified/unreproduced. See ketzin_inversion_comprehensive_findings.md; no maximum service,retention,safety orGHG promotion.
 
 ### B1-15 — Matching Pressure Measurements and Observed CO2 Arrival Times with Static and Dynamic Modelling at the Ketzin Storage site
 

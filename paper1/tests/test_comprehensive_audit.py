@@ -55,6 +55,9 @@ harvey_spec.loader.exec_module(harvey)
 sink_spec = importlib.util.spec_from_file_location('audit_pressure_sink', ROOT / 'scripts/audit_pressure_sink.py')
 sink = importlib.util.module_from_spec(sink_spec)
 sink_spec.loader.exec_module(sink)
+ketzin_spec = importlib.util.spec_from_file_location('audit_ketzin_inversion', ROOT / 'scripts/audit_ketzin_inversion.py')
+ketzin = importlib.util.module_from_spec(ketzin_spec)
+ketzin_spec.loader.exec_module(ketzin)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -64,6 +67,69 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_ketzin_objective_restoration_is_not_residual_scaling_or_raw_error(self):
+        self.assertEqual(ketzin.cost_root_indicator(.025, 10), .5)
+        self.assertAlmostEqual(ketzin.cost_root_indicator(.025, 10) / ketzin.cost_root_indicator(.025), math.sqrt(10))
+        self.assertAlmostEqual(ketzin.cost_reduction(.11, .025), 100 * (1 - 2.5 / 11))
+        data = ketzin.load_inputs()
+        results = {r['item']: r for r in ketzin.calculate(data)}
+        self.assertEqual(len(results), 68)
+        self.assertAlmostEqual(results['inverted_group_sum']['value'], .0954)
+        self.assertEqual(data['objective_total']['inverted'], .094)  # retain native rounded total
+        self.assertEqual(results['inverted_conditional_rounding_overlap']['value'], 1)
+        self.assertIsNone(data['missing']['full_weight_normalisation_covariance'])
+
+    def test_ketzin_arrival_and_citation_checks_do_not_validate_the_new_model(self):
+        data = ketzin.load_inputs()
+        first, second = data['arrivals']
+        self.assertAlmostEqual(100 * (first['modelled_days'] - first['observed_days']) / first['observed_days'], .4608294930875649)
+        self.assertAlmostEqual(100 * (second['modelled_days'] - second['observed_days']) / second['observed_days'], 4.428044280442805)
+        self.assertEqual(data['monitoring']['pressure_reference_depth_m'] - data['monitoring']['pressure_sensor_depth_m'], 90)
+        self.assertEqual(data['monitoring']['retained_configurations'] * data['monitoring']['days_per_series'], 61698)
+        review = json.loads((ROOT/'evidence/comprehensive_review/B1-14.json').read_text())
+        bib = json.loads((ROOT/'evidence/comprehensive_review_inputs/B1-14_bibliography.json').read_text())
+        self.assertEqual(review['text_read_pages'], list(range(1,10)))
+        self.assertEqual(review['visually_inspected_pages'], list(range(1,10)))
+        self.assertEqual(len(review['visuals']), 10)
+        self.assertEqual(len(review['equations']), 12)
+        self.assertEqual(len(review['references']), 47)
+        self.assertEqual(review['references'], bib['entries'])
+        self.assertEqual(sum(r['verification_status'].startswith('primary_text_checked') for r in review['references']), 1)
+        edge = json.loads((ROOT/'evidence/comprehensive_review_inputs/B1-14_citation_checks.json').read_text())
+        self.assertEqual(edge['cited_study'], 'B1-15')
+        self.assertEqual(edge['targeted_pages'], [1,2,3,5,6])
+        self.assertEqual(review['overall_status'], 'incomplete')
+        self.assertIn('not_reproduced', review['original_model_status'])
+
+    def test_ketzin_Archie_examples_require_true_bulk_resistivity_and_valid_domain(self):
+        for exponent in (1.62, 2.6):
+            for sw in (.2, .5, .8, 1):
+                index = ketzin.archie_index(sw, exponent)
+                self.assertAlmostEqual(ketzin.archie_gas_from_true_index(index, exponent), 1 - sw)
+        self.assertGreater(ketzin.archie_gas_from_true_index(1.2, 1.62), ketzin.archie_gas_from_true_index(1.2, 2.6))
+        # Apparent ratios below1 can be valid field observations. They cannot
+        # be passed to this homogeneous true-resistivity saturation inverse.
+        with self.assertRaises(ValueError):
+            ketzin.archie_gas_from_true_index(.95, 1.62)
+        with self.assertRaises(ValueError):
+            ketzin.archie_index(0, 1.62)
+
+    def test_ketzin_radial_skin_matches_independent_resistance_integral_not_rate_factor8(self):
+        def simpson_integral(a, b, permeability, n=4096):
+            step = (b - a) / n
+            total = 1 / (permeability * a) + 1 / (permeability * b)
+            total += math.fsum((4 if j % 2 else 2) / (permeability * (a + j * step)) for j in range(1,n))
+            return total * step / 3
+        k, ks, rw, rs, re = 120, 15, .1, 1, 100
+        resistance = simpson_integral(rw, rs, ks) + simpson_integral(rs, re, k)
+        skin = ketzin.radial_skin(k, ks, rs, rw)
+        self.assertAlmostEqual(k * resistance - math.log(re / rw), skin, places=6)
+        self.assertAlmostEqual(ketzin.radial_pressure_factor(math.log(re / rw), skin), resistance / (math.log(re / rw) / k), places=7)
+        self.assertEqual(ketzin.radial_pressure_factor(10.1, 10.1), 2)
+        self.assertNotEqual(ketzin.radial_pressure_factor(5, 10.1), 2)
+        self.assertNotEqual(1 / ketzin.radial_pressure_factor(5, 10.1), 1 / 8)
+        self.assertIsNone(ketzin.load_inputs()['skin']['well_radius_m'])
+
     def test_pressure_sink_delta_rule_does_not_divide_total_pressure(self):
         self.assertEqual(sink.pressure_margin(1000, 2500, 1.5), 2000)
         self.assertNotEqual(sink.pressure_margin(1000, 2500, 1.5), 2500 / 1.5)

@@ -1,0 +1,31 @@
+{
+  "study_id": "B1-14",
+  "source_sha256": "7ec340fa668a4d1ae467095965d5619766b265ac7a994574eabffe567a58a093",
+  "check_count": 68,
+  "figures": 8,
+  "tables": 2,
+  "numbered_source_equations": 0,
+  "scoped_primary_citation_edges": 1,
+  "native_models_reproduced": false,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "PartI_methods_code": null,
+    "raw_multi_physical_observations": null,
+    "mesh_layer_screen_and_boundary_cases": null,
+    "PVT_EOS_and_pressure_correction": null,
+    "relative_permeability_core_arrays": null,
+    "laboratory_saturation_resistivity": null,
+    "full_weight_normalisation_covariance": null,
+    "regularisation_and_native_iteration_cases": null,
+    "transient_salt_permeability_and_skin_geometry": null,
+    "independent_plume_validation_arrays": null,
+    "pressure_limited_maximum_rate_sweeps": null,
+    "long_term_retained_carbon_and_full_inventory": null,
+    "external_assets_and_full_model_rights": null
+  },
+  "source_skin_geometry": {
+    "well_radius_m": null,
+    "far_radius_m": null
+  },
+  "interpretation": "Limited objective/arrival/unit checks and analyst Archie/radial identities only. No native joint inversion, corrected field saturation, universal rate penalty, annual maximum service, safety probability or retained-carbon/GHG result."
+}

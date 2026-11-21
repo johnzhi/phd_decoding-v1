@@ -53,6 +53,8 @@ The [South-West Hub audit](../docs/south_west_hub_comprehensive_findings.md) fur
 
 The [restricted-aquifer audit](../docs/pressure_sink_comprehensive_findings.md) similarly qualifies the Malaysian Z-field pressure-sink scenarios [B1-13, pp5–13]. Their 4.9/80.13/95.44 Bscf outcomes are cumulative injection with different injector/producer configurations. Produced CO₂, water handling and post-injection losses are not reconciled into retained carbon. Volume/property definitions, PVT/SCAL, standard conditions and pressure-depth/control mapping remain unresolved, and the authors recommend not proceeding with Z-field planning. Neither the scenario ratios nor the nominal targets calibrate annual maximum service or net mitigation.
 
+The [Ketzin inversion audit](../docs/ketzin_inversion_comprehensive_findings.md) adds measurement and model-validation limits [B1-14, pp2–8]. Removing suspect hydraulic histories weakens the barrier hypothesis while leaving barrier nonexclusion. The fitted static skin and local permeability loss cannot supply a universal annual injection penalty. Pressure-difference fitting permits absolute offsets, and electrical weighting, filtering and a saturation exponent at its bound affect fit interpretation. A scoped check of Class et al. supports well/sensor delays and correlated calibration parameters [B1-15, pp1–3,5–6]; shared observations and different fitted models do not independently validate the new inversion.
+
 The [coupled-geomechanics audit](../docs/malaysia_geomechanics_comprehensive_findings.md) preserves the Sarawak carbonate case's 4,000 psi reservoir-pressure recommendation [B1-09, p13]. Its 600 psi difference from the lower reported horizontal stress does not establish flowing BHP or annual injection service. Porosity-input conventions, full creep/coupling laws, pressure/stress references and cited failure comparisons require resolution. The study excludes a cement/casing-caprock leakage pathway, so its small predicted slip and calibrated subsidence cannot establish permanent retention.
 
 The [openhole-completion audit](../docs/openhole_comprehensive_findings.md) adds a distinct offshore-Sarawak case in which cooling and injection stoppages affect predicted wellbore stability [B1-06, pp2–6]. Its selected injector, ppg pressure-gradient equivalents, damage plots and perforated-liner choice do not supply an annual injection penalty or outage probability. Complete coupled-model inputs and liner/field validation remain unavailable; this anonymous case is not assumed identical to the other Malaysian studies.
@@ -615,6 +617,10 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B1-12]** Hosseinzadeh et al. (2026). Geomechanical Evolution of the South-West Hub Carbon Capture and Storage Reservoir in Western Australia. [10.2118/234571-MS](https://doi.org/10.2118/234571-MS). [Retained PDF](../papers/B1-12.pdf).
 
 - **[B1-13]** Razali et al. (2024). Optimising the CO2 Storage Potential in Deep Saline Aquifer by Creating Pressure Sink. [10.4043/34777-MS](https://doi.org/10.4043/34777-MS). [Retained PDF](../papers/B1-13.pdf).
+
+- **[B1-14]** Wagner & Wiese (2018). Fully coupled inversion on a multi-physical reservoir model – Part II The Ketzin CO2 storage reservoir. [10.1016/j.ijggc.2018.04.009](https://doi.org/10.1016/j.ijggc.2018.04.009). [Retained PDF](../papers/B1-14.pdf).
+
+- **[B1-15]** Class et al. (2015). Matching Pressure Measurements and Observed CO2 Arrival Times with Static and Dynamic Modelling at the Ketzin Storage site. [10.1016/j.egypro.2015.07.883](https://doi.org/10.1016/j.egypro.2015.07.883). [Retained PDF](../papers/B1-15.pdf).
 
 - **[B1-19]** Jeong et al. (2025). Optimization and economic evaluation of carbon dioxide BOG Re-liquefaction process considering storage pressure and nitrogen impurity. [10.1016/j.energy.2025.135837](https://doi.org/10.1016/j.energy.2025.135837). [Retained PDF](../papers/B1-19.pdf).
 

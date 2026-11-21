@@ -1,0 +1,1152 @@
+{
+  "study_id": "B1-14",
+  "source_sha256": "7ec340fa668a4d1ae467095965d5619766b265ac7a994574eabffe567a58a093",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All nine retained pages read and visually inspected, including enlarged figures, tables and legends. Eight figures, two tables and 12 analyst/prose identities are recorded; PartII prints no numbered equations of its own. One Class2015 citation has scoped primary checks. The other38 printed originals, eight data/model dependencies and essential PartI methods remain unverified. Sixty-eight limited unit, objective, arrival, petrophysical and skin checks do not reproduce the full native coupled inversion.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "original_model_status": "limited_unit_objective_arrival_Archie_skin_checks_only_native_hydraulic_multiphase_ERT_inverse_models_not_reproduced",
+  "supplement_status": "no_explicit_notice_or_embedded_files_identified_external_assets_and_code_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication,abstract and context",
+      "assessment": "Wagner/Wiese2018,IJGGC75:273–281,DOI10.1016/j.ijggc.2018.04.009. Affiliations,dates,keywords and abstract inspected. Approximately67kt overJune2008–August2013 is historical source context,not new annual service or verified permanent retention. The proposed fully coupled inversion combines hydraulic,multiphase and electrical observations; it is not a fully coupled thermal-mechanical safety-limit model."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Entire introduction and prior literature",
+      "assessment": "All early/revised Ketzin history-matching,heterogeneity,seismic conformity,barrier and salt studies read. Motivation is to combine measurements and reduce ambiguity,not establish uniqueness. PartI2018 is essential for algorithms; p4 twice calls it2008,this issue. One retained Class2015 original is checked for selected calibration/sensor caveats,not comprehensively audited. Remaining original derivations/models remain open."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "Hydraulic acquisition and preprocessing",
+      "assessment": "Three openhole pumping tests September2007–January2008,1.1–1.8m3/h,three-well observations and rate-period averaging read. Initial reference pressure is approximated for Ktzi201 because observations start after pumping. Two reciprocal well-pair histories are excluded after contradictory fits and instrument-swap reasoning. That is a reported diagnosis; raw logger evidence is missing. Retained seven series do not independently resolve a barrier."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        2
+      ],
+      "scope": "CO2 acquisition and preprocessing",
+      "assessment": "5s rate/pressure acquisition,rate meter8m upstream,gauge at550m and gas-column correction to640m inspected. Similar-rate averaging produces end-period observations; short/long pressure differences are fitted rather than absolute levels. Negligible friction/inertia and static-gas-column correction require original P/T/EOS and raw metadata. Model arrival is at least one cell reaching3% gas saturation,not direct sensor physics."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        3
+      ],
+      "scope": "ERT acquisition and filtering",
+      "assessment": "45 electrodes,seven lowermost Ktzi202 connection losses,current up to2.5A and50microV–100mV signals inspected. All acquisition types,1008 candidates,reciprocity,geometric factor10^4m,error5% and14day smoothing rules read.226×273=61698 ratios are processed observations,not independent samples. Text moving-average versus Figure7 moving-median labels need input/display mapping."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "Petrophysical experiments",
+      "assessment": "Two-phase brine/CO2,neglected surface conductance/P/T effects and ambient repeated-brine equilibrium assumptions read. Source sample55mm high,15mm radius from638m; Figure1 centimetre-axis scale needs clarification. Negative sensitivity outside potential rings motivates equilibration. Own n2.6 and earlier n1.62/1.65–1.8 set calibration bounds1.62–2.6; raw experiments/originals unavailable."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4
+      ],
+      "scope": "Inversion approach",
+      "assessment": "Entire PartI referral and field adaptations read. Structural noise,relative-permeability endpoints Ci,CO2-only skin and spatially/temporally constant n are fitted. Essential forward equations,weights,double regularisation,priors,Jacobian,mesh and stopping implementation are absent locally; no synthetic/native inverse model reproduced from a workflow description."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "Permeability distribution and barrier",
+      "assessment": "Figure3 layer maps and screened connections read. Nearwell heterogeneity is needed in the chosen model. Removing suspect histories removes support for the earlier barrier hypothesis,but reduced sensitivity/multilayer nonuniqueness prevents excluding a real barrier. Model structure and data rejection are not direct geological proof."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "Petrophysical parameters and salt",
+      "assessment": "Figure4 initial unpublished-core and calibrated kr curves inspected; CO2 curves match. Fitted skin10.1 only in CO2 model reconciles hydraulic/CO2 pressures. Approximate1m/15mD/eightfold description and doubled pressure variations are conditional equivalents. Static skin does not model growing precipitation or dissolution after shut-ins. Selective infiltration and non-Darcy alternatives are rejected by authors using external PNG/Re evidence,not independently verified here."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        4,
+        6
+      ],
+      "scope": "Saturation exponent and ERT ambiguity",
+      "assessment": "n reaches lower bound1.62; many configurations near ratio1 are insensitive to plume. A constant n can compensate,so bounds are required. Ambient n need not be valid at field P/T,and annulus/borehole effects remain omitted. Do not report fitted bound as a unique field measurement or invert apparent resistivity cellwise into gas saturation."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        5
+      ],
+      "scope": "Convergence",
+      "assessment": "Skin addition and two-series removal improve convergence.3–5 iterations usual; fifth retained because later nearwell artifacts have marginal observation-cost benefit. This is interpreted overfit,not demonstrated unique/global optimum or posterior uncertainty. No full objective/regularisation traces,runtimes,alternative starts or native code supplied."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "Objective and hydraulic results",
+      "assessment": "All Table1 rows and Fig5 panels inspected. Observation objective reduces about80%; reductions are not percentages of physical storage improvement. ERT cost has factor10 downweight and needs restoration for the stated comparison. Its rooted cost is a normalised indicator,not verified raw percentage error.5×5m smoothing explains switch residuals within the chosen model; seven calibration curves are not holdouts."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "CO2 arrival results",
+      "assessment": "Table2 observed21.7/271 versus model21.8/283days and .5/4% deviations inspected. Only two data points make matching comparatively easy. GMS150m below surface and wellhead delays1.5/3days mean sensor detection is not geological first arrival. Class2015 primary passages support that caveat and shared observations; its different model outputs do not independently validate this model or the3% threshold."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        6
+      ],
+      "scope": "CO2 pressure results",
+      "assessment": "All Figure6 panels and caption read: raw5min display,end-period observations and fitted response. Pressure-difference fitting permits absolute offsets,including July4 mismatch. Skin represents doubled variation without resolving transient salt dynamics. A good difference fit is not a verified absolute BHP limit or prediction of future deliverability."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "Geoelectrical results",
+      "assessment": "Both Figure7 geometries and timeseries inspected. Panelb is quantitatively poor; inverse curve leaves the displayed range while observations stay near1. Causes discussed include Archie assumptions,constant n,ambient lab transfer and annulus effects. ERT downweighting,filter and moving2sigma bands do not establish raw error probabilities or independent observations."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        7
+      ],
+      "scope": "Plume migration",
+      "assessment": "All four Figure8 times31/101/146/200days inspected. Vertically integrated net-thickness[m] is not a direct gas-column height or retained mass. NW/S migration broadly agrees with earlier monitoring; seismic alone favours west. This is qualitative support,not a quantitative independent future validation or global capacity/safety forecast."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "Conclusions and proposed extensions",
+      "assessment": "All conclusions,barrier caveat,salt/skin statement,regularisation/confidence claims and proposed seismic/PNG extensions read. Entire retained dataset means processed retained observations,not all raw configurations or rejected hydraulics. Seismic/PNG are proposed future assimilation,not completed inversion inputs. More confidence in a local interpretation does not prove uniqueness,long-term retention or safe maximum annual injection."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "Acknowledgements and entire bibliography",
+      "assessment": "All funding/acknowledgements and39 bibliography entries inspected; Lengler entry spans pp8–9. Footer281 excluded from transcription. One Class2015 edge is scoped primary-checked;38 originals plus eight model/data dependencies remain unverified. No explicit supplement/data/code notice or embedded assets identified locally; external absence not inferred."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        3
+      ],
+      "object": "Figure1: core sensitivity and photograph",
+      "inspection": "Both panels,normalised sensitivity−1..1,all x/y/z centimetre labels,A/B current plates,M/N potential rings and connecting annotations inspected. Negative sensitivity outside M/N versus positive interior described. Prose55mm=5.5cm height versus plotted z ticks0–.5cm over nearly the whole cylinder needs scale clarification; do not repair labels or infer a native FEM bug. Raw sample geometry/data absent."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        4
+      ],
+      "object": "Figure2: resistivity versus brine saturation",
+      "inspection": "Log–log axes,Sw.1–1,resistivity index1–1000,bluecirclesKtzi201/7-3 andgreenstarsKtzi202/B2-3,previous-source legend,dashed n2.60/1.62 slopes inspected. Points/trends do not supply exact fit arrays/uncertainties. n from ambient distinct samples is not a unique field value."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        5
+      ],
+      "object": "Figure3: permeability maps",
+      "inspection": "All panels aLayer1,bLayers2&2a,cLayer3,dLayer4,white screened-well dots,x/y metres and logarithmicmD colourbar.0001–1000 inspected. Displayed range is distinct from the earlier overfit parameter-bound discussion1–1000mD. No layer map/colour is converted to a unique hydraulic barrier,annual service or native grid array."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        5
+      ],
+      "object": "Figure4: relative permeability",
+      "inspection": "CO2 saturation x-axis,relativekr dimensionless y-axis,greyCO2/blackbrine,dotted unpublished-core initial andsolidcalibrated curves inspected. Caption says CO2 curves match. Exact endpoints/exponents,raw core data and full source formulation not supplied; no curve digitisation as verified native SCAL."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        6
+      ],
+      "object": "Figure5: seven hydraulic panels",
+      "inspection": "All o/p labels and time windows inspected:o201p201,o202p201,o200p200,o202p200,o200p202,o201p202,o202p202. Red observations/blue rendered predictions versus caption black curves noted. Ytick spacing1bar has no numeric zero baseline; x is days after first pumping. Excluded o200p201/o201p200 are not validation cases. Pump-switch mismatch and5m cells remain conditional model explanation."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        6
+      ],
+      "object": "Figure6: CO2 pressure a/b/c",
+      "inspection": "Panel aJuly2008–March2009 and two July zooms,bar axes,dates,measured red points/fine line and inverted blue curves inspected. Caption calls predictions black; rendered legend defines blue.5min raw display differs from5s acquisition andend-rate-period points. July4 absolute offset persists despite matching variations; no inferred pressure control ceiling."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        7
+      ],
+      "object": "Figure7: two ERT geometries and responses",
+      "inspection": "All A/B/M/N electrode positions,well/elevation geometry,x/y/zmetres,ratio-to-baseline axes andJuly2008–March2009 curves inspected. Grey raw points,red moving median,blueinverse,dashedratio1 andgrey2sigma movingstd bands. Panelb inverse exceeds upper range with observationsnear1. Text14day movingaverage versusdisplaymedian requires mapping; bands are not a verified95%confidence interval."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        7
+      ],
+      "object": "Figure8: plume maps at31/101/146/200days",
+      "inspection": "All four panels,x/y metres,well symbols,CO2netthickness0–2m colourbar and vertical-integration caption inspected. No exact normalisation,layer porosity/saturation weights or native arrays supplied. Quantitative plume volume,mass,leakage/retention or future maximum service cannot be recovered from colours."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        5
+      ],
+      "object": "Table1: objective groups",
+      "inspection": "All four group rows plus observation sum,symbols,initial/inverted powers of10 and reductions inspected in enlarged native table. ERT inverted is2.5e−2. Source sum.094 differs printed component sum.0954 at compatible coarse precision. Initialsum.48 closes. ERT factor10 is objective scale,not a factor10 on rooted residuals. No physical percentage-error interpretation without native normalisations. Caption refers to initial/inverted model parameters; the entries are objective costs evaluated at those parameter sets, not percentage changes in permeability or other physical parameters."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        6
+      ],
+      "object": "Table2: gaseous arrival times",
+      "inspection": "Both wells,observed/modelled days andrelative deviations inspected.21.7/21.8 gives .4608%,271/283 gives4.428%; source.5/4 are retained display rounding. Sensor/well transport uncertainties are not encoded in these printed decimal places. Shared Class2015 observed times are not independent validation."
+    }
+  ],
+  "equations": [
+    {
+      "id": "D01",
+      "pages": [
+        3,
+        4,
+        6
+      ],
+      "expression": "R_true=rho_t/rho_0=Sw^(−n); Sg=1−R_true^(−1/n)",
+      "interpretation_and_check": "Analyst Archie relation consistent with source log-slope/PartI reference,not verified transcription of PartI Eq3. Requires two-phase pore fill and fixed brine/surface/P/T effects. Field apparent-resistivity ratios are nonlocal and cannot be substituted for true homogeneous bulkR.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D02",
+      "pages": [
+        3,
+        7
+      ],
+      "expression": "rho_a=K_geom*DeltaV/I; R_a(t)=rho_a(t)/rho_a(preinjection)",
+      "interpretation_and_check": "Analyst electrical units:K metres,DeltaV volts,I amps,rho_a ohmmetres;normalisedratio dimensionless. Geometry/sensitivity and current/contact errors matter. No field current/resistivity data or saturation recovered.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D03",
+      "pages": [
+        3,
+        4
+      ],
+      "expression": "Sw=(m_actual−m_dry)/(m_saturated−m_dry); V_core=pi*r²*h",
+      "interpretation_and_check": "Analyst mass-saturation/geometry identities under constant-density,stable pore volume and equilibrated brine assumptions. Native masses/porosity/salinity not retained. Physical prose dimensions give a bulk cylinder volume,not pore volume or correction of Figure1.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D04",
+      "pages": [
+        5
+      ],
+      "expression": "reduction=100*(1−Phi_inverted/Phi_initial)",
+      "interpretation_and_check": "Source table metric reconstructed. It is observation objective reduction,not physical variance explained,probability or storage gain. Rounding and objective scaling preserved.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D05",
+      "pages": [
+        5
+      ],
+      "expression": "Phi_ert_restored=10*Phi_ert_table; indicator=sqrt(Phi)",
+      "interpretation_and_check": "Prose explicitly instructs objective factor10. Rooted indicator scales sqrt10,not10. Actual raw percent errors require PartI normalisations/covariance. Do not treat one downweighted group as equally fitted by comparing table entries alone.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D06",
+      "pages": [
+        5,
+        6
+      ],
+      "expression": "relative_arrival_error=100*(t_model−t_observed)/t_observed",
+      "interpretation_and_check": "Source day-error ratio. .1day and12days are not equivalent certainty/validation. Unweighted RMS of these ratios is an analyst metric,not the reported arrival objective without weights.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D07",
+      "pages": [
+        2,
+        6
+      ],
+      "expression": "P_640=P_550+integral_550^640 rho_CO2(P,T,z)*g dz",
+      "interpretation_and_check": "Analyst static column relation following the described correction,conditional sign/depth and negligible friction/inertia.90m correction interval; no density/profile or gauge reference invented. Rate meter8m upstream andwellannulus delay are separate.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D08",
+      "pages": [
+        4,
+        8
+      ],
+      "expression": "s=(k/ks−1)*ln(rs/rw)",
+      "interpretation_and_check": "Analyst two-zone steady radial Darcy skin identity,not reproduced native gas model. Derive by integratingdr/[k(r)r] inside/outside damaged zone. Need common phase/state,well radius andgeometry; source approximations15mD/factor8/1m do not uniquely determine service.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D09",
+      "pages": [
+        4,
+        6,
+        8
+      ],
+      "expression": "DeltaP_skin/DeltaP_clean=(L+s)/L; q_skin/q_clean=L/(L+s)",
+      "interpretation_and_check": "Analyst fixed-state radial Darcy comparison with L=ln(re/rw),sameq orsamepressuremargin respectively. Geometric/transient factor unknown; s10.1 does not universally mean2× pressure,.5×rate or8×annualdecline. No native PVT,kr,controls or rate forecast inferred.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D10",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "expression": "t_GMS=t_geological_arrival+tau_annulus+tau_detection",
+      "interpretation_and_check": "Analyst conceptual delay decomposition,not an identified field-delay model. GMS150m depth andsource1.5/3day laterwellhead rise do not determine eitherterm.3%cellthreshold is a model proxy,not measured bubble threshold proof.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D11",
+      "pages": [
+        3
+      ],
+      "expression": "226*273=61698; retained_fraction=226/1008",
+      "interpretation_and_check": "Source dataset arithmetic. Filtering,smoothing and common normalisation create dependence; counts are not independent samples or a probability of successful monitoring.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    },
+    {
+      "id": "D12",
+      "pages": [
+        5
+      ],
+      "expression": "sum_group_Phi versus printed Phi_o",
+      "interpretation_and_check": "Analyst observation-cost sum with conditional nearest-displayed-precision intervals. Table1 rounds coarsely,especially2e−2. Full loss contains regularisation specified in PartI,not reconstructed here.",
+      "record_type": "explicit_analyst_identity_or_source_prose_relation_not_numbered_source_equation"
+    }
+  ],
+  "variables": [
+    "Intrinsic k, relative permeability kr, CO2-only skin and dynamic salt effects differ. Approximate15mD/factor8 is local, not an annual site multiplier.",
+    "s is dimensionless; equivalent damaged radius is1m. Native rw,re,L,phase mobility and pressure controls are missing. Fitted10.1 versus rounded10 retained.",
+    "n is the electrical saturation exponent, distinct from kr endpointCi. Constant n reaches lower bound1.62; ambient bounds1.62–2.6 are not a unique field measurement.",
+    "True sample resistivity ratio differs from nonlocal apparent ratio. Clay, surface conductance,P/T,chemistry and borehole effects remain simplified.",
+    "Current[A], potential[microV/mV], geometric factor[m], resistance[ohm] and resistivity[ohmm] are distinct. Negative/nonlocal sensitivities prevent a cellwise gas-saturation inversion.",
+    "Core55mm×15mm radius gives bulk geometry, not pore volume. Figure1 centimetre scale needs clarification. Native masses, salinity and equilibration errors are unavailable.",
+    "Group phi values are weighted, normalised observation costs. ERT cost restoration10 implies root-indicator restoration sqrt10. They are not raw percent measurement errors.",
+    "Objective reduction, arrival error, absolute pressure offset and temporal residual use different metrics. Differencing permits offsets; sensor/reference depths remain550/640m.",
+    "5s acquisition,5min display, rate-period endpoints, daily ERT averages and14day filters differ. Mean/median input/display mapping and covariance are unknown.",
+    "1008 candidates,226 series,273 daily values and61698 ratios are processed counts. Seven lost electrodes do not define complete spatial coverage or statistical independence.",
+    "Three wells/tests give nine nominal pairs; two are excluded and seven displayed. A fit after rejection does not independently verify logger failure or barrier absence.",
+    "Observed21.7/271d, modeled21.8/283d, GMS150m depth, wellhead lags1.5/3d and3% cell saturation describe distinct quantities. Detection is not first reservoir arrival.",
+    "5×5m hydraulic cells, layer maps/screens, colour range and earlier1–1000mD bound-hitting discussion differ. Native grid/boundary/parameter definitions are missing.",
+    "Iteration5 follows usual3–5 convergence and precedes later artifacts. Cost improvement does not prove a global optimum, posterior certainty or independent prediction.",
+    "Figure8 integrated net thickness[m] lacks explicit phi/Sg/layer weighting here. No exact volume, mass, retention or failure probability from colours.",
+    "Historical67kt context and early-injection calibration do not define future annual maximum service, commercial allocation, lifecycle inventory or long-term retained carbon.",
+    "Fully coupled means hydraulic/multiphase/geoelectrical inversion. Thermal/mechanical safety coupling and dynamic salt precipitation are not established by the label."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "claim": "Joint inversion improves interpretation/confidence",
+      "assessment": "An author field-case demonstration with multiple data groups. Native code, data/weights and PartI derivations are absent; no independent reproduction, probabilistic certainty or unique permeability field."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        2,
+        4,
+        8
+      ],
+      "claim": "Two hydraulic series are erroneous",
+      "assessment": "Author inference from incompatible fits, parameter bounds and instrument swapping. Raw logger/QA evidence is unavailable. Preserve the explicit caveat that a barrier cannot be excluded."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        3
+      ],
+      "claim": "Sparse ERT can be calibrated with process/geological constraints",
+      "assessment": "Demonstrated within chosen priors and filtered data. Lost coverage and nonuniqueness remain; no independent resolution/uncertainty study reproduced."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Ambient laboratory n bounds reflect heterogeneity",
+      "assessment": "Samples give bounds1.62–2.6; original conditions are unverified. A constant field n at the lower bound can compensate for model limits. It is not a measured global exponent."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Permeability maps resolve heterogeneity without a barrier",
+      "assessment": "Maps are conditional on model and data rejection. Authors explicitly retain weak resolution and barrier nonexclusion. No proof of absence or unique field."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "claim": "Salt explains local15mD/factor8, skin and doubled pressure",
+      "assessment": "An equivalent model interpretation supported by cited PNG, with dynamic processes unverified. Static skin10.1 is a first approximation; no eightfold annual injection decline follows."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        4
+      ],
+      "claim": "Selective infiltration and non-Darcy alternatives can be rejected",
+      "assessment": "Authors use external June2009 PNG and Re~1e−7. Original saturation states, definitions and inputs are unavailable; these exclusions are not independently reproduced."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        5
+      ],
+      "claim": "Convergence is fast and stable in3–5 iterations",
+      "assessment": "Reported case; iteration5 retained before later artifacts. Full regularisation/iteration traces, runtimes and alternative starts are absent. No global optimality or independent validation."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        5
+      ],
+      "claim": "Observation objective reduces about80%",
+      "assessment": "Table arithmetic is compatible with rounding. Weighted normalised cost reduction differs from raw error, explained variance, storage or safety improvement. ERT downweighting remains explicit."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Hydraulic pressure is well matched",
+      "assessment": "Seven retained calibration panels agree qualitatively; switch residuals are attributed to cell size. Complete raw series, held-out validation and barrier resolution are absent."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Arrivals have the best fit at.5/4% error",
+      "assessment": "Limited arithmetic matches rounding. Two observations, well/sensor delays and the3% model proxy limit interpretation. Class2015 supports shared observations and uncertainty, not these new predictions."
+    },
+    {
+      "id": "C12",
+      "pages": [
+        6
+      ],
+      "claim": "CO2 pressure variations match well",
+      "assessment": "Figure6 shows variation matching while absolute offsets are allowed by differencing. Absolute pressure controls and transient salt dynamics remain unverified."
+    },
+    {
+      "id": "C13",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "ERT data are quantitatively exploited",
+      "assessment": "All retained data enter the inversion, but panelb is poorly matched and downweighted. Filter mapping, constant n, ambient transfer, annulus effects and covariance remain unresolved."
+    },
+    {
+      "id": "C14",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Plume direction indicates predictive capability",
+      "assessment": "Qualitative NW/S comparison with earlier NW/S/west observations. No independent quantitative plume/horizon validation or retained-mass balance is supplied."
+    },
+    {
+      "id": "C15",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Regularisation mitigates insensitive parameters and structural noise",
+      "assessment": "Author claim relies on PartI implementation. Priors, bias and residual noise are not independently quantified; absolute offsets remain. No claim that all uncertainty is eliminated."
+    },
+    {
+      "id": "C16",
+      "pages": [
+        8
+      ],
+      "claim": "Seismic/PNG extensions could improve future assessment",
+      "assessment": "Proposed future assimilation. It does not establish completed new capacity, retention, access or netGHG results."
+    }
+  ],
+  "references": [
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Bacci, G., Korre, A., Durucan, S., 2011. Experimental investigation into salt precipitation during CO2 injection in saline aquifers. Energy Procedia 4450–4456. http://dx.doi. org/10.1016/j.egypro.2011.02.399.",
+      "id": "R01",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4: salt precipitation/dynamic permeability experiments. Original conditions,reversibility and Ketzin transfer unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Battistelli, A., Giorgis, T., Marzorati, D., 2005. Modeling halite precipitation around CO2 injection wells in depleted gas reservoirs. In: 67th European Association of Geoscientists and Engineers. EAGE Conference and Exhibition Incorporating SPE EUROPEC 2005. pp. 13–16.",
+      "id": "R02",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: modelling halite precipitation. Original process/equations and validity unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Baumann, G., 2013. Determination of Displacement and Evaporation/precipitation Processes via Pulsed Neutron-Gamma (PNG) Monitoring for CO2 Storage Operations (Ph.D. thesis). Technical University of Berlin, http://dx.doi.org/10.14279/ depositonce-3819.",
+      "id": "R03",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp4,8: PNG observations,salt and saturation interpretation. Thesis original and quantitative nearwell evidence unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Baumann, G., Henninges, J., DeLucia, M., 2014. Monitoring of saturation changes and salt precipitation during CO2 injection using pulsed neutron-gamma logging at the Ketzin pilot site. Int. J. Greenh. Gas Control 28, 134–146. http://dx.doi.org/10.1016/j.ijggc. 2014.06.023.",
+      "id": "R04",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4,8: salt evidence and layer saturation used to reject selective infiltration. Exact PNG interpretation,June2009 conditions and scope unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Bergmann, P., Diersch, M., Götz, J., Ivandic, M., Ivanova, A., Juhlin, C., Kummerow, J., Liebscher, A., Lüth, S., Meekes, S., Norden, B., Schmidt-Hattenberger, C., Wagner, F.M., Zhang, F., 2016. Review on geophysical monitoring of CO2 injection at Ketzin, Germany. J. Petrol. Sci. Eng. 139, 112–136. http://dx.doi.org/10.1016/j.petrol.2015. 12.007.",
+      "id": "R05",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,7: monitoring review and independent plume-direction comparison. Original observations,uncertainty and qualitative validation unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Bergmann, P., Schmidt-Hattenberger, C., Labitzke, T., Wagner, F., Just, A., Flechsig, C., Rippe, D., 2017. Fluid injection monitoring using electrical resistivity tomography – ﬁve years of CO2 injection at Ketzin, Germany. Geophys. Prospect. 65, 859–875. http://dx.doi.org/10.1111/1365-2478.12426.",
+      "id": "R06",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2–3: ERT coverage,time acquisition and barrier ambiguity. Full raw monitoring data/case provenance unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Bing, Z., Greenhalgh, S., 2000. Cross-hole resistivity tomography using diﬀerent electrode conﬁgurations. Geophys. Prospect. 48, 887–912. http://dx.doi.org/10.1046/j.1365- 2478.2000.00220.x.",
+      "id": "R07",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: low signal/noise for inhole/AB-MN electrode configurations. Original geometric/error analysis unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Chen, F., Wiese, B., Zhou, Q., Kowalsky, M.B., Norden, B., Kempka, T., Birkholzer, J.T., 2014. Numerical modeling of the pumping tests at the Ketzin pilot site for CO2 in- jection: model calibration and heterogeneity eﬀects. Int. J. Greenh. Gas Control 22, 200–212. http://dx.doi.org/10.1016/j.ijggc.2014.01.003.",
+      "id": "R08",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4: hydraulic barrier hypothesis and problematic cross-well pairs. Raw data,parameter bounds and whether logger fault is independently established require original checks."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Class, H., Mahl, L., Ahmed, W., Norden, B., Kühn, M., Kempka, T., 2015. Matching pressure measurements and observed CO2 arrival times with static and dynamic modelling at the Ketzin storage site. Energy Procedia 76, 623–632. http://dx.doi.org/ 10.1016/j.egypro.2015.07.883.",
+      "id": "R09",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_partial_support_limits",
+      "use_and_remaining_check": "pp1–2,5–6: targeted retained primary checks support pressure/arrival calibration and sensor-delay caveats,plus observed21.7/271days. Different model predictions are not interchangeable or independent validation. See B1-14_citation_checks.json; the cited paper remains comprehensively incomplete.",
+      "primary_source": "B1-15",
+      "primary_sha256": "4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324",
+      "primary_locator": "pp1–3,5–6; selected passages/Tables3–4",
+      "primary_check_record": "evidence/comprehensive_review_inputs/B1-14_citation_checks.json"
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Doetsch, J.A., Coscia, I., Greenhalgh, S., Linde, N., Green, A.G., Günther, T., 2010. The borehole-ﬂuid eﬀect in electrical resistivity imaging. Geophysics 75, F107–F114. http://dx.doi.org/10.1190/1.3467824.",
+      "id": "R10",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: borehole-fluid electrical effects. Exact magnitude and geometric applicability unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Doherty, J., Welter, D., 2010. A short exploration of structural noise. Water Resour. Res. 46, W05525. http://dx.doi.org/10.1029/2009WR008377.",
+      "id": "R11",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p4: structural noise caused by conceptual simplification. Exact derivation/likelihood implications unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Fleury, M., Gautier, S., Gland, N., Boulin, P., Norden, B., Schmidt-Hattenberger, C., 2013. Advanced and integrated petrophysical characterization for CO2 storage: application to the Ketzin site. Oil Gas Sci. Technol. Rev. IFP Energies nouvelles 68, 557–576. http://dx.doi.org/10.2516/ogst/2012084.",
+      "id": "R12",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: laboratory n1.65–1.8 range. Sample conditions,clay/pressure/temperature and transfer unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Förster, A., Norden, B., Zinck-Jørgensen, K., Frykman, P., Kulenkampﬀ, J., Spangenberg, E., Erzinger, J., Zimmer, M., Kopp, J., Borm, G., Juhlin, C., Cosma, C.G., Hurter, S., 2006. Baseline characterization of the CO2SINK geological storage site at Ketzin. Germany. Environmental Geosciences 13, 145–161. http://dx.doi.org/10.1306/eg. 02080605016.",
+      "id": "R13",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: baseline geology. Original static model/uncertainties and native mesh mapping unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Ivandic, M., Yang, C., Lüth, S., Cosma, C., Juhlin, C., 2012. Time-lapse analysis of sparse 3D seismic data from the CO2 storage pilot site at Ketzin, Germany. J. Appl. Geophys. 84, 14–28. http://dx.doi.org/10.1016/j.jappgeo.2012.05.010.",
+      "id": "R14",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p7: independent seismic westward plume interpretation. Exact observation period,geometry and quantitative comparison unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Jeddizahed, J., Rostami, B., 2016. Experimental investigation of injectivity alteration due to salt precipitation during CO2 sequestration in saline aquifers. Adv. Water Resour. 96, 23–33. http://dx.doi.org/10.1016/j.advwatres.2016.06.014.",
+      "id": "R15",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: salt/injectivity alteration experiments. Original units,state and field transfer unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Kempka, T., Kühn, M., 2013. Numerical simulations of CO2 arrival times and reservoir pressure coincide with observations from the Ketzin pilot site, Germany. Environ. Earth Sci. 70, 3675–3685. http://dx.doi.org/10.1007/s12665-013-2614-6.",
+      "id": "R16",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1,8: manually tuned near/far multipliers,long-term fits and short-term limitations. Complete original model and causal attribution unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Kempka, T., Kühn, M., Class, H., Frykman, P., Kopp, A., Nielsen, C., Probst, P., 2010. Modelling of CO2 arrival time at Ketzin – Part I. Int. J. Greenh. Gas Control 4, 1007–1015. http://dx.doi.org/10.1016/j.ijggc.2010.07.005.",
+      "id": "R17",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: early Ketzin arrival history match. Exact model,calibration and data support unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Kempka, T., Norden, B., 2017. Inverse modelling of hydraulic testing to revise the static reservoir model of the Stuttgart formation at the Ketzin pilot site. Energy Procedia 125, 640–649. http://dx.doi.org/10.1016/j.egypro.2017.08.264. European Geosciences Union General Assembly 2017, EGU Division Energy, Resources & Environment (ERE).",
+      "id": "R18",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: hydraulic inverse model and barrier limits. Exact updated static model,data exclusions and nonuniqueness unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Köhler, S., Zemke, J., Becker, W., Wiebach, J., Liebscher, A., Möller, F., Bannach, A., 2013. Operational reservoir monitoring at the CO2 pilot storage site Ketzin, Germany. In: Hou, M.Z., Xie, H., Were, P. (Eds.), Clean Energy Systems in the Subsurface: Production, Storage and Conversion, Springer Series in Geomechanics and Geoengineering. Springer Berlin Heidelberg, pp. 53–63. http://dx.doi.org/10.1007/ 978-3-642-37849-2_5.",
+      "id": "R19",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: operational monitoring overview. Native acquisition/metadata and sensor/control relationships unverified."
+    },
+    {
+      "pages": [
+        8
+      ],
+      "citation": "Kummerow, J., Spangenberg, E., 2011. Experimental evaluation of the impact of the interactions of CO2-SO2, brine, and reservoir rock on petrophysical properties: a case study from the Ketzin test site, Germany. Geochemistry, Geophysics, Geosystems 12, Q05010. http://dx.doi.org/10.1029/2010GC003469.",
+      "id": "R20",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2–4,6: n1.62 and clay influence versus ambient core n2.6. Exact sample/electrical conditions and original range unverified."
+    },
+    {
+      "pages": [
+        8,
+        9
+      ],
+      "citation": "Lengler, U., Lucia, M.D., Kühn, M., 2010. The impact of heterogeneity on the distribution of CO2: numerical simulation of CO2 storage at Ketzin. Int. J. Greenh. Gas Control 4, 1016–1025. http://dx.doi.org/10.1016/j.ijggc.2010.07.004.",
+      "id": "R21",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1,8: stochastic heterogeneity,unknown fields and calibration freedom. Original cases and conclusions unverified; bibliography entry spans pp8–9."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Liebscher, A., Möller, F., Bannach, A., Köhler, S., Wiebach, J., Schmidt-Hattenberger, C., Weiner, M., Pretschner, C., Ebert, K., Zemke, J., 2013. Injection operation and op- erational pressure-temperature monitoring at the CO2 storage pilot site Ketzin, Germany – design, results, recommendations. Int. J. Greenh. Gas Control 15, 163–173. http://dx.doi.org/10.1016/j.ijggc.2013.02.019.",
+      "id": "R22",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: rate meter8m upstream,5s acquisition and550m pressure sensor. Original measurement correction/uncertainty and native data unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Lüth, S., Ivanova, A., Kempka, T., 2015. Conformity assessment of monitoring and si- mulation of CO2 storage: a case study from the Ketzin pilot site. Int. J. Greenh. Gas Control 42, 329–339. http://dx.doi.org/10.1016/j.ijggc.2015.08.005.",
+      "id": "R23",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1,8: seismic conformity metrics and proposed extension. Exact original validation criteria and model comparison unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Martens, S., Möller, F., Streibel, M., Liebscher, A., 2014. Completion of ﬁve years of safe CO2 injection and transition to the post-closure phase at the Ketzin pilot site. Energy Procedia 59, 190–197. http://dx.doi.org/10.1016/j.egypro.2014.10.366.",
+      "id": "R24",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1–2: approximately67kt injected/stored2008–2013 and monitoring overview. Original operational totals and retention scope unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Norden, B., Frykman, P., 2013. Geological modelling of the triassic Stuttgart formation at the Ketzin CO2 storage site, Germany. Int. J. Greenh. Gas Control 19, 756–774. http://dx.doi.org/10.1016/j.ijggc.2013.04.019.",
+      "id": "R25",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: revised geological model. Original facies,porosity,grid and provenance unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Oliver, D.S., Chen, Y., 2010. Recent progress on reservoir history matching: a review. Computational Geosciences 15, 185–221. http://dx.doi.org/10.1007/s10596-010- 9194-2.",
+      "id": "R26",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: cost/manual history-matching background. Review and underlying sources unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Pamukcu, Y., Hurter, S., Jammes, L., Vu-Hoang, D., Pekot, L., 2011. Characterizing and predicting short term performance for the In Salah Krechba ﬁeld CCS joint industry project. Energy Procedia 4, 3371–3378. http://dx.doi.org/10.1016/j.egypro.2011. 02.259.",
+      "id": "R27",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p8: alternative calibration freedoms in prior models. In Salah is a different field; exact original role and relevance unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Pruess, K., Müller, N., 2009. Formation dry-out from CO2 injection into saline aquifers: 1. Eﬀects of solids precipitation and their mitigation. Water Resour. Res. 45. http://dx. doi.org/10.1029/2008WR007101.",
+      "id": "R28",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4: salt dry-out,precipitation and rewetting. Full dynamical constitutive processes and field applicability unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Rücker, C., Günther, T., 2011. The simulation of ﬁnite ERT electrodes using the complete electrode model. Geophysics 76, F227–F238. http://dx.doi.org/10.1190/1.3581356.",
+      "id": "R29",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3/Figure1: complete finite-electrode sensitivity model. Original units,geometry,boundaries and numerical implementation unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Bösing, D., Labitzke, T., Möller, M., Schröder, S., Wagner, F.M., Schütt, H., 2013. Electrical resistivity tomography (ERT) for mon- itoring of CO2 migration – from tool development to reservoir surveillance at the Ketzin pilot site. Energy Procedia 37, 4268–4275. http://dx.doi.org/10.1016/j. egypro.2013.06.329.",
+      "id": "R30",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: earlier2D ERT and monitoring development. Original configuration/data treatment unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Kießling, D., Krüger, K., Rücker, C., Schütt, H., 2011. Application of a vertical electrical resistivity array (VERA) for monitoring CO2 migration at the Ketzin site: ﬁrst performance evaluation. Energy Procedia 4, 3363–3370. http://dx.doi.org/10.1016/j.egypro.2011.02.258.",
+      "id": "R31",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2–3: VERA measurement types/monitoring and barrier ambiguity. Original coverage and interpretations unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Labitzke, T., Schröder, S., Krüger, K., Rücker, C., Schütt, H., 2012. A modular geoelectrical monitoring system as part of the surveil- lance concept in CO2 storage projects. Energy Procedia 23, 400–407. http://dx.doi. org/10.1016/j.egypro.2012.06.062.",
+      "id": "R32",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: modular monitoring/barrier ambiguity background. Original data support unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Labitzke, T., Wagner, F., Rippe, D., 2016. Permanent crosshole electrical resistivity tomography (ERT) as an established method for the long-term CO2 monitoring at the Ketzin pilot site. Int. J. Greenh. Gas Control 52, 432–448. http://dx.doi.org/10.1016/j.ijggc.2016.07.024.",
+      "id": "R33",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: ERT acquisition and2D time-lapse history. Original filter and data/version correspondence unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Tiab, D., Donaldson, E., 2016. Petrophysics. Theory and Practice of Measuring Reservoir Rock and Fluid Transport Properties, 4th ed. Elsevier.",
+      "id": "R34",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: typical sandstone n1.6–2.6 range. Exact textbook edition/passages,assumptions and calibration transfer unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Wagner, F.M., Bergmann, P., Rücker, C., Wiese, B., Labitzke, T., Schmidt-Hattenberger, C., Maurer, H., 2015. Impact and mitigation of borehole related eﬀects in permanent crosshole resistivity imaging: an example from the Ketzin CO2 storage site. J. Appl. Geophys. 123, 102–111. http://dx.doi.org/10.1016/j.jappgeo.2015.10.005.",
+      "id": "R35",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3,7: borehole effects and ERT processing limitations. Original annulus/electrical model and magnitude unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Wiese, B., Böhner, J., Enachescu, C., Würdemann, H., Zimmermann, G., 2010. Hydraulic characterisation of the Stuttgart formation at the pilot test site for CO2 storage, Ketzin, Germany. Int. J. Greenh. Gas Control 4, 960–971. http://dx.doi.org/10.1016/ j.ijggc.2010.06.013.",
+      "id": "R36",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: pumping-test dates1.1–1.8m3/h and traditional ambiguity/barrier. Original tests,instrument swap/QA and reference pressures unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Wiese, B., Nimtz, M., Möller, F., Otto, C., Kühn, M., Liebscher, A., Schmidt-Hattenberger, C., 2012. Determination of thermodynamics in a CO2 injection well using pressure and distributed temperature sensing. IAHS Redbook 355, 286–290.",
+      "id": "R37",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: static gas-column correction550→640m and neglected friction/inertia. Original P/T/EOS/integral/metadata unverified."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Wiese, B., Wagner, F., Norden, B., Maurer, H., Schmidt-Hattenberger, C., 2018. Fully Coupled Inversion on a Multi-Physical Reservoir Model – Part I: Theory and Concept. Int. J. Greenh. Gas Control.",
+      "id": "R38",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2–5,7–8: essential PartI forward/inverse equations,kr,Archie,normalisation and double regularisation. Exact original/code not identified locally. p4 twice prints Wiese2008,this issue instead of the bibliography2018 identity; do not silently repair or certify derivations."
+    },
+    {
+      "pages": [
+        9
+      ],
+      "citation": "Zimmer, M., Erzinger, J., Kujawa, C., 2011. The gas membrane sensor (GMS): a new method for gas measurements in deep boreholes applied at the CO2 SINK site. Int. J. Greenh. Gas Control 5, 995–1001. http://dx.doi.org/10.1016/j.ijggc.2010.11.007.",
+      "id": "R39",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: GMS detection method. Original sensor dynamics,depth and uncertainty unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "citation": "Native three-well hydraulic tests and logger QA",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "All nine candidate pairs,seven retained histories,pump schedules,reference pressures,error logs and instrument-swap evidence unavailable. Exclusion is an author-reported diagnosis,not independently verified logger failure."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2,
+        4,
+        6
+      ],
+      "citation": "Native CO2 rate/pressure/arrival observations",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "5s streams,period averaging,5min display data,P/T/EOS gas-column correction,550/640m datums and well-annulus/detection metadata unavailable."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3,
+        6,
+        7
+      ],
+      "citation": "Native ERT coordinates,quality,filters and covariance",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "45-electrode geometry/contact data,1008 configurations,raw/reciprocal data,226×273 ratios and exact mean/median/gap treatment unavailable. No independent filter/uncertainty reproduction."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        3,
+        4
+      ],
+      "citation": "Native petrophysical experiments and electrode geometry",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Sample masses,salinities,saturation/equilibration data,n fits and complete-electrode model absent. Prose55mm/15mm dimensions versus Figure1 centimetre-axis scale need clarification."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "citation": "Reservoir geometry and hydraulic/multiphase/electrical forward cases",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Mesh/layers/screens,porosity/facies,permeability parameterisation,boundaries,PVT/injection histories and code/version unavailable. Plume net-thickness weighting not explicitly defined here."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        4,
+        5,
+        8
+      ],
+      "citation": "Unpublished relative-permeability/core and salt histories",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Figure4 initial curves explicitly use unpublished Ketzin core measurements. Endpoints/exponents,skin geometry,dynamic salt/rewetting and native phase behaviour missing."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "citation": "Objective,regularisers and inverse algorithm implementation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PartI details plus raw weights/covariance,priors,Jacobian,sensitivity thresholds,iterations/stopping choices and alternative starts missing. Table1 observation cost is not a full native optimisation reproduction."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        1,
+        8,
+        9
+      ],
+      "citation": "External data/code/supplements,errata and reuse rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit availability notice identified locally. Public assets/version/rights remain unverified during requested Chrome wait; native9-page article is unchanged."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        2,
+        4,
+        5,
+        8
+      ],
+      "status": "HOLD_DATA_REJECTION_BARRIER_NONUNIQUENESS",
+      "finding": "Suspect-data diagnosis and barrier resolution are not independently verified.",
+      "action": "Obtain raw logger/QA and alternative sensitivity cases; preserve barrier nonexclusion."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "status": "BLOCKED_NATIVE_SKIN_SALT_AND_RATE_TRANSFER",
+      "finding": "Static skin represents dynamic nearwell processes; geometry, phase state and controls are missing.",
+      "action": "Obtain salt/PNG/phase/skin time histories and target sweeps. No annual-rate transfer from factor8 or doubled pressure."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "status": "HOLD_ARCHIE_FILTER_COVARIANCE",
+      "finding": "Constant n, filter mapping, covariance, ambient transfer and borehole effects remain unresolved.",
+      "action": "Obtain raw ERT/lab data, exact filters, error covariance and alternative n fields. No apparent-ratio shortcut."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        4,
+        5,
+        7,
+        9
+      ],
+      "status": "BLOCKED_PARTI_INVERSE_IMPLEMENTATION",
+      "finding": "Essential PartI methods,2008 cross-references, weights, regularisers and native cases remain unverified.",
+      "action": "Obtain exact originals and code/version; do not invent the inverse algorithm or claim reproduction."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "HOLD_OBJECTIVE_NORMALISATION_SCOPE",
+      "finding": "ERT objective scaling and coarse table precision affect comparisons.",
+      "action": "Retain restored/rooted metrics and rounding intervals; obtain normalisations. Do not call cost roots raw percentage errors."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "status": "HOLD_SENSOR_DATUM_ARRIVAL_PROXY",
+      "finding": "Pressure correction, sensor delays and3% arrival proxy lack native verification.",
+      "action": "Obtain P/T/EOS, pressure references, completions and raw detection data; scoped Class support does not validate new predictions."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "status": "HOLD_GRAPHIC_SCALE_COLOUR",
+      "finding": "Core graphic scale and prediction-colour captions differ from prose/rendered legends.",
+      "action": "Preserve labels and roles; obtain original figure/model geometry before correction."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        7,
+        8
+      ],
+      "status": "HOLD_PLUME_PREDICTION_AND_RETENTION_SCOPE",
+      "finding": "Plume weighting, quantitative independent validation and retained-carbon outputs are absent.",
+      "action": "Obtain native plume/monitoring and mass/retention balances. No annual service or permanence inference."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        8,
+        9
+      ],
+      "status": "PENDING_ORIGINALS_ASSETS",
+      "finding": "One citation has scoped checks;38 originals, eight dependencies and external assets remain open.",
+      "action": "Continue exact originals/assets when permitted. Local absence is not public absence; external retrieval remains paused."
+    }
+  ],
+  "supplements": "No embedded files,appendices or explicit code/data/supplement notice identified in the unchangednine-pagePDF. Figure4 explicitly uses unpublished core measurements. PartI method original,native forward/inverse cases,raw monitoring/lab/SCAL,weights/filters and data reuse rights remain open. External retrieval remains paused pending requested Chrome connection; no public-asset absence or full model licence inferred.",
+  "reproduction": "audit_ketzin_inversion.py produces68 limited checks. Objective reductions/scaling, arrival deviations, counts/units and conditional Archie/radial identities are independently calculated. No native hydraulic, multiphase, electrical or double-regularised inversion is reproduced. Static-skin and true-bulk-resistivity examples are not field corrections, annual limits or retained carbon. One scoped Class2015 check does not complete that paper or its source chain.",
+  "paper1_use": "Use as evidence that multiple data types,measurement QA,nonuniqueness and model inadequacy matter for physical calibration. Preserve barrier nonexclusion and dynamic nearwell limitations. Exclude transfer of factor8,skin10,2×pressure,objective80% orsmallarrivalerrors to annualmaximumrate,safety/permanence,commercialaccess orGHGbenefit. No accepted numerical/operating/GHG input changes.",
+  "next_steps": "VerifyPartI2018and2008references,rawlogger/dataexclusions,pressure/sensorcorrections,ERTfilters/meanmedian/covariance,ambientcoregeometry/Archie/SCAL,skin/salt/phasegeometry andnativeforward/inversecases/rights. Reproducebalances/weights/regularisation/iteration/validationonlywithadequateinputs. ContinueB1-15comprehensiveauditlocally;itsselectedprimarypassagesarealreadycheckedbutnotfullreview."
+}

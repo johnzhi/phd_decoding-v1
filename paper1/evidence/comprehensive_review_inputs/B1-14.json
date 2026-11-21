@@ -1,0 +1,212 @@
+{
+  "study_id": "B1-14",
+  "source_path": "papers/B1-14.pdf",
+  "source_sha256": "7ec340fa668a4d1ae467095965d5619766b265ac7a994574eabffe567a58a093",
+  "physical_pages": 9,
+  "doi": "10.1016/j.ijggc.2018.04.009",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "scope": "Native values plus explicitly limited algebra/unit/normalisation examples; not full field inversion,pressure-limit,annual service or retained-carbon reproduction.",
+  "objective_groups": [
+    {
+      "group": "hydraulic",
+      "symbol": "phi_hyd",
+      "initial": 0.057,
+      "inverted": 0.02,
+      "reported_reduction_percent": 65,
+      "initial_display_step": 0.001,
+      "inverted_display_step": 0.01,
+      "objective_restore_factor": 1
+    },
+    {
+      "group": "arrival",
+      "symbol": "phi_arr",
+      "initial": 0.063,
+      "inverted": 0.0024,
+      "reported_reduction_percent": 96,
+      "initial_display_step": 0.001,
+      "inverted_display_step": 0.0001,
+      "objective_restore_factor": 1
+    },
+    {
+      "group": "CO2_pressure",
+      "symbol": "phi_p",
+      "initial": 0.25,
+      "inverted": 0.048,
+      "reported_reduction_percent": 81,
+      "initial_display_step": 0.01,
+      "inverted_display_step": 0.001,
+      "objective_restore_factor": 1
+    },
+    {
+      "group": "geoelectrical",
+      "symbol": "phi_ert",
+      "initial": 0.11,
+      "inverted": 0.025,
+      "reported_reduction_percent": 77,
+      "initial_display_step": 0.01,
+      "inverted_display_step": 0.001,
+      "objective_restore_factor": 10
+    }
+  ],
+  "objective_total": {
+    "initial": 0.48,
+    "inverted": 0.094,
+    "reported_reduction_percent": 80,
+    "initial_display_step": 0.01,
+    "inverted_display_step": 0.001
+  },
+  "objective_note": "Table1 p5 is observation objective,not full regularised cost. Prose says multiply ERT objective by10 to compare weighting. Square roots are normalised cost indicators,not verified raw percentage errors without PartI residual normalisations.",
+  "arrivals": [
+    {
+      "well": "Ktzi200",
+      "observed_days": 21.7,
+      "modelled_days": 21.8,
+      "reported_deviation_percent": 0.5,
+      "reported_deviation_step": 0.1,
+      "wellhead_lag_after_GMS_days": 1.5
+    },
+    {
+      "well": "Ktzi202",
+      "observed_days": 271,
+      "modelled_days": 283,
+      "reported_deviation_percent": 4,
+      "reported_deviation_step": 1,
+      "wellhead_lag_after_GMS_days": 3
+    }
+  ],
+  "monitoring": {
+    "hydraulic_tests": 3,
+    "hydraulic_wells": 3,
+    "excluded_pairs": [
+      "o200p201",
+      "o201p200"
+    ],
+    "retained_pairs": [
+      "o201p201",
+      "o202p201",
+      "o200p200",
+      "o202p200",
+      "o200p202",
+      "o201p202",
+      "o202p202"
+    ],
+    "hydraulic_rate_m3_h": [
+      1.1,
+      1.8
+    ],
+    "raw_CO2_acquisition_s": 5,
+    "display_CO2_pressure_interval_min": 5,
+    "rate_meter_upstream_m": 8,
+    "pressure_sensor_depth_m": 550,
+    "pressure_reference_depth_m": 640,
+    "GMS_depth_below_surface_m": 150,
+    "model_arrival_gas_saturation": 0.03,
+    "ERT_electrodes": 45,
+    "known_lost_lowermost_electrodes_Ktzi202": 7,
+    "max_ERT_current_A": 2.5,
+    "potential_range_V": [
+      5e-05,
+      0.1
+    ],
+    "candidate_configurations": 1008,
+    "max_geometric_factor_m": 10000.0,
+    "max_reciprocal_error_percent": 5,
+    "filter_window_days": 14,
+    "retained_configurations": 226,
+    "days_per_series": 273,
+    "total_ERT_ratios": 61698,
+    "filter_prose": "moving average",
+    "figure7_display_filter": "moving median",
+    "figure7_band": "2sigma moving standard deviation over two weeks"
+  },
+  "core": {
+    "height_mm": 55,
+    "radius_mm": 15,
+    "depth_m": 638,
+    "conditions": "ambient; repeated brine addition/equilibration",
+    "own_n": 2.6,
+    "previous_n": 1.62,
+    "other_n_range": [
+      1.65,
+      1.8
+    ],
+    "calibration_n_bounds": [
+      1.62,
+      2.6
+    ],
+    "calibrated_n": 1.62,
+    "figure1_axes": "x,y,z (cm),with z labelled0–0.5 over nearly entire depicted sample; scale versus prose5.5cm height unresolved",
+    "raw_masses": null
+  },
+  "skin": {
+    "calibrated": 10.1,
+    "rounded_conclusion": 10,
+    "zone_radius_m": 1,
+    "nearwell_permeability_mD": 15,
+    "reduction_factor_approx": 8,
+    "pressure_variation_factor_approx": 2,
+    "source_assumption": "Temporally constant equivalent skin only for CO2 model. Dynamic precipitation/dissolution not resolved.",
+    "well_radius_m": null,
+    "far_radius_m": null,
+    "native_pressure_log_factor": null
+  },
+  "model": {
+    "hydraulic_cell_m": [
+      5,
+      5
+    ],
+    "usual_iterations": [
+      3,
+      5
+    ],
+    "chosen_iteration": 5,
+    "bottomhole_Re_order": 1e-07,
+    "plume_times_days": [
+      31,
+      101,
+      146,
+      200
+    ],
+    "plume_units": "vertically integrated CO2 net thickness[m]; weighting not specified here",
+    "prior_injected_mass_kt_approx": 67,
+    "operation": "June2008–August2013",
+    "numbered_equations_in_this_part": 0,
+    "earlier_problem_fit_parameter_bound_mD": [
+      1,
+      1000
+    ]
+  },
+  "missing": {
+    "PartI_methods_code": null,
+    "raw_multi_physical_observations": null,
+    "mesh_layer_screen_and_boundary_cases": null,
+    "PVT_EOS_and_pressure_correction": null,
+    "relative_permeability_core_arrays": null,
+    "laboratory_saturation_resistivity": null,
+    "full_weight_normalisation_covariance": null,
+    "regularisation_and_native_iteration_cases": null,
+    "transient_salt_permeability_and_skin_geometry": null,
+    "independent_plume_validation_arrays": null,
+    "pressure_limited_maximum_rate_sweeps": null,
+    "long_term_retained_carbon_and_full_inventory": null,
+    "external_assets_and_full_model_rights": null
+  },
+  "analyst_examples": {
+    "Archie_resistivity_ratios": [
+      1.2,
+      2,
+      5
+    ],
+    "Archie_brine_saturations": [
+      0.2,
+      0.5,
+      0.8,
+      1
+    ],
+    "radial_log_terms": [
+      5,
+      10.1,
+      20
+    ]
+  }
+}
