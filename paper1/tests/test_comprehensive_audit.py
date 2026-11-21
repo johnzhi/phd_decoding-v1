@@ -94,7 +94,7 @@ class ComprehensiveAuditChecks(unittest.TestCase):
         self.assertEqual(len(review['equations']), 12)
         self.assertEqual(len(review['references']), 47)
         self.assertEqual(review['references'], bib['entries'])
-        self.assertEqual(sum(r['verification_status'].startswith('primary_text_checked') for r in review['references']), 1)
+        self.assertEqual(sum(r['verification_status'].startswith('primary_text_checked') for r in review['references']), 2)
         edge = json.loads((ROOT/'evidence/comprehensive_review_inputs/B1-14_citation_checks.json').read_text())
         self.assertEqual(edge['cited_study'], 'B1-15')
         self.assertEqual(edge['targeted_pages'], [1,2,3,5,6])

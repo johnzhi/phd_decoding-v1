@@ -1,0 +1,427 @@
+{
+  "study_id": "B1-17",
+  "source_sha256": "501636ee3d0ca636ffb0ba0ce6cac1cf4bd692346542d5aa1ca4f7feb7a1dc2b",
+  "printed_entries": 28,
+  "named_dependencies": 10,
+  "note": "Author-year entries transcribed from both columns; source line-wrap hyphens retained and rho glyph read from render. R-IDs are analyst identifiers, not source numbering.",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        11
+      ],
+      "citation": "Bachu, S., 2000. Sequestration of CO2 in geological media: criteria and approach for site selection in response to climate change. Energy Conversion and Manage- ment 41, 953–970.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Saline-site selection/resource suitability [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        11
+      ],
+      "citation": "Bentham, M., Kirby, G., 2005. CO2 storage in saline aquifers. Oil & Gas Science and Technology 60, 559–567.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Saline storage overview [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        11
+      ],
+      "citation": "Bradshaw, J., Bachu, S., Bonijoly, D., Burruss, R., Holloway, S., Christensen, N.P., Math- iassen, O.M., 2007. CO2 storage capacity estimation: issues and development of standards. International Journal of Greenhouse Gas Control 1, 62–68.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Global capacity/standards [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11
+      ],
+      "citation": "Förster, A., Schöner, R., Förster, H.-J., Norden, B., Blaschke, A.-W., Luckert, J., Beutler, G., Gaupp, R., Rhede, D., 2010. Reservoir characterization of a CO2 storage aquifer: the Upper Triassic Stuttgart Formation in the Northeast German Basin. Marine and Petroleum Geology 27, 2156–2172.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Geology and porosity [pp2–3]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        11
+      ],
+      "citation": "Henninges, J., Liebscher, A., Bannach, A., Brandt, W., Hurter, S., Köhler, S., Möller, F., CO2SINK Group, 2011. P–T–ρ and two-phase ﬂuid conditions with inverted density proﬁle in observation wells at the CO2 storage site at Ketzin (Germany). Energy Procedia 4, 6085–6090.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Two-phase observation columns and heat-pipe interpretation [pp8–9]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        11
+      ],
+      "citation": "Holloway, S., 2005. Underground sequestration of carbon dioxide – a viable green- house gas mitigation option. Energy 30, 2318–2333.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "General mitigation framing [p1]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        11
+      ],
+      "citation": "IPCC, 2005. Carbon Dioxide Capture and Storage. Intergovernmental Panel on Cli- mate Change. WMO & UNEP, Cambridge University Press, New York.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "General storage options and saline resource [pp1–2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        11
+      ],
+      "citation": "Jenkins, C.R., Cook, P.J., Ennis-King, J., Undershultz, J., Boreham, C., Dance, T., de Cari- tat, P., Etheridge, D.M., Freifeld, B.M., Hortle, A., Kirste, D., Paterson, L., Pevzner, R., Schacht, U., Sharma, S., Stalker, L., Urosevic, M., 2012. Safe storage and effective monitoring of CO2 in depleted gas ﬁelds. Proceedings of the National Academy of Sciences of the United States of America 109, E35–E41.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Depleted storage and Otway input [pp2,10]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        11
+      ],
+      "citation": "Kummerow, J., Spangenberg, E., 2011. Experimental evaluation of the impact of the interactions of CO2–SO2, brine, and reservoir rock on petrophysical proper- ties: a case study from the Ketzin test site, Germany. Geochemistry, Geophysics, Geosystems 12, Q05010.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Petrophysical experiments [p3]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        11
+      ],
+      "citation": "Liebscher, A., Martens, S., Möller, F., Kühn, M., 2012. On-shore CO2 storage in Germany – experiences gained from the Ketzin pilot site, Brandenburg, the sole German national CO2 storage project. In: Gluyas, J., Mathias, S. (Eds.), Geo- science of Carbon Dioxide (CO2) Storage. Woodhead Publishing Limited, ISBN 978 0 85709 427 8.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Two-phase interpretation [p8]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        11
+      ],
+      "citation": "Martens, S., Liebscher, A., Möller, F., Würdemann, H., Schilling, F., Kühn, M., Ketzin Group, 2011. Progress report on the ﬁrst European on-shore CO2 storage site at Ketzin (Germany) – second year of injection. Energy Procedia 4, 3246–3253.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior pilot progress [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        11
+      ],
+      "citation": "Martens, S., Kempka, Th., Liebscher, A., Lüth, S., Möller, F., Myrttinen, A., Nor- den, B., Schmidt-Hattenberger, C., Zimmer, M., Kühn, M., Ketzin Group, 2012. Europe’s longest-operating on-shore CO2 storage site at Ketzin, Germany: a progress report after three years of injection. Environmental Earth Sciences, http://dx.doi.org/10.1007/s12665-012-1672-5.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pilot history and context [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        11
+      ],
+      "citation": "Michael, K., Arnot, M., Cook, P., Ennis-King, J., Funnell, R., Kaldi, J.G., Kirste, D., Paterson, L., 2009. CO2 storage in saline aquifers I—current state of scientiﬁc knowledge. Energy Procedia 1, 3197–3204.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Saline literature overview [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        11
+      ],
+      "citation": "Michael, K., Golab, A., Shulakova, V., Ennis-King, J., Allinson, G., Sharma, S., Aiken, T., 2010. Geological storage of CO2 in saline aquifers – a review of the experi- ence from existing storage operations. International Journal of Greenhouse Gas Control 4, 659–667.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Site input provenance and storage review [p10]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        11
+      ],
+      "citation": "Möller, F., Liebscher, A., Martens, S., Schmidt-Hattenberger, C., Kühn, M., 2012. Yearly operational datasets of the CO2 storage pilot site Ketzin, Germany. Science and Technology Report, http://dx.doi.org/10.2312/GFZ.b103-12066.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Complete operational dataset reference [p3]; DOI10.2312/GFZ.b103-12066 is a located lead, not a retrieved/verified dataset. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        11
+      ],
+      "citation": "Norden, B., Förster, A., Vu-Hang, D., Marcelis, F., Springer, N., Le Nir, I., 2010. Litho- logical and petrophysical core-log interpretation in CO2SINK, the European CO2 onshore research storage and veriﬁcation project. SPE Reservoir Evaluation & Engineering 13, 179–192.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Core/log geology [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        11
+      ],
+      "citation": "Prevedel, B., Wohlgemuth, L., Henninges, J., Krüger, K., Norden, B., Förster, A., CO2SINK Drilling Group, 2008. The CO2SINK boreholes for geological storage testing. Scientiﬁc Drilling 6, 32–37.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Well completion/smart casing [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        11
+      ],
+      "citation": "Prevedel, B., Wohlgemuth, L., Legarth, B., Henninges, J., Schütt, H., Schmidt- Hattenberger, C., Norden, B., Förster, A., Hurter, S., 2009. The CO2SINK boreholes for geological CO2-storage testing. Energy Procedia 1, 2087–2094.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Well completion/smart casing [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        11
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Kießling, D., Krüger, K., Rücker, C., Schütt, H., Ketzin Group, 2011. Application of a vertical electrical resistivity array (VERA) for monitoring CO2 Migration at the Ketzin site: ﬁrst performance evaluation. Energy Procedia 4, 3363–3370.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Monitoring smart casing [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        11
+      ],
+      "citation": "Span, R., Wagner, W., 1996. A new equation of state for carbon dioxide covering the ﬂuid region from the triple-point temperature to 1100 K at pressures up to 800 MPa. Journal of Physical and Chemical Reference Data 25, 1509–1596.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "EOS for hypothetical hydrostatic columns [p10]; library backend metadata is not review of originalEOS derivation. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        11
+      ],
+      "citation": "van der Meer, B., 2005. Carbon dioxide storage in natural gas reservoirs. Oil & Gas Science and Technology 60, 527–536.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Depleted reservoir option [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        11
+      ],
+      "citation": "Wiese, B., Böhner, J., Enachescu, C., Würdemann, H., Zimmermann, G., 2010. Hydraulic characterisation of the Stuttgart formation at the pilot test site for CO2 storage, Ketzin, Germany. International Journal of Greenhouse Gas Control 4, 960–971.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Hydraulic permeability/test estimates [pp3,9]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        11
+      ],
+      "citation": "Wiese, B., Nimtz, M., Möller, F., Otto, C., Kühn, M., Liebscher, A., Schmidt- Hattenberger, C., 2012. Determination of thermodynamics in a CO2 injection well using pressure and distributed temperature sensing. IAHS Redbook 355, 286, 290.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure correction dynamics/thermodynamics [p3]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        11
+      ],
+      "citation": "Würdemann, H., Möller, F., Kühn, M., Heidug, W., Christensen, N.P., Borm, G., Schilling, F., CO2SINK Group, 2010. CO2SINK – from site characterisation and risk assessment to monitoring and veriﬁcation: one year of operational experi- ence with the ﬁeld laboratory for CO2 storage at Ketzin, Germany. International Journal of Greenhouse Gas Control 4, 938–951.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pilot history [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        11
+      ],
+      "citation": "Zemke, J., Stöwer, M., Arnold, C., Becker, W., May, F., Gerling, P., Krull, P., 2003. CO2 sequestration in Germany – general conditions and ﬁrst ﬁeld studies. In: Proceedings of the 22nd World Gas Conference, Tokyo 2003, June 1–5, 12 pp.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "German storage options [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        11
+      ],
+      "citation": "Zemke, K., Liebscher, A., Wandrey, M., 2010. Petrophysical analysis to investigate the effects of carbon dioxide storage in a subsurface saline aquifer at Ket- zin, Germany (CO2SINK). International Journal of Greenhouse Gas Control 4, 990–999.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Core petrophysics [p3]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        11
+      ],
+      "citation": "Zettlitzer, M., Möller, F., Morozova, D., Lokay, P., Würdemann, H., CO2SINK Group, 2010. Re-establishment of the proper injectivity of the CO2-injection well Ktzi 201 in Ketzin, Germany. International Journal of Greenhouse Gas Control 4, 952–959.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Injectivity restoration/test context [pp3,9]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        11
+      ],
+      "citation": "Zimmer, M., Erzinger, J., Kujawa, Ch., CO2SINK Group, 2011. The gas membrane sensor (GMS): a new methods for gas measurements in deep boreholes applied at the CO2SINK site. International Journal of Greenhouse Gas Control 5, 995–1001.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Gas membrane detection and arrival interpretation [pp6,8]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3
+      ],
+      "citation": "Native operational SCADA and mass reconciliation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact raw/averaged rate/P/T, sensor quality, delivery tickets/tank levels and non-injection outflows needed; yearly dataset original not verified."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2,
+        3,
+        8
+      ],
+      "citation": "Native plant heat/electricity/utility inventory",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Actual power, pump/compression/cooling, ambient heat, losses, restart duties and matched suppliers missing; nameplates do not close inventory."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3
+      ],
+      "citation": "Native ASPEN/Peng-Robinson correction and EOS original",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact thermal/compositional/pressure cases and implementation missing; constant2bar is a qualified source approximation."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "citation": "Native radial/isothermal/injectivity test fit",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Original geometry, properties, raw rates/pressures, weights, boundary/radial model details and solver missing. No maximum-pressure forecast inferred."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        8,
+        9
+      ],
+      "citation": "Native DTS thermal/phase/completion and integrity models",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact installation/thermal fields, phase fractions, logs and independent cement/corrosion/leak validation missing."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "citation": "P300 nondetection and hydraulic-transfer bound",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Gaps, measurement/processing response, coverage and quantitative leakage/transfer detection limit absent."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        9,
+        10
+      ],
+      "citation": "Hypothetical phase closure, stability and exact author code",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Sleipner reaches liquid/gas ambiguity. No mixture quality/interface rule, native EOS implementation, exactg or dynamic stability/failure model supplied. Three single-phase implementations do not close these gaps."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        10
+      ],
+      "citation": "Courtesy Statoil Snovhit initial conditions",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No named original underlying dataset/version supplied; keep sourceTable2 spelling/provenance and historic parameters."
+    },
+    {
+      "id": "N09",
+      "pages": [
+        10
+      ],
+      "citation": "Courtesy Cenovus Weyburn initial conditions",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No named original underlying dataset/version supplied; no current field identity/access or independent input validation inferred."
+    },
+    {
+      "id": "N10",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "External supplements/code/errata and underlying access",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit supplement notice identified locally. Public assets, originals and exact code/rights remain unverified during requested Chrome wait."
+    }
+  ]
+}

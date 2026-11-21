@@ -1,0 +1,1087 @@
+{
+  "study_id": "B1-17",
+  "source_sha256": "501636ee3d0ca636ffb0ba0ce6cac1cf4bd692346542d5aa1ca4f7feb7a1dc2b",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All11 physical pages read and visually inspected: eight figures, two tables, one unnumbered source recurrence and13 analyst identities/dependencies.45 limited checks and independent hypothetical-column calculations preserve source pressure/sampling/calendar/utility/test limits. Three single-phase columns are reconstructed under disclosed backend/constants; Sleipner stops at phase ambiguity. No native monitoring, ASPEN correction, radial test fit or dynamic reservoir model reproduced. All28 underlying originals and ten named dependencies remain unverified.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "original_model_status": "three_stated_single_phase_hypothetical_columns_reconstructed_under_disclosed_backend_Sleipner_phase_closure_open_native_monitoring_ASPEN_radial_reservoir_models_not_reproduced",
+  "supplement_status": "no_embedded_files_or_explicit_notice_identified_external_assets_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication and abstract",
+      "assessment": "Author/date/DOI/open-access CC BY-NC-ND notice and every abstract claim inspected. Continuous startJune30, as-ofSeptember2012 mass61396t, two source grades and monitoring scope preserved. Safe operation and no-hint leakage interpretations do not supply maximum service or a retained-carbon fraction."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Entire introduction",
+      "assessment": "Every geological-storage, natural-gas/EOR comparison, saline/depleted resource, pilot-roadmap and public-confidence paragraph read. General capacities, availability and knowledge claims depend on unverified original literature; current legal/commercial access is not established."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "Site infrastructure",
+      "assessment": "All well labels, offsets/triangle, strings/liners/smart casing, tubing, P300, tanks, pumps, electrical/ambient heaters and plant-rate/pipeline descriptions read. Equipment nameplates and desired endpoints are not actual utility consumption or reservoir injectivity."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3
+      ],
+      "scope": "Site geology and operation history",
+      "assessment": "All formation/porosity/permeability/seal, source-era storage-complex boundary, CO2 supply/purity, mass and drilling shut-in paragraphs read. Purity basis/complete composition and native geological fields remain missing. The final67000t reported elsewhere has a later date, not an automatic contradiction."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        3
+      ],
+      "scope": "Overall operational monitoring",
+      "assessment": "Every recorded variable, sensor period, WHP isolation afterMay2012, SCADA arithmetic5min averages and gauge-to-absolute convention read. Raw acquisition, archived averaging and special high-frequency figure data have different scopes."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        3
+      ],
+      "scope": "Section3.1 flow and cumulative mass",
+      "assessment": "Coriolis meter8m upstream, gaseous measurement after heating, nominal±.35% reading accuracy, integrated flow and delivery-ticket/tank-level cross-check read. Instrument accuracy is not complete systematic uncertainty or an independently reconciled injection/retention balance."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        3
+      ],
+      "scope": "Section3.2 temperature methods",
+      "assessment": "Surface classB gauges,550m fibre-bragg tool, optical cable, RMS and DTS3min/1m/~.1C resolutions inspected. DTS outside tubing is not a complete fluid heat/enthalpy balance. Exact raw curves and thermal properties missing."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "Section3.3 pressure methods",
+      "assessment": "WHP error,550m gauge, native ASPEN/Peng-Robinson reference and constant2bar approximation to630m read. Source explicitly says actual correction changes with rate/temperature and calculated630m BHP is not stored in SCADA. Observation gauges620m and timing retained."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        4
+      ],
+      "scope": "Section3.4 additional monitoring",
+      "assessment": "All wireline validation depths/absolute basis and P300 gauges417.8/20.55m read. Table1 caption, listed dates and prose scopes differ. These data are not synchronized full pressure histories or an independently reproduced calibration."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        4
+      ],
+      "scope": "Section4.1 injection regimes",
+      "assessment": "Commissioning, continuous test, normal operation, monthly means, research tests, pressure rise/stabilisation, nitrogen admission and drilling shutdown read. Stabilised73–79bara is an outcome, not a fracture/BHP ceiling. Different experiments and nitrogen alter WHP response."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        4
+      ],
+      "scope": "Section4.2 above-zone response",
+      "assessment": "P30042.05–42.12bara and February/June/August2012 gaps read. No detectable correlated response is reported, but no quantitative hydraulic/leakage detection bound is supplied."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        4,
+        6
+      ],
+      "scope": "Section4.3 WHP versus BHP",
+      "assessment": "All depth/relaxation, attenuation, inverse WHP/BHP and diurnal patterns read. Different well depths, column states, sensor errors and thermal effects prevent a fixed WHP-to-BHP service conversion."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "Section4.4 specific tests",
+      "assessment": "All four isochronal stages, subsequent2800kg/h, radial homogeneous infinite-boundary fit29.6mD/Pi73.8bara, four14day cycles and response/delay statements inspected. Full fit inputs and solver unavailable. Apparent pressure-span ratio is not a universal transfer function."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        6,
+        8
+      ],
+      "scope": "Section4.5 arrival effects",
+      "assessment": "All GMS150m detections, dates/flowmeter masses, preceding WHP changes, other gas response,12h delay and subsequent well filling read. Continuous-start calendar differs from commissioning clocks; observation-well filling is not geological first contact or plume mass."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        8
+      ],
+      "scope": "Section4.6 DTS",
+      "assessment": "All three operational purposes, nitrogen/no-nitrogen shut-in, heat-pipe, restart heating and optimisation statements read. No actual before/after energy/time saving or full transient/phase/heat model supplied."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        9
+      ],
+      "scope": "Section5.1 discussion",
+      "assessment": "All operational engineering, coupling, mean-rate/pressure and above-zone interpretations read. Caption/discussion claims of proved lack of any connection/leakage exceed a quantified nondetection bound; no bound or permanent mass closure computed."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        9
+      ],
+      "scope": "Section5.2 tubing discussion",
+      "assessment": "Every cooling/lithology/thermal conductivity/completion/171m cementation example and future integrity indication read. Claimed indirect diagnostic potential is not independently validated corrosion/cement/leakage probability."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        9
+      ],
+      "scope": "Section5.3 test limitations",
+      "assessment": "Authors explicitly say equipment-limited pressure impulses and injection-versus-withdrawal differences prevent classical performance interpretation or forecast of maximum injection pressure/reservoir behaviour.29.6mD and prior50–100mD estimates retain different test/model support."
+    },
+    {
+      "id": "S19",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "Section5.4 phase explanation",
+      "assessment": "Every two-phase column/WHP-BHP explanation, liquid level, temperature, hypothetical-site selection and pressure-depth recommendation read. Four hypothetical columns have stated T boundary and hydrostatic recurrence; phase closure and exact author code are missing. Static hydrostatic paths do not reproduce dynamic collapse or prove a universal1500/2000m rule."
+    },
+    {
+      "id": "S20",
+      "pages": [
+        10
+      ],
+      "scope": "Conclusions",
+      "assessment": "Every recommendation and site-specific qualification read. Downhole/DTS monitoring recommendations are methodological; once site-specific correlation is established authors permit sporadic downhole checks. No annual safe rate, permanent-retention or full-chain utility factor supplied."
+    },
+    {
+      "id": "S21",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "Acknowledgements and full bibliography",
+      "assessment": "Funding/review notices and all28 author-year entries inspected, including exact operational-dataset DOI, two-phase source, EOS and test references. Ten additional named dependencies remain open; bibliography transcription is not reading underlying originals."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        2
+      ],
+      "object": "Figure1: location/aerial layout and insets",
+      "inspection": "Every caption, well label,20m scale, regional map, triangle/50m/100m/112m, plant tanks/heaters/pipeline and P300 inspected. Rounded triangle lengths are compatible; no exact coordinate, transport route or commercial site access recovered."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        5
+      ],
+      "object": "Figure2: full injection and pressure history",
+      "inspection": "All three well pressure panels,550/620/630m legends, WHP/BHP colours, wireline dots, nitrogen and research-test bars, lower orange cumulative10^3t/blue rate t/h and date axis inspected. Extrapolated630m BHP is distinct from measured550m. Raster traces are not exact native telemetry."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        5
+      ],
+      "object": "Figure3A/B: early P–T and P300",
+      "inspection": "All pressure/temperature axes,550/630/417.8m labels, nitrogen shut-ins, date axes and caption inspected. A caption saysJuly1–August1 2011, but axis/first-weeks context show2008; retain conflict. Special5s P–T plot is distinct from5min SCADA means. B no-response/gaps do not prove zero leakage."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        6
+      ],
+      "object": "Figure4: observation/injector pressure and diurnal effects",
+      "inspection": "Both A windows, broken pressure-axis intervals, all well/depth/rate legends, dates, B diurnal times6–7am/5–6pm and caption inspected. Caption calls one response injection wells where panels name observers; preserve identities. Inverse/attenuated WHP signals do not support uncalibrated WHP extrapolation."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        7
+      ],
+      "object": "Figure5: isochronal fit and four-cycle response",
+      "inspection": "All numerical-fit/measurement and rate legends,29.6mD and homogeneous infinite-boundary assumptions, cycle labels and axes inspected. Source notes first-cycle mismatch. Approximate1.5/.5bar spans and one-day delay do not reproduce a native fit or transfer kernel."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        7
+      ],
+      "object": "Figure6: arrival/WHP, cumulative mass and rate",
+      "inspection": "Both wells, enlarged pressure insets, July15/Mar21 GMS arrows, cumulative10^3t/rate panels, legends and caption inspected. Sensor detection, precursor WHP, different origins and well filling remain separate; no exact geological first-arrival or raw series recovered."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        8
+      ],
+      "object": "Figure7: DTS profiles and lithology/completion",
+      "inspection": "Both profiles, all pre-injection/N2/no-N2 dates, restart times12:02/15:02/17:01, depths/temperature axes, vapour/liquid-dominated annotations and complete schematic inspected. Casing diameters/depths and tubing gauge are separate objects. No native heat balance, phase fractions or corrosion model recovered."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        10
+      ],
+      "object": "Figure8: site points and hypothetical paths",
+      "inspection": "All nine numbered site labels, blue~2.3/red~3.2bar/C bands, solid/dashed/phase-boundary lines, axes and caption inspected. Three independently reconstructed single-phase columns have approximate displayed-endpoint checks; Sleipner stops at phase ambiguity. Curves are hypothetical, not monitored columns, current service limits or validated universal depth cutoffs."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        4
+      ],
+      "object": "Table1: seven logging campaigns",
+      "inspection": "All seven multiday-date rows and sixteen pressure/temperature pairs inspected; blank cells stay null. All pressure unitsbara and620/630/620m footnote preserved. Caption untilJune2013 differs from latest listedOctober2011/prose period; no missing campaigns invented or multiday observations treated simultaneous."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        10
+      ],
+      "object": "Table2: nine initial P–T-depth cases",
+      "inspection": "Every site/number/T/P/depth/source row inspected. Table itself saysbar; EOS evaluation interprets pressure as absolute, disclosed. Own-data/literature/courtesyStatoil/Cenovus origins retained. Historic idealised input values are not matched current commercial reservoir datasets."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        10
+      ],
+      "expression": "P(z2)=P(z1)−rho(z1)*g*abs(z1−z2); abs(z1−z2)=.1m",
+      "interpretation_and_check": "Unnumbered source recurrence, upward march. SI units required forrho*g*distance; convert reported bar toPa and temperatureC toK for EOS. Pure CO2 density is specified viaSpan-Wagner; phase quality/handling and numericalg are not supplied. Three single-phase cases independently reconstructed under disclosed constants/backend; fourth remains phase-blocked."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        10
+      ],
+      "expression": "T(z)=8C+(Tres−8C)*z/zres",
+      "interpretation_and_check": "Analyst explicit form of source linear temperature-depth interpolation. Fixed imposed thermal profile, not a transient heat balance or proof of fluid-dynamic stability."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        3,
+        4
+      ],
+      "expression": "Pabs=Pgauge+1bar; P630≈P550+2bar",
+      "interpretation_and_check": "Source prose conversions transcribed as identities.1bar atmosphere is assumed;2bar is approximate and not stored SCADA output. Do not add atmosphere to already absolute wireline values or transfer this80m correction to640m."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        3
+      ],
+      "expression": "rho_implied=2e5Pa/(g*80m)",
+      "interpretation_and_check": "Analyst dimensional reading of constant2bar correction. Not a measured average density or reproduced ASPEN/Peng-Robinson case."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        3
+      ],
+      "expression": "M_flow=integral(q dt); M_ticket_balance=M_delivered+M_tank_initial−M_tank_final",
+      "interpretation_and_check": "Source cumulative methods expressed algebraically. Missing non-injection outflows, tank/ticket corrections and uncertainty prevent treating inventory difference as independently verified injected or retained mass."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        2,
+        3
+      ],
+      "expression": "specific_nameplate_ratio=Pheater,max/qplant,max; mdot*(hout−hin)=Qelectric+Qambient−losses",
+      "interpretation_and_check": "Analyst conditional equipment ratio/energy boundary.300kW/3.25t/h is not an actual utility intensity;53K endpoint difference is not enthalpy. Missing phases, pressure, actual power and ambient/loss duty remain excluded."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        6,
+        7
+      ],
+      "expression": "M_test=sum(qi*4h); cycle_duration=4h+4h; four_long_cycles=4*14days",
+      "interpretation_and_check": "Source schedule arithmetic, not test-fit reproduction or annual availability. Preserve inclusive-versus-elapsed date convention and actual rate fluctuations."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        6,
+        9
+      ],
+      "expression": "radial fit inferred k depends on pressure/rate history, mobility, geometry and boundary model",
+      "interpretation_and_check": "Source/prose model dependency, not an explicit printed Darcy fit equation. Only the29.6mD/Pi73.8 outcome is supplied; no assumed full fit specification or universal field permeability inferred."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        9,
+        10
+      ],
+      "expression": "1/rho_mix=(1−x)/rho_liquid+x/rho_vapour at saturation",
+      "interpretation_and_check": "Analyst mass-quality identity. At pure-fluid coexistence P,T alone do not specify bulk density without phase/quality/interface closure. No x or forced-phase rule invented to complete Sleipner."
+    },
+    {
+      "id": "D09",
+      "pages": [
+        4,
+        9
+      ],
+      "expression": "no_detected_correlated_pressure_response does not imply hydraulic_transfer=0 or leakage_mass=0",
+      "interpretation_and_check": "Analyst logical scope check. Quantitative detection/transfer bounds and mass accounting are absent; no retained-carbon probability assigned."
+    },
+    {
+      "id": "D10",
+      "pages": [
+        10
+      ],
+      "expression": "compare Psurface(h=.2,.1,.05m); displayed_curve_endpoint≠native_model_array",
+      "interpretation_and_check": "Analyst discretisation/graphic checks. Refinements assess independent recurrence stability;2bar graphic tolerance is explicitly analyst-selected, not author accuracy or measured uncertainty."
+    },
+    {
+      "id": "D11",
+      "pages": [
+        1,
+        4,
+        6
+      ],
+      "expression": "elapsed_days=end_date−start_date",
+      "interpretation_and_check": "Analyst calendar identity distinguishes commissioning/continuous start and sensor detection.56-day cyclic schedule is compatible with55elapsed/inclusive56; no arrival clock or downtime factor silently repaired."
+    },
+    {
+      "id": "D12",
+      "pages": [
+        10
+      ],
+      "expression": "G_PT≈P_res/(T_res−8C) [bar/K]",
+      "interpretation_and_check": "Analyst description of plotted broad pressure-temperature bands. Not geothermal K/m, a universal phase law, fracture constraint or maximum injection pressure."
+    },
+    {
+      "id": "D13",
+      "pages": [
+        2
+      ],
+      "expression": "sqrt(50m^2+100m^2)≈112m",
+      "interpretation_and_check": "Analyst check of rounded plan inset. No coordinate reconstruction, connection length or injection geometry beyond reported schematic."
+    }
+  ],
+  "variables": [
+    "P in reported bar/bara must be converted toPa forrho*g*dz. Table2 saysbar; hypothetical EOS evaluation explicitly interprets absolute pressure, consistent with Ketzin62bara. Gauge and absolute observations are not interchangeable.",
+    "Source names gravityg but gives no numeric value. Independent component uses analyst standard9.80665m/s2, CoolProp8.0.0 HEOS/CO2 with Span1996 EOS metadata, and stated0.1m upward steps.",
+    "Depthz is positive downward; upward step subtracts positive hydrostatic head. Linear source T(z) has8C surface and reported reservoir endpoint; EOS receives Kelvin. No friction, transient heat, composition or dynamic stability is solved in this component.",
+    "Pure-fluid saturationP/T does not specify bulk density without phase/quality/interface closure. No forced phase, clipped saturation curve or guessed quality is inserted. Sleipner remains partial; three other columns are single-phase implementations only.",
+    "Constant+2bar from550 to630m is approximate and state dependent, not archived SCADA BHP. B1-14’s550-to640m reference and another paper’s639.5m are different quantities.",
+    "WHP pressure-error percentage basis,550m gauge<±1bar, mass-meter±.35% and DTS .1C resolution are distinct. They do not establish total historical error or leakage detection bounds.",
+    "SCADA5min arithmetic means differ from special5s pressure example and DTS3min profiles. Aggregation does not establish independent samples or complete raw-rate archive.",
+    "Table1 blanks are missing observations;16P/T pairs at different depths and multiday campaign dates are not simultaneous gradients. Caption/prose/listed-date ranges remain unresolved.",
+    "Plant3250kg/h, heater300kWmax, two50t tanks and delivery−18C/desired35C are nameplate/endpoint quantities. Ambient heat, actual enthalpy/power/losses and complete process inventory are missing.",
+    "Purity>99.9/>99.7% lacks a stated mass/mole basis and complete species. Source-origin share1515/61396 is not a mixture property, captured-versus-avoided or retained-carbon calculation.",
+    "Observed73–79bara, initial62bara and fittedPi73.8bara belong to different times/models. None is an authorised injection ceiling or maximum-rate sweep.",
+    "Radial29.6mD fit assumes homogeneous infinite-boundary vertical-well model. Prior50–100mD hydraulic estimates, channel~100mD and calibrated native tensors have different supports.",
+    "Four8h isochronal stages and four14day research cycles are test schedules, not annual availability or outage distributions. Nitrogen admission changes WHP during selected shut-ins.",
+    "GMS150m detections, WHP precursors and geological first contact have different delays. June30 continuous start follows commissioning; other studies’June24/21.7day clocks cannot be silently equated.",
+    "P300 pressure is at417.8m and includes gaps. Noncorrelation over recorded windows does not assign zero hydraulic connection, zero leakage mass or long-term retained fraction.",
+    "Hypothetical nine-site initial conditions retain literature/own/courtesy provenance. Pressure-temperature bands~2.3/3.2bar/K are not thermal K/m or universal phase/safety thresholds.",
+    "DisplayedBezier endpoint checks use an analyst2bar graphic tolerance and exactPDF coordinates. They are not native author arrays or measured uncertainty. Fine numerical precision in calculations is not source-data certainty."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        3
+      ],
+      "claim": "61396t bySeptember2012 and two supply grades",
+      "assessment": "Native reported total/date/purity retained. Later67000t has different time scope. No purity-to-mixture/heat/GHG conversion without composition and inventory."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Plant can reach3250kg/h and month totals700–2340t",
+      "assessment": "Equipment setpoint and historical achieved totals are not a maximum pressure-constrained reservoir envelope or annual service."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        3
+      ],
+      "claim": "Flow integration and ticket/tank balance provide mass records",
+      "assessment": "Two stated approaches, but raw inputs, quality flags, venting and reconciliation unavailable. Nominal meter±.35% does not bound the full historical mass uncertainty."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "BHP at630m from550m sensor can use2bar correction",
+      "assessment": "Authors explicitly qualify state dependence and do not store this derived series in SCADA. No exact native ASPEN correction or transfer toB1-14’s640m reference is reproduced."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        4,
+        9
+      ],
+      "claim": "Quasi-stationary pressure correlates with rate",
+      "assessment": "Reported period-dependent relation. Research regime/temperature/column/sensor and cumulative history prevent inferring a unique k or safe maximum from two period means."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "claim": "P300 proves no hydraulic connection/leakage",
+      "assessment": "No correlated response reported, with gaps and no detection/transfer bound. Caption/discussion certainty does not provide zero leakage, long-term retention or full mass closure."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        4,
+        6,
+        9
+      ],
+      "claim": "Wellhead and downhole pressures can be decoupled",
+      "assessment": "Supported by source plots and qualitative phase interpretation. Downhole data are required before site-specific extrapolation; no universal correction or service factor adopted."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "claim": "Modified test yields29.6mD but not maximum-pressure prediction",
+      "assessment": "Source fit under homogeneous infinite radial assumptions has first-cycle residual. Full inputs/fit remain unreproduced; authors expressly exclude classical maximum-pressure/reservoir forecast."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Cyclic response attenuated and delayed byabout1day",
+      "assessment": "Approximate source response-span ratio1/3 is not a full linear transfer function, validated pressure-diffusion fit or annual availability factor."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        6,
+        8
+      ],
+      "claim": "Arrival produces WHP increase and later filling",
+      "assessment": "GMS150m detections and pressure precursors follow different mechanisms/definitions. Rates/masses from meter not native reconciled records; no exact geological arrival or plume volume inferred."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "DTS improves restart energy/time and integrity information",
+      "assessment": "Operational method and qualitative improvement reported; no measured savings, full heat/phase model or validated future cement/corrosion/leak probability supplied."
+    },
+    {
+      "id": "C12",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Two-phase columns explain WHP/BHP inversion",
+      "assessment": "Physically motivated interpretation with an explicit hypothetical static recurrence. Three single-phase calculations reconstructed; Sleipner’s missing phase closure blocks full two-phase path. Native observations/phase levels remain unverified."
+    },
+    {
+      "id": "C13",
+      "pages": [
+        10
+      ],
+      "claim": "Two-phase likelihood depends on1500/2000m ranges",
+      "assessment": "Hypothetical site/thermal/pressure/composition assumptions, not a transferable depth safety rule. Table2 literature/courtesy origins unverified and heating can alter near-wellhead phase."
+    },
+    {
+      "id": "C14",
+      "pages": [
+        10
+      ],
+      "claim": "Inverted density columns are stable while confined but collapse afterfailure",
+      "assessment": "Static hydrostatic recurrence contains no time-dependent stability/convection/failure model. Independent static profiles do not validate this dynamic claim or a leakage risk probability."
+    },
+    {
+      "id": "C15",
+      "pages": [
+        10
+      ],
+      "claim": "Downhole/DTS monitoring should be site-specific",
+      "assessment": "Methodological recommendation retains authors’ shallow-site and established-correlation qualifications. Not proof of universal current sensor compliance, permanent containment or available commercial service."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        11
+      ],
+      "citation": "Bachu, S., 2000. Sequestration of CO2 in geological media: criteria and approach for site selection in response to climate change. Energy Conversion and Manage- ment 41, 953–970.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Saline-site selection/resource suitability [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        11
+      ],
+      "citation": "Bentham, M., Kirby, G., 2005. CO2 storage in saline aquifers. Oil & Gas Science and Technology 60, 559–567.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Saline storage overview [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        11
+      ],
+      "citation": "Bradshaw, J., Bachu, S., Bonijoly, D., Burruss, R., Holloway, S., Christensen, N.P., Math- iassen, O.M., 2007. CO2 storage capacity estimation: issues and development of standards. International Journal of Greenhouse Gas Control 1, 62–68.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Global capacity/standards [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11
+      ],
+      "citation": "Förster, A., Schöner, R., Förster, H.-J., Norden, B., Blaschke, A.-W., Luckert, J., Beutler, G., Gaupp, R., Rhede, D., 2010. Reservoir characterization of a CO2 storage aquifer: the Upper Triassic Stuttgart Formation in the Northeast German Basin. Marine and Petroleum Geology 27, 2156–2172.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Geology and porosity [pp2–3]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        11
+      ],
+      "citation": "Henninges, J., Liebscher, A., Bannach, A., Brandt, W., Hurter, S., Köhler, S., Möller, F., CO2SINK Group, 2011. P–T–ρ and two-phase ﬂuid conditions with inverted density proﬁle in observation wells at the CO2 storage site at Ketzin (Germany). Energy Procedia 4, 6085–6090.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Two-phase observation columns and heat-pipe interpretation [pp8–9]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        11
+      ],
+      "citation": "Holloway, S., 2005. Underground sequestration of carbon dioxide – a viable green- house gas mitigation option. Energy 30, 2318–2333.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "General mitigation framing [p1]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        11
+      ],
+      "citation": "IPCC, 2005. Carbon Dioxide Capture and Storage. Intergovernmental Panel on Cli- mate Change. WMO & UNEP, Cambridge University Press, New York.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "General storage options and saline resource [pp1–2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        11
+      ],
+      "citation": "Jenkins, C.R., Cook, P.J., Ennis-King, J., Undershultz, J., Boreham, C., Dance, T., de Cari- tat, P., Etheridge, D.M., Freifeld, B.M., Hortle, A., Kirste, D., Paterson, L., Pevzner, R., Schacht, U., Sharma, S., Stalker, L., Urosevic, M., 2012. Safe storage and effective monitoring of CO2 in depleted gas ﬁelds. Proceedings of the National Academy of Sciences of the United States of America 109, E35–E41.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Depleted storage and Otway input [pp2,10]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        11
+      ],
+      "citation": "Kummerow, J., Spangenberg, E., 2011. Experimental evaluation of the impact of the interactions of CO2–SO2, brine, and reservoir rock on petrophysical proper- ties: a case study from the Ketzin test site, Germany. Geochemistry, Geophysics, Geosystems 12, Q05010.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Petrophysical experiments [p3]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        11
+      ],
+      "citation": "Liebscher, A., Martens, S., Möller, F., Kühn, M., 2012. On-shore CO2 storage in Germany – experiences gained from the Ketzin pilot site, Brandenburg, the sole German national CO2 storage project. In: Gluyas, J., Mathias, S. (Eds.), Geo- science of Carbon Dioxide (CO2) Storage. Woodhead Publishing Limited, ISBN 978 0 85709 427 8.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Two-phase interpretation [p8]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        11
+      ],
+      "citation": "Martens, S., Liebscher, A., Möller, F., Würdemann, H., Schilling, F., Kühn, M., Ketzin Group, 2011. Progress report on the ﬁrst European on-shore CO2 storage site at Ketzin (Germany) – second year of injection. Energy Procedia 4, 3246–3253.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior pilot progress [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        11
+      ],
+      "citation": "Martens, S., Kempka, Th., Liebscher, A., Lüth, S., Möller, F., Myrttinen, A., Nor- den, B., Schmidt-Hattenberger, C., Zimmer, M., Kühn, M., Ketzin Group, 2012. Europe’s longest-operating on-shore CO2 storage site at Ketzin, Germany: a progress report after three years of injection. Environmental Earth Sciences, http://dx.doi.org/10.1007/s12665-012-1672-5.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pilot history and context [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        11
+      ],
+      "citation": "Michael, K., Arnot, M., Cook, P., Ennis-King, J., Funnell, R., Kaldi, J.G., Kirste, D., Paterson, L., 2009. CO2 storage in saline aquifers I—current state of scientiﬁc knowledge. Energy Procedia 1, 3197–3204.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Saline literature overview [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        11
+      ],
+      "citation": "Michael, K., Golab, A., Shulakova, V., Ennis-King, J., Allinson, G., Sharma, S., Aiken, T., 2010. Geological storage of CO2 in saline aquifers – a review of the experi- ence from existing storage operations. International Journal of Greenhouse Gas Control 4, 659–667.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Site input provenance and storage review [p10]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        11
+      ],
+      "citation": "Möller, F., Liebscher, A., Martens, S., Schmidt-Hattenberger, C., Kühn, M., 2012. Yearly operational datasets of the CO2 storage pilot site Ketzin, Germany. Science and Technology Report, http://dx.doi.org/10.2312/GFZ.b103-12066.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Complete operational dataset reference [p3]; DOI10.2312/GFZ.b103-12066 is a located lead, not a retrieved/verified dataset. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        11
+      ],
+      "citation": "Norden, B., Förster, A., Vu-Hang, D., Marcelis, F., Springer, N., Le Nir, I., 2010. Litho- logical and petrophysical core-log interpretation in CO2SINK, the European CO2 onshore research storage and veriﬁcation project. SPE Reservoir Evaluation & Engineering 13, 179–192.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Core/log geology [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        11
+      ],
+      "citation": "Prevedel, B., Wohlgemuth, L., Henninges, J., Krüger, K., Norden, B., Förster, A., CO2SINK Drilling Group, 2008. The CO2SINK boreholes for geological storage testing. Scientiﬁc Drilling 6, 32–37.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Well completion/smart casing [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        11
+      ],
+      "citation": "Prevedel, B., Wohlgemuth, L., Legarth, B., Henninges, J., Schütt, H., Schmidt- Hattenberger, C., Norden, B., Förster, A., Hurter, S., 2009. The CO2SINK boreholes for geological CO2-storage testing. Energy Procedia 1, 2087–2094.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Well completion/smart casing [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        11
+      ],
+      "citation": "Schmidt-Hattenberger, C., Bergmann, P., Kießling, D., Krüger, K., Rücker, C., Schütt, H., Ketzin Group, 2011. Application of a vertical electrical resistivity array (VERA) for monitoring CO2 Migration at the Ketzin site: ﬁrst performance evaluation. Energy Procedia 4, 3363–3370.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Monitoring smart casing [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        11
+      ],
+      "citation": "Span, R., Wagner, W., 1996. A new equation of state for carbon dioxide covering the ﬂuid region from the triple-point temperature to 1100 K at pressures up to 800 MPa. Journal of Physical and Chemical Reference Data 25, 1509–1596.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "EOS for hypothetical hydrostatic columns [p10]; library backend metadata is not review of originalEOS derivation. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        11
+      ],
+      "citation": "van der Meer, B., 2005. Carbon dioxide storage in natural gas reservoirs. Oil & Gas Science and Technology 60, 527–536.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Depleted reservoir option [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        11
+      ],
+      "citation": "Wiese, B., Böhner, J., Enachescu, C., Würdemann, H., Zimmermann, G., 2010. Hydraulic characterisation of the Stuttgart formation at the pilot test site for CO2 storage, Ketzin, Germany. International Journal of Greenhouse Gas Control 4, 960–971.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Hydraulic permeability/test estimates [pp3,9]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        11
+      ],
+      "citation": "Wiese, B., Nimtz, M., Möller, F., Otto, C., Kühn, M., Liebscher, A., Schmidt- Hattenberger, C., 2012. Determination of thermodynamics in a CO2 injection well using pressure and distributed temperature sensing. IAHS Redbook 355, 286, 290.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure correction dynamics/thermodynamics [p3]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        11
+      ],
+      "citation": "Würdemann, H., Möller, F., Kühn, M., Heidug, W., Christensen, N.P., Borm, G., Schilling, F., CO2SINK Group, 2010. CO2SINK – from site characterisation and risk assessment to monitoring and veriﬁcation: one year of operational experi- ence with the ﬁeld laboratory for CO2 storage at Ketzin, Germany. International Journal of Greenhouse Gas Control 4, 938–951.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pilot history [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        11
+      ],
+      "citation": "Zemke, J., Stöwer, M., Arnold, C., Becker, W., May, F., Gerling, P., Krull, P., 2003. CO2 sequestration in Germany – general conditions and ﬁrst ﬁeld studies. In: Proceedings of the 22nd World Gas Conference, Tokyo 2003, June 1–5, 12 pp.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "German storage options [p2]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        11
+      ],
+      "citation": "Zemke, K., Liebscher, A., Wandrey, M., 2010. Petrophysical analysis to investigate the effects of carbon dioxide storage in a subsurface saline aquifer at Ket- zin, Germany (CO2SINK). International Journal of Greenhouse Gas Control 4, 990–999.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Core petrophysics [p3]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        11
+      ],
+      "citation": "Zettlitzer, M., Möller, F., Morozova, D., Lokay, P., Würdemann, H., CO2SINK Group, 2010. Re-establishment of the proper injectivity of the CO2-injection well Ktzi 201 in Ketzin, Germany. International Journal of Greenhouse Gas Control 4, 952–959.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Injectivity restoration/test context [pp3,9]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        11
+      ],
+      "citation": "Zimmer, M., Erzinger, J., Kujawa, Ch., CO2SINK Group, 2011. The gas membrane sensor (GMS): a new methods for gas measurements in deep boreholes applied at the CO2SINK site. International Journal of Greenhouse Gas Control 5, 995–1001.",
+      "record_type": "printed_bibliography",
+      "source_label": "author-year entry; R-ID assigned by audit",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Gas membrane detection and arrival interpretation [pp6,8]. Exact original, relevant passages/derivations and source support remain unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3
+      ],
+      "citation": "Native operational SCADA and mass reconciliation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact raw/averaged rate/P/T, sensor quality, delivery tickets/tank levels and non-injection outflows needed; yearly dataset original not verified."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2,
+        3,
+        8
+      ],
+      "citation": "Native plant heat/electricity/utility inventory",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Actual power, pump/compression/cooling, ambient heat, losses, restart duties and matched suppliers missing; nameplates do not close inventory."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3
+      ],
+      "citation": "Native ASPEN/Peng-Robinson correction and EOS original",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact thermal/compositional/pressure cases and implementation missing; constant2bar is a qualified source approximation."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "citation": "Native radial/isothermal/injectivity test fit",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Original geometry, properties, raw rates/pressures, weights, boundary/radial model details and solver missing. No maximum-pressure forecast inferred."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        8,
+        9
+      ],
+      "citation": "Native DTS thermal/phase/completion and integrity models",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact installation/thermal fields, phase fractions, logs and independent cement/corrosion/leak validation missing."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "citation": "P300 nondetection and hydraulic-transfer bound",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Gaps, measurement/processing response, coverage and quantitative leakage/transfer detection limit absent."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        9,
+        10
+      ],
+      "citation": "Hypothetical phase closure, stability and exact author code",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Sleipner reaches liquid/gas ambiguity. No mixture quality/interface rule, native EOS implementation, exactg or dynamic stability/failure model supplied. Three single-phase implementations do not close these gaps."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        10
+      ],
+      "citation": "Courtesy Statoil Snovhit initial conditions",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No named original underlying dataset/version supplied; keep sourceTable2 spelling/provenance and historic parameters."
+    },
+    {
+      "id": "N09",
+      "pages": [
+        10
+      ],
+      "citation": "Courtesy Cenovus Weyburn initial conditions",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No named original underlying dataset/version supplied; no current field identity/access or independent input validation inferred."
+    },
+    {
+      "id": "N10",
+      "pages": [
+        1,
+        11
+      ],
+      "citation": "External supplements/code/errata and underlying access",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit supplement notice identified locally. Public assets, originals and exact code/rights remain unverified during requested Chrome wait."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        3,
+        4
+      ],
+      "status": "HOLD_PRESSURE_REFERENCE_AND_APPROXIMATE_CORRECTION",
+      "finding": "Gauge storage, assumed1bar atmosphere, absolute wireline and approximate550→630m +2bar series are distinct.",
+      "action": "Preserve units/datum; obtain native pressure/PVT/thermal correction. Do not double-convert or transfer80m correction to640m."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "HOLD_SAMPLING_AND_CALENDAR_GRAPHIC_SCOPES",
+      "finding": "SCADA5min averages, special5s example, Fig3A2011/2008 labels and Table1 caption/date scope differ.",
+      "action": "Retain all labels and native sampling/commissioning definitions; no silent date repair or full5s archive claim."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        3,
+        6,
+        8
+      ],
+      "status": "BLOCKED_NATIVE_MASS_AND_MONITORING_REPLAY",
+      "finding": "Raw synchronized histories, ticket/tank reconciliation, actual arrival delays and complete uncertainties unavailable.",
+      "action": "Retrieve exact yearly dataset and monitoring metadata when permitted; do not substitute plot digitisation for telemetry or meter accuracy for mass closure."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "status": "EXCLUDE_MAXIMUM_RATE_FORECAST_FROM_TEST",
+      "finding": "Equipment-limited modified test cannot forecast maximum injection pressure/reservoir behaviour according to authors.",
+      "action": "Keep radial29.6mD fit unreproduced pending native inputs; no maximum annual service or universal availability/penalty factor adopted."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        9,
+        10
+      ],
+      "status": "HOLD_TWO_PHASE_COLUMN_AND_DYNAMIC_STABILITY",
+      "finding": "Sleipner phase-quality/interface handling remains unspecified; pureP/T exploration hits a saturation error.",
+      "action": "Retain partial/failed attempts and null surface pressure. No forced phase or invented quality; obtain author closure/code before full model claim."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        4,
+        5,
+        9,
+        10
+      ],
+      "status": "EXCLUDE_LEAKAGE_ABSENCE_AND_RETENTION_INFERENCE",
+      "finding": "P300 no correlated response lacks numeric transfer/leakage detection bound and retained-mass balance.",
+      "action": "Keep attributed observation with gaps; do not adopt zero leakage, permanent retention or quantified failure probability."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        2,
+        3,
+        8
+      ],
+      "status": "EXCLUDE_NAMEPLATE_AS_UTILITY_INVENTORY",
+      "finding": "Heater300kW and plant3250kg/h do not give actual matched capture-to-injection heat/electricity inventory.",
+      "action": "Obtain actual duties, phases, losses, ambient preheat, pumping/compression and suppliers; conditional ratio stays diagnostic."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        10,
+        11
+      ],
+      "status": "PENDING_ORIGINALS_ASSETS",
+      "finding": "All28 underlying originals, ten dependencies and external assets remain unverified.",
+      "action": "Continue exact citations, courtesy inputs and supplement/code/erratum checks when access is available. Local absence is not public absence."
+    }
+  ],
+  "supplements": "No embedded files, appendix or explicit supplement/data/code notice identified locally. Möller2012 yearly operational dataset DOI is located in the bibliography but not retrieved or verified. Native correction/fit/DTS/phase cases and exact author code remain unavailable; external asset/erratum checks stay paused pending requested Chrome connection. No claim of public absence.",
+  "reproduction": "Independent implementation of stated hypothetical pure-CO2 hydrostatic recurrence with reported linearT,8C surface,0.1m steps, disclosed standardg/absolute-pressure interpretation and pinnedHEOS backend. InSalah/Weyburn/Snovhit single-phase columns reconstructed and step-refined, with approximate source-graphic endpoint checks. Sleipner halts at first liquid/gas crossing; unrestricted exploration’s saturation error retained. No native phase-quality closure, dynamic stability, ASPEN/Peng-Robinson correction, radial fit, raw monitoring or reservoir model reproduced.",
+  "paper1_use": "Use for measurement/reference/phase discipline and explicit exclusion of test-based maximum-pressure forecasting. Keep hypothetical-column calculations separate from accepted operating/GHG inputs. No annual maximum service, universal depth threshold, availability, utility intensity, permanent-retention, risk probability or current storage allocation factor adopted.",
+  "next_steps": "Verify28 originals, exact yearly dataset, source graphic/calendar ambiguities, native pressure/mass/thermal/test cases, courtesy conditions, two-phase closure and external assets/rights. Continue B1-18 locally while keeping92-paper audit active."
+}

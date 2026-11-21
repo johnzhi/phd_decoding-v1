@@ -227,8 +227,8 @@
       "citation": "Liebscher, A., Möller, F., Bannach, A., Köhler, S., Wiebach, J., Schmidt-Hattenberger, C., Weiner, M., Pretschner, C., Ebert, K., Zemke, J., 2013. Injection operation and op- erational pressure-temperature monitoring at the CO2 storage pilot site Ketzin, Germany – design, results, recommendations. Int. J. Greenh. Gas Control 15, 163–173. http://dx.doi.org/10.1016/j.ijggc.2013.02.019.",
       "id": "R22",
       "record_type": "printed_bibliography",
-      "verification_status": "unverified",
-      "use_and_remaining_check": "p2: rate meter8m upstream,5s acquisition and550m pressure sensor. Original measurement correction/uncertainty and native data unverified."
+      "verification_status": "primary_text_checked_partial_support_measurement_geometry_sampling_qualified",
+      "use_and_remaining_check": "B1-17 pp3,5 directly supports meter8m and550m gauge. Source distinguishes5min SCADA means from a special5s pressure example; a full5s rate archive remains unverified, not disproved. Source630m+2bar differs from this paper640m correction. Native histories/uncertainty and inverse models remain open."
     },
     {
       "pages": [

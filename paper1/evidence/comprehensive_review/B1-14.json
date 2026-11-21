@@ -3,7 +3,7 @@
   "source_sha256": "7ec340fa668a4d1ae467095965d5619766b265ac7a994574eabffe567a58a093",
   "review_date": "2026-11-21",
   "overall_status": "incomplete",
-  "assessment": "All nine retained pages read and visually inspected, including enlarged figures, tables and legends. Eight figures, two tables and 12 analyst/prose identities are recorded; PartII prints no numbered equations of its own. One Class2015 citation has scoped primary checks. The other38 printed originals, eight data/model dependencies and essential PartI methods remain unverified. Sixty-eight limited unit, objective, arrival, petrophysical and skin checks do not reproduce the full native coupled inversion.",
+  "assessment": "All nine retained pages read and visually inspected, including enlarged figures, tables and legends. Eight figures, two tables and 12 analyst/prose identities are recorded; PartII prints no numbered equations of its own. Class2015 and Liebscher2013 citations have scoped primary checks. The other37 printed originals, eight data/model dependencies and essential PartI methods remain unverified. Sixty-eight limited unit, objective, arrival, petrophysical and skin checks do not reproduce the full native coupled inversion.",
   "text_read_pages": [
     1,
     2,
@@ -181,7 +181,7 @@
         9
       ],
       "scope": "Acknowledgements and entire bibliography",
-      "assessment": "All funding/acknowledgements and39 bibliography entries inspected; Lengler entry spans pp8–9. Footer281 excluded from transcription. One Class2015 edge is scoped primary-checked;38 originals plus eight model/data dependencies remain unverified. No explicit supplement/data/code notice or embedded assets identified locally; external absence not inferred."
+      "assessment": "All funding/acknowledgements and39 bibliography entries inspected; Lengler entry spans pp8–9. Footer281 excluded from transcription. Two edges (Class2015 and Liebscher2013) are scoped primary-checked;37 originals plus eight model/data dependencies remain unverified. No explicit supplement/data/code notice or embedded assets identified locally; external absence not inferred."
     }
   ],
   "visuals": [
@@ -774,8 +774,8 @@
       "citation": "Liebscher, A., Möller, F., Bannach, A., Köhler, S., Wiebach, J., Schmidt-Hattenberger, C., Weiner, M., Pretschner, C., Ebert, K., Zemke, J., 2013. Injection operation and op- erational pressure-temperature monitoring at the CO2 storage pilot site Ketzin, Germany – design, results, recommendations. Int. J. Greenh. Gas Control 15, 163–173. http://dx.doi.org/10.1016/j.ijggc.2013.02.019.",
       "id": "R22",
       "record_type": "printed_bibliography",
-      "verification_status": "unverified",
-      "use_and_remaining_check": "p2: rate meter8m upstream,5s acquisition and550m pressure sensor. Original measurement correction/uncertainty and native data unverified."
+      "verification_status": "primary_text_checked_partial_support_measurement_geometry_sampling_qualified",
+      "use_and_remaining_check": "B1-17 pp3,5 directly supports meter8m and550m gauge. Source distinguishes5min SCADA means from a special5s pressure example; a full5s rate archive remains unverified, not disproved. Source630m+2bar differs from this paper640m correction. Native histories/uncertainty and inverse models remain open."
     },
     {
       "pages": [
@@ -1141,12 +1141,12 @@
         9
       ],
       "status": "PENDING_ORIGINALS_ASSETS",
-      "finding": "One citation has scoped checks;38 originals, eight dependencies and external assets remain open.",
+      "finding": "Two citations have scoped checks;37 originals, eight dependencies and external assets remain open.",
       "action": "Continue exact originals/assets when permitted. Local absence is not public absence; external retrieval remains paused."
     }
   ],
   "supplements": "No embedded files,appendices or explicit code/data/supplement notice identified in the unchangednine-pagePDF. Figure4 explicitly uses unpublished core measurements. PartI method original,native forward/inverse cases,raw monitoring/lab/SCAL,weights/filters and data reuse rights remain open. External retrieval remains paused pending requested Chrome connection; no public-asset absence or full model licence inferred.",
-  "reproduction": "audit_ketzin_inversion.py produces68 limited checks. Objective reductions/scaling, arrival deviations, counts/units and conditional Archie/radial identities are independently calculated. No native hydraulic, multiphase, electrical or double-regularised inversion is reproduced. Static-skin and true-bulk-resistivity examples are not field corrections, annual limits or retained carbon. One scoped Class2015 check does not complete that paper or its source chain.",
+  "reproduction": "audit_ketzin_inversion.py produces68 limited checks. Objective reductions/scaling, arrival deviations, counts/units and conditional Archie/radial identities are independently calculated. No native hydraulic, multiphase, electrical or double-regularised inversion is reproduced. Static-skin and true-bulk-resistivity examples are not field corrections, annual limits or retained carbon. Scoped Class2015 and Liebscher2013 checks do not complete either underlying source chain or the native inversion.",
   "paper1_use": "Use as evidence that multiple data types,measurement QA,nonuniqueness and model inadequacy matter for physical calibration. Preserve barrier nonexclusion and dynamic nearwell limitations. Exclude transfer of factor8,skin10,2×pressure,objective80% orsmallarrivalerrors to annualmaximumrate,safety/permanence,commercialaccess orGHGbenefit. No accepted numerical/operating/GHG input changes.",
-  "next_steps": "VerifyPartI2018and2008references,rawlogger/dataexclusions,pressure/sensorcorrections,ERTfilters/meanmedian/covariance,ambientcoregeometry/Archie/SCAL,skin/salt/phasegeometry andnativeforward/inversecases/rights. Reproducebalances/weights/regularisation/iteration/validationonlywithadequateinputs. ContinueB1-15comprehensiveauditlocally;itsselectedprimarypassagesarealreadycheckedbutnotfullreview."
+  "next_steps": "VerifyPartI2018and2008references,rawlogger/dataexclusions,pressure/sensorcorrections,ERTfilters/meanmedian/covariance,ambientcoregeometry/Archie/SCAL,skin/salt/phasegeometry andnativeforward/inversecases/rights. Reproducebalances/weights/regularisation/iteration/validationonlywithadequateinputs. ContinueB1-15comprehensiveauditlocally;itsselectedprimarypassagesarealreadycheckedbutnotfullreview. Liebscher2013 measurement/sampling check is retained separately; do not replace640m correction or assume a full5s archive from that source."
 }

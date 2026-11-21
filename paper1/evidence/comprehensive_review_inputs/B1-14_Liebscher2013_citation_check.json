@@ -1,0 +1,45 @@
+{
+  "citing_study": "B1-14",
+  "citing_reference_id": "R22",
+  "citing_path": "papers/B1-14.pdf",
+  "citing_sha256": "7ec340fa668a4d1ae467095965d5619766b265ac7a994574eabffe567a58a093",
+  "citing_pages": [
+    2
+  ],
+  "cited_study": "B1-17",
+  "cited_path": "papers/B1-17.pdf",
+  "cited_sha256": "501636ee3d0ca636ffb0ba0ce6cac1cf4bd692346542d5aa1ca4f7feb7a1dc2b",
+  "targeted_pages": [
+    3,
+    5
+  ],
+  "review_date": "2026-11-21",
+  "status": "primary_text_checked_partial_support_measurement_geometry_sampling_qualified",
+  "checks": [
+    {
+      "claim": "B1-14 meter8m upstream",
+      "source_locator": "B1-17 Section3.1 p3",
+      "result": "supported",
+      "evidence": "Source locates Coriolis meter8m upstream and reports±.35% measured-value accuracy; does not provide complete native historical mass reconciliation."
+    },
+    {
+      "claim": "B1-14 pressure sensor550m",
+      "source_locator": "B1-17 Sections3.2–3.3 p3",
+      "result": "supported",
+      "evidence": "Weatherford fibre-braggP/T gauge550m; pressure error<±1bar. Source distinguishes approximate630m+2bar correction from archived sensor data."
+    },
+    {
+      "claim": "B1-14 own statement of5s flux/pressure acquisition",
+      "source_locator": "B1-17 Section3 p3 / Figure3A p5",
+      "result": "sampling_scope_qualified_not_disproved",
+      "evidence": "Source explicitly stores SCADA arithmetic means over5min. Figure3A separately states5s downholeP/T, with a2011/2008 caption-axis conflict. This does not independently establish a complete5s flow archive and does not prove B1-14 lacked raw5s acquisition."
+    },
+    {
+      "claim": "Pressure-reference transfer",
+      "source_locator": "B1-14 p2 / B1-17 Section3.3 p3",
+      "result": "distinct_case_references",
+      "evidence": "B1-14 corrects550m sensor to640m; B1-17 approximates550→630m with2bar. No correction/series is substituted or independently validated."
+    }
+  ],
+  "limits": "Scoped direct-source check only. Does not complete B1-17’s underlying literature, verify raw dataset or reproduce B1-14 inversion, ASPEN correction, hydraulic tests or full monitoring cases."
+}

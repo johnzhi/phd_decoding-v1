@@ -22,6 +22,9 @@ def load_inputs():
     edge = json.loads((ROOT / 'evidence/comprehensive_review_inputs/B1-14_citation_checks.json').read_text())
     if hashlib.sha256((ROOT / edge['cited_path']).read_bytes()).hexdigest() != edge['cited_sha256']:
         raise ValueError('Stale Class2015 primary check')
+    operations_edge = json.loads((ROOT / 'evidence/comprehensive_review_inputs/B1-14_Liebscher2013_citation_check.json').read_text())
+    if hashlib.sha256((ROOT / operations_edge['cited_path']).read_bytes()).hexdigest() != operations_edge['cited_sha256']:
+        raise ValueError('Stale Liebscher2013 primary check')
     return data
 
 
@@ -176,7 +179,9 @@ def main():
         writer.writeheader()
         writer.writerows(rows)
     result = dict(study_id='B1-14', source_sha256=data['source_sha256'], check_count=len(rows), figures=8, tables=2,
-                  numbered_source_equations=0, scoped_primary_citation_edges=1, native_models_reproduced=False,
+                  numbered_source_equations=0, scoped_primary_citation_edges=sum(
+                      ref['verification_status'].startswith('primary_text_checked')
+                      for ref in json.loads((ROOT / 'evidence/comprehensive_review/B1-14.json').read_text())['references']), native_models_reproduced=False,
                   accepted_inputs_changed=False, missing=data['missing'],
                   source_skin_geometry=dict(well_radius_m=data['skin']['well_radius_m'], far_radius_m=data['skin']['far_radius_m']),
                   interpretation='Limited objective/arrival/unit checks and analyst Archie/radial identities only. No native joint inversion, corrected field saturation, universal rate penalty, annual maximum service, safety probability or retained-carbon/GHG result.')

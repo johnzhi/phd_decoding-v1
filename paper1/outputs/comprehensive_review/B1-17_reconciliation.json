@@ -1,0 +1,214 @@
+{
+  "study_id": "B1-17",
+  "source_sha256": "501636ee3d0ca636ffb0ba0ce6cac1cf4bd692346542d5aa1ca4f7feb7a1dc2b",
+  "limited_check_count": 45,
+  "model_scope": "Independent stated hypothetical pure-CO2 hydrostatic recurrence; single-phase domain only; no native author code, dynamic reservoir, monitoring or safety model reproduced",
+  "software": {
+    "CoolProp": "8.0.0",
+    "gitrevision": "ae81610e7d23efc57f9d051c8e70a4d66e87537f",
+    "backend": "HEOS",
+    "fluid": "CO2",
+    "EOS_BibTeX": "Span-JPCRD-1996"
+  },
+  "disclosed_assumptions": {
+    "gravity_m_s2": 9.80665,
+    "pressure_table_interpreted_as_absolute_for_EOS": true,
+    "surface_temperature_C": 8,
+    "source_step_m": 0.1,
+    "two_phase_rule": "halt at first liquid/gas crossing; no imposed quality or saturation clipping"
+  },
+  "columns": [
+    {
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 59.09214799385923,
+      "surface_density_kg_m3": 895.5981568019421,
+      "bottom_density_kg_m3": 472.5060974339915,
+      "nodes": 18501,
+      "site": "In Salah",
+      "step_m": 0.1,
+      "successful_nodes": 18501
+    },
+    {
+      "status": "blocked_unspecified_two_phase_closure",
+      "at_depth_m": 332.0,
+      "temperature_C": 17.628,
+      "pressure_bar": 54.170453281956725,
+      "previous_phase": "liquid",
+      "candidate_phase": "gas",
+      "candidate_density_kg_m3": 177.04865921465824,
+      "surface_pressure_bar": null,
+      "reason": "Explicit step crossed liquid/gas branches. Source does not specify mixture quality, interface or phase handling; no continued physical two-phase profile claimed.",
+      "site": "Sleipner",
+      "step_m": 0.1,
+      "successful_nodes": 6680
+    },
+    {
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 45.13144008295924,
+      "surface_density_kg_m3": 878.7495327037658,
+      "bottom_density_kg_m3": 676.9915422330423,
+      "nodes": 14501,
+      "site": "Weyburn",
+      "step_m": 0.1,
+      "successful_nodes": 14501
+    },
+    {
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 91.10232729512472,
+      "surface_density_kg_m3": 925.0463241028406,
+      "bottom_density_kg_m3": 657.515815309059,
+      "nodes": 26181,
+      "site": "Snovhit",
+      "step_m": 0.1,
+      "successful_nodes": 26181
+    }
+  ],
+  "refinement_checks": [
+    {
+      "site": "In Salah",
+      "step_m": 0.2,
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 59.093861286730416,
+      "surface_difference_from_0_1m_bar": 0.0017132928711873774,
+      "halt_depth_m": null
+    },
+    {
+      "site": "In Salah",
+      "step_m": 0.05,
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 59.091291350026495,
+      "surface_difference_from_0_1m_bar": -0.0008566438327335391,
+      "halt_depth_m": null
+    },
+    {
+      "site": "Sleipner",
+      "step_m": 0.2,
+      "status": "blocked_EOS_state",
+      "surface_pressure_bar": null,
+      "surface_difference_from_0_1m_bar": null,
+      "halt_depth_m": 332.0
+    },
+    {
+      "site": "Sleipner",
+      "step_m": 0.05,
+      "status": "blocked_unspecified_two_phase_closure",
+      "surface_pressure_bar": null,
+      "surface_difference_from_0_1m_bar": null,
+      "halt_depth_m": 332.0
+    },
+    {
+      "site": "Weyburn",
+      "step_m": 0.2,
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 45.132312828685905,
+      "surface_difference_from_0_1m_bar": 0.00087274572666729,
+      "halt_depth_m": null
+    },
+    {
+      "site": "Weyburn",
+      "step_m": 0.05,
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 45.13100371212445,
+      "surface_difference_from_0_1m_bar": -0.0004363708347838724,
+      "halt_depth_m": null
+    },
+    {
+      "site": "Snovhit",
+      "step_m": 0.2,
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 91.10348884808002,
+      "surface_difference_from_0_1m_bar": 0.0011615529552955195,
+      "halt_depth_m": null
+    },
+    {
+      "site": "Snovhit",
+      "step_m": 0.05,
+      "status": "single_phase_recurrence_completed_under_disclosed_backend",
+      "surface_pressure_bar": 91.10174651829746,
+      "surface_difference_from_0_1m_bar": -0.0005807768272632075,
+      "halt_depth_m": null
+    }
+  ],
+  "profile_rows": 65863,
+  "graphic_endpoint_checks": [
+    {
+      "site": "In Salah",
+      "PDF_path_index": 5,
+      "PDF_curve_index": 0,
+      "x_pt": 97.79399871826172,
+      "y_pt": 652.6119995117188,
+      "temperature_C": 8.06792085364432,
+      "pressure_bar": 59.195731928526534,
+      "calibration": {
+        "x0": 86.21700286865234,
+        "x120": 258.4100036621094,
+        "y0": 671.468017578125,
+        "y300": 575.906982421875
+      },
+      "interpretation": "SourceFig8 displayed Bezier endpoint; approximate graphic comparison only, not native author array",
+      "analyst_comparison_tolerance_bar": 2,
+      "computed_minus_displayed_endpoint_bar": -0.10358393466730575,
+      "within_analyst_graphic_tolerance": true
+    },
+    {
+      "site": "Weyburn",
+      "PDF_path_index": 6,
+      "PDF_curve_index": 0,
+      "x_pt": 97.93399810791016,
+      "y_pt": 657.0910034179688,
+      "temperature_C": 8.165485369509652,
+      "pressure_bar": 45.13454925424993,
+      "calibration": {
+        "x0": 86.21700286865234,
+        "x120": 258.4100036621094,
+        "y0": 671.468017578125,
+        "y300": 575.906982421875
+      },
+      "interpretation": "SourceFig8 displayed Bezier endpoint; approximate graphic comparison only, not native author array",
+      "analyst_comparison_tolerance_bar": 2,
+      "computed_minus_displayed_endpoint_bar": -0.003109171290695656,
+      "within_analyst_graphic_tolerance": true
+    },
+    {
+      "site": "Snovhit",
+      "PDF_path_index": 6,
+      "PDF_curve_index": 1,
+      "x_pt": 97.79399871826172,
+      "y_pt": 642.6749877929688,
+      "temperature_C": 8.06792085364432,
+      "pressure_bar": 90.39153794664527,
+      "calibration": {
+        "x0": 86.21700286865234,
+        "x120": 258.4100036621094,
+        "y0": 671.468017578125,
+        "y300": 575.906982421875
+      },
+      "interpretation": "SourceFig8 displayed Bezier endpoint; approximate graphic comparison only, not native author array",
+      "analyst_comparison_tolerance_bar": 2,
+      "computed_minus_displayed_endpoint_bar": 0.7107893484794516,
+      "within_analyst_graphic_tolerance": true
+    }
+  ],
+  "failed_exploratory_run": {
+    "site": "Sleipner",
+    "step_m": 0.1,
+    "depth_m": 327.7,
+    "T_C": 17.5033,
+    "P_bar": 54.01067539086618,
+    "backend_message": "Saturation pressure [5.40106e+06 Pa] corresponding to T [290.653 K] is within1e-4% of givenp [5.40107e+06 Pa]",
+    "status": "failed exploration; not a completed physical two-phase profile"
+  },
+  "full_native_models_reproduced": false,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "native_SCADA_rate_pressure_temperature_and_quality": null,
+    "delivery_tickets_tank_levels_and_uncertainty": null,
+    "native_ASPEN_Peng_Robinson_correction_case": null,
+    "native_isochronal_fit_geometry_history_weights_and_solver": null,
+    "raw_DTS_completion_thermal_properties_and_integrity_validation": null,
+    "native_hypothetical_phase_quality_and_exact_author_code": null,
+    "pressure_limit_target_sweep_and_maximum_annual_service": null,
+    "retained_mass_leakage_detection_bound_and_full_inventory": null,
+    "exact_underlying_originals_and_external_assets": null
+  }
+}

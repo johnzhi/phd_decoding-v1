@@ -2,7 +2,7 @@
 
 All nine retained pages of Wagner and Wiese (2018), B1-14, have been read and visually inspected, including enlarged figures, tables, captions and legends. The [item record](comprehensive_review/B1-14.md) covers eight figures, two tables, 18 section groups, 16 claim assessments and 12 analyst/prose identities. This PartII prints no numbered equations of its own; its forward/inverse equations are referred to PartI. Source SHA-256: `7ec340fa668a4d1ae467095965d5619766b265ac7a994574eabffe567a58a093`. The original PDF is unchanged; illustrations are not newly redistributed.
 
-The paper remains **incomplete under the comprehensive-audit standard**. One citation has scoped checks against a retained original. The other38 printed sources, eight model/data dependencies, essential PartI methods and external assets remain unverified. The [68 limited checks](../outputs/comprehensive_review/B1-14_checks.csv) and [reconciliation](../outputs/comprehensive_review/B1-14_reconciliation.json) do not reproduce the native coupled inversion.
+The paper remains **incomplete under the comprehensive-audit standard**. Two citations now have scoped checks against retained originals. The other37 printed sources, eight model/data dependencies, essential PartI methods and external assets remain unverified. The [68 limited checks](../outputs/comprehensive_review/B1-14_checks.csv) and [reconciliation](../outputs/comprehensive_review/B1-14_reconciliation.json) do not reproduce the native coupled inversion.
 
 ## What is coupled and what is calibrated
 
@@ -43,6 +43,8 @@ Table2 observed/modelled arrivals21.7/21.8 and271/283days give errors.1 and12day
 The [Class2015 primary check](../evidence/comprehensive_review_inputs/B1-14_citation_checks.json) uses retained B1-15, SHA-256 `4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324`. Selected text and rendered pages1–3,5–6 support pressure/arrival calibration and explicitly describe gas-membrane sensors150m below ground, annulus accumulation, upward transport and several-day uncertainty. The same observed21.7/271days are confirmed. Class's ECLIPSE/DuMux predictions are different cases and are not substituted for B1-14's predictions or treated as independent data.
 
 This supports B1-14's sensor-delay caveat, without validating its3% model-cell gas threshold. It does not complete the Class paper's comprehensive audit or verify its underlying citations. The subsequent [B1-15 reading](ketzin_history_comprehensive_findings.md) covers its full retained PDF and printed constitutive components while keeping native models and underlying originals open.
+
+The subsequent [Liebscher2013 check](../evidence/comprehensive_review_inputs/B1-14_Liebscher2013_citation_check.json) reads B1-17's original passages on pp3,5. It supports the meter8 m upstream and pressure gauge550 m deep. The source describes five-minute SCADA averages and a separate five-second downhole pressure example, so it does not independently establish a complete five-second flow archive or disprove this paper's own acquisition statement. B1-17's approximate550-to630 m +2 bar correction is distinct from this paper's640 m reference; no pressure series or correction is substituted. Raw histories and native inversion remain unverified.
 
 ## Salt, skin and transfer to Paper1
 

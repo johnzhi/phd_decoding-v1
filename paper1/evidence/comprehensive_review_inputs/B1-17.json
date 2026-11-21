@@ -1,0 +1,475 @@
+{
+  "study_id": "B1-17",
+  "source_path": "papers/B1-17.pdf",
+  "source_sha256": "501636ee3d0ca636ffb0ba0ce6cac1cf4bd692346542d5aa1ca4f7feb7a1dc2b",
+  "physical_pages": 11,
+  "doi": "10.1016/j.ijggc.2013.02.019",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "scope": "Literal source arithmetic and independent stated hydrostatic recurrence under disclosed pure-CO2 HEOS backend. No native dynamic reservoir, modified test fit, PVT correction or monitoring series reproduced.",
+  "operation": {
+    "continuous_start": "2008-06-30",
+    "normal_operation_start": "2008-09-24",
+    "as_of": "September2012",
+    "mass_t": 61396,
+    "oxyfuel_mass_t": 1515,
+    "oxyfuel_dates": [
+      "2011-05-05",
+      "2011-06-12"
+    ],
+    "food_grade_purity_percent_gt": 99.9,
+    "oxyfuel_purity_percent_gt": 99.7,
+    "typical_rate_t_h": [
+      1,
+      3
+    ],
+    "plant_setpoint_max_kg_h": 3250,
+    "mean_monthly_early_t": 1690,
+    "mean_monthly_later_t": 1124,
+    "monthly_reported_range_t": [
+      700,
+      2340
+    ],
+    "initial_pressure_bara_approx": 62,
+    "after5days_bara_approx": 73,
+    "normal_BHP_range_bara_approx": [
+      73,
+      79
+    ],
+    "early_quasistationary_bara": [
+      77,
+      78
+    ],
+    "later_quasistationary_bara": [
+      73,
+      74
+    ],
+    "drilling_shutdown": "May2012 to January2013; approximate source months, not a generic outage probability"
+  },
+  "plant": {
+    "tanks": 2,
+    "tank_capacity_t_each": 50,
+    "plunger_pumps": 5,
+    "electric_heater_kWmax": 300,
+    "ambient_preheaters": 4,
+    "delivered_T_C": -18,
+    "desired_injection_T_C_approx": 35,
+    "pipeline_m_approx": 100,
+    "pipeline_nominal_label": "1 in. (DN30)",
+    "actual_heat_and_power": null,
+    "complete_heat_electricity_cooling_compression_inventory": null
+  },
+  "measurement": {
+    "meter_upstream_m": 8,
+    "mass_meter_accuracy_percent": 0.35,
+    "SCADA_mean_minutes": 5,
+    "example_Fig3A_raw_seconds": 5,
+    "temperature_surface_class": "B",
+    "WHP_error_percent_lt": 0.5,
+    "downhole550_pressure_error_bar_lt": 1,
+    "pressure_as_recorded": "gauge relative to atmosphere",
+    "paper_assumed_atmosphere_bar": 1,
+    "logging_pressure_basis": "absolute",
+    "DTS_interval_minutes": 3,
+    "DTS_spatial_resolution_m": 1,
+    "DTS_temperature_resolution_C_approx": 0.1,
+    "downhole_gauge_m": 550,
+    "injection_reference_m": 630,
+    "paper_approximate_BHP_increment_bar": 2,
+    "dynamic_correction_model": "ASPEN PLUS/Peng-Robinson referred; full case absent; paper substitutes constant2bar",
+    "full_raw_series_and_tank_ticket_reconciliation": null
+  },
+  "geometry": {
+    "observation_offsets_m": [
+      50,
+      112
+    ],
+    "observation_pair_inset_m": 100,
+    "tubing_end_m": 560,
+    "observation_gauges_m": 620,
+    "P300_depth_m": 446,
+    "P300_gauge_m": 417.8,
+    "P300_shallow_gauge_m": 20.55,
+    "geological_main_sandstone_top_m": [
+      630,
+      627
+    ],
+    "sandstone_thickness_m_approx": [
+      10,
+      20
+    ],
+    "porosity_percent": [
+      13,
+      26
+    ],
+    "channel_perm_mD_approx": 100,
+    "first_caprock_thickness_m_approx": 165,
+    "top_final_seal_depth_m_approx": 150,
+    "storage_complex_lateral_boundary": "closed Top-Stuttgart710m isobath, source-era definition"
+  },
+  "P300": {
+    "pressure_range_bara": [
+      42.05,
+      42.12
+    ],
+    "start": "September2011",
+    "gaps": [
+      "February2012",
+      "June2012",
+      "August2012"
+    ],
+    "leakage_detection_limit": null,
+    "hydraulic_transfer_bound": null
+  },
+  "logging_table": [
+    {
+      "date_as_printed": "21.07.2008",
+      "Ktzi200": [
+        66.53,
+        33.35
+      ],
+      "Ktzi201": null,
+      "Ktzi202": null
+    },
+    {
+      "date_as_printed": "10./12.12.2008",
+      "Ktzi200": [
+        72.18,
+        32.78
+      ],
+      "Ktzi201": null,
+      "Ktzi202": [
+        70.44,
+        32.99
+      ]
+    },
+    {
+      "date_as_printed": "25./26.03.2009",
+      "Ktzi200": [
+        76.46,
+        32.92
+      ],
+      "Ktzi201": null,
+      "Ktzi202": [
+        73.9,
+        32.69
+      ]
+    },
+    {
+      "date_as_printed": "24./25./26.06.2009",
+      "Ktzi200": [
+        76.91,
+        33.28
+      ],
+      "Ktzi201": [
+        77.92,
+        38.02
+      ],
+      "Ktzi202": [
+        75.91,
+        33.18
+      ]
+    },
+    {
+      "date_as_printed": "22./23.03.2010",
+      "Ktzi200": [
+        76.39,
+        34.01
+      ],
+      "Ktzi201": [
+        76.89,
+        38.74
+      ],
+      "Ktzi202": [
+        75.79,
+        33.49
+      ]
+    },
+    {
+      "date_as_printed": "02./03.03.2011",
+      "Ktzi200": [
+        73.14,
+        30.98
+      ],
+      "Ktzi201": [
+        73.39,
+        35.51
+      ],
+      "Ktzi202": [
+        72.98,
+        31.07
+      ]
+    },
+    {
+      "date_as_printed": "12./13.10.2011",
+      "Ktzi200": [
+        70.78,
+        29.47
+      ],
+      "Ktzi201": null,
+      "Ktzi202": [
+        71.88,
+        30.1
+      ]
+    }
+  ],
+  "logging_depths_m": {
+    "Ktzi200": 620,
+    "Ktzi201": 630,
+    "Ktzi202": 620
+  },
+  "logging_note": "Entries are pressure bara, temperature C pairs; blank cells are null. Multiday campaign dates are not synchronized timestamps. Caption untilJune2013 differs from latest listedOctober2011 and proseJune2008–September2012.",
+  "tests": {
+    "isochronal_dates": [
+      "2009-12-01",
+      "2010-01-11"
+    ],
+    "prior_shutdown_dates": [
+      "2009-12-01",
+      "2009-12-16"
+    ],
+    "injection_hours_per_stage": 4,
+    "shutin_hours_per_stage": 4,
+    "stage_rates_kg_h": [
+      900,
+      1600,
+      2400,
+      3200
+    ],
+    "subsequent_rate_kg_h_approx": 2800,
+    "fitted_permeability_mD": 29.6,
+    "fitted_Pi_bara": 73.8,
+    "fit_model": "radial symmetric; vertical well; homogeneous reservoir; infinite boundary",
+    "cyclic_dates": [
+      "2010-08-23",
+      "2010-10-17"
+    ],
+    "cycles": 4,
+    "days_per_cycle": 14,
+    "shutin_days_per_cycle": 7,
+    "injection_days_per_cycle": 7,
+    "cyclic_injector_pressure_span_bar_approx": 1.5,
+    "cyclic_observer_pressure_span_bar_approx": 0.5,
+    "observer_delay_days_approx": 1,
+    "forecast_maximum_pressure_or_reservoir_behaviour": "explicitly excluded by authors",
+    "native_fit_inputs": null
+  },
+  "arrivals": [
+    {
+      "well": "Ktzi200",
+      "GMS_date": "2008-07-15",
+      "GMS_depth_m": 150,
+      "flowmeter_based_mass_t": 530,
+      "first_WHP_response": "2008-07-14"
+    },
+    {
+      "well": "Ktzi202",
+      "GMS_date": "2009-03-21",
+      "GMS_depth_m": 150,
+      "flowmeter_based_mass_t": 11200,
+      "first_WHP_flicker": "2008-12-30"
+    }
+  ],
+  "arrival_note": "Different definitions: commissioning injections precede continuousJune30 start. Other Ketzin studies useJune24 and21.7/271day labels; these are not directly interchangeable sensor/calendar definitions.",
+  "source_graphics_questions": [
+    "Fig3A caption saysJuly1–August1 2011; axes and first-weeks context show2008",
+    "Table1 caption untilJune2013; seven listed dates endOctober2011",
+    "Fig4 caption calls observation response injection wells; preserve well labels"
+  ],
+  "sites": [
+    {
+      "site": "Otway",
+      "figure_number": 1,
+      "T_C": 83,
+      "P_bar": 178,
+      "depth_m": 2000,
+      "source": "Jenkins2012"
+    },
+    {
+      "site": "In Salah",
+      "figure_number": 2,
+      "T_C": 90,
+      "P_bar": 179,
+      "depth_m": 1850,
+      "source": "Michael2010"
+    },
+    {
+      "site": "Ketzin",
+      "figure_number": 3,
+      "T_C": 33,
+      "P_bar": 62,
+      "depth_m": 630,
+      "source": "Own data"
+    },
+    {
+      "site": "Gorgon",
+      "figure_number": 4,
+      "T_C": 100,
+      "P_bar": 220,
+      "depth_m": 2300,
+      "source": "Michael2010"
+    },
+    {
+      "site": "Frio",
+      "figure_number": 5,
+      "T_C": 56,
+      "P_bar": 152,
+      "depth_m": 1546,
+      "source": "Michael2010"
+    },
+    {
+      "site": "Sleipner",
+      "figure_number": 6,
+      "T_C": 37,
+      "P_bar": 103,
+      "depth_m": 1000,
+      "source": "Michael2010"
+    },
+    {
+      "site": "Nagaoka",
+      "figure_number": 7,
+      "T_C": 46,
+      "P_bar": 119,
+      "depth_m": 1100,
+      "source": "Michael2010"
+    },
+    {
+      "site": "Snovhit",
+      "figure_number": 8,
+      "T_C": 98,
+      "P_bar": 290,
+      "depth_m": 2618,
+      "source": "Courtesy Statoil"
+    },
+    {
+      "site": "Weyburn",
+      "figure_number": 9,
+      "T_C": 54,
+      "P_bar": 155,
+      "depth_m": 1450,
+      "source": "Courtesy Cenovus"
+    }
+  ],
+  "hydrostatic_model": {
+    "selected_sites": [
+      "In Salah",
+      "Sleipner",
+      "Weyburn",
+      "Snovhit"
+    ],
+    "surface_T_C": 8,
+    "source_step_m": 0.1,
+    "source_relation": "P_z2=P_z1-rho_z1*g*abs(z1-z2), step0.1m; SI pressure for evaluation",
+    "source_EOS": "Span and Wagner1996",
+    "backend": "CoolProp8.0.0/HEOS/CO2",
+    "gravity_m_s2": 9.80665,
+    "gravity_status": "analyst standard gravity; source namesg without numerical value",
+    "pressure_basis_for_EOS": "absolute as required by EOS; Table2 itself printsbar, Ketzin62 consistent withbara in text",
+    "derivative_model": "linear temperature-depth interpolation to source reservoir endpoint",
+    "phase_closure": "stop at first liquid/gas branch crossing or backend saturation ambiguity; no invented quality/phase forcing",
+    "refinements_m": [
+      0.2,
+      0.1,
+      0.05
+    ],
+    "native_author_code_and_phase_rules": null,
+    "exploratory_unrestricted_failure": {
+      "site": "Sleipner",
+      "step_m": 0.1,
+      "depth_m": 327.7,
+      "T_C": 17.5033,
+      "P_bar": 54.01067539086618,
+      "backend_message": "Saturation pressure [5.40106e+06 Pa] corresponding to T [290.653 K] is within1e-4% of givenp [5.40107e+06 Pa]",
+      "status": "failed exploration; not a completed physical two-phase profile"
+    }
+  },
+  "missing": {
+    "native_SCADA_rate_pressure_temperature_and_quality": null,
+    "delivery_tickets_tank_levels_and_uncertainty": null,
+    "native_ASPEN_Peng_Robinson_correction_case": null,
+    "native_isochronal_fit_geometry_history_weights_and_solver": null,
+    "raw_DTS_completion_thermal_properties_and_integrity_validation": null,
+    "native_hypothetical_phase_quality_and_exact_author_code": null,
+    "pressure_limit_target_sweep_and_maximum_annual_service": null,
+    "retained_mass_leakage_detection_bound_and_full_inventory": null,
+    "exact_underlying_originals_and_external_assets": null
+  },
+  "hypothetical_sites": [
+    {
+      "site": "Otway",
+      "figure_number": 1,
+      "temperature_C": 83,
+      "pressure_bar": 178,
+      "depth_m": 2000,
+      "source_as_printed": "Jenkins2012"
+    },
+    {
+      "site": "In Salah",
+      "figure_number": 2,
+      "temperature_C": 90,
+      "pressure_bar": 179,
+      "depth_m": 1850,
+      "source_as_printed": "Michael2010"
+    },
+    {
+      "site": "Ketzin",
+      "figure_number": 3,
+      "temperature_C": 33,
+      "pressure_bar": 62,
+      "depth_m": 630,
+      "source_as_printed": "Own data"
+    },
+    {
+      "site": "Gorgon",
+      "figure_number": 4,
+      "temperature_C": 100,
+      "pressure_bar": 220,
+      "depth_m": 2300,
+      "source_as_printed": "Michael2010"
+    },
+    {
+      "site": "Frio",
+      "figure_number": 5,
+      "temperature_C": 56,
+      "pressure_bar": 152,
+      "depth_m": 1546,
+      "source_as_printed": "Michael2010"
+    },
+    {
+      "site": "Sleipner",
+      "figure_number": 6,
+      "temperature_C": 37,
+      "pressure_bar": 103,
+      "depth_m": 1000,
+      "source_as_printed": "Michael2010"
+    },
+    {
+      "site": "Nagaoka",
+      "figure_number": 7,
+      "temperature_C": 46,
+      "pressure_bar": 119,
+      "depth_m": 1100,
+      "source_as_printed": "Michael2010"
+    },
+    {
+      "site": "Snovhit",
+      "figure_number": 8,
+      "temperature_C": 98,
+      "pressure_bar": 290,
+      "depth_m": 2618,
+      "source_as_printed": "Courtesy Statoil"
+    },
+    {
+      "site": "Weyburn",
+      "figure_number": 9,
+      "temperature_C": 54,
+      "pressure_bar": 155,
+      "depth_m": 1450,
+      "source_as_printed": "Courtesy Cenovus"
+    }
+  ],
+  "analyst_examples": {
+    "annual_reference_hours": 8760,
+    "gravity_m_s2": 9.80665,
+    "compared_start_date": "2008-06-24"
+  }
+}
