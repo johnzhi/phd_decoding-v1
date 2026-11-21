@@ -31,6 +31,9 @@ total_spec.loader.exec_module(total)
 deepwater_spec = importlib.util.spec_from_file_location('audit_deepwater_japan', ROOT / 'scripts/audit_deepwater_japan.py')
 deepwater = importlib.util.module_from_spec(deepwater_spec)
 deepwater_spec.loader.exec_module(deepwater)
+openhole_spec = importlib.util.spec_from_file_location('audit_openhole_integrity', ROOT / 'scripts/audit_openhole_integrity.py')
+openhole = importlib.util.module_from_spec(openhole_spec)
+openhole_spec.loader.exec_module(openhole)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -40,6 +43,44 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_openhole_pressure_units_follow_independent_fluid_head_conversion(self):
+        # One USgallon=231in3; converting lb-force/ft3 topsi/ft divides by144.
+        independent = (12**3/231)/144
+        self.assertAlmostEqual(openhole.ppg_to_psi_per_ft(1), independent)
+        self.assertAlmostEqual(openhole.ppg_to_pa_per_m(0), 0)
+        self.assertLess(abs(openhole.ppg_to_psi_per_ft(1)/.052-1), .0011)
+
+    def test_openhole_sketch_algebra_does_not_freeze_actual_coupled_stresses(self):
+        # Analyst pressures in common units; no fitted field values.
+        low,high = openhole.hoop_extrema(10,5,3,2)
+        self.assertEqual((low,high),(0,20))
+        self.assertEqual(high-low,4*(10-5))
+        self.assertEqual(openhole.hoop_extrema(10,5,4,2),(low-1,high-1))
+        self.assertEqual(openhole.hoop_extrema(10,5,3,3),(low-1,high-1))
+        # When the far-field stresses change, the pressure-only response differs.
+        self.assertNotEqual(openhole.hoop_extrema(9,4,4,2),(low-1,high-1))
+
+    def test_openhole_caption_unions_do_not_double_count_or_invent_point_widths(self):
+        data = openhole.load_inputs()
+        cases = {r['id']:r for r in data['cases']}
+        self.assertEqual(openhole.interval_lengths(cases['2030_stop']['failure_intervals']),(165,150,15))
+        self.assertEqual(openhole.interval_lengths(cases['2048_stop']['failure_intervals']),(480,430,50))
+        self.assertEqual(openhole.interval_lengths(cases['2025_stop']['failure_intervals']),(170,170,0))
+        self.assertEqual(cases['2025_drilled']['failure_intervals'],[])
+        self.assertEqual(cases['2025_drilled']['failure_points_ftMD'],[7330,7360])
+
+    def test_openhole_review_does_not_close_unshown_timesteps_or_model_dependencies(self):
+        review=json.loads((ROOT/'evidence/comprehensive_review/B1-06.json').read_text())
+        self.assertEqual(review['text_read_pages'],list(range(1,8)))
+        self.assertEqual(review['visually_inspected_pages'],list(range(1,8)))
+        self.assertEqual(len(review['visuals']),10)
+        self.assertEqual([r['id'] for r in review['equations']],['U01','U02','D01'])
+        self.assertEqual(len(review['references']),19)
+        self.assertTrue(all(r['verification_status']=='unverified' for r in review['references']))
+        self.assertNotIn(2040,{r['year'] for r in openhole.load_inputs()['cases']})
+        self.assertEqual(review['overall_status'],'incomplete')
+        self.assertIn('not_reproduced',review['original_model_status'])
+
     def test_deepwater_heat_gradient_uses_temperature_differences(self):
         self.assertAlmostEqual(deepwater.fahrenheit_to_celsius(32), 0)
         self.assertAlmostEqual(deepwater.fahrenheit_to_celsius(80), 26+2/3)

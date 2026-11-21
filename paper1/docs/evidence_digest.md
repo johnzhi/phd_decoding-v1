@@ -90,7 +90,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 An offshore Sarawak injector is assessed during drilling, brine displacement, injection and stoppages using stress, pressure and temperature outputs from a thermal/dynamic/geomechanical model. Cooling and changing wellbore support cause different shear/tensile failures over time. A perforated liner is selected instead of an unsupported openhole.
 
-Transfer limits: Pressure-gradient equivalents in ppg and failure intervals are well-specific simulated conditions. They do not establish a general outage probability, annual rate reduction or universal completion design.
+Transfer limits: Comprehensive seven-page reading is recorded separately in evidence/comprehensive_review/B1-06.json. Ppg gradient equivalents are not CO2 density or actual BHP; MD, TVDSS, SSTVD, pore/wellbore pressure and the Figure1 temperature variable require reconciliation. DoD percentages have an unspecified normalisation. Selected I-3 failure maps and a perforated-liner decision do not establish outage probability, annual rate loss, caprock leakage or permanent retention. Complete THM, stress/property/failure inputs, detailed2040 outputs and liner/field validation remain unavailable locally;15 printed sources plus four named dependencies remain unverified. See openhole_comprehensive_findings.md; no anonymous Malaysian-field join or accepted input promotion.
 
 ### B1-07 — Leveraging Oil and Gas Legacy for Advanced CCS in Japan Realistic CO2 Storage Simulation in the Higashi-Niigata Gas Field
 

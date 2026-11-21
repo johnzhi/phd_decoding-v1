@@ -1,0 +1,238 @@
+{
+  "study_id": "B1-06",
+  "source_path": "papers/B1-06.pdf",
+  "source_sha256": "75c8c033c0e0e421579c133857a41bed8b1908ccbbc316d5993732eff1c919a3",
+  "scope": "source-transcribed case descriptors, not operating inputs or reconstructed failure predictions",
+  "case_scope": "Offshore Sarawak injectorI-3 selected as marginally least stable at drilling; not a representative random well",
+  "cases": [
+    {
+      "id": "2025_drilled",
+      "year": 2025,
+      "page": 3,
+      "figure": 3,
+      "stage": "end_drilling",
+      "gradient_ppg": 11.3,
+      "gradient_role": "mud_weight",
+      "failure_points_ftMD": [
+        7330,
+        7360
+      ],
+      "failure_intervals": [],
+      "outcome": "minor breakouts at approximate caption points"
+    },
+    {
+      "id": "2025_brine",
+      "year": 2025,
+      "page": 3,
+      "figure": 4,
+      "stage": "mud_displaced_by_brine",
+      "gradient_ppg": 12.3,
+      "gradient_role": "brine_weight",
+      "failure_points_ftMD": [],
+      "failure_intervals": [],
+      "outcome": "no failures predicted in selected model"
+    },
+    {
+      "id": "2025_inject",
+      "year": 2025,
+      "page": 3,
+      "figure": 5,
+      "stage": "injection",
+      "gradient_ppg": 13.8,
+      "gradient_role": "wellbore_injection_gradient_equivalent",
+      "failure_points_ftMD": [],
+      "failure_intervals": [],
+      "outcome": "no failures predicted in selected model"
+    },
+    {
+      "id": "2025_stop",
+      "year": 2025,
+      "page": 4,
+      "figure": 6,
+      "stage": "stoppage",
+      "gradient_ppg": 10.8,
+      "gradient_role": "reservoir_pore_pressure_gradient_equivalent",
+      "failure_points_ftMD": [],
+      "failure_intervals": [
+        {
+          "mode": "wide_breakout",
+          "from_ftMD": 6920,
+          "to_ftMD": 7030
+        },
+        {
+          "mode": "wide_breakout",
+          "from_ftMD": 7315,
+          "to_ftMD": 7375
+        }
+      ],
+      "outcome": "wide breakouts in caption intervals"
+    },
+    {
+      "id": "2030_inject",
+      "year": 2030,
+      "page": 4,
+      "figure": 7,
+      "stage": "injection",
+      "gradient_ppg": 12.3,
+      "gradient_role": "wellbore_injection_gradient_equivalent",
+      "failure_points_ftMD": [],
+      "failure_intervals": [
+        {
+          "mode": "hydraulic_fracture",
+          "from_ftMD": 7000,
+          "to_ftMD": 7220
+        }
+      ],
+      "outcome": "hydraulic fractures in shallower section"
+    },
+    {
+      "id": "2030_stop",
+      "year": 2030,
+      "page": 4,
+      "figure": 8,
+      "stage": "stoppage",
+      "gradient_ppg": 11.75,
+      "gradient_role": "reservoir_pore_pressure_gradient_equivalent",
+      "failure_points_ftMD": [],
+      "failure_intervals": [
+        {
+          "mode": "minor_breakout",
+          "from_ftMD": 7070,
+          "to_ftMD": 7085
+        },
+        {
+          "mode": "hydraulic_fracture",
+          "from_ftMD": 7020,
+          "to_ftMD": 7170
+        }
+      ],
+      "outcome": "minor breakout and hydraulic fractures"
+    },
+    {
+      "id": "2048_inject",
+      "year": 2048,
+      "page": 4,
+      "figure": 9,
+      "stage": "injection",
+      "gradient_ppg": 13.0,
+      "gradient_role": "wellbore_injection_gradient_equivalent",
+      "failure_points_ftMD": [],
+      "failure_intervals": [
+        {
+          "mode": "combined_narrow_breakout_and_hydraulic_fracture_caption_extent",
+          "from_ftMD": 7000,
+          "to_ftMD": 7400
+        }
+      ],
+      "outcome": "caption gives combined approximate failure extent, not separate mode-specific lengths"
+    },
+    {
+      "id": "2048_stop",
+      "year": 2048,
+      "page": 5,
+      "figure": 10,
+      "stage": "stoppage",
+      "gradient_ppg": 12.45,
+      "gradient_role": "reservoir_pore_pressure_gradient_equivalent",
+      "failure_points_ftMD": [],
+      "failure_intervals": [
+        {
+          "mode": "wide_breakout",
+          "from_ftMD": 6970,
+          "to_ftMD": 7120
+        },
+        {
+          "mode": "hydraulic_fracture",
+          "from_ftMD": 7070,
+          "to_ftMD": 7400
+        }
+      ],
+      "outcome": "wide breakout and hydraulic fracture extents overlap"
+    }
+  ],
+  "temperature_reductions_F": [
+    {
+      "year": 2030,
+      "value": 78,
+      "locator": "p5 discussion"
+    },
+    {
+      "year": 2048,
+      "value": 139,
+      "locator": "pp2,5 discussion"
+    }
+  ],
+  "figure1": {
+    "page": 2,
+    "well_export_label": "CO2_3F_A115",
+    "depth_axis": "SSTVD",
+    "depth_units_not_explicitly_shown_in_this_panel": true,
+    "stress_track": "TOTSTRXX, caption minimum horizontal total stress",
+    "stress_units": "psi",
+    "stress_axis_range": [
+      3000,
+      4000
+    ],
+    "pressure_axis_range_psi": [
+      2000,
+      4000
+    ],
+    "temperature_axis_range_degF": [
+      -150,
+      10
+    ],
+    "temperature_absolute_or_change": "range suggests change; exact exported variable definition unresolved",
+    "export_dates": [
+      "2025-12-01",
+      "2030-12-30",
+      "2040-12-31",
+      "2048-01-01"
+    ],
+    "caption_years": [
+      2025,
+      2030,
+      2040,
+      2048
+    ],
+    "declared_years_after_start": [
+      0,
+      5,
+      15,
+      23
+    ],
+    "colours": [
+      "blue",
+      "green",
+      "maroon",
+      "black"
+    ]
+  },
+  "figure2": {
+    "page": 3,
+    "minimum_circumferential": "3*SHmin-SHmax-Pw-P0",
+    "maximum_circumferential": "3*SHmax-SHmin-Pw-P0",
+    "P0_definition": "not separately defined in sketch; pore-pressure interpretation provisional",
+    "original_derivation_status": "Fjaer1992 original unverified"
+  },
+  "stability_plot_axes": {
+    "MD": "ft measured depth",
+    "TVDSS": "ft true vertical depth subsea",
+    "pressure_gradient": "ppg",
+    "circumferential_angles": "0–360 degrees",
+    "DoD": "depth of damage",
+    "DoD_colour_labels_pct": [
+      0,
+      5,
+      10
+    ],
+    "DoD_percent_normalisation": "not specified",
+    "small_export_curve_abbreviations": "CMW_LOSS,CMW_KICK,CMW_MIN_MC; other tiny channel labels partially legible, definitions not supplied"
+  },
+  "no_numbered_equations": true,
+  "no_tables": true,
+  "supplements": "no explicit notice/embedded attachments identified; public availability unverified",
+  "cooling_reduction_degF": {
+    "2030": 78,
+    "2048": 139
+  }
+}

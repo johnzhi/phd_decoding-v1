@@ -1,0 +1,200 @@
+{
+  "study_id": "B1-06",
+  "source_sha256": "75c8c033c0e0e421579c133857a41bed8b1908ccbbc316d5993732eff1c919a3",
+  "printed_entries": 15,
+  "named_dependencies": 4,
+  "entry_count": 19,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        6
+      ],
+      "citation": "Bruno, M. S. (2001, September). Geomechanical analysis and decision analysis for mitigating compaction related casing damage. In SPE Annual Technical Conference and Exhibition (pp. SPE-71695). SPE.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Operational-contingency/completion design motivation onp6; original casing damage/decision method unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        6
+      ],
+      "citation": "Cappa, F., & Rutqvist, J. (2011). Modeling of coupled deformation and permeability evolution during fault reactivation induced by deep underground injection of CO2. International Journal of Greenhouse Gas Control, 5(2), 336-346.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Coupled pressure/temperature/stress and fault-risk discussion onpp1–2; original constitutive scope unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        6
+      ],
+      "citation": "Carey, J. W., Svec, R., Grigg, R., Lichtner, P. C., Zhang, J., & Crow, W. (2009). Wellbore integrity and CO2- brine flow along the casing-cement microannulus. Energy Procedia, 1(1), 3609-3615.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Printed reference retained; no exact in-text Carey citation located. Do not invent a specific supporting claim."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        6
+      ],
+      "citation": "Fjaer, E., Holt, R. M., Horsrud, P., Raaen, A. M., and Risnes, R. (1992). Petroleum Related Rock Mechanics. 1st ed. Elsevier.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Figure2 breakout/fracture sketch and circumferential-stress formulas; original derivation not checked. Bodyp1 cites2008, a different edition/year."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        6
+      ],
+      "citation": "Global CCS Institute. (2022). The Global Status of CCS 2022. Global CCS Institute.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Net-zero/CCS background onp1; historical report claims unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        7
+      ],
+      "citation": "International Energy Agency (IEA). (2023). World Energy Outlook 2023. IEA Publications.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Energy-sector emissions/projection background onp1; exact report section/figures unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        7
+      ],
+      "citation": "Mathias, S. A., Hardisty, P. E., Trudell, M. R., & Zimmerman, R. W. (2009). Screening and selection of sites for CO2 sequestration based on pressure buildup. International Journal of Greenhouse gas control, 3(5), 577-585.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Pressure buildup/hydraulic-fracture risk discussion onp5; original analytical assumptions unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        7
+      ],
+      "citation": "Metz, B., Davidson, O., De Coninck, H. C., Loos, M., & Meyer, L. (2005). IPCC Special Report On Carbon Dioxide Capture And Storage. Cambridge: Cambridge University Press.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "CCS description/background onp1; specific IPCC supporting pages not verified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        7
+      ],
+      "citation": "Paterson, L., Lu, M., Connell, L. D., & Ennis-King, J. (2008, September). Numerical modeling of pressure and temperature profiles including phase transitions in carbon dioxide wells. In SPE Annual Technical Conference and Exhibition (pp. SPE-115946). SPE.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Well temperature/phase and operational-transition discussion onpp2–3; original transient modelling not checked."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        7
+      ],
+      "citation": "Pruess, K. (2008). On CO 2 fluid flow and heat transfer behavior in the subsurface, following leakage from a geologic storage reservoir. Environmental Geology, 54, 1677-1686.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Cooler injected CO2 and heat-transfer discussion onp2; leakage-study versus injector scope needs original check."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        7
+      ],
+      "citation": "Rutqvist, J., & Tsang, C. F. (2002). A study of caprock hydromechanical changes associated with CO 2- injection into a brine formation. Environmental Geology, 42, 296-305..",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Containment/caprock/well pressure risks onpp1–2,5; primary hydromechanical case unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        7
+      ],
+      "citation": "Rutqvist, J., Vasco, D. W., & Myer, L. (2010). Coupled reservoir-geomechanical analysis of CO2 injection and ground deformations at In Salah, Algeria. International Journal of Greenhouse Gas Control, 4(2), 225-230.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Printed2010 InSalah study; in-textp1 says Rutqvist etal.2009. Exact edition/year correspondence unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        7
+      ],
+      "citation": "Tan, C. P., & Willoughby, D. R. (1993, October). Critical mud weight and risk contour plots for designing inclined wells. In SPE Annual Technical Conference and Exhibition (pp. SPE-26325). SPE.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Narrow breakout/high well-pressure shear explanation onp5; original inclined-well criterion/derivation unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        7
+      ],
+      "citation": "Vilarrasa, V., Olivella, S., Carrera, J., & Rutqvist, J. (2014). Long term impacts of cold CO2 injection on the caprock integrity. International Journal of Greenhouse Gas Control, 24, 1-13.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Long-term cooling/stress and caprock discussion onpp2,5; original coupled model and transfer limits unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        7
+      ],
+      "citation": "Vilarrasa, V., Makhnenko, R. Y., & Laloui, L. (2015, October). Influence of poromechanical and thermal properties of the caprock on the safety of CO2 storage. In Second EAGE workshop on geomechanics and energy (pp. cp-466). European Association of Geoscientists & Engineers.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Thermal/poromechanical stress and containment discussion onpp2,5; exact original work/parameters unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        1
+      ],
+      "citation": "Fjaer et al.2008",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Body cites2008; printed book reference and Figure2 cite1992. Do not assume identical edition/derivation."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        1
+      ],
+      "citation": "Rutqvist et al.2009",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Printed reference is Rutqvist/Vasco/Myer2010; possible publication-year relation unverified."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        5
+      ],
+      "citation": "Goodarzi et al.2012",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "No matching printed entry identified. Original caprock/fracture propagation evidence not inspected."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        1,
+        2
+      ],
+      "citation": "Project one-way thermal dynamic–geomechanical and openhole-stability models",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Model versions, geometry, raw outputs, constitutive/failure methods and proprietary input decks unavailable locally."
+    }
+  ]
+}
