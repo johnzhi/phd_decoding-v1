@@ -110,7 +110,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 A Sarawak development targets up to 2.0 Mt/year through a 40 km offshore pipeline into shallow/intermediate/deep depleted reservoirs. Early-life thermal/hydraulic limits constrain the shallow case to 37.5% and deep case to 80% of well design capacity under specified conditions. An insulated pipeline is selected over offshore heating and gas-phase transport.
 
-Transfer limits: Design/forecast, not measured storage performance or access for imported Japanese CO2. The system handles CO2 separated from sour-gas production, so its industrial counterfactual differs. The paper labels a critical pressure as 73 barg (p3); retain as printed and do not confuse this with absolute-pressure property data.
+Transfer limits: Comprehensive13-page reading is recorded separately in evidence/comprehensive_review/B1-08.json. This is a sour-gas development design/forecast, not observed service or imported JapaneseCO2 access. The37.5%shallow and80%deep limits use own-well design capacities under statedP/T, not the up-to2MTPA system target or annual/lifetime factors. Preserve gauge labels including73barg; exact mixture/OLGA inputs, corrosion comparison/test basis and temperature/pressure controls remain unverified. U-value is not insulation thickness, SimilarGHG is notzero, and the2h warm-restart window is not outage availability. Gas-phase costs/energy require changed wells/tubing for equivalent service; no fullTEA/utility/GHG inventory is reproduced. See flow_assurance_comprehensive_findings.md; accepted inputs remain unchanged.
 
 ### B1-09 — 4-D Geomechanics Modelling for Potential CO2 Storage Site in Malaysia – Fault Reactivation and Maximum Pressure Injection Limit
 

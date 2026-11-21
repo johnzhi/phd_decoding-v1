@@ -1,0 +1,237 @@
+{
+  "study_id": "B1-08",
+  "source_sha256": "17904957ed801363b44321b42145777bd1d59f24094a03f0e91e226a0c5bbc03",
+  "source_path": "papers/B1-08.pdf",
+  "scope": "source-labelled operating/relative values and limited arithmetic, not a reproduced OLGA/PVT/TEA case or accepted operating/GHG inputs",
+  "project_target_MTPA": 2.0,
+  "project_target_status": "up-to design target, not observed annual injection",
+  "pipeline_length_km": 40,
+  "well_design_capacity_absolute": null,
+  "insulation_thickness_m": null,
+  "heater_duty_MW": null,
+  "baseline_energy_absolute": null,
+  "annual_injection_profile": null,
+  "reservoirs": [
+    {
+      "name": "shallow",
+      "TVD_m": 650,
+      "start_pressure_barg": 25,
+      "end_pressure_barg": 70,
+      "precision": "approximate source values"
+    },
+    {
+      "name": "intermediate",
+      "TVD_m": 1550,
+      "start_pressure_barg": 30,
+      "end_pressure_barg": 170,
+      "precision": "approximate source values"
+    },
+    {
+      "name": "deep",
+      "TVD_m": 1700,
+      "start_pressure_barg": 50,
+      "end_pressure_barg": 190,
+      "precision": "approximate source values"
+    }
+  ],
+  "water_spec_ppmv": 40,
+  "upset_water_multiplier": 5,
+  "condensed_aqueous_vol_pct": 0.001,
+  "TEG_condensed_aqueous_mass_fraction_lower": 0.85,
+  "CO2_mol_fraction_lower": 0.99,
+  "hydrocarbon_carryover_mol_fraction_upper": 0.01,
+  "feed_CO2_mol_fraction_lower": 0.15,
+  "phase_critical_pressure_printed_barg": 73,
+  "early_upstream_choke_pressure_barg": 80,
+  "late_upstream_choke_pressure_barg": 100,
+  "late_reported_reservoir_threshold_barg": 50,
+  "temperatures_C": {
+    "piping_min": -46,
+    "SCSSV_min": -7,
+    "BH_hydrate_min": 10,
+    "minimum_seabed": 20,
+    "early_upstream_target": 50,
+    "pipeline_inlet_max": 110,
+    "reported_SCSSV_min": -12.7,
+    "initial_startup_DS_fluid_min": -64.6,
+    "early_required_arrival": 50
+  },
+  "no_touch_time_h": 2,
+  "initial_startup_inhibitor": "shallow/intermediate until BHT>10C; composition/dose/duration not supplied",
+  "corrosion_relative_changes_pct": {
+    "shutin_no_TEG": 0,
+    "shutin_with_TEG": 0,
+    "upset_no_TEG": 220.92,
+    "upset_with_TEG": 221.02
+  },
+  "corrosion_claimed_inhibition_pct_lower": 85,
+  "corrosion_material_test_rate_upper_mm_year": 0.013,
+  "fig5": [
+    {
+      "injection_label": "Minimum seabed",
+      "injection_temperature_C": null,
+      "BHT_C": 5.9
+    },
+    {
+      "injection_label": "40C",
+      "injection_temperature_C": 40,
+      "BHT_C": 5.2
+    },
+    {
+      "injection_label": "50C",
+      "injection_temperature_C": 50,
+      "BHT_C": 17
+    },
+    {
+      "injection_label": "60C",
+      "injection_temperature_C": 60,
+      "BHT_C": 30.6
+    }
+  ],
+  "fig6_BHT_labels": {
+    "shallow": [
+      32.32,
+      10.6,
+      4.18
+    ],
+    "intermediate": [
+      37.9,
+      15.49,
+      16.46
+    ],
+    "deep": [
+      63.46,
+      48.76,
+      49.01
+    ]
+  },
+  "fig6_note": "BHT value labels retained; unlabeled point flow coordinates not assigned exact values from a plot.",
+  "early_flow_limits": {
+    "shallow_fraction_of_own_well_design": 0.375,
+    "deep_fraction_of_own_well_design": 0.8,
+    "intermediate_absolute": null,
+    "source_context": "80barg upstream /50C arrival; thermal limit shallow, hydraulic limit deep"
+  },
+  "fig7": [
+    {
+      "reservoir_pressure_barg": 25,
+      "BHT_C": -4.7,
+      "pressure_value_basis": "graph point on labelled axis"
+    },
+    {
+      "reservoir_pressure_barg": 40,
+      "BHT_C": 7,
+      "pressure_value_basis": "graph point on labelled axis"
+    },
+    {
+      "reservoir_pressure_barg": 50,
+      "BHT_C": 15.7,
+      "pressure_value_basis": "graph point on labelled axis"
+    },
+    {
+      "reservoir_pressure_barg": 60,
+      "BHT_C": 22.7,
+      "pressure_value_basis": "graph point on labelled axis"
+    }
+  ],
+  "insulation_U_W_m2K": 1.5,
+  "options": [
+    {
+      "id": "insulation",
+      "nominal_pipe_in": 14,
+      "energy_pct": 0,
+      "CAPEX_pct": 0,
+      "OPEX_pct": 0,
+      "extra_CO2_t_year": null,
+      "GHG_label": "Baseline"
+    },
+    {
+      "id": "heater",
+      "nominal_pipe_in": 12,
+      "energy_pct": 50,
+      "CAPEX_pct": 40,
+      "OPEX_pct": 40,
+      "extra_CO2_t_year": 60000,
+      "GHG_label": "+60ktCO2/year"
+    },
+    {
+      "id": "gas",
+      "nominal_pipe_in": 24,
+      "energy_pct": -10,
+      "CAPEX_pct": 10,
+      "OPEX_pct": -10,
+      "extra_CO2_t_year": null,
+      "GHG_label": "Similar"
+    }
+  ],
+  "gas_option_constraint": "50barg platform limit; cannot maintain early-life total injection without more wells/larger tubing per p10",
+  "transient_note": "Figure9 deep restart0–25h uses up-to100% then~80% labelled flow; Figure10 intermediate25h onward~80%. Detailed conditions/basis and continuity to steady envelope unresolved; no annual schedule derived.",
+  "material_test_corrosion_upper_mm_year": 0.013,
+  "reported_SCSSV_low_C": -12.7,
+  "startup_downstream_fluid_low_C": -64.6,
+  "reported_no_touch_hours": 2,
+  "early_life_well_capacity_fractions": {
+    "shallow": 0.375,
+    "deep": 0.8
+  },
+  "figure5_labelled_BHT_points": [
+    {
+      "case": "minimum_seabed_label",
+      "injection_T_C": null,
+      "BHT_C": 5.9,
+      "note": "Minimum seabed point; exactxnot textuallylabelled"
+    },
+    {
+      "case": "40C",
+      "injection_T_C": 40,
+      "BHT_C": 5.2
+    },
+    {
+      "case": "50C",
+      "injection_T_C": 50,
+      "BHT_C": 17
+    },
+    {
+      "case": "60C",
+      "injection_T_C": 60,
+      "BHT_C": 30.6
+    }
+  ],
+  "figure6_labelled_BHT_values": {
+    "shallow": [
+      32.32,
+      10.6,
+      4.18
+    ],
+    "intermediate": [
+      37.9,
+      15.49,
+      16.46
+    ],
+    "deep": [
+      63.46,
+      48.76,
+      49.01
+    ]
+  },
+  "figure6_x_note": "Labelled temperatures transcribed. Other than body-reported37.5%shallow/80%deep boundaries, unlabelled point xcoordinates are not used as exact numerical inputs.",
+  "figure7_labelled_pressure_points": [
+    {
+      "pressure_barg": 25,
+      "BHT_C": -4.7
+    },
+    {
+      "pressure_barg": 40,
+      "BHT_C": 7
+    },
+    {
+      "pressure_barg": 50,
+      "BHT_C": 15.7
+    },
+    {
+      "pressure_barg": 60,
+      "BHT_C": 22.7
+    }
+  ],
+  "figure7_x_note": "Pressure point locations read against numeric xaxis; BHTs are explicitly labelled."
+}

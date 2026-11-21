@@ -37,6 +37,9 @@ openhole_spec.loader.exec_module(openhole)
 higashi_spec = importlib.util.spec_from_file_location('audit_higashi_niigata', ROOT / 'scripts/audit_higashi_niigata.py')
 higashi = importlib.util.module_from_spec(higashi_spec)
 higashi_spec.loader.exec_module(higashi)
+flow_spec = importlib.util.spec_from_file_location('audit_flow_assurance', ROOT / 'scripts/audit_flow_assurance.py')
+flow = importlib.util.module_from_spec(flow_spec)
+flow_spec.loader.exec_module(flow)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -46,6 +49,40 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_flow_well_fraction_cannot_use_project_capacity_as_its_denominator(self):
+        data=flow.load_inputs()
+        self.assertEqual(data['project_target_MTPA'],2)
+        self.assertIsNone(flow.absolute_well_limit(.375,data['well_design_capacity_absolute']))
+        self.assertIsNone(flow.absolute_well_limit(.8,data['well_design_capacity_absolute']))
+        # Analyst unit example with a known own-well capacity, not project data.
+        self.assertEqual(flow.absolute_well_limit(.375,80),30)
+        self.assertEqual(flow.absolute_well_limit(.8,80),64)
+        results={r['item']:r for r in flow.calculate(data)}
+        self.assertIsNone(results['gas_option_extra_GHG']['value'])
+        self.assertIsNone(results['insulation_thickness_m']['value'])
+        self.assertIsNone(results['heater_duty_MW']['value'])
+
+    def test_flow_corrosion_percentages_keep_reference_and_phase_bases(self):
+        results={r['item']:r for r in flow.calculate(flow.load_inputs())}
+        self.assertAlmostEqual(results['upset_no_TEG_corrosivity_index']['value'],3.2092)
+        self.assertAlmostEqual(results['upset_with_TEG_corrosivity_index']['value'],3.2102)
+        self.assertAlmostEqual(results['upset_TEG_relative_change']['value'],100*.001/3.2092)
+        self.assertEqual(results['upset_water_content']['value'],200)
+        self.assertAlmostEqual(results['aqueous_condensate_volume_fraction']['value'],1e-5)
+        self.assertEqual(results['material_test_rate_upper_micrometre_year']['value'],13)
+
+    def test_flow_temperature_checks_do_not_claim_transient_wall_failure(self):
+        results={r['item']:r for r in flow.calculate(flow.load_inputs())}
+        self.assertAlmostEqual(results['Figure5_50C_BHT_margin']['value'],7)
+        self.assertAlmostEqual(results['Figure6_shallow_point2_BHT_margin']['value'],.6)
+        self.assertAlmostEqual(results['Figure6_deep_point3_BHT_margin']['value'],39.01)
+        self.assertAlmostEqual(results['SCSSV_reported_minimum_margin']['value'],-5.7)
+        row=results['startup_fluid_relative_to_piping_MDT']
+        self.assertAlmostEqual(row['value'],-18.6)
+        self.assertIn('not proof of wall failure',row['interpretation'])
+        self.assertTrue(all(r['value'] is None for r in results.values()
+                            if r['calculation_status'].startswith('not_computable')))
+
     def test_higashi_unknown_absolute_baseline_is_not_a_zero_or_normalised_tonne(self):
         self.assertEqual(higashi.relative_total_bounds(None,[25,30]),(None,None))
         self.assertEqual(higashi.relative_total_bounds(0,[25,30]),(0,0))

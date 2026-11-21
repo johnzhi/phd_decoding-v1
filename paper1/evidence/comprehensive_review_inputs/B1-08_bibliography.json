@@ -1,0 +1,90 @@
+{
+  "study_id": "B1-08",
+  "source_sha256": "17904957ed801363b44321b42145777bd1d59f24094a03f0e91e226a0c5bbc03",
+  "printed_entries": 2,
+  "named_dependencies": 5,
+  "entry_count": 7,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        13
+      ],
+      "citation": "Association for Materials Protection and Performance (AMPP). AMPP Guide 21532-2023 – Guideline for Materials Selection and Corrosion Control for CO2 Transport and Injection [revised 30 May 2023].",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Materials/corrosion reference for trace aqueous TEG discussion p4. Exact AMPP guide, test conditions, aqueous-phase basis and design allowances not inspected."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        13
+      ],
+      "citation": "Gulbrandsen, E. and Morard, J-H. 1998. Why Does Glycol Inhibit CO2 Corrosion? Presented at CORROSION 98, San Diego, 22 March. NACE-98221",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Glycol inhibition of CO2 corrosion, p4. Original mechanisms/conditions and relation to Table3 comparison unverified; no blanket85%credit."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3,
+        4
+      ],
+      "citation": "Peng–Robinson EOS / PR78A variant",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Original derivation, mixing rules, binary parameters, complete composition and fluid-property tables unavailable."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        3,
+        4
+      ],
+      "citation": "Multiflash fluid-characterisation cases",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Product version, property methods, component concentrations and native phase/hydrate predictions not retained."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "citation": "Integrated pipeline–well OLGA cases",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Version, geometry, well/formation/choke/heat-transfer/PVT/initial-boundary data, rates and solver controls unavailable."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        4
+      ],
+      "citation": "Project line-pipe corrosion/material testing",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Claimed upset corrosion<0.013mm/year lacks native protocol, grade, exposure duration, concentrations, uncertainty and test reports."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        9,
+        10
+      ],
+      "citation": "Project techno-economic, energy and GHG estimates",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Absolute cost/energy baseline, utility supplier/EF, functional-equivalence, asset boundaries and calculations not provided."
+    }
+  ]
+}

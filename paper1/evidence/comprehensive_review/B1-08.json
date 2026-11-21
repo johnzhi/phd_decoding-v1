@@ -1,0 +1,545 @@
+{
+  "study_id": "B1-08",
+  "source_sha256": "17904957ed801363b44321b42145777bd1d59f24094a03f0e91e226a0c5bbc03",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All13 retained main-PDF pages read and visually inspected, including10 figures, four tables, two printed references and five additional method/model dependencies. Labelled temperature sensitivity points and all equipment/flow/transient conditions inspected. No numbered or unnumbered mathematical equations are supplied; Peng-Robinson and proprietary software are named without full implementation.53 limited margins/relative-index/unit and missing-value checks are implemented. PVT, corrosion, material-test, OLGA, techno-economic and full GHG models remain unreproduced, originals/assets unverified; paper not comprehensively complete.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "original_model_status": "printed_margins_indices_and_unit_checks_only_PVT_OLGA_corrosion_TEA_GHG_not_reproduced",
+  "supplement_status": "no_explicit_notice_or_embedded_assets_identified_public_availability_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication, rights and abstract",
+      "assessment": "Charoensuk and six coauthors, PTTEP; OTC35887MS, Houston5–8May2025; DOI10.4043/35887-MS. Header reports abstract selection and contents not reviewed by OTC. Rights notice read; original preserved and newly rendered source figures not distributed. Up-to2MTPA target and flow-assurance/sustainability claims are forecasts, not observed performance."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Introduction and project overview; Figure1",
+      "assessment": "Sour-gas feed above15mol%CO2 treated for sale; onshore solvent separation/compression/dehydration and40km offshore pipeline. Source gas-development counterfactual differs from capture of an existing Japanese industrial stream. Geographical sketch does not establish contracted import/storage service."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        3
+      ],
+      "scope": "Reservoir properties and parallel injection; Table1",
+      "assessment": "Three representative depth groups, not a disclosed total well/compartment count. All legacy producers planned for abandonment; new CO2-service wells, simultaneous regulated pressurisation and claimed seal/fault integrity. Exact compartments, volumes, pressure/rate histories and integrity models absent."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "Fluid characterisation and corrosion; Figure2/Tables2–3",
+      "assessment": "CO2>99mol%,HC<1mol%; H2O,H2S,TEG continuous, traceC6+. Multiflash/Peng-Robinson;73barg critical label retained. Trace aqueous condensate,40ppmv water,>85wt%liquidTEG and>85%inhibition statement read alongside almost unchanged Table3 TEG comparison. Exact mixture/model/film/reference basis and material tests unavailable."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "Integrated flow-assurance method and hydrate criteria; Figure3",
+      "assessment": "Single OLGA pipeline/well/nearwell/choke model; J-T expansion, tubing friction/gravity/formation heat transfer. Piping−46C,SCSSV−7C and conservative bottom-hole>10C are distinct criteria. Dehydration may not prevent bottom-hole hydrates because connate water can resaturate the stream. No complete model geometry, closures or native inputs."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "Early low-pressure thermohydraulics; Figure4",
+      "assessment": "Intermediate/deep min/maxflow pressure/temperature profiles at80barg prechoke and seabed arrival. Low-flow SCSSV can reach−12.7C; early intermediate BHT below10C. Deep case behaves differently. Tubing-profile length is not substituted for reservoir TVD; all curves/legends inspected."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "Early-life envelope; Figures5–6",
+      "assessment": "Intermediate target50C prechoke gives17CBHT;60C givesmore margin but~20%lower maxflow. Shallow thermal limit37.5%of own-well design; deep hydraulic limit80%at80barg. Per-well absolute capacities, counts and time-to-transition unavailable; no multiplication by the2MTPA system target."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        9
+      ],
+      "scope": "Late-life envelope; Figure7",
+      "assessment": "Reported need for all reservoir pressures above50barg to permit seabed-temperature injection, with prechoke pressure increased80→100barg. This is a case sensitivity, not a universal pressure-to-rate/fracture rule. No calendar transition or annual service curve."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "Network design options; Table4",
+      "assessment": "Insulated14inch/U1.5, electric-heater12inch and gas-phase24inch options. Relativeenergy/costs and heater+60ktCO2/year read. Insulation selected for minimum upfront capital and versus-heater energy; gas option requires more/larger wells/tubing to sustain early totalflow. Full functional-equivalence, absolute energy/cost and GHG boundaries missing."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "scope": "Transient initial start-up/restarts; Figures8–10",
+      "assessment": "Liquid-column/near-atmospheric initial wellhead can produce−64.6Cfluid; wall/ramp response must be checked. Shallow/intermediate hydrate inhibitor required until BHT>10C. About2h warm no-touch time is not outage availability. Cold restart first uses deep reservoir, then other wells after warming. Native transient controls, inhibitor doses and wall-temperature data absent."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        13
+      ],
+      "scope": "Conclusions, acknowledgements and references",
+      "assessment": "Viability/sustainability conclusion and PTTEP publication permission read. Two originals explicitly cited for glycols/corrosion; no complete lifecycle or observed validation supplied. No embedded assets or explicit supplement/code/data notice; external availability unverified."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        2
+      ],
+      "object": "Figure1: project location and offshore storage sketch",
+      "inspection": "Bintulu,Sarawak,Sabah and offshore-site arrow inspected; no coordinates, surveyed route or named reservoir.40km is reported in text. Not evidence of Japanese import access or identity with other anonymous Sarawak cases."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        4
+      ],
+      "object": "Figure2: P–T phase diagram, regions and all three legend entries",
+      "inspection": "Temperature−150to150C, pressure0–150barg; solid/liquid/dense/supercritical/gas and liquidTEG+gas labels. PR78A solid line, liquid-saturation dashed and pureCO2 circles read. Approximate73barg critical line retained; graphical phase labels are not a validated mixture/solid-phase or absolute-pressure property dataset."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        5
+      ],
+      "object": "Figure3: CO2 phase and hydrate curves",
+      "inspection": "Temperature−100to100C,pressure0–100barg; phase envelope,40ppmv-water hydrate and water-saturated-CO2 hydrate legends read. Curves do not establish universal hydrate safety; bottom-hole formation-water resaturation is explicitly considered. Original hydrate/PVT parameters unavailable."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        6
+      ],
+      "object": "Figure4: all intermediate/deep P–T profile panels",
+      "inspection": "Two depth classes; dual temperature/pressure axes; min/maxflow temperature and pressure line styles. Tubing profile0–2500m differs from TVD categories. No absolute flow or SCSSV-depth markers; qualitative fluid-profile reproduction not claimed."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        8
+      ],
+      "object": "Figure5: intermediate BHT versus prechoke arrival temperature",
+      "inspection": "Labelled BHT5.9C at minimum-seabed point,5.2C at40C,17C at50C,30.6C at60C;10C criterion and50Cselected guide inspected. Minimum-seabed xpoint not separately text-labelled. Nonmonotonic curve and~20%capacity trade-off preclude inferring a universal optimal temperature or linear response."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        8
+      ],
+      "object": "Figure6: all three BHT/own-design-fraction curves",
+      "inspection": "All labelled BHT values transcribed; shallow32.32/10.6/4.18,intermediate37.9/15.49/16.46,deep63.46/48.76/49.01C. Body37.5%shallow and80%deep limits are explicit; other unlabelled xpoints not treated as exact inputs. Deep limit hydraulic despite thermal margin; no annual/network-capacity factor."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        9
+      ],
+      "object": "Figure7: pressure sensitivity and labelled BHT points",
+      "inspection": "Plotted pressure points25/40/50/60barg with labelledBHT−4.7/7.0/15.7/22.7C;10Ccriterion and50bargguide. One sensitivity curve with incompletely specified geometry/flow; no exactthreshold interpolation or merged three-reservoir calibration."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        11
+      ],
+      "object": "Figure8: all pipeline shut-in temperature profiles",
+      "inspection": "Steady, t=2h and long-shutdown line styles; spatial length0–about40km andtemperature0–100C. Nonuniform cooldown; about2hno-touch condition is source-specific, not a failure/downtime statistic or universally exponential thermal law."
+    },
+    {
+      "id": "F09",
+      "pages": [
+        12
+      ],
+      "object": "Figure9: deep-reservoir restart, four curves and dual axes",
+      "inspection": "Time0–25h; flow%design and temperature0–120C; injectionflow,upstreamchoke,downstreamchoke,BHT legends read. Flow approaches100% thenabout80%; conditions/basis versus steady deep80%limit need original case/control data. No exact time-integrated mass or direct steady-state violation inferred."
+    },
+    {
+      "id": "F10",
+      "pages": [
+        12
+      ],
+      "object": "Figure10: intermediate restart, four curves and dual axes",
+      "inspection": "Timeabout25–57h;~80%labelledflow;temperature−20to120C. Upstream/downstreamchoke/BHT roles inspected. Downstreamfluid temperature is not SCSSV or walltemperature. Continuity to Figure9 and exact restart/pressure/ramp conditions require native data; not an annual operating calendar."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        3
+      ],
+      "object": "Table1: all depth/initial/final representative rows",
+      "inspection": "ApproximateTVD650/1550/1700m;start25/30/50barg;end70/170/190barg. These are representative reservoir/model boundary states, not a specified fracture limit or observed annual maximum. No count of all reservoirs/wells supplied."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        3
+      ],
+      "object": "Table2: continuous contaminants",
+      "inspection": "H2O,H2S,TEG continuous. Concentrations and HC speciation not supplied by these labels;40ppmvwater is given elsewhere. No complete input composition for independent PVT/OLGA reproduction."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        4
+      ],
+      "object": "Table3: all four corrosivity cells and both notes",
+      "inspection": "NoTEGshutin baseline;TEGshutin+0%;noTEGupset+220.92%;TEGupset+221.02%. UpsetmaxP/T and5×water. Normalised indices1/1/3.2092/3.2102; separate>85%inhibition statement needs reference/basis reconciliation. Not an independently reproduced corrosion rate."
+    },
+    {
+      "id": "T04",
+      "pages": [
+        10
+      ],
+      "object": "Table4: all design/energy/cost/GHG rows",
+      "inspection": "14/12/24in;supercritical/dense/gas;energybaseline/+50%/−10%;CAPEXbaseline/+40%/+10%;OPEXbaseline/+40%/−10%;heater+60ktCO2/year;gasSimilar. U1.5W/m2K is heat-transfer coefficient, not thickness. Similar is not numericzero. Gas option needs changes for equivalent injection service."
+    }
+  ],
+  "equations": [],
+  "equations_absence": "No mathematical equations identified in the retained PDF. Peng-Robinson/PR78A, Multiflash, OLGA, corrosion and techno-economic analyses are named, but governing/closure/property/cost equations and original derivations are not supplied. These model dependencies remain open; absence of printed equations does not make reproduction inapplicable.",
+  "variables": [
+    "Up-to2.0MTPA is an overall design target, not observed annual capture/injection or a disclosed individual-well capacity. The37.5/80%limits use own-well design denominators; neither applies directly to2MTPA.",
+    "Table1 groups are representative shallow/intermediate/deep classes, not a proven three-well or three-compartment network. TVD differs from tubing-path length. Absolute dimensions, roughness, perforations, completion/SCSSV depths and injection indices unavailable.",
+    "All pressures are retained as printedbarg, including the73bargcritical label,80/100bargplatform states and50barglate reservoirguide. No automatic substitution into an absolute-pressure EOS or local thermal/fracture ceiling.",
+    "Equipment/material minimums differ: piping−46C,SCSSV−7C;BHT>10C is a conservative hydrate/interface criterion. A fluid transient below pipingMDT does not alone establish actual wall temperature or failure.",
+    "J-T expansion, friction, hydrostatic compression and formation heat transfer are coupled. A higher flow may warm theSCSSV while impairing BHT/pressure elsewhere; no separable monotonic rate rule.",
+    "Source feed>15mol%CO2 is sourhydrocarbon gas; product>99mol%CO2 and<1mol%HC are distinct streams. H2S/TEG/water andC6+ composition, binary interactions and relevant PVT/hydrate model parameters are incomplete.",
+    "Normal water40ppmv,upset5×=200ppmv. Condensate0.001vol%=1e-5volume fraction is not water mole fraction.>85wt%TEG applies to the condensed aqueous phase, not the whole captured stream.",
+    "Table3percentages compare to a reference: +220.92% means3.2092timesbaseline, not2.2092. TheTEGupset change is0.10baselinepercentagepoint, about0.0312%relative to noTEGupset; no85%discount automatically applied.",
+    "Reported linepipe test<0.013mm/year is an upper bound with missing material/exposure/protocol/uncertainty. No service-life corrosion allowance or safe-life extrapolation performed.",
+    "U=1.5W/m2K is an overall heat-transfer coefficient. Actual insulation thickness/material/conductivity/area and model heat-transfer boundary are absent; no thickness or heat loss computed fromUalone.",
+    "Pipeline entry can reach110C;earlyarrivaltarget50C;minimumseabed20C;option2requires30Ktemperaturelift. Neither temperature lift nor relativeenergy givesheaterMW/utility demand withoutenthalpy/flow inputs.",
+    "Pipeline sizes14/12/24inch are source nominal labels, not measured hydraulic diameters. Gasoperation50barg requires morewells/largertubing for equivalentearlytotalflow; Table4scope must accompany rank comparisons.",
+    "Energy/CAPEX/OPEX are relative indices with different dimensions and unknown absolute bases. Heater+60ktCO2/year is an attributed incremental operational quantity, not a completeCO2e/LCA factor. GasSimilar remains qualitative/missing.",
+    "Initial liquid-column wellheadnear0barg can produce−64.6Cfluid; wallthermal inertia/ramp/inhibitor response unprovided. Hydrate inhibitor is separately required forinitialshallow/intermediate wells; traceTEGcontaminant is not automatically the inhibitor dose.",
+    "No-touch~2h is a conditional warm-restart window. Deep-first restart and laterintermediate restart require model-specific states/control histories, not a2h annual outage parameter. Exact transient flow/time integrals unavailable.",
+    "The source states only that the reservoirs have produced for more than15years; no exact production-start year is inferred. Enabled sour-gas production requires a full upstream/downstream counterfactual for netGHG claims.",
+    "Anonymous Sarawak/PTTEP case is not joined to PETRONAS or other MalaysianFieldX studies without identity evidence. Capture heat/electricity, source supplier, assets, inhibitors, brine, monitoring and retention horizon not fully inventoried."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2,
+        3,
+        13
+      ],
+      "claim": "The greenfield CCS development is viable and sustainable with minimal GHG intensity.",
+      "assessment": "Reported engineering/design rationale, not a complete lifecycle/counterfactual assessment. Up-to2MTPA is a target; enabled sour-gas production, downstream combustion, assets/utility and retention boundaries are missing."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        3
+      ],
+      "claim": "Existing seals/faults remain effective and uniform pressure buildup minimises leakage.",
+      "assessment": "Qualitative site/injection strategy; no caprock/fault/well-leakage or pressure-coupling model/results supplied. Target end pressures not certified maximum allowable pressures."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "The80bargdense/supercritical network avoids two-phase/corrosion risks.",
+      "assessment": "MainCO2phase and traceaqueous condensate are distinct; a small liquidmixture is explicitly acknowledged. Exact composition and fluid/solid/phase predictions unverified; pressure alone does not certify the envelope."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        4
+      ],
+      "claim": "TEG-rich condensate reduces corrosion potential>85%, whileTable3finds littleTEGimpact and tests<0.013mm/year.",
+      "assessment": "Both statements retained with unresolved comparison basis. Table indices show only0.10baselinepoint/0.0312%relative upset difference. Original standards/glycol paper and native test protocol needed; no corrected inhibitionfactor."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "claim": "Temperature constraints prevent equipment/hydrate problems under specified flow conditions.",
+      "assessment": "Separate piping/SCSSV/BHT criteria anddry-versus-resaturated hydrate curves read. No original PVT/OLGA data or validation, so limits are attributed case envelopes, not universal physical safety thresholds."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "50Carrival optimises intermediate performance;shallow<=37.5% anddeep<=80% design in earlylife.",
+      "assessment": "Reported labelled point/margin and own-well fractions checked. Absolute well capacities and time-evolution arrays absent; not transferred to network2MTPA or annual/lifetime injection factors."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        9
+      ],
+      "claim": "Above50bargreservoirpressure allows seabed-temperature injection with80→100barg upstream pressure.",
+      "assessment": "Case-specific sensitivity, not a universal switch or pressure-to-rate curve. Exact per-reservoir flow/thermal settings and calendar toreachthreshold unavailable."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Insulation is preferred over electrical heating and gastransport.",
+      "assessment": "Minimum-upfront-CAPEX and versus-heater energy rationale read. Gasreportedenergy/OPEX islower butcannotmatch earlytotalflow withoutwellchanges. No equivalent full-chainNPC/GHG optimisation reproduced."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        10
+      ],
+      "claim": "Heater adds60ktCO2/year and insulation adds no furtherGHG.",
+      "assessment": "Scope is attributed design/operating comparison; absolute energy, powerEF, construction/insulation/wellchanges and fullcounterfactual missing. Not zero lifecycle emissions or an accepted per-tonne factor."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Start-up/restart philosophies safely manage all severe shut-in conditions.",
+      "assessment": "Initialtemperature−64.6C/ramp/inhibitor andabout2hwarmwindow/deepfirstsequence read. Wall response, inhibitor dosing, environmental/ramp/initialconditions and all scenario outputs unavailable. No observed universal safety or annual availability proof."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        13
+      ],
+      "citation": "Association for Materials Protection and Performance (AMPP). AMPP Guide 21532-2023 – Guideline for Materials Selection and Corrosion Control for CO2 Transport and Injection [revised 30 May 2023].",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Materials/corrosion reference for trace aqueous TEG discussion p4. Exact AMPP guide, test conditions, aqueous-phase basis and design allowances not inspected."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        13
+      ],
+      "citation": "Gulbrandsen, E. and Morard, J-H. 1998. Why Does Glycol Inhibit CO2 Corrosion? Presented at CORROSION 98, San Diego, 22 March. NACE-98221",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Glycol inhibition of CO2 corrosion, p4. Original mechanisms/conditions and relation to Table3 comparison unverified; no blanket85%credit."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3,
+        4
+      ],
+      "citation": "Peng–Robinson EOS / PR78A variant",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Original derivation, mixing rules, binary parameters, complete composition and fluid-property tables unavailable."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        3,
+        4
+      ],
+      "citation": "Multiflash fluid-characterisation cases",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Product version, property methods, component concentrations and native phase/hydrate predictions not retained."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "citation": "Integrated pipeline–well OLGA cases",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Version, geometry, well/formation/choke/heat-transfer/PVT/initial-boundary data, rates and solver controls unavailable."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        4
+      ],
+      "citation": "Project line-pipe corrosion/material testing",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Claimed upset corrosion<0.013mm/year lacks native protocol, grade, exposure duration, concentrations, uncertainty and test reports."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        9,
+        10
+      ],
+      "citation": "Project techno-economic, energy and GHG estimates",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Absolute cost/energy baseline, utility supplier/EF, functional-equivalence, asset boundaries and calculations not provided."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "status": "MISSING_PVT_OLGA_AND_NETWORK_INPUTS",
+      "finding": "Complete mixture/properties, simulatorversions, geometries,well/choke/friction/heat-transfer/formationparameters,compartmentvolumes,flowtargets andtransientcontrols unavailable.",
+      "action": "Obtain exact permitted cases and raw results before independentPVT/OLGA/envelope reproduction; no generic substitutes or guessed annualarrays."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        3,
+        7,
+        8,
+        12
+      ],
+      "status": "HOLD_RATE_DENOMINATOR_AND_CASE_CONTEXT",
+      "finding": "Own-well37.5/80%limits lack absolute capacities/counts; transientdeep reaches100% under incompletely specified conditions.",
+      "action": "Preserve source cases anddenominators. Do not multiplyfractions by2MTPA or labeltransient/steady differences unsafe withoutexactcontrols."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        3,
+        4,
+        5,
+        9
+      ],
+      "status": "HOLD_PRESSURE_PHASE_AND_HYDRATE_SCOPE",
+      "finding": "Gauge critical/operatinglabels, mixturephase/traceaqueous behaviour andconnate-waterhydrate risks need exactPVT/composition/modelbasis.",
+      "action": "No automaticabsolute-pressure conversion, pureCO2replacement oruniversal80/50bargsafety rule. Preserve declared equipment/interfacecriteria."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        4,
+        13
+      ],
+      "status": "HOLD_CORROSION_REFERENCE_AND_TEST_BASIS",
+      "finding": "Separate>85%inhibitionclaim versusnegligibleTable3TEGdifference not independentlyreconciled; native<0.013mm/yeartests unavailable.",
+      "action": "CheckAMPP21532/glycoloriginal andtestprotocol; preserveallsourcevalues withoutinventingcorrectedfilmkinetics orsafe-life."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        9,
+        10
+      ],
+      "status": "MISSING_FUNCTIONALLY_MATCHED_TEA_AND_GHG_INVENTORY",
+      "finding": "Relativeoptions lackabsoluteenergy/cost/EF/inventory;gasrequireswellchanges forsametotalflow;Uisnotthickness andSimilarisnotzero.",
+      "action": "No fullNPC/energy/GHG ranking, heatdutyorper-tonne emissions derived. Include relevantwell/asset/productioncounterfactual boundaries."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        11,
+        12
+      ],
+      "status": "HOLD_TRANSIENT_AS_AVAILABILITY_OR_WALL_PROOF",
+      "finding": "Fluidundershoot differsfromwalltemperature;inhibitor/rampstates andconditional2hwindow lacknativecontrols, recurrence andannualschedule.",
+      "action": "Obtainwall/valve/BHThistories andoperatinglogs; no failureprobability,constantcooldownlaw or2houtagefactor."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        3,
+        13
+      ],
+      "status": "HOLD_INTEGRITY_AND_NET_RETENTION_CERTIFICATION",
+      "finding": "Seal/fault/leakpathclaims andgasdevelopmentGHGbenefits lackquantitativegeomechanical/monitoring/counterfactualproof.",
+      "action": "Retainasforecastdesigncontext; no permanentretention,importaccess oranonymousfieldidentity assumed."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        3,
+        4,
+        13
+      ],
+      "status": "PENDING_REFERENCES_SUPPLEMENTS_MODELS_AND_RIGHTS",
+      "finding": "Two originals/fiveadditionalmodeldependencies unverified. No embeddedassets orsupplement/code/data notice identified; privatecases/tests unavailable.",
+      "action": "Checkexactoriginals andpublisher/modelassets whenexternalaccessresumes. No onlineabsence orreproductionrights inferred; no newcopiedsourcefigures."
+    }
+  ],
+  "supplements": "No embedded assets or explicit supplementary/code/data-availability statement identified in the13-page mainpaper. Public availability is unverified; no external publisher/archive retrieval orauthorcontact duringChrome wait. Privatecase/test/TEA inputs and applicable access rights unavailable locally. Retained PDF unchanged; newsourceillustrations not distributed.",
+  "reproduction": "audit_flow_assurance.py generates53 limited margins, pressure-state differences, relativeindices, unitconversions andexplicit missing quantities. It does not reproduce Peng-Robinson/Multiflash, hydrate/corrosion kinetics, materialtests, OLGAsteady/transient/wall models, facilitysizing, absoluteTEA orwhole-chainGHG. Missing wellcapacity, insulationthickness, heaterduty, absoluteenergy andannualschedule remainmissing.",
+  "paper1_use": "Retain as case-specific evidence that thermo-hydraulic limits couple pressure, temperature, rate, equipment and restart states. It is neither native annual injectionservice nor acomplete capture-to-injection utility/GHG inventory. Own-wellfractions,2hwindow,qualitativeGHG andcorrosionclaims remainoutsideaccepted inputs. Sarawak geography/capture-from-sourgas counterfactual explicitlydisclosed.",
+  "next_steps": "Continue B1-09 andremaininglocalpapers. Resolve exactPVT/OLGA cases, capacitydenominators/transientstates, corrosionreferences/tests andfunctionallymatchedTEA/GHG inputs. Verifytwooriginals/fivedependencies andpublisherassets whenexternalaccessresumes. Keepthispaperincomplete and92-papergoalactive."
+}

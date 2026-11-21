@@ -51,6 +51,8 @@ Malaysian Field X studies provide pressure constraints and thermal mechanisms bu
 
 The [openhole-completion audit](../docs/openhole_comprehensive_findings.md) adds a distinct offshore-Sarawak case in which cooling and injection stoppages affect predicted wellbore stability [B1-06, pp2–6]. Its selected injector, ppg pressure-gradient equivalents, damage plots and perforated-liner choice do not supply an annual injection penalty or outage probability. Complete coupled-model inputs and liner/field validation remain unavailable; this anonymous case is not assumed identical to the other Malaysian studies.
 
+The [flow-assurance audit](../docs/flow_assurance_comprehensive_findings.md) adds a distinct PTTEP Sarawak development with coupled pressure, temperature, rate and restart conditions [B1-08, pp5–12]. Its37.5%shallow and80%deep limits are fractions of individual-well design capacity, not the2MTPA project target or annual service. The approximately two-hour warm-restart window is not an availability factor. Native cases, well capacities, inhibitor duties and matched utility/asset inventories are required before calibration.
+
 The user authorised explicitly disclosed geographic proxies when local data are unavailable. The present numerical draft therefore selects the internally coherent South Sumatra single- versus multi-well outcomes as the storage-service benchmark. Published Norwegian post-capture GHG outcomes are retained only in the supporting accounting audit in Appendix A. The main operational results use explicit component inventories. These substitutions test accounting sensitivity; they do not make Indonesian geology Japanese, or Norwegian energy factors applicable to an Asian route. No African dataset is introduced merely because a geographic proxy is permitted.
 
 | Required component | Evidence selected | Role | Remaining transfer limit |
@@ -591,6 +593,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B1-06]** Rashidi et al. (2024). Openhole completion integrity analysis for life of CO2 injector well. [ARMA-IGS-2024-0222](../papers/B1-06.pdf). [Retained PDF](../papers/B1-06.pdf).
 
 - **[B1-07]** Kukuu et al. (2025). Leveraging Oil and Gas Legacy for Advanced CCS in Japan Realistic CO2 Storage Simulation in the Higashi-Niigata Gas Field. [10.2118/225812-MS](https://doi.org/10.2118/225812-MS). [Retained PDF](../papers/B1-07.pdf).
+
+- **[B1-08]** Charoensuk et al. (2025). Unlocking CO2 Injection in Depleted Reservoirs A Flow Assurance Modeling Approach for Carbon Capture and Storage. [10.4043/35887-MS](https://doi.org/10.4043/35887-MS). [Retained PDF](../papers/B1-08.pdf).
 
 - **[B1-09]** Nik Kamaruddin et al. (2019). 4-D Geomechanics Modelling for Potential CO2 Storage Site in Malaysia – Fault Reactivation and Maximum Pressure Injection Limit. [IPTC-19491-MS](../papers/B1-09.pdf). [Retained PDF](../papers/B1-09.pdf).
 

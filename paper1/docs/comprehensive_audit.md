@@ -35,6 +35,8 @@ These are separate dimensions. A paper is not comprehensively complete because e
 
 - [B1-07](higashi_niigata_comprehensive_findings.md): all11 pages,13figures,three tables,nine printed references andfive additional dependencies inspected.19 limited topology/calendar/relative-index and missing-value checks preserve absolute mass, pressure, annual injection and relief-water gaps. Unscaled plots, qualitative maps and selected history matches do not reproduce the reservoir cases or calibrate uncertainty.
 
+- [B1-08](flow_assurance_comprehensive_findings.md): all13 pages,ten figures,four tables,two printed references andfive additional dependencies inspected.53 limited checks preserve equipment/interface temperature margins, own-well design denominators, corrosion-reference distinctions and missing absolute inventories. PVT, corrosion, OLGA, transient-wall and fullTEA/GHG models remain unreproduced.
+
 Three citation edges have now been checked against retained originals. B4-05's Ooi2013 citation supports temporal planning, but its MILP attribution conflicts with B3-11's graphical/algebraic method. B4-06's Zhang/Lau2022 citation supports regional resource provenance and limited properties, with pressure/time-dependent service still absent. B4-06’s SimCCS citation supports the static MILP mechanism, with artificial-cost and atemporal-case limits. The other underlying sources, including B3-11's own 25 and B4-08's 232 references, remain unverified under this expanded standard. No supplement absence on the public web is inferred from a local PDF having no embedded files. The CSCA and aquifer-resource accounting components are independently reproduced; no complete author optimiser, pressure-constrained reservoir or detailed valid allocation is claimed reproduced.
 
 ## Provenance, outputs and continuation
@@ -53,9 +55,10 @@ python paper1/scripts/audit_total_efficiency.py
 python paper1/scripts/audit_deepwater_japan.py
 python paper1/scripts/audit_openhole_integrity.py
 python paper1/scripts/audit_higashi_niigata.py
+python paper1/scripts/audit_flow_assurance.py
 python -m unittest discover -s paper1/tests -v
 ```
 
 Diagnostic calculations preserve printed quantities and explicit calendars/bases. They do not feed the operating/GHG model. Unsupported inputs remain excluded; original PDFs, targeted-review catalogue and existing Paper1 numerical outputs are preserved.
 
-External retrieval remains paused under the user's explicit request to wait for a Chrome connection. Local reading and calculations can continue. Verification of missing cited originals, public supplements, errata and author code remains pending until permitted access is available. B4-08 and B3-44 retained primary checks are recorded with limits; B1-01 is recorded with explicit limits; B1-03 is recorded with explicit limits; B1-04 is recorded with explicit limits; B1-06 is recorded with explicit limits; B1-07 is recorded with explicit limits; B1-08 is next in the local queue.
+External retrieval remains paused under the user's explicit request to wait for a Chrome connection. Local reading and calculations can continue. Verification of missing cited originals, public supplements, errata and author code remains pending until permitted access is available. B4-08 and B3-44 retained primary checks are recorded with limits; B1-01 is recorded with explicit limits; B1-03 is recorded with explicit limits; B1-04 is recorded with explicit limits; B1-06 is recorded with explicit limits; B1-07 is recorded with explicit limits; B1-08 is recorded with explicit limits; B1-09 is next in the local queue.
