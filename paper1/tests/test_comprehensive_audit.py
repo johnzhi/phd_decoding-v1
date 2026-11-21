@@ -28,6 +28,9 @@ occs_spec.loader.exec_module(occs)
 total_spec = importlib.util.spec_from_file_location('audit_total_efficiency', ROOT / 'scripts/audit_total_efficiency.py')
 total = importlib.util.module_from_spec(total_spec)
 total_spec.loader.exec_module(total)
+deepwater_spec = importlib.util.spec_from_file_location('audit_deepwater_japan', ROOT / 'scripts/audit_deepwater_japan.py')
+deepwater = importlib.util.module_from_spec(deepwater_spec)
+deepwater_spec.loader.exec_module(deepwater)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -37,6 +40,44 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_deepwater_heat_gradient_uses_temperature_differences(self):
+        self.assertAlmostEqual(deepwater.fahrenheit_to_celsius(32), 0)
+        self.assertAlmostEqual(deepwater.fahrenheit_to_celsius(80), 26+2/3)
+        # 1.8F difference per100ft is1K per30.48m, not an absolute temperature.
+        self.assertAlmostEqual(deepwater.gradient_K_per_km(1.8), 1000/30.48)
+        self.assertAlmostEqual(deepwater.heat_gradient_K_per_km(20, 6), 10/3)
+        self.assertAlmostEqual(deepwater.heat_gradient_K_per_km(200, 1.5), 400/3)
+
+    def test_deepwater_prescribed_mass_is_not_retained_mass_or_pressure_service(self):
+        result = {r['item']:r for r in deepwater.calculate(deepwater.load_inputs())}
+        self.assertEqual(result['Cartesian_grid_cells']['value'], 37500)
+        self.assertAlmostEqual(result['site1_annual_imposed_mass']['value'], 1.825)
+        self.assertAlmostEqual(result['site1_25year_imposed_mass']['value'], 45.625)
+        self.assertIn('REPORTED tons', result['site1_25year_imposed_mass']['unit'])
+        self.assertIn('UNSPECIFIED',result['site1_seabed_pressure_MPa']['unit'])
+        self.assertGreater(result['deep_case_depth_to_main_thickness']['value'], 9)
+        self.assertGreater(result['Figure7_8_positive_colourbar_floor']['value'], 0)
+
+    def test_deepwater_riser_qualification_does_not_transfer_across_depths(self):
+        shallow, deep = deepwater.load_inputs()['riser_tables']
+        self.assertIn('inject_8in_composite', deepwater.all_weather_risers(shallow))
+        self.assertNotIn('inject_8in_composite', deepwater.all_weather_risers(deep))
+        self.assertEqual(set(deepwater.all_weather_risers(deep)), {'drill_21in_titanium','inject_8in_titanium'})
+        result = {r['item']:r for r in deepwater.calculate(deepwater.load_inputs())}
+        self.assertLess(result['conclusion_bound_temperature_C']['value'], result['paper_critical_threshold_temperature_C']['value'])
+
+    def test_deepwater_main_reading_keeps_named_dependencies_and_models_open(self):
+        review=json.loads((ROOT/'evidence/comprehensive_review/B1-04.json').read_text())
+        self.assertEqual(review['text_read_pages'],list(range(1,16)))
+        self.assertEqual(review['visually_inspected_pages'],list(range(1,16)))
+        self.assertEqual(len(review['visuals']),11)
+        self.assertEqual([r['id'] for r in review['equations']],['E01','D01'])
+        self.assertEqual(sum(r['record_type']=='printed_bibliography' for r in review['references']),28)
+        self.assertEqual(sum(r['record_type']=='named_dependency_without_exact_bibliography_identity' for r in review['references']),8)
+        self.assertTrue(all(r['verification_status']=='unverified' for r in review['references']))
+        self.assertEqual(review['overall_status'],'incomplete')
+        self.assertIn('not_reproduced',review['original_model_status'])
+
     def test_total_efficiency_component_obeys_power_units_and_scale(self):
         # Analyst unit example only: 2kg/s fuel at20MJ/kg, 4MW preparation,
         # 6MW CCS and10MW net output. Not an inferred author process case.

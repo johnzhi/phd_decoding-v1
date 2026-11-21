@@ -61,6 +61,8 @@ The user authorised explicitly disclosed geographic proxies when local data are 
 | BOG process emissions | Jeong B1-19, p7 Table 6; p13 Table A6 | Partial-process intensity | Excludes full propulsion/upstream chain |
 | Large-ship fleet counts | Noh and Kang B4-09, p6 Table 7 | All 75 reconstructed with explicitly selected Table 1 density | Conflicting prose excluded; pure-fluid EOS check does not validate actual cargo |
 
+The [deepwater-sediment audit](../docs/deepwater_japan_comprehensive_findings.md) also limits interpretation of the Japanese feasibility cases. Their5,000 reported tons/day is a prescribed simulation input, without a demonstrated pressure/fracture-limited operating envelope [B1-04, pp6,10–14]. Global-mole-fraction snapshots over250years do not provide a mobile or permanently retained mass fraction. Missing GEM, geostatistical and riser inputs, along with acknowledged geomechanical, fluid-chemistry and hydrate questions, leave the original cases unreproduced. These historical concepts do not supply present storage service or accepted retention factors.
+
 The later Tomakomai reports provide a Japanese historical benchmark:45 monthly table records,17 shut-in/test records and nine fall-off interpretations [D7-20, p3; D7-22, pp10–11; D7-18, p10]. The project stopped injection in November2019 and remained in monitoring in the supplied2026 newsletters [D7-25, p1]. Its data improve local evidence without establishing current contracted storage. A prospective pressure-constrained Case2 is retained under its original hypothetical restart, completion and plume constraints; reported capacity labels are not converted into annual maximum-rate arrays.
 
 ## 2.3 Published-case calculations

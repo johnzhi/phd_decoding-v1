@@ -70,7 +70,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 Three ultra-deepwater Japanese sediment cases model shallow subseabed injection under high-pressure, low-temperature gravitational trapping. Table 3 (p10) specifies 5,000 tons/day for each case; injection lasts 25 years, followed by 225 years of migration simulation. Deeper/hotter injection can reverse the density advantage.
 
-Transfer limits: A 2012 feasibility concept with unavailable offshore storage/injection vessels at the time of publication is not evidence of present service availability. Large assumed injection rates are not tested deliverability. Simulated immobility is not a measured permanent-retention fraction or proof of greater safety across sites.
+Transfer limits: Historical2012 hypothetical feasibility concept; comprehensive main-PDF reading is recorded separately. The prescribed5000reported tons/day is not pressure-constrained deliverability; ton definition, pressure datum, fracture controls, full GEM/GHG fields/boundaries and structural riser inputs are unavailable. Global mole-fraction plots with a positive colour floor do not establish zero mobility, retained mass or permanent safety. The80F supercritical statement differs from the paper own>88F condition; actual density/brine/EOS and deeper-case geometry require clarification. No current storage service, comparative safety proof or complete utility inventory inferred. See deepwater_japan_comprehensive_findings.md; original model and all cited dependencies remain unverified.
 
 ### B1-05 — Independent Study Addresses Causes of Challenges in Asia Pacific Flagship CCS Project
 

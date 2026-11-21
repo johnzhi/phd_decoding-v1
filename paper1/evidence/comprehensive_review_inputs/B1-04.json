@@ -1,0 +1,252 @@
+{
+  "study_id": "B1-04",
+  "source_path": "papers/B1-04.pdf",
+  "source_sha256": "e2002edadeea9291d60d0019b25accda0b2d36fd4f15a925235108bba43594e0",
+  "scope": "printed_value_and_unit_diagnostics_not_author_GEM_or_riser_reproduction",
+  "ton_basis": "Source prints tons, not an explicit metric/short/long-ton definition. No conversion to accepted tonnes.",
+  "calendar_note": "365 days/year is an explicit diagnostic convention; no reported downtime or leap-day schedule.",
+  "grid_shape": [
+    25,
+    25,
+    60
+  ],
+  "well_ij": [
+    13,
+    13
+  ],
+  "injection_years": 25,
+  "post_injection_years": 225,
+  "source_temperature_F": 35,
+  "stated_supercritical_temperature_threshold_F": 88,
+  "stated_supercritical_pressure_threshold_psi": 1070,
+  "conclusion_phase_temperature_F": 80,
+  "sediment_conductivity_W_m_K": [
+    1.5,
+    6
+  ],
+  "heat_flow_mW_m2": [
+    20,
+    200
+  ],
+  "sites": [
+    {
+      "site": 1,
+      "name": "Japan Sea",
+      "sediment": "lithogenous basaltic/doleritic",
+      "porosity_pct": [
+        60,
+        80
+      ],
+      "permeability_mD": [
+        0.1,
+        40
+      ],
+      "permeability_original_unit": "mD",
+      "water_depth_ft": 9281,
+      "seabed_pressure_psi": 4150,
+      "pressure_basis": "unspecified",
+      "seafloor_temperature_F": 35,
+      "sediment_thickness_ft": 328,
+      "gradient_F_per_100ft": 6,
+      "injection_rate_reported_tons_day": 5000,
+      "injection_rate_basis": "imposed_simulator_input_not_proven_deliverability",
+      "source_locator": "Table3 p10; results p11–12"
+    },
+    {
+      "site": 2,
+      "name": "Offshore Shikoku",
+      "sediment": "pelagic calcareous ooze",
+      "porosity_pct": [
+        42,
+        66
+      ],
+      "permeability_mD": [
+        7.5,
+        18.5
+      ],
+      "permeability_original_unit": "mD",
+      "water_depth_ft": 9850,
+      "seabed_pressure_psi": 4405,
+      "pressure_basis": "unspecified",
+      "seafloor_temperature_F": 35,
+      "sediment_thickness_ft": 328,
+      "gradient_F_per_100ft": 6,
+      "injection_rate_reported_tons_day": 5000,
+      "injection_rate_basis": "imposed_simulator_input_not_proven_deliverability",
+      "source_locator": "Table3 p10; results p11–12"
+    },
+    {
+      "site": 3,
+      "name": "Northwest Pacific N40 E150",
+      "sediment": "pelagic siliceous ooze",
+      "porosity_pct": [
+        67,
+        83
+      ],
+      "permeability_mD": [
+        0.002,
+        1.6
+      ],
+      "permeability_original_unit": "2 microD to1.6mD",
+      "water_depth_ft": 18158,
+      "seabed_pressure_psi": 8120,
+      "pressure_basis": "unspecified",
+      "seafloor_temperature_F": 35,
+      "sediment_thickness_ft": 328,
+      "gradient_F_per_100ft": 2,
+      "injection_rate_reported_tons_day": 5000,
+      "injection_rate_basis": "imposed_simulator_input_not_proven_deliverability",
+      "source_locator": "Table3 p10; results p11–12"
+    }
+  ],
+  "riser_tables": [
+    {
+      "table": 1,
+      "page": 6,
+      "site_scope": [
+        1,
+        2
+      ],
+      "riser_types": [
+        "drill_21in_steel",
+        "drill_21in_titanium",
+        "drill_21in_steel_titanium_hybrid",
+        "drill_16in_steel",
+        "inject_8in_steel",
+        "inject_8in_composite"
+      ],
+      "calm": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "moderate": [
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      "rough": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "table": 2,
+      "page": 6,
+      "site_scope": [
+        3
+      ],
+      "riser_types": [
+        "drill_21in_steel",
+        "drill_21in_titanium",
+        "drill_21in_steel_titanium_hybrid",
+        "drill_16in_steel",
+        "inject_8in_steel",
+        "inject_8in_titanium",
+        "inject_8in_composite"
+      ],
+      "calm": [
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      "moderate": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ],
+      "rough": [
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    }
+  ],
+  "deep_case": {
+    "site": 1,
+    "injection_depth_below_seafloor_ft": 3000,
+    "reported_pressure_psi": 5450,
+    "reported_temperature_F": 200,
+    "reported_cooler_trapping_bound_F": 80,
+    "source_locator": "p12–13/Figure8",
+    "case_model_geometry_status": "Depth/vertical_extent_and_completion_not_reconciled_with328ft_main_model"
+  },
+  "figure7_red_near_injector_cell_boxes": [
+    [
+      2,
+      2,
+      6
+    ],
+    [
+      3,
+      3,
+      7
+    ],
+    [
+      4,
+      4,
+      8
+    ]
+  ],
+  "figure7_and_8_colourbar_mole_fraction": [
+    1e-05,
+    3e-05,
+    0.0001,
+    0.00032,
+    0.001,
+    0.00316,
+    0.01,
+    0.03162,
+    0.1,
+    0.31623,
+    1
+  ],
+  "figure8_panel_years_since_injection_start_context": [
+    0,
+    10,
+    25,
+    50,
+    100,
+    150,
+    200,
+    250
+  ],
+  "figure8_panel_labels": [
+    "Start of Injection",
+    "10 yrs Injection",
+    "25 yrs Injection / End of Injection",
+    "After50 Yrs",
+    "After100 Yrs",
+    "After150 Yrs",
+    "After200 Yrs",
+    "After250 Yrs"
+  ],
+  "ship_tank_capacity_lower_bound_ft3": 500000,
+  "concept_annual_claim_lower_bounds_reported_tons": [
+    100000000.0,
+    10000000.0
+  ],
+  "casing_conveyance_claim_reported_tons_day": 3000
+}

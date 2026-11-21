@@ -1,0 +1,369 @@
+{
+  "study_id": "B1-04",
+  "source_sha256": "e2002edadeea9291d60d0019b25accda0b2d36fd4f15a925235108bba43594e0",
+  "printed_entries": 28,
+  "named_dependencies": 8,
+  "entry_count": 36,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        14
+      ],
+      "citation": "Adams E. and Caldeira K. Ocean Storage of CO2. Elements, Vol.4, pp 319-324. October 2008.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Ocean-storage background; distinct from demonstrated sediment retention."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        14
+      ],
+      "citation": "Bohm M. C., Herzog H. J., Parsons J. E., Sekar R. C. Capture-ready coal plants – Options, technologies and economics. Laboratory for Energy and the Environment, Massachusetts Institute of Technology. International Journal of Greenhouse Gas Control: 113-120. 2007.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Capture options/economics background; no complete process heat/electric inventory provided."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        14
+      ],
+      "citation": "Collum D. L., Ogden J. M. Techno-Economic Models for Carbon Dioxide Compression, Transport, and Storage & Correlations for Estimating Carbon Dioxide Density and Viscosity. University of California, Institute of Transportation. 2006.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Compression/transport and fluid-property correlations; actual model/EOS implementation unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "Divins, D.L., NGDC Total Sediment Thickness of the World’s Oceans and Marginal Seas, http://www.ngdc.noaa.gov/mgg/sedthick/sedthick.html",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Sediment-thickness map source; dataset/version/date and mapped site properties unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        14
+      ],
+      "citation": "Energy Information Administration. International Energy Outlook 2010.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Historical emission/projection background; main text says IEA/IPCC2010, printed entry says EIA2010; identity not silently joined."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        14
+      ],
+      "citation": "Fer I., Haugan P. M. Dissolution from a Liquid CO2 Lake Disposed in the Deep Ocean. American Society of Limnology and Oceanography, 2003.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Liquid-CO2 lake dissolution/migration discussion; different environment from subseabed sequestration."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        14
+      ],
+      "citation": "Gallagher et al. REFPROP. National Institute of Standards and Technology. 1993",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "REFPROP property resource; version/correlations/relationship to GEM case unspecified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        14
+      ],
+      "citation": "Gasda S.E. Numerical Models for Evaluation CO2 Storage in Deep, Saline Aquifers: Leaky Wells and Large-Scale Geological Features. PhD dissertation, Princeton University, 2008.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Storage/leakage modelling background; not a validated local pressure limit."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        14
+      ],
+      "citation": "GEBCO world map, http://www.gebco.net/",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Bathymetric map and base of Figures1/6; exact grid/edition/planarity and site coordinates unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        14
+      ],
+      "citation": "Hill, I.A. et al, Location of ODP leg 131, Proceedings of the Ocean Drilling Program, Scientific Results, Vol. 131, 1993.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Nearby core/petrophysical data provenance on p11; exact borehole/sample and geostatistical mapping absent."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        14
+      ],
+      "citation": "House K.Z., Schrag D.P., Harvey C.F., Lackner KS. Permanent carbon dioxide storage in deep-sea sediments. Proceedings from the National Academy of Sciences USA. 103:12291–12295, 2006.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Gravitational deep-sea-sediment trapping premise, p2; primary model/assumptions not checked."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        14
+      ],
+      "citation": "House K.Z., Schrag D.P, Harvey C.F. Pressure dissipation as a limiting resource for geologic storage of CO2. PhD dissertation, Harvard University, 2008.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Pressure-dissipation resource limitations; primary thesis/section identity and application unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        14
+      ],
+      "citation": "House K.Z., Harvey C.F., Schrag D.P. The Injection Feasibility & Long Term Fate of CO2 Injected into Deep-sea Sediments. PhD dissertation, Harvard University, Massachusetts, 2008.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Injection feasibility/long-term fate; primary thesis/section identity and application unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        14
+      ],
+      "citation": "Hyndman et al. Deep sea bottom-simulating-reflectors: calibration of the base of the hydrate stability field as used for heat flow estimates. Earth and Planetary Science Letters, 109 (1992) 289-301, 1991.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Scientific-drilling heat-flow data, p10; printed year1991 versus volume1992 retained."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        14
+      ],
+      "citation": "International Energy Agency Greenhouse Gas R&D Programme 2002. Ocean Storage of CO2.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Ocean-storage background; not the named IEA/IPCC2010 source."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        14
+      ],
+      "citation": "Kanazawa, T. et al. Location of Leg 191 drill sites in the Western Pacific, Proceedings of the Ocean Drilling Program, Initial Reports, Vol. 191, 2001.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Core-data/source provenance p11; Western-Pacific leg191 coordinates/sample correspondence unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        14
+      ],
+      "citation": "Koide H. et al. Deep Sub-Seabed Disposal of CO2 – The Most Protective Storage. Energy Conservation Management. Vol 38, pp S253-S258. 1997.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Protective subseabed-storage concept; no comparative quantitative safety result verified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        14
+      ],
+      "citation": "Marchetti, C. On Geoengineering and the CO2 Problem. Climatic Change, Vol 1, pp59-68, 1977.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Ocean carbon-storage/atmospheric residence background, p2; original scope unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        14
+      ],
+      "citation": "Nakashiki N., Ohsumi T., Katano, N. Technical View on CO2 Transportation onto the Deep Ocean Floor and Dispersion at Intermediate Depths. Terra Scientific Publishing Company, 1995.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Deep-ocean transport/dispersal background, p2; not an actual ship/fleet inventory."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        14
+      ],
+      "citation": "Pilisi, N., Ghorbani, D. Viability of CO2 Injection and Storage in Deepwater Sub-seabed Formations. Paper CMTC 151393 presented at the Carbon Management Technology Conference held in Orlando, FL, U.S.A., 7-9 Feb 2012.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Related CMTC151393(2012) study; not assumed identical to p5 Pilisi2010 riser-analysis citation."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        15
+      ],
+      "citation": "Pisciotto, K.A. et al. Thermal history of Japan Sea sediments from isotopic studies of diagenetic silica and associated pore waters. Proceedings of the Ocean Drilling Program. Scientific Results, Vol. 127/128, Pt. 1, 1992.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Japan Sea sediment thermal/pore-water data, pp10–11; original cores and property arrays unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        15
+      ],
+      "citation": "Schrag D. P. Carbon Storage in Deep Sea Sediments: An Important Part of the CCS Portfolio. OTC-19515, 2008.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Sediment-storage portfolio concept; model/data not checked."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        15
+      ],
+      "citation": "Schrag D. P. Storage of Carbon Dioxide in Offshore Sediments. Science. Vol 325. September 2009.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Offshore-sediment-storage concept, p2; original evidence not checked."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        15
+      ],
+      "citation": "Song Y., Chen B., Nishio M., Akai M. The Study on Density Change of Carbon Dioxide Seawater Solution at High Pressure and Low Temperature. Energy 30, pp 2298-2307. 2005.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "CO2/seawater-solution density background; mixture/composition/conditions unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        15
+      ],
+      "citation": "Tamaki, K., Suyehiro, K., Allan, J., McWilliams, M. Geothermal measurements: thermal evolution of the Japan Sea basins and sediments. Proceedings of the Ocean Drilling Program. Scientific Results, Vol. 127/128, Pt. 2, 1992.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Japan Sea geothermal measurements; main text Langseth/Tamaki1992 identity not automatically equivalent."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        15
+      ],
+      "citation": "Tanaka, A. et al. Geothermal Gradient and Heat Flow Data in and around Japan (I): Appraisal of Heat Flow from Geothermal Gradient Data. Earth Planets Space, 56, 1191-1194, 2004",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Heat-flow map/Equation1 context, p9; exact point data and conductivity interpretation unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        15
+      ],
+      "citation": "Taylor, E. and Fisher, A. Sediment permeability at the Nankai accretionary prism, site 808. Proceedings of the ocean drilling program. Scientific results, Vol. 131, 1993.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Sediment permeability source; exact local samples/transfer/geostatistical implementation unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        15
+      ],
+      "citation": "Watanabe et al. Geothermal studies leg 31, deep sea drilling project. DSDP, 1972.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "DSDP leg31 geothermal studies, p10; original numerical observations unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        1
+      ],
+      "citation": "IEA/IPCC2010 historical emissions attribution",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "No exact corresponding printed entry. EIA2010 is a different named organisation; do not automatically replace it."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2
+      ],
+      "citation": "NASA Blue Marble2002 topography dataset",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Named source/edition absent from printed bibliography; original native dataset unverified."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        5
+      ],
+      "citation": "Srinivasan et al.2008 circular-vessel concept",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "No corresponding printed bibliography entry identified; exact work/conditions unavailable."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        5
+      ],
+      "citation": "Pilisi et al.2010 prior11,000ft riser analysis",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Printed Pilisi/Ghorbani2012 CMTC151393 is a distinct year/identifier; original2010 item unresolved."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        9
+      ],
+      "citation": "NOAA ocean temperature resource",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Named authority without a specific dataset/date/profile; no native observations inspected."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        9
+      ],
+      "citation": "Pickard et al.1990 ocean temperature literature",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "No corresponding printed entry identified; exact edition/pages unverified."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        10
+      ],
+      "citation": "Langseth and Tamaki1992 scientific drilling results",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Printed Tamaki et al.1992 has other listed authors. Possible relation unresolved; do not merge by year/surname."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        10
+      ],
+      "citation": "GEM/GHG compositional simulator",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Version, licence, manual, EOS/PVT/flash implementation, input deck and output arrays not supplied."
+    }
+  ]
+}
