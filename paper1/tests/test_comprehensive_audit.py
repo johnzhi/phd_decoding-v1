@@ -25,6 +25,9 @@ simccs_spec.loader.exec_module(simccs)
 occs_spec = importlib.util.spec_from_file_location('audit_occ_sustainability', ROOT / 'scripts/audit_occ_sustainability.py')
 occs = importlib.util.module_from_spec(occs_spec)
 occs_spec.loader.exec_module(occs)
+total_spec = importlib.util.spec_from_file_location('audit_total_efficiency', ROOT / 'scripts/audit_total_efficiency.py')
+total = importlib.util.module_from_spec(total_spec)
+total_spec.loader.exec_module(total)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -34,6 +37,51 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_total_efficiency_component_obeys_power_units_and_scale(self):
+        # Analyst unit example only: 2kg/s fuel at20MJ/kg, 4MW preparation,
+        # 6MW CCS and10MW net output. Not an inferred author process case.
+        eta = total.total_efficiency(10, 2, 20, 2, 3, 2)
+        self.assertAlmostEqual(eta, 10/50)
+        self.assertAlmostEqual(total.total_efficiency(20, 4, 20, 2, 6, 2), eta)
+        self.assertAlmostEqual(total.total_efficiency(10, 2, 20, 0, 0, 0), .25)
+        self.assertLess(eta, .25)
+
+    def test_total_efficiency_rounding_check_is_not_blanket_acceptance(self):
+        results = total.sensitivity(total.load_inputs())
+        self.assertEqual(len(results), 112)
+        self.assertTrue(all(r['compatible_with_display_rounding'] for r in results))
+        # A one-percentage-point error in a printed deviation must fail.
+        data = total.load_inputs()
+        data['sensitivity_series'][0]['eta_deviation_pct'][0] += 1
+        self.assertFalse(total.sensitivity(data)[0]['compatible_with_display_rounding'])
+        low, high = total.change_interval(30, 20)
+        self.assertLess(low, 50)
+        self.assertGreater(high, 50)
+
+    def test_capture_mass_is_kept_distinct_from_conditional_avoidance(self):
+        results = {r['item']:r for r in total.calculate(total.load_inputs())}
+        self.assertAlmostEqual(results['UK_NG_captured_95pct']['value'], 3.3995303424)
+        self.assertAlmostEqual(results['UK_NG_conditional_baseline_minus_vented']['value'], 2.6348375304)
+        self.assertIn('CONDITIONAL', results['UK_NG_conditional_baseline_minus_vented']['unit'])
+        self.assertNotEqual(results['UK_NG_captured_95pct']['value'], results['UK_NG_conditional_baseline_minus_vented']['value'])
+        self.assertAlmostEqual(results['T6_UK_coal_extraction_100_implied_reference_efficiency']['value'], 56.8199532346)
+        self.assertAlmostEqual(results['T6_UK_coal_extraction_100_drop_using_declared_design']['value'], 40.8918918919)
+
+    def test_total_efficiency_visual_and_source_holds_remain_open(self):
+        data = total.load_inputs()
+        result = {r['item']:r for r in total.calculate(data)}
+        self.assertAlmostEqual(result['F5_CSA-N.a.1_printed_share_sum']['value'], 111.9)
+        self.assertTrue(any(v is None for row in data['share_labels'] for v in row['shares_pct']))
+        review = json.loads((ROOT/'evidence/comprehensive_review/B1-03.json').read_text())
+        self.assertEqual(review['text_read_pages'], list(range(1,14)))
+        self.assertEqual(review['visually_inspected_pages'], list(range(1,14)))
+        self.assertEqual(len(review['visuals']), 21)
+        self.assertEqual(len(review['equations']), 15)
+        self.assertEqual(len(review['references']), 94)
+        self.assertTrue(all(r['verification_status']=='unverified' for r in review['references']))
+        self.assertEqual(review['overall_status'], 'incomplete')
+        self.assertIn('not_reproduced',review['original_model_status'])
+
     def test_occs_printed_fixed_opex_annuity_cancels_without_repair(self):
         data = occs.load_inputs()
         result = {r['item']:r for r in occs.calculate(data)}

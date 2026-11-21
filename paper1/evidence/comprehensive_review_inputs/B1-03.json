@@ -1,0 +1,1548 @@
+{
+  "study_id": "B1-03",
+  "source_sha256": "212cedb329b173a96c3a1aaeb61bd92b44e54c25049ab61e33a53fe365d244da",
+  "source_path": "papers/B1-03.pdf",
+  "scope": "printed_value_diagnostics_only_not_author_case_reproduction_or_accepted_Paper1_inputs",
+  "display_precision_note": "Two-decimal sensitivity quantities treated as rounding intervals +/-0.005 solely for compatibility checks; not uncertainty/confidence bounds. One-decimal share labels use +/-0.05.",
+  "case_page": 4,
+  "reference_capture_fraction": 0.95,
+  "capacity_factor": 0.9,
+  "year_days": 365,
+  "reference_flows_page": 6,
+  "reference_flows_95": [
+    {
+      "country": "UK",
+      "fuel": "NG",
+      "fuel_kg_s": 45.85,
+      "generated_CO2_kg_s": 126.08
+    },
+    {
+      "country": "Australia",
+      "fuel": "NG",
+      "fuel_kg_s": 46.01,
+      "generated_CO2_kg_s": 126.53
+    },
+    {
+      "country": "UK",
+      "fuel": "coal",
+      "fuel_kg_s": 79.32,
+      "generated_CO2_kg_s": 290.77
+    },
+    {
+      "country": "Australia",
+      "fuel": "coal",
+      "fuel_kg_s": 80.24,
+      "generated_CO2_kg_s": 294.16
+    }
+  ],
+  "fuel_flows_100_kg_s": {
+    "UK_NG": 46.36,
+    "Australia_NG": 46.53,
+    "UK_coal": 80.55,
+    "Australia_coal": 81.52
+  },
+  "table3_phase_power_kW": {
+    "gas": 409.6,
+    "near_critical": 368.2,
+    "supercritical": 361.9,
+    "liquid_high_TP": 154.7,
+    "liquid_low_TP": 83.6
+  },
+  "table3_phase_flow_kg_s": 1.5,
+  "table3_other_case_power_MW": [
+    30,
+    35
+  ],
+  "table3_other_case_flow_kg_s": 31.7,
+  "table4_page": 8,
+  "table4": [
+    {
+      "capture_pct": 0,
+      "NG_captured": 0,
+      "NG_residual": 2.75,
+      "coal_captured": 0,
+      "coal_residual": 3.39
+    },
+    {
+      "capture_pct": 85,
+      "NG_captured": 2.34,
+      "NG_residual": 0.41,
+      "coal_captured": 2.88,
+      "coal_residual": 0.51
+    },
+    {
+      "capture_pct": 90,
+      "NG_captured": 2.48,
+      "NG_residual": 0.28,
+      "coal_captured": 3.05,
+      "coal_residual": 0.34
+    },
+    {
+      "capture_pct": 95,
+      "NG_captured": 2.61,
+      "NG_residual": 0.14,
+      "coal_captured": 3.22,
+      "coal_residual": 0.17
+    },
+    {
+      "capture_pct": 100,
+      "NG_captured": 2.75,
+      "NG_residual": 0,
+      "coal_captured": 3.39,
+      "coal_residual": 0
+    }
+  ],
+  "table4_note": "Coal column prints kgCO2/kgNG; preserve typo in review. Rounded ratios; no inferred coal composition.",
+  "annual_claims": [
+    {
+      "page": 6,
+      "capture_pct": 95,
+      "NG_Mt": 3.4,
+      "coal_Mt": 7.9
+    },
+    {
+      "page": 9,
+      "capture_context": "approaches 100%, at 90% Cf",
+      "NG_Mt": 3.6,
+      "coal_Mt": 8.43
+    },
+    {
+      "page": 10,
+      "capture_context": "95%",
+      "NG_Mt": 3.6,
+      "coal_Mt": 8.43
+    }
+  ],
+  "sensitivity_series": [
+    {
+      "table": 5,
+      "page": 10,
+      "country": "UK",
+      "fuel": "NG",
+      "stage": "extraction",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        31.28,
+        31.06,
+        30.9
+      ],
+      "eta_deviation_pct": [
+        0.71,
+        -0.52
+      ],
+      "drop_pct": [
+        45.12,
+        45.5,
+        45.79
+      ],
+      "drop_deviation_pct": [
+        -0.84,
+        0.64
+      ],
+      "eta": [
+        31.28,
+        31.06,
+        30.9
+      ],
+      "drop": [
+        45.12,
+        45.5,
+        45.79
+      ]
+    },
+    {
+      "table": 5,
+      "page": 10,
+      "country": "UK",
+      "fuel": "NG",
+      "stage": "processing",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        31.09,
+        31.06,
+        31.03
+      ],
+      "eta_deviation_pct": [
+        0.1,
+        -0.1
+      ],
+      "drop_pct": [
+        45.46,
+        45.5,
+        45.57
+      ],
+      "drop_deviation_pct": [
+        -0.09,
+        0.15
+      ],
+      "eta": [
+        31.09,
+        31.06,
+        31.03
+      ],
+      "drop": [
+        45.46,
+        45.5,
+        45.57
+      ]
+    },
+    {
+      "table": 5,
+      "page": 10,
+      "country": "UK",
+      "fuel": "NG",
+      "stage": "fuel_transport",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        32.01,
+        31.06,
+        30.14
+      ],
+      "eta_deviation_pct": [
+        3.06,
+        -2.96
+      ],
+      "drop_pct": [
+        43.85,
+        45.5,
+        47.13
+      ],
+      "drop_deviation_pct": [
+        -3.63,
+        3.58
+      ],
+      "eta": [
+        32.01,
+        31.06,
+        30.14
+      ],
+      "drop": [
+        43.85,
+        45.5,
+        47.13
+      ]
+    },
+    {
+      "table": 6,
+      "page": 10,
+      "country": "UK",
+      "fuel": "coal",
+      "stage": "extraction",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.88,
+        21.87,
+        21.85
+      ],
+      "eta_deviation_pct": [
+        0.05,
+        -0.09
+      ],
+      "drop_pct": [
+        61.49,
+        61.51,
+        61.55
+      ],
+      "drop_deviation_pct": [
+        -0.03,
+        0.07
+      ],
+      "eta": [
+        21.88,
+        21.87,
+        21.85
+      ],
+      "drop": [
+        61.49,
+        61.51,
+        61.55
+      ]
+    },
+    {
+      "table": 6,
+      "page": 10,
+      "country": "UK",
+      "fuel": "coal",
+      "stage": "processing",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.87,
+        21.87,
+        21.86
+      ],
+      "eta_deviation_pct": [
+        0,
+        -0.05
+      ],
+      "drop_pct": [
+        61.51,
+        61.51,
+        61.53
+      ],
+      "drop_deviation_pct": [
+        0,
+        0.03
+      ],
+      "eta": [
+        21.87,
+        21.87,
+        21.86
+      ],
+      "drop": [
+        61.51,
+        61.51,
+        61.53
+      ]
+    },
+    {
+      "table": 6,
+      "page": 10,
+      "country": "UK",
+      "fuel": "coal",
+      "stage": "fuel_transport",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.88,
+        21.87,
+        21.86
+      ],
+      "eta_deviation_pct": [
+        0.05,
+        -0.05
+      ],
+      "drop_pct": [
+        61.5,
+        61.51,
+        61.53
+      ],
+      "drop_deviation_pct": [
+        -0.02,
+        0.03
+      ],
+      "eta": [
+        21.88,
+        21.87,
+        21.86
+      ],
+      "drop": [
+        61.5,
+        61.51,
+        61.53
+      ]
+    },
+    {
+      "table": 7,
+      "page": 10,
+      "country": "UK",
+      "fuel": "NG",
+      "stage": "capture",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        31.76,
+        31.06,
+        30.46
+      ],
+      "eta_deviation_pct": [
+        2.25,
+        -1.93
+      ],
+      "drop_pct": [
+        44.28,
+        45.5,
+        46.55
+      ],
+      "drop_deviation_pct": [
+        -2.68,
+        2.31
+      ],
+      "eta": [
+        31.76,
+        31.06,
+        30.46
+      ],
+      "drop": [
+        44.28,
+        45.5,
+        46.55
+      ]
+    },
+    {
+      "table": 7,
+      "page": 10,
+      "country": "UK",
+      "fuel": "coal",
+      "stage": "capture",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        22.85,
+        21.87,
+        20.97
+      ],
+      "eta_deviation_pct": [
+        4.48,
+        -4.12
+      ],
+      "drop_pct": [
+        59.83,
+        61.51,
+        63.1
+      ],
+      "drop_deviation_pct": [
+        -2.73,
+        2.58
+      ],
+      "eta": [
+        22.85,
+        21.87,
+        20.97
+      ],
+      "drop": [
+        59.83,
+        61.51,
+        63.1
+      ]
+    },
+    {
+      "table": 7,
+      "page": 10,
+      "country": "UK",
+      "fuel": "NG",
+      "stage": "compression",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        31.15,
+        31.06,
+        30.97
+      ],
+      "eta_deviation_pct": [
+        0.29,
+        -0.29
+      ],
+      "drop_pct": [
+        45.34,
+        45.5,
+        45.67
+      ],
+      "drop_deviation_pct": [
+        -0.35,
+        0.37
+      ],
+      "eta": [
+        31.15,
+        31.06,
+        30.97
+      ],
+      "drop": [
+        45.34,
+        45.5,
+        45.67
+      ]
+    },
+    {
+      "table": 7,
+      "page": 10,
+      "country": "UK",
+      "fuel": "coal",
+      "stage": "compression",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        22.04,
+        21.87,
+        21.7
+      ],
+      "eta_deviation_pct": [
+        0.78,
+        -0.78
+      ],
+      "drop_pct": [
+        61.22,
+        61.51,
+        61.83
+      ],
+      "drop_deviation_pct": [
+        -0.47,
+        0.52
+      ],
+      "eta": [
+        22.04,
+        21.87,
+        21.7
+      ],
+      "drop": [
+        61.22,
+        61.51,
+        61.83
+      ]
+    },
+    {
+      "table": 7,
+      "page": 10,
+      "country": "UK",
+      "fuel": "NG",
+      "stage": "CO2_transport",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        31.09,
+        31.06,
+        31.04
+      ],
+      "eta_deviation_pct": [
+        0.1,
+        -0.06
+      ],
+      "drop_pct": [
+        45.46,
+        45.5,
+        45.55
+      ],
+      "drop_deviation_pct": [
+        -0.09,
+        0.11
+      ],
+      "eta": [
+        31.09,
+        31.06,
+        31.04
+      ],
+      "drop": [
+        45.46,
+        45.5,
+        45.55
+      ]
+    },
+    {
+      "table": 7,
+      "page": 10,
+      "country": "UK",
+      "fuel": "coal",
+      "stage": "CO2_transport",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        22.02,
+        21.87,
+        21.7
+      ],
+      "eta_deviation_pct": [
+        0.69,
+        -0.78
+      ],
+      "drop_pct": [
+        61.21,
+        61.51,
+        61.82
+      ],
+      "drop_deviation_pct": [
+        -0.49,
+        0.5
+      ],
+      "eta": [
+        22.02,
+        21.87,
+        21.7
+      ],
+      "drop": [
+        61.21,
+        61.51,
+        61.82
+      ]
+    },
+    {
+      "table": 7,
+      "page": 10,
+      "country": "UK",
+      "fuel": "NG",
+      "stage": "storage",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        31.09,
+        31.06,
+        31.04
+      ],
+      "eta_deviation_pct": [
+        0.1,
+        -0.06
+      ],
+      "drop_pct": [
+        45.45,
+        45.5,
+        45.55
+      ],
+      "drop_deviation_pct": [
+        -0.11,
+        0.11
+      ],
+      "eta": [
+        31.09,
+        31.06,
+        31.04
+      ],
+      "drop": [
+        45.45,
+        45.5,
+        45.55
+      ]
+    },
+    {
+      "table": 7,
+      "page": 10,
+      "country": "UK",
+      "fuel": "coal",
+      "stage": "storage",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.9,
+        21.87,
+        21.83
+      ],
+      "eta_deviation_pct": [
+        0.14,
+        -0.18
+      ],
+      "drop_pct": [
+        61.44,
+        61.51,
+        61.59
+      ],
+      "drop_deviation_pct": [
+        -0.11,
+        0.13
+      ],
+      "eta": [
+        21.9,
+        21.87,
+        21.83
+      ],
+      "drop": [
+        61.44,
+        61.51,
+        61.59
+      ]
+    },
+    {
+      "table": 8,
+      "page": 10,
+      "country": "Australia",
+      "fuel": "NG",
+      "stage": "extraction",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        29.56,
+        29.31,
+        29.18
+      ],
+      "eta_deviation_pct": [
+        0.85,
+        -0.44
+      ],
+      "drop_pct": [
+        48.14,
+        48.57,
+        48.8
+      ],
+      "drop_deviation_pct": [
+        -0.89,
+        0.47
+      ],
+      "eta": [
+        29.56,
+        29.31,
+        29.18
+      ],
+      "drop": [
+        48.14,
+        48.57,
+        48.8
+      ]
+    },
+    {
+      "table": 8,
+      "page": 10,
+      "country": "Australia",
+      "fuel": "NG",
+      "stage": "processing",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        29.33,
+        29.31,
+        29.29
+      ],
+      "eta_deviation_pct": [
+        0.07,
+        -0.07
+      ],
+      "drop_pct": [
+        48.54,
+        48.57,
+        48.61
+      ],
+      "drop_deviation_pct": [
+        -0.06,
+        0.08
+      ],
+      "eta": [
+        29.33,
+        29.31,
+        29.29
+      ],
+      "drop": [
+        48.54,
+        48.57,
+        48.61
+      ]
+    },
+    {
+      "table": 8,
+      "page": 10,
+      "country": "Australia",
+      "fuel": "NG",
+      "stage": "fuel_transport",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        30.44,
+        29.31,
+        28.31
+      ],
+      "eta_deviation_pct": [
+        3.86,
+        -3.41
+      ],
+      "drop_pct": [
+        46.6,
+        48.57,
+        50.34
+      ],
+      "drop_deviation_pct": [
+        -4.06,
+        3.64
+      ],
+      "eta": [
+        30.44,
+        29.31,
+        28.31
+      ],
+      "drop": [
+        46.6,
+        48.57,
+        50.34
+      ]
+    },
+    {
+      "table": 9,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "coal",
+      "stage": "extraction",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.46,
+        21.43,
+        21.41
+      ],
+      "eta_deviation_pct": [
+        0.14,
+        -0.09
+      ],
+      "drop_pct": [
+        62.26,
+        62.29,
+        62.32
+      ],
+      "drop_deviation_pct": [
+        -0.05,
+        0.05
+      ],
+      "eta": [
+        21.46,
+        21.43,
+        21.41
+      ],
+      "drop": [
+        62.26,
+        62.29,
+        62.32
+      ]
+    },
+    {
+      "table": 9,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "coal",
+      "stage": "processing",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.44,
+        21.43,
+        21.43
+      ],
+      "eta_deviation_pct": [
+        0.05,
+        0
+      ],
+      "drop_pct": [
+        62.28,
+        62.29,
+        62.3
+      ],
+      "drop_deviation_pct": [
+        -0.02,
+        0.02
+      ],
+      "eta": [
+        21.44,
+        21.43,
+        21.43
+      ],
+      "drop": [
+        62.28,
+        62.29,
+        62.3
+      ]
+    },
+    {
+      "table": 9,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "coal",
+      "stage": "fuel_transport",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.45,
+        21.43,
+        21.42
+      ],
+      "eta_deviation_pct": [
+        0.09,
+        -0.05
+      ],
+      "drop_pct": [
+        62.26,
+        62.29,
+        62.32
+      ],
+      "drop_deviation_pct": [
+        -0.05,
+        0.05
+      ],
+      "eta": [
+        21.45,
+        21.43,
+        21.42
+      ],
+      "drop": [
+        62.26,
+        62.29,
+        62.32
+      ]
+    },
+    {
+      "table": 10,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "NG",
+      "stage": "capture",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        29.95,
+        29.31,
+        28.78
+      ],
+      "eta_deviation_pct": [
+        2.18,
+        -1.81
+      ],
+      "drop_pct": [
+        47.46,
+        48.57,
+        49.52
+      ],
+      "drop_deviation_pct": [
+        -2.29,
+        1.96
+      ],
+      "eta": [
+        29.95,
+        29.31,
+        28.78
+      ],
+      "drop": [
+        47.46,
+        48.57,
+        49.52
+      ]
+    },
+    {
+      "table": 10,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "coal",
+      "stage": "capture",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        22.36,
+        21.43,
+        20.58
+      ],
+      "eta_deviation_pct": [
+        4.34,
+        -3.97
+      ],
+      "drop_pct": [
+        60.7,
+        62.29,
+        63.79
+      ],
+      "drop_deviation_pct": [
+        -2.55,
+        2.41
+      ],
+      "eta": [
+        22.36,
+        21.43,
+        20.58
+      ],
+      "drop": [
+        60.7,
+        62.29,
+        63.79
+      ]
+    },
+    {
+      "table": 10,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "NG",
+      "stage": "compression",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        29.39,
+        29.31,
+        29.23
+      ],
+      "eta_deviation_pct": [
+        0.27,
+        -0.27
+      ],
+      "drop_pct": [
+        48.44,
+        48.57,
+        48.72
+      ],
+      "drop_deviation_pct": [
+        -0.27,
+        0.31
+      ],
+      "eta": [
+        29.39,
+        29.31,
+        29.23
+      ],
+      "drop": [
+        48.44,
+        48.57,
+        48.72
+      ]
+    },
+    {
+      "table": 10,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "coal",
+      "stage": "compression",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.6,
+        21.43,
+        21.27
+      ],
+      "eta_deviation_pct": [
+        0.79,
+        -0.75
+      ],
+      "drop_pct": [
+        61.98,
+        62.29,
+        62.6
+      ],
+      "drop_deviation_pct": [
+        -0.5,
+        0.5
+      ],
+      "eta": [
+        21.6,
+        21.43,
+        21.27
+      ],
+      "drop": [
+        61.98,
+        62.29,
+        62.6
+      ]
+    },
+    {
+      "table": 10,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "NG",
+      "stage": "CO2_transport",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        29.34,
+        29.31,
+        29.29
+      ],
+      "eta_deviation_pct": [
+        0.1,
+        -0.07
+      ],
+      "drop_pct": [
+        48.52,
+        48.57,
+        48.62
+      ],
+      "drop_deviation_pct": [
+        -0.1,
+        0.1
+      ],
+      "eta": [
+        29.34,
+        29.31,
+        29.29
+      ],
+      "drop": [
+        48.52,
+        48.57,
+        48.62
+      ]
+    },
+    {
+      "table": 10,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "coal",
+      "stage": "CO2_transport",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.64,
+        21.43,
+        21.24
+      ],
+      "eta_deviation_pct": [
+        0.98,
+        -0.89
+      ],
+      "drop_pct": [
+        61.92,
+        62.29,
+        62.64
+      ],
+      "drop_deviation_pct": [
+        -0.59,
+        0.56
+      ],
+      "eta": [
+        21.64,
+        21.43,
+        21.24
+      ],
+      "drop": [
+        61.92,
+        62.29,
+        62.64
+      ]
+    },
+    {
+      "table": 10,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "NG",
+      "stage": "storage",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        29.34,
+        29.31,
+        29.29
+      ],
+      "eta_deviation_pct": [
+        0.1,
+        -0.07
+      ],
+      "drop_pct": [
+        48.53,
+        48.57,
+        48.61
+      ],
+      "drop_deviation_pct": [
+        -0.08,
+        0.08
+      ],
+      "eta": [
+        29.34,
+        29.31,
+        29.29
+      ],
+      "drop": [
+        48.53,
+        48.57,
+        48.61
+      ]
+    },
+    {
+      "table": 10,
+      "page": 11,
+      "country": "Australia",
+      "fuel": "coal",
+      "stage": "storage",
+      "input_multipliers": [
+        0.85,
+        1,
+        1.15
+      ],
+      "eta_pct": [
+        21.49,
+        21.43,
+        21.39
+      ],
+      "eta_deviation_pct": [
+        0.28,
+        -0.19
+      ],
+      "drop_pct": [
+        62.22,
+        62.29,
+        62.36
+      ],
+      "drop_deviation_pct": [
+        -0.11,
+        0.11
+      ],
+      "eta": [
+        21.49,
+        21.43,
+        21.39
+      ],
+      "drop": [
+        62.22,
+        62.29,
+        62.36
+      ]
+    }
+  ],
+  "share_labels": [
+    {
+      "figure": 2,
+      "page": 6,
+      "case": "CSU-N.a.1",
+      "stage_order": [
+        "extraction",
+        "processing",
+        "fuel_transport",
+        "CCS"
+      ],
+      "shares_pct": [
+        52.9,
+        6.7,
+        24.6,
+        13.6
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 2,
+      "page": 6,
+      "case": "CSU-N.a.2",
+      "stage_order": [
+        "extraction",
+        "processing",
+        "fuel_transport",
+        "CCS"
+      ],
+      "shares_pct": [
+        51.4,
+        6.5,
+        23.9,
+        18.2
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 2,
+      "page": 6,
+      "case": "CSU-C.a.1",
+      "stage_order": [
+        "extraction",
+        "processing",
+        "fuel_transport",
+        "CCS"
+      ],
+      "shares_pct": [
+        3.7,
+        null,
+        3.2,
+        92.5
+      ],
+      "all_four_labels_printed": false
+    },
+    {
+      "figure": 2,
+      "page": 6,
+      "case": "CSU-C.a.2",
+      "stage_order": [
+        "extraction",
+        "processing",
+        "fuel_transport",
+        "CCS"
+      ],
+      "shares_pct": [
+        3.6,
+        null,
+        3.1,
+        92.6
+      ],
+      "all_four_labels_printed": false
+    },
+    {
+      "figure": 3,
+      "page": 7,
+      "case": "CSA-N.a.1",
+      "stage_order": [
+        "extraction",
+        "processing",
+        "fuel_transport",
+        "CCS"
+      ],
+      "shares_pct": [
+        44.6,
+        8.7,
+        32.4,
+        13.6
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 3,
+      "page": 7,
+      "case": "CSA-N.a.2",
+      "stage_order": [
+        "extraction",
+        "processing",
+        "fuel_transport",
+        "CCS"
+      ],
+      "shares_pct": [
+        43.0,
+        8.4,
+        31.2,
+        17.5
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 3,
+      "page": 7,
+      "case": "CSA-C.a.1",
+      "stage_order": [
+        "extraction",
+        "processing",
+        "fuel_transport",
+        "CCS"
+      ],
+      "shares_pct": [
+        4.7,
+        null,
+        5.1,
+        89.6
+      ],
+      "all_four_labels_printed": false
+    },
+    {
+      "figure": 3,
+      "page": 7,
+      "case": "CSA-C.a.2",
+      "stage_order": [
+        "extraction",
+        "processing",
+        "fuel_transport",
+        "CCS"
+      ],
+      "shares_pct": [
+        4.6,
+        null,
+        5.0,
+        89.8
+      ],
+      "all_four_labels_printed": false
+    },
+    {
+      "figure": 4,
+      "page": 7,
+      "case": "CSU-N.a.1",
+      "stage_order": [
+        "capture",
+        "compression",
+        "CO2_transport",
+        "storage"
+      ],
+      "shares_pct": [
+        79.4,
+        10.4,
+        13.7,
+        3.1
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 4,
+      "page": 7,
+      "case": "CSU-N.a.2",
+      "stage_order": [
+        "capture",
+        "compression",
+        "CO2_transport",
+        "storage"
+      ],
+      "shares_pct": [
+        63.2,
+        8.8,
+        27.0,
+        2.6
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 4,
+      "page": 7,
+      "case": "CSU-C.a.1",
+      "stage_order": [
+        "capture",
+        "compression",
+        "CO2_transport",
+        "storage"
+      ],
+      "shares_pct": [
+        79.1,
+        16.2,
+        1.3,
+        3.4
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 4,
+      "page": 7,
+      "case": "CSU-C.a.2",
+      "stage_order": [
+        "capture",
+        "compression",
+        "CO2_transport",
+        "storage"
+      ],
+      "shares_pct": [
+        77.8,
+        16.0,
+        2.9,
+        3.3
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 5,
+      "page": 8,
+      "case": "CSA-N.a.1",
+      "stage_order": [
+        "capture",
+        "compression",
+        "CO2_transport",
+        "storage"
+      ],
+      "shares_pct": [
+        79.4,
+        9.7,
+        19.9,
+        2.9
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 5,
+      "page": 8,
+      "case": "CSA-N.a.2",
+      "stage_order": [
+        "capture",
+        "compression",
+        "CO2_transport",
+        "storage"
+      ],
+      "shares_pct": [
+        63.2,
+        7.7,
+        36.6,
+        2.3
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 5,
+      "page": 8,
+      "case": "CSA-C.a.1",
+      "stage_order": [
+        "capture",
+        "compression",
+        "CO2_transport",
+        "storage"
+      ],
+      "shares_pct": [
+        78.5,
+        16.1,
+        2.0,
+        3.4
+      ],
+      "all_four_labels_printed": true
+    },
+    {
+      "figure": 5,
+      "page": 8,
+      "case": "CSA-C.a.2",
+      "stage_order": [
+        "capture",
+        "compression",
+        "CO2_transport",
+        "storage"
+      ],
+      "shares_pct": [
+        76.5,
+        15.7,
+        4.5,
+        3.3
+      ],
+      "all_four_labels_printed": true
+    }
+  ],
+  "fuels": {
+    "NG": {
+      "unit_power_MW": 900,
+      "units": 4,
+      "design_efficiency_fraction": 0.57,
+      "grid_generator_efficiency_fraction": 0.49,
+      "baseline_fuel_kg_s": 36.05,
+      "LHV_MJ_kg": 47.1,
+      "table4_generated_CO2_per_fuel": 2.75
+    },
+    "coal": {
+      "unit_power_MW": 600,
+      "units": 4,
+      "design_efficiency_fraction": 0.37,
+      "grid_generator_efficiency_fraction": 0.358,
+      "baseline_fuel_kg_s": 55.92,
+      "LHV_MJ_kg": 27.54,
+      "table4_generated_CO2_per_fuel": 3.39
+    }
+  }
+}

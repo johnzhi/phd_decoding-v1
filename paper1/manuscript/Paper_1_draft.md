@@ -71,6 +71,8 @@ Conditioning comparisons use four electricity requirements from the same source 
 
 The [onboard-capture audit](../docs/occs_comprehensive_findings.md) identifies another denominator limit. Zanobetti et al. report thermal/electric duties per kg CO2 **avoided**, within a 36 MW LNG cruise-ship design using recovered exhaust heat and LNG cold energy [B1-01, pp6–9, Tables7–8]. These duties are not adopted per kg captured or as available utilities on a bulk CO2 carrier. Their operational GWI and weighted sustainability indices do not supply a complete capture-to-geological-retention inventory. Missing supplementary process, hazard and weighting inputs also prevent full author-model reproduction.
 
+The [total-efficiency audit](../docs/total_efficiency_comprehensive_findings.md) similarly holds the hypothetical UK/Australia lifecycle-energy results outside the accepted inventory. Coal efficiency-loss denominators, several graphic share labels, baseline fuel/power closure and captured-versus-avoided annual mass need reconciliation [B1-03, pp4–11]. Table 3 combines literature process cases rather than supplying one matched capture-to-ship utility balance. Its displayed sensitivity arithmetic is consistent with rounding, but complete author cases remain unreproduced. Primary energy, electricity and avoided or retained CO2 retain separate accounting bases.
+
 Buffer ratios divide the reported buffer by the 5,000 t ship capacity. The 99% and 100% transport-completion cases are kept separate. The paper's use of average-cycle captured mass as another denominator is not relabelled as ship capacity [B2-08, pp7–8].
 
 For the BOG benchmark, annual purge-plus-auxiliary-generation CO₂ from Table 6 is divided by transported mass from Table A6 for the same process and impurity case. Emissions are in t/y and mass in thousands of t/y; the resulting numerical ratio is kgCO₂/t transported. These are partial-process CO₂ intensities. They are neither full lifecycle CO₂e factors nor fractions of cargo necessarily lost to atmosphere [B1-19, pp7,13].
@@ -577,6 +579,8 @@ For the fixed published storage ratio, Equation (4) yields **72.74 kgCO₂e/t st
 The following references are cited by stable source ID. Full supplied-library titles, identifiers, original filenames and file hashes are in `data/source_catalogue.csv`; complete digests and reading stages are in `docs/evidence_digest.md`. Physical pages cited above refer to the retained PDFs.
 
 - **[B1-01]** Zanobetti et al. (2024). Onboard carbon capture and storage (OCCS) for fossil fuel-based shipping A sustainability assessment. [10.1016/j.jclepro.2024.143343](https://doi.org/10.1016/j.jclepro.2024.143343). [Retained PDF](../papers/B1-01.pdf).
+
+- **[B1-03]** García-Tenorio Corcuera & Petrakopoulou (2025). Evaluating the impact of CO2 capture and storage on total efficiency A lifecycle analysis. [10.1016/j.clet.2025.101002](https://doi.org/10.1016/j.clet.2025.101002). [Retained PDF](../papers/B1-03.pdf).
 
 - **[B1-07]** Kukuu et al. (2025). Leveraging Oil and Gas Legacy for Advanced CCS in Japan Realistic CO2 Storage Simulation in the Higashi-Niigata Gas Field. [10.2118/225812-MS](https://doi.org/10.2118/225812-MS). [Retained PDF](../papers/B1-07.pdf).
 

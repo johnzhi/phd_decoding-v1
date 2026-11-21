@@ -60,7 +60,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 Hypothetical UK and Australian natural-gas and coal cases account for fuel preparation, conversion and CCS. The reference capture fraction is 95%. Table 3 (p5) assembles capture, compression and injection energy data from other publications. Results show strong dependence on fuel preparation and capture assumptions.
 
-Transfer limits: Several unit/summary problems require resolution before calibration: MJ/MWnet lacks an explicit time basis in the reported energy metric; abstract says losses exceed 50% in both fuels whereas detailed NG results reach about 49%; body p9 labels the 3.6/8.43 Mt/year comparison at 90% capture but conclusion p10 says 95%. Do not quote these as harmonised measured penalties.
+Transfer limits: Comprehensive main-PDF reading is recorded separately in evidence/comprehensive_review/B1-03.json. Hold calibration: MJ/MWnet lacks an explicit time basis; Eq2/4 grid-factor branches and Eq8/9 normalisations need reconciliation; Eq11–13 confuse specific and power units. Coal loss percentages imply about 56.8% reference efficiency rather than the declared 37%; several complete NG graphic shares fail the 100% partition. Body p9 associates 3.6/8.43 Mt/year with near-100% capture at 90% capacity factor, whereas conclusion p10 says 95% capture; the earlier 90%-capture attribution was incorrect. Annual savings closely reconstruct captured mass; baseline power/composition and avoided emissions remain unresolved. Table3 combines different literature cases, not one complete matched utility balance. See total_efficiency_comprehensive_findings.md; disputed inputs remain excluded.
 
 ### B1-04 — CO2 Sequestration in Deepwater Sediments Offshore Japan
 
