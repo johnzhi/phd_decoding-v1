@@ -1,0 +1,373 @@
+{
+  "study_id": "B1-12",
+  "source_path": "papers/B1-12.pdf",
+  "source_sha256": "cf2e2603165f4002afb0cf40db2ea4318a822721ff741202fbc4e92ece7d2231",
+  "physical_pages": 26,
+  "doi": "10.2118/234571-MS",
+  "source_url_as_printed": "https://onepetro.org/SPEAPOG/proceedings-pdf/26APOG/26APOG/D011S004R004/5457982/spe-234571-ms.pdf",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "scope": "Native publication values and explicitly labelled analyst algebra. Not native field-model reproduction or accepted operating/GHG inputs.",
+  "material_table": {
+    "locator": "Table1 p15; attributed to Zhang2015, original unverified",
+    "fields": [
+      "material",
+      "density_kg_m3",
+      "E_GPa",
+      "nu",
+      "cohesion_MPa",
+      "tensile_MPa",
+      "UCS_MPa",
+      "porosity",
+      "friction_deg",
+      "dilation_deg"
+    ],
+    "rows": [
+      {
+        "material": "Leederville Fm",
+        "density_kg_m3": 2265,
+        "E_GPa": 14,
+        "nu": 0.26,
+        "cohesion_MPa": 7,
+        "tensile_MPa": 3.5,
+        "UCS_MPa": 20.8,
+        "porosity": 0.12,
+        "friction_deg": 22,
+        "dilation_deg": 2,
+        "porosity_token": "0.12"
+      },
+      {
+        "material": "Guildford Fm",
+        "density_kg_m3": 2301,
+        "E_GPa": 14,
+        "nu": 0.26,
+        "cohesion_MPa": 7,
+        "tensile_MPa": 3.5,
+        "UCS_MPa": 20.8,
+        "porosity": 0.12,
+        "friction_deg": 22,
+        "dilation_deg": 2,
+        "porosity_token": "0.12"
+      },
+      {
+        "material": "Eneabba Fm",
+        "density_kg_m3": 2352,
+        "E_GPa": 14,
+        "nu": 0.26,
+        "cohesion_MPa": 7,
+        "tensile_MPa": 3.5,
+        "UCS_MPa": 20.8,
+        "porosity": 0.13,
+        "friction_deg": 22,
+        "dilation_deg": 2,
+        "porosity_token": "0.13"
+      },
+      {
+        "material": "Basal Eneabba shale",
+        "density_kg_m3": 2400,
+        "E_GPa": 2,
+        "nu": 0.35,
+        "cohesion_MPa": 2.75,
+        "tensile_MPa": 1.375,
+        "UCS_MPa": 8.2,
+        "porosity": 0.05,
+        "friction_deg": 22,
+        "dilation_deg": 2,
+        "porosity_token": "0.05"
+      },
+      {
+        "material": "Yalgorup member",
+        "density_kg_m3": 2260,
+        "E_GPa": 7.9,
+        "nu": 0.23,
+        "cohesion_MPa": 5.28,
+        "tensile_MPa": 2.64,
+        "UCS_MPa": 12.9,
+        "porosity": 0.12,
+        "friction_deg": 11.25,
+        "dilation_deg": 2,
+        "porosity_token": "0.12"
+      },
+      {
+        "material": "Wonnerup member",
+        "density_kg_m3": 2269,
+        "E_GPa": 20.3,
+        "nu": 0.295,
+        "cohesion_MPa": 14.1,
+        "tensile_MPa": 7.05,
+        "UCS_MPa": 50.7,
+        "porosity": 0.13,
+        "friction_deg": 31.87,
+        "dilation_deg": 2,
+        "porosity_token": "0.13"
+      },
+      {
+        "material": "Sabina sandstone",
+        "density_kg_m3": 2269,
+        "E_GPa": 20.3,
+        "nu": 0.295,
+        "cohesion_MPa": 14.1,
+        "tensile_MPa": 7.05,
+        "UCS_MPa": 50.7,
+        "porosity": 0.13,
+        "friction_deg": 31.87,
+        "dilation_deg": 2,
+        "porosity_token": "0.13"
+      },
+      {
+        "material": "Willespie Fm",
+        "density_kg_m3": 2265,
+        "E_GPa": 14,
+        "nu": 0.26,
+        "cohesion_MPa": 7,
+        "tensile_MPa": 3.5,
+        "UCS_MPa": 20.8,
+        "porosity": 0.12,
+        "friction_deg": 22,
+        "dilation_deg": 2,
+        "porosity_token": "0.12"
+      },
+      {
+        "material": "Weak fault",
+        "density_kg_m3": 2280,
+        "E_GPa": 2,
+        "nu": 0.15,
+        "cohesion_MPa": 2,
+        "tensile_MPa": 1,
+        "UCS_MPa": 5.2,
+        "porosity": null,
+        "friction_deg": 15,
+        "dilation_deg": 3,
+        "porosity_token": "HRP *"
+      },
+      {
+        "material": "Strong fault",
+        "density_kg_m3": 2280,
+        "E_GPa": 40,
+        "nu": 0.3,
+        "cohesion_MPa": 28,
+        "tensile_MPa": 14,
+        "UCS_MPa": 97,
+        "porosity": null,
+        "friction_deg": 30,
+        "dilation_deg": 3,
+        "porosity_token": "HRP *"
+      }
+    ],
+    "missingness": "Two fault porosities mean host-rock porosity, not numeric zero. Some printed nu decimal points render as spaces; numeric transcriptions retain an explicit token audit.",
+    "printed_nu_tokens": {
+      "Wonnerup member": "0 295",
+      "Sabina sandstone": "0 295",
+      "Willespie Fm": "0 26",
+      "Weak fault": "0 15"
+    }
+  },
+  "formation_averages": [
+    {
+      "formation": "Yalgorup",
+      "Vp_km_s": 3,
+      "Vs_km_s": 1.75,
+      "rho_g_cm3": 2.3,
+      "nu": 0.22,
+      "G_token_GPa": 10,
+      "E_GPa": 5,
+      "UCS_MPa": 20,
+      "friction_deg": 10
+    },
+    {
+      "formation": "Wonnerup",
+      "Vp_km_s": 4,
+      "Vs_km_s": 2.5,
+      "rho_g_cm3": 2.5,
+      "nu": 0.18,
+      "G_token_GPa": 25,
+      "E_GPa": 18,
+      "UCS_MPa": 40,
+      "friction_deg": 40
+    }
+  ],
+  "average_basis_note": "pp12–14: rho unit prints g/cm without cube; Figure8 has g/cm3. G is not defined as shear modulus; Figure8 labels bulk modulus. Dynamic/static and spatial averaging bases unresolved; neither linear/nonlinear comparisons nor identities here prove a hidden implementation error.",
+  "correlations": {
+    "Vp_numerator": 304.8,
+    "sonic_unit": "microsecond/ft",
+    "Vs_slope": 0.5986,
+    "Vs_intercept": -0.1082,
+    "rho_coefficient": 1.74,
+    "rho_exponent": 0.25,
+    "E_static_slope": 0.41,
+    "E_static_intercept": -1.06,
+    "E_static_intercept_unit": "not stated; illustrative GPa convention only",
+    "UCS_coefficient": 0.05,
+    "UCS_exponent": 4.47,
+    "phi_coefficient": 0.085,
+    "phi_exponent": 3.8
+  },
+  "lot_tests": [
+    {
+      "well": "Hv#2",
+      "test": "Successful",
+      "depth_m": 209,
+      "formation": "Eneabba",
+      "pump_pressure_psi": 375,
+      "LOT_MPa": 7.4
+    },
+    {
+      "well": "Hv#3",
+      "test": "Successful",
+      "depth_m": 591.4,
+      "formation": "Eneabba",
+      "pump_pressure_psi": 640,
+      "LOT_MPa": 11.5
+    },
+    {
+      "well": "Hv#3",
+      "test": "Formation Integrity Test",
+      "depth_m": 1467.4,
+      "formation": "Wonnerup",
+      "pump_pressure_psi": 1725.5,
+      "LOT_MPa": 29.4
+    },
+    {
+      "well": "Hv#4",
+      "test": "Successful",
+      "depth_m": 267,
+      "formation": "Eneabba",
+      "pump_pressure_psi": 214,
+      "LOT_MPa": 4.2
+    },
+    {
+      "well": "Hv#1",
+      "test": "Successful",
+      "depth_m": 848,
+      "formation": "Yalgroup as printed",
+      "pump_pressure_psi": null,
+      "pump_pressure_token": "NA",
+      "LOT_MPa": 26.23
+    }
+  ],
+  "strain_cases": [
+    {
+      "case": 1,
+      "Sh_MPa": 29.4,
+      "depth_m": 1467,
+      "epsilon_x": 0.5,
+      "K_y_over_x": 1.7
+    },
+    {
+      "case": 2,
+      "Sh_MPa": 7.4,
+      "depth_m": 400,
+      "epsilon_x": 0.02,
+      "K_y_over_x": 50
+    },
+    {
+      "case": 3,
+      "Sh_MPa": 26,
+      "depth_m": 800,
+      "epsilon_x": 0.9,
+      "K_y_over_x": 1.2
+    }
+  ],
+  "strain_scale": null,
+  "strain_scale_note": "No dimensionless/%/millistrain/microstrain scale stated for p17 best fit or Table3.",
+  "best_fit_strains": {
+    "epsilon_x": 0.1,
+    "epsilon_y": 0.9
+  },
+  "stress_at_depth": {
+    "depth_m": 1500,
+    "Sh_MPa": 32,
+    "SH_MPa": 37,
+    "reported_ratio": 1.125
+  },
+  "reported_Sh_gradient": {
+    "value": 0.18,
+    "printed_unit": "MPa",
+    "denominator": null,
+    "locator": "p18"
+  },
+  "reference_plan": {
+    "nominal_total_t_year": 800000,
+    "years": 30,
+    "wells": 9,
+    "completion_lowest_m": 250,
+    "bhp_bar": 360,
+    "control_depth_m": 2948,
+    "pressure_formula_as_printed": "PorePressure+0.9*69bar",
+    "multiplier": 0.9,
+    "increment_base_bar": 69,
+    "pressure_reference": null,
+    "target_plume_min_depth_m_TVDss": 800,
+    "target_horizon_years": 1000
+  },
+  "mesh": {
+    "horizontal_cell_m": [
+      250,
+      250
+    ],
+    "side_extra_cells": 5,
+    "growth_factor": 1.5,
+    "stiff_plate_m": 50,
+    "vertical_mesh": null,
+    "plate_properties": null,
+    "permeability_ratio_kv_kh": 0.75
+  },
+  "figure10": {
+    "left_caption_max_psi": 500,
+    "left_legend_max_psi": 800,
+    "right_caption_max_psi": 5000,
+    "right_legend_max_psi": 5000,
+    "caption_years": [
+      2020,
+      2050
+    ],
+    "body_description": "initial vertical profile and plan at3055m",
+    "displayed_panels": "two vertical sections plus basal-Eneabba index map"
+  },
+  "figure16_cells": [
+    {
+      "cell": "40-29-49",
+      "year": 2020,
+      "formation": "Yalgorup"
+    },
+    {
+      "cell": "40-39-26",
+      "year": 2030,
+      "formation": "Yalgorup"
+    },
+    {
+      "cell": "50-36-49",
+      "year": 2035,
+      "formation": "Wonnerup"
+    },
+    {
+      "cell": "50-31-69",
+      "year": 3050,
+      "formation": "Wonnerup"
+    }
+  ],
+  "yield_codes_prose": {
+    "-2": "pink none",
+    "-1": "blue tension",
+    "0": "green shear",
+    "2": "red cap failure"
+  },
+  "yield_graphic_note": "Figure17 shows selected pink intersection; displayed legend tick maximum1.00, not the prose2 cap-failure category. Header date is clipped. No raw whole-grid yield/fault-slip arrays supplied.",
+  "calendar_note": "p19 dynamic histories2021–2035; Figure10 caption2020/2050; Figure16 last cell3050; Figure17 and conclusions2050;30y plan and1000y retention target remain distinct, no inferred corrected year.",
+  "analyst_examples": {
+    "sonic_us_ft": 100,
+    "density_lbm_ft3": 150,
+    "depth_ft": 5000,
+    "normal_gravity_m_s2": 9.80665,
+    "E_MPa": 5000,
+    "nu": 0.22,
+    "alpha": 1,
+    "Sv_MPa": 30,
+    "Pp_MPa": 10,
+    "equal_strain": 0.001,
+    "strain_scale_scenarios": [
+      1,
+      0.001,
+      1e-06
+    ]
+  }
+}

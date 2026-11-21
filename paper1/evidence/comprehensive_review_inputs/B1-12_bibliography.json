@@ -1,0 +1,1206 @@
+{
+  "study_id": "B1-12",
+  "source_sha256": "cf2e2603165f4002afb0cf40db2ea4318a822721ff741202fbc4e92ece7d2231",
+  "printed_entries": 99,
+  "named_dependencies": 19,
+  "entry_count": 118,
+  "transcription": "All five bibliography pages visually inspected; hanging-indent text extraction manually matched to displayed entries. Citation transcription is not original-source verification.",
+  "entries": [
+    {
+      "id": "R001",
+      "pages": [
+        22
+      ],
+      "citation": "Abdollahi, R., Hosseinzadeh, S., Movassagh, A., Kasperczyk, D., & Haghighi, M. (2024). Imaging pressure distribution in geological reservoirs from surface deformation data. Sustainability, 16(17), 7710.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: pressure inference from surface deformation; exact observability, cost and validation support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R002",
+      "pages": [
+        22
+      ],
+      "citation": "Amiri, M., Lashkaripour, G. R., Ghabezloo, S., Moghaddas, N. H., & Tajareh, M. H. (2019). Mechanical earth modeling and fault reactivation analysis for CO2-enhanced oil recovery in Gachsaran oil field, south-west of Iran. Environmental Earth Sciences, 78(4), 1–22.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: MEM-to-3D workflow and fault reactivation; exact method and validation unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R003",
+      "pages": [
+        22
+      ],
+      "citation": "Alabdulkarem, A., Hwang, Y., & Radermacher, R. (2012). Development of CO2 liquefaction cycles for CO2 sequestration. Applied Thermal Engineering, 33, 144–156.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2 prints Abdulkarem2012 for low natural pressure/limited formation fluid as a site criterion. Bibliography is a liquefaction-cycle paper. Exact original support needs inspection; title mismatch is a lead, not proof of unsupported citation. B3-10 is a different title and is not substituted. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R004",
+      "pages": [
+        22
+      ],
+      "citation": "Al-Ameri, W. A., Abdulraheem, A., & Mahmoud, M. (2016). Long-term effects of CO2 sequestration on rock mechanical properties. Journal of Energy Resources Technology, 138(1).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: mechanical characterisation, monitoring and accountability; experimental scope and relevance unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R005",
+      "pages": [
+        22
+      ],
+      "citation": "Anggara, F., Sasaki, K., & Sugai, Y. (2016). The correlation between coal swelling and permeability during CO2 sequestration: A case study using Kushiro low rank coals. International Journal of Coal Geology, 166, 62–70.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: safety-margin/pressure-threshold discussion. Coal-specific permeability findings cannot be transferred without checking original scope. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R006",
+      "pages": [
+        22
+      ],
+      "citation": "Bachu, S. (2000). Sequestration of CO2 in geological media: criteria and approach for site selection in response to climate change. Energy conversion and management, 41(9), 953–970.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: climate mitigation/geological storage background; original passages unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R007",
+      "pages": [
+        22
+      ],
+      "citation": "Bachu, S., & Adams, J. J. (2003). Sequestration of CO2 in geological media in response to climate change: capacity of deep saline aquifers to sequester CO2 in solution. Energy Conversion and management, 44(20), 3151–3175.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: underground porous/depleted-reservoir storage background; original deep-saline dissolution scope unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R008",
+      "pages": [
+        22
+      ],
+      "citation": "Bhattacharyya, S. S., Leite, F. F. G. D., Adeyemi, M. A., Sarker, A. J., Cambareri, S., Faverin, C., … & Parra-Saldívar, R. (2021). A Paradigm Shift to CO2 Sequestration to Manage Global Warming–With the Emphasis on Developing Countries. Science of The Total Environment, 148169.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: climate/CCS background; underlying synthesis and primary sources unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R009",
+      "pages": [
+        22
+      ],
+      "citation": "Birkholzer, J., Cihan, A., & Bandilla, K. (2014). A tiered area‐of‐review framework for geologic carbon sequestration. Greenhouse Gases: Science and Technology, 4(1), 20–35.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: site characterisation and monitoring/area of review; exact thresholds and field application unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R010",
+      "pages": [
+        22
+      ],
+      "citation": "Borissova, I., Bradshaw, B., Nicholson, C., Payne, D., & Struckmeyer, H. (2010). Mentelle Basin? tectonic evolution controlled by of the combined extensional history of the Southwestern and Southern Australian margins. ASEG Extended Abstracts, 2010(1), 1–4.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3 cites Borissova2014, whereas this printed entry is2010. Identity, Perth tectonic timing and original support unresolved; no year repair. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R011",
+      "pages": [
+        22
+      ],
+      "citation": "Bowers, G. L. (1995). Pore pressure estimation from velocity data: Accounting for overpressure mechanisms besides undercompaction. SPE Drilling & Completion, 10(02), 89–95.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp8,14: Bowers named alongside Eaton, with Eaton selected on drilling-event/fluid-density match. Exact alternative formula, inputs, residuals and validity range absent. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R012",
+      "pages": [
+        22
+      ],
+      "citation": "Cai, F., Ding, L., Yao, W., Laskowski, A. K., Xu, Q., Zhang, J. E., & Sein, K. (2017). Provenance and tectonic evolution of Lower Paleozoic–Upper Mesozoic strata from Sibumasu terrane, Myanmar. Gondwana Research, 41, 325–336.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: Perth listric faults and sediment accommodation. Printed title concerns Sibumasu/Myanmar; geographic support needs original inspection, not a title-only rejection. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R013",
+      "pages": [
+        22
+      ],
+      "citation": "Chen, B., Harp, D. R., Lu, Z., & Pawar, R. J. (2020). Reducing uncertainty in geologic CO2 sequestration risk assessment by assimilating monitoring data. International Journal of Greenhouse Gas Control, 94, 102926.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: site characterisation/monitoring assimilation; original data and inference scope unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R014",
+      "pages": [
+        22
+      ],
+      "citation": "Crostella, A., & Backhouse, J. (2000). Geology and petroleum exploration of the central and southern Perth Basin, Western Australia (No. 57). Perth, WA: Geological Survey of Western Australia.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p5: Lesueur/Sabina stratigraphy and formation properties; exact section/provenance unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R015",
+      "pages": [
+        22
+      ],
+      "citation": "Cudjoe, S., Vinassa, M., Gomes, J. H. B., & Barati, R. G. (2016). A comprehensive approach to sweet-spot mapping for hydraulic fracturing and CO2 huff-n-puff injection in Chattanooga shale formation. Journal of Natural Gas Science and Engineering, 33, 1201–1218.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p9: hydraulic fracture direction relative to maximum horizontal stress; regime/orientation assumptions and original support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R016",
+      "pages": [
+        22
+      ],
+      "citation": "Dewhurst, D. N., & Hennig, A. L. (2003). Geomechanical properties related to top seal leakage in the Carnarvon Basin, Northwest Shelf, Australia. Petroleum Geoscience, 9(3), 255–263.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p7: laboratory/core calibration of geomechanical parameters; original data, test conditions and transfer range unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R017",
+      "pages": [
+        22
+      ],
+      "citation": "Dillinger, A., & Esteban, L. (2014). Experimental evaluation of reservoir quality in Mesozoic formations of the Perth Basin (Western Australia) by using a laboratory low field nuclear magnetic resonance. Marine and Petroleum Geology, 57, 455–469.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: Perth tectonic setting; reservoir-quality experiment title needs exact passage/support check. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R018",
+      "pages": [
+        22
+      ],
+      "citation": "Doughty, C., Freifeld, B. M., & Trautz, R. C. (2008). Site characterization for CO 2 geologic storage and vice versa: the Frio brine pilot, Texas, USA as a case study. Environmental Geology, 54(8), 1635–1656.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: site characterisation; original Frio observations are not Harvey calibration without evidence. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R019",
+      "pages": [
+        22
+      ],
+      "citation": "Espinoza, D. N., & Santamarina, J. C. (2017). CO2 breakthrough—Caprock sealing efficiency and integrity for carbon geological storage. International Journal of Greenhouse Gas Control, 66, 218–229.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: reservoir/seal hazards and MEM context; exact breakthrough/retention conditions unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R020",
+      "pages": [
+        23
+      ],
+      "citation": "Frash, L. P., Carey, J. W., Ickes, T., & Viswanathan, H. S. (2017). Caprock integrity susceptibility to permeable fracture creation. International Journal of Greenhouse Gas Control, 64, 60–72.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: seal efficiency and long-term leakage accountability; exact experiments and generalisation unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R021",
+      "pages": [
+        23
+      ],
+      "citation": "Ferdinando, D. D., & Longley, I. (2015). Permian play mapping in the northern Perth Basin. Petroleum in Western Australia, 17–26.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p5: regional stratigraphy; Permian northern-basin study applicability needs original check. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R022",
+      "pages": [
+        23
+      ],
+      "citation": "Hall, L., Borissova, I., Grosjean, E., Southby, C., Owens, R., Bernardel, G., & Mitchell, C. (2017). Petroleum Prospectivity of the Houtman Sub-Basin, Offshore Perth Basin, Australia. In AAPG/SEG International Conference and Exhibition, London (pp. 15–18).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: regional tectonics and break-up; original location/time support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R023",
+      "pages": [
+        23
+      ],
+      "citation": "Harris, L. B. (1994). Structural and tectonic synthesis for the Perth Basin, Western Australia. Journal of Petroleum Geology, 17(2), 129–156.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: Perth extension and tectonic history; original support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R024",
+      "pages": [
+        23
+      ],
+      "citation": "Harp, D. R., Stauffer, P. H., O'Malley, D., Jiao, Z., Egenolf, E. P., Miller, T. A., … & Pawar, R. (2017). Development of robust pressure management strategies for geologic CO2 sequestration. International Journal of Greenhouse Gas Control, 64, 43–59.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: site characterisation/pressure management; original methods, assumptions and field applicability unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R025",
+      "pages": [
+        23
+      ],
+      "citation": "Harpalani, S., Prusty, B. K., & Dutta, P. (2006). Methane/CO2 sorption modeling for coalbed methane production and CO2 sequestration. Energy & Fuels, 20(4), 1591–1599.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: low natural pressure/limited formation-fluid storage criterion; coal-sorption study relevance requires original passages. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R026",
+      "pages": [
+        23
+      ],
+      "citation": "Hawez, H. K., Sanaee, R., & Faisal, N. H. (2021). A critical review on coupled geomechanics and fluid flow in naturally fractured reservoirs. Journal of natural gas science and engineering, 95, 104150.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p10 prints Hawes2021, bibliography Hawez2021. Coupling-method review identity and claims need exact original check. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R027",
+      "pages": [
+        23
+      ],
+      "citation": "Hedayatzadeh, M., Sarhosis, V., Gorka, T., Hámor-Vidó, M., & Kalmár, I. (2022, May). Ground subsidence and fault reactivation during in-situ coal conversion assessed by numerical simulations. In EGU General Assembly Conference Abstracts (pp. EGU22-11736).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p20: stress shift and Mohr-circle/fault discussion; coal-conversion model is not a Harvey validation. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R028",
+      "pages": [
+        23
+      ],
+      "citation": "Herzog, H. J. (1998, August). Ocean sequestration of CO2: an overview. In Proceedings of the AWMA's Second International Specialty Conference, Oct 13-15, 1998, Washington, DC.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: underground porous/depleted-reservoir storage background. Printed ocean-sequestration title raises a scope question requiring original inspection. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R029",
+      "pages": [
+        23
+      ],
+      "citation": "Higgins, S. M., Goodwin, S. A., Bratton, T. R., & Tracy, G. W. (2008, September). Anisotropic stress models improve completion design in the Baxter Shale. In SPE Annual Technical Conference and Exhibition. OnePetro.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No unique matching inline citation located. King2008 p18 is not automatically this Higgins2008 entry. Verify identity and intended stress-model role. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R030",
+      "pages": [
+        23
+      ],
+      "citation": "Hosseinzadeh, S., Haghighi, M., Salmachi, A., & Shokrollahi, A. (2024a). Carbon dioxide storage within coal reservoirs: A comprehensive review. Geoenergy Science and Engineering, 241, 213198.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: coal-seam storage as a distinct target; review and its underlying originals unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R031",
+      "pages": [
+        23
+      ],
+      "citation": "Hosseinzadeh, S., Abdollahi, R., Salimzadeh, S., & Haghighi, M. (2024b). Three-dimensional coupled temporal geomechanical model for fault-reactivation and surface-deformation evaluation during reservoir depletion and CO2 sequestration, securing long-term reservoir sustainability. Sustainability, 16(19), 8482.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: prior 4D coupled reservoir depletion/CO2 analysis; exact data/code/validation and comparison unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R032",
+      "pages": [
+        23
+      ],
+      "citation": "Ganguli, S. S., & Sen, S. (2020). Investigation of present-day in-situ stresses and pore pressure in the south Cambay Basin, western India: Implications for drilling, reservoir development and fault reactivation. Marine and Petroleum Geology, 118, 104422.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p20: principal-stress/Mohr analysis; original Cambay assumptions and stress convention unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R033",
+      "pages": [
+        23
+      ],
+      "citation": "Gardner, G. H. F., Gardner, L. W., & Gregory, A. R. (1974). Formation velocity and density—The diagnostic basics for stratigraphic traps. Geophysics, 39(6), 770–780.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p7 attributes Eq3 density/velocity and Eq4 dynamic E. Check the exact Gardner original, coefficient units, validity and whether it actually derives Eq4. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R034",
+      "pages": [
+        23
+      ],
+      "citation": "Gor, G. Y., Elliot, T. R., & Prévost, J. H. (2013). Effects of thermal stresses on caprock integrity during CO2 storage. International Journal of Greenhouse Gas Control, 12, 300–309.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3,10: geomechanical hazards and thermal caprock stresses; exact thermal footprint, conditions and transfer to Harvey unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R035",
+      "pages": [
+        23
+      ],
+      "citation": "Jamaloei, B. Y. (2021). Impact of formation dilation-recompaction on cyclic steam stimulation in reservoirs with bottom water: Application of an integrated coupled reservoir-geomechanical modeling workflow. Journal of Petroleum Science and Engineering, 199, 108267.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p10: coupled simulation methods; original bottom-water steam case is not Harvey calibration. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R036",
+      "pages": [
+        23
+      ],
+      "citation": "Hosseinzadeh, S., Saberi, M. R., Haghighi, M., Salmachi, A., & Salimzadeh, S. (2025a). Seismic inversion approaches for reservoir characterization: A comprehensive review. Journal of Applied Geophysics, 243, 105953.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: seismic inversion as a route to elastic/petrophysical constraints; actual Harvey inversion inputs and original support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R037",
+      "pages": [
+        23
+      ],
+      "citation": "Hosseinzadeh, S., Haghighi, M., Salmachi, A., Salimzadeh, S., & Karakus, M. (2025b). Utilising 4D geomechanical modelling to evaluate formation failure and fault reactivation during hydrogen storage and production. Australian Energy Producers Journal, 65(2), 1–5.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: hydrogen-storage/production failure assessment as prior 4D workflow; no CO2 equivalence inferred. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R038",
+      "pages": [
+        23
+      ],
+      "citation": "Jia, B., Tsau, J. S., & Barati, R. (2019). A review of the current progress of CO2 injection EOR and carbon storage in shale oil reservoirs. Fuel, 236, 404–427.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: porous/depleted-reservoir CO2 storage; original shale-oil EOR/review scope unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R039",
+      "pages": [
+        23
+      ],
+      "citation": "Jung, H., Espinoza, D. N., & Hosseini, S. A. (2020). Wellbore injectivity response to step-rate CO2 injection: Coupled thermo-poro-elastic analysis in a vertically heterogeneous formation. International Journal of Greenhouse Gas Control, 102, 103156.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: pore-pressure/stress coupling; original thermal/step-rate model, inputs and relevance unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R040",
+      "pages": [
+        23
+      ],
+      "citation": "Karimnezhad, M., Jalalifar, H., & Kamari, M. (2014). Investigation of caprock integrity for CO2 sequestration in an oil reservoir using a numerical method. Journal of Natural Gas Science and Engineering, 21, 1127–1137.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: MEM/caprock-integrity numerical study; complete original constitutive/failure model unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R041",
+      "pages": [
+        23
+      ],
+      "citation": "Khan, S., Khulief, Y. A., & Al-Shuhail, A. A. (2018). Alleviation of pore pressure buildup and ground uplift during carbon dioxide injection into Ghawar Arab-D carbonate naturally fractured reservoir. Environmental Earth Sciences, 77(12), 1–27.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: coupling/pressure management; carbonate Ghawar model and brine implications unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R042",
+      "pages": [
+        23
+      ],
+      "citation": "Khan, S., Khulief, Y., Juanes, R., Bashmal, S., Usman, M., & Al-Shuhail, A. (2024). Geomechanical modeling of CO2 sequestration: A review focused on CO2 injection and monitoring. Journal of Environmental Chemical Engineering, 12(3), 112847.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: numerical geomechanical and monitoring review; not independent verification of its cited sources. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R043",
+      "pages": [
+        24
+      ],
+      "citation": "Khandelwal, M., & Singh, T. N. (2009). Correlating static properties of coal measures rocks with P-wave velocity. International Journal of Coal Geology, 79(1-2), 55–60.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p7: elastic estimates from sonic velocity; coal-measures correlation applicability to Harvey sandstone/shale unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R044",
+      "pages": [
+        24
+      ],
+      "citation": "Kim, S., & Hosseini, S. A. (2014). Geological CO2 storage: Incorporation of pore-pressure/stress coupling and thermal effects to determine maximum sustainable pressure limit. Energy Procedia, 63, 3339–3346.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: pressure/stress coupling and thermal effects; original sustainable-pressure derivation and units unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R045",
+      "pages": [
+        24
+      ],
+      "citation": "Kolawole, O., & Ispas, I. (2020). Evaluation of geomechanical properties via scratch tests: Where are we and where do we go from here?. SN Applied Sciences, 2(10), 1–14.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p7: laboratory/core characterisation; scratch-test synthesis and relevance unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R046",
+      "pages": [
+        24
+      ],
+      "citation": "Konstantinovskaya, E., Li, Q., Malo, M., Rivero, J. A., Faskhoodi, M. M., & Campbell, B. (2020). Strike-slip reactivation of a high-angle normal fault induced by increase of reservoir pore pressure: insight from 3D coupled reservoir- geomechanical modeling. International Journal of Greenhouse Gas Control, 102, 103159.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: fault reactivation under pressure increase; exact fault geometry, coupling and conditions unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R047",
+      "pages": [
+        24
+      ],
+      "citation": "Lambeck, K. (1987). The Perth Basin: a possible framework for its formation and evolution. Exploration Geophysics, 18(1-2), 124–128.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: Perth formation/evolution and listric faulting; exact evidence unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R048",
+      "pages": [
+        24
+      ],
+      "citation": "Langhi, L., Ciftci, B., & Strand, J. (2014). Constraining fluid migration in low density data area: successful use of integrated modelling in the Southern Perth Basin. The APPEA Journal, 54(2), 534–534.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p4/Figure1: Harvey Ridge location/transfer activity and regional map attribution; exact original map and modification unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R049",
+      "pages": [
+        24
+      ],
+      "citation": "Lavrov, A., Larsen, I., & Bauer, A. (2016). Numerical modelling of extended leak-off test with a pre-existing fracture. Rock Mechanics and Rock Engineering, 49(4), 1359–1368.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p9: LOT/XLOT-based stress inference; pre-existing-fracture assumptions and test interpretation unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R050",
+      "pages": [
+        24
+      ],
+      "citation": "Leclère, H., & Fabbri, O. (2013). A new three-dimensional method of fault reactivation analysis. Journal of Structural Geology, 48, 153–161.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p20: Mohr-circle stress shift and failure discussion; original 3D fault criterion and sign conventions unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R051",
+      "pages": [
+        24
+      ],
+      "citation": "Lijith, K. P., Malagar, B. R., & Singh, D. N. (2019). A comprehensive review on the geomechanical properties of gas hydrate bearing sediments. Marine and Petroleum Geology, 104, 270–285.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p7: core-based geomechanical characterisation; hydrate-sediment review cannot be transferred without checking domain. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R052",
+      "pages": [
+        24
+      ],
+      "citation": "de Lima, A. V. S., Guimarães, L. J. N., Beserra, L. B. S., Horowitz, B., & Tueros, J. A. R. (2026). Analysis of structural integrity of geological reservoirs for CO2 storage regarding to fault reactivation: a forecasting model based on machine learning techniques. Neural Computing and Applications, 38(9).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: machine-learning surrogate for Mohr-Coulomb-based fault integrity; performance and scope not independently verified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R053",
+      "pages": [
+        24
+      ],
+      "citation": "Liu, K., Hosseinzadeh, S., Safaei-Farouji, M., Liu, B., Morta, H. B., & Ostadhassan, M. (2023). Fracture toughness of organic rich shale via nanoindentation: A comparison of energy-based methods. Geoenergy Science and Engineering, 211695.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p13: complementary nanoindentation fracture-toughness/heterogeneity method; not supplied Harvey tests. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R054",
+      "pages": [
+        24
+      ],
+      "citation": "Liu, C. J., Wang, G. X., Sang, S. X., Gilani, W., & Rudolph, V. (2015). Fractal analysis in pore structure of coal under conditions of CO2 sequestration process. Fuel, 139, 125–132.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: low natural pressure/limited fluid storage screening; coal pore-structure original relevance unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R055",
+      "pages": [
+        24
+      ],
+      "citation": "Liu, Baoju, Jiali Qin, Jinyan Shi, Junyi Jiang, Xiang Wu, and Zhihai He. \"New perspectives on utilization of CO2 sequestration technologies in cement-based materials.\" Construction and Building Materials 272 (2021): 121660.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: geomechanical safety/monitoring/accountability. Printed cement-materials title raises a scope question; exact original support remains unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R056",
+      "pages": [
+        24
+      ],
+      "citation": "Longuemare, P., Mainguy, M., Lemonnier, P., Onaisi, A., Gérard, C., & Koutsabeloulis, N. (2002). Geomechanics in reservoir simulation: overview of coupling methods and field case study. Oil & gas science and technology, 57(5), 471–483.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No unique matching inline citation located. Printed coupling-method overview retained; intended use and original passages remain open. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R057",
+      "pages": [
+        24
+      ],
+      "citation": "Lyu, Q., Long, X., Ranjith, P. G., Tan, J., Kang, Y., & Wang, Z. (2018). Experimental investigation on the mechanical properties of a low-clay shale with different adsorption times in sub-/super-critical CO2. Energy, 147, 1288–1298.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: mechanical monitoring/safety context; original shale experiments and conditions unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R058",
+      "pages": [
+        24
+      ],
+      "citation": "Mathur, B., Hofmann, H., Cacace, M., Hutka, G. A., & Zang, A. (2024). Thermo-hydro-mechanical simulation of cooling- induced fault reactivation in Dutch geothermal reservoirs. Netherlands Journal of Geosciences, 103, e1.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp10,20: cooling-induced fault stress and Mohr/fault analysis; geothermal case is not a Harvey thermal model. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R059",
+      "pages": [
+        24
+      ],
+      "citation": "Matter, J. M., Takahashi, T., & Goldberg, D. (2007). Experimental evaluation of in situ CO2‐water‐rock reactions during CO2 injection in basaltic rocks: Implications for geological CO2 sequestration. Geochemistry, Geophysics, Geosystems, 8(2).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: underground porous/depleted-reservoir storage; original basalt-reaction scope unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R060",
+      "pages": [
+        24
+      ],
+      "citation": "Mazumder, S., Karnik, A. A., & Wolf, K. H. A. (2006). Swelling of coal in response to CO2 sequestration for ECBM and its effect on fracture permeability. Spe Journal, 11(03), 390–398.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: pressure threshold/safety margin; coal swelling/permeability does not establish a Harvey caprock limit without a verified derivation. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R061",
+      "pages": [
+        24
+      ],
+      "citation": "McMillan, M., Will, R., Ampomah, W., Balch, R., & Czoski, P. (2019, April). Coupled geomechanical modeling to assess cap rock integrity and mechanical fault stability: Application to Farnsworth field unit project. In SPE Western Regional Meeting. OnePetro.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p10: coupled modelling methods and caprock/fault examples; original Farnsworth model unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R062",
+      "pages": [
+        24
+      ],
+      "citation": "Mortazavi, A., & Maratov, T. (2024). An investigation of fault geometric effects on fault activation mechanisms in CO2 storage. Paper presented at the 58th US Rock Mechanics/Geomechanics Symposium, Golden, Colorado, USA. ARMA-2024-0584.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p20: fault geometry and principal-stress/Mohr discussion; exact geometric effects and failure criteria unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R063",
+      "pages": [
+        24
+      ],
+      "citation": "Mory, A. J., Haig, D. W., McLoughlin, S., & Hocking, R. M. (2005). Geology of the northern Perth Basin, Western Australia—a field guide. Geology, 9.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3,5: tectonics and stratigraphy; original northern-basin field guide applicability unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R064",
+      "pages": [
+        24
+      ],
+      "citation": "Najibi, A. R., Ghafoori, M., Lashkaripour, G. R., & Asef, M. R. (2017). Reservoir geomechanical modeling: In-situ stress, pore pressure, and mud design. Journal of Petroleum Science and Engineering, 151, 31–39.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No unique matching inline citation located. Printed geomechanical/mud-design reference retained; intended support unresolved. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R065",
+      "pages": [
+        24
+      ],
+      "citation": "Noël, C., Passelègue, F. X., Giorgetti, C., & Violay, M. (2019). Fault reactivation during fluid pressure oscillations: Transition from stable to unstable slip. Journal of Geophysical Research: Solid Earth, 124(11), 10940–10953.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p20 spells Noel: Mohr-Coulomb failure and pressure-driven slip. Original oscillatory-pressure instability criterion unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R066",
+      "pages": [
+        24
+      ],
+      "citation": "Nole, M., Daigle, H., Cook, A. E., & Malinverno, A. (2016). Short‐range, overpressure‐driven methane migration in coarse‐grained gas hydrate reservoirs. Geophysical Research Letters, 43(18), 9500–9508.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p8: compaction imbalance as overpressure/Eaton rationale; coarse-grained hydrate original relevance needs exact passages. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R067",
+      "pages": [
+        24
+      ],
+      "citation": "Noohnejad, A., Ahangari, K., & Goshtasbi, K. (2021). Comprehensive mechanical earth modeling using well data. Innovative Infrastructure Solutions, 6(1), 1–13.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: MEM construction and 3D coupling; exact model/validation unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R068",
+      "pages": [
+        25
+      ],
+      "citation": "Olabode, A., & Radonjic, M. (2013). Experimental investigations of caprock integrity in CO2 sequestration. Energy Procedia, 37, 5014–5025.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: MEM/caprock-integrity modelling context; original experimental conditions unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R069",
+      "pages": [
+        25
+      ],
+      "citation": "Olierook, H. K., Barham, M., Fitzsimons, I. C., Timms, N. E., Jiang, Q., Evans, N. J., & McDonald, B. J. (2019). Tectonic controls on sediment provenance evolution in rift basins: Detrital zircon U–Pb and Hf isotope analysis from the Perth Basin, Western Australia. Gondwana Research, 66, 126–142.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: Perth tectonic history and sediment provenance; original support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R070",
+      "pages": [
+        25
+      ],
+      "citation": "Olierook, H. K., Delle Piane, C., Timms, N. E., Esteban, L., Rezaee, R., Mory, A. J., & Hancock, L. (2014). Facies- based rock properties characterization for CO2 sequestration: GSWA Harvey 1 well, Western Australia. Marine and Petroleum Geology, 50, 83–102.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2 instead prints Olierook2013. This entry is2014; identity and site-suitability claim support unresolved, not silently matched. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R071",
+      "pages": [
+        25
+      ],
+      "citation": "Olierook, H. K. H., Timms, N. E., Wellmann, J. F., Corbel, S., & Wilkes, P. G. (2015). 3D structural and stratigraphic model of the Perth Basin, Western Australia: Implications for sub-basin evolution. Australian Journal of Earth Sciences, 62(4), 447–467.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3/Figure3 p6: regional evolution and stratigraphy; map/age provenance and modifications unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R072",
+      "pages": [
+        25
+      ],
+      "citation": "Ostadhassan, M., Zeng, Z., & Zamiran, S. (2012, June). Geomechanical modeling of an anisotropic Formation-Bakken case study. In 46th US Rock Mechanics/Geomechanics Symposium. OnePetro.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No unique matching inline citation located. Printed anisotropic Bakken study retained; no isotropic/Harvey transfer assumed. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R073",
+      "pages": [
+        25
+      ],
+      "citation": "Paluszny, A., Graham, C. C., Daniels, K. A., Tsaparli, V., Xenias, D., Salimzadeh, S., … & Zimmerman, R. W. (2020). Caprock integrity and public perception studies of carbon storage in depleted hydrocarbon reservoirs. International Journal of Greenhouse Gas Control, 98, 103057.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2 prints Palusznet2020 for seal durability/accountability; spelling/identity and original support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R074",
+      "pages": [
+        25
+      ],
+      "citation": "Pervukhina, M., Piane, C. D., Dewhurst, D. N., Clennell, M. B., & Bolås, H. M. N. (2013). An estimation of pore pressure in shales from sonic velocities. In SEG Technical Program Expanded Abstracts 2013 (pp. 2653–2658). Society of Exploration Geophysicists.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p7: synthetic shear/sonic relations. This2013 printed entry is pore-pressure estimation, whereas UCS/friction formulas cite2017, which is unprinted. Do not merge them. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R075",
+      "pages": [
+        25
+      ],
+      "citation": "Playford, G. (2016). Mississippian palynoflora from the northern Perth Basin, Western Australia: systematics and stratigraphical and palaeogeographical significance. Journal of Systematic Palaeontology, 14(9), 731–770.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p5 prints Platford2016; bibliography Playford2016 on Mississippian palynoflora. Exact identity and Triassic–Jurassic stratigraphic support need inspection. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R076",
+      "pages": [
+        25
+      ],
+      "citation": "Preston, B. L., & Jones, R. N. (2006). Climate change impacts on Australia and the benefits of early action to reduce global greenhouse gas emissions (p. 41). Canberra: CSIRO.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: Australian climate/mitigation context; original report claims unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R077",
+      "pages": [
+        25
+      ],
+      "citation": "Qin, C., Jiang, Y., Zhou, J., Zuo, S., Chen, S., Liu, Z., … & Li, Y. (2021). Influence of supercritical CO2 exposure on water wettability of shale: Implications for CO2 sequestration and shale gas recovery. Energy, 122551.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No unique Qin2021 inline match located; p2 prints Gin2021. Do not equate names or substitute this wettability paper without evidence. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R078",
+      "pages": [
+        25
+      ],
+      "citation": "Rajabi, M., Tingay, M., & Heidbach, O. (2016). The present-day state of tectonic stress in the Darling Basin, Australia: Implications for exploration and production. Marine and Petroleum Geology, 77, 776–790.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p8: magnitude/direction of tectonic stress. Darling Basin title is not automatically Perth field evidence; verify exact original support. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R079",
+      "pages": [
+        25
+      ],
+      "citation": "Raziperchikolaee, S., Singh, V., & Kelley, M. (2020). The effect of Biot coefficient and elastic moduli stress–pore pressure dependency on poroelastic response to fluid injection: laboratory experiments and geomechanical modeling. Greenhouse Gases: Science and Technology, 10(5), 980–998.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: MEM/caprock numerical workflow; original Biot/elastic stress dependence and calibration unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R080",
+      "pages": [
+        25
+      ],
+      "citation": "Sampath, K. H. S. M., Ranjith, P. G., & Perera, M. S. A. (2020). A comprehensive review of structural alterations in CO2- interacted coal: Insights into CO2 sequestration in coal. Energy & Fuels, 34(11), 13369–13383.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: pressure thresholds and safety margin; coal-interaction review and primary support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R081",
+      "pages": [
+        25
+      ],
+      "citation": "Selvadurai, A. P., & Suvorov, A. P. (2016). Thermo-poroelasticity and geomechanics. Cambridge University Press.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p10: cooling contraction/effective stress and near-seal hazards; exact thermo-poroelastic derivation and conditions unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R082",
+      "pages": [
+        25
+      ],
+      "citation": "Settari, A., & Walters, D. A. (2001). Advances in coupled geomechanical and reservoir modeling with applications to reservoir compaction. Spe Journal, 6(03), 334–342.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p10 prints Walter/Walters for partial one-way coupling. Exact formulation, convergence and interpretation unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R083",
+      "pages": [
+        25
+      ],
+      "citation": "Song, T., & Cawood, P. A. (2000). Structural styles in the Perth Basin associated with the Mesozoic break-up of Greater India and Australia. Tectonophysics, 317(1-2), 55–72.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: Perth tectonic styles and break-up; exact timings and geographic scope unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R084",
+      "pages": [
+        25
+      ],
+      "citation": "Steefel, C. I., Molins, S., & Trebotich, D. (2013). Pore scale processes associated with subsurface CO2 injection and sequestration. Reviews in Mineralogy and Geochemistry Pore scale processes associated with subsurface CO2 injection and sequestration., 77(1), 259–303.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: porous/depleted-reservoir CO2 storage; original pore-scale process support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R085",
+      "pages": [
+        25
+      ],
+      "citation": "Sun, Z., Garza, A., Salazar-Tio, R., Fager, A., & Crouse, B. (2021, June). A Novel 3D Mechanical Earth Modeling of the Volve Field and Its Application to Fault Stability Analysis. In 55th US Rock Mechanics/Geomechanics Symposium. OnePetro.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: MEM/3D fault stability workflow; exact Volve model/validation unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R086",
+      "pages": [
+        25
+      ],
+      "citation": "Thiercelin, M. J., & Plumb, R. A. (1994). A core-based prediction of lithologic stress contrasts in east Texas formations. SPE Formation Evaluation, 9(04), 251–258.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No unique matching inline citation located. Printed core-based stress-contrast reference retained; intended use and original derivation unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R087",
+      "pages": [
+        25
+      ],
+      "citation": "Thompson, N., Andrews, J. S., Wu, L., & Meneguolo, R. (2022). Characterization of the in-situ stress on the Horda platform–A study from the Northern Lights Eos well. International Journal of Greenhouse Gas Control, 114, 103580.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p9: LOT/XLOT/stress interpretation; original Horda/Northern Lights conditions do not calibrate Harvey without evidence. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R088",
+      "pages": [
+        25
+      ],
+      "citation": "Tingay, M., Reinecker, J., & Müller, B. (2008). Borehole breakout and drilling-induced fracture analysis from image logs. World Stress Map Project, 1–8.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No unique matching inline citation located. Printed image-log analysis reference retained; King2008 p18 is not silently equated to it. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R089",
+      "pages": [
+        25
+      ],
+      "citation": "Urosevic, M., Ziramov, S., Pevzner, R., Tertyshnikov, K., Yavuz, S., Egorov, A., … & Van Gent, D. (2018, October). CO2 storage site characterisation at Harvey, Western Australia using non-conventional seismic survey geometries. In 14th Greenhouse Gas Control Technologies Conference Melbourne (pp. 21–26).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: Harvey suitability/characterisation; exact seismic data/geometry/uncertainty and original support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R090",
+      "pages": [
+        25
+      ],
+      "citation": "Van den Bogert, P. A. J., & van Eijs, R. M. H. E. (2020). Why Mohr-circle analyses may underestimate the risk of fault reactivation in depleting reservoirs. International Journal of Rock Mechanics and Mining Sciences, 136, 104502.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p20: circle/failure interpretation. The printed title itself warns that Mohr circles may underestimate risk; exact original limitations require inspection. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R091",
+      "pages": [
+        25
+      ],
+      "citation": "Vidal-Gilbert, S., Nauroy, J. F., & Brosse, E. (2009). 3D geomechanical modelling for CO2 geologic storage in the Dogger carbonates of the Paris Basin. International Journal of Greenhouse Gas Control, 3(3), 288–299.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3 prints Vidal2009: pressure-stress coupling; identity and exact Paris Basin original assumptions unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R092",
+      "pages": [
+        26
+      ],
+      "citation": "Whittaker, J. M., Williams, S. E., & Müller, R. D. (2013). Revised tectonic evolution of the Eastern Indian Ocean. Geochemistry, Geophysics, Geosystems, 14(6), 1891–1909.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: Perth/Indian Ocean tectonic evolution; original support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R093",
+      "pages": [
+        26
+      ],
+      "citation": "Xiong, Y., Fakcharoenphol, P., Winterfeld, P., Zhang, R., & Wu, Y. S. (2013, September). Coupled geomechanical and reactive geochemical model for fluid and heat flow: application for enhanced geothermal reservoir. In SPE reservoir characterization and simulation conference and exhibition. OnePetro.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p10: coupled geomechanical/geochemical fluid/heat simulation as prior methods; not a reproduction of Harvey. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R094",
+      "pages": [
+        26
+      ],
+      "citation": "Yang, F., Bai, B., Tang, D., Shari, D. N., & David, W. (2010). Characteristics of CO 2 sequestration in saline aquifers. Petroleum Science, 7(1), 83–92.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: storage-site characterisation; original saline-aquifer assumptions unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R095",
+      "pages": [
+        26
+      ],
+      "citation": "Yin, S., & Ding, W. (2019). Evaluation indexes of coalbed methane accumulation in the strong deformed strike-slip fault zone considering tectonics and fractures: A 3D geomechanical simulation study. Geological Magazine, 156(6), 1052–1068.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: MEM/caprock/fault workflow; coalbed-methane/strike-slip original relevance unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R096",
+      "pages": [
+        26
+      ],
+      "citation": "Zappone, A., Rinaldi, A. P., Grab, M., Wenning, Q. C., Roques, C., Madonna, C., … & Wiemer, S. (2021). Fault sealing and caprock integrity for CO 2 storage: an in situ injection experiment. Solid Earth, 12(2), 319–343.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: reservoir/seal hazards; in situ injection experiment scope and retention support unverified. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R097",
+      "pages": [
+        26
+      ],
+      "citation": "Zhang, F., & Mack, M. (2017). Integrating fully coupled geomechanical modeling with microsesmicity for the analysis of refracturing treatment. Journal of Natural Gas Science and Engineering, 46, 16–25.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p10: fully coupled methods; refracturing/microseismic original is not a Harvey model. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R098",
+      "pages": [
+        26
+      ],
+      "citation": "Zhang, Y., Langhi, L., Schaubs, P. M., Delle Piane, C., Dewhurst, D. N., Stalker, L., & Michael, K. (2015). Geomechanical stability of CO2 containment at the South West Hub Western Australia: A coupled geomechanical–fluid flow modelling approach. International Journal of Greenhouse Gas Control, 37, 12–23.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p15/Table1: source of borrowed material properties. Exact original/model/property selection and fault constitutive data unverified; no exact retained original identified in the catalogue. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "R099",
+      "pages": [
+        26
+      ],
+      "citation": "Zoback, M. D., Barton, C., Brudy, M., Chang, C., Moos, D., Peska, P., … & Myrvang, A. M. (1995, February). A review of some new methods for determining the in situ stress state from observations of borehole failure with applications to borehole stability and enhanced production in the North Sea. In Rock Stresses in the North Sea: Proceeding of the Workshop (pp. 13–14). University of Trondheim.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No unique Zoback1995 inline match located; pp8–9 cite Zoback2007. Separate identity, original stress equations and image-log support remain open. No underlying source is certified read from this bibliography transcription."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        2
+      ],
+      "citation": "Gin et al. (2021), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Porous/depleted storage background p2. Exact Gin2021 identity absent from the bibliography; Qin2021 is not an authorised correction."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2
+      ],
+      "citation": "Olierook et al. (2013), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Harvey suitability p2. The bibliography lists2014/2015/2019. Exact2013 work and claim support remain unresolved."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        2
+      ],
+      "citation": "Dai et al. (2014), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Site characterisation p2. Exact Dai2014 identity and original support absent from the printed bibliography."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        3
+      ],
+      "citation": "Plumb (1979), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Perth break-up context p3. Exact Plumb1979 identity absent from the printed bibliography."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        3
+      ],
+      "citation": "Borissova et al. (2014), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Tectonics p3. Printed2010 entry is a separate unresolved identity; no automatic year correction."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        7
+      ],
+      "citation": "Claudio Delle Piane (2013), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq2 synthetic shear correlation p7. Exact source not specified; do not assume a separate work or equivalence to Pervukhina2013."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        7,
+        8,
+        13
+      ],
+      "citation": "M. Pervukhina / Pervukhina / Pervukina (2017), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eqs3/7/8 density,UCS,friction pp7–8,13. Exact2017 identity, regression units/domain, core data and errors absent. Printed2013 entry is not substituted."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        7,
+        8
+      ],
+      "citation": "Fjaer et al. (2008), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq5 Poisson ratio and Eq9 cohesion pp7–8. Exact book/edition/passages, derivations and assumptions unverified. Another citing paper is not the original."
+    },
+    {
+      "id": "N09",
+      "pages": [
+        7
+      ],
+      "citation": "Wang (2000), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Dynamic elastic properties p7. Exact Wang2000 original absent from the printed bibliography."
+    },
+    {
+      "id": "N10",
+      "pages": [
+        8
+      ],
+      "citation": "Wang (2017), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq6 static/dynamic fit p8. Original coefficient/intercept units, domain and calibration absent."
+    },
+    {
+      "id": "N11",
+      "pages": [
+        3,
+        8
+      ],
+      "citation": "Eaton (1975), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq10 corrected sonic pressure-gradient method pp3,8. Normal/observed trends, exponent, units and original compaction assumptions absent."
+    },
+    {
+      "id": "N12",
+      "pages": [
+        8,
+        9
+      ],
+      "citation": "Zoback (2007), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Overpressure and Eq11/stress framework pp8–9. Exact2007 edition/passages unverified; printed1995 work is not substituted."
+    },
+    {
+      "id": "N13",
+      "pages": [
+        16
+      ],
+      "citation": "Hillis and Reynolds (2000), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Figure13 regional orientations p16. Original map, data and quality definitions unverified."
+    },
+    {
+      "id": "N14",
+      "pages": [
+        18
+      ],
+      "citation": "King et al. (2008), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Image-log stress/boundary procedures p18. Exact King2008 identity absent; Higgins2008 and Tingay2008 are not automatically equivalent."
+    },
+    {
+      "id": "N15",
+      "pages": [
+        20
+      ],
+      "citation": "Wu and Hasegawa (1996), as printed",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Principal stresses and fault/Mohr analysis p20. Exact Wu/Hasegawa1996 source, stress regime and convention absent."
+    },
+    {
+      "id": "N16",
+      "pages": [
+        7,
+        11,
+        12,
+        15
+      ],
+      "citation": "Native log/core/property and Visage geometry cases",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Raw sonic/density/core data, lab conditions, corrections, seismic inversion, dynamic/static property mapping, full mesh/plates/BC and native case rights unavailable."
+    },
+    {
+      "id": "N17",
+      "pages": [
+        10,
+        18,
+        19
+      ],
+      "citation": "Native isothermal dynamic model and well controls",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native PVT, relative permeability, boundaries, well allocations, pressure/saturation histories, nine completions, controls/shut-ins and pressure/depth/calendar metadata unavailable."
+    },
+    {
+      "id": "N18",
+      "pages": [
+        9,
+        16,
+        17,
+        18
+      ],
+      "citation": "Native CBIL/LOT/FIT/XLOT and calibration/holdout records",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Raw CBIL and pressure-time tests, mud-weight/hydrostatic corrections, references/datums, strain scaling, observation uncertainty and independent holdouts unavailable."
+    },
+    {
+      "id": "N19",
+      "pages": [
+        10,
+        20,
+        21,
+        22
+      ],
+      "citation": "Fault, thermal-front, yield, long-term containment and external assets",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "All-fault geometries, strengths, permeability and time/yield outputs, cooling-front/temperature transport and1000year retained-carbon cases are not retained. Publisher/code/supplement availability unverified externally."
+    }
+  ]
+}

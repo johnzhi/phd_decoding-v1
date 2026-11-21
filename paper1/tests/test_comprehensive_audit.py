@@ -49,6 +49,9 @@ selection_spec.loader.exec_module(selection)
 thermal_spec = importlib.util.spec_from_file_location('audit_thermal_geomechanics', ROOT / 'scripts/audit_thermal_geomechanics.py')
 thermal = importlib.util.module_from_spec(thermal_spec)
 thermal_spec.loader.exec_module(thermal)
+harvey_spec = importlib.util.spec_from_file_location('audit_south_west_hub', ROOT / 'scripts/audit_south_west_hub.py')
+harvey = importlib.util.module_from_spec(harvey_spec)
+harvey_spec.loader.exec_module(harvey)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -58,6 +61,71 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_harvey_units_match_independent_SI_and_wave_elasticity(self):
+        # A 1ft transit in 100us is independently .3048m/.0001s.
+        self.assertAlmostEqual(harvey.sonic_km_s(100) * 1000, .3048 / .0001)
+        rho, vp, vs = 2300, 3000, 1750
+        shear = rho * vs**2
+        lame = rho * (vp**2 - 2 * vs**2)
+        result = harvey.wave_elastic(rho / 1000, vp / 1000, vs / 1000)
+        self.assertAlmostEqual(result['E_GPa'], shear * (3 * lame + 2 * shear) / (lame + shear) / 1e9)
+        self.assertAlmostEqual(result['nu'], lame / (2 * (lame + shear)))
+        self.assertAlmostEqual(result['E_GPa'], 2 * result['G_shear_GPa'] * (1 + result['nu']))
+        # At standard gravity, 150lbm/ft3*5000ft is 750000lbf/ft2.
+        self.assertAlmostEqual(harvey.overburden_psi(150, 5000), 150 * 5000 / 144)
+        with self.assertRaises(ValueError):
+            harvey.wave_elastic(2.3, 1, 2)
+
+    def test_harvey_literal_strain_asymmetry_is_not_silently_repaired(self):
+        args = (5000, .22, 1, 30, 10, .001, .001)
+        small, big = harvey.stress_pair(*args)
+        self.assertAlmostEqual(big - small, 5000 * .001 / 1.22)
+        swapped = harvey.stress_pair(*args, convention='analyst_symmetric_comparison')
+        self.assertEqual(swapped[0], swapped[1])
+        changed_x = harvey.stress_pair(*args[:5], .003, .001)
+        self.assertAlmostEqual(changed_x[1] - changed_x[0], big - small)
+        # Common pressure contribution must cancel from the horizontal difference.
+        changed_p = harvey.stress_pair(5000, .22, 1, 30, 11, .001, .001)
+        self.assertAlmostEqual(changed_p[0] - small, (1 - 2 * .22) / (1 - .22))
+        self.assertAlmostEqual(changed_p[1] - changed_p[0], big - small)
+
+    def test_harvey_native_missing_values_calendars_and_evidence_scope_remain_open(self):
+        data = harvey.load_inputs()
+        table = data['material_table']['rows']
+        self.assertEqual(len(table), 10)
+        self.assertEqual([r['porosity_token'] for r in table if r['porosity'] is None], ['HRP *', 'HRP *'])
+        self.assertEqual(data['lot_tests'][2]['test'], 'Formation Integrity Test')
+        self.assertIsNone(data['lot_tests'][4]['pump_pressure_psi'])
+        self.assertIsNone(data['strain_scale'])
+        self.assertIsNone(data['reported_Sh_gradient']['denominator'])
+        self.assertEqual(data['figure16_cells'][-1]['year'], 3050)
+        self.assertEqual(len({r['cell'] for r in data['figure16_cells']}), 4)
+        result = {r['item']: r for r in harvey.calculate(data)}
+        self.assertEqual(len(result), 90)
+        self.assertEqual(result['reported_pair_SH_over_Sh']['value'], 1.15625)
+        self.assertEqual(result['nominal_plan_total']['value'], 24)
+        self.assertEqual(result['Figure10_left_legend_minus_caption_maximum']['value'], 300)
+        self.assertEqual(result['Yalgorup_synthetic_Vs_at_mean_Vp_km_s']['unit'], 'km/s')
+        self.assertTrue(all('not_native' in r['scope'] for r in result.values()))
+        # Uniaxial stress tau=normal*tan(phi)+c at tangency reproduces
+        # c=UCS(1-sin(phi))/(2cos(phi)); this is not an independent rock test.
+        for row in table:
+            replay = harvey.ucs_from_cohesion(row['cohesion_MPa'], row['friction_deg'])
+            self.assertLess(abs(replay - row['UCS_MPa']), .046)
+            self.assertEqual(row['tensile_MPa'] / row['cohesion_MPa'], .5)
+        review = json.loads((ROOT/'evidence/comprehensive_review/B1-12.json').read_text())
+        bibliography = json.loads((ROOT/'evidence/comprehensive_review_inputs/B1-12_bibliography.json').read_text())
+        self.assertEqual(review['text_read_pages'], list(range(1, 27)))
+        self.assertEqual(review['visually_inspected_pages'], list(range(1, 27)))
+        self.assertEqual(len(review['visuals']), 20)
+        self.assertEqual(len(review['equations']), 19)
+        self.assertEqual(bibliography['printed_entries'], 99)
+        self.assertEqual(bibliography['entry_count'], 118)
+        self.assertEqual(review['references'], bibliography['entries'])
+        self.assertTrue(all(r['verification_status'] == 'unverified' for r in review['references']))
+        self.assertEqual(review['overall_status'], 'incomplete')
+        self.assertIn('not_reproduced', review['original_model_status'])
+
     def test_thermal_delta_safety_rule_and_cooled_A_discrepancy_are_not_silently_repaired(self):
         # A factor on pressure increment differs from dividing total pressure.
         self.assertEqual(thermal.margin_rule(1000, 2500, 1.5), 2000)

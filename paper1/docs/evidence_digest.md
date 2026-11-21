@@ -150,7 +150,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 South-West Hub/Harvey modelling describes a conceptual 800,000 tCO2/year, 30-year plan, nine injection wells and a reference BHP constraint of 360 bar at 2948 m (p18). No significant fault failure is predicted for the modelled isothermal pressure-driven response.
 
-Transfer limits: Conference modelling does not establish present commercial availability or shipping access. Some text requires author/data clarification: 37/32 is not 1.125 (p18), a stress gradient is printed only in MPa, and Figure 10's pore-pressure range needs datum/quantity reconciliation. These do not justify silently changing reported numbers.
+Transfer limits: Comprehensive26-page reading is recorded in evidence/comprehensive_review/B1-12.json:17 figures,3 tables,13 numbered equations and90 limited checks. Literal Eq13 has an asymmetric strain coefficient; strain scale, sonic/modulus units, G/bulk/static-dynamic basis and native property selection remain unresolved. Figure10 left legend800psi versus caption500,37/32 ratio1.15625 versus quoted1.125,LOT/FIT/depth/gradient-reference questions and inconsistent cell/calendar labels are retained. One-way isothermal model excludes caprock volume and cooled nearwell/near-seal conclusions. Nominal800000t/year,24Mt,360bar and1000y plume target are not calibrated maximum service or retained mass. All99 originals plus19 dependencies and external assets remain open; full native models unreproduced. See south_west_hub_comprehensive_findings.md; no accepted input promotion.
 
 ### B1-13 — Optimising the CO2 Storage Potential in Deep Saline Aquifer by Creating Pressure Sink
 

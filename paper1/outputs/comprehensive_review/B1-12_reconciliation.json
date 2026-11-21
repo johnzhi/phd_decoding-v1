@@ -1,0 +1,17 @@
+{
+  "study_id": "B1-12",
+  "source_sha256": "cf2e2603165f4002afb0cf40db2ea4318a822721ff741202fbc4e92ece7d2231",
+  "check_count": 90,
+  "material_parameter_cells": 90,
+  "material_porosity_numeric_cells": 8,
+  "material_porosity_HRP_tokens": 2,
+  "source_equations": 13,
+  "figures": 17,
+  "tables": 3,
+  "native_models_reproduced": false,
+  "accepted_inputs_changed": false,
+  "unresolved_strain_scale": null,
+  "unresolved_gradient_denominator": null,
+  "original_model_status": "not_reproduced; literal equations, units and table arithmetic only",
+  "interpretation": "No calibrated annual maximum injection, observed operation, field-wide zero failure, caprock/thermal integrity,1000y retained mass or GHG benefit established."
+}
