@@ -1,0 +1,1970 @@
+{
+  "study_id": "B2-04",
+  "source_sha256": "6e782f82a4ff42950f0b5724e2f4ff6369ee5c3d54df1ede122a0344f7731d4a",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All12 physical pages read and visually inspected:five figures, three tables,34 numbered equations, inline relations and nomenclature.35 limited arithmetic and synthetic projected/selector/unit/pressure/pump checks retained. Two originals have scoped infrastructure support;29 other originals and11 native dependencies remain unverified. Native MRST training/validation, AdOpT optimization, pump fitting and physical safety/retention models are not reproduced.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "original_model_status": "source_equation_components_with_synthetic_data_only_native_MRST_AdOpT_validation_and_pump_fit_not_reproduced",
+  "supplement_status": "explicit_publisher_supplement_and_data_on_request_not_retained_or_verified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication, abstract and rights",
+      "assessment": "Read all authors/affiliations, keywords, correspondence, received5June/revised9July/accepted11July2025, online24July2025, DOI and CC BY notice. Abstract claims concern a computational prototype and selected simulator comparisons, not independently calibrated field safety or complete lifecycle mitigation."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "scope": "1 Introduction: every paragraph and literature claim",
+      "assessment": "Read historical painting analogy, CCS transport/storage context, all network/physics/ROM/POD-TPWL/DEIM comparisons, novelty claim, four contributions and roadmap. Historical narrative has no supplied authority and is excluded from scientific inputs. Two retained originals support scoped infrastructure context;29 other cited originals remain unverified."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "Entire nomenclature",
+      "assessment": "All scalar/vector variables, indices, sets and acronyms read in both columns, including wrapped definitions. Distinguish g gravity from bold residual g, nu specific volume from bold continuous variables, and phi porosity from POD basis. Signed reduced coordinates need appropriate MILP-domain mapping."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "2 and2.1 Full-scale formulation",
+      "assessment": "Read general MILP Eq1, compressible immiscible two-phase mass/Darcy laws, phase closures, finite-volume/implicit discretization, rate control, Newton solve and Eq2–5. Source/well volume normalization and native Jacobian conversion need SI. Eq5 derivative uses shifted time indices relative to the new-step residual; native convention unverified."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "2.2 and2.2.1 TPWL linearization",
+      "assessment": "Read every training trajectory, state/Jacobian, first-order Taylor, rearrangement, rate-well conversion and state-selection statement. Eq6–10 and derivative dimensions inspected. One run supplies Jacobians;five supply POD snapshots. Fixed search s1 and changed normalization are approximations, not universal accuracy guarantees."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "2.2.2 POD dimension reduction",
+      "assessment": "Read snapshot construction, SVD, pressure/saturation split, mode selection, block basis, Petrov-Galerkin choice and Eq11–14. Snapshot-dimension text is inconsistent with phase block sizes. Reduced invertibility requires rank;normal-equation structure can be ill conditioned. Source explicitly admits reconstructed mass conservation may not be strict."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        6
+      ],
+      "scope": "2.3 Complete MILP encoding",
+      "assessment": "Read distance simplifications, absolute-value and one-hot minimum construction, all Eq15–28 and product-linearization discussion. Fixed training normalization changes the nearest-state metric;Eq16/17/21 and selected maps require bounded product/indicator formulations. Eq26–28 retain i inside j sums;no silently corrected native code."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "2.3.1 Parallel time discretization",
+      "assessment": "Read both daily chain/six-month reservoir grids, subset mapping, Eq29 and both claimed benefits. Flow-rate versus interval-mass/time basis is not unit complete as printed. Coarse average control does not independently constrain daily BHP/flow peaks or provide an actual buffer/inventory schedule."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        7
+      ],
+      "scope": "2.3.2 Pressure/pump connection",
+      "assessment": "Read single-cell Peaceman inversion, constant average mobility/density, pureCO2, BHP centre datum,90%fracture constraint, wellhead hydrostatic relation, constant pressure-loss approximation and plane-fitted pump Eq30–34. Reciprocal b prose conflicts with rho=b*rho_surface;surface/well-column density and pressure datum require native correspondence."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "scope": "3 Complete performance/validation discussion",
+      "assessment": "Read five30-year training simulations, one primary operator run, four independent numerical validation profiles, all Table1/2 and Figures2/3,72 versus13754 states and timing definitions. Validation is simulator-to-surrogate well-cell pressure, typically±5%, not field/BHP/leakage/global error bounds. Absolute-pressure agreement does not establish accurate pressure buildup or all transient variations."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "4 Entire illustrative full-chain case",
+      "assessment": "Read WtE/two-cement topology, daily exogenous profiles, increasing tax, PCC sizing/operation, dense-phase pipelines, pumping, six-month reservoir mapping, Table3/Figures4/5 and solver settings.220532 continuous variables,94 binaries,94.39s/2%Gurobi gap are attributed, not independently timed. Native profiles, costs, utilities, tax, case and fits missing."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "4 Case results and pump implications",
+      "assessment": "Read all partial/delayed WtE capture, CO2 concentration/cost rationale, seasonality,3700–4100t/day operating band, BHP and20–40%/1–1.5kWh/t pump claims. Plot startup is outside the described seasonal band;no exact daily or six-month arrays recovered. Pump burden is a dense-phase component, not capture/compression/transport/cooling total."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "5 Computational complexity and limitations",
+      "assessment": "Read order100x whole-chain solve increase, search/mode/time-grid drivers, three-state minimum claim, mesh/mode trade-offs, vertical-equilibrium option and nonlinear solve-time scaling. Standalone ROM speed-up is not whole-MILP speed-up. s0 is mathematically possible but would remove local search;three is a chosen nontrivial search, not universal minimum."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        10
+      ],
+      "scope": "5 Portability",
+      "assessment": "Read simulator/Jacobian access, MRST expertise and dual-time-grid implementation requirements. Portability is conditional on native data, control conversion, domain/bounds and code;open package availability is not a supplied site-calibrated case."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "5 Potential applications and economics",
+      "assessment": "Read long-term planning, pressure-dependent pipeline capacity as future work, target-cell saturation/leakage-risk constraints requiring new validation and project-dependent economics. Source warns that omitted pressure-capacity coupling can yield infeasible chain designs. No independent comprehensive site/economic assessment supplied."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        11
+      ],
+      "scope": "6 All conclusions",
+      "assessment": "Read dimensionality/metric/accuracy/timing and full-chain demonstrations, continuous time-varying injection, safety within accuracy and complexity/expertise caveats. No complete physical or net-GHG validation follows from the prototype."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        11
+      ],
+      "scope": "All author/AI/conflict/funding statements",
+      "assessment": "Read CRediT, ChatGPT/Gemini writing disclosure, author responsibility, conflict declaration and EU Horizon101096691/CINEA disclaimer. These statements do not validate models or grant all native code/data rights."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        11
+      ],
+      "scope": "AppendixA and data availability",
+      "assessment": "AppendixA is an explicit publisher supplement notice, not internal supplementary content. Data available on request;multiple essential methods/case properties delegated to SI. No embedded/matched local supplement;public contents/errata/code/rights unverified during Chrome wait and no author message sent."
+    },
+    {
+      "id": "S19",
+      "pages": [
+        11,
+        12
+      ],
+      "scope": "Entire31-entry bibliography",
+      "assessment": "All entries read in text and rendered columns;raw excerpts retained. Two scoped primary checks support Becattini2022/SimCCS2009 infrastructure context. Aras DOI109203 is distinct from retained B2-03 DOI109300;IEA2023 URL points to terms.29 other originals and11 native dependencies remain open."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        4
+      ],
+      "scope": "Methodological framework",
+      "assessment": "All MRST grid/training, POD/TPWL, reservoir-MILP, transport/conditioning, emitter/capture and AdOpT-NET0 boxes/arrows inspected. Concept-to-code flow does not provide native matrices, code, case data or full validation."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        8
+      ],
+      "scope": "Injection profiles and four pressure comparisons",
+      "assessment": "Magnified all five top curves, dotted training/solid new legend, scenario colors, half-year plotted times, t/day axis and four well-cell bar panels with solid ROM/dashed MRST legend. Timing includes plateaus;table ramp duration and absolute attainment time are not automatically contradictory. No exact rate/pressure array or cumulative integration from endpoints/pixels."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        8
+      ],
+      "scope": "Parity plot",
+      "assessment": "All well-cell bar axes, perfect-match and±5%lines, four color legends and points inspected. Typical/selected simulator agreement is not a proven strict maximum, confidence interval or BHP/retention error distribution. Exact error arrays unavailable."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        10
+      ],
+      "scope": "Physical and three-node topology",
+      "assessment": "All WtE/two-cement capture icons, onshore collection/pump, offshore pipeline, wellhead/BHP labels and plume schematic inspected. Nodes1–3 are conceptual, not exact geography or site calibration;plume illustration is not a retention simulation."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        10
+      ],
+      "scope": "Emission and pressure/injection results",
+      "assessment": "Magnified both panels, day-resolved filled captured/emitted series, t/day andyear axes, pink average injection/greenBHP/dashed safety legends and dual pressure axis. Seasonal narrative excludes lower startup. Exact stacking, raw profiles, pressure limits and transients are not reconstructed from pixels;coarse case stays below displayed limit without proving maximum annual service."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        8
+      ],
+      "scope": "Five injection cases",
+      "assessment": "Every main/faster/variable/lower/higher row and initial/finalt/day, cumulativeMt, rampyear header read/transcribed. Native clocks/plateaus/integration convention absent;endpoints/ramp parameters alone do not reproduce cumulative masses."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        9
+      ],
+      "scope": "Four timing rows",
+      "assessment": "All full/linear seconds and speed-up values read/transcribed. Rounded ratios reproduced;linear timing is point selection/Eq14/reconstruction, explicitly a reference rather than isolated MILP solve."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        9
+      ],
+      "scope": "Four chain-element rows",
+      "assessment": "Every emitter/capture, pipeline, pump, storage variable, resolution and characteristics cell read. Storage injection is listed daily while pressure is six-monthly;Eq29 is the averaging interface, not verified daily physical feasibility."
+    },
+    {
+      "id": "U01",
+      "pages": [
+        2
+      ],
+      "scope": "Unnumbered nomenclature object",
+      "assessment": "Every variable, wrapped matrix/control/state definition, index, set and acronym inspected. Surface density, time/flow units, phase pressure, mobility and free reduced-coordinate mappings need explicit native definitions."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        3
+      ],
+      "expression": "min f(v,w); Cv+Dw=e; v>=0,v in R^Nv,w in{0,1}^Nw",
+      "interpretation": "General standard-form MILP. Signed reduced states cannot inherit v>=0 without splitting/shifting or suitable native domains;not every physical variable is intrinsically nonnegative.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E02",
+      "pages": [
+        3
+      ],
+      "expression": "rho_surface_alpha*[d(S_alpha*phi*b_alpha)/dt + div(b_alpha*v_alpha)] = rho_surface_alpha*u_alpha",
+      "interpretation": "Compressible immiscible phase balance in surface-volume form. Distributed source normalization/volume differs from well-control vector rate and needs native operators;full constitutive/geometry/boundary data absent.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E03",
+      "pages": [
+        3
+      ],
+      "expression": "v_alpha = -lambda_alpha*K*(grad(p_alpha)-rho_alpha*g*grad(z))",
+      "interpretation": "Multiphase Darcy law. K permeability,lambda relative permeability/viscosity;pressure/length and density/gravity yield velocity. Phase pressure,capillary and fluid functions required.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E04",
+      "pages": [
+        4
+      ],
+      "expression": "g(x_(n+1),x_n,u_(n+1))=0",
+      "interpretation": "Fully implicit2Nb residual system for pressure/saturation and rate controls. The MRST well equations/control transformation are essential,not recovered from general law alone.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E05",
+      "pages": [
+        4
+      ],
+      "expression": "x_(n+1,k+1)=x_(n+1,k)+Delta_x_k; Delta_x_k=-[partial g(x_n,x_(n-1),u_n)/partial x_n]^-1*g(x_(n+1),x_n,u_(n+1))",
+      "interpretation": "Literal derivative time indices differ from new-step residual;standard Newton needs current iterate Jacobian or an explained index/chord convention. Native method/convergence unverified;no code defect alleged.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E06",
+      "pages": [
+        4
+      ],
+      "expression": "g_(n+1)≈g_(i+1)+J_(i+1)*(x_(n+1)-x_(i+1))+A_(i+1)*(x_n-x_i)+B_(i+1)*(u_(n+1)-u_(i+1))=0",
+      "interpretation": "First-order residual expansion around a converged training state. Training residual zero is assumed;nearby trajectories and valid Jacobians needed. Not an error bound outside training conditions.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E07",
+      "pages": [
+        4
+      ],
+      "expression": "J_(i+1)*(x_(n+1)-x_(i+1))=-[A_(i+1)*(x_n-x_i)+B_(i+1)*(u_(n+1)-u_(i+1))]",
+      "interpretation": "Rearranges Eq6. J/A are2Nb-square andB is2Nb byNu. Well-control conversion delegated to SI;not merely taking a simulator Jacobian unchanged.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E08",
+      "pages": [
+        5
+      ],
+      "expression": "d_(n,j)=d_sat_(n,j)+gamma*d_ci_(n,j)",
+      "interpretation": "Original weighted metric. Later MILP drops saturation andgamma;this is an altered metric requiring validation,not an exact reformulation.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E09",
+      "pages": [
+        5
+      ],
+      "expression": "d_sat_(n,j)=|xi_sat_n-xi_sat_j|/(|xi_sat_n|+epsilon)",
+      "interpretation": "Relative reduced-saturation distance. Norm/coordinate scaling,near-zero regularization and epsilon units matter;term discarded in main MILP.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E10",
+      "pages": [
+        5
+      ],
+      "expression": "d_ci_(n,j)=sum_k |integral_0^tn u_k^n dt-integral_0^tj u_k^j dt|/(integral_0^tn u_k^n dt+epsilon)",
+      "interpretation": "Original cumulative-injection distance with current-volume denominator. Needs consistent rate/time/volume units. Later denominator is training volume and single-well sum omitted;nearest candidate can change.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E11",
+      "pages": [
+        5
+      ],
+      "expression": "x≈Phi*xi",
+      "interpretation": "POD reconstruction,with2Nb byl basis andl reduced states. Basis sign is arbitrary;physical state recovery is invariant under consistent coordinate sign changes.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E12",
+      "pages": [
+        5
+      ],
+      "expression": "[x_p;x_sat]≈blockdiag(Phi_p,Phi_sat)*[xi_p;xi_sat]",
+      "interpretation": "Separate phase-block bases. Both phase fields have Nb rows;source snapshot text also gives2Nb for saturation,requiring dimensional reconciliation. Native bases and retained-energy criteria absent.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E13",
+      "pages": [
+        5
+      ],
+      "expression": "Psi^T J Phi*(xi_(n+1)-xi_(i+1))=-Psi^T[A Phi*(xi_n-xi_i)+B*(u_(n+1)-u_(i+1))]",
+      "interpretation": "Test-basis projection of overdetermined linearized system. WithPsi=J*Phi it gives least-squares normal equations;rank/conditioning determine solvability. Full residual need not be zero.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E14",
+      "pages": [
+        5
+      ],
+      "expression": "xi_(n+1)=xi_(i+1)-Jr^-1*[Ar*(xi_n-xi_i)+Br*(u_(n+1)-u_(i+1))]",
+      "interpretation": "Fixed-candidate affine update if reduced operator invertible. Synthetic matrices independently match least-squares projection. Candidate selection turns the full mapping into a disjunction;no native MRST trajectory reproduced.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E15",
+      "pages": [
+        6
+      ],
+      "expression": "d_ci_(n,j)=d_pos_(n,j)+d_neg_(n,j)",
+      "interpretation": "Single-well absolute-distance split. Must use nonnegative components and a correct bounded binary-product encoding.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E16",
+      "pages": [
+        6
+      ],
+      "expression": "d_pos=(V_n-V_j)/(V_j+epsilon)*a_(n,j)",
+      "interpretation": "Literal continuous-distance times binary product;not linear until reformulated with valid finite bounds/indicators. V_j fixed training volume.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E17",
+      "pages": [
+        6
+      ],
+      "expression": "d_neg=-(V_n-V_j)/(V_j+epsilon)*(1-a_(n,j))",
+      "interpretation": "Complements Eq16. Together with nonnegativity enforces correct sign if products are implemented exactly;no actual native M or bounds supplied.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E18",
+      "pages": [
+        6
+      ],
+      "expression": "d_pos_(n,j)>=0",
+      "interpretation": "One nonnegative absolute-value component;does not alone guarantee exact absolute distance.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E19",
+      "pages": [
+        6
+      ],
+      "expression": "d_neg_(n,j)>=0",
+      "interpretation": "Second nonnegative component.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E20",
+      "pages": [
+        6
+      ],
+      "expression": "d_min_n<=d_ci_(n,j),for every j",
+      "interpretation": "Upper constraints on candidate minimum. Need Eq21/22 as well;ties can admit more than one candidate index.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E21",
+      "pages": [
+        6
+      ],
+      "expression": "d_min_n>=sum_j q_(n,j)*d_ci_(n,j)",
+      "interpretation": "Binary-continuous products need linearization. With one-hot q and Eq20 it enforces selection of a minimum,butnative bounds/ties/endpoints remain unspecified.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E22",
+      "pages": [
+        6
+      ],
+      "expression": "sum_j q_(n,j)=1;q_(n,j) in{0,1}",
+      "interpretation": "One-hot candidate. A fixed-distance,bounded synthetic MILP component reproduces this minimum rule even when objective favors a different output;not a full variable-distance/native reservoir MILP.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E23",
+      "pages": [
+        6
+      ],
+      "expression": "xi_(i+1,n)=sum_j xi_(j+1)*q_(n,j)",
+      "interpretation": "Selection of known next training state. Initial/final search clipping and j+1 availability need implementation detail.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E24",
+      "pages": [
+        6
+      ],
+      "expression": "xi_(i,n)=sum_j xi_j*q_(n,j)",
+      "interpretation": "Selection of known previous training state.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E25",
+      "pages": [
+        6
+      ],
+      "expression": "Jr_(i+1,n)^-1=sum_j Jr_(j+1)^-1*q_(n,j)",
+      "interpretation": "One-hot selection of known inverse,not inverse of an arbitrary convex mixture. Products with other selected operators/states in Eq14 still need a complete disjunctive/linear encoding.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E26",
+      "pages": [
+        6
+      ],
+      "expression": "Ar_(i+1,n)=sum_(j in S_n) Ar_(i+1)*q_(n,j)",
+      "interpretation": "RHS literally retains i,notj;one-hot sum of a fixed-i operator does not explicitly select j-dependent operators. Preserve notation and check native code/errata,not silently repair.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E27",
+      "pages": [
+        6
+      ],
+      "expression": "Br_(i+1,n)=sum_(j in S_n) Br_(i+1)*q_(n,j)",
+      "interpretation": "Same fixed-i versus j-selection question as Eq26.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E28",
+      "pages": [
+        6
+      ],
+      "expression": "u_(i+1,n)=sum_(j in S_n) u_(i+1)*q_(n,j)",
+      "interpretation": "Same fixed-i versus j-selection question for training controls. Distinguish native printed expression from a separately constructed analyst selector.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E29",
+      "pages": [
+        7
+      ],
+      "expression": "u_n=sum_(nprime in Tprime_n) [(mdot_nprime/rho_surface)/(|Tprime_n|*Delta_t_Tprime)]",
+      "interpretation": "Valid average volumetric rate if numerator quantities are per-interval masses;with mdot interpreted as mass rate the extra Delta_t changes dimensions. Native rate/amount/time convention must reconcile with Eq34. No corrected source input adopted.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E30",
+      "pages": [
+        7
+      ],
+      "expression": "p_bh_n=p_well_n+u_n/(lambda*WI*C_CO2*b_CO2)",
+      "interpretation": "Single-cell Peaceman approximation with mobility evaluated at training-average saturation and density evaluated at training-average well-cell pressure andpureCO2. Eq2 inline rho=b*rho_surface defines b inverse to prose here. Phase pressure,reference states and well-cell/pressure datum need native correspondence.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E31",
+      "pages": [
+        7
+      ],
+      "expression": "p_bh_n<=0.9*pmax",
+      "interpretation": "Six-month BHP constraint under approximated states/properties. It is not independently validated caprock/fault/thermal/peak-daily safety or a pressure-calibrated annual maximum rate.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E32",
+      "pages": [
+        7
+      ],
+      "expression": "p_wh_n=p_bh_n-rho_surface_CO2*g*Delta_h",
+      "interpretation": "Constant-density hydrostatic approximation. Surface reference density need not equal well-column density;real column uses pressure/temperature-dependent integral andconsistent datum. No source density guessed.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E33",
+      "pages": [
+        7
+      ],
+      "expression": "p_pump_out_n=p_wh_n+Delta_p",
+      "interpretation": "Fixed pressure-loss link. Source explicitly neglects flow/wellhead/pipeline-capacity interdependence,which it identifies as future work.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "E34",
+      "pages": [
+        7
+      ],
+      "expression": "W_pump_nprime=mdot_nprime*nu*(p_pump_out_n-p_pump_in)/eta_pump",
+      "interpretation": "Bilinear rate-pressure power with consistent units. Native plane-fit bounds/coefficients/errors delegated to SI. Synthetic tangent plane has cross-term residual;not author pump-fit validation or total capture energy.",
+      "record_type": "numbered_source_equation"
+    },
+    {
+      "id": "U01",
+      "pages": [
+        3,
+        4
+      ],
+      "expression": "S_w+S_g=1; p_g=p_w+p_c(S_g)",
+      "interpretation": "Phase closure reduces four phase fields to two primary variables. Capillary/relative permeability/density functions are not supplied in main text.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "U02",
+      "pages": [
+        3
+      ],
+      "expression": "rho_alpha=b_alpha*rho_surface_alpha",
+      "interpretation": "Reciprocal formation-volume definition implies b=rho_res/rho_surface. Prose accompanying Eq30 gives the opposite ratio;preserve both until native definitions resolved.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "U03",
+      "pages": [
+        3
+      ],
+      "expression": "lambda_alpha=kr_alpha(S_alpha)/mu_alpha",
+      "interpretation": "Phase mobility differs from total mobility in Peaceman approximation;native saturation/property averaging required.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "U04",
+      "pages": [
+        5
+      ],
+      "expression": "J=partial g/partial x_next; A=partial g/partial x_previous; B=partial g/partial u_next",
+      "interpretation": "Derivatives of actual rate-controlled residual,including well equation elimination/conversion;dimensions2Nb square,2Nb square and2Nb byNu.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "U05",
+      "pages": [
+        5
+      ],
+      "expression": "S_n={n-s,...,n+s};s=1;epsilon=.001",
+      "interpretation": "Three interior candidate points;endpoint clipping and units/scaling of regularization unspecified. Search size affects complexity and local extrapolation,not universal accuracy.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "U06",
+      "pages": [
+        5
+      ],
+      "expression": "l=l_p+l_sat; l_sat=1; Phi_p/Phi_sat from leading SVD left vectors",
+      "interpretation": "Raw snapshot/SVD construction separates fields. No exact training snapshots,centering/scaling,energy threshold or tuning trace supplied.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "U07",
+      "pages": [
+        5
+      ],
+      "expression": "Psi=Phi (Galerkin) or Psi=J*Phi (chosen Petrov-Galerkin)",
+      "interpretation": "Chosen projection produces Jr=(J*Phi)^T(J*Phi);full column rank needed. Claimed greater stability does not imply unconditional conservation or pressure safety.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "U08",
+      "pages": [
+        5
+      ],
+      "expression": "Jr=Psi^T J Phi; Ar=Psi^T A Phi; Br=Psi^T B",
+      "interpretation": "Reduced operator dimensionsl byl,l byl,l byNu. Native Jacobians/basis needed for actual recurrence.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "U09",
+      "pages": [
+        6
+      ],
+      "expression": "MILP distance=d_ci only,with training V_j in denominator",
+      "interpretation": "Drops saturation metric/gamma andchanges normalization. Toy ranking reverses forcurrent18 versus training10/30/50;intentional simplification requires scenario validation.",
+      "record_type": "inline_source_relation"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        5
+      ],
+      "expression": "delta_xi=argmin_z ||J*Phi*z+A*Phi*delta_xi_previous+B*delta_u||_2",
+      "interpretation": "Analyst derivation of Petrov-Galerkin Eq13/14 normal equations. Synthetic implementation agrees with independent least-squares solver whilefull residual remains nonzero.",
+      "record_type": "analyst_derivation_or_comparison"
+    },
+    {
+      "id": "D02",
+      "pages": [
+        6
+      ],
+      "expression": "q one-hot and dmin<=all d_j,dmin>=selected d_j imply selected index is a minimizer",
+      "interpretation": "Analyst finite-candidate proof. Generic bounded indicator maps can encode piecewise affine updates;actual native variable-distance products/bounds are still missing.",
+      "record_type": "analyst_derivation_or_comparison"
+    },
+    {
+      "id": "D03",
+      "pages": [
+        7
+      ],
+      "expression": "average interval mass/(rho*Delta_t)=average mass rate/rho",
+      "interpretation": "Analyst unit identity. Literal Eq29 with already-rate inputs adds an extra reciprocal time;no native convention silently chosen.",
+      "record_type": "analyst_derivation_or_comparison"
+    },
+    {
+      "id": "D04",
+      "pages": [
+        7
+      ],
+      "expression": "BHP(mean q)=pwell+mean(q)/T;peak BHP=pwell+max(q)/T",
+      "interpretation": "Analyst linear-well example:mean-safe150 versus daily-peak200 atlimit162 in arbitrary compatible units. Coarse average does not guarantee peak feasibility;not a native field prediction.",
+      "record_type": "analyst_derivation_or_comparison"
+    },
+    {
+      "id": "D05",
+      "pages": [
+        7
+      ],
+      "expression": "hydrostatic pressure drop=integral rho(P,T)*g dz",
+      "interpretation": "Analyst physical comparison to constant surface-density Eq32. Chosen2/800kg/m3 and1500m are illustrative,not inferred native conditions.",
+      "record_type": "analyst_derivation_or_comparison"
+    },
+    {
+      "id": "D06",
+      "pages": [
+        7
+      ],
+      "expression": "full pump minus reference tangent plane=(mdot-mdot0)*(Delta_p-Delta_p0)/(rho*eta)",
+      "interpretation": "Analyst exact bilinear interaction identity. Shows fit can over/underestimate depending on domain;native fitted plane may differ and remains unavailable.",
+      "record_type": "analyst_derivation_or_comparison"
+    },
+    {
+      "id": "D07",
+      "pages": [
+        7,
+        8,
+        11
+      ],
+      "expression": "conditional true/pmax=.9/.95 if predicted=.9pmax andunderprediction5% oftrue",
+      "interpretation": "Analyst margin example only. Source typically±5% well-cell comparisons are not a guaranteed BHP error bound or risk distribution.",
+      "record_type": "analyst_derivation_or_comparison"
+    },
+    {
+      "id": "D08",
+      "pages": [
+        8,
+        9
+      ],
+      "expression": "Nb=13754/2=6877;l=71+1=72;reduction=100*(1-72/13754)",
+      "interpretation": "Source-dimension arithmetic,not reconstruction of grid geometry,formation volume or retained mass.",
+      "record_type": "analyst_derivation_or_comparison"
+    },
+    {
+      "id": "D09",
+      "pages": [
+        8,
+        9
+      ],
+      "expression": "standalone speed-up=reported full seconds/reported linear seconds",
+      "interpretation": "Recomputed rounded source timing ratios. Excludes a complete MILP solve,training cost and independent hardware benchmark;full-chain integration reportedly increases solve cost byorder100.",
+      "record_type": "analyst_derivation_or_comparison"
+    }
+  ],
+  "variables": [
+    "x has2Nb pressure/saturation states;u hasNu well controls. The native case uses one rate-controlled well and6877 inferred cells. Geometry, units and functions are not reconstructed.",
+    "Sw+Sg=1 andpg=pw+pc(Sg). Primary pressure phase, capillary closure and datum must match native code. A distributed phase-source rate is not automatically the same quantity as a volumetric well control.",
+    "b is reciprocal formation volume factor, with rho=b*rho_surface. Eq30 prose describes the inverse ratio. Surface/reservoir states must be defined before well-flow conversion.",
+    "K is intrinsic permeability, kr relative permeability, mu viscosity andlambda_alpha=kr/mu phase mobility. Peaceman total mobility uses a training average, not every individual phase mobility.",
+    "Scalar g is gravity and bold g the residual;phi is porosity andPhi the POD basis;nu is specific volume and bold v the MILP variables;bold w contains binaries. Similar glyphs remain distinct.",
+    "J/A/B differentiate the residual with respect to current/previous states and controls. MRST rate control requires a well-equation conversion delegated to SI.",
+    "Phi is the pressure/saturation block basis;xi contains signed reduced states. Native lp=71, lsat=1, l=72. Basis signs are arbitrary;free reduced coordinates need explicit MILP-domain mapping.",
+    "Psi=J*Phi is the chosen Petrov-Galerkin basis;Jr=(JPhi)^T(JPhi), Ar=Psi^TAPhi andBr=Psi^TB. Rank/conditioning matters;zero projected residual does not imply zero full mass residual.",
+    "Training indices i/j differ from new timestep n. Interior searchS_n={n−1, n, n+1};initial/final clipping andj+1 availability require native implementation.",
+    "The original distance uses reduced saturation and current cumulative volume. The MILP uses training-normalized cumulative volume alone. Epsilon0.001 needs compatible units/scaling;it is not a physical error bound.",
+    "a is the sign binary, dpos/dneg nonnegative components, q one-hot selection anddmin the minimum. Products and selected maps require finite native bounds and exact indicator/disjunctive encoding.",
+    "Eq26–28 retaini inside a sum overj, unlike Eq23–25. Literal notation remains separate from constructed j-dependent toy operators.",
+    "T uses six-month reservoir steps;Tprime daily chain steps. n/nprime and|Tprime_n| map the grids. mdot is called a mass flow;Eq29 must reconcile rate/interval-amount and time conventions with Eq34.",
+    "u is a volumetric rate at specified surface conditions. t/day, kg/s and interval kg need explicit conversions. No unexplained timestep factor or native density is assumed.",
+    "pwell is well-cell pressure andpbh BHP at the single completion cell centre. pmax and its0.9 margin need consistent phase, depth, datum and gauge/absolute pressure bases.",
+    "pwh uses a constant-density hydrostatic approximation. A real column integratesrho(P, T)gdz. Synthetic2/800kg/m3 and1500m examples are not native P/T, density or depth inputs.",
+    "WI, C_CO2=1, b and mean mobility are treated as fixed. No multiwell, thermal, fault, brine-production or retained-mass calibration is demonstrated.",
+    "Pump outlet pressure is wellhead pressure plus fixedDelta_p;power ismdot*nu*Delta_p/eta. Pressure-loss/transport-capacity coupling remains future work. Native plane coefficients/domain are in SI.",
+    "Reported1–1.5kWh/t and20–40% are approximate dense-phase pump claims. They do not provide capture heat, power, liquefaction, cooling or a supplier-matched full inventory.",
+    "Typically±5% is selected absolute well-cell simulator agreement, not a strict BHP, buildup or global error distribution. Saturation, mass and leakage accuracy need separate verification.",
+    "Table1 endpoints, cumulativeMt and ramp duration do not identify plateaus, clock or integration arrays. Ramp duration and absolute attainment time are not automatically contradictory.",
+    "Table2 timing is standalone ROM selection/update/reconstruction, excluding the full MILP solve and training. Full-chain220532 continuous variables/94 binaries,94.39s,2% gap andorder100x solve increase are attributed values.",
+    "All synthetic matrices, selector outputs, residuals and unit/pressure/pump examples are analyst cases. They supply no native Jacobian, geographic proxy, annual physical rate or climate factor.",
+    "In Eq1,C andD are continuous/binary constraint matrices,e the constant vector,f the objective,andNv/Nw their variable counts. Geographic distance d has no native route-length array supplied here.",
+    "Standard SI dimensional interpretation:porosity,saturations,b,relative permeability and pure fraction are dimensionless;K is m2,viscosity Pa*s and mobility1/(Pa*s). A Peaceman WI of m3 gives lambda*WI in m3/(Pa*s),consistent with a surface-volume rate and pressure increment.",
+    "Pressure in plots is bar;1bar=1e5Pa. Pump power useskg/s,m3/kg,Pa and efficiency to give W. t/day needs1000/86400 to become kg/s. Native phase-source normalization,pressure datum and surface conditions remain unspecified."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "CCS relevance, transport/storage costs and coordinated infrastructure",
+      "assessment": "Scoped Becattini2022 pp1–3 supports a25-year multimodal MILP and case-specific transport costs. Other context remains unverified;no universal cost split or complete utility inventory.",
+      "reference_ids": [
+        "R18",
+        "R17",
+        "R03",
+        "R27",
+        "R04"
+      ]
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1
+      ],
+      "claim": "Leonardo/Last Supper analogy",
+      "assessment": "Unreferenced historical narrative read but not verified. Excluded from Paper1 numerical/scientific evidence.",
+      "reference_ids": []
+    },
+    {
+      "id": "C03",
+      "pages": [
+        2
+      ],
+      "claim": "Prior linear/multiperiod network models",
+      "assessment": "Scoped SimCCS2009 supports capacities, source/sink choice, trunklines and partial capture. It does not establish static storage across all works. Aras109203 is distinct from B2-03.",
+      "reference_ids": [
+        "R23",
+        "R03",
+        "R11",
+        "R20",
+        "R24",
+        "R02",
+        "R10"
+      ]
+    },
+    {
+      "id": "C04",
+      "pages": [
+        2
+      ],
+      "claim": "Reservoir dynamics affect linepacking, wellhead capacity and integrity",
+      "assessment": "Requires original sources/site data. This prototype later identifies pressure-dependent pipeline capacity as omitted future work.",
+      "reference_ids": [
+        "R07",
+        "R01",
+        "R22",
+        "R26"
+      ]
+    },
+    {
+      "id": "C05",
+      "pages": [
+        3
+      ],
+      "claim": "Full PDE costs and prior surrogate/reduction approaches",
+      "assessment": "All regression, oil-field reduction, CO2 saturation-risk, deep-learning andDEIM claims read. Original methods, data, novelty and comparative performance remain unverified.",
+      "reference_ids": [
+        "R07",
+        "R12",
+        "R30",
+        "R28",
+        "R05",
+        "R14",
+        "R19",
+        "R09",
+        "R29",
+        "R08"
+      ]
+    },
+    {
+      "id": "C06",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "claim": "MRST rate-controlled two-phase reduction and chain integration",
+      "assessment": "Main equations inspected;essential well-Jacobian conversion, grid/fluid functions and matrices are in SI. No native reservoir reproduction.",
+      "reference_ids": [
+        "R21",
+        "R19"
+      ]
+    },
+    {
+      "id": "C07",
+      "pages": [
+        5
+      ],
+      "claim": "Local search, one saturation mode and Petrov-Galerkin pressure accuracy",
+      "assessment": "Case-specific tuning assertions. Native bases, rank, conditioning, stability conditions and saturation-risk validation remain open.",
+      "reference_ids": [
+        "R19",
+        "R15",
+        "R05",
+        "R16",
+        "R06",
+        "R14"
+      ]
+    },
+    {
+      "id": "C08",
+      "pages": [
+        6
+      ],
+      "claim": "Modified metric and constraints yield a fully linear model",
+      "assessment": "Bounded reformulations are possible but incompletely specified here. Eq26–28 indices and native bounds remain open;the synthetic selector fixes states and distances.",
+      "reference_ids": [
+        "R19",
+        "R14"
+      ]
+    },
+    {
+      "id": "C09",
+      "pages": [
+        6
+      ],
+      "claim": "Reconstructed mass conservation may be non-strict but acceptable",
+      "assessment": "Explicit source limitation. Native residual/mass tolerances and retained-carbon accuracy are unverified;the toy residual is algebra only.",
+      "reference_ids": []
+    },
+    {
+      "id": "C10",
+      "pages": [
+        7
+      ],
+      "claim": "Daily/six-month coupling preserves relevant dynamics",
+      "assessment": "Two resolutions are stated. Unit mapping and daily BHP/flow peaks are not independently validated by coarse averages;native transient arrays unavailable.",
+      "reference_ids": []
+    },
+    {
+      "id": "C11",
+      "pages": [
+        7
+      ],
+      "claim": "Single-cell Peaceman, mean properties and10% fracture margin ensure model safety",
+      "assessment": "First approximation with unresolved b ratio, pressure phase/datum and column density. No full fault/thermal/caprock, transient or annual service guarantee.",
+      "reference_ids": [
+        "R26",
+        "R21"
+      ]
+    },
+    {
+      "id": "C12",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Five training runs, one operator run and four validation cases",
+      "assessment": "30-year training/five-year numerical validation read. They are not field observations;exact profiles, clock and cumulative arrays are missing.",
+      "reference_ids": []
+    },
+    {
+      "id": "C13",
+      "pages": [
+        7,
+        8,
+        11
+      ],
+      "claim": "Well-cell deviations typically within±5%",
+      "assessment": "Selected numerical agreement, not a strict maximum, confidence interval, BHP or buildup/retention error. The model misses small oscillations and under/overpredicts higher/lower cases.",
+      "reference_ids": []
+    },
+    {
+      "id": "C14",
+      "pages": [
+        8
+      ],
+      "claim": "Table1 Main training: initial2403, final3713t/day, cumulative6.0Mt, ramp1.5years",
+      "assessment": "Literal source parameters. Ramp duration and absolute attainment time can differ because of plateaus;no exact native profile or mass integral reconstructed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C15",
+      "pages": [
+        8
+      ],
+      "claim": "Table1 Faster ramp-up: initial2403, final3713t/day, cumulative6.0Mt, ramp0.5years",
+      "assessment": "Literal source parameters. Ramp duration and absolute attainment time can differ because of plateaus;no exact native profile or mass integral reconstructed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C16",
+      "pages": [
+        8
+      ],
+      "claim": "Table1 Variable injection: initial2840, final2840t/day, cumulative5.8Mt, ramp0.5years",
+      "assessment": "Literal source parameters. Ramp duration and absolute attainment time can differ because of plateaus;no exact native profile or mass integral reconstructed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C17",
+      "pages": [
+        8
+      ],
+      "claim": "Table1 Lower injection: initial655, final2840t/day, cumulative3.7Mt, ramp2years",
+      "assessment": "Literal source parameters. Ramp duration and absolute attainment time can differ because of plateaus;no exact native profile or mass integral reconstructed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C18",
+      "pages": [
+        8
+      ],
+      "claim": "Table1 Higher injection: initial2840, final4581t/day, cumulative7.7Mt, ramp0.5years",
+      "assessment": "Literal source parameters. Ramp duration and absolute attainment time can differ because of plateaus;no exact native profile or mass integral reconstructed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C19",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Table2 Faster ramp-up: 5.43s/full,0.0104s/linear,522x",
+      "assessment": "Reported rounded timing ratio checked;selection/linear update/reconstruction only, not a fresh benchmark or whole-chain MILP speed-up.",
+      "reference_ids": []
+    },
+    {
+      "id": "C20",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Table2 Variable injection: 4.68s/full,0.0045s/linear,1040x",
+      "assessment": "Reported rounded timing ratio checked;selection/linear update/reconstruction only, not a fresh benchmark or whole-chain MILP speed-up.",
+      "reference_ids": []
+    },
+    {
+      "id": "C21",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Table2 Lower injection: 4.49s/full,0.0044s/linear,1020x",
+      "assessment": "Reported rounded timing ratio checked;selection/linear update/reconstruction only, not a fresh benchmark or whole-chain MILP speed-up.",
+      "reference_ids": []
+    },
+    {
+      "id": "C22",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Table2 Higher injection: 5.58s/full,0.003s/linear,1860x",
+      "assessment": "Reported rounded timing ratio checked;selection/linear update/reconstruction only, not a fresh benchmark or whole-chain MILP speed-up.",
+      "reference_ids": []
+    },
+    {
+      "id": "C23",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "72 versus13754 states and greater-than99% reduction",
+      "assessment": "Dimension arithmetic agrees. Comparison to Jin timing is explicitly indirect;native scale, timing, training costs and mode data are missing.",
+      "reference_ids": [
+        "R19"
+      ]
+    },
+    {
+      "id": "C24",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "AdOpT-NET0 cluster size,94.39s solve and2% gap",
+      "assessment": "Attributed Gurobi case, not independently solved or timed. The package citation does not supply profiles, tax, costs, bounds or the case/SI.",
+      "reference_ids": [
+        "R31",
+        "R13"
+      ]
+    },
+    {
+      "id": "C25",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Capture at all sites, delayed WtE uptake and seasonal injection",
+      "assessment": "Economic case result. Startup lies outside the described steady seasonal band;no exact daily arrays or full matched utility inventory.",
+      "reference_ids": []
+    },
+    {
+      "id": "C26",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "BHP below limit and pump energy1–1.5kWh/t with20–40% increase",
+      "assessment": "Dense-phase pump component only. Native plane/domain and utility suppliers absent;coarse model constraints are not independent full physical safety.",
+      "reference_ids": []
+    },
+    {
+      "id": "C27",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Whole-chain solve cost risesorder100;search/modes/time drive complexity",
+      "assessment": "Distinct from standalone ROM speed-up. Three candidates are a chosen nontrivial local search;s0 would remove search. Native runtime counterfactual missing.",
+      "reference_ids": []
+    },
+    {
+      "id": "C28",
+      "pages": [
+        10
+      ],
+      "claim": "Mesh/mode, vertical equilibrium and longer-step complexity reductions",
+      "assessment": "The source cautions accuracy loss and nonlinear solve-time scaling. Alternative native benchmarks remain unverified.",
+      "reference_ids": [
+        "R25"
+      ]
+    },
+    {
+      "id": "C29",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Portability and pressure-capacity extension",
+      "assessment": "Conditional on simulator/Jacobian access and dual grids. Source explicitly leaves nonlinear pipeline-capacity coupling to future work.",
+      "reference_ids": [
+        "R01",
+        "R21"
+      ]
+    },
+    {
+      "id": "C30",
+      "pages": [
+        11
+      ],
+      "claim": "Future leakage-risk constraints and project economics",
+      "assessment": "Would require new saturation validation. Full real-project cost study is outside scope;no retained fraction or generic economic advantage.",
+      "reference_ids": [
+        "R19"
+      ]
+    },
+    {
+      "id": "C31",
+      "pages": [
+        11
+      ],
+      "claim": "Coupled prototype and safety within model accuracy",
+      "assessment": "Conceptual contribution supported. It does not replace full-scale/site validation;missing native inputs prevent comprehensive closure.",
+      "reference_ids": []
+    },
+    {
+      "id": "C32",
+      "pages": [
+        11
+      ],
+      "claim": "Publisher supplement and data on request",
+      "assessment": "Explicit notice retained. No matched local SI or public-absence verification. No author message sent.",
+      "reference_ids": []
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        11
+      ],
+      "citation": "Anon, 2019. Northern lights project concept report. URL https://norlights.com/wp- content/uploads/2021/03/Northern-Lights-Project-Concept-report.pdf.",
+      "raw_native_excerpt": "Anon, 2019. Northern lights project concept report. URL https://norlights.com/wp-\ncontent/uploads/2021/03/Northern-Lights-Project-Concept-report.pdf.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "2019 Northern Lights concept-report link supports pipeline/wellhead claims; no automatic match to a later Northern Lights lifecycle report or source release. Exact report remains unverified.",
+      "claim_ids": [
+        "C04",
+        "C29"
+      ],
+      "claim_pages": [
+        2,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "R02",
+      "pages": [
+        11
+      ],
+      "citation": "Aras, C.M., Ntaimo, L., Hasan, M.M., 2025. Optimal design of carbon capture, utilization and storage (CCUS) networks under uncertain geological storage volumes and CO2 price. Comput. Chem. Eng. 201, http://dx.doi.org/10.1016/j.compchemeng.2025. 109203.",
+      "raw_native_excerpt": "Aras, C.M., Ntaimo, L., Hasan, M.M., 2025. Optimal design of carbon capture, utilization\nand storage (CCUS) networks under uncertain geological storage volumes and CO2\nprice. Comput. Chem. Eng. 201, http://dx.doi.org/10.1016/j.compchemeng.2025.\n109203.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Printed DOI109203 is distinct from retained multiperiod B2-03 DOI109300. Do not substitute the later paper for this cited original.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R03",
+      "pages": [
+        11
+      ],
+      "citation": "Becattini, V., Gabrielli, P., Antonini, C., Campos, J., Acquilino, A., Sansavini, G., Mazzotti, M., 2022. Carbon dioxide capture, transport and storage supply chains: Optimal economic and environmental performance of infrastructure rollout. Int. J. Greenh. Gas Control. 117, http://dx.doi.org/10.1016/j.ijggc.2022.103635.",
+      "raw_native_excerpt": "Becattini, V., Gabrielli, P., Antonini, C., Campos, J., Acquilino, A., Sansavini, G.,\nMazzotti, M., 2022. Carbon dioxide capture, transport and storage supply chains:\nOptimal economic and environmental performance of infrastructure rollout. Int. J.\nGreenh. Gas Control. 117, http://dx.doi.org/10.1016/j.ijggc.2022.103635.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "25-year time-resolved multimodal MILP and substantial transport-cost contribution in a Swiss WtE case; transport modes and hypothetical domestic storage stated. Case-specific qualitative cost/method context only. Inspected pages assume Northern Lights available without storage-capacity constraint and do not supply a dynamic reservoir. No complete cost, utility, numerical optimization or cited-paper audit.",
+      "claim_ids": [
+        "C01",
+        "C03"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11
+      ],
+      "citation": "Burger, J., Nöhl, J., Seiler, J., Gabrielli, P., Oeuvray, P., Becattini, V., Reyes-Lúa, A., Riboldi, L., Sansavini, G., Bardow, A., 2024. Environmental impacts of carbon capture, transport, and storage supply chains: Status and the way forward. Int. J. Greenh. Gas Control. 132, http://dx.doi.org/10.1016/j.ijggc.2023.104039.",
+      "raw_native_excerpt": "Burger, J., Nöhl, J., Seiler, J., Gabrielli, P., Oeuvray, P., Becattini, V., Reyes-Lúa, A.,\nRiboldi, L., Sansavini, G., Bardow, A., 2024. Environmental impacts of carbon\ncapture, transport, and storage supply chains: Status and the way forward. Int.\nJ. Greenh. Gas Control. 132, http://dx.doi.org/10.1016/j.ijggc.2023.104039.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R05",
+      "pages": [
+        11
+      ],
+      "citation": "Cardoso, M.A., Durlofsky, L.J., 2010. Linearized reduced-order models for subsurface flow simulation. J. Comput. Phys. 229, 681–700. http://dx.doi.org/10.1016/j.jcp. 2009.10.004.",
+      "raw_native_excerpt": "Cardoso, M.A., Durlofsky, L.J., 2010. Linearized reduced-order models for subsurface\nflow simulation. J. Comput. Phys. 229, 681–700. http://dx.doi.org/10.1016/j.jcp.\n2009.10.004.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "POD-TPWL derivation and Galerkin/optimization context pp3–5; exact native derivation and rights unverified.",
+      "claim_ids": [
+        "C05",
+        "C07"
+      ],
+      "claim_pages": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "R06",
+      "pages": [
+        11
+      ],
+      "citation": "Carlberg, K., Bou-Mosleh, C., Farhat, C., 2011. Efficient non-linear model reduction via a least-squares Petrov-Galerkin projection and compressive tensor approximations. Internat. J. Numer. Methods Engrg. 86, 155–181. http://dx.doi.org/10.1002/nme. 3050.",
+      "raw_native_excerpt": "Carlberg, K., Bou-Mosleh, C., Farhat, C., 2011. Efficient non-linear model reduction via\na least-squares Petrov-Galerkin projection and compressive tensor approximations.\nInternat. J. Numer. Methods Engrg. 86, 155–181. http://dx.doi.org/10.1002/nme.\n3050.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Petrov-Galerkin stability/least-squares attribution p5 requires original mathematical conditions; no unconditional stability proof from citation alone.",
+      "claim_ids": [
+        "C07"
+      ],
+      "claim_pages": [
+        5
+      ]
+    },
+    {
+      "id": "R07",
+      "pages": [
+        12
+      ],
+      "citation": "Celia, M.A., Nordbotten, J.M., 2012. Geological Storage of CO2: Modeling Approaches for Large-Scale Simulation. Wiley, p. 241.",
+      "raw_native_excerpt": "Celia, M.A., Nordbotten, J.M., 2012. Geological Storage of CO2: Modeling Approaches\nfor Large-Scale Simulation. Wiley, p. 241.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C04",
+        "C05"
+      ],
+      "claim_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R08",
+      "pages": [
+        12
+      ],
+      "citation": "Chaturantabut, S., Sorensen, D.C., 2011. Application of POD and DEIM on dimension reduction of non-linear miscible viscous fingering in porous media. Math. Comput. Model. Dyn. Syst. 17 (4), 337–353.",
+      "raw_native_excerpt": "Chaturantabut, S., Sorensen, D.C., 2011. Application of POD and DEIM on dimension\nreduction of non-linear miscible viscous fingering in porous media. Math. Comput.\nModel. Dyn. Syst. 17 (4), 337–353.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R09",
+      "pages": [
+        12
+      ],
+      "citation": "Coutinho, E.J.R., Dall’Aqua, M., Gildin, E., 2021. Physics-aware deep-learning-based proxy reservoir simulation model equipped with state and well output prediction. Front. Appl. Math. Stat. 7, http://dx.doi.org/10.3389/fams.2021.651178.",
+      "raw_native_excerpt": "Coutinho, E.J.R., Dall’Aqua, M., Gildin, E., 2021. Physics-aware deep-learning-based\nproxy reservoir simulation model equipped with state and well output prediction.\nFront. Appl. Math. Stat. 7, http://dx.doi.org/10.3389/fams.2021.651178.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R10",
+      "pages": [
+        12
+      ],
+      "citation": "Crîstiu, D., d’Amore, F., Mocellin, P., Bezzo, F., 2023. Multi-objective optimisation of a carbon capture and sequestration supply chain under seismic risk constraints. a case study considering industrial emissions in Italy. Int. J. Greenh. Gas Control. 129, http://dx.doi.org/10.1016/j.ijggc.2023.103993.",
+      "raw_native_excerpt": "Crîstiu, D., d’Amore, F., Mocellin, P., Bezzo, F., 2023. Multi-objective optimisation of\na carbon capture and sequestration supply chain under seismic risk constraints. a\ncase study considering industrial emissions in Italy. Int. J. Greenh. Gas Control.\n129, http://dx.doi.org/10.1016/j.ijggc.2023.103993.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R11",
+      "pages": [
+        12
+      ],
+      "citation": "d’Amore, F., Bezzo, F., 2017. Economic optimisation of European supply chains for CO2 capture, transport and sequestration. Int. J. Greenh. Gas Control. 65, 99–116. http://dx.doi.org/10.1016/j.ijggc.2017.08.015.",
+      "raw_native_excerpt": "d’Amore, F., Bezzo, F., 2017. Economic optimisation of European supply chains for\nCO2 capture, transport and sequestration. Int. J. Greenh. Gas Control. 65, 99–116.\nhttp://dx.doi.org/10.1016/j.ijggc.2017.08.015.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R12",
+      "pages": [
+        12
+      ],
+      "citation": "Güyagüler, B., 2002. Optimization of well placement and assessment of uncertainty.",
+      "raw_native_excerpt": "Güyagüler, B., 2002. Optimization of well placement and assessment of uncertainty.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R13",
+      "pages": [
+        12
+      ],
+      "citation": "Hart, W.E., Watson, J.-P., Woodruff, D.L., 2011. Pyomo: modeling and solving mathematical programs in python. Math. Program. Comput. 3 (3), 219–260.",
+      "raw_native_excerpt": "Hart, W.E., Watson, J.-P., Woodruff, D.L., 2011. Pyomo: modeling and solving\nmathematical programs in python. Math. Program. Comput. 3 (3), 219–260.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C24"
+      ],
+      "claim_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "R14",
+      "pages": [
+        12
+      ],
+      "citation": "He, J., Durlofsky, L.J., 2014. Reduced-order modeling for compositional simulation by use of trajectory piecewise linearization.",
+      "raw_native_excerpt": "He, J., Durlofsky, L.J., 2014. Reduced-order modeling for compositional simulation by\nuse of trajectory piecewise linearization.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior reduction/compositional/constraint-projection support pp3,5–6; original methods and notation not verified.",
+      "claim_ids": [
+        "C05",
+        "C07",
+        "C08"
+      ],
+      "claim_pages": [
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R15",
+      "pages": [
+        12
+      ],
+      "citation": "He, J., Durlofsky, L.J., 2015. Constraint reduction procedures for reduced-order subsurface flow models based on POD-TPWL. Internat. J. Numer. Methods Engrg. 103, 1–30. http://dx.doi.org/10.1002/nme.4874.",
+      "raw_native_excerpt": "He, J., Durlofsky, L.J., 2015. Constraint reduction procedures for reduced-order\nsubsurface flow models based on POD-TPWL. Internat. J. Numer. Methods Engrg.\n103, 1–30. http://dx.doi.org/10.1002/nme.4874.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior reduction/compositional/constraint-projection support pp3,5–6; original methods and notation not verified.",
+      "claim_ids": [
+        "C07"
+      ],
+      "claim_pages": [
+        5
+      ]
+    },
+    {
+      "id": "R16",
+      "pages": [
+        12
+      ],
+      "citation": "He, J., Sarma, P., Durlofsky, L.J., 2013. Reduced-order flow modeling and geological parameterization for ensemble-based data assimilation. Comput. Geosci. 55, 54–69. http://dx.doi.org/10.1016/j.cageo.2012.03.027.",
+      "raw_native_excerpt": "He, J., Sarma, P., Durlofsky, L.J., 2013. Reduced-order flow modeling and geological\nparameterization for ensemble-based data assimilation. Comput. Geosci. 55, 54–69.\nhttp://dx.doi.org/10.1016/j.cageo.2012.03.027.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior reduction/compositional/constraint-projection support pp3,5–6; original methods and notation not verified.",
+      "claim_ids": [
+        "C07"
+      ],
+      "claim_pages": [
+        5
+      ]
+    },
+    {
+      "id": "R17",
+      "pages": [
+        12
+      ],
+      "citation": "IEA, 2022. Co2 storage resources and their development - an IEA ccUS handbook. URL https://www.iea.org/reports/co2-storage-resources-and-their-development.",
+      "raw_native_excerpt": "IEA, 2022. Co2 storage resources and their development - an IEA ccUS handbook. URL\nhttps://www.iea.org/reports/co2-storage-resources-and-their-development.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R18",
+      "pages": [
+        12
+      ],
+      "citation": "IEA, 2023. Net zero roadmap: A global pathway to keep the 1.5 ◦ c goal in reach - 2023 update. URL www.iea.org/t&c/.",
+      "raw_native_excerpt": "IEA, 2023. Net zero roadmap: A global pathway to keep the 1.5 ◦ c goal in reach -\n2023 update. URL www.iea.org/t&c/.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Printed URL points to terms-and-conditions, not the exact2023 roadmap. Report/page and scenario support remain unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R19",
+      "pages": [
+        12
+      ],
+      "citation": "Jin, Z.L., Durlofsky, L.J., 2018. Reduced-order modeling of co2 storage operations. Int. J. Greenh. Gas Control. 68, 49–67. http://dx.doi.org/10.1016/j.ijggc.2017.08.017.",
+      "raw_native_excerpt": "Jin, Z.L., Durlofsky, L.J., 2018. Reduced-order modeling of co2 storage operations. Int.\nJ. Greenh. Gas Control. 68, 49–67. http://dx.doi.org/10.1016/j.ijggc.2017.08.017.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Core rate-controlled POD-TPWL, distance selection, saturation-risk and speed comparison pp3–6,8,11. Original simulations/model and supplementary methods remain unverified.",
+      "claim_ids": [
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C23",
+        "C30"
+      ],
+      "claim_pages": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "R20",
+      "pages": [
+        12
+      ],
+      "citation": "Jones, E.C., Yaw, S., Bennett, J.A., Ogland-Hand, J.D., Strahan, C., Middleton, R.S., 2022. Designing multi-phased co2 capture and storage infrastructure deployments. Renew. Sustain. Energy Transit. 2, 100023. http://dx.doi.org/10.1016/j.rset.2022. 100023.",
+      "raw_native_excerpt": "Jones, E.C., Yaw, S., Bennett, J.A., Ogland-Hand, J.D., Strahan, C., Middleton, R.S.,\n2022. Designing multi-phased co2 capture and storage infrastructure deployments.\nRenew. Sustain. Energy Transit. 2, 100023. http://dx.doi.org/10.1016/j.rset.2022.\n100023.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R21",
+      "pages": [
+        12
+      ],
+      "citation": "Lie, K.-A., 2016. An introduction to reservoir simulation using MATLAB/GNU octave : User guide for the MATLAB reservoir simulation toolbox (MRST).",
+      "raw_native_excerpt": "Lie, K.-A., 2016. An introduction to reservoir simulation using MATLAB/GNU octave :\nUser guide for the MATLAB reservoir simulation toolbox (MRST).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "2016 MRST guide edition/code support for phase laws, Peaceman and well Jacobian conversion; version, native case and SI derivation unverified.",
+      "claim_ids": [
+        "C06",
+        "C11",
+        "C29"
+      ],
+      "claim_pages": [
+        3,
+        4,
+        5,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "R22",
+      "pages": [
+        12
+      ],
+      "citation": "Martynov, S.B., Porter, R.T., Mahgerefteh, H., 2024. Estimating the line packing time for pipelines transporting carbon dioxide. Carbon Capture Sci. Technol. 11, http: //dx.doi.org/10.1016/j.ccst.2023.100188.",
+      "raw_native_excerpt": "Martynov, S.B., Porter, R.T., Mahgerefteh, H., 2024. Estimating the line packing time\nfor pipelines transporting carbon dioxide. Carbon Capture Sci. Technol. 11, http:\n//dx.doi.org/10.1016/j.ccst.2023.100188.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R23",
+      "pages": [
+        12
+      ],
+      "citation": "Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture and storage: SimCCS. Energy Policy 37, 1052–1060. http://dx.doi.org/10.1016/j. enpol.2008.09.049.",
+      "raw_native_excerpt": "Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture\nand storage: SimCCS. Energy Policy 37, 1052–1060. http://dx.doi.org/10.1016/j.\nenpol.2008.09.049.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "Cost-minimizing capacitated California source/reservoir/pipeline network with trunkline aggregation and partial capture. Network-method context only; not a proof that every cited network has static storage or validation of Bertoni physics, pressure accuracy, native code or model rights. Cited paper remains separately incomplete.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R24",
+      "pages": [
+        12
+      ],
+      "citation": "Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic model for optimally phasing in CO 2 capture and storage infrastructure. Environ. Model. Softw. 37, 193–205. http://dx.doi.org/10.1016/j.envsoft.2012.04.003.",
+      "raw_native_excerpt": "Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic\nmodel for optimally phasing in CO 2 capture and storage infrastructure. Environ.\nModel. Softw. 37, 193–205. http://dx.doi.org/10.1016/j.envsoft.2012.04.003.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R25",
+      "pages": [
+        12
+      ],
+      "citation": "Møyner, O., Nilsen, H.M., 2019. Multiresolution coupled vertical equilibrium model for fast flexible simulation of CO2 storage. Comput. Geosci. 23, 1–20. http://dx.doi. org/10.1007/s10596-018-9775-z.",
+      "raw_native_excerpt": "Møyner, O., Nilsen, H.M., 2019. Multiresolution coupled vertical equilibrium model for\nfast flexible simulation of CO2 storage. Comput. Geosci. 23, 1–20. http://dx.doi.\norg/10.1007/s10596-018-9775-z.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C28"
+      ],
+      "claim_pages": [
+        10
+      ]
+    },
+    {
+      "id": "R26",
+      "pages": [
+        12
+      ],
+      "citation": "Ringrose, P., 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. SpringerBriefs in Earth Sciences, URL http://www.springer.com/series/ 8897.",
+      "raw_native_excerpt": "Ringrose, P., 2020. How to Store CO2 Underground: Insights from Early-Mover CCS\nProjects. SpringerBriefs in Earth Sciences, URL http://www.springer.com/series/\n8897.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Fracture/BHP, hydrostatic and storage-safety support pp2,7; generic book/series URL does not establish site-specific pressure datum, safe rate or permanence.",
+      "claim_ids": [
+        "C04",
+        "C11"
+      ],
+      "claim_pages": [
+        2,
+        7
+      ]
+    },
+    {
+      "id": "R27",
+      "pages": [
+        12
+      ],
+      "citation": "Roussanaly, S., Berghout, N., Fout, T., Garcia, M., Gardarsdottir, S., Nazir, S.M., Ramirez, A., Rubin, E.S., 2021. Towards improved cost evaluation of carbon capture and storage from industry. Int. J. Greenh. Gas Control. 106, http://dx.doi.org/10. 1016/j.ijggc.2021.103263.",
+      "raw_native_excerpt": "Roussanaly, S., Berghout, N., Fout, T., Garcia, M., Gardarsdottir, S., Nazir, S.M.,\nRamirez, A., Rubin, E.S., 2021. Towards improved cost evaluation of carbon capture\nand storage from industry. Int. J. Greenh. Gas Control. 106, http://dx.doi.org/10.\n1016/j.ijggc.2021.103263.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R28",
+      "pages": [
+        12
+      ],
+      "citation": "Santibanez-Borda, E., Govindan, R., Elahi, N., Korre, A., Durucan, S., 2019. Maximising the dynamic co2 storage capacity through the optimisation of co2 injection and brine production rates. Int. J. Greenh. Gas Control. 80, 76–95. http://dx.doi.org/ 10.1016/j.ijggc.2018.11.012.",
+      "raw_native_excerpt": "Santibanez-Borda, E., Govindan, R., Elahi, N., Korre, A., Durucan, S., 2019. Maximising\nthe dynamic co2 storage capacity through the optimisation of co2 injection and\nbrine production rates. Int. J. Greenh. Gas Control. 80, 76–95. http://dx.doi.org/\n10.1016/j.ijggc.2018.11.012.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R29",
+      "pages": [
+        12
+      ],
+      "citation": "Tan, X., Gildin, E., Florez, H., Trehan, S., Yang, Y., Hoda, N., 2019. Trajectory-based DEIM (TDEIM) model reduction applied to reservoir simulation. Comput. Geosci. 23, 35–53. http://dx.doi.org/10.1007/s10596-018-9782-0.",
+      "raw_native_excerpt": "Tan, X., Gildin, E., Florez, H., Trehan, S., Yang, Y., Hoda, N., 2019. Trajectory-based\nDEIM (TDEIM) model reduction applied to reservoir simulation. Comput. Geosci.\n23, 35–53. http://dx.doi.org/10.1007/s10596-018-9782-0.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R30",
+      "pages": [
+        12
+      ],
+      "citation": "Temizel, C., Saputelli, L., Nabizadeh, M., Balaji, K., Suhag, A., Ranjith, R., Wijaya, Z., 2017. Enhancing optimization of reservoir simulation processes in next-generation reservoir simulators. In: SPE Reservoir Characterisation and Simulation Conference and Exhibition, http://dx.doi.org/10.2118/185972-MS, D021S008R002.",
+      "raw_native_excerpt": "Temizel, C., Saputelli, L., Nabizadeh, M., Balaji, K., Suhag, A., Ranjith, R., Wijaya, Z.,\n2017. Enhancing optimization of reservoir simulation processes in next-generation\nreservoir simulators. In: SPE Reservoir Characterisation and Simulation Conference\nand Exhibition, http://dx.doi.org/10.2118/185972-MS, D021S008R002.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R31",
+      "pages": [
+        12
+      ],
+      "citation": "Wiegner, J.F., Tiggeloven, J.L., Bertoni, L., Ossentjuk, I.M., Gazzani, M., 2025. Adopt- NET0: A technology-focused python package for the optimization of multi-energy systems. J. Open Source Softw. 10, 7402. http://dx.doi.org/10.21105/joss.07402, URL https://joss.theoj.org/papers/10.21105/joss.07402.",
+      "raw_native_excerpt": "Wiegner, J.F., Tiggeloven, J.L., Bertoni, L., Ossentjuk, I.M., Gazzani, M., 2025. Adopt-\nNET0: A technology-focused python package for the optimization of multi-energy\nsystems. J. Open Source Softw. 10, 7402. http://dx.doi.org/10.21105/joss.07402,\nURL https://joss.theoj.org/papers/10.21105/joss.07402.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "AdOpT-NET0 package citation p9; package availability is not the Bertoni native reservoir/cluster case, version pin, Gurobi license or validation.",
+      "claim_ids": [
+        "C24"
+      ],
+      "claim_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3,
+        4,
+        7,
+        11
+      ],
+      "citation": "MRST native saline-aquifer deck, fluids, SCAL, boundary conditions and well geometry",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "6877 cells inferred from13754 states, but grid/property/well arrays and reservoir calibration are not supplied in main PDF.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N02",
+      "pages": [
+        5,
+        11
+      ],
+      "citation": "Supplement rate-controlled well Jacobian extraction/conversion",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Source says MRST native Jacobians cannot be used directly with rate control; the essential conversion is delegated to SI.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N03",
+      "pages": [
+        5,
+        7,
+        8
+      ],
+      "citation": "Five30-year training snapshots, SVD/basis and initialization",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure71/saturation1 modes are stated; native matrices, centering/scaling, initial conditions, tolerances and trial/tuning history unavailable.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N04",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "citation": "Primary training-run controls and J/A/B reduced operators",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Only one run supplies TPWL Jacobians/selection. Candidate/time indexing, units and native operators remain missing.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N05",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "citation": "Four validation trajectories, pressure errors and timing protocol",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Reported output tables/plots retained, not exact rate/pressure arrays, residual balances or independently timed MRST/ROM runs.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N06",
+      "pages": [
+        6,
+        10,
+        11
+      ],
+      "citation": "Big-M/indicator and selected-affine-map implementation",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Bounds, product linearizations, tie/endpoint handling and coefficient indices are essential but not fully specified in main equations.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N07",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "citation": "Industrial cluster daily emission profiles, capture utility/cost and CO2 tax cases",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Two cement/WtE native cases and full capture heat/power/supplier inventories delegated to other papers/SI, not supplied here.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N08",
+      "pages": [
+        7,
+        9,
+        11
+      ],
+      "citation": "Pressure/density/WI/mobility and pump-plane fitting data",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native state/reference conditions, depth/datum, pressure losses, efficiency, fit coefficients/domain/errors missing. Reported1–1.5kWh/t is dense-phase pump only.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N09",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "citation": "AdOpT-NET0/Pyomo/Gurobi case code, releases, logs and rights",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Gurobi11.0.2/2%gap and94.39s reported. A package citation does not provide the specific executable author case or all licensed capabilities.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N10",
+      "pages": [
+        2,
+        7,
+        9,
+        10,
+        11
+      ],
+      "citation": "Caprock fracture/pressure limits, transient and physical safety validation",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BHP<=.9pmax is a coarse model constraint, not an independently demonstrated thermal/fault/leakage or daily-peak guarantee.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N11",
+      "pages": [
+        7,
+        9,
+        11
+      ],
+      "citation": "AppendixA publisher supplements, errata and data-on-request assets",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Explicit supplementary notice and data-on-request statement. No embedded/matched local supplement; public contents/absence and case rights remain unverified during Chrome wait.",
+      "claim_ids": [],
+      "claim_pages": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "status": "HOLD_NATIVE_LINEARIZATION_AND_SELECTION_INDICES",
+      "finding": "Eq5 derivative/new residual have shifted time indices;the saturation snapshot dimension conflicts with phase blocks;Eq26–28 retaini insidej sums.",
+      "action": "Preserve the source notation and obtain SI, code and errata. No guessed native operators or claim of an implementation defect."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "OPEN_PRODUCT_BOUNDS_RANK_AND_DOMAINS",
+      "finding": "Products in distance/minimum/selected maps need bounded encodings. Native M, rank tolerance, signed-coordinate, tie and endpoint details are missing.",
+      "action": "Keep the fixed-state toy selector and projected recurrence separate from the native MILP. Verify rank, physical saturation and mass balances."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "status": "HOLD_METRIC_TIME_AND_FLOW_CONVENTIONS",
+      "finding": "Training normalization changes distance ranking;epsilon needs units. Eq29 rate/amount/time basis is unclear, and a six-month average does not constrain daily peaks.",
+      "action": "Obtain native controls, interval masses, calendar, mapping and transient validation. No selected correction or annual service inferred."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        3,
+        7
+      ],
+      "status": "HOLD_DENSITY_PRESSURE_AND_WELL_REFERENCE",
+      "finding": "rho=b*rho_surface conflicts with inverse-b prose. Eq32 uses surface density for hydrostatics;average mobility/density, phase pressure, well and fracture datums remain unresolved.",
+      "action": "Check SI, fluid conditions, WI and well geometry. Use compatible pressure bases and column-density treatment;toy densities are not source inputs."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "status": "OPEN_CONSERVATION_ACCURACY_AND_PHYSICAL_SAFETY",
+      "finding": "The source admits non-strict mass conservation. Typically±5% concerns selected well-cell pressures, not BHP, leakage or a global bound. Coarse constraints and omitted pressure-capacity coupling limit feasibility claims.",
+      "action": "No pressure-calibrated annual maximum, retained fraction or risk distribution. Obtain native balances, BHP/transients and full physical validation."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        7,
+        9
+      ],
+      "status": "OPEN_PUMP_FIT_AND_COMPLETE_UTILITY_INVENTORY",
+      "finding": "Native pump-plane coefficients/domain/errors and complete capture utilities/suppliers are missing. Reported1–1.5kWh/t is a pump component.",
+      "action": "Keep the component boundary. Check fit conservatism and pressure/flow losses before any complete energy/GHG inventory."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "OPEN_NATIVE_TIMING_PROFILES_AND_VALIDATION_ARRAYS",
+      "finding": "Tables1/2,72 states and94.39s are reported outputs. Exact profiles, clock/integration, tuning and whole-chain counterfactual are unavailable.",
+      "action": "No endpoint-only mass replay, exact plot-derived arrays or independent500–1800x MILP benchmark. Preserve approximate graphics and timing scope."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        1,
+        2,
+        3,
+        5,
+        9,
+        10,
+        11,
+        12
+      ],
+      "status": "OPEN_ORIGINALS_SUPPLEMENTS_CASES_AND_RIGHTS",
+      "finding": "Two scoped infrastructure citations;29 other originals and11 native dependencies unverified. Explicit SI and data-on-request assets are not retained or reproduced.",
+      "action": "Continue exact-source/native-case work when access permits. Preserve the requested Chrome wait. No substitute Aras DOI, public-absence claim or unsolicited author contact."
+    }
+  ],
+  "supplements": "AppendixA explicitly links supplementary data;the paper also says data available on request. Essential properties, rate-well Jacobian conversion, formulation flow diagram, case assumptions and pump-plane details are delegated to SI. No embedded/matched local SI;public contents, errata, native code/data and rights unverified during Chrome wait. No public-absence claim or author message.",
+  "reproduction": "35 limited checks reconstruct reported dimensions/timing and source projected-equation/minimum components with disclosed synthetic inputs. Independent least-squares and bounded toy MILP comparisons plus unit/density/temporal/plane examples do not reproduce native MRST training/validation, AdOpT-NET0, pump fit, physical BHP safety or retention.",
+  "paper1_use": "Recognize prior reservoir/infrastructure coupling while qualifying accuracy, safety, time averaging, conservation, pipeline-capacity and pump-only utility boundaries. Preserve equation/index/unit/native-asset questions. Two originals support infrastructure context only. No accepted operating, GHG, annual service, risk or retention input changes.",
+  "next_steps": "Verify29 remaining originals and11 dependencies. Obtain SI, native rate-controlled reservoir/operators, profiles, bounds, fit, code and rights;reconcile equations and test mass, BHP, transients and pipeline-capacity coupling. Continue B2-05 locally;the92-paper audit remains active."
+}

@@ -1,0 +1,128 @@
+{
+  "study_id": "B2-04",
+  "source_sha256": "6e782f82a4ff42950f0b5724e2f4ff6369ee5c3d54df1ede122a0344f7731d4a",
+  "checks": 35,
+  "synthetic_projected_component": {
+    "phi": [
+      [
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        -0.7071067811865475,
+        0.0
+      ],
+      [
+        0.0,
+        -0.4472135954999581
+      ],
+      [
+        0.0,
+        -0.8944271909999159
+      ]
+    ],
+    "psi": [
+      [
+        -2.82842712474619,
+        -0.08944271909999163
+      ],
+      [
+        -1.414213562373095,
+        -0.08944271909999159
+      ],
+      [
+        0.0,
+        -0.6260990336999412
+      ],
+      [
+        -0.07071067811865475,
+        -1.3416407864998738
+      ]
+    ],
+    "Jr": [
+      [
+        10.004999999999999,
+        0.474341649025257
+      ],
+      [
+        0.474341649025257,
+        2.208
+      ]
+    ],
+    "Ar": [
+      [
+        -2.9999999999999996,
+        -0.06324555320336758
+      ],
+      [
+        -0.1264911064067352,
+        -1.4800000000000002
+      ]
+    ],
+    "Br": [
+      [
+        -2.82842712474619
+      ],
+      [
+        -0.40249223594996225
+      ]
+    ],
+    "delta": [
+      0.08488057567452346,
+      0.037357411954256965
+    ],
+    "xi_next": [
+      1.2848805756745234,
+      0.18735741195425695
+    ],
+    "reconstructed": [
+      -0.9085477680743304,
+      -0.9085477680743304,
+      -0.08378878184363008,
+      -0.1675775636872601
+    ],
+    "residual": [
+      0.027290807013033713,
+      -0.052669931686019356,
+      0.08555483238390822,
+      -0.03823364680095814
+    ],
+    "projected_residual": [
+      -2.2724877535296173e-16,
+      8.673617379884035e-18
+    ]
+  },
+  "synthetic_selector": {
+    "selected": 1,
+    "q": [
+      0.0,
+      1.0,
+      0.0
+    ],
+    "minimum": 0.39998666711109626,
+    "output": 3.4000000000000057,
+    "candidate_outputs": [
+      2.2,
+      3.4000000000000004,
+      4.6
+    ],
+    "distances": [
+      0.7999200079992002,
+      0.39998666711109626,
+      0.6399872002559949
+    ],
+    "scope": "synthetic_bounded_selector_and_affine_map_not_native_ROM_MILP"
+  },
+  "scoped_citation_checks": 2,
+  "native_MRST_training_validation_AdOpT_or_pump_fit_reproduced": false,
+  "physical_safety_or_retention_validated": false,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "native_reservoir_grid_fluids_wells_and_Jacobian_conversion": null,
+    "training_validation_snapshots_operators_and_initialization": null,
+    "bigM_bounds_and_selected_coefficient_code": null,
+    "cluster_profiles_tax_capture_utilities_and_pump_fit": null,
+    "supplement_errata_case_code_and_rights": null,
+    "pressure_datum_fracture_transient_and_retention_validation": null
+  }
+}

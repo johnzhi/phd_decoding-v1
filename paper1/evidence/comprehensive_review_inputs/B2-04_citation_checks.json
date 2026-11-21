@@ -1,0 +1,44 @@
+[
+  {
+    "citing_study": "B2-04",
+    "citing_path": "papers/B2-04.pdf",
+    "citing_sha256": "6e782f82a4ff42950f0b5724e2f4ff6369ee5c3d54df1ede122a0344f7731d4a",
+    "citing_pages": [
+      1,
+      2
+    ],
+    "reference_id": "R03",
+    "cited_study": "B3-42",
+    "cited_path": "papers/B3-42.pdf",
+    "cited_sha256": "6d475de6fccc3f6153272829e0f59d3dee1fe3d9cf93260dc5fe6b8ecfd2d6ea",
+    "cited_DOI": "10.1016/j.ijggc.2022.103635",
+    "targeted_pages": [
+      1,
+      2,
+      3
+    ],
+    "status": "primary_text_checked_with_scope_limits",
+    "support": "25-year time-resolved multimodal MILP and substantial transport-cost contribution in a Swiss WtE case; transport modes and hypothetical domestic storage stated.",
+    "limits": "Case-specific qualitative cost/method context only. Inspected pages assume Northern Lights available without storage-capacity constraint and do not supply a dynamic reservoir. No complete cost, utility, numerical optimization or cited-paper audit."
+  },
+  {
+    "citing_study": "B2-04",
+    "citing_path": "papers/B2-04.pdf",
+    "citing_sha256": "6e782f82a4ff42950f0b5724e2f4ff6369ee5c3d54df1ede122a0344f7731d4a",
+    "citing_pages": [
+      2
+    ],
+    "reference_id": "R23",
+    "cited_study": "B3-44",
+    "cited_path": "papers/B3-44.pdf",
+    "cited_sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+    "cited_DOI": "10.1016/j.enpol.2008.09.049",
+    "targeted_pages": [
+      1,
+      2
+    ],
+    "status": "primary_text_checked_with_scope_limits",
+    "support": "Cost-minimizing capacitated California source/reservoir/pipeline network with trunkline aggregation and partial capture.",
+    "limits": "Network-method context only; not a proof that every cited network has static storage or validation of Bertoni physics, pressure accuracy, native code or model rights. Cited paper remains separately incomplete."
+  }
+]

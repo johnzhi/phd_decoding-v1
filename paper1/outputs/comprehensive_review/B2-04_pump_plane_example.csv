@@ -1,0 +1,5 @@
+mass_rate_kgps,delta_p_Pa,full_W,analyst_tangent_plane_W,full_minus_plane_W,scope
+1,1000000,1562.5,0.0,1562.5,synthetic_plane_not_author_SI_fit
+1,3000000,4687.5,6250.0,-1562.5,synthetic_plane_not_author_SI_fit
+3,1000000,4687.5,6250.0,-1562.5,synthetic_plane_not_author_SI_fit
+3,3000000,14062.5,12500.0,1562.5,synthetic_plane_not_author_SI_fit

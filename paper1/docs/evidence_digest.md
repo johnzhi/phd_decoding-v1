@@ -274,7 +274,7 @@ Reading stage: Targeted sections and quantitative extraction. Checked sections: 
 
 POD/trajectory-piecewise-linear reduced reservoir dynamics are embedded in a CCS MILP. Pressure prediction is reported within ±5%, with 500–1800-fold speedup versus tested full simulations.
 
-Transfer limits: Already integrates dynamic physics and infrastructure; accuracy is case/training-region dependent, not a universal reservoir error bound.
+Transfer limits: All12 pages,five figures,three tables,34 numbered equations,inline relations and nomenclature read/inspected under the comprehensive standard.35 limited checks use reported dimensions/timings and disclosed synthetic projected/selector/unit/pressure/pump cases. Typical±5% is well-cell simulator comparison,not a BHP/retention/global error bound. Source admits non-strict mass conservation andleaves pressure-dependent pipeline capacity tofuture work. Printed indices,bounds,time/flow/density/datum andpump-fit scope remain open. Two scoped originals support infrastructure context;29 other sources,eleven dependencies andexplicit SI unverified. No native MRST/AdOpT/validation,pump fit,physical service orcomplete utility inventory reproduced. See reservoir_rom_comprehensive_findings.md;accepted numeric inputs remain unchanged.
 
 ### B2-05 — Beyond pipelines Multi-modal CO2 transport enables timely CO2 capture, transport, and storage deployment
 

@@ -1,0 +1,732 @@
+{
+  "study_id": "B2-04",
+  "source_sha256": "6e782f82a4ff42950f0b5724e2f4ff6369ee5c3d54df1ede122a0344f7731d4a",
+  "printed_entries": 31,
+  "named_dependencies": 11,
+  "provenance": "All31 references on physicalpp11–12 read in native text and rendered columns. Raw excerpts preserved; two scoped exact-original checks only.",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        11
+      ],
+      "citation": "Anon, 2019. Northern lights project concept report. URL https://norlights.com/wp- content/uploads/2021/03/Northern-Lights-Project-Concept-report.pdf.",
+      "raw_native_excerpt": "Anon, 2019. Northern lights project concept report. URL https://norlights.com/wp-\ncontent/uploads/2021/03/Northern-Lights-Project-Concept-report.pdf.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "2019 Northern Lights concept-report link supports pipeline/wellhead claims; no automatic match to a later Northern Lights lifecycle report or source release. Exact report remains unverified.",
+      "claim_ids": [
+        "C04",
+        "C29"
+      ],
+      "claim_pages": [
+        2,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "R02",
+      "pages": [
+        11
+      ],
+      "citation": "Aras, C.M., Ntaimo, L., Hasan, M.M., 2025. Optimal design of carbon capture, utilization and storage (CCUS) networks under uncertain geological storage volumes and CO2 price. Comput. Chem. Eng. 201, http://dx.doi.org/10.1016/j.compchemeng.2025. 109203.",
+      "raw_native_excerpt": "Aras, C.M., Ntaimo, L., Hasan, M.M., 2025. Optimal design of carbon capture, utilization\nand storage (CCUS) networks under uncertain geological storage volumes and CO2\nprice. Comput. Chem. Eng. 201, http://dx.doi.org/10.1016/j.compchemeng.2025.\n109203.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Printed DOI109203 is distinct from retained multiperiod B2-03 DOI109300. Do not substitute the later paper for this cited original.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R03",
+      "pages": [
+        11
+      ],
+      "citation": "Becattini, V., Gabrielli, P., Antonini, C., Campos, J., Acquilino, A., Sansavini, G., Mazzotti, M., 2022. Carbon dioxide capture, transport and storage supply chains: Optimal economic and environmental performance of infrastructure rollout. Int. J. Greenh. Gas Control. 117, http://dx.doi.org/10.1016/j.ijggc.2022.103635.",
+      "raw_native_excerpt": "Becattini, V., Gabrielli, P., Antonini, C., Campos, J., Acquilino, A., Sansavini, G.,\nMazzotti, M., 2022. Carbon dioxide capture, transport and storage supply chains:\nOptimal economic and environmental performance of infrastructure rollout. Int. J.\nGreenh. Gas Control. 117, http://dx.doi.org/10.1016/j.ijggc.2022.103635.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "25-year time-resolved multimodal MILP and substantial transport-cost contribution in a Swiss WtE case; transport modes and hypothetical domestic storage stated. Case-specific qualitative cost/method context only. Inspected pages assume Northern Lights available without storage-capacity constraint and do not supply a dynamic reservoir. No complete cost, utility, numerical optimization or cited-paper audit.",
+      "claim_ids": [
+        "C01",
+        "C03"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11
+      ],
+      "citation": "Burger, J., Nöhl, J., Seiler, J., Gabrielli, P., Oeuvray, P., Becattini, V., Reyes-Lúa, A., Riboldi, L., Sansavini, G., Bardow, A., 2024. Environmental impacts of carbon capture, transport, and storage supply chains: Status and the way forward. Int. J. Greenh. Gas Control. 132, http://dx.doi.org/10.1016/j.ijggc.2023.104039.",
+      "raw_native_excerpt": "Burger, J., Nöhl, J., Seiler, J., Gabrielli, P., Oeuvray, P., Becattini, V., Reyes-Lúa, A.,\nRiboldi, L., Sansavini, G., Bardow, A., 2024. Environmental impacts of carbon\ncapture, transport, and storage supply chains: Status and the way forward. Int.\nJ. Greenh. Gas Control. 132, http://dx.doi.org/10.1016/j.ijggc.2023.104039.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R05",
+      "pages": [
+        11
+      ],
+      "citation": "Cardoso, M.A., Durlofsky, L.J., 2010. Linearized reduced-order models for subsurface flow simulation. J. Comput. Phys. 229, 681–700. http://dx.doi.org/10.1016/j.jcp. 2009.10.004.",
+      "raw_native_excerpt": "Cardoso, M.A., Durlofsky, L.J., 2010. Linearized reduced-order models for subsurface\nflow simulation. J. Comput. Phys. 229, 681–700. http://dx.doi.org/10.1016/j.jcp.\n2009.10.004.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "POD-TPWL derivation and Galerkin/optimization context pp3–5; exact native derivation and rights unverified.",
+      "claim_ids": [
+        "C05",
+        "C07"
+      ],
+      "claim_pages": [
+        3,
+        5
+      ]
+    },
+    {
+      "id": "R06",
+      "pages": [
+        11
+      ],
+      "citation": "Carlberg, K., Bou-Mosleh, C., Farhat, C., 2011. Efficient non-linear model reduction via a least-squares Petrov-Galerkin projection and compressive tensor approximations. Internat. J. Numer. Methods Engrg. 86, 155–181. http://dx.doi.org/10.1002/nme. 3050.",
+      "raw_native_excerpt": "Carlberg, K., Bou-Mosleh, C., Farhat, C., 2011. Efficient non-linear model reduction via\na least-squares Petrov-Galerkin projection and compressive tensor approximations.\nInternat. J. Numer. Methods Engrg. 86, 155–181. http://dx.doi.org/10.1002/nme.\n3050.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Petrov-Galerkin stability/least-squares attribution p5 requires original mathematical conditions; no unconditional stability proof from citation alone.",
+      "claim_ids": [
+        "C07"
+      ],
+      "claim_pages": [
+        5
+      ]
+    },
+    {
+      "id": "R07",
+      "pages": [
+        12
+      ],
+      "citation": "Celia, M.A., Nordbotten, J.M., 2012. Geological Storage of CO2: Modeling Approaches for Large-Scale Simulation. Wiley, p. 241.",
+      "raw_native_excerpt": "Celia, M.A., Nordbotten, J.M., 2012. Geological Storage of CO2: Modeling Approaches\nfor Large-Scale Simulation. Wiley, p. 241.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C04",
+        "C05"
+      ],
+      "claim_pages": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "R08",
+      "pages": [
+        12
+      ],
+      "citation": "Chaturantabut, S., Sorensen, D.C., 2011. Application of POD and DEIM on dimension reduction of non-linear miscible viscous fingering in porous media. Math. Comput. Model. Dyn. Syst. 17 (4), 337–353.",
+      "raw_native_excerpt": "Chaturantabut, S., Sorensen, D.C., 2011. Application of POD and DEIM on dimension\nreduction of non-linear miscible viscous fingering in porous media. Math. Comput.\nModel. Dyn. Syst. 17 (4), 337–353.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R09",
+      "pages": [
+        12
+      ],
+      "citation": "Coutinho, E.J.R., Dall’Aqua, M., Gildin, E., 2021. Physics-aware deep-learning-based proxy reservoir simulation model equipped with state and well output prediction. Front. Appl. Math. Stat. 7, http://dx.doi.org/10.3389/fams.2021.651178.",
+      "raw_native_excerpt": "Coutinho, E.J.R., Dall’Aqua, M., Gildin, E., 2021. Physics-aware deep-learning-based\nproxy reservoir simulation model equipped with state and well output prediction.\nFront. Appl. Math. Stat. 7, http://dx.doi.org/10.3389/fams.2021.651178.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R10",
+      "pages": [
+        12
+      ],
+      "citation": "Crîstiu, D., d’Amore, F., Mocellin, P., Bezzo, F., 2023. Multi-objective optimisation of a carbon capture and sequestration supply chain under seismic risk constraints. a case study considering industrial emissions in Italy. Int. J. Greenh. Gas Control. 129, http://dx.doi.org/10.1016/j.ijggc.2023.103993.",
+      "raw_native_excerpt": "Crîstiu, D., d’Amore, F., Mocellin, P., Bezzo, F., 2023. Multi-objective optimisation of\na carbon capture and sequestration supply chain under seismic risk constraints. a\ncase study considering industrial emissions in Italy. Int. J. Greenh. Gas Control.\n129, http://dx.doi.org/10.1016/j.ijggc.2023.103993.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R11",
+      "pages": [
+        12
+      ],
+      "citation": "d’Amore, F., Bezzo, F., 2017. Economic optimisation of European supply chains for CO2 capture, transport and sequestration. Int. J. Greenh. Gas Control. 65, 99–116. http://dx.doi.org/10.1016/j.ijggc.2017.08.015.",
+      "raw_native_excerpt": "d’Amore, F., Bezzo, F., 2017. Economic optimisation of European supply chains for\nCO2 capture, transport and sequestration. Int. J. Greenh. Gas Control. 65, 99–116.\nhttp://dx.doi.org/10.1016/j.ijggc.2017.08.015.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R12",
+      "pages": [
+        12
+      ],
+      "citation": "Güyagüler, B., 2002. Optimization of well placement and assessment of uncertainty.",
+      "raw_native_excerpt": "Güyagüler, B., 2002. Optimization of well placement and assessment of uncertainty.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R13",
+      "pages": [
+        12
+      ],
+      "citation": "Hart, W.E., Watson, J.-P., Woodruff, D.L., 2011. Pyomo: modeling and solving mathematical programs in python. Math. Program. Comput. 3 (3), 219–260.",
+      "raw_native_excerpt": "Hart, W.E., Watson, J.-P., Woodruff, D.L., 2011. Pyomo: modeling and solving\nmathematical programs in python. Math. Program. Comput. 3 (3), 219–260.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C24"
+      ],
+      "claim_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "R14",
+      "pages": [
+        12
+      ],
+      "citation": "He, J., Durlofsky, L.J., 2014. Reduced-order modeling for compositional simulation by use of trajectory piecewise linearization.",
+      "raw_native_excerpt": "He, J., Durlofsky, L.J., 2014. Reduced-order modeling for compositional simulation by\nuse of trajectory piecewise linearization.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior reduction/compositional/constraint-projection support pp3,5–6; original methods and notation not verified.",
+      "claim_ids": [
+        "C05",
+        "C07",
+        "C08"
+      ],
+      "claim_pages": [
+        3,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R15",
+      "pages": [
+        12
+      ],
+      "citation": "He, J., Durlofsky, L.J., 2015. Constraint reduction procedures for reduced-order subsurface flow models based on POD-TPWL. Internat. J. Numer. Methods Engrg. 103, 1–30. http://dx.doi.org/10.1002/nme.4874.",
+      "raw_native_excerpt": "He, J., Durlofsky, L.J., 2015. Constraint reduction procedures for reduced-order\nsubsurface flow models based on POD-TPWL. Internat. J. Numer. Methods Engrg.\n103, 1–30. http://dx.doi.org/10.1002/nme.4874.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior reduction/compositional/constraint-projection support pp3,5–6; original methods and notation not verified.",
+      "claim_ids": [
+        "C07"
+      ],
+      "claim_pages": [
+        5
+      ]
+    },
+    {
+      "id": "R16",
+      "pages": [
+        12
+      ],
+      "citation": "He, J., Sarma, P., Durlofsky, L.J., 2013. Reduced-order flow modeling and geological parameterization for ensemble-based data assimilation. Comput. Geosci. 55, 54–69. http://dx.doi.org/10.1016/j.cageo.2012.03.027.",
+      "raw_native_excerpt": "He, J., Sarma, P., Durlofsky, L.J., 2013. Reduced-order flow modeling and geological\nparameterization for ensemble-based data assimilation. Comput. Geosci. 55, 54–69.\nhttp://dx.doi.org/10.1016/j.cageo.2012.03.027.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior reduction/compositional/constraint-projection support pp3,5–6; original methods and notation not verified.",
+      "claim_ids": [
+        "C07"
+      ],
+      "claim_pages": [
+        5
+      ]
+    },
+    {
+      "id": "R17",
+      "pages": [
+        12
+      ],
+      "citation": "IEA, 2022. Co2 storage resources and their development - an IEA ccUS handbook. URL https://www.iea.org/reports/co2-storage-resources-and-their-development.",
+      "raw_native_excerpt": "IEA, 2022. Co2 storage resources and their development - an IEA ccUS handbook. URL\nhttps://www.iea.org/reports/co2-storage-resources-and-their-development.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R18",
+      "pages": [
+        12
+      ],
+      "citation": "IEA, 2023. Net zero roadmap: A global pathway to keep the 1.5 ◦ c goal in reach - 2023 update. URL www.iea.org/t&c/.",
+      "raw_native_excerpt": "IEA, 2023. Net zero roadmap: A global pathway to keep the 1.5 ◦ c goal in reach -\n2023 update. URL www.iea.org/t&c/.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Printed URL points to terms-and-conditions, not the exact2023 roadmap. Report/page and scenario support remain unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R19",
+      "pages": [
+        12
+      ],
+      "citation": "Jin, Z.L., Durlofsky, L.J., 2018. Reduced-order modeling of co2 storage operations. Int. J. Greenh. Gas Control. 68, 49–67. http://dx.doi.org/10.1016/j.ijggc.2017.08.017.",
+      "raw_native_excerpt": "Jin, Z.L., Durlofsky, L.J., 2018. Reduced-order modeling of co2 storage operations. Int.\nJ. Greenh. Gas Control. 68, 49–67. http://dx.doi.org/10.1016/j.ijggc.2017.08.017.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Core rate-controlled POD-TPWL, distance selection, saturation-risk and speed comparison pp3–6,8,11. Original simulations/model and supplementary methods remain unverified.",
+      "claim_ids": [
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C23",
+        "C30"
+      ],
+      "claim_pages": [
+        3,
+        4,
+        5,
+        6,
+        8,
+        9,
+        11
+      ]
+    },
+    {
+      "id": "R20",
+      "pages": [
+        12
+      ],
+      "citation": "Jones, E.C., Yaw, S., Bennett, J.A., Ogland-Hand, J.D., Strahan, C., Middleton, R.S., 2022. Designing multi-phased co2 capture and storage infrastructure deployments. Renew. Sustain. Energy Transit. 2, 100023. http://dx.doi.org/10.1016/j.rset.2022. 100023.",
+      "raw_native_excerpt": "Jones, E.C., Yaw, S., Bennett, J.A., Ogland-Hand, J.D., Strahan, C., Middleton, R.S.,\n2022. Designing multi-phased co2 capture and storage infrastructure deployments.\nRenew. Sustain. Energy Transit. 2, 100023. http://dx.doi.org/10.1016/j.rset.2022.\n100023.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R21",
+      "pages": [
+        12
+      ],
+      "citation": "Lie, K.-A., 2016. An introduction to reservoir simulation using MATLAB/GNU octave : User guide for the MATLAB reservoir simulation toolbox (MRST).",
+      "raw_native_excerpt": "Lie, K.-A., 2016. An introduction to reservoir simulation using MATLAB/GNU octave :\nUser guide for the MATLAB reservoir simulation toolbox (MRST).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "2016 MRST guide edition/code support for phase laws, Peaceman and well Jacobian conversion; version, native case and SI derivation unverified.",
+      "claim_ids": [
+        "C06",
+        "C11",
+        "C29"
+      ],
+      "claim_pages": [
+        3,
+        4,
+        5,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "R22",
+      "pages": [
+        12
+      ],
+      "citation": "Martynov, S.B., Porter, R.T., Mahgerefteh, H., 2024. Estimating the line packing time for pipelines transporting carbon dioxide. Carbon Capture Sci. Technol. 11, http: //dx.doi.org/10.1016/j.ccst.2023.100188.",
+      "raw_native_excerpt": "Martynov, S.B., Porter, R.T., Mahgerefteh, H., 2024. Estimating the line packing time\nfor pipelines transporting carbon dioxide. Carbon Capture Sci. Technol. 11, http:\n//dx.doi.org/10.1016/j.ccst.2023.100188.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R23",
+      "pages": [
+        12
+      ],
+      "citation": "Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture and storage: SimCCS. Energy Policy 37, 1052–1060. http://dx.doi.org/10.1016/j. enpol.2008.09.049.",
+      "raw_native_excerpt": "Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture\nand storage: SimCCS. Energy Policy 37, 1052–1060. http://dx.doi.org/10.1016/j.\nenpol.2008.09.049.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "Cost-minimizing capacitated California source/reservoir/pipeline network with trunkline aggregation and partial capture. Network-method context only; not a proof that every cited network has static storage or validation of Bertoni physics, pressure accuracy, native code or model rights. Cited paper remains separately incomplete.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R24",
+      "pages": [
+        12
+      ],
+      "citation": "Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic model for optimally phasing in CO 2 capture and storage infrastructure. Environ. Model. Softw. 37, 193–205. http://dx.doi.org/10.1016/j.envsoft.2012.04.003.",
+      "raw_native_excerpt": "Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic\nmodel for optimally phasing in CO 2 capture and storage infrastructure. Environ.\nModel. Softw. 37, 193–205. http://dx.doi.org/10.1016/j.envsoft.2012.04.003.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R25",
+      "pages": [
+        12
+      ],
+      "citation": "Møyner, O., Nilsen, H.M., 2019. Multiresolution coupled vertical equilibrium model for fast flexible simulation of CO2 storage. Comput. Geosci. 23, 1–20. http://dx.doi. org/10.1007/s10596-018-9775-z.",
+      "raw_native_excerpt": "Møyner, O., Nilsen, H.M., 2019. Multiresolution coupled vertical equilibrium model for\nfast flexible simulation of CO2 storage. Comput. Geosci. 23, 1–20. http://dx.doi.\norg/10.1007/s10596-018-9775-z.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C28"
+      ],
+      "claim_pages": [
+        10
+      ]
+    },
+    {
+      "id": "R26",
+      "pages": [
+        12
+      ],
+      "citation": "Ringrose, P., 2020. How to Store CO2 Underground: Insights from Early-Mover CCS Projects. SpringerBriefs in Earth Sciences, URL http://www.springer.com/series/ 8897.",
+      "raw_native_excerpt": "Ringrose, P., 2020. How to Store CO2 Underground: Insights from Early-Mover CCS\nProjects. SpringerBriefs in Earth Sciences, URL http://www.springer.com/series/\n8897.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Fracture/BHP, hydrostatic and storage-safety support pp2,7; generic book/series URL does not establish site-specific pressure datum, safe rate or permanence.",
+      "claim_ids": [
+        "C04",
+        "C11"
+      ],
+      "claim_pages": [
+        2,
+        7
+      ]
+    },
+    {
+      "id": "R27",
+      "pages": [
+        12
+      ],
+      "citation": "Roussanaly, S., Berghout, N., Fout, T., Garcia, M., Gardarsdottir, S., Nazir, S.M., Ramirez, A., Rubin, E.S., 2021. Towards improved cost evaluation of carbon capture and storage from industry. Int. J. Greenh. Gas Control. 106, http://dx.doi.org/10. 1016/j.ijggc.2021.103263.",
+      "raw_native_excerpt": "Roussanaly, S., Berghout, N., Fout, T., Garcia, M., Gardarsdottir, S., Nazir, S.M.,\nRamirez, A., Rubin, E.S., 2021. Towards improved cost evaluation of carbon capture\nand storage from industry. Int. J. Greenh. Gas Control. 106, http://dx.doi.org/10.\n1016/j.ijggc.2021.103263.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "R28",
+      "pages": [
+        12
+      ],
+      "citation": "Santibanez-Borda, E., Govindan, R., Elahi, N., Korre, A., Durucan, S., 2019. Maximising the dynamic co2 storage capacity through the optimisation of co2 injection and brine production rates. Int. J. Greenh. Gas Control. 80, 76–95. http://dx.doi.org/ 10.1016/j.ijggc.2018.11.012.",
+      "raw_native_excerpt": "Santibanez-Borda, E., Govindan, R., Elahi, N., Korre, A., Durucan, S., 2019. Maximising\nthe dynamic co2 storage capacity through the optimisation of co2 injection and\nbrine production rates. Int. J. Greenh. Gas Control. 80, 76–95. http://dx.doi.org/\n10.1016/j.ijggc.2018.11.012.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R29",
+      "pages": [
+        12
+      ],
+      "citation": "Tan, X., Gildin, E., Florez, H., Trehan, S., Yang, Y., Hoda, N., 2019. Trajectory-based DEIM (TDEIM) model reduction applied to reservoir simulation. Comput. Geosci. 23, 35–53. http://dx.doi.org/10.1007/s10596-018-9782-0.",
+      "raw_native_excerpt": "Tan, X., Gildin, E., Florez, H., Trehan, S., Yang, Y., Hoda, N., 2019. Trajectory-based\nDEIM (TDEIM) model reduction applied to reservoir simulation. Comput. Geosci.\n23, 35–53. http://dx.doi.org/10.1007/s10596-018-9782-0.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R30",
+      "pages": [
+        12
+      ],
+      "citation": "Temizel, C., Saputelli, L., Nabizadeh, M., Balaji, K., Suhag, A., Ranjith, R., Wijaya, Z., 2017. Enhancing optimization of reservoir simulation processes in next-generation reservoir simulators. In: SPE Reservoir Characterisation and Simulation Conference and Exhibition, http://dx.doi.org/10.2118/185972-MS, D021S008R002.",
+      "raw_native_excerpt": "Temizel, C., Saputelli, L., Nabizadeh, M., Balaji, K., Suhag, A., Ranjith, R., Wijaya, Z.,\n2017. Enhancing optimization of reservoir simulation processes in next-generation\nreservoir simulators. In: SPE Reservoir Characterisation and Simulation Conference\nand Exhibition, http://dx.doi.org/10.2118/185972-MS, D021S008R002.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, model/assets and supplement correspondence remain unverified.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R31",
+      "pages": [
+        12
+      ],
+      "citation": "Wiegner, J.F., Tiggeloven, J.L., Bertoni, L., Ossentjuk, I.M., Gazzani, M., 2025. Adopt- NET0: A technology-focused python package for the optimization of multi-energy systems. J. Open Source Softw. 10, 7402. http://dx.doi.org/10.21105/joss.07402, URL https://joss.theoj.org/papers/10.21105/joss.07402.",
+      "raw_native_excerpt": "Wiegner, J.F., Tiggeloven, J.L., Bertoni, L., Ossentjuk, I.M., Gazzani, M., 2025. Adopt-\nNET0: A technology-focused python package for the optimization of multi-energy\nsystems. J. Open Source Softw. 10, 7402. http://dx.doi.org/10.21105/joss.07402,\nURL https://joss.theoj.org/papers/10.21105/joss.07402.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "AdOpT-NET0 package citation p9; package availability is not the Bertoni native reservoir/cluster case, version pin, Gurobi license or validation.",
+      "claim_ids": [
+        "C24"
+      ],
+      "claim_pages": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3,
+        4,
+        7,
+        11
+      ],
+      "citation": "MRST native saline-aquifer deck, fluids, SCAL, boundary conditions and well geometry",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "6877 cells inferred from13754 states, but grid/property/well arrays and reservoir calibration are not supplied in main PDF.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N02",
+      "pages": [
+        5,
+        11
+      ],
+      "citation": "Supplement rate-controlled well Jacobian extraction/conversion",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Source says MRST native Jacobians cannot be used directly with rate control; the essential conversion is delegated to SI.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N03",
+      "pages": [
+        5,
+        7,
+        8
+      ],
+      "citation": "Five30-year training snapshots, SVD/basis and initialization",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure71/saturation1 modes are stated; native matrices, centering/scaling, initial conditions, tolerances and trial/tuning history unavailable.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N04",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "citation": "Primary training-run controls and J/A/B reduced operators",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Only one run supplies TPWL Jacobians/selection. Candidate/time indexing, units and native operators remain missing.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N05",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "citation": "Four validation trajectories, pressure errors and timing protocol",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Reported output tables/plots retained, not exact rate/pressure arrays, residual balances or independently timed MRST/ROM runs.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N06",
+      "pages": [
+        6,
+        10,
+        11
+      ],
+      "citation": "Big-M/indicator and selected-affine-map implementation",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Bounds, product linearizations, tie/endpoint handling and coefficient indices are essential but not fully specified in main equations.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N07",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "citation": "Industrial cluster daily emission profiles, capture utility/cost and CO2 tax cases",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Two cement/WtE native cases and full capture heat/power/supplier inventories delegated to other papers/SI, not supplied here.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N08",
+      "pages": [
+        7,
+        9,
+        11
+      ],
+      "citation": "Pressure/density/WI/mobility and pump-plane fitting data",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native state/reference conditions, depth/datum, pressure losses, efficiency, fit coefficients/domain/errors missing. Reported1–1.5kWh/t is dense-phase pump only.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N09",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "citation": "AdOpT-NET0/Pyomo/Gurobi case code, releases, logs and rights",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Gurobi11.0.2/2%gap and94.39s reported. A package citation does not provide the specific executable author case or all licensed capabilities.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N10",
+      "pages": [
+        2,
+        7,
+        9,
+        10,
+        11
+      ],
+      "citation": "Caprock fracture/pressure limits, transient and physical safety validation",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BHP<=.9pmax is a coarse model constraint, not an independently demonstrated thermal/fault/leakage or daily-peak guarantee.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N11",
+      "pages": [
+        7,
+        9,
+        11
+      ],
+      "citation": "AppendixA publisher supplements, errata and data-on-request assets",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Explicit supplementary notice and data-on-request statement. No embedded/matched local supplement; public contents/absence and case rights remain unverified during Chrome wait.",
+      "claim_ids": [],
+      "claim_pages": []
+    }
+  ]
+}
