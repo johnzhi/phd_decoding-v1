@@ -1,0 +1,46 @@
+{
+  "study_id": "B2-01",
+  "source_sha256": "1d220eda63796508f2197e73ac39e71dc4921939204d9477b274a1d2364177cc",
+  "diagnostic_count": 49,
+  "inference_grid_rows": 402,
+  "components_reconstructed": [
+    "Published Figures6/8 inference with literal branch boundaries",
+    "Linear F/I timesW well-capital component",
+    "Entropy/unit/timing arithmetic"
+  ],
+  "native_ICCSEM_optimization_or_tree_training_accuracy_reproduced": false,
+  "physical_reservoir_or_retention_model_reproduced": false,
+  "accepted_inputs_changed": false,
+  "citation_check": {
+    "citing_study": "B2-01",
+    "citing_path": "papers/B2-01.pdf",
+    "citing_sha256": "1d220eda63796508f2197e73ac39e71dc4921939204d9477b274a1d2364177cc",
+    "citing_pages": [
+      2,
+      3,
+      9,
+      10
+    ],
+    "reference_id": "R24",
+    "cited_study": "B3-13",
+    "cited_path": "papers/B3-13.pdf",
+    "cited_sha256": "ff86c737307a2d56c0524b25161eaeadf620b44c87725e4cd3e7a9a99470ab5d",
+    "cited_DOI": "10.1016/j.ijggc.2011.11.011",
+    "targeted_pages": [
+      1,
+      2,
+      3
+    ],
+    "status": "primary_text_checked_with_scope_limits",
+    "support": "Spatial/staged MILP transport-network method,clustering,preselection and exogenous capture in exact retained original.",
+    "limits": "Not a full B3-13 review or model reproduction. No support check of the specific WestPoland map/example, universal tree screening or new accuracy/global optimality claim."
+  },
+  "missing": {
+    "native_ICCSEM_pipeline_booster_emissions_cost_and_decommissioning_functions": null,
+    "complete_absolute_I_L_grid_and_case_outputs": null,
+    "training_labels_split_pruning_seed_and_cost_regret": null,
+    "finite_sink_BOTH_allocations_SHIFT_timing_and_all_hybrid_options": null,
+    "physical_pressure_transient_well_interference_and_retention": null,
+    "originals_supplements_code_errata_rights_and_validation": null
+  }
+}

@@ -1,0 +1,532 @@
+{
+  "study_id": "B2-01",
+  "source_sha256": "1d220eda63796508f2197e73ac39e71dc4921939204d9477b274a1d2364177cc",
+  "printed_entries": 45,
+  "named_dependencies": 6,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        10
+      ],
+      "citation": "Allinson, G., Ho, M., Neal, P., Wiley, D., 2006. The methodology used for estimating the costs of CCS. In: In Proceedings of the 8th International Conference on Greenhouse Gas Control Technology (GHGT-8), Trondheim, Norway, http://dx. doi.org/10.1016/j.egypro.2013.06.361.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CO2CRC costing p4; printed DOI duplicates Neal2013, identity unresolved. Underlying original support remains unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        10
+      ],
+      "citation": "Allinson, G., Fimbres-Weihs, G., Ho, M., Neal, P., Richards, M., Wiley, D., McKee, G. (2012). CCS economics methodology and assumptions. CO2CRC Report No: RPT12-3490, Sydney, Australia.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CO2CRC cost assumptions pp4,8. Underlying original support remains unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        10
+      ],
+      "citation": "Carbon Storage Taskforce, 2009. National Carbon Mapping and Infrastructure Plan—Australia. Department of Resources, Energy and Tourism Australian Government, https://www.globalccsinstitute.com/publications/national- carbon-mapping-and-infrastructure-plan-australia-full-report (accessed 16.02.01.).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Capacity/probability/well-cost context pp2,4; printed35Mtpa storage wording unresolved. Underlying original support remains unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        10
+      ],
+      "citation": "Chandel, M.K., Pratson, L.F., Williams, E., 2010. Potential economies of scale in CO2 transport through use of a trunk pipeline. Energy Convers. Manage. 51, 2825–2834, http://dx.doi.org/10.1016/j.enconman.2010.06.020.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pipeline economies p5. Underlying original support remains unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        10
+      ],
+      "citation": "Conca, J., 2014. Pick Your Poison For Crude—Pipeline, Rail Truck Or Boat, http:// www.forbes.com/sites/jamesconca/2014/04/26/pick-your-poison-for-crude- pipeline-rail-truck-or-boat/ (accessed 16.02.01.).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Decision-tree general-method attribution p5; exact Forbes content/support unverified. Underlying original support remains unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        10
+      ],
+      "citation": "Cosham, A., Eiber, R., 2007. Fracture control in carbon dioxide pipelines. J. Pipeline Eng. (3rd Quarter), 147–158.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pipeline thickness/fracture authority p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        10
+      ],
+      "citation": "Diamante, J.A.R., Tan, R.R., Foo, D.C.Y., Ng, D.K.S., Aviso, K.B., Bandyopadhyay, S., 2013. A graphical approach for pinch-based source-sink matching and sensitivity analysis in carbon capture and storage systems. Ind. Eng. Chem. Res. 52, 7211–7222, http://dx.doi.org/10.1021/ie302481h.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pinch literature and geographic-cost critique p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        10
+      ],
+      "citation": "Diamante, J.A.R., Tan, R.R., Foo, D.C.Y., Ng, D.K.S., Aviso, K.B., Bandyopadhyay, S., 2014. Uniﬁed pinch approach for targeting of carbon capture and storage (CCS) systems with multiple time periods and regions. J. Clean. Prod., 67–74, http:// dx.doi.org/10.1016/j.jclepro.2013.11.027.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pinch literature and geographic-cost critique p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        10
+      ],
+      "citation": "Dooley, J.J., Dahowski, R.T., Davidson, C.L., Bachu, S., Gupta, N., Gale, J., 2005. A CO2 storage supply curve for North America and its implications for the deployment of carbon dioxide capture and storage systems. In: Proceedings of the Seventh International Conference on Greenhouse Gas Control Technologies, 5–9 September 2004, Vancouver, Canada, pp. 593–601.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Abundant capacity context p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        10
+      ],
+      "citation": "Element Energy Limited, 2010. CO2 Pipeline Infrastructure: An Analysis of Global Challenges and Opportunities. Final Report. In: International Energy Agency Greenhouse Gas Programme, 2010, Cambridge.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Global map and distance context pp1–4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        10
+      ],
+      "citation": "European Technology Platform for Zero Emission Fossil Fuel Power Plants (ZEP), 2011. The Costs of CO2 Transport: Post-demonstration CCS in the EU.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "European distance context pp2–3. Underlying original support remains unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        10
+      ],
+      "citation": "Fimbres Weihs, G.A., Wiley, D.E., 2012. Steady-state design of CO2 pipeline networks for minimal cost per tonne of CO2 avoided. Int. J. Greenh. Gas Control 8, 150–168, http://dx.doi.org/10.1016/j.ijggc.2012.02.008.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Capture separation/transport cost authority pp3–4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        10
+      ],
+      "citation": "Fimbres-Weihs, G.A., Wiley, D.E., Ho, M., 2011. Steady-state optimisation of CCS pipeline networks for cases with multiple emission sources and injection sites: South-east Queensland case study. Energy Procedia, 2748–2755, http://dx.doi. org/10.1016/j.egypro.2011.02.177.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Spatial optimisation/context pp2–3,9. Underlying original support remains unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        10
+      ],
+      "citation": "Friedl, M.A., Brodley, C.E., 1997. Decision tree classiﬁcation of land cover from remotely sensed data. Remote Sens. Environ. 61, 399–409, http://dx.doi.org/ 10.1016/S0034-4257(97)00049-7.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "95% accuracy comparison context p6; another domain not engineering reliability. Underlying original support remains unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        10
+      ],
+      "citation": "Jensen, M.D., Pei, P., Snyder, A.C., Heebink, L.V., Botnen, L.S., Gorecki, C.D., Steadman, E.N., Harju, J.A., 2013. Methodology for phased development of a hypothetical pipeline network for CO2 transport during carbon capture, utilization, and storage. Energy Fuels, 4175–4182, http://dx.doi.org/10.1021/ ef302042p.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Staged network/context p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        10
+      ],
+      "citation": "Kazmierczak, T., Brandsma, R., Neele, F., Hendriks, C., 2009. Algorithm to create a CCS low-cost pipeline network. Energy Procedia, 1617–1623, http://dx.doi.org/ 10.1016/j.egypro.2009.01.212.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Large network algorithm pp2,10. Underlying original support remains unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        10
+      ],
+      "citation": "Kjärstad, J., Morbee, J., Odenberger, M., Johnsson, F., Tzimas, E., 2013. Modelling large-scale CCS development in europe linking techno-economic modelling to transport infrastructure. Energy Procedia 37, 2941–2948, http://dx.doi.org/10. 1016/j.egypro.2013.06.180.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Large network/context pp2–3. Underlying original support remains unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        10
+      ],
+      "citation": "Knoope, M.M.J., Guijt, W., Ramírez, A., Faaij, A.P.C., 2014. Improved cost models for optimizing CO2 pipeline conﬁguration for point-to-point pipelines and simple networks. Int. J. Greenh. Gas Control 22, 25–46, http://dx.doi.org/10.1016/j. ijggc.2013.12.016.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Offshore complexity p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        10
+      ],
+      "citation": "Lee, J.-Y., Tan, R.R., Chen, C.-L., 2014. A uniﬁed model for the deployment of carbon capture and storage. Appl. Energy 121, 140–148, http://dx.doi.org/10.1016/j. apenergy.2014.01.080.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "MILP literature and geographic critique p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        10
+      ],
+      "citation": "McCollum, D.L., Ogden, J.M., 2006. Techno-Economic Models for Carbon Dioxide Compression, Transport, and Storage, UCD—ITS-RR-06-14.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Generic network ranking p9. Underlying original support remains unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        10
+      ],
+      "citation": "Michael, K., Neal, P.R., Allinson, G., Ennis-King, J., Hou, W., Paterson, L., Sharma, S., Aiken, T., 2011. Injection strategies for large-scale CO2 storage sites. Energy Procedia, 4267–4274, http://dx.doi.org/10.1016/j.egypro.2011.02.376.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Injection/well-spacing limits p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        10
+      ],
+      "citation": "Middleton, R.S., Bielicki, J.M., 2009. A comprehensive carbon capture and storage infrastructure model. Energy Procedia, 1611–1616, http://dx.doi.org/10.1016/j. egypro.2009.01.211.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Network example p2; distinct DOI from B3-44, no substitution. Underlying original support remains unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        10
+      ],
+      "citation": "Mohitpour, M., Golshan, H., Murray, A., 2006. Pipeline Design & Construction: A Practical Approach, third edition. American Society of Mechanical Engineers Press, New York.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Generic pipeline model p9. Underlying original support remains unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        10
+      ],
+      "citation": "Morbee, J., Serpa, J., Tzimas, E., 2012. Optimised deployment of a European CO2 transport network. Int. J. Greenh. Gas Control, http://dx.doi.org/10.1016/j.ijggc. 2011.11.011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "Exact DOI10.1016/j.ijggc.2011.11.011 matches retained B3-13. Physicalpp1–3 text/rendered layouts support spatial pipeline routing/preselection and staged MILP InfraCCS with exogenous capture, rather than colocated zero-transport modelling. They do not validate this paper’s decision-tree pruning,95% accuracy or specific WestPoland example. Full B3-13 audit, model and citation chain remain open."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        10
+      ],
+      "citation": "Neal, P.R., Cinar, Y., Allinson, W.G., 2011. The economics of pressure-relief with CO2 injection. Energy Procedia, 4215–4220, http://dx.doi.org/10.1016/j.egypro. 2011.02.369.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure relief context p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        10
+      ],
+      "citation": "Neal, P.R., Cinar, Y., Allinson, W.G., 2013. An integrated economic and engineering assessment of opportunities for CO2 injection with water production in South-East Queensland, Australia. Energy Procedia 37, 4544–4551, http://dx. doi.org/10.1016/j.egypro.2013.06.361.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Water/injection design p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        10
+      ],
+      "citation": "Oladyshkin, S., Class, H., Helmig, R., Nowak, W., 2011a. A concept for data-driven uncertainty quantiﬁcation and its application to carbon dioxide storage in geological formations. Adv. Water Resour. 34, 1508–1518, http://dx.doi.org/10. 1016/j.advwatres.2011.08.005.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Uncertainty context p1. Underlying original support remains unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        10
+      ],
+      "citation": "Oladyshkin, S., Class, H., Helmig, R., Nowak, W., 2011b. An integrative approach to robust design and probabilistic risk assessment for CO2 storage in geological formations. Comput. Geosci. 15, 565–577.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Uncertainty context p1. Underlying original support remains unverified."
+    },
+    {
+      "id": "R29",
+      "pages": [
+        10
+      ],
+      "citation": "Piessens, K., Vandeginste, V., Welkenhuysen, K., Laenen, B., Dreesen, R., Bierkens, J., Broothaers, M., Hildenbrand, S., Lagrou, D., Nijs, W., Mathieu, P., Bertrand, E., Baele, J.-M., Hendriks, C., de Visser, E., Brandsma, R., 2008. Policy Support System for Carbon Capture and Storage Capture and Storage—D/2009/1191/1.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Geologic economic risk p1. Underlying original support remains unverified."
+    },
+    {
+      "id": "R30",
+      "pages": [
+        10
+      ],
+      "citation": "Quinlan, J.R., 1986. Induction of decision trees. Mach. Learn. 1, 81–106, http://dx. doi.org/10.1023/A:1022643204877.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Entropy/tree induction p5. Underlying original support remains unverified."
+    },
+    {
+      "id": "R31",
+      "pages": [
+        10
+      ],
+      "citation": "Roussanaly, S., Brunsvold, A.L., Hognes, E.S., 2014. Benchmarking of CO2 transport technologies: part II—offshore pipeline and shipping to an offshore site. Int. J. Greenh. Gas Control 28, 283–299, http://dx.doi.org/10.1016/j.ijggc.2014.06. 019.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Long-distance context p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R32",
+      "pages": [
+        10
+      ],
+      "citation": "Standards Australia, 2012. AS 2885.1 Pipelines—gas and liquid petroleum—design and construction.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "AS2885.1 design p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R33",
+      "pages": [
+        11
+      ],
+      "citation": "Stewart, R.J., Scott, V., Haszeldine, R.S., Ainger, D., Argent, S., 2012. The feasibility of a European-wide integrated CO2 transport network. Greenh. Gases Sci. Technol. 2, 408–418, http://dx.doi.org/10.1002/ghg.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Europe distance context p3; incomplete printed DOI. Underlying original support remains unverified."
+    },
+    {
+      "id": "R34",
+      "pages": [
+        11
+      ],
+      "citation": "Tapia, J.F.D., Tan, R.R., 2014. Fuzzy optimization of multi-period carbon capture and storage systems with parametric uncertainties. Process Saf. Environ. Prot. 92, 545–554, http://dx.doi.org/10.1016/j.psep.2014.04.012.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Fuzzy/MILP assumptions critique p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R35",
+      "pages": [
+        11
+      ],
+      "citation": "Tien Bui, D., Pradhan, B., Lofman, O., Revhaug, I., 2012. Landslide susceptibility assessment in Vietnam using support vector machines, decision tree, and nave bayes models. Math. Probl. Eng. 2012, http://dx.doi.org/10.1155/2012/974638.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "95% accuracy comparison p6; not physical safety. Underlying original support remains unverified."
+    },
+    {
+      "id": "R36",
+      "pages": [
+        11
+      ],
+      "citation": "Toews, G., Naumov, A., 2015. The relationship between oil price and costs in the Oil and Gas Industry (OxCarre Research Paper 152).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Well drilling cost context p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R37",
+      "pages": [
+        11
+      ],
+      "citation": "Viebahn, P., Daniel, V., Samuel, H., 2012. Integrated assessment of carbon capture and storage (CCS) in the German power sector and comparison with the deployment of renewable energies. Appl. Energy 97, 238–248, http://dx.doi. org/10.1016/j.apenergy.2011.12.053.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CCS implementation context pp3–4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R38",
+      "pages": [
+        11
+      ],
+      "citation": "Viebahn, P., Vallentin, D., Höller, S., 2014. Prospects of carbon capture and storage (CCS) in India’s power sector—an integrated assessment. Appl. Energy 117, 62–75, http://dx.doi.org/10.1016/j.apenergy.2013.11.054.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CCS implementation context pp3–4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R39",
+      "pages": [
+        11
+      ],
+      "citation": "Wang, Z., Fimbres Weihs, G.A., Cardenas, G.I., Wiley, D.E., 2014a. Optimal pipeline design for CCS projects with anticipated increasing CO2 ﬂow rates. Int. J. Greenh. Gas Control 31, 165–174, http://dx.doi.org/10.1016/j.ijggc.2014.10. 010.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pipeline-range context p3. Underlying original support remains unverified."
+    },
+    {
+      "id": "R40",
+      "pages": [
+        11
+      ],
+      "citation": "Wang, Z., Fimbres Weihs, G.A., Neal, P.R., Wiley, D.E., 2014b. Effect of storage capacity on CO2 pipeline optimisation. Energy Procedia 63, 2757–2763, http:// dx.doi.org/10.1016/j.egypro.2014.11.298.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Earlier capacity work pp2,6,9. Underlying original support remains unverified."
+    },
+    {
+      "id": "R41",
+      "pages": [
+        11
+      ],
+      "citation": "Weihs, G.A.F., Kumar, K., Wiley, D.E., 2014. Understanding the economic feasibility of ship transport of CO2 within the CCS chain. Energy Procedia, 2630–2637, http://dx.doi.org/10.1016/j.egypro.2014.11.285.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Shipping exclusion/possible extension p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R42",
+      "pages": [
+        11
+      ],
+      "citation": "Welkenhuysen, K., Ramírez, A., Swennen, R., Piessens, K., 2013. Strategy for ranking potential CO2 storage reservoirs: a case study for Belgium. Int. J. Greenh. Gas Control 17, 431–449, http://dx.doi.org/10.1016/j.ijggc.2013.05.025.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Storage assessment context p1. Underlying original support remains unverified."
+    },
+    {
+      "id": "R43",
+      "pages": [
+        11
+      ],
+      "citation": "Whiriskey, K., 2014. Scaling the CO2 storage industry: A study and a tool. A study of the CO2 storage industry in Europe to 2050 – and a tool to measure its feasibility, the requirements and the bottlenecks. Bellona Europa, Brussels.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Geologic design/capture impact p1. Underlying original support remains unverified."
+    },
+    {
+      "id": "R44",
+      "pages": [
+        11
+      ],
+      "citation": "Wiley, D., Neal, P., Ho, M., Fimbres Weihs, G., 2015a. CO2 transport and storage case studies. In: Bongers, G., Booras, G. (Eds.), Australian Power Generation Technology Report. EPRI Inc. & CO2CRC Pty. Ltd., Melbourne, Australia, pp. 277–292.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Distance/ship context pp2–4. Underlying original support remains unverified."
+    },
+    {
+      "id": "R45",
+      "pages": [
+        11
+      ],
+      "citation": "Wiley, D., Neal, P., Ho, M., Fimbres Weihs, G., 2015b. Carbon dioxide transport and storage. In: Bongers, G., Booras, G. (Eds.), Australian Power Generation Technology Report. EPRI Inc. & CO2CRC Pty Ltd., Melbourne, Australia, pp. 179–201.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CO2CRC methodology p4. Underlying original support remains unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "citation": "Native ICCSEM pipeline and injection economic model",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Hydraulics,unitcosts,booster emissions,decommissioning schedules and raw case optima missing."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "citation": "Original decision-tree training and validation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Training labels, split/pruning details, validation independence, confusion matrices and cost regret missing; inference diagrams alone do not reproduce training."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        2,
+        6,
+        9
+      ],
+      "citation": "Finite-sink schedules and excluded alternatives",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOTH flow shares, SHIFT date and omitted hybrid/shared-route decisions unavailable; claimed optimality is restricted."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "citation": "Absolute input mapping, geometry and well counts",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Ratios do not recover absolute I/length inputs; injectivity examples and geometry domains require reconciliation."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        4
+      ],
+      "citation": "Transient reservoir safety and retention",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Well interference, pressure limits, brine relief, heterogeneity and permanent retention not modelled or calibrated."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        1,
+        10,
+        11
+      ],
+      "citation": "External assets, code, errata and rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded file or explicit supplement notice; availability unverified during Chrome wait, no public-absence claim."
+    }
+  ]
+}
