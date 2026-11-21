@@ -1,0 +1,99 @@
+{
+  "study_id": "B2-03",
+  "source_path": "papers/B2-03.pdf",
+  "source_sha256": "c197de09246b26d7b3d39a96fd8f4edbfb519bb004d55298ebf28c467e1a43c3",
+  "DOI": "10.1016/j.compchemeng.2025.109300",
+  "provenance": "All11 physical pages read and rendered;8 figures,35 numbered equations,2 algorithms and unnumbered nomenclature/symbol objects inspected. Native code, case arrays and explicitly referenced supplement missing/unverified.",
+  "case": {
+    "sources": 820,
+    "sequestration_sites": 3,
+    "utilization_sites": 5,
+    "Appalachian_utilization_sites": 2,
+    "source_emissions_ktpa": 458673,
+    "planning_years": [
+      2026,
+      2050
+    ],
+    "forecast_years": 5,
+    "annual_base_budget_billion_dollars": 4.8,
+    "discount_rate": 0.03,
+    "social_cost_dollars_per_t": 42,
+    "batches": 10,
+    "scenarios_per_batch": 25,
+    "evaluation_scenarios": 5000,
+    "reported_solver_gap": 0.01,
+    "first_new_capture_ktpa": 10596,
+    "last_new_capture_ktpa": 9641,
+    "reported_final_emissions_ktpa": 204723,
+    "reported_base_reduction_percent": 55.3,
+    "deterministic_lifetime_deviation_kt": 4795,
+    "stochastic_lifetime_deviation_kt": 145.24,
+    "reported_deviation_reduction_percent": 96.97
+  },
+  "budget_cases": [
+    {
+      "fraction": 0.5,
+      "reported_reduction_percent": 27.5
+    },
+    {
+      "fraction": 0.75,
+      "reported_reduction_percent": 41.5
+    },
+    {
+      "fraction": 1,
+      "reported_reduction_percent": 55.3
+    },
+    {
+      "fraction": 1.25,
+      "reported_reduction_percent": 64.2
+    }
+  ],
+  "literal_issues": {
+    "stochastic_objectives_7_13_capture_cost": "-(CI-CO)*mu; Eq1/Eq19/Eq25 and explanation use -(CI+CO)*mu",
+    "pipeline_terms": "k remains free in CT_i,k,t*h_i,k,t terms without sum over k",
+    "algorithm_sense": "arg min for maximization formulations",
+    "algorithm_update": "remove new sources from I_A before subtracting L*sum over I_A of y at tau",
+    "stock_rate": "St_k,omega called maximum yearly amount in symbols but divided by L as stock",
+    "bound_claim": "Eq31 asserts arbitrary feasible rolling solution sample value >= true-policy sample value"
+  },
+  "analyst_cost_case": {
+    "benefit": 90,
+    "investment": 70,
+    "operating": 20,
+    "pipeline": 5,
+    "storage": 5,
+    "revenue": 0,
+    "scope": "Arbitrary consistent monetary units; not native author costs."
+  },
+  "analyst_stock_case": {
+    "initial_stock": 25,
+    "lifetime": 10,
+    "annual_flows": [
+      2,
+      2
+    ],
+    "scope": "Synthetic stock25 andtwo2/year cohorts eachlasting10years; no physical reservoir inference."
+  },
+  "analyst_horizon_case": {
+    "capacity": 1,
+    "commitments": [
+      1,
+      1
+    ],
+    "rewards": [
+      5,
+      10
+    ],
+    "scope": "Synthetic two-period, one-sink, no-uncertainty case with one-period forecast and explicit reservation. Not Illinois reproduction."
+  },
+  "missing": {
+    "numeric_L": null,
+    "capture_and_pipeline_cost_arrays": null,
+    "source_sink_identity_distance_and_CDF_arrays": null,
+    "joint_scenarios_and_seeds": null,
+    "author_code_supplement_rights_and_errata": null,
+    "pressure_injectivity_and_lifecycle_retention_model": null,
+    "complete_matched_capture_conditioning_utility_inventory": null
+  },
+  "accepted_inputs_changed": false
+}

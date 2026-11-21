@@ -1,0 +1,693 @@
+{
+  "study_id": "B2-03",
+  "source_sha256": "c197de09246b26d7b3d39a96fd8f4edbfb519bb004d55298ebf28c467e1a43c3",
+  "printed_entries": 31,
+  "named_dependencies": 10,
+  "provenance": "All bibliography entries on physicalp11 read in text and rendered columns. Native line order preserved to avoid hyperlink bbox/column extraction loss. Two scoped primary method-context checks; no other support verification.",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        11
+      ],
+      "citation": "Aras, C.M., Ntaimo, L., Hasan, M.M.F., 2025. Optimal design of carbon capture, utilization and storage (CCUS) networks under uncertain geological storage volumes and CO2 price. Comput. Chem. Eng. 201.",
+      "raw_native_excerpt": "Aras, C.M., Ntaimo, L., Hasan, M.M.F., 2025. Optimal design of carbon capture,\nutilization and storage (CCUS) networks under uncertain geological storage volumes\nand CO2 price. Comput. Chem. Eng. 201.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior method defines inverse-transform sampling; main paper refers to Section4.2. Exact CDF interpolation, joints, seeds and native case remain unverified.",
+      "claim_ids": [
+        "C04",
+        "C07"
+      ],
+      "claim_pages": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "R02",
+      "pages": [
+        11
+      ],
+      "citation": "Chand, S., Hsu, V.N., Sethi, S., 2002. Forecast, solution, and rolling horizons in operations management problems: A classified bibliography. Manuf. Serv. Oper. Manag. 4, 25–43.",
+      "raw_native_excerpt": "Chand, S., Hsu, V.N., Sethi, S., 2002. Forecast, solution, and rolling horizons in\noperations management problems: A classified bibliography. Manuf. Serv. Oper.\nManag. 4, 25–43.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C08"
+      ],
+      "claim_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R03",
+      "pages": [
+        11
+      ],
+      "citation": "d’Amore, F., Mocellin, P., Vianello, C., Maschio, G., Bezzo, F., 2018. Economic opti- misation of European supply chains for CO2 capture, transport and sequestration, including societal risk analysis and risk mitigation measures. Appl. Energy 223, 401–415.",
+      "raw_native_excerpt": "d’Amore, F., Mocellin, P., Vianello, C., Maschio, G., Bezzo, F., 2018. Economic opti-\nmisation of European supply chains for CO2 capture, transport and sequestration,\nincluding societal risk analysis and risk mitigation measures. Appl. Energy 223,\n401–415.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11
+      ],
+      "citation": "Diamante, J.A.R., Tan, R.R., Foo, D.C., Ng, D.K., Aviso, K.B., Bandyopadhyay, S., 2013. A graphical approach for pinch-based source-sink matching and sensitivity analysis in carbon capture and storage systems. Ind. Eng. Chem. Res. 52, 7211–7222.",
+      "raw_native_excerpt": "Diamante, J.A.R., Tan, R.R., Foo, D.C., Ng, D.K., Aviso, K.B., Bandyopadhyay, S., 2013.\nA graphical approach for pinch-based source-sink matching and sensitivity analysis\nin carbon capture and storage systems. Ind. Eng. Chem. Res. 52, 7211–7222.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R05",
+      "pages": [
+        11
+      ],
+      "citation": "Duarte, A., Angarita, J.D., Espinosa-Cárdenas, J.P., Lizcano, J., García-Saravia, R.C., Uribe-Rodríguez, A., 2022. Multiperiod optimization model for CO2 capture, utilization and storage, Colombian case study. In: Montastruc, L., Negny, S. (Eds.), 32nd European Symposium on Computer Aided Process Engineering. In: Computer Aided Chemical Engineering, vol. 51, Elsevier, pp. 997–1002.",
+      "raw_native_excerpt": "Duarte, A., Angarita, J.D., Espinosa-Cárdenas, J.P., Lizcano, J., García-Saravia, R.C.,\nUribe-Rodríguez, A., 2022. Multiperiod optimization model for CO2 capture,\nutilization and storage, Colombian case study. In: Montastruc, L., Negny, S. (Eds.),\n32nd European Symposium on Computer Aided Process Engineering. In: Computer\nAided Chemical Engineering, vol. 51, Elsevier, pp. 997–1002.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R06",
+      "pages": [
+        11
+      ],
+      "citation": "EPA, 2016. US and climate change division - technical support document: Technical update of the social cost of carbon for regulatory impact analysis under executive order 12866.",
+      "raw_native_excerpt": "EPA, 2016. US and climate change division - technical support document: Technical\nupdate of the social cost of carbon for regulatory impact analysis under executive\norder 12866.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "42 dollars/ton social cost and3% case discount context; dollar year, currency/ton basis, lifetime coefficient and source document need verification.",
+      "claim_ids": [
+        "C13"
+      ],
+      "claim_pages": [
+        7
+      ]
+    },
+    {
+      "id": "R07",
+      "pages": [
+        11
+      ],
+      "citation": "Fraga, D., Korre, A., Nie, Z., Durucan, S., 2021. Multi-period cost optimisation of multi-mode carbon capture and storage chains.",
+      "raw_native_excerpt": "Fraga, D., Korre, A., Nie, Z., Durucan, S., 2021. Multi-period cost optimisation of\nmulti-mode carbon capture and storage chains.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R08",
+      "pages": [
+        11
+      ],
+      "citation": "Fraga, D.M., Korre, A., Nie, Z., Durucan, S., 2024. Multi-period, multi-objective optimisation of the northern lights and stella maris carbon capture and storage chains. Carbon Capture Sci. Technol. 11.",
+      "raw_native_excerpt": "Fraga, D.M., Korre, A., Nie, Z., Durucan, S., 2024. Multi-period, multi-objective\noptimisation of the northern lights and stella maris carbon capture and storage\nchains. Carbon Capture Sci. Technol. 11.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R09",
+      "pages": [
+        11
+      ],
+      "citation": "Glomb, L., Liers, F., Rösel, F., 2022. A rolling-horizon approach for multi-period optimization. European J. Oper. Res. 300, 189–206.",
+      "raw_native_excerpt": "Glomb, L., Liers, F., Rösel, F., 2022. A rolling-horizon approach for multi-period\noptimization. European J. Oper. Res. 300, 189–206.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C08"
+      ],
+      "claim_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R10",
+      "pages": [
+        11
+      ],
+      "citation": "Han, J.H., Lee, I.B., 2012. Multiperiod stochastic optimization model for carbon capture and storage infrastructure under uncertainty in CO 2 emissions, product prices, and operating costs. Ind. Eng. Chem. Res. 51, 11445–11457.",
+      "raw_native_excerpt": "Han, J.H., Lee, I.B., 2012. Multiperiod stochastic optimization model for carbon capture\nand storage infrastructure under uncertainty in CO 2 emissions, product prices, and\noperating costs. Ind. Eng. Chem. Res. 51, 11445–11457.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R11",
+      "pages": [
+        11
+      ],
+      "citation": "Hasan, M.M.F., Boukouvala, F., First, E.L., Floudas, C.A., 2014. Nationwide, regional, and statewide CO2 capture, utilization, and sequestration supply chain network optimization. Ind. Eng. Chem. Res. 53, 7489–7506.",
+      "raw_native_excerpt": "Hasan, M.M.F., Boukouvala, F., First, E.L., Floudas, C.A., 2014. Nationwide, regional,\nand statewide CO2 capture, utilization, and sequestration supply chain network\noptimization. Ind. Eng. Chem. Res. 53, 7489–7506.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R12",
+      "pages": [
+        11
+      ],
+      "citation": "Hasan, M.M.F., First, E.L., Boukouvala, F., Floudas, C.A., 2015. A multi-scale framework for CO2 capture, utilization, and sequestration: CCUS and CCU. Comput. Chem. Eng. 81, 2–21.",
+      "raw_native_excerpt": "Hasan, M.M.F., First, E.L., Boukouvala, F., Floudas, C.A., 2015. A multi-scale framework\nfor CO2 capture, utilization, and sequestration: CCUS and CCU. Comput. Chem.\nEng. 81, 2–21.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R13",
+      "pages": [
+        11
+      ],
+      "citation": "He, Y.J., Zhang, Y., Ma, Z.F., Sahinidis, N.V., Tan, R.R., Foo, D.C., 2014. Optimal source-sink matching in carbon capture and storage systems under uncertainty. Ind. Eng. Chem. Res. 53, 778–785.",
+      "raw_native_excerpt": "He, Y.J., Zhang, Y., Ma, Z.F., Sahinidis, N.V., Tan, R.R., Foo, D.C., 2014. Optimal\nsource-sink matching in carbon capture and storage systems under uncertainty.\nInd. Eng. Chem. Res. 53, 778–785.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R14",
+      "pages": [
+        11
+      ],
+      "citation": "IEA, 2020. Energy technology perspectives 2020. URL www.iea.org/t&c/. (Accessed May 2024).",
+      "raw_native_excerpt": "IEA, 2020. Energy technology perspectives 2020. URL www.iea.org/t&c/. (Accessed\nMay 2024).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "One-sixth cumulative mitigation claim p1; printed URL is terms-and-conditions rather than the report. Source identity/page support remains unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R15",
+      "pages": [
+        11
+      ],
+      "citation": "Kall, P., Mayer, J., 2005. Stochastic Linear Programming Models, Theory, and Computation. Springer’s International Series. 11",
+      "raw_native_excerpt": "Kall, P., Mayer, J., 2005. Stochastic Linear Programming Models, Theory, and\nComputation. Springer’s International Series.\n11",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Candidate selection and reported duality-gap method p6. Exact statistical assumptions, confidence intervals and global-optimization requirements remain unverified.",
+      "claim_ids": [
+        "C11"
+      ],
+      "claim_pages": [
+        6
+      ]
+    },
+    {
+      "id": "R16",
+      "pages": [
+        11
+      ],
+      "citation": "Li, Y., Wei, J., Yuan, Z., Chen, B., Gani, R., 2022. Sustainable synthesis of integrated process, water treatment, energy supply, and CCUS networks under uncertainty. Comput. Chem. Eng. 157.",
+      "raw_native_excerpt": "Li, Y., Wei, J., Yuan, Z., Chen, B., Gani, R., 2022. Sustainable synthesis of integrated\nprocess, water treatment, energy supply, and CCUS networks under uncertainty.\nComput. Chem. Eng. 157.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R17",
+      "pages": [
+        11
+      ],
+      "citation": "Massol, O., Tchung-Ming, S., Banal-Estañol, A., 2018. Capturing industrial CO2 emis- sions in Spain: Infrastructures, costs and break-even prices. Energy Policy 115, 545–560.",
+      "raw_native_excerpt": "Massol, O., Tchung-Ming, S., Banal-Estañol, A., 2018. Capturing industrial CO2 emis-\nsions in Spain: Infrastructures, costs and break-even prices. Energy Policy 115,\n545–560.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R18",
+      "pages": [
+        11
+      ],
+      "citation": "Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture and storage: Simccs. Energy Policy 37, 1052–1060.",
+      "raw_native_excerpt": "Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture\nand storage: Simccs. Energy Policy 37, 1052–1060.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "California source/reservoir selection and capacitated pipeline-network sizing; original allows trunkline aggregation and partial capture. Exact retained original physical pages1–2 read and rendered. This supports the cited method context, not Aras model correctness, Illinois inputs, statistics, pressure feasibility or retention. It does not complete the cited paper or reproduce its model.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R19",
+      "pages": [
+        11
+      ],
+      "citation": "Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic model for optimally phasing in CO 2 capture and storage infrastructure. Environ. Model. Softw. 37, 193–205.",
+      "raw_native_excerpt": "Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic\nmodel for optimally phasing in CO 2 capture and storage infrastructure. Environ.\nModel. Softw. 37, 193–205.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R20",
+      "pages": [
+        11
+      ],
+      "citation": "Montagna, A.F., Angarita, J.D., Duarte, A.E., Uribe, A., Osorio, J.P., Gounaris, C., Grossmann, I.E., 2022. Advanced optimization of multi-sink CO2-EOR operations in the context of long-term CCUS supply chain design.",
+      "raw_native_excerpt": "Montagna, A.F., Angarita, J.D., Duarte, A.E., Uribe, A., Osorio, J.P., Gounaris, C.,\nGrossmann, I.E., 2022. Advanced optimization of multi-sink CO2-EOR operations\nin the context of long-term CCUS supply chain design.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R21",
+      "pages": [
+        11
+      ],
+      "citation": "Morbee, J., Serpa, J., Tzimas, E., 2012. Optimised deployment of a European CO2 transport network. Int. J. Greenh. Gas Control. 7, 48–61.",
+      "raw_native_excerpt": "Morbee, J., Serpa, J., Tzimas, E., 2012. Optimised deployment of a European CO2\ntransport network. Int. J. Greenh. Gas Control. 7, 48–61.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "InfraCCS European staged MILP with automatic k-means clustering and pipeline preselection, using an exogenous capture scenario. Exact retained original physical pages1–2 read and rendered. This supports the cited method context, not Aras model correctness, Illinois inputs, statistics, pressure feasibility or retention. It does not complete the cited paper or reproduce its model.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R22",
+      "pages": [
+        11
+      ],
+      "citation": "Ntaimo, L., 2024. Computational Stochastic Programming: Models, Algorithms, and Implementation. Springer Cham.",
+      "raw_native_excerpt": "Ntaimo, L., 2024. Computational Stochastic Programming: Models, Algorithms, and\nImplementation. Springer Cham.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Bounds argument pp6–7. A feasible rolling solution is not necessarily a global SAA optimum, and finite means are not deterministic confidence bounds. Exact book support remains unverified.",
+      "claim_ids": [
+        "C11"
+      ],
+      "claim_pages": [
+        6
+      ]
+    },
+    {
+      "id": "R23",
+      "pages": [
+        11
+      ],
+      "citation": "Sethi, S., Sorger, G., 1991. A theory of rolling horizon desicion making. Ann. Oper. Res. 29, 387–416.",
+      "raw_native_excerpt": "Sethi, S., Sorger, G., 1991. A theory of rolling horizon desicion making. Ann. Oper.\nRes. 29, 387–416.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C08"
+      ],
+      "claim_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R24",
+      "pages": [
+        11
+      ],
+      "citation": "Smith, E., Morris, J., Kheshgi, H., Teletzke, G., Herzog, H., Paltsev, S., 2021. The cost of CO2 transport and storage in global integrated assessment modeling. Int. J. Greenh. Gas Control. 109.",
+      "raw_native_excerpt": "Smith, E., Morris, J., Kheshgi, H., Teletzke, G., Herzog, H., Paltsev, S., 2021. The cost of\nCO2 transport and storage in global integrated assessment modeling. Int. J. Greenh.\nGas Control. 109.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Constant storage dollars/ton assumption p3, including site and post-injection costs. Not a pressure/rate model or matched marginal field inventory.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R25",
+      "pages": [
+        11
+      ],
+      "citation": "Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2012. Continuous-time optimiza- tion model for source-sink matching in carbon capture and storage systems. Ind. Eng. Chem. Res. 51, 10015–10020.",
+      "raw_native_excerpt": "Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2012. Continuous-time optimiza-\ntion model for source-sink matching in carbon capture and storage systems. Ind.\nEng. Chem. Res. 51, 10015–10020.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R26",
+      "pages": [
+        11
+      ],
+      "citation": "Tapia, J.F.D., 2024. Optimal multi-period source-sink matching in carbon capture, utilization, and storage (CCUS) systems under neutrosophic environment. J. Clean. Prod. 467.",
+      "raw_native_excerpt": "Tapia, J.F.D., 2024. Optimal multi-period source-sink matching in carbon capture,\nutilization, and storage (CCUS) systems under neutrosophic environment. J. Clean.\nProd. 467.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R27",
+      "pages": [
+        11
+      ],
+      "citation": "Wang, P., Papadokonstantakis, S., 2024. Multi-period stochastic optimization of in- tegrating carbon capture and storage/utilization (CCS/CCU) for cement industry. In: Manenti, F., Reklaitis, G.V. (Eds.), 34th European Symposium on Computer Aided Process Engineering / 15th International Symposium on Process Systems Engineering. In: Computer Aided Chemical Engineering, vol. 53, Elsevier, pp. 2101–2106.",
+      "raw_native_excerpt": "Wang, P., Papadokonstantakis, S., 2024. Multi-period stochastic optimization of in-\ntegrating carbon capture and storage/utilization (CCS/CCU) for cement industry.\nIn: Manenti, F., Reklaitis, G.V. (Eds.), 34th European Symposium on Computer\nAided Process Engineering / 15th International Symposium on Process Systems\nEngineering. In: Computer Aided Chemical Engineering, vol. 53, Elsevier, pp.\n2101–2106.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R28",
+      "pages": [
+        11
+      ],
+      "citation": "Wang, P.T., Wei, Y.M., Yang, B., Li, J.Q., Kang, J.N., Liu, L.C., Yu, B.Y., Hou, Y.B., Zhang, X., 2020. Carbon capture and storage in China’s power sector: Optimal planning under the 2 ◦C constraint. Appl. Energy 263.",
+      "raw_native_excerpt": "Wang, P.T., Wei, Y.M., Yang, B., Li, J.Q., Kang, J.N., Liu, L.C., Yu, B.Y., Hou, Y.B.,\nZhang, X., 2020. Carbon capture and storage in China’s power sector: Optimal\nplanning under the 2 ◦C constraint. Appl. Energy 263.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R29",
+      "pages": [
+        11
+      ],
+      "citation": "Warwick, P.D., Attanasi, E.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M., Doolan, C.A., Freeman, P.A., Karacan, C.O., Lohr, C.D., Merrill, M.D., Olea, R.A., Shelton, J.L., Slucher, E.R., Varela, B.A., 2019. Energy resources program national assessment of carbon dioxide enhanced oil recovery and associated carbon dioxide retention resources-results. http://dx.doi.org/10.3133/cir1489.",
+      "raw_native_excerpt": "Warwick, P.D., Attanasi, E.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M.,\nDoolan, C.A., Freeman, P.A., Karacan, C.O., Lohr, C.D., Merrill, M.D., Olea, R.A.,\nShelton, J.L., Slucher, E.R., Varela, B.A., 2019. Energy resources program national\nassessment of carbon dioxide enhanced oil recovery and associated carbon dioxide\nretention resources-results. http://dx.doi.org/10.3133/cir1489.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Storage/retention CDF attribution pp3–4,7. Resource stock, injectivity, physical permanent retention and joint uncertainty are distinct. Exact original datasets remain unverified.",
+      "claim_ids": [
+        "C07",
+        "C12"
+      ],
+      "claim_pages": [
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "R30",
+      "pages": [
+        11
+      ],
+      "citation": "Warwick, P.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M., Cole- man, J.L., Cook, T.A., Corum, M.D., Covault, J.A., Craddock, W.H., DeVera, C.A., Doolan, C., II, R.M.D., Drew, L.J., East, J.A., Freeman, P.A., Garrity, C.P., Goo- ley, K.J., Gosai, M.A., Jahediesfanjani, H., Lohr, C.D., Mars, J.C., Merrill, M.D., Olea, R.A., Roberts-Ashby, T.L., Rouse, W.A., Schruben, P.G., Schuenemeyer, J.H., Slucher, E.R., Varela, B.A., Verma, M.K., 2013. National assessment of geologic carbon dioxide storage resources-results.",
+      "raw_native_excerpt": "Warwick, P.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M., Cole-\nman, J.L., Cook, T.A., Corum, M.D., Covault, J.A., Craddock, W.H., DeVera, C.A.,\nDoolan, C., II, R.M.D., Drew, L.J., East, J.A., Freeman, P.A., Garrity, C.P., Goo-\nley, K.J., Gosai, M.A., Jahediesfanjani, H., Lohr, C.D., Mars, J.C., Merrill, M.D.,\nOlea, R.A., Roberts-Ashby, T.L., Rouse, W.A., Schruben, P.G., Schuenemeyer, J.H.,\nSlucher, E.R., Varela, B.A., Verma, M.K., 2013. National assessment of geologic\ncarbon dioxide storage resources-results.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Storage/retention CDF attribution pp3–4,7. Resource stock, injectivity, physical permanent retention and joint uncertainty are distinct. Exact original datasets remain unverified.",
+      "claim_ids": [
+        "C07",
+        "C12"
+      ],
+      "claim_pages": [
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "R31",
+      "pages": [
+        11
+      ],
+      "citation": "Zhang, X., Li, K., Wei, N., Li, Z., Fan, J.L., 2022. Advances, challenges, and perspectives for CCUS source-sink matching models under carbon neutrality target. Carbon Neutrality 1.",
+      "raw_native_excerpt": "Zhang, X., Li, K., Wei, N., Li, Z., Fan, J.L., 2022. Advances, challenges, and perspectives\nfor CCUS source-sink matching models under carbon neutrality target. Carbon\nNeutrality 1.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N01",
+      "pages": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "citation": "GHGRP820-source extract, emissions, locations, types and data vintage",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native source identifiers/rows and458673kt/year total are not supplied in the main PDF.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N02",
+      "pages": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "citation": "USGS sequestration-site CDF arrays and resource definitions",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Three sequestration sites; exact native IDs, capacity units, CDF interpolation and injectivity absent/unverified.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "citation": "USGS EOR/retention CDF arrays and site identities",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Five utilization sites, including two Appalachian sites; retained versus injected/produced CO2 and lifecycle oil burdens not supplied.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N04",
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "citation": "Joint scenario arrays, inverse-transform implementation and seeds",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "10 batches of25 and5000 evaluation scenarios are stated; sink dependence, persistent scenario identity, selection/holdout independence and exact samples unverified.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N05",
+      "pages": [
+        3,
+        10
+      ],
+      "citation": "Supplementary Information Section1 capture-cost and scale coefficients",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Explicitly referenced supplement not matched in retained local assets. Public existence/content/rights remain unchecked during Chrome wait.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N06",
+      "pages": [
+        3,
+        10
+      ],
+      "citation": "Supplementary Information Section2 distances and pipeline-cost factors",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact route matrix, cost/capacity units and native coefficient arrays missing; no geographic or cost reconstruction from maps.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N07",
+      "pages": [
+        3,
+        4,
+        7,
+        10
+      ],
+      "citation": "Plant lifetime, storage costs, EOR selling prices and NPV coefficient arrays",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "L is defined but no numeric lifetime is identified in main text. Planning horizon25 years is not silently substituted for L.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N08",
+      "pages": [
+        7,
+        11
+      ],
+      "citation": "Python3.9.6/Gurobi11.0.3 author code, logs, model domains and rights",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native implementation and data on request, not supplied here. Solver1% gap and hardware are reported; no independently timed native solve.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N09",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Native deployment/flow/stock schedules and statistical validation outputs",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact annual cohorts, routes, capacity traces, scenario deviations, candidate selection and reported bound values are not available as arrays.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N10",
+      "pages": [
+        10,
+        11
+      ],
+      "citation": "AppendixA publisher supplement, errata and data-on-request assets",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "The AppendixA heading is a link notice, not internal supplementary content. No embedded files; no public-absence claim or unauthorized author contact.",
+      "claim_ids": [],
+      "claim_pages": []
+    }
+  ]
+}

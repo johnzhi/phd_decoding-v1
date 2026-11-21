@@ -1,0 +1,31 @@
+{
+  "study_id": "B2-03",
+  "source_sha256": "c197de09246b26d7b3d39a96fd8f4edbfb519bb004d55298ebf28c467e1a43c3",
+  "checks": 30,
+  "horizon_counterexample": {
+    "full_objective": 10,
+    "full_decisions": [
+      0,
+      1
+    ],
+    "rolling_objective": 5,
+    "rolling_decisions": [
+      1,
+      0
+    ],
+    "scope": "Synthetic two-period, one-sink, no-uncertainty case with one-period forecast and explicit reservation. Not Illinois reproduction."
+  },
+  "scoped_citation_checks": 2,
+  "native_Illinois_Gurobi_SAA_CDF_model_reproduced": false,
+  "statistical_bound_or_physical_service_validated": false,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "numeric_L": null,
+    "capture_and_pipeline_cost_arrays": null,
+    "source_sink_identity_distance_and_CDF_arrays": null,
+    "joint_scenarios_and_seeds": null,
+    "author_code_supplement_rights_and_errata": null,
+    "pressure_injectivity_and_lifecycle_retention_model": null,
+    "complete_matched_capture_conditioning_utility_inventory": null
+  }
+}

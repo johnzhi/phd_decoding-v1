@@ -1,0 +1,5 @@
+period,proposed_annual_flow,built,available_after_update,lifetime_commitment_total,commitment_minus_original_stock,scope
+1,2,1,5,20,-5,synthetic_reservation_comparison
+2,2,0,5,20,-5,synthetic_reservation_comparison
+1,2,1,25,20,-5,synthetic_literal_set_update
+2,2,1,25,40,15,synthetic_literal_set_update

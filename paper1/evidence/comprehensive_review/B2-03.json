@@ -1,0 +1,1746 @@
+{
+  "study_id": "B2-03",
+  "source_sha256": "c197de09246b26d7b3d39a96fd8f4edbfb519bb004d55298ebf28c467e1a43c3",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All11 physical pages read and visually inspected:8 figures,35 numbered equations,2 algorithms and both unnumbered nomenclature/symbol objects.30 limited arithmetic/bookkeeping/statistical counterexample checks retained. Two scoped primary citations support method context;29 other originals and ten native dependencies unverified. Printed sign/index/set/bound/unit and output questions remain open. No native Illinois/Gurobi/SAA/CDF or physical reservoir model reproduced.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "original_model_status": "literal_components_and_synthetic_counterexamples_only_native_Illinois_Gurobi_SAA_CDF_not_reproduced",
+  "supplement_status": "explicit_publisher_supplement_and_data_on_request_not_retained_or_verified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication, abstract and rights",
+      "assessment": "Read title, both authors/affiliations, keywords, correspondence, received3June/revised14July/accepted15July2025, online25July2025, DOI and Elsevier rights. Abstract economic/environmental and recourse claims are conditional model results, not lifecycle or physical reservoir validation."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction: all literature and contribution statements",
+      "assessment": "Every static, multiscale, geographic, multiperiod, stochastic and neutrosophic comparison read. Two exact retained originals support limited SimCCS/InfraCCS method context. All remaining originals and prior Aras2025 sampling/model support remain unverified. Novelty and optimality claims need those comparisons and full implementation."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2 Problem statement: all inputs, decisions and seven assumptions",
+      "assessment": "Read every source/sink/CDF, budget, deployment, pipeline and timing item. Full source emissions captured at selected sites, single source–sink pipelines, constant annual cohort flows, turnkey lifetime costs and fixed storage charges constrain scope. Geological resource CDFs do not establish pressure-constrained annual service."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "3.1 Deterministic formulation",
+      "assessment": "All variable definitions, objective, six equations and explanatory paragraphs read. Economic benefit maximization differs from the problem statement’s capture-mass goal. Pipeline terms lack a sink summation; stock divided by lifetime and commissioned cohorts require unit/timing clarity. Domains and native coefficients are not fully supplied."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        4
+      ],
+      "scope": "3.2 Stochastic problem and SAA",
+      "assessment": "Read all recourse, scenario, probability, sampling and Eq7–18 descriptions. Eq7/13 print CI−CO whereas deterministic/rolling forms and prose use CI+CO. Deployment mu/h have no scenario index; only flows/slack are recourse. Scenario-wise budget constraints differ from prose calling storage costs expected."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "4.1 Deterministic rolling horizon",
+      "assessment": "Read forecast-window definition, initialization, source-set update, fixed decisions, lifetime storage reservation, schedule aggregation and admitted loss of global optimality. All Eq19–24 and Algorithm1 lines inspected. Gamma is an endpoint but used as an index set; argmin conflicts with max, and removal precedes the I_A storage sum."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "4.2 Stochastic rolling horizon",
+      "assessment": "Read all Eq25–30, Algorithm2, scenario-specific reserve and fixed-design LP evaluation. Eq25 introduces CC^Soc notation and returns to plus operating costs. Native persistent scenarios, observation/revelation and reoptimization of flows are not defined enough for reproduction. Updating I_A before the storage sum repeats the literal bookkeeping problem."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        6
+      ],
+      "scope": "4.2 Statistical bounds and candidate selection",
+      "assessment": "Every Eq31–35, expectation/sample/batch description and Kall/Mayer selection statement read. Arbitrary feasible rolling schedules are not global SAA optimizers. Finite sample means need uncertainty treatment before serving as confidence bounds; no reported bound values/standard errors/holdout correspondence or gap correction supplied."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "5 Results: entire case and computation setup",
+      "assessment": "Read820 sources, three sequestration/five utilization sites, five states,458673kt/year,2026–2050, five-year forecast,4.8billion/year,3%,42dollars/t, M10/N25/Nbar5000 and Python/Gurobi/hardware/gap settings. Numeric plant lifetime L, native rows/costs/CDFs/seeds and exact route/flow arrays remain missing."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "scope": "5 Results: topology, commissioning and uncertainty comparison",
+      "assessment": "Read every final-map, extra-connection, EOR, economies-of-scale, early/late deployment and capacity/emission/deviation statement. Exact maps are not route arrays.10596→9641 new annual capacity is not a cumulative capture series.4795→145.24kt deviations are lifetime scenario means, not probabilities or retained mass."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        7,
+        9,
+        10
+      ],
+      "scope": "5 Results: all four budget cases",
+      "assessment": "Read50/75/100/125% allocation and27.5/41.5/55.3/64.2% final reduction labels, affordability and proposed trade-off. The55.3% label differs from nearest-one-decimal rounding of the printed458673/204723 endpoints. Preserve reported values without correcting native outputs or deriving marginal lifecycle economics."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "scope": "6 Conclusions: all paragraphs",
+      "assessment": "Read high-emission-first, EOR incentives, recourse/extra pipelines, budget effects, dynamic economic/technology caveats and regional transfer claims. Five-year rolling schedules are not guaranteed global optima. Economic benefits, direct capture and confidence in investment are not independent pressure, lifecycle or permanence evidence."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        9
+      ],
+      "scope": "7 Nomenclature",
+      "assessment": "All12 acronym definitions inspected, including LP/MILP/MINLP, SP/SAA, CDF/iid and NPV. Labels do not establish statistical or optimizer validity."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        10
+      ],
+      "scope": "8 List of symbols",
+      "assessment": "Every set, parameter, continuous and binary variable definition read. St scenario quantities are called yearly in this list but divided by L in stock constraints. CT capacity-cost units, D/St, CS/CC^Soc, Gamma domain, omitted binary time subscript and missing explicit nonnegative domains remain qualified."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        10
+      ],
+      "scope": "All author, conflict and funding statements",
+      "assessment": "Read both CRediT statements, competing-interest declaration, NSF CBET-1943479/Texas A&M support and Ntaimo acknowledgment. These declarations do not verify native algorithms, input correspondence or model rights."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "AppendixA notice, data availability and supplements",
+      "assessment": "AppendixA explicitly links publisher supplementary data; it is not an internal appendix containing those methods. Main text points to supplement Sections1/2. Data are available on request. No embedded files or matching native supplement found in current local inventory; public contents, code, errata and rights remain unverified during Chrome wait."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        11
+      ],
+      "scope": "Entire31-entry bibliography",
+      "assessment": "Every printed entry read in text and rendered columns; native excerpts and claim pointers retained. Exact2009 SimCCS and2012 InfraCCS originals have scoped pages1–2 checks.29 other direct sources and ten native dependencies remain unverified; underlying full models/citation chains stay open."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        2
+      ],
+      "scope": "CCUS schematic and capture inset",
+      "assessment": "All source/no-capture versus capture-facility symbols, storage/utilization areas, green pipelines, flue/clean-gas, absorber/stripper, rich/lean amine and captured-CO2 arrows inspected with caption. No quantitative capture efficiency, utilities, pipe states or permanent-retention inventory supplied."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        5
+      ],
+      "scope": "Rolling horizon diagram",
+      "assessment": "Both iteration theta/theta+1 rows, fixed hatching, dotted forecast, unsolved boxes, all tau/F/T labels and caption inspected. Caption says decisions fixed up to tau while text fixes tau after solving; boundary timing needs care. Diagram is a strategy, not proof of global optimality or correct source-set reservation."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        7
+      ],
+      "scope": "Deterministic and stochastic final maps",
+      "assessment": "Both panels, orange selected/blue unselected bubbles, green-star sequestration/blue-triangle utilization, green/blue pipe legend, state borders and caption inspected. No coordinates, bubble-size calibration, route IDs, exact counts/diameters or capacity arrays recoverable. Extra first-stage links do not mean scenario-dependent h construction."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        8
+      ],
+      "scope": "Deterministic deployment maps",
+      "assessment": "All six panels inspected: one final topology plus five2026–2030/2031–2035/2036–2040/2041–2045/2046–2050 groups. Every year-color and sequestration/utilization symbol legend read. Caption’s every-five-year wording applies to grouped decision panels, not the final aggregate. No exact pipeline or source cohort arrays digitized."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        8
+      ],
+      "scope": "Stochastic deployment maps",
+      "assessment": "All six panels and matching five year-group/color legends, sink symbols and final topology inspected. Later utilization links are visible but native scenario/route/schedule arrays and adaptive construction decisions are not supplied."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        9
+      ],
+      "scope": "Annual new capture and total-emission plots",
+      "assessment": "Magnified both panels,25 yearly ticks,kt/year labels, cross markers and staircase. PanelA is new capacity built each year, not total installed capacity; it fluctuates despite overall decline. PanelB is modelled direct regional emissions, not net lifecycle GHG. Exact25-row data absent; printed endpoints retained separately."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        9
+      ],
+      "scope": "Four budget final maps",
+      "assessment": "All50/75/base/125% panels, selected-source bubble sizes, six-item legends and caption inspected. No exact network extraction, physical capacity calibration or cost-minimizing marginal GHG inference from these maps."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        10
+      ],
+      "scope": "Budget emission trajectories",
+      "assessment": "Magnified all four staircases, year1–25 andkt/year axes, red/orange/green/blue legend and27.5/41.5/55.3/64.2% end labels. Percentages are attributed model outputs; exact annual arrays and full lifecycle boundaries absent."
+    },
+    {
+      "id": "A01",
+      "pages": [
+        5
+      ],
+      "scope": "Algorithm1 all16 lines",
+      "assessment": "Magnified all initialization, solve, fix, I_D/I_A updates, storage subtraction and return lines. Line3 says argmin while formulation maximizes. Line12 sums over I_A after newly built sources were removed in lines7–8; under nonnegative mass balance it omits those commitments. Literal toy demonstrates overbooking, not unavailable code behavior."
+    },
+    {
+      "id": "A02",
+      "pages": [
+        6
+      ],
+      "scope": "Algorithm2 all18 lines",
+      "assessment": "Magnified all scenario loop/update and design-return lines. Repeats argmin/max and remove-before-sum conflicts. Initialization lacks an explicit scenario subscript while update needs scenario reserves; operational y is not returned in X but is used in reservations and subsequent LP evaluation."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        9
+      ],
+      "scope": "Unnumbered acronym object",
+      "assessment": "All12 rows and wrapped expansions inspected. No separately numbered table is present in the retained PDF."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        10
+      ],
+      "scope": "Unnumbered symbols object",
+      "assessment": "All eight sets,13 parameter rows,four continuous-variable rows and binary definition inspected. Rate/stock, cost/capacity, notation/time-index and domain questions remain explicit. No units or L value invented."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        3
+      ],
+      "expression": "PD max sum_i,t CS_t E_i mu_i,t - sum_i,t(CI_i,t+CO_i,t)mu_i,t - sum_i,t CT_i,k,t h_i,k,t - sum_i,t,k CSt_t y_i,k,t + sum_i,t,k_in_Kutil R_t y_i,k,t",
+      "interpretation": "Economic social-benefit/revenue objective. Pipeline term leaves k free. Source E is annual, coefficient CS is cumulative lifetime NPV; full units/discount/lifetime arrays missing. Not a full lifecycle climate objective."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        3
+      ],
+      "expression": "sum_i(CI_i,t+CO_i,t)mu_i,t + sum_i CT_i,k,t h_i,k,t + sum_i,k CSt_t y_i,k,t <= B_t",
+      "interpretation": "Commissioning-period allocation includes lifetime NPV costs, not merely annual operating cash. Pipeline k remains free; scalar budget needs explicit aggregation."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        3
+      ],
+      "expression": "sum_k y_i,k,t = E_i mu_i,t",
+      "interpretation": "Selected cohort captures/transports all source emissions. Nonnegative flow domains implicit in physical meaning but not fully stated; no capture efficiency or energy penalty supplied."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        3
+      ],
+      "expression": "sum_i,t y_i,k,t <= St_k/L",
+      "interpretation": "Equivalent to lifetime commitment L*sum(y)<=stock only if St is a stock and L/annual-rate units agree. Not a pressure-constrained injection-rate bound."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        3
+      ],
+      "expression": "y_i,k,t <= h_i,k,t",
+      "interpretation": "Annual pipeline flow versus cohort capacity; no shared trunkline, hydraulic, state or impurity model."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        3
+      ],
+      "expression": "sum_t mu_i,t <= 1",
+      "interpretation": "At most one commissioning time per source; mu is a start/cohort indicator, not an active-state flag every subsequent year."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        4
+      ],
+      "expression": "PS max sum CS E mu - sum(CI-CO)mu - sum_i,t CT_i,k,t h_i,k,t - sum_i,t,omega p_omega[sum_k CSt y + CS xsl - sum_k_in_Kutil R y]",
+      "interpretation": "Literal minus operating cost inside subtracted capture cost makes OPEX positive in objective; prose and other formulations use plus. Pipeline free k remains. xsl penalizes uncaptured cohort emissions, not measured leakage. The explanatory prose additionally sums the xsl penalty over k although the displayed objective has one CS*xsl term; that multiplicity needs native-code reconciliation."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        4
+      ],
+      "expression": "sum_i(CI+CO)mu + sum_i CT_i,k,t h_i,k,t + sum_i,k CSt y_i,k,t,omega <= B_t, for every t,omega",
+      "interpretation": "Scenario-wise budget, not merely expected storage cost. h/mu are common across scenarios. Free k and whole-lifetime commitment accounting retained."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        4
+      ],
+      "expression": "sum_k y_i,k,t,omega + xsl_i,t,omega = E_i mu_i,t",
+      "interpretation": "Scenario recourse changes flow/slack only. Full scenario-dependent pipeline commissioning is not represented by h without omega."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        4
+      ],
+      "expression": "sum_i,t y_i,k,t,omega <= St_k,omega/L",
+      "interpretation": "Scenario resource commitment, conditional on stock units. Symbols table calls St yearly, creating a unit interpretation conflict."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        4
+      ],
+      "expression": "y_i,k,t,omega <= h_i,k,t",
+      "interpretation": "One common installed capacity limits scenario recourse flow; no scenario-indexed deployment decision."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        4
+      ],
+      "expression": "sum_t mu_i,t <= 1",
+      "interpretation": "Same unique commissioning rule as Eq6."
+    },
+    {
+      "id": "E13",
+      "pages": [
+        4
+      ],
+      "expression": "PSSAA: Eq7 with (1/|Omega_N|)*sum_omega_in_Omega_N of recourse terms",
+      "interpretation": "Equiprobable sampled scenarios replace weighted expectation. Literal CI−CO and free pipeline k persist. iid joint scenario draws do not establish independent sink capacities."
+    },
+    {
+      "id": "E14",
+      "pages": [
+        4
+      ],
+      "expression": "sum_i(CI+CO)mu + sum_i CT_i,k,t h_i,k,t + sum_i,k CSt y_i,k,t,omega <= B_t, for every t,omega in Omega_N; sampled scenario domain where applicable",
+      "interpretation": "SAA counterpart of Eq8. Scenario-wise budget, not merely expected storage cost. h/mu are common across scenarios. Free k and whole-lifetime commitment accounting retained."
+    },
+    {
+      "id": "E15",
+      "pages": [
+        4
+      ],
+      "expression": "sum_k y_i,k,t,omega + xsl_i,t,omega = E_i mu_i,t; sampled scenario domain where applicable",
+      "interpretation": "SAA counterpart of Eq9. Scenario recourse changes flow/slack only. Full scenario-dependent pipeline commissioning is not represented by h without omega."
+    },
+    {
+      "id": "E16",
+      "pages": [
+        4
+      ],
+      "expression": "sum_i,t y_i,k,t,omega <= St_k,omega/L; sampled scenario domain where applicable",
+      "interpretation": "SAA counterpart of Eq10. Scenario resource commitment, conditional on stock units. Symbols table calls St yearly, creating a unit interpretation conflict."
+    },
+    {
+      "id": "E17",
+      "pages": [
+        4
+      ],
+      "expression": "y_i,k,t,omega <= h_i,k,t; sampled scenario domain where applicable",
+      "interpretation": "SAA counterpart of Eq11. One common installed capacity limits scenario recourse flow; no scenario-indexed deployment decision."
+    },
+    {
+      "id": "E18",
+      "pages": [
+        4
+      ],
+      "expression": "sum_t mu_i,t <= 1; sampled scenario domain where applicable",
+      "interpretation": "SAA counterpart of Eq12. Same unique commissioning rule as Eq6."
+    },
+    {
+      "id": "E19",
+      "pages": [
+        5
+      ],
+      "expression": "PD_tau,F: Eq1 restricted to i in I_A and forecast t in Gamma",
+      "interpretation": "Full-lifetime cost/benefit coefficients retained for candidate commissioning dates. Gamma is defined as min(tau+|F|-1,|T|), a scalar endpoint, but t in Gamma is printed. Pipeline k remains free."
+    },
+    {
+      "id": "E20",
+      "pages": [
+        5
+      ],
+      "expression": "sum_i(CI_i,t+CO_i,t)mu_i,t + sum_i CT_i,k,t h_i,k,t + sum_i,k CSt_t y_i,k,t <= B_t; restrict i to I_A,t to forecast; replace St_k by St_k^tau where applicable",
+      "interpretation": "Rolling counterpart of Eq2. Future unused sources only; fixed cohorts require correct stock reservation. Commissioning-period allocation includes lifetime NPV costs, not merely annual operating cash. Pipeline k remains free; scalar budget needs explicit aggregation."
+    },
+    {
+      "id": "E21",
+      "pages": [
+        5
+      ],
+      "expression": "sum_k y_i,k,t = E_i mu_i,t; restrict i to I_A,t to forecast; replace St_k by St_k^tau where applicable",
+      "interpretation": "Rolling counterpart of Eq3. Future unused sources only; fixed cohorts require correct stock reservation. Selected cohort captures/transports all source emissions. Nonnegative flow domains implicit in physical meaning but not fully stated; no capture efficiency or energy penalty supplied."
+    },
+    {
+      "id": "E22",
+      "pages": [
+        5
+      ],
+      "expression": "sum_i,t y_i,k,t <= St_k/L; restrict i to I_A,t to forecast; replace St_k by St_k^tau where applicable",
+      "interpretation": "Rolling counterpart of Eq4. Future unused sources only; fixed cohorts require correct stock reservation. Equivalent to lifetime commitment L*sum(y)<=stock only if St is a stock and L/annual-rate units agree. Not a pressure-constrained injection-rate bound."
+    },
+    {
+      "id": "E23",
+      "pages": [
+        5
+      ],
+      "expression": "y_i,k,t <= h_i,k,t; restrict i to I_A,t to forecast; replace St_k by St_k^tau where applicable",
+      "interpretation": "Rolling counterpart of Eq5. Future unused sources only; fixed cohorts require correct stock reservation. Annual pipeline flow versus cohort capacity; no shared trunkline, hydraulic, state or impurity model."
+    },
+    {
+      "id": "E24",
+      "pages": [
+        5
+      ],
+      "expression": "sum_t mu_i,t <= 1; restrict i to I_A,t to forecast; replace St_k by St_k^tau where applicable",
+      "interpretation": "Rolling counterpart of Eq6. Future unused sources only; fixed cohorts require correct stock reservation. At most one commissioning time per source; mu is a start/cohort indicator, not an active-state flag every subsequent year."
+    },
+    {
+      "id": "E25",
+      "pages": [
+        6
+      ],
+      "expression": "PSSAA_tau,F max sum_i_in_I_A,t_in_Gamma CC_t^Soc E_i mu_i,t - sum(CI+CO)mu - sum_i,t CT_i,k,t h_i,k,t - sum_i,t,omega p_omega[sum_k CSt y + CS xsl - sum_k_in_Kutil R y]",
+      "interpretation": "Returns to plus operating cost but introduces CC^Soc instead of CS for social benefit; no explicit identification in symbols. Uses Omega/p rather than a clearly pinned finite SAA set. Free pipeline k remains. The operating-cost sign prevents literal equivalence with Eq13 beyond merely changing the horizon."
+    },
+    {
+      "id": "E26",
+      "pages": [
+        6
+      ],
+      "expression": "sum_i_in_I_A(CI+CO)mu + sum_i_in_I_A CT_i,k,t h_i,k,t + sum_i_in_I sum_k CSt y_i,k,t,omega <= B_t",
+      "interpretation": "Storage sum includes all I while investment/pipe use I_A; old y domains/fixing unclear. Scenario-wise budget and free k remain. Need native implementation before feasibility claims."
+    },
+    {
+      "id": "E27",
+      "pages": [
+        6
+      ],
+      "expression": "sum_k y_i,k,t,omega + xsl_i,t,omega = E_i mu_i,t, i in I_A,t in Gamma,omega in Omega",
+      "interpretation": "Rolling source recourse balance; no information-revelation policy or later adaptive construction specified."
+    },
+    {
+      "id": "E28",
+      "pages": [
+        6
+      ],
+      "expression": "sum_i_in_I_A,t_in_Gamma y_i,k,t,omega <= St_k,omega^tau/L",
+      "interpretation": "Correct reserve updates are essential. Reusing original stocks after source removal can overbook; physical rate feasibility still absent."
+    },
+    {
+      "id": "E29",
+      "pages": [
+        6
+      ],
+      "expression": "y_i,k,t,omega <= h_i,k,t, i in I_A,t in Gamma,omega in Omega",
+      "interpretation": "Scenario flow versus common cohort capacity."
+    },
+    {
+      "id": "E30",
+      "pages": [
+        6
+      ],
+      "expression": "sum_t_in_Gamma mu_i,t <= 1, i in I_A",
+      "interpretation": "Each still-available source starts at most once inside this window; global rule also relies on proper source-set carryover."
+    },
+    {
+      "id": "E31",
+      "pages": [
+        6
+      ],
+      "expression": "(1/|Omega_N|) sum_omega f(Xhat_N,Omega_N) >= (1/|Omega_N|) sum_omega f(X*,Omega_N)",
+      "interpretation": "Feasibility of Xhat alone does not imply dominance of X*. Requires global SAA optimizer/common feasible domain, not an arbitrary rolling heuristic. f arguments do not explicitly show individual omega. Synthetic deterministic two-period example refutes feasibility-only justification."
+    },
+    {
+      "id": "E32",
+      "pages": [
+        6
+      ],
+      "expression": "E[(1/|Omega_N|)sum f(Xhat_N,Omega_N)] >= E[(1/|Omega_N|)sum f(X*,Omega_N)]",
+      "interpretation": "Taking expectations cannot repair an invalid pointwise premise. Expected SAA optimal values have distinct conditions; heuristic values and1% solver incumbents are not automatic upper bounds."
+    },
+    {
+      "id": "E33",
+      "pages": [
+        6
+      ],
+      "expression": "U_MN = (1/M)sum_j Zhat_N^j",
+      "interpretation": "Batch sample mean of reported rolling values, not guaranteed deterministic or confidence upper bound. Missing optimizer-bound/gap, sample variance, confidence level and native objective values."
+    },
+    {
+      "id": "E34",
+      "pages": [
+        6
+      ],
+      "expression": "E[f(X*,Omega)] >= E[f(Xhat_N,Omega)]",
+      "interpretation": "Valid value comparison if X* is true maximizer and fixed policy is truly feasible in original model. Sample feasibility and a reserve-update assertion do not independently prove this."
+    },
+    {
+      "id": "E35",
+      "pages": [
+        6
+      ],
+      "expression": "L_Nbar = (1/Nbar)sum_j Zhat_j",
+      "interpretation": "Evaluation sample mean of fixed-policy LP results. Needs independent sampling/selection accounting and uncertainty intervals to be a confidence lower bound; finite estimates can lie above true expected optimum. No actual evaluation arrays supplied."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "expression": "lifetime stock commitment = L*sum(cohort annual flows)",
+      "interpretation": "Analyst restatement of stock-based Eq4/10. It reserves all plant-life injections, including potentially beyond planning horizon; numeric L is unknown and not assumed25."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        3,
+        4,
+        6
+      ],
+      "expression": "literal-minus-CO objective minus plus-CO objective = 2*CO*mu",
+      "interpretation": "Algebra of printed sign difference. Disclosed one-project example gives30 versus−10; no native code or costs reproduced."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        5,
+        6
+      ],
+      "expression": "St_next = St_current - L*sum(newly commissioned cohort flows)",
+      "interpretation": "Analyst comparison to the printed sum over already-updated I_A. Synthetic25 stock, L10 andtwo2/year cohorts expose omitted reservations; comparison is not a repaired native algorithm."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        5,
+        6
+      ],
+      "expression": "two-period full reward10 > one-period rolling reward5",
+      "interpretation": "Analyst explicit-reservation counterexample, independently checked by MILP. A deterministic distribution is a stochastic special case; rolling feasibility alone does not imply Eq31/33 upper bound."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        6
+      ],
+      "expression": "one fixed policy with equiprobable reward0/2 has expectation1, while finite means can be0 or2",
+      "interpretation": "Analyst distinction between an estimator, expectation bound and confidence bound. No author probability array, confidence interval or native statistics reproduced."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        7
+      ],
+      "expression": "100*(458673-204723)/458673 = 55.3662413%",
+      "interpretation": "Arithmetic on reported endpoints; nearest-one-decimal55.4 differs from printed55.3. Truncation/underlying output convention remains open; no silent correction."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        7
+      ],
+      "expression": "100*(4795-145.24)/4795 = 96.9710115%",
+      "interpretation": "Reported lifetime-deviation arithmetic supports rounded96.97%, not annual outage, capture efficiency, risk probability or retention."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        7,
+        10
+      ],
+      "expression": "1kt*1000t/kt*42dollars/t = 42000dollars",
+      "interpretation": "Analyst one-year unit example only. Full CS coefficient also needs L, discount/time basis and economic source correspondence."
+    }
+  ],
+  "variables": [
+    "I sources; K=Kseq union Kutil sites; T equal annual commissioning periods. Case820 sources/eight sites/25 periods is an attributed dataset, not current commercial availability.",
+    "F forecast time periods, tau window start, Gamma=min(tau+|F|-1,|T|) endpoint. Printed t in Gamma needs a range/set definition. I_A unused and I_D deployed source sets change before storage summation in both algorithms.",
+    "Lat/Lon and source types are inputs. No native coordinate/distance/source-sink identity matrix supplied; maps are not exact geospatial data.",
+    "E_i annual emissions inkt/year and selected plant capacity equals full E_i. No separate capture efficiency, residual emission or utility penalty model.",
+    "mu_i,t is binary commissioning indicator, at most one start. Nomenclature binary entry omits t but mentions periodt; not a permanent active flag each year.",
+    "h_i,k,t annual pipeline capacity. CT listed as NPV of pipeline but multiplies h; cost-per-capacity and distance scaling require supplement. Pipeline terms lack sum_k, leaving k free.",
+    "y_i,k,t and y_i,k,t,omega are annual flows starting at t for L periods, held constant by cohort. xsl is annualized undesired uncaptured cohort amount, not measured leakage or outage.",
+    "St_k and St_k,omega are resource amounts in capacity constraints; latter called maximum yearly amount in symbols. L*sum annual flows requires stock units; dividing a yearly rate by L would not be an annual physical constraint.",
+    "L plant operational lifetime is not numerically specified in main PDF.25-year deployment horizon is distinct; full-life commitments can extend beyond2050.",
+    "CI is initial investment NPV; CO lifetime operating NPV. CSt, R and CS are cumulative discounted coefficients for storage, EOR revenue and social costs across L periods from startt.",
+    "B_t is commissioning-period allocation of whole-life commitments. It does not by itself reconstruct future annual cash expenditure; Eq8/14/26 enforce each scenario, not only expected storage costs.",
+    "CS social cost42dollars/ton and E inkt/year require consistent1000 conversion plus lifetime/discount coefficients.3% discount and base currency/year/cost schedules require original sources.",
+    "Eq7/13 minus(CI−CO) raises objective with operating cost; Eq1/19/25/prose use minus(CI+CO). Eq25 CC^Soc lacks explicit link to CS. No silent repair.",
+    "Omega scenarios, p_omega probabilities, Omega_N sampled set. iid scenarios are joint draws; independence between different sinks is not documented. D_k,omega and St_k,omega both appear as storage-realization notation.",
+    "M10 batches,N25 scenarios,Nbar5000 evaluations are stated. Samples, seeds,CDF interpolation,joint correlations, persistence between windows and holdout/candidate-selection independence are missing.",
+    "X consists of mu/h deployment decisions, common across scenarios. Only y/xsl carry omega. Extra first-stage pipe links are not scenario-contingent construction unless native information structure adds it.",
+    "f objective/value function and sample arguments are not supplied as executable recourse mappings. X*,Xhat,Zhat,U_MN and L_Nbar distinguish true optimum, candidate and empirical estimators; feasible heuristics do not establish SAA upper bounds.",
+    "1% Gurobi optimality gap is reported, not zero gap or confidence level. Statistical confidence needs solver bounds, variance/interval and independent evaluation, not only large sample counts.",
+    "4795/145.24kt are reported mean deviations over all plant lives.96.97% is relative reduction of those statistics, not probability of failure, annual loss or retained fraction.",
+    "Figure6a is new annual commissioning capacity, Figure6b/8 direct regional emission rates, maps are approximate topology. No exact25-year arrays or cumulative retained mass recovered.",
+    "Full nonnegative continuous domains are not explicitly listed in equations; physical amounts suggest them. Synthetic examples disclose nonnegative domains and arbitrary monetary/stock units.",
+    "EOR revenue and social damage monetization do not account for all oil/capture/transport/storage lifecycle emissions. No complete same-case utility inventory or pressure-calibrated annual rate."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1
+      ],
+      "claim": "CCUS nearly one-sixth of cumulative emission reductions",
+      "assessment": "Attributed pathway context; exact report/source page and denominator unverified. Printed IEA URL points to terms, not original report.",
+      "reference_ids": [
+        "R14"
+      ]
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1
+      ],
+      "claim": "Prior spatial/multiscale network methods",
+      "assessment": "Scoped SimCCS original pp1–2 supports California topology, reservoir/source selection and capacitated pipes; trunklines/partial capture differ from this study. Other comparisons require originals.",
+      "reference_ids": [
+        "R11",
+        "R12",
+        "R18",
+        "R04",
+        "R03",
+        "R17",
+        "R28",
+        "R31"
+      ]
+    },
+    {
+      "id": "C03",
+      "pages": [
+        2
+      ],
+      "claim": "Prior multiperiod deployment methods",
+      "assessment": "Exact InfraCCS pp1–2 supports clustering, staged European network and exogenous capture. Other method/scope claims remain unverified; source does not validate Aras implementation.",
+      "reference_ids": [
+        "R25",
+        "R21",
+        "R19",
+        "R07",
+        "R05",
+        "R08",
+        "R20"
+      ]
+    },
+    {
+      "id": "C04",
+      "pages": [
+        2
+      ],
+      "claim": "Prior stochastic/risk methods and new budget/uncertainty contribution",
+      "assessment": "All source lifetime/capacity, compensatory energy, cost/price, integrated utility and neutrosophic claims read; precise novelty and previous Aras ITS remain unverified.",
+      "reference_ids": [
+        "R10",
+        "R13",
+        "R16",
+        "R27",
+        "R26",
+        "R01"
+      ]
+    },
+    {
+      "id": "C05",
+      "pages": [
+        3
+      ],
+      "claim": "Capture all emissions, constant cohort flows, individual pipelines and turnkey costs",
+      "assessment": "Restrictive design assumptions; no partial capture, evolving rates, shared hubs, annual physical injection or full lifecycle boundary. Fixed storage costs do not establish marginal pressure-management costs.",
+      "reference_ids": [
+        "R24"
+      ]
+    },
+    {
+      "id": "C06",
+      "pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "claim": "Objective maximizes economic benefit while problem statement stresses capture",
+      "assessment": "Social costs and EOR revenue change choices. Full-life NPV charged at commissioning differs from actual annual expenditure; literal cost sign and pipe indexing remain unresolved.",
+      "reference_ids": []
+    },
+    {
+      "id": "C07",
+      "pages": [
+        4
+      ],
+      "claim": "CDF-based iid SAA scenarios support storage uncertainty decisions",
+      "assessment": "29/30 USGS and prior Aras sampling are unverified. Geological resource stock uncertainty is not a pressure/rate posterior; sink dependence/seeds and evaluation correspondence missing.",
+      "reference_ids": [
+        "R29",
+        "R30",
+        "R01"
+      ]
+    },
+    {
+      "id": "C08",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "claim": "Rolling horizon controls complexity with good but possibly nonglobal schedules",
+      "assessment": "Source explicitly admits global optimality is not guaranteed. Argmin/max and reserve-set update conflicts need native code. A toy independently confirms the heuristic/global distinction.",
+      "reference_ids": [
+        "R23",
+        "R02",
+        "R09"
+      ]
+    },
+    {
+      "id": "C09",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Updating reserves guarantees no cumulative storage violation",
+      "assessment": "Literal algorithms remove newly built sources before summing I_A, omitting new commitments under conventional nonnegative flow. Synthetic overbooking disproves a general guarantee for that literal order; actual implementation remains unknown.",
+      "reference_ids": []
+    },
+    {
+      "id": "C10",
+      "pages": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "claim": "Recourse includes additional pipeline connections",
+      "assessment": "h and mu are scenario-independent; flows/slack alone carry omega. More anticipatory first-stage links are not scenario-contingent construction after capacity revelation. Native information structure missing.",
+      "reference_ids": []
+    },
+    {
+      "id": "C11",
+      "pages": [
+        6
+      ],
+      "claim": "Feasible rolling candidates provide valid SAA upper/lower bounds and smallest duality gap",
+      "assessment": "Feasible does not mean globally SAA-optimal; finite means are estimators, not automatic confidence bounds.1% solve gap, distributions, holdout selection and original-source support remain open.",
+      "reference_ids": [
+        "R22",
+        "R15"
+      ]
+    },
+    {
+      "id": "C12",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "820 sources,3 sequestration/5 utilization sites and458673kt/year over2026–2050",
+      "assessment": "Data vintage, source/sink IDs, GHGRP/USGS rows and native matches not provided. No current contracted service or anonymous-field identification inferred.",
+      "reference_ids": [
+        "R29",
+        "R30"
+      ]
+    },
+    {
+      "id": "C13",
+      "pages": [
+        7
+      ],
+      "claim": "4.8billion annual allocation,3%,42dollars/t and reported solver setup",
+      "assessment": "M10/N25/Nbar5000, Python3.9.6/Gurobi11.0.3,1% gap and hardware read. Dollar year/ton basis, L, native coefficients/seeds and runtime/performance unverified.",
+      "reference_ids": [
+        "R06"
+      ]
+    },
+    {
+      "id": "C14",
+      "pages": [
+        7
+      ],
+      "claim": "All eight sinks selected and stochastic topology has more pipes",
+      "assessment": "Map/prose observation only; exact link counts, costs, flow capacities, physical feasibility and native optimality unavailable.",
+      "reference_ids": []
+    },
+    {
+      "id": "C15",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Large emitters early are economically/environmentally favorable; EOR prioritized",
+      "assessment": "Case-specific economic/direct-mass objective. Additional oil production and capture/pipeline/storage lifecycle emissions are absent; cannot infer universal net mitigation or source ordering.",
+      "reference_ids": []
+    },
+    {
+      "id": "C16",
+      "pages": [
+        7,
+        9
+      ],
+      "claim": "New annual capture capacity falls10596 to9641kt/year; final emissions204723kt/year",
+      "assessment": "Endpoints are attributed outputs. Figure6 new-build series fluctuates; it is not cumulative installed capacity. Exact25-year schedule and scenario-emission reconciliation missing.",
+      "reference_ids": []
+    },
+    {
+      "id": "C17",
+      "pages": [
+        7,
+        10
+      ],
+      "claim": "Base final annual emissions fall55.3%",
+      "assessment": "Printed endpoints yield55.36624%, normally55.4 to one decimal. Preserve source55.3 and rounding question. No lifecycle GHG reduction or repaired native result.",
+      "reference_ids": []
+    },
+    {
+      "id": "C18",
+      "pages": [
+        7
+      ],
+      "claim": "Deterministic4795kt versus stochastic145.24kt mean lifetime deviations;96.97% improvement",
+      "assessment": "Rounded arithmetic agrees. Exact samples, scenario selection, L and normalization remain open. This is not a physical leakage probability or annual outage factor.",
+      "reference_ids": []
+    },
+    {
+      "id": "C19",
+      "pages": [
+        7,
+        9,
+        10
+      ],
+      "claim": "Budget50%: 2.4billion per allocation and27.5% final reduction",
+      "assessment": "Reported graph/prose result, not independently solved deployment. Allocation pays lifetime commitments. Exact annual curves, marginal cost and lifecycle comparison remain unverified.",
+      "reference_ids": []
+    },
+    {
+      "id": "C20",
+      "pages": [
+        7,
+        9,
+        10
+      ],
+      "claim": "Budget75%: 3.6billion per allocation and41.5% final reduction",
+      "assessment": "Reported graph/prose result, not independently solved deployment. Allocation pays lifetime commitments. Exact annual curves, marginal cost and lifecycle comparison remain unverified.",
+      "reference_ids": []
+    },
+    {
+      "id": "C21",
+      "pages": [
+        7,
+        9,
+        10
+      ],
+      "claim": "Budget100%: 4.8billion per allocation and55.3% final reduction",
+      "assessment": "Reported graph/prose result, not independently solved deployment. Allocation pays lifetime commitments. Exact annual curves, marginal cost and lifecycle comparison remain unverified.",
+      "reference_ids": []
+    },
+    {
+      "id": "C22",
+      "pages": [
+        7,
+        9,
+        10
+      ],
+      "claim": "Budget125%: 6billion per allocation and64.2% final reduction",
+      "assessment": "Reported graph/prose result, not independently solved deployment. Allocation pays lifetime commitments. Exact annual curves, marginal cost and lifecycle comparison remain unverified.",
+      "reference_ids": []
+    },
+    {
+      "id": "C23",
+      "pages": [
+        7,
+        9
+      ],
+      "claim": "Low budget excludes some large sources and an optimal budget/cost trade-off may exist",
+      "assessment": "Qualitative interpretation of selected cases; no universal optimal allocation, Pareto frontier or full marginal economic/GHG proof.",
+      "reference_ids": []
+    },
+    {
+      "id": "C24",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "claim": "Conclusions claim optimal schedules, confidence and broad regional applicability",
+      "assessment": "Source also admits rolling nonglobality and dynamic economic/technology caveats. Case data, correct implementation, budget/stock feasibility and uncertainty validation required; no universal policy or physical-service guarantee.",
+      "reference_ids": []
+    },
+    {
+      "id": "C25",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Supplement methods and data available online/on request",
+      "assessment": "Explicit notice is retained, but native supplement/data/code not matched locally. No public absence inferred and no author contact sent.",
+      "reference_ids": []
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        11
+      ],
+      "citation": "Aras, C.M., Ntaimo, L., Hasan, M.M.F., 2025. Optimal design of carbon capture, utilization and storage (CCUS) networks under uncertain geological storage volumes and CO2 price. Comput. Chem. Eng. 201.",
+      "raw_native_excerpt": "Aras, C.M., Ntaimo, L., Hasan, M.M.F., 2025. Optimal design of carbon capture,\nutilization and storage (CCUS) networks under uncertain geological storage volumes\nand CO2 price. Comput. Chem. Eng. 201.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior method defines inverse-transform sampling; main paper refers to Section4.2. Exact CDF interpolation, joints, seeds and native case remain unverified.",
+      "claim_ids": [
+        "C04",
+        "C07"
+      ],
+      "claim_pages": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "R02",
+      "pages": [
+        11
+      ],
+      "citation": "Chand, S., Hsu, V.N., Sethi, S., 2002. Forecast, solution, and rolling horizons in operations management problems: A classified bibliography. Manuf. Serv. Oper. Manag. 4, 25–43.",
+      "raw_native_excerpt": "Chand, S., Hsu, V.N., Sethi, S., 2002. Forecast, solution, and rolling horizons in\noperations management problems: A classified bibliography. Manuf. Serv. Oper.\nManag. 4, 25–43.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C08"
+      ],
+      "claim_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R03",
+      "pages": [
+        11
+      ],
+      "citation": "d’Amore, F., Mocellin, P., Vianello, C., Maschio, G., Bezzo, F., 2018. Economic opti- misation of European supply chains for CO2 capture, transport and sequestration, including societal risk analysis and risk mitigation measures. Appl. Energy 223, 401–415.",
+      "raw_native_excerpt": "d’Amore, F., Mocellin, P., Vianello, C., Maschio, G., Bezzo, F., 2018. Economic opti-\nmisation of European supply chains for CO2 capture, transport and sequestration,\nincluding societal risk analysis and risk mitigation measures. Appl. Energy 223,\n401–415.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11
+      ],
+      "citation": "Diamante, J.A.R., Tan, R.R., Foo, D.C., Ng, D.K., Aviso, K.B., Bandyopadhyay, S., 2013. A graphical approach for pinch-based source-sink matching and sensitivity analysis in carbon capture and storage systems. Ind. Eng. Chem. Res. 52, 7211–7222.",
+      "raw_native_excerpt": "Diamante, J.A.R., Tan, R.R., Foo, D.C., Ng, D.K., Aviso, K.B., Bandyopadhyay, S., 2013.\nA graphical approach for pinch-based source-sink matching and sensitivity analysis\nin carbon capture and storage systems. Ind. Eng. Chem. Res. 52, 7211–7222.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R05",
+      "pages": [
+        11
+      ],
+      "citation": "Duarte, A., Angarita, J.D., Espinosa-Cárdenas, J.P., Lizcano, J., García-Saravia, R.C., Uribe-Rodríguez, A., 2022. Multiperiod optimization model for CO2 capture, utilization and storage, Colombian case study. In: Montastruc, L., Negny, S. (Eds.), 32nd European Symposium on Computer Aided Process Engineering. In: Computer Aided Chemical Engineering, vol. 51, Elsevier, pp. 997–1002.",
+      "raw_native_excerpt": "Duarte, A., Angarita, J.D., Espinosa-Cárdenas, J.P., Lizcano, J., García-Saravia, R.C.,\nUribe-Rodríguez, A., 2022. Multiperiod optimization model for CO2 capture,\nutilization and storage, Colombian case study. In: Montastruc, L., Negny, S. (Eds.),\n32nd European Symposium on Computer Aided Process Engineering. In: Computer\nAided Chemical Engineering, vol. 51, Elsevier, pp. 997–1002.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R06",
+      "pages": [
+        11
+      ],
+      "citation": "EPA, 2016. US and climate change division - technical support document: Technical update of the social cost of carbon for regulatory impact analysis under executive order 12866.",
+      "raw_native_excerpt": "EPA, 2016. US and climate change division - technical support document: Technical\nupdate of the social cost of carbon for regulatory impact analysis under executive\norder 12866.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "42 dollars/ton social cost and3% case discount context; dollar year, currency/ton basis, lifetime coefficient and source document need verification.",
+      "claim_ids": [
+        "C13"
+      ],
+      "claim_pages": [
+        7
+      ]
+    },
+    {
+      "id": "R07",
+      "pages": [
+        11
+      ],
+      "citation": "Fraga, D., Korre, A., Nie, Z., Durucan, S., 2021. Multi-period cost optimisation of multi-mode carbon capture and storage chains.",
+      "raw_native_excerpt": "Fraga, D., Korre, A., Nie, Z., Durucan, S., 2021. Multi-period cost optimisation of\nmulti-mode carbon capture and storage chains.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R08",
+      "pages": [
+        11
+      ],
+      "citation": "Fraga, D.M., Korre, A., Nie, Z., Durucan, S., 2024. Multi-period, multi-objective optimisation of the northern lights and stella maris carbon capture and storage chains. Carbon Capture Sci. Technol. 11.",
+      "raw_native_excerpt": "Fraga, D.M., Korre, A., Nie, Z., Durucan, S., 2024. Multi-period, multi-objective\noptimisation of the northern lights and stella maris carbon capture and storage\nchains. Carbon Capture Sci. Technol. 11.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R09",
+      "pages": [
+        11
+      ],
+      "citation": "Glomb, L., Liers, F., Rösel, F., 2022. A rolling-horizon approach for multi-period optimization. European J. Oper. Res. 300, 189–206.",
+      "raw_native_excerpt": "Glomb, L., Liers, F., Rösel, F., 2022. A rolling-horizon approach for multi-period\noptimization. European J. Oper. Res. 300, 189–206.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C08"
+      ],
+      "claim_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R10",
+      "pages": [
+        11
+      ],
+      "citation": "Han, J.H., Lee, I.B., 2012. Multiperiod stochastic optimization model for carbon capture and storage infrastructure under uncertainty in CO 2 emissions, product prices, and operating costs. Ind. Eng. Chem. Res. 51, 11445–11457.",
+      "raw_native_excerpt": "Han, J.H., Lee, I.B., 2012. Multiperiod stochastic optimization model for carbon capture\nand storage infrastructure under uncertainty in CO 2 emissions, product prices, and\noperating costs. Ind. Eng. Chem. Res. 51, 11445–11457.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R11",
+      "pages": [
+        11
+      ],
+      "citation": "Hasan, M.M.F., Boukouvala, F., First, E.L., Floudas, C.A., 2014. Nationwide, regional, and statewide CO2 capture, utilization, and sequestration supply chain network optimization. Ind. Eng. Chem. Res. 53, 7489–7506.",
+      "raw_native_excerpt": "Hasan, M.M.F., Boukouvala, F., First, E.L., Floudas, C.A., 2014. Nationwide, regional,\nand statewide CO2 capture, utilization, and sequestration supply chain network\noptimization. Ind. Eng. Chem. Res. 53, 7489–7506.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R12",
+      "pages": [
+        11
+      ],
+      "citation": "Hasan, M.M.F., First, E.L., Boukouvala, F., Floudas, C.A., 2015. A multi-scale framework for CO2 capture, utilization, and sequestration: CCUS and CCU. Comput. Chem. Eng. 81, 2–21.",
+      "raw_native_excerpt": "Hasan, M.M.F., First, E.L., Boukouvala, F., Floudas, C.A., 2015. A multi-scale framework\nfor CO2 capture, utilization, and sequestration: CCUS and CCU. Comput. Chem.\nEng. 81, 2–21.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R13",
+      "pages": [
+        11
+      ],
+      "citation": "He, Y.J., Zhang, Y., Ma, Z.F., Sahinidis, N.V., Tan, R.R., Foo, D.C., 2014. Optimal source-sink matching in carbon capture and storage systems under uncertainty. Ind. Eng. Chem. Res. 53, 778–785.",
+      "raw_native_excerpt": "He, Y.J., Zhang, Y., Ma, Z.F., Sahinidis, N.V., Tan, R.R., Foo, D.C., 2014. Optimal\nsource-sink matching in carbon capture and storage systems under uncertainty.\nInd. Eng. Chem. Res. 53, 778–785.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R14",
+      "pages": [
+        11
+      ],
+      "citation": "IEA, 2020. Energy technology perspectives 2020. URL www.iea.org/t&c/. (Accessed May 2024).",
+      "raw_native_excerpt": "IEA, 2020. Energy technology perspectives 2020. URL www.iea.org/t&c/. (Accessed\nMay 2024).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "One-sixth cumulative mitigation claim p1; printed URL is terms-and-conditions rather than the report. Source identity/page support remains unverified.",
+      "claim_ids": [
+        "C01"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R15",
+      "pages": [
+        11
+      ],
+      "citation": "Kall, P., Mayer, J., 2005. Stochastic Linear Programming Models, Theory, and Computation. Springer’s International Series. 11",
+      "raw_native_excerpt": "Kall, P., Mayer, J., 2005. Stochastic Linear Programming Models, Theory, and\nComputation. Springer’s International Series.\n11",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Candidate selection and reported duality-gap method p6. Exact statistical assumptions, confidence intervals and global-optimization requirements remain unverified.",
+      "claim_ids": [
+        "C11"
+      ],
+      "claim_pages": [
+        6
+      ]
+    },
+    {
+      "id": "R16",
+      "pages": [
+        11
+      ],
+      "citation": "Li, Y., Wei, J., Yuan, Z., Chen, B., Gani, R., 2022. Sustainable synthesis of integrated process, water treatment, energy supply, and CCUS networks under uncertainty. Comput. Chem. Eng. 157.",
+      "raw_native_excerpt": "Li, Y., Wei, J., Yuan, Z., Chen, B., Gani, R., 2022. Sustainable synthesis of integrated\nprocess, water treatment, energy supply, and CCUS networks under uncertainty.\nComput. Chem. Eng. 157.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R17",
+      "pages": [
+        11
+      ],
+      "citation": "Massol, O., Tchung-Ming, S., Banal-Estañol, A., 2018. Capturing industrial CO2 emis- sions in Spain: Infrastructures, costs and break-even prices. Energy Policy 115, 545–560.",
+      "raw_native_excerpt": "Massol, O., Tchung-Ming, S., Banal-Estañol, A., 2018. Capturing industrial CO2 emis-\nsions in Spain: Infrastructures, costs and break-even prices. Energy Policy 115,\n545–560.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R18",
+      "pages": [
+        11
+      ],
+      "citation": "Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture and storage: Simccs. Energy Policy 37, 1052–1060.",
+      "raw_native_excerpt": "Middleton, R.S., Bielicki, J.M., 2009. A scalable infrastructure model for carbon capture\nand storage: Simccs. Energy Policy 37, 1052–1060.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "California source/reservoir selection and capacitated pipeline-network sizing; original allows trunkline aggregation and partial capture. Exact retained original physical pages1–2 read and rendered. This supports the cited method context, not Aras model correctness, Illinois inputs, statistics, pressure feasibility or retention. It does not complete the cited paper or reproduce its model.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R19",
+      "pages": [
+        11
+      ],
+      "citation": "Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic model for optimally phasing in CO 2 capture and storage infrastructure. Environ. Model. Softw. 37, 193–205.",
+      "raw_native_excerpt": "Middleton, R.S., Kuby, M.J., Wei, R., Keating, G.N., Pawar, R.J., 2012. A dynamic\nmodel for optimally phasing in CO 2 capture and storage infrastructure. Environ.\nModel. Softw. 37, 193–205.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R20",
+      "pages": [
+        11
+      ],
+      "citation": "Montagna, A.F., Angarita, J.D., Duarte, A.E., Uribe, A., Osorio, J.P., Gounaris, C., Grossmann, I.E., 2022. Advanced optimization of multi-sink CO2-EOR operations in the context of long-term CCUS supply chain design.",
+      "raw_native_excerpt": "Montagna, A.F., Angarita, J.D., Duarte, A.E., Uribe, A., Osorio, J.P., Gounaris, C.,\nGrossmann, I.E., 2022. Advanced optimization of multi-sink CO2-EOR operations\nin the context of long-term CCUS supply chain design.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R21",
+      "pages": [
+        11
+      ],
+      "citation": "Morbee, J., Serpa, J., Tzimas, E., 2012. Optimised deployment of a European CO2 transport network. Int. J. Greenh. Gas Control. 7, 48–61.",
+      "raw_native_excerpt": "Morbee, J., Serpa, J., Tzimas, E., 2012. Optimised deployment of a European CO2\ntransport network. Int. J. Greenh. Gas Control. 7, 48–61.",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_with_scope_limits",
+      "use_and_remaining_check": "InfraCCS European staged MILP with automatic k-means clustering and pipeline preselection, using an exogenous capture scenario. Exact retained original physical pages1–2 read and rendered. This supports the cited method context, not Aras model correctness, Illinois inputs, statistics, pressure feasibility or retention. It does not complete the cited paper or reproduce its model.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R22",
+      "pages": [
+        11
+      ],
+      "citation": "Ntaimo, L., 2024. Computational Stochastic Programming: Models, Algorithms, and Implementation. Springer Cham.",
+      "raw_native_excerpt": "Ntaimo, L., 2024. Computational Stochastic Programming: Models, Algorithms, and\nImplementation. Springer Cham.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Bounds argument pp6–7. A feasible rolling solution is not necessarily a global SAA optimum, and finite means are not deterministic confidence bounds. Exact book support remains unverified.",
+      "claim_ids": [
+        "C11"
+      ],
+      "claim_pages": [
+        6
+      ]
+    },
+    {
+      "id": "R23",
+      "pages": [
+        11
+      ],
+      "citation": "Sethi, S., Sorger, G., 1991. A theory of rolling horizon desicion making. Ann. Oper. Res. 29, 387–416.",
+      "raw_native_excerpt": "Sethi, S., Sorger, G., 1991. A theory of rolling horizon desicion making. Ann. Oper.\nRes. 29, 387–416.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C08"
+      ],
+      "claim_pages": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "R24",
+      "pages": [
+        11
+      ],
+      "citation": "Smith, E., Morris, J., Kheshgi, H., Teletzke, G., Herzog, H., Paltsev, S., 2021. The cost of CO2 transport and storage in global integrated assessment modeling. Int. J. Greenh. Gas Control. 109.",
+      "raw_native_excerpt": "Smith, E., Morris, J., Kheshgi, H., Teletzke, G., Herzog, H., Paltsev, S., 2021. The cost of\nCO2 transport and storage in global integrated assessment modeling. Int. J. Greenh.\nGas Control. 109.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Constant storage dollars/ton assumption p3, including site and post-injection costs. Not a pressure/rate model or matched marginal field inventory.",
+      "claim_ids": [
+        "C05"
+      ],
+      "claim_pages": [
+        3
+      ]
+    },
+    {
+      "id": "R25",
+      "pages": [
+        11
+      ],
+      "citation": "Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2012. Continuous-time optimiza- tion model for source-sink matching in carbon capture and storage systems. Ind. Eng. Chem. Res. 51, 10015–10020.",
+      "raw_native_excerpt": "Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2012. Continuous-time optimiza-\ntion model for source-sink matching in carbon capture and storage systems. Ind.\nEng. Chem. Res. 51, 10015–10020.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C03"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R26",
+      "pages": [
+        11
+      ],
+      "citation": "Tapia, J.F.D., 2024. Optimal multi-period source-sink matching in carbon capture, utilization, and storage (CCUS) systems under neutrosophic environment. J. Clean. Prod. 467.",
+      "raw_native_excerpt": "Tapia, J.F.D., 2024. Optimal multi-period source-sink matching in carbon capture,\nutilization, and storage (CCUS) systems under neutrosophic environment. J. Clean.\nProd. 467.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R27",
+      "pages": [
+        11
+      ],
+      "citation": "Wang, P., Papadokonstantakis, S., 2024. Multi-period stochastic optimization of in- tegrating carbon capture and storage/utilization (CCS/CCU) for cement industry. In: Manenti, F., Reklaitis, G.V. (Eds.), 34th European Symposium on Computer Aided Process Engineering / 15th International Symposium on Process Systems Engineering. In: Computer Aided Chemical Engineering, vol. 53, Elsevier, pp. 2101–2106.",
+      "raw_native_excerpt": "Wang, P., Papadokonstantakis, S., 2024. Multi-period stochastic optimization of in-\ntegrating carbon capture and storage/utilization (CCS/CCU) for cement industry.\nIn: Manenti, F., Reklaitis, G.V. (Eds.), 34th European Symposium on Computer\nAided Process Engineering / 15th International Symposium on Process Systems\nEngineering. In: Computer Aided Chemical Engineering, vol. 53, Elsevier, pp.\n2101–2106.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C04"
+      ],
+      "claim_pages": [
+        2
+      ]
+    },
+    {
+      "id": "R28",
+      "pages": [
+        11
+      ],
+      "citation": "Wang, P.T., Wei, Y.M., Yang, B., Li, J.Q., Kang, J.N., Liu, L.C., Yu, B.Y., Hou, Y.B., Zhang, X., 2020. Carbon capture and storage in China’s power sector: Optimal planning under the 2 ◦C constraint. Appl. Energy 263.",
+      "raw_native_excerpt": "Wang, P.T., Wei, Y.M., Yang, B., Li, J.Q., Kang, J.N., Liu, L.C., Yu, B.Y., Hou, Y.B.,\nZhang, X., 2020. Carbon capture and storage in China’s power sector: Optimal\nplanning under the 2 ◦C constraint. Appl. Energy 263.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "R29",
+      "pages": [
+        11
+      ],
+      "citation": "Warwick, P.D., Attanasi, E.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M., Doolan, C.A., Freeman, P.A., Karacan, C.O., Lohr, C.D., Merrill, M.D., Olea, R.A., Shelton, J.L., Slucher, E.R., Varela, B.A., 2019. Energy resources program national assessment of carbon dioxide enhanced oil recovery and associated carbon dioxide retention resources-results. http://dx.doi.org/10.3133/cir1489.",
+      "raw_native_excerpt": "Warwick, P.D., Attanasi, E.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M.,\nDoolan, C.A., Freeman, P.A., Karacan, C.O., Lohr, C.D., Merrill, M.D., Olea, R.A.,\nShelton, J.L., Slucher, E.R., Varela, B.A., 2019. Energy resources program national\nassessment of carbon dioxide enhanced oil recovery and associated carbon dioxide\nretention resources-results. http://dx.doi.org/10.3133/cir1489.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Storage/retention CDF attribution pp3–4,7. Resource stock, injectivity, physical permanent retention and joint uncertainty are distinct. Exact original datasets remain unverified.",
+      "claim_ids": [
+        "C07",
+        "C12"
+      ],
+      "claim_pages": [
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "R30",
+      "pages": [
+        11
+      ],
+      "citation": "Warwick, P.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M., Cole- man, J.L., Cook, T.A., Corum, M.D., Covault, J.A., Craddock, W.H., DeVera, C.A., Doolan, C., II, R.M.D., Drew, L.J., East, J.A., Freeman, P.A., Garrity, C.P., Goo- ley, K.J., Gosai, M.A., Jahediesfanjani, H., Lohr, C.D., Mars, J.C., Merrill, M.D., Olea, R.A., Roberts-Ashby, T.L., Rouse, W.A., Schruben, P.G., Schuenemeyer, J.H., Slucher, E.R., Varela, B.A., Verma, M.K., 2013. National assessment of geologic carbon dioxide storage resources-results.",
+      "raw_native_excerpt": "Warwick, P.D., Blondes, M.S., Brennan, S.T., Buursink, M.L., Cahan, S.M., Cole-\nman, J.L., Cook, T.A., Corum, M.D., Covault, J.A., Craddock, W.H., DeVera, C.A.,\nDoolan, C., II, R.M.D., Drew, L.J., East, J.A., Freeman, P.A., Garrity, C.P., Goo-\nley, K.J., Gosai, M.A., Jahediesfanjani, H., Lohr, C.D., Mars, J.C., Merrill, M.D.,\nOlea, R.A., Roberts-Ashby, T.L., Rouse, W.A., Schruben, P.G., Schuenemeyer, J.H.,\nSlucher, E.R., Varela, B.A., Verma, M.K., 2013. National assessment of geologic\ncarbon dioxide storage resources-results.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Storage/retention CDF attribution pp3–4,7. Resource stock, injectivity, physical permanent retention and joint uncertainty are distinct. Exact original datasets remain unverified.",
+      "claim_ids": [
+        "C07",
+        "C12"
+      ],
+      "claim_pages": [
+        4,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "R31",
+      "pages": [
+        11
+      ],
+      "citation": "Zhang, X., Li, K., Wei, N., Li, Z., Fan, J.L., 2022. Advances, challenges, and perspectives for CCUS source-sink matching models under carbon neutrality target. Carbon Neutrality 1.",
+      "raw_native_excerpt": "Zhang, X., Li, K., Wei, N., Li, Z., Fan, J.L., 2022. Advances, challenges, and perspectives\nfor CCUS source-sink matching models under carbon neutrality target. Carbon\nNeutrality 1.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, supported claims, data/code, supplements and model correspondence remain unverified.",
+      "claim_ids": [
+        "C02"
+      ],
+      "claim_pages": [
+        1
+      ]
+    },
+    {
+      "id": "N01",
+      "pages": [
+        2,
+        3,
+        6,
+        7
+      ],
+      "citation": "GHGRP820-source extract, emissions, locations, types and data vintage",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native source identifiers/rows and458673kt/year total are not supplied in the main PDF.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N02",
+      "pages": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "citation": "USGS sequestration-site CDF arrays and resource definitions",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Three sequestration sites; exact native IDs, capacity units, CDF interpolation and injectivity absent/unverified.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "citation": "USGS EOR/retention CDF arrays and site identities",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Five utilization sites, including two Appalachian sites; retained versus injected/produced CO2 and lifecycle oil burdens not supplied.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N04",
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "citation": "Joint scenario arrays, inverse-transform implementation and seeds",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "10 batches of25 and5000 evaluation scenarios are stated; sink dependence, persistent scenario identity, selection/holdout independence and exact samples unverified.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N05",
+      "pages": [
+        3,
+        10
+      ],
+      "citation": "Supplementary Information Section1 capture-cost and scale coefficients",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Explicitly referenced supplement not matched in retained local assets. Public existence/content/rights remain unchecked during Chrome wait.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N06",
+      "pages": [
+        3,
+        10
+      ],
+      "citation": "Supplementary Information Section2 distances and pipeline-cost factors",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact route matrix, cost/capacity units and native coefficient arrays missing; no geographic or cost reconstruction from maps.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N07",
+      "pages": [
+        3,
+        4,
+        7,
+        10
+      ],
+      "citation": "Plant lifetime, storage costs, EOR selling prices and NPV coefficient arrays",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "L is defined but no numeric lifetime is identified in main text. Planning horizon25 years is not silently substituted for L.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N08",
+      "pages": [
+        7,
+        11
+      ],
+      "citation": "Python3.9.6/Gurobi11.0.3 author code, logs, model domains and rights",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native implementation and data on request, not supplied here. Solver1% gap and hardware are reported; no independently timed native solve.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N09",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Native deployment/flow/stock schedules and statistical validation outputs",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact annual cohorts, routes, capacity traces, scenario deviations, candidate selection and reported bound values are not available as arrays.",
+      "claim_ids": [],
+      "claim_pages": []
+    },
+    {
+      "id": "N10",
+      "pages": [
+        10,
+        11
+      ],
+      "citation": "AppendixA publisher supplement, errata and data-on-request assets",
+      "record_type": "named_model_or_data_dependency",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "The AppendixA heading is a link notice, not internal supplementary content. No embedded files; no public-absence claim or unauthorized author contact.",
+      "claim_ids": [],
+      "claim_pages": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "HOLD_OBJECTIVE_SIGN_AND_INDICES",
+      "finding": "Eq7/13 use CI−CO while Eq1/19/25 and prose use plus; pipeline costs have free k. Eq25 introduces CC^Soc; Gamma scalar is used as a set. Explanatory xsl penalty prose adds a sink sum absent from the displayed objective.",
+      "action": "Preserve literal formulations and seek supplement/errata/native code. Toy scalar component is not a repaired full model or evidence of software defects."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "HOLD_ROLLING_ALGORITHM_ORDER_AND_SENSE",
+      "finding": "Both algorithms print argmin for max models and remove new sources from I_A before subtracting their lifetime flows.",
+      "action": "Audit native set/order and reserve traces. Literal toy overbooks; do not accept the stated storage-feasibility guarantee without implementation evidence."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "status": "HOLD_STOCK_RATE_COST_AND_TIME_BASES",
+      "finding": "St scenario symbols are called yearly but divided by L; numeric L absent, CT cost/capacity units unclear, full-life NPVs charged at start.",
+      "action": "Obtain unit-complete native coefficients. Do not replace lifetime by25 or call a resource/lifetime quotient a pressure-constrained annual rate."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        4,
+        6,
+        7,
+        8
+      ],
+      "status": "HOLD_RECOURSE_INFORMATION_STRUCTURE",
+      "finding": "Construction h/mu are scenario independent despite narrative of building extra pipes as recourse; flows/slack alone vary with scenario.",
+      "action": "Verify revelation timing, persistent samples, adaptive decisions and later LP/reserved-flow consistency. No full multistage adaptive-policy claim."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "HOLD_STATISTICAL_BOUNDS_AND_VALIDATION",
+      "finding": "Arbitrary rolling incumbents do not yield global SAA upper bounds; finite means and1% solver gaps lack confidence/best-bound treatment.",
+      "action": "Obtain native objectives, solver bounds, standard errors, independence/selection scheme and original statistics sources. Do not treat96.97% as a probability."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        7,
+        9,
+        10
+      ],
+      "status": "HOLD_OUTPUT_ROUNDING_AND_GRAPHIC_ARRAYS",
+      "finding": "Reported endpoints imply55.36624%, rather than nearest-one-decimal55.3. Graphs lack exact routes/cohort arrays and annual capture fluctuates.",
+      "action": "Preserve literal reported numbers; resolve rounding/output bases and obtain raw schedules rather than forcing plot-derived arrays."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        1,
+        3,
+        7,
+        8,
+        9
+      ],
+      "status": "OPEN_NET_GHG_AND_PHYSICAL_SERVICE",
+      "finding": "Economic/EOR/direct capture model omits capture utilities, incremental oil/lifecycle emissions, pressure/injectivity and permanent-retention calibration.",
+      "action": "No annual service, net-GHG factor, outage/risk probability or regional retention factor enters Paper1."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        10,
+        11
+      ],
+      "status": "OPEN_ORIGINALS_SUPPLEMENT_CODE_AND_RIGHTS",
+      "finding": "Two scoped method-context edges;29 other originals and ten dependencies unverified. Explicit supplement/data-on-request assets not retained or reproduced.",
+      "action": "Continue local evidence; public retrieval remains paused pending requested Chrome connection. Preserve hashes, identities and unavailable native inputs; no public-absence claim or unsolicited author message."
+    }
+  ],
+  "supplements": "AppendixA physicalp10 explicitly links publisher supplements, including main-text references to costing/distance sections. P11 says data available on request. No matching native supplement/code/case in retained local inventory or embedded files. External supplements,errata,rights and complete data remain unverified during Chrome wait; no public-absence claim and no author message sent.",
+  "reproduction": "30 limited checks reconstruct reported arithmetic and restricted scalar cost/lifetime-reservation components, with disclosed synthetic sign/order/horizon/statistical counterexamples and independent toy MILP verification. None reproduces the820-source/eight-sink Illinois deployment, USGS CDF/ITS sampling, Gurobi schedules, SAA bounds or pressure/lifecycle models.",
+  "paper1_use": "Use for budget/commissioning, stochastic-flow versus adaptive-construction, resource-stock versus rate and heuristic/statistical-bound distinctions. Keep sign/index/set/units, output rounding and missing assets qualified. Two original-source edges establish method context only. No accepted operating, GHG, annual reservoir service, outage or retention parameter changes.",
+  "next_steps": "Verify29 remaining direct sources and ten data/model dependencies, obtain the explicit supplement/native cases/code/rights, reconcile formulations and reserve traces, independently evaluate statistics and physical/lifecycle boundaries. Continue B2-04 locally;92-paper audit remains active."
+}

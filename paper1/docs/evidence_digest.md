@@ -256,7 +256,7 @@ Transfer limits: All26 main pages, seven figures, three tables, two numbered equ
 
 ### B2-03 — Multi-period Carbon Capture, Utilization, and Storage (CCUS) infrastructure design and planning under uncertainty
 
-. Identifier: 10.1016/j.compchemeng.2025.109300. [PDF](../papers/B2-03.pdf).
+Aras & Hasan (2025). Identifier: 10.1016/j.compchemeng.2025.109300. [PDF](../papers/B2-03.pdf).
 
 Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,7.
 
@@ -264,7 +264,7 @@ Annual-budget deterministic and two-stage stochastic CCUS deployment MILPs with 
 
 The Illinois Basin case compares network decisions under capacity uncertainty. The stochastic design reduces the reported mean shortfall from4,795kt to145.24kt per scenario over plant operating lives. It evaluates fixed designs on5,000 scenarios, rather than inferring a generic probability of storage success. The analysis already combines temporal planning and uncertain sink capacities.
 
-Transfer limits: Objective is economic benefit including social cost/EOR revenue under budgets, not harmonised lifecycle net mitigation. Source capture equals emissions by assumption. Missing supplements contain economic/cost details. Its uncertain volumes and recourse results do not supply physical annual pressure-constrained injection maxima or transferable reliability distributions.
+Transfer limits: All11 pages,eight figures,35 numbered equations,two algorithms and both nomenclature/symbol objects read/inspected under the comprehensive standard.30 limited checks retain printed operating-cost sign,free sink index,remove-before-reserve and argmin/max questions; stock/rate/lifetime,recourse,statistical-bound and endpoint-rounding issues remain open. Two scoped exact-original checks support SimCCS/InfraCCS method context only;29 other originals,ten dependencies and the explicit publisher supplement remain unverified. No native Illinois/Gurobi/SAA/CDF or full physical/lifecycle model reproduced. Mean lifetime deviations are not annual reliability or retention factors. See stochastic_deployment_comprehensive_findings.md; no accepted operating/GHG input changes.
 
 ### B2-04 — Optimizing carbon capture and storage infrastructure including physics-based reservoir modelling
 

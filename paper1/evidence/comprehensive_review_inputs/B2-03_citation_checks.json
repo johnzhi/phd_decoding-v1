@@ -1,0 +1,42 @@
+[
+  {
+    "citing_study": "B2-03",
+    "citing_path": "papers/B2-03.pdf",
+    "citing_sha256": "c197de09246b26d7b3d39a96fd8f4edbfb519bb004d55298ebf28c467e1a43c3",
+    "citing_pages": [
+      1
+    ],
+    "reference_id": "R18",
+    "cited_study": "B3-44",
+    "cited_path": "papers/B3-44.pdf",
+    "cited_sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+    "cited_DOI": "10.1016/j.enpol.2008.09.049",
+    "targeted_pages": [
+      1,
+      2
+    ],
+    "status": "primary_text_checked_with_scope_limits",
+    "support": "California source/reservoir selection and capacitated pipeline-network sizing; original allows trunkline aggregation and partial capture.",
+    "limits": "Scoped method-context support only. No whole cited-paper closure, native model reproduction or Illinois/statistical/physical validation."
+  },
+  {
+    "citing_study": "B2-03",
+    "citing_path": "papers/B2-03.pdf",
+    "citing_sha256": "c197de09246b26d7b3d39a96fd8f4edbfb519bb004d55298ebf28c467e1a43c3",
+    "citing_pages": [
+      2
+    ],
+    "reference_id": "R21",
+    "cited_study": "B3-13",
+    "cited_path": "papers/B3-13.pdf",
+    "cited_sha256": "ff86c737307a2d56c0524b25161eaeadf620b44c87725e4cd3e7a9a99470ab5d",
+    "cited_DOI": "10.1016/j.ijggc.2011.11.011",
+    "targeted_pages": [
+      1,
+      2
+    ],
+    "status": "primary_text_checked_with_scope_limits",
+    "support": "InfraCCS European staged MILP with automatic k-means clustering and pipeline preselection, using an exogenous capture scenario.",
+    "limits": "Scoped method-context support only. No whole cited-paper closure, native model reproduction or Illinois/statistical/physical validation."
+  }
+]
