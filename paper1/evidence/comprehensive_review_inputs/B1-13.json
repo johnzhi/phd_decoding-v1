@@ -1,0 +1,470 @@
+{
+  "study_id": "B1-13",
+  "source_path": "papers/B1-13.pdf",
+  "source_sha256": "dd155953567fa75d1c50bb87ce184c0426f080453cbd033183fc98a0d3eb000b",
+  "physical_pages": 14,
+  "doi": "10.4043/34777-MS",
+  "source_url_as_printed": "https://onepetro.org/OTCASIA/proceedings-pdf/24OTCA/24OTCA/D031S022R005/3355897/otc-34777-ms.pdf",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "scope": "Native raster-table transcription and explicit limited analyst checks; not native field-model reproduction or accepted operating/GHG inputs.",
+  "zone_fields": [
+    "table4_label",
+    "table7_label",
+    "bulk_Mm3",
+    "net_Mm3",
+    "pore_Mm3",
+    "table4_capacity_Tscf",
+    "phi",
+    "NTG",
+    "permeability_numeric",
+    "contact_m",
+    "initial_pressure_numeric_psi",
+    "Bg_numeric",
+    "recommended_pressure_psi",
+    "temperature_F",
+    "theoretical_Bscf",
+    "reference_depth_mMD",
+    "original_caprock_Sh_psi",
+    "critical_caprock_Sh_after_psi"
+  ],
+  "zones": [
+    {
+      "table4_label": "K-10",
+      "table7_label": "K-10",
+      "bulk_Mm3": 50,
+      "net_Mm3": 46,
+      "pore_Mm3": 5,
+      "table4_capacity_Tscf": 0.04,
+      "phi": 0.26,
+      "NTG": 0.92,
+      "permeability_numeric": 300,
+      "contact_m": -2055,
+      "initial_pressure_numeric_psi": 2919.3,
+      "Bg_numeric": 0.00341,
+      "recommended_pressure_psi": 4692,
+      "temperature_F": 193.4,
+      "theoretical_Bscf": 37.01,
+      "reference_depth_mMD": 2107.35,
+      "original_caprock_Sh_psi": 5904,
+      "critical_caprock_Sh_after_psi": 5578
+    },
+    {
+      "table4_label": "K-10.1",
+      "table7_label": "K10.1",
+      "bulk_Mm3": 32,
+      "net_Mm3": 23,
+      "pore_Mm3": 2,
+      "table4_capacity_Tscf": 0.01,
+      "phi": 0.16,
+      "NTG": 0.72,
+      "permeability_numeric": 10,
+      "contact_m": -2070,
+      "initial_pressure_numeric_psi": 2940.6,
+      "Bg_numeric": 0.0034,
+      "recommended_pressure_psi": 4720,
+      "temperature_F": 194.2,
+      "theoretical_Bscf": 12.24,
+      "reference_depth_mMD": 2122.96,
+      "original_caprock_Sh_psi": 5963,
+      "critical_caprock_Sh_after_psi": 5610
+    },
+    {
+      "table4_label": "K-10.2",
+      "table7_label": "K10.2",
+      "bulk_Mm3": 840,
+      "net_Mm3": 353,
+      "pore_Mm3": 2,
+      "table4_capacity_Tscf": 0.01,
+      "phi": 0.16,
+      "NTG": 0.42,
+      "permeability_numeric": 10,
+      "contact_m": -2108,
+      "initial_pressure_numeric_psi": 2994.6,
+      "Bg_numeric": 0.00337,
+      "recommended_pressure_psi": 4810,
+      "temperature_F": 198.9,
+      "theoretical_Bscf": 12.35,
+      "reference_depth_mMD": 2158.85,
+      "original_caprock_Sh_psi": 6076,
+      "critical_caprock_Sh_after_psi": 5718
+    },
+    {
+      "table4_label": "K-20",
+      "table7_label": "K-20",
+      "bulk_Mm3": 379,
+      "net_Mm3": 310,
+      "pore_Mm3": 6,
+      "table4_capacity_Tscf": 0.04,
+      "phi": 0.19,
+      "NTG": 0.82,
+      "permeability_numeric": 50,
+      "contact_m": -2214,
+      "initial_pressure_numeric_psi": 3145.2,
+      "Bg_numeric": 0.00335,
+      "recommended_pressure_psi": 5076,
+      "temperature_F": 203.2,
+      "theoretical_Bscf": 41.55,
+      "reference_depth_mMD": 2264.43,
+      "original_caprock_Sh_psi": 6410,
+      "critical_caprock_Sh_after_psi": 6042
+    },
+    {
+      "table4_label": "K-5",
+      "table7_label": "K-5",
+      "bulk_Mm3": 410,
+      "net_Mm3": 353,
+      "pore_Mm3": 5,
+      "table4_capacity_Tscf": 0.03,
+      "phi": 0.18,
+      "NTG": 0.86,
+      "permeability_numeric": 50,
+      "contact_m": -2262,
+      "initial_pressure_numeric_psi": 3213.4,
+      "Bg_numeric": 0.00333,
+      "recommended_pressure_psi": 5194,
+      "temperature_F": 205.6,
+      "theoretical_Bscf": 34.96,
+      "reference_depth_mMD": 2314.39,
+      "original_caprock_Sh_psi": 6575,
+      "critical_caprock_Sh_after_psi": 6184
+    },
+    {
+      "table4_label": "K7.1",
+      "table7_label": "K-7.1",
+      "bulk_Mm3": 154,
+      "net_Mm3": 99,
+      "pore_Mm3": 3,
+      "table4_capacity_Tscf": 0.02,
+      "phi": 0.15,
+      "NTG": 0.64,
+      "permeability_numeric": 10,
+      "contact_m": -2315,
+      "initial_pressure_numeric_psi": 3288.7,
+      "Bg_numeric": 0.00332,
+      "recommended_pressure_psi": 5292,
+      "temperature_F": 207.7,
+      "theoretical_Bscf": 18.91,
+      "reference_depth_mMD": 2350.63,
+      "original_caprock_Sh_psi": 6691,
+      "critical_caprock_Sh_after_psi": 6294
+    }
+  ],
+  "table4_totals": {
+    "bulk_Mm3": 1865,
+    "net_Mm3": 1184,
+    "pore_Mm3": 23,
+    "capacity_Tscf": 0.16
+  },
+  "table7_totals": {
+    "pore_Mm3": 23,
+    "capacity_Bscf": 157.03
+  },
+  "transcription": {
+    "mode": "manual_visual_native_raster_tables",
+    "locators": {
+      "zone_volume": "Table4 p5",
+      "property_input": "Table7 p7",
+      "pressure": "Table6 p6"
+    },
+    "labels": "Six rows mapped by displayed order and matching labels. Table6 uses K-7.1; Table4 K7.1 and Table7 K-7.1. Hyphen differences retained; no field identity inferred.",
+    "units": "Mm3 means the printed *10^6m3 volume multiplier. Porosity/NTG numeric fractions. Table7 permeability and Bg headers omit units; p10 calls K10 value300mD. Bg volume bases, standard T/P and Swirr are not supplied. Table6 initial pressure is psia, other stress/control headers psi. MD/contact/TVDSS references remain distinct."
+  },
+  "PDA": [
+    {
+      "parameter": "Reservoir",
+      "presence": "Proven",
+      "effectiveness": "Proven",
+      "summary": "Early Miocene to Oligocene K/L reservoir;16–17% porosity,~212m gross/~159m net sand."
+    },
+    {
+      "parameter": "Source",
+      "presence": "Proven",
+      "effectiveness": "Proven",
+      "summary": "K/L oil shows, K7.1 sample and L1 petrophysics; poor/fair organic matter, immature to top conventional oil window."
+    },
+    {
+      "parameter": "Timing/Migration",
+      "presence": "Proven",
+      "effectiveness": "Proven",
+      "summary": "Basin model says reservoir predates trap and hydrocarbon expulsion around10–12Ma."
+    },
+    {
+      "parameter": "Trap/Seal",
+      "presence": "Proven",
+      "effectiveness": "Proven",
+      "summary": "K7.1 hydrocarbon evidence interpreted as K-shale seal; L1/L2 sealed by L shale. Not direct CO2 containment tests."
+    }
+  ],
+  "screening_criteria": [
+    "Depth",
+    "Thickness",
+    "Porosity",
+    "Permeability",
+    "Pressure",
+    "Temperature",
+    "Seal Thickness",
+    "Trap",
+    "Well Integrity"
+  ],
+  "screening_matrix": [
+    {
+      "zone": "J sand",
+      "colours": [
+        "green",
+        "green",
+        "yellow",
+        "green",
+        "yellow",
+        "green",
+        "yellow",
+        "green",
+        "green"
+      ],
+      "pressure_token": "No info"
+    },
+    {
+      "zone": "K sand (K5 and K7.1)",
+      "colours": [
+        "green",
+        "green",
+        "yellow",
+        "green",
+        "green",
+        "green",
+        "yellow",
+        "green",
+        "green"
+      ],
+      "pressure_token": "not numeric"
+    },
+    {
+      "zone": "L sand (L1 and L2)",
+      "colours": [
+        "green",
+        "red",
+        "yellow",
+        "yellow",
+        "yellow",
+        "green",
+        "yellow",
+        "green",
+        "green"
+      ],
+      "pressure_token": "No info"
+    }
+  ],
+  "printed_screening_legend": [
+    {
+      "label": "Depth",
+      "cells": [
+        "Green",
+        "Yellow",
+        "Red"
+      ]
+    },
+    {
+      "label": "Thickness",
+      "cells": [
+        ">1000m TVDSS",
+        "<1000m TVDSS from seabed",
+        "merged with preceding cell"
+      ]
+    },
+    {
+      "label": "Porosity",
+      "cells": [
+        ">50m",
+        "20–50m",
+        "<20m"
+      ]
+    },
+    {
+      "label": "Permeability",
+      "cells": [
+        ">20%",
+        "10–20%",
+        "<10%"
+      ]
+    },
+    {
+      "label": "Pressure",
+      "cells": [
+        ">100mD",
+        "10–100mD",
+        "<10mD"
+      ]
+    },
+    {
+      "label": "Temperature",
+      "cells": [
+        ">1100psia",
+        "<1100psia",
+        "merged with preceding cell"
+      ]
+    },
+    {
+      "label": "Seal Thickness",
+      "cells": [
+        ">31degC",
+        "<31degC",
+        "merged with preceding cell"
+      ]
+    },
+    {
+      "label": "Trap",
+      "cells": [
+        ">100m",
+        "20–100m",
+        "<20m"
+      ]
+    },
+    {
+      "label": "Well Integrity",
+      "cells": [
+        "Presence & effective",
+        "Presence",
+        "Absence"
+      ]
+    }
+  ],
+  "screening_legend_note": "Literal physical row alignment preserved. Header/threshold rows appear displaced relative to criterion labels; do not shift them into an assumed corrected screening rule. Green denotes Low Risk in the side key; colours are not measured probabilities. Table2 temperature column degF differs from legend degC.",
+  "structural_grid": {
+    "interpreted_horizons": 2,
+    "faults": 4,
+    "coverage": "Z structure only; Top J to Top L shale",
+    "contacts": "Spill point of2-fault-bounded structure",
+    "lateral_dimension_m": [
+      100,
+      100
+    ],
+    "cells": [
+      85,
+      75,
+      50
+    ],
+    "nodes": [
+      86,
+      76,
+      51
+    ],
+    "reported_cells": 318750,
+    "reported_nodes": 333336,
+    "geological_horizons": 51,
+    "geological_layers": 50,
+    "reported_2D_cells": 6375,
+    "reported_2D_nodes": 6536,
+    "defined_2D_nodes": 3693,
+    "average_Xinc": 99.86085681,
+    "average_Yinc": 98.29005282,
+    "grid_quality_token": "No negative cells",
+    "vertical_cell_dimensions": null,
+    "region1_mask": null
+  },
+  "mechanical_correlations": [
+    {
+      "property": "Young static",
+      "source_token": "John Fuller Correlation"
+    },
+    {
+      "property": "Poisson static",
+      "source_token": "Multiplier:0.9*PR_DYN"
+    },
+    {
+      "property": "Bulk and shear",
+      "source_token": "PR_STA & YM STA as per above"
+    },
+    {
+      "property": "Friction angle",
+      "source_token": "GR Correlation"
+    },
+    {
+      "property": "UCS sandstone",
+      "source_token": "McNally Correlation"
+    },
+    {
+      "property": "UCS shale",
+      "source_token": "Horsrud Correlation"
+    },
+    {
+      "property": "Tensile strength",
+      "source_token": "1/10*UCS"
+    },
+    {
+      "property": "Failure model",
+      "source_token": "Mohr-Coulomb Criterion"
+    },
+    {
+      "property": "Plasticity coefficient",
+      "source_token": "1.0–1.1"
+    },
+    {
+      "property": "SHmax/Shmin ratio",
+      "source_token": "1.1"
+    },
+    {
+      "property": "Poroelastic horizontal strain",
+      "source_token": "epsilonH=.0008;epsilonh=.0005"
+    }
+  ],
+  "pressure_safety_factor": 1.5,
+  "stress_transfer_max_ratio": 0.33,
+  "water_gradient_psi_ft": 0.433,
+  "controls": {
+    "start": "January2025",
+    "end": "2050; exact end date unstated",
+    "nominal_years": 25,
+    "max_gas_MMscf_day": 60,
+    "two_injector_target_basis": "per-well versus total not explicit",
+    "max_injector_BHP_numeric_psi": 5000,
+    "max_water_bbl_day": 30000,
+    "min_producer_BHP_numeric_psi": 800,
+    "producer_CO2_stop_MMscf_day": 1,
+    "pressure_basis": null,
+    "control_depth": null,
+    "standard_temperature": null,
+    "standard_pressure": null
+  },
+  "results": {
+    "no_producer_Bscf": 4.9,
+    "one_injector_one_producer_Bscf": 80.13,
+    "two_injectors_one_producer_Bscf": 95.44,
+    "theoretical_Bscf": 157.03,
+    "reported_percentages": [
+      3,
+      51,
+      61
+    ],
+    "no_producer_shutdown_days": 200,
+    "optimized_water_Mbbl": 40,
+    "optimized_peak_water_kbbl_numeric": 21,
+    "water_rate_prose_unit": "kbbl; /day omitted in p12 prose",
+    "water_rate_plot_unit": "bbl/day; Figure14",
+    "water_M_prefix_basis": "Figure14 cumulative axis4e7bbl supports40millionbbl, not40thousand",
+    "case_one_water_total": null,
+    "producer_CO2_history": null,
+    "retained_mass": null
+  },
+  "missing": {
+    "raw_log_core_tests": null,
+    "full_Petrel_GEM_decks": null,
+    "model_boundaries": null,
+    "relative_permeability_Swirr": null,
+    "PVT_EOS_composition": null,
+    "initial_region_contact_mapping": null,
+    "well_trajectory_completion_controls": null,
+    "native_rate_pressure_CO2_production": null,
+    "geomechanical_calibration_failure_cases": null,
+    "brine_treatment_emissions_and_CO2_fate": null,
+    "post_injection_retention_outputs": null,
+    "full_case_rights": null
+  },
+  "identity_note": "The workflow screenshot labels3D Gelama Field Model, while the paper anonymises Z. This is an unresolved case/template provenance clue; it does not authorise identifying Z or joining it to other fields.",
+  "analyst_examples": {
+    "alpha": 1,
+    "nu": 0.25,
+    "delta_P_psi": 100,
+    "constant_rate_calendar_start": "2025-01-01",
+    "constant_rate_calendar_end": "2050-01-01",
+    "Bg_basis": "m3 reservoir/m3 standard ONLY as conditional example; source unit unresolved"
+  }
+}

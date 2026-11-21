@@ -1,0 +1,203 @@
+{
+  "study_id": "B1-13",
+  "source_sha256": "dd155953567fa75d1c50bb87ce184c0426f080453cbd033183fc98a0d3eb000b",
+  "printed_entries": 4,
+  "named_dependencies": 13,
+  "entry_count": 17,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        14
+      ],
+      "citation": "Debasis P Das, Pankaj K Tiwari, M Zahari B A Rahman, M Naim B Mohamad, Prasanna Chidambaram, Nur Myra Rahayu Razali, M Hamzi B Yakup, Saeed Majidaie, Tan Seng Wah, M Noor Fajarimi B C Mat, M Syafeeq B E Amir, Nik M Fadhlan, Raj Deo Tewari, Salina Bt Baharuddin. CO2 Storage Potential Evaluation of Restricted Saline Aquifers in Peninsular Malaysia Offshore. SPE-215531-MS, SPE Offshore Europe, Aberdeen,5–8September2023.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Closest thematic predecessor in printed list; no inline numbered/author citation binds a specific claim. Exact native study/case identity, input provenance, conclusions and source support unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        14
+      ],
+      "citation": "Raj Deo Tewari, Tan Chee Phuat, Mohd Faizal Sedaralit. A Toolkit Approach for Carbona Capture and Storage in Depleted Offshore Gas Field. Journal of American Environmental Science, May2023 (In Press), as printed.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Toolkit reference; exact title/publication/version and use in this case unresolved. Similar2022 toolkit citation in B1-11 is not substituted."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        14
+      ],
+      "citation": "Rahim Masoudi, S Nayak, PK Tiwari, CS Singh, ATP Panting, MABM Diah, DP Das, P Chidambaram. CCS In Saline Aquifers within A Rift Graben: Opportunities,Risk and Uncertainties—a Case Study from Peninsular Malaysia Offshore.2022 EAGE Asia Pacific Workshop on CO2 Geological Storage.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Regional restricted aquifer/uncertainty background; exact original, case mapping, properties and inference unverified. No unique inline attribution supplied."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "M. Azran Abd. Jalil, Rahim Masoudi, Nasir B. Darman, Mohamad Othman. Study of the CO2 Injection, Storage, and Sequestration in Depleted M4 Carbonate Gas Condensate Reservoir. CMTC-150050-MS, Carbon Management Technology Conference,Orlando,February2012.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Regional storage/geomechanical background, not demonstrated calibration of Z. Similar M4 studies with different identifiers/years are not this original. Exact source support remains unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        5
+      ],
+      "citation": "John Fuller static Young modulus correlation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, formula, units, regression domain and log/core calibration absent. No measured cores at Z."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        5
+      ],
+      "citation": "GR correlation for friction angle",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact gamma-ray fit, units/domain and original authority absent; a label is not a transcribed equation."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        5
+      ],
+      "citation": "McNally sandstone UCS correlation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Original identity, sonic/other input basis, coefficient units and validity range absent."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        5
+      ],
+      "citation": "Horsrud shale UCS correlation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Original identity, formula/coefficient units and lithology applicability absent."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        5,
+        6
+      ],
+      "citation": "Mohr-Coulomb, poroelastic Eq1,0.33 transfer and1.5 safety rule",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact numerical-analysis authority/derivations, sign/geometry, Biot/Poisson values, transfer mapping and propagation criterion absent."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "citation": "FY2021 screening, Z-1 well/PDA, RESSUM and test reports",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native logs, dates/TD/depth datums, raw fluid/P/T tests, screening/stage identity and property QA not retained."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "citation": "Petrel static model, interpreted surfaces/faults and Region1",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native grid/active masks, boundaries, contacts, volume/property mappings and model/template identity unresolved."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        1,
+        7,
+        8
+      ],
+      "citation": "Analogue PVT/SCAL and pore-permeability sources",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Analogue identities, Bg units, EOS/composition, standard T/P, Swirr, gas/water curves, hysteresis and mineral/solubility implementation unavailable."
+    },
+    {
+      "id": "N09",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "CMG-GEM2020.10 cases, constraints and histories",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Full GEM decks, actual one/two-injector cases, completions, BHP datum, allocation, timesteps/convergence and rate/pressure/producerCO2 histories unavailable."
+    },
+    {
+      "id": "N10",
+      "pages": [
+        5,
+        6,
+        8
+      ],
+      "citation": "Native geomechanical calibration and pressure controls",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Log-derived strength/stress fields, raw tests, regional calibration, pressure-reference/thermal conditions and mapping of layer recommendations to uniform5000psi control absent."
+    },
+    {
+      "id": "N11",
+      "pages": [
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Brine and retained-carbon inventory",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Produced free/dissolved CO2, treatment/disposal/recycle, pumping energy, salinity, water handling, leakage/monitoring and post-injection retained mass unavailable."
+    },
+    {
+      "id": "N12",
+      "pages": [
+        1,
+        14
+      ],
+      "citation": "Publisher/author supplements, errata, code and rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit data/code/supplement notice identified locally. External availability unverified during requested Chrome wait; permission to publish is not a code/data licence."
+    },
+    {
+      "id": "N13",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "Climate pledge, CCS-only-viable and sustainable/economic claims",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No exact supporting authority/counterfactual/TEA/LCA is provided for these broad background or economic claims. Official pledge details and original support remain unverified; no avoided-GHG conclusion adopted."
+    }
+  ]
+}

@@ -52,6 +52,9 @@ thermal_spec.loader.exec_module(thermal)
 harvey_spec = importlib.util.spec_from_file_location('audit_south_west_hub', ROOT / 'scripts/audit_south_west_hub.py')
 harvey = importlib.util.module_from_spec(harvey_spec)
 harvey_spec.loader.exec_module(harvey)
+sink_spec = importlib.util.spec_from_file_location('audit_pressure_sink', ROOT / 'scripts/audit_pressure_sink.py')
+sink = importlib.util.module_from_spec(sink_spec)
+sink_spec.loader.exec_module(sink)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -61,6 +64,66 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_pressure_sink_delta_rule_does_not_divide_total_pressure(self):
+        self.assertEqual(sink.pressure_margin(1000, 2500, 1.5), 2000)
+        self.assertNotEqual(sink.pressure_margin(1000, 2500, 1.5), 2500 / 1.5)
+        data = sink.load_inputs()
+        for row in data['zones']:
+            value = sink.pressure_margin(row['initial_pressure_numeric_psi'], row['critical_caprock_Sh_after_psi'], 1.5)
+            self.assertLessEqual(abs(value - row['recommended_pressure_psi']), .40001)
+        # Total pressure-driven stress can increase while effective stress falls.
+        delta = sink.poroelastic_increment(1, .25, 100)
+        self.assertAlmostEqual(delta, 200 / 3)
+        self.assertAlmostEqual(delta - 100, -100 / 3)
+        self.assertIsNone(data['controls']['pressure_basis'])
+        self.assertIsNone(data['controls']['control_depth'])
+
+    def test_pressure_sink_rounding_cannot_repair_common_basis_pore_volumes(self):
+        data = sink.load_inputs()
+        for row in data['zones']:
+            self.assertTrue(sink.rounding_product_overlap(row['bulk_Mm3'], 1, row['NTG'], .01, row['net_Mm3'], 1))
+            # Independent lower endpoint already exceeds the reported pore
+            # volume upper endpoint; this is conditional on common definitions.
+            self.assertGreater((row['net_Mm3'] - .5) * (row['phi'] - .005), row['pore_Mm3'] + .5)
+            self.assertFalse(sink.rounding_product_overlap(row['net_Mm3'], 1, row['phi'], .01, row['pore_Mm3'], 1))
+        k = data['zones'][2]
+        self.assertAlmostEqual(k['net_Mm3'] * k['phi'], 56.48)
+        self.assertEqual(k['pore_Mm3'], 2)  # no silent correction
+        # Conditional full-pore Bg example preserves dimensions and scales
+        # linearly with volume, inversely with the volume formation factor.
+        capacity = sink.full_pore_capacity_Bscf(1e6, .004)
+        self.assertAlmostEqual(capacity, (1e6 / .004) / .3048**3 / 1e9)
+        self.assertAlmostEqual(sink.full_pore_capacity_Bscf(2e6, .008), capacity)
+        self.assertIsNone(data['missing']['relative_permeability_Swirr'])
+
+    def test_pressure_sink_reported_injection_never_becomes_verified_retained_mass(self):
+        data = sink.load_inputs()
+        checks = {r['item']: r for r in sink.calculate(data)}
+        self.assertEqual(len(checks), 132)
+        self.assertEqual(checks['no_producer_average_until_shutdown']['value'], 24.5)
+        self.assertEqual(checks['no_producer_constant_target200days']['value'], 12)
+        self.assertAlmostEqual(checks['Table7_capacity_row_sum']['value'], 157.02)
+        self.assertEqual(checks['Table4_coarse_capacity_row_sum']['value'], .15)
+        self.assertEqual(checks['finer_row_sum_rounded_Tscf']['value'], .16)
+        self.assertIsNone(data['results']['producer_CO2_history'])
+        self.assertIsNone(data['results']['retained_mass'])
+        self.assertIsNone(data['controls']['standard_temperature'])
+        self.assertIsNone(data['controls']['standard_pressure'])
+        self.assertTrue(all('not_native' in r['scope'] for r in checks.values()))
+        self.assertEqual([checks['screening_' + c + '_cell_count']['value'] for c in ('green','yellow','red')], [17,9,1])
+        review = json.loads((ROOT/'evidence/comprehensive_review/B1-13.json').read_text())
+        bib = json.loads((ROOT/'evidence/comprehensive_review_inputs/B1-13_bibliography.json').read_text())
+        self.assertEqual(review['text_read_pages'], list(range(1,15)))
+        self.assertEqual(review['visually_inspected_pages'], list(range(1,15)))
+        self.assertEqual(len(review['visuals']), 23)
+        self.assertEqual(len(review['equations']), 12)
+        self.assertEqual(bib['printed_entries'], 4)
+        self.assertEqual(bib['entry_count'], 17)
+        self.assertEqual(review['references'], bib['entries'])
+        self.assertTrue(all(r['verification_status'] == 'unverified' for r in review['references']))
+        self.assertEqual(review['overall_status'], 'incomplete')
+        self.assertIn('not_reproduced', review['original_model_status'])
+
     def test_harvey_units_match_independent_SI_and_wave_elasticity(self):
         # A 1ft transit in 100us is independently .3048m/.0001s.
         self.assertAlmostEqual(harvey.sonic_km_s(100) * 1000, .3048 / .0001)

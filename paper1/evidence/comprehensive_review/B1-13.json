@@ -1,0 +1,931 @@
+{
+  "study_id": "B1-13",
+  "source_sha256": "dd155953567fa75d1c50bb87ce184c0426f080453cbd033183fc98a0d3eb000b",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All 14 retained pages read and visually inspected, including enlarged raster tables and plot legends. Fifteen figures, eight tables, one numbered equation, three explicit table relations and eight analyst identities/checks recorded. Four printed references and 13 additional dependencies remain unverified. The 132 limited pressure, volume, unit and control checks do not reproduce the native Petrel/GEM/geomechanical models. Source uncertainty, external assets and retained-carbon scope remain open.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "original_model_status": "limited_raster_table_unit_control_arithmetic_only_native_Petrel_GEM_geomechanical_models_not_reproduced",
+  "supplement_status": "no_explicit_notice_or_embedded_files_identified_external_assets_and_code_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication, abstract and provenance",
+      "assessment": "Five PETRONAS Research authors; OTC34777MS,Kuala Lumpur27February–1March2024. Header states abstract-based selection and contents not reviewed by OTC. UTM31October2026 is access provenance. Malaysia climate pledge and CCS-only-viable background are unverified authorities, not a lifecycle result. Abstract outlines future2025–2050 simulations and analogue PVT/SCAL, not observed operation."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Introduction and restricted-aquifer screening",
+      "assessment": "All screening counts/ranges read:34 candidates,six theoretical.5–23Tscf,four mid/high.05–4.6Tscf,and X/Y/Z1.1–1.8Tscf. Units and stages are distinct from K-only.16Tscf. X/Y and J/L rejection versus later J/K-best wording and Table2 trap greens require stage/identity clarification. No present storage access established."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "Z-1 exploration and PDA/preliminary screening",
+      "assessment": "2010 drilling dates,3142mMDDF/2736mTVDSS TD,418mMD basement penetration,minor K7.1/L1 hydrocarbons and K5/L2 water tests read. Four PDA elements all Proven describe hydrocarbon evidence, not injectedCO2 seal validation. All27 colour cells and physical legend rows inspected. The lower key has apparently shifted criterion/threshold alignment and mixed F/C labels; no repair."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "Static modelling and theoretical capacity",
+      "assessment": "Flank well and untested crest, RESSUM averages, two interpreted horizons/four faults, bounded spill contact, model/Region1 scope and Tables3–4 inspected. Three-dimensional grid counts reconcile. Bulk/NTG/net arithmetic is reconstructable, but pore/porosity region basis and Bg/Swi conventions remain unresolved. Rounded.16Tscf is not maximum annual service."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "Geomechanical study",
+      "assessment": "No core data. All Table5 correlation labels and explicit multipliers/strain parameters inspected; named fits are not printed algebra. Eq1 pressure-induced horizontal stress, stated maximum.33 vertical transfer and factor1.5 pressure increment inspected. Six recommendations replay at rounded precision, conditional on pressure compatibility. Full source derivations, mechanical inputs and coupled failure cases absent."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "Effective-capacity workflow",
+      "assessment": "Petrel high-level model passed as.bin to GEM2020.10. One average phi/permeability per laterally homogeneous layer. Nearby-field permeability and analogue PVT/SCAL limit calibration. All Figure3 inputs/arrows,QC,initialisation and scenario workflow inspected. Screenshot Gelama label is unresolved template/case provenance, not authority to identify anonymous Z."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "Initialisation, PVT/SCAL and model inputs",
+      "assessment": "All six Table7 layers and60 property/capacity cells inspected. Initial P derived from.433psi/ft, while contact/middepth/mMD/TVDSS mapping is missing. Bg/permeability headers omit units; Swirr described but not tabulated. C1+CO2 gas model is distinct from pureCO2 injected stream; no molar composition/EOS/standard-state mass conversion supplied."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        8
+      ],
+      "scope": "Well controls and effective-capacity definition",
+      "assessment": "One commingled injector/producer,60MMscf/day,5000psi maximum injectorBHP,30000bbl/day water target,800psi minimum producerBHP,producerCO2 threshold1MMscf/day read. Cumulative injection to cutoff is called effective storage; produced/dissolved CO2 and leakage are not deducted. No cutoff histories or common pressure/depth basis establish layer compliance or retained mass."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "No-producer scenario",
+      "assessment": "One edge injector, pureCO2 target60MMscf/day and5000psi control. Source says shutdown after200days and4.9Bscf. Figures5–7 inspected; declining rate supports achieved versus target distinction. Average pressure plot near5100psi cannot be equated to wellBHP or layer-safe pressure without native depth/quantity references."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "One injector and one producer",
+      "assessment": "80.13Bscf and51% are attributed outputs. Three rate stages are assigned to300mD K10,50mD K20/K5 and10mD K7.1, but other two layers are also10 and native allocations are absent. Water profile is production; prose water-injection wording is not a new injector. Average pressure and cumulative slopes are scenario plots, not independently validated controls."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "scope": "Two injectors and one producer",
+      "assessment": "95.44Bscf and61%,approximately40millionbbl produced and peak21kbbl (rate plot/day) read.60MMscf/day per-well versus combined target is not explicit. Curves and three stages inspected; Figure15 average pressure approaches5100psi despite5000psi well-control wording. No native well/node output, exact cutoff, all controls or full optimisation proof."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        13
+      ],
+      "scope": "Summary, conclusion and acknowledgement",
+      "assessment": "All Table8 quantities and claims read. Authors technically recommend not proceeding with Z planning due small effective volume and high input uncertainty. Brine withdrawal mechanism is supported as a scenario comparison, not field economic/sustainability verification. PETRONAS publication permission is acknowledged; it is not a native code/data licence."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        14
+      ],
+      "scope": "Entire nomenclature and references",
+      "assessment": "All abbreviations, standard-volume prefixes, pressure/PVT/SCAL and MDDF/TVDSS definitions inspected. Standard T/P and Bg basis are not defined. Four full bibliography entries read; none has uniquely located inline attribution or verified original support. Thirteen additional method/data/background dependencies retained."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        4
+      ],
+      "object": "Figure1: Structural grid and metadata",
+      "inspection": "Full3D colour/stratigraphic grid, axes/orientation and metadata inspected:85×75×50 cells,86×76×51 nodes,51 horizons/50 layers,6375/6536 2D counts,3693 defined2D nodes and average lateral increments99.86085681/98.29005282. Interpreted horizons versus geological subdivisions differ. No cell-volume/boundary convergence inferred."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        5
+      ],
+      "object": "Figure2: Region1 capacity outline",
+      "inspection": "Both structural depth/contour and flat region-mask panels,blue polygon,arrow,colour legends and200m scale inspected. Region/contact/cell-selection metadata are missing. No native volume recovered from image area."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        7
+      ],
+      "object": "Figure3: Capacity workflow",
+      "inspection": "All static/dynamic input bullets, arrows and QC→Rescue import→initial pressure→PVT→theoretical→base/optimisation→effective boxes inspected. Screenshot labels3D Gelama Field Model while text anonymises Z. This does not establish a field identity. Mechanism trapping/sensitivity bullets are workflow intentions, not supplied retention or uncertainty outputs."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        8
+      ],
+      "object": "Figure4: Dynamic multilayer well model",
+      "inspection": "Six coloured K-layer surfaces and Inj1/Prod1 wells inspected. No trajectories,completion intervals,refdepth or boundary details supplied. Planned geometry is not actual service."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        9
+      ],
+      "object": "Figure5: No-producer gas saturation",
+      "inspection": "Layered saturation map,Injector1,colour bar roughly0–.696 and cutaway inspected. Gas saturation is not pureCO2 mole fraction, retained carbon, dissolved fraction or long-term containment."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        9
+      ],
+      "object": "Figure6: No-producer gas profiles",
+      "inspection": "Green dashed gas-rate SC[ft3/day] and solid cumulative SC[ft3],distinct left/right axes,calendar2025–2049 labels and legend inspected. Initial target-scale rate decays rapidly; endpoint broadly supports4.9Bscf. No exact digital time series or constant60MMscf/day service inferred."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        9
+      ],
+      "object": "Figure7: No-producer average pressure",
+      "inspection": "Pressure[psi] versus years,green legend and approximate5100psi plateau inspected. Caption says average reservoir pressure. Reference/weighting/depth differ from undefined BHP control; no corrected pressure or demonstrated layer compliance."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        10
+      ],
+      "object": "Figure8: One-injector/producer saturation",
+      "inspection": "Two welllabels,layer geometry and saturation colour bar up to about.699 inspected. No timestamp or native breakthrough/producedCO2 array provided. No field identity or retention inference."
+    },
+    {
+      "id": "F09",
+      "pages": [
+        10
+      ],
+      "object": "Figure9: One-injector gas profiles",
+      "inspection": "Purple dashed rate/solid cumulative,dual SC ft3/day/ft3 axes,three stages and2025–2049 labels inspected. Cumulative approaches80Bscf. Exact80.13 is source text/Table8,not plot-derived precision. Stage causes need native layer allocations."
+    },
+    {
+      "id": "F10",
+      "pages": [
+        11
+      ],
+      "object": "Figure10: One-injector water profiles",
+      "inspection": "Purple dashed produced-water SC[bbl/day],solid cumulative[bbl],dualaxes/calendar and rate stages inspected. This is water production,not injection. Final cumulative is only approximate from image; no native water total or treatment inventory supplied."
+    },
+    {
+      "id": "F11",
+      "pages": [
+        11
+      ],
+      "object": "Figure11: One-injector average pressure",
+      "inspection": "Purple pressure[psi] curve,rises/drawdowns,calendar and legend inspected. Rate transitions correlate visually with pressure stages; they do not independently prove layer controls, breakout safety or causal allocations."
+    },
+    {
+      "id": "F12",
+      "pages": [
+        11
+      ],
+      "object": "Figure12: Two-injector/producer saturation",
+      "inspection": "Injector1/2,producer,layered saturation,colour range roughly0–.689 inspected. Two design wells do not prove twice the nominal achieved capacity or a per-well60MMscf/day limit."
+    },
+    {
+      "id": "F13",
+      "pages": [
+        12
+      ],
+      "object": "Figure13: Two-injector gas profiles",
+      "inspection": "Blue dashed rate/solid cumulative SC[ft3/day]/[ft3],dualaxes andcalendar inspected. Rate falls in stages; cumulative near95–100Bscf consistent at graphic resolution with reported95.44. No exact annual array digitised or optimisation reproduced."
+    },
+    {
+      "id": "F14",
+      "pages": [
+        12
+      ],
+      "object": "Figure14: Two-injector water profiles",
+      "inspection": "Blue produced-water rate[bbl/day] and cumulative[bbl],three stages,calendar,peak near21000/day and endpoint4e7bbl inspected. This supports40millionbbl interpretation of prose Mbbl. Peak prose omits/day; labels preserved rather than relabelled as water injection."
+    },
+    {
+      "id": "F15",
+      "pages": [
+        13
+      ],
+      "object": "Figure15: Two-injector average pressure",
+      "inspection": "Blue pressure[psi] curve andlegend,axis3000–5100psi,early drawdown and later plateau near5100 inspected. Average reservoir pressure differs from BHP; native layer/well/datum reconciliation is required before claiming compliance."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        3
+      ],
+      "object": "Table1: PDA summary",
+      "inspection": "All four parameter rows,Presence/Effectiveness Proven and full remarks inspected:16–17% porosity,212/159m gross/net,K/L hydrocarbons,10–12Ma migration and shale-seal interpretation. Evidence is for hydrocarbon petroleum-system elements,not direct CO2 integrity."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        3
+      ],
+      "object": "Table2: Preliminary screening",
+      "inspection": "All27 zone/criterion colour cells,No info flags,units and full lower legend inspected. J/K trap greens conflict with earlier J/L rejection unless stages differ. Literal lower key aligns Thickness with depth units,Porosity with thickness etc. No corrected row shift or numeric risk probabilities imposed. Column degF versus legend degC retained."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        4
+      ],
+      "object": "Table3: Structural grid information",
+      "inspection": "All nine parameter rows,coverage,2-horizon/4-fault note,spill-contact,average-property,100×100m,318750 cells and no-negative-cells note inspected. Nominal cell dimensions differ slightly from Figure1 average increments. No vertical grid or active-mask/geometry validation."
+    },
+    {
+      "id": "T04",
+      "pages": [
+        5
+      ],
+      "object": "Table4: Theoretical volumetric table",
+      "inspection": "All six zones,bulk/net/pore volume multipliers,capacity[Tscf] and totals inspected. Bulk1865,net1184,pore23 sum exactly as printed. Row-rounded capacity sum.15 versus total.16 can be explained by rounding from Table7 Bscf; do not force a loss. Pore versus net*phi basis still unresolved."
+    },
+    {
+      "id": "T05",
+      "pages": [
+        5
+      ],
+      "object": "Table5: Geomechanical correlations",
+      "inspection": "All property/method rows inspected. John Fuller,GR,McNally,Horsrud are method labels without formulas/authoritative originals. Explicit staticnu=.9dynamicnu,tensile=.1UCS,plasticity1.0–1.1,SHmax/Shmin1.1 and strains.0008/.0005 retained. No site cores or full calibration."
+    },
+    {
+      "id": "T06",
+      "pages": [
+        6
+      ],
+      "object": "Table6: Maximum pressure recommendations",
+      "inspection": "All six reference mMD depths,initial psia,original caprock Sh[psi],critical after-injection Sh[psi] and1.5 recommendations inspected. Delta-margin replay agrees within.4psi under compatible references. No full caprock/transfer/thermal derivation; uniform5000psi well-control mapping remains open."
+    },
+    {
+      "id": "T07",
+      "pages": [
+        7
+      ],
+      "object": "Table7: Layer input data",
+      "inspection": "All six layers by ten input/capacity columns inspected. Phi/NTG,permeability,contacts[m],initial psi,Bg,pressure limits,tempF,pore10^6m3 andBscf preserved. Swirr not tabulated despite prose. Bg/permeability units absent in headers. Layer total157.02 differs printed157.03 by.01Bscf at display precision; no correction."
+    },
+    {
+      "id": "T08",
+      "pages": [
+        13
+      ],
+      "object": "Table8: Scenario outcomes",
+      "inspection": "Theoretical157.03Bscf,three effective outputs4.9/80.13/95.44Bscf and rounded3/51/61% inspected. These are simulated cumulative injection results under different controls,not injected-minus-produced-minus-leaked retained mass or universal service factors."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        6
+      ],
+      "expression": "Delta_sigma_h=alpha*(1−2nu)/(1−nu)*Delta_Pp",
+      "interpretation_and_check": "Only numbered equation. Instantaneous constrained poroelastic reservoir stress relation; alpha/nu dimensionless,pressure/stress increments compatible. Native alpha/nu,sign,BC,caprock transfer and original derivation absent. Not a universal fracture/thermal criterion."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        5
+      ],
+      "expression": "PR_STA=0.9*PR_DYN",
+      "interpretation_and_check": "Explicit empirical multiplier,not an independently calibrated static Poisson ratio. Original source/domain missing. No dynamicnu numbers supplied."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        5
+      ],
+      "expression": "Tensile_strength=UCS/10",
+      "interpretation_and_check": "Prescribed tensile/strength relation. Same strength unit required; not a measured tensile test or caprock propagation pressure."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        5
+      ],
+      "expression": "SHmax/Shmin=1.1; epsilonH=.0008; epsilonh=.0005",
+      "interpretation_and_check": "Explicit stress ratio and strain constants. A ratio is dimensionless; stresses need common reference. Strains are distinct from ratio,not proof that both imply the chosen stress state without complete elastic inputs/BC."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        6
+      ],
+      "expression": "P_recommended=P_initial+(P_critical−P_initial)/1.5",
+      "interpretation_and_check": "Reconstructed stated delta-pressure rule matches six table values to nearestpsi. Headers initialpsia versusotherpsi require compatibility. This replay does not derive Pcritical,validate caprock strength or substitute for flowing layer controls."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "expression": "V_net=V_bulk*NTG; V_pore=V_net*phi",
+      "interpretation_and_check": "Explicit analyst common-region identities. Net volumes agree at coarse integer-Mm3 rounding; pore volumes do not on the same assumed region/property basis. Obtain masks/definitions before any correction. NTG is not CO2 retention efficiency."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        1,
+        8,
+        10,
+        12,
+        13
+      ],
+      "expression": "effective_percent=100*V_injected/theoretical; DeltaV=V_case2−V_case1",
+      "interpretation_and_check": "Limited source-outcome ratio arithmetic. Whole-percent display agrees. Nominal cumulative injection is not maximum physical annual service or retained carbon. Uplift denominators stay explicit."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        1,
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "expression": "Cumulative_injected=integral q_injected(t) dt; retained=integral(q_in−q_produced)dt−other_losses",
+      "interpretation_and_check": "Analyst stock-flow distinction. Source effective capacity uses injection to stated cutoff,not verified retained-carbon balance. Same standard state/composition is required before subtracting volumes; produced CO2 history and mass/EOS basis missing."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "expression": "P_numeric=0.433psi/ft*abs(contact_m)/0.3048m/ft",
+      "interpretation_and_check": "Conditional check: displayed initial pressures nearly match the contact magnitudes under this formula. Source says mid-depth; contact/reference mMD/TVDSS mapping and pressure intercept/reference are unresolved. No new pressure datum inferred."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        5,
+        7
+      ],
+      "expression": "V_standard=V_pore/Bg; Bscf=V_standard_m3/(0.3048^3*1e9)",
+      "interpretation_and_check": "Analyst unit/basis example only if Bg means reservoirm3/standardm3 and full pore occupancy. Bg unit,Swirr and efficiency/region basis absent. Inferred occupancy factors are not measured saturations or reproduced storage capacities."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        5,
+        6
+      ],
+      "expression": "K=E/(3*(1−2nu)); G=E/(2*(1+nu))",
+      "interpretation_and_check": "Analyst isotropic static identities suggested by Table5 method label. Require E>0,−1<nu<.5,compatible pressure units and correct static/dynamic basis. No native mechanical fields reconstructed."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        1,
+        8,
+        9,
+        12
+      ],
+      "expression": "V_target=q_max*T; q_average=V_cumulative/T",
+      "interpretation_and_check": "Calendar-dependent analyst arithmetic.25years does not identify exact end date; Jan2025–Jan2050 is an explicit comparison. Maximum target differs from achieved rate and per-well versus total semantics remain open."
+    }
+  ],
+  "variables": [
+    "Bscf/MMscf/Tscf are standard volume,not tonnes. Standard temperature/pressure,compressibility and molar composition must precede mass conversion. No mass factor is inserted.",
+    "P_initial is psia in Table6; BHP and stress limits print psi. Reference depths mMD,contact values[m],MDDF/TVDSS and layer average pressure differ. No direct common-depth comparison is assumed.",
+    "Bulk/net/pore columns carry10^6m3; phi/NTG are fractions. Region1 masks,porosity averaging and active/connected volume definitions are missing. Pore volume is not CO2 occupied volume.",
+    "Bg has no defined unit/basis; Swirr adjustment is described but numeric values and relative-permeability curves absent. Conditional unit examples are not native parameters.",
+    "Permeability header lacks unit; K10 is explicitly300mD in p10 prose. Layers have one average lateral value; kv/kh and boundary connectivity are unspecified.",
+    "E_static,nu_static,strengths and GR correlations are not fully specified. alpha and actualnu are absent. Maximum.33 transfer and1.5 factor do not give an independently calibrated pressure limit.",
+    "5000psi injectorBHP,800psi producerminimum,60MMscf/day gas target,30000bbl/day surface water cap and1MMscf/day producerCO2 cutoff are distinct constraints. Control depth/reference and violation logs missing.",
+    "One versus two injectors changes geometry and operation;60MMscf/day per-well or total is unclear. Neither a well count nor a target gives achieved maximum mass service.",
+    "25year horizon,January2025start and2050end do not state an exact endpoint. Conditional9131day calendar and365day comparisons are analyst conventions,not native timestep histories.",
+    "40Mbbl is supported as40millionbbl by Figure14 right axis. Peak21kbbl prose omits/day; Figure14 provides bbl/day. Water production differs from injection; surface versus reservoir volumes need formation factors.",
+    "Effective capacity is cumulative injection to cutoff/horizon. Produced free/dissolved CO2,other losses,fluid disposal/recycle and post-injection retention are not resolved.",
+    "Green/yellow/red screening is a qualitative rubric; shifted physical legend rows,mixedF/C units and No info remain as printed. Green is not a quantified low failure probability.",
+    "Workflow Gelama label is a provenance clue,not identification of anonymous Z or permission to join to other Malaysian cases. Planned2025 simulations are not observed commissioning.",
+    "PVT C1+CO2 model versus pure injectedCO2 is not necessarily a contradiction; initial mixture,water chemistry,EOS,thermal/chemical coupling and measured injection temperature are simply not provided.",
+    "No-negative-cell note,QC workflow and simulator choice do not prove mass closure,mesh/time convergence,independent calibration,containment,economics or netGHG."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Climate pledge and CCS-only-viable motivation",
+      "assessment": "Background assertions without exact authoritative support in the paper. No alternative/counterfactual assessment or whole-chain avoidedGHG computed."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "K only meets containment screening",
+      "assessment": "Read entire selection story and matrix. Earlier J/L no-trap versus later J/K-best and green traps require stage clarification. Hydrocarbon PDA does not directly validate injectedCO2 containment."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "claim": "Theoretical storage around.16Tscf/157.03Bscf",
+      "assessment": "Coarse Tscf rounding is compatible with Table7. Net volume arithmetic reproducible; pore/phi and Bg/Swirr/region basis unresolved. Not achieved capacity or annual injectivity."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Correlations and pressure limit prevent mechanical failure",
+      "assessment": "No site cores,full correlations or validated geomechanical/failure model. Increment safety rule replays arithmetic only. Pressure reference/depth,thermal effects and coupling implementation remain undocumented."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "High-level model is verified before initialisation",
+      "assessment": "No retained QC residuals,grid/time convergence,active masks,boundaries or native decks. Homogeneous-per-layer/analogue inputs are explicit limitations."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Formation pressures/PVT/SCAL represent Z",
+      "assessment": "Pressures are gradient-derived and align with contact magnitudes conditionally. PVT/SCAL analogue identity,unit/composition/Swirr data and raw tests unavailable; no independent measurement verification."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        8
+      ],
+      "claim": "Cutoff-defined effective storage equals sequestered CO2",
+      "assessment": "Source uses cumulative injection up to1MMscf/day producerCO2 threshold/horizon. Produced CO2 below threshold and dissolved/brine/disposal pathways are not removed,so retained carbon is unverified."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "No-producer case shuts after200days at4.9Bscf/3%",
+      "assessment": "Conditional mean24.5MMscf/day,not constant60. Plots agree qualitatively; exact shutdown/time/pressure histories absent. Average pressure versus BHP reference needs reconciliation."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "One producer raises capacity to80.13Bscf/51%",
+      "assessment": "Reported model comparison and ratio arithmetic supported. No full flow case reproduced; brine handling,CO2 fates and economic/GHG consequence missing."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "claim": "Three plateaus follow layer permeability groups",
+      "assessment": "300mD K10 and50mD K20/K5 versus tightK7.1 is an author interpretation. Other layers are also10; native allocation/breakthrough data needed to prove causes. Water profiles are production,not injection."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "claim": "Two injectors optimise to95.44Bscf/61%",
+      "assessment": "Highest of reported scenarios,not a proven global optimum. Additional15.31Bscf over one injector is case-specific; no general19% service factor or equal well allocation inferred."
+    },
+    {
+      "id": "C12",
+      "pages": [
+        12
+      ],
+      "claim": "About40Mbbl water and peak21kbbl",
+      "assessment": "Graphic confirms millionbbl and rate/day basis. Surface/reservoir conversion,treatment/pumping duty,producedCO2 and fluid fate unresolved. No lifecycle intensity from volume alone."
+    },
+    {
+      "id": "C13",
+      "pages": [
+        9,
+        11,
+        13
+      ],
+      "claim": "Average pressure remains within allowable geomechanical limit",
+      "assessment": "Layer recommendations span4692–5292psi while uniformwellcontrol5000psi and plots near5100 refer to different quantities/depths. No direct violation/compliance finding without native well/layer reference mapping."
+    },
+    {
+      "id": "C14",
+      "pages": [
+        13
+      ],
+      "claim": "Proceeding with Z is not technically recommended",
+      "assessment": "Explicit source conclusion due small volume/high input uncertainty. Do not select anonymous Z as a proven Malaysian sink or contracted import service."
+    },
+    {
+      "id": "C15",
+      "pages": [
+        13
+      ],
+      "claim": "Brine withdrawal enhances restricted-aquifer capacity",
+      "assessment": "Supported as a reported scenario mechanism with limited ratio checks. Does not by itself demonstrate sustainability,economics,permanent retention or netGHG; no full TEA/LCA or uncertainty envelope."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        14
+      ],
+      "citation": "Debasis P Das, Pankaj K Tiwari, M Zahari B A Rahman, M Naim B Mohamad, Prasanna Chidambaram, Nur Myra Rahayu Razali, M Hamzi B Yakup, Saeed Majidaie, Tan Seng Wah, M Noor Fajarimi B C Mat, M Syafeeq B E Amir, Nik M Fadhlan, Raj Deo Tewari, Salina Bt Baharuddin. CO2 Storage Potential Evaluation of Restricted Saline Aquifers in Peninsular Malaysia Offshore. SPE-215531-MS, SPE Offshore Europe, Aberdeen,5–8September2023.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Closest thematic predecessor in printed list; no inline numbered/author citation binds a specific claim. Exact native study/case identity, input provenance, conclusions and source support unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        14
+      ],
+      "citation": "Raj Deo Tewari, Tan Chee Phuat, Mohd Faizal Sedaralit. A Toolkit Approach for Carbona Capture and Storage in Depleted Offshore Gas Field. Journal of American Environmental Science, May2023 (In Press), as printed.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Toolkit reference; exact title/publication/version and use in this case unresolved. Similar2022 toolkit citation in B1-11 is not substituted."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        14
+      ],
+      "citation": "Rahim Masoudi, S Nayak, PK Tiwari, CS Singh, ATP Panting, MABM Diah, DP Das, P Chidambaram. CCS In Saline Aquifers within A Rift Graben: Opportunities,Risk and Uncertainties—a Case Study from Peninsular Malaysia Offshore.2022 EAGE Asia Pacific Workshop on CO2 Geological Storage.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Regional restricted aquifer/uncertainty background; exact original, case mapping, properties and inference unverified. No unique inline attribution supplied."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "M. Azran Abd. Jalil, Rahim Masoudi, Nasir B. Darman, Mohamad Othman. Study of the CO2 Injection, Storage, and Sequestration in Depleted M4 Carbonate Gas Condensate Reservoir. CMTC-150050-MS, Carbon Management Technology Conference,Orlando,February2012.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Regional storage/geomechanical background, not demonstrated calibration of Z. Similar M4 studies with different identifiers/years are not this original. Exact source support remains unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        5
+      ],
+      "citation": "John Fuller static Young modulus correlation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact original, formula, units, regression domain and log/core calibration absent. No measured cores at Z."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        5
+      ],
+      "citation": "GR correlation for friction angle",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact gamma-ray fit, units/domain and original authority absent; a label is not a transcribed equation."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        5
+      ],
+      "citation": "McNally sandstone UCS correlation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Original identity, sonic/other input basis, coefficient units and validity range absent."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        5
+      ],
+      "citation": "Horsrud shale UCS correlation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Original identity, formula/coefficient units and lithology applicability absent."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        5,
+        6
+      ],
+      "citation": "Mohr-Coulomb, poroelastic Eq1,0.33 transfer and1.5 safety rule",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact numerical-analysis authority/derivations, sign/geometry, Biot/Poisson values, transfer mapping and propagation criterion absent."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        2,
+        3,
+        4,
+        7
+      ],
+      "citation": "FY2021 screening, Z-1 well/PDA, RESSUM and test reports",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native logs, dates/TD/depth datums, raw fluid/P/T tests, screening/stage identity and property QA not retained."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "citation": "Petrel static model, interpreted surfaces/faults and Region1",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native grid/active masks, boundaries, contacts, volume/property mappings and model/template identity unresolved."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        1,
+        7,
+        8
+      ],
+      "citation": "Analogue PVT/SCAL and pore-permeability sources",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Analogue identities, Bg units, EOS/composition, standard T/P, Swirr, gas/water curves, hysteresis and mineral/solubility implementation unavailable."
+    },
+    {
+      "id": "N09",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "CMG-GEM2020.10 cases, constraints and histories",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Full GEM decks, actual one/two-injector cases, completions, BHP datum, allocation, timesteps/convergence and rate/pressure/producerCO2 histories unavailable."
+    },
+    {
+      "id": "N10",
+      "pages": [
+        5,
+        6,
+        8
+      ],
+      "citation": "Native geomechanical calibration and pressure controls",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Log-derived strength/stress fields, raw tests, regional calibration, pressure-reference/thermal conditions and mapping of layer recommendations to uniform5000psi control absent."
+    },
+    {
+      "id": "N11",
+      "pages": [
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Brine and retained-carbon inventory",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Produced free/dissolved CO2, treatment/disposal/recycle, pumping energy, salinity, water handling, leakage/monitoring and post-injection retained mass unavailable."
+    },
+    {
+      "id": "N12",
+      "pages": [
+        1,
+        14
+      ],
+      "citation": "Publisher/author supplements, errata, code and rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit data/code/supplement notice identified locally. External availability unverified during requested Chrome wait; permission to publish is not a code/data licence."
+    },
+    {
+      "id": "N13",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "Climate pledge, CCS-only-viable and sustainable/economic claims",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No exact supporting authority/counterfactual/TEA/LCA is provided for these broad background or economic claims. Official pledge details and original support remain unverified; no avoided-GHG conclusion adopted."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        2,
+        3,
+        7
+      ],
+      "status": "HOLD_SCREENING_IDENTITY_LEGEND",
+      "finding": "Selection stages/legend rows and workflow field label need clarification.",
+      "action": "Retain literal matrix/legend and anonymous Z; do not shift thresholds or identify a field from template text."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "status": "HOLD_VOLUME_PROPERTY_REGION_BASIS",
+      "finding": "Net volume agrees with bulk*NTG; pore does not match net*phi on an assumed common basis.",
+      "action": "Obtain native active/Region1/contact masks,volume definitions and property arrays. No repair of printed pore/bulk/porosity values."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        5,
+        7,
+        8
+      ],
+      "status": "HOLD_BG_SCAL_STANDARD_STATE",
+      "finding": "Bg units,Swirr,EOS/relative-permeability/standard conditions and analogue sources are missing.",
+      "action": "No Bscf-to-tonne conversion or theoretical-capacity reproduction without complete compatible data."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "BLOCKED_GEOMECHANICAL_CALIBRATION",
+      "finding": "No cores; correlation labels and.33 transfer lack full formulas/original support.",
+      "action": "Obtain log/strength/test/calibration/BC and failure/thermal cases. Replay of1.5 rule is not caprock validation."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        11,
+        13
+      ],
+      "status": "HOLD_PRESSURE_DEPTH_CONTROL",
+      "finding": "Layer limits,uniform5000psi control and near5100psi average curves lack common-depth/reference mapping.",
+      "action": "Obtain well/layer pressure histories,reference locations,hydrostatic/flow corrections,control violations and datum conventions before compliance claims."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "status": "BLOCKED_NATIVE_GEM_CASES",
+      "finding": "Full Petrel/GEM2020.10 grid,PVT,SCAL,well/production history,cutoff and solver cases unavailable.",
+      "action": "Obtain inputs/code/rights and independently reproduce balances,controls,breakthrough and convergence; do not digitise annual maxima from plots."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        8,
+        10,
+        11,
+        12,
+        13
+      ],
+      "status": "BLOCKED_RETAINED_CARBON_WATER_INVENTORY",
+      "finding": "Cumulative injection is not net retainedCO2; brine/producedCO2 fates and energy missing.",
+      "action": "Obtain produced free/dissolvedCO2,disposal/recycle/treatment/pumping data,losses and post-injection monitoring/horizon; noGHG orpermanence factor."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        8,
+        11,
+        12,
+        13
+      ],
+      "status": "HOLD_SCENARIO_CALENDAR_RATE_BASIS",
+      "finding": "Exact2050endpoint,per-well/total60MMscf/day and native plateau/cutoff allocations unresolved.",
+      "action": "Keep targets and achieved cumulatives distinct; calendar examples and ratios are not annual physical service."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        13
+      ],
+      "status": "EXCLUDE_UNCERTAIN_SINK_ECONOMIC_TRANSFER",
+      "finding": "Authors do not recommend proceeding; no TEA/LCA/access or global optimisation proof.",
+      "action": "Keep as pressure-management context,not a selected Malaysian service or economic/mitigation ranking."
+    },
+    {
+      "id": "I10",
+      "pages": [
+        1,
+        5,
+        6,
+        14
+      ],
+      "status": "PENDING_ORIGINALS_SUPPLEMENTS_REPRODUCTION",
+      "finding": "Four printed originals and13 additional dependencies remain unverified; assets unknown.",
+      "action": "No embedded files does not prove public absence. External retrieval remains paused pending requested Chrome connection; full model reproduction remains open."
+    }
+  ],
+  "supplements": "No embedded files,appendices or explicit data/code/supplement notice identified in the unchanged14-page PDF. This does not establish public absence of publisher/author assets or errata. Four originals,method authorities,raw test/property data and Petrel/GEM/failure cases remain unverified/unavailable. Permission to publish is not a code/data licence. External retrieval remains paused pending the requested Chrome connection.",
+  "reproduction": "audit_pressure_sink.py produces132 limited checks. Grid counts, bulk*NTG net volumes, the1.5 delta-pressure rule, display rounding, unit/calendar arithmetic and source scenario ratios are reconstructed. All six net-volume rows are compatible under conditional display-rounding intervals; none of the six pore rows matches net*phi on that same assumed basis. Conditional Bg and pressure comparisons expose missing definitions without correction. No native geometry, compositional flow, relative-permeability, well/control, geomechanical/failure or retained-carbon model is independently reproduced.",
+  "paper1_use": "Use as a qualified Malaysian restricted-aquifer scenario showing that water withdrawal can increase reported cumulative injection. Preserve authors non-proceed recommendation. Exclude direct maximum annual service,tonnage,permanent retention,commercial access,water-energy/GHG factors and generalised uplift parameters. No accepted numerical or operating/GHG inputs change.",
+  "next_steps": "Resolve screening stages/legend/template identity,active region/property volume bases,Bg/standard state/Swirr,pressure references/depth/controls and calendar/rate/cutoff semantics. Obtain exact cited methods/originals,raw data and full Petrel/GEM/geomechanical cases/rights,producedCO2/water inventory and post-injection outputs. Independently reproduce only with adequate inputs. Continue B1-14 locally and retain the92-paper audit as active."
+}

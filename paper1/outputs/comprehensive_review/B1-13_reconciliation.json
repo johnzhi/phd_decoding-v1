@@ -1,0 +1,32 @@
+{
+  "study_id": "B1-13",
+  "source_sha256": "dd155953567fa75d1c50bb87ce184c0426f080453cbd033183fc98a0d3eb000b",
+  "check_count": 132,
+  "source_figures": 15,
+  "source_tables": 8,
+  "numbered_equations": 1,
+  "pressure_rule_max_abs_residual_psi": 0.3999999999996362,
+  "conditional_net_rounding_compatible_rows": 6,
+  "conditional_pore_rounding_compatible_rows": 0,
+  "native_models_reproduced": false,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "raw_log_core_tests": null,
+    "full_Petrel_GEM_decks": null,
+    "model_boundaries": null,
+    "relative_permeability_Swirr": null,
+    "PVT_EOS_composition": null,
+    "initial_region_contact_mapping": null,
+    "well_trajectory_completion_controls": null,
+    "native_rate_pressure_CO2_production": null,
+    "geomechanical_calibration_failure_cases": null,
+    "brine_treatment_emissions_and_CO2_fate": null,
+    "post_injection_retention_outputs": null,
+    "full_case_rights": null
+  },
+  "standard_temperature": null,
+  "standard_pressure": null,
+  "Bg_units": null,
+  "pressure_reference_and_control_depth": null,
+  "interpretation": "Internal pressure/volume/rounding/ratio checks only. Common-region and Bg assumptions are conditional; no correction, mass conversion, maximum annual service, retained-carbon, economic or GHG conclusion."
+}
