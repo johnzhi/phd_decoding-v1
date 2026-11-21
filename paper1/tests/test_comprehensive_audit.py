@@ -46,6 +46,9 @@ malaysia_spec.loader.exec_module(malaysia)
 selection_spec = importlib.util.spec_from_file_location('audit_site_selection', ROOT / 'scripts/audit_site_selection.py')
 selection = importlib.util.module_from_spec(selection_spec)
 selection_spec.loader.exec_module(selection)
+thermal_spec = importlib.util.spec_from_file_location('audit_thermal_geomechanics', ROOT / 'scripts/audit_thermal_geomechanics.py')
+thermal = importlib.util.module_from_spec(thermal_spec)
+thermal_spec.loader.exec_module(thermal)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -55,6 +58,57 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_thermal_delta_safety_rule_and_cooled_A_discrepancy_are_not_silently_repaired(self):
+        # A factor on pressure increment differs from dividing total pressure.
+        self.assertEqual(thermal.margin_rule(1000, 2500, 1.5), 2000)
+        self.assertNotAlmostEqual(thermal.margin_rule(1000, 2500, 1.5), 2500 / 1.5)
+        data = thermal.load_inputs()
+        for row in data['seals']:
+            result = thermal.margin_rule(row['current_reservoir_psia'], row['isothermal_final_Sh_psi'], 1.5)
+            self.assertLess(abs(result - row['isothermal_recommended_psi']), .34)
+            _, crossing = thermal.conditional_isothermal_intersection(row)
+            self.assertLess(abs(crossing - row['isothermal_final_Sh_psi']), 1.4)
+        a = data['seals'][0]
+        self.assertEqual((a['cooled_final_Sh_psi'], a['cooled_recommended_psi']), (2110, 1632))
+        self.assertAlmostEqual(1632 - thermal.margin_rule(450, 2110, 1.5), 75 + 1/3)
+
+    def test_thermal_compliance_factorisation_and_competing_property_changes(self):
+        # Independent constrained modulus M=E(1-nu)/((1+nu)(1-2nu)).
+        nu, young = .25, 10000
+        constrained = young * (1 - nu) / ((1 + nu) * (1 - 2 * nu))
+        self.assertAlmostEqual(thermal.compliance(nu, young), 1 / constrained)
+        self.assertGreater(thermal.compliance(nu, .74 * young), thermal.compliance(nu, young))
+        self.assertGreater(thermal.compliance(.275, .74 * young), thermal.compliance(.25, young))
+        self.assertLess(thermal.compliance(.44, .74 * young), thermal.compliance(.4, young))
+        for invalid in (.5, .46 * 1.1):
+            with self.assertRaises(ValueError):
+                thermal.compliance(invalid, young)
+
+    def test_thermal_literal_uplift_equation_keeps_dimensional_and_quadratic_semantics(self):
+        value = thermal.bruno_literal(.25, 1000, 1500, 100, .19)
+        self.assertGreater(value, 0)
+        self.assertLessEqual(value, 2 * .75 * .19**2 / 100)
+        doubled = thermal.bruno_literal(.25, 1000, 1500, 100, .38)
+        self.assertAlmostEqual(doubled / value, 4, delta=.001)
+        # Uniform m-to-mm rescaling must rescale displacement by 1000.
+        millimetres = thermal.bruno_literal(.25, 1e6, 1.5e6, 1e5, 190)
+        self.assertAlmostEqual(millimetres / value, 1000)
+        self.assertEqual(thermal.bruno_literal(.25, 1000, 1500, 100, 0), 0)
+
+    def test_thermal_sign_angle_and_missing_native_inputs_stay_explicit(self):
+        total = thermal.horizontal_stress_change(1, .25, 10)
+        self.assertAlmostEqual(total, 20/3)
+        self.assertAlmostEqual(total - 10, -10/3)
+        ratio = thermal.friction_coefficient_ratio(30, .9)
+        self.assertAlmostEqual(ratio, math.tan(math.radians(27)) / math.tan(math.radians(30)))
+        self.assertNotAlmostEqual(ratio, .9)
+        data = thermal.load_inputs()
+        checks = {r['item']:r for r in thermal.calculate(data)}
+        self.assertEqual(checks['analyst_fixed_pore_pressure_cooling_effective_change']['value'], -5)
+        self.assertGreater(checks['Geertsma_uplift_P10_change_pct']['value'], 42)
+        self.assertLess(checks['Geertsma_uplift_P90_change_pct']['value'], -36)
+        self.assertTrue(all(checks[k]['value'] is None for k in data['missing_inputs']))
+
     def test_site_selection_radial_coefficient_matches_explicit_axisymmetric_integration(self):
         data = selection.load_inputs()
         e = data['analyst_SI_example']

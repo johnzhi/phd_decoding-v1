@@ -140,7 +140,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 An offshore Peninsular Malaysia Field X assessment uses eight offset wells and an analytical caprock/fault workflow. With estimated 50°C cooling, recommended pressures for Seals A–D fall from 2153/2731/3264/3701 psi to 1632/2209/2739/3178 psi (pp5–6, Tables 2–3).
 
-Transfer limits: No measured rock properties were available for the selected field (p4). The up-to-26% stiffness/strength reduction and up-to-10% Poisson-ratio increase are database-based sensitivity evidence (p3), not directly measured at this site. The text extraction displaces psi/psia headers; values were visually checked and original header labels preserved.
+Transfer limits: Comprehensive nine-page reading is recorded separately in evidence/comprehensive_review/B1-11.json. No site mechanical tests; synthetic shear/log correlations and assumed ECD limit calibration. Preserve psi/psia headers. Conditional safety-rule replay leaves a75.33psi residual for cooledSealA; do not repair2110/1632. Repeated Table3, Figure5 injection-level,0.18/0.19m maximum and Cm/deformation percentile mapping remain unresolved. Eq5 thickness/displacement semantics and deformation signs/geometry need originals/native code. Database26%E/strength and10%nu changes produce nonuniform results,not a universal37%factor. All19 cited originals plus six dependencies remain open. See thermal_geomechanics_comprehensive_findings.md; quoted pressure-pair arithmetic only,not validated annual service,facility safety,retention orGHG.
 
 ### B1-12 — Geomechanical Evolution of the South-West Hub Carbon Capture and Storage Reservoir in Western Australia
 

@@ -1,0 +1,463 @@
+{
+  "study_id": "B1-11",
+  "source_path": "papers/B1-11.pdf",
+  "source_sha256": "1d1bd104cf39b9759920488454ef079e6712ba1a8b9a625957130baf7c5e262b",
+  "source_locators": {
+    "well_audit": "Table1 p4, raster checks/crosses",
+    "isothermal": "Table2 p5",
+    "cooled": "first Table3 p6",
+    "compliance": "unnumbered parameter table p7",
+    "deformation_without": "second Table3 p8",
+    "deformation_with": "Table4 p8"
+  },
+  "seals": [
+    {
+      "seal": "A",
+      "initial_reservoir_psi": 1847,
+      "current_reservoir_psia": 450,
+      "original_Sh_psi": 3172,
+      "depleted_Sh_psi": 3373,
+      "isothermal_final_Sh_psi": 3005,
+      "isothermal_recommended_psi": 2153,
+      "cooled_final_Sh_psi": 2110,
+      "cooled_recommended_psi": 1632
+    },
+    {
+      "seal": "B",
+      "initial_reservoir_psi": 2050,
+      "current_reservoir_psia": 1200,
+      "original_Sh_psi": 3728,
+      "depleted_Sh_psi": 3864,
+      "isothermal_final_Sh_psi": 3496,
+      "isothermal_recommended_psi": 2731,
+      "cooled_final_Sh_psi": 2713,
+      "cooled_recommended_psi": 2209
+    },
+    {
+      "seal": "C",
+      "initial_reservoir_psi": 2457,
+      "current_reservoir_psia": 1100,
+      "original_Sh_psi": 4690,
+      "depleted_Sh_psi": 4936,
+      "isothermal_final_Sh_psi": 4346,
+      "isothermal_recommended_psi": 3264,
+      "cooled_final_Sh_psi": 3560,
+      "cooled_recommended_psi": 2739
+    },
+    {
+      "seal": "D",
+      "initial_reservoir_psi": 3015,
+      "current_reservoir_psia": 1100,
+      "original_Sh_psi": 5334,
+      "depleted_Sh_psi": 5655,
+      "isothermal_final_Sh_psi": 5001,
+      "isothermal_recommended_psi": 3701,
+      "cooled_final_Sh_psi": 4217,
+      "cooled_recommended_psi": 3178
+    }
+  ],
+  "pressure_basis_note": "Initial and recommended pressure headers saypsi; current reservoir header sayspsia. Stress ispsi. No common datum/gauge interpretation silently assigned; conditional replays assume compatible references.",
+  "reported_safety_factor": 1.5,
+  "reported_stress_transfer_upper_ratio": 0.33,
+  "estimated_cooling_C": 50,
+  "maximum_E_strength_reduction_fraction": 0.26,
+  "maximum_nu_increase_fraction": 0.1,
+  "caprock_sensitivity": {
+    "cohesion_multiplier": 0.9,
+    "friction_angle_multiplier": 0.9
+  },
+  "fault_sensitivity": {
+    "cohesion": 0,
+    "friction_angle_multipliers": [
+      0.9,
+      0.8
+    ],
+    "orientation_percentile_labels": [
+      "P10",
+      "P50",
+      "P90"
+    ],
+    "total_faults": 26,
+    "named_map_fault_ids": [
+      1,
+      2,
+      7,
+      8,
+      10,
+      14
+    ]
+  },
+  "compliance_table": {
+    "percentile_labels": [
+      "P90",
+      "P50",
+      "P10"
+    ],
+    "Cm_inverse_MPa": [
+      2.1e-05,
+      4.7e-05,
+      6.57e-05
+    ],
+    "source_case_labels": [
+      "Low(P90)",
+      "Base(P50)",
+      "High(P10)"
+    ]
+  },
+  "deformation_tables": {
+    "without_degradation": {
+      "Geertsma": {
+        "compaction": [
+          0.42,
+          0.21,
+          0.05
+        ],
+        "subsidence": [
+          0.39,
+          0.18,
+          0.043
+        ],
+        "expansion": [
+          0.19,
+          0.078,
+          0.016
+        ],
+        "uplift": [
+          0.19,
+          0.076,
+          0.014
+        ]
+      },
+      "Bruno": {
+        "compaction": [
+          0.42,
+          0.21,
+          0.05
+        ],
+        "subsidence": [
+          0.38,
+          0.2,
+          0.043
+        ],
+        "expansion": [
+          0.19,
+          0.078,
+          0.016
+        ],
+        "uplift": [
+          0.16,
+          0.075,
+          0.014
+        ]
+      },
+      "reported_cross_method_maximum": {
+        "compaction": 0.42,
+        "subsidence": 0.39,
+        "expansion": 0.19,
+        "uplift": 0.19
+      }
+    },
+    "with_degradation": {
+      "Geertsma": {
+        "compaction": [
+          0.42,
+          0.21,
+          0.05
+        ],
+        "subsidence": [
+          0.39,
+          0.18,
+          0.043
+        ],
+        "expansion": [
+          0.14,
+          0.086,
+          0.021
+        ],
+        "uplift": [
+          0.12,
+          0.076,
+          0.02
+        ]
+      },
+      "Bruno": {
+        "compaction": [
+          0.42,
+          0.21,
+          0.05
+        ],
+        "subsidence": [
+          0.38,
+          0.2,
+          0.043
+        ],
+        "expansion": [
+          0.14,
+          0.086,
+          0.021
+        ],
+        "uplift": [
+          0.11,
+          0.077,
+          0.02
+        ]
+      },
+      "reported_cross_method_maximum": {
+        "compaction": 0.42,
+        "subsidence": 0.39,
+        "expansion": 0.14,
+        "uplift": 0.12
+      }
+    }
+  },
+  "deformation_unit": "m, printed positive magnitudes; sign convention unprovided",
+  "narrative_max_uplift_m": 0.18,
+  "well_audit": {
+    "well_order": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "years_drilled": [
+      1969,
+      1985,
+      1985,
+      2006,
+      1991,
+      1991,
+      1992,
+      1992
+    ],
+    "availability": {
+      "existing_1D_MEM": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "gamma_ray": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "density": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "sonic_DTC": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "sonic_DTS": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "caliper": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "neutron": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "well_survey": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "casing_completion": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "pressure_data_asterisk": [
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "formation_tops_asterisk": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "wellbore_images": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "FIT_LOT_minifrac_group": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "mudweight_ECD_group": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "daily_drilling_reports": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "drilling_summaries": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "prior_WBS_reports": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "prior_geomechanics_reports": [
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "end_of_well_reports": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    "note": "Checks/crosses transcribed as availability only. Grouped FIT/LOT/mini-frac does not identify each test; noXLOT. ECD is assumedMW+0.5ppg despite grouped availability. Pressure/tops asterisks have no resolved footnote. No underlying files retained."
+  },
+  "assumed_ECD_increment_ppg": 0.5,
+  "analyst_examples": {
+    "nu_values": [
+      0.2,
+      0.25,
+      0.3,
+      0.4
+    ],
+    "E_MPa": 10000,
+    "relative_nu_multiplier": 1.1,
+    "E_multiplier": 0.74,
+    "alpha": 1,
+    "delta_p_MPa": 10,
+    "cooling_total_stress_change_MPa": -5,
+    "fixed_pore_pressure_change_MPa": 0,
+    "friction_angle_deg": 30,
+    "bruno_R_m": 1000,
+    "bruno_D_m": 1500,
+    "bruno_H_m": 100,
+    "displacement_m": 0.19,
+    "note": "All illustrative values are analyst choices, not native source model inputs."
+  },
+  "missing_inputs": {
+    "native_logs_tests_and_elastic_correlations": null,
+    "alpha_thermal_coefficients_and_spatial_temperature_history": null,
+    "full_stress_failure_and_uncertainty_cases": null,
+    "fault_geometry_state_and_reactivation_or_leakage_rule": null,
+    "layer_pressure_thickness_property_weights_and_geometry_integral": null,
+    "Bruno_original_notation_implementation_and_output_arrays": null,
+    "facility_integrity_tolerances_and_validation": null,
+    "annual_maximum_mass_service_retention_and_lifecycle_inventory": null
+  },
+  "scope": "conditional table/algebra/unit checks only; no full field thermal/fault/uplift model, probability, annual service or accepted GHG calibration"
+}

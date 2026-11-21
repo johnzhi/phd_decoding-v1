@@ -1,0 +1,272 @@
+{
+  "study_id": "B1-11",
+  "source_sha256": "1d1bd104cf39b9759920488454ef079e6712ba1a8b9a625957130baf7c5e262b",
+  "printed_entries": 19,
+  "named_dependencies": 6,
+  "entry_count": 25,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        8
+      ],
+      "citation": "Anderson E.M. (1951). The Dynamics of Faulting and Dyke Formation with Applications to Britain. Oliver and Boyd, Edinburgh.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq1 instantaneous stress/pressure rationale p5. Exact edition/passage, assumptions and derivation unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        8
+      ],
+      "citation": "Baled A., Korbol R., Owren G. (1996). Sleipner Vest CO2 Injection into a Shallow Underground Aquifer. SPE ATCE, Denver.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Introduction p1 prints Baklid; bibliography prints Baled. Preserve source identities; exact original/case and support unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        8
+      ],
+      "citation": "Bissell R.C., Vasco D.W., Atbi M., Hamdani M., Okwelegbe M., Goldwater M.H. (2011). A Full Field Simulation of the In Salah Gas Production and CO2 Storage Project Using a Coupled Geo-mechanical and Thermal Fluid Flow Simulator. EnergyProcedia4:3290–3297.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Background coupled modelling p1. Original model/field validation, thermal and containment scope unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        8
+      ],
+      "citation": "Bruno M.S. (1990). Subsidence-Induced Well Failure.60th California Regional Meeting, Venture,California,4–6April. SPE-20058.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq5 seabed deformation p7. Exact derivation, kernel thickness/displacement meanings, geometry/sign and applicability unverified. No silent notation repair."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        8
+      ],
+      "citation": "Chidambaram P., Tiwari P.K., Patil P.A., Ali S.S., Amin S., Tewari R.D., Tan C.P., Widyanita A., Hamid M.K. (2021). Importance of3-way Coupled Modelling for Carbon Dioxide Sequestration in Depleted Reservoir. SPE-206156-MS, ATCE Dubai.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Coupled-model requirement p1. Original methods, interaction/validation and relevance to this preliminary workflow remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        8
+      ],
+      "citation": "Chidambaram P., Yakup M.H., Ali S.S., Tewari R.D., Tan C.P., Tiwari P.K., Das D.P., Widyanita A. (2023). Importance of Thermal Modelling in CO2 Storage. SPE ATCE, SanAntonio.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Thermal/coupling background p1. Exact source, temperatures, footprint/timing and validation unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        8
+      ],
+      "citation": "Fjaer E., Holt R., Hosrud P., Raaen A. (2008). Petroleum Related Rock Mechanics,2ndEdition. Elsevier,Oxford.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Stress/poroelastic/1D method pp2–4. Original derivations, sign/effective-stress/strain conventions, elastic assumptions and correlation parameters unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        8
+      ],
+      "citation": "Geertsma J. (1973). A Basic Theory of Subsidence Due to Reservoir Compaction: The Homogeneous Case. Verhandelingen van het Koninklijk Nederlands geologisch mijnbouwkundig Genootschap28:43–62.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq4 and integralA p7. Exact original and geometric/homogeneous assumptions/integral unavailable; do not substitute a different1973 Geertsma paper."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        8
+      ],
+      "citation": "Masoudi M., Jalil A., Press D., Lee K-H., Tan C.P., Anis L. (2011). An Integrated Reservoir Simulation-Geomechanical Study on Feasibility of CO2 Storage in M4 Carbonate Reservoir,Malaysia. IPTC15029, Bangkok.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Coupled stress/compaction context pp1–2. Original field identity/parameters/model validation unverified; not FieldX by assumption."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        8
+      ],
+      "citation": "Masoudi M., Jalil, D.Press, C.P.Tan, Keller J., Anis L., Darman N., Othman M. (2013). Simulation of Chemical Interaction of Injected CO2 and Carbonic Acid Based on Laboratory Tests in3D Coupled Geomechanical Modeling. IPTC16703,Beijing.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CO2 sister-sample tests/degradation pp1–3. Printed author formatting preserved; exact experiments, samples, property-change/time/chemistry scope and database transfer not checked."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        8
+      ],
+      "citation": "Musa I.H., Tan C.P., Leem J., Tiwari P.K. (2023). Pragmatic Methodology for Evaluation of Geomechanical Risks During Feasibility Assessment of Fields for CO2 Geological Storage. IGS,Al-Khobar.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Analytical showstopper screening p1. Original workflow, model, limits and validation unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        9
+      ],
+      "citation": "Mustafa M.A., Ali S.S., Yakup M.H., Tan C.P., Santoshini S. (2021). Reaching Net Zero Carbon Future in Malaysia with CCS in a Carbonate Reservoir and Modelling the Storage and Containment Risks Using2-Way Fully Coupled Dynamic-Geomechanics Approach. SPE Virtual Symposium CCUSManagement.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Background coupled-model risks pp1–2. Exact original and inputs/model/field evidence unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        9
+      ],
+      "citation": "Mustafa M.A., Ali S.S., Yakup M.H., Tan C.P. (2022). Integrated2-Way Fully Coupled Reservoir Dynamic-Geomechanical Modelling Approach for CO2 Storage Risk Assessment in A Malaysian Carbonate Field. IPTC2022,Dhahran.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Coupled model requirement p1. Distinct title/conference from the OTC reference in B1-10; no substitute original assumed."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        9
+      ],
+      "citation": "Tan C.P., Ali S.S., Yakup M.H., Mustafa M.A., Chidambaram P., Hanifah M.A., Mazeli A.H. (2022). Geomechanical Risks Mitigation for Safe Long Term CO2 Geological Storage.56th ARMA Symposium,SantaFe,NewMexico,Texas,USA.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Stress transfer pp1–2/5. Printed place string retained. Exact numerical basis for0.33 upper transfer ratio and model/case applicability unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        9
+      ],
+      "citation": "Tan C.P., Musa I.H., Nik Kamaruddin N.M.F. (2024). Geomechanical Risk Analysis for Feasibility Assessment and Evaluation of CO2 Injection and Long-Term Storage. OTCAsia,KualaLumpur.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Workflow p1. Different title/conference despite same authors/year; not automatically this ARMA paper or an inspected duplicate."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        9
+      ],
+      "citation": "Tewari R.D., Tan C.P., Sedaralit M.F. (2022). A Toolkit for Offshore Carbon,Capture and Storage. IPTC2022,Dhahran.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Storage background p1. Exact source/toolkit, inputs/validation and scope unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        9
+      ],
+      "citation": "Tingay M., Morley C.K., King R., Coblentz D. (2012). Present-Day Stress Field of South East Asia. AAPG ICE,Singapore.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Regional stress-direction check p4. Original orientation data/quality/uncertainty and local transfer unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        9
+      ],
+      "citation": "Tjia H.D. (2010). Growing Evidence of Active Deformation in the Malay Basin Region. Bulletin of the Geological Society of Malaysia56:35–40. DOI10.7186/bgsm56201005.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Regional direction consistency p4. Original stress/orientation/time/geographic support unverified; not Tjia1994 in B1-09."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        9
+      ],
+      "citation": "Zoback M.D. (2010). Reservoir Geomechanics. CambridgeUniversityPress,UK.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Stress/poroelastic rationale p2. Printed year retained; exact edition/derivations/conventions/passage not checked."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "citation": "Native eight-well logs, tests and calibratedMEM inputs",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Raw sonic/density/caliper/test/drilling data, references/depths, generatedDTS, dynamic-static/strength fits, ECD provenance and calibration residuals/holdouts unavailable."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        3,
+        5,
+        7,
+        8
+      ],
+      "citation": "Regional CO2-interaction and thermal-property databases",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native pre/post sister-sample tests, fluid/time/temperature/chemistry conditions, jointE/nu/strength changes, alpha and thermal coefficients unavailable. Not measured at FieldX."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "citation": "Stress-transfer and caprock thermal/failure cases",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Numerical source for0.33, spatial50C cooling/time extent, raw stress/pressure references, material/failure models and uncertainty cases unavailable."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        3,
+        6,
+        7
+      ],
+      "citation": "Fault geometry, sensitivity and local/global failure criteria",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Actual dips/azimuths/P10P50P90 joint distributions, nearest-well input mapping,26-fault states and criterion separating local failure from reactivation/leakage unavailable."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        3,
+        7,
+        8
+      ],
+      "citation": "Deformation inputs, geometry/integrals and facility criteria",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Layer pressure/thickness/property arrays, CDF weighting, fullR/D/H/integralA, native equation implementation/output arrays and platform differential/rate/design tolerances unavailable."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        3,
+        4
+      ],
+      "citation": "Unprinted log/correlation methods including Eaton and density power law",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Synthetic shear generation, Eaton parameters, density extrapolation, log/strength/dynamic-static correlations, original identities and validity ranges not provided."
+    }
+  ]
+}
