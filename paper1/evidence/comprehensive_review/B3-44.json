@@ -1,0 +1,877 @@
+{
+  "study_id": "B3-44",
+  "source_sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All nine retained PDF pages read and visually inspected, including six figures, Table1, 23 numbered equations, decision/input/set definitions, six footnotes and 28 bibliography entries. Appendix formulas and small map legends were magnified. Printed property/cost functions are independently implemented and unit interfaces checked using clearly labelled analyst fixtures. Original California GIS/network/field inputs, cost-deflation multiplier, author code, underlying citations and external asset availability remain unverified. The original optimiser, hydraulic iteration and fitted EOS are not independently reproduced; this paper is not comprehensively complete.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "original_model_status": "printed_functions_and_units_checked_original_GIS_MILP_and_well_iteration_not_reproduced",
+  "supplement_status": "internal_appendix_inspected_external_assets_not_established",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Title, abstract, publication and authors",
+      "assessment": "Middleton and Bielicki, Energy Policy 37 (2009), 1052–1060; DOI 10.1016/j.enpol.2008.09.049. Received 3 July 2008, accepted 1 September 2008, online 24 December 2008. Abstract describes integrated cost-minimising capacitated network design, with 37 California sources and 14 reservoirs. Copyright preserved."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1.Introduction and literature positioning",
+      "assessment": "Read CCS context, infrastructure-scale analogies, seven planning decisions, critiques of direct/straight/nearest-source models and novelty claims. Exact IPCC/MIT/ISGS/Dooley/Kobos and transport originals remain unchecked; pipeline feasibility rhetoric is not a universal exclusion of shipping."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2.Dedicated CO2 pipeline network",
+      "assessment": "A 1 km US raster combines geographic feature weights. Modified Dijkstra paths are vectorised, overlaps merged and artifacts trimmed. Exact raster, diagonal/edge costs, address corrections and trimming code are missing; preprocessing is not reproduced."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "3.SimCCS formulation and definitions",
+      "assessment": "All 14 MILP expressions and variable/input/set definitions read. Continuous capture, transport and injection link to binary openings/diameter choices. CPLEX 11.0 stated. Masses are converted to 25-year lifetime stocks. Incoming-neighbour indexing and outside-set variable definitions need clarification before literal execution."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "4.Estimated costs and capacities; footnotes1–3",
+      "assessment": "Read source, compression, pipeline and well cost methods, with footnotes 1–3. Present costs and 11% fixed-charge annualisation; maximum 90% capture, 10 MPa transport/delivery, 75% pump efficiency, 70 USD/MWh and 60 USD/bbl. No joint pressure-drop optimisation or complete capture utility inventory. Radial injectivity determines well count, not layout."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        5
+      ],
+      "scope": "5.California study; footnote4",
+      "assessment": "The 37 sources are 21 gas power plants, one coal plant, ten refineries and five cement plants. Fourteen depleted-oil fields are represented by centroids; WestCarb addresses are corrected. Pipeline costs are explicitly artificially deflated. Individual data and the deflation factor are missing."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "scope": "6.Results and comparisons",
+      "assessment": "Read 10/30/50 Mt/year maps, cost/utilisation claims and direct-pipeline cost/length comparisons. Every target is a separate static optimisation. No raw solutions or solver logs retained; maps are demonstrations rather than policy recommendations or annual schedules."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "7.Conclusions, future work and acknowledgements",
+      "assessment": "Authors state case results are not generalisable. Future work includes boosters, tax/revenue objectives, staged construction, heuristics and resilience. All infrastructure is currently simultaneous. ZERT support during Los Alamos 2006–07; Michael Kuby acknowledged."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        8
+      ],
+      "scope": "Appendix equations15–23 and footnotes5–6",
+      "assessment": "Read Eqs15–23, all signs/powers, radial Darcy derivation and footnotes 5–6 in magnified renders. Pressure and viscosity interfaces are checked separately from unknown author implementation. Printed property/well-cost functions are independently evaluated; no field calibration follows."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "References",
+      "assessment": "All 28 bibliography entries read; Dooley2006 continues from p8 to p9. Every direct entry is mapped below, including Stephens2005. Their originals remain unverified. A later local EOS calculation does not verify the cited article or this regression."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        2
+      ],
+      "object": "Figure1 cost-surface stack, feature table, colour legend and caption",
+      "inspection": "Layered contiguous-US maps and final weight scale 1–70. Embedded table: waterways 10, highway 3, railroad 3, state parks 15, national parks 30, wetlands 15, urban 15, slope 0.1–0.8, base 1. MIT2006 attribution. These weights do not supply the original raster."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        5
+      ],
+      "object": "Figure2 pipeline-cost curves, diameter labels, axes and caption",
+      "inspection": "Log unit-cost axis 10–1000, labelled USD/km/tonne; flow axis 0–35,000 kt/year. Visible diameter labels 4/6/8/12/16/20/24/30 inches; caption says ten capacities. Blue curves and dashed thresholds read. No unlabelled diameter or exact cost inferred. Unit/deflation/annualisation basis unresolved."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        5
+      ],
+      "object": "Figure3 candidate-route California map and caption",
+      "inspection": "Blue candidate routes, red sources and green reservoirs over geographic costs. Dense central/southern routes avoid dark areas. No complete node coordinates, arc list or exact route lengths are supplied by the map."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        6
+      ],
+      "object": "Figure4 three deployment maps, inset, complete legends and caption",
+      "inspection": "All 10/30/50 Mt/year maps, southern inset and magnified legends read. Source captured pink/emitted red; reservoir used green/available light green. Keys: 6,500 kt/year source, 1,000,000 kt reservoir stock. Diameter widths 4/6/8/12/16/20/24 inches. These remain author solutions."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        7
+      ],
+      "object": "Figure5 cost curves, broken axis, marker legend and caption",
+      "inspection": "X: stored kt/year. Y: USD/kt, with a break between transport/storage and capture/total. Total blue diamonds, capture red squares, transport green triangles, storage orange circles; hollow direct, filled network. Divide USD/kt by 1,000 for USD/t; no curve is adopted as a calibrated price."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        7
+      ],
+      "object": "Figure6 total length curves, axes, legend and caption",
+      "inspection": "X: stored kt/year; Y: pipeline km to 8,000. Filled green network triangles versus hollow dedicated. Prose reports >7,000 km dedicated at approximately 56 Mt/year and more than triple network length. Targets are separate solutions; no exact pixel precision inferred."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        5
+      ],
+      "object": "Table1 both populations, capacity/cost means/SDs, units and caption",
+      "inspection": "37 sources: mean 1,752/SD 986 kt/year; mean cost 44.17/SD 7.12 USD/t. Fourteen reservoirs: mean 110,639/SD 21,911 kt STOCK; mean cost 3.60/SD 2.05 USD/t. Stock/rate distinction retained. Statistics do not identify individual coefficients or reconcile the roughly 56 Mt/year ceiling."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        3,
+        4
+      ],
+      "printed": "Min Σ_i∈S(Fs_i s_i+Vs_i a_i)+Σ_iΣ_j∈NiΣ_d Fp_ijd y_ijd+Σ_iΣ_j∈Ni Vp_ij x_ij+Σ_j∈R(Fr_j r_j+Vr_j b_j).",
+      "check": "Fixed present USD plus variable USD/t times lifetime tonnes. Outputs use 11% annualisation. Actual coefficients, cost years and generation details missing. No joint hydraulic state, time or uncertainty objective."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        3
+      ],
+      "printed": "x_ij − Σ_d maxQp_ijd y_ijd ≤0.",
+      "check": "Flow maximum links to diameter selection. With no pipe, nonnegative flow is zero. Flow and capacity must share the lifetime basis."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        3
+      ],
+      "printed": "x_ij − Σ_d minQp_ijd y_ijd ≥0.",
+      "check": "Minimum throughput links to the selected size. Diameter-specific arrays missing; diameter is discrete."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        3
+      ],
+      "printed": "Σ_j∈Ni x_ij − Σ_{j∈N_(i∉R)} x_ji − a_i + b_i =0, ∀i (incoming subscript retained as printed).",
+      "check": "Intended node conservation. The magnified incoming N subscript contains i∉R; its exact meaning is unresolved. Variables a/b are defined only on source/reservoir sets elsewhere, so zero extension also needs specification. Preserve the source notation; no silent correction or unpublished-code failure claim."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        3
+      ],
+      "printed": "a_i − Qs_i s_i ≤0, i∈S.",
+      "check": "Capture requires an open source and is bounded by its lifetime maximum. Partial capture allowed; 90% maximum stated but individual input basis missing."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        3
+      ],
+      "printed": "b_j − Qr_j r_j ≤0, j∈R.",
+      "check": "Injection requires an open reservoir and lifetime stock capacity. This is not a year-specific pressure-limited rate."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        3
+      ],
+      "printed": "Σ_i∈S a_i ≥ T.",
+      "check": "Total capture is at least T. Equality to storage requires clarified lossless conservation. No net-GHG objective or annual schedule."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        3
+      ],
+      "printed": "Σ_d y_ijd ≤1.",
+      "check": "At most one diameter per directed candidate arc. Arc directions/data and construction stages are not supplied."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        3
+      ],
+      "printed": "y_ijd ∈{0,1}.",
+      "check": "Binary pipeline/diameter selection. Tonnes remain continuous; neighbour quantifiers need a concrete graph."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        3
+      ],
+      "printed": "s_i ∈{0,1}, i∈S.",
+      "check": "Binary source opening; fixed infrastructure cost differs from marginal capture."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        3
+      ],
+      "printed": "r_j ∈{0,1}, j∈R.",
+      "check": "Binary reservoir opening, not an integer well-layout decision."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        3
+      ],
+      "printed": "x_ij ≥0.",
+      "check": "Nonnegative directional lifetime flow. Reverse-arc handling requires original graph data."
+    },
+    {
+      "id": "E13",
+      "pages": [
+        3
+      ],
+      "printed": "a_i ≥0, ∀j∈S (j printed despite a_i).",
+      "check": "Printed j∈S quantifier differs from a_i index; preserved pending clarification. Intended nonnegative capture is clear, but literal indexing is not silently repaired."
+    },
+    {
+      "id": "E14",
+      "pages": [
+        3
+      ],
+      "printed": "b_j ≥0, j∈R.",
+      "check": "Nonnegative stored lifetime mass. No stock evolution, outages or retained-carbon horizon."
+    },
+    {
+      "id": "E15",
+      "pages": [
+        8
+      ],
+      "printed": "MW = m_dot ΔP_d/(rho eta).",
+      "check": "Mass kg/s, density kg/m3 and ΔP MPa numerically give MW after unit conversions cancel. Efficiency 0.75 stated. This pump approximation is not a complete capture/compressor utility inventory."
+    },
+    {
+      "id": "E16",
+      "pages": [
+        8
+      ],
+      "printed": "ΔP_d = f (m_dot)^2 L 8000/(rho D^5 pi^2).",
+      "check": "Darcy–Weisbach with v=4m_dot/(rho pi D²), L km and D m gives the printed numerical expression in Pa. Eq15 labels ΔP MPa. An explicit 1e6 conversion is required at that interface. Raw literal and SI-expressed MPa diagnostics stay separate; author code is unavailable."
+    },
+    {
+      "id": "E17",
+      "pages": [
+        8
+      ],
+      "printed": "m_dot = [2pi h/ln(r1/r2)] [k rho/mu] (P2−P1).",
+      "check": "ln(r1/r2)≈7.5, h m, k m2, rho kg/m3, mu MPa·s and pressures MPa give kg/s. Eq20 mPa·s requires multiplication by 1e-9. Steady radial Darcy flow does not model pressure-front evolution, relative permeability or interference."
+    },
+    {
+      "id": "E18",
+      "pages": [
+        8
+      ],
+      "printed": "ΔP_h=1000 rho g d.",
+      "check": "With density kg/m3, g=9.81 m/s² and depth km, the expression gives Pa. MPa interfaces need conversion. Main p4 refers to head Eq19, while the actual head equation is18. Density is treated as constant."
+    },
+    {
+      "id": "E19",
+      "pages": [
+        8
+      ],
+      "printed": "rho=748.2−5.342ΔT+12.81ΔP+0.02414ΔT²−0.6774ΔP²+0.1924ΔTΔP+1.585e−4ΔT³+0.02985ΔP³−4.342e−3ΔT²ΔP−2.740e−3ΔTΔP².",
+      "check": "ΔT=T−340 K and ΔP=P−25 MPa. All ten coefficients/signs/powers magnified and implemented. The fit data, error and validity interval are missing; nine analyst evaluations are not independent EOS validation."
+    },
+    {
+      "id": "E20",
+      "pages": [
+        8
+      ],
+      "printed": "mu=0.06370−7.087e−4ΔT+1.797e−3ΔP+7.240e−6ΔT²−4.163e−5ΔP²−1.993e−6ΔTΔP+4.007e−8ΔT³+1.240e−6ΔP³−3.593e−7ΔT²ΔP+5.896e−7ΔTΔP².",
+      "check": "Output mPa·s, explicitly distinguished from Eq17 MPa·s in footnote6. At the origin, 0.06370 mPa·s =6.37e-11 MPa·s. All terms implemented; correlation validity over an unstated domain is not established."
+    },
+    {
+      "id": "E21",
+      "pages": [
+        8
+      ],
+      "printed": "Drilling USD=38450d^4−321900d^3+915400d²−530100d+161550.",
+      "check": "Depth d inherits km from Eq18; coefficients depend on these units. Evaluations at analyst depths 1/2/3 km are function checks, not original field costs or harmonised current USD."
+    },
+    {
+      "id": "E22",
+      "pages": [
+        8
+      ],
+      "printed": "Equipping USD=7002+90220d.",
+      "check": "Depth km, source USD basis. Function evaluation is not a complete well CAPEX/OPEX inventory."
+    },
+    {
+      "id": "E23",
+      "pages": [
+        8
+      ],
+      "printed": "Rig USD=d(2200 C_bbl+183100).",
+      "check": "Oil price 60 USD/bbl stated; depth km. No field depths or original well-count/pressure iteration supplied."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        8
+      ],
+      "printed": "Footnote5: V=−k/mu ∂P/∂x; V=m_dot/(rho A), A=2pi rh; integrate radial dP/dr and dr/r.",
+      "check": "Footnote5 integrates radial Darcy velocity and area 2pi rh to a logarithmic factor. Printed integration limits versus positive ln(r1/r2) need an explicit signed-flow convention. No transient or multiphase derivation is supplied."
+    }
+  ],
+  "variables": [
+    "Nodes i/j, neighbour sets Ni/Nj, source set S, reservoir set R and discrete diameter set D. Eq4 incoming indexing and outside-set a/b treatment unresolved.",
+    "a_i capture, x_ij transported and b_j stored: lifetime tonnes over 25 years. Capacities Qs/Qp/Qr must share that basis; source kt/year and reservoir stock kt are distinct.",
+    "Binary s_i/r_j openings and y_ijd diameter choices. Well count is estimated outside this network MILP; no optimised well layout is supplied.",
+    "F coefficients: fixed present USD. V coefficients: present-valued USD/t. Annual outputs use an 11% fixed-charge factor. Exact cost arrays and source-specific financing conversions missing.",
+    "T in Eq7 means mass target; T in Eq19 means temperature K. Annualised result targets do not introduce per-year decision variables.",
+    "Friction f=0.015, diameter m, length km, mass flow kg/s and density kg/m3. Eq16 gives Pa; Eq15 specifies MPa.",
+    "Pump efficiency 0.75, electricity 70 USD/MWh, oil 60 USD/bbl and transport/delivery pressure 10 MPa. Pressure basis and thermal phase conditions incompletely specified; pressure above critical alone does not determine phase.",
+    "Radial k m2, h m, log-radius ratio≈7.5, injection/far-field MPa and viscosity MPa·s. Eq20 gives mPa·s; conversion factor 1e-9 is expressly required by footnote6.",
+    "Depth d km in head/well costs differs from diameter index d∈D. Gravity 9.81 m/s²; head expression outputs Pa.",
+    "Fit origin 340 K/25 MPa. Density kg/m3 and viscosity mPa·s. Fit domain/data, mixture behaviour and errors are not supplied.",
+    "1 km raster uses orthogonal/diagonal cell centres; feature weights add. Original raster, edge costs and trimming are missing.",
+    "Corrected WestCarb2008 selection: 37 sources/14 oil fields. Maximum 90% capture. The Table1 mean and roughly 56 Mt/year maximum need original input definitions.",
+    "All infrastructure is simultaneous; a 25-year conversion horizon does not specify readiness, operating calendars or pressure evolution.",
+    "Pipeline cost deflation is disclosed without its factor. Demonstration curves cannot supply calibrated actual prices or utility/GHG inventories."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "CCS is a bridging mitigation option requiring large infrastructure.",
+      "assessment": "Historical context; exact cited originals remain unverified. No current policy or universal pipeline-only conclusion inferred."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Geographic candidate networks improve direct/straight/nearest matching.",
+      "assessment": "Method description supports the capability. Raster and modified algorithm missing; novelty comparisons need the prior originals."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "MILP jointly chooses sources, sinks, flow and pipe sizes to minimise costs.",
+      "assessment": "Objective, binary domains and capacity links support this. Eq4 notation and case arrays remain unresolved; no annual dynamic pressure model."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        4,
+        8
+      ],
+      "claim": "Injectivity estimates well numbers from properties and P/T.",
+      "assessment": "Well count is estimated, layout is not optimised. Pressure boosters, joint hydraulics and temporal deployment remain extensions."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "10 Mt/year: 258 km, five sources, two reservoirs and 41.71 USD/t.",
+      "assessment": "Attributed result inspected. No original route/cost matrix or deflation factor; not independently reproduced or an actual-price benchmark."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        6
+      ],
+      "claim": "30 Mt/year: 18 sources/eight reservoirs/43.27 USD/t; 50 Mt/year: 33 sources/12 reservoirs/24-inch trunk.",
+      "assessment": "Author solutions read. Distinct optimisations, not a staged buildout. No raw solutions or solver certificate retained."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        6
+      ],
+      "claim": "Above 100 kt/year, mean source utilisation 99% and reservoir utilisation 3.1%.",
+      "assessment": "Averaging population and stock/rate denominators are missing. Preserved as reported, not independently reconstructed."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Capture 35–55 USD/t, storage 1.50–5.50 USD/t and transport usually below 1 USD/t.",
+      "assessment": "Reported case prices; pipeline costs also explicitly deflated. No general cost calibration or complete capture utility inventory."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Direct pipelines cannot beat networked solutions because paths are nested.",
+      "assessment": "Feasible-set dominance is conditional on identical costs/constraints and exact solutions. Case arrays are missing; no quantified independent rerun."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        7
+      ],
+      "claim": "Dedicated pipelines typically cost 80% more, maximum 105%; total cost rises ~1.5%, with 48M USD at 54 Mt/year.",
+      "assessment": "Reported comparisons, based on network costs as denominator. This is not an 80% reduction from the dedicated base or a GHG credit."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        7
+      ],
+      "claim": "Dedicated length exceeds 7,000 km at 56 Mt/year and is more than triple the network.",
+      "assessment": "Prose and plotted pattern read. No precise curve digitisation or independent routing; targets are not cumulative construction."
+    },
+    {
+      "id": "C12",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Staging, tax/revenue objectives and resilience are possible extensions.",
+      "assessment": "Identified future work; the 2009 case does not demonstrate annual readiness, failure resilience or time-dependent reservoir response."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        8
+      ],
+      "citation": "Anderson, S., Newell, R., 2004. Prospects for carbon capture and storage technologies. Annual Review of the Environment and Resources 29, 109–142.",
+      "role": "CCS/bridging context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        8
+      ],
+      "citation": "API, 2000. 2000 Joint Association Survey on Drilling Costs. Technical Report, American Petroleum Institute.",
+      "role": "Well-drilling cost data. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        8
+      ],
+      "citation": "ARI, 2005. Basin oriented strategies for CO2 enhanced oil recovery: California. Technical Report, Advanced Resources International Inc.",
+      "role": "California drilling-cost regressions. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        8
+      ],
+      "citation": "Bertsimas, D., Tsitsiklis, J., 1997. Introduction to Linear Optimization. Athena Scientiﬁc, Nashua, NH.",
+      "role": "MILP/linear-optimisation methods. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        8
+      ],
+      "citation": "Dijkstra, E., 1959. A note on two problems in connexion with a graph. Numerische Mathematik 1, 269–271.",
+      "role": "Least-cost path algorithm. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        8
+      ],
+      "citation": "Doctor, R., Palmer, A., Coleman, D., Davison, J., Hendriks, C., Kaarstad, O., Ozaki, M., 2005. Transport of CO2. In: Metz, B., Davidson, O., de Coninck, H., Loos, M., Meyer, L. (Eds.), IPCC Special Report on Carbon Dioxide Capture and Storage. Cambridge University Press, Cambridge, UK.",
+      "role": "Pipeline transport feasibility context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        8,
+        9
+      ],
+      "citation": "Dooley, J.J. Dahowksi, R.T., Davidson, C.L., Wise, M.A., Gupta, M.A., Kim, S.H., Malone, E.L., 2006. Carbon Dioxide Capture and Geologic Storage. Technology Report from the Second Phase of the Global Energy Technology Strategy Program. Battelle Joint Global Change Research Institute. Available at: /http:// www.pnl.gov/gtsp/docs/ccs_report.pdfS.",
+      "role": "Prior CCS model assumptions and infrastructure context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        9
+      ],
+      "citation": "EIA, 2007. Emissions of Greenhouse Gases Report. DOE/EIA-0573(2006). Available online at /http://www.eia.doe.gov/oiaf/1605/ggrpt/carbon.htmlS, last ac- cessed June 2008.",
+      "role": "Historical2005emissions scale. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        9
+      ],
+      "citation": "Fox, R.W., McDonald, A.T., 1992. Introduction to Fluid Mechanics, fourth Ed. Wiley, New York.",
+      "role": "Pump/friction expressions15–16. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        9
+      ],
+      "citation": "IEAGHG, 2002. Transmission of CO2 and Energy. Technical Report no. PH4/6. International Energy Agency Greenhouse Gas R&D Programme.",
+      "role": "Pump/compressor costs. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        9
+      ],
+      "citation": "IEAGHG, 2006. Building the cost curves for CO2 storage—Part 1: Sources of CO2. Technical Report no. PH4/9: Original 2002, Updated October 2006 Interna- tional Energy Agency Greenhouse Gas R&D Programme.",
+      "role": "Capture/cost curves. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        9
+      ],
+      "citation": "Heddle, G., Herzog, H.J., Klett, M., 2003. The Economics of CO2 Storage. Research Paper MIT LFEE 732 2003-003 RP Laboratory for Energy and the Environment, MIT, Cambridge.",
+      "role": "Pipeline operating costs. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        9
+      ],
+      "citation": "IPCC, 2005. Special report on carbon capture and storage. In: Metz, B., et al. (Eds.), Working Group III of the Intergovernmental Panel on Climate Change. Cambridge University Press, Cambridge, UK, New York.",
+      "role": "Capture technology costs and mitigation context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        9
+      ],
+      "citation": "ISGS, 2005. Assess carbon dioxide capture options for Illinois Basin carbon dioxide sources. Topical Report, Illinois State Geological Survey",
+      "role": "Prior source/capture assumptions. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        9
+      ],
+      "citation": "Kobos, P., Malcynski, L., Borns, D., McPherson, B., 2007. The ‘String of Pearls’: the integrated assessment cost source-sink model. In: Proceedings of the Sixth Annual Conference on Carbon Capture and Sequestration—DOE/NETL, 7–10 May.",
+      "role": "Prior nearest/branching matching method. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        9
+      ],
+      "citation": "Law, D.H.S., Bachu, S., 1996. Hydrogeological and numerical analysis of CO2 disposal in deep aquifers in the Alberta sedimentary basin. Energy Conversion and Management 37 (6-8), 1167–1174.",
+      "role": "Injectivity consistency claimed in footnote3. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        9
+      ],
+      "citation": "McCoy, S., Rubin, E., 2005. Models of CO2 transport and storage costs and their importance in CCS cost estimates. In: Proceedings of the Fourth Annual Conference on Carbon Capture and Sequestraion, DOE/NETL, 2–5 May 2005.",
+      "role": "Pipeline/storage costs and ln-radius approximation. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        9
+      ],
+      "citation": "McCoy, S., Rubin, E., 2008. An engineering–economic model of pipeline transport of CO2 with application to carbon capture and storage. International Journal of Greenhouse Gas Control 2 (2), 219–229.",
+      "role": "Pipeline construction/operating cost analog. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        9
+      ],
+      "citation": "MIT, 2006. MIT CO2 Pipeline Transport and Cost Model. Carbon Capture and Sequestration Technologies Program /http://e40-hjh-server1.mit.edu/energy- lab/wikka.php?wakka=MITS, last accessed August 2008.",
+      "role": "Cost-surface raster and construction-cost model. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        9
+      ],
+      "citation": "MIT, 2007. The Future of Coal—Options for a Carbon Constrained World. Cambridge, MA.",
+      "role": "Coal/infrastructure scale analogy. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        9
+      ],
+      "citation": "Nield, D.A., Bejan, A., 1998. Convection in Porous Media, second ed. Springer, New York.",
+      "role": "Radial Darcy derivation,Eq17 and footnote5. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        9
+      ],
+      "citation": "Pacala, S., Socolow, R., 2004. Stabilization wedges: solving the climate problem for the next 50 years with current technologies. Science 305 (5686), 968–972.",
+      "role": "Mitigation/CCS role. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        9
+      ],
+      "citation": "Riahi, K., Rubin, E.S., Schrattenholzer, L., 2003. Prospects for carbon capture and sequestration technologies assuming their technological learning. In: Gale, J., Kaya, Y. (Eds.), Proceedings of the Sixth International Greenhouse Gas Control Technologies, Kyoto, Japan. Elsevier Science, Oxford, UK, 1–4 October 2002, pp. 1095–1100.",
+      "role": "CCS learning/bridging context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        9
+      ],
+      "citation": "Span, R., Wagner, W., 1996. A new equation of state for carbon dioxide covering the ﬂuid region from the triple-point temperature to 1100 K at pressures up to 800 MPa. Journal of Physical Chemistry Reference Data 25 (6), 1509–1596.",
+      "role": "CO2 equation-of-state reference; original not read despite existing local software calculations. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        9
+      ],
+      "citation": "Stephens, J., van der Zwaan, B., 2005. The case for carbon capture and storage. Issues in Science and Technology Fall, 69–76.",
+      "role": "CCS bridging context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        9
+      ],
+      "citation": "Svennson, R., Odenberger, M., Johnsson, F., Stromberg, L., 2004. Transportation systems for CO2-application to carbon capture and storage. Energy Conversion and Management 45, 2343–2353.",
+      "role": "Pipeline transport context. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        9
+      ],
+      "citation": "WestCarb, 2008. /http://www.westcarb.orgS, last accessed February 2008.",
+      "role": "Original California source/reservoir data. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        9
+      ],
+      "citation": "White, F.M., 1994. Fluid Mechanics, third ed. McGraw-Hill, New York.",
+      "role": "Pump/friction expressions15–16. Underlying original and exact claim support remain unverified.",
+      "verification_status": "unverified",
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-44_bibliography.json#R28"
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        4,
+        8
+      ],
+      "status": "ATEMPORAL_NOT_ANNUAL_SERVICE",
+      "finding": "Lifetime conversion and independent target optimisations do not provide annual pressures, rates, installation dates or failure calendars.",
+      "action": "Use as a static network method. Do not transfer Qr stock as an annual rate or assume a larger case extends a smaller one."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "status": "MISSING_ORIGINAL_CASE_INPUTS",
+      "finding": "MIT raster, corrected site inputs, arcs, pipe arrays, costs, deflation factor, code and raw solutions are missing.",
+      "action": "Obtain exact 2008–09 versions. Do not substitute later SimCCS software or pixel-derived routes."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        3
+      ],
+      "status": "HOLD_MASS_BALANCE_INDEX",
+      "finding": "Eq4 incoming subscript contains i∉R; Eq13 uses j∈S for a_i. Outside-set a/b treatment is implicit.",
+      "action": "Preserve notation and request code/erratum. No guessed repair or unpublished-code failure claim."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        4,
+        8
+      ],
+      "status": "HOLD_PRESSURE_UNIT_INTERFACE",
+      "finding": "Eq16 stated units give Pa, while Eq15 specifies MPa. Eq18 head also gives Pa; p4 cites Eq19 for head.",
+      "action": "Keep raw and converted diagnostics separate. Verify author conversions and pressure basis before adopting coefficients."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        8
+      ],
+      "status": "OPEN_RADIAL_DERIVATION_AND_SCOPE",
+      "finding": "Footnote5 sign/limits need convention; Eq17 is steady single-phase radial flow. Eq20→17 needs mPa·s to MPa·s conversion.",
+      "action": "Verify original derivations, signs and field conditions. Convert viscosity by 1e-9; do not assign annual service."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "status": "HOLD_PIPELINE_COST_TRANSFER",
+      "finding": "Costs are artificially deflated without a factor. Figure2 and Figure5 have different printed cost units.",
+      "action": "Retain labels and establish cost/annualisation bases before any transfer. No calibrated Japanese cost or GHG credit."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "OPEN_AGGREGATE_CAPACITY_UTILISATION_BASIS",
+      "finding": "Table1 mean×37=64.824 Mt/year; conditional 90%=58.3416, versus roughly 56 Mt/year maximum. Utilisation denominators missing.",
+      "action": "Request original capacity/selection definitions. Do not force reconciliation or adopt a capture correction."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        8,
+        9
+      ],
+      "status": "PENDING_PRIMARY_REFERENCES",
+      "finding": "All 28 bibliography entries read; underlying originals, derivations and external assets remain unverified.",
+      "action": "Continue exact local matches and claim support; external retrieval paused pending the requested Chrome connection."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        8
+      ],
+      "status": "PROPERTY_FIT_NOT_EOS_VALIDATION",
+      "finding": "Nine analyst evaluations do not verify the regression fit, error or domain. CoolProp is absent in this runtime for a fresh EOS comparison.",
+      "action": "No new EOS comparison claimed. Prior local EOS outputs do not verify this fit or the underlying reference article."
+    }
+  ],
+  "supplements": "Internal appendix and all footnotes inspected. No embedded attachments. Separate original code/data/supplement availability remains unverified; local absence does not establish absence online. The 2009 case must not be replaced by a later SimCCS version. External retrieval remains paused pending Chrome.",
+  "reproduction": "audit_simccs_components.py implements the printed property/well-cost functions, pump/friction/head/radial components and 21 unit/aggregation diagnostics. Nine analyst property points are not author field outputs or a validated fit domain. Original GIS preprocessing, California MILP, pressure/well-count iteration and EOS regression fitting remain unreproduced. Eq4 is not silently rewritten. CoolProp is unavailable for a fresh EOS comparison in this runtime; none is claimed.",
+  "paper1_use": "B4-06 reference31 is now primary-checked for MILP cost minimisation, aggregation and scale/utilisation mechanisms, with static-case and artificial-cost limits. No annual physical service, Japanese price/route calibration, complete utility inventory or GHG credit is transferred. Existing operating/GHG outputs are unchanged.",
+  "next_steps": "Continue B1-01 and remaining local main PDFs. Obtain exact MIT/WestCarb2008 case inputs, author code, unit/index clarification, deflation factor and underlying originals before full reproduction. External retrieval remains paused pending the requested Chrome connection."
+}

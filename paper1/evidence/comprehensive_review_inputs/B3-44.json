@@ -1,0 +1,17 @@
+{
+  "study_id": "B3-44",
+  "source_sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+  "source_locator": "Physical p8, Eqs15–23 and footnotes5–6; coefficients visually checked in magnified render",
+  "fit_origin": {"T_K": 340, "P_MPa": 25},
+  "polynomial_term_columns": ["temperature_power", "pressure_power", "coefficient"],
+  "eq19_density_kg_m3_terms": [[0,0,748.2],[1,0,-5.342],[0,1,12.81],[2,0,0.02414],[0,2,-0.6774],[1,1,0.1924],[3,0,0.0001585],[0,3,0.02985],[2,1,-0.004342],[1,2,-0.002740]],
+  "eq20_viscosity_mPa_s_terms": [[0,0,0.06370],[1,0,-0.0007087],[0,1,0.001797],[2,0,0.000007240],[0,2,-0.00004163],[1,1,-0.000001993],[3,0,0.00000004007],[0,3,0.000001240],[2,1,-0.0000003593],[1,2,0.0000005896]],
+  "eq21_drilling_USD_descending_powers": [38450,-321900,915400,-530100,161550],
+  "eq22_equipping_USD": {"constant": 7002, "depth_km_coefficient": 90220},
+  "eq23_rig_USD": {"depth_km_oil_price_coefficient": 2200, "depth_km_coefficient": 183100},
+  "published_constants": {"friction_factor": 0.015, "pump_efficiency": 0.75, "gravity_m_s2": 9.81, "log_radius_ratio": 7.5, "oil_USD_bbl": 60, "electricity_USD_MWh": 70, "system_life_years": 25, "fixed_charge_factor": 0.11},
+  "analyst_unit_example": {"mass_kg_s": 100, "pipe_length_km": 100, "pipe_diameter_m": 0.3, "depth_km": 1, "formation_thickness_m": 100, "permeability_m2": 1e-13, "injection_minus_farfield_MPa": 5, "scope": "Illustrative unit fixture only; not a California reservoir, pipeline design or source result"},
+  "analyst_fit_evaluation_points": {"T_K": [330,340,350], "P_MPa": [20,25,30], "scope": "Nine analyst-selected points around printed fit origin; no author fit-validity interval or EOS validation inferred"},
+  "table1": {"source_count": 37, "source_mean_kt_year": 1752, "source_SD_kt_year": 986, "reservoir_count": 14, "reservoir_mean_kt_stock": 110639, "reservoir_SD_kt_stock": 21911},
+  "scope": "Literal printed polynomial implementations and dimensional diagnostics only. No source/sink/arc data, MIT raster or cost-deflation multiplier supplied; original California MILP, hydraulic iteration and EOS regression fitting are not reproduced."
+}

@@ -83,6 +83,8 @@ The expanded [full-text and supplement audit](../docs/budiarto_comprehensive_fin
 
 Checking the exact cited regional study further qualifies the resource basis. Eight South Sumatra capacities in Zhang and Lau's tables match the 537.4 Mt benchmark, although the anonymous reservoir-to-field identities remain unconfirmed. The regional study assumes oil/gas storage efficiency E = 1 under limited data and provides bulk fluid/reservoir properties, rather than pressure-constrained annual injection bounds [B4-08, pp3–5,7–8,15–17]. Its aquifer bulk-volume equation is independently reconstructed for all 24 basin/scenario values at displayed precision; neither that calculation nor the resource provenance reproduces a reservoir's annual physical service. The [detailed audit](../docs/zhang_lau_comprehensive_findings.md) also preserves unresolved sector labels, MMP units and histogram bases. These quantities do not replace accepted operating or GHG inputs.
 
+The original SimCCS study supports integrated MILP network planning, but explicitly assumes simultaneous infrastructure, converts mass quantities to 25-year lifetime stocks and reoptimises each target from scratch. Its California demonstration artificially reduces pipeline construction costs [B3-44, pp3–8]. The [equation and source review](../docs/simccs_comprehensive_findings.md) therefore retains its methodological contribution while withholding annual physical-service and calibrated transport-cost interpretations. Missing original GIS, site and cost arrays prevent independent reproduction of that case.
+
 The display-resolution audit assumes conventional rounding to the nearest 0.1 Mt/y. For n annotated cells, the conditional sum envelope is the printed sum ±0.05n Mt over one-year bins. This is a bound derived from the printed precision, conditional on the rounding convention and blank interpretation, rather than a confidence interval. Values are not scaled to force agreement with the main paper. Rounded annual sums can slightly exceed the nominal source rate; that alone is not evidence of physical excess injection.
 
 ## 2.4 Mitigation accounting
@@ -619,6 +621,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B3-39]** Johnsson, Skagestad, Eldrup & Kjärstad (2017). Linking the Effect of Reservoir Injectivity and CO2 Transport Logistics in the Nordic Region. [10.1016/j.egypro.2017.03.1824](https://doi.org/10.1016/j.egypro.2017.03.1824). [Retained PDF](../papers/B3-39.pdf).
 
 - **[B3-42]** Becattini et al. (2022). Carbon dioxide capture, transport and storage supply chains Optimal economic and environmental performance of infrastructure rollout. [10.1016/j.ijggc.2022.103635](https://doi.org/10.1016/j.ijggc.2022.103635). [Retained PDF](../papers/B3-42.pdf).
+
+- **[B3-44]** Middleton & Bielicki (2009). A scalable infrastructure model for carbon capture and storage_SimCCS. [10.1016/j.enpol.2008.09.049](https://doi.org/10.1016/j.enpol.2008.09.049). [Retained PDF](../papers/B3-44.pdf).
 
 - **[B4-01]** Nasir & Go (2024). Carbon capture and storage at Malaysia power plants Evaluation of its feasibility and requisite enablers. [10.1016/j.jclepro.2024.143173](https://doi.org/10.1016/j.jclepro.2024.143173). [Retained PDF](../papers/B4-01.pdf).
 

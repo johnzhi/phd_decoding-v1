@@ -3,7 +3,7 @@
   "source_sha256": "e8ceec0d96625b2fca7f58868f580a6843a31a0ad9eae78ef26695131e14e833",
   "review_date": "2026-11-21",
   "overall_status": "incomplete",
-  "assessment": "All 20 retained main-PDF pages were read and visually inspected, including 11 figures, 3 tables, the objective, all five printed constraint rows, the prose reservoir-inflow condition and nomenclature. The retained supplementary DOCX was read as native text/tables and inspected in a separate five-page render, covering all three tables and ten figures. The 720-cell heatmap grid, 250 annotations and 470 blanks were checked against the existing transcription. The underlying cited-source chain (one of58 direct edges now checked for limited resource support), incomplete annual injection-limit/model inputs, cost bases, detailed map routes and independent process/well/MILP reproduction remain open. The paper is not comprehensively complete.",
+  "assessment": "All 20 retained main-PDF pages were read and visually inspected, including 11 figures, 3 tables, the objective, all five printed constraint rows, the prose reservoir-inflow condition and nomenclature. The retained supplementary DOCX was read as native text/tables and inspected in a separate five-page render, covering all three tables and ten figures. The 720-cell heatmap grid, 250 annotations and 470 blanks were checked against the existing transcription. The underlying cited-source chain (two of 58 direct edges now checked with specific methodological/resource limits), incomplete annual injection-limit/model inputs, cost bases, detailed map routes and independent process/well/MILP reproduction remain open. The paper is not comprehensively complete.",
   "processed_asset_note": "The supplement render has five derivative pages. They are not native publication pages and are excluded from the 1,301-page unique-corpus denominator.",
   "text_read_pages": [
     1,
@@ -835,9 +835,21 @@
         19
       ],
       "citation": "Middleton RS, Bielicki JM (2009) A scalable infrastructure model for car- bon capture and storage: SimCCS. Energy Policy 37(3):1052–1060. https:// doi.org/10.1016/j.enpol.2008.09.049",
-      "role": "SimCCS priorMILP; exact retainedB3-44. Primary text and claim support remain unverified.",
-      "verification_status": "unverified",
-      "retained_candidate": "B3-44"
+      "role": "SimCCS prior MILP and scale/utilisation mechanism, now checked against exact retained B3-44 with static-case and artificial-cost qualifications.",
+      "verification_status": "primary_text_checked_support_with_case_cost_and_time_limits",
+      "retained_candidate": "B3-44",
+      "primary_review": "evidence/comprehensive_review/B3-44.json",
+      "primary_sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+      "primary_pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "finding": "Supports parent p2 description of joint MILP cost minimisation and economies of network scale/utilisation. Original is explicitly atemporal, converts quantities to25-year stocks, reoptimises each target from scratch and artificially reduces pipeline costs. No annual physical service, transferable cheap pipeline price or independent original-case reproduction follows."
     },
     {
       "id": "R32",
@@ -1193,7 +1205,7 @@
         20
       ],
       "status": "PENDING_PRIMARY_REFERENCES",
-      "finding": "All58 bibliography entries read. R55 is checked against retained Zhang/Lau2022 for partial resource support; its232 originals remain unverified. Exact SimCCS B3-44 remains next. Related Fraga2024 is not the cited Fraga2021 paper.",
+      "finding": "All58 bibliography entries read. R31→SimCCS B3-44 supports the MILP mechanism with static/cost limits; R55→Zhang/Lau B4-08 partially supports resources/properties. Their own28/232 references remain unverified. Related Fraga2024 is not the cited Fraga2021 paper.",
       "action": "Continue exact-version citation checks. External retrieval remains paused under the user instruction."
     },
     {
@@ -1362,5 +1374,5 @@
   "supplements": "Retained B4-06-S1 DOCX and ten original media hashes verified. All native paragraphs, three tables, two OMML cost-header expressions and ten figures were inspected, using five separately rendered derivative pages and the complete 720-cell grid. The existing validator passes all 250 numeric annotations, 470 blanks, native-table identity and media identity checks. These supplied outputs do not establish annual kr,t inputs or availability of further author assets. No public retrieval or author contact was undertaken.",
   "reproduction": "audit_budiarto_fulltext.py produces21 transparent diagnostics: source/resource/cost sums, Figure11 differences, conditional early mass feasibility, reported retention differences, map endpoint sums and an annuity factor. The existing rounded heatmap replay remains explicitly separate from an independent MILP run. Reproducing HYSYS, PROSPER/PVT/JonesIPR, decline analysis and PuLP/CBC needs missing cases, arrays, code and coefficients. No guessed kr,t array or corrected cost inventory is created.",
   "paper1_use": "Retain153.21/159.81Mt as attributed SouthSumatra retention benchmarks and5.327Mt/year as the source-accounting basis within that case. No Japanese geological calibration, annual physical-service profile, complete capture utility balance or34%GHG credit is transferred. The new cost, formulation and citation questions are disclosed separately. Existing operating and GHG results are unchanged. The R55 primary-source check now traces the537.4Mt resource total to E=1 regional voidage estimates, with unconfirmed anonymous field identities; no missing annual upper bound is supplied by that provenance check.",
-  "next_steps": "Review exact retained SimCCS B3-44, then B1-01. R55→B4-08 is checked with partial resource/property support; B4-08 underlying originals and complete field models remain open. Obtain raw kr,t, well/process cases, arcs, costs, binary constraints, source-balance definitions and cost/phase clarifications before full reproduction. External retrieval remains paused pending the requested Chrome connection."
+  "next_steps": "Continue B1-01 and other remaining local PDFs. R31→B3-44 and R55→B4-08 are primary-checked with explicit limits; their underlying citations/models remain open. Obtain raw kr,t, process/well cases, arcs, costs, actual source-balance treatment, code and unit/cost clarifications before full reproduction. External retrieval remains paused pending the requested Chrome connection."
 }

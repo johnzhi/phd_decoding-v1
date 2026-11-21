@@ -1,6 +1,7 @@
 import csv
 import importlib.util
 import json
+import math
 from pathlib import Path
 import unittest
 
@@ -18,6 +19,9 @@ spec.loader.exec_module(diagnostics)
 zhang_spec = importlib.util.spec_from_file_location('reproduce_zhang_lau_aquifers', ROOT / 'scripts/reproduce_zhang_lau_aquifers.py')
 zhang = importlib.util.module_from_spec(zhang_spec)
 zhang_spec.loader.exec_module(zhang)
+simccs_spec = importlib.util.spec_from_file_location('audit_simccs_components', ROOT / 'scripts/audit_simccs_components.py')
+simccs = importlib.util.module_from_spec(simccs_spec)
+simccs_spec.loader.exec_module(simccs)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -68,7 +72,43 @@ class ComprehensiveAuditChecks(unittest.TestCase):
         self.assertEqual(refs['R55']['retained_candidate'], 'B4-08')
         self.assertIn('different title/year/DOI', refs['R14']['related_but_not_substituted'])
         self.assertEqual(refs['R55']['verification_status'], 'primary_text_checked_partial_support_resource_not_annual_service')
-        self.assertTrue(all(r['verification_status'] == 'unverified' for k,r in refs.items() if k != 'R55'))
+        self.assertEqual(refs['R31']['verification_status'], 'primary_text_checked_support_with_case_cost_and_time_limits')
+        self.assertTrue(all(r['verification_status'] == 'unverified' for k,r in refs.items() if k not in {'R31','R55'}))
+
+    def test_simccs_pressure_interfaces_match_independent_SI_derivation(self):
+        data = simccs.load_inputs()
+        sample = data['analyst_unit_example']
+        rho, mu = simccs.properties(data, 340, 25)
+        self.assertAlmostEqual(rho, 748.2)
+        self.assertAlmostEqual(mu, .0637)
+        velocity = sample['mass_kg_s']/(rho*math.pi*sample['pipe_diameter_m']**2/4)
+        darcy_pa = data['published_constants']['friction_factor']*rho*velocity**2*(sample['pipe_length_km']*1000)/(2*sample['pipe_diameter_m'])
+        literal = simccs.pressure_drop_literal(data, sample['mass_kg_s'], rho, sample['pipe_length_km'], sample['pipe_diameter_m'])
+        self.assertAlmostEqual(literal, darcy_pa)
+        checks = {r['item']:r for r in simccs.diagnostics(data)}
+        self.assertAlmostEqual(float(checks['Eq16_literal_numeric_output']['value'])/float(checks['Eq16_SI_pressure_expressed_MPa']['value']), 1e6)
+        self.assertAlmostEqual(float(checks['Eq18_SI_head_expressed_MPa']['value']), 7.339842)
+
+    def test_simccs_radial_units_convert_millipascal_to_megapascal(self):
+        data = simccs.load_inputs()
+        rho, mu_mPa = simccs.properties(data, 340, 25)
+        # Independent Pa-based expression must agree with the printed MPa-based one.
+        expected = 2*math.pi*100/7.5*1e-13*rho/(mu_mPa*1e-3)*(5*1e6)
+        actual = simccs.radial_mass_kg_s(data, 100, 1e-13, rho, mu_mPa, 5)
+        self.assertAlmostEqual(actual, expected)
+        unconverted = 2*math.pi*100/7.5*1e-13*rho/mu_mPa*5
+        self.assertTrue(math.isclose(actual/unconverted, 1e9, rel_tol=1e-12))
+
+    def test_simccs_equation_reading_is_not_original_case_or_citation_completion(self):
+        review = json.loads((ROOT / 'evidence/comprehensive_review/B3-44.json').read_text())
+        self.assertEqual(review['text_read_pages'], list(range(1,10)))
+        self.assertEqual(review['visually_inspected_pages'], list(range(1,10)))
+        self.assertEqual([e['id'] for e in review['equations']], [f'E{i:02}' for i in range(1,24)]+['D01'])
+        self.assertEqual(len(review['visuals']),7)
+        self.assertEqual(len(review['references']),28)
+        self.assertEqual(review['overall_status'],'incomplete')
+        self.assertTrue(all(e['verification_status']=='unverified' for e in review['references']))
+        self.assertIn('HOLD_MASS_BALANCE_INDEX',{e['status'] for e in review['issues']})
 
     def test_aquifer_component_reproduction_handles_units_and_net_thickness_once(self):
         data = zhang.load_inputs()
