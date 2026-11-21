@@ -25,6 +25,10 @@ These are separate dimensions. A paper is not comprehensively complete because e
 
 - [B3-44](simccs_comprehensive_findings.md): all nine pages, six figures, Table1, 23 numbered equations, the radial derivation and28 references inspected. Printed property/well-cost functions and21 unit/aggregation diagnostics are implemented; no California GIS/MILP or well iteration is independently reproduced. The paper explicitly uses simultaneous infrastructure, lifetime stocks and artificially reduced pipeline costs. Pressure-unit and printed-index questions remain on hold.
 
+- [B1-01](occs_comprehensive_findings.md): all15 pages,9figures,11tables,14numbered equations and65references read/inspected. Independent checks preserve the per-avoided duty basis and unusual printed fixed-OPEX convention. An analytical counterexample shows that noncrossing marginal CDFs alone do not prove zero paired rank inversion; the author simulations remain unverified. Missing supplement, utility/hazard/weight inputs and original models remain open.
+
+- [B1-01](occs_comprehensive_findings.md): all 15 pages, nine figures, 11 tables, 14 numbered equations and 65 references inspected. Printed cost identities, avoided-mass unit conversions and necessary cold-duty bounds are checked. An analytical counterexample shows that noncrossing marginal CDFs alone do not prove zero paired ranking reversals. The supplement, complete process/hazard/weighting data and original Monte Carlo models remain unverified. Operational GWI is not a complete lifecycle inventory.
+
 Three citation edges have now been checked against retained originals. B4-05's Ooi2013 citation supports temporal planning, but its MILP attribution conflicts with B3-11's graphical/algebraic method. B4-06's Zhang/Lau2022 citation supports regional resource provenance and limited properties, with pressure/time-dependent service still absent. B4-06’s SimCCS citation supports the static MILP mechanism, with artificial-cost and atemporal-case limits. The other underlying sources, including B3-11's own 25 and B4-08's 232 references, remain unverified under this expanded standard. No supplement absence on the public web is inferred from a local PDF having no embedded files. The CSCA and aquifer-resource accounting components are independently reproduced; no complete author optimiser, pressure-constrained reservoir or detailed valid allocation is claimed reproduced.
 
 ## Provenance, outputs and continuation
@@ -38,9 +42,11 @@ python paper1/scripts/reproduce_ooi_cascade.py
 python paper1/scripts/audit_budiarto_fulltext.py
 python paper1/scripts/reproduce_zhang_lau_aquifers.py
 python paper1/scripts/audit_simccs_components.py
+python paper1/scripts/audit_occ_sustainability.py
+python paper1/scripts/audit_occ_sustainability.py
 python -m unittest discover -s paper1/tests -v
 ```
 
 Diagnostic calculations preserve printed quantities and explicit calendars/bases. They do not feed the operating/GHG model. Unsupported inputs remain excluded; original PDFs, targeted-review catalogue and existing Paper1 numerical outputs are preserved.
 
-External retrieval remains paused under the user's explicit request to wait for a Chrome connection. Local reading and calculations can continue. Verification of missing cited originals, public supplements, errata and author code remains pending until permitted access is available. B4-08 and B3-44 retained primary checks are recorded with limits; B1-01 is next in the local queue.
+External retrieval remains paused under the user's explicit request to wait for a Chrome connection. Local reading and calculations can continue. Verification of missing cited originals, public supplements, errata and author code remains pending until permitted access is available. B4-08 and B3-44 retained primary checks are recorded with limits; B1-01 is recorded with explicit limits; B1-03 is next in the local queue.

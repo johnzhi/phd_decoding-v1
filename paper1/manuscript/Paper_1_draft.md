@@ -69,6 +69,8 @@ The thermal benchmark compares the same seal under isothermal conditions and est
 
 Conditioning comparisons use four electricity requirements from the same source table: pure feed and pressurised inland feed, each at 7 and 15 barg. Differences are calculated within each feed case; pure-to-inland ratios are descriptive comparisons of different inlet conditions [B3-38, p7 Table 3]. No electricity emission factor is applied to this within-feed conditioning benchmark because its actual regional/year supply is unselected; the separate reference-inventory scenarios do not establish that supply.
 
+The [onboard-capture audit](../docs/occs_comprehensive_findings.md) identifies another denominator limit. Zanobetti et al. report thermal/electric duties per kg CO2 **avoided**, within a 36 MW LNG cruise-ship design using recovered exhaust heat and LNG cold energy [B1-01, pp6–9, Tables7–8]. These duties are not adopted per kg captured or as available utilities on a bulk CO2 carrier. Their operational GWI and weighted sustainability indices do not supply a complete capture-to-geological-retention inventory. Missing supplementary process, hazard and weighting inputs also prevent full author-model reproduction.
+
 Buffer ratios divide the reported buffer by the 5,000 t ship capacity. The 99% and 100% transport-completion cases are kept separate. The paper's use of average-cycle captured mass as another denominator is not relabelled as ship capacity [B2-08, pp7–8].
 
 For the BOG benchmark, annual purge-plus-auxiliary-generation CO₂ from Table 6 is divided by transported mass from Table A6 for the same process and impurity case. Emissions are in t/y and mass in thousands of t/y; the resulting numerical ratio is kgCO₂/t transported. These are partial-process CO₂ intensities. They are neither full lifecycle CO₂e factors nor fractions of cargo necessarily lost to atmosphere [B1-19, pp7,13].
@@ -573,6 +575,8 @@ For the fixed published storage ratio, Equation (4) yields **72.74 kgCO₂e/t st
 # References
 
 The following references are cited by stable source ID. Full supplied-library titles, identifiers, original filenames and file hashes are in `data/source_catalogue.csv`; complete digests and reading stages are in `docs/evidence_digest.md`. Physical pages cited above refer to the retained PDFs.
+
+- **[B1-01]** Zanobetti et al. (2024). Onboard carbon capture and storage (OCCS) for fossil fuel-based shipping A sustainability assessment. [10.1016/j.jclepro.2024.143343](https://doi.org/10.1016/j.jclepro.2024.143343). [Retained PDF](../papers/B1-01.pdf).
 
 - **[B1-07]** Kukuu et al. (2025). Leveraging Oil and Gas Legacy for Advanced CCS in Japan Realistic CO2 Storage Simulation in the Higashi-Niigata Gas Field. [10.2118/225812-MS](https://doi.org/10.2118/225812-MS). [Retained PDF](../papers/B1-07.pdf).
 

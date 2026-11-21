@@ -1,0 +1,17 @@
+item,value,unit,source_locator,interpretation,scope
+annuity_present_value_factor,10.674776188588583,years,Eqs2/8 p4; Table2,Ordinary annual cash-flow factor using the printed8%/25years.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+capital_recovery_factor,0.0936787790519681,year^-1,Eq8 p4,Reciprocal of the Eq2 present-value factor.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+CAPEX_divided_by_TEC,2.8642499999999997,ratio,Eqs3–7 p4,Printed cost multipliers; equipment costs and VOPEX absent.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+annual_FOPEX_divided_by_CAPEX,0.002810363371559043,year^-1,Eq8 p4,"Literal0.03×annualisedCAPEX, not an assumed0.03×CAPEX annual cost.",component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+PV_FOPEX_divided_by_CAPEX,0.03,ratio,Eqs2/8 p4,Exactly0.03 algebraically; unusual convention preserved without an author-code correction.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+NPC_without_VOPEX_divided_by_CAPEX,1.03,ratio,Eqs2/8 p4,Only the printed fixed-cost component; not either full process NPC.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+one_kW_annual_direct_CO2,2.5870319999999998,t/year per kW,Eq11/Table3 p4; schedule p6,Explicit kW×h×kg/kWh→t/year interface. Raw EF×kW alone iskg/hour.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+nominal_voyage_equivalents,26.1,equivalents/year,Case p6,"Accounting ratio, not observed annual availability or a discrete voyage schedule.",component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+AS_cold_duty_to_available,1.0,ratio,Table8 p9; p7 LNG duty,Necessary total-duty test only. Passing does not reproduce a heat-exchanger pinch profile.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+A3C_cold_duty_to_available,0.71875,ratio,Table8 p9; p7 LNG duty,Necessary total-duty test only. Passing does not reproduce a heat-exchanger pinch profile.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+MS_cold_duty_to_available,9.296875,ratio,Table8 p9; p7 LNG duty,Necessary total-duty test only. Passing does not reproduce a heat-exchanger pinch profile.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+PSA_cold_duty_to_available,6.421875,ratio,Table8 p9; p7 LNG duty,Necessary total-duty test only. Passing does not reproduce a heat-exchanger pinch profile.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+AS_electric_kWh_per_t_avoided,263.88888888888886,kWh/t AVOIDED,Table7 p8,Unit conversion only. Never relabelled per captured tonne or transferred into accepted inventory.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+A3C_electric_kWh_per_t_avoided,550.0,kWh/t AVOIDED,Table7 p8,Unit conversion only. Never relabelled per captured tonne or transferred into accepted inventory.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+Table9_IN_AS_to_A3C_ratio,2.5,ratio,Table9 p10,Reconstructs reported2.5×individualist OSI; does not reproduce missing weighting inputs.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model
+analyst_CDF_counterexample_P_A_exceeds_B,0.28125,probability in analyst example ONLY,"Method inference discussed p12; analyst U[0,.8]/U[.2,1]",Noncrossing marginalCDFs permit positive paired inversion. Not an estimated author-case probability; raw paired SF traces needed.,component_or_method_diagnostic_not_original_Aspen_hazard_or_MC_model

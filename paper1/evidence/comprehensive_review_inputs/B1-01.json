@@ -1,0 +1,36 @@
+{
+  "study_id": "B1-01",
+  "source_sha256": "170a6a07266e26332e4cb590555b5cae1d31120474540704292048006db6509a",
+  "transcription": "Main PDF physical pp4–10, Eqs2–14 and Tables2/7/8/9; visually checked. The separate supplementary material is not retained or verified.",
+  "discount_fraction": 0.08,
+  "economic_life_years": 25,
+  "capex_to_FCI_divisor": 0.8,
+  "TIPC_to_TDPC": 0.14,
+  "TDPC_to_TEC": 2.01,
+  "FOPEX_to_annualised_CAPEX": 0.03,
+  "onboard_electricity_kg_CO2_per_kWh": 0.413,
+  "annual_operating_hours": 6264,
+  "voyage_days": 10,
+  "reference_power_MW": 36,
+  "LNG_cold_available_MW": 1.28,
+  "LNG_vaporisation_temperature_K": [139,293],
+  "minimum_heat_exchange_approach_K": 5,
+  "CO2_reference_storage_pressure_bar_basis_unverified": 22.6,
+  "table7": [
+    {"concept":"AS","separation_bar":1.2,"regeneration_bar":1.8,"capture_percent":95,"avoidance_percent":85.7,"thermal_MJ_per_kg_avoided":3.55,"electric_MJ_per_kg_avoided":0.95},
+    {"concept":"A3C","separation_bar":1.0,"regeneration_bar":1.0,"capture_percent":95,"avoidance_percent":77.5,"thermal_MJ_per_kg_avoided":12.14,"electric_MJ_per_kg_avoided":1.98},
+    {"concept":"MS","separation_bar":0.95,"separation_pressure_note":"Transmembrane pressure Pfeed−Ppermeate, not absolute separation pressure","regeneration_bar":null,"capture_percent":95,"avoidance_percent":0,"thermal_MJ_per_kg_avoided":null,"electric_MJ_per_kg_avoided":null},
+    {"concept":"PSA","separation_bar":6.0,"regeneration_bar":1.0,"capture_percent":95,"avoidance_percent":0,"thermal_MJ_per_kg_avoided":null,"electric_MJ_per_kg_avoided":null}
+  ],
+  "table8": [
+    {"concept":"AS","liquefaction_K":255.9,"cold_MW":1.28,"author_feasible":true},
+    {"concept":"A3C","liquefaction_K":257.9,"cold_MW":0.92,"author_feasible":true},
+    {"concept":"MS","liquefaction_K":118.8,"cold_MW":11.90,"author_feasible":false},
+    {"concept":"PSA","liquefaction_K":116.0,"cold_MW":8.22,"author_feasible":false}
+  ],
+  "table9_perspective_order": ["IN","EG","HI","EW"],
+  "table9_OSI": {"AS":[0.95,0.80,0.78,0.90],"A3C":[0.38,0.96,0.89,0.73]},
+  "MC_method_as_printed": {"KPI_relative_range":0.20,"KPI_distribution":"uniform; dependence/normalisation details and seed unavailable","KPI_draws":1000000,"weight_draws":1000000,"weight_range":[0,1],"status":"not independently reproduced; supplementary weights, raw KPIs and joint traces missing"},
+  "CDF_counterexample": {"A_uniform_support":[0,0.8],"B_uniform_support":[0.2,1],"joint_assumption":"independent analyst random variables; not author case or estimated OCCS uncertainty","purpose":"Noncrossing marginal CDFs alone do not prove zero paired rank inversion"},
+  "scope":"Printed cost identities, necessary cold-duty tests, units and methodological counterexample only. No Aspen process, hazard, five-system SF or author Monte Carlo reproduction; no complete capture inventory or GHG factor adopted."
+}

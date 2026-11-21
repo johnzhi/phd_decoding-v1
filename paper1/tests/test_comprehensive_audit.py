@@ -22,6 +22,9 @@ zhang_spec.loader.exec_module(zhang)
 simccs_spec = importlib.util.spec_from_file_location('audit_simccs_components', ROOT / 'scripts/audit_simccs_components.py')
 simccs = importlib.util.module_from_spec(simccs_spec)
 simccs_spec.loader.exec_module(simccs)
+occs_spec = importlib.util.spec_from_file_location('audit_occ_sustainability', ROOT / 'scripts/audit_occ_sustainability.py')
+occs = importlib.util.module_from_spec(occs_spec)
+occs_spec.loader.exec_module(occs)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -31,6 +34,51 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_occs_printed_fixed_opex_annuity_cancels_without_repair(self):
+        data = occs.load_inputs()
+        result = {r['item']:r for r in occs.calculate(data)}
+        self.assertAlmostEqual(result['CAPEX_divided_by_TEC']['value'], 2.86425)
+        self.assertAlmostEqual(result['PV_FOPEX_divided_by_CAPEX']['value'], .03)
+        self.assertAlmostEqual(result['NPC_without_VOPEX_divided_by_CAPEX']['value'], 1.03)
+        for rate,years in [(.04,10),(.08,25),(.12,40)]:
+            present,recovery = occs.annuity_factors(rate,years)
+            self.assertAlmostEqual(.03*recovery*present,.03)
+        self.assertLess(result['annual_FOPEX_divided_by_CAPEX']['value'], .003)
+
+    def test_occs_energy_units_preserve_avoided_basis_and_necessary_bounds(self):
+        data = occs.load_inputs()
+        result = {r['item']:r for r in occs.calculate(data)}
+        self.assertAlmostEqual(result['one_kW_annual_direct_CO2']['value'],2.587032)
+        self.assertAlmostEqual(result['AS_electric_kWh_per_t_avoided']['value'],950/3.6)
+        self.assertEqual(result['AS_electric_kWh_per_t_avoided']['unit'],'kWh/t AVOIDED')
+        self.assertEqual(result['AS_cold_duty_to_available']['value'],1)
+        self.assertGreater(result['MS_cold_duty_to_available']['value'],9)
+        self.assertGreater(result['PSA_cold_duty_to_available']['value'],6)
+        self.assertIsNone(data['table7'][2]['electric_MJ_per_kg_avoided'])
+
+    def test_non_crossing_marginal_CDFs_allow_paired_rank_inversion(self):
+        data = occs.load_inputs()
+        first = data['CDF_counterexample']['A_uniform_support']
+        second = data['CDF_counterexample']['B_uniform_support']
+        for i in range(-20,121):
+            x = i/100
+            self.assertGreaterEqual(occs.uniform_cdf(x,*first),occs.uniform_cdf(x,*second)-1e-14)
+        self.assertAlmostEqual(occs.counterexample_inversion_probability(data),9/32)
+        # A>.6 and B<.4 is a positive-probability inversion subset under independence.
+        self.assertGreater((1-occs.uniform_cdf(.6,*first))*occs.uniform_cdf(.4,*second),0)
+        self.assertIn('not author case',data['CDF_counterexample']['joint_assumption'])
+
+    def test_occs_main_reading_does_not_close_missing_supplement_or_models(self):
+        review = json.loads((ROOT/'evidence/comprehensive_review/B1-01.json').read_text())
+        self.assertEqual(review['text_read_pages'],list(range(1,16)))
+        self.assertEqual(review['visually_inspected_pages'],list(range(1,16)))
+        self.assertEqual(len(review['visuals']),20)
+        self.assertEqual([e['id'] for e in review['equations']],[f'E{i:02}' for i in range(1,15)]+['U01','U02'])
+        self.assertEqual(len(review['references']),65)
+        self.assertTrue(all(e['verification_status']=='unverified' for e in review['references']))
+        self.assertIn('not_retained',review['supplement_status'])
+        self.assertEqual(review['overall_status'],'incomplete')
+
     def test_retained_supplement_coverage_keeps_derivative_pages_and_blanks_separate(self):
         review = json.loads((ROOT / 'evidence/comprehensive_review/B4-06.json').read_text())
         self.assertEqual(review['text_read_pages'], list(range(1,21)))
