@@ -1,0 +1,296 @@
+{
+  "study_id": "B1-15",
+  "source_path": "papers/B1-15.pdf",
+  "source_sha256": "4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324",
+  "physical_pages": 10,
+  "doi": "10.1016/j.egypro.2015.07.883",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "scope": "Printed phase-law/Kozeny-Carman component evaluation and limited source arithmetic only. Native ECLIPSE/DuMux/iTOUGH2 models and underlying originals remain unverified.",
+  "setup": {
+    "salt_mass_fraction_per_brine": 0.2,
+    "pore_compressibility_per_Pa": 7.2e-10,
+    "Kv_over_Kh": 0.3333333333333333,
+    "reference_depth_m": 639.5,
+    "initial_pressure_bar": 62,
+    "pressure_basis": null,
+    "pressure_gradient_literal_Pa_m": 1.14,
+    "pressure_gradient_status": "HOLD_literal_printed_value_no_correction",
+    "corrected_pressure_gradient": null,
+    "initial_temperature_C": 34,
+    "temperature_gradient_C_m": 0.03,
+    "BC_lambda": 1.011613,
+    "entry_pressure_Pa": 10952.87,
+    "Swr": 0.15,
+    "Snr": 0.05,
+    "krw_eq": 1,
+    "krn_eq": 0.85,
+    "nw": 5.5,
+    "nCO2": 1.25
+  },
+  "phase_law_note": "Eq1 water denominator1−Swr differs from gas denominator1−Snr−Swr. Wet relation is real on Swr<=Sw<=1; gas jointly requires Swr<=Sw<=1−Snr for the reported fractional powers. Native endpoint clipping/hysteresis and the explicit capillary-pressure law are not printed. Keep literal denominators; no inferred correction.",
+  "geometry": {
+    "formation_thickness_m": 74,
+    "geological_zone_thickness_m": [
+      24,
+      12,
+      36
+    ],
+    "geological_vertical_steps_m": [
+      0.5,
+      1,
+      3
+    ],
+    "geological_horizontal_m": [
+      5,
+      5
+    ],
+    "top_bottom": "no-flow",
+    "lateral": "hydrostatic initial/lateral conditions; printed gradient onHOLD",
+    "full_grid_and_phi_k": null
+  },
+  "EOS_multipliers": {
+    "near_Span_Wagner": [
+      0.25,
+      0.05,
+      0.05
+    ],
+    "near_Peneloux": [
+      0.34,
+      0.07,
+      0.07
+    ],
+    "far_both": [
+      0.38,
+      0.1,
+      0.1
+    ],
+    "density_difference_claim_max_percent": 5,
+    "original_tensor_basis": null
+  },
+  "approachI_arrivals": [
+    {
+      "well": "Ktzi200",
+      "phase": "dissolved",
+      "observed_days": null,
+      "observed_token": "-",
+      "Span_Wagner_days": 10,
+      "Peneloux_days": 11,
+      "Span_deviation_percent": null,
+      "Peneloux_deviation_percent": null
+    },
+    {
+      "well": "Ktzi200",
+      "phase": "gaseous",
+      "observed_days": 21.7,
+      "Span_Wagner_days": 18.9,
+      "Peneloux_days": 20.3,
+      "Span_deviation_percent": 12.9,
+      "Peneloux_deviation_percent": 6.4
+    },
+    {
+      "well": "Ktzi202",
+      "phase": "dissolved",
+      "observed_days": null,
+      "observed_token": "-",
+      "Span_Wagner_days": 243,
+      "Peneloux_days": 225,
+      "Span_deviation_percent": null,
+      "Peneloux_deviation_percent": null
+    },
+    {
+      "well": "Ktzi202",
+      "phase": "gaseous",
+      "observed_days": 271,
+      "Span_Wagner_days": 272,
+      "Peneloux_days": 256,
+      "Span_deviation_percent": 0.4,
+      "Peneloux_deviation_percent": 5.5
+    }
+  ],
+  "approachII_cases": [
+    {
+      "case": 1,
+      "MK": 0.1067,
+      "Mphi": 0.7048,
+      "nCO2": 1.5376,
+      "nw": 5.5,
+      "nw_basis": "unchanged Table1; only CO2 exponent varied in cases1/2",
+      "Mphi_lower_bound": 0.7,
+      "arrival200_days": 24.98,
+      "arrival202_days": 317.47
+    },
+    {
+      "case": 2,
+      "MK": 0.1226,
+      "Mphi": 0.6,
+      "nCO2": 1.1497,
+      "nw": 5.5,
+      "nw_basis": "unchanged Table1",
+      "Mphi_lower_bound": 0.6,
+      "arrival200_days": 21.71,
+      "arrival202_days": 216.6
+    },
+    {
+      "case": 3,
+      "MK": 0.1388,
+      "Mphi": 0.5555,
+      "nCO2": 1.3403,
+      "nw": 9.46,
+      "nw_basis": "explicit Table4 parameter2",
+      "Mphi_lower_bound": 0.2,
+      "arrival200_days": 21.81,
+      "arrival202_days": 210.16
+    }
+  ],
+  "Kozeny_Carman": {
+    "reference_phi": 0.2,
+    "source_locator": "p6 inline formula",
+    "relation": "MK=(Mphi*phi0)^3*(1−phi0)^2/(phi0^3*(1−Mphi*phi0)^2)"
+  },
+  "calibration": {
+    "approachII_time_days": [
+      17,
+      50
+    ],
+    "pressure_points": 11,
+    "arrival_step_values": [
+      0,
+      1
+    ],
+    "pressure_sigma_Pa": 10000.0,
+    "arrival_step_sigma_cases12": 0.02,
+    "arrival_step_sigma_case3": 0.05,
+    "arrival_sigma_note": "Standard deviation of binary arrival step residual,not stated days; covariance/weight implementation unavailable",
+    "case3_sensitivities": {
+      "Mphi_including_MK": 218.4,
+      "nCO2": 34.3,
+      "nw": 10.8
+    },
+    "initial_dataset_cutoff": "late2012 for ApproachII",
+    "arrival_GMS_depth_m": 150
+  },
+  "farfield_cases": [
+    {
+      "case": "2a-farfield1",
+      "nearfield_m": [
+        1000,
+        900
+      ],
+      "barrier_thickness_m": null,
+      "arrival200_days": 21.12,
+      "arrival202_days": 208.52
+    },
+    {
+      "case": "2a-farfield1-b1",
+      "nearfield_m": [
+        1000,
+        900
+      ],
+      "barrier_thickness_m": 5,
+      "arrival200_days": 21.51,
+      "arrival202_days": 254.28
+    },
+    {
+      "case": "2b-farfield2-b2",
+      "nearfield_m": [
+        1200,
+        1100
+      ],
+      "nearfield_basis": "Analyst interpretation of100m enlargement in every direction; native mask unavailable",
+      "barrier_thickness_m": 6,
+      "arrival200_days": 21.45,
+      "arrival202_days": 264.47
+    }
+  ],
+  "nearfield": {
+    "centre_m": [
+      3242.7,
+      2803.7
+    ],
+    "base_dimensions_m": [
+      1000,
+      900
+    ],
+    "enlargement_each_direction_m": 100,
+    "barrier_length_m": 150,
+    "barrier_width_m": 20,
+    "barrier_well_pair": [
+      "Ktzi201",
+      "Ktzi202"
+    ],
+    "barrier_permeability": null,
+    "barrier_aliases": [
+      "2a-b1",
+      "2b-b2",
+      "D-2b-b2",
+      "2a-farfield1-b1",
+      "2b-farfield2-b2"
+    ]
+  },
+  "calendar": {
+    "start": "2008-06-24",
+    "calibration_end": "2011-12-31",
+    "forecast_end_as_printed": "2014-05-26",
+    "reported_calibration_days": 1286,
+    "reported_additional_forecast_days": 908,
+    "reported_final_day": 2193,
+    "shutdown_days": [
+      1424,
+      1660
+    ],
+    "shutdown_prose_approx_months": 7,
+    "shutdown_figure5_label_months": 6,
+    "second_shutdown_days": [
+      1764,
+      1793
+    ],
+    "cold_injection_start_day": 1680,
+    "cooling_K_week": 5
+  },
+  "source_result_claims": {
+    "early_max_pressure_error_bar": 2.5,
+    "early_max_pressure_error_percent": 3.2,
+    "calibration_later_pressure_error_percent_lt": 1,
+    "shutdown_pressure_error_percent_lt": 0.05,
+    "cold_injection_pressure_error_percent_approx": 1,
+    "second_shutdown_pressure_error_percent_lt": 0.3,
+    "case1_divergence_days_approx": 180,
+    "case2_goodmatch_days_approx": 380,
+    "water_kr_importance_after_days_approx": 150,
+    "observation202_pressure_window_days": [
+      600,
+      1200
+    ],
+    "observation202_max_pressure_error_bar_approx": 1,
+    "geological_farfield_offset_m": [
+      10,
+      20
+    ],
+    "injected_mass_t_approx": 67000
+  },
+  "missing": {
+    "native_geological_phi_tensor_and_mesh": null,
+    "exact_grid_mapping_and_boundaries": null,
+    "corrected_hydrostatic_gradient": null,
+    "raw_rate_pressure_arrival_histories": null,
+    "native_EOS_PVT_solubility_tables": null,
+    "unpublished_core_and_pc_hysteresis_clipping": null,
+    "iTOUGH2_case_files_weights_covariance": null,
+    "nearfield_and_barrier_masks_permeability": null,
+    "full_solver_version_convergence_and_licenses": null,
+    "independent_plume_validation_and_uncertainty": null,
+    "maximum_safe_annual_mass_service": null,
+    "retained_carbon_and_full_inventory": null,
+    "external_supplement_code_errata_status": null
+  },
+  "analyst_examples": {
+    "Sw_grid_count": 81,
+    "common_Sw": [
+      0.15,
+      0.95
+    ],
+    "gradient_test_depth_m": 20,
+    "gravity_m_s2": 9.80665,
+    "compressibility_delta_pressure_Pa": 1000000.0
+  }
+}

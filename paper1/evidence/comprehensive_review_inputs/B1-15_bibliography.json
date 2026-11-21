@@ -1,0 +1,376 @@
+{
+  "study_id": "B1-15",
+  "source_sha256": "4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324",
+  "printed_entries": 27,
+  "named_dependencies": 8,
+  "entry_count": 35,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        10
+      ],
+      "citation": "S. Martens, T. Kempka, A. Liebscher, S. L¨uth, F. M¨oller, A. Myrttinen, B. Norden, C. Schmidt-Hattenberger, M. Zimmer, M. K¨uhn, Europes longest-operating on-shore CO2 storage site at Ketzin, Germany: a progress report after three years of injection, Environmental Earth Sciences 67 (2012) 323–334.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1–2: injection history/site context. Native operational totals and original monitoring/retention scope unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        10
+      ],
+      "citation": "A. F¨orster, B. Norden, K. Zinck-Jorgensen, P. Frykman, J. Kulenkampﬀ, E. Spangenberg, J. Erzinger, M. Zimmer, J. Kopp, G. Borm, C. Juhlin, C.-G. Cosma, S. Hurter, Baseline characterization of the CO2SINK geological storage site at Ketzin, Germany, Environmantal Geosciences 13 (2006) 145–161.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: heterogeneous Stuttgart geology. Exact baseline original and prior-model uncertainty unverified; not the distinct2010 reference12."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        10
+      ],
+      "citation": "C. Juhlin, R. Giese, K. Zinck-Jorgensen, C. Cosma, H. Kazemeini, N. Juhojuntti, S. L¨uth, B. Norden, A. F¨orster, 3D baseline seismics at Ketzin, Germany: the CO2SINK project, Geophysics 72 (2007) 121–132.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: seismic survey evidence used for geological prior. Raw data/model mapping unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        10
+      ],
+      "citation": "B. Norden, A. F¨orster, D. Vu-Hoang, F. Marcelis, N. Springer, I. Le Nir, Lithological and petrophysical core-log interpretation in CO2SINK, the European CO2 onshore research storage and veriﬁcation project., SPE Reservoir Evaluation & Engineering 13 (2) (2010) 179–192.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1–2: core/log and porosity/permeability construction. Original measurements,variograms and scale-up unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        10
+      ],
+      "citation": "B. Wiese, B. J., C. Enachescu, H. W¨urdemann, G. Zimmermann, Hydraulic characterisation of the Stuttgart formation at the pilot test site for CO2 storage, Ketzin, Germany, International Journal of Greenhouse Gas Control 4 (2010) 960–971.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1,4: pumping tests and good hydraulic communication used to motivate phase barrier. Exact raw histories/QA unverified. The different200–201 logger/barrier discussion in later B1-14 must not be conflated with this201–202 inserted barrier."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        10
+      ],
+      "citation": "E. Makhlouf, M. Chen, W. Wasserman, J. Seinfeld, A general history matching algorithm for three-phase, three-dimensional petroleum reser- voirs, SPE Adv. Technol. 1(2) (1993) 83–91.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: general history-matching algorithm background. Original mathematical method unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        10
+      ],
+      "citation": "M. Williams, J. Keating, M. Barghouty, The stratigraphic method: a structured approach to history-matching complex simulation models, SPE Reserv.Evalu.Eng. 1(2) (1998) 169–176.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: iterative geological history matching. Exact original method/scope unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        10
+      ],
+      "citation": "S. Oladyshkin, H. Class, W. Nowak, Bayesian updating via bootstrap ﬁltering combined with data-driven polynomial chaos expansions: methodology and application to history matching for carbon dioxide storage in geological formations, Computational Geosciences 17 (2013) 671–687.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: Bayesian/bootstrap/poly-chaos alternative. This paper does not implement a quantified uncertainty posterior; original method unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        10
+      ],
+      "citation": "Schlumberger, Eclipse reservoir engineering software version 2009.2 (2009).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: ECLIPSE2009.2 software. Exact implementation,black-oil adaptation,native decks and licence/version unavailable."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        10
+      ],
+      "citation": "B. Flemisch, M. Darcis, K. Erbertseder, B. Faigle, A. Lauser, K. Mosthaf, S. M¨uthing, P. Nuske, A. Tatomir, M. Wolﬀ, R. Helmig, DuMux: DUNE for multi-phase, component, scale, physics, ... ﬂow and transport in porous media, Advances in Water Resources 34 (9) (2011) 1102– 1112. doi:DOI: 10.1016/j.advwatres.2011.03.007.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: DuMux software/GPL capabilities. Generic code availability is not the exact source case,version or native reproduction. Original description unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        10
+      ],
+      "citation": "H. Class, A. Ebigbo, R. Helmig, H. Dahle, J. Nordbotten, M. Celia, P. Audigane, M. Darcis, J. Ennis-King, F. Yaqing, B. Flemisch, S. Gasda, M. Jin, S. Krug, D. Lagregere, A. Naderi, R. Pawar, A. Sbai, S. Thomas, L. Trenty, L. Wei, A benchmark-study on problems related to CO2 storage in geologic formations - summary and discussion of the results, Computational Geosciences 13 (2009) 409–434.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: code benchmark/modeler/geology influence. Exact original cases and relative-error conclusions unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        10
+      ],
+      "citation": "A. F¨orster, R. Sch¨oner, H.-J. F¨orster, B. Norden, A.-W. Blaschke, J. Luckert, G. Beutler, R. Gaupp, D. Rhede, eservoir characterization of a CO2 storage aquifer: The Upper Triassic Stuttgart Formation in the Northeast German Basin, Marine and Petroleum Geology 27(10) (2010) 2156–2172.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: geological and mineralogical description. Exact2010 original and source-to-grid mapping unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        10
+      ],
+      "citation": "B. Norden, P. Frykman, Geological modelling of the Triassic Stuttgart Formation at Ketzin, Germany, International Journal of Greenhouse Gas Control 19 (2013) 756–774.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: geological model,poro-perm/cokriging. Native fields and reference-model version unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        10
+      ],
+      "citation": "T. Kempka, H. Class, U. G¨orke, B. Norden, O. Kolditz, M. K¨uhn, L. Walter, W. Wang, B. Zehner, A dynamic ﬂow simulation code intercom- parison based on the revised static model of the ketzin pilot side, Energy Procedia 40 (2013) 418–427.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4: revised model and tetrahedral previous results. Exact mesh/comparison/version unverified; no native case supplied here."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        10
+      ],
+      "citation": "P. Bastian, M. Blatt, A. Dedner, C. Engwer, R. Kl¨ofkorn, R. Kornhuber, M. Ohlberger, O. Sander, A generic grid interface for adaptive and parallel scientiﬁc computing., Computing 82 (2008) 103–119.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: DUNE grid interfaces. Original numerical framework and source case unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        10
+      ],
+      "citation": "B. Prevedel, L. Wohlgemuth, B. Legarth, J. Henninges, H. Sch¨utt, C. Schmitt-Hattenberger, et al., The CO2SINK boreholes for geological CO2 storage testing, Energy Procedia 1 (2009) 2087–2094.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: well completion affects arrival. Original completion/annulus/filter details unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        10
+      ],
+      "citation": "M. Zimmer, J. Erzinger, C. Kujawa, C. Group, The gas membrane sensor (GMS): A new method for gas measurements in deep boreholes applied at the CO2SINK site, Intl. Journal of Greenhouse Gas Control 5 (2011) 995–1001.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: GMS150m below ground and detection delay. Sensor original/data and quantitative delay unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        10
+      ],
+      "citation": "F. Schilling, G. Borm, H. W¨urdemann, F. M¨oller, M. K¨uhn, C. Group, Status Report on the First European on-shore CO2 Storage Site at Ketzin (Germany), Energy Procedia 1 (2009) 2029–2035.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: observed gas arrival values and uncertainty. Original operational observations unverified; the same values are used in multiple papers,not independent validation."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        10
+      ],
+      "citation": "H. W¨urdemann, F. M¨oller, M. K¨uhn, W. Heidug, N. Christensen, G. Borm, F. Schilling, the CO2SINK Group, CO2SINK from site charac- terisation and risk assessment to monitoring and veriﬁcation: One year of operational experience with the ﬁeld laboratory for CO2 storage at Ketzin, International Journal of Greenhouse Gas Control 4( 6) (2010) 938–951.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: arrival/operation/risk monitoring. Original field data and uncertainty unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        10
+      ],
+      "citation": "T. Kempka, M. K¨uhn, Numerical simulations of CO2 arrival times and reservoir pressure coincide with observations from the Ketzin pilot site, Germany., Environmental Earth Sciences Special Issue (2013) 1–11. doi:10.1007/s12665-013-2614-6.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3–5,7: manual near/far tensor calibration and earlierEOS. Exact model/history/parameterisation unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        10
+      ],
+      "citation": "T. Kempka, M. K¨uhn, H. Class, P. Frykman, A. Kopp, C. Nielsen, P. Probst, Modelling of CO2 arrival time at Ketzin - Part I, International Journal of Greenhouse Gas Control 4 (2010) 1007–1015.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3–4: arrival modelling,anisotropy/skin sensitivity and prior cases. Exact original and native grid/input support unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        10
+      ],
+      "citation": "R. Span, W. Wagner, A New Equation of State for Carbon Dioxide Covering the Fluid Region from the Triple–Point Temperature to 1100 K at Pressures up to 800 MPa, J. Phys. Chem. Ref. Data 25(6) (1996) 1509–1596.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3,5: Span-Wagner density/viscosity use versus Peneloux. Original EOS validity/viscosity attribution and this case PVT implementation unverified. Existing library property calls do not certify this reference."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        10
+      ],
+      "citation": "A. Peneloux, E. Rauzy, R. Freze, A consistent correction for RedlichKwongSoave volumes, Fluid Phase Equilib. 8 (1982) 7–23.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3,5: previous Peneloux volume correction. Exact original formulation/composition and claim up-to5%density difference unverified; no direct phase-data comparison reproduced."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        10
+      ],
+      "citation": "S. Finsterle, iTOUGH2 Sample Problems, Tech. rep., Lawrence Berkely National Laboratory, University of California (1999).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3–4,6: iTOUGH2 inverse/sample methods and overparameterisation claim. Exact original algorithm,weighting/likelihood and native case unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        10
+      ],
+      "citation": "S. Martens, A. Liebscher, F. M¨oller, J. Henninges, T. Kempka, S. L¨uth, B. Norden, B. Prevedel, A. Szizybalski, M. Zimmer, M. K¨uhn, CO2 storage at the ketzin pilot site, germany: Fourth year of injection, monitoring, modelling and veriﬁcation., Energy Procedia 37 (2013) 6434–6443.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p5: injection rate meter/operational context. Raw rates and tank correction not retained."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        10
+      ],
+      "citation": "F. M¨oller, A. Liebscher, S. Martens, C. Schmidt-Hattenberger, M. K¨uhn, Yearly operational datasets of the CO2 storage pilot site ketzin, germany., Tech. rep., Geoforschungszentrum Potsdam, Scientiﬁc technical report: data 12/06 (pii0.2312/GFZ.b103-12066, online only) (2012).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p5: yearly operational datasets/tank fill correction. Bibliographic identifier is preserved as printed; original dataset/version/quality and rights unverified during external retrieval pause."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        10
+      ],
+      "citation": "A. Scheidegger, The physics of ﬂow through porous media, Macmillian Co., New York, U.S.A., 1960.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p6: Kozeny-Carman basis. Inline relation can be evaluated from reported inputs; original book derivation,assumptions and application to heterogeneous model unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        1,
+        2,
+        4
+      ],
+      "citation": "Native geological model,facies,porosity/tensors and mapping",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Geostatistical arrays,interpolation/coarsening,grid coordinates/active cells and dynamic mesh versions unavailable.74m formation versus72m described zones need mapping,not forced equality."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "citation": "Full ECLIPSE/DuMux/iTOUGH2 cases and software rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native decks,exact PVT/SCAL,solubility/BC setup,phase function clipping/hysteresis,parameter bounds,weights,covariance,optimiser/solver convergence and version/license correspondence unavailable."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        4
+      ],
+      "citation": "Unpublished CO2SINK capillary/relative-permeability measurements",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Raw data and explicit pc(Sw) law absent. Eq1 prints two phase kr laws; endpoint treatment must not be silently repaired. Printed1.14Pa/m gradient remainsHOLD."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "citation": "Native operational rate/pressure/arrival and well metadata",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Tank-fill/rate corrections,P/T/pressure basis,550→639.5m display correction,completions/GMS delay and exact calibration/cold/shut-in calendars unavailable."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        7,
+        8
+      ],
+      "citation": "Nearfield and inserted barrier cases",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact masks/coordinates/permeability,case alias mappings and geometry absent. Changes in region and barrier thickness are confounded; inserted201–202 barrier is not direct geological evidence."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Independent predictive validation and uncertainty",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Original pressure/plume arrays,holdout definitions,uncertainty posterior/model ensemble weights and grid/time sensitivity not supplied. Authors explicitly do not quantify uncertainty."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        1,
+        9
+      ],
+      "citation": "Maximum service and retained-carbon/inventory transfer",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No target-sweep,safety pressure ceiling,current commercial allocation,full lifecycle or long-term retained-mass evidence supplied by calibrated histories alone."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        1,
+        10
+      ],
+      "citation": "External supplements,code,errata and rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit supplement/data/code notice identified locally. CC BY-NC-ND article and generic GPL solver do not supply complete native case files; external availability remains unverified during requested Chrome wait."
+    }
+  ]
+}

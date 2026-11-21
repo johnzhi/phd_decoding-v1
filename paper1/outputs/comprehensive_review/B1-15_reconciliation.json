@@ -1,0 +1,33 @@
+{
+  "study_id": "B1-15",
+  "source_sha256": "4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324",
+  "check_count": 102,
+  "phase_curve_rows": 324,
+  "figures": 6,
+  "tables": 4,
+  "numbered_equation_groups": 1,
+  "phase_functions": 2,
+  "components_evaluated": [
+    "literal Eq1 phase relative permeabilities on common real domain",
+    "inline Kozeny-Carman multiplier"
+  ],
+  "native_models_reproduced": false,
+  "underlying_originals_verified": 0,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "native_geological_phi_tensor_and_mesh": null,
+    "exact_grid_mapping_and_boundaries": null,
+    "corrected_hydrostatic_gradient": null,
+    "raw_rate_pressure_arrival_histories": null,
+    "native_EOS_PVT_solubility_tables": null,
+    "unpublished_core_and_pc_hysteresis_clipping": null,
+    "iTOUGH2_case_files_weights_covariance": null,
+    "nearfield_and_barrier_masks_permeability": null,
+    "full_solver_version_convergence_and_licenses": null,
+    "independent_plume_validation_and_uncertainty": null,
+    "maximum_safe_annual_mass_service": null,
+    "retained_carbon_and_full_inventory": null,
+    "external_supplement_code_errata_status": null
+  },
+  "interpretation": "Constitutive evaluation and limited arithmetic only; no native ECLIPSE/DuMux/iTOUGH2 fit, predictive validation, uncertainty posterior, safe annual service, retention or GHG factor."
+}

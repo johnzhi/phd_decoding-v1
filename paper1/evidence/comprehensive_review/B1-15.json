@@ -1,0 +1,934 @@
+{
+  "study_id": "B1-15",
+  "source_sha256": "4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All ten retained pages read and visually inspected, including enlarged equations, figures, tables, captions and legends. Six figures, four tables, two phase functions in numbered Eq1, the inline Kozeny-Carman relation and nine analyst identities are recorded. The printed constitutive components are independently evaluated; native ECLIPSE/DuMux/iTOUGH2 cases remain unreproduced. All 27 printed originals and eight model/data dependencies remain unverified. Pressure-gradient, phase-domain, calendar, geometry and validation limits stay open.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "original_model_status": "printed_relperm_and_Kozeny_Carman_components_evaluated_full_native_ECLIPSE_DuMux_iTOUGH2_models_not_reproduced",
+  "supplement_status": "no_explicit_notice_or_embedded_files_identified_external_assets_and_code_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication and abstract",
+      "assessment": "Class, Mahl, Ahmed, Norden, Kühn and Kempka (2015), Energy Procedia 76:623–632. Title, authors, peer-review statement and CC BY-NC-ND notice inspected. The abstract reports 67 kt injected in 2008–2013 and good fits despite substantial parameter uncertainty. These are not permanent-retention or maximum-service results."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Entire introduction",
+      "assessment": "Entire introduction read, including heterogeneous sand/floodplain geology, monitoring, conventional history matching and probabilistic/benchmark precedents. Page1 repeats Ktzi201 as an observation well; preserve the literal naming. The 21.7-day arrival at 50 m offset is local information. Good matching does not identify a unique property field."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "Static geology and simulators",
+      "assessment": "All geological construction, Gaussian simulation, co-Kriging, poro-perm mapping and mesh descriptions read. The described 24/12/36 m zones total 72 m versus the stated 74 m formation. ECLIPSE black-oil phase adaptation, DuMux/DUNE, BOX versus cell-centred schemes and fully implicit time integration inspected. Native grids, fields and precise case versions remain missing."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3
+      ],
+      "scope": "History-matching principles and sensor caveats",
+      "assessment": "All correlation, coarsening, mesh-mapping and arrival paragraphs inspected. GMS at 150 m depth detects gas after annulus accumulation, filter crossing and upward travel. Several-day detection uncertainty motivates pressure weighting. Observed detection need not be geological first contact; adding fit parameters can worsen identifiability."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        3
+      ],
+      "scope": "ApproachI",
+      "assessment": "All six near/far directional permeability modifiers, EOS retuning and calibration/forecast procedure read. The source gives 1286 calibration days, 908 further days and 26 May2014/day2193; explicit calendar diagnostics preserve the differences. Reported held-forward pressure agreement remains unreproduced without raw history and native cases."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "ApproachII principles and setup",
+      "assessment": "All global phi/k/kr correlations, capillary/skin/anisotropy discussion and hydrostatic/no-flow boundaries inspected. Preserve literal Table1 gradient 1.14 Pa/m on HOLD. Prose names Brooks-Corey capillary pressure, while Eq1 prints relative permeabilities. No explicit pc(Sw), clipping, hysteresis or unpublished measurement data are available."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4
+      ],
+      "scope": "ApproachII calibration workflow",
+      "assessment": "All early inverse, extrapolation, near/far and local-barrier steps read. Eleven pressure points at days17–50 and a binary arrival step are fitted. Only hexahedral finite-volume results are discussed; tetrahedral results are referred to [14]. This workflow lacks the full native inverse problem specification."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "ApproachI results",
+      "assessment": "All ApproachI modifiers, density-difference attribution, gas/dissolved arrivals and pressure-fit claims inspected. Flow-meter/tank corrections, shut-ins and cold injection qualify the calibration. Raw histories, pressure references, EOS states and case files do not independently verify the reported fit percentages."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        6
+      ],
+      "scope": "ApproachII early fits",
+      "assessment": "All three inverse cases, parameter bounds, pressure sigma 10000 Pa, binary-step sigmas .02/.05, Kozeny-Carman relation and sensitivities read. Case2 Mphi reaches its .6 bound. Case3 has dependent MK plus separately varied water/gas exponents. Phase exponent n is distinct from B1-14 electrical Archie n."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "Time extrapolation and near/far changes",
+      "assessment": "Entire time-extrapolation and near/far trial discussion read. Similar early fits diverge later; Case2 stays closer for about 380 days. Nearfield1000×900 m and its enlargement improve different time windows. Observation-well pressure at 620 m and injector reference at 639.5 m require distinct datum treatment."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "Inserted barrier and later predictions",
+      "assessment": "All case aliases, 150×20 m feature, 5/6 m depths and arrival values inspected. Authors explicitly call the insertion somewhat arbitrary. Region and barrier thickness change together, preventing isolated thickness attribution. This 201–202 gas-retarding feature differs from B1-14’s 200–201 hydraulic-barrier hypothesis. Later DuMux pressure matching is unsatisfactory."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "Plume comparison,conclusions andfunding",
+      "assessment": "Every plume-comparison paragraph, conclusion bullet, uncertainty qualification and funding statement read. Exact spatial phi/k cannot be determined; early arrival fitting does not secure long-term plume prediction. Formal uncertainty quantification is outside this study. No posterior, industrial maximum service, retained-mass balance or whole-chain inventory is supplied."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        10
+      ],
+      "scope": "Entire bibliography",
+      "assessment": "All 27 entries inspected and transcribed. Preserve printed author/title/identifier anomalies and software versions. Eight additional model/data dependencies remain open. No embedded file or explicit supplement/data/code notice identified locally; this does not establish absence of public assets."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        4
+      ],
+      "object": "Figure1: meshes and interpolated permeability",
+      "inspection": "Both tetrahedral and hexahedral views, permeability [m2] colourbars from about 1e−18 to 1e−12, and fivefold vertical exaggeration inspected. Circular versus rectangular refinement and property interpolation differ. No native coordinate, volume or property arrays recovered from the perspective views."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        7
+      ],
+      "object": "Figure2: three initial fits and500day extrapolation",
+      "inspection": "Both panels, 639.5 m reference, bar/day axes, blue observations, green Case1, red Case2 and black Case3 inspected. Similar day0–50 fits diverge in the day0–500 comparison. These are source outputs, not digitised native series or independently recovered inverse results."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        7
+      ],
+      "object": "Figure3: near/far variations",
+      "inspection": "Both pressure panels at 639.5/620 m, day0–1500 axes and every measurement/Case2/2a/2b legend inspected. Improvement depends on the time window. Different depth references prohibit direct pressure comparison without datum mapping."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        8
+      ],
+      "object": "Figure4: inserted barrier at255days",
+      "inspection": "Both 201–202 sections, well labels, saturation0–.6 colourbars and blue feature inspected. At day255, Case2 has arrived whereas Case2b-b2 has not, consistent with the reported times. The inserted feature is a model choice, not measured geological proof."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        8
+      ],
+      "object": "Figure5: full comparison andApproachI details",
+      "inspection": "Left Strategy1/2 plot at 639.5 m and right date plot with observed550 m, corrected639.5 m, calibrated and predicted legends inspected. Six-month stop, cold injection, four weeks of standard injection and 67 kt annotations read. Keep these with the seven-month prose and conflicting date/day labels; full strategy/version mapping remains incomplete."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        9
+      ],
+      "object": "Figure6: permeability andplume comparison",
+      "inspection": "Both ApproachI/II top views, log-permeability background and dark-red October2009/light-red2012 plume caption inspected. Missing numeric axes and property legend prevent exact area, volume or mass recovery. Visible variation is not quantified uncertainty or a retained-carbon balance."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        4
+      ],
+      "object": "Table1: DuMux inputs",
+      "inspection": "All input values and units inspected: salt .2 kg/kg brine; pore compressibility 7.2e−10/Pa; Kv/Kh1/3; 62 bar and 34°C at639.5 m; literal gradient1.14 Pa/m on HOLD; .03°C/m; lambda1.011613; entry pressure10952.87 Pa; residuals .15/.05; endpoints1/.85; exponents5.5/1.25. Actual pressure basis, capillary implementation and clipping remain missing."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        5
+      ],
+      "object": "Table2: permeability multipliers",
+      "inspection": "All i/j/k multipliers inspected: near Span-Wagner .25/.05/.05, near Peneloux .34/.07/.07, far .38/.10/.10. These multiply unknown baseline tensor entries; their ratios are not absolute field anisotropy. Retuning does not supply a general density-to-permeability uncertainty law."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        5
+      ],
+      "object": "Table3: arrival comparisons",
+      "inspection": "Every gas/dissolved row, well, observed dash, EOS prediction and percentage column inspected. Dissolved observations remain null, never zero. Shared 21.7/271-day observations are not independent measurements across papers. No native forward model reproduced."
+    },
+    {
+      "id": "T04",
+      "pages": [
+        6
+      ],
+      "object": "Table4: three inverse fits",
+      "inspection": "Every MK/Mphi, gas/water exponent and arrival entry inspected. Case3 MK is dependent through Kozeny-Carman. Case1/2 water exponent uses unchanged Table1 as an explicit component-evaluation assumption. Best-fit values and bound choices do not define posterior distributions."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01w",
+      "pages": [
+        4
+      ],
+      "expression": "krw=krw_eq*((Sw−Swr)/(1−Swr))^nw",
+      "interpretation_and_check": "First function in Eq1. Preserve water denominator 1−Swr without Snr. Positive fractional exponent requires a nonnegative base for real physical evaluation; wet law alone extends to Sw1. At common upper Sw=.95 its value is below the printed water endpoint. Native phase-appearance, clipping and hysteresis rules are missing."
+    },
+    {
+      "id": "E01n",
+      "pages": [
+        4
+      ],
+      "expression": "krn=krn_eq*((1−Sw−Snr)/(1−Snr−Swr))^nCO2",
+      "interpretation_and_check": "Second function in Eq1. Shared physical real domain is Swr≤Sw≤1−Snr with positive fractional exponents. Do not silently clip outside it or replace its denominator. CO2 phase exponent differs from electrical Archie n."
+    },
+    {
+      "id": "P01",
+      "pages": [
+        6
+      ],
+      "expression": "MK=(Mphi*phi0)^3*(1−phi0)^2/(phi0^3*(1−Mphi*phi0)^2),phi0=.2",
+      "interpretation_and_check": "Printed inline relation with phi0=.2. Dimensionless multipliers require 0<Mphi*phi0<1. Evaluation of .5555 gives MK rounding to .1388. This reproduces a printed constitutive component, not a heterogeneous field, optimisation or native simulation."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        6
+      ],
+      "expression": "MK=Mphi^3*(1−phi0)^2/(1−Mphi*phi0)^2;dlnMK/dlnMphi=3+2*Mphi*phi0/(1−Mphi*phi0)",
+      "interpretation_and_check": "Analyst cancellation and logarithmic derivative of the printed relation. Reference phi0=.2 is not the porosity of every cell. Local algebraic sensitivity is not posterior or variance attribution."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        4
+      ],
+      "expression": "P(z)=62bar+gradient*(z−639.5m);T(z)=34C+.03C/m*(z−639.5m)",
+      "interpretation_and_check": "Analyst linear interpretation of Table1/BC prose. Keep literal gradient1.14 Pa/m on HOLD. Pressure basis and native implementation are missing; no reservoir case is run with an unverified boundary input."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        4
+      ],
+      "expression": "rho_implied=gradient/g;DeltaP=gradient*DeltaZ",
+      "interpretation_and_check": "Analyst hydrostatic dimensional check. Literal gradient implies about .116 kg/m3 under standard g, rather than a verified brine density. This flags a unit/implementation question; no corrected exponent, density or gradient is inserted."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "expression": "signed_arrival_error=t_model−t_obs;absolute_relative_error=100*abs(error)/t_obs",
+      "interpretation_and_check": "Arithmetic check of printed Table3 percentages and other arrival comparisons. Rounded source numbers, sensor uncertainty and reused observations remain explicit. Dashes are missing observations, not zero arrivals."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        5,
+        8
+      ],
+      "expression": "K_new,i=m_i*K_base,i;Kv/Kh=(m_v/m_h)*(Kv/Kh)_base",
+      "interpretation_and_check": "Analyst tensor identity. Baseline anisotropy, coordinate orientation and mapping are unknown. Ratios of multipliers cannot alone establish absolute anisotropy or flow orientation."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        7,
+        8
+      ],
+      "expression": "A_near=Lx*Ly;V_feature=length*width*depth",
+      "interpretation_and_check": "Analyst rectangle geometry. Interpreting a 100 m enlargement in every direction as moving both bounds gives +200 m per dimension. Feature bulk volume is not pore volume or storage. Nearfield/barrier changes are confounded."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        6
+      ],
+      "expression": "relative_inverse_variance_weight=(sigma_old/sigma_new)^2",
+      "interpretation_and_check": "Conditional inverse-variance least-squares illustration only. Arrival uses a binary0/1 step; sigmas .02/.05 are not documented in days. Native residual scaling, covariance and actual iTOUGH2 weighting require verification."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        4,
+        5
+      ],
+      "expression": "salt/water_mass_ratio=S/(1−S);Cp*DeltaP dimensionless",
+      "interpretation_and_check": "Analyst mass-basis and unit identities. Salt per brine mass differs from salt per water mass. No salt-composition, density, EOS or full poromechanics inference follows."
+    },
+    {
+      "id": "D09",
+      "pages": [
+        3,
+        5,
+        8
+      ],
+      "expression": "elapsed_days=date_end−date_start",
+      "interpretation_and_check": "Explicit zero-based calendar check: 24 June2008 to31 December2011 is1285 elapsed days, consistent with inclusive count1286. To26 May2014 is2162 versus stated2193. Preserve all labels and the908-day statement; no May-to-June repair or annual availability inference."
+    }
+  ],
+  "variables": [
+    "Intrinsic permeability k [m2], porosity phi and relative permeability kr are correlated calibration quantities. MK/Mphi are multipliers of native fields, not absolute measurements or annual-rate factors.",
+    "nw/nCO2 are dimensionless phase-relative-permeability exponents, distinct from B1-14’s electrical Archie exponent. Residual saturations and kr endpoints are dimensionless model inputs.",
+    "The two Eq1 denominators differ. Clipping, negative-base handling, phase appearance, hysteresis and explicit pc(Sw) are missing; paired component evaluation stays on the shared real physical domain.",
+    "Kozeny-Carman phi0=.2 is a reference basis. Case3 Mphi=.5555 gives .1111 only at that basis, not a homogeneous field porosity. MK is dependent, not a fourth independent fitted parameter.",
+    "Literal pressure gradient1.14 Pa/m stays on HOLD without a replacement. Initial62 bar at639.5 m, observations620 m and sensor550 m are distinct references; gauge/absolute basis is not stated.",
+    "Table1 temperature34°C at639.5 m, .03°C/m gradient and the5 K/week cold-injection experiment have different scopes. Isothermal pressure fitting does not reproduce thermal feedback.",
+    "Salinity is .2 kg salt/kg brine; Cp is7.2e−10/Pa; pd is10952.87 Pa; lambda is1.011613. Capillary entry pressure is not an injection pressure ceiling.",
+    "SCAL, geological variograms and poro-perm mapping are case-specific. Generic DuMux GPL and ECLIPSE2009.2 metadata do not provide native files or commercial software rights.",
+    "Binary arrival values0/1 and sigmas .02/.05 differ from dimensional pressure sigma1e4 Pa. Reported sensitivities depend on weighting and parameterisation; they are not probability or variance shares.",
+    "GMS depth150 m and annulus/filter/transport delay distinguish measured detection from geological first contact. Modeled gas/dissolved arrivals and well pressure are different quantities.",
+    "Formation74 m versus described zones72 m, geological5×5 m grid and coarser dynamic meshes require native mapping. The mesh figure has fivefold vertical exaggeration; image dimensions cannot supply grid volume.",
+    "Directional near/far modifiers and the DuMux Kv/Kh1/3 parameter use different property contexts. Unknown baseline tensors prevent direct physical-anisotropy comparison.",
+    "Nearfield1000×900 m, its enlargement and barrier150×20×5/6 m are chosen model structures. Native permeability, masks and case aliases are missing. Better arrival fitting is not geological identification.",
+    "B1-15’s 201–202 gas-retarding barrier differs from B1-14’s hydraulic200–201 hypothesis. Findings about one do not automatically refute the other.",
+    "Early17–50-day observations, 50-day fitting, later500/1286/2193-day descriptions and May2014 date have different scopes. Month/day labels stay literal until reconciled.",
+    "Selected cases and sensitivity coefficients do not constitute a probability distribution or quantified uncertainty ensemble. Authors explicitly leave uncertainty quantification outside this study.",
+    "The approximately67 kt injected history does not establish maximum annual service, industrial allocation, post-injection retained fraction or a complete GHG inventory."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2,
+        9
+      ],
+      "claim": "Good matches coexist withparameter uncertainty",
+      "assessment": "Direct conclusion, not a claim of unique parameters. Native fields and raw data remain unavailable; no formal uncertainty posterior is provided."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        2
+      ],
+      "claim": "Geology/modeler choices matter more thancodechoice",
+      "assessment": "Cited benchmark/general interpretation; exact benchmark originals remain unverified. These differently parameterised cases are not controlled identical-input code validation."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Pressure deserves greaterweight thanpointarrival",
+      "assessment": "The source explains GMS/completion delay and point versus integral information. This supports a calibration caution; sensor models and full plume predictability remain unverified."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "claim": "ApproachI givesexcellentpressurepredictions",
+      "assessment": "Reported calibration and held-forward fit with EOS retuning. Missing native controls, PVT, histories and calendar mapping prevent independent validation or safe-rate prediction."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        4
+      ],
+      "claim": "Capillaryscalinghasminor influence",
+      "assessment": "Authors refer to an unshown Leverett-J sensitivity. Missing pc(Sw), unpublished measurements and native runs prevent verification of negligible influence."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        5
+      ],
+      "claim": "EOS densitydifference up to5%requirespermeabilityretuning",
+      "assessment": "The source retains changed near modifiers and unchanged far values. Missing PVT states and density/viscosity implementations prevent independent EOS validation or a universal proportional-error rule."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "ApproachI gasarrivalerrorsare12.9/6.4/.4/5.5%",
+      "assessment": "Displayed arithmetic is compatible with source rounding. Dissolved observations are missing; reused gas observations do not provide independent validation across studies."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        6
+      ],
+      "claim": "Threeearlyinversecasesfitwell",
+      "assessment": "Eleven early pressure points plus first arrival constrain three fitted parameters. Bounds/weights matter and Case2 Mphi=.6 reaches its bound. Constitutive evaluation does not reproduce the inverse fits."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        6
+      ],
+      "claim": "Combinedporosity/permeabilitydominatesCase3sensitivity",
+      "assessment": "Coefficients218.4,34.3,10.8 are parameterisation/weight dependent. Ratios are not statistical variance contributions or posterior probabilities."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Earlyfitspredictlaterbehaviour",
+      "assessment": "Agreement holds only over limited windows; cases diverge later. Additional near/far choices improve one interval and worsen another. No general long-horizon validation follows."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Barrierretardsarrivaltoalmostobserved271days",
+      "assessment": "Reported case outputs approach observed271 days after inserting an explicitly arbitrary feature. Region/thickness changes are confounded and native feature permeability is missing; the fit does not identify geology."
+    },
+    {
+      "id": "C12",
+      "pages": [
+        8
+      ],
+      "claim": "LaterECLIPSEfitbetterbecauseofanisotropy/geologicalmapping",
+      "assessment": "Qualitative author explanation with unknown baseline tensors and unquantified10–20 m farfield offset. Different model inputs and choices prevent code-intrinsic ranking or complete physics validation."
+    },
+    {
+      "id": "C13",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Differentplumescanfollowgoodpressurefits",
+      "assessment": "Figure6 supports qualitative plume variation. No independently validated plume volume/mass, quantified prediction error or retained-carbon balance is supplied."
+    },
+    {
+      "id": "C14",
+      "pages": [
+        9
+      ],
+      "claim": "Formaluncertaintyandmodelreductionarefuturetasks",
+      "assessment": "Explicit study boundary. Selected cases/sensitivities cannot supply probabilistic ranges, industrial maximum service, permanence or net GHG factors."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        10
+      ],
+      "citation": "S. Martens, T. Kempka, A. Liebscher, S. L¨uth, F. M¨oller, A. Myrttinen, B. Norden, C. Schmidt-Hattenberger, M. Zimmer, M. K¨uhn, Europes longest-operating on-shore CO2 storage site at Ketzin, Germany: a progress report after three years of injection, Environmental Earth Sciences 67 (2012) 323–334.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1–2: injection history/site context. Native operational totals and original monitoring/retention scope unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        10
+      ],
+      "citation": "A. F¨orster, B. Norden, K. Zinck-Jorgensen, P. Frykman, J. Kulenkampﬀ, E. Spangenberg, J. Erzinger, M. Zimmer, J. Kopp, G. Borm, C. Juhlin, C.-G. Cosma, S. Hurter, Baseline characterization of the CO2SINK geological storage site at Ketzin, Germany, Environmantal Geosciences 13 (2006) 145–161.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: heterogeneous Stuttgart geology. Exact baseline original and prior-model uncertainty unverified; not the distinct2010 reference12."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        10
+      ],
+      "citation": "C. Juhlin, R. Giese, K. Zinck-Jorgensen, C. Cosma, H. Kazemeini, N. Juhojuntti, S. L¨uth, B. Norden, A. F¨orster, 3D baseline seismics at Ketzin, Germany: the CO2SINK project, Geophysics 72 (2007) 121–132.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p1: seismic survey evidence used for geological prior. Raw data/model mapping unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        10
+      ],
+      "citation": "B. Norden, A. F¨orster, D. Vu-Hoang, F. Marcelis, N. Springer, I. Le Nir, Lithological and petrophysical core-log interpretation in CO2SINK, the European CO2 onshore research storage and veriﬁcation project., SPE Reservoir Evaluation & Engineering 13 (2) (2010) 179–192.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1–2: core/log and porosity/permeability construction. Original measurements,variograms and scale-up unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        10
+      ],
+      "citation": "B. Wiese, B. J., C. Enachescu, H. W¨urdemann, G. Zimmermann, Hydraulic characterisation of the Stuttgart formation at the pilot test site for CO2 storage, Ketzin, Germany, International Journal of Greenhouse Gas Control 4 (2010) 960–971.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp1,4: pumping tests and good hydraulic communication used to motivate phase barrier. Exact raw histories/QA unverified. The different200–201 logger/barrier discussion in later B1-14 must not be conflated with this201–202 inserted barrier."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        10
+      ],
+      "citation": "E. Makhlouf, M. Chen, W. Wasserman, J. Seinfeld, A general history matching algorithm for three-phase, three-dimensional petroleum reser- voirs, SPE Adv. Technol. 1(2) (1993) 83–91.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: general history-matching algorithm background. Original mathematical method unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        10
+      ],
+      "citation": "M. Williams, J. Keating, M. Barghouty, The stratigraphic method: a structured approach to history-matching complex simulation models, SPE Reserv.Evalu.Eng. 1(2) (1998) 169–176.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: iterative geological history matching. Exact original method/scope unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        10
+      ],
+      "citation": "S. Oladyshkin, H. Class, W. Nowak, Bayesian updating via bootstrap ﬁltering combined with data-driven polynomial chaos expansions: methodology and application to history matching for carbon dioxide storage in geological formations, Computational Geosciences 17 (2013) 671–687.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: Bayesian/bootstrap/poly-chaos alternative. This paper does not implement a quantified uncertainty posterior; original method unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        10
+      ],
+      "citation": "Schlumberger, Eclipse reservoir engineering software version 2009.2 (2009).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: ECLIPSE2009.2 software. Exact implementation,black-oil adaptation,native decks and licence/version unavailable."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        10
+      ],
+      "citation": "B. Flemisch, M. Darcis, K. Erbertseder, B. Faigle, A. Lauser, K. Mosthaf, S. M¨uthing, P. Nuske, A. Tatomir, M. Wolﬀ, R. Helmig, DuMux: DUNE for multi-phase, component, scale, physics, ... ﬂow and transport in porous media, Advances in Water Resources 34 (9) (2011) 1102– 1112. doi:DOI: 10.1016/j.advwatres.2011.03.007.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: DuMux software/GPL capabilities. Generic code availability is not the exact source case,version or native reproduction. Original description unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        10
+      ],
+      "citation": "H. Class, A. Ebigbo, R. Helmig, H. Dahle, J. Nordbotten, M. Celia, P. Audigane, M. Darcis, J. Ennis-King, F. Yaqing, B. Flemisch, S. Gasda, M. Jin, S. Krug, D. Lagregere, A. Naderi, R. Pawar, A. Sbai, S. Thomas, L. Trenty, L. Wei, A benchmark-study on problems related to CO2 storage in geologic formations - summary and discussion of the results, Computational Geosciences 13 (2009) 409–434.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: code benchmark/modeler/geology influence. Exact original cases and relative-error conclusions unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        10
+      ],
+      "citation": "A. F¨orster, R. Sch¨oner, H.-J. F¨orster, B. Norden, A.-W. Blaschke, J. Luckert, G. Beutler, R. Gaupp, D. Rhede, eservoir characterization of a CO2 storage aquifer: The Upper Triassic Stuttgart Formation in the Northeast German Basin, Marine and Petroleum Geology 27(10) (2010) 2156–2172.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: geological and mineralogical description. Exact2010 original and source-to-grid mapping unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        10
+      ],
+      "citation": "B. Norden, P. Frykman, Geological modelling of the Triassic Stuttgart Formation at Ketzin, Germany, International Journal of Greenhouse Gas Control 19 (2013) 756–774.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: geological model,poro-perm/cokriging. Native fields and reference-model version unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        10
+      ],
+      "citation": "T. Kempka, H. Class, U. G¨orke, B. Norden, O. Kolditz, M. K¨uhn, L. Walter, W. Wang, B. Zehner, A dynamic ﬂow simulation code intercom- parison based on the revised static model of the ketzin pilot side, Energy Procedia 40 (2013) 418–427.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp2,4: revised model and tetrahedral previous results. Exact mesh/comparison/version unverified; no native case supplied here."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        10
+      ],
+      "citation": "P. Bastian, M. Blatt, A. Dedner, C. Engwer, R. Kl¨ofkorn, R. Kornhuber, M. Ohlberger, O. Sander, A generic grid interface for adaptive and parallel scientiﬁc computing., Computing 82 (2008) 103–119.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p2: DUNE grid interfaces. Original numerical framework and source case unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        10
+      ],
+      "citation": "B. Prevedel, L. Wohlgemuth, B. Legarth, J. Henninges, H. Sch¨utt, C. Schmitt-Hattenberger, et al., The CO2SINK boreholes for geological CO2 storage testing, Energy Procedia 1 (2009) 2087–2094.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: well completion affects arrival. Original completion/annulus/filter details unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        10
+      ],
+      "citation": "M. Zimmer, J. Erzinger, C. Kujawa, C. Group, The gas membrane sensor (GMS): A new method for gas measurements in deep boreholes applied at the CO2SINK site, Intl. Journal of Greenhouse Gas Control 5 (2011) 995–1001.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: GMS150m below ground and detection delay. Sensor original/data and quantitative delay unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        10
+      ],
+      "citation": "F. Schilling, G. Borm, H. W¨urdemann, F. M¨oller, M. K¨uhn, C. Group, Status Report on the First European on-shore CO2 Storage Site at Ketzin (Germany), Energy Procedia 1 (2009) 2029–2035.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: observed gas arrival values and uncertainty. Original operational observations unverified; the same values are used in multiple papers,not independent validation."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        10
+      ],
+      "citation": "H. W¨urdemann, F. M¨oller, M. K¨uhn, W. Heidug, N. Christensen, G. Borm, F. Schilling, the CO2SINK Group, CO2SINK from site charac- terisation and risk assessment to monitoring and veriﬁcation: One year of operational experience with the ﬁeld laboratory for CO2 storage at Ketzin, International Journal of Greenhouse Gas Control 4( 6) (2010) 938–951.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p3: arrival/operation/risk monitoring. Original field data and uncertainty unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        10
+      ],
+      "citation": "T. Kempka, M. K¨uhn, Numerical simulations of CO2 arrival times and reservoir pressure coincide with observations from the Ketzin pilot site, Germany., Environmental Earth Sciences Special Issue (2013) 1–11. doi:10.1007/s12665-013-2614-6.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3–5,7: manual near/far tensor calibration and earlierEOS. Exact model/history/parameterisation unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        10
+      ],
+      "citation": "T. Kempka, M. K¨uhn, H. Class, P. Frykman, A. Kopp, C. Nielsen, P. Probst, Modelling of CO2 arrival time at Ketzin - Part I, International Journal of Greenhouse Gas Control 4 (2010) 1007–1015.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3–4: arrival modelling,anisotropy/skin sensitivity and prior cases. Exact original and native grid/input support unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        10
+      ],
+      "citation": "R. Span, W. Wagner, A New Equation of State for Carbon Dioxide Covering the Fluid Region from the Triple–Point Temperature to 1100 K at Pressures up to 800 MPa, J. Phys. Chem. Ref. Data 25(6) (1996) 1509–1596.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3,5: Span-Wagner density/viscosity use versus Peneloux. Original EOS validity/viscosity attribution and this case PVT implementation unverified. Existing library property calls do not certify this reference."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        10
+      ],
+      "citation": "A. Peneloux, E. Rauzy, R. Freze, A consistent correction for RedlichKwongSoave volumes, Fluid Phase Equilib. 8 (1982) 7–23.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3,5: previous Peneloux volume correction. Exact original formulation/composition and claim up-to5%density difference unverified; no direct phase-data comparison reproduced."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        10
+      ],
+      "citation": "S. Finsterle, iTOUGH2 Sample Problems, Tech. rep., Lawrence Berkely National Laboratory, University of California (1999).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "pp3–4,6: iTOUGH2 inverse/sample methods and overparameterisation claim. Exact original algorithm,weighting/likelihood and native case unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        10
+      ],
+      "citation": "S. Martens, A. Liebscher, F. M¨oller, J. Henninges, T. Kempka, S. L¨uth, B. Norden, B. Prevedel, A. Szizybalski, M. Zimmer, M. K¨uhn, CO2 storage at the ketzin pilot site, germany: Fourth year of injection, monitoring, modelling and veriﬁcation., Energy Procedia 37 (2013) 6434–6443.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p5: injection rate meter/operational context. Raw rates and tank correction not retained."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        10
+      ],
+      "citation": "F. M¨oller, A. Liebscher, S. Martens, C. Schmidt-Hattenberger, M. K¨uhn, Yearly operational datasets of the CO2 storage pilot site ketzin, germany., Tech. rep., Geoforschungszentrum Potsdam, Scientiﬁc technical report: data 12/06 (pii0.2312/GFZ.b103-12066, online only) (2012).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p5: yearly operational datasets/tank fill correction. Bibliographic identifier is preserved as printed; original dataset/version/quality and rights unverified during external retrieval pause."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        10
+      ],
+      "citation": "A. Scheidegger, The physics of ﬂow through porous media, Macmillian Co., New York, U.S.A., 1960.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "p6: Kozeny-Carman basis. Inline relation can be evaluated from reported inputs; original book derivation,assumptions and application to heterogeneous model unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        1,
+        2,
+        4
+      ],
+      "citation": "Native geological model,facies,porosity/tensors and mapping",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Geostatistical arrays,interpolation/coarsening,grid coordinates/active cells and dynamic mesh versions unavailable.74m formation versus72m described zones need mapping,not forced equality."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "citation": "Full ECLIPSE/DuMux/iTOUGH2 cases and software rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native decks,exact PVT/SCAL,solubility/BC setup,phase function clipping/hysteresis,parameter bounds,weights,covariance,optimiser/solver convergence and version/license correspondence unavailable."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        4
+      ],
+      "citation": "Unpublished CO2SINK capillary/relative-permeability measurements",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Raw data and explicit pc(Sw) law absent. Eq1 prints two phase kr laws; endpoint treatment must not be silently repaired. Printed1.14Pa/m gradient remainsHOLD."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        3,
+        5,
+        6,
+        7,
+        8
+      ],
+      "citation": "Native operational rate/pressure/arrival and well metadata",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Tank-fill/rate corrections,P/T/pressure basis,550→639.5m display correction,completions/GMS delay and exact calibration/cold/shut-in calendars unavailable."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        7,
+        8
+      ],
+      "citation": "Nearfield and inserted barrier cases",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Exact masks/coordinates/permeability,case alias mappings and geometry absent. Changes in region and barrier thickness are confounded; inserted201–202 barrier is not direct geological evidence."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Independent predictive validation and uncertainty",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Original pressure/plume arrays,holdout definitions,uncertainty posterior/model ensemble weights and grid/time sensitivity not supplied. Authors explicitly do not quantify uncertainty."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        1,
+        9
+      ],
+      "citation": "Maximum service and retained-carbon/inventory transfer",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No target-sweep,safety pressure ceiling,current commercial allocation,full lifecycle or long-term retained-mass evidence supplied by calibrated histories alone."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        1,
+        10
+      ],
+      "citation": "External supplements,code,errata and rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit supplement/data/code notice identified locally. CC BY-NC-ND article and generic GPL solver do not supply complete native case files; external availability remains unverified during requested Chrome wait."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        4
+      ],
+      "status": "HOLD_LITERAL_PRESSURE_GRADIENT",
+      "finding": "Printed1.14 Pa/m cannot be adopted as a verified brine hydrostatic gradient.",
+      "action": "Preserve the literal value on HOLD; obtain native boundary input or erratum. No power-of-ten correction or corrected case run."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        4,
+        6
+      ],
+      "status": "HOLD_PHASE_LAW_DOMAINS_CAPILLARY",
+      "finding": "Eq1 denominators and fractional powers require native phase-domain/clipping treatment; pc(Sw) is not printed.",
+      "action": "Evaluate only the declared real physical domain; obtain SCAL, capillary/hysteresis implementation and unpublished core data."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        3,
+        5,
+        8
+      ],
+      "status": "HOLD_CALENDAR_REFERENCE_MAPPING",
+      "finding": "26 May2014 and day2193 differ by31 days under zero-based24 June2008 start; other day/month labels also need mapping.",
+      "action": "Retain printed dates and day labels. Obtain native calibration/shut-in calendar; no inferred availability factor."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        2,
+        4,
+        5,
+        8
+      ],
+      "status": "BLOCKED_NATIVE_FORWARD_INVERSE_CASES",
+      "finding": "Native grid, property fields, PVT/EOS, rates, inverse weights, exact case versions and rights are unavailable.",
+      "action": "Obtain adequate case files and rights; check boundaries, mapping, convergence and independent prediction. Generic GPL software is not a reproduced case."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "status": "HOLD_SENSOR_FIT_BOUND_WEIGHT",
+      "finding": "Sensor delay, binary sigma units, parameter bounds and sensitivity scales qualify the fit.",
+      "action": "Obtain raw sensor/completion/pressure histories, residual scales and covariance. No physical-first-arrival or posterior claim from a few early observations."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        2,
+        7,
+        8
+      ],
+      "status": "HOLD_GEOMETRY_ANISOTROPY_BARRIER",
+      "finding": "Formation/zone bases, tensor references, region/barrier changes and case aliases remain unresolved.",
+      "action": "Keep the barrier a chosen model structure and distinguish201–202 from B1-14’s200–201 hypothesis. Do not isolate a thickness effect."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        5,
+        8,
+        9
+      ],
+      "status": "EXCLUDE_UNVERIFIED_SERVICE_RETENTION_TRANSFER",
+      "finding": "Pressure/arrival fits and67 kt history do not establish maximum annual service, permanence or a whole-chain inventory.",
+      "action": "Require pressure-limit/target sweeps, retained-carbon accounting and matched inventories before transfer."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        9,
+        10
+      ],
+      "status": "PENDING_ORIGINALS_ASSETS",
+      "finding": "All27 underlying originals, eight dependencies and external supplements/code/errata remain unverified.",
+      "action": "Continue exact-original/native-asset checks when access is available. External retrieval stays paused; local asset absence does not imply public absence."
+    }
+  ],
+  "supplements": "No embedded file, appendix or explicit data/code/supplement notice identified in the unchanged ten-page PDF. Unpublished CO2SINK capillary/SCAL data and referenced yearly operational datasets are not locally verified originals. Generic DuMux GPL capability does not supply exact native cases; ECLIPSE version/licence and data rights remain open. External retrieval remains paused pending the requested Chrome connection; local absence is not a public-absence claim.",
+  "reproduction": "Printed Eq1 wet/nonwet functions are independently evaluated on their shared real physical domain. The inline Kozeny-Carman ratio reproduces Case3 MK at displayed precision. These are constitutive component checks, not native implementation verification. Clipping, pc(Sw), grid/PVT/history and inverse weighting/cases remain unavailable. No original ECLIPSE/DuMux/iTOUGH2 forward/inverse fit or held-forward prediction is reproduced.",
+  "paper1_use": "Use to distinguish history matching, independent prediction, parameter correlation and uncertain plume migration. Retain the literal gradient HOLD, case-specific EOS/tensor/bound/weight choices and explicit uncertainty boundary. No maximum annual service, barrier probability, permanent-retention, access or GHG factor adopted. Accepted numeric operating results are unchanged.",
+  "next_steps": "Resolve gradient, phase-domain/clipping/capillary data, calendar, raw sensor/rate/tank corrections, grid/property/tensor/region/barrier mapping and inverse weights/cases/rights. Verify27 underlying originals and external assets. Reproduce full models only with sufficient inputs and rights. Continue B1-16 locally; keep the92-paper audit active."
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 from pathlib import Path
-import csv
+import csv,json
 from openpyxl import Workbook
 from openpyxl.styles import Font,PatternFill,Alignment
 from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
@@ -15,6 +15,11 @@ files += [('Partial compilation claims','data/partial_compilation_values.csv'),(
 files += [('Verified primary values','data/primary_followup_values.csv'),('Verified loading tests','data/excool_verified_loading_tests.csv'),('EXCOOL voyage reference','data/excool_reported_voyage_reference.csv'),('Primary injection tables','data/tomakomai_primary_injection_tables.csv'),('Primary dated headers','data/tomakomai_primary_header_totals.csv'),('Primary well means','data/tomakomai_primary_well_means.csv'),('Primary calculation checks','outputs/primary_followup_calculations.csv'),('Supplied verification audit','data/verification_package_status_audit.csv')]
 files += [('Public capture values','data/public_capture_values.csv'),('Public capture inventory','data/public_capture_inventory.csv'),('Public reservoir parameters','data/public_reservoir_parameters.csv'),('Public reservoir history','data/public_reservoir_history.csv')]
 w['Read me'].append(['Public-source follow-up','Norwegian Bjarmeland model: 4,951 native rate/pressure records under 225 bar absolute cap; seven source warnings retained. Three CEMCAP reported heat/work pairs; 42 located values. Separate geographic proxies; no annual maximum mass service or full LCA.'])
+audit_path=ROOT/'outputs/comprehensive_review/summary.json'
+if audit_path.exists():
+ audit=json.loads(audit_path.read_text())
+ w['Read me'].append(['Comprehensive audit',f"{audit['manual_records']} detailed reading records; {audit['text_read_pages']}/{audit['unique_physical_pages']} text pages; {audit['visually_inspected_pages']} rendered pages; {audit['comprehensively_complete_papers']} comprehensively complete papers. Citation, supplement and native-model checks remain separate."])
+ files.extend([('Audit publications','outputs/comprehensive_review/papers.csv'),('Audit physical pages','outputs/comprehensive_review/pages.csv'),('Audit open issues','outputs/comprehensive_review/issues.csv')])
 assert len({x[0] for x in files})==len(files) and all(len(x[0])<=31 for x in files)
 for title,p in files:
  s=w.create_sheet(title)

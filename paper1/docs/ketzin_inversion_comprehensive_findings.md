@@ -42,7 +42,7 @@ Table2 observed/modelled arrivals21.7/21.8 and271/283days give errors.1 and12day
 
 The [Class2015 primary check](../evidence/comprehensive_review_inputs/B1-14_citation_checks.json) uses retained B1-15, SHA-256 `4c8ec9850a78e897d5d4f271cd04449b7cfeb448a69fd1339416e4c8d2221324`. Selected text and rendered pages1–3,5–6 support pressure/arrival calibration and explicitly describe gas-membrane sensors150m below ground, annulus accumulation, upward transport and several-day uncertainty. The same observed21.7/271days are confirmed. Class's ECLIPSE/DuMux predictions are different cases and are not substituted for B1-14's predictions or treated as independent data.
 
-This supports B1-14's sensor-delay caveat, without validating its3% model-cell gas threshold. It does not complete the Class paper's comprehensive audit or verify its underlying citations. B1-15 remains next for full review.
+This supports B1-14's sensor-delay caveat, without validating its3% model-cell gas threshold. It does not complete the Class paper's comprehensive audit or verify its underlying citations. The subsequent [B1-15 reading](ketzin_history_comprehensive_findings.md) covers its full retained PDF and printed constitutive components while keeping native models and underlying originals open.
 
 ## Salt, skin and transfer to Paper1
 
