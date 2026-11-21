@@ -1,0 +1,158 @@
+{
+  "study_id": "B1-09",
+  "source_sha256": "21f6c7d0425288d7a5f1376ef6d0d5230680aa783b3a62962996a0afd9d57da1",
+  "printed_entries": 8,
+  "named_dependencies": 5,
+  "entry_count": 13,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        14
+      ],
+      "citation": "Khodaverdian, M., Sarfare, M., Fokker, P., Alfaro, M.C. and Schutjens, P. (2013). Geomechanical Analysis of SF-30 EOR, Sarawak Shell Sdn Bhd, Malaysia.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Fault-property analogue in Tables 4–5. Body/Table 4 say 2014; bibliography says 2013. Tables report SF-30 in Sabah; Sarawak Shell Sdn Bhd is an operator name and does not independently establish a location conflict. Resolve the exact original, contact law, units and carbonate applicability. No exact retained original established."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        14
+      ],
+      "citation": "Li, X., Mitchum, F., Bruno, M., Pattillo, P. and Wilson, S. (2003). Compaction, Subsidence, and Associated Casing Damage and Well Failure Assessment for the Gulf of Mexico Shelf Matagorda Island 623 Field. SPE-84553-MS, SPE Annual Technical Conference and Exhibition, Denver.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Table 6 casing/sand/completion failures at average or incremental average compaction strains. Original metric, exposure, completion and causality are unverified; no universal 2% rule."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        14
+      ],
+      "citation": "Makurat, A.H., Gutierrez, M., Knapstad, B., Johsen, J.H. and Koestler, A.G. (1995). Distinct Element Simulation of Faulted Reservoir Behavior. SPE-26486-PA-118.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Table 4 Ekofisk contact stiffness/cohesion/friction and Table 5 reported 43 cm slip/casing problem. Printed suffix and author spelling are retained; exact publication and validation require checking."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "Mendes, R.A., Costa, A.M., Sousa Jr., L.C., Pereira, L.C. and Oliveira, M.F.F. (2010). Risk and Mitigation Problems in a CO2 injection project for a petroleum onshore field in Brazil. ARMA10-162.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Table 4 Miranga clastic analogue. Original tests/contact definitions and ranges are unverified; imported values are not Field X measurements."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        14
+      ],
+      "citation": "Pereira, F.L.G., Roehl, D.M. and Almeida, A.C. (2012). Probabilistic analysis of a faulted hydrocarbon reservoir during CO2 injection. ARMA12-522.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Table 4 says Pereira 2002; bibliography says 2012. Verify synthetic-reservoir/Petrobras values and probabilistic scope. No probability transfer."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        14
+      ],
+      "citation": "Plischke, B. (1994). Finite element analysis of compaction and subsidence – Experience gained from several chalk fields. SPE28129 Eurock SPE/ISRM Rock Mechanics in Petroleum Engineering Conference, Delft, Netherlands.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "ISAMGEO chalk method on p5. Original yield/flow/hardening/creep equations, Phi convention, reference time and carbonate applicability require checking."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        14
+      ],
+      "citation": "Tjia, H.D. (1994). Inversion Tectonics in the Malay Basin: Evidence and Timing of Events. Geology Society of Malaysia, Bulletin36, pp119–126.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Prose attributes Sarawak stress orientation to this citation, whose printed title concerns the Malay Basin. Verify geographic, angular and time support; do not substitute a different source."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        14
+      ],
+      "citation": "Yudovich, A., Chin, L.Y. and Morgan, D.R. (1989). Casing Deformation in Ekofisk. SPE-17856-PA, Journal of Petroleum Technology.",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Table 6 Ekofisk average compaction/failure evidence. Original field data, metrics and mechanism remain unverified; no generic safety threshold."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "citation": "In-house dynamic-to-static, lithology/strength/porosity correlations and kriging inputs",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Raw sonic/density/caliper/LOT logs, in-house fits, dynamic/static conversion, samples, valid ranges/errors and kriging variogram/arrays are unavailable."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "citation": "Laboratory UPVC and specialised creep tests",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "UPVC/creep sample locations/counts, porosity convention, stress paths, reference time, curves and calibrated arrays are unavailable."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        2,
+        4,
+        6,
+        7,
+        9,
+        12,
+        13
+      ],
+      "citation": "History-matched reservoir and embedded finite-element/fault model",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Native geometry/grid, flow/PVT/history, contacts, coupling algorithm, solver/version, constraints, 23 stress states, injection controls and sensitivity/convergence records are unavailable."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        2,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "citation": "Field GPS, bathymetry and casing/production surveillance records",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "GPS through 2014, bathymetry 2002/2012 with datum/errors/registration, calibration/holdout split and casing/failure-detection records are unavailable. No reported problem is not future validation."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        3,
+        9,
+        12,
+        13
+      ],
+      "citation": "Poroelastic horizontal-strain method, Mohr–Coulomb contact failure and fracture/strain criteria",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Named methods lack full formulas, definitions, Biot/thermal/chemical/seepage assumptions, implementation and original attribution. The pressure/Shmin statement is not a full fracture/leakage model."
+    }
+  ]
+}

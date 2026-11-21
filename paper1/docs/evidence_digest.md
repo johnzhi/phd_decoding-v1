@@ -120,7 +120,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 A Malaysian carbonate Field X model uses field subsidence and laboratory-derived compaction/creep properties. It recommends maximum injection reservoir pressure of 4,000 psi with a 600 psi safety margin, while minimum horizontal stress during injection is 4,600–6,200 psi (p13).
 
-Transfer limits: An anonymised field is not a named storage service. The pressure ceiling cannot be transferred to another Malaysian sink or converted directly into tonnes/year without injectivity and well data. Planned 2024 injection start is a 2019 scenario assumption, not evidence it occurred.
+Transfer limits: Comprehensive 14-page reading is recorded separately in evidence/comprehensive_review/B1-09.json. The 4000 psi reservoir-pressure recommendation and 600 psi lower-Shmin difference are not flowing BHP, annual maximum mass service or a transferable fracture limit; pressure basis/datum and total-XX-to-Shmin mapping remain unresolved. Eleven correlations lack explicit Phi scale/range and full creep time/law. Calibration is not independent validation; local maximum strain differs from cited average/incremental compaction. Four displayed affected faults versus five in the conclusion, citation years/geographic support and excluded cement/casing-caprock leakage remain open. Eight originals plus five model/data dependencies and external assets are unverified; full models unreproduced. Proposed 2024 start is a 2019 scenario. See malaysia_geomechanics_comprehensive_findings.md; no accepted input promotion.
 
 ### B1-10 — A Decision Framework for CO2 Storage Site Selection in Depleted Reservoirs
 

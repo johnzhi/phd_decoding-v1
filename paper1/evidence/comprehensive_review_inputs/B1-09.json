@@ -1,0 +1,186 @@
+{
+  "study_id": "B1-09",
+  "source_path": "papers/B1-09.pdf",
+  "source_sha256": "21f6c7d0425288d7a5f1376ef6d0d5230680aa783b3a62962996a0afd9d57da1",
+  "source_locators": {
+    "properties": "Table1 p5; visually transcribed raster table",
+    "isamgeo": "Table2 p5; visually transcribed raster table",
+    "stress": "Table3 p6",
+    "faults": "Tables4–5 pp9/11",
+    "strain": "Figure14/Table6 p12",
+    "pressure": "Figure15/text/conclusions p13"
+  },
+  "table1_correlations": [
+    {
+      "id": "E01",
+      "symbol": "RHOB",
+      "expression": "2.6658 - 1.315*Phi",
+      "unit": "g/cc"
+    },
+    {
+      "id": "E02",
+      "symbol": "YME",
+      "expression": "3.478*exp(-3.281*Phi)",
+      "unit": "Mpsi"
+    },
+    {
+      "id": "E03",
+      "symbol": "PR",
+      "expression": "0.33905 - 0.3861*Phi",
+      "unit": "unitless"
+    },
+    {
+      "id": "E04",
+      "symbol": "UCS",
+      "expression": "10598*exp(-4.5206*Phi)",
+      "unit": "psi"
+    },
+    {
+      "id": "E05",
+      "symbol": "FANG",
+      "expression": "33.861 - 3.816*Phi",
+      "unit": "degrees"
+    },
+    {
+      "id": "E06",
+      "symbol": "TSTR",
+      "expression": "UCS/10",
+      "unit": "psi"
+    },
+    {
+      "id": "E07",
+      "symbol": "DANG",
+      "expression": "FANG/2",
+      "unit": "degrees"
+    }
+  ],
+  "table2_correlations": [
+    {
+      "id": "E08",
+      "symbol": "Pc_exp",
+      "expression": "1.8354E+4*exp(-5.541E-2*Phi)",
+      "unit": "Psi as printed"
+    },
+    {
+      "id": "E09",
+      "symbol": "H_exp",
+      "expression": "1.8613E+7*exp(-1.578E-01*Phi)",
+      "unit": "unitless as printed"
+    },
+    {
+      "id": "E10",
+      "symbol": "Rat0",
+      "expression": "-0.861*ln(Phi)+2.8971",
+      "unit": "unitless as printed; reference time unspecified"
+    },
+    {
+      "id": "E11",
+      "symbol": "BRat0",
+      "expression": "0.0072*exp(0.0323*Phi)",
+      "unit": "unitless"
+    }
+  ],
+  "Phi_convention": null,
+  "correlation_validity_range": null,
+  "analyst_porosity_examples": [
+    0.2,
+    20,
+    0.3,
+    30
+  ],
+  "stress_boundary": {
+    "Sh_gradient_psi_ft": 0.78,
+    "SH_over_Sh": 1.04,
+    "Sh_azimuth_deg": 110,
+    "SH_azimuth_deg": 20,
+    "seawater_gradient_psi_ft": 0.45,
+    "orientation_reference": "N20E / 110deg; table does not supply full angle/datum convention"
+  },
+  "maximum_injection_reservoir_pressure_psi": 4000,
+  "Shmin_range_psi": [
+    4600,
+    6200
+  ],
+  "reported_safety_margin_psi": 600,
+  "pressure_reference_basis": null,
+  "subsidence_ft": {
+    "depletion_2003": 9.6,
+    "predicted_2013": 11.3,
+    "GPS_2014": 11.65,
+    "end_injection_2040": 10.6,
+    "reported_uplift_approx": 1
+  },
+  "reservoir_compaction_2040_ft": 16,
+  "fault_properties_table4": [
+    {
+      "label": "Makurat1995",
+      "field": "Ekofisk NorthSea",
+      "reservoir": "Carbonate(Chalk)",
+      "normal_psi_ft": 1900800,
+      "shear_psi_ft": 530400,
+      "cohesion_psi": 2465,
+      "friction_deg": 33
+    },
+    {
+      "label": "Pereira2002",
+      "field": "Synthetic",
+      "reservoir": "Literature Petrobras",
+      "normal_psi_ft": null,
+      "shear_psi_ft": null,
+      "cohesion_psi": 72.5,
+      "friction_deg": 20
+    },
+    {
+      "label": "Mendes2010",
+      "field": "Miranga Brazil",
+      "reservoir": "Clastic",
+      "normal_psi_ft": 459600,
+      "shear_psi_ft": 171600,
+      "cohesion_psi": 110.2,
+      "friction_deg": 18.3
+    },
+    {
+      "label": "Khodaverdian2014",
+      "field": "SF-30 Sabah Malaysia",
+      "reservoir": "Clastic",
+      "normal_psi_ft": 66311,
+      "shear_psi_ft": 30945,
+      "cohesion_psi": 217.5,
+      "friction_deg": 15
+    }
+  ],
+  "reported_slip_cm": {
+    "Ekofisk": 43,
+    "SF30": 5.9,
+    "FieldX": 0.5
+  },
+  "faults_in_overburden": 12,
+  "displayed_fault_ids": [
+    1,
+    5,
+    7,
+    10
+  ],
+  "conclusion_fault_count": 5,
+  "maximum_local_plastic_strain_pct": 2,
+  "crest_porosity_threshold_pct": 30,
+  "model_cells_approx": 2000000,
+  "selected_stress_steps": 23,
+  "injection_start_scenario_year": 2024,
+  "end_scenario_year": 2040,
+  "missing_inputs": {
+    "native_model": null,
+    "full_constitutive_and_coupling_laws": null,
+    "reference_creep_time": null,
+    "annual_maximum_mass_service": null,
+    "independent_validation_statistics": null,
+    "leakage_or_retained_carbon": null
+  },
+  "use": "diagnostic_only; analyst numeric Phi examples are not calibrated author cases; no accepted operating/GHG inputs",
+  "fault_properties_adopted": {
+    "normal_stiffness_psi_ft": 66311,
+    "shear_stiffness_psi_ft": 30945,
+    "cohesion_psi": 217.5,
+    "friction_deg": 15
+  }
+}

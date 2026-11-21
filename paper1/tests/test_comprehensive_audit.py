@@ -40,6 +40,9 @@ higashi_spec.loader.exec_module(higashi)
 flow_spec = importlib.util.spec_from_file_location('audit_flow_assurance', ROOT / 'scripts/audit_flow_assurance.py')
 flow = importlib.util.module_from_spec(flow_spec)
 flow_spec.loader.exec_module(flow)
+malaysia_spec = importlib.util.spec_from_file_location('audit_malaysia_geomechanics', ROOT / 'scripts/audit_malaysia_geomechanics.py')
+malaysia = importlib.util.module_from_spec(malaysia_spec)
+malaysia_spec.loader.exec_module(malaysia)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -49,6 +52,47 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_malaysia_phi_scale_counterexamples_do_not_choose_author_convention(self):
+        data = malaysia.load_inputs()
+        self.assertIsNone(data['Phi_convention'])
+        self.assertIsNone(data['correlation_validity_range'])
+        self.assertAlmostEqual(malaysia.table1(.2)['RHOB'], 2.4028)
+        self.assertAlmostEqual(malaysia.table1(.2)['PR'], .26183)
+        self.assertLess(malaysia.table1(20)['RHOB'], 0)
+        self.assertGreater(malaysia.table2(.3)['Rat0'], 0)
+        self.assertLess(malaysia.table2(30)['Rat0'], 0)
+        self.assertGreater(malaysia.table2(.2)['Pc_exp'], 18000)
+        self.assertLess(malaysia.table2(20)['Pc_exp'], 6100)
+        for invalid in (0, -1):
+            with self.assertRaises(ValueError):
+                malaysia.table2(invalid)
+
+    def test_malaysia_stress_units_and_margin_denominators_stay_distinct(self):
+        checks = {r['item']: r for r in malaysia.calculate(malaysia.load_inputs())}
+        # Independent Pa-based conversion; contact stiffness is stress / displacement.
+        expected_stiffness = 66311 * 6894.757293168 / .3048 / 1e6
+        self.assertAlmostEqual(checks['adopted_normal_stiffness_psi_ft_SI']['value'], expected_stiffness)
+        self.assertAlmostEqual(checks['recommended_reservoir_pressure_SI']['value'], 27.579029172672)
+        self.assertEqual(checks['displayed_stress_minus_ceiling_low']['value'], 600)
+        self.assertEqual(checks['displayed_stress_minus_ceiling_high']['value'], 2200)
+        self.assertAlmostEqual(checks['lower_margin_relative_to_Shmin']['value'], 100 * 600 / 4600)
+        self.assertEqual(checks['lower_margin_relative_to_ceiling']['value'], 15)
+        self.assertEqual(malaysia.axis_separation_degrees(110, 20), 90)
+        self.assertEqual(malaysia.axis_separation_degrees(200, 20), 0)
+        self.assertAlmostEqual(checks['asynchronous_subsidence_difference']['value'], .10668)
+        self.assertIn('not an aligned residual', checks['asynchronous_subsidence_difference']['interpretation'])
+
+    def test_malaysia_pressure_and_displacement_cannot_supply_missing_service_or_retention(self):
+        data = malaysia.load_inputs()
+        checks = malaysia.calculate(data)
+        missing = [r for r in checks if r['calculation_status'].startswith('not_computable')]
+        self.assertEqual({r['item'] for r in missing}, set(data['missing_inputs']))
+        self.assertTrue(all(r['value'] is None for r in missing))
+        self.assertIn('annual_maximum_mass_service', data['missing_inputs'])
+        self.assertIn('leakage_or_retained_carbon', data['missing_inputs'])
+        self.assertTrue(all(r['calculation_status'] == 'analyst_convention_example_not_author_model'
+                            for r in checks if r['item'].startswith(('Table1_', 'Table2_'))))
+
     def test_flow_well_fraction_cannot_use_project_capacity_as_its_denominator(self):
         data=flow.load_inputs()
         self.assertEqual(data['project_target_MTPA'],2)
