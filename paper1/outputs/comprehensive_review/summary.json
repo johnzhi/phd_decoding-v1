@@ -5,12 +5,14 @@
   "duplicate_publications": {
     "B3-46": "B2-17"
   },
-  "manual_records": 3,
-  "text_read_pages": 19,
-  "visually_inspected_pages": 19,
+  "manual_records": 4,
+  "text_read_pages": 30,
+  "visually_inspected_pages": 30,
   "comprehensively_complete_papers": 0,
   "discovery_candidates": 3209,
   "link_candidates": 14015,
+  "manual_reference_records": 55,
+  "primary_text_checked_citation_edges": 1,
   "external_retrieval": "paused_pending_requested_Chrome_connection",
   "note": "Candidate counts include mentions and duplicates; they are not verified object/citation counts. Page reading is not independent reproduction or cited-source verification."
 }

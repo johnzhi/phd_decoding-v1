@@ -1,0 +1,15 @@
+{
+  "study_id":"B3-11",
+  "source_sha256":"92258aa52b9656993478e2dda310b81aa97fd44394c6b6b976a7b642eda4239a",
+  "transcription":"Manual rendered-page checks, physical pages3/4/6/9/10; literal printed quantities, no erratum or silent correction. RatesMt/year, massesMt. Inclusive annual bins for Tables3/4/7/8; continuous intervals for hypotheticalTable1.",
+  "hypothetical_plants":[["A",0,30,10,300],["B",10,50,10,400]],
+  "hypothetical_reservoirs":[["A",10,300],["B",30,300]],
+  "reservoirs":[["A",3,12,40,400],["B",8,18,60,660],["C",13,21,20,180]],
+  "plants":[["coal_A",5,18,40,560],["gas",6,15,20,200],["oil",8,15,20,160],["oil",16,17,40,80],["coal_B",18,19,40,80],["coal_B",20,21,60,120]],
+  "table6_years":[4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22],
+  "table6_supply":[40,40,40,40,40,100,100,100,100,100,80,80,80,80,80,80,20,20,20],
+  "table6_demand":[0,40,60,60,80,80,80,80,80,80,80,80,80,80,80,40,60,60,0],
+  "table6_feasible_cascade":[80,80,60,40,0,20,40,60,80,100,100,100,100,100,100,140,100,60,80],
+  "table7_allocations":[["coal_A","A",5,13,40],["coal_A","B",14,18,40],["gas","A",6,7,20],["gas","D",8,8,20],["gas","B",9,15,20],["oil","D",8,8,20],["oil","B",9,14,20],["oil","B",16,17,20],["oil","C",15,17,20],["coal_B","B",18,19,20],["coal_B","B",20,21,60],["coal_B","C",18,19,20],["coal_B","C",21,21,60]],
+  "table8_allocations":[["coal_A","A",5,7,40],["coal_A","A",8,9,20],["coal_A","A",11,13,40],["coal_A","B",9,9,20],["coal_A","B",14,18,40],["gas","A",6,7,20],["gas","D",8,8,20],["gas","B",9,15,20],["oil","D",8,8,20],["oil","B",9,14,20],["oil","B",16,17,20],["oil","C",15,17,20],["coal_B","B",18,19,20],["coal_B","B",20,21,60],["coal_B","C",18,19,20],["coal_B","C",21,21,60]]
+}

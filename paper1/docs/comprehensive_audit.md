@@ -19,8 +19,9 @@ These are separate dimensions. A paper is not comprehensively complete because e
 - [B1-02](comprehensive_review/B1-02.md): all9 pages,9 figures, Table1 across2 pages and4 numbered reactions inspected. The table's literal gas-energy units remain on hold. Independent arithmetic supports the reported31%/24% counted-carbon reductions, subject to the explicit recycle boundary; it is not a complete lifecycle result. Figure6 needs flow-routing clarification. Figure8 was located and magnified after an initially missed lower panel; it is present.
 - [B1-05](comprehensive_review/B1-05.md): all4 synopsis pages and the map inspected. The source really prints1.6tonnes/year; no missing multiplier is silently restored. Reported150kg/s and4Mt/year require an annualisation basis. OriginalSPE225882, itsTable1 and source trail are still missing. This is a synopsis of a paper stated not to be peer reviewed.
 - [B4-05](comprehensive_review/B4-05.md): all6 pages,15 equations,2 figures,3 tables and nomenclature inspected. Literal transport-cost, period-unit, quality/load and outage-bound conventions need clarification. A small counterexample shows thatEq12 can allow a stream above the claimed concentration limit. This does not reproduce or establish a bug in the authors' unpublished implementation. The case is biochar/bio-oil, not calibrated geological CO2 storage.
+- [B3-11](comprehensive_review/B3-11.md): all 11 pages, 11 figures and 8 tables inspected. Independent reconstruction matches the hypothetical 200/100 Mt external/excess targets and every one of the 19 main CSCA rows (40 Mt additional, 80 Mt excess). Literal allocation tables fail plant/year balances; Option 2 also exceeds reservoir B's total capacity. These conflicts remain on hold. The cumulative service method does not establish physical injection-rate feasibility. [Reconstructed figure](../outputs/comprehensive_review/B3-11_cascade.png) and [full calculations](../outputs/comprehensive_review/B3-11_reproduction.json) are retained.
 
-All underlying references in these records remain unverified under this expanded standard; one exact citation match,B3-11, is already retained locally and awaits its comprehensive review. No supplement absence on the public web is inferred from a local PDF having no embedded files. No author model is newly claimed reproduced.
+One citation edge has now been checked against a retained original: B4-05's Ooi2013 citation supports temporal planning, but its MILP attribution conflicts with B3-11's graphical/algebraic method. The other underlying sources, including B3-11's own 25 references, remain unverified under this expanded standard. No supplement absence on the public web is inferred from a local PDF having no embedded files. The CSCA accounting component is independently reproduced; no complete author optimiser, pressure-constrained reservoir or detailed valid allocation is claimed reproduced.
 
 ## Provenance, outputs and continuation
 
@@ -29,9 +30,10 @@ Manual records live in `evidence/comprehensive_review/*.json`, anchored to sourc
 ```sh
 python paper1/scripts/comprehensive_audit.py
 python paper1/scripts/audit_diagnostics.py
+python paper1/scripts/reproduce_ooi_cascade.py
 python -m unittest discover -s paper1/tests -v
 ```
 
 Diagnostic calculations preserve printed quantities and explicit calendars/bases. They do not feed the operating/GHG model. Unsupported inputs remain excluded; original PDFs, targeted-review catalogue and existing Paper1 numerical outputs are preserved.
 
-External retrieval remains paused under the user's explicit request to wait for a Chrome connection. Local reading and calculations can continue. Verification of missing cited originals, public supplements, errata and author code remains pending until permitted access is available. Next local priority isB3-11 to check the already-retained underlying time-window method, followed by theB4-06 optimisation paper with its retained supplement.
+External retrieval remains paused under the user's explicit request to wait for a Chrome connection. Local reading and calculations can continue. Verification of missing cited originals, public supplements, errata and author code remains pending until permitted access is available. Next local priority is the B4-06 optimisation paper with its retained supplement.

@@ -15,6 +15,9 @@ def rows(path):
 spec = importlib.util.spec_from_file_location('audit_diagnostics', ROOT / 'scripts/audit_diagnostics.py')
 diagnostics = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(diagnostics)
+ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
+ooi = importlib.util.module_from_spec(ooi_spec)
+ooi_spec.loader.exec_module(ooi)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
@@ -75,6 +78,47 @@ class ComprehensiveAuditChecks(unittest.TestCase):
         self.assertEqual(result['strict_quality_minimum_supply_gap']['value'], 8057)
         self.assertTrue(all(r['status'] == 'unverified_discovery_candidate'
                             for r in rows('outputs/comprehensive_review/discovery_candidates.csv')))
+
+    def test_independent_cascade_reconstructs_targets_with_explicit_source_lag(self):
+        data = json.loads((ROOT / 'evidence/comprehensive_review_inputs/B3-11.json').read_text())
+        years = data['table6_years']
+        supply = ooi.annual_rates(data['reservoirs'], years, lag=1)
+        demand = ooi.annual_rates(data['plants'], years)
+        additional, carry = ooi.cascade(supply, demand)
+        self.assertEqual(supply, data['table6_supply'])
+        self.assertEqual(demand, data['table6_demand'])
+        self.assertEqual(carry, data['table6_feasible_cascade'])
+        self.assertEqual((additional, carry[-1]), (40, 80))
+        self.assertEqual(sum(supply), 1240)
+        self.assertEqual(sum(demand), 1200)
+        self.assertEqual(carry[years.index(8)], 0)
+        self.assertEqual(ooi.annual_rates(data['reservoirs'], [3,4], lag=1), [0,40])
+        self.assertEqual(ooi.hypothetical_target(data), dict(additional_storage_Mt=200,
+                         excess_storage_Mt=100, matched_internal_storage_Mt=500))
+
+    def test_literal_allocation_conflicts_are_not_hidden_by_aggregate_closure(self):
+        data = json.loads((ROOT / 'evidence/comprehensive_review_inputs/B3-11.json').read_text())
+        first = ooi.allocation_audit(data, 7)
+        second = ooi.allocation_audit(data, 8)
+        self.assertEqual(first['printed_allocation_total_Mt'], 1260)
+        self.assertEqual(first['required_total_Mt'], 1200)
+        self.assertEqual(first['plant_year_mismatches'][0]['difference_Mt'], 60)
+        self.assertEqual(second['printed_allocation_total_Mt'], second['required_total_Mt'])
+        self.assertEqual([(r['plant'], r['year'], r['difference_Mt']) for r in second['plant_year_mismatches']],
+                         [('coal_A',8,-20), ('coal_A',10,-40), ('coal_B',21,60)])
+        self.assertEqual(second['reservoir_audit']['B']['allocated_Mt'], 680)
+        self.assertEqual(second['reservoir_audit']['B']['printed_capacity_Mt'], 660)
+        self.assertEqual(first['reservoir_audit']['A']['rate_limit_exceedance_years'], {'6':60, '7':60})
+
+    def test_one_checked_citation_does_not_close_its_own_reference_chain(self):
+        citing = json.loads((ROOT / 'evidence/comprehensive_review/B4-05.json').read_text())
+        cited = json.loads((ROOT / 'evidence/comprehensive_review/B3-11.json').read_text())
+        edge = next(item for item in citing['references'] if item['id'] == 'R08')
+        self.assertEqual(edge['verification_status'], 'primary_text_checked_partial_support_method_attribution_conflict')
+        self.assertEqual(len(cited['references']), 25)
+        self.assertEqual(cited['overall_status'], 'incomplete')
+        self.assertIn('not pressure-constrained', json.loads(
+            (ROOT / 'outputs/comprehensive_review/B3-11_reproduction.json').read_text())['interpretation'])
 
 
 if __name__ == '__main__':

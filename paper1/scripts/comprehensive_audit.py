@@ -118,7 +118,10 @@ def main():
                          text_read_pages=len(review.get('text_read_pages', [])),
                          visually_inspected_pages=len(review.get('visually_inspected_pages', [])),
                          audit_status='incomplete' if review else 'not_started',
-                         underlying_source_status='unverified', supplement_status='not_established',
+                         underlying_source_status=('partial_primary_checks' if any(
+                             item.get('verification_status', '').startswith('primary_text_checked')
+                             for item in review.get('references', [])) else 'unverified'),
+                         supplement_status='not_established',
                          original_model_status=review.get('original_model_status', 'not_assessed'),
                          embedded_attachment_count=len(attachments),
                          manual_record=f'evidence/comprehensive_review/{sid}.json' if review else '',
@@ -163,6 +166,10 @@ def main():
                    manual_records=len(reviews), text_read_pages=sum(p['text_read'] for p in pages),
                    visually_inspected_pages=sum(p['visually_inspected'] for p in pages),
                    comprehensively_complete_papers=0, discovery_candidates=len(candidates), link_candidates=len(links),
+                   manual_reference_records=sum(len(r['references']) for r in reviews.values()),
+                   primary_text_checked_citation_edges=sum(
+                       item.get('verification_status', '').startswith('primary_text_checked')
+                       for r in reviews.values() for item in r['references']),
                    external_retrieval='paused_pending_requested_Chrome_connection',
                    note='Candidate counts include mentions and duplicates; they are not verified object/citation counts. '
                         'Page reading is not independent reproduction or cited-source verification.')

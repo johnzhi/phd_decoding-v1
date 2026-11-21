@@ -1,0 +1,109 @@
+{
+  "study_id": "B3-11",
+  "source_sha256": "92258aa52b9656993478e2dda310b81aa97fd44394c6b6b976a7b642eda4239a",
+  "hypothetical_case": {
+    "additional_storage_Mt": 200,
+    "excess_storage_Mt": 100,
+    "matched_internal_storage_Mt": 500
+  },
+  "additional_storage_Mt": 40,
+  "excess_storage_Mt": 80,
+  "table6_all_19_rows_match": true,
+  "source_lag_years": 1,
+  "injection_rate_feasibility_established": false,
+  "interpretation": "Bankable storage-service cascade, not pressure-constrained reservoir injection.",
+  "allocation_audits": [
+    {
+      "option": 7,
+      "printed_allocation_total_Mt": 1260.0,
+      "required_total_Mt": 1200.0,
+      "plant_year_mismatches": [
+        {
+          "plant": "coal_B",
+          "year": 21,
+          "required_Mt": 60.0,
+          "delivered_Mt": 120.0,
+          "difference_Mt": 60.0
+        }
+      ],
+      "reservoir_audit": {
+        "A": {
+          "allocated_Mt": 400.0,
+          "printed_capacity_Mt": 400,
+          "rate_limit_exceedance_years": {
+            "6": 60.0,
+            "7": 60.0
+          }
+        },
+        "B": {
+          "allocated_Mt": 660.0,
+          "printed_capacity_Mt": 660,
+          "rate_limit_exceedance_years": {
+            "14": 80.0
+          }
+        },
+        "C": {
+          "allocated_Mt": 160.0,
+          "printed_capacity_Mt": 180,
+          "rate_limit_exceedance_years": {
+            "21": 60.0
+          }
+        }
+      },
+      "scope": "literal table replay; not corrected or physically validated scheduling"
+    },
+    {
+      "option": 8,
+      "printed_allocation_total_Mt": 1200.0,
+      "required_total_Mt": 1200.0,
+      "plant_year_mismatches": [
+        {
+          "plant": "coal_A",
+          "year": 8,
+          "required_Mt": 40.0,
+          "delivered_Mt": 20.0,
+          "difference_Mt": -20.0
+        },
+        {
+          "plant": "coal_A",
+          "year": 10,
+          "required_Mt": 40.0,
+          "delivered_Mt": 0.0,
+          "difference_Mt": -40.0
+        },
+        {
+          "plant": "coal_B",
+          "year": 21,
+          "required_Mt": 60.0,
+          "delivered_Mt": 120.0,
+          "difference_Mt": 60.0
+        }
+      ],
+      "reservoir_audit": {
+        "A": {
+          "allocated_Mt": 320.0,
+          "printed_capacity_Mt": 400,
+          "rate_limit_exceedance_years": {
+            "6": 60.0,
+            "7": 60.0
+          }
+        },
+        "B": {
+          "allocated_Mt": 680.0,
+          "printed_capacity_Mt": 660,
+          "rate_limit_exceedance_years": {
+            "14": 80.0
+          }
+        },
+        "C": {
+          "allocated_Mt": 160.0,
+          "printed_capacity_Mt": 180,
+          "rate_limit_exceedance_years": {
+            "21": 60.0
+          }
+        }
+      },
+      "scope": "literal table replay; not corrected or physically validated scheduling"
+    }
+  ]
+}

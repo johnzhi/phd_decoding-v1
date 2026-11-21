@@ -1,0 +1,665 @@
+{
+  "study_id": "B3-11",
+  "source_sha256": "92258aa52b9656993478e2dda310b81aa97fd44394c6b6b976a7b642eda4239a",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All11 pages were read and visually inspected, including11 figures,8 tables and25 bibliography entries. The hypothetical aggregate targets and all19 numerical CSCA rows are independently reconstructed. Literal detailed-allocation replays expose plant/year and capacity conflicts; they are not silently repaired. The underlying25 cited sources, public supplements and author clarifications remain unverified. This is partial method reproduction, not complete physical/model verification.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "original_model_status": "CSCA_targets_reproduced_detailed_allocations_on_hold",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Metadata, abstract and1.Introduction",
+      "assessment": "Ooi,Foo,Ng,Tan,2013,ChemEngResDesign91,2721–2731. Graphical time/capacity pinch planning illustrated with hypothetical data. Literature covers capture technologies/energy penalties, storage/EOR, temporal optimisation and resource-service conventions. This paper's proposed method is graphicalCSCC plus algebraicCSCA, not a solvedMILP."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2.Problem statement",
+      "assessment": "Reservoirs supply disposal service; plants demand that service. CO2 flows in the opposite direction. Reservoir development must precede use; unused storage service can be carried forward. Plants cannot postpone capturedCO2 disposal. Stable pairing is a heuristic except when capacity/life forces a change; economic/geographic evaluation is outside the demonstrated model."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "3.Carbon storage composite curve",
+      "assessment": "Hypothetical plants total700Mt versus600Mt reservoirs. Time/cumulative-load graph is shifted horizontally to a time pinch. Claimed external200Mt, internal matching500Mt, excess100Mt are independently recoverable from the input timing. No instantaneous injectivity constraint is demonstrated."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "4.Case study",
+      "assessment": "Three hypothetical reservoirs nominally1240Mt versus1200Mt demand; annual staircaseCSCC identifies40Mt additional service and80Mt excess despite positive net capacity. Inclusive annual-bin counts apply to Tables3/4, unlike continuous-duration hypotheticalTable1."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "scope": "5.Cascade analysis for additional storage and excess capacity targeting",
+      "assessment": "CSCA sums per-time source/demand increments, cascades differences, and adds the magnitude of the most-negative prefix balance. Explicit one-step lag: source developedTk is usableTk+1. Independent arithmetic matches all19Table6 supply/demand/feasible-carry rows; FAD40Mt,FEX80Mt."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "6.Scheduling for additional and excess storage",
+      "assessment": "GCC transfers horizontal feasible-CSCC gaps, removes internal time pockets and identifies external40Mt at plottedyear7, pinchyear8, excess20Mt/y inyears9–11 and20Mt atyear22. Table allocations place external flows inyear8. Boundary-versus-bin timing convention needs explicit reconciliation before operational use."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "scope": "7.Detailed allocation and matching",
+      "assessment": "DetailedCSCCs yield two stated10-connection options. All Table7/8 rows and diagrams inspected. Literal replays do not close per-plant demand; some exceed Table3 rates, and Option2 exceeds reservoirB total capacity. Do not repair schedules from plot/prose by assumption."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        10
+      ],
+      "scope": "8.Conclusion",
+      "assessment": "Decision-support targets and possible routes, with economics/environmental/geographic evaluation deferred. Future work explicitly includes multi-region systems and injection-rate limits. Therefore cascade service accounting is not a verified pressure-constrained injection schedule."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "References and document completeness",
+      "assessment": "All25 bibliography entries read and roles recorded below; original source support remains pending. No dedicated nomenclature, numbered equation series, appendix, embedded supplement or model-code section in the retained11-page paper."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        2
+      ],
+      "object": "Figure1 service/CO2 direction diagram and caption",
+      "inspection": "Reservoir box isSource, emitting plant isSink for disposal service. Dashed service arrow points reservoir→plant; solid capturedCO2 arrow points plant→reservoir. AttributionTan2008; this convention is opposite physical-material source/sink language inB4-05."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        3
+      ],
+      "object": "Figure2 panels(a)/(b), axes, arrows, labels and caption",
+      "inspection": "Vertical year axis increases downward0–50; horizontalCO2 load0–800Mt. Panel(a) separates reservoirA/B capacities300Mt each atyears10/30 and plantA/B demand slopes. Panel(b) blue source staircase versus red demand composite, matching arrows, external200Mt atleft, matching500Mt, excess100Mt atright. Service arrows opposeCO2 movement. These are temporal cumulative capacities, not pressure/rate observations."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        5
+      ],
+      "object": "Figure3 case-studyCSCC and caption",
+      "inspection": "Downward year axis1–22; cumulative-load horizontal ticks through1400Mt. Red hatchedSource and solid-blueDemand legend. Annual staircase inputs derive from Tables3/4; total1240 versus1200. No geographical axis or measured pressure appears."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        5
+      ],
+      "object": "Figure4 feasibleCSCC, annotations and caption",
+      "inspection": "SameSource/Demand legend andtime/load axes; source horizontally offset. Annotated external40Mt, pinchyear8, green above/below-pinch ellipses and excess80Mt. Horizontalshift is an accounting target, not demonstrated extra reservoir capacity."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        5
+      ],
+      "object": "Figure5 cascade block diagram and caption",
+      "inspection": "Time stepsTk/Tk+1, incoming sourceΣFSRi, outgoing demandΣFSKj and vertical carryFC,k−1→FC,k→FC,k+1 arrows read. This depicts the unnumbered recurrence used for independentCSCA reconstruction."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        7
+      ],
+      "object": "Figure6 GCC multi-panel construction and caption",
+      "inspection": "Left source/demand staircase with horizontal gap arrows, middle rawGCC and right shaded-pocketGCC share downward year1–22. Right annotations: externalyear7, time pinchyear8, excessyears9–11 and22; purple-shaded time pockets represent internally matched service. Fine numerical curve positions are not digitised; Table6 supplies exact accounting values."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        7
+      ],
+      "object": "Figure7 balanced/detailedCSCC and caption",
+      "inspection": "Red source/blue demand staircases plus yellow external/spare slots. External reservoirD insertion nearplottedyear7, total excess60Mt inyears9–11, final20Mt slot. Caption calls this detailedCSCCOption1, while source-specific decomposition follows inFig8."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        8
+      ],
+      "object": "Figure8 detailedOption1 time composite, legend and caption",
+      "inspection": "Separate reservoirA orange,B blue-dot,C purple-cross,D green; demandcoalA orangehatch,NGbluehatch,oilredhatch,coalBgreenvertical. Downwardyear1–22 andcumulativeCO2 load axes. External40 and60Mt excess slot annotations read. Exact table-to-panel allocation reconciliation remains open becauseTable7 has contradictory year21flows."
+    },
+    {
+      "id": "F09",
+      "pages": [
+        8
+      ],
+      "object": "Figure9Option1 topology and caption",
+      "inspection": "ReservoirA/B/C/D left; coalA/NG/oil/coalB and spare capacity right; solidCO2 arrows right→left and dashedspare-capacity association. Colours/patterns correspond toFig8. Connectivity is qualitative; arrows carry no rate/time labels. The stated10distinct plant-reservoir pairs agree with Table7'sunique pairs, despite its numerical conflicts."
+    },
+    {
+      "id": "F10",
+      "pages": [
+        9
+      ],
+      "object": "Figure10Option2 detailedCSCC, legend, annotations and caption",
+      "inspection": "Same reservoir/demand pattern legend; redistributed source segments, externalDslot and60Mt excessyears9–11. Per-year allocations cannot be assumed from diagram to overwrite literalTable8. Source/life delay and operational rates remain separate questions."
+    },
+    {
+      "id": "F11",
+      "pages": [
+        9
+      ],
+      "object": "Figure11Option2 topology and caption",
+      "inspection": "Same four reservoir/four plant nodes andspare-capacity block. Ten statedplant-reservoir pairs; altered dashedspare links relative toFig9. These diagrams do not establish least-cost routes or pressure-feasible service."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        3
+      ],
+      "object": "Table1 hypotheticalplant data, all headers/cells",
+      "inspection": "A0–30,30years,10Mt/y,300Mt; B10–50,40years,10Mt/y,400Mt; total700Mt. Durations areend−start here; do not apply later inclusive-bin convention to these rows."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        3
+      ],
+      "object": "Table2 hypotheticalreservoir availability/capacity",
+      "inspection": "ReservoirAavailableyear10,300Mt; Bavailableyear30,300Mt; total600Mt. HeaderPlants is printed even though rows are reservoirs. No injection rate or reservoir end date here."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        4
+      ],
+      "object": "Table3 case reservoirs, all headers/cells",
+      "inspection": "A3–12,10annualbins,40Mt/y,400Mt; B8–18,11bins,60Mt/y,660Mt; C13–21,9bins,20Mt/y,180Mt; total1240Mt. Nominalrate×inclusivebins reproduces eachcapacity; it does not validate geology or enforce the rate in later allocations."
+    },
+    {
+      "id": "T04",
+      "pages": [
+        4
+      ],
+      "object": "Table4 case plant segments and merged cells",
+      "inspection": "CoalA5–18,14bins,40Mt/y,560Mt; gas6–15,10bins,20Mt/y,200Mt; oil8–15,8bins,20Mt/y,160Mt and16–17,2bins,40Mt/y,80Mt; coalB18–19,2bins,40Mt/y,80Mt and20–21,2bins,60Mt/y,120Mt. Total1200Mt. Oil/coalB each span two rate rows."
+    },
+    {
+      "id": "T05",
+      "pages": [
+        6
+      ],
+      "object": "Table5 symbolicCSCA framework and caption",
+      "inspection": "Six columns:k,Tk,ΣFSKj,ΣFSRi,netΣFSRi−ΣFSKj,andFT,k/FC,k cascade notation. FAD enters top;FC,k carries to next time; finalFEX. HeaderFT,k versus bodyFC,k is retained as notation ambiguity. No numbered equations accompany the table."
+    },
+    {
+      "id": "T06",
+      "pages": [
+        6
+      ],
+      "object": "Table6 all19 numerical rows, headers, pinch andend labels",
+      "inspection": "Years4–22; independent source/demand arrays and all19feasible carries preserved in evidence/comprehensive_review_inputs/B3-11.json. Carries80,80,60,40,0,20,40,60,80,100,100,100,100,100,100,140,100,60,80; FAD40,zero pinch afteryear8,FEX80. PrintedFC,k headerMt/y conflicts with cumulativecapacityMt interpretation; analyst output usesMt explicitly."
+    },
+    {
+      "id": "T07",
+      "pages": [
+        9
+      ],
+      "object": "Table7Option1 completeallocation rows/caption/merged cells",
+      "inspection": "Literal13rate segments manually transcribed, including repeatedB/CcoalB entries: B18–19at20,B20–21at60,C18–19at20,C21at60. This duplicates60MtcoalB inyear21. Full source/destination/duration/rate rows retained in the inputJSON; no row is dropped as a presumed typo."
+    },
+    {
+      "id": "T08",
+      "pages": [
+        10
+      ],
+      "object": "Table8Option2 completeallocation rows/caption/merged cells",
+      "inspection": "Literal16rate segments transcribed. CoalA→A5–7at40,8–9at20,11–13at40; →B9at20,14–18at40. Other rows repeat Option1, including coalB year21duplicate. MissingcoalA20Mt inyear8 and40Mt inyear10 offset extra60MtcoalB in aggregate but violate individual annual demand. All cells retained literally."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        5,
+        6
+      ],
+      "printed": "Table5/net-source expression: (ΣiFSRi−ΣjFSKj)k; no numbered equation.",
+      "check": "Positiveincrement denotes surplus service, negative denotes deficit. With annualrate inputs, integration overone-year bins is needed to obtainMt increments."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        5,
+        6
+      ],
+      "printed": "Verbal cascade ofsurplus/deficit fromeachtimeinterval; Figure5andTable5 showFC,k carry.",
+      "check": "Analyst reconstructionCk=C(k−1)+(supply_k−demand_k)Δt_k. This formula is derived from the described algorithm, not quoted as a numbered author equation. DefaultΔt=1year is explicit in reproduction."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        6,
+        7
+      ],
+      "printed": "Largestdeficit provides minimumrequiredstorage; recascade withFAD; lastfeasiblecarry givesFEX.",
+      "check": "Analyst reconstructionFAD=max(0,−minprefixC); FEX=FAD+Σsupply−Σdemand. All19rows match40Mt/80Mt under the source'sone-step availability lag. Finite-rate geological feasibility does not follow from a bankable service carry."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        3,
+        4
+      ],
+      "printed": "Tableload/capacity arithmetic, not a numbered formula.",
+      "check": "Rate×duration matches Tables1/3/4 only with their respective continuous versusinclusiveannual conventions. Hypotheticaltiming yields additional200Mt,internal500Mt,excess100Mt. Maincasecapacity1240−demand1200=40Mt net; external40 plusnet40 explains excess80."
+    }
+  ],
+  "variables": [
+    "i indexes reservoir/service sources; j indexes power-plant/service demands; k indexes steps1…n; Tk is availability time(year). Material CO2 direction reverses the service-source convention. ReservoirA and plantA names occur in two distinct examples and must not be mixed.",
+    "FSRi denotes storage-service source capacity/increment; FSKj demand capacity/increment. Source descriptions mix capacity language and Mt/year rate headers. FC,k is cumulative carry, FAD additional storage, FEX excess storage. See the explicit rate integration in the reconstruction.",
+    "Hypothetical Table1 uses end−start continuous durations. Case Tables3/4 use inclusive annual bins. CSCA development at Tk becomes usable at Tk+1; the reconstruction shifts reservoir intervals by one year without shifting plant demand. This is accounting, not measured well availability.",
+    "Unused storage service is bankable in the cascade; captured plant demand requires immediate disposal. Banking unused annual injection allowance does not establish physical injectivity. No pressure, temperature, fluid/PVT, relative permeability, wells, geomechanics, actual plant stream, capture utility, transport energy or lifecycle inventory is supplied.",
+    "Detailed allocations seek to minimise changes of plant–reservoir pairing as a heuristic; no economic objective, route distance/cost data, solver, optimality certificate or uncertainty distribution is provided. Nearby region supplies hypothetical external reservoirD; its pressure-constrained physical service is not established."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Retrofit reducesemissions80–90%,raisesgenerationcost40–60%; geologicalstorage/EOR andhistoricalenergyoutlook providecontext.",
+      "assessment": "Attributed toIPCC/IEA/otherreferences; primaryboundary,year,energycompensation andEOR accounting notverified. No currentlocalfactor istransferred."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        2
+      ],
+      "claim": "PriorLP/MILP source-sink work handles temporal,rate,capacity andenergyconstraints.",
+      "assessment": "The paper attributesoptimisation toFoo/Pękala/Tan/Lee,whileproposinggraphicalCSCC/algebraicCSCA itself. This contradictsB4-05'sspecific description ofOoi2013 asMILP; verify thoseotheroriginals separately."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Hypothetical700Mtdemand/600Mtsupply needs200Mtadditionalstorage andleaves100Mtexcess,with500Mtmatchedinternally.",
+      "assessment": "Independently reproduced fromcontinuous plantintervals andreservoiropeningevents. Demonstrates timingdeficitwithsimultaneousexcess, notgeological capacityvalidation."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        4,
+        5,
+        6,
+        7
+      ],
+      "claim": "Maincase1240Mtsupply/1200Mtdemand needs40Mtadditionalservice andleaves80Mt excess.",
+      "assessment": "IndependentannualCSCA matchesall19Table6rows exactly underone-steplag. Aggregatecapacityalone wouldmiss thetimingdeficit. Resultdepends onservicecarry andisnot aphysicallyrate-constrainedstorageschedule."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "GCCprovidesactualexternal/excesstiming:externalyear7,pinch8,excessyears9–11 and22.",
+      "assessment": "Annotations/prose read. Detailedtables useexternalDyear8; a boundary/bin convention needsclarification. Exactoperatingdate cannotbe inferred."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Option1gives10connections andspare60Mt inreservoirBplus20Mtfinal.",
+      "assessment": "Unique-paircount10matches. LiteralTable7allocates1260Mt versus1200Mtdemand,withcoalB120Mt inyear21 versusrequired60. ItsBallocation660Mt leavesno60Mtspare againstBcapacity660. Physicalrate ceilings are alsoexceeded. Keepdetailednumericalclaims onhold."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Option2gives10connections,spareAyear10 andByears9/11.",
+      "assessment": "Unique-paircount10matches. LiteralTable8totals1200MtbutcoalA isshort20Mt atyear8 and40Mt atyear10,coalBoversupplied60Mt atyear21,andBtotal680 exceeds660Mt. Aggregatetotalclosure doesnotvalidate allocations; noassumedrepair."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        10
+      ],
+      "claim": "CSCC/CSCA arepreliminarydecisiontools; detailed economics/environmentassessment,multi-regionextension andinjection-rateconstraints remainfuturework.",
+      "assessment": "This explicitlimitation controlsPaper1transfer. The reproducedcascade can supportconceptualtime-windowdiscussion,notactualannualmaximuminjection orleast-costregionalallocation."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        10
+      ],
+      "citation": "Bachu, S.; Adams, J.J. (2003). Sequestration of CO2 in geological media in response to climate change: capacity of deep saline aquifers to sequester CO2 in solution. Energy Conversion and Management 44, 3151–3175.",
+      "role": "Saline-aquifer storage context. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        10
+      ],
+      "citation": "Chew, M.L.; Foo, D.C.Y. (2009). Automated targeting for inter-plant water integration. Chemical Engineering Journal 153(1–3), 23–36.",
+      "role": "Future multi-region/interplant analogy. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        10
+      ],
+      "citation": "El-Halwagi, M.M. (2006). Process Integration. Academic Press, NY.",
+      "role": "Mass-integration and concentration-driving-force analogy. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        10
+      ],
+      "citation": "Foo, D.C.Y. (2012). Process Integration for Resource Conservation. CRC Press, Boca Raton, FL.",
+      "role": "Resource/cascade method basis. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        10
+      ],
+      "citation": "Foo, D.C.Y.; Manan, Z.A.; Tan, Y.L. (2006). Use cascade analysis to optimize water networks. Chemical Engineering Progress 102(7), 45–55.",
+      "role": "Material-cascade analogy. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        10
+      ],
+      "citation": "Foo, D.C.Y.; Ng, D.; Tan, K.S.; Smith R, R.R. (author list as printed) (2010a). Automated targeting technique to carbon-constrained planning for carbon sequestration retrofit in the power sector. International Conference on Applied Energy, Singapore.",
+      "role": "Carbon/energy planning LP context; printed author list needs checking. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        10
+      ],
+      "citation": "Foo, D.C.Y.; Hallale, N.; Tan, R.R. (2010b). Optimise Shift Scheduling Using Pinch Analysis, pp48–52, www.che.com.",
+      "role": "Human-resource service/time analogy. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        10
+      ],
+      "citation": "Heijungs, R.; Suh, S. (2002). The Computational Structure of Life Cycle Assessment. Kluwer, Drodrecht (as printed).",
+      "role": "General service-source/sink convention. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        10
+      ],
+      "citation": "IEA (2009a). World Energy Outlook 2009, executive summary, p4.",
+      "role": "Historical 2007–2030 outlook; not a current forecast. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        10
+      ],
+      "citation": "IEA (2009b). Energy Technology essentials. www.iea.org/Textbase/techno/essentials.htm (accessed April 2012).",
+      "role": "Generation-cost penalty; exact document and boundary need checking. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        10
+      ],
+      "citation": "Koide, H.; Tazaki, Y.; Noguchi, Y.; Nakayama, S.; Iijima, M.; Ito, K.; Shindo, Y. (1999). Subterranean containment and long term storage of carbon dioxide in unused aquifers and in depleted natural gas reservoirs. Energy Conversion and Management 33(5–8), 619–626 (as printed).",
+      "role": "Storage-feasibility context; printed bibliographic details need checking. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        11
+      ],
+      "citation": "Lee, J.-Y.; Chen, C.-L. (2012). Comments on Continuous-Time Optimization Model for Source–Sink Matching in Carbon Capture and Storage Systems. Industrial & Engineering Chemistry Research 51, 11590–11591.",
+      "role": "Critique of the prior continuous-time optimisation model. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        11
+      ],
+      "citation": "Linnhoff, B.; Townsend, D.W.; Boland, D.; Hewitt, G.F.; Thomas, B.E.A.; Guy, A.R.; Marshall, R.H. (1982). A User Guide on Process Integration for the Efficient Use of Energy. IChemE, Rugby.",
+      "role": "Thermal-pinch analogy and time-pocket construction. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        11
+      ],
+      "citation": "Manan, Z.A.; Tan, Y.L.; Foo, D.C.Y. (2004). Targeting the minimum water flowrate using water cascade analysis technique. AIChE Journal 50(12), 3169–3183.",
+      "role": "Material-cascade derivation. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        11
+      ],
+      "citation": "Metz, B.; Davidson, O.; de Coninck, H.C.; Loos, M.; Meyer, L.A. (eds) (2005). IPCC Special Report on Carbon Dioxide Capture and Storage. Cambridge University Press, 442pp.",
+      "role": "80–90% emissions context; comparator and boundary need checking. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        11
+      ],
+      "citation": "Pękala, Ł.M.; Tan, R.R.; Foo, D.C.Y.; Jeżowski, J.M. (2010). Optimal energy planning models with carbon footprint constraints. Applied Energy 87(6), 1903–1910.",
+      "role": "Prior energy/carbon-footprint optimisation. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        11
+      ],
+      "citation": "Tan, R.R.; Aviso, K.B.; Bandyopadhyay, S.; Ng, D.K.S. (2012). A continuous-time optimization model for source–sink matching in carbon capture and storage systems. Industrial & Engineering Chemistry Research 51, 10015–10020.",
+      "role": "Prior continuous-time source–sink optimisation. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        11
+      ],
+      "citation": "Tan, R.R.; Aviso, K.B.; Bandyopadhyay, S.; Ng, D.K.S. (2013). Optimal source–sink matching in carbon capture and storage systems with time, injection rate and capacity constraints. Environmental Progress & Sustainable Energy, 411–416.",
+      "role": "Prior time/rate/capacity-constrained optimisation. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        11
+      ],
+      "citation": "Tan, R.R.; Culaba, A.B.; Aviso, K.B. (2008). A fuzzy linear programming extension of the general matrix-based life cycle model. Journal of Cleaner Production 16, 1358–1367.",
+      "role": "Service convention and Figure1 attribution. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        11
+      ],
+      "citation": "Tan, R.R.; Ng, D.K.S.; Foo, D.C.Y.; Aviso, K.B. (2010). A crisp and fuzzy integer programming models for optimal carbon sequestration retrofit in the power sector. Chemical Engineering Research and Design 88, 1580–1588.",
+      "role": "Power-retrofit and energy-penalty optimisation. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        11
+      ],
+      "citation": "Turk, G.A.; Cobb, T.B.; Jankowski, D.J.; Wolsky, A.M.; Sparrow, F.T. (1987). CO2 transport: a new application of the assignment problem. Energy 12, 123–130.",
+      "role": "Early integer assignment/EOR model. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        11
+      ],
+      "citation": "US Department of Energy (2012). Enhanced oil recovery program. www.fossil.energy.gov/programs/oilgas/eor/index.html (accessed April 2012).",
+      "role": "EOR context and historical programme version. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        11
+      ],
+      "citation": "Wall, T.F.; Liu, Y.; Spero, C.; Elliot, L.; Khare, S.; Rathnam, R.; Zeenathal, F.; Moghtaderi, B.; Buhre, B.; Sheng, C.; Gupta, R.; Yamada, T.; Makino, K.; Yu, J. (2009). An overview on oxy fuel coal combustion state of the art research and technology development. Chemical Engineering Research and Design 87, 1003–1016.",
+      "role": "Oxyfuel technology context. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        11
+      ],
+      "citation": "Williams, J.H.; DeBenedictis, A.; Ghanadan, R.; Mahone, A.; Moore, J.; Morrow III, W.R.; Price, S.; Torn, M.S. (2012). The Technology path to deep greenhouse gas emissions cuts by 2050: the pivotal role of electricity. Science 335, 53 (as printed).",
+      "role": "Technology-wedge context; complete page range needs checking. Primary text and claim support remain unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        11
+      ],
+      "citation": "Yang, H.; Xu, Z.; Fan, M.; Gupta, R.; Slimane, R.B.; Bland, A.E.; et al. (2008). Progress in carbon dioxide separation and capture: a review. Journal of Environmental Sciences 20, 14–27.",
+      "role": "Capture-technology review. Primary text and claim support remain unverified."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        5,
+        6,
+        7,
+        9
+      ],
+      "status": "BOUNDARY_RESTRICTION",
+      "finding": "CSCA carries unused annual storage service forward. Literal Table7 sends60Mt/year toA inyears6/7 versus nominal40,80 toB atyear14 versus60,and60 toC atyear21 versus20. The conclusion defers injection-rate constraints.",
+      "action": "Do not adopt the cascade or detailed schedules as physical annual injection limits. Apply pressure/rate constraints separately."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        4,
+        9
+      ],
+      "status": "HOLD_ALLOCATION_CONFLICT",
+      "finding": "Literal Table7 sends coalB120Mt inyear21 although Table4 requires60; total1260 versus1200Mt. Its B allocation660 equals capacity660, conflicting with the claimed60Mt B spare.",
+      "action": "Preserve Table7 literally; obtain author clarification, erratum or a complete independent allocation. No presumed duplicate row is deleted."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        4,
+        10
+      ],
+      "status": "HOLD_ALLOCATION_CONFLICT",
+      "finding": "Table8 totals1200Mt but coalA is short20Mt(year8) and40Mt(year10),coalB has60Mt extra(year21),and B allocation680 exceeds660Mt.",
+      "action": "Aggregate closure does not validate the allocation. Do not repair durations or rows from plots by assumption."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        4,
+        5,
+        7,
+        8,
+        9
+      ],
+      "status": "OPEN_TIME_CONVENTION",
+      "finding": "Inclusive annual case bins, the one-step reservoir lag, GCC external year7 and allocation external year8 use differing time/boundary notation.",
+      "action": "Reconcile interval boundaries before assigning operational dates. Do not infer well start dates."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        6
+      ],
+      "status": "OPEN_UNIT_NOTATION",
+      "finding": "Cumulative FC,k has a printed Mt/year header rather than mass Mt; Table5 header FT,k differs from the FC,k carry labels.",
+      "action": "Retain the literal headers. The reconstruction explicitly integrates rates and declares mass units; clarify general interval conventions."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        1,
+        2,
+        10,
+        11
+      ],
+      "status": "PENDING_PRIMARY_REFERENCES",
+      "finding": "The paper’s own25 references remain unverified, even though this paper has now been checked as a primary source cited by B4-05.",
+      "action": "Checking one citation edge does not close the entire literature chain."
+    }
+  ],
+  "supplements": "No embedded attachments or supplement/code section identified locally. Public availability and author implementation remain unverified; external retrieval is paused pending the requested Chrome connection. Reproduction here uses explicit retained tables, not downloaded or guessed code.",
+  "reproduction": "Independent code reproduce_ooi_cascade.py and the manually checked input JSON reconstruct the hypothetical 200/100/500 Mt targets and all19 main-case Table6 rows (40 Mt additional,80 Mt excess). A standalone PNG/PDF shows derived service increments and carry. Literal Table7/8 replays flag plant-year, capacity and rate conflicts; they are not corrected models. Graphical panels and detailed allocations are not all reproduced as valid physical solutions. No reservoir or MILP author implementation is claimed reproduced.",
+  "paper1_use": "Conceptual support for temporal deficits despite surplus aggregate capacity. Independent aggregate CSCA checks support40/80 targets under explicit accounting only. No actual annual maximum injectivity, geological calibration, least-cost allocation or GHG credit is transferred. B4-05’s Ooi MILP attribution is now checked against this primary text and flagged; its other literature edges remain open.",
+  "next_steps": "Obtain clarification or errata for Tables7/8, time/units and any supplements; verify all25 underlying references. Reconcile figures against literal allocation conflicts before any full reproduction claim; use independently constrained flow/reservoir models for physical feasibility. Next local corpus priority: B4-06 with its retained supplement."
+}
