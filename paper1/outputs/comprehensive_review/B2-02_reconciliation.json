@@ -1,0 +1,19 @@
+{
+  "study_id": "B2-02",
+  "source_sha256": "4eac76cfc1d3c26ceffec2ab192e4f02358433e5057dda00b9798189925abb64",
+  "checks": 31,
+  "component_rows": 27,
+  "reconstructed": "Eq1 and Eq2 summation components; literal expanded-form counterexample",
+  "native_DAC_cost_LCA_IAM_or_feedback_model_reproduced": false,
+  "original_source_verification": false,
+  "supplement_availability_verified": false,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "component_cost_shares_and_complete_cases": null,
+    "heat_electricity_cooling_and_transport_inventory": null,
+    "reservoir_pressure_rate_and_retention": null,
+    "author_coupling_code_scenario_data_and_convergence": null,
+    "licensed_background_inventory": null,
+    "original_source_and_supplement_verification": null
+  }
+}

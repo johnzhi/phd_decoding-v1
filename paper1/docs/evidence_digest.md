@@ -244,7 +244,7 @@ Transfer limits: Economic prior art, not a matched climate-benefit result; 15–
 
 ### B2-02 — Prospective techno-economic and life cycle assessment a review across established and emerging carbon capture, storage and utilization CCS CCU technologies
 
-. Identifier: 10.3389/fenrg.2024.1412770. [PDF](../papers/B2-02.pdf).
+Wang, Robinson & Papadokonstantakis (2024). Identifier: 10.3389/fenrg.2024.1412770. [PDF](../papers/B2-02.pdf).
 
 Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 11,12,13,20.
 
@@ -252,7 +252,7 @@ Review of prospective TEA/LCA across technology maturity, scale-up, hybrid costi
 
 Comparisons depend on maturity, energy integration, functional-unit matching and future backgrounds. The review reports a cited heat-integration study where annual averaging differs materially from multi-period optimisation. A process in an integrated-assessment model need not map unambiguously to one inventory activity.
 
-Transfer limits: This is secondary methodological synthesis, not measured heat/electricity or a supplier-matched inventory for our source. Cited percentages are context, not transferable uncertainty ranges or probability distributions. Static official factors do not become complete prospective backgrounds by virtue of being official.
+Transfer limits: All26 main pages, seven figures, three tables, two numbered equations, glossary and192 references read/inspected under the comprehensive standard. The93-claim record and31 limited diagnostics reconstruct learning components, not native DAC/LCA/IAM or feedback models. Eq2 expanded denominator, Table1 capacity/cost/storage bases, Table3 units, announcement/operating status, TRL bands, carbon fate and citation attributions remain qualified. All192 originals and ten dependencies remain unverified. No complete same-case capture-to-ship utility, pressure-constrained reservoir service or lifecycle/retention input follows. See prospective_assessment_comprehensive_findings.md. Static official factors alone do not constitute complete prospective backgrounds.
 
 ### B2-03 — Multi-period Carbon Capture, Utilization, and Storage (CCUS) infrastructure design and planning under uncertainty
 

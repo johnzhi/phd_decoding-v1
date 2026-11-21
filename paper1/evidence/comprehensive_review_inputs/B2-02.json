@@ -1,0 +1,312 @@
+{
+  "study_id": "B2-02",
+  "source_path": "papers/B2-02.pdf",
+  "source_sha256": "4eac76cfc1d3c26ceffec2ab192e4f02358433e5057dda00b9798189925abb64",
+  "DOI": "10.3389/fenrg.2024.1412770",
+  "provenance": "Retained original; all26 pages text-read and rendered,7 figures and3 tables inspected. Table1 shared cells explicitly expanded with lineage; literal slash/comma and missing values retained. All192 cited originals and10 native data/model dependencies unverified.",
+  "numbered_equations": [
+    {
+      "id": "E01",
+      "page": 9,
+      "literal": "LR = 1 - 2^(-b)"
+    },
+    {
+      "id": "E02",
+      "page": 9,
+      "literal": "C(xt) = sum_i C0i*(xti/x0i)^(-bi) = C01*(xt1/x01)^(-b1) + C02*(xt2/x01)^(-b2) + ... + C0n*(xtn/x0n)^(-bn)",
+      "qualification": "Expanded second denominator literally x01, not x02. Summation and expanded forms differ unless initial capacities coincide or b2=0; no silent correction."
+    }
+  ],
+  "typology_learning_rates": [
+    {
+      "type": 1,
+      "mean": 0.22,
+      "standard_deviation": 0.05
+    },
+    {
+      "type": 2,
+      "mean": 0.13,
+      "standard_deviation": 0.04
+    },
+    {
+      "type": 3,
+      "mean": 0.05,
+      "standard_deviation": 0.04
+    }
+  ],
+  "table1": [
+    {
+      "id": "T1R01",
+      "process": "Solid sorbent",
+      "TRL": 6,
+      "LR_capex_fixed_opex_literal": "10%/15",
+      "LR_variable_opex_literal": "5%",
+      "x0_tCO2": 3000000,
+      "C0_dollar_per_tCO2": 834,
+      "xt_MtCO2_literal": "15357",
+      "Ct_dollar_per_tCO2_literal": "96",
+      "location": "Global",
+      "reference": "Fasihi2019",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R02",
+      "process": "Liquid solvent",
+      "TRL": 5,
+      "LR_capex_fixed_opex_literal": "10%/15",
+      "LR_variable_opex_literal": "5%",
+      "x0_tCO2": 3000000,
+      "C0_dollar_per_tCO2": 931,
+      "xt_MtCO2_literal": "15737",
+      "Ct_dollar_per_tCO2_literal": "106",
+      "location": "Global",
+      "reference": "Fasihi2019",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R03",
+      "process": "DAC*",
+      "TRL": null,
+      "LR_capex_fixed_opex_literal": "5%/15",
+      "LR_variable_opex_literal": "",
+      "x0_tCO2": 3000000,
+      "C0_dollar_per_tCO2": 506,
+      "xt_MtCO2_literal": "5000",
+      "Ct_dollar_per_tCO2_literal": "179",
+      "location": "-",
+      "reference": "Becattini2021",
+      "storage_boundary_explicitly_unclear": true
+    },
+    {
+      "id": "T1R04",
+      "process": "DAC*",
+      "TRL": null,
+      "LR_capex_fixed_opex_literal": "10%/20",
+      "LR_variable_opex_literal": "",
+      "x0_tCO2": 1100,
+      "C0_dollar_per_tCO2": 419,
+      "xt_MtCO2_literal": "1,4",
+      "Ct_dollar_per_tCO2_literal": "195/105",
+      "location": "-",
+      "reference": "McQueen2021",
+      "storage_boundary_explicitly_unclear": true
+    },
+    {
+      "id": "T1R05",
+      "process": "Solid sorbent",
+      "TRL": 6,
+      "LR_capex_fixed_opex_literal": "10",
+      "LR_variable_opex_literal": "2%",
+      "x0_tCO2": 70312500,
+      "C0_dollar_per_tCO2": 238,
+      "xt_MtCO2_literal": "361793",
+      "Ct_dollar_per_tCO2_literal": "110",
+      "location": "Global",
+      "reference": "Hanna2021",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R06",
+      "process": "Liquid solvent",
+      "TRL": 5,
+      "LR_capex_fixed_opex_literal": "10",
+      "LR_variable_opex_literal": "2%",
+      "x0_tCO2": 6895000,
+      "C0_dollar_per_tCO2": 140,
+      "xt_MtCO2_literal": "313469",
+      "Ct_dollar_per_tCO2_literal": "112",
+      "location": "Global",
+      "reference": "Hanna2021",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R07",
+      "process": "Solid sorbent",
+      "TRL": 7,
+      "LR_capex_fixed_opex_literal": "15",
+      "LR_variable_opex_literal": "2.5%",
+      "x0_tCO2": 300000,
+      "C0_dollar_per_tCO2": 550,
+      "xt_MtCO2_literal": "10671",
+      "Ct_dollar_per_tCO2_literal": "386",
+      "location": "Global",
+      "reference": "Qiu2022",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R08",
+      "process": "Liquid solvent",
+      "TRL": 6,
+      "LR_capex_fixed_opex_literal": "15",
+      "LR_variable_opex_literal": "2.5%",
+      "x0_tCO2": 300000,
+      "C0_dollar_per_tCO2": 264,
+      "xt_MtCO2_literal": "10671",
+      "Ct_dollar_per_tCO2_literal": "123",
+      "location": "Global",
+      "reference": "Qiu2022",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R09",
+      "process": "Solid sorbent",
+      "TRL": 7,
+      "LR_capex_fixed_opex_literal": "14",
+      "LR_variable_opex_literal": "2.5%",
+      "x0_tCO2": 960,
+      "C0_dollar_per_tCO2": 2177,
+      "xt_MtCO2_literal": "1000",
+      "Ct_dollar_per_tCO2_literal": "170–730",
+      "location": "USA and six other countries",
+      "reference": "Young2023",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R10",
+      "process": "KOH-Ca looping",
+      "TRL": 6,
+      "LR_capex_fixed_opex_literal": "10",
+      "LR_variable_opex_literal": "2.5%",
+      "x0_tCO2": 980000,
+      "C0_dollar_per_tCO2": 375,
+      "xt_MtCO2_literal": "1000",
+      "Ct_dollar_per_tCO2_literal": "100–440",
+      "location": "USA and six other countries",
+      "reference": "Young2023",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R11",
+      "process": "KOH with BPMED",
+      "TRL": 4,
+      "LR_capex_fixed_opex_literal": "14",
+      "LR_variable_opex_literal": "2.5%",
+      "x0_tCO2": 46000,
+      "C0_dollar_per_tCO2": 1400,
+      "xt_MtCO2_literal": "1000",
+      "Ct_dollar_per_tCO2_literal": "450–1350",
+      "location": "USA and six other countries",
+      "reference": "Young2023",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R12",
+      "process": "MgO ambient weathering",
+      "TRL": 4,
+      "LR_capex_fixed_opex_literal": "10",
+      "LR_variable_opex_literal": "2.5%",
+      "x0_tCO2": 1100000,
+      "C0_dollar_per_tCO2": 500,
+      "xt_MtCO2_literal": "1000",
+      "Ct_dollar_per_tCO2_literal": "100–540",
+      "location": "USA and six other countries",
+      "reference": "Young2023",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R13",
+      "process": "Solid sorbent",
+      "TRL": 7,
+      "LR_capex_fixed_opex_literal": "9.7",
+      "LR_variable_opex_literal": "",
+      "x0_tCO2": 41000,
+      "C0_dollar_per_tCO2": 570,
+      "xt_MtCO2_literal": "500",
+      "Ct_dollar_per_tCO2_literal": "170–270",
+      "location": "USA",
+      "reference": "Pett-Ridge2023**",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R14",
+      "process": "KOH-Ca looping",
+      "TRL": 6,
+      "LR_capex_fixed_opex_literal": "3.9",
+      "LR_variable_opex_literal": "",
+      "x0_tCO2": 500000,
+      "C0_dollar_per_tCO2": 340,
+      "xt_MtCO2_literal": "500",
+      "Ct_dollar_per_tCO2_literal": "160–280",
+      "location": "USA",
+      "reference": "Pett-Ridge2023**",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R15",
+      "process": "Solid sorbent",
+      "TRL": 7,
+      "LR_capex_fixed_opex_literal": "8%/5",
+      "LR_variable_opex_literal": "",
+      "x0_tCO2": 4000,
+      "C0_dollar_per_tCO2": 1282,
+      "xt_MtCO2_literal": "1000",
+      "Ct_dollar_per_tCO2_literal": "281–579",
+      "location": "Global",
+      "reference": "Sievert2024**",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R16",
+      "process": "KOH-Ca looping",
+      "TRL": 6,
+      "LR_capex_fixed_opex_literal": "7%/5",
+      "LR_variable_opex_literal": "",
+      "x0_tCO2": 500000,
+      "C0_dollar_per_tCO2": 670,
+      "xt_MtCO2_literal": "1000",
+      "Ct_dollar_per_tCO2_literal": "226–544",
+      "location": "Global",
+      "reference": "Sievert2024**",
+      "storage_boundary_explicitly_unclear": false
+    },
+    {
+      "id": "T1R17",
+      "process": "CaO ambient weathering",
+      "TRL": 4,
+      "LR_capex_fixed_opex_literal": "10%/7",
+      "LR_variable_opex_literal": "",
+      "x0_tCO2": 1000,
+      "C0_dollar_per_tCO2": 2481,
+      "xt_MtCO2_literal": "1000",
+      "Ct_dollar_per_tCO2_literal": "230–835",
+      "location": "Global",
+      "reference": "Sievert2024**",
+      "storage_boundary_explicitly_unclear": false
+    }
+  ],
+  "table1_notes": [
+    "Header x0 is tCO2 and xt is MtCO2; same-capacity comparison requires1e6 conversion. Annual versus cumulative meaning and row-specific bases need originals.",
+    "x0/C0/TRL values and slashes are source transcription, not calibrated rates or uncertainty distributions. Comma1,4 is preserved without choosing decimal versus two target capacities.",
+    "Merged location/reference/target-capacity cells expanded only for their displayed source groups. No missing component weights inferred.",
+    "*: study does not clarify whether storage included. **: overall/aggregate learning rate based on component-based learning consumption (literal wording)."
+  ],
+  "analyst_case": {
+    "cost_unit": "arbitrary consistent cost per common capacity/service basis",
+    "initial_costs": [
+      100,
+      200
+    ],
+    "initial_capacities": [
+      10,
+      100
+    ],
+    "future_capacities": [
+      20,
+      200
+    ],
+    "learning_rates": [
+      0.2,
+      0.1
+    ],
+    "scope": "Synthetic algebra/unit counterexample only; not a DAC author case or forecast."
+  },
+  "missing": {
+    "component_cost_shares_and_complete_cases": null,
+    "heat_electricity_cooling_and_transport_inventory": null,
+    "reservoir_pressure_rate_and_retention": null,
+    "author_coupling_code_scenario_data_and_convergence": null,
+    "licensed_background_inventory": null,
+    "original_source_and_supplement_verification": null
+  },
+  "accepted_inputs_changed": false
+}
