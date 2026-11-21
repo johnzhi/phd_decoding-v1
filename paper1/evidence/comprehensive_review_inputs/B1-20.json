@@ -1,0 +1,585 @@
+{
+  "study_id": "B1-20",
+  "source_path": "papers/B1-20.pdf",
+  "source_sha256": "5bcd3ea93dce775fcc254ad13ba6e959617ff2c745635828fb1cc54b09b17602",
+  "DOI": "10.1016/j.ijggc.2025.104544",
+  "provenance": "Native text and all15 rendered pages read; values from Tables1–7 and magnified figure labels, not digitized curve fits. No native COSSMOS data supplied.",
+  "assumptions": {
+    "ship_tank_count": 3,
+    "tank_volume_m3": [
+      5840,
+      7300,
+      8760
+    ],
+    "reference_tank_volume_m3": 7300,
+    "terminal_volume_m3": 30000,
+    "initial_fill": 0.96,
+    "heel_fraction": 0.04,
+    "duration_h": 12,
+    "reference_mass_t": 24700,
+    "ship_liquid_density_kg_per_m3": [
+      1146,
+      1123,
+      1101
+    ],
+    "ship_vapor_density_kg_per_m3": [
+      18,
+      22,
+      26
+    ],
+    "ship_temperature_C": [
+      -49,
+      -44,
+      -40
+    ],
+    "terminal_liquid_density_kg_per_m3": [
+      1079,
+      1035,
+      989
+    ],
+    "terminal_vapor_density_kg_per_m3": [
+      31,
+      41,
+      52
+    ],
+    "terminal_temperature_C": [
+      -35,
+      -27,
+      -20
+    ],
+    "loading_rate_m3_per_h": 1724,
+    "discharging_rate_m3_per_h": 1679,
+    "pump_efficiency": 0.75,
+    "compressor_isentropic_efficiency": 0.8,
+    "electric_efficiency": 0.96,
+    "circuit_loss": 0.04,
+    "COP": 2.4,
+    "electric_price_EUR_per_kWh": 0.11,
+    "U_W_per_m2_K": 2000,
+    "seawater_deltaT_K": 7,
+    "pump_head_m": 140,
+    "pump_capacity_m3_per_h_per_tank": 600,
+    "pump_power_kW_range": [
+      100,
+      750
+    ],
+    "heater_capacity_m3_per_h": 4000,
+    "heater_area_range_m2": [
+      370,
+      2500
+    ],
+    "cost_a": 12003,
+    "cost_b": 0.603,
+    "cost_c": 1.011187,
+    "property_scope": "SRK mixture per referenced Northern Lights specification, not the pure-CO2 p-h chart; exact composition/state case missing"
+  },
+  "rows": [
+    {
+      "LP_bara": 7,
+      "MP_bara": 12,
+      "table4": {
+        "Q_MW": 15.9,
+        "LMTD_K": 63.1,
+        "area_m2": 126,
+        "cost_EUR": 253842
+      },
+      "table6": {
+        "vapor_t": 4051,
+        "liquid_t": 26563,
+        "compressor_kW": 1134,
+        "cooler_kW": 466,
+        "total_kW": 1600,
+        "specific_label_kWel_per_t": 0.7,
+        "cost_per_t_EUR": 0.08,
+        "cost_EUR": 2112,
+        "reliquefaction_kW": 3496,
+        "total_with_reliq_kW": 5096,
+        "specific_with_reliq_label_kWel_per_t": 2.3,
+        "cost_with_reliq_per_t_EUR": 0.25,
+        "cost_with_reliq_EUR": 6727
+      },
+      "table7": {
+        "vapor_t": 203,
+        "liquid_t": 24190,
+        "compressor_kW": 405,
+        "cooler_kW": 62,
+        "reliquefaction_kW": 204,
+        "subcooler_label_kW": 5344,
+        "total_kW": 6015,
+        "specific_label_kWel_per_t": 3.0,
+        "cost_per_t_EUR": 0.33,
+        "cost_EUR": 7940
+      }
+    },
+    {
+      "LP_bara": 7,
+      "MP_bara": 16,
+      "table4": {
+        "Q_MW": 25.4,
+        "LMTD_K": 58.5,
+        "area_m2": 217,
+        "cost_EUR": 367556
+      },
+      "table6": {
+        "vapor_t": 6741,
+        "liquid_t": 26077,
+        "compressor_kW": 4090,
+        "cooler_kW": 1548,
+        "total_kW": 5637,
+        "specific_label_kWel_per_t": 2.6,
+        "cost_per_t_EUR": 0.29,
+        "cost_EUR": 7441,
+        "reliquefaction_kW": 7966,
+        "total_with_reliq_kW": 13603,
+        "specific_with_reliq_label_kWel_per_t": 6.3,
+        "cost_with_reliq_per_t_EUR": 0.69,
+        "cost_with_reliq_EUR": 17956
+      },
+      "table7": {
+        "vapor_t": 271,
+        "liquid_t": 24919,
+        "compressor_kW": 1083,
+        "cooler_kW": 0,
+        "reliquefaction_kW": 449,
+        "subcooler_label_kW": 8964,
+        "total_kW": 10495,
+        "specific_label_kWel_per_t": 5.1,
+        "cost_per_t_EUR": 0.56,
+        "cost_EUR": 13854
+      }
+    },
+    {
+      "LP_bara": 7,
+      "MP_bara": 20,
+      "table4": {
+        "Q_MW": 33.7,
+        "LMTD_K": 54.7,
+        "area_m2": 308,
+        "cost_EUR": 475104
+      },
+      "table6": {
+        "vapor_t": 9303,
+        "liquid_t": 28746,
+        "compressor_kW": 5792,
+        "cooler_kW": 2177,
+        "total_kW": 7969,
+        "specific_label_kWel_per_t": 3.3,
+        "cost_per_t_EUR": 0.37,
+        "cost_EUR": 10519,
+        "reliquefaction_kW": 8538,
+        "total_with_reliq_kW": 16507,
+        "specific_with_reliq_label_kWel_per_t": 6.9,
+        "cost_with_reliq_per_t_EUR": 0.76,
+        "cost_with_reliq_EUR": 21790
+      },
+      "table7": {
+        "vapor_t": 360,
+        "liquid_t": 25860,
+        "compressor_kW": 1910,
+        "cooler_kW": 1,
+        "reliquefaction_kW": 736,
+        "subcooler_label_kW": 12046,
+        "total_kW": 14693,
+        "specific_label_kWel_per_t": 6.8,
+        "cost_per_t_EUR": 0.75,
+        "cost_EUR": 19394
+      }
+    },
+    {
+      "LP_bara": 8.5,
+      "MP_bara": 12,
+      "table4": {
+        "Q_MW": 10.4,
+        "LMTD_K": 60.8,
+        "area_m2": 86,
+        "cost_EUR": 200742
+      },
+      "table6": {
+        "vapor_t": 2784,
+        "liquid_t": 25584,
+        "compressor_kW": 531,
+        "cooler_kW": 251,
+        "total_kW": 782,
+        "specific_label_kWel_per_t": 0.4,
+        "cost_per_t_EUR": 0.04,
+        "cost_EUR": 1033,
+        "reliquefaction_kW": 2174,
+        "total_with_reliq_kW": 2956,
+        "specific_with_reliq_label_kWel_per_t": 1.4,
+        "cost_with_reliq_per_t_EUR": 0.15,
+        "cost_with_reliq_EUR": 3902
+      },
+      "table7": {
+        "vapor_t": 190,
+        "liquid_t": 24425,
+        "compressor_kW": 306,
+        "cooler_kW": 0,
+        "reliquefaction_kW": 167,
+        "subcooler_label_kW": 3558,
+        "total_kW": 4031,
+        "specific_label_kWel_per_t": 2.0,
+        "cost_per_t_EUR": 0.22,
+        "cost_EUR": 5321
+      }
+    },
+    {
+      "LP_bara": 8.5,
+      "MP_bara": 16,
+      "table4": {
+        "Q_MW": 19.8,
+        "LMTD_K": 56.3,
+        "area_m2": 176,
+        "cost_EUR": 323745
+      },
+      "table6": {
+        "vapor_t": 5317,
+        "liquid_t": 26087,
+        "compressor_kW": 1990,
+        "cooler_kW": 783,
+        "total_kW": 2773,
+        "specific_label_kWel_per_t": 1.3,
+        "cost_per_t_EUR": 0.14,
+        "cost_EUR": 3660,
+        "reliquefaction_kW": 4886,
+        "total_with_reliq_kW": 7659,
+        "specific_with_reliq_label_kWel_per_t": 3.5,
+        "cost_with_reliq_per_t_EUR": 0.39,
+        "cost_with_reliq_EUR": 10110
+      },
+      "table7": {
+        "vapor_t": 259,
+        "liquid_t": 23396,
+        "compressor_kW": 730,
+        "cooler_kW": -47,
+        "reliquefaction_kW": 326,
+        "subcooler_label_kW": 6644,
+        "total_kW": 7653,
+        "specific_label_kWel_per_t": 3.9,
+        "cost_per_t_EUR": 0.43,
+        "cost_EUR": 10102
+      }
+    },
+    {
+      "LP_bara": 8.5,
+      "MP_bara": 20,
+      "table4": {
+        "Q_MW": 27.9,
+        "LMTD_K": 52.6,
+        "area_m2": 266,
+        "cost_EUR": 434523
+      },
+      "table6": {
+        "vapor_t": 7732,
+        "liquid_t": 27364,
+        "compressor_kW": 3964,
+        "cooler_kW": 1529,
+        "total_kW": 5492,
+        "specific_label_kWel_per_t": 2.4,
+        "cost_per_t_EUR": 0.26,
+        "cost_EUR": 7250,
+        "reliquefaction_kW": 6889,
+        "total_with_reliq_kW": 12381,
+        "specific_with_reliq_label_kWel_per_t": 5.4,
+        "cost_with_reliq_per_t_EUR": 0.6,
+        "cost_with_reliq_EUR": 16343
+      },
+      "table7": {
+        "vapor_t": 346,
+        "liquid_t": 23620,
+        "compressor_kW": 1105,
+        "cooler_kW": -18,
+        "reliquefaction_kW": 459,
+        "subcooler_label_kW": 9245,
+        "total_kW": 10790,
+        "specific_label_kWel_per_t": 5.5,
+        "cost_per_t_EUR": 0.6,
+        "cost_EUR": 14243
+      }
+    },
+    {
+      "LP_bara": 10,
+      "MP_bara": 12,
+      "table4": {
+        "Q_MW": 5.5,
+        "LMTD_K": 58.7,
+        "area_m2": 47,
+        "cost_EUR": 140157
+      },
+      "table6": {
+        "vapor_t": 1732,
+        "liquid_t": 24917,
+        "compressor_kW": 197,
+        "cooler_kW": 123,
+        "total_kW": 319,
+        "specific_label_kWel_per_t": 0.2,
+        "cost_per_t_EUR": 0.02,
+        "cost_EUR": 422,
+        "reliquefaction_kW": 1091,
+        "total_with_reliq_kW": 1411,
+        "specific_with_reliq_label_kWel_per_t": 0.7,
+        "cost_with_reliq_per_t_EUR": 0.07,
+        "cost_with_reliq_EUR": 1862
+      },
+      "table7": {
+        "vapor_t": 190,
+        "liquid_t": 23910,
+        "compressor_kW": 111,
+        "cooler_kW": 34,
+        "reliquefaction_kW": 83,
+        "subcooler_label_kW": 1774,
+        "total_kW": 2001,
+        "specific_label_kWel_per_t": 1.0,
+        "cost_per_t_EUR": 0.11,
+        "cost_EUR": 2642
+      }
+    },
+    {
+      "LP_bara": 10,
+      "MP_bara": 16,
+      "table4": {
+        "Q_MW": 14.7,
+        "LMTD_K": 54.4,
+        "area_m2": 136,
+        "cost_EUR": 276852
+      },
+      "table6": {
+        "vapor_t": 4137,
+        "liquid_t": 25059,
+        "compressor_kW": 1191,
+        "cooler_kW": 496,
+        "total_kW": 1687,
+        "specific_label_kWel_per_t": 0.8,
+        "cost_per_t_EUR": 0.09,
+        "cost_EUR": 2226,
+        "reliquefaction_kW": 3366,
+        "total_with_reliq_kW": 5052,
+        "specific_with_reliq_label_kWel_per_t": 2.4,
+        "cost_with_reliq_per_t_EUR": 0.27,
+        "cost_with_reliq_EUR": 6669
+      },
+      "table7": {
+        "vapor_t": 260,
+        "liquid_t": 23057,
+        "compressor_kW": 452,
+        "cooler_kW": 23,
+        "reliquefaction_kW": 211,
+        "subcooler_label_kW": 4872,
+        "total_kW": 5557,
+        "specific_label_kWel_per_t": 2.9,
+        "cost_per_t_EUR": 0.32,
+        "cost_EUR": 7336
+      }
+    },
+    {
+      "LP_bara": 10,
+      "MP_bara": 20,
+      "table4": {
+        "Q_MW": 22.7,
+        "LMTD_K": 50.7,
+        "area_m2": 224,
+        "cost_EUR": 392118
+      },
+      "table6": {
+        "vapor_t": 6427,
+        "liquid_t": 26199,
+        "compressor_kW": 2711,
+        "cooler_kW": 1077,
+        "total_kW": 3788,
+        "specific_label_kWel_per_t": 1.7,
+        "cost_per_t_EUR": 0.19,
+        "cost_EUR": 5000,
+        "reliquefaction_kW": 5196,
+        "total_with_reliq_kW": 8983,
+        "specific_with_reliq_label_kWel_per_t": 4.1,
+        "cost_with_reliq_per_t_EUR": 0.45,
+        "cost_with_reliq_EUR": 11858
+      },
+      "table7": {
+        "vapor_t": 343,
+        "liquid_t": 23304,
+        "compressor_kW": 904,
+        "cooler_kW": 20,
+        "reliquefaction_kW": 385,
+        "subcooler_label_kW": 7486,
+        "total_kW": 8795,
+        "specific_label_kWel_per_t": 4.5,
+        "cost_per_t_EUR": 0.5,
+        "cost_EUR": 11609
+      }
+    }
+  ],
+  "figure6_heat_kWh_per_t_LP_major": [
+    [
+      8.3,
+      13.2,
+      17.5
+    ],
+    [
+      5.5,
+      4.4,
+      14.8
+    ],
+    [
+      3.0,
+      8.0,
+      12.3
+    ]
+  ],
+  "figure6_pump_kWh_per_t_LP_major": [
+    [
+      0.17,
+      0.3,
+      0.43
+    ],
+    [
+      0.12,
+      0.25,
+      0.39
+    ],
+    [
+      0.07,
+      0.21,
+      0.34
+    ]
+  ],
+  "figure7_VR_t": [
+    367,
+    442,
+    518
+  ],
+  "figure7_cooling_kWh_per_t": [
+    0.02,
+    0.019,
+    0.016
+  ],
+  "figure8_displaced_t_LP_major": [
+    [
+      658,
+      916,
+      1207
+    ],
+    [
+      648,
+      901,
+      1187
+    ],
+    [
+      636,
+      884,
+      1165
+    ]
+  ],
+  "figure9_subcooled_displaced_t": [
+    370,
+    444,
+    522
+  ],
+  "figure9_extra_16bar_reference_t": 827,
+  "figure14_heater_kWh_per_t_LP_major": [
+    [
+      6.8,
+      11.7,
+      16.0
+    ],
+    [
+      3.7,
+      8.7,
+      13.0
+    ],
+    [
+      0.9,
+      5.8,
+      10.2
+    ]
+  ],
+  "figure14_vaporizer_kWh_per_t": [
+    1.5,
+    1.8,
+    2.1
+  ],
+  "figure15_ship_kWh_per_t": [
+    0.29,
+    0.25,
+    0.2
+  ],
+  "figure15_heater_pump_kWh_per_t": [
+    0.16,
+    0.13,
+    0.09
+  ],
+  "figure15_cooler_kWh_per_t": [
+    0.0087,
+    0.0085,
+    0.0069
+  ],
+  "figure16_shore_kWh_per_t": [
+    0.17,
+    0.13,
+    0.1
+  ],
+  "table5_ship_EUR_per_t": [
+    0.03,
+    0.03,
+    0.02
+  ],
+  "table5_shore_EUR_per_t": [
+    0.02,
+    0.01,
+    0.01
+  ],
+  "table5_discharged_t": [
+    22970,
+    22602,
+    22180
+  ],
+  "figure17_vapor_t_LP_major": [
+    [
+      2425,
+      3939,
+      5424
+    ],
+    [
+      1768,
+      3197,
+      4599
+    ],
+    [
+      1219,
+      2582,
+      3913
+    ]
+  ],
+  "figure21_subcooling_K_LP_major": [
+    [
+      11.5,
+      18.5,
+      22.9
+    ],
+    [
+      7.5,
+      14.2,
+      19.0
+    ],
+    [
+      3.78,
+      10.44,
+      15.4
+    ]
+  ],
+  "spray_report": {
+    "liquid_t": 5.7,
+    "reported_percent": 0.025,
+    "flow_definition": "Eq1 mdotVR described as vapor at ship conditions; inlet-versus-final-mixture interpretation must be preserved"
+  },
+  "missing": {
+    "native_COSSMOS_cases_controls_initial_states_and_rights": null,
+    "exact_composition_SRK_parameters_and_validation": null,
+    "full_synchronous_streams_heat_losses_and_simulation_time_series": null,
+    "complete_equipment_curves_pressure_losses_and_HTX_boundary_temperatures": null,
+    "original_spray_enthalpies_mass_reference_and_phase_completion": null,
+    "heater_table_and_vapor_graph_case_mapping_errata": null,
+    "signed_cooler_heat_electric_boundary_and_total_utility_inventory": null,
+    "independent_model_and_uncertainty_validation": null,
+    "originals_supplements_code_and_rights": null
+  }
+}

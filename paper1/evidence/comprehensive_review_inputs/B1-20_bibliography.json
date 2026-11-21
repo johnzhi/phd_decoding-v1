@@ -1,0 +1,282 @@
+{
+  "study_id": "B1-20",
+  "source_sha256": "5bcd3ea93dce775fcc254ad13ba6e959617ff2c745635828fb1cc54b09b17602",
+  "printed_entries": 19,
+  "named_dependencies": 7,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        15
+      ],
+      "citation": "Alabdulkarem, A., Hwang, Y., 2011. Development of CO₂ liquefaction cycles for CO₂ sequestration. Appl. Therm. Eng.31(6–7),1141–1148.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "COP2.4 pp10–12; verify exact original, not similarly titled2012 paper. Underlying original support remains unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        15
+      ],
+      "citation": "Cha, D., 2024. Development of long-distance and large-scale carbon capture and storage (CCS) value chain using liquefied CO₂ ship transportation. Aust. Energy Prod. J.64(S1),S119–S124.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "LP large-scale transport p1. Underlying original support remains unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        15
+      ],
+      "citation": "CO2 Efficient Transport via Ocean – CETO. (2025). https://www.dnv.com/maritime/jip/ceto/results/.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "LP technical qualification pp1–2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        15
+      ],
+      "citation": "CO2next. (2025). Home – CO2next liquified CO₂ terminal. https://co2next.nl.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Terminal/project status p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        15
+      ],
+      "citation": "D’Artagnan: Dunkirk CO₂ Hub. (2025). EU funding & tenders portal. https://ec.europa.eu/info/funding-tenders.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Project configuration p2; generic portal is not a specific grant record. Underlying original support remains unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        15
+      ],
+      "citation": "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO₂ liquefaction: impact of product pressure and impurities. Int. J. Refrig.102,1–13. https://doi.org/10.1016/j.ijrefrig.2019.04.011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Shipping/pressure context p1. Printed volume/pages differ from B1-19 bibliography; no silent repair. Underlying original support remains unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        15
+      ],
+      "citation": "Deng, H.R., 2023. Techno-economic analyses of CO₂ liquefaction: impact of product pressure and impurities. Int. J. Refrig.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Shipping context p1; incomplete identity/same-title2023 entry not substituted. Underlying original support remains unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        15
+      ],
+      "citation": "Diamantonis, N.I., Boulougouris, G.C., Tsangaris, D.M., El Kadi, M.J., Saadawi, H., Negahban, Sh., Economou, I.G., 2013. Thermodynamic and transport property models for carbon capture and sequestration (CCS) processes with emphasis on CO2 transport. Chem. Eng. Res. Des.91(10),1793–1806.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "SRK mixture property support p6. Underlying original support remains unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        15
+      ],
+      "citation": "Dimopoulos, G.G., Georgopoulou, C.A., Stefanatos, I.C., Zymaris, S.A., Kakalis, N.M.P., 2014. A general-purpose process modelling framework for marine energy systems. Energy Convers. Manage86,325–339.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "COSSMOS p2 and cost Eq4 p9; exact implementation/cost derivation unverified. Underlying original support remains unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        15
+      ],
+      "citation": "Dimopoulos, G., Sykas, D., Kontaras, G., Georgopoulou, C., 2025. A cryogenic tank thermodynamic process model for marine applications. Cryogenics140,103637.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Tank equilibrium/superheat model p6. Underlying original support remains unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        15
+      ],
+      "citation": "Ghent Carbon Hub. (2025). Ghent Carbon Hub | ENTSOG. https://www.fluxys.com/en/projects/ghent-carbon-hub.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Terminal status p2; preserve printed title/domain mismatch. Underlying original support remains unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        15
+      ],
+      "citation": "Greensand. (2025). Project Greensand. https://www.greensandfuture.com.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Terminal/injection context p2. Underlying original support remains unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        15
+      ],
+      "citation": "Imperial College London, Thermophysics Research Group. (n.d.). Pressure-enthalpy diagram for carbon dioxide. https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/thermophysics/Chart-p-h-CO2.pdf.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pure-fluid reference Figures3/5; not native mixture property case. Underlying original support remains unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        15
+      ],
+      "citation": "Northern Lights. (2025). What we do – Northern lights. https://northernlightsccs.com.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Vessel context pp1–2 and purity authority p6. Underlying original support remains unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        15
+      ],
+      "citation": "Northern Lights Joint Venture. (2024, February14). Liquid CO₂ (LCO₂) quality specifications: NL-02-TE-SP01 rev1.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Composition p3; exact revision/specification and native chosen mixture remain unverified. Underlying original support remains unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        15
+      ],
+      "citation": "Perry, R.H., Green, D.W., Maloney, J.O., 1999. Perry’s Chemical Engineers’ Handbook,7th ed. McGraw-Hill.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "LMTD/empiricalU p6; exact passages and equipment validity missing. Underlying original support remains unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        15
+      ],
+      "citation": "Soave, G., 1972. Equilibrium constants from a modified Redlich–Kwong equation of state. Chem. Eng. Sci.27(6),1197–1203.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "SRK EOS p6; original formula/mixing rules and native case unverified. Underlying original support remains unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        15
+      ],
+      "citation": "Yoo, B.Y., Choi, D.K., Kim, H.J., Moon, Y.S., Na, H.S., Lee, S.G., 2013. Development of CO2 terminal and CO2 carrier for future commercialized CCS market. Int. J. Greenh. Gas Control12,323–332.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Shipping economics p1. Underlying original support remains unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        15
+      ],
+      "citation": "Zhang, S., Shen, Y., Zheng, C., Xu, Q., Sun, Y., Huang, M., Li, L., Yang, X., Zhou, H., Ma, H., Li, Z., Zhang, Y., Liu, W., Gao, X., 2024. Recent advances, challenges, and perspectives on carbon capture. Front. Environ. Sci. Eng.18(75).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Standardization context p1. Underlying original support remains unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        2
+      ],
+      "citation": "CCS Directive Article21",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Legal open-access interpretation is not actual allocated storage service or commercial access."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2
+      ],
+      "citation": "APOLLOCO2 funding and LNG integration",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "November2025 €169.3million claim has no exact printed source record; funding/energy benefits unverified."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        2,
+        3,
+        6
+      ],
+      "citation": "Native COSSMOS tank/interface case and solver",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Initial/boundary states, controls, composition, time series, solver, rights and validation unavailable."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        3,
+        6,
+        10,
+        11,
+        13,
+        14
+      ],
+      "citation": "Market equipment, transfer and mass-reference mapping",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pump/head/flow curves, cargo/heel and per-tank/vessel rates, changing loaded mass and graph/table identities missing."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        8,
+        9,
+        10,
+        13,
+        14
+      ],
+      "citation": "Heat exchangers, signed cooling and electrical boundaries",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Actual terminal temperatures/U/vendor data, signed duty treatment, COP basis and separate motor/circuit losses need verification."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        6,
+        10,
+        14
+      ],
+      "citation": "Complete utility, route and lifecycle inventory",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Local0.11EUR/kWh and process loads do not supply actual regional energy suppliers, capture heat, full shipping or storage lifecycle."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        1,
+        15
+      ],
+      "citation": "Data requests, external supplements, code, errata and rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded files or explicit supplement notice. Data available on request; external retrieval paused and no request sent."
+    }
+  ]
+}

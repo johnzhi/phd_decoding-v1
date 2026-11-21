@@ -1,0 +1,24 @@
+{
+  "study_id": "B1-20",
+  "source_sha256": "5bcd3ea93dce775fcc254ad13ba6e959617ff2c745635828fb1cc54b09b17602",
+  "diagnostic_count": 196,
+  "components_reconstructed": [
+    "Eq2 area from reported Q/U/LMTD",
+    "Eq4 empirical cost using reported area and terminal pressure in bar",
+    "12h rounded electricity/cost accounting"
+  ],
+  "other_scope": "Eq1 and Eq3 analytically implemented with synthetic inputs; actual spray duty and native HTX temperatures/transfer dynamics missing",
+  "native_COSSMOS_SRK_tank_transfer_control_compression_or_optimization_reproduced": false,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "native_COSSMOS_cases_controls_initial_states_and_rights": null,
+    "exact_composition_SRK_parameters_and_validation": null,
+    "full_synchronous_streams_heat_losses_and_simulation_time_series": null,
+    "complete_equipment_curves_pressure_losses_and_HTX_boundary_temperatures": null,
+    "original_spray_enthalpies_mass_reference_and_phase_completion": null,
+    "heater_table_and_vapor_graph_case_mapping_errata": null,
+    "signed_cooler_heat_electric_boundary_and_total_utility_inventory": null,
+    "independent_model_and_uncertainty_validation": null,
+    "originals_supplements_code_and_rights": null
+  }
+}
