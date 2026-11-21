@@ -8,6 +8,8 @@ The main draft reports our controlled operating and shared-source benchmarks. Th
 
 The [12 November public-source follow-up](docs/public_reservoir_capture_review.md) adds a retained Norwegian Bjarmeland pressure-constrained model and 4,951 paired native simulation rows, plus three European CEMCAP paired capture heat/work inventories with 42 source-located quantities. Their geographic/process limits, native-file hashes, seven simulator warnings and excluded evidence are explicit. Achieved volumetric rates are not annual maximum mass service; complete reported heat/work is not full facility/LCA coverage. Existing operating results remain unchanged.
 
+The [comprehensive scientific audit](docs/comprehensive_audit.md), requested on 21 November 2026, is now in progress across all 92 unique publications and 1,301 pages. Its [separate progress register](docs/comprehensive_review/README.md) records page/figure/equation reading, citation checks, supplements, model reproduction and exclusions. The earlier targeted reviews are preserved; no paper is yet declared comprehensively complete under the expanded standard.
+
 ## Reproduce
 
 From the repository root:

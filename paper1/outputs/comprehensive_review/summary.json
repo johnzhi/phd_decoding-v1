@@ -1,0 +1,16 @@
+{
+  "unique_papers": 92,
+  "retained_pdf_files": 93,
+  "unique_physical_pages": 1301,
+  "duplicate_publications": {
+    "B3-46": "B2-17"
+  },
+  "manual_records": 3,
+  "text_read_pages": 19,
+  "visually_inspected_pages": 19,
+  "comprehensively_complete_papers": 0,
+  "discovery_candidates": 3209,
+  "link_candidates": 14015,
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "note": "Candidate counts include mentions and duplicates; they are not verified object/citation counts. Page reading is not independent reproduction or cited-source verification."
+}
