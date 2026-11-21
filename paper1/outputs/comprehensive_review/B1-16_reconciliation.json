@@ -1,0 +1,26 @@
+{
+  "study_id": "B1-16",
+  "source_sha256": "124e26633d6a5ff575ba09c53b3efe5098b8f4b260b627029595b7e5b4bce5ce",
+  "check_count": 49,
+  "figures": 7,
+  "separately_numbered_tables": 0,
+  "printed_numbered_equations": 0,
+  "analyst_identities": 8,
+  "native_models_reproduced": false,
+  "underlying_originals_verified": 0,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "native_reservoir_deck_fields_controls_and_versions": null,
+    "exact_port_depth_datum_and_pressure_basis": null,
+    "raw_synchronous_rate_pressure_temperature_histories": null,
+    "RST_raw_curves_processing_and_detection_limits": null,
+    "VSP_raw_traces_shots_processing_NRMS_windows": null,
+    "raw_geochemistry_and_detection_limits": null,
+    "event_catalog_velocity_model_location_errors_and_completeness": null,
+    "native_predictive_holdout_and_mass_balance": null,
+    "matched_utility_and_lifecycle_inventory": null,
+    "maximum_annual_service_and_retained_fraction": null,
+    "exact_cited_originals_supplements_errata_and_code_status": null
+  },
+  "interpretation": "Source arithmetic, unit/geometry checks and analyst conventional NRMS examples only. No native RST/VSP/geochemical/microseismic interpretation, reservoir prediction, retention fraction, risk probability, maximum annual service or matched GHG inventory reproduced."
+}

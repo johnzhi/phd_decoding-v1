@@ -1,0 +1,161 @@
+{
+  "study_id": "B1-16",
+  "source_sha256": "124e26633d6a5ff575ba09c53b3efe5098b8f4b260b627029595b7e5b4bce5ce",
+  "printed_entries": 6,
+  "named_dependencies": 8,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        5
+      ],
+      "citation": "Finley, Robert J., Scott M. Frailey, Hannes E. Leetaru, Özgür Senel, Marcia L. Couëslan, and Scott Marsteller, 2013, Early operational experience at a one-million tonne CCS demonstration project, Decatur, Illinois, USA. 11th International Conference on Greenhouse Gas Control Technologies, Extended Abstract, Kyoto, Japan.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Operational context, current baffle and plume interpretation [pp2,5]; exact extended abstract and field evidence unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        5
+      ],
+      "citation": "Leetaru, Hannes E., John H. McBride, 2009, Reservoir uncertainty, Precambrian topography, and carbon sequestration in the Mt. Simon Sandstone, Illinois Basin. Environmental Geosciences, 16; 4: 235 – 243.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Regional MtSimon/reservoir uncertainty [p2]; original properties, geometry and transferability unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        5
+      ],
+      "citation": "Freiburg, J.T., Morse, D.G., Leetaru, H.E., Hoss, R.P., Yan, Q., 2014, A Depositional and Diagenetic Characterization of the Mt. Simon Sandstone at the Illinois Basin – Decatur Project, Carbon Capture and Storage Site, Decatur, Illinois, USA: Illinois State Geological Survey, Circular 583, p. 1-43 (in press)",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pre-MtSimon lithology/diagenesis [p2]; printed in-press Circular583 version remains unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        5
+      ],
+      "citation": "Locke II, Randall, David Larssen, Walter Salden, Christopher Patterson, Jim Kirksey, Abbas Iranmanesh, Bracken Wimmer, Ivan Krapac, 2013, Pre-injection reservoir fluid characterization at a CCS demonstration site: Illinois Basin – Decatur Project. 11th International Conference on Greenhouse Gas Control Technologies, Extended Abstract, Kyoto, Japan.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Westbay/MVA and fluid characterisation [pp2–3]; original concentrations, sampling and quality/limits unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        5
+      ],
+      "citation": "Couëslan, M.L., S. Ali, A. Campbell, W.L. Nutt, W.S. Leaney, R.J. Finley, S.E. Greenberg, 2013, Monitoring CO2 injection for carbon capture and storage using time-lapse 3D VSPs. The Leading Edge, 32 (10): pp. 1268 – 1276.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "GM1, time-lapseVSP and repeatability [pp2,4]; original surveys, processing and conclusions unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        5
+      ],
+      "citation": "Kragh, E., and P. Christie. Seismic repeatability, normalized rms, and predictability. The Leading Edge, 21: pp. 640-647 (2001).",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "NRMS methodology [p4]; exact printed bibliographic identity/formula/windows and validity unverified. Analyst conventional example is not a source-support check."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        1,
+        4,
+        5
+      ],
+      "citation": "Exact native reservoir history-match and prediction cases",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Decks, properties, boundaries, EOS/SCAL, rate/pressure histories, calibration objective, holds-outs, convergence and model version/rights unavailable for independent reproduction."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2,
+        3,
+        9
+      ],
+      "citation": "Port/completion depths and pressure/rate measurement basis",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Zone4 prose/legend mismatch, sensor datum/gauge basis and raw plotting transform unresolved; no silently corrected calibration input."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3,
+        8
+      ],
+      "citation": "Native RST processing and saturation interpretation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Tool corrections, raw curves, response calibration, significance/detection thresholds, baseline drilling fluids and high-resolution track definitions needed."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        3,
+        4,
+        10
+      ],
+      "citation": "Native VSP trace, shot and NRMS workflow",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Trace arrays, geometry, actual windows/normalisation, reference selection, surface changes and saturation/rock-physics relationships unavailable."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        3,
+        5
+      ],
+      "citation": "Native geochemical samples and detection limits",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Full sample concentrations, uncertainties, QA and sampling/CO2 exclusions remain unavailable; non-detection does not close mass balance."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        4,
+        11,
+        12
+      ],
+      "citation": "Microseismic catalogue and inversion",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Arrays/identity, event detection/location catalogues, velocity model, completeness, uncertainty, first motions and risk models unavailable."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        1,
+        2,
+        5
+      ],
+      "citation": "Long-term retention, maximum service and neighbouring-project isolation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No complete pressure-limit sweep, retained-carbon/outflow inventory, uncertainty probability or cross-project isolation validation supplied."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        1,
+        5
+      ],
+      "citation": "Exact supplements, code, errata and related retained assets",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No embedded file or explicit supplement notice. Other Decatur reports are retained in later intakes but are not verified substitutes for these exact originals/cases; external availability remains unverified during Chrome wait."
+    }
+  ]
+}

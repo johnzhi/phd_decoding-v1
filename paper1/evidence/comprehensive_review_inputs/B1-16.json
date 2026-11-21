@@ -1,0 +1,247 @@
+{
+  "study_id": "B1-16",
+  "source_path": "papers/B1-16.pdf",
+  "source_sha256": "124e26633d6a5ff575ba09c53b3efe5098b8f4b260b627029595b7e5b4bce5ce",
+  "physical_pages": 12,
+  "doi": "10.1016/j.egypro.2014.11.306",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "scope": "Limited source arithmetic, unit checks and analyst NRMS examples; no raw monitoring interpretation or native reservoir model reproduced.",
+  "injection": {
+    "goal_t": 1000000,
+    "goal_years": 3,
+    "reported_injected_t_approx": 925300,
+    "reported_as_of": "2014-09-01",
+    "start_month": "2011-11",
+    "exact_start_day": null
+  },
+  "geology": {
+    "seal_thickness_m_approx": 152,
+    "seal_thickness_ft_approx": 499,
+    "MtSimon_thickness_m_approx": 453,
+    "MtSimon_thickness_ft_approx": 1486,
+    "lower_MtSimon_porosity_percent": 20,
+    "lower_MtSimon_permeability_mD": 185,
+    "low_unit_permeability_mD_strict_upper": 1,
+    "baffle_depth_m": [
+      2092,
+      2094
+    ],
+    "baffle_depth_ft": [
+      6863,
+      6870
+    ]
+  },
+  "geometry": {
+    "CCS1_sensor_depth_m": 1928,
+    "CCS1_perforation_m": [
+      2128,
+      2149
+    ],
+    "CCS1_perforation_ft": [
+      6982,
+      7050
+    ],
+    "GM1_offset_west_m": 60,
+    "GM1_offset_west_ft": 197,
+    "GM1_levels": 31,
+    "GM1_geophone_m": [
+      42,
+      1050
+    ],
+    "VW2_levels": 5,
+    "VW2_geophone_m": [
+      1875,
+      2118
+    ],
+    "CCS1_geophone_m": [
+      1750,
+      1870
+    ]
+  },
+  "monitoring": {
+    "ports_total": 11,
+    "PreMtSimon_ports": [
+      1
+    ],
+    "MtSimon_ports": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "IrontonGalesville_ports": [
+      10,
+      11
+    ],
+    "RST_baselines": 2,
+    "RST_monitor_runs": 5,
+    "RST_July2014_status": "still being analysed",
+    "VSP_baselines": 2,
+    "VSP_monitors": 3,
+    "VSP_cumulative_milestones_t_approx": [
+      74000,
+      433000,
+      730000
+    ],
+    "fluid_baseline_rounds": 3,
+    "fluid_full_or_partial_rounds": 6,
+    "July2013_sampled_zones": [
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "excluded_CO2_zones_from_fluid_samples": [
+      2,
+      3
+    ]
+  },
+  "pressures": [
+    {
+      "zone": 1,
+      "prose_depth_m": 2152,
+      "prose_depth_ft": 7060,
+      "figure4_depth_ft": 7061
+    },
+    {
+      "zone": 2,
+      "prose_depth_m": 2128,
+      "prose_depth_ft": 6982,
+      "figure4_depth_ft": 6983
+    },
+    {
+      "zone": 3,
+      "prose_depth_m": 2117,
+      "prose_depth_ft": 6946,
+      "figure4_depth_ft": 6946
+    },
+    {
+      "zone": 4,
+      "prose_depth_m": 2128,
+      "prose_depth_ft": 6982,
+      "figure4_depth_ft": 6838
+    },
+    {
+      "zone": 5,
+      "prose_depth_m": null,
+      "prose_depth_ft": null,
+      "figure4_depth_ft": 6720
+    },
+    {
+      "zone": 6,
+      "prose_depth_m": null,
+      "prose_depth_ft": null,
+      "figure4_depth_ft": 6632
+    }
+  ],
+  "pressure_plot": {
+    "axis": "Pressure, psi",
+    "gauge_or_absolute": null,
+    "reference": "different port depths",
+    "rate_legend": "1000 x Daily Ave INJ Q, T/hr",
+    "rate_plot_axis_or_transform": null,
+    "exact_pressure_rate_and_cumulative_arrays": null,
+    "rate_plot_candidate_basis": "A right-axis interpretation with the printed1000 scale is plausible; exact axis assignment/native transform not verified."
+  },
+  "RST": {
+    "first_CCS1_reported_m": [
+      2057,
+      2149
+    ],
+    "first_CCS1_reported_ft": [
+      6748,
+      7050
+    ],
+    "VW1_initial_zone3_m": [
+      2118,
+      2121
+    ],
+    "VW1_later_intervals_m": [
+      2110,
+      2130
+    ],
+    "most_CO2_below_m_approx": 2103,
+    "most_CO2_below_ft_approx": 6900,
+    "upper_interval_label_question": "Section4.1 gives CCS1 interval above baffle; conclusions say no significant accumulations above it. Native log processing/datum/significance definition required.",
+    "graphic_header_readability": "Some fine raster mnemonics and scales unresolved after enlargement; no invented numeric saturation values"
+  },
+  "VSP": {
+    "reference": "Baseline2",
+    "unaffected_window_m": [
+      1524,
+      1981
+    ],
+    "anomaly_window_m": [
+      1981,
+      2195
+    ],
+    "reported_unaffected_NRMS_percent": [
+      15,
+      20
+    ],
+    "east_shots": "fewer for later surveys",
+    "exact_NRMS_formula_and_processing": null
+  },
+  "microseismic": {
+    "baseline_months": 18,
+    "baseline_detected_events": 7894,
+    "baseline_perforation_shots": 11,
+    "baseline_well_related_events": 7,
+    "baseline_distant_events": 7,
+    "baseline_local_not_well_related_events": 8,
+    "baseline_categories_partition_verified": false,
+    "located_events_strict_lower": 3400,
+    "peak_detected_per_day_approx": 750,
+    "mean_moment_magnitude_as_printed": -0.89,
+    "magnitude_symbol_as_printed": "Mo",
+    "reported_more_locatable_percent_approx": 50,
+    "old_locatable_fraction": null,
+    "new_locatable_fraction": null,
+    "initial_arrays": [
+      "CCS1",
+      "GM1"
+    ],
+    "results_arrays_as_printed": [
+      "CCS1",
+      "VW1",
+      "VW2"
+    ],
+    "verified_array_configuration": null
+  },
+  "missing": {
+    "native_reservoir_deck_fields_controls_and_versions": null,
+    "exact_port_depth_datum_and_pressure_basis": null,
+    "raw_synchronous_rate_pressure_temperature_histories": null,
+    "RST_raw_curves_processing_and_detection_limits": null,
+    "VSP_raw_traces_shots_processing_NRMS_windows": null,
+    "raw_geochemistry_and_detection_limits": null,
+    "event_catalog_velocity_model_location_errors_and_completeness": null,
+    "native_predictive_holdout_and_mass_balance": null,
+    "matched_utility_and_lifecycle_inventory": null,
+    "maximum_annual_service_and_retained_fraction": null,
+    "exact_cited_originals_supplements_errata_and_code_status": null
+  },
+  "analyst_examples": {
+    "NRMS_convention": "200*RMS(b-a)/(RMS(a)+RMS(b)) percent; conventional analyst example, not a verified paper formula",
+    "baseline_trace": [
+      1,
+      -1,
+      1,
+      -1
+    ],
+    "gain_examples": [
+      1,
+      1.2,
+      -1
+    ],
+    "fraction_example_old": 0.4
+  }
+}
