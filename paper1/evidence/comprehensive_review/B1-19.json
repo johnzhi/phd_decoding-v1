@@ -1,0 +1,1354 @@
+{
+  "study_id": "B1-19",
+  "source_sha256": "4079a87e655cd170da30d068e85d9f95451f00235326317c267d16e521aecf67",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All 15 physical pages read and visually inspected, including 11 figures,13 tables,13 numbered equations, nomenclature and both internal appendices.324 limited diagnostics across 18 cases reconstruct accounting/algebra components and retain percentage, composition, pressure-label, cost-time and process-boundary conflicts. All 48 underlying originals and 7 dependencies remain unverified; native HYSYS/PSO/APEA process and full lifecycle are not reproduced.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "original_model_status": "algebra_and_rounded_accounting_components_reconstructed_native_HYSYS_PR_recycle_PSO_APEA_and_full_lifecycle_not_reproduced",
+  "supplement_status": "internal_AppendixA_andB_fully_read_no_embedded_files_explicit_data_on_request_external_assets_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication, abstract and introduction opening",
+      "assessment": "All author/rights/date/DOI information and stated71.6%/35.6% gains read. Global emissions, CCS contribution, carrier status and shipping economics are attributed claims requiring their originals; no current project status inferred from2025 article."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Entire introduction and prior-process literature",
+      "assessment": "All pressure/density, refrigeration, hold-time, impurity, LNG-SMR analogy and environmental-objective arguments read. Table1 is a comparative literature summary, not verified common-basis performance. The12–13day holding example and broad25 bar economics are conditional prior cases, not universal operating rules."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "Section2.1 and Figure1 backgrounds",
+      "assessment": "Both single-refrigerant and PRICO cycles read, with compressor/cooler/valve/HX/recycle/separator paths. Impurity purging is needed for steady noncondensable balance. LNG30% comparison is not demonstrated CO2 performance."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3
+      ],
+      "scope": "Section3.1 storage conditions",
+      "assessment": "Every98%/5% fill,5000m3 times10 tanks,6.5/15 bar,0.05–0.15 mol% N2,0.1%/day BOR and−40/−20C inlet assumption read. Heel and fill authorities, density and steady/dynamic mixture basis require original support. Sentence calling15 bar liquefaction temperature lower conflicts with higher-temperature description elsewhere."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "Section3.2 composition and Eq1",
+      "assessment": "All liquid/gas-volume and vapor-mole definitions and reported Figure2 endpoints read. Filling fraction is volume-based, x is total vapor mole fraction, and N2 mole fraction is another variable. Need exact overall-feed versus liquid-phase specification and PR binary parameters before replaying filling-dependent composition."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "scope": "Section3.3 PFDs and process specifications",
+      "assessment": "All three PFDs and stream/component labels inspected: conventionalNH3; extra separator and interstage/final recycle; mixedC2/C3/nC4/iC4 with multi-streamHX5. All compressor/refrigerant/separation/cooling constraints inspected; no complete stream flows, compositions, enthalpies or native cases."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4,
+        6
+      ],
+      "scope": "Section3.4 objective and PSO",
+      "assessment": "Every emissions/time/fuel factor equation and variable/constraint entry read. Fixed4000 h each laden/ballast and generator SFOC are scenario assumptions. Swarm bounds/seeds/stopping/feasibility and native property models absent. S8≥−55C alone is not independently verified whole-process mixture solid safety."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        4,
+        6
+      ],
+      "scope": "Section3.5 complete economic method",
+      "assessment": "All CAPEX/OPEX/TAC/TAE/tax/transport/CPT equations read.20 year/10%,2022 APEA,825 USD/tMGO,150 USD/tCO2 and 6 voyages preserved. LiteralEq8 lacks operating time for annualOPEX. Full annual cargo/heel/density basis and unrounded equipment costs missing. A proposed bill does not establish applicable tax."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "scope": "Section4.1 every emissions, streams and heat-transfer claim",
+      "assessment": "Tables6–7/Figures5–7 inspected. Annual abstract reduction maxima agree with displayed totals. Prose22.5% purge and 79.2–84.6%/89.8–95.6% power reduction wording conflicts with remaining fractions.41.1% purge claim also needs correction/attribution. Main-case stream and appendix state consistency qualified; enthalpy/exergy/overall optimum not reproduced."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "scope": "Section4.2 every cost and sensitivity claim",
+      "assessment": "All tank-cost, tax, density, TAE/CPT and price-sensitivity comparisons read. Most reported ranking/arithmetic consistent under printed rounded case outputs, but not full vessel cost or optimized lifecycle mitigation. Storage tank share is about69.5% in one displayed case, not strictly>70% throughout. Frozen optimum linear sensitivity is not reoptimization."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "scope": "Entire conclusion",
+      "assessment": "Relative annual-emission remaining fractions and reported8.90–9.29 minimum CPT retained with process boundary, fixed factors and source conflicts.15 bar lower process emissions and 6.5 bar lower index can coexist; neither selects the regional full-chain optimum."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        10
+      ],
+      "scope": "CRediT, competing interest and acknowledgments",
+      "assessment": "All author roles, no-known-interest statement and Korean funding identifiers read. No independent validation or model availability follows from role labels."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        11
+      ],
+      "scope": "Complete nomenclature",
+      "assessment": "Every abbreviation/symbol/unit inspected. SFOC is tonfuel/kWh here versusg/kWh in prose; conversion required. tBallast description incorrectly repeats annual laden voyage. Time support is annual although mass units omit/year in some labels."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "scope": "Complete internal AppendixA",
+      "assessment": "All six tables, labels, units and entries inspected; sidewaysA1/A2 rotated and enlarged. A1 laden 1-3 at 0.05 totals105 mol%; A1 R5/R6 conflicts withA4/A5 at two conditions. A3–A5 P/T/vapor fractions do not supply flow/enthalpy/material closure. Native PDF clarifies extraction artifacts such as0.6.5 andspurious78 superscript0; no physical corrections inferred."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        14
+      ],
+      "scope": "Complete internal AppendixB and data statement",
+      "assessment": "All venting comparison prose, four curves and approximate100/150 USD tax thresholds read. Venting cost/cargo/heat and native arrays unavailable, so exact crossing not reproduced. Data explicitly available on request; request not sent and no external absence inferred."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        14,
+        15
+      ],
+      "scope": "Entire48-entry bibliography",
+      "assessment": "All printed entries read in native text and rendered columns, preserving anomalousR1 authors and time-specific URLs. All 48 exact original source-support checks remain open; extraction is not verification. Seven model/data/rights dependencies separately recorded."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        3
+      ],
+      "scope": "Figure1(a,b)",
+      "assessment": "Both target-gas and refrigerant paths, JT valves, compressor/cooler/HX/separator/recycle labels inspected. Generic cycle drawings, no complete energy/material case."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        4
+      ],
+      "scope": "Figure2",
+      "assessment": "Four curves, fill/pressure legends, mol% axes and 0.05/0.10/0.15 points inspected. Text endpoints retained; no native flash arrays or interpolation accepted."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        5
+      ],
+      "scope": "Figure3(a,b,c)",
+      "assessment": "All three PFDs, Comp1–4,HX1–5,VLV1–3,Sep1/2,stream labels,purge1/2 and both recycle injection locations inspected. Expanded S7 into first separator precedes final VLV3/S8 in two-stage layouts. Native pressures/flows/controller definitions missing."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        6
+      ],
+      "scope": "Figure4",
+      "assessment": "Fuel→generator→power→reliquefaction/tank and two CO2 boundary arrows inspected. Explicit compression-combustion plus purge objective omits full ship/capture/storage lifecycle."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        7
+      ],
+      "scope": "Figure5",
+      "assessment": "All 18 red totals and 36 partition labels read/magnified; compression/purge legend and axes inspected. Higher conventional bars are clipped by3000 t axis, so numbers rather than heights used. Display rounding residuals retained."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        8
+      ],
+      "scope": "Figure6",
+      "assessment": "Twelve total power labels and 24 gas/refrigerant partitions inspected;N2/case axes and units read. Components sum to totals and reproduce Figure5 combustion within printed rounding under fixed factors."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        9
+      ],
+      "scope": "Figure7(a–d)",
+      "assessment": "All four hot/cold/difference panels, two ordinate axes, duty axes, legends/caption0.15 mol% laden inspected. Different duty ranges and sampled composite curves do not independently reproduce UA, pinch throughout, entropy or actual exchanger performance."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        9
+      ],
+      "scope": "Figure8",
+      "assessment": "All 18 TAE bars with tank/non-tankCAPEX,OPEX,tax labels and millionUSD/year axis inspected. Rounded components and truncated1.0M lower axis kept separate from total precision; no full transport cost inferred."
+    },
+    {
+      "id": "F09",
+      "pages": [
+        10
+      ],
+      "scope": "Figure9",
+      "assessment": "All six CPT case curves, mole-percent andUSD/t axes/caption inspected. TableA6 values used for numeric checks; no undisclosed curve-fit outputs."
+    },
+    {
+      "id": "F10",
+      "pages": [
+        10
+      ],
+      "scope": "Figure10",
+      "assessment": "All six carbon-tax curves0–300 at 0.1 mol% inspected. Near crossings are graphic/scenario statements; native data/rounding and no reoptimized-case assumption qualify exact thresholds."
+    },
+    {
+      "id": "FB01",
+      "pages": [
+        14
+      ],
+      "scope": "FigureB1",
+      "assessment": "All four venting/reliquefaction curves, pressure/line legends andCPT/tax axes inspected.100/150 thresholds attributed approximately; no full venting case/inputs reproduced."
+    },
+    {
+      "id": "T01",
+      "pages": [
+        2
+      ],
+      "scope": "Table1",
+      "assessment": "All 14 prior-study rows, CO2liquefaction versusBOGreliquefaction grouping, concentration/pressure/refrigerant columns inspected. Originals and compatible system boundaries remain unverified."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        3
+      ],
+      "scope": "Table2",
+      "assessment": "Every pressure/capacity/density/fill/BOR/inlet-temperature/N2 field inspected. Density depends on pressure but values not tabulated. MassBOR and volume fill must not be conflated."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        6
+      ],
+      "scope": "Table3",
+      "assessment": "AllEOS,casepressure,refrigerant,efficiency,ratio,coolingwater and minimum approach entries inspected. Bounds do not supply native property/flow solution."
+    },
+    {
+      "id": "T04",
+      "pages": [
+        6
+      ],
+      "scope": "Table4",
+      "assessment": "Every variable and constraint, stream/component mapping and unit inspected. C2/C3/nC4/iC4 mass-flow variables do not provide total flow; displayed mol% optimum is a different basis. OnlyComp1–3 ratios named as variables whileComp4 constrained too; native implementation missing."
+    },
+    {
+      "id": "T05",
+      "pages": [
+        6
+      ],
+      "scope": "Table5",
+      "assessment": "Compressor centrifugal,HX shell/tube,separator/tank pressure-vessel mapping,APEA14 and 2022 base read. Native material/installation/capacity assumptions missing."
+    },
+    {
+      "id": "T06",
+      "pages": [
+        7
+      ],
+      "scope": "Table6",
+      "assessment": "All 18 laden/ballast/annual triples inspected/transcribed. Sums checked; reported overall reduction maxima reproduced as limited output accounting."
+    },
+    {
+      "id": "T07",
+      "pages": [
+        7
+      ],
+      "scope": "Table7",
+      "assessment": "All six cases times3impurities, S1/S7/S8 P/T/vapor and purge1/2 values inspected. S8 minimum andgaseous feed consistent as displayed; no full flash or recycled-flow calculation."
+    },
+    {
+      "id": "TA01",
+      "pages": [
+        12
+      ],
+      "scope": "TableA1",
+      "assessment": "All 18 laden optimisation columns and pressure/temperature/ratio/purge/composition/emission rows read after90degree rotation.105 mol% mixture and twoR5/R6 conflicts retained; no normalized/repaired input."
+    },
+    {
+      "id": "TA02",
+      "pages": [
+        12
+      ],
+      "scope": "TableA2",
+      "assessment": "All 18 ballast columns/rows read rotated. Mixed fractions sum to 100 within rounding; missing absolute refrigerant flows and pressure/phase conventions remain."
+    },
+    {
+      "id": "TA03",
+      "pages": [
+        13
+      ],
+      "scope": "TableA3",
+      "assessment": "All six case columns, eight streams and P/T/vapor triples at 0.05 mol% read. No stream flow/composition/enthalpy sufficient for balances; high/lowR5/R6 read literally."
+    },
+    {
+      "id": "TA04",
+      "pages": [
+        13
+      ],
+      "scope": "TableA4",
+      "assessment": "All six/eight stream triples at 0.10 mol% read. Case 2-3 R5=16.73/R6=2.24 bar conflicts with swappedA1 labels. No native choice adopted."
+    },
+    {
+      "id": "TA05",
+      "pages": [
+        13
+      ],
+      "scope": "TableA5",
+      "assessment": "All six/eight stream triples at 0.15 mol% read. Case 1-3 R5=17.07/R6=2.37 bar conflicts withA1. Native rendered6.5 bar and 78C distinguish extraction artifacts; no scientific correction inferred."
+    },
+    {
+      "id": "TA06",
+      "pages": [
+        13
+      ],
+      "scope": "TableA6",
+      "assessment": "All 18 columns andtank/non-tankCAPEX,annualCAPEX,OPEX,TAC,tax,transport,CPT entries read/transcribed. Accounting intervals not field uncertainty; no native APEA/cargo model."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        3
+      ],
+      "expression": "F[%]=100*vliq*(1−x)/(vvap*x+vliq*(1−x))",
+      "interpretation": "Volume ratio; V in m3, v in m3/kmol,x vapor mole fraction. Need a common equilibrium state and correct composition basis; not N2 mole fraction or mass BOR."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        4
+      ],
+      "expression": "mannCO2=mLadenCO2+mBallastCO2",
+      "interpretation": "Annual masses in metrictonCO2, with both periods counted once."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        4
+      ],
+      "expression": "mLadenCO2=(mdotLadenPurge+mdotLadenPower)*tLaden",
+      "interpretation": "CO2mass flow t/h and 4000 annualh. Purge term must beCO2 component, not totalN2-bearing gas."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        4
+      ],
+      "expression": "mBallastCO2=(mdotBallastPurge+mdotBallastPower)*tBallast",
+      "interpretation": "Separate 4000 h, missing purge/power split not invented."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        4
+      ],
+      "expression": "mdotBallastPower=WdotBallast*SFOC*Cf",
+      "interpretation": "kW*kWh-denominatedfuel factor becomes tCO2/h.197.5 g/kWh=0.0001975 t fuel/kWh."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        4
+      ],
+      "expression": "mdotLadenPower=WdotLaden*SFOC*Cf",
+      "interpretation": "Same factor; includes both gas and refrigerant compression, excludes propulsion/other loads/upstream fuel."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        4
+      ],
+      "expression": "AnnualizedCAPEX=CAPEX*i*(1+i)^L/((1+i)^L−1)",
+      "interpretation": "i=.10/year,L=20 years; CRF about.1174596/year. No inflation/currency correction or cost estimation reproduced."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        4
+      ],
+      "expression": "OPEX=Wdot*SFOC*Costfuel",
+      "interpretation": "Literal dimensionsUSD/hour, not USD/year. An explicit sum/integral over annual operatinghours is required; displayedannualOPEX is not silently recomputed with guessed ballast loads."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        6
+      ],
+      "expression": "TAC=AnnualizedCAPEX+OPEX",
+      "interpretation": "Compatible annualUSD required;Eq8time issue retained."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        6
+      ],
+      "expression": "TAE=TAC+TaxannCO2",
+      "interpretation": "Annual scenario cost, not complete vessel/capture/injection cost."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        6
+      ],
+      "expression": "TaxannCO2=TaxCO2*mannCO2",
+      "interpretation": "150 USD/tCO2 times annualCO2. A cited proposedbill does not prove applicable law."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        6
+      ],
+      "expression": "mannTransport=mcargo*Nvoyage−(mdotLadenPurge*tLaden+mdotBallastPurge*tBallast)",
+      "interpretation": "Cargo labelled unloaded per voyage; clarify gross/net/density/heel boundary before subtracting purge to avoid doublecounting. Six annualvoyages; rawcargo not supplied."
+    },
+    {
+      "id": "E13",
+      "pages": [
+        6
+      ],
+      "expression": "CPT=(TAC+TaxannCO2)/mannTransport=TAE/mannTransport",
+      "interpretation": "USD/tontransported, not USD/tonavoided/permanentlystored or all-in shipping cost. Positive denominator required."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        3
+      ],
+      "expression": "x=(1−f)/[(1−f)+f*r],r=vvap/vliq,f=F/100",
+      "interpretation": "Analyst inversion ofEq1: multiplydenominator andcollectx. f∈[0,1],r>0; no actualPR flash reproduced."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        4,
+        7,
+        8
+      ],
+      "expression": "Wladen=mladenPower/(tLaden*SFOC*Cf)",
+      "interpretation": "Analyst inversion checks displayedpower againstcombustion labels. Compatible rounding is not independentthermodynamic validation."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        4,
+        8
+      ],
+      "expression": "remaining[%]=100*new/base; reduction[%]=100−remaining",
+      "interpretation": "Analyst definition; source prose confuses these forpurge/power. Negative tinyrounded differences not physical proof ofincreasedfieldemissions."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        4,
+        6,
+        13
+      ],
+      "expression": "AnnualOPEX=sum_v[Wv*tv*SFOC*Costfuel]",
+      "interpretation": "Analyst dimensional completion, not a corrected source equation. Availableladenpartition gives lower cost; addingallballastCO2ascombustion gives conditional upper bound when purge/power are nonnegative."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        4,
+        13
+      ],
+      "expression": "CAPEX=sum_t=1..L A/(1+i)^t => A=CAPEX*CRF",
+      "interpretation": "Independent present-value derivation/tests verifiesannuitycomponent; doesnot reproduceAPEAequipment costs."
+    }
+  ],
+  "variables": [
+    "F/f: liquid volume filling[%]/fraction; Vvap,Vliq[m3]; vvap,vliq[m3/kmol];x vapor mole fraction, not N2fraction or mass BOR.",
+    "Liquid/feed labelN2=0.05/0.10/0.15 mol%; BOG N2 depends on flash/fill. Exactoverall versus liquid-phase specification remainsmissing; O2andotherimpuritiesexcluded.",
+    "Case 1 pressure6.5 bar,Case 2 15 bar; nativeabsolute-pressurebasis mustbeconfirmed. InletBOG−40/−20C,not necessarily saturatedliquidtemperature.",
+    "5000m3 times10tanks; ladenfill.98,ballastheel.05 volume fractions; mass BOR.001/day is a different basis. No measured heat leak/temporalmixture.",
+    "tLaden=tBallast=4000 h/year;6 annualvoyages;760hunusedunder8760hyear, not observedmaintenance/weather/loading.",
+    "Wcompression[kW] includesCO2andclosedrefrigerant loop compressors; coolingpumps/propulsion/other auxiliariesnotincludedinobjective.",
+    "SFOC197.5 g/kWh=.0001975metricton/kWh;Cf3.206 tonCO2/tonMGO; fixedcombustionfactor,notupstreamGHG/loadmap.",
+    "Purge flow denotesCO2 componentt/h,not N2-bearing total gas. Missingmass/composition/enthalpyflows preventfull balances.",
+    "Compressionadiabaticefficiency.75,maxstagePR3; coolwater30C,mincooler5K/HX5approach3K; vapor fraction1atcompressorinlets.",
+    "S8≥−55Cbound is not an independentCO2/N2solidboundaryproof orall transient cold-spot checks.",
+    "PR EOS,HYSYS14,APEA14/2022; binaryinteraction/phase-root/solidand cost files missing.",
+    "C2,C3,nC4,iC4mass flowt/h arevariables;Appendixfractionsmol%; totalrefrigerant flowmissing and 105 mol%rowexcludedfrom case inputs.",
+    "L20 years,i.10/year; annualizedcostCRF≈.1174596/year,2022 USDbasis; native costscope/material/factors missing.",
+    "MGOprice825 USD/t andcarbonprice150 USD/tCO2arecaseassumptions; citedbillnot verifiedapplicablelaw.",
+    "manntransport metricton/year afterclaimedpurges; mcargolabelunloaded/voyage requiresgross/net/heel/densityclarification.",
+    "CPT USD/ttransported is a partialtank/re-liquefaction accounting index; neitherfull vesselcost norUSD/tavoided/permanentlystored."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Shipping/pressure/hold-time and prior efficiency claims",
+      "assessment": "All broad context attributed to exact48sources, unverified; no universal25 bar economics, holding safety or current project claim."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Fill-dependent nitrogen enrichment",
+      "assessment": "Reported4.19–12.79% versus0.22–0.66% at 6.5 bar and 1.58–4.79% versus0.12–0.35% at 15 bar preserved. Need actual overall/liquidcomposition specification, propertyparameters and dynamic path; no universal enrichmentfactor."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "claim": "Optimized process and safety",
+      "assessment": "PSO objective/constraints examined, but native optimization and solid/mixture validation missing. No certifiedglobal optimum or whole process dryicesafety."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Ballast contributes0.6–3.1% ofladen emissions",
+      "assessment": "Displayedratios0.56–3.15% supportapproximate statement. This is laden-denominator andassumedcalendar, not allshipemissions."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Lower purge withtwostage separation",
+      "assessment": "6.5 bar ratio isabout22.4–22.6%remaining, henceabout77.4–77.6%reduction; prose22.5%lower is not thatreduction.15 bar proposedcase 2-3 reaches58.8%reduction/41.2%remaining; proseup41.1%lower conflicts. Case 2-2 at 0.05shows77.0 versus76.9 t within rounding, not resolvedimprovement."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Lowerpower frommixed refrigerants",
+      "assessment": "1-3versus1-2 reductions15.4–20.8%, not79.2–84.6%;2-3versus2-2 reductions4.4–10.2%, not89.8–95.6%. Printedrangescloselymatchremaining fractions. Same fixed hours/factors meanpoweranditscombustionratiosmatch."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        7,
+        8,
+        12,
+        13
+      ],
+      "claim": "MaximumCO2pressure and stream-state comparisons",
+      "assessment": "Table7has1-2pressure57.4–58.5 bar, notprose58.4–58.5. PrintedA1/A4/A5 R5/R6conflicts and 105 mol%row preventacceptingalloptimumparameters. No repairednative case."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Mixedrefrigerant heatcomposites improveefficiency",
+      "assessment": "All fourreportedmax/mean temperature differences read. Smaller plotted gaps are consistent with the qualitative explanation; no independent duty/enthalpy/UA/exergy balance or quantified actual efficiency reproduced."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        1,
+        7,
+        9,
+        10
+      ],
+      "claim": "Annualemission reductions andlowestcase",
+      "assessment": "Displayedannualtotalsreproduceup71.6024% at 6.5 bar and 35.6297%at 15 bar.377–527 t/yearfor2-3isreportedprocess boundary, not full transport lifecycle avoidedCO2."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        8,
+        9,
+        13
+      ],
+      "claim": "Tankcost dominance",
+      "assessment": "Tankannualdifference.68MUSDrounded supportspressure costpoint. Tankshareabout69.5%ofTACfor1-2at.05, so strict>70%not allrows. Fixed50,000m3 pressure cost anddensity-denominator effects aredistinct."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        8,
+        9,
+        10,
+        13
+      ],
+      "claim": "CPT/TAE ranking andlower6.5 barindex",
+      "assessment": "18CPTentriescompatiblewithprintedTAC,exacttax andtransport rounding intervals.1-3CPT8.90–9.29retainedconditional; not full shipcost,permanentlystoredoravoidedcost. NativeAPEA andcargo/density not reproduced."
+    },
+    {
+      "id": "C12",
+      "pages": [
+        8,
+        10
+      ],
+      "claim": "Carbon-tax sensitivity",
+      "assessment": "Linearcurvesand270 USD sufficientstatementread under fixed cases. Proposed150 USD/tcarbonprice not verifiedcurrent law; no actual applicable tax orreoptimization inferred."
+    },
+    {
+      "id": "C13",
+      "pages": [
+        14
+      ],
+      "claim": "Ventingcomparison",
+      "assessment": "AppendixBstatesventingworseabove150/100 USDfor6.5/15 bar; graphapproximatelysupportsconditionalcrossings. Missingventingcapital/flows/cargo andloading/thermal basis preventindependentreproduction."
+    },
+    {
+      "id": "C14",
+      "pages": [
+        10,
+        14
+      ],
+      "claim": "Conclusions, validation anddataavailability",
+      "assessment": "All conclusions read within process scope. Author validation role labels are not independent model validation; explicitdata on request remainsopen, noexternalrequest sent."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        14
+      ],
+      "citation": "Ritchie H, Rm, Ritchie H, Roser M. CO2 emissions. Our world in data. 2020. Retrieved from, https://ourworldindata.org/co2-emissions.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Global emissions context p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        14
+      ],
+      "citation": "Siemenski A. Technology readiness and costs of CCS. The circular carbon economy: keystone to global sustainability series. 2021.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CCS readiness context p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        14
+      ],
+      "citation": "IRENA. Global hydrogen trade to meet the 1.5 ◦C climate goal, Part 1; 2022.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "2050 contribution attribution p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "International Energy Agency (IEA). CO2 transport and storage. https://www.iea. org/energy-system/carbon-capture-utilisation-and-storage/co2-transport-and-stor age; 2024. Https://WwwIeaOrg/Energy-System/Carbon-Capture-Utilisation-and- Storage/Co2-Transport-and-Storage.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Transport demand p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        14
+      ],
+      "citation": "Decarre S, Berthiaud J, Butin N, Guillaume-Combecave JL. CO2 maritime transportation. Int J Greenh Gas Control 2010;4:857–64. https://doi.org/10.1016/ j.ijggc.2010.05.005.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Shipping economics p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        14
+      ],
+      "citation": "Equinor, Shell, Total. Northern Lights project description. https://northernligh tsccs.com/en/about. [Accessed 19 November 2020]. n.d.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Northern Lights ship/project status p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        14
+      ],
+      "citation": "Hyundai Mipo HD. Begins construction of South Korea’s first liquefied carbon dioxide carrier. Retrieved from, https://www.hd.com/kr/newsroom/media-h ub/press/view?detailsKey=3173; 2024.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Construction statement p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        14
+      ],
+      "citation": "Al Baroudi H, Awoyomi A, Patchigolla K, Jonnalagadda K, Anthony EJ. A review of large-scale CO2 shipping and marine emissions management for carbon capture, utilisation and storage. Appl Energy 2021;287. https://doi.org/10.1016/j. apenergy.2021.116510.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Large carriers/review p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        14
+      ],
+      "citation": "Ozaki M, Ohsumi T. CCS from multiple sources to offshore storage site complex via ship transport. Energy Proc 2011;4:2992–9. https://doi.org/10.1016/j. egypro.2011.02.209.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Large carriers p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        14
+      ],
+      "citation": "Deng H, Roussanaly S, Skaugen G. Techno-economic analyses of CO2 liquefaction: impact of product pressure and impurities. Int J Refrig 2019;103:301–15. https:// doi.org/10.1016/j.ijrefrig.2019.04.011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure/impurities/capture composition/EOS pp1–3,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        14
+      ],
+      "citation": "Seo Y, Huh C, Lee S, Chang D. Comparison of CO2 liquefaction pressures for ship- based carbon capture and storage (CCS) chain. Int J Greenh Gas Control 2016;52: 1–12. https://doi.org/10.1016/j.ijggc.2016.06.011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure choices/economics/tanks/cycle pp1–3,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        14
+      ],
+      "citation": "Seo Y, You H, Lee S, Huh C, Chang D. Evaluation of CO2 liquefaction processes for ship-based carbon capture and storage (CCS) in terms of life cycle cost (LCC) considering availability. Int J Greenh Gas Control 2015;35:1–12. https://doi.org/ 10.1016/j.ijggc.2015.01.006.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Liquefaction/cycle/tanks pp1–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        14
+      ],
+      "citation": "Jackson S, Brodal E. Optimization of the CO2 liquefaction process-performance study with varying ambient temperature. Appl Sci 2019;9. https://doi.org/ 10.3390/app9204467.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Liquefaction/cycle pp1–2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        14
+      ],
+      "citation": "Lee S, Choi G, Lee C, Lee J. Optimal design and operating condition of boil-off CO2 re-liquefaction process, considering seawater temperature variation and compressor discharge temperature limit. Chem Eng Res Des 2017;124:29–45. https://doi.org/10.1016/j.cherd.2017.05.029.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOG prior comparison pp1–2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        14
+      ],
+      "citation": "Lee S, Choi G, Lee J. Optimal design and operating conditions of the CO2 liquefaction process, considering variations in cooling water temperature. Ind Eng Chem Res 2015;54:12855–66. https://doi.org/10.1021/acs.iecr.5b02391.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Liquid feed/impurities/temperature p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        14
+      ],
+      "citation": "Chu B, Chang D, Chung H. Optimum liquefaction fraction for boil-off gas reliquefaction system of semi-pressurized liquid CO2 carriers based on economic evaluation. Int J Greenh Gas Control 2012;10:46–55. https://doi.org/10.1016/j. ijggc.2012.05.016.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Cascade, impurities, BOR/EOS pp1–3,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        14
+      ],
+      "citation": "Lee J, Son H, Oh J, Yu T, Kim H, Lim Y. Advanced process design of subcooling re- liquefaction system considering storage pressure for a liquefied CO2 carrier. Energy 2024;293. https://doi.org/10.1016/j.energy.2024.130556.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure/BOR/PSO/economics pp1–4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        14
+      ],
+      "citation": "Yoo B. The development and comparison of CO2 BOG re-liquefaction processes for LNG fueled CO2 carriers. Energy 2017;127:186–97. https://doi.org/10.1016/j. energy.2017.03.073.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "LNG cold integration p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        14
+      ],
+      "citation": "Lu J, Li Y, Li B, Yang Q, Deng F. Research on re-liquefaction of cargo BOG using liquid ammonia cold energy on CO2 transport ship. Int J Greenh Gas Control 2023; 129. https://doi.org/10.1016/j.ijggc.2023.103994.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOR/liquid ammonia prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        14
+      ],
+      "citation": "Lee Y, Baek K, Lee S, Cha K, Han C. Design of boil-off CO2 re-liquefaction processes for a large-scale liquid CO2 transport ship. Int J Greenh Gas Control 2017;67: 93–102. https://doi.org/10.1016/j.ijggc.2017.10.008.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Distillation/EOS prior pp1–2,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        14
+      ],
+      "citation": "Chen F, Morosuk T. Exergetic and economic evaluation of CO2 liquefaction processes. Energies 2021;14. https://doi.org/10.3390/en14217174.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Ammonia prior/Table1 pp1–2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        14
+      ],
+      "citation": "Alabdulkarem A, Hwang Y, Radermacher R. Development of CO2 liquefaction cycles for CO2 sequestration. Appl Therm Eng 2012;33–34:144–56. https://doi. org/10.1016/j.applthermaleng.2011.09.027.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Ammonia prior/EOS p2,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        14
+      ],
+      "citation": "Aliyon K, Mehrpooya M, Hajinezhad A. Comparison of different CO2 liquefaction processes and exergoeconomic evaluation of integrated CO2 liquefaction and absorption refrigeration system. Energy Convers Manag 2020;211. https://doi.org/ 10.1016/j.enconman.2020.112752.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior liquefaction/impurity/EOS pp2,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        14
+      ],
+      "citation": "Lim Y, Lee S, Ko M, Park K, Lee J. Operational strategy of pre-cooling process of CO2 storage tank in CCS ship transportation using model-based optimization. Chem Eng Res Des 2016;109:770–9. https://doi.org/10.1016/j.cherd.2016.03.030.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Cargo handling/pre-cooling p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        14
+      ],
+      "citation": "Nam T, Yu T, Lim Y. Thermodynamic modeling and analysis of boil-off gas generation and self-pressurization in liquefied carbon dioxide tanks. J Ocean Eng Technol 2024;38:257–68. https://doi.org/10.26748/KSOE.2024.050.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "12–13day hold-time context p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        14
+      ],
+      "citation": "Jeon S, Kim M. Effects of impurities on re-liquefaction system of liquefied CO2 transport ship for CCS. Int J Greenh Gas Control 2015;43:225–32. https://doi.org/ 10.1016/j.ijggc.2015.10.011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Impurity partition/filling/BOG pp2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        14
+      ],
+      "citation": "Ahmad M, Gernert J, Wilbers E. Effect of impurities in captured CO2 on liquid- vapor equilibrium. Fluid Phase Equilib 2014;363:149–55. https://doi.org/ 10.1016/j.fluid.2013.11.009.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Mixture phase behaviour p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        14
+      ],
+      "citation": "Moein P, Sarmad M, Ebrahimi H, Zare M, Pakseresht S, Vakili SZ. APCI- LNG single mixed refrigerant process for natural gas liquefaction cycle: analysis and optimization. J Nat Gas Sci Eng 2015;26:470–9. https://doi.org/10.1016/j. jngse.2015.06.040.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PRICO prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R29",
+      "pages": [
+        14
+      ],
+      "citation": "Almeida Trasvina F, Smith R. Structural modifications on single mixed refrigerant cycles for performance improvements in small-scale LNG processes. Ind Eng Chem Res 2022;61:2825–42. https://doi.org/10.1021/acs.iecr.1c03699.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PRICO prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R30",
+      "pages": [
+        14
+      ],
+      "citation": "Almeida Trasvina F, Smith R, Jobson M. Development of an energy-efficient single mixed refrigerant cycle for small-scale LNG production. Ind Eng Chem Res 2021; 60:12049–67. https://doi.org/10.1021/acs.iecr.1c00432.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PRICO prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R31",
+      "pages": [
+        14
+      ],
+      "citation": "Deng Z, An J. A new Re-liquefaction system for dynamic boil-off recovery based on single mixed refrigerant. Chem Technol Fuels Oils 2023;59:131–40. https://doi. org/10.1007/s10553-023-01511-x.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "SMR prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R32",
+      "pages": [
+        14
+      ],
+      "citation": "Khan MS, Lee M. Design optimization of single mixed refrigerant natural gas liquefaction process using the particle swarm paradigm with nonlinear constraints. Energy 2013;49:146–55. https://doi.org/10.1016/j.energy.2012.11.028.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "SMR/PSO pp2–4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R33",
+      "pages": [
+        15
+      ],
+      "citation": "Xu X, Liu J, Jiang C, Cao L. The correlation between mixed refrigerant composition and ambient conditions in the PRICO LNG process. Appl Energy 2013;102: 1127–36. https://doi.org/10.1016/j.apenergy.2012.06.031.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PRICO prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R34",
+      "pages": [
+        15
+      ],
+      "citation": "Lee J, Son H, Yu T, Oh J, Park M, Lim Y. Process design of advanced LNG subcooling system combined with a mixed refrigerant cycle. Energy 2023;278. https://doi.org/10.1016/j.energy.2023.127892.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "30% LNG SMR saving/PSO pp2–4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R35",
+      "pages": [
+        15
+      ],
+      "citation": "Zhang J, Meerman H, Benders R, Faaij A. Comprehensive review of current natural gas liquefaction processes on technical and economic performance. Appl Therm Eng 2020;166. https://doi.org/10.1016/j.applthermaleng.2019.114736.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "LNG review p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R36",
+      "pages": [
+        15
+      ],
+      "citation": "International Maritime Organization. International Code for the construction and equipment of ships carrying liquefied gases in bulk (IGC Code). London, UK: IMO; 2008.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "98% fill IGC attribution p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R37",
+      "pages": [
+        15
+      ],
+      "citation": "Hasan MMF, Zheng AM, Karimi IA. Minimizing boil-off losses in liquefied natural gas transportation. Ind Eng Chem Res 2009;48:9571–80. https://doi.org/10.1021/ ie801975q.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "5% heel LNG transfer p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R38",
+      "pages": [
+        15
+      ],
+      "citation": "Wilson JJ. An introduction to the marine transportation of bulk LNG and the design of LNG carriers. Cryogenics 1974;14(3):115–20.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "5% heel LNG transfer p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R39",
+      "pages": [
+        15
+      ],
+      "citation": "Voldsund M, Gardarsdottir SO, De Lena E, P´erez-Calvo JF, Jamali A, Berstad D, et al. Comparison of technologies for CO2 capture from cement production Part 1: technical evaluation. Energies 2019;12. https://doi.org/10.3390/en12030559.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Cement captured composition p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R40",
+      "pages": [
+        15
+      ],
+      "citation": "Yoo BY, Choi DK, Kim HJ, Moon YS, Na HS, Lee SG. Development of CO2 terminal and CO2 carrier for future commercialized CCS market. Int J Greenh Gas Control 2013;12:323–32. https://doi.org/10.1016/j.ijggc.2012.11.008.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOR prior p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R41",
+      "pages": [
+        15
+      ],
+      "citation": "Jeon SH, Choi YU, Kim MS. Review on boil-off gas (BOG) Re-liquefaction system of liquefied CO 2 transport ship for carbon capture and sequestration (CCS). Int J Air Cond Refrig 2016;24:1650017. https://doi.org/10.1142/S2010132516500176.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOR review p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R42",
+      "pages": [
+        15
+      ],
+      "citation": "Li H, Yan J. Evaluating cubic equations of state for calculation of vapor-liquid equilibrium of CO2 and CO2 -mixtures for CO2 capture and storage processes. Appl Energy 2009;86:826–36. https://doi.org/10.1016/j.apenergy.2008.05.018.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PR VLE support p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R43",
+      "pages": [
+        15
+      ],
+      "citation": "Vrabec J, Kedia GK, Buchhauser U, Meyer-Pittroff R, Hasse H. Thermodynamic models for vapor-liquid equilibria of nitrogen + oxygen + carbon dioxide at low temperatures. Cryogenics 2009;49:72–9. https://doi.org/10.1016/j. cryogenics.2008.11.002.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PR VLE support p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R44",
+      "pages": [
+        15
+      ],
+      "citation": "Himsen Engine. H22CDF SFOC datasheet. https://www.hyundai-engine.com/en/ products/detail/47. [Accessed 11 September 2024]. n.d.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "197.5g/kWh generator SFOC p4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R45",
+      "pages": [
+        15
+      ],
+      "citation": "International Maritime Organization. Fourth IMO GHG study 2020. 2021.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "3.206 MGO combustion factor p4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R46",
+      "pages": [
+        15
+      ],
+      "citation": "Oh J, Kim D, Roussanaly S, Anantharaman R, Lim Y. Optimal capacity design of amine-based onboard CO2 capture systems under variable marine engine loads. Chem Eng J 2024;483. https://doi.org/10.1016/j.cej.2024.149136.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "MGO factor methodology p4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R47",
+      "pages": [
+        15
+      ],
+      "citation": "Ship and Bunker. Bunker index: global 20 port average. https://shipandbunker. com/prices#MGO. [Accessed 18 July 2024]. n.d.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "825USD/t fuel price p4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R48",
+      "pages": [
+        15
+      ],
+      "citation": "U.S. Congress. Text - S.1920 - 118th Congress (2023-2024): International Maritime Pollution Accountability Act of 2023. Retrieved from https://www.congress.gov/ bill/118th-congress/senate-bill/1920/text. n.d.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "150USD/t carbon price assumption p6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3,
+        4,
+        6,
+        12,
+        13
+      ],
+      "citation": "Aspen HYSYS V14 and native PR property implementation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Case versions, binary parameters, phase roots, solid-equilibrium and flash specification missing."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        4,
+        6,
+        12
+      ],
+      "citation": "Particle swarm optimisation implementation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Bounds, population, seeds, penalties, feasibility and global/convergence evidence missing."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        4,
+        6,
+        13
+      ],
+      "citation": "APEA V14 2022 equipment and installation basis",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native costing files, scope/factors, material and per-tank mapping unverified."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        5,
+        7,
+        12,
+        13
+      ],
+      "citation": "Complete native streams, recycles and utilities",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Mass/composition/enthalpy and cooling/flow arrays absent; rounded states do not close energy/material balances."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        3,
+        4,
+        6,
+        11
+      ],
+      "citation": "Actual laden/ballast route and evolving tank mixture",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Borrowed heel, fixed BOR,8000h and6 voyages do not reproduce an observed route or dynamic tank."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        4,
+        6,
+        10
+      ],
+      "citation": "Full transport lifecycle and refrigerant handling",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Compression-MGO plus purge scope excludes propulsion/other utilities, upstream fuel and refrigerant leakage/assets."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        1,
+        14
+      ],
+      "citation": "Data on request, supplements, code, rights and errata",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Explicit data-on-request statement; no embedded assets or explicit external supplement notice; external check paused."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        7,
+        8
+      ],
+      "status": "HOLD_PERCENTAGE_CLAIMS",
+      "finding": "Purge/powerprose confusesremaining fractionsandreductions;15 barpurge claimalsodisagrees.",
+      "action": "Retainliteral wordinganddisplayed numbers; verifyerrata/originaloutputsbefore transferring gains."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        12
+      ],
+      "status": "HOLD_REFRIGERANT_COMPOSITION",
+      "finding": "Laden 1-3 at 0.05 mol% lists26.89+57.62+5.74+14.75=105 mol%.",
+      "action": "Do notnormalizeorreplacecomponents; obtainnative case/erratum."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        12,
+        13
+      ],
+      "status": "HOLD_PRESSURE_LABELS",
+      "finding": "Two A1R5/R6pairsdisagreewithA4/A5andappearinterchanged.",
+      "action": "Preserveboth native printings; no corrected pressures adopted."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        4,
+        6,
+        11,
+        13
+      ],
+      "status": "HOLD_ANNUAL_COST_CARGO_BASIS",
+      "finding": "Eq8dimensionsUSD/hwithoutannualtime;tBallast nomenclature repeats laden;gross/net cargo and heel/density are not explicit.",
+      "action": "Keepconditionalannualbounds/roundedcostaccounting separatefrom full cost reproduction."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        3,
+        4,
+        6,
+        12,
+        13
+      ],
+      "status": "OPEN_NATIVE_THERMODYNAMICS_OPTIMIZATION",
+      "finding": "Native HYSYS/PSO/APEA,VLEbinaryparameters,phase/solidchecks,fullstreamflows/enthalpiesandalgorithmsettingsmissing.",
+      "action": "Obtain versioned cases/code/rights; independently reproduce balances, feasibility, convergence and case comparisons."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        2,
+        3,
+        4,
+        6,
+        10
+      ],
+      "status": "OPEN_TRANSFER_AND_LIFECYCLE",
+      "finding": "Borrowedfill/heel/BOR/generator/calendar, CO2+N2 only,cooling/propulsion/upstream/refrigerantlossesandassets omitted.",
+      "action": "Do nottransfercomplete utility/GHG,routeorregional operating factor; verify compatible actual boundary."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        7,
+        8,
+        9,
+        13
+      ],
+      "status": "HOLD_GRAPHIC_AND_TEXT_SCOPE",
+      "finding": "Figure5highbarsclipped; prosepressure-rangeandstrict>70%tanksharehaveprinted exceptions.",
+      "action": "Useprinted numeric labelswithrounding; keepqualitativeheatcurveevidenceseparatefrombalances."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        1,
+        14,
+        15
+      ],
+      "status": "OPEN_ORIGINALS_ASSETS_RIGHTS",
+      "finding": "All 48originalsand 7 dependenciesunverified;data on request;no embeddedfiles.",
+      "action": "Verifyexact original support,externalassets,errataandpermittedcode/datawhen access resumes; no absence claim."
+    }
+  ],
+  "supplements": "Both internal appendices fully read within15 pages. No embedded files or explicit external supplement/code notice. Data explicitly available on request p14; no request sent. Exact external assets,errata,code andrights unverified whileChrome wait continues; no public absence inferred.",
+  "reproduction": "Equation1 filling-fraction algebra, Equation2 displayed annual mass sum, Equations5–6 laden combustion conversion, Equation7 annuity and Equations9–11/13 rounded cost/tax/index accounting evaluated in324 limited diagnostics. All18 CPT rounding intervals overlap. Equations3–4 retain reported voyage totals; their complete purge/power inputs are unavailable. Equation8 annual time omission and missing ballast split remain explicit. Equation12 gross cargo/density/heel/purge calculation is not reproduced; its reported transport totals are used only as denominators. No native PR flash, heat transfer, recycle, BOG dynamics, PSO optimum, APEA equipment cost or full lifecycle independently reproduced.",
+  "paper1_use": "Use to distinguishpurgeandcompressioncombustion and annual calendar/basis, andtoqualifyremaining versus reduction claims. Retain printed composition/pressure conflicts; do notacceptnative process inputs orfullGHG/utility/shippingcost/retention factor. Existing operating/GHG outputs unchanged.",
+  "next_steps": "Verify48 exact originals and 7 dependencies; obtainnative HYSYS/APEA/PSO versions,unrounded flows/thermodynamics, cost/cargo basis, errata/rights and independent validation. ContinueB1-20 locally while92-paper audit remains active."
+}

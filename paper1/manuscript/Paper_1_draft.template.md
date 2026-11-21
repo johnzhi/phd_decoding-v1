@@ -281,6 +281,8 @@ The terminal literature reinforces this dependence on design and operating condi
 
 Across the 18 paired Jeong cases, calculated purge-plus-auxiliary-generation intensity spans **1.27–21.25 kgCO₂/t transported**. The variation reflects different pressure/process and nitrogen cases, not repeated observations of one chain. The complete case matrix is provided below to preserve the pairing rather than using its extrema as a statistical range.
 
+The [comprehensive BOG-process audit](../docs/bog_reliquefaction_comprehensive_findings.md) confirms the reported maximum annual process-emission reductions from Table 6, while identifying discussion percentages that confuse remaining fractions with reductions [B1-19, pp7–10]. A 105 mol% refrigerant row, conflicting appendix pressure labels, missing annual time in the printed OPEX equation and unavailable native HYSYS/PSO/APEA files prevent independent process reproduction [B1-19, pp4,12–14]. The paired reported-output benchmark remains separate from accepting those parameters or establishing full transport-chain mitigation.
+
 {{BOG_TABLE}}
 
 ![Partial process CO₂ intensity. Numerators: Jeong et al., B1-19, p7 Table 6; denominators: p13 Table A6. Lines connect the three reported impurity cases for readability and are not interpolation models. Full propulsion and upstream lifecycle GHG are excluded.](../outputs/figures/bog_partial_emissions.png)

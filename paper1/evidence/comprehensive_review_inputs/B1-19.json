@@ -1,0 +1,738 @@
+{
+  "study_id": "B1-19",
+  "source_path": "papers/B1-19.pdf",
+  "source_sha256": "4079a87e655cd170da30d068e85d9f95451f00235326317c267d16e521aecf67",
+  "source_DOI": "10.1016/j.energy.2025.135837",
+  "transcription": "Physical pages7,8,12,13 visually checked. Values remain printed, including conflicts; no native process case inferred.",
+  "assumptions": {
+    "tank_capacity_m3": 5000,
+    "tank_count": 10,
+    "fill_laden": 0.98,
+    "fill_ballast": 0.05,
+    "BOR_mass_fraction_per_day": 0.001,
+    "hours_laden": 4000,
+    "hours_ballast": 4000,
+    "voyages_per_year": 6,
+    "SFOC_g_per_kWh": 197.5,
+    "MGO_CO2_t_per_t_fuel": 3.206,
+    "MGO_price_USD_per_t": 825,
+    "carbon_price_USD_per_t": 150,
+    "interest_rate": 0.1,
+    "life_years": 20,
+    "compressor_adiabatic_efficiency": 0.75,
+    "max_compressor_pressure_ratio": 3,
+    "cooling_water_C": 30,
+    "cooler_min_approach_K": 5,
+    "HX5_min_approach_K": 3,
+    "S8_min_temperature_C": -55,
+    "source_pressure_basis": "bar as printed; native HYSYS absolute reference requires verification; no gauge addition performed",
+    "operating_scope": "8000 assumed hours across6 annual voyages; not an observed route or maintenance schedule"
+  },
+  "figure2_N2_vapor_endpoint_mol_percent": {
+    "6.5_laden": [
+      4.19,
+      12.79
+    ],
+    "6.5_ballast": [
+      0.22,
+      0.66
+    ],
+    "15_laden": [
+      1.58,
+      4.79
+    ],
+    "15_ballast": [
+      0.12,
+      0.35
+    ]
+  },
+  "rows": [
+    {
+      "case": "1-1",
+      "N2_liquid_label_mol_percent": 0.05,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 2385.1,
+      "ballast_CO2_t": 27.3,
+      "annual_CO2_t": 2412.4,
+      "laden_compression_CO2_t": 416.9,
+      "laden_purge_CO2_t": 1968.2,
+      "figure6_power_kW": [
+        null,
+        null,
+        null
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.37,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.63,
+      "annualized_CAPEX_MUSD": 2.59,
+      "OPEX_MUSD": 0.11,
+      "TAC_MUSD": 2.7,
+      "tax_MUSD": 0.36,
+      "transported_kt_per_year": 320.4,
+      "CPT_USD_per_t": 9.57,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "1-1",
+      "N2_liquid_label_mol_percent": 0.1,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 4477.5,
+      "ballast_CO2_t": 32.7,
+      "annual_CO2_t": 4510.2,
+      "laden_compression_CO2_t": 328.3,
+      "laden_purge_CO2_t": 4149.2,
+      "figure6_power_kW": [
+        null,
+        null,
+        null
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.2,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.61,
+      "annualized_CAPEX_MUSD": 2.57,
+      "OPEX_MUSD": 0.09,
+      "TAC_MUSD": 2.66,
+      "tax_MUSD": 0.68,
+      "transported_kt_per_year": 319.2,
+      "CPT_USD_per_t": 10.45,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "1-1",
+      "N2_liquid_label_mol_percent": 0.15,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 6717.7,
+      "ballast_CO2_t": 37.8,
+      "annual_CO2_t": 6755.5,
+      "laden_compression_CO2_t": 274.9,
+      "laden_purge_CO2_t": 6442.8,
+      "figure6_power_kW": [
+        null,
+        null,
+        null
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.04,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.59,
+      "annualized_CAPEX_MUSD": 2.55,
+      "OPEX_MUSD": 0.08,
+      "TAC_MUSD": 2.63,
+      "tax_MUSD": 1.01,
+      "transported_kt_per_year": 317.9,
+      "CPT_USD_per_t": 11.46,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "1-2",
+      "N2_liquid_label_mol_percent": 0.05,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 1042.6,
+      "ballast_CO2_t": 26.3,
+      "annual_CO2_t": 1068.9,
+      "laden_compression_CO2_t": 599.6,
+      "laden_purge_CO2_t": 442.9,
+      "figure6_power_kW": [
+        137.1,
+        99.6,
+        236.7
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.93,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.7,
+      "annualized_CAPEX_MUSD": 2.66,
+      "OPEX_MUSD": 0.16,
+      "TAC_MUSD": 2.82,
+      "tax_MUSD": 0.16,
+      "transported_kt_per_year": 321.9,
+      "CPT_USD_per_t": 9.25,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "1-2",
+      "N2_liquid_label_mol_percent": 0.1,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 1516.3,
+      "ballast_CO2_t": 29.4,
+      "annual_CO2_t": 1545.7,
+      "laden_compression_CO2_t": 580.5,
+      "laden_purge_CO2_t": 935.8,
+      "figure6_power_kW": [
+        138.2,
+        91.0,
+        229.2
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.83,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.68,
+      "annualized_CAPEX_MUSD": 2.64,
+      "OPEX_MUSD": 0.16,
+      "TAC_MUSD": 2.8,
+      "tax_MUSD": 0.23,
+      "transported_kt_per_year": 322.4,
+      "CPT_USD_per_t": 9.4,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "1-2",
+      "N2_liquid_label_mol_percent": 0.15,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 1973.6,
+      "ballast_CO2_t": 31.7,
+      "annual_CO2_t": 2005.3,
+      "laden_compression_CO2_t": 531.8,
+      "laden_purge_CO2_t": 1441.8,
+      "figure6_power_kW": [
+        127.3,
+        82.7,
+        210.0
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.82,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.68,
+      "annualized_CAPEX_MUSD": 2.64,
+      "OPEX_MUSD": 0.14,
+      "TAC_MUSD": 2.79,
+      "tax_MUSD": 0.3,
+      "transported_kt_per_year": 322.9,
+      "CPT_USD_per_t": 9.56,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "1-3",
+      "N2_liquid_label_mol_percent": 0.05,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 916.2,
+      "ballast_CO2_t": 24.8,
+      "annual_CO2_t": 941.0,
+      "laden_compression_CO2_t": 474.9,
+      "laden_purge_CO2_t": 441.2,
+      "figure6_power_kW": [
+        76.7,
+        110.8,
+        187.5
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.42,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.64,
+      "annualized_CAPEX_MUSD": 2.6,
+      "OPEX_MUSD": 0.13,
+      "TAC_MUSD": 2.72,
+      "tax_MUSD": 0.14,
+      "transported_kt_per_year": 321.9,
+      "CPT_USD_per_t": 8.9,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "1-3",
+      "N2_liquid_label_mol_percent": 0.1,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 1392.8,
+      "ballast_CO2_t": 25.8,
+      "annual_CO2_t": 1418.6,
+      "laden_compression_CO2_t": 464.4,
+      "laden_purge_CO2_t": 928.4,
+      "figure6_power_kW": [
+        74.6,
+        108.8,
+        183.4
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.42,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.64,
+      "annualized_CAPEX_MUSD": 2.6,
+      "OPEX_MUSD": 0.13,
+      "TAC_MUSD": 2.72,
+      "tax_MUSD": 0.21,
+      "transported_kt_per_year": 322.4,
+      "CPT_USD_per_t": 9.1,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "1-3",
+      "N2_liquid_label_mol_percent": 0.15,
+      "storage_pressure_bar": 6.5,
+      "laden_CO2_t": 1891.1,
+      "ballast_CO2_t": 27.3,
+      "annual_CO2_t": 1918.4,
+      "laden_compression_CO2_t": 450.0,
+      "laden_purge_CO2_t": 1441.0,
+      "figure6_power_kW": [
+        78.7,
+        99.0,
+        177.7
+      ],
+      "tank_CAPEX_MUSD": 16.68,
+      "other_CAPEX_MUSD": 5.38,
+      "tank_annualized_MUSD": 1.96,
+      "other_annualized_MUSD": 0.63,
+      "annualized_CAPEX_MUSD": 2.59,
+      "OPEX_MUSD": 0.12,
+      "TAC_MUSD": 2.71,
+      "tax_MUSD": 0.29,
+      "transported_kt_per_year": 322.9,
+      "CPT_USD_per_t": 9.29,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-1",
+      "N2_liquid_label_mol_percent": 0.05,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 467.2,
+      "ballast_CO2_t": 12.0,
+      "annual_CO2_t": 479.2,
+      "laden_compression_CO2_t": 390.4,
+      "laden_purge_CO2_t": 76.9,
+      "figure6_power_kW": [
+        null,
+        null,
+        null
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 5.44,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.64,
+      "annualized_CAPEX_MUSD": 3.28,
+      "OPEX_MUSD": 0.1,
+      "TAC_MUSD": 3.39,
+      "tax_MUSD": 0.07,
+      "transported_kt_per_year": 297.4,
+      "CPT_USD_per_t": 11.63,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-1",
+      "N2_liquid_label_mol_percent": 0.1,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 662.3,
+      "ballast_CO2_t": 12.9,
+      "annual_CO2_t": 675.2,
+      "laden_compression_CO2_t": 449.9,
+      "laden_purge_CO2_t": 212.4,
+      "figure6_power_kW": [
+        null,
+        null,
+        null
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 5.45,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.64,
+      "annualized_CAPEX_MUSD": 3.28,
+      "OPEX_MUSD": 0.12,
+      "TAC_MUSD": 3.4,
+      "tax_MUSD": 0.1,
+      "transported_kt_per_year": 297.7,
+      "CPT_USD_per_t": 11.77,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-1",
+      "N2_liquid_label_mol_percent": 0.15,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 804.9,
+      "ballast_CO2_t": 13.8,
+      "annual_CO2_t": 818.7,
+      "laden_compression_CO2_t": 466.0,
+      "laden_purge_CO2_t": 338.9,
+      "figure6_power_kW": [
+        null,
+        null,
+        null
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 5.63,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.66,
+      "annualized_CAPEX_MUSD": 3.3,
+      "OPEX_MUSD": 0.12,
+      "TAC_MUSD": 3.43,
+      "tax_MUSD": 0.12,
+      "transported_kt_per_year": 298.0,
+      "CPT_USD_per_t": 11.91,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-2",
+      "N2_liquid_label_mol_percent": 0.05,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 423.1,
+      "ballast_CO2_t": 11.9,
+      "annual_CO2_t": 435.0,
+      "laden_compression_CO2_t": 346.1,
+      "laden_purge_CO2_t": 77.0,
+      "figure6_power_kW": [
+        48.3,
+        88.3,
+        136.6
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 5.35,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.63,
+      "annualized_CAPEX_MUSD": 3.27,
+      "OPEX_MUSD": 0.09,
+      "TAC_MUSD": 3.36,
+      "tax_MUSD": 0.07,
+      "transported_kt_per_year": 297.4,
+      "CPT_USD_per_t": 11.53,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-2",
+      "N2_liquid_label_mol_percent": 0.1,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 553.6,
+      "ballast_CO2_t": 12.6,
+      "annual_CO2_t": 566.2,
+      "laden_compression_CO2_t": 383.9,
+      "laden_purge_CO2_t": 169.8,
+      "figure6_power_kW": [
+        70.0,
+        81.6,
+        151.6
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 5.64,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.66,
+      "annualized_CAPEX_MUSD": 3.31,
+      "OPEX_MUSD": 0.1,
+      "TAC_MUSD": 3.41,
+      "tax_MUSD": 0.08,
+      "transported_kt_per_year": 297.7,
+      "CPT_USD_per_t": 11.73,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-2",
+      "N2_liquid_label_mol_percent": 0.15,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 669.8,
+      "ballast_CO2_t": 13.7,
+      "annual_CO2_t": 683.5,
+      "laden_compression_CO2_t": 391.1,
+      "laden_purge_CO2_t": 278.8,
+      "figure6_power_kW": [
+        72.7,
+        81.7,
+        154.4
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 5.87,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.69,
+      "annualized_CAPEX_MUSD": 3.33,
+      "OPEX_MUSD": 0.1,
+      "TAC_MUSD": 3.44,
+      "tax_MUSD": 0.1,
+      "transported_kt_per_year": 298.1,
+      "CPT_USD_per_t": 11.87,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-3",
+      "N2_liquid_label_mol_percent": 0.05,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 365.5,
+      "ballast_CO2_t": 11.5,
+      "annual_CO2_t": 377.0,
+      "laden_compression_CO2_t": 315.6,
+      "laden_purge_CO2_t": 49.9,
+      "figure6_power_kW": [
+        26.3,
+        98.3,
+        124.6
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 4.94,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.58,
+      "annualized_CAPEX_MUSD": 3.22,
+      "OPEX_MUSD": 0.08,
+      "TAC_MUSD": 3.31,
+      "tax_MUSD": 0.06,
+      "transported_kt_per_year": 297.4,
+      "CPT_USD_per_t": 11.31,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-3",
+      "N2_liquid_label_mol_percent": 0.1,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 442.7,
+      "ballast_CO2_t": 12.4,
+      "annual_CO2_t": 455.1,
+      "laden_compression_CO2_t": 344.6,
+      "laden_purge_CO2_t": 98.1,
+      "figure6_power_kW": [
+        38.3,
+        97.8,
+        136.1
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 5.0,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.59,
+      "annualized_CAPEX_MUSD": 3.23,
+      "OPEX_MUSD": 0.09,
+      "TAC_MUSD": 3.32,
+      "tax_MUSD": 0.07,
+      "transported_kt_per_year": 297.8,
+      "CPT_USD_per_t": 11.38,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    },
+    {
+      "case": "2-3",
+      "N2_liquid_label_mol_percent": 0.15,
+      "storage_pressure_bar": 15,
+      "laden_CO2_t": 513.3,
+      "ballast_CO2_t": 13.7,
+      "annual_CO2_t": 527.0,
+      "laden_compression_CO2_t": 373.7,
+      "laden_purge_CO2_t": 139.6,
+      "figure6_power_kW": [
+        45.6,
+        101.9,
+        147.5
+      ],
+      "tank_CAPEX_MUSD": 22.5,
+      "other_CAPEX_MUSD": 5.04,
+      "tank_annualized_MUSD": 2.64,
+      "other_annualized_MUSD": 0.59,
+      "annualized_CAPEX_MUSD": 3.24,
+      "OPEX_MUSD": 0.1,
+      "TAC_MUSD": 3.34,
+      "tax_MUSD": 0.08,
+      "transported_kt_per_year": 298.2,
+      "CPT_USD_per_t": 11.45,
+      "source_pages": [
+        7,
+        8,
+        13
+      ]
+    }
+  ],
+  "mixture_component_order": [
+    "C2",
+    "C3",
+    "iC4",
+    "nC4"
+  ],
+  "literal_mixtures_mol_percent": {
+    "laden": {
+      "1-3": [
+        [
+          26.89,
+          57.62,
+          5.74,
+          14.75
+        ],
+        [
+          26.56,
+          59.71,
+          6.18,
+          7.55
+        ],
+        [
+          22.31,
+          58.61,
+          10.94,
+          8.14
+        ]
+      ],
+      "2-3": [
+        [
+          12.79,
+          43.7,
+          20.91,
+          22.59
+        ],
+        [
+          26.19,
+          39.9,
+          15.96,
+          17.95
+        ],
+        [
+          24.66,
+          42.32,
+          10.66,
+          22.36
+        ]
+      ]
+    },
+    "ballast": {
+      "1-3": [
+        [
+          6.28,
+          71.96,
+          10.84,
+          10.92
+        ],
+        [
+          8.35,
+          63.03,
+          15.56,
+          13.06
+        ],
+        [
+          8.24,
+          67.17,
+          15.9,
+          8.69
+        ]
+      ],
+      "2-3": [
+        [
+          0,
+          79.6,
+          17.63,
+          2.77
+        ],
+        [
+          0,
+          83.14,
+          2.72,
+          14.14
+        ],
+        [
+          0,
+          94.9,
+          2.15,
+          2.96
+        ]
+      ]
+    }
+  },
+  "pressure_conflicts": [
+    {
+      "N2": 0.1,
+      "case": "2-3",
+      "table_A1_R5_bar": 2.24,
+      "table_A1_R6_bar": 16.73,
+      "table_A4_R5_bar": 16.73,
+      "table_A4_R6_bar": 2.24
+    },
+    {
+      "N2": 0.15,
+      "case": "1-3",
+      "table_A1_R5_bar": 2.37,
+      "table_A1_R6_bar": 17.07,
+      "table_A5_R5_bar": 17.07,
+      "table_A5_R6_bar": 2.37
+    }
+  ],
+  "heat_composite_differences_C": {
+    "1-2": {
+      "maximum": 43.5,
+      "average": 24.8
+    },
+    "1-3": {
+      "maximum": 29.8,
+      "average": 11.6
+    },
+    "2-2": {
+      "maximum": 46.3,
+      "average": 28.1
+    },
+    "2-3": {
+      "maximum": 27.1,
+      "average": 13.7
+    }
+  },
+  "missing": {
+    "native_HYSYS_APEA_cases_and_rights": null,
+    "PSO_code_seed_bounds_penalties_convergence": null,
+    "complete_stream_flows_compositions_enthalpies_cooling_duties": null,
+    "PR_binary_interactions_and_phase_solid_validation": null,
+    "actual_feed_mixture_basis_and_time_dependent_flash": null,
+    "ballast_power_and_purge_split": null,
+    "unrounded_costs_density_and_gross_cargo_heel_basis": null,
+    "full_ship_route_calendar_loads_assets_and_lifecycle": null,
+    "external_originals_data_request_supplements_errata": null
+  },
+  "analyst_examples": {
+    "vapor_to_liquid_molar_volume_ratios": [
+      50,
+      100,
+      200
+    ],
+    "reference_gains_are_not_case_data": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "study_id": "B1-19",
+  "source_sha256": "4079a87e655cd170da30d068e85d9f95451f00235326317c267d16e521aecf67",
+  "diagnostic_count": 324,
+  "case_rows": 18,
+  "components_reconstructed": [
+    "Eq1 filling-fraction algebra",
+    "Eq2 displayed annual sum and Eq5\u20136 laden combustion conversion",
+    "Eq7 capital recovery",
+    "Eq9\u201311 and Eq13 rounded cost/tax/index accounting using reported annual outputs"
+  ],
+  "Eq8_status": "literal_power_times_SFOC_price_is_hourly_cost_without_time_factor; annualOPEX_only_bounded_from_available_partitions",
+  "Eq12_status": "reported_transport_totals_used; native_gross_cargo_density_heel_and_purge_calculation_not_reproduced",
+  "native_HYSYS_PR_flash_recycle_PSO_APEA_or_heat_transfer_model_reproduced": false,
+  "accepted_inputs_changed": false,
+  "missing": {
+    "native_HYSYS_APEA_cases_and_rights": null,
+    "PSO_code_seed_bounds_penalties_convergence": null,
+    "complete_stream_flows_compositions_enthalpies_cooling_duties": null,
+    "PR_binary_interactions_and_phase_solid_validation": null,
+    "actual_feed_mixture_basis_and_time_dependent_flash": null,
+    "ballast_power_and_purge_split": null,
+    "unrounded_costs_density_and_gross_cargo_heel_basis": null,
+    "full_ship_route_calendar_loads_assets_and_lifecycle": null,
+    "external_originals_data_request_supplements_errata": null
+  }
+}

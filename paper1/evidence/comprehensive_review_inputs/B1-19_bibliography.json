@@ -1,0 +1,575 @@
+{
+  "study_id": "B1-19",
+  "source_sha256": "4079a87e655cd170da30d068e85d9f95451f00235326317c267d16e521aecf67",
+  "printed_entries": 48,
+  "named_dependencies": 7,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        14
+      ],
+      "citation": "Ritchie H, Rm, Ritchie H, Roser M. CO2 emissions. Our world in data. 2020. Retrieved from, https://ourworldindata.org/co2-emissions.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Global emissions context p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        14
+      ],
+      "citation": "Siemenski A. Technology readiness and costs of CCS. The circular carbon economy: keystone to global sustainability series. 2021.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CCS readiness context p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        14
+      ],
+      "citation": "IRENA. Global hydrogen trade to meet the 1.5 ◦C climate goal, Part 1; 2022.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "2050 contribution attribution p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "International Energy Agency (IEA). CO2 transport and storage. https://www.iea. org/energy-system/carbon-capture-utilisation-and-storage/co2-transport-and-stor age; 2024. Https://WwwIeaOrg/Energy-System/Carbon-Capture-Utilisation-and- Storage/Co2-Transport-and-Storage.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Transport demand p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        14
+      ],
+      "citation": "Decarre S, Berthiaud J, Butin N, Guillaume-Combecave JL. CO2 maritime transportation. Int J Greenh Gas Control 2010;4:857–64. https://doi.org/10.1016/ j.ijggc.2010.05.005.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Shipping economics p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        14
+      ],
+      "citation": "Equinor, Shell, Total. Northern Lights project description. https://northernligh tsccs.com/en/about. [Accessed 19 November 2020]. n.d.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Northern Lights ship/project status p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        14
+      ],
+      "citation": "Hyundai Mipo HD. Begins construction of South Korea’s first liquefied carbon dioxide carrier. Retrieved from, https://www.hd.com/kr/newsroom/media-h ub/press/view?detailsKey=3173; 2024.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Construction statement p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        14
+      ],
+      "citation": "Al Baroudi H, Awoyomi A, Patchigolla K, Jonnalagadda K, Anthony EJ. A review of large-scale CO2 shipping and marine emissions management for carbon capture, utilisation and storage. Appl Energy 2021;287. https://doi.org/10.1016/j. apenergy.2021.116510.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Large carriers/review p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        14
+      ],
+      "citation": "Ozaki M, Ohsumi T. CCS from multiple sources to offshore storage site complex via ship transport. Energy Proc 2011;4:2992–9. https://doi.org/10.1016/j. egypro.2011.02.209.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Large carriers p1. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        14
+      ],
+      "citation": "Deng H, Roussanaly S, Skaugen G. Techno-economic analyses of CO2 liquefaction: impact of product pressure and impurities. Int J Refrig 2019;103:301–15. https:// doi.org/10.1016/j.ijrefrig.2019.04.011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure/impurities/capture composition/EOS pp1–3,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        14
+      ],
+      "citation": "Seo Y, Huh C, Lee S, Chang D. Comparison of CO2 liquefaction pressures for ship- based carbon capture and storage (CCS) chain. Int J Greenh Gas Control 2016;52: 1–12. https://doi.org/10.1016/j.ijggc.2016.06.011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure choices/economics/tanks/cycle pp1–3,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        14
+      ],
+      "citation": "Seo Y, You H, Lee S, Huh C, Chang D. Evaluation of CO2 liquefaction processes for ship-based carbon capture and storage (CCS) in terms of life cycle cost (LCC) considering availability. Int J Greenh Gas Control 2015;35:1–12. https://doi.org/ 10.1016/j.ijggc.2015.01.006.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Liquefaction/cycle/tanks pp1–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        14
+      ],
+      "citation": "Jackson S, Brodal E. Optimization of the CO2 liquefaction process-performance study with varying ambient temperature. Appl Sci 2019;9. https://doi.org/ 10.3390/app9204467.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Liquefaction/cycle pp1–2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        14
+      ],
+      "citation": "Lee S, Choi G, Lee C, Lee J. Optimal design and operating condition of boil-off CO2 re-liquefaction process, considering seawater temperature variation and compressor discharge temperature limit. Chem Eng Res Des 2017;124:29–45. https://doi.org/10.1016/j.cherd.2017.05.029.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOG prior comparison pp1–2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        14
+      ],
+      "citation": "Lee S, Choi G, Lee J. Optimal design and operating conditions of the CO2 liquefaction process, considering variations in cooling water temperature. Ind Eng Chem Res 2015;54:12855–66. https://doi.org/10.1021/acs.iecr.5b02391.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Liquid feed/impurities/temperature p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        14
+      ],
+      "citation": "Chu B, Chang D, Chung H. Optimum liquefaction fraction for boil-off gas reliquefaction system of semi-pressurized liquid CO2 carriers based on economic evaluation. Int J Greenh Gas Control 2012;10:46–55. https://doi.org/10.1016/j. ijggc.2012.05.016.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Cascade, impurities, BOR/EOS pp1–3,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        14
+      ],
+      "citation": "Lee J, Son H, Oh J, Yu T, Kim H, Lim Y. Advanced process design of subcooling re- liquefaction system considering storage pressure for a liquefied CO2 carrier. Energy 2024;293. https://doi.org/10.1016/j.energy.2024.130556.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure/BOR/PSO/economics pp1–4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        14
+      ],
+      "citation": "Yoo B. The development and comparison of CO2 BOG re-liquefaction processes for LNG fueled CO2 carriers. Energy 2017;127:186–97. https://doi.org/10.1016/j. energy.2017.03.073.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "LNG cold integration p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        14
+      ],
+      "citation": "Lu J, Li Y, Li B, Yang Q, Deng F. Research on re-liquefaction of cargo BOG using liquid ammonia cold energy on CO2 transport ship. Int J Greenh Gas Control 2023; 129. https://doi.org/10.1016/j.ijggc.2023.103994.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOR/liquid ammonia prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        14
+      ],
+      "citation": "Lee Y, Baek K, Lee S, Cha K, Han C. Design of boil-off CO2 re-liquefaction processes for a large-scale liquid CO2 transport ship. Int J Greenh Gas Control 2017;67: 93–102. https://doi.org/10.1016/j.ijggc.2017.10.008.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Distillation/EOS prior pp1–2,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        14
+      ],
+      "citation": "Chen F, Morosuk T. Exergetic and economic evaluation of CO2 liquefaction processes. Energies 2021;14. https://doi.org/10.3390/en14217174.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Ammonia prior/Table1 pp1–2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        14
+      ],
+      "citation": "Alabdulkarem A, Hwang Y, Radermacher R. Development of CO2 liquefaction cycles for CO2 sequestration. Appl Therm Eng 2012;33–34:144–56. https://doi. org/10.1016/j.applthermaleng.2011.09.027.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Ammonia prior/EOS p2,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        14
+      ],
+      "citation": "Aliyon K, Mehrpooya M, Hajinezhad A. Comparison of different CO2 liquefaction processes and exergoeconomic evaluation of integrated CO2 liquefaction and absorption refrigeration system. Energy Convers Manag 2020;211. https://doi.org/ 10.1016/j.enconman.2020.112752.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Prior liquefaction/impurity/EOS pp2,6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        14
+      ],
+      "citation": "Lim Y, Lee S, Ko M, Park K, Lee J. Operational strategy of pre-cooling process of CO2 storage tank in CCS ship transportation using model-based optimization. Chem Eng Res Des 2016;109:770–9. https://doi.org/10.1016/j.cherd.2016.03.030.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Cargo handling/pre-cooling p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        14
+      ],
+      "citation": "Nam T, Yu T, Lim Y. Thermodynamic modeling and analysis of boil-off gas generation and self-pressurization in liquefied carbon dioxide tanks. J Ocean Eng Technol 2024;38:257–68. https://doi.org/10.26748/KSOE.2024.050.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "12–13day hold-time context p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        14
+      ],
+      "citation": "Jeon S, Kim M. Effects of impurities on re-liquefaction system of liquefied CO2 transport ship for CCS. Int J Greenh Gas Control 2015;43:225–32. https://doi.org/ 10.1016/j.ijggc.2015.10.011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Impurity partition/filling/BOG pp2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        14
+      ],
+      "citation": "Ahmad M, Gernert J, Wilbers E. Effect of impurities in captured CO2 on liquid- vapor equilibrium. Fluid Phase Equilib 2014;363:149–55. https://doi.org/ 10.1016/j.fluid.2013.11.009.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Mixture phase behaviour p2. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        14
+      ],
+      "citation": "Moein P, Sarmad M, Ebrahimi H, Zare M, Pakseresht S, Vakili SZ. APCI- LNG single mixed refrigerant process for natural gas liquefaction cycle: analysis and optimization. J Nat Gas Sci Eng 2015;26:470–9. https://doi.org/10.1016/j. jngse.2015.06.040.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PRICO prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R29",
+      "pages": [
+        14
+      ],
+      "citation": "Almeida Trasvina F, Smith R. Structural modifications on single mixed refrigerant cycles for performance improvements in small-scale LNG processes. Ind Eng Chem Res 2022;61:2825–42. https://doi.org/10.1021/acs.iecr.1c03699.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PRICO prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R30",
+      "pages": [
+        14
+      ],
+      "citation": "Almeida Trasvina F, Smith R, Jobson M. Development of an energy-efficient single mixed refrigerant cycle for small-scale LNG production. Ind Eng Chem Res 2021; 60:12049–67. https://doi.org/10.1021/acs.iecr.1c00432.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PRICO prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R31",
+      "pages": [
+        14
+      ],
+      "citation": "Deng Z, An J. A new Re-liquefaction system for dynamic boil-off recovery based on single mixed refrigerant. Chem Technol Fuels Oils 2023;59:131–40. https://doi. org/10.1007/s10553-023-01511-x.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "SMR prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R32",
+      "pages": [
+        14
+      ],
+      "citation": "Khan MS, Lee M. Design optimization of single mixed refrigerant natural gas liquefaction process using the particle swarm paradigm with nonlinear constraints. Energy 2013;49:146–55. https://doi.org/10.1016/j.energy.2012.11.028.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "SMR/PSO pp2–4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R33",
+      "pages": [
+        15
+      ],
+      "citation": "Xu X, Liu J, Jiang C, Cao L. The correlation between mixed refrigerant composition and ambient conditions in the PRICO LNG process. Appl Energy 2013;102: 1127–36. https://doi.org/10.1016/j.apenergy.2012.06.031.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PRICO prior p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R34",
+      "pages": [
+        15
+      ],
+      "citation": "Lee J, Son H, Yu T, Oh J, Park M, Lim Y. Process design of advanced LNG subcooling system combined with a mixed refrigerant cycle. Energy 2023;278. https://doi.org/10.1016/j.energy.2023.127892.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "30% LNG SMR saving/PSO pp2–4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R35",
+      "pages": [
+        15
+      ],
+      "citation": "Zhang J, Meerman H, Benders R, Faaij A. Comprehensive review of current natural gas liquefaction processes on technical and economic performance. Appl Therm Eng 2020;166. https://doi.org/10.1016/j.applthermaleng.2019.114736.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "LNG review p2–3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R36",
+      "pages": [
+        15
+      ],
+      "citation": "International Maritime Organization. International Code for the construction and equipment of ships carrying liquefied gases in bulk (IGC Code). London, UK: IMO; 2008.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "98% fill IGC attribution p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R37",
+      "pages": [
+        15
+      ],
+      "citation": "Hasan MMF, Zheng AM, Karimi IA. Minimizing boil-off losses in liquefied natural gas transportation. Ind Eng Chem Res 2009;48:9571–80. https://doi.org/10.1021/ ie801975q.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "5% heel LNG transfer p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R38",
+      "pages": [
+        15
+      ],
+      "citation": "Wilson JJ. An introduction to the marine transportation of bulk LNG and the design of LNG carriers. Cryogenics 1974;14(3):115–20.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "5% heel LNG transfer p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R39",
+      "pages": [
+        15
+      ],
+      "citation": "Voldsund M, Gardarsdottir SO, De Lena E, P´erez-Calvo JF, Jamali A, Berstad D, et al. Comparison of technologies for CO2 capture from cement production Part 1: technical evaluation. Energies 2019;12. https://doi.org/10.3390/en12030559.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Cement captured composition p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R40",
+      "pages": [
+        15
+      ],
+      "citation": "Yoo BY, Choi DK, Kim HJ, Moon YS, Na HS, Lee SG. Development of CO2 terminal and CO2 carrier for future commercialized CCS market. Int J Greenh Gas Control 2013;12:323–32. https://doi.org/10.1016/j.ijggc.2012.11.008.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOR prior p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R41",
+      "pages": [
+        15
+      ],
+      "citation": "Jeon SH, Choi YU, Kim MS. Review on boil-off gas (BOG) Re-liquefaction system of liquefied CO 2 transport ship for carbon capture and sequestration (CCS). Int J Air Cond Refrig 2016;24:1650017. https://doi.org/10.1142/S2010132516500176.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BOR review p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R42",
+      "pages": [
+        15
+      ],
+      "citation": "Li H, Yan J. Evaluating cubic equations of state for calculation of vapor-liquid equilibrium of CO2 and CO2 -mixtures for CO2 capture and storage processes. Appl Energy 2009;86:826–36. https://doi.org/10.1016/j.apenergy.2008.05.018.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PR VLE support p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R43",
+      "pages": [
+        15
+      ],
+      "citation": "Vrabec J, Kedia GK, Buchhauser U, Meyer-Pittroff R, Hasse H. Thermodynamic models for vapor-liquid equilibria of nitrogen + oxygen + carbon dioxide at low temperatures. Cryogenics 2009;49:72–9. https://doi.org/10.1016/j. cryogenics.2008.11.002.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "PR VLE support p3. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R44",
+      "pages": [
+        15
+      ],
+      "citation": "Himsen Engine. H22CDF SFOC datasheet. https://www.hyundai-engine.com/en/ products/detail/47. [Accessed 11 September 2024]. n.d.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "197.5g/kWh generator SFOC p4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R45",
+      "pages": [
+        15
+      ],
+      "citation": "International Maritime Organization. Fourth IMO GHG study 2020. 2021.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "3.206 MGO combustion factor p4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R46",
+      "pages": [
+        15
+      ],
+      "citation": "Oh J, Kim D, Roussanaly S, Anantharaman R, Lim Y. Optimal capacity design of amine-based onboard CO2 capture systems under variable marine engine loads. Chem Eng J 2024;483. https://doi.org/10.1016/j.cej.2024.149136.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "MGO factor methodology p4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R47",
+      "pages": [
+        15
+      ],
+      "citation": "Ship and Bunker. Bunker index: global 20 port average. https://shipandbunker. com/prices#MGO. [Accessed 18 July 2024]. n.d.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "825USD/t fuel price p4. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "R48",
+      "pages": [
+        15
+      ],
+      "citation": "U.S. Congress. Text - S.1920 - 118th Congress (2023-2024): International Maritime Pollution Accountability Act of 2023. Retrieved from https://www.congress.gov/ bill/118th-congress/senate-bill/1920/text. n.d.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "150USD/t carbon price assumption p6. Exact original passages, definitions, validity and support remain unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        3,
+        4,
+        6,
+        12,
+        13
+      ],
+      "citation": "Aspen HYSYS V14 and native PR property implementation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Case versions, binary parameters, phase roots, solid-equilibrium and flash specification missing."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        4,
+        6,
+        12
+      ],
+      "citation": "Particle swarm optimisation implementation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Bounds, population, seeds, penalties, feasibility and global/convergence evidence missing."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        4,
+        6,
+        13
+      ],
+      "citation": "APEA V14 2022 equipment and installation basis",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Native costing files, scope/factors, material and per-tank mapping unverified."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        5,
+        7,
+        12,
+        13
+      ],
+      "citation": "Complete native streams, recycles and utilities",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Mass/composition/enthalpy and cooling/flow arrays absent; rounded states do not close energy/material balances."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        3,
+        4,
+        6,
+        11
+      ],
+      "citation": "Actual laden/ballast route and evolving tank mixture",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Borrowed heel, fixed BOR,8000h and6 voyages do not reproduce an observed route or dynamic tank."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        4,
+        6,
+        10
+      ],
+      "citation": "Full transport lifecycle and refrigerant handling",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Compression-MGO plus purge scope excludes propulsion/other utilities, upstream fuel and refrigerant leakage/assets."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        1,
+        14
+      ],
+      "citation": "Data on request, supplements, code, rights and errata",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Explicit data-on-request statement; no embedded assets or explicit external supplement notice; external check paused."
+    }
+  ]
+}
