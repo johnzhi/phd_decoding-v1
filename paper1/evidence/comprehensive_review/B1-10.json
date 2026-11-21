@@ -1,0 +1,883 @@
+{
+  "study_id": "B1-10",
+  "source_sha256": "0ccc6311dcc4b1a971a0f7cfa6f61c3891c11ec3403a98a6578993fb4145101a",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All 14 retained main-PDF pages read and visually inspected, with enlarged equations and graphics. Eleven figures, no tables, 13 numbered equations, five additional identities/constraints and one independent derivation are recorded. Fifteen printed references and five additional dependencies are tracked. Two exact retained originals received scoped primary-passage checks; their own full audits/models/citation chains are not complete. The 37 diagnostics are limited arithmetic, unit/geometry examples and counterexamples, not reproduction of the anonymised case or global optimisation. Graphic/text, pressure-safety, geometry, cost/unit, asset and implementation issues remain open.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "original_model_status": "limited_equation_units_geometry_and_counterexamples_author_case_EOS_dispatch_MILP_PSO_not_reproduced",
+  "supplement_status": "no_explicit_notice_or_embedded_files_identified_external_code_and_assets_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication and abstract",
+      "assessment": "A.Hamid, East One-Zero-One; OTC-36331-MS, Kuala Lumpur31March–2April2026. Header reports abstract selection and says contents were not reviewed by OTC. Abstract claims MILP, nature-inspired comparisons and realistic/safe evaluations; body later omits full MILP/PSO and allows BHP above fracture pressure. Watermark31October2026 is access provenance. Native file retained; no source illustrations redistributed."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        2
+      ],
+      "scope": "Entire introduction and literature rationale",
+      "assessment": "Named Malaysian candidate fields/roadmap, integrity, impurity/phase sensitivity, hubs/economies of scale, dynamic reservoir MILP, nodal analysis and thermo-hydraulic screening claims read. Fifteen printed references mapped. Exact retained Bertoni/d’Amore sources receive scoped checks; remaining originals unverified. Background project names do not identify the four modified anonymous cases or current storage access."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "scope": "CCS value chain and seven pressure points",
+      "assessment": "Capture/ship-to-hub alternatives, compression/pumping, dense/supercritical terminology, friction, choke cooling, hydrostatic head, skin and tank pressure are discussed. Figures1–2 are conceptual, not measured profiles. Generic pressure/density/temperature/diameter values have no matched case composition/thermal calculation. Hydrostatic and skin effects described here are omitted from the implemented model. Geomechanical/geochemical effects are explicitly out of scope."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "Methods: hydraulics, tank and injection",
+      "assessment": "Eq1 Darcy pressure-loss magnitude, Eq2 explicit turbulent friction, velocity/area/Re identities, implicit P/z update, average-pressure inequality and radial pressure-squared injectivity relation inspected. P/z linearity is in transformed pressure, not necessarily pressure when z varies. Full gas-mixture/residual-fluid behavior is missing. Independent SI radial derivation gives a pi coefficient distinction; no claim about unpublished code or the unavailable Dake passage."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "Power, pipeline cost and diameter problem",
+      "assessment": "Pressure-rise Eq6, constant-density power Eq7,8760-hour cost Eq8, D^1.3L CAPEX Eq9 and annual-cost diameter minimum Eq10 inspected. Power/tariff, coefficient/currency-year, efficiency, annualisation/discount and diameter bounds are unprovided. Minimized annual total cost is not automatically a marginal cost per mass. Once-only construction and annually varying D need consistent persistent assets/upgrade accounting."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        7
+      ],
+      "scope": "Dynamic dispatch and case inputs",
+      "assessment": "Eq11 annual linear objective, mass allocation equality and rate bounds; pressure updated after each year with irreversible closure. How qmax and cost coefficients embody remaining pressure headroom or flow dependence is not shown. Current implementation is economic dispatch; full MILP/binaries and PSO details are omitted. Four spoke lengths are given, but no parameter table or native arrays. NumPy/PuLP/ThermoPack/CoolProp releases/EOS/solver are unspecified; inputs explicitly modified/anonymised."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "scope": "Results and observations",
+      "assessment": "Every allocation, annual/cumulative cost, reservoir/BHP and diameter plot inspected. Figure4 reaches10Mtpa around year 10, unlike the first-five-year text. Figure6 endpoint is visibly above250millionUSD, unlike quoted 230. Figure8 highest green line is Mid1, not the high-pressure Mid2 named in text. BHP exceedance is explicitly allowed. Annual resizing and far-only routing do not constitute a globally optimal persistent infrastructure solution."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        12,
+        13
+      ],
+      "scope": "Implications, limitations and future extensions",
+      "assessment": "Authors acknowledge single well per pipeline/reservoir, need for BHP fracture control, neglected hydrostatic head, absent intermediate boosters and fixed hub/spoke topology. Future booster balance and branch networks inspected. No multiwell, booster, branching or pressure-safe alternative is actually reproduced. Average pressure passing is a weaker condition than BHP passing whenever injection pressure increment is positive, even for a highly injective reservoir."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        13
+      ],
+      "scope": "Conclusions",
+      "assessment": "Screening value and the need to consider pressure/injectivity early are methodological conclusions. The authors describe an exploratory short-duration project and call for detailed reservoir/flow validation. No quantitative predictive uncertainty, independent case validation, global-optimum proof, current site access or lifecycle-retention result established."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        13,
+        14
+      ],
+      "scope": "References and source identities",
+      "assessment": "All 15 printed entries transcribed with identifiers and claim-use notes. Bell inline2013 versus bibliography2014, Wetenhall/Watenhall spelling and omitted Romano in d’Amore attribution retained. Exact DOI/title matches permit two targeted primary checks; their scope is separate from full source completion. Other sources and additional model/data dependencies remain unverified."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        3
+      ],
+      "object": "Figure1: seven-node value chain",
+      "inspection": "Pump/compressor, pipeline, injection choke, well and reservoir boundary inspected with points1–7. Choke3→4, downhole5→6 and far reservoir7 are distinct locations. No dimensions, equipment duty, measured states or complete inventory."
+    },
+    {
+      "id": "F02",
+      "pages": [
+        3
+      ],
+      "object": "Figure2: conceptual pressure profile",
+      "inspection": "Pressure versus distance, grey transmission/green well/pink reservoir blocks, black node profile and dashed supercritical/fracture levels inspected. No numeric axes. P5 aboveP6/P7 and hydrostatic increase are conceptual; fracture line above illustratedBHP is not consistent proof of safety for the later case allowing exceedances. Critical pressure alone does not establish supercritical state without temperature/composition."
+    },
+    {
+      "id": "F03",
+      "pages": [
+        8
+      ],
+      "object": "Figure3: four reservoir spokes",
+      "inspection": "Near10km, Mid1/Mid2 each100km, Far300km; individual hub connections. Schematic distances only, not coordinates, named reservoirs, pore volumes, permeabilities, well geometries, capacities or access rights."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        8
+      ],
+      "object": "Figure4: annual allocation stack",
+      "inspection": "Year0–19 versus injection rate Mtpa; Nearblue, Mid1green, Mid2orange, Farpink; dashedDemand. Early1/2/4/5 levels and10 around year 10 visible; all are plot readings, not retained native annual data. Near ends around year 4, Mid1 around year 16, Far grows afteryear 10. The text first-five-year ramp is unresolved. Do not integrate pixels or claim an exact native schedule/capacity."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        9
+      ],
+      "object": "Figure5: annual system cost",
+      "inspection": "MillionUSD/year, year 0–19; bluepipelineCAPEX,greenOPEX,pinkdashedtotal. CAPEX spikes around years 5/10, OPEX persists and changes with routing. Exact components/upgrade investments and currency/discount basis missing. Scope does not include complete capture/conditioning/wells/assets/LCA costs despite system-cost caption."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        9
+      ],
+      "object": "Figure6: cumulative system cost",
+      "inspection": "MillionUSD versusyear; jumps near5/10 and endpoint visibly above250, approximately275–290million by visual range. This conflicts with p11 approximately230million attributed toFigure6. Preserve source quote and graphic estimate separately; no precise corrected endpoint, NPV or saving claimed."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        10
+      ],
+      "object": "Figure7: average reservoir pressure",
+      "inspection": "Pressurebar; dashedfracturelimit220, Nearblue/Mid1green reachplateau, Mid2orange rises belowlimit, Farpink lower. Exact pressure basis/datum/time indexing and within-year mass closure unprovided. Plot clipping/plateau does not establish accepted annual rate constraints or BHP safety."
+    },
+    {
+      "id": "F08",
+      "pages": [
+        10
+      ],
+      "object": "Figure8: bottomhole pressure",
+      "inspection": "Bar versusyear; dashedline near220. Nearblue aboveit, greenMid1 roughly460–680, orangeMid2 roughly220–280, pinkFar roughly130–170. All values approximate visual ranges. Text attributes elevated pressure to Mid2, while legend places highest curve atMid1. Do not swap identities. These are explicitly allowed fracture-limit exceedances, not demonstrated feasible injection cases."
+    },
+    {
+      "id": "F09",
+      "pages": [
+        11
+      ],
+      "object": "Figure9: annually optimised pipeline ID",
+      "inspection": "IDm versusyear with per-year markers; Near≈.30early, Mid2≈.30, Mid1≈.30→.36, Far≈.36→.50. Exact native values/bounds unavailable. Recomputed yearly sizes after one-time build do not establish a fixed asset or a modelled upgrade schedule."
+    },
+    {
+      "id": "F10",
+      "pages": [
+        11
+      ],
+      "object": "Figure10: far-only ID",
+      "inspection": "Farpink yearlyIDm; approximately.30→.36→.40→.55. Text maximum changes.50→.55. The curve is not one installed diameter; no upgrade CAPEX, fixed maximum-size design, well/BHP or phase checks establish service equivalence."
+    },
+    {
+      "id": "F11",
+      "pages": [
+        12
+      ],
+      "object": "Figure11: far-only cumulative cost",
+      "inspection": "MillionUSD versusyear 0–19, initialaround 75 andfinalaround 148, consistent with quoted148 at graphical precision. No raw annual cost arrays or upgraded-asset accounting. This does not resolve the Figure6 baseline discrepancy or prove global optimality/NPV."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        5
+      ],
+      "expression": "dP/dx = f rho v^2/(2D)",
+      "units": "Pa/m in SI",
+      "assessment": "Positive RHS is naturally a loss magnitude; signed downstream pressure gradient requires a convention. Constant/local fluid properties and homogeneous single-phase flow are assumptions. Bathymetry/thermal/phase behavior are not represented by this expression."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        5
+      ],
+      "expression": "f = 0.25/[log10(epsilon/(3.7D)+5.74/Re^0.9)]^2",
+      "units": "dimensionless",
+      "assessment": "Relative roughness and Reynolds number are dimensionless. Explicit turbulent approximation; numerical validity range, pipe roughness and actual caseRe not provided. No laminar/transition or mixed-phase extension inferred."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        5
+      ],
+      "expression": "P_r^(t+1)/z(P_r^(t+1)) = P_r^t/z(P_r^t) + Delta_m_t R T/(M V_p)",
+      "units": "Pa if masskg,RJ/mol/K,Mkg/mol,Vm3",
+      "assessment": "From n=PV/(zRT) under fixedT,Vp and suitable gas composition. IncrementDelta_m is mass, not mass rate; requires time conversion. z(P) makes pressure update implicit and not generally linear inP. Residual methane/brine/rock/aquifer states,EOS and solve policy missing."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        6
+      ],
+      "expression": "P_r <= P_frac",
+      "units": "common pressure unit/reference",
+      "assessment": "Average-pressure bound is weaker than local BHP bound forpositive flow. No universal conservatism or full storage-integrity guarantee. End-of-step headroom, clipping/rescaling and mass conservation need code."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        6
+      ],
+      "expression": "P_bh^2 = P_r^2 + mdot mu z R T/(M k h) [ln(r_e/r_w) - 0.75]",
+      "units": "Pa2 in SI; absolute pressure required by gas density law",
+      "assessment": "Printed relation has no explicitpi. Independent axisymmetric SI integration has1/pi for the same shape term under stated assumptions. Original Dake geometry/unit convention and author code unverified. Constantmu/z/T, single-gas compressibility and pseudo-steady shape are not a real-fluid dense-phase derivation; skin is explicitly omitted."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        6
+      ],
+      "expression": "Delta_P_tot = (P_bh + Delta_P_pipe) - P_cap",
+      "units": "Pa in consistent SI",
+      "assessment": "No hydrostatic contribution in implemented model despite narrative. Capture-pressure reference/state and controls missing. Nonnegative power/pressure-rise treatment when supplied pressure exceeds demand is not specified; no negative-cost recovery credit inferred."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        6
+      ],
+      "expression": "W = (mdot/rho) Delta_P_tot/eta",
+      "units": "W in SI",
+      "assessment": "Dimensionally consistent constant-density pumping approximation. Not a complete gas-compression enthalpy/thermal integral from near-atmospheric capture. Fluid state, efficiency, stages,heat rejection and hydrostatic effects missing."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        6
+      ],
+      "expression": "C_OPEX = W * 8760 * C_el",
+      "units": "currency/year only with compatible power/hour/tariff units",
+      "assessment": "8760 is hours per365-day year; SI watts need conversion to kW forcurrency/kWh tariff. Source units/tariff unprovided, so not proven code error. No real availability/calendar or complete auxiliary inventory implied."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        6,
+        7
+      ],
+      "expression": "C_CAPEX = k_capex D^1.3 L; reported k_capex=1.2",
+      "units": "currency; coefficient must carry units/normalisation",
+      "assessment": "D andL conventions, dimensional cost coefficient,currency year and omitted base factor unresolved. A dimensionless multiplier1.2 alone cannot assign money. m-versus-km input changes raw output1000fold; no convention silently selected."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        7
+      ],
+      "expression": "min_D (C_CAPEX,ann(D) + C_OPEX(D))",
+      "units": "annual total cost",
+      "assessment": "Bounds,annualisation,solver andflow used in each minimisation absent. Minimum annual cost is not automatically marginalcurrency/mass; derivative/normalisation needed. Reoptimisation does not create a persistent fixed-size pipeline."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        7
+      ],
+      "expression": "min_(q_i,t) sum_i c_i(P_r,i^t) q_i,t",
+      "units": "cost if unitcost andtime/rate conventions agree",
+      "assessment": "Linear only with coefficients/ratebounds fixed for the annual LP. Construction of flow-dependent marginal/averagec_i is absent. Annual dispatch is not a demonstrated multi-year global MILP; integer activation andlook-ahead are omitted."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        7
+      ],
+      "expression": "sum_i q_i,t = Q_t",
+      "units": "same mass rate unit",
+      "assessment": "Annual equality does not supply the missing nativeQt array or a full mass/pressure audit. RateMtpa tokg/s/massyear conversion and unmet-demand handling required."
+    },
+    {
+      "id": "E13",
+      "pages": [
+        7
+      ],
+      "expression": "0 <= q_i,t <= q_i,max",
+      "units": "same mass rate unit",
+      "assessment": "qmax values andremaining pressure headroom dependence missing. Start-of-year availability alone can overshoot next-state limit; code may add controls, but they are unverified."
+    },
+    {
+      "id": "U01",
+      "pages": [
+        5
+      ],
+      "expression": "v = mdot/(rho A)",
+      "units": "m/s",
+      "assessment": "Area must be internal flow area; mass and density units consistent. No pipe outer diameter or nominal size substituted."
+    },
+    {
+      "id": "U02",
+      "pages": [
+        5
+      ],
+      "expression": "A = pi D^2/4",
+      "units": "m2",
+      "assessment": "Circular internal diameter relation. Links fixed-flow loss toD^-5 only when f,rho,L andflow are held fixed."
+    },
+    {
+      "id": "U03",
+      "pages": [
+        5
+      ],
+      "expression": "Re = rho v D/mu",
+      "units": "dimensionless",
+      "assessment": "Viscosity must be inPa.s forSI; no mPa.s,centipoise,bar orkm silently used. Source property states unavailable."
+    },
+    {
+      "id": "U04",
+      "pages": [
+        6,
+        12
+      ],
+      "expression": "P_bh(t) <= P_frac; P_bh(P_r,mdot,kh) <= P_frac",
+      "units": "common pressure reference",
+      "assessment": "Acknowledged future/local safety constraint, not enforced in reported case. P_bh>P_r implies averagebound alone cannot logically guarantee it, even ifgradient is small."
+    },
+    {
+      "id": "U05",
+      "pages": [
+        13
+      ],
+      "expression": "P_(k+1) = P_k - Delta_P_pipe,k + Delta_P_boost,k",
+      "units": "common pressure unit",
+      "assessment": "Proposed future segment balance only; boost variables,costs,mechanical pressure limits andinteger siting not implemented. Here k indexessegments, not permeability."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        5,
+        6
+      ],
+      "expression": "Analyst: mdot = 2 pi r h k rho/mu * |dp/dr|; rho=M p/(zRT); integrate p dp to obtain Delta(P^2)=mdot mu zRT/(pi Mkh) * shape",
+      "units": "Pa2 under constant mu/z/T,axisymmetric gas assumptions",
+      "assessment": "Independent geometry derivation, not an author equation or verified Dake passage. Hold shape=ln(re/rw)−.75 only for coefficient comparison; no claim of rigorous dense-phase validation or repair of unpublished code."
+    }
+  ],
+  "variables": [
+    "P, x, L and D: pressure, axial coordinate, length and internal diameter. SI uses Pa and m; plots use bar, m and km. Pressure basis/datum is unreported. Eq1 has a positive pressure-loss RHS; a signed-gradient convention is needed.",
+    "Mass flow mdot [kg/s], velocity [m/s], density [kg/m3], area [m2], Darcy friction factor/Reynolds number [dimensionless], viscosity [Pa.s], roughness [m]. Actual fluid states, composition, property backend and software releases are missing.",
+    "P_r, P_bh, P_frac, P_cap, Delta_P_pipe and Delta_P_tot distinguish average reservoir pressure, flowing BHP, fracture pressure, capture pressure, pipe loss and total rise. P/z and pressure-squared gas laws need absolute pressure; the bar plot label does not resolve the basis.",
+    "z(P), universal R [J/mol/K], reservoir T [K], molar mass M [kg/mol], pore volume V_p [m3] and increment Delta_m [kg]. Rate must be integrated over time. Fixed T/volume and suitable composition are assumptions; residual methane, brine, rock and aquifer behavior are not fully described.",
+    "Permeability k [m2], thickness h [m] and dimensionless radius ratio r_e/r_w. Any mD or mPa.s conversion must be explicit. Eq5 omits skin and assumes a gas-flow shape term. The later booster index k means a segment, not permeability.",
+    "W is power; eta is efficiency; C_el is electricity tariff; C_OPEX and C_CAPEX are annual operating/capital costs; k_capex is a coefficient/multiplier. Numerical power/tariff/currency/length units, year and annualisation/discount basis are not supplied.",
+    "q_i,t, Q_t and q_i,max: allocation rate, demand rate and bounds. Mtpa is a rate, despite some volume wording. Twenty project years,8760-hour annualisation, the stated five-year ramp and Figure4 year0–19 must be distinguished. No exact native demand or annual output array is retained.",
+    "c_i(P_r^t) is asserted as marginal/unit cost without a derivation. Annual total cost from Eq10 needs differentiation or normalisation before it can be a cost per mass. Flow-dependent diameter optimisation does not automatically yield a globally fixed linear coefficient.",
+    "Reservoir index i and annual time t differ from the segment index k. Start/end pressure indexing, rate caps and remaining pressure headroom are unprovided. Binary activation and PSO settings are omitted; no global MILP/PSO is reproduced.",
+    "One well is assigned per reservoir/pipeline. Four modified anonymous routes are Near10km, Mid1/Mid2 each100km and Far300km. They do not establish named operational storage or access. Multiwell sharing and brine management are not implemented.",
+    "Background ranges include100–200bar delivery,600–900kg/m3 density,16–24inch pipes,0.1bar/km losses and20–30°C/4°C seabed. These are not matched cases or uncertainty distributions. Pure critical31.1°C/73.8bar and generic−20°C cooling discussion are not universal mixture/material limits.",
+    "Dense phase is assumed, but complete EOS/composition/temperature and phase/solid/hydrate controls are absent. Skin and hydrostatic head are omitted from the implemented case, despite their discussion in the value-chain narrative.",
+    "Quoted maximum diameter0.50→0.55m is distinct from each annually changing curve. Installed size, commercial bounds, material/thickness/pressure rating and upgrade/cost rules are unprovided.",
+    "USD230/148 million are quoted comparison values. Figure6 endpoint approximately275–290 million is a visual estimate range, not native or corrected data. No verified saving, NPV, observed cost or full inventory is adopted.",
+    "All analyst SI/constraint examples are separate from author inputs. Approximate plot readings provide no calibrated annual maximum service, statistical uncertainty, retention probability or lifecycle-GHG factor."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        7,
+        11,
+        13
+      ],
+      "claim": "MILP and nature-inspired comparison provide optimal safe selection",
+      "assessment": "The body presents annual economic dispatch and explicitly omits full MILP/PSO. No global formulation, code, optimality gap, runtime or stochastic comparison is supplied. Average-pressure passing with BHP exceedance is not proof of safe injection or global optimality."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "claim": "Cited studies support physics-based reservoir dynamics in MILP",
+      "assessment": "Bertoni primary passages support POD–TPWL coupling and an explicit BHP constraint; their accuracy does not transfer here. The inspected d’Amore annual-cost network formulation does not establish the joint pressure-dynamic attribution. Other originals remain unverified."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "claim": "Dense-phase hydraulics give reliable screening predictions",
+      "assessment": "Exact source validation/conditions are unverified. Generic critical pressure and property ranges cannot replace composition-aware phase and thermal checks. The narrative includes mechanisms omitted from the implemented model."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        5,
+        6,
+        9,
+        10,
+        12
+      ],
+      "claim": "P/z and average pressure conservatively ensure integrity",
+      "assessment": "Uniform gas-tank behavior is a screening approximation, not shown universally conservative. Positive injection gradients make the BHP constraint stricter. The authors explicitly allow fracture-limit exceedance and acknowledge the risk; allocations are not demonstrated safe annual service."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Physics/cost model supplies marginal costs and allocations",
+      "assessment": "Native data, PVT, units, marginal-cost derivation, rate caps, pressure headroom and solver are missing. Eq5 geometry, Eq8 power/tariff basis and Eq9 cost normalisation require clarification. No full case or unpublished-code defect is established."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Demand reaches10Mtpa during the first five years",
+      "assessment": "Figure4 reaches that level around year10 after smaller steps. Native demand and time indexing are missing. Preserve both assertions; no exact annual total is invented or integrated from pixels."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Far has superior injectivity; Mid2 has the elevated BHP",
+      "assessment": "The highest curve is labelled Mid1; orange Mid2 is lower but above the dashed limit. Do not swap identities. Comparative injectivity cannot be quantified without native kh, geometry, fluid and rate data."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "claim": "First-use CAPEX and annual D choices give optimal infrastructure",
+      "assessment": "Persistent fixed sizes and upgrade constraints/costs are missing. Annual resizing does not create physical pipe capacity for free. Dispatch and once-only accounting need reconciliation with global investment planning."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Far-only routing reduces cumulative cost230→148millionUSD",
+      "assessment": "The quoted82million/35.65% arithmetic is not a verified saving. Figure6 baseline is visibly above250, roughly275–290. Native arrays, safety, fixed assets, equivalent service and complete cost boundaries remain unresolved; no corrected author value is imposed."
+    },
+    {
+      "id": "C10",
+      "pages": [
+        12,
+        13
+      ],
+      "claim": "Longer routing to a good reservoir can beat nearby tight storage",
+      "assessment": "A useful hypothesis illustrated by unverified screening cases; not a universal routing rule or field calibration. It needs BHP-safe, multiwell, hydrostatic, fixed-design and matched-inventory comparisons."
+    },
+    {
+      "id": "C11",
+      "pages": [
+        1,
+        12,
+        13
+      ],
+      "claim": "The framework supports net zero and permanent safe storage",
+      "assessment": "No complete capture/conditioning/utility/well/brine/asset/monitoring inventory, carbon mass balance or post-closure horizon is supplied. Policy context is not lifecycle mitigation or retention validation."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        13
+      ],
+      "citation": "Akai T., Saito N., Hiyama M., Okabe H. (2021). Numerical Modelling on CO2 Storage Capacity in Depleted Gas Reservoirs. Energies14:3978.",
+      "doi_or_url": "10.3390/en14133978",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "P/z-based scaling and numerical-validation attribution p6. Original composition, pressure, gas-volume assumptions and applicability to Eq3 remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        13
+      ],
+      "citation": "An B. and Kwon K. (2025). Evaluation of CO2 Injectivity and Geological Storage Scenarios Using Nodal Analysis and Tubing Injectivity Index in a Depleted Gas Field in Malaysia. Energies18(22):5983.",
+      "doi_or_url": "10.3390/en18225983",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Early nodal/injectivity assessment p2. Exact original and its fluid/well limits not retained or checked; no anonymous-field identity join."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        13
+      ],
+      "citation": "Bell I.H., Wronski J., Quoilin S., Lemort V. (2014). Pure and pseudo-pure fluid thermophysical property evaluation and the Open-Source Thermophysical Property Library CoolProp. I&EC Research53(6):2498–2508.",
+      "doi_or_url": "10.1021/ie4033999",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Software citation onp7 says Bell2013; bibliography2014. Source paper/version, EOS/backend and actual case calls remain unverified. Installed CoolProp is not proof of the author implementation."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "Bertoni L., Møyner O., Wiegner J., Gazzani M. (2025). Optimizing carbon capture and storage infrastructure including physics-based reservoir modelling. C&CE202:109293.",
+      "doi_or_url": "10.1016/j.compchemeng.2025.109293",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_support_dynamic_MILP_with_BHP_and_case_limits",
+      "use_and_remaining_check": "Exact title/DOI matched. Bertoni integrates an MRST-derived POD–TPWL reservoir model with MILP. Eq31 explicitly constrains BHP to0.9pmax; Eq32 includes hydrostatic head andEq34 pumping. This supports dynamic reservoir coupling, but does not validate Hamid’s tank, pressure proxy or case. Saline-aquifer training and reported accuracy/speed apply to Bertoni’s own tests. Full Bertoni citation chain/model/supplements remain open.",
+      "retained_candidate": "B2-04",
+      "source_sha256": "6e782f82a4ff42950f0b5724e2f4ff6369ee5c3d54df1ede122a0344f7731d4a",
+      "primary_locator": "p1 abstract/title/DOI; p3 Methods2.1/Eqs2–3; p7 Section2.3.2/Eqs29–34",
+      "check_record": "evidence/comprehensive_review_inputs/B1-10_citation_checks.json"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        14
+      ],
+      "citation": "D’Amore F. and Bezzo F. (2021). Optimal design of European supply chains for carbon capture and storage from industrial emission sources including pipe and ship transport. IJGGC109:103372.",
+      "doi_or_url": "10.1016/j.ijggc.2021.103372",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_network_MILP_support_dynamic_reservoir_attribution_unestablished",
+      "use_and_remaining_check": "Exact DOI/title matched; original includes author MatteoCarmeloRomano omitted from B1-10 reference. Inspected formulation supports annual-cost MILP network routing, pipe/ship size binaries, flow balances and geographic targets. These passages do not establish a pressure-evolving reservoir model or injectivity/fracture constraints attributed jointly to the cited studies by B1-10 p2. No complete B3-45 scientific/model/citation audit is claimed.",
+      "retained_candidate": "B3-45",
+      "source_sha256": "d52670c8ab4848c0078452223042b4e7e432fcd1bf01a567b25ec1d161737973",
+      "primary_locator": "p1 title/DOI/abstract; p7 Section3.1 Eqs1–14; p8 scenarios/Eqs15–16",
+      "check_record": "evidence/comprehensive_review_inputs/B1-10_citation_checks.json"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        14
+      ],
+      "citation": "Dake L.P. (1978). Fundamentals of Reservoir Engineering. Elsevier Scientific Publishing Company, Amsterdam.",
+      "doi_or_url": "book; exact edition/page unspecified",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq5 radial compressible-flow basis p6. Original derivation, pressure/unit/geometry convention and pseudo-steady−.75 term need verification; independent SI derivation is not a check of the unavailable book passage."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        14
+      ],
+      "citation": "Harris C.R., Millman K.J., van der Walt S.J. et al. (2020). Array programming with NumPy. Nature585:357–362.",
+      "doi_or_url": "10.1038/s41586-020-2649-2",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Software p7. Original paper and author version/configuration/code not checked; citation alone does not reproduce calculations."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        14
+      ],
+      "citation": "Martynov V., Wang Y., Mahgerefteh H. (2015). Assessment of integral thermo-hydraulic models for pipeline transportation of dense-phase and supercritical CO2. I&EC Research54(28):7075–7087.",
+      "doi_or_url": "10.1021/acs.iecr.5b00851",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Screening reliability claim p2. Exact experiments, thermal/hydraulic states and model validation not checked; no transfer of reliability to Hamid’s simplified model."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        14
+      ],
+      "citation": "McCoy S.T. and Rubin E.S. (2008). An engineering-economic model of pipeline transport of CO2 with application to carbon capture and storage. IJGGC2(2):219–229.",
+      "doi_or_url": "10.1016/S1750-5836(07)00119-3",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq9 cost relation p6. Original formula, coefficient dimensions/currency year, design/cost boundaries and applicability of1.2D^1.3L remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        14
+      ],
+      "citation": "Mitchell S., O’Sullivan M., Dunning I. (2011). PuLP: A linear programming toolkit for Python. University of Auckland.",
+      "doi_or_url": "https://coin-or.github.io/pulp/",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Software p7. Published site/paper/version, solver/configuration, binary formulation, native LP/MILP and code not verified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        14
+      ],
+      "citation": "Mustafa M.A., M. Ali S.S., Yakup M.H., Tan C.P. (2022). CO2 Storage Assessment in a Malaysian Depleted Carbonate Reservoir With2-Way Fully Coupled Dynamic-Geomechanics Modeling for Safe Long-Term Storage. OTCAsia.",
+      "doi_or_url": "10.4043/31414-MS",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Integrity/geomechanics background p2. Exact source is not B1-09 or B1-11; no substitution or field identity assumed. Original/coupled model remains unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        14
+      ],
+      "citation": "PETRONAS (2025). Malaysia Carbon Capture and Storage Roadmap: Status of PETRONAS CCS Projects and Storage Hub Strategy. Petronas CCS Ventures Sdn. Bhd., KualaLumpur.",
+      "doi_or_url": "https://jp.globalccsinstitute.com/wp-content/uploads/2025/12/S8_%E8%B3%87%E6%96%99_PETRONAS.pdf",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Named Malaysian candidates/status p2. Original report/date/content and contemporary operational/access claims unverified during Chrome wait; link presence is not retrieval."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        14
+      ],
+      "citation": "Watenhall B., Race J.M., Downie M.J. (2014). The Effect of CO2 Purity on the Development of Pipeline Networks for Carbon Capture and Storage Schemes. IJGGC30:197–211.",
+      "doi_or_url": "10.1016/j.ijggc.2014.09.016",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Impurity/phase/network-cost claim p2; inline spelling Wetenhall differs from printed bibliography Watenhall. Exact source/conditions/cost trade-off not checked."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        14
+      ],
+      "citation": "Wilhelmsen Ø., Aasen A., Skaugen G., Aursand P., Austegard A., Aursand E., Gjennestad M.A., Lund H., Linga G., Hammer M. (2017). Thermodynamic modeling with equations of state: Present challenges with established methods. I&EC Research56(13):3503–3515.",
+      "doi_or_url": "10.1021/acs.iecr.7b00317",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "ThermoPack p7; original paper, software release, EOS choice, mixture/interaction parameters and property states unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        14
+      ],
+      "citation": "Zhang S., Liu L., Zhang L., Zhuang Y., Du J. (2018). An optimization model for carbon capture utilization and storage supply chain: A case study in Northeastern China. AppliedEnergy231:194–206.",
+      "doi_or_url": "10.1016/j.apenergy.2018.09.129",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Hub/economies-of-scale claim p2. Exact source and regional/network/cost assumptions not checked; it is not an identical-title substitute from another year or author."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "citation": "Modified/anonymised reservoir, supply and hydraulic inputs",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Complete initialP,Vp,T,kh,re/rw,qmax,source schedule,pressure state definitions and native annual outputs missing. Four schematic distances are not a full reservoir dataset."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "citation": "PVT/fluid-property implementation and units",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Software versions/backends,composition,EOS,pressure basis,z(P),rho/mu/T states and consistent molar/unit conversions missing."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        7,
+        11,
+        13
+      ],
+      "citation": "Annual dispatch, global MILP and PSO implementation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Diameter solver,bounds,c_i marginal construction,qmax,within-step closure,activation/upgrades,look-ahead/integer and stochastic settings/code not supplied. PSO comparison explicitly omitted."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        6,
+        7,
+        9,
+        11,
+        12
+      ],
+      "citation": "Pipeline, power and cost accounting basis",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CAPEX coefficient units/currency year,efficiency/tariff/discount/annualisation,one-time assets versus annual diameter changes and complete lifecycle inventory missing."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "citation": "Darcy–Weisbach, explicit friction and compressible radial derivations",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Named methods/Eq2 functional form lack exact original attribution/validity range; sign conventions,radial geometry and constant-property/dense-phase applicability need verification."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        1,
+        6,
+        10,
+        12
+      ],
+      "status": "EXCLUDE_UNSAFE_SERVICE_INFERENCE",
+      "finding": "Average pressure is constrained while BHP is explicitly allowed above fracture pressure.",
+      "action": "Exclude allocations as demonstrated feasible annual service; obtain BHP-safe native cases, well geometry/counts and geomechanical limits."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "status": "HOLD_GRAPHIC_TEXT_CONFLICTS",
+      "finding": "Demand ramp, Figure6 cost baseline and Figure8 reservoir label conflict with prose.",
+      "action": "Keep quoted and graphic observations separate. Obtain native demand, cost/BHP arrays, legend mapping and errata; do not choose repairs."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "HOLD_RADIAL_GEOMETRY_AND_PHASE",
+      "finding": "Eq5 lacks the explicit pi from an independent SI axisymmetric gas derivation; dense-phase applicability is unresolved.",
+      "action": "Verify Dake edition/passage, units/geometry, EOS integration and native code. This is not an implementation-bug finding."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "HOLD_POWER_COST_UNITS",
+      "finding": "Power/tariff units and CAPEX coefficient/currency/length units, annualisation and inventory are missing.",
+      "action": "Obtain dimensional calibration, tariff, efficiency and native costs. Do not infer full compression work, absolute cost or GHG from unassigned raw relations."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        7,
+        11,
+        13
+      ],
+      "status": "BLOCKED_FULL_OPTIMISATION",
+      "finding": "Full case/global formulation, flow-cost coefficients, rate/headroom construction and PSO results are absent.",
+      "action": "Obtain code, modified inputs/outputs, versions/solver controls and within-step pressure/mass closure before full reproduction."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "status": "HOLD_PERSISTENT_PIPELINE_DESIGN",
+      "finding": "Annual diameter changes follow once-only first-use CAPEX; persistent assets/upgrade rules are unprovided.",
+      "action": "Reconcile installed fixed designs, bounds/commercial sizes, upgrades, pressure ratings, cost schedule and equivalent service."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        12,
+        13
+      ],
+      "status": "HOLD_MISSING_HYDROSTATIC_SKIN_PVT",
+      "finding": "Hydrostatic, skin and phase mechanisms discussed in the narrative are omitted or incompletely specified in the case.",
+      "action": "Obtain matched pressure/thermal/fluid/well states and validated boundary conditions; distinguish narrative mechanisms from implementation."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        2,
+        7,
+        13,
+        14
+      ],
+      "status": "PENDING_SOURCE_AND_ASSET_VERIFICATION",
+      "finding": "Only two citation edges have scoped primary checks; other originals, software releases and external assets are unverified.",
+      "action": "Do not promote targeted passages to whole-source reading or complete model reproduction. Continue permitted local checks and retain the requested Chrome wait."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        1,
+        7,
+        12,
+        13
+      ],
+      "status": "EXCLUDE_REGIONAL_GHG_RETENTION_TRANSFER",
+      "finding": "Modified anonymous cases lack verified identity/access, annual safe service, retention horizon and complete inventory.",
+      "action": "Use qualified method context; exclude verified regional feasibility, cost saving, permanent retention and lifecycle-GHG factors."
+    }
+  ],
+  "supplements": "No embedded files, appendices, or explicit supplement/data/code-availability notice identified in the retained 14-page PDF. Open-source library names are not the project code. No public absence inferred. Modified inputs, native outputs, model/solver cases and any publisher/author assets remain unverified during the requested Chrome wait. The original PDF is unchanged; source graphics are not newly redistributed.",
+  "reproduction": "audit_site_selection.py produces 37 limited checks of quoted comparisons, diameter ratios, SI pipeline/pumping units, radial geometry and explicit analyst constraint examples. No EOS call is treated as the author fluid model. It does not reproduce the four-reservoir case, annual diameter/dispatch algorithm, global MILP or PSO. Eight missing case/code/inventory categories stay null. A separate provenance record checks two retained citation edges without declaring those source papers comprehensively reviewed. Diagnostics do not feed accepted operating/GHG inputs.",
+  "paper1_use": "Use as qualified screening-method context. Modified/anonymised data and an average-pressure constraint with explicitly allowed BHP exceedance do not demonstrate safe annual storage service. Keep quoted USD230/148 million separate from the Figure6 endpoint and from a persistent fixed-pipeline comparison. Do not import the apparent saving, annual allocations, pressure ceiling or model accuracy into Paper1. No lifecycle-GHG or retained-carbon result is supplied.",
+  "next_steps": "Resolve native reservoir/PVT/cost/control inputs, Eq5 geometry and units, flow-to-cost coefficients, within-year pressure/mass closure and persistent asset sizing/costs. Reconcile demand ramp, BHP legend and cumulative-cost conflicts with original arrays/errata. Verify the remaining originals, versions, supplements and code; reproduce the full case/global model only with adequate inputs/rights. Continue B1-11 locally; external retrieval remains paused."
+}

@@ -128,9 +128,9 @@ Hamid (2026). Identifier: 10.4043/36331-MS. [PDF](../papers/B1-10.pdf).
 
 Reading stage: Targeted methods/results extraction. Checked sections: See Batch1 studies/values.
 
-A four-reservoir hub example supplies up to 10 Mt/year over 20 years with a five-year ramp. Transport distance, reservoir pressure evolution and injectivity influence annual allocation. A far-only route is reported at about USD148 million versus USD230 million in the compared configuration (p11).
+A modified/anonymised four-reservoir screening case uses annual dispatch, pressure-tank and hydraulic relations. Text quotes up to10Mt/year over20years, a five-year ramp and230/148millionUSD baseline/Far-only costs. Comprehensive inspection finds conflicting ramp timing, BHP curve identity and Figure6 cost endpoint; quoted values remain separate from approximate graphics.
 
-Transfer limits: Inputs are explicitly modified/anonymised (p7). Average reservoir pressure is constrained but flowing bottomhole pressure is allowed above the fracture limit (pp10/12); such cases are not demonstrated injection-feasible. Do not inherit this as a safety constraint for Paper 1. Annual pipeline sizing also needs a fixed-design feasibility check.
+Transfer limits: Comprehensive 14-page reading is recorded separately in evidence/comprehensive_review/B1-10.json. Average reservoir pressure is constrained while BHP explicitly exceeds fracture pressure; allocations are not demonstrated safe annual service. Complete modified reservoir/PVT/cost/control inputs and global MILP/PSO are absent. Eq5 radial geometry, power/tariff/CAPEX units, marginal-cost construction, within-step mass/pressure closure and persistent pipeline sizing/costs need clarification. Figure4 ramp, Figure8 Mid1/Mid2 identity and Figure6 endpoint conflict with prose. Two retained citation edges have scoped primary checks; other originals/assets remain open. See site_selection_comprehensive_findings.md; no saving, annual rate or GHG promotion.
 
 ### B1-11 — Systematic Feasibility Assessment of Geomechanical Risks for CO2 Injection and Long-Term Storage Incorporating Rock Properties Degradation and Thermal Effects
 

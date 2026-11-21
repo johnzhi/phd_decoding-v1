@@ -1,0 +1,30 @@
+{
+  "study_id": "B1-10",
+  "source_sha256": "0ccc6311dcc4b1a971a0f7cfa6f61c3891c11ec3403a98a6578993fb4145101a",
+  "checks": [
+    {
+      "citing_study": "B1-10",
+      "citing_reference": "R04",
+      "citing_claim_locator": "p2 Introduction: physics-based reservoir dynamics/injectivity in MILP",
+      "retained_source": "B2-04",
+      "original_path": "papers/B2-04.pdf",
+      "source_sha256": "6e782f82a4ff42950f0b5724e2f4ff6369ee5c3d54df1ede122a0344f7731d4a",
+      "primary_locator": "p1 abstract/title/DOI; p3 Methods2.1/Eqs2–3; p7 Section2.3.2/Eqs29–34",
+      "check": "Exact title/DOI matched. Bertoni integrates an MRST-derived POD–TPWL reservoir model with MILP. Eq31 explicitly constrains BHP to0.9pmax; Eq32 includes hydrostatic head andEq34 pumping. This supports dynamic reservoir coupling, but does not validate Hamid’s tank, pressure proxy or case. Saline-aquifer training and reported accuracy/speed apply to Bertoni’s own tests. Full Bertoni citation chain/model/supplements remain open.",
+      "verification_status": "primary_text_checked_support_dynamic_MILP_with_BHP_and_case_limits",
+      "coverage": "targeted primary passages only; no full-page audit coverage or independent model reproduction"
+    },
+    {
+      "citing_study": "B1-10",
+      "citing_reference": "R05",
+      "citing_claim_locator": "p2 Introduction: physics-based reservoir dynamics/injectivity in MILP",
+      "retained_source": "B3-45",
+      "original_path": "papers/B3-45.pdf",
+      "source_sha256": "d52670c8ab4848c0078452223042b4e7e432fcd1bf01a567b25ec1d161737973",
+      "primary_locator": "p1 title/DOI/abstract; p7 Section3.1 Eqs1–14; p8 scenarios/Eqs15–16",
+      "check": "Exact DOI/title matched; original includes author MatteoCarmeloRomano omitted from B1-10 reference. Inspected formulation supports annual-cost MILP network routing, pipe/ship size binaries, flow balances and geographic targets. These passages do not establish a pressure-evolving reservoir model or injectivity/fracture constraints attributed jointly to the cited studies by B1-10 p2. No complete B3-45 scientific/model/citation audit is claimed.",
+      "verification_status": "primary_text_checked_network_MILP_support_dynamic_reservoir_attribution_unestablished",
+      "coverage": "targeted primary passages only; no full-page audit coverage or independent model reproduction"
+    }
+  ]
+}

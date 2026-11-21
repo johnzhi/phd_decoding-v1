@@ -43,6 +43,9 @@ flow_spec.loader.exec_module(flow)
 malaysia_spec = importlib.util.spec_from_file_location('audit_malaysia_geomechanics', ROOT / 'scripts/audit_malaysia_geomechanics.py')
 malaysia = importlib.util.module_from_spec(malaysia_spec)
 malaysia_spec.loader.exec_module(malaysia)
+selection_spec = importlib.util.spec_from_file_location('audit_site_selection', ROOT / 'scripts/audit_site_selection.py')
+selection = importlib.util.module_from_spec(selection_spec)
+selection_spec.loader.exec_module(selection)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -52,6 +55,49 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_site_selection_radial_coefficient_matches_explicit_axisymmetric_integration(self):
+        data = selection.load_inputs()
+        e = data['analyst_SI_example']
+        # Integrating 2*pi*r*h*k*rho/mu * dp/dr with rho=M*p/(zRT)
+        # gives a pi denominator after the integral of p is p^2/2.
+        expected = (e['mass_kg_s'] * e['viscosity_Pa_s'] * e['z_constant'] *
+                    e['R_J_mol_K'] * e['temperature_K'] /
+                    (math.pi * e['molar_mass_kg_mol'] * e['permeability_m2'] * e['thickness_m']) *
+                    (math.log(e['re_m'] / e['rw_m']) - .75))
+        self.assertAlmostEqual(selection.radial_delta_p_squared(e, axisymmetric=True) / expected, 1)
+        self.assertAlmostEqual(selection.radial_delta_p_squared(e) / expected, math.pi)
+        self.assertIsNone(data['missing_inputs']['full_modified_reservoir_case'])
+
+    def test_site_selection_average_pressure_and_start_availability_cannot_ensure_local_limits(self):
+        checks = {r['item']:r for r in selection.calculate(selection.load_inputs())}
+        self.assertTrue(checks['analyst_average_pressure_passes']['value'])
+        self.assertFalse(checks['analyst_literal_BHP_passes']['value'])
+        toy = selection.available_start_does_not_limit_end(9, 10, 2)
+        self.assertTrue(toy['start_available'])
+        self.assertEqual(toy['end_pressure'], 11)
+        self.assertFalse(toy['end_within_limit'])
+        self.assertTrue(selection.available_start_does_not_limit_end(9, 10, 1)['end_within_limit'])
+
+    def test_site_selection_SI_power_cost_and_pipeline_units_are_explicit(self):
+        # 2 kg/s at 1000 kg/m3, 1 MPa rise and 50% efficiency requires 4 kW.
+        power = selection.pumping_power_W(2, 1000, 1e6, .5)
+        self.assertEqual(power, 4000)
+        self.assertEqual(selection.electricity_cost_from_W(power, 1000, .2), 800)
+        e = selection.load_inputs()['analyst_SI_example']
+        result = selection.pipeline_example(e)
+        self.assertAlmostEqual(result['area'] * result['velocity'] * e['density_kg_m3'], e['mass_kg_s'])
+        direct = (result['friction_factor'] * e['length_m'] / e['diameter_m'] *
+                  e['mass_kg_s']**2 / (2 * e['density_kg_m3'] * result['area']**2))
+        self.assertAlmostEqual(result['pressure_loss'], direct)
+
+    def test_site_selection_raw_cost_scaling_does_not_assign_missing_cost_units_or_case_inputs(self):
+        self.assertAlmostEqual(selection.raw_capex(.5, 300000) / selection.raw_capex(.5, 300), 1000)
+        self.assertAlmostEqual(selection.raw_capex(.55, 300) / selection.raw_capex(.5, 300), 1.1**1.3)
+        data = selection.load_inputs()
+        missing = [r for r in selection.calculate(data) if r['calculation_status'].startswith('not_computable')]
+        self.assertEqual({r['item'] for r in missing}, set(data['missing_inputs']))
+        self.assertTrue(all(r['value'] is None for r in missing))
+
     def test_malaysia_phi_scale_counterexamples_do_not_choose_author_convention(self):
         data = malaysia.load_inputs()
         self.assertIsNone(data['Phi_convention'])

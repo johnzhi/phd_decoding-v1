@@ -1,0 +1,247 @@
+{
+  "study_id": "B1-10",
+  "source_sha256": "0ccc6311dcc4b1a971a0f7cfa6f61c3891c11ec3403a98a6578993fb4145101a",
+  "printed_entries": 15,
+  "named_dependencies": 5,
+  "entry_count": 20,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        13
+      ],
+      "citation": "Akai T., Saito N., Hiyama M., Okabe H. (2021). Numerical Modelling on CO2 Storage Capacity in Depleted Gas Reservoirs. Energies14:3978.",
+      "doi_or_url": "10.3390/en14133978",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "P/z-based scaling and numerical-validation attribution p6. Original composition, pressure, gas-volume assumptions and applicability to Eq3 remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        13
+      ],
+      "citation": "An B. and Kwon K. (2025). Evaluation of CO2 Injectivity and Geological Storage Scenarios Using Nodal Analysis and Tubing Injectivity Index in a Depleted Gas Field in Malaysia. Energies18(22):5983.",
+      "doi_or_url": "10.3390/en18225983",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Early nodal/injectivity assessment p2. Exact original and its fluid/well limits not retained or checked; no anonymous-field identity join."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        13
+      ],
+      "citation": "Bell I.H., Wronski J., Quoilin S., Lemort V. (2014). Pure and pseudo-pure fluid thermophysical property evaluation and the Open-Source Thermophysical Property Library CoolProp. I&EC Research53(6):2498–2508.",
+      "doi_or_url": "10.1021/ie4033999",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Software citation onp7 says Bell2013; bibliography2014. Source paper/version, EOS/backend and actual case calls remain unverified. Installed CoolProp is not proof of the author implementation."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "Bertoni L., Møyner O., Wiegner J., Gazzani M. (2025). Optimizing carbon capture and storage infrastructure including physics-based reservoir modelling. C&CE202:109293.",
+      "doi_or_url": "10.1016/j.compchemeng.2025.109293",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_support_dynamic_MILP_with_BHP_and_case_limits",
+      "use_and_remaining_check": "Exact title/DOI matched. Bertoni integrates an MRST-derived POD–TPWL reservoir model with MILP. Eq31 explicitly constrains BHP to0.9pmax; Eq32 includes hydrostatic head andEq34 pumping. This supports dynamic reservoir coupling, but does not validate Hamid’s tank, pressure proxy or case. Saline-aquifer training and reported accuracy/speed apply to Bertoni’s own tests. Full Bertoni citation chain/model/supplements remain open.",
+      "retained_candidate": "B2-04",
+      "source_sha256": "6e782f82a4ff42950f0b5724e2f4ff6369ee5c3d54df1ede122a0344f7731d4a",
+      "primary_locator": "p1 abstract/title/DOI; p3 Methods2.1/Eqs2–3; p7 Section2.3.2/Eqs29–34",
+      "check_record": "evidence/comprehensive_review_inputs/B1-10_citation_checks.json"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        14
+      ],
+      "citation": "D’Amore F. and Bezzo F. (2021). Optimal design of European supply chains for carbon capture and storage from industrial emission sources including pipe and ship transport. IJGGC109:103372.",
+      "doi_or_url": "10.1016/j.ijggc.2021.103372",
+      "record_type": "printed_bibliography",
+      "verification_status": "primary_text_checked_network_MILP_support_dynamic_reservoir_attribution_unestablished",
+      "use_and_remaining_check": "Exact DOI/title matched; original includes author MatteoCarmeloRomano omitted from B1-10 reference. Inspected formulation supports annual-cost MILP network routing, pipe/ship size binaries, flow balances and geographic targets. These passages do not establish a pressure-evolving reservoir model or injectivity/fracture constraints attributed jointly to the cited studies by B1-10 p2. No complete B3-45 scientific/model/citation audit is claimed.",
+      "retained_candidate": "B3-45",
+      "source_sha256": "d52670c8ab4848c0078452223042b4e7e432fcd1bf01a567b25ec1d161737973",
+      "primary_locator": "p1 title/DOI/abstract; p7 Section3.1 Eqs1–14; p8 scenarios/Eqs15–16",
+      "check_record": "evidence/comprehensive_review_inputs/B1-10_citation_checks.json"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        14
+      ],
+      "citation": "Dake L.P. (1978). Fundamentals of Reservoir Engineering. Elsevier Scientific Publishing Company, Amsterdam.",
+      "doi_or_url": "book; exact edition/page unspecified",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq5 radial compressible-flow basis p6. Original derivation, pressure/unit/geometry convention and pseudo-steady−.75 term need verification; independent SI derivation is not a check of the unavailable book passage."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        14
+      ],
+      "citation": "Harris C.R., Millman K.J., van der Walt S.J. et al. (2020). Array programming with NumPy. Nature585:357–362.",
+      "doi_or_url": "10.1038/s41586-020-2649-2",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Software p7. Original paper and author version/configuration/code not checked; citation alone does not reproduce calculations."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        14
+      ],
+      "citation": "Martynov V., Wang Y., Mahgerefteh H. (2015). Assessment of integral thermo-hydraulic models for pipeline transportation of dense-phase and supercritical CO2. I&EC Research54(28):7075–7087.",
+      "doi_or_url": "10.1021/acs.iecr.5b00851",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Screening reliability claim p2. Exact experiments, thermal/hydraulic states and model validation not checked; no transfer of reliability to Hamid’s simplified model."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        14
+      ],
+      "citation": "McCoy S.T. and Rubin E.S. (2008). An engineering-economic model of pipeline transport of CO2 with application to carbon capture and storage. IJGGC2(2):219–229.",
+      "doi_or_url": "10.1016/S1750-5836(07)00119-3",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Eq9 cost relation p6. Original formula, coefficient dimensions/currency year, design/cost boundaries and applicability of1.2D^1.3L remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        14
+      ],
+      "citation": "Mitchell S., O’Sullivan M., Dunning I. (2011). PuLP: A linear programming toolkit for Python. University of Auckland.",
+      "doi_or_url": "https://coin-or.github.io/pulp/",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Software p7. Published site/paper/version, solver/configuration, binary formulation, native LP/MILP and code not verified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        14
+      ],
+      "citation": "Mustafa M.A., M. Ali S.S., Yakup M.H., Tan C.P. (2022). CO2 Storage Assessment in a Malaysian Depleted Carbonate Reservoir With2-Way Fully Coupled Dynamic-Geomechanics Modeling for Safe Long-Term Storage. OTCAsia.",
+      "doi_or_url": "10.4043/31414-MS",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Integrity/geomechanics background p2. Exact source is not B1-09 or B1-11; no substitution or field identity assumed. Original/coupled model remains unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        14
+      ],
+      "citation": "PETRONAS (2025). Malaysia Carbon Capture and Storage Roadmap: Status of PETRONAS CCS Projects and Storage Hub Strategy. Petronas CCS Ventures Sdn. Bhd., KualaLumpur.",
+      "doi_or_url": "https://jp.globalccsinstitute.com/wp-content/uploads/2025/12/S8_%E8%B3%87%E6%96%99_PETRONAS.pdf",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Named Malaysian candidates/status p2. Original report/date/content and contemporary operational/access claims unverified during Chrome wait; link presence is not retrieval."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        14
+      ],
+      "citation": "Watenhall B., Race J.M., Downie M.J. (2014). The Effect of CO2 Purity on the Development of Pipeline Networks for Carbon Capture and Storage Schemes. IJGGC30:197–211.",
+      "doi_or_url": "10.1016/j.ijggc.2014.09.016",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Impurity/phase/network-cost claim p2; inline spelling Wetenhall differs from printed bibliography Watenhall. Exact source/conditions/cost trade-off not checked."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        14
+      ],
+      "citation": "Wilhelmsen Ø., Aasen A., Skaugen G., Aursand P., Austegard A., Aursand E., Gjennestad M.A., Lund H., Linga G., Hammer M. (2017). Thermodynamic modeling with equations of state: Present challenges with established methods. I&EC Research56(13):3503–3515.",
+      "doi_or_url": "10.1021/acs.iecr.7b00317",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "ThermoPack p7; original paper, software release, EOS choice, mixture/interaction parameters and property states unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        14
+      ],
+      "citation": "Zhang S., Liu L., Zhang L., Zhuang Y., Du J. (2018). An optimization model for carbon capture utilization and storage supply chain: A case study in Northeastern China. AppliedEnergy231:194–206.",
+      "doi_or_url": "10.1016/j.apenergy.2018.09.129",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Hub/economies-of-scale claim p2. Exact source and regional/network/cost assumptions not checked; it is not an identical-title substitute from another year or author."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "citation": "Modified/anonymised reservoir, supply and hydraulic inputs",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Complete initialP,Vp,T,kh,re/rw,qmax,source schedule,pressure state definitions and native annual outputs missing. Four schematic distances are not a full reservoir dataset."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "citation": "PVT/fluid-property implementation and units",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Software versions/backends,composition,EOS,pressure basis,z(P),rho/mu/T states and consistent molar/unit conversions missing."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        7,
+        11,
+        13
+      ],
+      "citation": "Annual dispatch, global MILP and PSO implementation",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Diameter solver,bounds,c_i marginal construction,qmax,within-step closure,activation/upgrades,look-ahead/integer and stochastic settings/code not supplied. PSO comparison explicitly omitted."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        6,
+        7,
+        9,
+        11,
+        12
+      ],
+      "citation": "Pipeline, power and cost accounting basis",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "CAPEX coefficient units/currency year,efficiency/tariff/discount/annualisation,one-time assets versus annual diameter changes and complete lifecycle inventory missing."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "citation": "Darcy–Weisbach, explicit friction and compressible radial derivations",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Named methods/Eq2 functional form lack exact original attribution/validity range; sign conventions,radial geometry and constant-property/dense-phase applicability need verification."
+    }
+  ]
+}

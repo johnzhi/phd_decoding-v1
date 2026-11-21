@@ -55,6 +55,8 @@ The [openhole-completion audit](../docs/openhole_comprehensive_findings.md) adds
 
 The [flow-assurance audit](../docs/flow_assurance_comprehensive_findings.md) adds a distinct PTTEP Sarawak development with coupled pressure, temperature, rate and restart conditions [B1-08, pp5–12]. Its37.5%shallow and80%deep limits are fractions of individual-well design capacity, not the2MTPA project target or annual service. The approximately two-hour warm-restart window is not an availability factor. Native cases, well capacities, inhibitor duties and matched utility/asset inventories are required before calibration.
 
+The [site-selection audit](../docs/site_selection_comprehensive_findings.md) qualifies the modified four-reservoir screening example [B1-10, pp7–13]. Its reservoir-average pressure bound permits bottomhole fracture-limit exceedance, and annual diameter changes need a persistent asset design/cost treatment. Demand, pressure-curve identity and cumulative-cost graphics also conflict with prose. The quoted Far-only cost advantage is therefore excluded as a calibrated saving or evidence of safe annual service; the full global MILP/PSO and native case remain unreproduced.
+
 The user authorised explicitly disclosed geographic proxies when local data are unavailable. The present numerical draft therefore selects the internally coherent South Sumatra single- versus multi-well outcomes as the storage-service benchmark. Published Norwegian post-capture GHG outcomes are retained only in the supporting accounting audit in Appendix A. The main operational results use explicit component inventories. These substitutions test accounting sensitivity; they do not make Indonesian geology Japanese, or Norwegian energy factors applicable to an Asian route. No African dataset is introduced merely because a geographic proxy is permitted.
 
 | Required component | Evidence selected | Role | Remaining transfer limit |
@@ -599,6 +601,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B1-08]** Charoensuk et al. (2025). Unlocking CO2 Injection in Depleted Reservoirs A Flow Assurance Modeling Approach for Carbon Capture and Storage. [10.4043/35887-MS](https://doi.org/10.4043/35887-MS). [Retained PDF](../papers/B1-08.pdf).
 
 - **[B1-09]** Nik Kamaruddin et al. (2019). 4-D Geomechanics Modelling for Potential CO2 Storage Site in Malaysia – Fault Reactivation and Maximum Pressure Injection Limit. [IPTC-19491-MS](../papers/B1-09.pdf). [Retained PDF](../papers/B1-09.pdf).
+
+- **[B1-10]** Hamid (2026). A Decision Framework for CO2 Storage Site Selection in Depleted Reservoirs. [10.4043/36331-MS](https://doi.org/10.4043/36331-MS). [Retained PDF](../papers/B1-10.pdf).
 
 - **[B1-11]** Tan, Musa & Nik Kamaruddin (2024). Systematic Feasibility Assessment of Geomechanical Risks for CO2 Injection and Long-Term Storage Incorporating Rock Properties Degradation and Thermal Effects. [ARMA-IGS-2024-0183](../papers/B1-11.pdf). [Retained PDF](../papers/B1-11.pdf).
 
