@@ -1,0 +1,51 @@
+{
+  "study_id": "B1-18",
+  "source_sha256": "1b1f69be8aefbbe1f1985b4c01725f6987100fdbbe10365277ffe111d20d57a7",
+  "check_count": 54,
+  "geometry_cells": 12194,
+  "components_reconstructed": [
+    "AppendixA structured radial/vertical geometry",
+    "Eq2 annular permeability/skin relation",
+    "Eq1 dimensionless Leverett scale"
+  ],
+  "native_TOUGH_mesh_connections_or_forward_case_reproduced": false,
+  "native_history_match_or_prediction_reproduced": false,
+  "accepted_inputs_changed": false,
+  "software": {
+    "CoolProp": "8.0.0",
+    "gitrevision": "ae81610e7d23efc57f9d051c8e70a4d66e87537f",
+    "backend": "HEOS/Water",
+    "viscosity_BibTeX": "Huber-JPCRD-2009"
+  },
+  "viscosity_interpretation": "Literal absolute viscosity values are onHOLD; ratio.7 retained. Pure-water reference differs by roughly10x but does not repair native input or brine properties.",
+  "related_source_comparison": {
+    "primary_study": "B1-18",
+    "primary_path": "papers/B1-18.pdf",
+    "primary_sha256": "1b1f69be8aefbbe1f1985b4c01725f6987100fdbbe10365277ffe111d20d57a7",
+    "primary_pages": [
+      3
+    ],
+    "related_study": "B1-16",
+    "related_path": "papers/B1-16.pdf",
+    "related_sha256": "124e26633d6a5ff575ba09c53b3efe5098b8f4b260b627029595b7e5b4bce5ce",
+    "related_pages": [
+      3,
+      9
+    ],
+    "relation": "related retained-source depth comparison; NOT a direct citation-support edge",
+    "related_input_path": "evidence/comprehensive_review_inputs/B1-16.json",
+    "related_input_sha256": "8404a1666e3593204420141be7eb8319fe127c9dff36e3bea36e382812233457",
+    "interpretation": "Different source depth labels and knownMSL/ground conversion yield an almost common residual offset; do not invent a Kelly-bushing or other datum correction. Zone4 prose conflict remains unresolved."
+  },
+  "missing": {
+    "raw_synchronous_rates_pressures_sensor_baselines_filters": null,
+    "complete_layer_porosity_perm_and_mesh_case": null,
+    "exact_initial_pressure_reference_and_outer_boundary": null,
+    "explicit_Corey_and_capillary_Berea_reference_implementation": null,
+    "native_well_connections_and_monitor_pressure_extraction": null,
+    "original_viscosity_table_and_code_units": null,
+    "final_parameter_training_holdout_lineage_and_uncertainty": null,
+    "post_injection_retained_mass_maximum_service_inventory": null,
+    "underlying_originals_supplements_code_errata_and_rights": null
+  }
+}

@@ -477,7 +477,7 @@
       "citation": "Port/completion depths and pressure/rate measurement basis",
       "record_type": "named_dependency_without_exact_bibliography_identity",
       "verification_status": "unverified",
-      "use_and_remaining_check": "Zone4 prose/legend mismatch, sensor datum/gauge basis and raw plotting transform unresolved; no silently corrected calibration input."
+      "use_and_remaining_check": "Zone4 prose/legend mismatch, sensor datum/gauge basis and raw plotting transform unresolved; no silently corrected calibration input. Related B1-18 Table1 MSL-to-ground comparison leaves4.63–4.84m residuals against Figure4 zones1–6. This is an unresolved datum lead, not an adopted correction or direct citation-support edge; provenance is retained in B1-18_depth_comparison.json."
     },
     {
       "id": "N03",
@@ -558,7 +558,7 @@
       ],
       "status": "HOLD_PORT_DEPTH_PRESSURE_BASIS",
       "finding": "Zone4 prose2128m/6982ft conflicts with Figure4’s6838ft; multiple pressure depths/bases differ.",
-      "action": "Retain both labels; obtain exact ports/datum/pressure metadata before comparison or calibration."
+      "action": "Retain both labels; obtain exact ports/datum/pressure metadata before comparison or calibration. B1-18 comparison gives a nearly common4.63–4.84m residual after its explicit MSL-to-ground conversion. Obtain native survey reference; do not invent a Kelly-bushing offset or treat the prose conflict as resolved."
     },
     {
       "id": "I02",
@@ -643,5 +643,5 @@
   "supplements": "No embedded files, appendix or explicit supplement/data/code notice identified. Later reference intakes contain Decatur risk/sensor/brochure and other assets, with some oversized reports inaccessible; none is certified as the exact six originals, this paper’s supplement or complete native cases. External checks remain paused pending requested Chrome connection. No public-absence inference.",
   "reproduction": "Source mass/target, cumulative milestone, depth/unit/window and monitoring-count arithmetic plus conventional analyst NRMS counterexamples only. No raw RST/geochemical/VSP/microseismic inversion, actual NRMS processing, history match, predictive reservoir model or neighbouring-project interaction model reproduced. No model exemption is claimed merely because this is a monitoring synthesis.",
   "paper1_use": "Use for complementary observations, depth/datum/coverage discipline and separation of pressure plume, CO2 detection and retention. Preserve Zone4, rate-axis, array and fine-graphic questions. Do not transfer maximum annual service, permanent retention, risk probability, actual utility/GHG factor or allocated access. Accepted numeric outputs remain unchanged.",
-  "next_steps": "Obtain exact port and plot metadata, readable/raw RST, chemistry and VSP processing/detection data, microseismic geometry/catalogues and native calibrated/held-forward reservoir cases with rights. Verify six underlying originals and assets. Continue B1-17 locally and keep92-paper goal active."
+  "next_steps": "Obtain exact port and plot metadata, readable/raw RST, chemistry and VSP processing/detection data, microseismic geometry/catalogues and native calibrated/held-forward reservoir cases with rights. Verify six underlying originals and assets. Continue B1-19 locally; B1-17/B1-18 have qualified reading records and keep92-paper goal active."
 }

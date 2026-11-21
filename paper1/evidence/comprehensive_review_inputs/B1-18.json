@@ -1,0 +1,320 @@
+{
+  "study_id": "B1-18",
+  "source_path": "papers/B1-18.pdf",
+  "source_sha256": "1b1f69be8aefbbe1f1985b4c01725f6987100fdbbe10365277ffe111d20d57a7",
+  "physical_pages": 12,
+  "doi": "10.1016/j.egypro.2014.11.483",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "scope": "Independent printed skin/Leverett and structured-grid geometry components plus limited datum/unit/diagnostic checks; no native TOUGH2-MP/ECO2N forward case or history match reproduced.",
+  "physical_geometry": {
+    "CCS1_ground_elevation_MSL_m": 205.7,
+    "VW1_ground_elevation_MSL_m": 203.9,
+    "well_offset_m": 305,
+    "pressure_gauge_CCS1_depth_below_MSL_m": 1717.5,
+    "CCS1_perforations_below_MSL_m": [
+      [
+        1917.8,
+        1926.9
+      ],
+      [
+        1930.9,
+        1938.5
+      ]
+    ],
+    "ports": [
+      {
+        "zone": 11,
+        "depth_below_MSL_m": 1290.2,
+        "perforation_below_MSL_m": [
+          1290.4,
+          1291.3
+        ],
+        "formation": "Ironton-Galesville"
+      },
+      {
+        "zone": 10,
+        "depth_below_MSL_m": 1315.9,
+        "perforation_below_MSL_m": [
+          1315.7,
+          1316.6
+        ],
+        "formation": "Ironton-Galesville"
+      },
+      {
+        "zone": 9,
+        "depth_below_MSL_m": 1514.6,
+        "perforation_below_MSL_m": [
+          1514.8,
+          1515.9
+        ],
+        "formation": "MtSimon"
+      },
+      {
+        "zone": 8,
+        "depth_below_MSL_m": 1571.5,
+        "perforation_below_MSL_m": [
+          1571.7,
+          1572.7
+        ],
+        "formation": "MtSimon"
+      },
+      {
+        "zone": 7,
+        "depth_below_MSL_m": 1747,
+        "perforation_below_MSL_m": [
+          1747.2,
+          1748.2
+        ],
+        "formation": "MtSimon"
+      },
+      {
+        "zone": 6,
+        "depth_below_MSL_m": 1812.9,
+        "perforation_below_MSL_m": [
+          1813,
+          1814.1
+        ],
+        "formation": "MtSimon"
+      },
+      {
+        "zone": 5,
+        "depth_below_MSL_m": 1839.7,
+        "perforation_below_MSL_m": [
+          1839.9,
+          1840.9
+        ],
+        "formation": "MtSimon"
+      },
+      {
+        "zone": 4,
+        "depth_below_MSL_m": 1875.5,
+        "perforation_below_MSL_m": [
+          1875.5,
+          1876.5
+        ],
+        "formation": "MtSimon"
+      },
+      {
+        "zone": 3,
+        "depth_below_MSL_m": 1908.4,
+        "perforation_below_MSL_m": [
+          1908.5,
+          1909.6
+        ],
+        "formation": "MtSimon"
+      },
+      {
+        "zone": 2,
+        "depth_below_MSL_m": 1919.8,
+        "perforation_below_MSL_m": [
+          1919.9,
+          1921
+        ],
+        "formation": "MtSimon"
+      },
+      {
+        "zone": 1,
+        "depth_below_MSL_m": 1943.6,
+        "perforation_below_MSL_m": [
+          1943.8,
+          1944.7
+        ],
+        "formation": "PreMtSimon"
+      }
+    ],
+    "depth_convention": "positive down belowMSL; add local ground elevation to obtain depth belowground",
+    "unknown_KB_or_other_datum_offset_m": null
+  },
+  "model": {
+    "temperature_C": 49,
+    "isothermal": true,
+    "salinity_in_simulation": "neglected",
+    "reported_TDS_ppm_gt": 200000,
+    "pure_H2O_viscosity_literal_Pa_s": 5.6e-05,
+    "brine_viscosity_literal_Pa_s": 8e-05,
+    "viscosity_status": "HOLD_literal_unit_basis; ratio evaluated without exponent repair",
+    "pore_compressibility_per_Pa": 1e-10,
+    "Corey_Slr": 0.65,
+    "Corey_Sgr": 0,
+    "capillary_Slr": 0.6,
+    "capillary_Sls": 0.999,
+    "capillary_lambda": 0.5,
+    "capillary_Pmax_Pa": 24000000.0,
+    "Berea_reference_k_m2": null,
+    "Berea_reference_porosity": null,
+    "Berea_reference_curve": null,
+    "capillary_scaling_direction_switch_depth_m": 1915,
+    "VW1_log_model_shift_down_m": 13.1,
+    "initial_vertical_to_horizontal_permeability": 0.01,
+    "reported_average_injection_zone_perm_mD_approx": 150,
+    "reported_injection_zone_thickness_m_approx": [
+      23,
+      24
+    ],
+    "reported150mD_viscosity_basis": "retain source model/analysis ambiguity; no .7 scaling adopted as corrected physical value",
+    "top_depth_below_MSL_m": 1420,
+    "bottom_depth_below_MSL_m": 1974,
+    "top_bottom_boundary": "no-flow",
+    "outer_radial_boundary": null,
+    "initial_pressure": "hydrostatic; exact reference pressure not supplied",
+    "fitted_zones": [
+      2,
+      3,
+      4
+    ],
+    "excluded_unreliable_zone": 1,
+    "zone5_early_offline": true,
+    "reference_zone": 2,
+    "calibration_pressure_days": 40,
+    "comparison_horizon": "two years of injection",
+    "arrival_calibration": "Slr=.65 and individual kH layers adjusted for later breakthrough while maintaining interval-average kH",
+    "layer_property_arrays": null,
+    "raw_rate_step_schedule": null,
+    "raw_hourly_pressure": null,
+    "native_case_and_convergence": null
+  },
+  "skin": {
+    "s": -0.85807,
+    "rw_m": 0.12,
+    "rs_m": 0.29,
+    "source_relation": "s=(k/ks-1)*ln(rs/rw)",
+    "exact_native_skin_grid_connections": null
+  },
+  "mesh": {
+    "radial_counts": [
+      1,
+      2,
+      3,
+      5,
+      10,
+      30,
+      6,
+      5,
+      5
+    ],
+    "radial_widths_m": [
+      0.12,
+      0.17,
+      0.18,
+      1.8,
+      9,
+      10,
+      100,
+      1800,
+      18000
+    ],
+    "radial_count_reported": 67,
+    "outer_radius_m": 100000,
+    "vertical_counts_bottom_up": [
+      89,
+      93
+    ],
+    "vertical_widths_bottom_up_m": [
+      1,
+      5
+    ],
+    "vertical_count_reported": 182,
+    "height_m": 554,
+    "cell_count_reported": 12194,
+    "high_porosity_well_cells": 20,
+    "well_porosity": 0.98,
+    "well_permeability_m2": 1e-06,
+    "well_capillary_pressure": "zero",
+    "reservoir_disconnected_gap_cells": 4,
+    "source_nodal_interface_offset_m": 1e-10,
+    "native_well_cell_indices": null,
+    "native_connection_distances_and_areas": null,
+    "source_notes": "Source says all injection into uppermost well cell; remove connections above/below well and four gap-cell lateral connections; move perforated well nodes almost to interfaces."
+  },
+  "log_normalization": {
+    "CCS1_GR_API": [
+      26,
+      227
+    ],
+    "VW1_GR_API": [
+      12,
+      188
+    ],
+    "CCS1_porosity_percent_literal": [
+      0.01,
+      26.6
+    ],
+    "VW1_porosity_percent_literal": [
+      0.01,
+      37.0
+    ],
+    "scope": "Figure2 caption limits; no native log arrays, clipping or quantitative facies inversion reproduced"
+  },
+  "observation": {
+    "practical_pressure_resolution_Pa_approx": 1000,
+    "averaging": "hourly",
+    "initial_zone3_4_drift": "corrected at early~10days",
+    "filtering": "few obvious outliers/aberrant segments manually removed; gaps sampling/sensors offline",
+    "exact_drift_and_filter_method": null,
+    "BHP_caption": "uncorrected brine/CO2 column between gauge and perforations",
+    "phase_specific_pressure_definition": null,
+    "normalized_gradient_baseline_values": null,
+    "observed_zone3_first_CO2": "March2012",
+    "observed_zone2_first_CO2": "July2012",
+    "plume_plot_colorbar": "SG0–0.5 then top bin0.5–1; not an integrated mass legend"
+  },
+  "model_origins": {
+    "skin": "ADM2011 permit [22]",
+    "viscosity": "Kestin1981 [23]",
+    "Corey": "Corey1954 [24]",
+    "breakthrough": "Finley2013 [25]",
+    "vanGenuchten": "vanGenuchten1980 [26]",
+    "Leverett": "Leverett1941 [27]",
+    "skin_relation": "Horne1995 [28]"
+  },
+  "external_lead": {
+    "ADM_permit_as_printed": "http://www.epa.gov/region5/water/uic/adm/index.htm",
+    "status": "located in bibliography; not retrieved or current-status verified"
+  },
+  "missing": {
+    "raw_synchronous_rates_pressures_sensor_baselines_filters": null,
+    "complete_layer_porosity_perm_and_mesh_case": null,
+    "exact_initial_pressure_reference_and_outer_boundary": null,
+    "explicit_Corey_and_capillary_Berea_reference_implementation": null,
+    "native_well_connections_and_monitor_pressure_extraction": null,
+    "original_viscosity_table_and_code_units": null,
+    "final_parameter_training_holdout_lineage_and_uncertainty": null,
+    "post_injection_retained_mass_maximum_service_inventory": null,
+    "underlying_originals_supplements_code_errata_and_rights": null
+  },
+  "analyst_examples": {
+    "gravity_m_s2": 9.80665,
+    "radial_far_radii_m": [
+      1,
+      10,
+      100
+    ],
+    "skin_delta_examples": [
+      -0.001,
+      0.001
+    ],
+    "normalized_gradient_example_initial_P_difference_Pa": 114000,
+    "pressure_error_bound_example_Pa": 1000,
+    "source_resolution_is_not_error_bound": true,
+    "pure_water_reference_pressure_Pa": [
+      18000000.0,
+      20000000.0,
+      24000000.0
+    ],
+    "pure_water_reference_status": "independent unit reference; not corrected author viscosities or actual brine",
+    "Leverett_relative_examples": [
+      {
+        "k_over_ref": 1,
+        "phi_over_ref": 1
+      },
+      {
+        "k_over_ref": 0.25,
+        "phi_over_ref": 1
+      },
+      {
+        "k_over_ref": 1,
+        "phi_over_ref": 0.5
+      }
+    ]
+  }
+}

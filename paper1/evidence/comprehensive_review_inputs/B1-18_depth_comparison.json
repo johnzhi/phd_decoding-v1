@@ -1,0 +1,19 @@
+{
+  "primary_study": "B1-18",
+  "primary_path": "papers/B1-18.pdf",
+  "primary_sha256": "1b1f69be8aefbbe1f1985b4c01725f6987100fdbbe10365277ffe111d20d57a7",
+  "primary_pages": [
+    3
+  ],
+  "related_study": "B1-16",
+  "related_path": "papers/B1-16.pdf",
+  "related_sha256": "124e26633d6a5ff575ba09c53b3efe5098b8f4b260b627029595b7e5b4bce5ce",
+  "related_pages": [
+    3,
+    9
+  ],
+  "relation": "related retained-source depth comparison; NOT a direct citation-support edge",
+  "related_input_path": "evidence/comprehensive_review_inputs/B1-16.json",
+  "related_input_sha256": "8404a1666e3593204420141be7eb8319fe127c9dff36e3bea36e382812233457",
+  "interpretation": "Different source depth labels and knownMSL/ground conversion yield an almost common residual offset; do not invent a Kelly-bushing or other datum correction. Zone4 prose conflict remains unresolved."
+}

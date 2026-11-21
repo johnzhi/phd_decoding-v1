@@ -1,0 +1,404 @@
+{
+  "study_id": "B1-18",
+  "source_sha256": "1b1f69be8aefbbe1f1985b4c01725f6987100fdbbe10365277ffe111d20d57a7",
+  "printed_entries": 28,
+  "named_dependencies": 10,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        11
+      ],
+      "citation": "Locke II R, Larssen D, Salden W, Patterson C, Kirksey J, Iranmanesh A, Wimmer B, Krapac I. Preinjection reservoir fluid characterization at a CCS demonstration site: Illinois Basin – Decatur Project, USA. Energy Procedia 2013; 37:6424-33.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Westbay/site configuration pp1–2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        11
+      ],
+      "citation": "Black WH, Smith HR, Patton FD. Multiple-level ground water monitoring with the MP system. In: Proceedings of the National Groundwater Association conference on Surface and Borehole Geophysical Methods and Ground Water Instrumentation, Conference and Exposition. Dublin, Ohio: Natl Water Well Assoc; 1986. p. 41-61.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Westbay technical description p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        11
+      ],
+      "citation": "Pickens JF, Cherry JA, Grisak GE, Merritt WF, Risto BA. A multilevel device for ground-water sampling and pizometric monitoring. Ground Water 1978; 16(5):322-327.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Groundwater multilevel context p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11
+      ],
+      "citation": "Cherry JA, Johnson PE. A multilevel device for monitoring in fractured rock. Ground Water Monit R 1982; 2(3):41-4.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Fractured-rock monitoring p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        11
+      ],
+      "citation": "Parker BL, Cherry JA, Swanson BJ. A multilevel system for high-resolution monitoring in rotasonic boreholes. Ground Water Monit R 2006; 26(4):57-73.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Head differentials versus cores p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        11
+      ],
+      "citation": "Cherry JA, Parker BL, Keller C. A new depth-discrete multilevel monitoring approach for fractured rock. Ground Water Monit R 2007; 27(2):57- 70.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Depth-discrete monitoring p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        11
+      ],
+      "citation": "Meyer JR, Parker BL, Cherry JA. Characteristics of high resolution hydraulic head profiles and vertical gradients in fractured sedimentary rocks. J Hydrol 2014; 517:493-507.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "High-resolution heads/gradients p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        11
+      ],
+      "citation": "Fisher JC, Twining BV. Multilevel groundwater monitoring of hydraulic head and temperatue in the eastern Snake River Plain Aquifer, Idaho National Library, Idaho, 2007-08. U.S. Geol Surv Sci Invest Rep 2010-5253. Reston, Va: U.S. Geological Survey; 2011.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Head/temperature profiles p2; preserve printedtitle wording. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        11
+      ],
+      "citation": "Hovorka SD, Benson SM, Doughty C, Freifield BM, Sakurai S, Daley TM, Kharaka YK, Holtz MH, Trautz RC, Nance HS, Myer LR, Knauss KG. Measuring permanence of CO2 storage in saline formations: the Frio experiment. Environ Geosci 2006; 13(2):105-21.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Single-depth Frio monitoring p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        11
+      ],
+      "citation": "Sminchak J, Gupta N, Gerst J. Well test results and reservoir performance for a carbon dioxide injection test in the Bass Islands Dolomite in the Michigan Basin. Environ Geosci 2009; 16(3):153-62. 4484 Christin W. Strandli et al. / Energy Procedia 63 (2014) 4473 – 4484",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Michigan test performance p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        12
+      ],
+      "citation": "Katz DL, Coats KH. Underground Storage of Fluids. Ann Arbor, Mich: Ulrich’s Books Inc.; 1968.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Above-zone monitoring context p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        12
+      ],
+      "citation": "Chabora ER, Benson SM. Brine displacement and leakage detection using pressure measurements in aquifers overlying CO2 storage reservoirs. Energy Procedia 2009; 1(1):2405-12.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure leakage detection p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        12
+      ],
+      "citation": "Chabora ER. The utility of above-zone pressure measurements in monitoring geologically stored carbon dioxide. M.S. Thesis. Stanford, Calif: Stanford University; 2009.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Above-zone and in-zone diagnostic potential p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        12
+      ],
+      "citation": "Nogues JP, Nordbotten JM, Celia MA. Detecting leakage of brine or CO2 through abandoned wells in a geological sequestration operation using pressure monitoring wells. Energy Procedia 2011; 4:3620-7.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Abandoned-well leakage detection p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        12
+      ],
+      "citation": "Zeidouni M, Pooladi-Darvish M, Keith DW. Leakage detection and characterization through pressure monitoring. Energy Procedia 2011; 4:3534-41.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Pressure leakage characterisation p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        12
+      ],
+      "citation": "Birkholzer JT, Zhou Q, Tsang C-F. Large-scale impact of CO2 storage in deep saline aquifers: A sensitivity study on pressure response in stratified systems. Int J Greenh Gas Control 2009; 3(2):181-94.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Stratified-system pressure/flows p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        12
+      ],
+      "citation": "Benisch K, Bauer S. Short- and long-term regional pressure build-up during CO2 injection and its applicability for site monitoring. Int J Greenh Gas Control 2013; 19:220-33.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Regional anticline pressure response p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        12
+      ],
+      "citation": "Strandli CW, Benson SM. Identifying diagnostics for reservoir structure and CO2 plume migration from multilevel pressure measurements. Water Resour Res 2013; 46:3462-75.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Essential diagnostic method pp2,4–5,7–8; exact original identity/volume and scope unverified. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        12
+      ],
+      "citation": "Zhang K, Wu Y-S, Pruess K. User’s Guide for TOUGH2-MP – A Massively Parallel Version of the TOUGH2 Code. Tech rep LBNL-315E. Berkeley, Calif: Lawrence Berkeley Natl Lab; 2008.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "TOUGH2-MP methods/native mesh pp2,5,12. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        12
+      ],
+      "citation": "Pruess K. ECO2N: A TOUGH2 fluid property module for mixtures of water, NaCl, and CO2. Tech rep LBNL-57952. Berkeley, Calif: Lawrence Berkeley Natl Lab; 2005.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "ECO2N properties/native implementation pp2,5. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        12
+      ],
+      "citation": "Einarson MD. Multilevel ground-water monitoring. In: DM Nielsen, editor. Practical Handbook of Environmental Site Characterization and Ground-Water Monitoring, vol. 11. Boca Raton, Fla: CRC Press; 2006. p. 808-845.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Westbay pressure isolation/packers p2. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        12
+      ],
+      "citation": "ADM. ADM CCS#1 permit application, U.S. EPA Underground Injection Application, Archer Daniels Midland Company (ADM), OMB No. 2040-0042. 2011. Accessible at: http://www.epa.gov/region5/water/uic/adm/index.htm",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Port/perforation/skin and instrumentation pp2,6; dated permitURL only located. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        12
+      ],
+      "citation": "Kestin J, Khalifa E, Correia RJ. Tables of dynamic and kinematic viscosity of aqueous NaCl solutions in the temperature range 20-150 °C and the pressure range 0.1-35 MPa. J Phys Chem Ref Data 1981; 10:71-87.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Brine viscosity p5; original table/state/units unverified; independent pure-water reference is not substitute. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        12
+      ],
+      "citation": "Corey AT. The interrelation between gas and oil relative permeabilities. Prod Mon 1954; 19:38-41.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Corey relative permeability p5; native formula/clipping not printed. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        12
+      ],
+      "citation": "Finley RJ, Frailey SC, Leetaru HE, Senel O, Couëslan ML, Marsteller S. Early Operational Experience at a One-million Tonne CCS Demonstration Project, Decatur, Illinois, USA. Energy Procedia 2013; 37:6149-55.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Arrival targets pp5,7–8; targets used in calibration, not independent validation. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        12
+      ],
+      "citation": "van Genuchten MT. A closed-form equation for predicting the hydraulic conductivity of unsaturated soils. Soil Sci Am J 1980; 44:892-8.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "vanGenuchten capillary function p5; missing Berea scale/implementation. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        12
+      ],
+      "citation": "Leverett MC. Capillary behavior in porous solids. TAIME 1941; 142:152-69.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Leverett scaling p5; component algebra not original derivation review. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        12
+      ],
+      "citation": "Horne RN. Modern Well Test Analysis. 2nd ed. Palo Alto, Calif: Petroway; 1995.",
+      "record_type": "printed_bibliography",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Annular skin relation p6; component reconstructed but originalbook unverified. Underlying original passages, derivations and source support remain unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "citation": "Native synchronous observations and preprocessing",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Raw hourly/underlying rates and pressures, baselines, quality flags, manual removals, drift method, data gaps and covariance needed; pressure resolution is not verified accuracy."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "citation": "Physical datum and model port extraction",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "BGL/MSL, model log shift, related-paper offsets and gauge-to-perforation mapping remain distinct. Native monitor extraction/time-dependent fluid-column correction missing."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3,
+        5,
+        6,
+        9
+      ],
+      "citation": "Full layered properties and field correlations",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "All554m layerporosity/kH/kV arrays, SDR relation, initial/final material assignment and exact log normalization/clipping unavailable."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        5
+      ],
+      "citation": "Berea reference and native constitutive functions",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Berea k/phi/Pc_ref, capillary convention and Corey/vanGenuchten parameters/implementation/hysteresis missing. Residual saturation parameter is not a hard universal gas-saturation cap."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        5,
+        12
+      ],
+      "citation": "Native TOUGH2-MP/ECO2N forward files and rights",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Complete initial pressure, radial boundary, fluid setup/version, source step schedule, solver/convergence and native mesh needed. Geometry alone does not supply a model."
+    },
+    {
+      "id": "N06",
+      "pages": [
+        6,
+        12
+      ],
+      "citation": "Well-cell connections and skin mapping",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "20 exact well-cell indices, four disconnected gap cells, interface offsets/connection lengths/areas and per-layerks missing; no guessed snap to physical perforations."
+    },
+    {
+      "id": "N07",
+      "pages": [
+        5
+      ],
+      "citation": "Original viscosity units and brine properties",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Literal viscosities versus referenced original/code require verification. Ratio.7 retained without exponent repair or inventing actual brine composition/density/solubility."
+    },
+    {
+      "id": "N08",
+      "pages": [
+        8,
+        9,
+        10,
+        11
+      ],
+      "citation": "Complete calibration lineage and independent prediction",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "Actual pressure/arrival training timing, tuned cases/objective, independent holdouts, grid/time/parameter sensitivity and uncertainty ensemble not supplied."
+    },
+    {
+      "id": "N09",
+      "pages": [
+        1,
+        8,
+        10,
+        11
+      ],
+      "citation": "Maximum safe service, retained mass and inventory",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "No target sweep/BHP safety ceiling, complete post-injection carbon/outflow balance, currentallocated storage or full utility/lifecycle inventory."
+    },
+    {
+      "id": "N10",
+      "pages": [
+        11,
+        12
+      ],
+      "citation": "External originals, supplements, code and errata",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "verification_status": "unverified",
+      "use_and_remaining_check": "InternalAppendixA read completely. No embedded file or explicit external supplement notice identified; exact originals/public assets unverified during requested Chrome wait. Related retained reports are not substitutes."
+    }
+  ]
+}
