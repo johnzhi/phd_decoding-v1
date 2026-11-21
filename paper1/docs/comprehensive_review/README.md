@@ -1,6 +1,6 @@
 # Comprehensive audit progress
 
-92 unique publications; 1,301 physical pages. 4 detailed reading records; 30 pages read as text and 30 rendered pages inspected. **0 comprehensively complete papers.**
+92 unique publications; 1,301 physical pages. 5 detailed reading records; 50 pages read as text and 50 rendered pages inspected. **0 comprehensively complete papers.**
 
 Full completion also requires source-support checks, supplements and independent model verification. Prior targeted reviews remain separate. External retrieval is paused pending the requested Chrome connection.
 
@@ -10,6 +10,7 @@ Full completion also requires source-support checks, supplements and independent
 | [B1-05](B1-05.md) | 4 | 4 | incomplete |
 | [B3-11](B3-11.md) | 11 | 11 | incomplete |
 | [B4-05](B4-05.md) | 6 | 6 | incomplete |
+| [B4-06](B4-06.md) | 20 | 20 | incomplete |
 
 The other publications remain pending in this comprehensive audit. The [complete paper register](../../outputs/comprehensive_review/papers.csv), [page register](../../outputs/comprehensive_review/pages.csv), [issues](../../outputs/comprehensive_review/issues.csv) and [diagnostics](../../outputs/comprehensive_review/diagnostics.csv) preserve the detailed status.
 

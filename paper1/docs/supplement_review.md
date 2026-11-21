@@ -49,3 +49,7 @@ A conditional rounding envelope assumes conventional nearest-0.1 printing, givin
 The pressure/rate figures are not complete calendar-time constraint arrays. Their original vector/raster media are preserved; no annual service series is invented from them. A Japanese application still requires a disclosed source/geology/route proxy design. Neither this supplement nor the annual replay resolves the existing fugitive-source-loss accounting issue in the Norwegian aggregate GHG factors.
 
 The most useful optional contribution from the user is an original author spreadsheet or solver export containing raw annual allocations and input constraints. Extraction, accounting reconciliation, modelling and validation can continue as researcher tasks. Journal and author details are needed later for manuscript formatting.
+
+## Comprehensive audit update — 21 November 2026
+
+The [full-text/supplement findings](budiarto_comprehensive_findings.md) now record inspection of all 20 main-paper pages and all retained supplementary objects, including five separately rendered DOCX pages. They add cost-basis, early source-balance and formulation questions; annual `kr,t`, exact routes, underlying references and complete model reproduction remain open. The supplied supplement is inspected; this does not establish that every author asset is available or independently reproduce the MILP.

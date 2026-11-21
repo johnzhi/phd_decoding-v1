@@ -1,0 +1,34 @@
+{
+  "study_id": "B4-06",
+  "source_sha256": "e8ceec0d96625b2fca7f58868f580a6843a31a0ad9eae78ef26695131e14e833",
+  "supplement_sha256": "355320a1f70aa45d1b8d21c94a933ea048cc82488095d76e08c5db0ea3f3336e",
+  "basis": "Manual main-PDF visual transcriptions, checked in enlarged crops; reported output values only, not independent model inputs. Existing native supplement tables/rounded annual-cell transcriptions are reused with provenance and reinspection.",
+  "figure11_physical_page": 16,
+  "figure11_cost_unit": "USD per ton CO2; reported levelized/average bases require reconciliation",
+  "figure11": [
+    {"scenario":"SW-A", "full_chain":116.37, "capture":93.85, "hub_transport":17.71, "storage":2.89, "point_transport":26.04},
+    {"scenario":"MW-A", "full_chain":116.21, "capture":93.76, "hub_transport":16.56, "storage":2.35, "point_transport":25.40},
+    {"scenario":"MW-D", "full_chain":116.04, "capture":93.76, "hub_transport":15.89, "storage":2.49, "point_transport":24.64}
+  ],
+  "reported_retention_Mt": {"SW-A":153.21, "MW-A":159.81, "MW-D":159.81},
+  "reported_SW_A_total_cost_billion_USD":17.53,
+  "reported_multiwell_total_cost_range_billion_USD":[18.03,18.12],
+  "reported_total_cost_range_on_page14_billion_USD":[17.53,18.15],
+  "figure6_SW_A_reservoir_totals_Mt":{"r1":12.98,"r2":6.8,"r3":1.9,"r4":23.3,"r5":15.95,"r6":80.25,"r7":6.04,"r8":5.99},
+  "figure7b_MW_A_reservoir_totals_Mt":{"r1":36.68,"r2":5.26,"r3":3.47,"r4":4.18,"r5":13.11,"r6":79.91,"r7":14.17,"r8":3.03},
+  "figure9_MW_D_reservoir_totals_Mt":{"r1":39.65,"r2":4.53,"r3":null,"r4":0.71,"r5":15.12,"r6":74.68,"r7":22.09,"r8":3.03},
+  "map_zero_basis":"MW-D r3 carries a printed0% and no injection route, but no numeric mass annotation. Its mass remains null; map sums use only the seven printed positive quantities. Neither a rounded percentage nor a blank heatmap cell becomes a measured zero.",
+  "early_SW_A_reported_injection_limit_Mt_per_year":2.05,
+  "early_SW_A_reported_target_Mt_per_year":5.33,
+  "early_SW_A_years":[2027,2028],
+  "interest_rate":0.08,
+  "economic_life_years":30,
+  "fixed_OM_fraction_CAPEX":0.03,
+  "variable_OM_fraction_CAPEX":0.03,
+  "table3_sensitivity": [
+    {"perturbation":"capture_CAPEX", "input_percent":30,"reported_full_chain_percent":13.6,"main_sinks":"r6,r1,r7","structure":"unchanged"},
+    {"perturbation":"transport_cost", "input_percent":30,"reported_full_chain_percent":4.2,"main_sinks":"r6,r1,r7","structure":"unchanged"},
+    {"perturbation":"uniform_storage_cost", "input_percent":30,"reported_full_chain_percent":0.7,"main_sinks":"r6,r1,r7","structure":"unchanged"},
+    {"perturbation":"selective_storage_cost_r1_r6", "input_percent":50,"reported_full_chain_percent":0.6,"main_sinks":"r5,r1,r6","structure":"allocation_shifted"}
+  ]
+}

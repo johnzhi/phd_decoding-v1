@@ -27,7 +27,7 @@ DOI = re.compile(r'\b10\.\d{4,9}/[^\s<>"\]]+', re.I)
 
 def write_csv(path, fields, rows):
     with path.open('w', encoding='utf-8', newline='') as stream:
-        writer = csv.DictWriter(stream, fieldnames=fields)
+        writer = csv.DictWriter(stream, fieldnames=fields, lineterminator='\n')
         writer.writeheader()
         writer.writerows(rows)
 
@@ -55,6 +55,19 @@ def load_reviews(catalogue):
             for item in items:
                 if not set(item['pages']) <= expected or not item['pages']:
                     raise ValueError(f'Unlocated item: {sid}/{item["id"]}')
+        assets = {item['asset_id']: item for item in review.get('asset_reviews', [])}
+        if len(assets) != len(review.get('asset_reviews', [])):
+            raise ValueError(f'Duplicate supplementary asset: {sid}')
+        for asset in assets.values():
+            if hashlib.sha256((ROOT / asset['original_path']).read_bytes()).hexdigest() != asset['sha256']:
+                raise ValueError(f'Stale supplementary review: {sid}/{asset["asset_id"]}')
+            if asset.get('derivative_pages_included_in_main_page_count'):
+                raise ValueError('Derivative pagination cannot enter main-PDF coverage')
+        supplementary_ids = set()
+        for item in review.get('supplement_items', []):
+            if item['asset_id'] not in assets or not item['native_locator'] or item['id'] in supplementary_ids:
+                raise ValueError(f'Unlocated/duplicate supplementary item: {sid}/{item["id"]}')
+            supplementary_ids.add(item['id'])
         # No reviewed-page count, extraction, arithmetic replay or missing asset
         # can automatically promote a paper to comprehensive completion.
         if review['overall_status'] != 'incomplete':
@@ -90,6 +103,15 @@ def render_review(source, review):
     for key, heading in [('supplements', 'Supplements and missing assets'), ('reproduction', 'Independent reproduction'),
                          ('paper1_use', 'Use in Paper 1'), ('next_steps', 'Remaining work')]:
         lines.extend([f'## {heading}', '', review[key], ''])
+    if review.get('supplement_items'):
+        lines.extend(['## Retained supplement object checks', ''])
+        for asset in review['asset_reviews']:
+            lines.extend([f'**{asset["asset_id"]}:** `{asset["original_path"]}`; SHA-256 `{asset["sha256"]}`.', '',
+                          asset['render_recipe'], '',
+                          'Derivative render pages are excluded from the native main-PDF page count.', ''])
+        for item in review['supplement_items']:
+            lines.extend([f'### {item["id"]}', '', f'**Native locator:** {item["native_locator"]}', '',
+                          item['inspection'], '', f'**Status:** {item["status"]}', ''])
     (DOC / f'{review["study_id"]}.md').write_text('\n'.join(lines), encoding='utf-8')
 
 
@@ -121,7 +143,7 @@ def main():
                          underlying_source_status=('partial_primary_checks' if any(
                              item.get('verification_status', '').startswith('primary_text_checked')
                              for item in review.get('references', [])) else 'unverified'),
-                         supplement_status='not_established',
+                         supplement_status=review.get('supplement_status', 'not_established'),
                          original_model_status=review.get('original_model_status', 'not_assessed'),
                          embedded_attachment_count=len(attachments),
                          manual_record=f'evidence/comprehensive_review/{sid}.json' if review else '',
@@ -170,10 +192,18 @@ def main():
                    primary_text_checked_citation_edges=sum(
                        item.get('verification_status', '').startswith('primary_text_checked')
                        for r in reviews.values() for item in r['references']),
+                   retained_supplements_with_manual_records=sum(len(r.get('asset_reviews', [])) for r in reviews.values()),
+                   retained_supplement_object_records=sum(len(r.get('supplement_items', [])) for r in reviews.values()),
                    external_retrieval='paused_pending_requested_Chrome_connection',
                    note='Candidate counts include mentions and duplicates; they are not verified object/citation counts. '
                         'Page reading is not independent reproduction or cited-source verification.')
     (OUT / 'summary.json').write_text(json.dumps(summary, indent=2) + '\n')
+    assets = [dict(study_id=sid, asset_id=a['asset_id'], path=a['original_path'], sha256=a['sha256'],
+                   status='retained_asset_inspected_not_all_author_assets_verified')
+              for sid, review in reviews.items() for a in review.get('asset_reviews', [])]
+    write_csv(OUT / 'supplement_assets.csv', ['study_id', 'asset_id', 'path', 'sha256', 'status'], assets)
+    objects = [dict(study_id=sid, **item) for sid, review in reviews.items() for item in review.get('supplement_items', [])]
+    write_csv(OUT / 'supplement_objects.csv', ['study_id', 'id', 'asset_id', 'native_locator', 'inspection', 'status'], objects)
     issues = [dict(study_id=sid, **item) for sid, review in reviews.items() for item in review['issues']]
     write_csv(OUT / 'issues.csv', ['study_id', 'id', 'pages', 'status', 'finding', 'action'],
               [dict(item, pages=','.join(map(str, item['pages']))) for item in issues])
