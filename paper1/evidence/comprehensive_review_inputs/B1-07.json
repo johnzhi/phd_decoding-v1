@@ -1,0 +1,125 @@
+{
+  "study_id": "B1-07",
+  "source_sha256": "98bcd58dcbe755c55963d9687e5c7527701ff0301139c6789a92c6c2ccccb275",
+  "source_path": "papers/B1-07.pdf",
+  "scope": "source-transcribed model descriptors and relative indices, not author-case reproduction or accepted operating/GHG inputs",
+  "model_extent": {
+    "length_km": 9,
+    "width_km": 11,
+    "height_m": 1800
+  },
+  "grid_dimensions": [
+    120,
+    111,
+    103
+  ],
+  "active_grid_cells": 276410,
+  "realizations_generated": 100,
+  "realizations_selected": 10,
+  "history_match_end": "2022-04-01",
+  "simulation_start": "2029-01-01",
+  "injection_end": "2050-01-01",
+  "simulation_end": "2130-01-01",
+  "displayed_forecast_end_year": 2060,
+  "case_A": {
+    "injectors": 3,
+    "relief_wells": 0
+  },
+  "case_B": {
+    "injectors": 3,
+    "relief_wells": 3
+  },
+  "injection_pressure_limit": {
+    "description": "initial reservoir pressure",
+    "numeric_value": null,
+    "unit": null,
+    "datum": null,
+    "control_basis": "BHP versus reservoir-average implementation not specified"
+  },
+  "approximate_A_pressure_limit_year": 2040,
+  "pressure_relief_reported_relative_uplift_pct": [
+    25,
+    30
+  ],
+  "absolute_A_cumulative_CO2": null,
+  "absolute_B_cumulative_CO2": null,
+  "reported_cumulative_axis": "CO2_ton",
+  "caption_cumulative_quantity": "CO2 injection volume",
+  "ton_definition": "unspecified",
+  "forecast_pressure_axis": "Pressure[MPa]",
+  "pressure_reference": "unspecified",
+  "history_axes": {
+    "gas_rate": "Sm3/d",
+    "liquid_rate": "Sm3/d",
+    "gas_cumulative": "Sm3",
+    "water_cumulative": "Sm3",
+    "well_water_rate": "Sm3/d",
+    "BHP": "MPa"
+  },
+  "missing_numeric_vertical_scales": [
+    5,
+    6,
+    7,
+    11,
+    17,
+    19
+  ],
+  "map_CO2_scale": {
+    "labels": [
+      "High",
+      "Low"
+    ],
+    "numerical_values": null,
+    "physical_variable_definition": null
+  },
+  "map_snapshot_labels": [
+    "5 years after injection",
+    "10 years after injection",
+    "Simulation End"
+  ],
+  "map_final_snapshot_date": "not independently resolved from caption; table horizon2130 but raw timestamp absent",
+  "source_figure_ids": [
+    1,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    16,
+    17,
+    18,
+    19
+  ],
+  "source_table_ids": [
+    2,
+    3,
+    8
+  ],
+  "seal_thickness_m": [
+    50,
+    120
+  ],
+  "number_of_historical_wells_lower_bound_exclusive": 40,
+  "field_discovery_year": 1959,
+  "no_numbered_equations": true,
+  "supplement_status": "no explicit notice or embedded files identified; external assets unverified",
+  "figure9_circle_count": 6,
+  "figure10_red_box_count": 3,
+  "figure16_red_box_count": 3,
+  "figure16_blue_box_count": 3,
+  "reported_uplift_pct": [
+    25,
+    30
+  ],
+  "absolute_case_A_total": null,
+  "initial_reservoir_pressure_MPa": null,
+  "annual_injection_profile": null,
+  "relief_water_inventory": null,
+  "forecast_quantity_labels": {
+    "Figures11_17": "Field,CO2_ton; captions call it injection volume",
+    "Figure19": "Average reservoir pressure,MPa; datum unspecified"
+  }
+}

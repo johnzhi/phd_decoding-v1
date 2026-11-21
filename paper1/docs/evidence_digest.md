@@ -100,7 +100,7 @@ Reading stage: Targeted methods/results extraction. Checked sections: See Batch1
 
 Higashi-Niigata models 100 geological realisations, selecting 10 after history matching. Case A uses three CO2 injectors; Case B adds three pressure-relief wells. Injection is assumed from 1 January 2029 to 1 January 2050. Case A reaches its pressure limit around 2040; pressure relief increases injection volume by approximately 25–30% (p8).
 
-Transfer limits: Figures 11/17/19 lack visible numerical vertical-axis scales in the supplied PDF (visually checked pp7/9). Absolute injected tonnes and pressure values cannot be reliably digitised. Obtain numerical annual series, initial pressure and well/service access before calibration. Do not invent a Mt/year profile from the relative uplift.
+Transfer limits: Comprehensive11-page reading is recorded separately in evidence/comprehensive_review/B1-07.json. History/forecast numerical vertical scales are absent. Figures11/17 label CO2_ton while captions call it volume; Figure19 labels MPa without a numerical scale/datum. Initial-reservoir-pressure value/reference/control is undisclosed. Relative25–30% cumulative uplift cannot supply absolute capacity, annual rates, a2040shutdown rule or netGHG benefit. Curves end around2060 despite a2130model horizon; map High/Low variable/final timestamps and tiny labels need native outputs. Match/model/relief-water arrays and original-source verification remain open. See higashi_niigata_comprehensive_findings.md; no unscaled curves promoted to accepted inputs.
 
 ### B1-08 — Unlocking CO2 Injection in Depleted Reservoirs A Flow Assurance Modeling Approach for Carbon Capture and Storage
 

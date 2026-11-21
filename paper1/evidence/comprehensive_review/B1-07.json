@@ -1,0 +1,611 @@
+{
+  "study_id": "B1-07",
+  "source_sha256": "98bcd58dcbe755c55963d9687e5c7527701ff0301139c6789a92c6c2ccccb275",
+  "review_date": "2026-11-21",
+  "overall_status": "incomplete",
+  "assessment": "All 11 retained main-PDF pages read and visually inspected, including 13 figures with their panels, three tables, nine printed references and five additional source/model dependencies. Source numbering gaps preserved. No numbered or unnumbered mathematical equations are supplied. Enlarged history/forecast/map panels confirm missing numerical vertical scales and qualitative map legends. Nineteen limited topology/calendar/relative-index and missing-value checks are implemented. Cited originals, private numerical data, model cases, supplementary availability and full history-matched forecasts remain unverified; the paper is not comprehensively complete.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "original_model_status": "topology_calendar_relative_indices_checked_history_matched_reservoir_cases_not_reproduced",
+  "supplement_status": "no_explicit_notice_or_embedded_assets_identified_public_availability_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Publication, rights and abstract",
+      "assessment": "Kukuu, Hirose, Adachi, Wasaki and Inoue; SPE225812MS, Asia Pacific CCUS Conference26–27August2025; DOI10.2118/225812-MS. Header says abstract screening and contents not reviewed by SPE. Rights notice read; native original unchanged, no new source illustrations distributed. Abstract accuracy/injectivity/integrity claims are assessed below rather than certified."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Background and objectives; Figure1",
+      "assessment": "Japan2020/2021 targets, May2024 storage law, JOGMEC program and hub/cluster concept. Red project box, nine programs and illustrative-map disclaimer inspected. Regional emissions and approximately760million-ton national reduction context are not capture-supply or allocated-storage data. Current legal/commercial access unverified."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        3
+      ],
+      "scope": "Technical workflow/target overview; Table2",
+      "assessment": "1959 discovery, more than40 wells, about50years production and late-mature field described. Generic depleted-field/aquifer trade-offs and project examples read. Historical hydrocarbons, EOR opportunities and existing infrastructure do not prove CO2 containment, revenue or service for this project."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "Storage suitability: reservoir, seal and faults",
+      "assessment": "Primary target among multiple formations; supercritical conditions/continuity asserted. Mudstone seal50–120m and overlying layers; faults interpreted low-transmissibility from production/composition. Numerical seal-entry, fracture, fault-slip and CO2-specific leakage tests unavailable; qualitative suitability remains attributed."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        4
+      ],
+      "scope": "Model overview, geological uncertainty and Figure4/Table3",
+      "assessment": "9×11km by1800m model;120×111×103 cells,276410 active.100 Vsh-based realisations with porosity/permeability/FZI relationships,10 selected after history matching. Algorithms, coefficients, realised arrays, mask geometry and likelihood/selection criteria not supplied."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "History matching; Figures5–7",
+      "assessment": "Commercial software with data through April1,2022. Gas/cumulative, well BHP and field/well water comparisons read; water breakthrough acknowledged difficult and material-balance matching used. Units but no numerical vertical scales; no objective, observation uncertainty, raw match data or hold-out validation. Good fit/high accuracy cannot be independently quantified."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        6
+      ],
+      "scope": "Injection setup; Table8/Figure9",
+      "assessment": "CaseA three injectors/no relief, CaseB same injectors plus three relief wells.2029–2050 injection within2029–2130 model. Pressure limit named initial reservoir pressure without numerical value, reference date, datum or precise control implementation. Six circle markers are not silently counted as six operating injectors."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "CaseA; Figures10–12",
+      "assessment": "Deeper/central injector placement trades trapping and data confidence. Constraint reached around2040, making target rate harder to maintain; not a statement of zero flow thereafter. Curves and qualitative maps read; no annual operating array, absolute capacity or retained-carbon fraction derived."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "CaseB; Figures16–19",
+      "assessment": "Three pressure-relief producers for water/material balance; placement seeks less CO2 breakthrough and more data. Reported25–30% cumulative injection uplift and delayed pressure threshold. No exact pairwise data, water/energy/treatment output, economic or lifecycle comparison supplied."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        10
+      ],
+      "scope": "Conclusion and acknowledgements",
+      "assessment": "Strategic hub, highly accurate storage plan and reliable integrity/capacity are asserted. Matching/ensemble descriptions do not independently validate these predictions or current access. Permission to use/disclose research data is acknowledged; complete reproducible assets are not thereby available."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "References",
+      "assessment": "Nine numbered entries inspected/transcribed. Figure1 explicitly cites[1]; other bibliography items relate to examples/history/pressure/water management without a verified claim-specific original. Five dependencies cover policy/legal originals, field data, commercial model and FZI derivations. No exact DOI match found in retained92-paper catalogue; related B3-16 is not substituted."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F01",
+      "pages": [
+        2
+      ],
+      "object": "Figure1: Japanese Advanced CCS projects map and legend",
+      "inspection": "Nine project boxes, red Higashi-Niigata outline; red emissions/yellow storage regions; green ship/orange pipeline categories. Malaysia/Sarawak/Oceania transport arrows and consortium logos inspected. Footnote states areas are illustrative and not exact locations. Not route, port, allocation or present-permit evidence."
+    },
+    {
+      "id": "F04",
+      "pages": [
+        4
+      ],
+      "object": "Figure4: 3D model and 2D top-reservoir map",
+      "inspection": "Both views, faults/contours and orientation graphic inspected. No numerical depth/coordinate legend sufficient for independent geometry or well-distance reconstruction. Count/extent metadata inTable3 do not define active-cell volumes."
+    },
+    {
+      "id": "F05",
+      "pages": [
+        5
+      ],
+      "object": "Figure5: historical gas/oil/water production",
+      "inspection": "Gas red, oil green, water blue; dual gas/liquid rate axes labelledSm3/d and dates approximatelylate1960s–2022. Numerical vertical values absent. Regional history not a capturable-source stream or native time series."
+    },
+    {
+      "id": "F06",
+      "pages": [
+        5
+      ],
+      "object": "Figure6(a,b): all-realisation gas history matching",
+      "inspection": "Gas rateSm3/d and cumulativeSm3, dense coloured lines/black markers. No numerical vertical scale, individual IDs or quantified objective. Visual overlap supports reported calibration presentation, not independent accuracy or forecast validation."
+    },
+    {
+      "id": "F07",
+      "pages": [
+        6
+      ],
+      "object": "Figure7(a,b,c): ten-realisation BHP and water matching",
+      "inspection": "Existing well NS15B BHP MPa; field water cumulativeSm3; existing-well water rateSm3/d. Markers/coloured families and substantial water spread inspected. No numerical vertical values or complete legend/selection metrics, so raw model-observation residuals not computable. No claim of independently proven bias or good fit."
+    },
+    {
+      "id": "F09",
+      "pages": [
+        6
+      ],
+      "object": "Figure9: circle well markers on depth map",
+      "inspection": "Six outlined circles shown althoughTable8 lists three injectors in each scenario. Later maps distinguish the three injection and three relief positions. Marker roles/aliases and exact coordinates need native case mapping; no additional operating injectors inferred."
+    },
+    {
+      "id": "F10",
+      "pages": [
+        7
+      ],
+      "object": "Figure10: CaseA injection locations",
+      "inspection": "Three red-boxed circles selected on the six-marker background map. Caption/central-depth-placement rationale inspected. Unboxed symbols are not automatically active CaseA wells; no digitised coordinates or spacing used."
+    },
+    {
+      "id": "F11",
+      "pages": [
+        7
+      ],
+      "object": "Figure11: cumulative CaseA curves",
+      "inspection": "TitleField,CO2_ton and yCO2_ton; caption calls it volume. Numerical yvalues absent; xdates roughly2025–2060. Curves bend after about2040 and plateau near2050; source does not say injection stops at2040. No absolute tonnes or annual-rate digitisation."
+    },
+    {
+      "id": "F12",
+      "pages": [
+        8
+      ],
+      "object": "Figure12(a,b,c): CaseA CO2 distribution maps",
+      "inspection": "Five-year, ten-year and SimulationEnd panels; High/Low colour legend, well symbols and tiny scale bars inspected/enlarged. Variable/numerical concentration or saturation values absent; some small aliases/scale labels not reliably legible. No mass, retention, plume-extent or breakthrough quantity inferred. Exact final timestamp requires raw output."
+    },
+    {
+      "id": "F16",
+      "pages": [
+        8
+      ],
+      "object": "Figure16: CaseB injection and relief locations",
+      "inspection": "Three red injector boxes and three blue pressure-relief boxes; colours/caption inspected. This specifies model roles, not actual operating/access status. No well cost, water-treatment flow or hydraulic service curve supplied."
+    },
+    {
+      "id": "F17",
+      "pages": [
+        9
+      ],
+      "object": "Figure17: CaseB/CaseA cumulative comparison",
+      "inspection": "Coloured CaseB curves, grey dotted CaseA curves; yCO2_ton with no numerical scale, caption calls it volume. Date axis toabout2060, despiteTable8simulation to2130. Relative reported uplift retained without recovering absolute mass or annual profiles; paired-realisation identities unavailable."
+    },
+    {
+      "id": "F18",
+      "pages": [
+        9
+      ],
+      "object": "Figure18(a,b,c): CaseB maps and High/Low legend",
+      "inspection": "All three panels, well symbols, tiny scale bars and qualitative colour legend enlarged. No defined physical plotted variable/numerical scale, so no saturation, pore volume, retained mass or zero-breakthrough proof. SimulationEnd timestamp not explicitly printed in panels."
+    },
+    {
+      "id": "F19",
+      "pages": [
+        9
+      ],
+      "object": "Figure19: average reservoir pressure comparison",
+      "inspection": "Black solid CaseA/blue dotted CaseB, yPressure(MPa), no numerical vertical scale; xdates toabout2060. Duplicate printed caption is one object. Averaging weights/selected member, datum and exact pressure limit unknown. No quantitative pressure headroom or delayed-time increment digitised."
+    },
+    {
+      "id": "T02",
+      "pages": [
+        3
+      ],
+      "object": "Table2: all reservoir-type comparison rows/bullets/examples",
+      "inspection": "Depleted-field versus aquifer advantages, challenges and Cranfield/Sleipner/Gorgon examples inspected. Generic long-term hydrocarbon containment/EOR advantage is not project-specific CO2 permanence/revenue; qualitative risk rankings need original support."
+    },
+    {
+      "id": "T03",
+      "pages": [
+        4
+      ],
+      "object": "Table3: all size/grid/active-count cells",
+      "inspection": "9km×11km×1800m,120×111×103,276410active. Topology product1371960; active fraction is a cell-count ratio, not net-to-gross, active-volume fraction or storage capacity. Uniform cell size not assumed."
+    },
+    {
+      "id": "T08",
+      "pages": [
+        6
+      ],
+      "object": "Table8: both-case well counts, dates and limit",
+      "inspection": "A three injectors/zero relief;B three/three. Model Jan1,2029–Jan1,2130; injection Jan1,2029–Jan1,2050; pressure limit InitialReservoirPressure. Missing numerical target rates/controls/basis remain missing. Listed wells are not all legacy-field assets."
+    }
+  ],
+  "equations": [],
+  "equations_absence": "No numbered or unnumbered equations identified in the retained PDF. Vsh/porosity/permeability/FZI relationships, material balance and pressure-limited forecasting are named without functional forms, coefficients or governing equations. This is a model-bearing paper whose full mathematical implementation remains unresolved.",
+  "variables": [
+    "Vsh denotes shale volume; porosity correlated with Vsh; permeability uses core-based porosity–permeability and FZI relationships. Functional forms, coefficients, units, variograms, cross-correlation and realisation seeds are unavailable.",
+    "Grid counts120×111×103 and276410active define topology, not volumes. Gross model9×11km×1800m is not net reservoir/pore/storage volume; active cells need not be equal-sized.",
+    "One hundred generated realisations and ten selected models imply10%selected by count only. No likelihood, posterior weights, calibrated probability distribution or confidence interval is supplied.",
+    "History matching ends April1,2022; injection starts Jan1,2029. Production/control assumptions between those dates and other legacy-well operations are not fully disclosed.",
+    "Injection2029–2050 spans21calendar years under end-exclusive interpretation; post-injection to2130 spans80. Foreseeable plots to2060 show onlypart ofthefull101-year simulation; map SimulationEnd labels lack explicit raw timestamps.",
+    "Injection pressure limit is InitialReservoirPressure. Its numerical value, gauge/absolute datum, reference date and application to BHP/field pressure are not specified. Do not equate it to a thermal fracture/fault limit.",
+    "Historical BHP and forecast pressure figures labelMPa without a gauge/absolute suffix. Water/gas production plots labelSm3/Sm3d; reference conditions not given. No numerical vertical scales supplied in those plots.",
+    "Figures11/17 labelCO2_ton while captions/text say injection volume. Ton definition and absolute scale are unavailable; retain both labels without converting to metric tonnes or reservoir volume.",
+    "Source uplift25–30% describes a cumulative comparison. It is not an annual-rate multiplier, pressure-capacity law, transferable injectivity factor or netGHG benefit.",
+    "A/B have three injectors each;B adds three pressure-relief wells. This does not count or specify controls/abandonment for every existing field well. Relief production/capturebreakthrough/treatment data missing.",
+    "Around2040 indicates difficulty maintaining a target rate inCaseA; not a reported complete shutdown. No exact threshold date, target sweep or annual maximum-rate series provided.",
+    "Map High/Low colours lack defined physical variable and numeric thresholds. CO2 distribution is not directly mobile saturation, dissolved/trapped inventory or retained-carbon mass.",
+    "Seal50–120m and historical hydrocarbons support a screening premise. CO2 entry pressure, thermal/stress damage, fault-slip/transmissibility and legacy-well leakage bounds not numerically provided.",
+    "No capture-supply stream, heat/electricity/pumping/material/asset/counterfactual inventory or current storage allocation is established by this simulation/consortium program map."
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Policy and program selection make Higashi-Niigata a strategic Japanese hub candidate.",
+      "assessment": "Historical study context and illustrative map read; official announcements/legal text, current permits, allocated service and facility capture streams unverified."
+    },
+    {
+      "id": "C02",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Long production history, data and existing seals/fault behaviour support reliable CO2 containment.",
+      "assessment": "Qualitative site-screening rationale retained. Historical hydrocarbons and low inferred fault transmissibility are not a quantitative CO2 leakage, fracture or permanence model."
+    },
+    {
+      "id": "C03",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "claim": "100 realisations/history matching and ten selected members yield a highly accurate storage plan.",
+      "assessment": "No raw observations, objective, tolerance, observation error, hold-out or posterior weights supplied. Visual fit and selection do not independently calibrate forecast accuracy or confidence."
+    },
+    {
+      "id": "C04",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "The initial-reservoir-pressure limit constrains CaseA around2040.",
+      "assessment": "Limit formulation is reported but numerical value/reference/control implementation absent. Increasing cumulative curves continue afterward; no zero annual flow inferred."
+    },
+    {
+      "id": "C05",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "CO2 migrates toward the structural crest and deeper wells promote residual/dissolution trapping.",
+      "assessment": "Maps/placement rationale read. PVT, relative permeability/hysteresis, dissolution kinetics and phase/trapping inventories unavailable; no fraction or complete trapping mechanism independently reproduced."
+    },
+    {
+      "id": "C06",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Adding relief wells increases injection by25–30% and delays the pressure threshold.",
+      "assessment": "Attributed cumulative model result; a normalised B/A index1.25–1.30 is the only quantitative transformation. No absolute baseline, paired member arrays or pressure/timing increment recovered from unscaled plots."
+    },
+    {
+      "id": "C07",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Water extraction improves capacity while avoiding CO2 breakthrough.",
+      "assessment": "Placement aims to mitigate breakthrough, but extraction/CO2 production limits, breakthrough criteria/times and produced-water handling outputs not disclosed. No one-to-one displaced-volume rule or zero-CO2-production proof."
+    },
+    {
+      "id": "C08",
+      "pages": [
+        1,
+        10
+      ],
+      "claim": "Simulation confirms injectivity, integrity and technical feasibility.",
+      "assessment": "The paper provides a proprietary predictive study, not observed injection validation or independent model reproduction. Full numerical cases/constraints/uncertainty and access remain unverified."
+    },
+    {
+      "id": "C09",
+      "pages": [
+        10
+      ],
+      "claim": "This project contributes to national large-scale CCS/carbon-neutrality objectives.",
+      "assessment": "Strategic recommendation; additional injected volume is not quantified net mitigation. Capture, water-treatment, wells, assets, utilities, legacy production and permanence boundaries require separate inventory."
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        10
+      ],
+      "citation": "JOGMEC selects Nine projects as Japanese Advanced CCS Projects Website of Japan Organization for Metals and Energy Security https://www.jogmec.go.jp/english/news/release/ news_10_00072.html",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Explicit Figure1[1] project-program map/source. Official page not retrieved or verified; graphic areas are illustrative, not exact site locations."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        10
+      ],
+      "citation": "Lessons Learned from 14 years of CCS Operations: Sleipner, In Salah and Snøhvit Ola Eiken, Philip Ringrose, Christian Hermanrud, Bamshad Nazarian, Tore A. Torp and Lars Høier Statoil ASA, Technology and New Energy, Trondheim, N-7005, Norway Energy Procedia Volume 4, 2011, Pages 5541-5548 http://dx.doi.org/10.1016/j.egypro.2011.02.541",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Sleipner/InSalah/Snohvit background and project examples; no exact numbered inline claim edge identified beyond thematic bibliography context."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        10
+      ],
+      "citation": "Chevron's Gorgon CO2 injection fix needs more time, so more emissions https:// www.boilingcold.com.au/chevrons-gorgon-co2-injection-fix-needs-more-time-so-more- emissions/",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Gorgon project example/problem context; news report, not a primary reservoir dataset. Exact claim support unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        10
+      ],
+      "citation": "Three-million-metric-ton-monitored injection at the SECARB Cranfield project - project update Susan D. Hovorka Gulf Coast Carbon Center, Texas, USA https://doi.org/10.1016/ j.egypro.2013.06.571",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Cranfield project example context; primary monitored-injection article not inspected."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        10
+      ],
+      "citation": "Snøhvit CO2 storage project: Assessment of CO2 injection performance through history matching of the injection well pressure over a 32-months period Ji-Quan Shia, Claire Imriea, Caglar Sinayuca, Sevket Durucana, Anna Korrea, Ola Eikenb Department of Earth Science and Engineering, Royal School of Mines, Imperial College London, Statoil Research Center http:// dx.doi.org/10.1016/j.egypro.2013.06.214",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "History-matching/injection-performance background; exact original32-month method and transfer to Higashi-Niigata unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        10
+      ],
+      "citation": "Importance of Pressure Management in CO2 Storage Christian Hermanrud, Ola Eiken, Olav R. Hansen, Hege Marit Nordgård Bolås, Trine Helle Simmenes, Gunn Mari Grimsmo Teige, Hilde Hansen, Stian Johansen Statoil, University of Bergen, OTC-23961-MS https:// doi.org/10.4043/23961-MS",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Pressure-management background; original model, controls and costs not checked."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        11
+      ],
+      "citation": "Storage capacity enhancement and reservoir management using water extraction: Four site case studies Guoxiang Liu, Charles D. Gorecki, Jordan M. Bremer, Ryan J. Klapperich, Energy & Environmental Research Center, University of North Dakota, 15 North 23rd Street, Stop 9018, Grand Forks, ND 58202-9018 United States International Journal of Greenhouse Gas Control, Volume 35, April 2015, Pages 82-95 https://doi.org/10.1016/j.ijggc.2015.01.024",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Water-extraction/storage-enhancement background; exact four site cases unverified. Not substituted by retained B3-16, which has different title/DOI."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        11
+      ],
+      "citation": "Management of Water Extracted From Carbon Sequestration Projects: Parallels to Produced Water Management J.A. Veil, SPE, C.B. Harto, Argonne National Laboratory; A.T. McNemar, US Department of Energy, NETL, SPE-140994",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Produced-water-management context; extraction/treatment duties for this project not supplied by a bibliography entry."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        11
+      ],
+      "citation": "Optimizing Reservoir Pressure Management with Relief Wells During CO2Storage in Finite Aquifers Hassan A. Al Zayer and Muhammad S. Saeed, Saudi Aramco, SPE-213558-MS",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Finite-aquifer relief-well optimisation background; original controls, uncertainty and transfer to depleted gas field unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        1,
+        2
+      ],
+      "citation": "Japan October2020 neutrality and April2021 interim targets",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Underlying official announcements/statistical baseline not supplied as exact cited originals."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2
+      ],
+      "citation": "Act on Carbon Dioxide Storage Business,May2024",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Exact official legal text, implementation/current permits and project rights unverified."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "citation": "JAPEX/MGC geological,core,well and production data",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Extensive private field data acknowledged; native numerical observations, core joins, well histories and permitted model assets not supplied."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "citation": "Commercial reservoir/history-matching software and model cases",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Product/version, decks, selected realisations, objective/weights, constraints, PVT/boundaries and raw outputs unavailable."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        4
+      ],
+      "citation": "Flow Zone Indicator and Vsh–porosity–permeability relationships",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Algorithm, functional forms, coefficients, units and original methodological derivations are not provided or cited exactly."
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "status": "MISSING_NUMERICAL_SCALES_AND_ANNUAL_OUTPUTS",
+      "finding": "History/forecast yvalues are absent; Figures11/17 CO2_ton and Figure19 MPa do not disclose numerical values. Annual targets/injection, initial pressure and relief production are unavailable.",
+      "action": "Obtain native outputs and exact units/datums; no Mt/year profile, absolute pressure/capacity, annualuplift or2040shutdown inferred."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        4,
+        5,
+        6,
+        8
+      ],
+      "status": "MISSING_ORIGINAL_MODEL_AND_MATCH_INPUTS",
+      "finding": "Simulator/version, decks, realised geological fields, PVT, rock-flow/thermal/fault properties, boundaries, wells/constraints, objective/weights and convergence/mass balance unavailable.",
+      "action": "Obtain version-matched permitted cases and observations before full history/forecast reproduction. Do not fill gaps with generic defaults."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        5,
+        6,
+        10
+      ],
+      "status": "HOLD_ACCURACY_AND_ENSEMBLE_PROBABILITY",
+      "finding": "Ten selected models and qualitative fit are not independent validation or calibrated uncertainty; water-breakthrough fitting is acknowledged difficult.",
+      "action": "Require exact residuals, tolerances, observation errors, selection criteria and validation. Do not treat10%selection asconfidence or probability."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "status": "HOLD_PRESSURE_LIMIT_REFERENCE_AND_TIMING",
+      "finding": "InitialReservoirPressure lacks numerical/reference/control definition; field-average pressure and local BHP/thermal/fracture/fault conditions are not equivalent.",
+      "action": "Obtain per-well/field control logic and pressure reference. Retain approximate2040 rateconstraint without forcing zero injection."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        6,
+        8,
+        9
+      ],
+      "status": "OPEN_HORIZON_MAP_VARIABLE_AND_WELL_MAPPING",
+      "finding": "Table ends2130; curves endaround2060; map finaldate/HighLowvariable undefined. SixcircleFigure9 versus threeinjector case counts need exact mapping. Tiny map labels partly unreadable.",
+      "action": "Obtain native timestamps, property legend, coordinate/well IDs and selected realisation mapping. Do not invent omitted figures or silently renumber source objects."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        3,
+        4,
+        10
+      ],
+      "status": "HOLD_INTEGRITY_AND_PERMANENCE_CERTIFICATION",
+      "finding": "Historical seals/fault inference and simulation suitability do not provide a quantitative CO2-specific leakage/risk or retained-mass bound.",
+      "action": "Verify seal/fault/well modelling, thermal/geomechanical controls, monitoring and independent validation. No retentionfactor or currentservice credit."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "status": "MISSING_RELIEF_WATER_AND_WHOLE_CHAIN_INVENTORY",
+      "finding": "Three added relief wells have no disclosed pumping/water/gas/treatment/asset inventory.25–30%injection uplift is not netGHG improvement.",
+      "action": "Retain process boundary and counterfactual; no emission benefit, one-to-one volume displacement or reliefwell cost inferred."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        1,
+        2,
+        4,
+        10,
+        11
+      ],
+      "status": "PENDING_ORIGINALS_ASSETS_AND_RIGHTS",
+      "finding": "Nine printed references/five named dependencies unverified. No embedded files or explicit supplement/code/data notice identified; complete private assets not retained.",
+      "action": "Resolve exact originals/versions and publisher/model assets when external access resumes. Related B3-16 is not the Liu2015 original; no onlineabsence or reproductionrights inferred."
+    }
+  ],
+  "supplements": "No embedded attachments or explicit supplementary/code/data-availability statement identified in the11-page mainpaper. Acknowledged permission to use/disclose study data does not provide native observations or commercial model rights. No external publisher/archive search or author contact during theChrome wait. Original PDF preserved; new source illustrations not distributed.",
+  "reproduction": "audit_higashi_niigata.py checks19 topology/calendar/normalised-index and missing-value quantities. Absolute mass, pressure, annual flow and relief-water inventory explicitly remain missing. No geological realisation, history match, pressure-constrained reservoir forecast, CO2 trapping/fault model or process/GHG inventory is independently reproduced.",
+  "paper1_use": "Retain as Japanese evidence for history-matched planning and pressure-relief sensitivity. It is not a publicly complete pressure-constrained numerical dataset: unscaled cumulative/pressure curves cannot supply annual operating limits. Do not apply25–30%as annual injection or netGHG uplift; existing accepted inputs remain unchanged.",
+  "next_steps": "Continue B1-08 andremaininglocalpapers. Obtain exact unit-scaled per-realisation annual data, pressure controls, relief outputs, private match/model assets and referenced originals when external access resumes. Keep this paper incomplete and the92-paper goal active."
+}

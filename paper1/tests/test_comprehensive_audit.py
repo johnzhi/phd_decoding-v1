@@ -34,6 +34,9 @@ deepwater_spec.loader.exec_module(deepwater)
 openhole_spec = importlib.util.spec_from_file_location('audit_openhole_integrity', ROOT / 'scripts/audit_openhole_integrity.py')
 openhole = importlib.util.module_from_spec(openhole_spec)
 openhole_spec.loader.exec_module(openhole)
+higashi_spec = importlib.util.spec_from_file_location('audit_higashi_niigata', ROOT / 'scripts/audit_higashi_niigata.py')
+higashi = importlib.util.module_from_spec(higashi_spec)
+higashi_spec.loader.exec_module(higashi)
 ooi_spec = importlib.util.spec_from_file_location('reproduce_ooi_cascade', ROOT / 'scripts/reproduce_ooi_cascade.py')
 ooi = importlib.util.module_from_spec(ooi_spec)
 ooi_spec.loader.exec_module(ooi)
@@ -43,6 +46,26 @@ budiarto_spec.loader.exec_module(budiarto)
 
 
 class ComprehensiveAuditChecks(unittest.TestCase):
+    def test_higashi_unknown_absolute_baseline_is_not_a_zero_or_normalised_tonne(self):
+        self.assertEqual(higashi.relative_total_bounds(None,[25,30]),(None,None))
+        self.assertEqual(higashi.relative_total_bounds(0,[25,30]),(0,0))
+        self.assertEqual(higashi.relative_total_bounds(100,[25,30]),(125,130))
+        results={r['item']:r for r in higashi.calculate(higashi.load_inputs())}
+        unknown=[r for r in results.values() if r['calculation_status'].startswith('not_computable')]
+        self.assertEqual(len(unknown),5)
+        self.assertTrue(all(r['value'] is None for r in unknown))
+        self.assertIn('A=1 ONLY',results['B_to_A_normalised_total_low']['unit'])
+        self.assertIn('SCALE UNAVAILABLE',results['B_absolute_total_low']['unit'])
+
+    def test_higashi_calendar_preserves_the_century_leap_rule_and_full_horizon(self):
+        # Five leap days during the21-year injection interval;2100 is not leap.
+        injection=higashi.elapsed_days('2029-01-01','2050-01-01')
+        post=higashi.elapsed_days('2050-01-01','2130-01-01')
+        self.assertEqual(injection,21*365+5)
+        self.assertEqual(post,80*365+19)
+        self.assertEqual(injection+post,higashi.elapsed_days('2029-01-01','2130-01-01'))
+        self.assertEqual(higashi.elapsed_days('2100-02-28','2100-03-01'),1)
+
     def test_openhole_pressure_units_follow_independent_fluid_head_conversion(self):
         # One USgallon=231in3; converting lb-force/ft3 topsi/ft divides by144.
         independent = (12**3/231)/144

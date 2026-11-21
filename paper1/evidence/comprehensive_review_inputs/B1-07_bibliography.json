@@ -1,0 +1,156 @@
+{
+  "study_id": "B1-07",
+  "source_sha256": "98bcd58dcbe755c55963d9687e5c7527701ff0301139c6789a92c6c2ccccb275",
+  "printed_entries": 9,
+  "named_dependencies": 5,
+  "entry_count": 14,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        10
+      ],
+      "citation": "JOGMEC selects Nine projects as Japanese Advanced CCS Projects Website of Japan Organization for Metals and Energy Security https://www.jogmec.go.jp/english/news/release/ news_10_00072.html",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Explicit Figure1[1] project-program map/source. Official page not retrieved or verified; graphic areas are illustrative, not exact site locations."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        10
+      ],
+      "citation": "Lessons Learned from 14 years of CCS Operations: Sleipner, In Salah and Snøhvit Ola Eiken, Philip Ringrose, Christian Hermanrud, Bamshad Nazarian, Tore A. Torp and Lars Høier Statoil ASA, Technology and New Energy, Trondheim, N-7005, Norway Energy Procedia Volume 4, 2011, Pages 5541-5548 http://dx.doi.org/10.1016/j.egypro.2011.02.541",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Sleipner/InSalah/Snohvit background and project examples; no exact numbered inline claim edge identified beyond thematic bibliography context."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        10
+      ],
+      "citation": "Chevron's Gorgon CO2 injection fix needs more time, so more emissions https:// www.boilingcold.com.au/chevrons-gorgon-co2-injection-fix-needs-more-time-so-more- emissions/",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Gorgon project example/problem context; news report, not a primary reservoir dataset. Exact claim support unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        10
+      ],
+      "citation": "Three-million-metric-ton-monitored injection at the SECARB Cranfield project - project update Susan D. Hovorka Gulf Coast Carbon Center, Texas, USA https://doi.org/10.1016/ j.egypro.2013.06.571",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Cranfield project example context; primary monitored-injection article not inspected."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        10
+      ],
+      "citation": "Snøhvit CO2 storage project: Assessment of CO2 injection performance through history matching of the injection well pressure over a 32-months period Ji-Quan Shia, Claire Imriea, Caglar Sinayuca, Sevket Durucana, Anna Korrea, Ola Eikenb Department of Earth Science and Engineering, Royal School of Mines, Imperial College London, Statoil Research Center http:// dx.doi.org/10.1016/j.egypro.2013.06.214",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "History-matching/injection-performance background; exact original32-month method and transfer to Higashi-Niigata unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        10
+      ],
+      "citation": "Importance of Pressure Management in CO2 Storage Christian Hermanrud, Ola Eiken, Olav R. Hansen, Hege Marit Nordgård Bolås, Trine Helle Simmenes, Gunn Mari Grimsmo Teige, Hilde Hansen, Stian Johansen Statoil, University of Bergen, OTC-23961-MS https:// doi.org/10.4043/23961-MS",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Pressure-management background; original model, controls and costs not checked."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        11
+      ],
+      "citation": "Storage capacity enhancement and reservoir management using water extraction: Four site case studies Guoxiang Liu, Charles D. Gorecki, Jordan M. Bremer, Ryan J. Klapperich, Energy & Environmental Research Center, University of North Dakota, 15 North 23rd Street, Stop 9018, Grand Forks, ND 58202-9018 United States International Journal of Greenhouse Gas Control, Volume 35, April 2015, Pages 82-95 https://doi.org/10.1016/j.ijggc.2015.01.024",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Water-extraction/storage-enhancement background; exact four site cases unverified. Not substituted by retained B3-16, which has different title/DOI."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        11
+      ],
+      "citation": "Management of Water Extracted From Carbon Sequestration Projects: Parallels to Produced Water Management J.A. Veil, SPE, C.B. Harto, Argonne National Laboratory; A.T. McNemar, US Department of Energy, NETL, SPE-140994",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Produced-water-management context; extraction/treatment duties for this project not supplied by a bibliography entry."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        11
+      ],
+      "citation": "Optimizing Reservoir Pressure Management with Relief Wells During CO2Storage in Finite Aquifers Hassan A. Al Zayer and Muhammad S. Saeed, Saudi Aramco, SPE-213558-MS",
+      "verification_status": "unverified",
+      "record_type": "printed_bibliography",
+      "use_and_remaining_check": "Finite-aquifer relief-well optimisation background; original controls, uncertainty and transfer to depleted gas field unverified."
+    },
+    {
+      "id": "N01",
+      "pages": [
+        1,
+        2
+      ],
+      "citation": "Japan October2020 neutrality and April2021 interim targets",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Underlying official announcements/statistical baseline not supplied as exact cited originals."
+    },
+    {
+      "id": "N02",
+      "pages": [
+        2
+      ],
+      "citation": "Act on Carbon Dioxide Storage Business,May2024",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Exact official legal text, implementation/current permits and project rights unverified."
+    },
+    {
+      "id": "N03",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        10
+      ],
+      "citation": "JAPEX/MGC geological,core,well and production data",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Extensive private field data acknowledged; native numerical observations, core joins, well histories and permitted model assets not supplied."
+    },
+    {
+      "id": "N04",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "citation": "Commercial reservoir/history-matching software and model cases",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Product/version, decks, selected realisations, objective/weights, constraints, PVT/boundaries and raw outputs unavailable."
+    },
+    {
+      "id": "N05",
+      "pages": [
+        4
+      ],
+      "citation": "Flow Zone Indicator and Vsh–porosity–permeability relationships",
+      "verification_status": "unverified",
+      "record_type": "named_dependency_without_exact_bibliography_identity",
+      "use_and_remaining_check": "Algorithm, functional forms, coefficients, units and original methodological derivations are not provided or cited exactly."
+    }
+  ]
+}
