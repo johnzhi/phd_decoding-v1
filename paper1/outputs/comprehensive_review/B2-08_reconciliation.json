@@ -1,0 +1,11 @@
+{
+  "study_id": "B2-08",
+  "source_sha256": "060eb3b24c0362f5f16b202fe96d2fc8aee6c498d2cf97df21a3416796e1dcae",
+  "checks": 73,
+  "conditional_speed_rows": 78,
+  "native_stochastic_optimizer_or_policy_reproduced": false,
+  "weather_scenario_process_or_fault_model_reproduced": false,
+  "pressure_constrained_service_or_complete_utility_inventory": false,
+  "accepted_operating_GHG_inputs_changed": false,
+  "scope": "Printed arithmetic and disclosed analyst examples; no silent notation/unit correction or native-code defect claim"
+}

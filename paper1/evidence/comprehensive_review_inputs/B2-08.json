@@ -1,0 +1,138 @@
+{
+  "study_id": "B2-08",
+  "source": {
+    "path": "papers/B2-08.pdf",
+    "sha256": "060eb3b24c0362f5f16b202fe96d2fc8aee6c498d2cf97df21a3416796e1dcae",
+    "doi": "10.1016/j.ijggc.2020.103190"
+  },
+  "cited_sources": [
+    {
+      "path": "papers/B3-36.pdf",
+      "sha256": "ff1aed5588e1c4de2f6c5d909f1917293dac2cce7b5565f8547b64397eae6300"
+    }
+  ],
+  "case": {
+    "annual_t": 400000,
+    "distance_km": 715,
+    "years": 25,
+    "discount": 0.08,
+    "printed_annuity": 10.56,
+    "step_hours": 3,
+    "steps_per_season": 136,
+    "seasons": 2,
+    "scenarios": 13,
+    "ship_t": 5000,
+    "port_hours": 12,
+    "reference_cycle_t": 4330,
+    "emission_penalty": 100
+  },
+  "buffers": {
+    "rate99_t": 5120,
+    "rate100_t": 5890,
+    "breakdown_t": 8660,
+    "printed_extra_breakdown_t": 2760,
+    "fuel_sensitivity_t": [
+      5120,
+      5235,
+      5235,
+      5480
+    ],
+    "printed_ship_percent": [
+      102.4,
+      104.7,
+      104.7,
+      110
+    ],
+    "printed_cycle_percent": [
+      118.3,
+      121,
+      121,
+      126.5
+    ]
+  },
+  "cost": {
+    "lifetime99_MEUR": 143,
+    "unit99": 33.8,
+    "additional100_MEUR": 1.8,
+    "last_one_percent": 41.9,
+    "VSS_MEUR": 6.4,
+    "additional_fuel_MEUR": 4.1,
+    "reported_unit_increment": 1.9,
+    "conditioning": 15.4,
+    "shipping": 13.8,
+    "buffers": 2.9,
+    "reconditioning": 1.7,
+    "conditioning_electricity": 7.8,
+    "ship_fuel": 4.1,
+    "total_energy": 11.8,
+    "electricity_price": 65.2,
+    "base_fuel_price": 325,
+    "buffer_capital_EURpt": 982,
+    "buffer_capital_EURpm3": 1130,
+    "conditioning_capital_EURpt": 50.5,
+    "conditioning_OM": 2.78,
+    "reconditioning_capital_EURpt": 9,
+    "reconditioning_OM": 0.41,
+    "buffer_OM": 54,
+    "fixed_OM_fraction": 0.055,
+    "harbor_ref_MEUR": 7.9,
+    "harbor_ref_Mtpy": 3
+  },
+  "ships": [
+    {
+      "cargo_t": 3750,
+      "power_literal_W": 1500,
+      "width_m": 15,
+      "length_m": 90,
+      "fuel_constant_tph": 0.5,
+      "fuel_full_tph": 0.8,
+      "table2_capital_MEUR": 23
+    },
+    {
+      "cargo_t": 5000,
+      "power_literal_W": 2000,
+      "width_m": 16,
+      "length_m": 95,
+      "fuel_constant_tph": 0.6,
+      "fuel_full_tph": 0.9,
+      "table2_capital_MEUR": 23.9
+    },
+    {
+      "cargo_t": 7500,
+      "power_literal_W": 2500,
+      "width_m": 17,
+      "length_m": 100,
+      "fuel_constant_tph": 0.7,
+      "fuel_full_tph": 1.1,
+      "table2_capital_MEUR": 25.7
+    }
+  ],
+  "weather": {
+    "mean_hours": [
+      34.68,
+      37.69
+    ],
+    "sd_hours": [
+      2.61,
+      4.63
+    ],
+    "header_75_greater": [
+      35.38,
+      39.71
+    ],
+    "storms_per_year": 2.3,
+    "mean_storm_hours": 11
+  },
+  "missing": {
+    "native_code_SI_solver_log": null,
+    "MET_wave_data_and_route_simulator": null,
+    "scenario_probabilities_season_weights_and_slots": null,
+    "actual_capacity_time_unit_mapping": null,
+    "native_HYSYS_APEA_iCCS_process_cases": null,
+    "matched_capture_heat_work_cooling_inventory": null,
+    "cost_versions_and_construction_cashflows": null,
+    "operator_validation_and_fault_distribution": null,
+    "current_storage_pressure_service_and_access": null
+  },
+  "scope": "Source quantities and printed ambiguities retained; every synthetic LP, density, power-unit, cyclic balance and cost comparison is an analyst fixture. No accepted operating/GHG input changes."
+}

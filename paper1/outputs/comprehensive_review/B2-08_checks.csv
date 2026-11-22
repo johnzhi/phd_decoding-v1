@@ -1,0 +1,74 @@
+item,value,unit,basis,source_locator,interpretation
+hours_per_season,408,hours,printed arithmetic,pp3–4,"Representative season, not a continuous operating year"
+representative_days,442.0,days,printed arithmetic,pp3–4,"442 representative days, not independent monitoring coverage"
+nonleap_calendar_average,45.662100456621005,t/hour,conditional calendar conversion,"pp2,7","365-day basis is disclosed, not a recovered native time weight"
+calm_water_time,32.17242620590353,hours,conditional exact-unit arithmetic,p7,32.17 versus reported32.5 may involve route/discretization/rounding; not a forced correction
+source_buffer_hours,112.128,hours,conditional calendar conversion,p7,"Approximately four days16hours, not actual availability"
+reported_95h_cycle_mass,4337.899543378995,tonnes,conditional calendar conversion,pp7–8,Not a recovered native mean cycle; 4330 is an approximate comparison basis
+rate99_t_percent_ship,102.4,percent,printed ratio,pp7–10,"Do not merge99%,100% and ideal breakdown cases"
+rate99_t_percent_reference_cycle,118.24480369515011,percent,conditional cycle ratio,pp7–10,Approximate4330t cycle denominator differs from5000t ship
+rate100_t_percent_ship,117.8,percent,printed ratio,pp7–10,"Do not merge99%,100% and ideal breakdown cases"
+rate100_t_percent_reference_cycle,136.02771362586606,percent,conditional cycle ratio,pp7–10,Approximate4330t cycle denominator differs from5000t ship
+breakdown_t_percent_ship,173.2,percent,printed ratio,pp7–10,"Do not merge99%,100% and ideal breakdown cases"
+breakdown_t_percent_reference_cycle,200.0,percent,conditional cycle ratio,pp7–10,Approximate4330t cycle denominator differs from5000t ship
+printed_breakdown_extra_difference,10,tonnes,printed arithmetic,p9,10t difference may depend on endpoint rounding/version; no silent correction
+double_reference_cycle,8660,tonnes,printed arithmetic,p9,Ideal one-cycle fault example only
+fuel_case_0_ship_percent,102.4,percent,printed ratio,p9 Table4,Fixed5000t ship denominator
+fuel_case_0_label_residual,0.0,percentage points,printed ratio comparison,p9 Table4,Last109.6 versus110.0 remains unresolved; no alternate denominator invented
+fuel_case_0_fuel_price,325.0,2017EUR/tfuel,printed sensitivity arithmetic,p9,"Sensitivity price, not a calibrated stochastic probability"
+fuel_case_1_ship_percent,104.7,percent,printed ratio,p9 Table4,Fixed5000t ship denominator
+fuel_case_1_label_residual,0.0,percentage points,printed ratio comparison,p9 Table4,Last109.6 versus110.0 remains unresolved; no alternate denominator invented
+fuel_case_1_fuel_price,487.5,2017EUR/tfuel,printed sensitivity arithmetic,p9,"Sensitivity price, not a calibrated stochastic probability"
+fuel_case_2_ship_percent,104.7,percent,printed ratio,p9 Table4,Fixed5000t ship denominator
+fuel_case_2_label_residual,0.0,percentage points,printed ratio comparison,p9 Table4,Last109.6 versus110.0 remains unresolved; no alternate denominator invented
+fuel_case_2_fuel_price,650.0,2017EUR/tfuel,printed sensitivity arithmetic,p9,"Sensitivity price, not a calibrated stochastic probability"
+fuel_case_3_ship_percent,109.6,percent,printed ratio,p9 Table4,Fixed5000t ship denominator
+fuel_case_3_label_residual,-0.4000000000000057,percentage points,printed ratio comparison,p9 Table4,Last109.6 versus110.0 remains unresolved; no alternate denominator invented
+fuel_case_3_fuel_price,812.5,2017EUR/tfuel,printed sensitivity arithmetic,p9,"Sensitivity price, not a calibrated stochastic probability"
+standard_endyear_PV_factor,10.674776188588572,years of annual cost,analyst standard financial identity,"pp3,6,13",Not replacement of printed10.56 or inferred construction convention
+printed_annuity_difference,-0.11477618858857142,factor,printed versus conditional identity,p6 Table1,Requires cashflow-base and construction mapping
+unit99_from_PV_standard,33.828447990988515,EUR/t,conditional reported arithmetic,p7,Not a native objective or complete cost reconstruction
+unit99_rounding_overlap_standard,1,boolean,conditional displayed rounding,p7,Assumes143roundedto1MEUR and33.8to.1EUR/t; not uncertainty calibration
+unit99_from_PV_printed,34.196127946127945,EUR/t,conditional reported arithmetic,p7,Not a native objective or complete cost reconstruction
+unit99_rounding_overlap_printed,0,boolean,conditional displayed rounding,p7,Assumes143roundedto1MEUR and33.8to.1EUR/t; not uncertainty calibration
+last_percent_cost_from_rounded_delta,42.155450573385686,EUR/t incremental,conditional reported arithmetic,p8,Rounded1.8MEUR may support41.9; actual cashflows unverified
+last_percent_rounding_overlap,1,boolean,conditional displayed rounding,p8,No corrected marginal cost supplied
+last_percent_premium,23.964497041420117,percent,reported arithmetic,p8,Approximately24%; transport is not capture or lifecycle abatement
+body_component_sum,33.800000000000004,EUR/t,reported arithmetic,p7,"33.8 component sum, not a new physical inventory"
+energy_component_point_sum,11.899999999999999,EUR/t,reported arithmetic,p7,11.9 point sum versus11.8 reported total; rounding intervals can overlap
+energy_rounding_overlap,1,boolean,conditional displayed rounding,p7,Do not assert a proven contradiction from rounded components
+VSS_percent_of_reported143,4.475524475524476,percent,reported arithmetic,p8,4.5% rounded comparison; native common service/objective still needed
+one_point_nine_percent,5.62130177514793,percent,reported arithmetic,p8,5.6% uses a different denominator from lifetime VSS percentage
+one_percent_annual_vent,4000.0,tonnes/year,reported arithmetic,p8,"4000sourceCO2, not complete lifecycle fuel or retention"
+conditional_different_throughput_cost_increment,1.8565430757571875,EUR/t,analyst possible denominator reconciliation,p8,Approximately1.86 can explain1.9 with distinct transported masses; not verified native basis
+conditional_slowing_benefit,0.23656257336355604,EUR/t,conditional reported arithmetic,pp7–8,"Approximately.24, not an independently reproduced power policy"
+winter_vent_penalty,0.325,MEUR/year,reported arithmetic,p8,.325 approximates.33; no full native seasonal schedule
+twenty_percent_winter_cycle_mass,5445,tonnes/cycle,reported arithmetic,p8,Not annual injectivity or a general seasonal model
+wrong_price_loss_ratio,2.8767123287671237,ratio,reported arithmetic,p9,"Reported asymmetric example, not a universal theorem"
+conditioning_OM_at_5point5_percent,2.7775,EUR/(capacity tonne*year),printed factor identity,"pp6,12",Capacity time basis still unresolved
+conditioning_OM_residual,0.0024999999999999467,EUR/(capacity tonne*year),printed factor comparison,"pp6,12",Reconditioning requires coefficient/version reconciliation
+reconditioning_OM_at_5point5_percent,0.495,EUR/(capacity tonne*year),printed factor identity,"pp6,12",Capacity time basis still unresolved
+reconditioning_OM_residual,-0.08500000000000002,EUR/(capacity tonne*year),printed factor comparison,"pp6,12",Reconditioning requires coefficient/version reconciliation
+buffer_OM_at_5point5_percent,54.01,EUR/(capacity tonne*year),printed factor identity,"pp6,12",Capacity time basis still unresolved
+buffer_OM_residual,-0.00999999999999801,EUR/(capacity tonne*year),printed factor comparison,"pp6,12",Reconditioning requires coefficient/version reconciliation
+implied_buffer_mass_density,1.15071283095723,tonnes/m3,conditional cost-unit conversion,"pp6,12","Implied density only, not independently verified EOS"
+conditional_conditioning_electricity,119.63190184049078,kWh/t,conditional reported cost/price,"pp7,12",Rounded electricity-cost claim only; not accepted complete utility inventory
+harbor_scaling_exponent_0.8,1.5760793561249162,MEUR per facility,two literal source conventions,pp12–13,No preferred exponent or source correction chosen
+harbor_scaling_exponent_0.85,1.4250333144547138,MEUR per facility,two literal source conventions,pp12–13,No preferred exponent or source correction chosen
+ship_capital_Table2_minus_Table6,0.1999999999999993,MEUR,printed comparison,"pp6,12",5000t ship cost versions unresolved
+ship_capital_Table6_minus_Table1,1.3900000000000006,MEUR,printed comparison,"pp6,12",Cost scope/date not harmonized by guessing
+ship_fixedOM_Table6_minus_Table1,0.1200000000000001,MEUR/year,printed comparison,"pp6,12",Fixed-cost version unresolved
+literal_mass_loaded_four_3h_slots,1666.6666666666667,tonnes,analyst literal time-unit comparison,p5 Eq11/12,Rate without3h factor loads one-third cargo over12h
+duration_scaled_mass_loaded_four_3h_slots,5000.0,tonnes,analyst separate duration comparison,p5 Eq11/12,No native slot/time implementation inferred
+toy_service_literal_upper,0.0,fraction,analyst independent LP,p5 Eq21,Analysttransportcost150 andpenalty100; not native shipping cost
+toy_service_minimum_lower,0.99,fraction,analyst independent LP,p5 Eq21,Analysttransportcost150 andpenalty100; not native shipping cost
+toy_cheap_service_literal_upper,0.99,fraction,analyst independent LP,p5 Eq21,Cheaptransportcanreachupperbound; that doesnotturnupperboundintominimum
+toy_physical_tank_min,0.0,tonnes,analyst fixed-initial tank,p5 Eq17/18,Initialzero;arrival2thenwithdrawal2
+toy_literal_tank_min,-2.0,tonnes,analyst fixed-initial tank,p5 Eq17/18,Literalreceivingsigngivesnegativeinventory withthe sameinitialcondition
+toy_free_cyclic_complement_error,0.0,tonnes,analyst free-cyclic comparison,p5 Eq17/18,Zero proves complement for this fixture; sign issue need not change free-cyclic capacity objective
+toy_unweighted_two_scenario_service,0.5,fraction,analyst equal-mass fixture,p5 Eq21,"Flows[1,0]and[0,1]have same raw pooled fraction"
+toy_weighted_highprobability_service,0.99,fraction,"analyst probabilities[.99,.01]",p5 Eq21,Unknown native probabilities are not supplied by this example
+toy_weighted_lowprobability_service,0.01,fraction,"analyst probabilities[.99,.01]",p5 Eq21,Raw pooled fraction alone doesnotdefineexpectedservice
+hourly_fuel_increase_3750,60.00000000000001,percent,printed hourly fuel ratio,p6 Table2,Not comparable to route-total40%withouttime/wavecontrols
+hourly_fuel_increase_5000,50.0,percent,printed hourly fuel ratio,p6 Table2,Not comparable to route-total40%withouttime/wavecontrols
+hourly_fuel_increase_7500,57.14285714285716,percent,printed hourly fuel ratio,p6 Table2,Not comparable to route-total40%withouttime/wavecontrols

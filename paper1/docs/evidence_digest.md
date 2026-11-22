@@ -316,11 +316,11 @@ Transfer limits: All 24 pages, 11 figures, six tables, 13 distinct displayed rel
 
 Bjerketvedt, Tomasgard & Roussanaly (2020). Identifier: 10.1016/j.ijggc.2020.103190. [PDF](../papers/B2-08.pdf).
 
-Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 6, 7, 8, 12.
+Reading stage: Detailed retained-PDF audit with open scientific verification. Checked sections: All 13 pages, internal Appendix A, the Appendix B notice, figures, tables, equations, end matter and bibliography.
 
 Brevik–Kollsnes case transports 0.4 Mt/year over 715 km; stochastic sailing, buffers and speed/power responses affect transport completion and cost.
 
-Transfer limits: Buffer ratios depend on 99% versus 100% transport case and denominator. Table 2 labels design power W for 1500–2500 values; clarify before using as physical watts.
+Transfer limits: B2-08 adds all 13 pages, 12 figures, six tables, 24 main/appendix numbered equations, 52 claim records, 73 limited checks and 78 conditional speed rows. Printed receiving signs, minimum inequality, time/power/cost units, buffer cases and seasonal/information limits remain open. One scoped Roussanaly2014 check brings citation edges to nineteen; 43 other printed entries, twelve dependencies, explicit SI and native stochastic/weather/process/fault models remain unverified. No accepted operating or GHG input changes. Perfect17-day foresight and separate cyclic seasons qualify operational adaptation and seasonal-storage conclusions.99%case5120t=102.4%ship differs100%case5890t=117.8%; no universal18%margin. Cost-only prices/PFD do not supply complete capture heat/work/cooling or pressure-constrained storage service. See [detailed findings](stochastic_shipping_comprehensive_findings.md).
 
 ### B2-09 — Risk aware planning of CO2 transport and geological storage networks for net zero buildings under capacity and injectivity uncertainty
 

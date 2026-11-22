@@ -1,0 +1,847 @@
+{
+  "study_id": "B2-08",
+  "source_sha256": "060eb3b24c0362f5f16b202fe96d2fc8aee6c498d2cf97df21a3416796e1dcae",
+  "printed_entries": 44,
+  "additional_dependencies": 12,
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Alabdulkarem, et al., 2012. Development of CO2 liquefaction cycles for CO2 sequestration. Appl. Therm. Eng. 144–156.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Aspelund, E.A., 2006. SHIP TRANSPORT OF CO2 technical solutions and analysis of costs, energy utilization, exergy efficiency and CO2 emissions. Chem. Eng. Res. Des. 847–855.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "Benhelal, et al., 2013. Global strategies and potentials to curb CO2 emissions in cement industry. J. Clean. Prod. 142–161.",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11,
+        13
+      ],
+      "citation": "Chemical Engineering, 2019. Economic Indicators: Chemical Engineering Plant Cost Index (CEPCI).",
+      "claim_links": [
+        "C43"
+      ],
+      "role": "All costs are updated to 2017 prices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        13
+      ],
+      "citation": "Chen, et al., 2010. Environmental impact of cement production: detail of the different processes and cement plant variability evaluation. J. Clean. Prod. 478–485.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Coussy, et al., 2013. Economic CO2 network optimization model COCATE European project (2010-2013). EnergyProcedia 37, 2923–2931.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        2,
+        3,
+        7,
+        10,
+        11,
+        13
+      ],
+      "citation": "Deng, et al., 2019. Techno-economic analyses of CO2 liquefaction: impact of product pressure and impurities. Int. J. Refrig. 301–315.",
+      "claim_links": [
+        "C04",
+        "C25",
+        "C42",
+        "C44"
+      ],
+      "role": "Very pure CO2 allows conditioning without liquefaction loss; Conditioning electricity costs 7.8 EUR/t; iCCS, HYSYS and APEA supply the process and cost functions; Conditioning produces liquid CO2 at 6.5 bar and minus 50 C",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        13
+      ],
+      "citation": "Feiz, et al., 2015. Improving the CO2 performance of cement, part II: framework for assessing CO2 improvement measures in the cement industry. J. Clean. Prod. 282–291.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        1,
+        2,
+        12,
+        13
+      ],
+      "citation": "Gardarsdottir, et al., 2019. Comparison of Technologies for CO2 Capture from Cement Production—Part 2: Cost Analysis. Energies.",
+      "claim_links": [
+        "C01",
+        "C49"
+      ],
+      "role": "Historical CCS deployment and shipping context; Utility prices define operating cost inputs",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "https://www.globalccsinstitute.com/resources/ccs-database-publicGCCSI. (2019, 11 04). Retrieved from .",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Geske, et al., 2015. CCS Transportation Infrastructures: Technologies, Costs, and Regulation. In CCS Transportation Infrastructures: Technologies, Costs, and Regulation. Springer, pp. 183–199.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "IEA, 2019. Transforming Industry Through CCUS. IEA.",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        11,
+        13
+      ],
+      "citation": "IHS, 2018. The IHS upstream costs indexe.",
+      "claim_links": [
+        "C43"
+      ],
+      "role": "All costs are updated to 2017 prices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "IPCC, 2018. Global Warming of 1.5 ºC. IPCC.",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "ITTC, 2005. ITTC – Recommended Procedures and Guidelines. Retrieved 05 16, 2019, from https://ittc.info/media/1936/75-04-01-012.pdf.",
+      "claim_links": [
+        "C14"
+      ],
+      "role": "STAwave-1 predicts sailing speed under waves",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Jakobsen, et al., 2017a. A techno-economic case study of CO2 capture, transport and storagechain from a cement plant in Norway. J. Clean. Prod. 523–539.",
+      "claim_links": [
+        "C42",
+        "C48"
+      ],
+      "role": "iCCS, HYSYS and APEA supply the process and cost functions; Ship capital and fixed operating costs have a consistent version",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Jakobsen, et al., 2017b. A techno-economic case study of CO2 capture, transport and storage chain from a cement plant in Norway. J. Clean. Prod. 144, 523–539.",
+      "claim_links": [
+        "C42",
+        "C48"
+      ],
+      "role": "iCCS, HYSYS and APEA supply the process and cost functions; Ship capital and fixed operating costs have a consistent version",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        13
+      ],
+      "citation": "Jokar, Z., Mokhtar, A., 2018. Policy making in the cement industry for CO2 mitigation on the pathway of sustainable development- a system dynamics approach. J. Clean. Prod. 142–155.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "Kajaste, R., Hurme, M., 2016. Cement industry greenhousegas emissions - managment options and abatement cost. J. Clean. Prod. 4041–4052.",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        2,
+        3,
+        4,
+        13
+      ],
+      "citation": "King, A.J., Wallace, S.W., 2012. Modeling with Stochastic Programming. Springer.",
+      "claim_links": [
+        "C05",
+        "C06"
+      ],
+      "role": "Expected-cost stochastic design improves investment choices; The two-stage model forecasts entire 17-day operating seasons",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        12,
+        13
+      ],
+      "citation": "Knoope, M., et al., 2015. The influence of uncertainty in the development of a CO2 infrastructure network. Appl. Energy 332–347.",
+      "claim_links": [
+        "C47"
+      ],
+      "role": "Harbor costs scale from 7.9 MEUR at 3 Mt/year",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Knoope, et al., 2013. A state-of-the-art review of techno-economic models predicting the costs of CO2 pipeline transport. Int. J. Greenh. Gas Control. 241–270.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Kristensen, H., 2013. Statistical Analysis and Determination of Regression Formulas for Main Dimensions of Container Ships Based on IHS Fairplay Data. Technical University of Denmark.",
+      "claim_links": [
+        "C13"
+      ],
+      "role": "Candidate ships have design power of 1,500–2,500 W",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Kristensen, H.O., Lützen, M., 2012. Prediction of Resistance and Propulsion Power of Ships. DTU.",
+      "claim_links": [
+        "C14"
+      ],
+      "role": "STAwave-1 predicts sailing speed under waves",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Lee, et al., 2017. Design of boil-off CO2 re-liquefaction processes for a large-scale liquid CO2 transport ship. Int. J. Greenh. Gas Control. 93–102.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Levander, K., 2006. System based ship design. NTNU Compendium Used in the Course TMR 4110 Marine Design and. Trondheim: Published by NTNU-Marin Technology.",
+      "claim_links": [
+        "C13"
+      ],
+      "role": "Candidate ships have design power of 1,500–2,500 W",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        2,
+        3,
+        4,
+        13
+      ],
+      "citation": "Louveaux, F., Birge, J.R., 2008. Two-stage stochastic programs with recourse. In: Floudas C, P.P. (Ed.), Encyclopedia of Optimization. Springer, Boston, MA.",
+      "claim_links": [
+        "C05",
+        "C06"
+      ],
+      "role": "Expected-cost stochastic design improves investment choices; The two-stage model forecasts entire 17-day operating seasons",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "McCoy, S.T., 2009. The Economics of CO2 Transportation by Pipeline and Storage in Saline Aquifers and Oil Reservoirs. Ph.D.Dissertation. Carnegie Mellon Universitty, Pittsburgh, Pa.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R29",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Metz, et al., 2005. IPCC Special Report on Carbon Dioxide Capture and Storage. IPCC.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R30",
+      "pages": [
+        2,
+        12,
+        13
+      ],
+      "citation": "Roussanaly, et al., 2013a. Costs benchmark of CO2 transport technologies for a group of various size industries. Int. J. Greenh. Gas Control. 341–350.",
+      "claim_links": [
+        "C02",
+        "C46",
+        "C49"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers; Buffer investment costs 1,130 EUR/m3; Utility prices define operating cost inputs",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R31",
+      "pages": [
+        2,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Roussanaly, et al., 2013b. Benchmarking of CO2 transport technologies: part I—onshore pipelineand shipping between two onshore areas. Int. J. Greenh. Gas Control. 584–594.",
+      "claim_links": [
+        "C02",
+        "C42",
+        "C45",
+        "C46"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers; iCCS, HYSYS and APEA supply the process and cost functions; Fixed O&M equals 5.5% of capital; Buffer investment costs 1,130 EUR/m3",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R32",
+      "pages": [
+        2,
+        10,
+        11,
+        13
+      ],
+      "citation": "Roussanaly, et al., 2014. Benchmarking of CO2 transport technologies: part II – offshorepipeline and shipping to an offshore site. Int. J. Greenh. Gas Control. 282–299.",
+      "claim_links": [
+        "C02",
+        "C42"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers; iCCS, HYSYS and APEA supply the process and cost functions",
+      "verification_status": "primary_text_checked_partial_support_different_offshore_boundary",
+      "assessment": "Exact retained original pp1,3,4 supports distance/capacity benchmarking and conditioning context, with offshore delivery and excluded glycol boundaries. Full original/model/source chain remains unverified."
+    },
+    {
+      "id": "R33",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Seo, Y., et al., 2017. Determination of optimal volume of temporary storage tanks in a ship-based carbon capture and storage (CCS) chain using life cycle cost (LCC) including unavailability cost. Int. J. Greenh. Gas Control. 11–22.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R34",
+      "pages": [
+        13
+      ],
+      "citation": "Sharma, D., Goyal, S., 2018. Accelerated carbonation curing of cement mortars containing cement kiln dust: an effective way of CO2 sequestration and carbon footprint reduction. J. Clean. Prod. 844–854.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R35",
+      "pages": [
+        13
+      ],
+      "citation": "Skaugen, et al., 2016. Techno-economic evaluation of the effects of impurities on conditioning and transport of CO2 by pipeline. Int. J. Greenh. Gas Control. 627–639.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R36",
+      "pages": [
+        11,
+        13
+      ],
+      "citation": "Trading Economics, 2018. Trading Economics Database on Euro Area Inflation Rate.",
+      "claim_links": [
+        "C43"
+      ],
+      "role": "All costs are updated to 2017 prices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R37",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Turbo, M. D. (2013), 08 01. marine.mandieselturbo.com. Retrieved 06 04, 2019, from https://marine.mandieselturbo.com/docs/librariesprovider6/technical-papers/ propulsion-trends-in-container-vessels.pdf?sfvrsn=20.",
+      "claim_links": [
+        "C13"
+      ],
+      "role": "Candidate ships have design power of 1,500–2,500 W",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R38",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "van den Boom, H., van der Hout, I., Flikkema, M., 2008. Speed-power performance of ships during trials and in service. SNAME Ship Preformance Conference 7.",
+      "claim_links": [
+        "C14"
+      ],
+      "role": "STAwave-1 predicts sailing speed under waves",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R39",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Vermeulen, T.N., 2010. KNOWLEDGE SHARING REPORT – CO2 liquid logistics shipping concept (LLSC) overall supply chain optimization. Tebodin Consultants Eng.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R40",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Volker, B., 2011. Practical Ship Hydrodynamics. Elsiver.",
+      "claim_links": [
+        "C14"
+      ],
+      "role": "STAwave-1 predicts sailing speed under waves",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R41",
+      "pages": [
+        6,
+        7,
+        13
+      ],
+      "citation": "Wigforss, J., 2012. Chalmers.se.. Retrieved 06 04, 2019, from http://publications.lib.cha lmers.se/records/fulltext/159671.pdf..",
+      "claim_links": [
+        "C17"
+      ],
+      "role": "A 25% faster strategy costs approximately 40% more fuel",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R42",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Yoo, et al., 2013. Development of CO2 terminal and CO2 carrier for future commercialized CCS market. Int. J. Greenh. Gas Control. 323–332.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R43",
+      "pages": [
+        2,
+        11,
+        13
+      ],
+      "citation": "ZEP, 2011. The costs of CO2 transport. Post-demonstration CCS in the EU.",
+      "claim_links": [
+        "C02",
+        "C44"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers; Conditioning produces liquid CO2 at 6.5 bar and minus 50 C",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R44",
+      "pages": [
+        13
+      ],
+      "citation": "Zuberi, M.S., Patel, M.K., 2017. Bottom-up analysis of energy efficiency improvement and CO2 emission reduction potentials in the Swiss cement industry. J. Clean. Prod. 4294–4309.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        2
+      ],
+      "citation": "Voldsund2019 capture technology and waste-heat basis",
+      "claim_links": [
+        "C03"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        7
+      ],
+      "citation": "MeteorologiskInstitutt2020 exact product/data/version and route archive",
+      "claim_links": [
+        "C18",
+        "C20",
+        "C21"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        12
+      ],
+      "citation": "Eurostat2017 electricity price source",
+      "claim_links": [
+        "C25",
+        "C49"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        12
+      ],
+      "citation": "Worldwide2017 shipping fuel source",
+      "claim_links": [
+        "C49"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        13
+      ],
+      "citation": "Anantharaman2011 costing/finance guidance",
+      "claim_links": [
+        "C50"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "citation": "NativePyomo/scenario selection/probabilities/weights/windows/solver inputs",
+      "claim_links": [
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C19",
+        "C22",
+        "C26",
+        "C27",
+        "C29",
+        "C30",
+        "C32",
+        "C33",
+        "C34",
+        "C35",
+        "C36",
+        "C37",
+        "C40"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13
+      ],
+      "citation": "Nativecapacity/costversions,annualization,construction and KPIcashflows",
+      "claim_links": [
+        "C08",
+        "C23",
+        "C24",
+        "C27",
+        "C28",
+        "C30",
+        "C31",
+        "C45",
+        "C48",
+        "C50"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "citation": "STAwavevalidation,operator observations and navigation/control domain",
+      "claim_links": [
+        "C15",
+        "C16",
+        "C29"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D09",
+      "pages": [
+        9,
+        10
+      ],
+      "citation": "Ex-postbreakdowncases,costtimebasis and empiricalfault law",
+      "claim_links": [
+        "C38",
+        "C39",
+        "C41"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D10",
+      "pages": [
+        13
+      ],
+      "citation": "ExplicitpublisherAppendixBsupplement/code/rights",
+      "claim_links": [
+        "C51"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D11",
+      "pages": [
+        13
+      ],
+      "citation": "Bibliographyidentity/duplicate/missingnamedauthority reconciliation",
+      "claim_links": [
+        "C52"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D12",
+      "pages": [
+        2,
+        7,
+        11,
+        12
+      ],
+      "citation": "Completecapture/conditioning/ship/reconditioning/utilities,GHG andretention inventory",
+      "claim_links": [
+        "C25",
+        "C31",
+        "C41",
+        "C49"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    }
+  ],
+  "note": "Printed44entries include a candidate Jakobsen2017a/b duplicate, not44verifieduniqueoriginals. Native spellings/pagination are retained; exact identities/support remain open."
+}

@@ -1,0 +1,2412 @@
+{
+  "study_id": "B2-08",
+  "source_sha256": "060eb3b24c0362f5f16b202fe96d2fc8aee6c498d2cf97df21a3416796e1dcae",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 13 retained pages were read and visually inspected, including 12 figures, six tables, 22 main equations, two separately numbered appendix equations, inline relations and 44 bibliography entries. Eight pages were magnified. Limited arithmetic and disclosed analyst balance, inequality, time, cost and speed checks do not reproduce the native stochastic chain. One retained original has scoped support; 43 other printed entries, twelve dependencies, explicit SI, weather/scenario assets and native process/optimization cases remain open.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "original_model_status": "limited_printed_components_and_analyst_examples_only_native_Pyomo_Gurobi_weather_process_and_fault_models_not_reproduced",
+  "supplement_status": "internal_AppendixA_read_explicit_external_AppendixB_supplement_not_retained_or_verified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract and licence",
+      "assessment": "Bjerketvedt, Tomasgard and Roussanaly; IJGGC103(2020)103190, DOI10.1016/j.ijggc.2020.103190, online2November2020; CC-BY4.0. Abstract gives99%/33.8EUR/t,18%buffer,weather,seasonal,fuel/breakdown claims. Their scenario/buffer denominators need separation."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction and literature",
+      "assessment": "Read industrial emissions, historical19-facility count, shipping versus pipeline and capture/conditioning studies. Prior buffer assumptions50%above/120%/equal ship size are cited rather than independently validated; no universal buffer consensus. Stochastic expected-cost versus deterministic/worst-case motivation is case dependent."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "2 Case and system boundary",
+      "assessment": "Brevik cement to Kollsnes715km,400kt/y captured with waste heat as fixed source, not endogenous capture investment. Chain includes conditioning through reconditioning; offshore pipeline and geological storage lie beyond this optimisation. Historical Norwegian project prospects are not present access evidence."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2 Decisions, mass assumptions and costs",
+      "assessment": "Pure amine-capture stream, no liquefaction loss assumed; curtailment/venting penalized100EUR/t. Four capacity investments plus separately selected candidate ship; flow, buffers and seasonal power choices are recourse. No full capture heat or downstream retention inventory supplied."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "2 Two-stage scenario representation",
+      "assessment": "25years,8%;136three-hour steps=408hours/17days per season, two seasons per scenario,13scenarios=442representative days. Entire17day scenario known before recourse. Authors acknowledge optimistic information. This does not quantify how slight the bias is or establish monotonic underinvestment in every capacity."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        4
+      ],
+      "scope": "3 Model and3.1 Nomenclature",
+      "assessment": "All four sets, probabilities, seasonal weights, annuity, requirements, investment/O&M/marginal costs, capture, flexibility, windows, port time and ship capacity read. All four capacity variables, eight flow/inventory classes and binary Delta_v,omega,s read. Numeric probabilities, weights, complete nonnegative domains and capacity time basis missing."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "3.2 Objective",
+      "assessment": "All five equations read. IC plus annuity times expected annual operation; scenario-independent O&M, weighted variable/penalty terms. Need representative-to-annual scaling, capacity conversion, construction/discount conventions, native cost versions and consistent KPI denominator."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        5
+      ],
+      "scope": "3.3 Source and conditioning",
+      "assessment": "Eq6 conservation;Eq7 half-capacity turndown;Eq8 source buffer bounds;Eq9/10 balance/cyclic closure. Three-hour quantities versus annual capacity costs and h=1 predecessor need implementation mapping. Cyclic independent seasons prevent interseason storage."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        5
+      ],
+      "scope": "3.3 Ship activity and inventory",
+      "assessment": "Eq11/12 window-gated port loading/unloading;Eq13 at most one binary power strategy per scenario-season;Eq14–16 ship capacity and cyclic balance. CAP/12hours is a rate while x is per-three-hour mass, requiring explicit conversion. No stepwise power adaptation, heel or boil-off state is printed."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        5
+      ],
+      "scope": "3.3 Receiving buffer and transport requirement",
+      "assessment": "Eq17/18 have reconditioned minus unloaded inflow signs, opposite the described physical tank. Eq19 bounds;Eq20 turndown;Eq21 prints <= for a described minimum and omits probability/season weights. Literal statements preserved; unavailable code not judged. Free cyclic inventory can mirror a sign-reversed profile, so objective impact is not inferred automatically."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "4 Data and4.1 Instances/Table1",
+      "assessment": "Stable400kt/y,10/20/30%winter-over-summer scenarios with constant annual total;fuel-price sensitivities and separate ex-post breakdown. All15base input rows read; cost/capacity/time conversions and ship-cost version differences remain open."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        6
+      ],
+      "scope": "4.2/4.2.1 Ship designs/Table2",
+      "assessment": "3750/5000/7500t,geometry,fuel and capital rows read. Printed power unitW with1500–2500 retained; conditional kW comparison is not a correction. LNG/container design analogues and bunker statistics not inspected as originals."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        6
+      ],
+      "scope": "4.2.2 STAwave-1",
+      "assessment": "Head-wave simplification; clear-water Rcw=P/V, inline added resistance with Hs to power1, Eq22 with Hs squared and Rf undefined. Density called relative though SI force needs mass density. Ship-operator/real-data validation claim has no retained observations/error metrics."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "4.2.3 Power strategies/Figure4",
+      "assessment": "12kn design,25%faster strategy,12.5/25/37.5/50%slower options. Figure4 left starts15kn/right12kn while prose assigns left constant/right power-up. Hourly fuel ratios and a route-level approximate40%claim need distinct bases."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        7
+      ],
+      "scope": "4.2.4 Weather and scenario generation",
+      "assessment": "3hourly1987–2016wave data,1106points,>87000simulations reduced to26seasons. All means,standard deviations,75%>row and storm statistics read. Exact product, route interpolation, selection, probabilities, slots and validation missing. A rare25-year scenario is not a calibrated outage law."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        7
+      ],
+      "scope": "5 Implementation and5.1.1 99%case",
+      "assessment": "Pyomo/Gurobi8.1.0,435s,hardware reported.143MEUR/33.8EUR/t,5000tship/5120tsourcebuffer,62%summer slowing,1MEUR/0.24EUR/t benefit. Numeric arrays and logs absent; figure/source rounding checked separately."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        8
+      ],
+      "scope": "5.1.2 100%case",
+      "assessment": "Additional1.8MEUR;last1%41.9EUR/t/24%premium;5890tbuffer. Separate117.8%ship versus~136%cycle denominator. Recovery requires slack and extremes may be underestimated. No universal buffer fraction or safe annual storage service inferred."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        8
+      ],
+      "scope": "5.2 Value of stochastic design",
+      "assessment": "Deterministic4330tbuffer,6.4MEUR/4.5%ex-post loss,4.1MEURfuel component,4000t/y venting,1.9EUR/t total/5.6%. Different cash-flow and transported-mass denominators may reconcile some values; native common-basis case needed. Conclusion calls total1.9a fuel increase."
+    },
+    {
+      "id": "S19",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "5.3 Seasonal cases",
+      "assessment": "At10%winter growth5000tship preferred by1.3EUR/t;3250tventing/.33MEUR,115→165%buffer statement,4990tper winter cycle.20%case5445tcycle exceeds5000by445;7500preferred. Seasonal storage between months explicitly outside model, so its universal inefficiency cannot be tested here."
+    },
+    {
+      "id": "S20",
+      "pages": [
+        9
+      ],
+      "scope": "5.4 Fuel price sensitivity/Table4",
+      "assessment": "325EUR/t plus50/100/150%;buffers5120/5235/5235/5480. Final110.0%ship label differs from5480/5000=109.6%. Wrong-price-design losses2.1/.73MEUR are reported ex-post results, not a stochastic joint fuel-price model or independently rerun policy."
+    },
+    {
+      "id": "S21",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "5.5 Breakdown/Figure9",
+      "assessment": "Ideal no-weather-conflict,one full-cyclefault per year scenario;8660t=173.2%ship/200%cycle,extra2760printed versus2770from endpoint difference. Figure9cost/savings time/money basis unclear; native ex-post inventory/cost cases and fault distributions missing. Authors acknowledge no operational fault statistics."
+    },
+    {
+      "id": "S22",
+      "pages": [
+        10
+      ],
+      "scope": "6 Conclusions and declarations",
+      "assessment": "Read all conclusions, contribution roles, conflict and NCCS grant257579/E20/partner acknowledgments.118%ship is100%case whilelowest33.8cost99%case has102.4%. Seasonal/general fuel/retention claims retain model boundaries."
+    },
+    {
+      "id": "S23",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "scope": "AppendixA/A.1 Process and costs",
+      "assessment": "iCCS,HYSYS/APEA,bottom-upfactor approach,2017price indices,compression/ammonia/TEG/PFD,6.5bar/-50C,graphs.5.5%fixed O&M versus Table1 reconditioning coefficient needs reconciliation. No full stream/heat/work/cooling/supplier inventory or native process case supplied."
+    },
+    {
+      "id": "S24",
+      "pages": [
+        12,
+        13
+      ],
+      "scope": "A.2 Shipping/A.3 KPI",
+      "assessment": "1130EUR/m3buffer,7.9MEUR/3Mt/yharbor scaling,proseexponent.85 versus formula.8,shipTable6versions,loading/fees,reconditioning curves and annual cost/ton KPI. Three-year40/30/30capital timing and Tablea10.56 versus standard25year8%PVfactor need mapping. Bad section0pointer preserved."
+    },
+    {
+      "id": "S25",
+      "pages": [
+        13
+      ],
+      "scope": "AppendixB and44bibliography entries",
+      "assessment": "Explicit external supplement DOI, not retained locally; no embedded files. All44entries read, including candidate duplicate Jakobsen2017a/b and incomplete authorities. One exact retained Roussanaly2014 has scoped primary support;43other entries and12dependencies remain unverified. Public SI/code availability not inferred absent."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "V01",
+      "pages": [
+        3
+      ],
+      "object": "Figure1 route map, legend and caption",
+      "inspection": "Green Norcem source,red receiving terminal,dashedroute aroundsouthernNorway;Bergen/Oslo/Stavanger/coastal labels read. Map locations are illustrative, not exact permitted routes or operating distance verification."
+    },
+    {
+      "id": "V02",
+      "pages": [
+        3
+      ],
+      "object": "Figure2 value chain and decisions",
+      "inspection": "Conditioning→sourcebuffer→ship→sinkbuffer→reconditioning; investments in four capacities and ship size; operation flows/inventories/power read. Capture and downstream offshore pipeline/storage outside chain."
+    },
+    {
+      "id": "V03",
+      "pages": [
+        4
+      ],
+      "object": "Figure3 two-stage tree",
+      "inspection": "One red investment node,blue scenario paths,time labels1,2,135,136 and dashed continuation. Full scenario known before recourse, not a multistage nonanticipative operating tree; graphical branch count not the13native scenarios."
+    },
+    {
+      "id": "V04",
+      "pages": [
+        6
+      ],
+      "object": "Figure4 bothspeedpanels/caption/legend",
+      "inspection": "3750blue/5000green/7500purple,significantwave0–12m,speedkn. Left calm~15/right12 contradict prose panel assignment. Larger shipsslowless qualitatively; no exact pixel data promoted."
+    },
+    {
+      "id": "V05",
+      "pages": [
+        7
+      ],
+      "object": "Figure5 sailing-time histogram",
+      "inspection": "Summerblue/winterorange,normalizedfrequency andhours axes;winter longer tail. LabelTrue distribution means simulated data distribution, not directly measured route travel times or a verified probability calibration."
+    },
+    {
+      "id": "V06",
+      "pages": [
+        7
+      ],
+      "object": "Figure6 allstackedcostlabels",
+      "inspection": "Purplecapital,greenO&M,cyanvariable. Conditioning4.8/2.8/7.8;sourcebuffer1.4/.1;ship5.7/4.1/4.1;sinkbuffer1.3/.1;reconditioning.9/.4/.4EUR/t. Rounded ship labels sum13.9 versus13.8prose; compatible rounding. No full physical utility inventory follows."
+    },
+    {
+      "id": "V07",
+      "pages": [
+        8
+      ],
+      "object": "Figure7 NPVcomponents",
+      "inspection": "Emissionpenalty andfuelpositive,savedinvestmentnegative;M€axis. Components are graphical, not exact raw output arrays. Captionplanningdelays;conclusion'sfuel-only wordingdoesnotmatchallcomponents."
+    },
+    {
+      "id": "V08",
+      "pages": [
+        9
+      ],
+      "object": "Figure8 fourpairedseasonalcases",
+      "inspection": "5000/7500t bars for0/10/20/30%wintergrowth. Cyanliquefaction,greenshipping,orangebuffer,redreconditioning,purpleemission. No exact annotations; approximate bar heights not accepted numeric inputs. Preference changes need original schedules and common service basis."
+    },
+    {
+      "id": "V09",
+      "pages": [
+        10
+      ],
+      "object": "Figure9 fourbreakdownpanels",
+      "inspection": "0/1/2/3yearlyevents;Cost/Savingsbars,bufferinvestmentcyan,liquefactiongreen,avoidedpenaltypurple. No explicit monetary/timeaxislabel supplied; small heights not treated as exactMEUR/NPV. Native accounting required."
+    },
+    {
+      "id": "V10",
+      "pages": [
+        11
+      ],
+      "object": "Figure10 nine-unitPFD/streamlegend/footnote",
+      "inspection": "IntercooledCO2compression,dehydration,precooler,liquefier,flashtank,valve,separator,recirculationcompressor,ammoniarefrigeration. CO2blue,NH3green,coolingwaterpurple;recycle andliquidoutlet read. Captionunit5flashwhilegraphicvessel7separator;nofullstates/duties. FootnoteTEGwaterremoval."
+    },
+    {
+      "id": "V11",
+      "pages": [
+        11
+      ],
+      "object": "Figure11 conditioningcostcurves/dualaxes/footnote",
+      "inspection": "Annualcapacity/averageflow0–5Mt/y;investmentM€left,annualcostM€/yright;investmentblue,fixedOPEXorange,electricred,otherpurple. Capacity versus average flow distinguished. Exact regression coefficients and native process outputs not given."
+    },
+    {
+      "id": "V12",
+      "pages": [
+        12
+      ],
+      "object": "Figure12 reconditioningcurves/dualaxes/footnote",
+      "inspection": "Samecapacity/flowdistinction;investmentblue,fixedred,electricpurple,otherorange. Graphcostsnotutilityquantities;exactcoefficientsandconditionsmissing."
+    },
+    {
+      "id": "V13",
+      "pages": [
+        6
+      ],
+      "object": "Table1 all15parameterrows",
+      "inspection": "a10.56;gamma/beta.5;IC50.5/9/982EUR/t,ship22.31MEUR;MC7.78/.41;OM2.78/.41/54EUR/(t*y),ship1.49MEUR/y;port12h;fuel325EUR/t;ship5000t. Preservecost/timecapacityunitquestions."
+    },
+    {
+      "id": "V14",
+      "pages": [
+        6
+      ],
+      "object": "Table2 allsevenrows/threecargooptions",
+      "inspection": "Cap3750/5000/7500t;P1500/2000/2500Wliteral;B15/16/17m;L90/95/100m;fuelconstant.5/.6/.7t/h;fullspeed.8/.9/1.1;IC23/23.9/25.7MEUR. No silentlycorrectedkWorcost."
+    },
+    {
+      "id": "V15",
+      "pages": [
+        7
+      ],
+      "object": "Table3 allsixseasonstatisticcells",
+      "inspection": "Summer/wintermean34.68/37.69h,Std2.61/4.63h,75%>35.38/39.71. Ambiguouspercentile/exceedanceheaderkeptliteral;noinferredfullCDF."
+    },
+    {
+      "id": "V16",
+      "pages": [
+        9
+      ],
+      "object": "Table4 all12bufferentries",
+      "inspection": "Fuelbase/+50/+100/+150%;buffer5120/5235/5235/5480;ship%102.4/104.7/104.7/110.0;cycle%118.3/121/121/126.5. Lastship%doesnotmatchfixed5000tdenominatoratstatedprecision."
+    },
+    {
+      "id": "V17",
+      "pages": [
+        12
+      ],
+      "object": "Table5 allfourutility/costrows",
+      "inspection": "Electricity65.2EUR/MWh;coolingwater.04EUR/m3;fuel325EUR/tfuel;harbor1.1EUR/tCO2. Pricesnotactualutilityquantities,supplierGHGorcompletecaptureinventory;Eurostat/Worldwideidentitiesnotinbibliography."
+    },
+    {
+      "id": "V18",
+      "pages": [
+        12
+      ],
+      "object": "Table6 allsixshipcostcells",
+      "inspection": "3750/5000/7500t:IC23/23.7/25.7MEUR;annualfixed1.58/1.61/1.66MEUR.5000ICdiffersTable2andTable1;OMdiffersbaseTable1. Exactversion/scopeunresolved."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        4
+      ],
+      "printed": "z=IC+a*OC",
+      "check": "Monetary lifetime objective if OC is properly annualized and a is a present-value annuity factor; numeric a10.56 and timing require reconciliation."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        4
+      ],
+      "printed": "IC=ICcon Xcon+ICre Xre+ICbuf(Xbufcon+Xbufre)+ICship",
+      "check": "Four capacity investments and externally predefined ship cost. Annual capacity versus per-step X units need conversion; loading/harbor capital allocation not separately displayed."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        4
+      ],
+      "printed": "OC=OM+Sum_omega,s Pi_omega theta_s[Var_omega,s+Pcarbon Sum_h xemission]",
+      "check": "Probabilities and season-to-annual weights need normalization and exact arrays. Finite emissions penalty is not a lifecycle carbon price/result."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        4
+      ],
+      "printed": "OM=OMcon Xcon+OMre Xre+OMbuf(Xbufcon+Xbufre)+OMship",
+      "check": "Annual fixed costs on capacity; 5.5% versus coefficient/version differences remain open."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        5
+      ],
+      "printed": "Var_omega,s = Sum_h MCcon*xcon_omega,s,h + MCre*xre_omega,s,h + Sum_v VCship_v*Delta_v,omega,s (no bracket encloses the per-h terms)",
+      "check": "The scope of the first summation needs clarification because the reconditioning term also contains h. The printed fuel coefficient has only v, while weather-dependent route costs may require scenario/season indexing or preprocessing. Numeric coefficients, units and annual weights remain unavailable."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        5
+      ],
+      "printed": "E-xcon-xemission=0",
+      "check": "Conservation at source; captured supply is fixed, then conditioned or vented. Nonnegative flow domains needed."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        5
+      ],
+      "printed": "(1-beta)Xcon<=xcon<=Xcon",
+      "check": "Minimum50%turndown at beta.5; no conditioning shutdown permitted. X units must match three-hour mass."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        5
+      ],
+      "printed": "0<=ycon<=Xbufcon",
+      "check": "Source buffer physical mass bound; no heel/loss/temperature state printed."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        5
+      ],
+      "printed": "ycon_(h-1)+xcon-xloaded-ycon_h=0",
+      "check": "Normal source inventory sign. h=1predecessor requires cyclic indexing rather than applying undefined0alongsideEq10."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        5
+      ],
+      "printed": "ycon_H+xcon_1-xloaded_1-ycon_1=0",
+      "check": "Within-season cyclic closure; independent seasonal boundary prevents moving inventory across months."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        5
+      ],
+      "printed": "xloaded<=Sum_v(CAPship/TPort)Wloading_v,omega,s,h Delta_v,omega,s",
+      "check": "CAP/TPort is tonnes/hour, but x is tonnes in a three-hour step. ExplicitstepdurationorTPortinstepsneeded. Window/slot generation and concurrency incomplete."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        5
+      ],
+      "printed": "xunloaded<=Sum_v(CAPship/TPort)Wunloading_v,omega,s,h Delta_v,omega,s",
+      "check": "Same time-unit question; not an independently reconstructed port schedule."
+    },
+    {
+      "id": "E13",
+      "pages": [
+        5
+      ],
+      "printed": "Sum_v Delta_v,omega,s<=1",
+      "check": "Binary choice at most once per scenario-season; no h index, so not arbitrary within-season power feedback. Zerochoicesallowedifnoactivityrequired."
+    },
+    {
+      "id": "E14",
+      "pages": [
+        5
+      ],
+      "printed": "0<=yship<=CAPship",
+      "check": "Ship inventory bound, with no explicit minimumheel/BOG/phase state. Capacityparameternotendogenouswithinthisdisplay."
+    },
+    {
+      "id": "E15",
+      "pages": [
+        5
+      ],
+      "printed": "yship_(h-1)+xloaded-xunloaded-yship_h=0",
+      "check": "Normal cargo balance; h=1domainneedscyclicimplementation."
+    },
+    {
+      "id": "E16",
+      "pages": [
+        5
+      ],
+      "printed": "yship_H+xloaded_1-xunloaded_1-yship_1=0",
+      "check": "Cycliccargo closure, not initialempty/finaldeliveryrequirement;nativeboundaryconventionneeded."
+    },
+    {
+      "id": "E17",
+      "pages": [
+        5
+      ],
+      "printed": "yre_(h-1)+xre-xunloaded-yre_h=0",
+      "check": "Printed receiving-buffer signs oppose described inflow/unloading and outflow/reconditioning. Fixed-initial toy exposes difference; freecyclic complementcanpreservefeasibility/objectiveunderadditionalconditions."
+    },
+    {
+      "id": "E18",
+      "pages": [
+        5
+      ],
+      "printed": "yre_H+xre_1-xunloaded_1-yre_1=0",
+      "check": "Same sign issue at cyclic boundary; no silent correction or native-code defect claim."
+    },
+    {
+      "id": "E19",
+      "pages": [
+        5
+      ],
+      "printed": "0<=yre<=Xbufre",
+      "check": "Receiving bufferbound. Ifinitialstockfree,complementC-ycanmirroroppositesignprofile;physicaltrajectoryinterpretationstilldifferent."
+    },
+    {
+      "id": "E20",
+      "pages": [
+        5
+      ],
+      "printed": "(1-gamma)Xre<=xre<=Xre",
+      "check": "Reconditioningminimum50%; downstreamrateimposedthroughprocessboundnotpressure-derivedreservoirphysics. Prosemisnamesconditioningcapacity."
+    },
+    {
+      "id": "E21",
+      "pages": [
+        5
+      ],
+      "printed": "Sum_omega,s,h xre<=alpha Sum_omega,s,h E",
+      "check": "Literal <= is opposite described minimum. No Pi/theta weights. Native code/required expectedversusper-scenarioservice must be checked."
+    },
+    {
+      "id": "E22",
+      "pages": [
+        6
+      ],
+      "printed": "V(Hs)=P/[Rf+(1/16)rho*g*Hs^2*B*sqrt(B/LBWL)]",
+      "check": "Rf not separately defined; Rcw=P/Vdesign nearby. Literal W power and densitydefinitionmustbechecked. Independentconditionalcomponentsnotfullhydrodynamicsorroutevalidation."
+    },
+    {
+      "id": "A01",
+      "pages": [
+        6
+      ],
+      "printed": "Rcw=P/Vdesign",
+      "check": "Consistent SIforcewithWandm/s; knotconversionandpowerunitmustbeexplicit. Thisisnotfullresistancecurve."
+    },
+    {
+      "id": "A02",
+      "pages": [
+        6
+      ],
+      "printed": "Raw=(1/16)rho*g*Hs*B*sqrt(B/LBWL) as printed inline",
+      "check": "Hs appears to first power here versus squared inEq22. Under mass-density SI, the first-power form is not a force; preserve both and verify originalSTAwave."
+    },
+    {
+      "id": "A03",
+      "pages": [
+        13
+      ],
+      "printed": "AppendixEq1:IC=ICref*(capacity/capacityref)^0.8",
+      "check": "Prosep12states.85. Both are implemented separately; no chosen correction. Reference7.9MEUR/3Mt/y."
+    },
+    {
+      "id": "A04",
+      "pages": [
+        13
+      ],
+      "printed": "AppendixEq2:cost=(annualizedinvestment+annualOPEX)/annualCO2transported",
+      "check": "KPIneedsactual transportedmass, consistentconstruction/PVbasis and inclusion/exclusionofpenalty. Not necessarily identical to objective normalized by captured supply."
+    },
+    {
+      "id": "A05",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "printed": "h=1..136, step3h;two seasons,13scenarios",
+      "check": "408h/season,442representativedays; notcontinuousyearmonitoringorindependent442dayvalidation. Delta isseason-indexed."
+    },
+    {
+      "id": "A06",
+      "pages": [
+        4,
+        5
+      ],
+      "printed": "Delta binary;capacity andflowdomains;Pi/theta/a/alpha/beta/gamma",
+      "check": "Notallnonnegativecontinuousdomainsorinvestmentintegralitydeclared. Probabilities/weightsneededfornormalscalingandserviceconstraints."
+    },
+    {
+      "id": "A07",
+      "pages": [
+        11,
+        12
+      ],
+      "printed": "FixedannualO&M=.055*capital",
+      "check": "Conditioningandbufferroundedvaluesagree;reconditioningTable1doesnotmatch. Doesnotprovefullcostimplementationerror."
+    },
+    {
+      "id": "A08",
+      "pages": [
+        13
+      ],
+      "printed": "Analyst a(r,n)=Sum_t=1..n(1+r)^(-t)",
+      "check": "Standardend-yearPVcomparisonat8%,25years;notasourcecorrection/constructiontimingassumption."
+    },
+    {
+      "id": "A09",
+      "pages": [
+        5
+      ],
+      "printed": "Analyst receiving y=initial+cumsum(unloaded-reconditioned)",
+      "check": "Separatelylabelledphysicalcomparisonversusliteralnegativeincrement;undercyclicfreeinitialstocksC-yisacomplementmapping."
+    },
+    {
+      "id": "A10",
+      "pages": [
+        5
+      ],
+      "printed": "Analystminimumserviceq>=alphaEversusliteralq<=alphaE",
+      "check": "ToyLPwithpositiveemissionpenaltycomparesconstraintdirections;notnativeoperatingoptimizer."
+    },
+    {
+      "id": "A11",
+      "pages": [
+        5
+      ],
+      "printed": "Analystweightedservice=SumPi*q/SumPi*E",
+      "check": "ProbabilityweightillustrationnotunknownnativePi/theta;rawpooledconstraintnotuniversalexpected/per-scenarioguarantee."
+    },
+    {
+      "id": "A12",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "printed": "Analystbuffer/shipandbuffer/cycle ratios",
+      "check": "5120/5000,5890/5000,8660/5000distinctfromcycle4330ratios. No universalbufferfractionoractualservice."
+    },
+    {
+      "id": "A13",
+      "pages": [
+        8
+      ],
+      "printed": "Analyst incremental cost=deltaPV/(incrementalannualmass*a)",
+      "check": "Rounding-compatiblecheckforlast1%;constructionandpenalty/throughputbasisstillunresolved."
+    },
+    {
+      "id": "A14",
+      "pages": [
+        11,
+        12
+      ],
+      "printed": "Analystelectricquantity=cost/(EUR/MWh)",
+      "check": "Conditionalreported7.8/65.2implieskWh/t;notcompleteutilityinventoryoracceptedinput."
+    },
+    {
+      "id": "A15",
+      "pages": [
+        6
+      ],
+      "printed": "AnalystSI speed uses either literalW or separatelylabelledkW conversion",
+      "check": "Explicitrho1025kg/m3,g9.80665,12kndesignfixtures. No shipoperatorvalidationorweatherreplay."
+    }
+  ],
+  "variables": [
+    {
+      "id": "X01",
+      "pages": [
+        4
+      ],
+      "symbols": "Omega,S,H,V",
+      "assessment": "Scenario,season,time andpowerstrategies;fixedfinite representative set, not empirical event probabilities."
+    },
+    {
+      "id": "X02",
+      "pages": [
+        4
+      ],
+      "symbols": "Pi_omega,theta_s",
+      "assessment": "Probability andseasonweight;numericarrays/normalizationmissing. Winter/summerboundarycalendarunprovided."
+    },
+    {
+      "id": "X03",
+      "pages": [
+        3,
+        4,
+        6,
+        13
+      ],
+      "symbols": "a,25years,8%,2017EUR,40/30/30capitaltiming",
+      "assessment": "Tablea10.56differsstandardend-yearannuity;actualPVbase/priceindex/timingneeded."
+    },
+    {
+      "id": "X04",
+      "pages": [
+        4,
+        5
+      ],
+      "symbols": "Xcon,Xre,Xbufcon,Xbufre",
+      "assessment": "Capacityinvestments;annualratedflowversusper3hmassandbufferstockmustbemapped. Continuous/integercapacitydomainsnotfullystated."
+    },
+    {
+      "id": "X05",
+      "pages": [
+        4,
+        5
+      ],
+      "symbols": "xcon,xemission,xloaded,xunloaded,xre",
+      "assessment": "Massquantitiesperstep;uncondensedcapturedventingnotfullfuel/lifecycleemissions."
+    },
+    {
+      "id": "X06",
+      "pages": [
+        4,
+        5
+      ],
+      "symbols": "ycon,yship,yre",
+      "assessment": "Inventorystockswithfreecyclicboundarywithinseason. Receiving sign issue;noinitial/finalheelorBOGstatesprinted."
+    },
+    {
+      "id": "X07",
+      "pages": [
+        4,
+        5
+      ],
+      "symbols": "Delta_v,omega,s,Wloading,Wunloading,TPort,CAPship",
+      "assessment": "Binaryseasonpower,precomputedslots,12hport,3750–7500tship. No h-dependentstrategychoice;step/porttimesneedconversion."
+    },
+    {
+      "id": "X08",
+      "pages": [
+        4,
+        5
+      ],
+      "symbols": "alpha,beta,gamma,Pcarbon",
+      "assessment": "Minimumrequirementwordingversus<=;50%turndownand100EUR/tpenaltyaremodelassumptions,notcapturerateorGHGbenefit."
+    },
+    {
+      "id": "X09",
+      "pages": [
+        4,
+        6,
+        12
+      ],
+      "symbols": "IC,OM,MC,VCship",
+      "assessment": "Capital/annualfixed/marginalfuelandutilitycosts;Table1/2/6versionsnotresolved. Costsnotphysicalinventory."
+    },
+    {
+      "id": "X10",
+      "pages": [
+        6
+      ],
+      "symbols": "P,V,Rcw,Rf,Raw,Hs,rho,g,B,LBWL",
+      "assessment": "WversuskW,knotsversusm/s,relativeversusmassdensity,Hslinear/squaredandundefinedRf. Head-waveapproximationnotfullresistanceorweathercontrol."
+    },
+    {
+      "id": "X11",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "symbols": "Transported,captured,vented,cyclemassandbufferpercent",
+      "assessment": "Denominatorsdistinct;notavoidedemissions,permanentstorageorcurrentallocation."
+    },
+    {
+      "id": "X12",
+      "pages": [
+        11,
+        12
+      ],
+      "symbols": "6.5bar,-50C,~30bar,65.2EUR/MWh,.04EUR/m3",
+      "assessment": "Pressurebasis/compositionandnativeheat/work/cooling/suppliersremainneeded;pricesnotquantities."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Historical CCS deployment and shipping context",
+      "assessment": "The 2020 facility counts and project plans are not present facts or permission. Industrial-sector and projection sources remain unverified.",
+      "reference_ids": [
+        "R03",
+        "R09",
+        "R10",
+        "R12",
+        "R14",
+        "R19"
+      ]
+    },
+    {
+      "id": "C02",
+      "pages": [
+        2
+      ],
+      "claim": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "assessment": "The original boundaries and comparators still need verification. The cited buffer assumptions do not establish a universal factor.",
+      "reference_ids": [
+        "R01",
+        "R02",
+        "R06",
+        "R11",
+        "R22",
+        "R25",
+        "R28",
+        "R29",
+        "R30",
+        "R31",
+        "R32",
+        "R33",
+        "R39",
+        "R42",
+        "R43"
+      ]
+    },
+    {
+      "id": "C03",
+      "pages": [
+        2
+      ],
+      "claim": "Waste heat supports the fixed 400 kt/year capture input",
+      "assessment": "Heat quantities and supplier inventories are not supplied. Voldsund’s original is not verified here.",
+      "reference_ids": [
+        "D01"
+      ]
+    },
+    {
+      "id": "C04",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Very pure CO2 allows conditioning without liquefaction loss",
+      "assessment": "This is an assumption needing composition and flash verification. It does not establish retention or a complete GHG boundary.",
+      "reference_ids": [
+        "R07"
+      ]
+    },
+    {
+      "id": "C05",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Expected-cost stochastic design improves investment choices",
+      "assessment": "This is case dependent. Expected-cost, deterministic and worst-case designs require matched objectives and scenario evidence.",
+      "reference_ids": [
+        "R20",
+        "R27"
+      ]
+    },
+    {
+      "id": "C06",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "The two-stage model forecasts entire 17-day operating seasons",
+      "assessment": "The authors acknowledge the optimism. An information relaxation does not quantify capacity bias or prove every component is underbuilt.",
+      "reference_ids": [
+        "R20",
+        "R27"
+      ]
+    },
+    {
+      "id": "C07",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Thirteen scenarios represent 442 days",
+      "assessment": "The arithmetic is reconstructed. The scenarios are not a continuous calendar or independent operating validation.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C08",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Investment and recourse costs have a common annual basis",
+      "assessment": "The capacity conversion, scenario/season weights, annuity and construction timing remain unresolved without native arrays.",
+      "reference_ids": [
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "id": "C09",
+      "pages": [
+        5
+      ],
+      "claim": "The receiving buffer follows physical mass conservation",
+      "assessment": "Equations 17–18 reverse the described inflow/outflow signs. Free cyclic inventories can admit a complementary profile, so native cost effects are not presumed.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C10",
+      "pages": [
+        5
+      ],
+      "claim": "Equation 21 enforces a minimum transport requirement",
+      "assessment": "Its printed upper bound contradicts the minimum description. The raw pooled sum also lacks displayed probability and seasonal weights.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C11",
+      "pages": [
+        5
+      ],
+      "claim": "Loading and unloading obey 12-hour port limits",
+      "assessment": "Three-hour mass variables need a rate-to-mass conversion or port time in steps. Native slots and preprocessing are unavailable.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C12",
+      "pages": [
+        5
+      ],
+      "claim": "Power choices adapt to weather",
+      "assessment": "The binary choice is indexed by scenario and season, not step. It does not specify arbitrary within-season feedback under realistic information.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C13",
+      "pages": [
+        6
+      ],
+      "claim": "Candidate ships have design power of 1,500–2,500 W",
+      "assessment": "The printed watts remain literal. A separately labelled kilowatt interpretation is only an analyst diagnostic.",
+      "reference_ids": [
+        "R23",
+        "R26",
+        "R37"
+      ]
+    },
+    {
+      "id": "C14",
+      "pages": [
+        6
+      ],
+      "claim": "STAwave-1 predicts sailing speed under waves",
+      "assessment": "Head waves, linear versus squared wave height, the undefined resistance symbol and density units require original-method verification.",
+      "reference_ids": [
+        "R15",
+        "R24",
+        "R38",
+        "R40"
+      ]
+    },
+    {
+      "id": "C15",
+      "pages": [
+        6
+      ],
+      "claim": "An operator and real data validate the speed model",
+      "assessment": "No observations, errors, independent holdout or validation metrics are retained locally.",
+      "reference_ids": [
+        "D08"
+      ]
+    },
+    {
+      "id": "C16",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Figure 4 separates constant and increased-power cases",
+      "assessment": "The left panel starts near 15 knots and the right near 12, opposite the prose assignment. The curves are not independently regenerated.",
+      "reference_ids": [
+        "D08"
+      ]
+    },
+    {
+      "id": "C17",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "A 25% faster strategy costs approximately 40% more fuel",
+      "assessment": "Hourly table ratios are 50–60%; route totals need voyage duration and weather controls. Different bases need not be contradictory.",
+      "reference_ids": [
+        "R41"
+      ]
+    },
+    {
+      "id": "C18",
+      "pages": [
+        7
+      ],
+      "claim": "The weather archive and sailing simulations characterize the route",
+      "assessment": "The exact MET product, interpolation and simulator are missing. Simulated histograms are not direct travel-time observations.",
+      "reference_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "C19",
+      "pages": [
+        7
+      ],
+      "claim": "Reducing the simulations to 26 seasons preserves key properties",
+      "assessment": "The selection algorithm, weights, tail checks and out-of-sample objective convergence are not supplied locally.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C20",
+      "pages": [
+        7
+      ],
+      "claim": "Summer and winter travel-time statistics differ",
+      "assessment": "The printed statistics are retained. The 75% > header is ambiguous and no complete distribution is reconstructed.",
+      "reference_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "C21",
+      "pages": [
+        7
+      ],
+      "claim": "Extreme waves occur 2.3 times per year for an average 11 hours",
+      "assessment": "The weather/simulation claim remains unverified and is not a ship-breakdown probability.",
+      "reference_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "C22",
+      "pages": [
+        7
+      ],
+      "claim": "The base model solves in 435 seconds using Pyomo and Gurobi 8.1.0",
+      "assessment": "These are reported implementation and hardware details. Native code, logs, gap and tolerances are not reproduced.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C23",
+      "pages": [
+        7
+      ],
+      "claim": "The 99% case costs 143 MEUR and 33.8 EUR/t",
+      "assessment": "A standard annuity and transported-mass basis can match rounded values. The printed annuity and cash flows remain unresolved; this excludes capture and downstream storage costs.",
+      "reference_ids": [
+        "D07"
+      ]
+    },
+    {
+      "id": "C24",
+      "pages": [
+        7
+      ],
+      "claim": "The main cost components sum to 33.8 EUR/t",
+      "assessment": "The four-component sum is reconstructed. Some finer graph and energy sums can differ within rounding intervals, without proving a typo.",
+      "reference_ids": [
+        "D07"
+      ]
+    },
+    {
+      "id": "C25",
+      "pages": [
+        7
+      ],
+      "claim": "Conditioning electricity costs 7.8 EUR/t",
+      "assessment": "Dividing cost by price is a conditional component estimate, not a complete process or utility/supplier inventory.",
+      "reference_ids": [
+        "R07",
+        "D03",
+        "D12"
+      ]
+    },
+    {
+      "id": "C26",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "The 99% and 100% cases require different source buffers",
+      "assessment": "5,120 t is 102.4% of ship mass; 5,890 t is 117.8%. Fractions of cycle emissions use another denominator and the cases must remain distinct.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C27",
+      "pages": [
+        7
+      ],
+      "claim": "Summer slowing saves 1 MEUR or 0.24 EUR/t",
+      "assessment": "The reported policy is not reproduced. Only the discounted arithmetic and rounding can be checked.",
+      "reference_ids": [
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "id": "C28",
+      "pages": [
+        8
+      ],
+      "claim": "The last percentage point costs 41.9 EUR/t with a 24% premium",
+      "assessment": "Rounded incremental cost can support this statement under a disclosed annuity comparison. It is not capture or retention performance.",
+      "reference_ids": [
+        "D07"
+      ]
+    },
+    {
+      "id": "C29",
+      "pages": [
+        8
+      ],
+      "claim": "Extra buffers can recover a 12-hour delay or longer disruption",
+      "assessment": "Recovery depends on slack, inventory boundaries and valid extreme-weather modelling. It is not guaranteed service availability.",
+      "reference_ids": [
+        "D06",
+        "D08"
+      ]
+    },
+    {
+      "id": "C30",
+      "pages": [
+        8
+      ],
+      "claim": "Ignoring weather at design causes a 6.4 MEUR loss",
+      "assessment": "A native VSS comparison needs matched information, probabilities, objectives and service. The reported design is not independently rerun.",
+      "reference_ids": [
+        "D06",
+        "D07"
+      ]
+    },
+    {
+      "id": "C31",
+      "pages": [
+        8,
+        10
+      ],
+      "claim": "Ignoring delays raises cost by 1.9 EUR/t and venting by 4,000 t/year",
+      "assessment": "The body includes fuel, penalties and capital effects, while the conclusion calls the increase fuel cost. Different transported-mass bases may explain part of the arithmetic, but remain unverified.",
+      "reference_ids": [
+        "D07",
+        "D12"
+      ]
+    },
+    {
+      "id": "C32",
+      "pages": [
+        8
+      ],
+      "claim": "The deterministic design uses 25% more fuel and powers up in 53% of scenarios",
+      "assessment": "These are reported conditional policy results, not a universal penalty for deterministic planning.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C33",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "At 10% seasonal variation, the 5,000 t ship remains preferable",
+      "assessment": "The 1.3 EUR/t margin, 3,250 t venting and buffer changes require native season weights and schedules.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C34",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "At 20–30% variation, the 7,500 t ship is preferable",
+      "assessment": "The full comparison is not reproduced. The reported 5,445 t cycle exceeds the smaller ship by 445 t.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C35",
+      "pages": [
+        1,
+        8,
+        9
+      ],
+      "claim": "Seasonal storage is never cost-effective",
+      "assessment": "Separate cyclic seasons forbid storage between months. The general claim requires a feasible comparison that permits that strategy.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C36",
+      "pages": [
+        9
+      ],
+      "claim": "Higher fuel prices increase the value of buffers",
+      "assessment": "This is deterministic sensitivity rather than a calibrated joint fuel-price uncertainty model. The final percentage label also needs reconciliation.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C37",
+      "pages": [
+        9
+      ],
+      "claim": "Underinvestment is more costly than overinvestment",
+      "assessment": "The reported 2.1 versus 0.73 MEUR losses concern particular cross-evaluated price/design cases, not a general theorem.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C38",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "One annual ship breakdown can justify an 8,660 t buffer",
+      "assessment": "The case assumes no concurrent weather disruption and lacks an empirical fault law. Native inventory and cost timing remain unavailable.",
+      "reference_ids": [
+        "D09"
+      ]
+    },
+    {
+      "id": "C39",
+      "pages": [
+        9
+      ],
+      "claim": "Added breakdown storage is 2,760 t and totals 173% of ship capacity",
+      "assessment": "The displayed endpoint difference is 2,770 t; rounding or version differences may matter. The total ratio is 173.2%, not an annual-service factor.",
+      "reference_ids": [
+        "D09"
+      ]
+    },
+    {
+      "id": "C40",
+      "pages": [
+        10
+      ],
+      "claim": "The 118% buffer is the base optimum at the lowest reported unit cost",
+      "assessment": "The 118% ship ratio belongs to the 100% case. The 99% case with 33.8 EUR/t has a 102.4% source-buffer ratio.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C41",
+      "pages": [
+        10
+      ],
+      "claim": "Fuel and breakdown findings transfer to other chains",
+      "assessment": "The cost, weather and schedule assumptions are case specific. No regional injection or complete GHG factor follows.",
+      "reference_ids": [
+        "D09",
+        "D12"
+      ]
+    },
+    {
+      "id": "C42",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "iCCS, HYSYS and APEA supply the process and cost functions",
+      "assessment": "Native files, factors and fitted coefficients are not retained. The one original-source check supports method context under a different offshore boundary.",
+      "reference_ids": [
+        "R07",
+        "R16",
+        "R17",
+        "R31",
+        "R32"
+      ]
+    },
+    {
+      "id": "C43",
+      "pages": [
+        11
+      ],
+      "claim": "All costs are updated to 2017 prices",
+      "assessment": "Exact index values, dates, currencies and regional adjustments are not available for each component.",
+      "reference_ids": [
+        "R04",
+        "R13",
+        "R36"
+      ]
+    },
+    {
+      "id": "C44",
+      "pages": [
+        11
+      ],
+      "claim": "Conditioning produces liquid CO2 at 6.5 bar and minus 50 C",
+      "assessment": "Pressure basis, composition, EOS and complete stream duties remain missing. The PFD is not a complete inventory.",
+      "reference_ids": [
+        "R07",
+        "R43"
+      ]
+    },
+    {
+      "id": "C45",
+      "pages": [
+        12
+      ],
+      "claim": "Fixed O&M equals 5.5% of capital",
+      "assessment": "Rounded conditioning and buffer values agree. The reconditioning coefficient does not agree on the same printed basis.",
+      "reference_ids": [
+        "R31",
+        "D07"
+      ]
+    },
+    {
+      "id": "C46",
+      "pages": [
+        12
+      ],
+      "claim": "Buffer investment costs 1,130 EUR/m3",
+      "assessment": "The implied mass-density conversion is not an EOS validation. The unqualified Roussanaly 2013 attribution remains ambiguous.",
+      "reference_ids": [
+        "R30",
+        "R31"
+      ]
+    },
+    {
+      "id": "C47",
+      "pages": [
+        12,
+        13
+      ],
+      "claim": "Harbor costs scale from 7.9 MEUR at 3 Mt/year",
+      "assessment": "The prose exponent is 0.85 and the displayed appendix exponent is 0.8. Neither is silently selected as the correction.",
+      "reference_ids": [
+        "R21"
+      ]
+    },
+    {
+      "id": "C48",
+      "pages": [
+        6,
+        12
+      ],
+      "claim": "Ship capital and fixed operating costs have a consistent version",
+      "assessment": "The 5,000 t investment and O&M values differ among Tables 1, 2 and 6. Their scope and version need native reconciliation.",
+      "reference_ids": [
+        "R16",
+        "R17",
+        "D07"
+      ]
+    },
+    {
+      "id": "C49",
+      "pages": [
+        12
+      ],
+      "claim": "Utility prices define operating cost inputs",
+      "assessment": "Prices alone do not establish quantities, supplier emissions or complete capture-chain burdens.",
+      "reference_ids": [
+        "R09",
+        "R30",
+        "D03",
+        "D04",
+        "D12"
+      ]
+    },
+    {
+      "id": "C50",
+      "pages": [
+        13
+      ],
+      "claim": "The KPI uses 25 years, 8% and a 40/30/30 construction schedule",
+      "assessment": "The actual cash-flow dates must agree with the objective and annuity. The named Anantharaman authority has no complete bibliography entry.",
+      "reference_ids": [
+        "D05",
+        "D07"
+      ]
+    },
+    {
+      "id": "C51",
+      "pages": [
+        13
+      ],
+      "claim": "The supplementary data enables reproduction",
+      "assessment": "Appendix B gives a DOI, but the external asset is not retained. Public contents, versions and rights are unverified under the Chrome pause.",
+      "reference_ids": [
+        "D10"
+      ]
+    },
+    {
+      "id": "C52",
+      "pages": [
+        13
+      ],
+      "claim": "The bibliography identifies supporting originals",
+      "assessment": "All 44 entries are retained, including the Jakobsen duplicate candidate. One scoped check does not verify the other 43 entries or twelve dependencies.",
+      "reference_ids": [
+        "D11"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Alabdulkarem, et al., 2012. Development of CO2 liquefaction cycles for CO2 sequestration. Appl. Therm. Eng. 144–156.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R02",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Aspelund, E.A., 2006. SHIP TRANSPORT OF CO2 technical solutions and analysis of costs, energy utilization, exergy efficiency and CO2 emissions. Chem. Eng. Res. Des. 847–855.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R03",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "Benhelal, et al., 2013. Global strategies and potentials to curb CO2 emissions in cement industry. J. Clean. Prod. 142–161.",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R04",
+      "pages": [
+        11,
+        13
+      ],
+      "citation": "Chemical Engineering, 2019. Economic Indicators: Chemical Engineering Plant Cost Index (CEPCI).",
+      "claim_links": [
+        "C43"
+      ],
+      "role": "All costs are updated to 2017 prices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R05",
+      "pages": [
+        13
+      ],
+      "citation": "Chen, et al., 2010. Environmental impact of cement production: detail of the different processes and cement plant variability evaluation. J. Clean. Prod. 478–485.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R06",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Coussy, et al., 2013. Economic CO2 network optimization model COCATE European project (2010-2013). EnergyProcedia 37, 2923–2931.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R07",
+      "pages": [
+        2,
+        3,
+        7,
+        10,
+        11,
+        13
+      ],
+      "citation": "Deng, et al., 2019. Techno-economic analyses of CO2 liquefaction: impact of product pressure and impurities. Int. J. Refrig. 301–315.",
+      "claim_links": [
+        "C04",
+        "C25",
+        "C42",
+        "C44"
+      ],
+      "role": "Very pure CO2 allows conditioning without liquefaction loss; Conditioning electricity costs 7.8 EUR/t; iCCS, HYSYS and APEA supply the process and cost functions; Conditioning produces liquid CO2 at 6.5 bar and minus 50 C",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R08",
+      "pages": [
+        13
+      ],
+      "citation": "Feiz, et al., 2015. Improving the CO2 performance of cement, part II: framework for assessing CO2 improvement measures in the cement industry. J. Clean. Prod. 282–291.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R09",
+      "pages": [
+        1,
+        2,
+        12,
+        13
+      ],
+      "citation": "Gardarsdottir, et al., 2019. Comparison of Technologies for CO2 Capture from Cement Production—Part 2: Cost Analysis. Energies.",
+      "claim_links": [
+        "C01",
+        "C49"
+      ],
+      "role": "Historical CCS deployment and shipping context; Utility prices define operating cost inputs",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R10",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "https://www.globalccsinstitute.com/resources/ccs-database-publicGCCSI. (2019, 11 04). Retrieved from .",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R11",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Geske, et al., 2015. CCS Transportation Infrastructures: Technologies, Costs, and Regulation. In CCS Transportation Infrastructures: Technologies, Costs, and Regulation. Springer, pp. 183–199.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R12",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "IEA, 2019. Transforming Industry Through CCUS. IEA.",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R13",
+      "pages": [
+        11,
+        13
+      ],
+      "citation": "IHS, 2018. The IHS upstream costs indexe.",
+      "claim_links": [
+        "C43"
+      ],
+      "role": "All costs are updated to 2017 prices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R14",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "IPCC, 2018. Global Warming of 1.5 ºC. IPCC.",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R15",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "ITTC, 2005. ITTC – Recommended Procedures and Guidelines. Retrieved 05 16, 2019, from https://ittc.info/media/1936/75-04-01-012.pdf.",
+      "claim_links": [
+        "C14"
+      ],
+      "role": "STAwave-1 predicts sailing speed under waves",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R16",
+      "pages": [
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Jakobsen, et al., 2017a. A techno-economic case study of CO2 capture, transport and storagechain from a cement plant in Norway. J. Clean. Prod. 523–539.",
+      "claim_links": [
+        "C42",
+        "C48"
+      ],
+      "role": "iCCS, HYSYS and APEA supply the process and cost functions; Ship capital and fixed operating costs have a consistent version",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R17",
+      "pages": [
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Jakobsen, et al., 2017b. A techno-economic case study of CO2 capture, transport and storage chain from a cement plant in Norway. J. Clean. Prod. 144, 523–539.",
+      "claim_links": [
+        "C42",
+        "C48"
+      ],
+      "role": "iCCS, HYSYS and APEA supply the process and cost functions; Ship capital and fixed operating costs have a consistent version",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R18",
+      "pages": [
+        13
+      ],
+      "citation": "Jokar, Z., Mokhtar, A., 2018. Policy making in the cement industry for CO2 mitigation on the pathway of sustainable development- a system dynamics approach. J. Clean. Prod. 142–155.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R19",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "citation": "Kajaste, R., Hurme, M., 2016. Cement industry greenhousegas emissions - managment options and abatement cost. J. Clean. Prod. 4041–4052.",
+      "claim_links": [
+        "C01"
+      ],
+      "role": "Historical CCS deployment and shipping context",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R20",
+      "pages": [
+        2,
+        3,
+        4,
+        13
+      ],
+      "citation": "King, A.J., Wallace, S.W., 2012. Modeling with Stochastic Programming. Springer.",
+      "claim_links": [
+        "C05",
+        "C06"
+      ],
+      "role": "Expected-cost stochastic design improves investment choices; The two-stage model forecasts entire 17-day operating seasons",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R21",
+      "pages": [
+        12,
+        13
+      ],
+      "citation": "Knoope, M., et al., 2015. The influence of uncertainty in the development of a CO2 infrastructure network. Appl. Energy 332–347.",
+      "claim_links": [
+        "C47"
+      ],
+      "role": "Harbor costs scale from 7.9 MEUR at 3 Mt/year",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R22",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Knoope, et al., 2013. A state-of-the-art review of techno-economic models predicting the costs of CO2 pipeline transport. Int. J. Greenh. Gas Control. 241–270.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R23",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Kristensen, H., 2013. Statistical Analysis and Determination of Regression Formulas for Main Dimensions of Container Ships Based on IHS Fairplay Data. Technical University of Denmark.",
+      "claim_links": [
+        "C13"
+      ],
+      "role": "Candidate ships have design power of 1,500–2,500 W",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R24",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Kristensen, H.O., Lützen, M., 2012. Prediction of Resistance and Propulsion Power of Ships. DTU.",
+      "claim_links": [
+        "C14"
+      ],
+      "role": "STAwave-1 predicts sailing speed under waves",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R25",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Lee, et al., 2017. Design of boil-off CO2 re-liquefaction processes for a large-scale liquid CO2 transport ship. Int. J. Greenh. Gas Control. 93–102.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R26",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Levander, K., 2006. System based ship design. NTNU Compendium Used in the Course TMR 4110 Marine Design and. Trondheim: Published by NTNU-Marin Technology.",
+      "claim_links": [
+        "C13"
+      ],
+      "role": "Candidate ships have design power of 1,500–2,500 W",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R27",
+      "pages": [
+        2,
+        3,
+        4,
+        13
+      ],
+      "citation": "Louveaux, F., Birge, J.R., 2008. Two-stage stochastic programs with recourse. In: Floudas C, P.P. (Ed.), Encyclopedia of Optimization. Springer, Boston, MA.",
+      "claim_links": [
+        "C05",
+        "C06"
+      ],
+      "role": "Expected-cost stochastic design improves investment choices; The two-stage model forecasts entire 17-day operating seasons",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R28",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "McCoy, S.T., 2009. The Economics of CO2 Transportation by Pipeline and Storage in Saline Aquifers and Oil Reservoirs. Ph.D.Dissertation. Carnegie Mellon Universitty, Pittsburgh, Pa.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R29",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Metz, et al., 2005. IPCC Special Report on Carbon Dioxide Capture and Storage. IPCC.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R30",
+      "pages": [
+        2,
+        12,
+        13
+      ],
+      "citation": "Roussanaly, et al., 2013a. Costs benchmark of CO2 transport technologies for a group of various size industries. Int. J. Greenh. Gas Control. 341–350.",
+      "claim_links": [
+        "C02",
+        "C46",
+        "C49"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers; Buffer investment costs 1,130 EUR/m3; Utility prices define operating cost inputs",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R31",
+      "pages": [
+        2,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Roussanaly, et al., 2013b. Benchmarking of CO2 transport technologies: part I—onshore pipelineand shipping between two onshore areas. Int. J. Greenh. Gas Control. 584–594.",
+      "claim_links": [
+        "C02",
+        "C42",
+        "C45",
+        "C46"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers; iCCS, HYSYS and APEA supply the process and cost functions; Fixed O&M equals 5.5% of capital; Buffer investment costs 1,130 EUR/m3",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R32",
+      "pages": [
+        2,
+        10,
+        11,
+        13
+      ],
+      "citation": "Roussanaly, et al., 2014. Benchmarking of CO2 transport technologies: part II – offshorepipeline and shipping to an offshore site. Int. J. Greenh. Gas Control. 282–299.",
+      "claim_links": [
+        "C02",
+        "C42"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers; iCCS, HYSYS and APEA supply the process and cost functions",
+      "verification_status": "primary_text_checked_partial_support_different_offshore_boundary",
+      "assessment": "Exact retained original pp1,3,4 supports distance/capacity benchmarking and conditioning context, with offshore delivery and excluded glycol boundaries. Full original/model/source chain remains unverified."
+    },
+    {
+      "id": "R33",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Seo, Y., et al., 2017. Determination of optimal volume of temporary storage tanks in a ship-based carbon capture and storage (CCS) chain using life cycle cost (LCC) including unavailability cost. Int. J. Greenh. Gas Control. 11–22.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R34",
+      "pages": [
+        13
+      ],
+      "citation": "Sharma, D., Goyal, S., 2018. Accelerated carbonation curing of cement mortars containing cement kiln dust: an effective way of CO2 sequestration and carbon footprint reduction. J. Clean. Prod. 844–854.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R35",
+      "pages": [
+        13
+      ],
+      "citation": "Skaugen, et al., 2016. Techno-economic evaluation of the effects of impurities on conditioning and transport of CO2 by pipeline. Int. J. Greenh. Gas Control. 627–639.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R36",
+      "pages": [
+        11,
+        13
+      ],
+      "citation": "Trading Economics, 2018. Trading Economics Database on Euro Area Inflation Rate.",
+      "claim_links": [
+        "C43"
+      ],
+      "role": "All costs are updated to 2017 prices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R37",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Turbo, M. D. (2013), 08 01. marine.mandieselturbo.com. Retrieved 06 04, 2019, from https://marine.mandieselturbo.com/docs/librariesprovider6/technical-papers/ propulsion-trends-in-container-vessels.pdf?sfvrsn=20.",
+      "claim_links": [
+        "C13"
+      ],
+      "role": "Candidate ships have design power of 1,500–2,500 W",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R38",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "van den Boom, H., van der Hout, I., Flikkema, M., 2008. Speed-power performance of ships during trials and in service. SNAME Ship Preformance Conference 7.",
+      "claim_links": [
+        "C14"
+      ],
+      "role": "STAwave-1 predicts sailing speed under waves",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R39",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Vermeulen, T.N., 2010. KNOWLEDGE SHARING REPORT – CO2 liquid logistics shipping concept (LLSC) overall supply chain optimization. Tebodin Consultants Eng.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R40",
+      "pages": [
+        6,
+        13
+      ],
+      "citation": "Volker, B., 2011. Practical Ship Hydrodynamics. Elsiver.",
+      "claim_links": [
+        "C14"
+      ],
+      "role": "STAwave-1 predicts sailing speed under waves",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R41",
+      "pages": [
+        6,
+        7,
+        13
+      ],
+      "citation": "Wigforss, J., 2012. Chalmers.se.. Retrieved 06 04, 2019, from http://publications.lib.cha lmers.se/records/fulltext/159671.pdf..",
+      "claim_links": [
+        "C17"
+      ],
+      "role": "A 25% faster strategy costs approximately 40% more fuel",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R42",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Yoo, et al., 2013. Development of CO2 terminal and CO2 carrier for future commercialized CCS market. Int. J. Greenh. Gas Control. 323–332.",
+      "claim_links": [
+        "C02"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R43",
+      "pages": [
+        2,
+        11,
+        13
+      ],
+      "citation": "ZEP, 2011. The costs of CO2 transport. Post-demonstration CCS in the EU.",
+      "claim_links": [
+        "C02",
+        "C44"
+      ],
+      "role": "Earlier shipping studies address mode choice, liquefaction and buffers; Conditioning produces liquid CO2 at 6.5 bar and minus 50 C",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "R44",
+      "pages": [
+        13
+      ],
+      "citation": "Zuberi, M.S., Patel, M.K., 2017. Bottom-up analysis of energy efficiency improvement and CO2 emission reduction potentials in the Swiss cement industry. J. Clean. Prod. 4294–4309.",
+      "claim_links": [],
+      "role": "Printed method/background authority; exact original support remains unverified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed use read. Original passages, derivations, inputs, provenance and further dependencies remain unverified."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        2
+      ],
+      "citation": "Voldsund2019 capture technology and waste-heat basis",
+      "claim_links": [
+        "C03"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        7
+      ],
+      "citation": "MeteorologiskInstitutt2020 exact product/data/version and route archive",
+      "claim_links": [
+        "C18",
+        "C20",
+        "C21"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        12
+      ],
+      "citation": "Eurostat2017 electricity price source",
+      "claim_links": [
+        "C25",
+        "C49"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        12
+      ],
+      "citation": "Worldwide2017 shipping fuel source",
+      "claim_links": [
+        "C49"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        13
+      ],
+      "citation": "Anantharaman2011 costing/finance guidance",
+      "claim_links": [
+        "C50"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        3,
+        4,
+        5,
+        7
+      ],
+      "citation": "NativePyomo/scenario selection/probabilities/weights/windows/solver inputs",
+      "claim_links": [
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11",
+        "C12",
+        "C19",
+        "C22",
+        "C26",
+        "C27",
+        "C29",
+        "C30",
+        "C32",
+        "C33",
+        "C34",
+        "C35",
+        "C36",
+        "C37",
+        "C40"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13
+      ],
+      "citation": "Nativecapacity/costversions,annualization,construction and KPIcashflows",
+      "claim_links": [
+        "C08",
+        "C23",
+        "C24",
+        "C27",
+        "C28",
+        "C30",
+        "C31",
+        "C45",
+        "C48",
+        "C50"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "citation": "STAwavevalidation,operator observations and navigation/control domain",
+      "claim_links": [
+        "C15",
+        "C16",
+        "C29"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D09",
+      "pages": [
+        9,
+        10
+      ],
+      "citation": "Ex-postbreakdowncases,costtimebasis and empiricalfault law",
+      "claim_links": [
+        "C38",
+        "C39",
+        "C41"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D10",
+      "pages": [
+        13
+      ],
+      "citation": "ExplicitpublisherAppendixBsupplement/code/rights",
+      "claim_links": [
+        "C51"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D11",
+      "pages": [
+        13
+      ],
+      "citation": "Bibliographyidentity/duplicate/missingnamedauthority reconciliation",
+      "claim_links": [
+        "C52"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    },
+    {
+      "id": "D12",
+      "pages": [
+        2,
+        7,
+        11,
+        12
+      ],
+      "citation": "Completecapture/conditioning/ship/reconditioning/utilities,GHG andretention inventory",
+      "claim_links": [
+        "C25",
+        "C31",
+        "C41",
+        "C49"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Necessary named source or implementation asset remains unverified. It is not supplied by a guessed input, a title match or a cost-only graphic."
+    }
+  ],
+  "issues": [
+    {
+      "id": "O01",
+      "pages": [
+        5
+      ],
+      "status": "OPEN_PRINTED_BALANCE_AND_REQUIREMENT",
+      "finding": "Eq17/18 receiving-buffer signs oppose described flow roles; Eq21 prints <= for a minimum. Free cyclic inventory can mirror sign profiles, so native outcome impact is not assumed.",
+      "action": "Obtain native implementation and errata; check actual states, initial conditions, inequality, expected versus per-scenario service and domains without silently correcting the paper."
+    },
+    {
+      "id": "O02",
+      "pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "OPEN_TIME_CAPACITY_INDEX_UNITS",
+      "finding": "Three-hour mass versus CAP/12h rate, annual capacity cost coefficients, h=1 predecessor, seasonal weights/probabilities and scenario fuel index are not fully mapped.",
+      "action": "Reconcile native units and indexing, slot generation, probabilities and representative-to-annual scaling before reproducing flows or costs."
+    },
+    {
+      "id": "O03",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "OPEN_HYDRODYNAMIC_UNITS_AND_VALIDATION",
+      "finding": "PowerW1500–2500, inlineHs versusEq22Hs², undefinedRf, relative-density wording and swappedFigure4panel descriptions remain unresolved.",
+      "action": "Verify originalSTAwave, ship units and validation data. Keep literalW and conditionalkW examples separate from accepted physical inputs."
+    },
+    {
+      "id": "O04",
+      "pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "OPEN_BUFFER_CASE_AND_PERCENT_BASES",
+      "finding": "99%5120t=102.4%ship differs100%5890t=117.8%;cyclefractionsandabstract/conclusionmerge cases. Table4 5480/5000=109.6%, not110.0%.",
+      "action": "Preserve exact cases/denominators and printed values; check native outputs and rounding, rather than impose a universal18%or73%buffer rule."
+    },
+    {
+      "id": "O05",
+      "pages": [
+        4,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12,
+        13
+      ],
+      "status": "OPEN_COST_VERSION_AND_TIME_BASIS",
+      "finding": "Annuity10.56versus25y8%;shipTable1/2/6costs;reconditioningO&M5.5%;.85versus.8scaling;VSS/unitcost/penalty/throughput andFigure9annual/NPV bases unresolved.",
+      "action": "Obtain native cashflows, coefficient versions, years and cost boundaries. Rounding-compatible comparisons are not confirmed corrections or fullcostreproduction."
+    },
+    {
+      "id": "O06",
+      "pages": [
+        3,
+        4,
+        8,
+        9
+      ],
+      "status": "OPEN_INFORMATION_AND_FEASIBLE_SET",
+      "finding": "Perfect17dayforesight is acknowledged; Delta per season and independentcyclicseasons limit adaptation and forbidinterseasonstorage. Genericseasonal-storageinefficiency and slightcapacitybias notdemonstrated.",
+      "action": "Use matched nonanticipative controls and explicitly allow any proposed seasonal strategy before claiming general performance or capacity sufficiency."
+    },
+    {
+      "id": "O07",
+      "pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "OPEN_WEATHER_AND_OUTAGE_REPRODUCTION",
+      "finding": "Raw METdata, route simulations, reducedscenario probabilities, tail validation and ex-postfault cases are unavailable. No empirical breakdown law supplied.",
+      "action": "Archive exact datasets/code/rights when connection permits; verify weather/selection and separate price sensitivity and idealfaults from calibrated risk."
+    },
+    {
+      "id": "O08",
+      "pages": [
+        2,
+        3,
+        7,
+        10,
+        11,
+        12
+      ],
+      "status": "OPEN_EXCLUDE_PHYSICAL_GHG_AND_ACCESS_TRANSFER",
+      "finding": "Capturefixed,offshorepipeline/storageexcluded; monetaryprices/PFD/costsnotcompleteheat/work/cooling/supplierinventory,pressure-constrainedinjection,retention orcurrentaccess.",
+      "action": "Exclude unsupported inputs and retain historic Norwegian proxy scope. Require complete compatible process/well/inventory/service evidence."
+    },
+    {
+      "id": "O09",
+      "pages": [
+        2,
+        6,
+        11,
+        12,
+        13
+      ],
+      "status": "OPEN_SOURCE_CHAIN_AND_ASSETS",
+      "finding": "One scoped Roussanaly2014 edge,43otherprintedentries and12dependencies open;Jakobsen2017a/bidentityduplicatecandidate,missingauthorities,explicitSIandnativecasesunverified.",
+      "action": "Continue exact-originalchecks and B2-09 locally. Retrieve public assets only under the requested connection/access; no author contact or inferred public absence."
+    }
+  ],
+  "supplements": "Internal Appendix A is part of the 13-page PDF. Appendix B provides an explicit publisher supplement DOI. No embedded files or matched local SI/code were identified; public contents, versions and rights remain unknown. External retrieval is paused pending the requested Chrome connection. No author contact was made.",
+  "reproduction": "Limited source arithmetic and explicitly labelled analyst LP, cyclic-inventory, unit, annuity, scaling and conditional speed examples only. No native Pyomo/Gurobi optimum, weather archive/route simulation, reduced scenario set, out-of-sample policy, Aspen/HYSYS/APEA/iCCS case or fault design is reproduced. Printed notation questions do not establish defects in unavailable code.",
+  "paper1_use": "Recognize prior stochastic ship/buffer/operation design and the value of matching information, service and cost bases. Preserve perfect-foresight, independent seasonal cycles, buffer denominators and printed equation/unit/cost questions. No generic18%/73%buffer, cost penalty, outage law, pressure service, utility/GHG or retained-carbon input is transferred; original files and existing numerical results remain unchanged.",
+  "next_steps": "Continue B2-09 locally. When the requested connection permits, obtain exact publisher SI, weather data, scenario probabilities/windows, code/solver logs, process files and cost basis with rights. Verify43remainingprintedentries and twelve dependencies, reconcile literal equations and reproduce native cases before any comprehensive-completion claim."
+}

@@ -1,0 +1,21 @@
+{
+  "study_id": "B2-08",
+  "source_sha256": "060eb3b24c0362f5f16b202fe96d2fc8aee6c498d2cf97df21a3416796e1dcae",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R32",
+      "cited_study": "B3-36",
+      "source_sha256": "ff1aed5588e1c4de2f6c5d909f1917293dac2cce7b5565f8547b64397eae6300",
+      "doi": "10.1016/j.ijggc.2014.06.019",
+      "targeted_pages": [
+        1,
+        3,
+        4
+      ],
+      "inspection": "All listed original pages text-read and rendered pages inspected",
+      "supported": "Distance/capacity mode benchmarking and conditioning context;2–20Mt/year,200–2000km,post-capture feed,6.5bar/-50Cshipping andpressure-limited offshorepipeline boundary",
+      "unresolved": "Original offshore delivery differs from B2-08 onshore-terminal chain; original excludes glycol dehydration and is not a matched complete capture utility inventory. No stochastic buffer policy, B2-08 case, original full model or citation chain verified. Printed B2-08 entry begins282 versus original283; identity/pagination retained."
+    }
+  ]
+}
