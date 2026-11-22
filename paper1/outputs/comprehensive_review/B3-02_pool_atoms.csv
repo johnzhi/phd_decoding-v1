@@ -1,0 +1,13 @@
+correlation_mixture,site1_event,site2_event,probability,loss_units,pool_paid_units,unfunded_units,scope
+0,0,0,0.81,0,0,0,All probabilities/severities/fund limits are analyst assumptions
+0,0,1,0.09000000000000001,100,100,0,All probabilities/severities/fund limits are analyst assumptions
+0,1,0,0.09000000000000001,100,100,0,All probabilities/severities/fund limits are analyst assumptions
+0,1,1,0.010000000000000002,200,100,100,All probabilities/severities/fund limits are analyst assumptions
+0.5,0,0,0.855,0,0,0,All probabilities/severities/fund limits are analyst assumptions
+0.5,0,1,0.045000000000000005,100,100,0,All probabilities/severities/fund limits are analyst assumptions
+0.5,1,0,0.045000000000000005,100,100,0,All probabilities/severities/fund limits are analyst assumptions
+0.5,1,1,0.05500000000000001,200,100,100,All probabilities/severities/fund limits are analyst assumptions
+1,0,0,0.9,0,0,0,All probabilities/severities/fund limits are analyst assumptions
+1,0,1,0.0,100,100,0,All probabilities/severities/fund limits are analyst assumptions
+1,1,0,0.0,100,100,0,All probabilities/severities/fund limits are analyst assumptions
+1,1,1,0.1,200,100,100,All probabilities/severities/fund limits are analyst assumptions

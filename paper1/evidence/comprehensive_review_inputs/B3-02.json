@@ -1,0 +1,104 @@
+{
+  "study_id": "B3-02",
+  "source_path": "papers/B3-02.pdf",
+  "source_sha256": "22eb70b28615cd06cc5d94bc4c1ea5a21f5cfbd76a3dee2cf99e26b235051e17",
+  "provenance": "Read retained eight-page conference paper and enlarged tables. Historical 2008/2009 sources, not current law. No native numerical actuarial/reservoir model or calibration. Synthetic examples are explicitly analyst choices outside accepted Paper 1 inputs.",
+  "quotes": {
+    "handoff": "these rules require monitoring but do not have any provisions for a transfer of responsibility",
+    "performance": "post-injection site care will continue until the plume is stabilized and cannot endanger USDWs",
+    "longer_version": "A longer version of this paper can be found in the Emory Law Review, Fall 2008."
+  },
+  "source_locators": {
+    "statutory_notes": [
+      2,
+      3,
+      5
+    ],
+    "tort_table": [
+      4
+    ],
+    "funding_table": [
+      6
+    ],
+    "three_phase_proposal": [
+      6,
+      7
+    ],
+    "longer_version": [
+      1,
+      8
+    ]
+  },
+  "native_historical_numbers": {
+    "Superfund_initial_billion_USD": 1.6,
+    "Superfund_period_years": 5,
+    "nuclear_primary_insurance_million_USD": 300,
+    "nuclear_secondary_per_company_million_USD": 98.5,
+    "nuclear_total_about_billion_USD": 10,
+    "nuclear_threshold_MW": 10,
+    "illustrative_postclosure_years": [
+      15,
+      30,
+      50
+    ]
+  },
+  "phases": [
+    {
+      "phase": 1,
+      "name": "active_injection",
+      "author_proposal": "Operator liability and insurance, central-fund contribution during injection."
+    },
+    {
+      "phase": 2,
+      "name": "postclosure",
+      "author_proposal": "Operator monitoring, verification, remediation and full damage liability, with financial assurance; pool design must address moral hazard."
+    },
+    {
+      "phase": 3,
+      "name": "long_term_stewardship",
+      "author_proposal": "After predetermined performance conditions and sufficient funding, public or hybrid stewardship supports monitoring/remediation/damages and data/site management."
+    }
+  ],
+  "analyst": {
+    "risk_event_probability": 0.1,
+    "loss_per_site_units": 100,
+    "pool_funds_units": 100,
+    "correlation_mixtures": [
+      0,
+      0.5,
+      1
+    ],
+    "injection_mass_t": [
+      1000000.0,
+      2000000.0,
+      3000000.0
+    ],
+    "trial_fee_currency_per_t": 2,
+    "annual_postclosure_monitoring_currency": 1000000.0,
+    "real_net_returns": [
+      0,
+      0.02
+    ],
+    "monitoring_years": [
+      15,
+      30,
+      50
+    ],
+    "nuclear_example_contributors": 100,
+    "scope": "Two Bernoulli site losses and mixture correlation are synthetic, not observed CCS hazards. Funding example uses three end-year deposits, constant postclosure monitoring and no damage/remediation payments; no native fee/insurance premium/physical injection service inferred."
+  },
+  "missing_native_inputs": {
+    "actuarial_loss_frequencies_and_severities": null,
+    "cross_site_correlations": null,
+    "real_contribution_charges_and_asset_returns": null,
+    "monitoring_remediation_damage_costs": null,
+    "policy_exclusions_claims_made_tail_coverage": null,
+    "transfer_performance_thresholds_and_recourse": null,
+    "current_statutes_rules_case_law": null,
+    "full_Emory_version_identity_and_rights": null,
+    "native_reservoir_pressure_rate_data": null,
+    "complete_capture_to_ship_inventory": null
+  },
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "licence_link_observed_in_PDF": "http://creativecommons.org/licenses/by-nc-nd/3.0/"
+}

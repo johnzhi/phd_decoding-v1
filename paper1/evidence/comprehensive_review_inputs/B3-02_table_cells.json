@@ -1,0 +1,907 @@
+{
+  "study_id": "B3-02",
+  "source_sha256": "22eb70b28615cd06cc5d94bc4c1ea5a21f5cfbd76a3dee2cf99e26b235051e17",
+  "provenance": "Native cell text and bounding boxes retained; all50 cells including blanks inspected in enlarged renders. Extraction alone does not verify cited law or author claims.",
+  "cells": [
+    {
+      "id": "T1_trespass_description",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "trespass",
+      "column": "description",
+      "bbox": [
+        75.95,
+        150.70999999999998,
+        127.86999999999999,
+        211.09
+      ],
+      "native_text": "Property based tort:\ninterferance with a\nplaintiff’s possessory\ninterest in his personal\nproperty (land or\nchattels)",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_trespass_elements",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "trespass",
+      "column": "elements",
+      "bbox": [
+        127.89,
+        150.70999999999998,
+        204.27,
+        211.09
+      ],
+      "native_text": "The plaintiff must show that the 1)\ndefendant acted voluntarily or with\nan intent to commit the act (not\nnecessarily the effects of the act),\n2) that the plaintiff did not consent\nto the trespass in any way and 3)\nthat harm was suffered by the\nplaintiff.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_trespass_tests",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "trespass",
+      "column": "tests",
+      "bbox": [
+        204.29,
+        150.70999999999998,
+        272.44,
+        211.09
+      ],
+      "native_text": "",
+      "blank": true,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_trespass_examples_precedents",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "trespass",
+      "column": "examples_precedents",
+      "bbox": [
+        272.46,
+        150.70999999999998,
+        352.62,
+        211.09
+      ],
+      "native_text": "Oil and gas: where courts had treated\nmigration of resource as analagous to\nwild animals or 'fugitive resources',\nmeaning it belonged to no one until\ncaptured. Once efficient use of the\nresource became a priority for public\npolicy, the courts began weighing the\ncosts and benefits of storage.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_trespass_application_to_CCS",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "trespass",
+      "column": "application_to_CCS",
+      "bbox": [
+        352.64,
+        150.70999999999998,
+        436.16,
+        211.09
+      ],
+      "native_text": "Public policy favoring GHG\nreductions may weigh in favor of\napplying liability sparingly although\nthe sheer volumes of CO2 to be\ninjected might raise caution.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_description",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence",
+      "column": "description",
+      "bbox": [
+        75.95,
+        211.10999999999999,
+        127.86999999999999,
+        273.39
+      ],
+      "native_text": "Common law tort:\nConduct liable because\nit failed to take the care\nthat a reasonable person\nwould to protect\nanother from\nforeseeable harm",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_elements",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence",
+      "column": "elements",
+      "bbox": [
+        127.89,
+        211.10999999999999,
+        204.27,
+        273.39
+      ],
+      "native_text": "The plaintiff must show the\ndefendant 1) had a duty of care, 2)\nbreached that duty, 3) the breach\nwas the cause (actual and\nproximate) of the plaintiffs harm\nand 4) demonstrate damages.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_tests",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence",
+      "column": "tests",
+      "bbox": [
+        204.29,
+        211.10999999999999,
+        272.44,
+        273.39
+      ],
+      "native_text": "Every negligence case involves\na balancing of social costs and\nbenefits associated with the\ndefendant's conduct.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_examples_precedents",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence",
+      "column": "examples_precedents",
+      "bbox": [
+        272.46,
+        211.10999999999999,
+        352.62,
+        273.39
+      ],
+      "native_text": "",
+      "blank": true,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_application_to_CCS",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence",
+      "column": "application_to_CCS",
+      "bbox": [
+        352.64,
+        211.10999999999999,
+        436.16,
+        273.39
+      ],
+      "native_text": "It may be difficult to establish the\nappropriate standard of care or the\nduty or breach of that duty with a new\ntechnology and new industry.\nEstablishing the causal link between\nthe injected CO2 and the harm may\nalso be difficult, particularly where\nseveral parties are simultaneously\ninjecting into the same formation.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_per_se_description",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence_per_se",
+      "column": "description",
+      "bbox": [
+        75.95,
+        273.40999999999997,
+        127.86999999999999,
+        323.49
+      ],
+      "native_text": "Common law tort\nwhere a statute is\nsubstituted for the\n'reasonable person\nstandard' in a\nnegligence action.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_per_se_elements",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence_per_se",
+      "column": "elements",
+      "bbox": [
+        127.89,
+        273.40999999999997,
+        204.27,
+        323.49
+      ],
+      "native_text": "The plaintiff must show (1) the\ndefendant violated a statute, (2) the\nresulting harm or injury was of the\nkind the statute intended to\nprevent, and (3) the plaintiff was of\nthe class of persons intended to be\nprotected by the statute.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_per_se_tests",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence_per_se",
+      "column": "tests",
+      "bbox": [
+        204.29,
+        273.40999999999997,
+        272.44,
+        323.49
+      ],
+      "native_text": "The statute must be read by the\ncourt to have intended to\nprevent the kind of harm from\nhappening to the particular\nplaintiff bringing the action.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_per_se_examples_precedents",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence_per_se",
+      "column": "examples_precedents",
+      "bbox": [
+        272.46,
+        273.40999999999997,
+        352.62,
+        323.49
+      ],
+      "native_text": "Since the 1970s, courts have used\nnewly enacted state and federal\nenvironmental statutes and\nregulations to help define the duty in\nan array of environmental\nnegligence and negligence per se\ncases.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_negligence_per_se_application_to_CCS",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "negligence_per_se",
+      "column": "application_to_CCS",
+      "bbox": [
+        352.64,
+        273.40999999999997,
+        436.16,
+        323.49
+      ],
+      "native_text": "The body of state and federal statutes\nthat could provide the basis for a\ncommon law, negligence per se action\nis just developing.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_private_nuisance_description",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "private_nuisance",
+      "column": "description",
+      "bbox": [
+        75.95,
+        323.51,
+        127.86999999999999,
+        392.59000000000003
+      ],
+      "native_text": "Property based tort:\ninterference with a\nplaintiff’s private use\nand enjoyment of his\nland",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_private_nuisance_elements",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "private_nuisance",
+      "column": "elements",
+      "bbox": [
+        127.89,
+        323.51,
+        204.27,
+        392.59000000000003
+      ],
+      "native_text": "To show PRIVATE nuisance, a\nplaintiff must show an intentional\nand unreasonable (but not\nnecessarily illegal) or an\nunintentional but reckless or highly\ndangerous action by the defendant\nwhich intereferes with the use and\nenjoyment of the plaintiffs land.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_private_nuisance_tests",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "private_nuisance",
+      "column": "tests",
+      "bbox": [
+        204.29,
+        323.51,
+        272.44,
+        392.59000000000003
+      ],
+      "native_text": "Once established, the court\ngenerally balances the benefits\nfo the alleged nuisance activity\nwith the harm caused and other\nequitable factors to determine\nwhether the defendant should\npay damages or be enjoined\nfrom actions causing the\nnuisance",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_private_nuisance_examples_precedents",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "private_nuisance",
+      "column": "examples_precedents",
+      "bbox": [
+        272.46,
+        323.51,
+        352.62,
+        392.59000000000003
+      ],
+      "native_text": "The doctrines have been used by\nparties to obtain both injunctive and\nmonetary relief from air, water, soil\nand noise pollution resulting from an\narray of industrial and commercial\nactivities such as landfills, sewage\ntreatment plants, oil refineries,\nquarries and the like.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_private_nuisance_application_to_CCS",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "private_nuisance",
+      "column": "application_to_CCS",
+      "bbox": [
+        352.64,
+        323.51,
+        436.16,
+        392.59000000000003
+      ],
+      "native_text": "The doctrine of nuisance could apply\nto an operator complying fully with\nregulations and statutes governing\nbehavior if they activity never-the-less\nstill interferred substantially with a\nplaintiff's use of his land. However, a\nbalancing test might find the public\nbenefit from mitigating climate\nchange outweighs the harm or cost of\nthe action.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_public_nuisance_description",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "public_nuisance",
+      "column": "description",
+      "bbox": [
+        75.95,
+        392.61,
+        127.86999999999999,
+        456.39
+      ],
+      "native_text": "Property based tort:\ninterference with a\nright common to the\ngeneral public",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_public_nuisance_elements",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "public_nuisance",
+      "column": "elements",
+      "bbox": [
+        127.89,
+        392.61,
+        204.27,
+        456.39
+      ],
+      "native_text": "To show PUBLIC nuisance a\npublic body must show an\nunreasonable interference with a\nright common to the general\npublic, or a private party must\nshow he or she suffered unique\ninjury by the same that\ndifferentiates him/her from the rest\nof the general public.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_public_nuisance_tests",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "public_nuisance",
+      "column": "tests",
+      "bbox": [
+        204.29,
+        392.61,
+        272.44,
+        456.39
+      ],
+      "native_text": "Similar to private nuisance",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_public_nuisance_examples_precedents",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "public_nuisance",
+      "column": "examples_precedents",
+      "bbox": [
+        272.46,
+        392.61,
+        352.62,
+        456.39
+      ],
+      "native_text": "Similar to private nuisance but\ngenerally brought by public entities\nsuch as state attorneys general.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_public_nuisance_application_to_CCS",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "public_nuisance",
+      "column": "application_to_CCS",
+      "bbox": [
+        352.64,
+        392.61,
+        436.16,
+        456.39
+      ],
+      "native_text": "Similar to private nuisance but where\nthe activity interefered with a right\ncommon to the public like the right to\nclean air or water.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_strict_liability_description",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "strict_liability",
+      "column": "description",
+      "bbox": [
+        75.95,
+        456.40999999999997,
+        127.86999999999999,
+        532.09
+      ],
+      "native_text": "Common law tort:\nImposes liability\nregardless of intent\nwhere defendant is in\nthe best position to bear\nthe loss or avoid the\nrisk and usually where\nenganging in\nabnormally dangerous\nenterprise.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_strict_liability_elements",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "strict_liability",
+      "column": "elements",
+      "bbox": [
+        127.89,
+        456.40999999999997,
+        204.27,
+        532.09
+      ],
+      "native_text": "The plaintiff must show the\nexistence of a high degree of risk,\nlikelihood the harm will be great,\nthe inability to eliminate harm\nthrough reasonable care, the extent\nto which the activity is not\ncommon, the inappropriateness of\nresonable care, and the extent to\nwhich the value of the activity is\noutweighed by the risk.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_strict_liability_tests",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "strict_liability",
+      "column": "tests",
+      "bbox": [
+        204.29,
+        456.40999999999997,
+        272.44,
+        532.09
+      ],
+      "native_text": "Unlike other doctrines, under\nstrict liability the plaintiff does\nnot need to show the defendant\nintended to act or interfere with\na legally protected interest.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_strict_liability_examples_precedents",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "strict_liability",
+      "column": "examples_precedents",
+      "bbox": [
+        272.46,
+        456.40999999999997,
+        352.62,
+        532.09
+      ],
+      "native_text": "Courts have held defendants strictly\nliable for a broad range of related\nactivities including: the release of\npetroleum or oil contaminating\ngroundwater; the seeping of salt\nwater contaminating a water supply;\nthe release of pollutants during oil\ndrilling; and the percolation of\npollution from oil wells.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T1_strict_liability_application_to_CCS",
+      "table": 1,
+      "pages": [
+        4
+      ],
+      "row": "strict_liability",
+      "column": "application_to_CCS",
+      "bbox": [
+        352.64,
+        456.40999999999997,
+        436.16,
+        532.09
+      ],
+      "native_text": "States vary considerably in the\napplication of strict liability for\ndifferent activities. Similarly the level\nof associated risk varies greatly\nbetween the geology of different\npotential formations across the\ncountry.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_description_bonding",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "description",
+      "column": "bonding",
+      "bbox": [
+        77.18,
+        121.02000000000001,
+        164.44,
+        175.18
+      ],
+      "native_text": "Allows for the internalization of future\ndamages by requiring an up-front\ncommitment to offset costs of potential\nfuture pollution - often in the form of cash,\na letter of credit, a surety bond, or a trust\nfund or escrow account. For bonds to be\neffective, the time frame they cover must\nbe specified.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_description_insurance",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "description",
+      "column": "insurance",
+      "bbox": [
+        164.45999999999998,
+        121.02000000000001,
+        258.88,
+        175.18
+      ],
+      "native_text": "Serves to allocate risk through classifying the\nrisk and pricing it, the use of policy exclusions\nand deductibles and the creation of 'surrogate\nregulation' where inspection, risk assessment\nand risk management act as de facto impetus\ntowards better management.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_description_special_fund",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "description",
+      "column": "special_fund",
+      "bbox": [
+        258.9,
+        121.02000000000001,
+        354.33,
+        175.18
+      ],
+      "native_text": "A special fund for certain types of harm can\nallow prompt payment of claims but retain the\nability of claimants to seek damages beyond\nthe funding limits from responsible parties\nthrough the tort system.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_description_blended",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "description",
+      "column": "blended",
+      "bbox": [
+        354.34999999999997,
+        121.02000000000001,
+        457.68,
+        175.18
+      ],
+      "native_text": "Provides an alternative to the tort process by\ndisplacing (or preempting) tort law and setting\ncaps on damages available from the fund.\nProponants argue they help manage uncertain\nrisks, protect industry from large jury awards and\nunnecessary lawsuits and provide a climate for\nprivate investment while still compensating injured\nparties.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_mechanics_bonding",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "mechanics",
+      "column": "bonding",
+      "bbox": [
+        77.18,
+        175.2,
+        164.44,
+        227.76000000000002
+      ],
+      "native_text": "The bond is posted up front, but if the firm\ndoes not comply, it is forfeited and\nremediation funds are immediately\navailable.The burden of proof is shifted\nfrom the regulator to the operator and\nprovides public protection up to the\namount posted (but not necessarily the\namount of damages).",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_mechanics_insurance",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "mechanics",
+      "column": "insurance",
+      "bbox": [
+        164.45999999999998,
+        175.2,
+        258.88,
+        227.76000000000002
+      ],
+      "native_text": "Conventional rules of insurability include: 1) a\nsufficient number of similar and uncorrelated\nevents to allow for risk pooling; 2) clearly\ncalculable losses; 3) loss occuring within a\nwell established time period; 4) frequent\nenough losses to calculate premiums and 5)\ninsured party has no incentive to cause loss.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_mechanics_special_fund",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "mechanics",
+      "column": "special_fund",
+      "bbox": [
+        258.9,
+        175.2,
+        354.33,
+        227.76000000000002
+      ],
+      "native_text": "Operators pay into the fund based on an\nagreed metric, based on use or potential\ndamage.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_mechanics_blended",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "mechanics",
+      "column": "blended",
+      "bbox": [
+        354.34999999999997,
+        175.2,
+        457.68,
+        227.76000000000002
+      ],
+      "native_text": "In addition to insurance requirements up to a level\nthe private insurance industry is able to provide, a\nspecial industry fund is collected in case of a\nlarger accident. These approaches are often\ncoupled with a federal backstop and limit on\nliability.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_application_to_CCS_bonding",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "application_to_CCS",
+      "column": "bonding",
+      "bbox": [
+        77.18,
+        227.78,
+        164.44,
+        302.34000000000003
+      ],
+      "native_text": "For bonding to be effectively used for long-\nterm stewardship in a CCS project,\nseveral conditions would need to be met:\n1) the time frame covered by the bond\nmust be clearly established; 2) the party\nresponsible for the damages myst be\nidentified; and 3) cost estimates - for\nmonitoring, verifying and remediating\ndamage - are needed to set the bond\namount.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_application_to_CCS_insurance",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "application_to_CCS",
+      "column": "insurance",
+      "bbox": [
+        164.45999999999998,
+        227.78,
+        258.88,
+        302.34000000000003
+      ],
+      "native_text": "CCS might violate many of the conventional\n rules of insurability. The lack of experience\n- with large-scale CCS and inherent geologic\n heterogeneity creates problems for rules 1, 2\n and 4. The long time frames required for CCS\n may prove problematic for Rule 3.Insurers,\n however, believe they have the required\n experience to manage all environmental risks\n associated with CCS (with the possible\n exception of climate risk) primarily through a\n relatively recent insurance product,\n environmental impairment liability (EIL).",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_application_to_CCS_special_fund",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "application_to_CCS",
+      "column": "special_fund",
+      "bbox": [
+        258.9,
+        227.78,
+        354.33,
+        302.34000000000003
+      ],
+      "native_text": "Operators could pay into a fund based initially\non tons of CO2 injected and in later years pay\nat increased or decreased rates based on a\nrisk-rated ton charge which incorporates site\noperational data and the risk of leakage after\nmonitoring data has been gathered at the\ninjection site and surrounding areas. The funds\ncould be collected during active site injection,\naligning income from injection with long-term\ncare fund collection.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_application_to_CCS_blended",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "application_to_CCS",
+      "column": "blended",
+      "bbox": [
+        354.34999999999997,
+        227.78,
+        457.68,
+        302.34000000000003
+      ],
+      "native_text": "Like the early nuclear industry, CCS highlights the\nimportance of the interplay between encouraging\ntechnology deployment, protecting human health\nand the environment, and balancing the role of\nstate and federal law. The blending of site specific\ninsurance and pooled industry funds could provide\nboth site-tailored risk management and ensure\nthat adequate funds are available to cover\ndamage in the post-closure period.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_time_frame_bonding",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "time_frame",
+      "column": "bonding",
+      "bbox": [
+        77.18,
+        302.36,
+        164.44,
+        376.22
+      ],
+      "native_text": "The role of bonding is inextricably linked\nto future regulation governing the\noperator's duration and scope of\nresponsibility. If the post-closure period for\nsite care is a fixed time period (as\nopposed to performance-based) bonding\ncould be a useful tool. Bonding works well\nfor short time frames, but over the 15 to\n50 years required for post-closure financial\nresponsibility, bonding could tie up capital\nand prove less efficient than insurance-\nbased instruments.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_time_frame_insurance",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "time_frame",
+      "column": "insurance",
+      "bbox": [
+        164.45999999999998,
+        302.36,
+        258.88,
+        376.22
+      ],
+      "native_text": "EIL policies are claims-made and 'backward\nlooking' in that they pay claims made on\nenvironmental damages that occurred in the\npast.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_time_frame_special_fund",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "time_frame",
+      "column": "special_fund",
+      "bbox": [
+        258.9,
+        302.36,
+        354.33,
+        376.22
+      ],
+      "native_text": "Allows for immediate relief for injured parties,\nbut leaves room for assigning additional\nliability in court. A lowered liability cap within a\nstrict liability federal fund for the first dozen or\nso full-sized CCS projects could help industry\nto gain confidence and experience. Care\nshould be taken, however, to ensure such a\ncap does not become permanent as - in\naddition to removing normal incentives for\nresponsible behavior - it could create a public\nbacklash adversely affecting future CCS\nproject siting.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_time_frame_blended",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "time_frame",
+      "column": "blended",
+      "bbox": [
+        354.34999999999997,
+        302.36,
+        457.68,
+        376.22
+      ],
+      "native_text": "",
+      "blank": true,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_examples_bonding",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "examples",
+      "column": "bonding",
+      "bbox": [
+        77.18,
+        376.24,
+        164.44,
+        449.84000000000003
+      ],
+      "native_text": "Bonding is currently used in the EPA's\nUnderground Injection Control (UIC)\nprogram to ensure that wells are properly\nplugged and abandoned.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_examples_insurance",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "examples",
+      "column": "insurance",
+      "bbox": [
+        164.45999999999998,
+        376.24,
+        258.88,
+        449.84000000000003
+      ],
+      "native_text": "Both RCRA and CERCLA use pollution\nliability insurance as a tool to control\nenvironmental pollution. EIL provides\nexperience with all risks posed by a CCS\nproject - with the exception of climate-related\nrisks - and is tailored to site-specific risks,\nwhich is important for linking geologic\nvariability within a risk management\nframework.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_examples_special_fund",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "examples",
+      "column": "special_fund",
+      "bbox": [
+        258.9,
+        376.24,
+        354.33,
+        449.84000000000003
+      ],
+      "native_text": "The Trans-Alaska Pipeline Liability Fund\n(TAPL), creates a fund for quick payout of\nclaims and allows claimants to seek damages\nin excess of the fund's maximum from liable\nparties under tort law. The Oil Pollution Act\n(OPA) reconciles existing regulatory standards\nand incorporates liability and risk management\naccording to the location of the damage. OPA\nalso includes a savings clause providing that\nnothing in it should be construed as\npreempting state or federal liability or\nobligations.",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    },
+    {
+      "id": "T2_examples_blended",
+      "table": 2,
+      "pages": [
+        6
+      ],
+      "row": "examples",
+      "column": "blended",
+      "bbox": [
+        354.34999999999997,
+        376.24,
+        457.68,
+        449.84000000000003
+      ],
+      "native_text": "Congress has created specialized funds to\ndisplace the standard tort process for certain types\nof workplace injuries, the federal childhood\nvaccine program and nuclear power plants. For\nexample, the Price-Anderson Fund requires each\nnuclear reactor over 10 MW to have $300M in\ninsurance and any additional claims are paid from\nan industry-pooled fund, with each company\ncontributing up to $98.5M if a nuclear accident\noccurs--currently about $10B. Any claims beyond\nthis amount would be covered by funds raised by\nthe Nuclear Regulatory Commission (NRC).",
+      "blank": false,
+      "inspection": "Native cell and its placement inspected in enlarged table; interpretation is historical/conditional, original legal support unverified."
+    }
+  ]
+}

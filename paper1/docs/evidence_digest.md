@@ -444,15 +444,13 @@ The record includes two figures, four tables, two printed identities, 26 numbere
 
 ### B3-02 — Assessing a Liability Regime for Carbon Capture and Storage
 
-. Identifier: 10.1016/j.egypro.2009.02.277. [PDF](../papers/B3-02.pdf).
+Wilson, Klass and Bergan (2009), Energy Procedia 1, 4575–4582. DOI: 10.1016/j.egypro.2009.02.277. [PDF](../papers/B3-02.pdf). All eight retained pages were text-read and inspected as renders, with enlarged tables. **Comprehensive status: incomplete.** See the [item record](comprehensive_review/B3-02.md) and [scientific findings](liability_regime_comprehensive_findings.md).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,4,7.
+The historical U.S. legal synthesis distinguishes statutory/tort remedies, bond/insurance/pool instruments and three proposed stewardship phases. Pressure, displaced brine and other local harms can occur without atmospheric leakage. Fifteen/thirty-year examples and fifty-year proposed monitoring do not imply automatic transfer: the paper explicitly says the proposed rule has no transfer provision. Actual performance, funding, coverage, caps and residual duties require definition.
 
-Legal/policy assessment reviews US environmental/tort liability and proposes adaptive risk management using insurance, bonding and pooled funding. It distinguishes active injection, operator post-closure responsibility and public long-term stewardship, with performance conditions for any transfer.
+Both dense tables and all fifty cells, including three blanks, were inspected. The record tracks 44 claims, four limited monetary checks, twelve synthetic loss-event rows, three pooling examples and six monitoring-funding cases. No native numerical author model was reported; the synthetic examples do not validate legal outcomes, current insurance or calibrated hazards.
 
-Risk can persist without atmospheric leakage, including brine displacement and pressure effects. The proposed funding tiers aim to preserve operator incentives and finance monitoring/remediation. Example monitoring periods are discussed as policy mechanisms rather than empirically optimal retention horizons.
-
-Transfer limits: This2009 analysis is not a current permit or a quantitative leakage-rate dataset. Suggested15/30/50year arrangements cannot be turned into certain closure dates, zero future liability or permanence guarantees. Site-specific risk and regulation remain independent inputs.
+Twenty bibliography originals, ten numbered legal/fund notes and twelve further dependencies remain unverified, with no new primary-passage edge. The longer Emory version is advertised but unverified. Native rendered 2009 metadata govern over hidden template placeholders, and the visible licence is CC BY-NC-ND. Accepted numerical inputs/results and the existing combined 1.5 MPa HOLD are preserved.
 
 ### B3-03 — Critical review and recommendations for strengthening health and safety and major accident prevention regulations for carbon capture and storage in UK ports
 

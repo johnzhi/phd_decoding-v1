@@ -1,0 +1,7 @@
+monitoring_years,real_return,total_mass_t,injection_end_fund_currency,monitoring_PV_at_injection_end_currency,funding_gap_currency,conditional_required_fee_currency_per_t,scope
+15,0,6000000.0,12000000.0,15000000.0,3000000.0,2.5,"Synthetic 3-year deposits; monitoring starts at closure for illustration, without native phase allocation, damages or transfer. No actual toll or service."
+15,0.02,6000000.0,12160800.0,12849263.500574045,688463.5005740449,2.1132266792602534,"Synthetic 3-year deposits; monitoring starts at closure for illustration, without native phase allocation, damages or transfer. No actual toll or service."
+30,0,6000000.0,12000000.0,30000000.0,18000000.0,5.0,"Synthetic 3-year deposits; monitoring starts at closure for illustration, without native phase allocation, damages or transfer. No actual toll or service."
+30,0.02,6000000.0,12160800.0,22396455.5510044,10235655.551004399,3.683385229755345,"Synthetic 3-year deposits; monitoring starts at closure for illustration, without native phase allocation, damages or transfer. No actual toll or service."
+50,0,6000000.0,12000000.0,50000000.0,38000000.0,8.333333333333334,"Synthetic 3-year deposits; monitoring starts at closure for illustration, without native phase allocation, damages or transfer. No actual toll or service."
+50,0.02,6000000.0,12160800.0,31423605.893651895,19262805.893651895,5.168016231440678,"Synthetic 3-year deposits; monitoring starts at closure for illustration, without native phase allocation, damages or transfer. No actual toll or service."

@@ -1,0 +1,14 @@
+{
+  "study_id": "B3-02",
+  "source_sha256": "22eb70b28615cd06cc5d94bc4c1ea5a21f5cfbd76a3dee2cf99e26b235051e17",
+  "limited_arithmetic_checks": 4,
+  "synthetic_risk_atoms": 12,
+  "synthetic_pool_cases": 3,
+  "synthetic_funding_cases": 6,
+  "conceptual_phases": 3,
+  "native_quantitative_model_reported": false,
+  "author_legal_synthesis_and_proposal_independently_validated": false,
+  "original_sources_verified": 0,
+  "current_legal_status_verified": false,
+  "limits": "Historical legal synthesis and conceptual policy proposal; no native quantitative model identified. Exact source/case law and longer Emory version unverified. Analyst arithmetic/pooling/funding examples do not establish calibrated losses, current coverage, transfer conditions or actual contributions. No accepted operating/GHG input changes."
+}

@@ -1,0 +1,2069 @@
+{
+  "study_id": "B3-02",
+  "source_sha256": "22eb70b28615cd06cc5d94bc4c1ea5a21f5cfbd76a3dee2cf99e26b235051e17",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All eight retained pages were text-read and inspected as renders. Both dense comparison tables were enlarged; all 50 cells, including three blanks, were inspected. The review tracks 20 bibliography entries and ten numbered legal/fund notes 2–11. No figures, numbered equations or native quantitative model were identified. Four limited monetary checks, three synthetic pooling cases, six synthetic funding cases and a three-phase transcription do not validate the author legal synthesis or proposal. Exact original sources, current legal applicability, the advertised longer Emory version, coverage/funding/cap/transfer definitions and model-bearing cited sources remain open. No accepted operating/GHG input changed.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "original_model_status": "no_native_quantitative_model_reported_qualitative_legal_synthesis_and_conceptual_proposal_not_independently_validated_cited_models_unverified",
+  "supplement_status": "longer_Emory_version_advertised_unverified_no_embedded_files_or_explicit_SI_code_data_statement",
+  "sections": [
+    {
+      "id": "S001",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract, keywords and licence",
+      "assessment": "Elizabeth J. Wilson, Alexandra B. Klass and Sara Bergan; Energy Procedia 1(2009)4575–4582, GHGT-9. DOI10.1016/j.egypro.2009.02.277. The rendered first page and licence say 2009; CC BY-NC-ND with a native link to 3.0. Exact received/revised/accepted dates are not reported in the visible publication."
+    },
+    {
+      "id": "S002",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction: investment, public protection and EH&S scope",
+      "assessment": "Read liability certainty, investor/operator/public incentives, risk mechanisms, technology-specific support and tort/statutory backstops. Climate-regime liability is expressly deferred. Claims about expected risk and deployment incentives are qualitative, not calibrated causal estimates."
+    },
+    {
+      "id": "S003",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "scope": "2 Federal/state environmental liability",
+      "assessment": "Read RCRA and CERCLA histories, waste/hazardous-substance/commodity distinctions, mixtures and reaction products, response-cost versus broader damages, petroleum/useful-product exceptions. Exact original statutes, cases, proposed rules and present applicability remain unverified."
+    },
+    {
+      "id": "S004",
+      "pages": [
+        4
+      ],
+      "scope": "Table 1 and state common-law relief",
+      "assessment": "All six doctrines and five content columns read enlarged. Intent, duty, breach, causation, statutory purpose/protected class, nuisance balancing and strict liability are legally distinct. State variation and multi-injector attribution prevent a universal liability classifier."
+    },
+    {
+      "id": "S005",
+      "pages": [
+        5
+      ],
+      "scope": "3 Statutory developments, competition and liability limits",
+      "assessment": "Read federalism/preemption arguments, pilot learning and objection to blanket removal of state remedies. Preserve authors proposals and predictions as 2008/2009 context, not enacted current law."
+    },
+    {
+      "id": "S006",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "4 Financial responsibility and management",
+      "assessment": "Read long institution/project horizon versus firms, attribution/funding/delay limits, four candidate mechanisms, insurability conditions and financial assurance. Site data are proposed inputs to adaptive risk pricing; no premiums, fee calibration or observed claims data supplied."
+    },
+    {
+      "id": "S007",
+      "pages": [
+        6
+      ],
+      "scope": "Table 2 funding instruments and analogies",
+      "assessment": "All four mechanisms by five criteria read enlarged. Bonds, EIL claims-made insurance, special funds and blended arrangements have distinct scope, timing, recourse and caps. Historical nuclear/Superfund/OPA/TAPL analogies are not CCS policy terms."
+    },
+    {
+      "id": "S008",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "5 Three phases and transfer proposal",
+      "assessment": "Read active injection, operator postclosure and long-term public/hybrid stewardship with performance conditions and funds.15/30-year examples and 50-year proposed monitoring are not automatic handoffs. The paper explicitly says the proposed rules provide no transfer of responsibility."
+    },
+    {
+      "id": "S009",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "6 Conclusions",
+      "assessment": "Read support for comprehensive CCS regulation plus statutory/common-law backstops, incentives, compensation and objection to blanket state absorption/preemption. Cap wording across phases requires defined recourse; no universal liability extinction follows."
+    },
+    {
+      "id": "S010",
+      "pages": [
+        8
+      ],
+      "scope": "7 Acknowledgements",
+      "assessment": "Doris Duke Charitable Foundation grant 2007117 to Carnegie Mellon Engineering/Public Policy project; views attributed to authors. No explicit competing-interest statement identified; no independent conflict assessment performed."
+    },
+    {
+      "id": "S011",
+      "pages": [
+        8
+      ],
+      "scope": "8 References",
+      "assessment": "All 20 bibliography entries read with native line geometry. Preserve in-press/forthcoming designations and spelling. Exact versions, relevant passages and model-bearing aquifer/bonding sources remain unverified."
+    },
+    {
+      "id": "S012",
+      "pages": [
+        1,
+        8
+      ],
+      "scope": "Longer version, supplements and native models",
+      "assessment": "Abstract and acknowledgements advertise a longer Emory Law Review, Fall 2008 version without an exact title/DOI here. It remains unverified. No embedded files or explicit SI/code/data section identified; do not infer online absence. No native numerical model reported."
+    },
+    {
+      "id": "S013",
+      "pages": [
+        1
+      ],
+      "scope": "Rendered provenance and extraction artifacts",
+      "assessment": "Native extraction contains hidden 2008/template journal and received/revised/accepted placeholders. Rendered 2009 header, title/authors, DOI and visible licence govern; placeholders are not actual publication dates. Publisher logos/rules are decorative, not scientific figures."
+    },
+    {
+      "id": "S014",
+      "pages": [
+        2
+      ],
+      "scope": "Numbered legal/fund footnote 2",
+      "assessment": "2 42 U.S.C. § 6901-6992 k.  Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L02"
+    },
+    {
+      "id": "S015",
+      "pages": [
+        2
+      ],
+      "scope": "Numbered legal/fund footnote 3",
+      "assessment": "3 42 U.S.C. §§ 9601-9675.  Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L03"
+    },
+    {
+      "id": "S016",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered legal/fund footnote 4",
+      "assessment": "4 42 U.S.C. § 6972(a).  Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L04"
+    },
+    {
+      "id": "S017",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered legal/fund footnote 5",
+      "assessment": "5 42 U.S.C. § 6903(27).  Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L05"
+    },
+    {
+      "id": "S018",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered legal/fund footnote 6",
+      "assessment": "6 42 U.S.C. § 6904(5)  Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L06"
+    },
+    {
+      "id": "S019",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered legal/fund footnote 7",
+      "assessment": "7 73 Fed. Reg. 43492, (July 25, 2008)  Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L07"
+    },
+    {
+      "id": "S020",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered legal/fund footnote 8",
+      "assessment": "8 The term “Superfund” is from the five-year, $1.6 billion Hazardous Substances Response Trust Fund created to finance cleanups at CERCLA’s inception.  See 28 U.S.C. § 9507 (establishing fund).    Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L08"
+    },
+    {
+      "id": "S021",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered legal/fund footnote 9",
+      "assessment": "9 See 42 U.S.C. § 9607(a).   Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L09"
+    },
+    {
+      "id": "S022",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered legal/fund footnote 10",
+      "assessment": "10 73 Fed. Reg. 43492, 43504 (July 25, 2008).  Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L10"
+    },
+    {
+      "id": "S023",
+      "pages": [
+        5
+      ],
+      "scope": "Numbered legal/fund footnote 11",
+      "assessment": "11 See 73 Fed. Reg. 43492, 43495 (July 25, 2008)  Exact original support and current applicability are unverified; literal citation is preserved.",
+      "reference_ids": [
+        "L11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L11"
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F001",
+      "pages": [
+        4
+      ],
+      "object": "Table 1: six common-law doctrines, five columns and caption",
+      "inspection": "All 30 cells inspected in enlarged renders, including two native blanks. Columns: description, elements, tests, examples/precedents, application to CCS. Doctrines: trespass, negligence, negligence per se, private/public nuisance, strict liability. Table is legal synthesis, not an empirically validated risk or court-outcome model."
+    },
+    {
+      "id": "F002",
+      "pages": [
+        6
+      ],
+      "object": "Table 2: four funding mechanisms, five criteria and captions",
+      "inspection": "All 20 cells inspected enlarged, including the blank blended/time-frame cell. Mechanisms: bonding, insurance, special fund, blended insurance/pool. Criteria: description, mechanics, CCS application, time frame, examples. Both internal title and external caption inspected; no numerical actuarial calibration reported."
+    },
+    {
+      "id": "F003",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: trespass / description",
+      "inspection": "Property based tort:\ninterferance with a\nplaintiff’s possessory\ninterest in his personal\nproperty (land or\nchattels)\nAssessment: Intent to act, nonconsent and harm are source elements; no universal current trespass test or public-benefit immunity inferred.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_trespass_description"
+    },
+    {
+      "id": "F004",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: trespass / elements",
+      "inspection": "The plaintiff must show that the 1)\ndefendant acted voluntarily or with\nan intent to commit the act (not\nnecessarily the effects of the act),\n2) that the plaintiff did not consent\nto the trespass in any way and 3)\nthat harm was suffered by the\nplaintiff.\nAssessment: Intent to act, nonconsent and harm are source elements; no universal current trespass test or public-benefit immunity inferred.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_trespass_elements"
+    },
+    {
+      "id": "F005",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: trespass / tests",
+      "inspection": "[Native blank cell; no content imputed.]\nAssessment: Intent to act, nonconsent and harm are source elements; no universal current trespass test or public-benefit immunity inferred.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_trespass_tests"
+    },
+    {
+      "id": "F006",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: trespass / examples_precedents",
+      "inspection": "Oil and gas: where courts had treated\nmigration of resource as analagous to\nwild animals or 'fugitive resources',\nmeaning it belonged to no one until\ncaptured. Once efficient use of the\nresource became a priority for public\npolicy, the courts began weighing the\ncosts and benefits of storage.\nAssessment: Intent to act, nonconsent and harm are source elements; no universal current trespass test or public-benefit immunity inferred.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_trespass_examples_precedents"
+    },
+    {
+      "id": "F007",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: trespass / application_to_CCS",
+      "inspection": "Public policy favoring GHG\nreductions may weigh in favor of\napplying liability sparingly although\nthe sheer volumes of CO2 to be\ninjected might raise caution.\nAssessment: Intent to act, nonconsent and harm are source elements; no universal current trespass test or public-benefit immunity inferred.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_trespass_application_to_CCS"
+    },
+    {
+      "id": "F008",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence / description",
+      "inspection": "Common law tort:\nConduct liable because\nit failed to take the care\nthat a reasonable person\nwould to protect\nanother from\nforeseeable harm\nAssessment: Duty, breach, actual/proximate causation and damages require proof; multi-injector attribution remains difficult.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_description"
+    },
+    {
+      "id": "F009",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence / elements",
+      "inspection": "The plaintiff must show the\ndefendant 1) had a duty of care, 2)\nbreached that duty, 3) the breach\nwas the cause (actual and\nproximate) of the plaintiffs harm\nand 4) demonstrate damages.\nAssessment: Duty, breach, actual/proximate causation and damages require proof; multi-injector attribution remains difficult.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_elements"
+    },
+    {
+      "id": "F010",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence / tests",
+      "inspection": "Every negligence case involves\na balancing of social costs and\nbenefits associated with the\ndefendant's conduct.\nAssessment: Duty, breach, actual/proximate causation and damages require proof; multi-injector attribution remains difficult.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_tests"
+    },
+    {
+      "id": "F011",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence / examples_precedents",
+      "inspection": "[Native blank cell; no content imputed.]\nAssessment: Duty, breach, actual/proximate causation and damages require proof; multi-injector attribution remains difficult.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_examples_precedents"
+    },
+    {
+      "id": "F012",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence / application_to_CCS",
+      "inspection": "It may be difficult to establish the\nappropriate standard of care or the\nduty or breach of that duty with a new\ntechnology and new industry.\nEstablishing the causal link between\nthe injected CO2 and the harm may\nalso be difficult, particularly where\nseveral parties are simultaneously\ninjecting into the same formation.\nAssessment: Duty, breach, actual/proximate causation and damages require proof; multi-injector attribution remains difficult.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_application_to_CCS"
+    },
+    {
+      "id": "F013",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence_per_se / description",
+      "inspection": "Common law tort\nwhere a statute is\nsubstituted for the\n'reasonable person\nstandard' in a\nnegligence action.\nAssessment: Statutory violation, intended harm and protected class are distinct conditions; governing statutes and precedent unverified.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_per_se_description"
+    },
+    {
+      "id": "F014",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence_per_se / elements",
+      "inspection": "The plaintiff must show (1) the\ndefendant violated a statute, (2) the\nresulting harm or injury was of the\nkind the statute intended to\nprevent, and (3) the plaintiff was of\nthe class of persons intended to be\nprotected by the statute.\nAssessment: Statutory violation, intended harm and protected class are distinct conditions; governing statutes and precedent unverified.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_per_se_elements"
+    },
+    {
+      "id": "F015",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence_per_se / tests",
+      "inspection": "The statute must be read by the\ncourt to have intended to\nprevent the kind of harm from\nhappening to the particular\nplaintiff bringing the action.\nAssessment: Statutory violation, intended harm and protected class are distinct conditions; governing statutes and precedent unverified.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_per_se_tests"
+    },
+    {
+      "id": "F016",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence_per_se / examples_precedents",
+      "inspection": "Since the 1970s, courts have used\nnewly enacted state and federal\nenvironmental statutes and\nregulations to help define the duty in\nan array of environmental\nnegligence and negligence per se\ncases.\nAssessment: Statutory violation, intended harm and protected class are distinct conditions; governing statutes and precedent unverified.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_per_se_examples_precedents"
+    },
+    {
+      "id": "F017",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: negligence_per_se / application_to_CCS",
+      "inspection": "The body of state and federal statutes\nthat could provide the basis for a\ncommon law, negligence per se action\nis just developing.\nAssessment: Statutory violation, intended harm and protected class are distinct conditions; governing statutes and precedent unverified.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_negligence_per_se_application_to_CCS"
+    },
+    {
+      "id": "F018",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: private_nuisance / description",
+      "inspection": "Property based tort:\ninterference with a\nplaintiff’s private use\nand enjoyment of his\nland\nAssessment: Regulatory compliance is not automatically freedom from nuisance; balancing and jurisdiction-specific tests remain open.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_private_nuisance_description"
+    },
+    {
+      "id": "F019",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: private_nuisance / elements",
+      "inspection": "To show PRIVATE nuisance, a\nplaintiff must show an intentional\nand unreasonable (but not\nnecessarily illegal) or an\nunintentional but reckless or highly\ndangerous action by the defendant\nwhich intereferes with the use and\nenjoyment of the plaintiffs land.\nAssessment: Regulatory compliance is not automatically freedom from nuisance; balancing and jurisdiction-specific tests remain open.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_private_nuisance_elements"
+    },
+    {
+      "id": "F020",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: private_nuisance / tests",
+      "inspection": "Once established, the court\ngenerally balances the benefits\nfo the alleged nuisance activity\nwith the harm caused and other\nequitable factors to determine\nwhether the defendant should\npay damages or be enjoined\nfrom actions causing the\nnuisance\nAssessment: Regulatory compliance is not automatically freedom from nuisance; balancing and jurisdiction-specific tests remain open.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_private_nuisance_tests"
+    },
+    {
+      "id": "F021",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: private_nuisance / examples_precedents",
+      "inspection": "The doctrines have been used by\nparties to obtain both injunctive and\nmonetary relief from air, water, soil\nand noise pollution resulting from an\narray of industrial and commercial\nactivities such as landfills, sewage\ntreatment plants, oil refineries,\nquarries and the like.\nAssessment: Regulatory compliance is not automatically freedom from nuisance; balancing and jurisdiction-specific tests remain open.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_private_nuisance_examples_precedents"
+    },
+    {
+      "id": "F022",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: private_nuisance / application_to_CCS",
+      "inspection": "The doctrine of nuisance could apply\nto an operator complying fully with\nregulations and statutes governing\nbehavior if they activity never-the-less\nstill interferred substantially with a\nplaintiff's use of his land. However, a\nbalancing test might find the public\nbenefit from mitigating climate\nchange outweighs the harm or cost of\nthe action.\nAssessment: Regulatory compliance is not automatically freedom from nuisance; balancing and jurisdiction-specific tests remain open.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_private_nuisance_application_to_CCS"
+    },
+    {
+      "id": "F023",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: public_nuisance / description",
+      "inspection": "Property based tort:\ninterference with a\nright common to the\ngeneral public\nAssessment: Public rights and special injury for private claimants are distinguished; no general entitlement determined.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_public_nuisance_description"
+    },
+    {
+      "id": "F024",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: public_nuisance / elements",
+      "inspection": "To show PUBLIC nuisance a\npublic body must show an\nunreasonable interference with a\nright common to the general\npublic, or a private party must\nshow he or she suffered unique\ninjury by the same that\ndifferentiates him/her from the rest\nof the general public.\nAssessment: Public rights and special injury for private claimants are distinguished; no general entitlement determined.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_public_nuisance_elements"
+    },
+    {
+      "id": "F025",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: public_nuisance / tests",
+      "inspection": "Similar to private nuisance\nAssessment: Public rights and special injury for private claimants are distinguished; no general entitlement determined.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_public_nuisance_tests"
+    },
+    {
+      "id": "F026",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: public_nuisance / examples_precedents",
+      "inspection": "Similar to private nuisance but\ngenerally brought by public entities\nsuch as state attorneys general.\nAssessment: Public rights and special injury for private claimants are distinguished; no general entitlement determined.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_public_nuisance_examples_precedents"
+    },
+    {
+      "id": "F027",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: public_nuisance / application_to_CCS",
+      "inspection": "Similar to private nuisance but where\nthe activity interefered with a right\ncommon to the public like the right to\nclean air or water.\nAssessment: Public rights and special injury for private claimants are distinguished; no general entitlement determined.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_public_nuisance_application_to_CCS"
+    },
+    {
+      "id": "F028",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: strict_liability / description",
+      "inspection": "Common law tort:\nImposes liability\nregardless of intent\nwhere defendant is in\nthe best position to bear\nthe loss or avoid the\nrisk and usually where\nenganging in\nabnormally dangerous\nenterprise.\nAssessment: Source row varies by state/geology; literal reasonable-care wording is not silently replaced by a canonical legal test.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_strict_liability_description"
+    },
+    {
+      "id": "F029",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: strict_liability / elements",
+      "inspection": "The plaintiff must show the\nexistence of a high degree of risk,\nlikelihood the harm will be great,\nthe inability to eliminate harm\nthrough reasonable care, the extent\nto which the activity is not\ncommon, the inappropriateness of\nresonable care, and the extent to\nwhich the value of the activity is\noutweighed by the risk.\nAssessment: Source row varies by state/geology; literal reasonable-care wording is not silently replaced by a canonical legal test.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_strict_liability_elements"
+    },
+    {
+      "id": "F030",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: strict_liability / tests",
+      "inspection": "Unlike other doctrines, under\nstrict liability the plaintiff does\nnot need to show the defendant\nintended to act or interfere with\na legally protected interest.\nAssessment: Source row varies by state/geology; literal reasonable-care wording is not silently replaced by a canonical legal test.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_strict_liability_tests"
+    },
+    {
+      "id": "F031",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: strict_liability / examples_precedents",
+      "inspection": "Courts have held defendants strictly\nliable for a broad range of related\nactivities including: the release of\npetroleum or oil contaminating\ngroundwater; the seeping of salt\nwater contaminating a water supply;\nthe release of pollutants during oil\ndrilling; and the percolation of\npollution from oil wells.\nAssessment: Source row varies by state/geology; literal reasonable-care wording is not silently replaced by a canonical legal test.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_strict_liability_examples_precedents"
+    },
+    {
+      "id": "F032",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 cell: strict_liability / application_to_CCS",
+      "inspection": "States vary considerably in the\napplication of strict liability for\ndifferent activities. Similarly the level\nof associated risk varies greatly\nbetween the geology of different\npotential formations across the\ncountry.\nAssessment: Source row varies by state/geology; literal reasonable-care wording is not silently replaced by a canonical legal test.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T1_strict_liability_application_to_CCS"
+    },
+    {
+      "id": "F033",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: description / bonding",
+      "inspection": "Allows for the internalization of future\ndamages by requiring an up-front\ncommitment to offset costs of potential\nfuture pollution - often in the form of cash,\na letter of credit, a surety bond, or a trust\nfund or escrow account. For bonds to be\neffective, the time frame they cover must\nbe specified.\nAssessment: A mechanism description is not a claim that the authors endorse every candidate or that a policy is enacted.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_description_bonding"
+    },
+    {
+      "id": "F034",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: description / insurance",
+      "inspection": "Serves to allocate risk through classifying the\nrisk and pricing it, the use of policy exclusions\nand deductibles and the creation of 'surrogate\nregulation' where inspection, risk assessment\nand risk management act as de facto impetus\ntowards better management.\nAssessment: A mechanism description is not a claim that the authors endorse every candidate or that a policy is enacted.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_description_insurance"
+    },
+    {
+      "id": "F035",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: description / special_fund",
+      "inspection": "A special fund for certain types of harm can\nallow prompt payment of claims but retain the\nability of claimants to seek damages beyond\nthe funding limits from responsible parties\nthrough the tort system.\nAssessment: A mechanism description is not a claim that the authors endorse every candidate or that a policy is enacted.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_description_special_fund"
+    },
+    {
+      "id": "F036",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: description / blended",
+      "inspection": "Provides an alternative to the tort process by\ndisplacing (or preempting) tort law and setting\ncaps on damages available from the fund.\nProponants argue they help manage uncertain\nrisks, protect industry from large jury awards and\nunnecessary lawsuits and provide a climate for\nprivate investment while still compensating injured\nparties.\nAssessment: A mechanism description is not a claim that the authors endorse every candidate or that a policy is enacted.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_description_blended"
+    },
+    {
+      "id": "F037",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: mechanics / bonding",
+      "inspection": "The bond is posted up front, but if the firm\ndoes not comply, it is forfeited and\nremediation funds are immediately\navailable.The burden of proof is shifted\nfrom the regulator to the operator and\nprovides public protection up to the\namount posted (but not necessarily the\namount of damages).\nAssessment: Funding/coverage mechanics require actual contract, contribution and legal recourse terms before implementation.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_mechanics_bonding"
+    },
+    {
+      "id": "F038",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: mechanics / insurance",
+      "inspection": "Conventional rules of insurability include: 1) a\nsufficient number of similar and uncorrelated\nevents to allow for risk pooling; 2) clearly\ncalculable losses; 3) loss occuring within a\nwell established time period; 4) frequent\nenough losses to calculate premiums and 5)\ninsured party has no incentive to cause loss.\nAssessment: Funding/coverage mechanics require actual contract, contribution and legal recourse terms before implementation.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_mechanics_insurance"
+    },
+    {
+      "id": "F039",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: mechanics / special_fund",
+      "inspection": "Operators pay into the fund based on an\nagreed metric, based on use or potential\ndamage.\nAssessment: Funding/coverage mechanics require actual contract, contribution and legal recourse terms before implementation.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_mechanics_special_fund"
+    },
+    {
+      "id": "F040",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: mechanics / blended",
+      "inspection": "In addition to insurance requirements up to a level\nthe private insurance industry is able to provide, a\nspecial industry fund is collected in case of a\nlarger accident. These approaches are often\ncoupled with a federal backstop and limit on\nliability.\nAssessment: Funding/coverage mechanics require actual contract, contribution and legal recourse terms before implementation.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_mechanics_blended"
+    },
+    {
+      "id": "F041",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: application_to_CCS / bonding",
+      "inspection": "For bonding to be effectively used for long-\nterm stewardship in a CCS project,\nseveral conditions would need to be met:\n1) the time frame covered by the bond\nmust be clearly established; 2) the party\nresponsible for the damages myst be\nidentified; and 3) cost estimates - for\nmonitoring, verifying and remediating\ndamage - are needed to set the bond\namount.\nAssessment: Prospective CCS application and insurability assertions are not calibrated claims or premiums.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_application_to_CCS_bonding"
+    },
+    {
+      "id": "F042",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: application_to_CCS / insurance",
+      "inspection": "CCS might violate many of the conventional\n rules of insurability. The lack of experience\n- with large-scale CCS and inherent geologic\n heterogeneity creates problems for rules 1, 2\n and 4. The long time frames required for CCS\n may prove problematic for Rule 3.Insurers,\n however, believe they have the required\n experience to manage all environmental risks\n associated with CCS (with the possible\n exception of climate risk) primarily through a\n relatively recent insurance product,\n environmental impairment liability (EIL).\nAssessment: Prospective CCS application and insurability assertions are not calibrated claims or premiums.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_application_to_CCS_insurance"
+    },
+    {
+      "id": "F043",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: application_to_CCS / special_fund",
+      "inspection": "Operators could pay into a fund based initially\non tons of CO2 injected and in later years pay\nat increased or decreased rates based on a\nrisk-rated ton charge which incorporates site\noperational data and the risk of leakage after\nmonitoring data has been gathered at the\ninjection site and surrounding areas. The funds\ncould be collected during active site injection,\naligning income from injection with long-term\ncare fund collection.\nAssessment: Prospective CCS application and insurability assertions are not calibrated claims or premiums.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_application_to_CCS_special_fund"
+    },
+    {
+      "id": "F044",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: application_to_CCS / blended",
+      "inspection": "Like the early nuclear industry, CCS highlights the\nimportance of the interplay between encouraging\ntechnology deployment, protecting human health\nand the environment, and balancing the role of\nstate and federal law. The blending of site specific\ninsurance and pooled industry funds could provide\nboth site-tailored risk management and ensure\nthat adequate funds are available to cover\ndamage in the post-closure period.\nAssessment: Prospective CCS application and insurability assertions are not calibrated claims or premiums.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_application_to_CCS_blended"
+    },
+    {
+      "id": "F045",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: time_frame / bonding",
+      "inspection": "The role of bonding is inextricably linked\nto future regulation governing the\noperator's duration and scope of\nresponsibility. If the post-closure period for\nsite care is a fixed time period (as\nopposed to performance-based) bonding\ncould be a useful tool. Bonding works well\nfor short time frames, but over the 15 to\n50 years required for post-closure financial\nresponsibility, bonding could tie up capital\nand prove less efficient than insurance-\nbased instruments.\nAssessment: Timing descriptions do not establish coverage of every future claim or an automatic transfer date.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_time_frame_bonding"
+    },
+    {
+      "id": "F046",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: time_frame / insurance",
+      "inspection": "EIL policies are claims-made and 'backward\nlooking' in that they pay claims made on\nenvironmental damages that occurred in the\npast.\nAssessment: Timing descriptions do not establish coverage of every future claim or an automatic transfer date.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_time_frame_insurance"
+    },
+    {
+      "id": "F047",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: time_frame / special_fund",
+      "inspection": "Allows for immediate relief for injured parties,\nbut leaves room for assigning additional\nliability in court. A lowered liability cap within a\nstrict liability federal fund for the first dozen or\nso full-sized CCS projects could help industry\nto gain confidence and experience. Care\nshould be taken, however, to ensure such a\ncap does not become permanent as - in\naddition to removing normal incentives for\nresponsible behavior - it could create a public\nbacklash adversely affecting future CCS\nproject siting.\nAssessment: Timing descriptions do not establish coverage of every future claim or an automatic transfer date.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_time_frame_special_fund"
+    },
+    {
+      "id": "F048",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: time_frame / blended",
+      "inspection": "[Native blank cell; no content imputed.]\nAssessment: Timing descriptions do not establish coverage of every future claim or an automatic transfer date.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_time_frame_blended"
+    },
+    {
+      "id": "F049",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: examples / bonding",
+      "inspection": "Bonding is currently used in the EPA's\nUnderground Injection Control (UIC)\nprogram to ensure that wells are properly\nplugged and abandoned.\nAssessment: Historical analogies do not provide current CCS limits, fees, pool liquidity or enforceable coverage.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_examples_bonding"
+    },
+    {
+      "id": "F050",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: examples / insurance",
+      "inspection": "Both RCRA and CERCLA use pollution\nliability insurance as a tool to control\nenvironmental pollution. EIL provides\nexperience with all risks posed by a CCS\nproject - with the exception of climate-related\nrisks - and is tailored to site-specific risks,\nwhich is important for linking geologic\nvariability within a risk management\nframework.\nAssessment: Historical analogies do not provide current CCS limits, fees, pool liquidity or enforceable coverage.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_examples_insurance"
+    },
+    {
+      "id": "F051",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: examples / special_fund",
+      "inspection": "The Trans-Alaska Pipeline Liability Fund\n(TAPL), creates a fund for quick payout of\nclaims and allows claimants to seek damages\nin excess of the fund's maximum from liable\nparties under tort law. The Oil Pollution Act\n(OPA) reconciles existing regulatory standards\nand incorporates liability and risk management\naccording to the location of the damage. OPA\nalso includes a savings clause providing that\nnothing in it should be construed as\npreempting state or federal liability or\nobligations.\nAssessment: Historical analogies do not provide current CCS limits, fees, pool liquidity or enforceable coverage.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_examples_special_fund"
+    },
+    {
+      "id": "F052",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 cell: examples / blended",
+      "inspection": "Congress has created specialized funds to\ndisplace the standard tort process for certain types\nof workplace injuries, the federal childhood\nvaccine program and nuclear power plants. For\nexample, the Price-Anderson Fund requires each\nnuclear reactor over 10 MW to have $300M in\ninsurance and any additional claims are paid from\nan industry-pooled fund, with each company\ncontributing up to $98.5M if a nuclear accident\noccurs--currently about $10B. Any claims beyond\nthis amount would be covered by funds raised by\nthe Nuclear Regulatory Commission (NRC).\nAssessment: Historical analogies do not provide current CCS limits, fees, pool liquidity or enforceable coverage.",
+      "native_cell_record": "evidence/comprehensive_review_inputs/B3-02_table_cells.json#T2_examples_blended"
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "pages": [
+        6,
+        7
+      ],
+      "printed": "Analyst two-site mixture: P=(1−c)*P_independent+c*P_common",
+      "check": "Four Bernoulli atoms with analyst p=.1, severity 100 and positive mixturec 0/.5/1; no native CCS hazard probabilities inferred."
+    },
+    {
+      "id": "E002",
+      "pages": [
+        6,
+        7
+      ],
+      "printed": "Analyst moments: E[L1+L2]=2*p*severity; Var=2*severity²*p*(1−p)*(1+c)",
+      "check": "Enumeration confirms unchanged mean but larger variance/tail under positive correlation. Pooling does not reduce physical damage by itself."
+    },
+    {
+      "id": "E003",
+      "pages": [
+        6
+      ],
+      "printed": "Analyst payment identity: paid=min(loss, F); unfunded=max(loss−F, 0)",
+      "check": "Every scenario conserves total damage. A funding ceiling is not a limit on physical loss or a legal conclusion about excess tort recourse."
+    },
+    {
+      "id": "E004",
+      "pages": [
+        6,
+        7
+      ],
+      "printed": "Analyst closure-end fund B=fee*sum(q_t*(1+r)^(N−t))",
+      "check": "Three end-year deposits q=[1, 2, 3]million tonnes and fee 2 currency/t; not native injection data or an actual CCS charge."
+    },
+    {
+      "id": "E005",
+      "pages": [
+        6,
+        7
+      ],
+      "printed": "Analyst monitoring PV=sum(cost/(1+r)^t); requiredfee=PV/sum(q_t*(1+r)^(N−t))",
+      "check": "Six finite monitoring examples with real return 0/.02 and 15/30/50 years. Payments begin immediately after injection solely for illustration, not the authors phase allocation or certification criteria."
+    },
+    {
+      "id": "E006",
+      "pages": [
+        3,
+        6
+      ],
+      "printed": "Analyst historical unit arithmetic:1.6 billion/5 years; 100*98.5 million+300 million",
+      "check": "320 million/y is only a period average; 10150 million is conditional on 100 assumed contributors and one primary layer. Neither proves a native contributor count, actual liquidity or CCS reserve adequacy."
+    }
+  ],
+  "variables": [
+    {
+      "id": "V001",
+      "pages": [
+        2,
+        5,
+        7
+      ],
+      "name": "Project and stewardship duration",
+      "unit": "hundreds/thousands of years; illustrative15/30/50years",
+      "assumption": "Physical risk, postclosure monitoring and legal transfer time differ; no automatic age-based extinction of liability."
+    },
+    {
+      "id": "V002",
+      "pages": [
+        2
+      ],
+      "name": "Injected material and pressure/brine risks",
+      "unit": "qualitative tonnes, buoyancy and pressure",
+      "assumption": "No native mass/rate/pressure series or damage probability supplied; EH&S harm may occur without atmospheric leakage."
+    },
+    {
+      "id": "V003",
+      "pages": [
+        3,
+        5
+      ],
+      "name": "Legal categories, statutes and geographic scope",
+      "unit": "U.S. historical legal classifications",
+      "assumption": "Waste, hazardous substance, commodity, petroleum and useful-product distinctions require exact current law and facts; no purity specification alone decides coverage."
+    },
+    {
+      "id": "V004",
+      "pages": [
+        4
+      ],
+      "name": "Tort elements and remedies",
+      "unit": "qualitative conditions",
+      "assumption": "Intent, negligence, nuisance, strict liability and public/private standing differ; not probabilities or automatic court outcomes."
+    },
+    {
+      "id": "V005",
+      "pages": [
+        6
+      ],
+      "name": "Bond, insurance and pool coverage",
+      "unit": "monetary amount, claims timing and recourse",
+      "assumption": "Bond posted amount need not equal damage; EIL exclusions/deductibles/claims-made tail unprovided; funding cap not physical loss cap."
+    },
+    {
+      "id": "V006",
+      "pages": [
+        6
+      ],
+      "name": "Native historical financial analogies",
+      "unit": "USD millions/billions,MW",
+      "assumption": "Nuclear 300 million primary, 98.5 million per company, ~10 billion aggregate, >10 MW; initial Superfund 1.6 billion/5 years. Different periods/regimes, not current CCS terms."
+    },
+    {
+      "id": "V007",
+      "pages": [
+        6,
+        7
+      ],
+      "name": "Per-ton contribution and monitored risk charge",
+      "unit": "unspecified native money per ton",
+      "assumption": "No actual charge, ton basis, loss model, currency year, risk score or actuarial fit supplied."
+    },
+    {
+      "id": "V008",
+      "pages": [
+        6,
+        7
+      ],
+      "name": "Analyst pooling probability/severity/correlation",
+      "unit": "p=.1;severity100 loss units;c0/.5/1",
+      "assumption": "Entirely synthetic, two equal sites, nonnegative dependence mixture; no measured field or CVaR distribution."
+    },
+    {
+      "id": "V009",
+      "pages": [
+        6,
+        7
+      ],
+      "name": "Analyst funding quantities",
+      "unit": "tonnes,currency/t,currency/year,real return",
+      "assumption": "q=[1, 2, 3]million t, fee 2, monitoring 1 million/y, return 0/.02; no damages/remediation/inflation/insolvency modeled."
+    },
+    {
+      "id": "V010",
+      "pages": [
+        7
+      ],
+      "name": "Transfer conditions and residual duties",
+      "unit": "qualitative performance and funding conditions",
+      "assumption": "No thresholds/certification standard specified; monitoring, remediation, damage finance and data custody persist under proposed stewardship."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Liability certainty and protection affect deployment, investment and public trust.",
+      "assessment": "Qualitative legal/policy argument, no measured causal effect or investment response model.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C002",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Existing liability is insufficient alone but can provide safeguards alongside CCS-specific regulation.",
+      "assessment": "Author recommendation and synthesis; not proof of current compliance or compensation.",
+      "reference_ids": [],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C003",
+      "pages": [
+        2
+      ],
+      "claim": "Paper focuses on environmental, health and safety liability and defers climate-regime liability.",
+      "assessment": "Do not use insurance/tort proposal as a complete climate-loss or carbon-credit accounting rule.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C004",
+      "pages": [
+        2
+      ],
+      "claim": "Large injected volumes, buoyancy and long residence time drive risk; site history/geology matter.",
+      "assessment": "No calibrated failure probability, pressure-rate limit or universal risk-decay curve.",
+      "reference_ids": [
+        "R001"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C005",
+      "pages": [
+        2
+      ],
+      "claim": "Risks likely decrease after injection as buoyancy pressures decline.",
+      "assessment": "Cited model-dependent qualitative statement; exact aquifer-model originals and site applicability unverified.",
+      "reference_ids": [
+        "R002",
+        "R003"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C006",
+      "pages": [
+        2
+      ],
+      "claim": "Faults/wells and shallow seepage can harm ecology.",
+      "assessment": "Mechanisms described, not an observed loss series or quantitative retention guarantee.",
+      "reference_ids": [
+        "R004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C007",
+      "pages": [
+        2
+      ],
+      "claim": "Brine displacement, resource contamination, heave and seismic events can occur while CO2 stays underground.",
+      "assessment": "Atmospheric retention and local EH&S harm are distinct; no calibrated joint risk distribution.",
+      "reference_ids": [
+        "R005"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C008",
+      "pages": [
+        2
+      ],
+      "claim": "Early pilot support may be needed while mature operators retain incentives and statutory/tort backstops.",
+      "assessment": "First dozen or so is approximate policy language, not a calibrated sample size or hard phase threshold.",
+      "reference_ids": [
+        "R006",
+        "R007"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C009",
+      "pages": [
+        2
+      ],
+      "claim": "EPA proposed injection rules protect USDWs but cannot address all liability/property risks.",
+      "assessment": "Historical 2008 proposed-rule context; no current legal authority determination.",
+      "reference_ids": [
+        "R008",
+        "L07",
+        "L10",
+        "L11"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C010",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "RCRA and CERCLA could fill gaps if classification conditions are met.",
+      "assessment": "Definitions, mixtures and statutory scope are conditional and historically interpreted; exact instruments unverified.",
+      "reference_ids": [
+        "L02",
+        "L03"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C011",
+      "pages": [
+        3
+      ],
+      "claim": "RCRA has cradle-to-grave waste controls and citizen endangerment actions.",
+      "assessment": "No present eligibility or universal legal remedy inferred.",
+      "reference_ids": [
+        "R009",
+        "L04"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C012",
+      "pages": [
+        3
+      ],
+      "claim": "Solid waste definition can include contained gaseous materials and stored CO2 may be discarded material.",
+      "assessment": "Source interpretation conditional on facts/current law; original provision not checked.",
+      "reference_ids": [
+        "L05"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C013",
+      "pages": [
+        3
+      ],
+      "claim": "CO2 alone was not listed as hazardous; mixtures such as H2 S or exclusions/commodity classification could change treatment.",
+      "assessment": "Historical discussion, not a composition-to-legal-status classifier.",
+      "reference_ids": [
+        "R009",
+        "R010",
+        "L06",
+        "L07"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C014",
+      "pages": [
+        3
+      ],
+      "claim": "CERCLA provides retrospective response-cost recovery from several classes of parties.",
+      "assessment": "Private response costs differ from punitive/property/injury damages; exact law and exceptions unverified.",
+      "reference_ids": [
+        "R009",
+        "R011",
+        "L09"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C015",
+      "pages": [
+        3
+      ],
+      "claim": "Original Superfund five-year trust fund was$1.6 billion.",
+      "assessment": "Historical monetary statement; literal 28 USC9507 citation preserved, not replaced from memory.",
+      "reference_ids": [
+        "L08"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C016",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Hazardous constituents/reaction products, petroleum exclusion and useful-product classification affect potential CERCLA scope.",
+      "assessment": "No automatic pure CO2, commodity or EOR immunity established.",
+      "reference_ids": [
+        "R012",
+        "L10"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C017",
+      "pages": [
+        4
+      ],
+      "claim": "Common-law doctrines may offer broader relief but face preemption and proof barriers.",
+      "assessment": "No universal current court outcome or quantified damages model.",
+      "reference_ids": [
+        "R013"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C018",
+      "pages": [
+        4
+      ],
+      "claim": "Trespass requires intent to act, nonconsent and harm in this table; public benefit may affect balancing.",
+      "assessment": "Native synthesis and fossil-storage analogy need exact cases; not proof climate benefit precludes liability.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C019",
+      "pages": [
+        4
+      ],
+      "claim": "Negligence requires duty, breach, causation and damages; multi-injector attribution is hard.",
+      "assessment": "Qualitative legal conditions, not a validated classification algorithm or release-tracing model.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C020",
+      "pages": [
+        4
+      ],
+      "claim": "Negligence per se depends on statutory violation, intended harm and protected class.",
+      "assessment": "Actual statute/case authority required; not every regulatory violation supplies this remedy.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C021",
+      "pages": [
+        4
+      ],
+      "claim": "Private nuisance can arise despite regulatory compliance; public nuisance concerns public rights/special injury.",
+      "assessment": "Distinct standing and balancing, jurisdiction-dependent; no automatic immunity.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C022",
+      "pages": [
+        4
+      ],
+      "claim": "Strict liability varies with dangerous activity, state doctrine and geological facts.",
+      "assessment": "Literal table wording including reasonable-care phrase retained; original legal support unverified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C023",
+      "pages": [
+        5
+      ],
+      "claim": "Federal preemption may be urged; authors oppose blanket loss of state remedies.",
+      "assessment": "Historical prediction and author policy stance; not enacted federal/state allocation.",
+      "reference_ids": [
+        "R009",
+        "R014"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C024",
+      "pages": [
+        5
+      ],
+      "claim": "Public enforcement limitations make common-law backstops valuable.",
+      "assessment": "Qualitative institutional rationale, not demonstrated compensation performance.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C025",
+      "pages": [
+        5
+      ],
+      "claim": "Long project horizons exceed firm lifetimes; adequate resources are essential.",
+      "assessment": "No observed survival curve, reserve requirement or insolvency model supplied.",
+      "reference_ids": [
+        "R007",
+        "R015"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C026",
+      "pages": [
+        5
+      ],
+      "claim": "Attribution, limited resources and delayed harm limit ordinary liability.",
+      "assessment": "Exact sources and quantitative loss models unverified.",
+      "reference_ids": [
+        "R008",
+        "R016",
+        "R017",
+        "R018",
+        "R019"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C027",
+      "pages": [
+        6
+      ],
+      "claim": "Bonds internalize future costs but require time, responsible party and cost estimates.",
+      "assessment": "Protection reaches posted amount, not necessarily total damage; no calibrated bond amount or universal proof-shift rule.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C028",
+      "pages": [
+        6
+      ],
+      "claim": "Conventional insurability requires sufficient comparable uncorrelated events, calculable loss, time horizon, data and incentives.",
+      "assessment": "CCS applicability is argued, not actuarially demonstrated; geographical pooling cannot simply assume independence.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C029",
+      "pages": [
+        6
+      ],
+      "claim": "EIL insurers believe environmental risks can be managed, with possible climate-risk exception.",
+      "assessment": "Reported industry belief, not an audited policy or proof that all future claims are covered.",
+      "reference_ids": [
+        "R015"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C030",
+      "pages": [
+        6
+      ],
+      "claim": "Claims-made/backward-looking EIL and 15–50 year bond horizons create timing issues.",
+      "assessment": "Actual exclusions, reporting dates, retroactive limits and tail coverage are absent.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C031",
+      "pages": [
+        6
+      ],
+      "claim": "Special funds can pay quickly while preserving excess tort claims; charges might shift from tonnage to monitored risk.",
+      "assessment": "Proposed mechanism, no native rate, premium, loss calibration or complete recourse terms.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C032",
+      "pages": [
+        6
+      ],
+      "claim": "TAPL/OPA analogies allow quick funding and may preserve other obligations.",
+      "assessment": "Historical analogues, not current CCS terms or verified statutory coverage.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C033",
+      "pages": [
+        6
+      ],
+      "claim": "Price-Anderson analogy uses>10 MW, $300 M primary, $98.5 M per company and~$10 B.",
+      "assessment": "Different historical regime; contributor count, actual collectible cash and current limits unverified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C034",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Blended insurance/pools and selective caps may encourage deployment while compensating harm.",
+      "assessment": "A candidate model and reported proponents rationale are not blanket author endorsement of preemption or a demonstrated optimum.",
+      "reference_ids": [],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C035",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Operator responsibility could pass to public/private pooled stewardship.",
+      "assessment": "Transfer proposal requires adequate funds and performance conditions, not mere elapsed time or extinguished physical risk.",
+      "reference_ids": [],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C036",
+      "pages": [
+        7
+      ],
+      "claim": "15/30 year examples and 50 year proposed monitoring may frame postclosure care.",
+      "assessment": "Source explicitly says the proposed rules have no transfer provisions; monitoring term is not automatic discharge.",
+      "reference_ids": [
+        "L11"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C037",
+      "pages": [
+        7
+      ],
+      "claim": "Plume stabilization/no endangerment to USDWs could inspire a performance trigger.",
+      "assessment": "Quoted proposed-rule p 43519 remains unverified; no numerical threshold/certification procedure supplied.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C038",
+      "pages": [
+        7
+      ],
+      "claim": "Three phases allocate insurance/liability/contributions, operator postclosure duties and later pooled stewardship.",
+      "assessment": "Conceptual outline transcribed, not an implemented state machine or verified legal regime.",
+      "reference_ids": [
+        "R020"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C039",
+      "pages": [
+        7
+      ],
+      "claim": "National pooling spreads geographically correlated formation risks and could establish a federal floor.",
+      "assessment": "Proposed diversification logic; effect depends on joint hazards. Synthetic examples retain the same expected loss while changing tail shortfalls.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C040",
+      "pages": [
+        7
+      ],
+      "claim": "Pilot caps should not become permanent; government bears more early and long-term compensation.",
+      "assessment": "Phase/scope of caps and excess recourse require definition; no native cap, optimal pilot count or risk-based tariff estimated.",
+      "reference_ids": [],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C041",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Existing law remains a backstop to tailored CCS rules; avoid blanket state absorption/preemption.",
+      "assessment": "Author conclusion, not proof that any particular party is now liable or that injured parties will recover.",
+      "reference_ids": [],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C042",
+      "pages": [
+        8
+      ],
+      "claim": "Funding by Doris Duke grant 2007117 and longer Emory version are disclosed.",
+      "assessment": "Read disclosure; full longer version identity/edition and any competing interests remain unverified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C043",
+      "pages": [
+        1,
+        8
+      ],
+      "claim": "Native conference identity and rendered 2009 licence differ from hidden template artifacts.",
+      "assessment": "Do not use placeholder dates or ghost 2008 journal data as publication metadata. Licence is BY-NC-ND, not unrestricted CC BY.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C044",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Paper 1 should distinguish physical leakage/pressure harm from fiscal assurance and legal transfer.",
+      "assessment": "Synthetic pooling/funding examples add no field failure distribution, annual service limit, actual insurance fee or complete capture-to-ship utility input.",
+      "reference_ids": [],
+      "kind": "audit_scope_implication"
+    }
+  ],
+  "references": [
+    {
+      "id": "R001",
+      "pages": [
+        8
+      ],
+      "citation": "Wilson, E.J. and D. Gerard, Geologic Sequestration Under Current Regulations, in Carbon Capture and Sequestration: Integrating Technology, Monitoring and Regulation, E.J. Wilson and D. Gerard, Editors. 2007, Blackwell: Ames, IA. p. 169-193.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        8
+      ],
+      "citation": "Ennis-King, J. and L. Patterson. Rate Dissolution of CO2 Injected into an Aquifer. in Sixth International Conference On Greenhouse Gas Control Technologies. 2002. Kyoto, Japan: Elsevier.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        8
+      ],
+      "citation": "Lindeberg, E. and P. Bergmo. The long-term fate of CO2 injected into an aquifer. in Sixth International Conference On Greenhouse Gas Control Technologies. 2002. Kyoto, Japan: Elsevier.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        8
+      ],
+      "citation": "Saripalli, P., N.M. Nahasenan, and E.M. Cook. Risk and Hazard Assessment for Projects Involving the Geological Sequestration of CO2. in Sixth International Conference On Greenhouse Gas Control Technologies. 2002. Kyoto, Japan: Elsevier.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        8
+      ],
+      "citation": "Metz, B., IPCC Special Report on Carbon Dioxide Capture and Storage. 2005: Cambridge University Press.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        8
+      ],
+      "citation": "Coddington, K., A Model CCS Code: Establishing the Regulatory Framework and Incentives to Enable Technolgy Deployment, in Carbon Capture and Seqeustration. 2006: Washington DC.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        8
+      ],
+      "citation": "Interstate Oil and Gas Compact Commission, Task Force on Carbon Capture and Geologic Storage, A Legal and Regulatory Guide for States and Provinces, IOGCC, Editor. 2007, Interstate Oil and Gas Compact Commission: Oklahoma City, OK.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        8
+      ],
+      "citation": "de Figueiredo, M.A., The Liability of Carbon Dioxide Storage  2007, Massachusetts Institute of Technology: Cambridge.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009",
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        8
+      ],
+      "citation": "Percival, R., Environmental Regulation: Law, Science and Policy. 2006: Aspen Publishers.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011",
+        "C013",
+        "C014",
+        "C023"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        8
+      ],
+      "citation": "Coddington, K. and B. Reynolds, Carbon Dioxide Poised for a Comeback, in American Coal. 2006, American Coal Council. p. 58-59.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        8
+      ],
+      "citation": "Cooke, S. and C. Davis, The Law of Hazardous Waste: Management, Cleanup, Liability and Litigation. 2004, Albany, New York: Matthew Bender.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        8
+      ],
+      "citation": "Madden, M.S. and G.W. Boston, Law of Environmental and Toxic Torts. 2005, Eagan, MN: West.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        8
+      ],
+      "citation": "Axline, M.D., The Limits of Statutory Law and the Wisdom of Common Law, in Creative Common Law Strategies for Protecting the Environment, D.E. Antonili and C.L. Rechtschaffen, Editors. 2007, Environmental Law Institute: Washington DC. p. 67-68.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        8
+      ],
+      "citation": "Sharkey, C.M., Producst Liability Preemption: An Institutional Approach. George Washington Law Review, 2008. 76: p. forthcoming.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C023"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        8
+      ],
+      "citation": "Ulardich, C., Environmental Impairment Liability Insurance for Geological Carbon Sequestration I.R.G. Council, Editor. 2007: Washington DC.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025",
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        8
+      ],
+      "citation": "Keith, D.W., et al., Regulating the Underground Injection of CO2. Environmental Science and Technology, 2005. 39(24): p. 499A-505A.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        8
+      ],
+      "citation": "Gerard, D. and E. Wilson, Environmental Bonds and the Challenge of Long-Term Carbon Sequestration. Journal of Environmental Management, 2008. in press.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        8
+      ],
+      "citation": "Ringleb, A.H. and S.N. Wiggins, Liability and Large Scale, Long Term Hazards. Journal of Political Economy, 1990. 98(3): p. 574-595.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        8
+      ],
+      "citation": "Shavell, S., Liability for harm versus regulation of safety. Journal of Legal Studies, 1984. 13: p. 357-374.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        8
+      ],
+      "citation": "Peña, N. and E.S. Rubin, A Trust Fund Approach to Accelerating Deployment of CCS: Options and Considerations, in Coal Initiative Reports. 2008, Pew Center on Global Climate Change: Washington DC.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C038"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R020"
+    },
+    {
+      "id": "L02",
+      "pages": [
+        2
+      ],
+      "citation": "2 42 U.S.C. § 6901-6992k.",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L02"
+    },
+    {
+      "id": "L03",
+      "pages": [
+        2
+      ],
+      "citation": "3 42 U.S.C. §§ 9601-9675.",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L03"
+    },
+    {
+      "id": "L04",
+      "pages": [
+        3
+      ],
+      "citation": "4 42 U.S.C. § 6972(a).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L04"
+    },
+    {
+      "id": "L05",
+      "pages": [
+        3
+      ],
+      "citation": "5 42 U.S.C. § 6903(27).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L05"
+    },
+    {
+      "id": "L06",
+      "pages": [
+        3
+      ],
+      "citation": "6 42 U.S.C. § 6904(5)",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L06"
+    },
+    {
+      "id": "L07",
+      "pages": [
+        3
+      ],
+      "citation": "7 73 Fed. Reg. 43492, (July 25, 2008)",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C009",
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L07"
+    },
+    {
+      "id": "L08",
+      "pages": [
+        3
+      ],
+      "citation": "8 The term “Superfund” is from the five-year, $1.6 billion Hazardous Substances Response Trust Fund created to finance cleanups at CERCLA’s inception.  See 28 U.S.C. § 9507 (establishing fund).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C015"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L08"
+    },
+    {
+      "id": "L09",
+      "pages": [
+        3
+      ],
+      "citation": "9 See 42 U.S.C. § 9607(a).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C014"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L09"
+    },
+    {
+      "id": "L10",
+      "pages": [
+        3
+      ],
+      "citation": "10 73 Fed. Reg. 43492, 43504 (July 25, 2008).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C009",
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L10"
+    },
+    {
+      "id": "L11",
+      "pages": [
+        5
+      ],
+      "citation": "11 See 73 Fed. Reg. 43492, 43495 (July 25, 2008)",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C009",
+        "C036"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L11"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        1,
+        8
+      ],
+      "citation": "Advertised longer Emory Law Review,Fall2008 version",
+      "role": "Exact title/DOI, authors/version/rights and correspondence not established; not silently substituted for conference paper.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        4
+      ],
+      "citation": "Underlying judicial precedents for all six Table1 doctrines",
+      "role": "No individual case authorities named in the table; obtain precise cases/longer legal analysis before verifying doctrinal/generalized claims.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        2,
+        8
+      ],
+      "citation": "Model-bearing aquifer dissolution/fate originalsR002/R003 and IPCC synthesisR005",
+      "role": "Original model data, geologic assumptions, pressure/buoyancy histories and scope remain unverified; no full physical model reproduced.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "citation": "Original73FedReg43492 proposed rule,including p43519",
+      "role": "Exact 2008 text and proposed/final/amended/current status unverified; monitoring requirements and transfer provisions are distinct.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "citation": "Historical/current statutory definitions,exceptions,case law and preemption",
+      "role": "Original legal authorities and jurisdiction/facts needed; short-source interpretations are not current legal determinations.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        6
+      ],
+      "citation": "EIL policy wording,claims-made dates,exclusions,deductibles and tail coverage",
+      "role": "No actual contract, insured site, premium or insured-loss dataset supplied.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "citation": "Actuarial frequencies,severities and cross-site/geologic dependence",
+      "role": "Essential missing native parameters. Analyst p/severity/correlation examples are not calibration.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        6,
+        7
+      ],
+      "citation": "Contribution rates,fund assets/returns and monitoring/remediation/damage costs",
+      "role": "No sufficient reserve or charge calculated by authors; analyst finite monitoring annuity excludes damages and actual phase allocation.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "citation": "Transfer certification,ownership,duties,caps and excess-recourse scope",
+      "role": "Performance thresholds and legal effect not formalized; phase-specific cap wording needs reconciliation before implementation.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        3,
+        6
+      ],
+      "citation": "Superfund,nuclear,TAPL and OPA historical source particulars",
+      "role": "Different regimes/periods and contributor units; amounts are not current CCS policy, pool liquidity or actuarial adequacy.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D11",
+      "pages": [
+        2,
+        6,
+        7
+      ],
+      "citation": "Native pressure/rate/retention and complete capture-to-ship inventory",
+      "role": "Paper 1 scope requirement, not advertised author dataset. No measured annual field service, full utilities or lifecycle factor supplied.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D12",
+      "pages": [
+        1,
+        8
+      ],
+      "citation": "Publisher supplements/code/data and provenance/rights",
+      "role": "No embedded assets or explicit availability section identified; longer version advertised, original assets unverified. No online absence or independent policy validation inferred.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I001",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status": "open",
+      "finding": "2008/2009 U.S. legal synthesis and proposed mechanisms are not verified current law or project permissions.",
+      "action": "Obtain exact statutes/rules/cases and present jurisdiction/facts; keep author recommendations and historical assertions distinct."
+    },
+    {
+      "id": "I002",
+      "pages": [
+        1,
+        8
+      ],
+      "status": "open",
+      "finding": "Full Emory version advertised but not identified/retrieved; short conference paper omits detailed source cases.",
+      "action": "Verify exact expanded version and legal authorities; do not infer comprehensive source-chain closure from eight-page reading."
+    },
+    {
+      "id": "I003",
+      "pages": [
+        2
+      ],
+      "status": "open",
+      "finding": "Local pressure/brine/contamination harm can occur without atmospheric leakage; no quantitative risk/service model supplied.",
+      "action": "Do not use retention alone as safety, liability or insurability guarantee; require site-specific physical/control and hazard evidence."
+    },
+    {
+      "id": "I004",
+      "pages": [
+        3
+      ],
+      "status": "open",
+      "finding": "Exact legal citations including 42 U.S.C. 6904(5) and 28 U.S.C. 9507 are unverified.",
+      "action": "Preserve native numbers and source context; no correction from memory or implied present legal support."
+    },
+    {
+      "id": "I005",
+      "pages": [
+        4
+      ],
+      "status": "open",
+      "finding": "Table 1 generalizations, cases and unusual reasonable-care wording need original legal support.",
+      "action": "Preserve all 30 cells/two blanks and jurisdictional caveats; no universal decision algorithm or doctrine correction inferred."
+    },
+    {
+      "id": "I006",
+      "pages": [
+        6
+      ],
+      "status": "open",
+      "finding": "Actual insurance, claims-made tail, exclusions, bond amount and recourse are unspecified.",
+      "action": "No assumption that posted or insured amount fully covers future damage or removes residual operator liability."
+    },
+    {
+      "id": "I007",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "open",
+      "finding": "National pooling does not guarantee independent risks or sufficient reserves.",
+      "action": "Obtain joint hazards, costs, returns and contribution terms; synthetic equal-mean/tail examples are not native calibration."
+    },
+    {
+      "id": "I008",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "open",
+      "finding": "15/30/50 year terms are examples/proposed monitoring; native text explicitly lacks automatic transfer provisions.",
+      "action": "Do not turn elapsed age into transfer, zero future liability or physical permanence. Define performance conditions and residual duties."
+    },
+    {
+      "id": "I009",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "status": "open",
+      "finding": "Caps are discussed for pilots and, in some text, long-term stewardship; scope/party/excess recourse not specified consistently enough for implementation.",
+      "action": "Distinguish candidate Table 2 descriptions from author endorsement; formalize phase-specific terms before any scenario treatment."
+    },
+    {
+      "id": "I010",
+      "pages": [
+        3,
+        6
+      ],
+      "status": "open",
+      "finding": "Historical nuclear/Superfund amounts lack current CCS applicability and complete collectible-fund/contributor definitions.",
+      "action": "Use only source arithmetic or clearly labelled analogy; do not infer contemporary premiums, actual cash reserves or company/reactor counts."
+    },
+    {
+      "id": "I011",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "open",
+      "finding": "Synthetic funding example starts monitoring after injection and omits damages, not the full proposed three-phase budget.",
+      "action": "Keep explicit analyst timing/cost/unit assumptions; no actual toll, financial sufficiency or pressure-limited injection input."
+    },
+    {
+      "id": "I012",
+      "pages": [
+        8
+      ],
+      "status": "open",
+      "finding": "All 20 bibliography originals, ten legal/fund notes and twelve further dependencies remain unverified.",
+      "action": "Follow exact edition/identity and relevant original passages when external retrieval resumes; no new scoped citation edge claimed."
+    },
+    {
+      "id": "I013",
+      "pages": [
+        1
+      ],
+      "status": "open",
+      "finding": "Hidden template placeholders and 2008 extraction artifacts conflict with rendered publication identity.",
+      "action": "Use native rendered 2009 header/authors/DOI/BY-NC-ND 3.0 link; preserve hash and do not invent received/accepted dates."
+    }
+  ],
+  "equations_absence": "No native displayed/numbered equations or derivations identified. All relations below are explicitly analyst diagnostics, not printed author equations or a formalization of legal transfer rules.",
+  "supplements": "No embedded files or explicit SI/code/data section identified. Abstract and acknowledgements advertise a longer Emory Law Review, Fall 2008 version; its identity/content/rights remain unverified. No online absence inferred. Personal Chrome controls were not found in the tool inventory; external source retrieval remains paused under the user instruction to wait for a Chrome connection. No author contacted.",
+  "reproduction": "The authors report qualitative legal synthesis and a conceptual three-phase funding proposal, with no native quantitative actuarial, reservoir or optimization model identified. Their legal analysis and proposed outcomes remain unverified. audit_liability_regime.py saves four limited monetary checks, twelve synthetic event rows, three pooling summaries, six monitoring-funding examples and a three-phase transcription. Six tests compare independent analytical moments, annuity formulas and cash-balance conservation. These analyst calculations are not a reproduction or validation of the author regime, cited physical models or actual coverage.",
+  "paper1_use": "Use as historical prior work on local EH&S harms without atmospheric leakage, distinct statutory/tort/financial mechanisms, performance-conditioned stewardship and incentives. Financial assurance and liability transfer do not establish physical safety, retention or annual service. Preserve legal/current-law, cap, coverage, correlation, source and expanded-version limitations. No accepted operating/GHG input or numerical result changes; existing combined 1.5 MPa source-case HOLD preserved.",
+  "next_steps": "Continue B3-03 locally. Verify 20 bibliography originals, ten native legal/fund note authorities and twelve dependencies, including the full longer version and model-bearing hydrogeological sources. Resolve current-law, coverage, phase/cap/transfer and funding/risk questions before closure. Keep goal active and paper incomplete."
+}

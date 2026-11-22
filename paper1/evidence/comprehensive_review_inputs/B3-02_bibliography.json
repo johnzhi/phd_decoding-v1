@@ -1,0 +1,822 @@
+{
+  "study_id": "B3-02",
+  "source_sha256": "22eb70b28615cd06cc5d94bc4c1ea5a21f5cfbd76a3dee2cf99e26b235051e17",
+  "provenance": "All 20 bibliography entries and ten numbered legal/fund notes 2–11 were text-read and inspected as rendered pages. Native line/bbox provenance retained. No exact original source or legal instrument verified; native spelling/editions/citation numbers preserved.",
+  "entries": [
+    {
+      "id": "R001",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "1. Wilson, E.J. and D. Gerard, Geologic Sequestration Under Current Regulations, in Carbon Capture and Sequestration: Integrating",
+        "Technology, Monitoring and Regulation, E.J. Wilson and D. Gerard, Editors. 2007, Blackwell: Ames, IA. p. 169-193."
+      ],
+      "line_bboxes": [
+        [
+          62.75674057006836,
+          331.3637390136719,
+          453.4608154296875,
+          339.22344970703125
+        ],
+        [
+          76.63652801513672,
+          340.27850341796875,
+          413.93060302734375,
+          348.1382141113281
+        ]
+      ],
+      "citation": "Wilson, E.J. and D. Gerard, Geologic Sequestration Under Current Regulations, in Carbon Capture and Sequestration: Integrating Technology, Monitoring and Regulation, E.J. Wilson and D. Gerard, Editors. 2007, Blackwell: Ames, IA. p. 169-193.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "2. Ennis-King, J. and L. Patterson. Rate Dissolution of CO2 Injected into an Aquifer. in Sixth International Conference On Greenhouse Gas",
+        "Control Technologies. 2002. Kyoto, Japan: Elsevier."
+      ],
+      "line_bboxes": [
+        [
+          62.756736755371094,
+          349.1925354003906,
+          468.4201354980469,
+          357.384521484375
+        ],
+        [
+          76.63628387451172,
+          358.0553283691406,
+          227.92591857910156,
+          365.9150390625
+        ]
+      ],
+      "citation": "Ennis-King, J. and L. Patterson. Rate Dissolution of CO2 Injected into an Aquifer. in Sixth International Conference On Greenhouse Gas Control Technologies. 2002. Kyoto, Japan: Elsevier.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "3. Lindeberg, E. and P. Bergmo. The long-term fate of CO2 injected into an aquifer. in Sixth International Conference On Greenhouse Gas",
+        "Control Technologies. 2002. Kyoto, Japan: Elsevier."
+      ],
+      "line_bboxes": [
+        [
+          62.756492614746094,
+          366.9700927734375,
+          465.9910888671875,
+          375.7377624511719
+        ],
+        [
+          76.63636779785156,
+          375.88525390625,
+          227.92599487304688,
+          383.7449645996094
+        ]
+      ],
+      "citation": "Lindeberg, E. and P. Bergmo. The long-term fate of CO2 injected into an aquifer. in Sixth International Conference On Greenhouse Gas Control Technologies. 2002. Kyoto, Japan: Elsevier.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "4. Saripalli, P., N.M. Nahasenan, and E.M. Cook. Risk and Hazard Assessment for Projects Involving the Geological Sequestration of CO2. in",
+        "Sixth International Conference On Greenhouse Gas Control Technologies. 2002. Kyoto, Japan: Elsevier."
+      ],
+      "line_bboxes": [
+        [
+          62.75657272338867,
+          384.7467956542969,
+          475.3644714355469,
+          392.9378967285156
+        ],
+        [
+          76.63623046875,
+          393.6619873046875,
+          377.82550048828125,
+          401.5216979980469
+        ]
+      ],
+      "citation": "Saripalli, P., N.M. Nahasenan, and E.M. Cook. Risk and Hazard Assessment for Projects Involving the Geological Sequestration of CO2. in Sixth International Conference On Greenhouse Gas Control Technologies. 2002. Kyoto, Japan: Elsevier.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "5. Metz, B., IPCC Special Report on Carbon Dioxide Capture and Storage. 2005: Cambridge University Press."
+      ],
+      "line_bboxes": [
+        [
+          62.75643539428711,
+          402.5760192871094,
+          388.41802978515625,
+          410.43572998046875
+        ]
+      ],
+      "citation": "Metz, B., IPCC Special Report on Carbon Dioxide Capture and Storage. 2005: Cambridge University Press.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "6. Coddington, K., A Model CCS Code: Establishing the Regulatory Framework and Incentives to Enable Technolgy Deployment, in Carbon",
+        "Capture and Seqeustration. 2006: Washington DC."
+      ],
+      "line_bboxes": [
+        [
+          62.75501251220703,
+          411.4375305175781,
+          473.2344970703125,
+          419.2972412109375
+        ],
+        [
+          76.6347885131836,
+          420.352294921875,
+          224.4682159423828,
+          428.2120056152344
+        ]
+      ],
+      "citation": "Coddington, K., A Model CCS Code: Establishing the Regulatory Framework and Incentives to Enable Technolgy Deployment, in Carbon Capture and Seqeustration. 2006: Washington DC.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "7. Interstate Oil and Gas Compact Commission, Task Force on Carbon Capture and Geologic Storage, A Legal and Regulatory Guide for",
+        "States and Provinces, IOGCC, Editor. 2007, Interstate Oil and Gas Compact Commission: Oklahoma City, OK."
+      ],
+      "line_bboxes": [
+        [
+          62.75498962402344,
+          429.2670593261719,
+          464.4328918457031,
+          437.12677001953125
+        ],
+        [
+          76.63409423828125,
+          438.12786865234375,
+          396.9534606933594,
+          445.9875793457031
+        ]
+      ],
+      "citation": "Interstate Oil and Gas Compact Commission, Task Force on Carbon Capture and Geologic Storage, A Legal and Regulatory Guide for States and Provinces, IOGCC, Editor. 2007, Interstate Oil and Gas Compact Commission: Oklahoma City, OK.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "8. de Figueiredo, M.A., The Liability of Carbon Dioxide Storage  2007, Massachusetts Institute of Technology: Cambridge."
+      ],
+      "line_bboxes": [
+        [
+          62.75429916381836,
+          447.0426330566406,
+          423.7099914550781,
+          454.90234375
+        ]
+      ],
+      "citation": "de Figueiredo, M.A., The Liability of Carbon Dioxide Storage  2007, Massachusetts Institute of Technology: Cambridge.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009",
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "9. Percival, R., Environmental Regulation: Law, Science and Policy. 2006: Aspen Publishers."
+      ],
+      "line_bboxes": [
+        [
+          62.75430679321289,
+          455.9573974609375,
+          337.7303771972656,
+          463.8171081542969
+        ]
+      ],
+      "citation": "Percival, R., Environmental Regulation: Law, Science and Policy. 2006: Aspen Publishers.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011",
+        "C013",
+        "C014",
+        "C023"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "10. Coddington, K. and B. Reynolds, Carbon Dioxide Poised for a Comeback, in American Coal. 2006, American Coal Council. p. 58-59."
+      ],
+      "line_bboxes": [
+        [
+          62.75430679321289,
+          464.81890869140625,
+          461.9171142578125,
+          472.6786193847656
+        ]
+      ],
+      "citation": "Coddington, K. and B. Reynolds, Carbon Dioxide Poised for a Comeback, in American Coal. 2006, American Coal Council. p. 58-59.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "11. Cooke, S. and C. Davis, The Law of Hazardous Waste: Management, Cleanup, Liability and Litigation. 2004, Albany, New York: Matthew",
+        "Bender."
+      ],
+      "line_bboxes": [
+        [
+          62.75431823730469,
+          473.73297119140625,
+          476.4878845214844,
+          481.5926818847656
+        ],
+        [
+          76.63555145263672,
+          482.647705078125,
+          100.7301254272461,
+          490.5074157714844
+        ]
+      ],
+      "citation": "Cooke, S. and C. Davis, The Law of Hazardous Waste: Management, Cleanup, Liability and Litigation. 2004, Albany, New York: Matthew Bender.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "12. Madden, M.S. and G.W. Boston, Law of Environmental and Toxic Torts. 2005, Eagan, MN: West."
+      ],
+      "line_bboxes": [
+        [
+          62.75575256347656,
+          491.50921630859375,
+          358.71307373046875,
+          499.3689270019531
+        ]
+      ],
+      "citation": "Madden, M.S. and G.W. Boston, Law of Environmental and Toxic Torts. 2005, Eagan, MN: West.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "13. Axline, M.D., The Limits of Statutory Law and the Wisdom of Common Law, in Creative Common Law Strategies for Protecting the",
+        "Environment, D.E. Antonili and C.L. Rechtschaffen, Editors. 2007, Environmental Law Institute: Washington DC. p. 67-68."
+      ],
+      "line_bboxes": [
+        [
+          62.75575637817383,
+          500.42401123046875,
+          455.5498962402344,
+          508.2837219238281
+        ],
+        [
+          76.63555145263672,
+          509.33807373046875,
+          432.38836669921875,
+          517.1978149414062
+        ]
+      ],
+      "citation": "Axline, M.D., The Limits of Statutory Law and the Wisdom of Common Law, in Creative Common Law Strategies for Protecting the Environment, D.E. Antonili and C.L. Rechtschaffen, Editors. 2007, Environmental Law Institute: Washington DC. p. 67-68.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "14. Sharkey, C.M., Producst Liability Preemption: An Institutional Approach. George Washington Law Review, 2008. 76: p. forthcoming."
+      ],
+      "line_bboxes": [
+        [
+          62.75575637817383,
+          518.1995849609375,
+          463.4769592285156,
+          526.059326171875
+        ]
+      ],
+      "citation": "Sharkey, C.M., Producst Liability Preemption: An Institutional Approach. George Washington Law Review, 2008. 76: p. forthcoming.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C023"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "15. Ulardich, C., Environmental Impairment Liability Insurance for Geological Carbon Sequestration I.R.G. Council, Editor. 2007: Washington",
+        "DC."
+      ],
+      "line_bboxes": [
+        [
+          62.75572967529297,
+          527.1143188476562,
+          479.32562255859375,
+          534.9740600585938
+        ],
+        [
+          76.6355209350586,
+          536.0283813476562,
+          88.26390838623047,
+          543.8881225585938
+        ]
+      ],
+      "citation": "Ulardich, C., Environmental Impairment Liability Insurance for Geological Carbon Sequestration I.R.G. Council, Editor. 2007: Washington DC.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025",
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "16. Keith, D.W., et al., Regulating the Underground Injection of CO2. Environmental Science and Technology, 2005. 39(24): p. 499A-505A."
+      ],
+      "line_bboxes": [
+        [
+          62.7557258605957,
+          544.889892578125,
+          470.5316162109375,
+          552.7496337890625
+        ]
+      ],
+      "citation": "Keith, D.W., et al., Regulating the Underground Injection of CO2. Environmental Science and Technology, 2005. 39(24): p. 499A-505A.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "17. Gerard, D. and E. Wilson, Environmental Bonds and the Challenge of Long-Term Carbon Sequestration. Journal of Environmental",
+        "Management, 2008. in press."
+      ],
+      "line_bboxes": [
+        [
+          62.75502395629883,
+          553.8046264648438,
+          452.24200439453125,
+          561.6643676757812
+        ],
+        [
+          76.6347885131836,
+          562.7194213867188,
+          160.40699768066406,
+          570.5791625976562
+        ]
+      ],
+      "citation": "Gerard, D. and E. Wilson, Environmental Bonds and the Challenge of Long-Term Carbon Sequestration. Journal of Environmental Management, 2008. in press.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "18. Ringleb, A.H. and S.N. Wiggins, Liability and Large Scale, Long Term Hazards. Journal of Political Economy, 1990. 98(3): p. 574-595."
+      ],
+      "line_bboxes": [
+        [
+          62.75498580932617,
+          571.5802001953125,
+          467.6845397949219,
+          579.43994140625
+        ]
+      ],
+      "citation": "Ringleb, A.H. and S.N. Wiggins, Liability and Large Scale, Long Term Hazards. Journal of Political Economy, 1990. 98(3): p. 574-595.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "19. Shavell, S., Liability for harm versus regulation of safety. Journal of Legal Studies, 1984. 13: p. 357-374."
+      ],
+      "line_bboxes": [
+        [
+          62.75426483154297,
+          580.4949951171875,
+          378.5333557128906,
+          588.354736328125
+        ]
+      ],
+      "citation": "Shavell, S., Liability for harm versus regulation of safety. Journal of Legal Studies, 1984. 13: p. 357-374.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "20. Peña, N. and E.S. Rubin, A Trust Fund Approach to Accelerating Deployment of CCS: Options and Considerations, in Coal Initiative",
+        "Reports. 2008, Pew Center on Global Climate Change: Washington DC."
+      ],
+      "line_bboxes": [
+        [
+          62.75353240966797,
+          589.4097290039062,
+          459.270263671875,
+          597.2694702148438
+        ],
+        [
+          76.63329315185547,
+          598.271240234375,
+          284.3794250488281,
+          606.1309814453125
+        ]
+      ],
+      "citation": "Peña, N. and E.S. Rubin, A Trust Fund Approach to Accelerating Deployment of CCS: Options and Considerations, in Coal Initiative Reports. 2008, Pew Center on Global Climate Change: Washington DC.",
+      "role": "Native printed bibliography source; exact original passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C038"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#R020"
+    }
+  ],
+  "legal_footnotes": [
+    {
+      "id": "L02",
+      "pages": [
+        2
+      ],
+      "native_lines": [
+        "2 42 U.S.C. § 6901-6992k. "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          630.9131469726562,
+          151.26239013671875,
+          641.5875244140625
+        ]
+      ],
+      "citation": "2 42 U.S.C. § 6901-6992k.",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L02"
+    },
+    {
+      "id": "L03",
+      "pages": [
+        2
+      ],
+      "native_lines": [
+        "3 42 U.S.C. §§ 9601-9675. "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          639.8281860351562,
+          151.26239013671875,
+          650.5025634765625
+        ]
+      ],
+      "citation": "3 42 U.S.C. §§ 9601-9675.",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L03"
+    },
+    {
+      "id": "L04",
+      "pages": [
+        3
+      ],
+      "native_lines": [
+        "4 42 U.S.C. § 6972(a). "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          577.5296630859375,
+          138.9104766845703,
+          588.2040405273438
+        ]
+      ],
+      "citation": "4 42 U.S.C. § 6972(a).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L04"
+    },
+    {
+      "id": "L05",
+      "pages": [
+        3
+      ],
+      "native_lines": [
+        "5 42 U.S.C. § 6903(27). "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          586.4447021484375,
+          142.90989685058594,
+          597.1190795898438
+        ]
+      ],
+      "citation": "5 42 U.S.C. § 6903(27).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L05"
+    },
+    {
+      "id": "L06",
+      "pages": [
+        3
+      ],
+      "native_lines": [
+        "6 42 U.S.C. § 6904(5) "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          595.306396484375,
+          137.58775329589844,
+          605.980712890625
+        ]
+      ],
+      "citation": "6 42 U.S.C. § 6904(5)",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L06"
+    },
+    {
+      "id": "L07",
+      "pages": [
+        3
+      ],
+      "native_lines": [
+        "7 73 Fed. Reg. 43492, (July 25, 2008) "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          604.221435546875,
+          182.70045471191406,
+          614.895751953125
+        ]
+      ],
+      "citation": "7 73 Fed. Reg. 43492, (July 25, 2008)",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C009",
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L07"
+    },
+    {
+      "id": "L08",
+      "pages": [
+        3
+      ],
+      "native_lines": [
+        "8 The term “Superfund” is from the five-year, $1.6 billion Hazardous Substances Response Trust Fund created to finance cleanups at",
+        "CERCLA’s inception.  See 28 U.S.C. § 9507 (establishing fund).   "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          613.136474609375,
+          478.93817138671875,
+          623.810791015625
+        ],
+        [
+          62.75657272338867,
+          624.8125610351562,
+          253.05857849121094,
+          632.6723022460938
+        ]
+      ],
+      "citation": "8 The term “Superfund” is from the five-year, $1.6 billion Hazardous Substances Response Trust Fund created to finance cleanups at CERCLA’s inception.  See 28 U.S.C. § 9507 (establishing fund).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C015"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L08"
+    },
+    {
+      "id": "L09",
+      "pages": [
+        3
+      ],
+      "native_lines": [
+        "9 See 42 U.S.C. § 9607(a).  "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          629.7239990234375,
+          152.3522186279297,
+          641.5875244140625
+        ]
+      ],
+      "citation": "9 See 42 U.S.C. § 9607(a).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C014"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L09"
+    },
+    {
+      "id": "L10",
+      "pages": [
+        3
+      ],
+      "native_lines": [
+        "10 73 Fed. Reg. 43492, 43504 (July 25, 2008). "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          641.9248046875,
+          205.70697021484375,
+          650.5025634765625
+        ]
+      ],
+      "citation": "10 73 Fed. Reg. 43492, 43504 (July 25, 2008).",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C009",
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L10"
+    },
+    {
+      "id": "L11",
+      "pages": [
+        5
+      ],
+      "native_lines": [
+        "11 See 73 Fed. Reg. 43492, 43495 (July 25, 2008) "
+      ],
+      "line_bboxes": [
+        [
+          73.43344116210938,
+          639.5465698242188,
+          215.5696258544922,
+          650.5025634765625
+        ]
+      ],
+      "citation": "11 See 73 Fed. Reg. 43492, 43495 (July 25, 2008)",
+      "role": "Printed legal/agency authority or fund note, not verified against original instruments/current law.",
+      "verification_status": "unverified_original_legal_authority",
+      "claim_links": [
+        "C009",
+        "C036"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-02_bibliography.json#L11"
+    }
+  ]
+}

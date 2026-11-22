@@ -1,0 +1,4 @@
+correlation_mixture,mean_loss_units,variance_loss_units2,loss_above_fund_probability,mean_pool_paid_units,mean_unfunded_units,scope
+0,20.000000000000004,1800.0000000000005,0.010000000000000002,19.000000000000004,1.0000000000000002,"Two synthetic site hazards; not a calibrated CCS frequency, severity, premium, legal cap or prediction"
+0.5,20.000000000000004,2700.0000000000005,0.05500000000000001,14.500000000000004,5.500000000000001,"Two synthetic site hazards; not a calibrated CCS frequency, severity, premium, legal cap or prediction"
+1,20.0,3600.0,0.1,10.0,10.0,"Two synthetic site hazards; not a calibrated CCS frequency, severity, premium, legal cap or prediction"

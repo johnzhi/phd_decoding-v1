@@ -1,0 +1,5 @@
+item,value,unit,scope
+historic_initial_Superfund,1600.0,million USD,"Native footnote8 historical fund, not a CCS reserve or current appropriation"
+historic_Superfund_arithmetic_period_average,320.0,million USD/y,"Five-year quotient only, not an observed annual spending profile"
+analyst100_nuclear_secondary_assessments,9850.0,million USD,"100 explicitly analyst contributors, not an inferred company/reactor count or instant fund liquidity"
+analyst100_nuclear_primary_plus_secondary,10150.0,million USD,"Historical analogy, conditional single300M primary layer plus100 contributions; not CCS compensation design"
