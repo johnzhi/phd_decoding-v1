@@ -1,0 +1,265 @@
+{
+  "basis": "Retained native PDF page 1 and existing detailed identity sections, checked for this synthesis. Bibliographic display only; source_catalogue.csv is unchanged. Author strings are short citations, not a claim to list every coauthor. DOI year tokens are not treated as publication dates.",
+  "papers": {
+    "B2-02": {
+      "author_year": "Wang, Robinson & Papadokonstantakis (2024)",
+      "year": "2024",
+      "note": "Published 26 July 2024; detailed identity S01."
+    },
+    "B2-03": {
+      "author_year": "Aras & Hasan (2025)",
+      "year": "2025",
+      "note": "Computers and Chemical Engineering 202 (2025), 109300."
+    },
+    "B2-05": {
+      "author_year": "Burger et al. (2026)",
+      "year": "2026",
+      "note": "IJGGC 154 (2026), 104698; published online 3 June 2026."
+    },
+    "B2-06": {
+      "author_year": "Ayotte-Sauvé et al. (2026)",
+      "year": "2026",
+      "note": "Computers and Chemical Engineering 206 (2026), 109525; online 11 December 2025; volume year used."
+    },
+    "B2-07": {
+      "author_year": "Hu et al. (2026)",
+      "year": "2026",
+      "note": "Frontiers in Environmental Science 14, 1966624; published 5 October 2026."
+    },
+    "B2-09": {
+      "author_year": "Kattel et al. (2026)",
+      "year": "2026",
+      "note": "Energy & Buildings 357 (2026), 117200; online 20 February 2026."
+    },
+    "B2-10": {
+      "author_year": "Fraga et al. (2024, GHGT-17)",
+      "year": "2024",
+      "note": "Retained conference manuscript identifies GHGT-17, 20–24 October 2024. SSRN5070419 is an identifier, not a verified DOI or separately verified publication date."
+    },
+    "B2-11": {
+      "author_year": "Beiron, Normann & Johnsson (2022)",
+      "year": "2022",
+      "note": "IJGGC 118 (2022), 103684; online 3 May 2022."
+    },
+    "B2-14": {
+      "author_year": "Wei et al. (2026)",
+      "year": "2026",
+      "note": "Environmental Science & Technology 60 (2026), 19170–19184; published 30 June 2026; DOI contains 5c, which is not the publication year."
+    },
+    "B2-15": {
+      "author_year": "Smith, Hampson & Krevor (2024)",
+      "year": "2024",
+      "note": "IJGGC 137 (2024), 104220; online 17 August 2024."
+    },
+    "B2-16": {
+      "author_year": "Wei et al. (2021)",
+      "year": "2021",
+      "note": "Nature Climate Change 11 (2021), 112–118; online 4 January 2021; DOI contains 2020."
+    },
+    "B2-17": {
+      "author_year": "Lin et al. (2026)",
+      "year": "2026",
+      "note": "RSER 226 (2026), 116313; online 20 September 2025. B3-46 is the retained duplicate."
+    },
+    "B2-18": {
+      "author_year": "Gidden et al. (2025)",
+      "year": "2025",
+      "note": "Nature 645 (2025), 124–132 plus online Methods; online 3 September 2025."
+    },
+    "B3-01": {
+      "author_year": "Bode & Jung (2006)",
+      "year": "2006",
+      "note": "International Environmental Agreements 6 (2006), 173–186; online 8 July 2006."
+    },
+    "B3-02": {
+      "author_year": "Wilson, Klass & Bergan (2009)",
+      "year": "2009",
+      "note": "Energy Procedia 1 (2009), 4575–4582; rendered first page confirms 2009."
+    },
+    "B3-03": {
+      "author_year": "Dbouk et al. (2025)",
+      "year": "2025",
+      "note": "IJGGC 147 (2025), 104479; online 1 October 2025."
+    },
+    "B3-04": {
+      "author_year": "Vulin et al. (2023)",
+      "year": "2023",
+      "note": "IJGGC 124 (2023), 103857; online 28 February 2023."
+    },
+    "B3-05": {
+      "author_year": "Togay, Serik & Lee (2025)",
+      "year": "2025",
+      "note": "Journal of Cleaner Production 525 (2025), 146563; online 11 September 2025."
+    },
+    "B3-06": {
+      "author_year": "Liu et al. (2023)",
+      "year": "2023",
+      "note": "Frontiers of Earth Science 17(3) (2023), 844–855; received/accepted 2022. Native title restores spaces and Province in China."
+    },
+    "B3-07": {
+      "author_year": "Kang et al. (2015)",
+      "year": "2015",
+      "note": "Energies 8 (2015), 2176–2196; published 19 March 2015."
+    },
+    "B3-08": {
+      "author_year": "Chu, Chang & Chung (2012)",
+      "year": "2012",
+      "note": "IJGGC 10 (2012), 46–55; online 13 June 2012."
+    },
+    "B3-09": {
+      "author_year": "Chong et al. (2014)",
+      "year": "2014",
+      "note": "Energy 76 (2014), 641–651; online 30 September 2014. Metadata check does not add a detailed audit record."
+    },
+    "B3-10": {
+      "author_year": "Costa et al. (2024)",
+      "year": "2024",
+      "note": "Carbon Capture Science & Technology 13 (2024), 100280."
+    },
+    "B3-12": {
+      "author_year": "Neele et al. (2011)",
+      "year": "2011",
+      "note": "Energy Procedia 4 (2011), 2740–2747; obsolete 2010 template text is not substituted for the issue header."
+    },
+    "B3-13": {
+      "author_year": "Morbee, Serpa & Tzimas (2012)",
+      "year": "2012",
+      "note": "IJGGC 7 (2012), 48–61; online 22 March 2012; DOI contains 2011."
+    },
+    "B3-15": {
+      "author_year": "Oei, Herold & Mendelevitch (2014)",
+      "year": "2014",
+      "note": "Retained first page identifies accepted/copyright 2014 but does not print a volume year; 2014 is used as that native bibliographic date, with issue date unverified."
+    },
+    "B3-16": {
+      "author_year": "Cihan, Birkholzer & Bianchi (2015)",
+      "year": "2015",
+      "note": "IJGGC 42 (2015), 175–187; online 22 August 2015."
+    },
+    "B3-17": {
+      "author_year": "Garcia, Kaminska & Maroto-Valer (2010)",
+      "year": "2010",
+      "note": "ICE Waste and Resource Management 163, WR2, May 2010, 77–88."
+    },
+    "B3-18": {
+      "author_year": "Oldenburg (2008)",
+      "year": "2008",
+      "note": "Environmental Geology 54 (2008), 1687–1694; online 27 July 2007. Issue year used."
+    },
+    "B3-19": {
+      "author_year": "Goodman et al. (2013)",
+      "year": "2013",
+      "note": "IJGGC 18 (2013), 329–342."
+    },
+    "B3-20": {
+      "author_year": "Huerta et al. (2020)",
+      "year": "2020",
+      "note": "IJGGC 100 (2020), 103105."
+    },
+    "B3-21": {
+      "author_year": "Wang & Zhang (2025)",
+      "year": "2025",
+      "note": "Frontiers in Marine Science 12, 1621290; published 17 July 2025."
+    },
+    "B3-22": {
+      "author_year": "Heffron et al. (2017)",
+      "year": "2017",
+      "note": "Retained Journal of World Energy Law and Business first page says 2017, 0, 1–23; final issue assignment is not inferred."
+    },
+    "B3-23": {
+      "author_year": "Musayev, Shin & Nguyen-Le (2023)",
+      "year": "2023",
+      "note": "IJGGC 127 (2023), 103915."
+    },
+    "B3-24": {
+      "author_year": "Strachan et al. (2011)",
+      "year": "2011",
+      "note": "IJGGC 5 (2011), 1517–1532."
+    },
+    "B3-25": {
+      "author_year": "van Beek et al. (2024)",
+      "year": "2024",
+      "note": "Journal of Cleaner Production 435 (2024), 140271; online 23 December 2023; issue year used."
+    },
+    "B3-26": {
+      "author_year": "Brownsort, Scott & Haszeldine (2016)",
+      "year": "2016",
+      "note": "IJGGC 52 (2016), 130–138; online 14 July 2016."
+    },
+    "B3-27": {
+      "author_year": "Emborg et al. (2026)",
+      "year": "2026",
+      "note": "Sustainable Production and Consumption 64 (2026), 282–304; online 2 October 2025; issue year used."
+    },
+    "B3-28": {
+      "author_year": "Yang et al. (2026)",
+      "year": "2026",
+      "note": "RSER 235 (2026), 116945."
+    },
+    "B3-30": {
+      "author_year": "Yuan et al. (2023)",
+      "year": "2023",
+      "note": "IJGGC 124 (2023), 103847."
+    },
+    "B3-31": {
+      "author_year": "Gunawan et al. (2024)",
+      "year": "2024",
+      "note": "Applied Energy 359 (2024), 122775."
+    },
+    "B3-32": {
+      "author_year": "Knoope, Ramírez & Faaij (2015)",
+      "year": "2015",
+      "note": "IJGGC 41 (2015), 174–193; online 30 July 2015."
+    },
+    "B3-34": {
+      "author_year": "Decarre et al. (2010)",
+      "year": "2010",
+      "note": "IJGGC 4 (2010), 857–864; online 9 June 2010."
+    },
+    "B3-35": {
+      "author_year": "Aspelund, Mølnvik & De Koeijer (2006)",
+      "year": "2006",
+      "note": "Chemical Engineering Research and Design 84(A9), September 2006, 847–855."
+    },
+    "B3-36": {
+      "author_year": "Roussanaly, Brunsvold & Hognes (2014)",
+      "year": "2014",
+      "note": "IJGGC 28 (2014), 283–299; online 31 July 2014."
+    },
+    "B3-40": {
+      "author_year": "Jahediesfanjani, Warwick & Anderson (2018)",
+      "year": "2018",
+      "note": "IJGGC 79 (2018), 14–24; native text joins surname and affiliation marker; surname separated here."
+    },
+    "B3-41": {
+      "author_year": "Karvounis & Blunt (2021)",
+      "year": "2021",
+      "note": "IJGGC 111 (2021), 103463."
+    },
+    "B3-43": {
+      "author_year": "Zhang et al. (2019)",
+      "year": "2019",
+      "note": "RSER 113 (2019), 109280; first author Shuai Zhang."
+    },
+    "B3-45": {
+      "author_year": "d’Amore, Romano & Bezzo (2021)",
+      "year": "2021",
+      "note": "IJGGC 109 (2021), 103372."
+    }
+  },
+  "titles": {
+    "B3-06": "Assessing the cost reduction potential of CCUS cluster projects of coal-fired plants in Guangdong Province in China",
+    "B3-44": "A scalable infrastructure model for carbon capture and storage: SimCCS"
+  },
+  "findings": {
+    "B1-19": "Eighteen process/impurity cases report paired annual purge-plus-auxiliary-generator CO2 and annual transported mass. These support a within-case partial-process intensity, with separate pressure/composition and reduction-wording conflicts; native HYSYS/PSO/APEA and route calendars are not independently reproduced.",
+    "B2-08": "A 5000 t ship is selected in the cited 0.4 Mt/year, 715 km design. Source buffers are 5120 t for 99% completion and 5890 t for 100% completion: 1.024 and 1.178 times ship capacity. Average-cycle denominators, foresight and seasonal assumptions must remain separate.",
+    "B2-12": "The six published best-solution cases quote 32.8–142.1 kgCO2e/t stored. Five scenario values remain eligible only within their postcapture source boundary. Combined 1.5 MPa prose39.2 is on HOLD because Fig 20 component totals exceed its stated best-solution total; no replacement is inferred.",
+    "B3-06": "At body-specified cluster scales of 3 and 9 Mt/year, reported unit costs are 475.81 and 298.02 CNY/t. Mean sharing advantages reproduce as 19.94% and 15.92%, respectively. Abstract-rate, monetary-unit, NPV and scenario-total questions prevent financial or climate calibration.",
+    "B3-08": "The financial partial-reliquefaction optimum depends on fuel, carbon penalties, recovered-CO2 sales, impurities and work curves. Abstract 95.7–98.2%, tax-body 97.2–98.1% and other case ranges remain separate. The borrowed LNG BOG rate and process assumptions do not establish actual carrier losses or an environmental optimum.",
+    "B3-41": "The source assesses441 North Sea sites using pressure-aware modelling. Table 5's 22620 Mt/year total differs from the 14664 Mt/year country-row sum, so the aggregate annual value remains on HOLD; neither is substituted as local annual service.",
+    "B4-05": "The superstructure represents changing availability, supply quality and a mixing/storage hub. Its numerical case uses biochar/bio-oil data/units, so it is only qualified general synthesis precedent. The reported3% profit improvement is not a CO2 climate credit or validated injection result.",
+    "B4-06": "Published single-/multi-well totals are 153.21/159.81 Mt over 30 years. Retained source rates sum to5.327 Mt/year and match159.81 Mt over 30 bins. Rounded supplementary heatmaps are replayed, but do not supply exact optimiser output or independent physical maximum kr,t arrays.",
+    "B4-08": "The regional study reports stationary sources and cumulative oil/gas/aquifer resources within 1000 km of Singapore. Independent implementation of the aquifer equation reproduces 24 displayed resource results under source inputs. This validates that accounting component, not annual pressure service or the complete regional model."
+  }
+}

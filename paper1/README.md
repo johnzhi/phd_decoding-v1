@@ -10,6 +10,8 @@ The [12 November public-source follow-up](docs/public_reservoir_capture_review.m
 
 The [comprehensive scientific audit](docs/comprehensive_audit.md), requested on 21 November 2026, is now in progress across all 92 unique publications and 1,301 pages. Its [separate progress register](docs/comprehensive_review/README.md) records page/figure/equation reading, citation checks, supplements, model reproduction and exclusions. The earlier targeted reviews are preserved; no paper is yet declared comprehensively complete under the expanded standard.
 
+The [22 November literature package](docs/literature_synthesis/README.md) provides a concrete use guide for the 51 detailed reviews, a full 92-row literature table in Excel/CSV/Markdown/PDF, and a separate proposed introduction with references. Its checkpoint distinguishes 51 detailed records/710 pages from 41 targeted-only papers, retains the B2-12 combined 1.5 MPa HOLD and changes no numerical inputs or manuscript results.
+
 ## Reproduce
 
 From the repository root:

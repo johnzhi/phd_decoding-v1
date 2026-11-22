@@ -14,6 +14,8 @@ The controlled operating model, shared-source annual benchmark, dispatch sensiti
 
 ## Most useful next input
 
+The [22 November synthesis](literature_synthesis/README.md) packages what Paper 1 can use from the 51 detailed records and a full literature table for all 92 unique publications. It retains zero comprehensively complete papers and does not close any physical/inventory requirements above. The next main-PDF audit remains B3-09.
+
 The retained Bjarmeland deck can now support an independent proxy rerun without waiting for the oversized IBDP files. Native Tomakomai paired rate/pressure/temperature and model-realisation exports would most directly strengthen the Japanese physical component. IBDP injection-monitoring files are an optional independent alternative; the four oversized reports are not a prerequisite to other work. The supplied oversized ZIP could not be opened through the transfer tool. Prefer CSV or selected relevant appendices rather than general additional PDFs. [Specific formats and variables](reference_data_requests.md) are listed separately.
 
 The [author request draft](author_data_request.md) remains unsent. A positive partial allowance is conditional; complete regional lifecycle mitigation remains uncomputed.
