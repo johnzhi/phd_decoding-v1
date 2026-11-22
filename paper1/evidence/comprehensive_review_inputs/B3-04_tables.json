@@ -1,0 +1,3942 @@
+{
+  "study_id": "B3-04",
+  "source_sha256": "1350adda60535707db730edcecafd85628ab019d4615d4b7593bffda290d26a8",
+  "provenance": "All four tables, headers, units, captions, footnote and all159 substantive cells inspected, with enlarged renders. Native lines/bboxes retained; Table3 porosity/heterogeneity unit cells are blank. Table4 Lipovljani emitted minimum is literal0 23, not silently parsed.",
+  "cells": [
+    {
+      "id": "T1_01_age",
+      "table": 1,
+      "row": "Poljana",
+      "column": "age",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Pannonian "
+      ],
+      "line_bboxes": [
+        [
+          156.69761657714844,
+          89.37562561035156,
+          188.60899353027344,
+          99.80022430419922
+        ]
+      ],
+      "native_text": "Pannonian "
+    },
+    {
+      "id": "T1_01_lithology",
+      "table": 1,
+      "row": "Poljana",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          216.8478546142578,
+          89.37562561035156,
+          247.40753173828125,
+          99.80022430419922
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T1_01_setting",
+      "table": 1,
+      "row": "Poljana",
+      "column": "setting",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Onshore "
+      ],
+      "line_bboxes": [
+        [
+          275.69488525390625,
+          89.37562561035156,
+          301.1219482421875,
+          99.80022430419922
+        ]
+      ],
+      "native_text": "Onshore "
+    },
+    {
+      "id": "T1_01_depth_top_m",
+      "table": 1,
+      "row": "Poljana",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1450 "
+      ],
+      "line_bboxes": [
+        [
+          329.3824768066406,
+          89.37562561035156,
+          345.609130859375,
+          99.80022430419922
+        ]
+      ],
+      "native_text": "1450 "
+    },
+    {
+      "id": "T1_01_thickness_m",
+      "table": 1,
+      "row": "Poljana",
+      "column": "thickness_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "150 "
+      ],
+      "line_bboxes": [
+        [
+          407.2774963378906,
+          89.37562561035156,
+          419.9145202636719,
+          99.80022430419922
+        ]
+      ],
+      "native_text": "150 "
+    },
+    {
+      "id": "T1_01_capacity_Mt",
+      "table": 1,
+      "row": "Poljana",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "251.6 "
+      ],
+      "line_bboxes": [
+        [
+          489.6515808105469,
+          89.37562561035156,
+          507.66357421875,
+          99.80022430419922
+        ]
+      ],
+      "native_text": "251.6 "
+    },
+    {
+      "id": "T1_02_age",
+      "table": 1,
+      "row": "Okoli",
+      "column": "age",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Pannonian "
+      ],
+      "line_bboxes": [
+        [
+          156.69761657714844,
+          97.93655395507812,
+          188.60899353027344,
+          108.36114501953125
+        ]
+      ],
+      "native_text": "Pannonian "
+    },
+    {
+      "id": "T1_02_lithology",
+      "table": 1,
+      "row": "Okoli",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          216.8478546142578,
+          97.93655395507812,
+          247.40753173828125,
+          108.36114501953125
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T1_02_setting",
+      "table": 1,
+      "row": "Okoli",
+      "column": "setting",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Onshore "
+      ],
+      "line_bboxes": [
+        [
+          275.69488525390625,
+          97.93655395507812,
+          301.1219482421875,
+          108.36114501953125
+        ]
+      ],
+      "native_text": "Onshore "
+    },
+    {
+      "id": "T1_02_depth_top_m",
+      "table": 1,
+      "row": "Okoli",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2000 "
+      ],
+      "line_bboxes": [
+        [
+          329.3824768066406,
+          97.93655395507812,
+          345.609130859375,
+          108.36114501953125
+        ]
+      ],
+      "native_text": "2000 "
+    },
+    {
+      "id": "T1_02_thickness_m",
+      "table": 1,
+      "row": "Okoli",
+      "column": "thickness_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "250 "
+      ],
+      "line_bboxes": [
+        [
+          407.2774963378906,
+          97.93655395507812,
+          419.9145202636719,
+          108.36114501953125
+        ]
+      ],
+      "native_text": "250 "
+    },
+    {
+      "id": "T1_02_capacity_Mt",
+      "table": 1,
+      "row": "Okoli",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "229.0 "
+      ],
+      "line_bboxes": [
+        [
+          489.6515808105469,
+          97.93655395507812,
+          507.66357421875,
+          108.36114501953125
+        ]
+      ],
+      "native_text": "229.0 "
+    },
+    {
+      "id": "T1_03_age",
+      "table": 1,
+      "row": "Iva",
+      "column": "age",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Pannonian "
+      ],
+      "line_bboxes": [
+        [
+          156.69761657714844,
+          106.496826171875,
+          188.60899353027344,
+          116.92142486572266
+        ]
+      ],
+      "native_text": "Pannonian "
+    },
+    {
+      "id": "T1_03_lithology",
+      "table": 1,
+      "row": "Iva",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          216.8478546142578,
+          106.496826171875,
+          247.40753173828125,
+          116.92142486572266
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T1_03_setting",
+      "table": 1,
+      "row": "Iva",
+      "column": "setting",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Onshore "
+      ],
+      "line_bboxes": [
+        [
+          275.69488525390625,
+          106.496826171875,
+          301.1219482421875,
+          116.92142486572266
+        ]
+      ],
+      "native_text": "Onshore "
+    },
+    {
+      "id": "T1_03_depth_top_m",
+      "table": 1,
+      "row": "Iva",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2050 "
+      ],
+      "line_bboxes": [
+        [
+          329.3824768066406,
+          106.496826171875,
+          345.609130859375,
+          116.92142486572266
+        ]
+      ],
+      "native_text": "2050 "
+    },
+    {
+      "id": "T1_03_thickness_m",
+      "table": 1,
+      "row": "Iva",
+      "column": "thickness_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "250 "
+      ],
+      "line_bboxes": [
+        [
+          407.2774963378906,
+          106.496826171875,
+          419.9145202636719,
+          116.92142486572266
+        ]
+      ],
+      "native_text": "250 "
+    },
+    {
+      "id": "T1_03_capacity_Mt",
+      "table": 1,
+      "row": "Iva",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "55.1 "
+      ],
+      "line_bboxes": [
+        [
+          489.6515808105469,
+          106.496826171875,
+          504.07391357421875,
+          116.92142486572266
+        ]
+      ],
+      "native_text": "55.1 "
+    },
+    {
+      "id": "T1_04_age",
+      "table": 1,
+      "row": "Drava",
+      "column": "age",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Pannonian "
+      ],
+      "line_bboxes": [
+        [
+          156.69761657714844,
+          115.05711364746094,
+          188.60899353027344,
+          125.4817123413086
+        ]
+      ],
+      "native_text": "Pannonian "
+    },
+    {
+      "id": "T1_04_lithology",
+      "table": 1,
+      "row": "Drava",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          216.8478546142578,
+          115.05711364746094,
+          247.40753173828125,
+          125.4817123413086
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T1_04_setting",
+      "table": 1,
+      "row": "Drava",
+      "column": "setting",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Onshore "
+      ],
+      "line_bboxes": [
+        [
+          275.69488525390625,
+          115.05711364746094,
+          301.1219482421875,
+          125.4817123413086
+        ]
+      ],
+      "native_text": "Onshore "
+    },
+    {
+      "id": "T1_04_depth_top_m",
+      "table": 1,
+      "row": "Drava",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "900 "
+      ],
+      "line_bboxes": [
+        [
+          329.3824768066406,
+          115.05711364746094,
+          342.0195007324219,
+          125.4817123413086
+        ]
+      ],
+      "native_text": "900 "
+    },
+    {
+      "id": "T1_04_thickness_m",
+      "table": 1,
+      "row": "Drava",
+      "column": "thickness_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1000 "
+      ],
+      "line_bboxes": [
+        [
+          407.2774963378906,
+          115.05711364746094,
+          423.504150390625,
+          125.4817123413086
+        ]
+      ],
+      "native_text": "1000 "
+    },
+    {
+      "id": "T1_04_capacity_Mt",
+      "table": 1,
+      "row": "Drava",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1938.9 "
+      ],
+      "line_bboxes": [
+        [
+          489.6515808105469,
+          115.05711364746094,
+          511.25323486328125,
+          125.4817123413086
+        ]
+      ],
+      "native_text": "1938.9 "
+    },
+    {
+      "id": "T1_05_age",
+      "table": 1,
+      "row": "Osijek",
+      "column": "age",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Pannonian "
+      ],
+      "line_bboxes": [
+        [
+          156.69761657714844,
+          123.6180419921875,
+          188.60899353027344,
+          134.0426483154297
+        ]
+      ],
+      "native_text": "Pannonian "
+    },
+    {
+      "id": "T1_05_lithology",
+      "table": 1,
+      "row": "Osijek",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          216.8478546142578,
+          123.6180419921875,
+          247.40753173828125,
+          134.0426483154297
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T1_05_setting",
+      "table": 1,
+      "row": "Osijek",
+      "column": "setting",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Onshore "
+      ],
+      "line_bboxes": [
+        [
+          275.69488525390625,
+          123.6180419921875,
+          301.1219482421875,
+          134.0426483154297
+        ]
+      ],
+      "native_text": "Onshore "
+    },
+    {
+      "id": "T1_05_depth_top_m",
+      "table": 1,
+      "row": "Osijek",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1000 "
+      ],
+      "line_bboxes": [
+        [
+          329.3824768066406,
+          123.6180419921875,
+          345.609130859375,
+          134.0426483154297
+        ]
+      ],
+      "native_text": "1000 "
+    },
+    {
+      "id": "T1_05_thickness_m",
+      "table": 1,
+      "row": "Osijek",
+      "column": "thickness_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "105 "
+      ],
+      "line_bboxes": [
+        [
+          407.2774963378906,
+          123.6180419921875,
+          419.9145202636719,
+          134.0426483154297
+        ]
+      ],
+      "native_text": "105 "
+    },
+    {
+      "id": "T1_05_capacity_Mt",
+      "table": 1,
+      "row": "Osijek",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "109.9  "
+      ],
+      "line_bboxes": [
+        [
+          489.6515808105469,
+          123.6180419921875,
+          509.5317077636719,
+          134.0426483154297
+        ]
+      ],
+      "native_text": "109.9  "
+    },
+    {
+      "id": "T2_01_lithology",
+      "table": 2,
+      "row": "Kloštar",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone/Granite "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          220.1095428466797,
+          409.9866638183594,
+          230.53414916992188
+        ]
+      ],
+      "native_text": "Sandstone/Granite "
+    },
+    {
+      "id": "T2_01_depth_top_m",
+      "table": 2,
+      "row": "Kloštar",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "973 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          220.1095428466797,
+          436.92547607421875,
+          230.53414916992188
+        ]
+      ],
+      "native_text": "973 "
+    },
+    {
+      "id": "T2_01_capacity_Mt",
+      "table": 2,
+      "row": "Kloštar",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2.7 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          220.1095428466797,
+          474.1257019042969,
+          230.53414916992188
+        ]
+      ],
+      "native_text": "2.7 "
+    },
+    {
+      "id": "T2_01_availability_year",
+      "table": 2,
+      "row": "Kloštar",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2027 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          220.1095428466797,
+          528.27490234375,
+          230.53414916992188
+        ]
+      ],
+      "native_text": "2027 "
+    },
+    {
+      "id": "T2_02_lithology",
+      "table": 2,
+      "row": "Ivanić",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          228.66983032226562,
+          385.8539123535156,
+          239.0944366455078
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T2_02_depth_top_m",
+      "table": 2,
+      "row": "Ivanić",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1619 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          228.66983032226562,
+          440.5151062011719,
+          239.0944366455078
+        ]
+      ],
+      "native_text": "1619 "
+    },
+    {
+      "id": "T2_02_capacity_Mt",
+      "table": 2,
+      "row": "Ivanić",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "5.5 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          228.66983032226562,
+          474.1257019042969,
+          239.0944366455078
+        ]
+      ],
+      "native_text": "5.5 "
+    },
+    {
+      "id": "T2_02_availability_year",
+      "table": 2,
+      "row": "Ivanić",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2032 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          228.66983032226562,
+          528.27490234375,
+          239.0944366455078
+        ]
+      ],
+      "native_text": "2032 "
+    },
+    {
+      "id": "T2_03_lithology",
+      "table": 2,
+      "row": "Žutica",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          237.23074340820312,
+          385.8539123535156,
+          247.6553497314453
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T2_03_depth_top_m",
+      "table": 2,
+      "row": "Žutica",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1699 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          237.23074340820312,
+          440.5151062011719,
+          247.6553497314453
+        ]
+      ],
+      "native_text": "1699 "
+    },
+    {
+      "id": "T2_03_capacity_Mt",
+      "table": 2,
+      "row": "Žutica",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "10.1 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          237.23074340820312,
+          477.7153015136719,
+          247.6553497314453
+        ]
+      ],
+      "native_text": "10.1 "
+    },
+    {
+      "id": "T2_03_availability_year",
+      "table": 2,
+      "row": "Žutica",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2032 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          237.23074340820312,
+          528.27490234375,
+          247.6553497314453
+        ]
+      ],
+      "native_text": "2032 "
+    },
+    {
+      "id": "T2_04_lithology",
+      "table": 2,
+      "row": "Okoli",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          245.79103088378906,
+          385.8539123535156,
+          256.21563720703125
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T2_04_depth_top_m",
+      "table": 2,
+      "row": "Okoli",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1750 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          245.79103088378906,
+          440.5151062011719,
+          256.21563720703125
+        ]
+      ],
+      "native_text": "1750 "
+    },
+    {
+      "id": "T2_04_capacity_Mt",
+      "table": 2,
+      "row": "Okoli",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "7.3 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          245.79103088378906,
+          474.1257019042969,
+          256.21563720703125
+        ]
+      ],
+      "native_text": "7.3 "
+    },
+    {
+      "id": "T2_04_availability_year",
+      "table": 2,
+      "row": "Okoli",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2023 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          245.79103088378906,
+          528.27490234375,
+          256.21563720703125
+        ]
+      ],
+      "native_text": "2023 "
+    },
+    {
+      "id": "T2_05_lithology",
+      "table": 2,
+      "row": "Stružec",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          254.351318359375,
+          385.8539123535156,
+          264.7759094238281
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T2_05_depth_top_m",
+      "table": 2,
+      "row": "Stružec",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "727 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          254.351318359375,
+          436.92547607421875,
+          264.7759094238281
+        ]
+      ],
+      "native_text": "727 "
+    },
+    {
+      "id": "T2_05_capacity_Mt",
+      "table": 2,
+      "row": "Stružec",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1.7 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          254.351318359375,
+          474.1257019042969,
+          264.7759094238281
+        ]
+      ],
+      "native_text": "1.7 "
+    },
+    {
+      "id": "T2_05_availability_year",
+      "table": 2,
+      "row": "Stružec",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2040 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          254.351318359375,
+          528.27490234375,
+          264.7759094238281
+        ]
+      ],
+      "native_text": "2040 "
+    },
+    {
+      "id": "T2_06_lithology",
+      "table": 2,
+      "row": "Lipovljani",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          262.9122314453125,
+          385.8539123535156,
+          273.3368225097656
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T2_06_depth_top_m",
+      "table": 2,
+      "row": "Lipovljani",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1026 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          262.9122314453125,
+          440.5151062011719,
+          273.3368225097656
+        ]
+      ],
+      "native_text": "1026 "
+    },
+    {
+      "id": "T2_06_capacity_Mt",
+      "table": 2,
+      "row": "Lipovljani",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "3.2 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          262.9122314453125,
+          474.1257019042969,
+          273.3368225097656
+        ]
+      ],
+      "native_text": "3.2 "
+    },
+    {
+      "id": "T2_06_availability_year",
+      "table": 2,
+      "row": "Lipovljani",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2023 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          262.9122314453125,
+          528.27490234375,
+          273.3368225097656
+        ]
+      ],
+      "native_text": "2023 "
+    },
+    {
+      "id": "T2_07_lithology",
+      "table": 2,
+      "row": "Gola Duboka",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Carbonate "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          271.4725036621094,
+          386.05792236328125,
+          281.8970947265625
+        ]
+      ],
+      "native_text": "Carbonate "
+    },
+    {
+      "id": "T2_07_depth_top_m",
+      "table": 2,
+      "row": "Gola Duboka",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2521 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          271.4725036621094,
+          440.5151062011719,
+          281.8970947265625
+        ]
+      ],
+      "native_text": "2521 "
+    },
+    {
+      "id": "T2_07_capacity_Mt",
+      "table": 2,
+      "row": "Gola Duboka",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "5.8 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          271.4725036621094,
+          474.1257019042969,
+          281.8970947265625
+        ]
+      ],
+      "native_text": "5.8 "
+    },
+    {
+      "id": "T2_07_availability_year",
+      "table": 2,
+      "row": "Gola Duboka",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2030 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          271.4725036621094,
+          528.27490234375,
+          281.8970947265625
+        ]
+      ],
+      "native_text": "2030 "
+    },
+    {
+      "id": "T2_08_lithology",
+      "table": 2,
+      "row": "Molve",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Breccia/ ",
+        "Carbonates/ ",
+        "Metamorphic rocks "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          288.6504821777344,
+          380.8807067871094,
+          299.0750732421875
+        ],
+        [
+          355.2942199707031,
+          297.21075439453125,
+          391.7197265625,
+          307.6353454589844
+        ],
+        [
+          355.2942199707031,
+          305.77166748046875,
+          411.6080627441406,
+          316.1962585449219
+        ]
+      ],
+      "native_text": "Breccia/ \nCarbonates/ \nMetamorphic rocks "
+    },
+    {
+      "id": "T2_08_depth_top_m",
+      "table": 2,
+      "row": "Molve",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "3100 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          288.6504821777344,
+          440.5151062011719,
+          299.0750732421875
+        ]
+      ],
+      "native_text": "3100 "
+    },
+    {
+      "id": "T2_08_capacity_Mt",
+      "table": 2,
+      "row": "Molve",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "42.8 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          288.6504821777344,
+          477.7153015136719,
+          299.0750732421875
+        ]
+      ],
+      "native_text": "42.8 "
+    },
+    {
+      "id": "T2_08_availability_year",
+      "table": 2,
+      "row": "Molve",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2027 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          288.6504821777344,
+          528.27490234375,
+          299.0750732421875
+        ]
+      ],
+      "native_text": "2027 "
+    },
+    {
+      "id": "T2_09_lithology",
+      "table": 2,
+      "row": "Kalinovac",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Carbonates/ ",
+        "Metamorphic rocks "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          314.3319396972656,
+          391.7197265625,
+          324.75653076171875
+        ],
+        [
+          355.2942199707031,
+          322.8928527832031,
+          411.6080627441406,
+          333.31744384765625
+        ]
+      ],
+      "native_text": "Carbonates/ \nMetamorphic rocks "
+    },
+    {
+      "id": "T2_09_depth_top_m",
+      "table": 2,
+      "row": "Kalinovac",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "3054 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          314.3319396972656,
+          440.5151062011719,
+          324.75653076171875
+        ]
+      ],
+      "native_text": "3054 "
+    },
+    {
+      "id": "T2_09_capacity_Mt",
+      "table": 2,
+      "row": "Kalinovac",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "31.6 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          314.3319396972656,
+          477.7153015136719,
+          324.75653076171875
+        ]
+      ],
+      "native_text": "31.6 "
+    },
+    {
+      "id": "T2_09_availability_year",
+      "table": 2,
+      "row": "Kalinovac",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2035 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          314.3319396972656,
+          528.27490234375,
+          324.75653076171875
+        ]
+      ],
+      "native_text": "2035 "
+    },
+    {
+      "id": "T2_10_lithology",
+      "table": 2,
+      "row": "Stari Gradac",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Clastics/ ",
+        "Carbonates/ ",
+        "Metamorphic rocks "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          331.4531555175781,
+          381.56927490234375,
+          341.87774658203125
+        ],
+        [
+          355.2942199707031,
+          340.0134582519531,
+          391.7197265625,
+          350.43804931640625
+        ],
+        [
+          355.2942199707031,
+          348.5743713378906,
+          411.6080627441406,
+          358.99896240234375
+        ]
+      ],
+      "native_text": "Clastics/ \nCarbonates/ \nMetamorphic rocks "
+    },
+    {
+      "id": "T2_10_depth_top_m",
+      "table": 2,
+      "row": "Stari Gradac",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "3450 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          331.4531555175781,
+          440.5151062011719,
+          341.87774658203125
+        ]
+      ],
+      "native_text": "3450 "
+    },
+    {
+      "id": "T2_10_capacity_Mt",
+      "table": 2,
+      "row": "Stari Gradac",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "3.5 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          331.4531555175781,
+          474.1257019042969,
+          341.87774658203125
+        ]
+      ],
+      "native_text": "3.5 "
+    },
+    {
+      "id": "T2_10_availability_year",
+      "table": 2,
+      "row": "Stari Gradac",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2035 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          331.4531555175781,
+          528.27490234375,
+          341.87774658203125
+        ]
+      ],
+      "native_text": "2035 "
+    },
+    {
+      "id": "T2_11_lithology",
+      "table": 2,
+      "row": "Beničanci",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Carbonate breccia "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          357.1913757324219,
+          408.2779235839844,
+          367.615966796875
+        ]
+      ],
+      "native_text": "Carbonate breccia "
+    },
+    {
+      "id": "T2_11_depth_top_m",
+      "table": 2,
+      "row": "Beničanci",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1700 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          357.1913757324219,
+          440.5151062011719,
+          367.615966796875
+        ]
+      ],
+      "native_text": "1700 "
+    },
+    {
+      "id": "T2_11_capacity_Mt",
+      "table": 2,
+      "row": "Beničanci",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "8.8 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          357.1913757324219,
+          474.1257019042969,
+          367.615966796875
+        ]
+      ],
+      "native_text": "8.8 "
+    },
+    {
+      "id": "T2_11_availability_year",
+      "table": 2,
+      "row": "Beničanci",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2035 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          357.1913757324219,
+          528.27490234375,
+          367.615966796875
+        ]
+      ],
+      "native_text": "2035 "
+    },
+    {
+      "id": "T2_12_lithology",
+      "table": 2,
+      "row": "Bokšić",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          365.7516784667969,
+          385.8539123535156,
+          376.17626953125
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T2_12_depth_top_m",
+      "table": 2,
+      "row": "Bokšić",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1519 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          365.7516784667969,
+          440.5151062011719,
+          376.17626953125
+        ]
+      ],
+      "native_text": "1519 "
+    },
+    {
+      "id": "T2_12_capacity_Mt",
+      "table": 2,
+      "row": "Bokšić",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "13.6 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          365.7516784667969,
+          477.7153015136719,
+          376.17626953125
+        ]
+      ],
+      "native_text": "13.6 "
+    },
+    {
+      "id": "T2_12_availability_year",
+      "table": 2,
+      "row": "Bokšić",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2021 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          365.7516784667969,
+          528.27490234375,
+          376.17626953125
+        ]
+      ],
+      "native_text": "2021 "
+    },
+    {
+      "id": "T2_13_lithology",
+      "table": 2,
+      "row": "Legrad",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          374.3125915527344,
+          385.8539123535156,
+          384.7371826171875
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T2_13_depth_top_m",
+      "table": 2,
+      "row": "Legrad",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "1635 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          374.3125915527344,
+          440.5151062011719,
+          384.7371826171875
+        ]
+      ],
+      "native_text": "1635 "
+    },
+    {
+      "id": "T2_13_capacity_Mt",
+      "table": 2,
+      "row": "Legrad",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "4.1 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          374.3125915527344,
+          474.1257019042969,
+          384.7371826171875
+        ]
+      ],
+      "native_text": "4.1 "
+    },
+    {
+      "id": "T2_13_availability_year",
+      "table": 2,
+      "row": "Legrad",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2021 "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          374.3125915527344,
+          528.27490234375,
+          384.7371826171875
+        ]
+      ],
+      "native_text": "2021 "
+    },
+    {
+      "id": "T2_14_lithology",
+      "table": 2,
+      "row": "Šandrovac",
+      "column": "lithology",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "Sandstone "
+      ],
+      "line_bboxes": [
+        [
+          355.2942199707031,
+          382.8728942871094,
+          385.8539123535156,
+          393.2974853515625
+        ]
+      ],
+      "native_text": "Sandstone "
+    },
+    {
+      "id": "T2_14_depth_top_m",
+      "table": 2,
+      "row": "Šandrovac",
+      "column": "depth_top_m",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "750 "
+      ],
+      "line_bboxes": [
+        [
+          424.2884521484375,
+          382.8728942871094,
+          436.92547607421875,
+          393.2974853515625
+        ]
+      ],
+      "native_text": "750 "
+    },
+    {
+      "id": "T2_14_capacity_Mt",
+      "table": 2,
+      "row": "Šandrovac",
+      "column": "capacity_Mt",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2.9 "
+      ],
+      "line_bboxes": [
+        [
+          463.29302978515625,
+          382.8728942871094,
+          474.1257019042969,
+          393.2974853515625
+        ]
+      ],
+      "native_text": "2.9 "
+    },
+    {
+      "id": "T2_14_availability_year",
+      "table": 2,
+      "row": "Šandrovac",
+      "column": "availability_year",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "2037  "
+      ],
+      "line_bboxes": [
+        [
+          512.0482788085938,
+          382.8728942871094,
+          530.14306640625,
+          393.2974853515625
+        ]
+      ],
+      "native_text": "2037  "
+    },
+    {
+      "id": "T3_oil_density",
+      "table": 3,
+      "row": "oil_density",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": "<920 ",
+      "native_lines": [
+        "<920 "
+      ],
+      "line_bboxes": [
+        [
+          43.600616455078125,
+          97.93672180175781,
+          61.147098541259766,
+          108.36131286621094
+        ]
+      ],
+      "native_unit_text": "kg/m3 ",
+      "native_unit_bboxes": [
+        [
+          43.6011962890625,
+          88.83247375488281,
+          62.99703598022461,
+          99.80022430419922
+        ]
+      ]
+    },
+    {
+      "id": "T3_oil_viscosity",
+      "table": 3,
+      "row": "oil_viscosity",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": "<10 ",
+      "native_lines": [
+        "<10 "
+      ],
+      "line_bboxes": [
+        [
+          85.26904296875,
+          97.93672180175781,
+          99.22589874267578,
+          108.36131286621094
+        ]
+      ],
+      "native_unit_text": "mPas ",
+      "native_unit_bboxes": [
+        [
+          85.26609802246094,
+          89.37643432617188,
+          103.1760025024414,
+          99.80103302001953
+        ]
+      ]
+    },
+    {
+      "id": "T3_oil_composition_CN",
+      "table": 3,
+      "row": "oil_composition_CN",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": "C5-C12 ",
+      "native_lines": [
+        "C5-C12 "
+      ],
+      "line_bboxes": [
+        [
+          125.01065063476562,
+          97.93643188476562,
+          144.5492401123047,
+          108.59808349609375
+        ]
+      ],
+      "native_unit_text": "% ",
+      "native_unit_bboxes": [
+        [
+          125.007080078125,
+          89.37643432617188,
+          132.5752716064453,
+          99.80103302001953
+        ]
+      ]
+    },
+    {
+      "id": "T3_oil_saturation",
+      "table": 3,
+      "row": "oil_saturation",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": ">20 ",
+      "native_lines": [
+        ">20 "
+      ],
+      "line_bboxes": [
+        [
+          166.8470001220703,
+          97.93643188476562,
+          180.8038330078125,
+          108.36103057861328
+        ]
+      ],
+      "native_unit_text": "% ",
+      "native_unit_bboxes": [
+        [
+          166.84573364257812,
+          89.37643432617188,
+          174.41392517089844,
+          99.80103302001953
+        ]
+      ]
+    },
+    {
+      "id": "T3_effective_thickness",
+      "table": 3,
+      "row": "effective_thickness",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": "wide range ",
+      "native_lines": [
+        "wide range "
+      ],
+      "line_bboxes": [
+        [
+          202.61962890625,
+          97.93643188476562,
+          235.84634399414062,
+          108.36103057861328
+        ]
+      ],
+      "native_unit_text": "m ",
+      "native_unit_bboxes": [
+        [
+          202.61900329589844,
+          89.37643432617188,
+          210.26370239257812,
+          99.80103302001953
+        ]
+      ]
+    },
+    {
+      "id": "T3_depth",
+      "table": 3,
+      "row": "depth",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": ">760 ",
+      "native_lines": [
+        ">760 "
+      ],
+      "line_bboxes": [
+        [
+          257.6678771972656,
+          97.93643188476562,
+          275.2143249511719,
+          108.36103057861328
+        ]
+      ],
+      "native_unit_text": "m ",
+      "native_unit_bboxes": [
+        [
+          257.667236328125,
+          89.37643432617188,
+          265.3119201660156,
+          99.80103302001953
+        ]
+      ]
+    },
+    {
+      "id": "T3_permeability",
+      "table": 3,
+      "row": "permeability",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": "not critical ",
+      "native_lines": [
+        "not critical "
+      ],
+      "line_bboxes": [
+        [
+          297.06903076171875,
+          97.93643188476562,
+          329.7110595703125,
+          108.36103057861328
+        ]
+      ],
+      "native_unit_text": "mD ",
+      "native_unit_bboxes": [
+        [
+          297.0683898925781,
+          89.37643432617188,
+          309.3292236328125,
+          99.80103302001953
+        ]
+      ]
+    },
+    {
+      "id": "T3_temperature",
+      "table": 3,
+      "row": "temperature",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": "not critical ",
+      "native_lines": [
+        "not critical "
+      ],
+      "line_bboxes": [
+        [
+          351.5504455566406,
+          97.93643188476562,
+          384.1925048828125,
+          108.36103057861328
+        ]
+      ],
+      "native_unit_text": "◦C   ",
+      "native_unit_bboxes": [
+        [
+          351.5530090332031,
+          89.37643432617188,
+          363.9334716796875,
+          99.80103302001953
+        ]
+      ]
+    },
+    {
+      "id": "T3_porosity",
+      "table": 3,
+      "row": "porosity",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": ">11 ",
+      "native_lines": [
+        ">11 "
+      ],
+      "line_bboxes": [
+        [
+          405.9751281738281,
+          97.93643188476562,
+          419.9319763183594,
+          108.36103057861328
+        ]
+      ],
+      "native_unit_text": "",
+      "native_unit_bboxes": []
+    },
+    {
+      "id": "T3_heterogeneity",
+      "table": 3,
+      "row": "heterogeneity",
+      "column": "criterion",
+      "pages": [
+        10
+      ],
+      "native_text": "secondary porosity is unfavourable  ",
+      "native_lines": [
+        "secondary porosity is unfavourable  "
+      ],
+      "line_bboxes": [
+        [
+          452.689453125,
+          97.93643188476562,
+          555.4376831054688,
+          108.36103057861328
+        ]
+      ],
+      "native_unit_text": "",
+      "native_unit_bboxes": []
+    },
+    {
+      "id": "T4_01_injected_min_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "injected_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "3 880 "
+      ],
+      "line_bboxes": [
+        [
+          107.20857238769531,
+          677.79150390625,
+          125.34481048583984,
+          688.216064453125
+        ]
+      ],
+      "native_text": "3 880 "
+    },
+    {
+      "id": "T4_01_injected_max_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "injected_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "11 820 "
+      ],
+      "line_bboxes": [
+        [
+          155.4537353515625,
+          677.79150390625,
+          177.16110229492188,
+          688.216064453125
+        ]
+      ],
+      "native_text": "11 820 "
+    },
+    {
+      "id": "T4_01_injected_mean_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "injected_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "8 542 "
+      ],
+      "line_bboxes": [
+        [
+          207.27001953125,
+          677.79150390625,
+          225.40626525878906,
+          688.216064453125
+        ]
+      ],
+      "native_text": "8 542 "
+    },
+    {
+      "id": "T4_01_emitted_min_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "emitted_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "828 "
+      ],
+      "line_bboxes": [
+        [
+          262.9424743652344,
+          677.79150390625,
+          275.5794982910156,
+          688.216064453125
+        ]
+      ],
+      "native_text": "828 "
+    },
+    {
+      "id": "T4_01_emitted_max_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "emitted_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "11 368 "
+      ],
+      "line_bboxes": [
+        [
+          311.1869812011719,
+          677.79150390625,
+          332.95111083984375,
+          688.216064453125
+        ]
+      ],
+      "native_text": "11 368 "
+    },
+    {
+      "id": "T4_01_emitted_mean_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "emitted_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "5 291 "
+      ],
+      "line_bboxes": [
+        [
+          363.0600280761719,
+          677.79150390625,
+          381.1962890625,
+          688.216064453125
+        ]
+      ],
+      "native_text": "5 291 "
+    },
+    {
+      "id": "T4_01_oil_min_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "oil_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "100 "
+      ],
+      "line_bboxes": [
+        [
+          439.36810302734375,
+          677.79150390625,
+          452.0050964355469,
+          688.216064453125
+        ]
+      ],
+      "native_text": "100 "
+    },
+    {
+      "id": "T4_01_oil_max_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "oil_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "600 "
+      ],
+      "line_bboxes": [
+        [
+          483.2476806640625,
+          677.79150390625,
+          495.8846740722656,
+          688.216064453125
+        ]
+      ],
+      "native_text": "600 "
+    },
+    {
+      "id": "T4_01_oil_mean_kt_y",
+      "table": 4,
+      "row": "Beničanci",
+      "column": "oil_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "288 "
+      ],
+      "line_bboxes": [
+        [
+          527.977783203125,
+          677.79150390625,
+          540.6148681640625,
+          688.216064453125
+        ]
+      ],
+      "native_text": "288 "
+    },
+    {
+      "id": "T4_02_injected_min_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "injected_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "3 743 "
+      ],
+      "line_bboxes": [
+        [
+          107.20857238769531,
+          686.351806640625,
+          125.34481048583984,
+          696.7763671875
+        ]
+      ],
+      "native_text": "3 743 "
+    },
+    {
+      "id": "T4_02_injected_max_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "injected_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "8 214 "
+      ],
+      "line_bboxes": [
+        [
+          155.4537353515625,
+          686.351806640625,
+          173.5899658203125,
+          696.7763671875
+        ]
+      ],
+      "native_text": "8 214 "
+    },
+    {
+      "id": "T4_02_injected_mean_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "injected_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "5 890 "
+      ],
+      "line_bboxes": [
+        [
+          207.27001953125,
+          686.351806640625,
+          225.40626525878906,
+          696.7763671875
+        ]
+      ],
+      "native_text": "5 890 "
+    },
+    {
+      "id": "T4_02_emitted_min_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "emitted_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "14 "
+      ],
+      "line_bboxes": [
+        [
+          262.9424743652344,
+          686.351806640625,
+          271.9898681640625,
+          696.7763671875
+        ]
+      ],
+      "native_text": "14 "
+    },
+    {
+      "id": "T4_02_emitted_max_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "emitted_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "7 815 "
+      ],
+      "line_bboxes": [
+        [
+          311.1869812011719,
+          686.351806640625,
+          329.3226013183594,
+          696.7763671875
+        ]
+      ],
+      "native_text": "7 815 "
+    },
+    {
+      "id": "T4_02_emitted_mean_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "emitted_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "3 501 "
+      ],
+      "line_bboxes": [
+        [
+          363.0600280761719,
+          686.351806640625,
+          381.1962890625,
+          696.7763671875
+        ]
+      ],
+      "native_text": "3 501 "
+    },
+    {
+      "id": "T4_02_oil_min_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "oil_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "100 "
+      ],
+      "line_bboxes": [
+        [
+          439.36810302734375,
+          686.351806640625,
+          452.0050964355469,
+          696.7763671875
+        ]
+      ],
+      "native_text": "100 "
+    },
+    {
+      "id": "T4_02_oil_max_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "oil_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "300 "
+      ],
+      "line_bboxes": [
+        [
+          483.2476806640625,
+          686.351806640625,
+          495.8846740722656,
+          696.7763671875
+        ]
+      ],
+      "native_text": "300 "
+    },
+    {
+      "id": "T4_02_oil_mean_kt_y",
+      "table": 4,
+      "row": "Ivanić",
+      "column": "oil_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "138 "
+      ],
+      "line_bboxes": [
+        [
+          527.977783203125,
+          686.351806640625,
+          540.6148681640625,
+          696.7763671875
+        ]
+      ],
+      "native_text": "138 "
+    },
+    {
+      "id": "T4_03_injected_min_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "injected_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "2 639 "
+      ],
+      "line_bboxes": [
+        [
+          107.20857238769531,
+          694.9127197265625,
+          125.34481048583984,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "2 639 "
+    },
+    {
+      "id": "T4_03_injected_max_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "injected_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "5 713 "
+      ],
+      "line_bboxes": [
+        [
+          155.4537353515625,
+          694.9127197265625,
+          173.5899658203125,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "5 713 "
+    },
+    {
+      "id": "T4_03_injected_mean_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "injected_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "3 957 "
+      ],
+      "line_bboxes": [
+        [
+          207.27001953125,
+          694.9127197265625,
+          225.40626525878906,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "3 957 "
+    },
+    {
+      "id": "T4_03_emitted_min_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "emitted_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "1 046 "
+      ],
+      "line_bboxes": [
+        [
+          262.9424743652344,
+          694.9127197265625,
+          281.07806396484375,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "1 046 "
+    },
+    {
+      "id": "T4_03_emitted_max_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "emitted_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "5 490 "
+      ],
+      "line_bboxes": [
+        [
+          311.1869812011719,
+          694.9127197265625,
+          329.3226013183594,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "5 490 "
+    },
+    {
+      "id": "T4_03_emitted_mean_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "emitted_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "2 519 "
+      ],
+      "line_bboxes": [
+        [
+          363.0600280761719,
+          694.9127197265625,
+          381.1962890625,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "2 519 "
+    },
+    {
+      "id": "T4_03_oil_min_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "oil_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "58 "
+      ],
+      "line_bboxes": [
+        [
+          439.36810302734375,
+          694.9127197265625,
+          448.4154968261719,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "58 "
+    },
+    {
+      "id": "T4_03_oil_max_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "oil_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "155 "
+      ],
+      "line_bboxes": [
+        [
+          483.2476806640625,
+          694.9127197265625,
+          495.8846740722656,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "155 "
+    },
+    {
+      "id": "T4_03_oil_mean_kt_y",
+      "table": 4,
+      "row": "Kloštar",
+      "column": "oil_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "91 "
+      ],
+      "line_bboxes": [
+        [
+          527.977783203125,
+          694.9127197265625,
+          537.0252075195312,
+          705.3372802734375
+        ]
+      ],
+      "native_text": "91 "
+    },
+    {
+      "id": "T4_04_injected_min_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "injected_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "151 "
+      ],
+      "line_bboxes": [
+        [
+          107.20857238769531,
+          703.4729614257812,
+          119.8456039428711,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "151 "
+    },
+    {
+      "id": "T4_04_injected_max_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "injected_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "433 "
+      ],
+      "line_bboxes": [
+        [
+          155.4537353515625,
+          703.4729614257812,
+          168.09075927734375,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "433 "
+    },
+    {
+      "id": "T4_04_injected_mean_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "injected_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "275 "
+      ],
+      "line_bboxes": [
+        [
+          207.27001953125,
+          703.4729614257812,
+          219.90704345703125,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "275 "
+    },
+    {
+      "id": "T4_04_emitted_min_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "emitted_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "0 23 "
+      ],
+      "line_bboxes": [
+        [
+          262.9424743652344,
+          703.4729614257812,
+          277.4884338378906,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "0 23 "
+    },
+    {
+      "id": "T4_04_emitted_max_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "emitted_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "197 "
+      ],
+      "line_bboxes": [
+        [
+          311.1869812011719,
+          703.4729614257812,
+          323.82403564453125,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "197 "
+    },
+    {
+      "id": "T4_04_emitted_mean_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "emitted_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "80 "
+      ],
+      "line_bboxes": [
+        [
+          363.0600280761719,
+          703.4729614257812,
+          372.107421875,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "80 "
+    },
+    {
+      "id": "T4_04_oil_min_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "oil_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "155 "
+      ],
+      "line_bboxes": [
+        [
+          439.36810302734375,
+          703.4729614257812,
+          452.0050964355469,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "155 "
+    },
+    {
+      "id": "T4_04_oil_max_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "oil_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "155 "
+      ],
+      "line_bboxes": [
+        [
+          483.2476806640625,
+          703.4729614257812,
+          495.8846740722656,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "155 "
+    },
+    {
+      "id": "T4_04_oil_mean_kt_y",
+      "table": 4,
+      "row": "Lipovljani",
+      "column": "oil_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "155 "
+      ],
+      "line_bboxes": [
+        [
+          527.977783203125,
+          703.4729614257812,
+          540.6148681640625,
+          713.8975219726562
+        ]
+      ],
+      "native_text": "155 "
+    },
+    {
+      "id": "T4_05_injected_min_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "injected_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "2 206 "
+      ],
+      "line_bboxes": [
+        [
+          107.20857238769531,
+          712.0332641601562,
+          125.34481048583984,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "2 206 "
+    },
+    {
+      "id": "T4_05_injected_max_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "injected_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "3 940 "
+      ],
+      "line_bboxes": [
+        [
+          155.4537353515625,
+          712.0332641601562,
+          173.5899658203125,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "3 940 "
+    },
+    {
+      "id": "T4_05_injected_mean_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "injected_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "2 979 "
+      ],
+      "line_bboxes": [
+        [
+          207.27001953125,
+          712.0332641601562,
+          225.40626525878906,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "2 979 "
+    },
+    {
+      "id": "T4_05_emitted_min_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "emitted_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "605 "
+      ],
+      "line_bboxes": [
+        [
+          262.9424743652344,
+          712.0332641601562,
+          275.5794982910156,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "605 "
+    },
+    {
+      "id": "T4_05_emitted_max_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "emitted_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "2 735 "
+      ],
+      "line_bboxes": [
+        [
+          311.1869812011719,
+          712.0332641601562,
+          329.3226013183594,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "2 735 "
+    },
+    {
+      "id": "T4_05_emitted_mean_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "emitted_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "1 274 "
+      ],
+      "line_bboxes": [
+        [
+          363.0600280761719,
+          712.0332641601562,
+          381.1962890625,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "1 274 "
+    },
+    {
+      "id": "T4_05_oil_min_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "oil_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "100 "
+      ],
+      "line_bboxes": [
+        [
+          439.36810302734375,
+          712.0332641601562,
+          452.0050964355469,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "100 "
+    },
+    {
+      "id": "T4_05_oil_max_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "oil_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "117 "
+      ],
+      "line_bboxes": [
+        [
+          483.2476806640625,
+          712.0332641601562,
+          495.8846740722656,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "117 "
+    },
+    {
+      "id": "T4_05_oil_mean_kt_y",
+      "table": 4,
+      "row": "Šandrovac",
+      "column": "oil_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "102 "
+      ],
+      "line_bboxes": [
+        [
+          527.977783203125,
+          712.0332641601562,
+          540.6148681640625,
+          722.4578247070312
+        ]
+      ],
+      "native_text": "102 "
+    },
+    {
+      "id": "T4_06_injected_min_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "injected_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "4 373 "
+      ],
+      "line_bboxes": [
+        [
+          107.20857238769531,
+          720.5941772460938,
+          125.34481048583984,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "4 373 "
+    },
+    {
+      "id": "T4_06_injected_max_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "injected_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "7 683 "
+      ],
+      "line_bboxes": [
+        [
+          155.4537353515625,
+          720.5941772460938,
+          173.5899658203125,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "7 683 "
+    },
+    {
+      "id": "T4_06_injected_mean_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "injected_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "5 892 "
+      ],
+      "line_bboxes": [
+        [
+          207.27001953125,
+          720.5941772460938,
+          225.40626525878906,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "5 892 "
+    },
+    {
+      "id": "T4_06_emitted_min_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "emitted_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "911 "
+      ],
+      "line_bboxes": [
+        [
+          262.9424743652344,
+          720.5941772460938,
+          275.5794982910156,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "911 "
+    },
+    {
+      "id": "T4_06_emitted_max_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "emitted_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "7 403 "
+      ],
+      "line_bboxes": [
+        [
+          311.1869812011719,
+          720.5941772460938,
+          329.3226013183594,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "7 403 "
+    },
+    {
+      "id": "T4_06_emitted_mean_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "emitted_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "3 593 "
+      ],
+      "line_bboxes": [
+        [
+          363.0600280761719,
+          720.5941772460938,
+          381.1962890625,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "3 593 "
+    },
+    {
+      "id": "T4_06_oil_min_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "oil_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "100 "
+      ],
+      "line_bboxes": [
+        [
+          439.36810302734375,
+          720.5941772460938,
+          452.0050964355469,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "100 "
+    },
+    {
+      "id": "T4_06_oil_max_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "oil_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "400 "
+      ],
+      "line_bboxes": [
+        [
+          483.2476806640625,
+          720.5941772460938,
+          495.8846740722656,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "400 "
+    },
+    {
+      "id": "T4_06_oil_mean_kt_y",
+      "table": 4,
+      "row": "Stružec",
+      "column": "oil_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "250 "
+      ],
+      "line_bboxes": [
+        [
+          527.977783203125,
+          720.5941772460938,
+          540.6148681640625,
+          731.0187377929688
+        ]
+      ],
+      "native_text": "250 "
+    },
+    {
+      "id": "T4_07_injected_min_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "injected_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "1 223 "
+      ],
+      "line_bboxes": [
+        [
+          107.20857238769531,
+          729.2112426757812,
+          125.34481048583984,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "1 223 "
+    },
+    {
+      "id": "T4_07_injected_max_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "injected_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "2 797 "
+      ],
+      "line_bboxes": [
+        [
+          155.4537353515625,
+          729.2112426757812,
+          173.5899658203125,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "2 797 "
+    },
+    {
+      "id": "T4_07_injected_mean_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "injected_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "1 849 "
+      ],
+      "line_bboxes": [
+        [
+          207.27001953125,
+          729.2112426757812,
+          225.40626525878906,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "1 849 "
+    },
+    {
+      "id": "T4_07_emitted_min_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "emitted_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "29 "
+      ],
+      "line_bboxes": [
+        [
+          262.9424743652344,
+          729.2112426757812,
+          271.9898681640625,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "29 "
+    },
+    {
+      "id": "T4_07_emitted_max_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "emitted_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "2 257 "
+      ],
+      "line_bboxes": [
+        [
+          311.1869812011719,
+          729.2112426757812,
+          329.3226013183594,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "2 257 "
+    },
+    {
+      "id": "T4_07_emitted_mean_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "emitted_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "769 "
+      ],
+      "line_bboxes": [
+        [
+          363.0600280761719,
+          729.2112426757812,
+          375.6970520019531,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "769 "
+    },
+    {
+      "id": "T4_07_oil_min_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "oil_min_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "100 "
+      ],
+      "line_bboxes": [
+        [
+          439.36810302734375,
+          729.2112426757812,
+          452.0050964355469,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "100 "
+    },
+    {
+      "id": "T4_07_oil_max_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "oil_max_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "300 "
+      ],
+      "line_bboxes": [
+        [
+          483.2476806640625,
+          729.2112426757812,
+          495.8846740722656,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "300 "
+    },
+    {
+      "id": "T4_07_oil_mean_kt_y",
+      "table": 4,
+      "row": "Žutica",
+      "column": "oil_mean_kt_y",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "181  "
+      ],
+      "line_bboxes": [
+        [
+          527.977783203125,
+          729.2112426757812,
+          542.4829711914062,
+          739.6358032226562
+        ]
+      ],
+      "native_text": "181  "
+    }
+  ],
+  "rows": [
+    {
+      "table": 1,
+      "row": "Poljana",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T1_01_age",
+        "T1_01_lithology",
+        "T1_01_setting",
+        "T1_01_depth_top_m",
+        "T1_01_thickness_m",
+        "T1_01_capacity_Mt"
+      ]
+    },
+    {
+      "table": 1,
+      "row": "Okoli",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T1_02_age",
+        "T1_02_lithology",
+        "T1_02_setting",
+        "T1_02_depth_top_m",
+        "T1_02_thickness_m",
+        "T1_02_capacity_Mt"
+      ]
+    },
+    {
+      "table": 1,
+      "row": "Iva",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T1_03_age",
+        "T1_03_lithology",
+        "T1_03_setting",
+        "T1_03_depth_top_m",
+        "T1_03_thickness_m",
+        "T1_03_capacity_Mt"
+      ]
+    },
+    {
+      "table": 1,
+      "row": "Drava",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T1_04_age",
+        "T1_04_lithology",
+        "T1_04_setting",
+        "T1_04_depth_top_m",
+        "T1_04_thickness_m",
+        "T1_04_capacity_Mt"
+      ]
+    },
+    {
+      "table": 1,
+      "row": "Osijek",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T1_05_age",
+        "T1_05_lithology",
+        "T1_05_setting",
+        "T1_05_depth_top_m",
+        "T1_05_thickness_m",
+        "T1_05_capacity_Mt"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Kloštar",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_01_lithology",
+        "T2_01_depth_top_m",
+        "T2_01_capacity_Mt",
+        "T2_01_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Ivanić",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_02_lithology",
+        "T2_02_depth_top_m",
+        "T2_02_capacity_Mt",
+        "T2_02_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Žutica",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_03_lithology",
+        "T2_03_depth_top_m",
+        "T2_03_capacity_Mt",
+        "T2_03_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Okoli",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_04_lithology",
+        "T2_04_depth_top_m",
+        "T2_04_capacity_Mt",
+        "T2_04_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Stružec",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_05_lithology",
+        "T2_05_depth_top_m",
+        "T2_05_capacity_Mt",
+        "T2_05_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Lipovljani",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_06_lithology",
+        "T2_06_depth_top_m",
+        "T2_06_capacity_Mt",
+        "T2_06_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Gola Duboka",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_07_lithology",
+        "T2_07_depth_top_m",
+        "T2_07_capacity_Mt",
+        "T2_07_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Molve",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_08_lithology",
+        "T2_08_depth_top_m",
+        "T2_08_capacity_Mt",
+        "T2_08_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Kalinovac",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_09_lithology",
+        "T2_09_depth_top_m",
+        "T2_09_capacity_Mt",
+        "T2_09_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Stari Gradac",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_10_lithology",
+        "T2_10_depth_top_m",
+        "T2_10_capacity_Mt",
+        "T2_10_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Beničanci",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_11_lithology",
+        "T2_11_depth_top_m",
+        "T2_11_capacity_Mt",
+        "T2_11_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Bokšić",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_12_lithology",
+        "T2_12_depth_top_m",
+        "T2_12_capacity_Mt",
+        "T2_12_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Legrad",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_13_lithology",
+        "T2_13_depth_top_m",
+        "T2_13_capacity_Mt",
+        "T2_13_availability_year"
+      ]
+    },
+    {
+      "table": 2,
+      "row": "Šandrovac",
+      "pages": [
+        9
+      ],
+      "cells": [
+        "T2_14_lithology",
+        "T2_14_depth_top_m",
+        "T2_14_capacity_Mt",
+        "T2_14_availability_year"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "oil_density",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_oil_density"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "oil_viscosity",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_oil_viscosity"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "oil_composition_CN",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_oil_composition_CN"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "oil_saturation",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_oil_saturation"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "effective_thickness",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_effective_thickness"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "depth",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_depth"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "permeability",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_permeability"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "temperature",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_temperature"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "porosity",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_porosity"
+      ]
+    },
+    {
+      "table": 3,
+      "row": "heterogeneity",
+      "pages": [
+        10
+      ],
+      "cells": [
+        "T3_heterogeneity"
+      ]
+    },
+    {
+      "table": 4,
+      "row": "Beničanci",
+      "pages": [
+        11
+      ],
+      "cells": [
+        "T4_01_injected_min_kt_y",
+        "T4_01_injected_max_kt_y",
+        "T4_01_injected_mean_kt_y",
+        "T4_01_emitted_min_kt_y",
+        "T4_01_emitted_max_kt_y",
+        "T4_01_emitted_mean_kt_y",
+        "T4_01_oil_min_kt_y",
+        "T4_01_oil_max_kt_y",
+        "T4_01_oil_mean_kt_y"
+      ]
+    },
+    {
+      "table": 4,
+      "row": "Ivanić",
+      "pages": [
+        11
+      ],
+      "cells": [
+        "T4_02_injected_min_kt_y",
+        "T4_02_injected_max_kt_y",
+        "T4_02_injected_mean_kt_y",
+        "T4_02_emitted_min_kt_y",
+        "T4_02_emitted_max_kt_y",
+        "T4_02_emitted_mean_kt_y",
+        "T4_02_oil_min_kt_y",
+        "T4_02_oil_max_kt_y",
+        "T4_02_oil_mean_kt_y"
+      ]
+    },
+    {
+      "table": 4,
+      "row": "Kloštar",
+      "pages": [
+        11
+      ],
+      "cells": [
+        "T4_03_injected_min_kt_y",
+        "T4_03_injected_max_kt_y",
+        "T4_03_injected_mean_kt_y",
+        "T4_03_emitted_min_kt_y",
+        "T4_03_emitted_max_kt_y",
+        "T4_03_emitted_mean_kt_y",
+        "T4_03_oil_min_kt_y",
+        "T4_03_oil_max_kt_y",
+        "T4_03_oil_mean_kt_y"
+      ]
+    },
+    {
+      "table": 4,
+      "row": "Lipovljani",
+      "pages": [
+        11
+      ],
+      "cells": [
+        "T4_04_injected_min_kt_y",
+        "T4_04_injected_max_kt_y",
+        "T4_04_injected_mean_kt_y",
+        "T4_04_emitted_min_kt_y",
+        "T4_04_emitted_max_kt_y",
+        "T4_04_emitted_mean_kt_y",
+        "T4_04_oil_min_kt_y",
+        "T4_04_oil_max_kt_y",
+        "T4_04_oil_mean_kt_y"
+      ]
+    },
+    {
+      "table": 4,
+      "row": "Šandrovac",
+      "pages": [
+        11
+      ],
+      "cells": [
+        "T4_05_injected_min_kt_y",
+        "T4_05_injected_max_kt_y",
+        "T4_05_injected_mean_kt_y",
+        "T4_05_emitted_min_kt_y",
+        "T4_05_emitted_max_kt_y",
+        "T4_05_emitted_mean_kt_y",
+        "T4_05_oil_min_kt_y",
+        "T4_05_oil_max_kt_y",
+        "T4_05_oil_mean_kt_y"
+      ]
+    },
+    {
+      "table": 4,
+      "row": "Stružec",
+      "pages": [
+        11
+      ],
+      "cells": [
+        "T4_06_injected_min_kt_y",
+        "T4_06_injected_max_kt_y",
+        "T4_06_injected_mean_kt_y",
+        "T4_06_emitted_min_kt_y",
+        "T4_06_emitted_max_kt_y",
+        "T4_06_emitted_mean_kt_y",
+        "T4_06_oil_min_kt_y",
+        "T4_06_oil_max_kt_y",
+        "T4_06_oil_mean_kt_y"
+      ]
+    },
+    {
+      "table": 4,
+      "row": "Žutica",
+      "pages": [
+        11
+      ],
+      "cells": [
+        "T4_07_injected_min_kt_y",
+        "T4_07_injected_max_kt_y",
+        "T4_07_injected_mean_kt_y",
+        "T4_07_emitted_min_kt_y",
+        "T4_07_emitted_max_kt_y",
+        "T4_07_emitted_mean_kt_y",
+        "T4_07_oil_min_kt_y",
+        "T4_07_oil_max_kt_y",
+        "T4_07_oil_mean_kt_y"
+      ]
+    }
+  ]
+}

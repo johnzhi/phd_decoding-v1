@@ -1,0 +1,57 @@
+item,value,unit,scope
+Figure4_commercial_share_sum,100,percent,Printed slice accounting only; original facilities and category counts unverified
+Figure4_pilot_demonstration_share_sum,100,percent,Printed slice accounting only; original facilities and category counts unverified
+Figure8_sector_total,5.54,Mt/y,"Printed sector labels; mixed precision, source bodies report 5.53/5.5"
+Figure8_minus_body_emissions,0.009999999999999787,Mt/y,"0.01 difference is within displayed component rounding, not a corrected total"
+power_refinery_share,67.32851985559567,percent,Rounded source values support about 67%; no primary inventory verified
+assets_14DHF_plus5DSA,19,count,"Regional 19-asset count, not 19 qualified injection sites"
+Table1_DSA_Sava,535.7,Mt,"Highly theoretical cumulative resource; traps, pressure, efficiency and annual injectivity unresolved"
+Table1_DSA_Drava_Osijek,2048.8,Mt,"Highly theoretical cumulative resource; traps, pressure, efficiency and annual injectivity unresolved"
+Table1_DSA_all,2584.5,Mt,"Highly theoretical cumulative resource; traps, pressure, efficiency and annual injectivity unresolved"
+Table2_DHF_total,143.6,Mt,Sum of fourteen one-decimal source capacities; not a corrected author field model
+Figure11_integer_bar_total,146,Mt,"Native rounded labels sum 146, matching prose but exceeding Table 2 sum 143.6"
+round_before_sum_minus_Table2_total,2.4000000000000057,Mt,Premature individual rounding can explain aggregate difference; preserve both native bases
+Eastern_two_fields_Table2,22.4,Mt,Table 2 8.8+13.6=22.4; prose 23 matches 9+14 rounded Figure 11 labels
+Eastern_two_fields_Figure11,23,Mt,No silent substitution between source precision bases
+Molve_plus_Kalinovac_Table2,74.4,Mt,74.4 agrees with approximate74; no annual service implied
+regional113_plus31,144,Mt,"About144 is near143.6,not146; exact field membership not supplied"
+Central_Eastern_emissions,3.36,Mt/y,2.5+0.86=3.36; full capture is not established
+Figure11_rounding_Kloštar,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Ivanić,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Žutica,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Okoli,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Stružec,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Lipovljani,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Gola Duboka,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Molve,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Kalinovac,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Stari Gradac,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Beničanci,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Bokšić,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Legrad,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+Figure11_rounding_Šandrovac,True,bool,Every integer bar is compatible with individual Table2 rounding; sums use different precision
+range_Beničanci_injected,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Beničanci_emitted,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Beničanci_oil,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Ivanić_injected,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Ivanić_emitted,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Ivanić_oil,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Kloštar_injected,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Kloštar_emitted,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Kloštar_oil,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Lipovljani_injected,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Lipovljani_oil,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Šandrovac_injected,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Šandrovac_emitted,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Šandrovac_oil,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Stružec_injected,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Stružec_emitted,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Stružec_oil,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Žutica_injected,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Žutica_emitted,True,bool,Marginal min/mean/max order only; extrema years are not paired
+range_Žutica_oil,True,bool,Marginal min/mean/max order only; extrema years are not paired
+sum_native_mean_gross,29.384,Mt/y,"Seven unconstrained mean scenarios together,not a sized supply-matched network"
+sum_native_mean_produced_vented,17.027,Mt/y,Native baseline produced CO2 is vented; recovery is a separate conditional scenario
+sum_native_mean_unproduced,12.357,Mt/y,Linearity requires common averaging periods/weights; no full lifecycle carbon ledger
+aggregate_unproduced_fraction,42.05349850258644,percent,About42% is compatible with source around40%; not a generic CCS retention/avoidance factor
+unweighted_mean_produced_fraction,51.352577352708,percent,Generic40–60% description need not bound every field; Lipovljani is about29%

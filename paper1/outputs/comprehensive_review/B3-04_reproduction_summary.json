@@ -1,0 +1,16 @@
+{
+  "study_id": "B3-04",
+  "source_sha256": "1350adda60535707db730edcecafd85628ab019d4615d4b7593bffda290d26a8",
+  "limited_checks": 56,
+  "mean_EOR_rows": 7,
+  "conditional_recycle_rows": 21,
+  "conditional_stock_screens": 7,
+  "stock_rate_quotients": 2,
+  "subset_mean_screens": 224,
+  "ambiguous_Lipovljani_emitted_min": "Native0 23 retained; numeric value excluded",
+  "universal_subset_claim_verified": false,
+  "native_Eclipse_or_optimized_network_reproduced": false,
+  "original_sources_verified": 0,
+  "pressure_constrained_annual_service_established": false,
+  "limits": "Arithmetic and analyst bookkeeping only. Confidential static/well/PVT/native cases and time-resolved controls unavailable. Gross injection,produced/vented mass,unproduced stock and lifecycle avoidance differ. No numeric interpretation for0 23,no minimum/maximum net flow from unpaired extrema,no automatic current field availability,no new accepted operating/GHG input."
+}

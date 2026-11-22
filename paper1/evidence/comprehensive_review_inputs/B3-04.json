@@ -1,0 +1,347 @@
+{
+  "study_id": "B3-04",
+  "source_path": "papers/B3-04.pdf",
+  "source_sha256": "1350adda60535707db730edcecafd85628ab019d4615d4b7593bffda290d26a8",
+  "provenance": "Native conceptual Croatia2023 cluster/EOR study. Static storage totals, modeled gross injection/venting/oil, source emissions and dates retain distinct boundaries. Confidential native models are not reproduced. No quantities enter accepted Paper1 inputs.",
+  "dsas": [
+    {
+      "name": "Poljana",
+      "depth_top_m": 1450.0,
+      "thickness_m": 150.0,
+      "capacity_Mt": 251.6
+    },
+    {
+      "name": "Okoli",
+      "depth_top_m": 2000.0,
+      "thickness_m": 250.0,
+      "capacity_Mt": 229.0
+    },
+    {
+      "name": "Iva",
+      "depth_top_m": 2050.0,
+      "thickness_m": 250.0,
+      "capacity_Mt": 55.1
+    },
+    {
+      "name": "Drava",
+      "depth_top_m": 900.0,
+      "thickness_m": 1000.0,
+      "capacity_Mt": 1938.9
+    },
+    {
+      "name": "Osijek",
+      "depth_top_m": 1000.0,
+      "thickness_m": 105.0,
+      "capacity_Mt": 109.9
+    }
+  ],
+  "fields": [
+    {
+      "name": "Kloštar",
+      "depth_top_m": 973.0,
+      "capacity_Mt": 2.7,
+      "availability_year": 2027
+    },
+    {
+      "name": "Ivanić",
+      "depth_top_m": 1619.0,
+      "capacity_Mt": 5.5,
+      "availability_year": 2032
+    },
+    {
+      "name": "Žutica",
+      "depth_top_m": 1699.0,
+      "capacity_Mt": 10.1,
+      "availability_year": 2032
+    },
+    {
+      "name": "Okoli",
+      "depth_top_m": 1750.0,
+      "capacity_Mt": 7.3,
+      "availability_year": 2023
+    },
+    {
+      "name": "Stružec",
+      "depth_top_m": 727.0,
+      "capacity_Mt": 1.7,
+      "availability_year": 2040
+    },
+    {
+      "name": "Lipovljani",
+      "depth_top_m": 1026.0,
+      "capacity_Mt": 3.2,
+      "availability_year": 2023
+    },
+    {
+      "name": "Gola Duboka",
+      "depth_top_m": 2521.0,
+      "capacity_Mt": 5.8,
+      "availability_year": 2030
+    },
+    {
+      "name": "Molve",
+      "depth_top_m": 3100.0,
+      "capacity_Mt": 42.8,
+      "availability_year": 2027
+    },
+    {
+      "name": "Kalinovac",
+      "depth_top_m": 3054.0,
+      "capacity_Mt": 31.6,
+      "availability_year": 2035
+    },
+    {
+      "name": "Stari Gradac",
+      "depth_top_m": 3450.0,
+      "capacity_Mt": 3.5,
+      "availability_year": 2035
+    },
+    {
+      "name": "Beničanci",
+      "depth_top_m": 1700.0,
+      "capacity_Mt": 8.8,
+      "availability_year": 2035
+    },
+    {
+      "name": "Bokšić",
+      "depth_top_m": 1519.0,
+      "capacity_Mt": 13.6,
+      "availability_year": 2021
+    },
+    {
+      "name": "Legrad",
+      "depth_top_m": 1635.0,
+      "capacity_Mt": 4.1,
+      "availability_year": 2021
+    },
+    {
+      "name": "Šandrovac",
+      "depth_top_m": 750.0,
+      "capacity_Mt": 2.9,
+      "availability_year": 2037
+    }
+  ],
+  "eor": [
+    {
+      "name": "Beničanci",
+      "injected_min_kt_y": 3880,
+      "injected_max_kt_y": 11820,
+      "injected_mean_kt_y": 8542,
+      "emitted_min_kt_y": 828,
+      "emitted_max_kt_y": 11368,
+      "emitted_mean_kt_y": 5291,
+      "oil_min_kt_y": 100,
+      "oil_max_kt_y": 600,
+      "oil_mean_kt_y": 288,
+      "ambiguous_native_emitted_min_token": null
+    },
+    {
+      "name": "Ivanić",
+      "injected_min_kt_y": 3743,
+      "injected_max_kt_y": 8214,
+      "injected_mean_kt_y": 5890,
+      "emitted_min_kt_y": 14,
+      "emitted_max_kt_y": 7815,
+      "emitted_mean_kt_y": 3501,
+      "oil_min_kt_y": 100,
+      "oil_max_kt_y": 300,
+      "oil_mean_kt_y": 138,
+      "ambiguous_native_emitted_min_token": null
+    },
+    {
+      "name": "Kloštar",
+      "injected_min_kt_y": 2639,
+      "injected_max_kt_y": 5713,
+      "injected_mean_kt_y": 3957,
+      "emitted_min_kt_y": 1046,
+      "emitted_max_kt_y": 5490,
+      "emitted_mean_kt_y": 2519,
+      "oil_min_kt_y": 58,
+      "oil_max_kt_y": 155,
+      "oil_mean_kt_y": 91,
+      "ambiguous_native_emitted_min_token": null
+    },
+    {
+      "name": "Lipovljani",
+      "injected_min_kt_y": 151,
+      "injected_max_kt_y": 433,
+      "injected_mean_kt_y": 275,
+      "emitted_min_kt_y": null,
+      "emitted_max_kt_y": 197,
+      "emitted_mean_kt_y": 80,
+      "oil_min_kt_y": 155,
+      "oil_max_kt_y": 155,
+      "oil_mean_kt_y": 155,
+      "ambiguous_native_emitted_min_token": "0 23"
+    },
+    {
+      "name": "Šandrovac",
+      "injected_min_kt_y": 2206,
+      "injected_max_kt_y": 3940,
+      "injected_mean_kt_y": 2979,
+      "emitted_min_kt_y": 605,
+      "emitted_max_kt_y": 2735,
+      "emitted_mean_kt_y": 1274,
+      "oil_min_kt_y": 100,
+      "oil_max_kt_y": 117,
+      "oil_mean_kt_y": 102,
+      "ambiguous_native_emitted_min_token": null
+    },
+    {
+      "name": "Stružec",
+      "injected_min_kt_y": 4373,
+      "injected_max_kt_y": 7683,
+      "injected_mean_kt_y": 5892,
+      "emitted_min_kt_y": 911,
+      "emitted_max_kt_y": 7403,
+      "emitted_mean_kt_y": 3593,
+      "oil_min_kt_y": 100,
+      "oil_max_kt_y": 400,
+      "oil_mean_kt_y": 250,
+      "ambiguous_native_emitted_min_token": null
+    },
+    {
+      "name": "Žutica",
+      "injected_min_kt_y": 1223,
+      "injected_max_kt_y": 2797,
+      "injected_mean_kt_y": 1849,
+      "emitted_min_kt_y": 29,
+      "emitted_max_kt_y": 2257,
+      "emitted_mean_kt_y": 769,
+      "oil_min_kt_y": 100,
+      "oil_max_kt_y": 300,
+      "oil_mean_kt_y": 181,
+      "ambiguous_native_emitted_min_token": null
+    }
+  ],
+  "native_figure11_capacity_Mt": {
+    "Molve": 43,
+    "Kalinovac": 32,
+    "Bokšić": 14,
+    "Žutica": 10,
+    "Beničanci": 9,
+    "Okoli": 7,
+    "Ivanić": 6,
+    "Gola Duboka": 6,
+    "Stari Gradac": 4,
+    "Legrad": 4,
+    "Kloštar": 3,
+    "Lipovljani": 3,
+    "Šandrovac": 3,
+    "Stružec": 2
+  },
+  "native_sector_Mt_y": {
+    "power": 2.41,
+    "refineries": 1.32,
+    "oil_gas_processing": 0.3,
+    "cement": 0.65,
+    "glass": 0.11,
+    "other": 0.75
+  },
+  "native_figure4_percent": {
+    "commercial": [
+      57,
+      19,
+      16,
+      4,
+      2,
+      2
+    ],
+    "pilot_demonstration": [
+      32,
+      32,
+      24,
+      10,
+      1,
+      1
+    ]
+  },
+  "native_summary": {
+    "sources": 12,
+    "DHF": 14,
+    "DSA": 5,
+    "assets": 19,
+    "DHF_capacity_Mt": 146,
+    "DHF_eastern_Mt": 113,
+    "DHF_central_Mt": 31,
+    "DHF_eastern_count": 9,
+    "DHF_central_count": 5,
+    "DSA_Drava_Osijek_Mt": 2049,
+    "DSA_Sava_Mt": 536,
+    "Eastern_Benicanci_Boksic_Mt": 23,
+    "source_emissions_Mt_y": 5.53,
+    "Central_Mt_y": 2.5,
+    "Eastern_Mt_y": 0.86,
+    "Central_Eastern_Mt_y": 3.36,
+    "all_cluster_rounded_Mt_y": 5.5,
+    "clustering_distance_km": 175,
+    "conclusion_distance_criterion_km": 100,
+    "Eastern_distance_range_km": [
+      18,
+      65
+    ],
+    "Central_area_km2": 8500,
+    "production_projection_end_year": 2025,
+    "EOR_start_year": 2025,
+    "EOR_end_year": 2040,
+    "net_reduction_approx_percent": 40
+  },
+  "analyst": {
+    "diagnostic_year_difference": 15,
+    "recycle_fractions": [
+      0,
+      0.5,
+      1
+    ],
+    "allocation_targets_Mt_y": [
+      3.36,
+      5.5
+    ],
+    "scope": "Mean-flow bookkeeping and exhaustive mean-rate subset checks only.15years is2040minus2025,not a verified native sampling convention. Recycling assumes recovered producedCO2 displaces freshCO2 one-for-one at unchanged gross injection/production. No recovery system,energy,dynamics,pressure,oil counterfactual or climate benefit modeled."
+  },
+  "native_quotes": {
+    "confidentiality": "Neither detailed static models, nor detailed data per wells were included, because of data confidentiality.",
+    "combination_claim": "Any combination of two or three fields being exploited simultaneously would be enough to store all the CO2 that is currently being produced in the Central and Eastern clusters.",
+    "data_availability": "Public data and previously published data was used, so the most of the paper has reproducible or visible data. The rest is available in references, primarily in Strategy CCUS deliverables/reports"
+  },
+  "missing_native_inputs": {
+    "field_grid_wells_history_timeseries_and_controls": null,
+    "pressure_limits_stress_fracture_caprock_fault_safety": null,
+    "native_Eclipse_deck_PVT_SCAL_MMP_calibration": null,
+    "timestamped_injection_production_and_retained_stock": null,
+    "paired_annual_min_max_cases_and_objective": null,
+    "source_capture_fractions_schedules_and_utilities": null,
+    "recycle_recovery_energy_impurity_and_performance": null,
+    "oil_lifecycle_and_market_counterfactual": null,
+    "capacity_formulas_density_efficiency_and_common_boundaries": null,
+    "cluster_field_membership_and_routed_cost_optimum": null,
+    "current_permitting_ETS_and_EOR_credit_status": null,
+    "Lipovljani_emitted_min_numeric_interpretation": null
+  },
+  "source_locators": {
+    "DSA_and_DHF": [
+      9
+    ],
+    "EOR_screen": [
+      10
+    ],
+    "EOR_rates": [
+      11
+    ],
+    "confidentiality_and_models": [
+      10,
+      11
+    ],
+    "source_and_transport": [
+      5,
+      6,
+      7
+    ],
+    "availability_and_bibliography": [
+      12,
+      13
+    ]
+  },
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "native_rights": "Copyright2023ElsevierLtd.Allrightsreserved; no open licence stated on retained first page."
+}

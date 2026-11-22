@@ -142,6 +142,8 @@ Historical liability analysis already separates capture, storage and credit-buye
 
 A [UK port-safety review](../docs/port_safety_comprehensive_findings.md) separately proposes clearer performance goals, tailored harbour guidance and changes to both the temporary-storage exclusion and CO2 trigger under COMAH [B3-03, pp6–11]. These are authors' recommendations, with current adoption unverified. Advance notice is not terminal dwell; cited buffer volumes and unpaired pressure/temperature ranges do not establish reliable terminal service, a phase-safe operating envelope or a quantified accident probability [B3-03, pp3,5–9].
 
+Croatian cluster screening already considers staged EOR, depleted-field and saline-aquifer options [B3-04, pp8–12]. Its [retained-PDF audit](../docs/croatia_clusters_comprehensive_findings.md) preserves confidential reservoir inputs, rounded stock totals and counterexamples to universal field-combination sufficiency. Gross EOR intake and unproduced mean CO2 differ; neither is a pressure-constrained annual service limit or a lifecycle avoidance factor [B3-04, pp9–11].
+
 The [prudent storage audit](../docs/prudent_storage_comprehensive_findings.md) distinguishes a risk-screened cumulative resource from annual injection service. Its 1,460 Gt central estimate uses a borrowed, pressure-aware coefficient for a 50-year period, while explicitly leaving deployment feasibility outside the spatial assessment [B2-18, pp6,10–12]. Policy buffers, sequential exclusions and long-horizon scenario extrapolation cannot supply a local operating limit or retained-carbon factor. Regional figure totals and thermodynamic state conventions remain unresolved. The stated temperature potential also assumes net removal, reversible climate response and storage space that competes with fossil CCS and residual offsets [B2-18, pp5–8]. Public code/data are advertised but have not been independently reproduced.
 
 The [total-efficiency audit](../docs/total_efficiency_comprehensive_findings.md) similarly holds the hypothetical UK/Australia lifecycle-energy results outside the accepted inventory. Coal efficiency-loss denominators, several graphic share labels, baseline fuel/power closure and captured-versus-avoided annual mass need reconciliation [B1-03, pp4–11]. Table 3 combines literature process cases rather than supplying one matched capture-to-ship utility balance. Its displayed sensitivity arithmetic is consistent with rounding, but complete author cases remain unreproduced. Primary energy, electricity and avoided or retained CO2 retain separate accounting bases.
@@ -732,6 +734,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B3-02]** Assessing a Liability Regime for Carbon Capture and Storage. [10.1016/j.egypro.2009.02.277](https://doi.org/10.1016/j.egypro.2009.02.277). [Retained PDF](../papers/B3-02.pdf).
 
 - **[B3-03]** Critical review and recommendations for strengthening health and safety and major accident prevention regulations for carbon capture and storage in UK ports. [10.1016/j.ijggc.2025.104479](https://doi.org/10.1016/j.ijggc.2025.104479). [Retained PDF](../papers/B3-03.pdf).
+
+- **[B3-04]** Development of CCUS clusters in Croatia. [10.1016/j.ijggc.2023.103857](https://doi.org/10.1016/j.ijggc.2023.103857). [Retained PDF](../papers/B3-04.pdf).
 
 - **[B3-09]** Planning of carbon capture storage deployment using process graph approach. [10.1016/j.energy.2014.08.060](https://doi.org/10.1016/j.energy.2014.08.060). [Retained PDF](../papers/B3-09.pdf).
 

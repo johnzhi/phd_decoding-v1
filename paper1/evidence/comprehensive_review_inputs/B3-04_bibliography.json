@@ -1,0 +1,2393 @@
+{
+  "study_id": "B3-04",
+  "source_sha256": "1350adda60535707db730edcecafd85628ab019d4615d4b7593bffda290d26a8",
+  "provenance": "All13 retained pages text-read and visually inspected. Bibliography lines retain native text and geometry; Simon1973 continues from left to right column on p13. No original-source verification follows from transcription.",
+  "entries": [
+    {
+      "id": "R001",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Arnaut, M., Vulin, D., Jos´e García Lamberg, G., Juki´c, L., 2021. Simulation analysis of ",
+        "CO2-EOR process and feasibility of CO2 storage during EOR. Energies 14, 1154. ",
+        "https://doi.org/10.3390/en14041154. "
+      ],
+      "line_bboxes": [
+        [
+          37.587398529052734,
+          606.3024291992188,
+          285.88787841796875,
+          616.7269897460938
+        ],
+        [
+          49.549224853515625,
+          614.2391357421875,
+          278.7973327636719,
+          625.0414428710938
+        ],
+        [
+          49.550567626953125,
+          622.23291015625,
+          160.4529571533203,
+          632.657470703125
+        ]
+      ],
+      "citation": "Arnaut, M., Vulin, D., Jos´e García Lamberg, G., Juki´c, L., 2021. Simulation analysis of CO2-EOR process and feasibility of CO2 storage during EOR. Energies 14, 1154. https://doi.org/10.3390/en14041154.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C011",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Baklid, A., Korbol, R., Owren, G., 1996. Sleipner vest CO2 disposal, CO2 injection into a ",
+        "shallow underground aquifer. SPE Annu. Tech. Conf. Exhib. https://doi.org/ ",
+        "10.2118/36600-MS. "
+      ],
+      "line_bboxes": [
+        [
+          37.58873748779297,
+          630.1696166992188,
+          288.5769348144531,
+          640.972412109375
+        ],
+        [
+          49.55146789550781,
+          638.1639404296875,
+          269.7336120605469,
+          648.5885009765625
+        ],
+        [
+          49.55146789550781,
+          646.1006469726562,
+          108.54767608642578,
+          656.5252075195312
+        ]
+      ],
+      "citation": "Baklid, A., Korbol, R., Owren, G., 1996. Sleipner vest CO2 disposal, CO2 injection into a shallow underground aquifer. SPE Annu. Tech. Conf. Exhib. https://doi.org/ 10.2118/36600-MS.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Billson, M., Pourkashanian, M., 2017. The evolution of European CCS policy. Energy ",
+        "Proced. https://doi.org/10.1016/j.egypro.2017.03.1704. "
+      ],
+      "line_bboxes": [
+        [
+          37.58964538574219,
+          654.0941162109375,
+          281.47991943359375,
+          664.5186767578125
+        ],
+        [
+          49.55146789550781,
+          662.0881958007812,
+          212.57366943359375,
+          672.5127563476562
+        ]
+      ],
+      "citation": "Billson, M., Pourkashanian, M., 2017. The evolution of European CCS policy. Energy Proced. https://doi.org/10.1016/j.egypro.2017.03.1704.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Bruninx, K., Ovaere, M., Delarue, E., 2020. The long-term impact of the market stability ",
+        "reserve on the EU emission trading system. Energy Econ. 89, 104746 https://doi. ",
+        "org/10.1016/J.ENECO.2020.104746. "
+      ],
+      "line_bboxes": [
+        [
+          37.58964538574219,
+          670.0249633789062,
+          288.5667419433594,
+          680.4495239257812
+        ],
+        [
+          49.55146789550781,
+          678.0184326171875,
+          283.9448547363281,
+          688.4429931640625
+        ],
+        [
+          49.55146789550781,
+          685.9551391601562,
+          157.1192626953125,
+          696.3796997070312
+        ]
+      ],
+      "citation": "Bruninx, K., Ovaere, M., Delarue, E., 2020. The long-term impact of the market stability reserve on the EU emission trading system. Energy Econ. 89, 104746 https://doi. org/10.1016/J.ENECO.2020.104746.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Budinis, S., Krevor, S., Dowell, N.M., Brandon, N., Hawkes, A., 2018. An assessment of ",
+        "CCS costs, barriers and potential. Energy Strateg. Rev. 22, 61–81. https://doi.org/ ",
+        "10.1016/j.esr.2018.08.003. "
+      ],
+      "line_bboxes": [
+        [
+          37.58964538574219,
+          693.94921875,
+          287.6473388671875,
+          704.373779296875
+        ],
+        [
+          49.55146789550781,
+          701.9426879882812,
+          286.11712646484375,
+          712.3672485351562
+        ],
+        [
+          49.55146789550781,
+          709.8794555664062,
+          129.1163330078125,
+          720.3040161132812
+        ]
+      ],
+      "citation": "Budinis, S., Krevor, S., Dowell, N.M., Brandon, N., Hawkes, A., 2018. An assessment of CCS costs, barriers and potential. Energy Strateg. Rev. 22, 61–81. https://doi.org/ 10.1016/j.esr.2018.08.003.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Chaton, C., Creti, A., Sanin, M.E., 2018. Assessing the implementation of the market ",
+        "stability reserve. Energy Policy 118, 642–654. https://doi.org/10.1016/J. ",
+        "ENPOL.2018.03.027. "
+      ],
+      "line_bboxes": [
+        [
+          37.58964538574219,
+          717.8728637695312,
+          280.6383056640625,
+          728.2974243164062
+        ],
+        [
+          49.55146789550781,
+          725.8102416992188,
+          261.7701110839844,
+          736.2348022460938
+        ],
+        [
+          49.55146789550781,
+          733.8037109375,
+          110.91951751708984,
+          744.228271484375
+        ]
+      ],
+      "citation": "Chaton, C., Creti, A., Sanin, M.E., 2018. Assessing the implementation of the market stability reserve. Energy Policy 118, 642–654. https://doi.org/10.1016/J. ENPOL.2018.03.027.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "´Coriˇc, S., Paveli´c, D., R¨ogl, F., Mandic, O., Vrabac, S., Avani´c, R., Jerkoviˇc, L., ",
+        "Vranjkovi´c, A., 2009. Revised Middle Miocene datum for initial marine flooding of ",
+        "North Croatian Basins (Pannonian Basin System, Central Paratethys)The Pannonian ",
+        "Basin System (PBS) originated during the Early Miocene as a result of extensional ",
+        "processes between the Alpine-Carp. Geol. Croat. 62, 31–43. https://doi.org/ ",
+        "10.4154/GC.2009.03. "
+      ],
+      "line_bboxes": [
+        [
+          306.5939636230469,
+          52.13583755493164,
+          532.1528930664062,
+          62.56043243408203
+        ],
+        [
+          318.5557861328125,
+          60.12991714477539,
+          557.162353515625,
+          70.55451202392578
+        ],
+        [
+          318.5557861328125,
+          68.06668090820312,
+          557.5640869140625,
+          78.49127960205078
+        ],
+        [
+          318.5557861328125,
+          76.06015014648438,
+          554.1669921875,
+          86.48474884033203
+        ],
+        [
+          318.5557861328125,
+          83.99685668945312,
+          537.4901733398438,
+          94.42145538330078
+        ],
+        [
+          318.5557861328125,
+          91.99093627929688,
+          382.1936340332031,
+          102.41553497314453
+        ]
+      ],
+      "citation": "´Coriˇc, S., Paveli´c, D., R¨ogl, F., Mandic, O., Vrabac, S., Avani´c, R., Jerkoviˇc, L., Vranjkovi´c, A., 2009. Revised Middle Miocene datum for initial marine flooding of North Croatian Basins (Pannonian Basin System, Central Paratethys)The Pannonian Basin System (PBS) originated during the Early Miocene as a result of extensional processes between the Alpine-Carp. Geol. Croat. 62, 31–43. https://doi.org/ 10.4154/GC.2009.03.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Croatia, T.M. of E. and S.D. of the R. of, 2021. Low-Carbon Development Strategy of the ",
+        "Republic of Croatia until 2030 With a View to 2050. "
+      ],
+      "line_bboxes": [
+        [
+          306.5939636230469,
+          99.98440551757812,
+          557.5054321289062,
+          110.40900421142578
+        ],
+        [
+          318.5557861328125,
+          107.92117309570312,
+          471.0417785644531,
+          118.34577178955078
+        ]
+      ],
+      "citation": "Croatia, T.M. of E. and S.D. of the R. of, 2021. Low-Carbon Development Strategy of the Republic of Croatia until 2030 With a View to 2050.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "EP, 2011. Procedure File: 2005/0043(COD). europarl.europa.eu. "
+      ],
+      "line_bboxes": [
+        [
+          306.5939636230469,
+          115.91464233398438,
+          492.2403869628906,
+          126.33924102783203
+        ]
+      ],
+      "citation": "EP, 2011. Procedure File: 2005/0043(COD). europarl.europa.eu.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "European Parliament, 2018. Directive (EU) 2018/410 of the European Parliament and of ",
+        "the Council of 14 March 2018. "
+      ],
+      "line_bboxes": [
+        [
+          306.5939636230469,
+          123.85195922851562,
+          557.5589599609375,
+          134.2765655517578
+        ],
+        [
+          318.5557861328125,
+          131.84539794921875,
+          408.3405456542969,
+          142.27000427246094
+        ]
+      ],
+      "citation": "European Parliament, 2018. Directive (EU) 2018/410 of the European Parliament and of the Council of 14 March 2018.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C048",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "European Parliament, 2009. Directive 2009/28/EC of the European Parliament and of ",
+        "the Council of 23 April 2009. Official Journal of the European Union. "
+      ],
+      "line_bboxes": [
+        [
+          306.5939636230469,
+          139.8388671875,
+          554.5546264648438,
+          150.2634735107422
+        ],
+        [
+          318.5557861328125,
+          147.7762451171875,
+          519.8314819335938,
+          158.2008514404297
+        ]
+      ],
+      "citation": "European Parliament, 2009. Directive 2009/28/EC of the European Parliament and of the Council of 23 April 2009. Official Journal of the European Union.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002",
+        "C048",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "European Union, 2015. Decision (EU) 2015/1814 of the European Parliament and of the ",
+        "Council of 6 October 2015 Concerning the Establishment and Operation of a Market ",
+        "Stability Reserve For the Union greenhouse Gas Emission Trading Scheme and ",
+        "Amending Directive 2003/87/EC. Off. J. Eur. Union, pp. 1–5. "
+      ],
+      "line_bboxes": [
+        [
+          306.5939636230469,
+          155.76971435546875,
+          557.5054321289062,
+          166.19432067871094
+        ],
+        [
+          318.5557861328125,
+          163.7064208984375,
+          557.5194091796875,
+          174.1310272216797
+        ],
+        [
+          318.5557861328125,
+          171.69989013671875,
+          544.3270263671875,
+          182.12449645996094
+        ],
+        [
+          318.5557861328125,
+          179.63723754882812,
+          496.3604736328125,
+          190.0618438720703
+        ]
+      ],
+      "citation": "European Union, 2015. Decision (EU) 2015/1814 of the European Parliament and of the Council of 6 October 2015 Concerning the Establishment and Operation of a Market Stability Reserve For the Union greenhouse Gas Emission Trading Scheme and Amending Directive 2003/87/EC. Off. J. Eur. Union, pp. 1–5.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C048",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Furre, A.K., Eiken, O., Alnes, H., Vevatne, J.N., Kiær, A.F., 2017. 20 years of monitoring ",
+        "CO2-injection at sleipner. Energy Proced. 114, 3916–3926. https://doi.org/10.1016/ ",
+        "J.EGYPRO.2017.03.1523. "
+      ],
+      "line_bboxes": [
+        [
+          306.5939636230469,
+          187.63070678710938,
+          557.5621337890625,
+          198.05531311035156
+        ],
+        [
+          318.5557861328125,
+          195.61843872070312,
+          557.5328369140625,
+          206.36444091796875
+        ],
+        [
+          318.5577392578125,
+          203.55516052246094,
+          392.9708557128906,
+          213.97976684570312
+        ]
+      ],
+      "citation": "Furre, A.K., Eiken, O., Alnes, H., Vevatne, J.N., Kiær, A.F., 2017. 20 years of monitoring CO2-injection at sleipner. Energy Proced. 114, 3916–3926. https://doi.org/10.1016/ J.EGYPRO.2017.03.1523.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Gabrielli, P., Gazzani, M., Mazzotti, M., 2020. The role of carbon capture and utilization, ",
+        "carbon capture and storage, and biomass to enable a net-Zero-CO2 emissions ",
+        "chemical industry. Ind. Eng. Chem. Res. 59, 7033–7045. https://doi.org/10.1021/ ",
+        "acs.iecr.9b06579. "
+      ],
+      "line_bboxes": [
+        [
+          306.5959167480469,
+          211.5486297607422,
+          557.5545654296875,
+          221.97323608398438
+        ],
+        [
+          318.5577392578125,
+          219.4853515625,
+          539.548095703125,
+          230.28839111328125
+        ],
+        [
+          318.55938720703125,
+          227.47988891601562,
+          555.323974609375,
+          237.9044952392578
+        ],
+        [
+          318.55938720703125,
+          235.47335815429688,
+          370.1340637207031,
+          245.89796447753906
+        ]
+      ],
+      "citation": "Gabrielli, P., Gazzani, M., Mazzotti, M., 2020. The role of carbon capture and utilization, carbon capture and storage, and biomass to enable a net-Zero-CO2 emissions chemical industry. Ind. Eng. Chem. Res. 59, 7033–7045. https://doi.org/10.1021/ acs.iecr.9b06579.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C009",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Galadima, A., Muraza, O., 2019. Catalytic thermal conversion of CO2 into fuels: ",
+        "perspective and challenges. Renew. Sustain. Energy Rev. 115, 109333 https://doi. ",
+        "org/10.1016/J.RSER.2019.109333. "
+      ],
+      "line_bboxes": [
+        [
+          306.5975646972656,
+          243.41006469726562,
+          536.5057373046875,
+          254.21343994140625
+        ],
+        [
+          318.56024169921875,
+          251.40487670898438,
+          555.2783203125,
+          261.8294677734375
+        ],
+        [
+          318.56024169921875,
+          259.3415832519531,
+          420.7531433105469,
+          269.76617431640625
+        ]
+      ],
+      "citation": "Galadima, A., Muraza, O., 2019. Catalytic thermal conversion of CO2 into fuels: perspective and challenges. Renew. Sustain. Energy Rev. 115, 109333 https://doi. org/10.1016/J.RSER.2019.109333.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Global CCS Institute, 2021. CO2RE Facilities Database [WWW Document]. Global CCS ",
+        "Institute. URL. https://co2re.co/FacilityData. accessed 11.29.21.  "
+      ],
+      "line_bboxes": [
+        [
+          306.5977783203125,
+          267.3350524902344,
+          555.2827758789062,
+          277.7596435546875
+        ],
+        [
+          318.56024169921875,
+          275.2724304199219,
+          505.83062744140625,
+          285.697021484375
+        ]
+      ],
+      "citation": "Global CCS Institute, 2021. CO2RE Facilities Database [WWW Document]. Global CCS Institute. URL. https://co2re.co/FacilityData. accessed 11.29.21.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012",
+        "C014",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Goriˇcnik, B., 2001. Possible revitalization of mature fields in croatia-CO2 process ",
+        "assesment from laboratory data. In: Proceedings of the International Oil and Gas ",
+        "Conference-Development and Implementation of New Technologies for Oil and Gas ",
+        "Production Enhancement. HUNIG, Zadar.  "
+      ],
+      "line_bboxes": [
+        [
+          306.5977783203125,
+          283.2658996582031,
+          539.5473022460938,
+          294.06842041015625
+        ],
+        [
+          318.56048583984375,
+          291.2598876953125,
+          550.7216796875,
+          301.6844787597656
+        ],
+        [
+          318.56048583984375,
+          299.19659423828125,
+          557.5247802734375,
+          309.6211853027344
+        ],
+        [
+          318.56048583984375,
+          307.1900634765625,
+          439.9927062988281,
+          317.6146545410156
+        ]
+      ],
+      "citation": "Goriˇcnik, B., 2001. Possible revitalization of mature fields in croatia-CO2 process assesment from laboratory data. In: Proceedings of the International Oil and Gas Conference-Development and Implementation of New Technologies for Oil and Gas Production Enhancement. HUNIG, Zadar.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C030",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Haan-Kamminga, A., Roggenkamp, M., Woerdman, E., 2010. Legal uncertainties of ",
+        "carbon capture and storage in the EU: the Netherlands as an example. Carbon Clim. ",
+        "Law Rev. 4, 240–249. https://doi.org/10.21552/CCLR/2010/3/140. "
+      ],
+      "line_bboxes": [
+        [
+          306.5980529785156,
+          315.1274108886719,
+          545.2039794921875,
+          325.552001953125
+        ],
+        [
+          318.56048583984375,
+          323.1208801269531,
+          557.5197143554688,
+          333.54547119140625
+        ],
+        [
+          318.56048583984375,
+          331.1143493652344,
+          515.6070556640625,
+          341.5389404296875
+        ]
+      ],
+      "citation": "Haan-Kamminga, A., Roggenkamp, M., Woerdman, E., 2010. Legal uncertainties of carbon capture and storage in the EU: the Netherlands as an example. Carbon Clim. Law Rev. 4, 240–249. https://doi.org/10.21552/CCLR/2010/3/140.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C002",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Hepburn, C., Adlen, E., Beddington, J., Carter, E.A., Fuss, S., Mac Dowell, N., Minx, J.C., ",
+        "Smith, P., Williams, C.K., 2019. The technological and economic prospects for CO2 ",
+        "utilization and removal. Nature. https://doi.org/10.1038/s41586-019-1681-6. "
+      ],
+      "line_bboxes": [
+        [
+          306.5980529785156,
+          339.05108642578125,
+          557.5452270507812,
+          349.4756774902344
+        ],
+        [
+          318.56048583984375,
+          347.0451965332031,
+          556.6221313476562,
+          357.7914123535156
+        ],
+        [
+          318.5570068359375,
+          354.982421875,
+          543.0390625,
+          365.4070129394531
+        ]
+      ],
+      "citation": "Hepburn, C., Adlen, E., Beddington, J., Carter, E.A., Fuss, S., Mac Dowell, N., Minx, J.C., Smith, P., Williams, C.K., 2019. The technological and economic prospects for CO2 utilization and removal. Nature. https://doi.org/10.1038/s41586-019-1681-6.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Hermanrud, C., Andresen, T., Eiken, O., Hansen, H., Janbu, A., Lippard, J., Bolås, H.N., ",
+        "Simmenes, T.H., Teige, G.M.G., Østmo, S., 2009. Storage of CO2 in saline ",
+        "aquifers–Lessons learned from 10 years of injection into the Utsira Formation in the ",
+        "Sleipner area. Energy Proced. 1, 1997–2004. https://doi.org/10.1016/J. ",
+        "EGYPRO.2009.01.260. "
+      ],
+      "line_bboxes": [
+        [
+          306.5951843261719,
+          362.97589111328125,
+          557.5187377929688,
+          373.4004821777344
+        ],
+        [
+          318.5570068359375,
+          370.91259765625,
+          529.69873046875,
+          381.7154235839844
+        ],
+        [
+          318.55950927734375,
+          378.9068908691406,
+          557.5652465820312,
+          389.33148193359375
+        ],
+        [
+          318.55950927734375,
+          386.9003601074219,
+          526.6962890625,
+          397.324951171875
+        ],
+        [
+          318.55950927734375,
+          394.8370666503906,
+          384.50543212890625,
+          405.26165771484375
+        ]
+      ],
+      "citation": "Hermanrud, C., Andresen, T., Eiken, O., Hansen, H., Janbu, A., Lippard, J., Bolås, H.N., Simmenes, T.H., Teige, G.M.G., Østmo, S., 2009. Storage of CO2 in saline aquifers–Lessons learned from 10 years of injection into the Utsira Formation in the Sleipner area. Energy Proced. 1, 1997–2004. https://doi.org/10.1016/J. EGYPRO.2009.01.260.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "IEA, 2020. CCUS in Clean Energy Transitions [WWW Document]. IEA. URL. https://iea. ",
+        "blob.core.windows.net/assets/181b48b4-323f-454d-96fb-0bb1889d96a9/CCUS_in ",
+        "_clean_energy_transitions.pdf. accessed 11.30.21.  "
+      ],
+      "line_bboxes": [
+        [
+          306.59765625,
+          402.8311767578125,
+          557.5308227539062,
+          413.2557678222656
+        ],
+        [
+          318.55950927734375,
+          410.7679138183594,
+          552.8037719726562,
+          421.1925048828125
+        ],
+        [
+          318.55950927734375,
+          418.7613525390625,
+          460.41943359375,
+          429.1859436035156
+        ]
+      ],
+      "citation": "IEA, 2020. CCUS in Clean Energy Transitions [WWW Document]. IEA. URL. https://iea. blob.core.windows.net/assets/181b48b4-323f-454d-96fb-0bb1889d96a9/CCUS_in _clean_energy_transitions.pdf. accessed 11.30.21.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Jamiˇci´c, D., 1995. The role of sinistral strike-slip faults in the formation of the structural ",
+        "fabric of the Slavonian Mts. (Eastern Croatia). Geol. Croat. 48, 155–160. "
+      ],
+      "line_bboxes": [
+        [
+          306.59765625,
+          426.75482177734375,
+          557.5269775390625,
+          437.1794128417969
+        ],
+        [
+          318.55950927734375,
+          434.69219970703125,
+          527.5602416992188,
+          445.1167907714844
+        ]
+      ],
+      "citation": "Jamiˇci´c, D., 1995. The role of sinistral strike-slip faults in the formation of the structural fabric of the Slavonian Mts. (Eastern Croatia). Geol. Croat. 48, 155–160.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Jerkovi´c, D., 2022. Bez Ugljena Svijet Bi Joˇs Bio u Kamenom Dobu [WWW Document]. ",
+        "Glas Slavonije. URL. https://www.glas-slavonije.hr/493283/11/Bez-ugljena-svij ",
+        "et-bi-jos-bio-u-kamenom-dobu. accessed 5.9.22.  "
+      ],
+      "line_bboxes": [
+        [
+          306.59765625,
+          442.6856384277344,
+          557.5499267578125,
+          453.1102294921875
+        ],
+        [
+          318.55950927734375,
+          450.62237548828125,
+          547.8145751953125,
+          461.0469665527344
+        ],
+        [
+          318.55950927734375,
+          458.6158447265625,
+          457.49224853515625,
+          469.0404357910156
+        ]
+      ],
+      "citation": "Jerkovi´c, D., 2022. Bez Ugljena Svijet Bi Joˇs Bio u Kamenom Dobu [WWW Document]. Glas Slavonije. URL. https://www.glas-slavonije.hr/493283/11/Bez-ugljena-svij et-bi-jos-bio-u-kamenom-dobu. accessed 5.9.22.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Jiang, K., Ashworth, P., Zhang, S., Liang, X., Sun, Y., Angus, D., 2020. China’s carbon ",
+        "capture, utilization and storage (CCUS) policy: a critical review. Renew. Sustain. ",
+        "Energy Rev. 119, 109601 https://doi.org/10.1016/J.RSER.2019.109601. "
+      ],
+      "line_bboxes": [
+        [
+          306.59765625,
+          466.5531921386719,
+          553.9992065429688,
+          476.977783203125
+        ],
+        [
+          318.55950927734375,
+          474.5466613769531,
+          550.720703125,
+          484.97125244140625
+        ],
+        [
+          318.55950927734375,
+          482.5401306152344,
+          528.3285522460938,
+          492.9647216796875
+        ]
+      ],
+      "citation": "Jiang, K., Ashworth, P., Zhang, S., Liang, X., Sun, Y., Angus, D., 2020. China’s carbon capture, utilization and storage (CCUS) policy: a critical review. Renew. Sustain. Energy Rev. 119, 109601 https://doi.org/10.1016/J.RSER.2019.109601.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Khosroabadi, F., Aslani, A., Bekhrad, K., Zolfaghari, Z., 2021. Analysis of carbon dioxide ",
+        "capturing technologies and their technology developments. Clean. Eng. Technol. 5, ",
+        "100279 https://doi.org/10.1016/j.clet.2021.100279. "
+      ],
+      "line_bboxes": [
+        [
+          306.59765625,
+          490.47747802734375,
+          557.5518188476562,
+          500.9020690917969
+        ],
+        [
+          318.55950927734375,
+          498.470947265625,
+          557.389892578125,
+          508.8955383300781
+        ],
+        [
+          318.55950927734375,
+          506.4076843261719,
+          470.9167175292969,
+          516.832275390625
+        ]
+      ],
+      "citation": "Khosroabadi, F., Aslani, A., Bekhrad, K., Zolfaghari, Z., 2021. Analysis of carbon dioxide capturing technologies and their technology developments. Clean. Eng. Technol. 5, 100279 https://doi.org/10.1016/j.clet.2021.100279.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C007",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Kolenkovi´c, I., Safti´c, B., Pereˇsin, D., 2013. Regional capacity estimates for CO2 ",
+        "geological storage in deep saline aquifers – upper miocene sandstones in the SW part ",
+        "of the Pannonian basin. Int. J. Greenh. Gas Control 16, 180–186. https://doi.org/ ",
+        "10.1016/J.IJGGC.2013.04.001. "
+      ],
+      "line_bboxes": [
+        [
+          306.59765625,
+          514.4011840820312,
+          535.4191284179688,
+          525.2053833007812
+        ],
+        [
+          318.5570068359375,
+          522.3964233398438,
+          557.5302124023438,
+          532.8209838867188
+        ],
+        [
+          318.5570068359375,
+          530.3331298828125,
+          553.8755493164062,
+          540.7576904296875
+        ],
+        [
+          318.5570068359375,
+          538.3265991210938,
+          409.2541809082031,
+          548.7511596679688
+        ]
+      ],
+      "citation": "Kolenkovi´c, I., Safti´c, B., Pereˇsin, D., 2013. Regional capacity estimates for CO2 geological storage in deep saline aquifers – upper miocene sandstones in the SW part of the Pannonian basin. Int. J. Greenh. Gas Control 16, 180–186. https://doi.org/ 10.1016/J.IJGGC.2013.04.001.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C024",
+        "C025",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Lackner, K.S., Brennan, S., Matter, J.M., Park, A.H.A., Wright, A., Van Der Zwaan, B., ",
+        "2012. The urgency of the development of CO2 capture from ambient air. Proc. Natl. ",
+        "Acad. Sci. U. S. A. 109, 13156–13162. https://doi.org/10.1073/pnas.1108765109. "
+      ],
+      "line_bboxes": [
+        [
+          306.5951843261719,
+          546.2633056640625,
+          553.09130859375,
+          556.6878662109375
+        ],
+        [
+          318.5570068359375,
+          554.2574462890625,
+          557.5394287109375,
+          565.0604248046875
+        ],
+        [
+          318.55859375,
+          562.2518920898438,
+          556.3324584960938,
+          572.6764526367188
+        ]
+      ],
+      "citation": "Lackner, K.S., Brennan, S., Matter, J.M., Park, A.H.A., Wright, A., Van Der Zwaan, B., 2012. The urgency of the development of CO2 capture from ambient air. Proc. Natl. Acad. Sci. U. S. A. 109, 13156–13162. https://doi.org/10.1073/pnas.1108765109.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Luˇci´c, D., Safti´c, B., Krizmani´c, K., Prelogovi´c, E., Britvi´c, V., Mesi´c, I., Tadej, J., 2001. ",
+        "The Neogene evolution and hydrocarbon potential of the Pannonian Basin in ",
+        "Croatia. Mar. Pet. Geol. 18, 133–147. https://doi.org/10.1016/S0264-8172(00) ",
+        "00038-6. "
+      ],
+      "line_bboxes": [
+        [
+          306.59674072265625,
+          570.1885986328125,
+          556.8763427734375,
+          580.6131591796875
+        ],
+        [
+          318.55859375,
+          578.1820678710938,
+          540.2135620117188,
+          588.6066284179688
+        ],
+        [
+          318.55859375,
+          586.1194458007812,
+          547.4055786132812,
+          596.5440063476562
+        ],
+        [
+          318.55859375,
+          594.1129150390625,
+          345.7900390625,
+          604.5374755859375
+        ]
+      ],
+      "citation": "Luˇci´c, D., Safti´c, B., Krizmani´c, K., Prelogovi´c, E., Britvi´c, V., Mesi´c, I., Tadej, J., 2001. The Neogene evolution and hydrocarbon potential of the Pannonian Basin in Croatia. Mar. Pet. Geol. 18, 133–147. https://doi.org/10.1016/S0264-8172(00) 00038-6.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Malvi´c, T., Cvetkovi´c, M., 2013. Lithostratigraphic units in the drava depression ",
+        "(Croatian and Hungarian parts) – a correlation. Nafta 63, 27–33. "
+      ],
+      "line_bboxes": [
+        [
+          306.59674072265625,
+          602.0496215820312,
+          537.4464111328125,
+          612.4741821289062
+        ],
+        [
+          318.55859375,
+          610.0430908203125,
+          505.5260925292969,
+          620.4676513671875
+        ]
+      ],
+      "citation": "Malvi´c, T., Cvetkovi´c, M., 2013. Lithostratigraphic units in the drava depression (Croatian and Hungarian parts) – a correlation. Nafta 63, 27–33.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Maniarasu, R., Rathore, S.K., Murugan, S., 2021. A review on materials and processes for ",
+        "carbon dioxide separation and capture. Energy Environ. https://doi.org/10.1177/ ",
+        "0958305X211050984. "
+      ],
+      "line_bboxes": [
+        [
+          306.59674072265625,
+          618.0371704101562,
+          557.559814453125,
+          628.4617309570312
+        ],
+        [
+          318.55859375,
+          625.9739379882812,
+          553.7922973632812,
+          636.3984985351562
+        ],
+        [
+          318.55859375,
+          633.9673461914062,
+          383.6883850097656,
+          644.3919067382812
+        ]
+      ],
+      "citation": "Maniarasu, R., Rathore, S.K., Murugan, S., 2021. A review on materials and processes for carbon dioxide separation and capture. Energy Environ. https://doi.org/10.1177/ 0958305X211050984.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R030"
+    },
+    {
+      "id": "R031",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Marcu, A., Olsen, J., Vangenechten, D., Cabras, S., Mertens, T., Caneill, J.Y., 2021. The ",
+        "review of the market stability reserve (MSR). ERCST Roundtable Clim. Change ",
+        "Sustain. Transit. (bloomb. NEF) 18. "
+      ],
+      "line_bboxes": [
+        [
+          306.59674072265625,
+          641.9041137695312,
+          557.5151977539062,
+          652.3286743164062
+        ],
+        [
+          318.55859375,
+          649.898193359375,
+          545.1676025390625,
+          660.32275390625
+        ],
+        [
+          318.55859375,
+          657.8916625976562,
+          421.4031066894531,
+          668.3162231445312
+        ]
+      ],
+      "citation": "Marcu, A., Olsen, J., Vangenechten, D., Cabras, S., Mertens, T., Caneill, J.Y., 2021. The review of the market stability reserve (MSR). ERCST Roundtable Clim. Change Sustain. Transit. (bloomb. NEF) 18.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R031"
+    },
+    {
+      "id": "R032",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Morgado Simoes Henrique Andre, 2022. Revision of the Market Stability Reserve For the ",
+        "EU Emissions Trading system: Fit for 55 Package [WWW Document]. Eur. ",
+        "Parlieament - Think Tank Brief. URL. https://www.europarl.europa.eu/th ",
+        "inktank/en/document/EPRS_BRI(2022)698896. accessed 5.11.22.  "
+      ],
+      "line_bboxes": [
+        [
+          306.59674072265625,
+          665.828369140625,
+          557.5643310546875,
+          676.2529296875
+        ],
+        [
+          318.55859375,
+          673.822509765625,
+          531.8898315429688,
+          684.2470703125
+        ],
+        [
+          318.55859375,
+          681.7592163085938,
+          530.4227294921875,
+          692.1837768554688
+        ],
+        [
+          318.55859375,
+          689.752685546875,
+          509.0423889160156,
+          700.17724609375
+        ]
+      ],
+      "citation": "Morgado Simoes Henrique Andre, 2022. Revision of the Market Stability Reserve For the EU Emissions Trading system: Fit for 55 Package [WWW Document]. Eur. Parlieament - Think Tank Brief. URL. https://www.europarl.europa.eu/th inktank/en/document/EPRS_BRI(2022)698896. accessed 5.11.22.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R032"
+    },
+    {
+      "id": "R033",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Naims, H., 2016. Economics of carbon dioxide capture and utilization – a supply and ",
+        "demand perspective. Environ. Sci. Pollut. Res. 23, 22226–22241. https://doi.org/ ",
+        "10.1007/s11356-016-6810-2. "
+      ],
+      "line_bboxes": [
+        [
+          306.59674072265625,
+          697.6893920898438,
+          551.9828491210938,
+          708.1139526367188
+        ],
+        [
+          318.55859375,
+          705.6834716796875,
+          553.0833129882812,
+          716.1080322265625
+        ],
+        [
+          318.55859375,
+          713.6769409179688,
+          403.9828796386719,
+          724.1015014648438
+        ]
+      ],
+      "citation": "Naims, H., 2016. Economics of carbon dioxide capture and utilization – a supply and demand perspective. Environ. Sci. Pollut. Res. 23, 22226–22241. https://doi.org/ 10.1007/s11356-016-6810-2.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R033"
+    },
+    {
+      "id": "R034",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Ny´ari, J., Magdeldin, M., Larmi, M., J¨arvinen, M., Santasalo-Aarnio, A., 2020. Techno- ",
+        "economic barriers of an industrial-scale methanol CCU-plant. J. CO2 Util. 39, 101166 ",
+        "https://doi.org/10.1016/J.JCOU.2020.101166. "
+      ],
+      "line_bboxes": [
+        [
+          37.587398529052734,
+          52.12942886352539,
+          286.93865966796875,
+          62.55402374267578
+        ],
+        [
+          49.549224853515625,
+          60.12240982055664,
+          288.55780029296875,
+          70.868408203125
+        ],
+        [
+          49.55145263671875,
+          68.05912780761719,
+          185.63226318359375,
+          78.48372650146484
+        ]
+      ],
+      "citation": "Ny´ari, J., Magdeldin, M., Larmi, M., J¨arvinen, M., Santasalo-Aarnio, A., 2020. Techno- economic barriers of an industrial-scale methanol CCU-plant. J. CO2 Util. 39, 101166 https://doi.org/10.1016/J.JCOU.2020.101166.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R034"
+    },
+    {
+      "id": "R035",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Omoregbe, O., Mustapha, A.N., Steinberger-Wilckens, R., El-Kharouf, A., Onyeaka, H., ",
+        "2020. Carbon capture technologies for climate change mitigation: a bibliometric ",
+        "analysis of the scientific discourse during 1998–2018. Energy Rep. 6, 1200–1212. ",
+        "https://doi.org/10.1016/j.egyr.2020.05.003. "
+      ],
+      "line_bboxes": [
+        [
+          37.589630126953125,
+          76.05259704589844,
+          285.4189453125,
+          86.47718811035156
+        ],
+        [
+          49.55145263671875,
+          83.98931884765625,
+          280.9647216796875,
+          94.41390991210938
+        ],
+        [
+          49.55145263671875,
+          91.98341369628906,
+          284.7794494628906,
+          102.40801239013672
+        ],
+        [
+          49.55145263671875,
+          99.97688293457031,
+          178.65066528320312,
+          110.40148162841797
+        ]
+      ],
+      "citation": "Omoregbe, O., Mustapha, A.N., Steinberger-Wilckens, R., El-Kharouf, A., Onyeaka, H., 2020. Carbon capture technologies for climate change mitigation: a bibliometric analysis of the scientific discourse during 1998–2018. Energy Rep. 6, 1200–1212. https://doi.org/10.1016/j.egyr.2020.05.003.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R035"
+    },
+    {
+      "id": "R036",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Osman, A.I., Hefny, M., Abdel Maksoud, M.I.A., Elgarahy, A.M., Rooney, D.W., 2021. ",
+        "Recent Advances in Carbon Capture Storage and Utilisation technologies: a review, ",
+        "Environmental Chemistry Letters. Springer International Publishing. https://doi. ",
+        "org/10.1007/s10311-020-01133-3. "
+      ],
+      "line_bboxes": [
+        [
+          37.589630126953125,
+          107.91360473632812,
+          283.39013671875,
+          118.33820343017578
+        ],
+        [
+          49.55145263671875,
+          115.90707397460938,
+          288.5240173339844,
+          126.3316650390625
+        ],
+        [
+          49.55145263671875,
+          123.84442138671875,
+          280.4297790527344,
+          134.26902770996094
+        ],
+        [
+          49.55145263671875,
+          131.837890625,
+          150.99838256835938,
+          142.2624969482422
+        ]
+      ],
+      "citation": "Osman, A.I., Hefny, M., Abdel Maksoud, M.I.A., Elgarahy, A.M., Rooney, D.W., 2021. Recent Advances in Carbon Capture Storage and Utilisation technologies: a review, Environmental Chemistry Letters. Springer International Publishing. https://doi. org/10.1007/s10311-020-01133-3.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C007",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R036"
+    },
+    {
+      "id": "R037",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Osorio, S., Tietjen, O., Pahle, M., Pietzcker, R.C., Edenhofer, O., 2021. Reviewing the ",
+        "market stability reserve in light of more ambitious EU ETS emission targets. Energy ",
+        "Policy 158, 112530. https://doi.org/10.1016/J.ENPOL.2021.112530. "
+      ],
+      "line_bboxes": [
+        [
+          37.589630126953125,
+          139.83135986328125,
+          283.11468505859375,
+          150.25596618652344
+        ],
+        [
+          49.55145263671875,
+          147.76806640625,
+          288.56671142578125,
+          158.1926727294922
+        ],
+        [
+          49.55145263671875,
+          155.76217651367188,
+          248.97747802734375,
+          166.18678283691406
+        ]
+      ],
+      "citation": "Osorio, S., Tietjen, O., Pahle, M., Pietzcker, R.C., Edenhofer, O., 2021. Reviewing the market stability reserve in light of more ambitious EU ETS emission targets. Energy Policy 158, 112530. https://doi.org/10.1016/J.ENPOL.2021.112530.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R037"
+    },
+    {
+      "id": "R038",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Paveli´c, D., Kovaˇci´c, M., 2018. Sedimentology and stratigraphy of the Neogene rift-type ",
+        "North Croatian Basin (Pannonian Basin System, Croatia): a review. Mar. Pet. Geol. ",
+        "91, 455–469. https://doi.org/10.1016/j.marpetgeo.2018.01.026. "
+      ],
+      "line_bboxes": [
+        [
+          37.589630126953125,
+          163.69891357421875,
+          288.54949951171875,
+          174.12351989746094
+        ],
+        [
+          49.55145263671875,
+          171.69235229492188,
+          287.2787780761719,
+          182.11695861816406
+        ],
+        [
+          49.55145263671875,
+          179.62973022460938,
+          236.0025177001953,
+          190.05433654785156
+        ]
+      ],
+      "citation": "Paveli´c, D., Kovaˇci´c, M., 2018. Sedimentology and stratigraphy of the Neogene rift-type North Croatian Basin (Pannonian Basin System, Croatia): a review. Mar. Pet. Geol. 91, 455–469. https://doi.org/10.1016/j.marpetgeo.2018.01.026.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R038"
+    },
+    {
+      "id": "R039",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Pieri, T., Angelis-Dimakis, A., 2021. Model development for carbon capture cost ",
+        "estimation. Clean. Technol. 3, 787–803. https://doi.org/10.3390/ ",
+        "cleantechnol3040046. "
+      ],
+      "line_bboxes": [
+        [
+          37.589630126953125,
+          187.62318420410156,
+          268.41375732421875,
+          198.04779052734375
+        ],
+        [
+          49.55145263671875,
+          195.6166534423828,
+          239.1477508544922,
+          206.041259765625
+        ],
+        [
+          49.55145263671875,
+          203.55337524414062,
+          114.0819320678711,
+          213.9779815673828
+        ]
+      ],
+      "citation": "Pieri, T., Angelis-Dimakis, A., 2021. Model development for carbon capture cost estimation. Clean. Technol. 3, 787–803. https://doi.org/10.3390/ cleantechnol3040046.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C006",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R039"
+    },
+    {
+      "id": "R040",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Pieri, T., Nikitas, A., Castillo-Castillo, A., Angelis-Dimakis, A., 2018. Holistic assessment ",
+        "of carbon capture and utilization value chains. Environ. 5, 108 5, 108. https://doi. ",
+        "org/10.3390/ENVIRONMENTS5100108, 2018VolPage.  "
+      ],
+      "line_bboxes": [
+        [
+          37.589630126953125,
+          211.54747009277344,
+          288.5686340332031,
+          221.97207641601562
+        ],
+        [
+          49.55145263671875,
+          219.48419189453125,
+          288.3671569824219,
+          229.90879821777344
+        ],
+        [
+          49.55145263671875,
+          227.4776611328125,
+          209.4615478515625,
+          237.9022674560547
+        ]
+      ],
+      "citation": "Pieri, T., Nikitas, A., Castillo-Castillo, A., Angelis-Dimakis, A., 2018. Holistic assessment of carbon capture and utilization value chains. Environ. 5, 108 5, 108. https://doi. org/10.3390/ENVIRONMENTS5100108, 2018VolPage.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R040"
+    },
+    {
+      "id": "R041",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Ravikumar, D., Zhang, D., Keoleian, G., Miller, S., Sick, V., Li, V., 2021. Carbon dioxide ",
+        "utilization in concrete curing or mixing might not produce a net climate benefit. Nat. ",
+        "Commun. 12 https://doi.org/10.1038/S41467-021-21148-W. "
+      ],
+      "line_bboxes": [
+        [
+          37.589630126953125,
+          235.47113037109375,
+          288.54376220703125,
+          245.89573669433594
+        ],
+        [
+          49.55145263671875,
+          243.4084930419922,
+          288.5660705566406,
+          253.83309936523438
+        ],
+        [
+          49.55145263671875,
+          251.40194702148438,
+          225.81893920898438,
+          261.8265380859375
+        ]
+      ],
+      "citation": "Ravikumar, D., Zhang, D., Keoleian, G., Miller, S., Sick, V., Li, V., 2021. Carbon dioxide utilization in concrete curing or mixing might not produce a net climate benefit. Nat. Commun. 12 https://doi.org/10.1038/S41467-021-21148-W.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R041"
+    },
+    {
+      "id": "R042",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Roussanaly, S., 2019. Calculating CO2 avoidance costs of carbon capture and storage ",
+        "from industry. Carbon Manag 10, 105–112. https://doi.org/10.1080/ ",
+        "17583004.2018.1553435. "
+      ],
+      "line_bboxes": [
+        [
+          37.589630126953125,
+          259.3386535644531,
+          281.79010009765625,
+          270.1434326171875
+        ],
+        [
+          49.55049133300781,
+          267.3348693847656,
+          249.40814208984375,
+          277.75946044921875
+        ],
+        [
+          49.55049133300781,
+          275.2715759277344,
+          124.9773941040039,
+          285.6961669921875
+        ]
+      ],
+      "citation": "Roussanaly, S., 2019. Calculating CO2 avoidance costs of carbon capture and storage from industry. Carbon Manag 10, 105–112. https://doi.org/10.1080/ 17583004.2018.1553435.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R042"
+    },
+    {
+      "id": "R043",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Safti´c, B., Kolenkovi´c, I., 2011. CCS actions and storage options in Croatia. Geophys. ",
+        "Trans. 45, 193–206. "
+      ],
+      "line_bboxes": [
+        [
+          37.58866882324219,
+          283.2650451660156,
+          281.4604797363281,
+          293.68963623046875
+        ],
+        [
+          49.55049133300781,
+          291.2591552734375,
+          108.6570053100586,
+          301.6837463378906
+        ]
+      ],
+      "citation": "Safti´c, B., Kolenkovi´c, I., 2011. CCS actions and storage options in Croatia. Geophys. Trans. 45, 193–206.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C025",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R043"
+    },
+    {
+      "id": "R044",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Safti´c, B., Veli´c, J., Sztan´o, O., Juh´asz, G., Ivkovi´c, ˇZ., 2003. Tertiary subsurface facies, ",
+        "source rocks and hydrocarbon reservoirs in the SW part of the Pannonian Basin ",
+        "(Northern Croatia and south-western Hungary). Geol. Croat. 56, 101–122. "
+      ],
+      "line_bboxes": [
+        [
+          37.58866882324219,
+          299.1958923339844,
+          288.2080993652344,
+          309.6204833984375
+        ],
+        [
+          49.55049133300781,
+          307.1893310546875,
+          278.9751281738281,
+          317.6139221191406
+        ],
+        [
+          49.55049133300781,
+          315.1260681152344,
+          262.972900390625,
+          325.5506591796875
+        ]
+      ],
+      "citation": "Safti´c, B., Veli´c, J., Sztan´o, O., Juh´asz, G., Ivkovi´c, ˇZ., 2003. Tertiary subsurface facies, source rocks and hydrocarbon reservoirs in the SW part of the Pannonian Basin (Northern Croatia and south-western Hungary). Geol. Croat. 56, 101–122.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R044"
+    },
+    {
+      "id": "R045",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Schmelz, W.J., Hochman, G., Miller, K.G., 2020. Total cost of carbon capture and storage ",
+        "implemented at a regional scale: northeastern and midwestern United States: total ",
+        "cost of carbon capture and storage. Interface Focus 10. https://doi.org/10.1098/ ",
+        "rsfs.2019.0065. "
+      ],
+      "line_bboxes": [
+        [
+          37.58866882324219,
+          323.12017822265625,
+          288.53643798828125,
+          333.5447692871094
+        ],
+        [
+          49.55049133300781,
+          331.1136169433594,
+          286.4253845214844,
+          341.5382080078125
+        ],
+        [
+          49.55049133300781,
+          339.05035400390625,
+          282.1197204589844,
+          349.4749450683594
+        ],
+        [
+          49.55049133300781,
+          347.0438232421875,
+          95.13818359375,
+          357.4684143066406
+        ]
+      ],
+      "citation": "Schmelz, W.J., Hochman, G., Miller, K.G., 2020. Total cost of carbon capture and storage implemented at a regional scale: northeastern and midwestern United States: total cost of carbon capture and storage. Interface Focus 10. https://doi.org/10.1098/ rsfs.2019.0065.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C006",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R045"
+    },
+    {
+      "id": "R046",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "ˇSimon, J., 1973. On some results of regional lithostratigraphic correlation in the south- ",
+        "western part of Pannonian basin (in Croatian, original title: o nekim rezultatima ",
+        "regionalne korelacije litostratigrafskih jedinica u jugozapadnom podruˇcju ",
+        "Panonskog bazena). Nafta 24, 623–630. "
+      ],
+      "line_bboxes": [
+        [
+          37.58866882324219,
+          354.9811706542969,
+          288.5459899902344,
+          365.40576171875
+        ],
+        [
+          49.55049133300781,
+          362.9746398925781,
+          280.91278076171875,
+          373.39923095703125
+        ],
+        [
+          318.5548095703125,
+          52.13167190551758,
+          529.7449951171875,
+          62.55626678466797
+        ],
+        [
+          318.5548095703125,
+          60.12514114379883,
+          434.013427734375,
+          70.54973602294922
+        ]
+      ],
+      "citation": "ˇSimon, J., 1973. On some results of regional lithostratigraphic correlation in the south- western part of Pannonian basin (in Croatian, original title: o nekim rezultatima regionalne korelacije litostratigrafskih jedinica u jugozapadnom podruˇcju Panonskog bazena). Nafta 24, 623–630.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R046"
+    },
+    {
+      "id": "R047",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Smontara, N., Bili´c-Subaˇsi´c, V., 2014. Croatian oil fields EOR potential. Nafta 65, ",
+        "217–223. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          68.06185913085938,
+          540.6796875,
+          78.48645782470703
+        ],
+        [
+          318.5548095703125,
+          76.05531311035156,
+          346.9339294433594,
+          86.47991180419922
+        ]
+      ],
+      "citation": "Smontara, N., Bili´c-Subaˇsi´c, V., 2014. Croatian oil fields EOR potential. Nafta 65, 217–223.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C030",
+        "C031",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R047"
+    },
+    {
+      "id": "R048",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Speight, J.G., 2019. Heavy Oil Recovery and Upgrading. Upgrad, pp. 1–839. https://doi. ",
+        "org/10.1016/C2016-0-04682-X. Heavy Oil Recover.  "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          83.99267578125,
+          557.5413818359375,
+          94.41727447509766
+        ],
+        [
+          318.5548095703125,
+          91.98614501953125,
+          470.18768310546875,
+          102.4107437133789
+        ]
+      ],
+      "citation": "Speight, J.G., 2019. Heavy Oil Recovery and Upgrading. Upgrad, pp. 1–839. https://doi. org/10.1016/C2016-0-04682-X. Heavy Oil Recover.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C013",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R048"
+    },
+    {
+      "id": "R049",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Strategy CCUS, 2019. Strategic Planning of Regions and Territories in Europe for Low ",
+        "Carbon Energy and Industry Through CCUS - The Strategy CCUS Project [WWW ",
+        "Document]. H2020 Proj. Consort. lead BRGM. URL. https://cordis.europa.eu/proje ",
+        "ct/id/837754. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          99.9796142578125,
+          553.8797607421875,
+          110.40421295166016
+        ],
+        [
+          318.5548095703125,
+          107.91633605957031,
+          549.7825927734375,
+          118.34093475341797
+        ],
+        [
+          318.5548095703125,
+          115.91043090820312,
+          556.644287109375,
+          126.33502960205078
+        ],
+        [
+          318.5548095703125,
+          123.84715270996094,
+          360.6612243652344,
+          134.27175903320312
+        ]
+      ],
+      "citation": "Strategy CCUS, 2019. Strategic Planning of Regions and Territories in Europe for Low Carbon Energy and Industry Through CCUS - The Strategy CCUS Project [WWW Document]. H2020 Proj. Consort. lead BRGM. URL. https://cordis.europa.eu/proje ct/id/837754.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004",
+        "C015",
+        "C016",
+        "C017",
+        "C019",
+        "C020",
+        "C021",
+        "C023",
+        "C025",
+        "C026",
+        "C027",
+        "C028",
+        "C029",
+        "C032",
+        "C033",
+        "C035",
+        "C036",
+        "C037",
+        "C038",
+        "C039",
+        "C040",
+        "C041",
+        "C042",
+        "C043",
+        "C044",
+        "C045",
+        "C046",
+        "C047",
+        "C049",
+        "C050",
+        "C051",
+        "C052",
+        "C054",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R049"
+    },
+    {
+      "id": "R050",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Suicmez, V.S., 2019. Feasibility study for carbon capture utilization and storage (CCUS) ",
+        "in the Danish North Sea. J. Nat. Gas Sci. Eng. 68, 102924 https://doi.org/10.1016/J. ",
+        "JNGSE.2019.102924. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          131.8406219482422,
+          557.526123046875,
+          142.26522827148438
+        ],
+        [
+          318.5548095703125,
+          139.83407592773438,
+          557.532470703125,
+          150.25868225097656
+        ],
+        [
+          318.5548095703125,
+          147.77145385742188,
+          380.8345947265625,
+          158.19606018066406
+        ]
+      ],
+      "citation": "Suicmez, V.S., 2019. Feasibility study for carbon capture utilization and storage (CCUS) in the Danish North Sea. J. Nat. Gas Sci. Eng. 68, 102924 https://doi.org/10.1016/J. JNGSE.2019.102924.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R050"
+    },
+    {
+      "id": "R051",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Taber, J.J., Martin, F.D., Seright, R.S., 1997a. EOR screening criteria revisited— Part 1: ",
+        "introduction to screening criteria and enhanced recovery field projects. SPE Reserv. ",
+        "Eng. 12, 189–198. https://doi.org/10.2118/35385-PA. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          155.764892578125,
+          557.5560302734375,
+          166.1894989013672
+        ],
+        [
+          318.5548095703125,
+          163.70162963867188,
+          557.50634765625,
+          174.12623596191406
+        ],
+        [
+          318.5548095703125,
+          171.69573974609375,
+          476.29010009765625,
+          182.12034606933594
+        ]
+      ],
+      "citation": "Taber, J.J., Martin, F.D., Seright, R.S., 1997a. EOR screening criteria revisited— Part 1: introduction to screening criteria and enhanced recovery field projects. SPE Reserv. Eng. 12, 189–198. https://doi.org/10.2118/35385-PA.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C030",
+        "C031",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R051"
+    },
+    {
+      "id": "R052",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Taber, J.J., Martin, F.D., Seright, R.S., 1997b. EOR screening criteria revisited—part 2: ",
+        "applications and impact of oil prices. SPE Reserv. Eng. 12, 199–206. https://doi.org/ ",
+        "10.2118/39234-PA. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          179.6324462890625,
+          556.9324951171875,
+          190.0570526123047
+        ],
+        [
+          318.5548095703125,
+          187.62591552734375,
+          557.5586547851562,
+          198.05052185058594
+        ],
+        [
+          318.5548095703125,
+          195.619384765625,
+          376.63287353515625,
+          206.0439910888672
+        ]
+      ],
+      "citation": "Taber, J.J., Martin, F.D., Seright, R.S., 1997b. EOR screening criteria revisited—part 2: applications and impact of oil prices. SPE Reserv. Eng. 12, 199–206. https://doi.org/ 10.2118/39234-PA.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C030",
+        "C031",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R052"
+    },
+    {
+      "id": "R053",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "The Ministry of Economy and Sustainable Development of the Republic of Croatia, 2022. ",
+        "Croatia Joins the Alliance for Coal-Free Energy Production (In Croatian: Hrvatska se ",
+        "Ukljuˇcuje u Savez za Proizvodnju Energije Bez ugljena) [WWW Document]. The ",
+        "Ministry of Economy and Sustainable Development of the Republic of Croatia. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          203.55673217773438,
+          557.5535278320312,
+          213.98133850097656
+        ],
+        [
+          318.5548095703125,
+          211.55020141601562,
+          557.5599365234375,
+          221.9748077392578
+        ],
+        [
+          318.5548095703125,
+          219.48692321777344,
+          549.1781616210938,
+          229.91152954101562
+        ],
+        [
+          318.5548095703125,
+          227.4803924560547,
+          544.0723266601562,
+          237.90499877929688
+        ]
+      ],
+      "citation": "The Ministry of Economy and Sustainable Development of the Republic of Croatia, 2022. Croatia Joins the Alliance for Coal-Free Energy Production (In Croatian: Hrvatska se Ukljuˇcuje u Savez za Proizvodnju Energije Bez ugljena) [WWW Document]. The Ministry of Economy and Sustainable Development of the Republic of Croatia.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R053"
+    },
+    {
+      "id": "R054",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Vrbanac, B., 1996. Paleostrukturne i Sedimentoloˇske Analize Gornjopanonskih Naslaga ",
+        "Formacije Ivani´c Grad u Savskoj depresiji. Rudarsko-geoloˇsko-naftni fakultet ",
+        "Sveuˇciliˇsta u Zagrebu, Zagreb.  "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          235.4744873046875,
+          556.5480346679688,
+          245.8990936279297
+        ],
+        [
+          318.5548095703125,
+          243.4112091064453,
+          538.7420654296875,
+          253.8358154296875
+        ],
+        [
+          318.5548095703125,
+          251.40469360351562,
+          408.4607238769531,
+          261.82928466796875
+        ]
+      ],
+      "citation": "Vrbanac, B., 1996. Paleostrukturne i Sedimentoloˇske Analize Gornjopanonskih Naslaga Formacije Ivani´c Grad u Savskoj depresiji. Rudarsko-geoloˇsko-naftni fakultet Sveuˇciliˇsta u Zagrebu, Zagreb.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C024",
+        "C025",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R054"
+    },
+    {
+      "id": "R055",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Vulin, D., Ga´cina, M., Biliˇci´c, V., 2018. Slim-tube simulation model for carbon dioxide ",
+        "enhanced oil recovery. Rud. Geol. Naft. Zb. 33 https://doi.org/10.17794/ ",
+        "rgn.2018.2.4. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          259.3414001464844,
+          555.336669921875,
+          269.7659912109375
+        ],
+        [
+          318.5548095703125,
+          267.3348693847656,
+          531.1298828125,
+          277.75946044921875
+        ],
+        [
+          318.5548095703125,
+          275.2715759277344,
+          358.55718994140625,
+          285.6961669921875
+        ]
+      ],
+      "citation": "Vulin, D., Ga´cina, M., Biliˇci´c, V., 2018. Slim-tube simulation model for carbon dioxide enhanced oil recovery. Rud. Geol. Naft. Zb. 33 https://doi.org/10.17794/ rgn.2018.2.4.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C032",
+        "C033",
+        "C034",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R055"
+    },
+    {
+      "id": "R056",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Wang, X., Song, C., 2020. Carbon Capture From Flue gas and the atmosphere: a ",
+        "perspective. Front. Energy Res. 8 https://doi.org/10.3389/fenrg.2020.560849. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          283.2650451660156,
+          536.7183837890625,
+          293.68963623046875
+        ],
+        [
+          318.5548095703125,
+          291.2591552734375,
+          544.3331298828125,
+          301.6837463378906
+        ]
+      ],
+      "citation": "Wang, X., Song, C., 2020. Carbon Capture From Flue gas and the atmosphere: a perspective. Front. Energy Res. 8 https://doi.org/10.3389/fenrg.2020.560849.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C007",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R056"
+    },
+    {
+      "id": "R057",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Warsi, Y., Kabanov, V., Zhou, P., Sinha, A., 2020. Novel carbon dioxide utilization ",
+        "technologies: a means to an end. Front. Energy Res. 8, 1–13. https://doi.org/ ",
+        "10.3389/fenrg.2020.574147. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          299.1958923339844,
+          544.2591552734375,
+          309.6204833984375
+        ],
+        [
+          318.5548095703125,
+          307.1893310546875,
+          541.4014892578125,
+          317.6139221191406
+        ],
+        [
+          318.5548095703125,
+          315.1260681152344,
+          402.7804260253906,
+          325.5506591796875
+        ]
+      ],
+      "citation": "Warsi, Y., Kabanov, V., Zhou, P., Sinha, A., 2020. Novel carbon dioxide utilization technologies: a means to an end. Front. Energy Res. 8, 1–13. https://doi.org/ 10.3389/fenrg.2020.574147.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C008",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R057"
+    },
+    {
+      "id": "R058",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Wei, J., Ge, Q., Yao, R., Wen, Z., Fang, C., Guo, L., Xu, H., Sun, J., 2017. Directly ",
+        "converting CO2 into a gasoline fuel. Nat. Commun. 8 https://doi.org/10.1038/ ",
+        "NCOMMS15174. "
+      ],
+      "line_bboxes": [
+        [
+          306.5929870605469,
+          323.12017822265625,
+          542.0951538085938,
+          333.5447692871094
+        ],
+        [
+          318.5548095703125,
+          331.1136169433594,
+          545.6279296875,
+          341.86041259765625
+        ],
+        [
+          318.5585021972656,
+          339.0511169433594,
+          367.907958984375,
+          349.4757080078125
+        ]
+      ],
+      "citation": "Wei, J., Ge, Q., Yao, R., Wen, Z., Fang, C., Guo, L., Xu, H., Sun, J., 2017. Directly converting CO2 into a gasoline fuel. Nat. Commun. 8 https://doi.org/10.1038/ NCOMMS15174.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R058"
+    },
+    {
+      "id": "R059",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Zimmermann, A.W., Schom¨acker, R., 2017. Assessing early-stage CO2 utilization ",
+        "technologies – comparing apples and oranges? Energy Technol. 5, 850–860. https:// ",
+        "doi.org/10.1002/ENTE.201600805. "
+      ],
+      "line_bboxes": [
+        [
+          306.5960388183594,
+          347.0445861816406,
+          537.8566284179688,
+          357.7914123535156
+        ],
+        [
+          318.5594482421875,
+          354.98211669921875,
+          557.5352172851562,
+          365.4067077636719
+        ],
+        [
+          318.5594482421875,
+          362.9755859375,
+          421.817138671875,
+          373.4001770019531
+        ]
+      ],
+      "citation": "Zimmermann, A.W., Schom¨acker, R., 2017. Assessing early-stage CO2 utilization technologies – comparing apples and oranges? Energy Technol. 5, 850–860. https:// doi.org/10.1002/ENTE.201600805.",
+      "role": "Printed bibliography original, exact edition and relevant passages unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004",
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-04_bibliography.json#R059"
+    }
+  ]
+}

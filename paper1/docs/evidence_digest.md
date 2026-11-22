@@ -464,15 +464,13 @@ All 87 bibliography originals, 24 notes and fourteen further dependencies remain
 
 ### B3-04 — Development of CCUS clusters in Croatia
 
-. Identifier: 10.1016/j.ijggc.2023.103857. [PDF](../papers/B3-04.pdf).
+Vulin and seven coauthors (2023), IJGGC 124, 103857. DOI: 10.1016/j.ijggc.2023.103857. [PDF](../papers/B3-04.pdf). All 13 retained pages, twelve figures, four tables and 159 substantive cells were read and visually inspected. **Comprehensive status: incomplete.** See the [item record](comprehensive_review/B3-04.md) and [Croatian cluster findings](croatia_clusters_comprehensive_findings.md).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,7,10.
+The study screens three clusters and recommends Eastern Croatia for further work. Seven conceptual Eclipse cases omit confidential static/well detail; common 2025 EOR starts are explicitly not optimized. No native model or pressure-constrained annual service is reproduced. Table 2 sums to 143.6 Mt while rounded Figure 11 labels sum 146; Eastern stocks similarly have 22.4/23 Mt bases. Preserve both without a guessed corrected resource.
 
-Croatian cluster screening combines source maps, possible transport corridors, geological screening and conceptual compositional reservoir models. Confidentiality prevents detailed static/well inputs; historical production/final pressure are matched in generic models, with projected production and EOR periods.
+The 56-claim record retains 56 limited checks, seven mean-EOR rows, 21 conditional recovery examples, seven stock screens, two stock/rate quotients and 224 subset screens. Mean-rate counterexamples qualify the claim that any two/three fields suffice. Gross injection, produced/vented mass, unproduced difference and lifecycle avoidance differ. Lipovljani emitted minimum is literal `0 23` and numeric null; unpaired extrema do not yield actual net minima/maxima.
 
-Eastern and Central clusters differ in source density and hub needs. The Eastern cluster combines about0.86Mt/y of emissions with23Mt screened capacity at18–65km source distances. These are candidate configurations, not evidence of an operational source-storage contract.
-
-Transfer limits: Generic EOR screening and total resource cannot establish annual service or a full climate benefit once oil-production consequences are included. Costs use their original vintage. Confidential data prevent independently reproducing reservoir forecasts, and numerical screening thresholds are not universal safety criteria.
+All 59 bibliography originals, unlisted Brezovac source and fourteen dependencies remain unverified; no new citation edge. Project deliverables, rights, current law/availability, paired process utilities and native model assets remain open. No accepted input/result changes; the combined 1.5 MPa HOLD is preserved.
 
 ### B3-05 — Optimizing carbon capture and storage CCS infrastructure development using a python tool for source-sink matching and cluster formation
 
