@@ -1,0 +1,127 @@
+{
+  "study_id": "B3-08",
+  "source_sha256": "fb3fc40fbca20613816253c83c1f3655e849e9a21be7722582a6de4958f5d7a7",
+  "provenance": "All15 numbered figures/captions/legends read and rendered-page inspected. PFD and derivative/sensitivity plots enlarged. No exact source arrays derived from approximate plot heights.",
+  "figures": [
+    {
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "inspection": "Insulated hull/tank sketch,PUF label and cargo-group context",
+      "native_data_array": null
+    },
+    {
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "inspection": "Condensation temperature versus reliquefaction fraction,unlabeled continuous curve",
+      "native_data_array": null
+    },
+    {
+      "number": 3,
+      "pages": [
+        4
+      ],
+      "inspection": "Propane–ETHYLENE JT cascade,three refrigerant/BOG line styles plus dotted liquid return,all valves/separators/heat exchangers",
+      "native_data_array": null
+    },
+    {
+      "number": 4,
+      "pages": [
+        5
+      ],
+      "inspection": "COP versus x,dimensionless power ratio,not exact energy inventory",
+      "native_data_array": null
+    },
+    {
+      "number": 5,
+      "pages": [
+        6
+      ],
+      "inspection": "Pressure and liquid level over time,dual bar/percent axes,assumed.12%/day",
+      "native_data_array": null
+    },
+    {
+      "number": 6,
+      "pages": [
+        6
+      ],
+      "inspection": "Specific compression work kJ/kg versus x,no native numerical curve supplied",
+      "native_data_array": null
+    },
+    {
+      "number": 7,
+      "pages": [
+        7
+      ],
+      "inspection": "MDO price versus crude price,trend not provided as coefficients",
+      "native_data_array": null
+    },
+    {
+      "number": 8,
+      "pages": [
+        7
+      ],
+      "inspection": "Operating cost versus x,caption1200USD/tMDO while prose1100",
+      "native_data_array": null
+    },
+    {
+      "number": 9,
+      "pages": [
+        7
+      ],
+      "inspection": "Vented,generator and total CO2kg/h versus x",
+      "native_data_array": null
+    },
+    {
+      "number": 10,
+      "pages": [
+        7
+      ],
+      "inspection": "Emission penalties for20/50/100USD/tCO2",
+      "native_data_array": null
+    },
+    {
+      "number": 11,
+      "pages": [
+        8
+      ],
+      "inspection": "Recovered-sale benefit versus x,80USD/tbase",
+      "native_data_array": null
+    },
+    {
+      "number": 12,
+      "pages": [
+        8
+      ],
+      "inspection": "Total treatment expense,negative net financial cost,three carbon prices",
+      "native_data_array": null
+    },
+    {
+      "number": 13,
+      "pages": [
+        8
+      ],
+      "inspection": "Derivative zero crossings with xaxis98–99%,apparent case mismatch with Fig15",
+      "native_data_array": null
+    },
+    {
+      "number": 14,
+      "pages": [
+        9
+      ],
+      "inspection": "Derivative/work and low/high oil-price limits at20USD/ttax,x97–98%",
+      "native_data_array": null
+    },
+    {
+      "number": 15,
+      "pages": [
+        9
+      ],
+      "inspection": "Optimum fractions versus crude,0/20/50/100tax regimes",
+      "native_data_array": null
+    }
+  ]
+}

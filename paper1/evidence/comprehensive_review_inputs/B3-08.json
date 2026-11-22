@@ -1,0 +1,322 @@
+{
+  "study_id": "B3-08",
+  "source_path": "papers/B3-08.pdf",
+  "source_sha256": "fb3fc40fbca20613816253c83c1f3655e849e9a21be7722582a6de4958f5d7a7",
+  "provenance": "All10 retained pages read and render-inspected. Native values,case labels and unit conflicts retained. FinancialCO2-componentBOG definition differs from upstream bulk-gas composition. No native process/price/thermal/LCC model reproduced.",
+  "native": {
+    "cargo_volume_m3": 100000,
+    "cargo_density_kg_m3": 1155,
+    "tank_diameter_m": 7,
+    "tank_cylinder_height_m": 25,
+    "tank_count": 100,
+    "initial_fill": 0.95,
+    "maximum_fill": 0.98,
+    "storage_P_bar": 6.5,
+    "storage_T_C": -51,
+    "BOG_P_bar": 6.2,
+    "BOG_T_C": -28.5,
+    "BOR_fraction_day": 0.0012,
+    "quoted_nominal_BOG_kg_h": 5400,
+    "design_BOG_kg_h": 6000,
+    "insulation_m": 0.1,
+    "captured_liquid_composition": [
+      {
+        "species": "CO2",
+        "captured_mol_percent": 95.87,
+        "liquid_mol_percent": 99.06
+      },
+      {
+        "species": "N2",
+        "captured_mol_percent": 0.02,
+        "liquid_mol_percent": 0.02
+      },
+      {
+        "species": "O2",
+        "captured_mol_percent": 0.001,
+        "liquid_mol_percent": 0.001
+      },
+      {
+        "species": "H2O",
+        "captured_mol_percent": 4.11,
+        "liquid_mol_percent": 0.917
+      },
+      {
+        "species": "SO2",
+        "captured_mol_percent": 0.001,
+        "liquid_mol_percent": 0.001
+      }
+    ],
+    "BOG_mole_composition": [
+      {
+        "species": "CO2",
+        "mol_percent": 98.386,
+        "molar_mass_kg_kmol": 44.0095
+      },
+      {
+        "species": "N2",
+        "mol_percent": 1.557,
+        "molar_mass_kg_kmol": 28.0134
+      },
+      {
+        "species": "O2",
+        "mol_percent": 0.056,
+        "molar_mass_kg_kmol": 31.9988
+      }
+    ],
+    "seawater_HX_outlet_T_C": 40,
+    "min_approach_K": 5,
+    "compressor_polytropic_efficiency": 0.8,
+    "HX_pressure_drop_condensing_steam_kPa": 10,
+    "HX_pressure_drop_other_kPa": 21,
+    "needed_T_C_over98_percent": -65.6,
+    "quoted_CO2_triple_T_C": -56.6,
+    "quoted_critical_density_kg_m3": 600,
+    "quoted_triple_density_kg_m3": 1200,
+    "MDO_mass_C": 0.86,
+    "MDO_mass_H": 0.13,
+    "MDO_mass_S": 0.01,
+    "MDO_base_prose_USD_t": 1100,
+    "MDO_Figure8_caption_USD_t": 1200,
+    "crude_base_USD_bbl": 124,
+    "CO2_sale_base_USD_t": 80,
+    "carbon_tax_cases_USD_t": [
+      20,
+      50,
+      100
+    ],
+    "operating_fraction_calendar": 0.9,
+    "quoted_annual_BOG_t": 47304,
+    "life_y": 20,
+    "LCC": [
+      {
+        "carbon_tax_USD_t": 20,
+        "profit_million_USD_y": 2.9,
+        "capital_million_USD": 8.9,
+        "non_electric_OM_million_USD_y": 1.3,
+        "reliquefaction_LCC_million_USD": -22.1,
+        "vent_only_LCC_million_USD": 18.9
+      },
+      {
+        "carbon_tax_USD_t": 50,
+        "profit_million_USD_y": 2.8,
+        "capital_million_USD": 8.9,
+        "non_electric_OM_million_USD_y": 1.3,
+        "reliquefaction_LCC_million_USD": -20.3,
+        "vent_only_LCC_million_USD": 47.3
+      },
+      {
+        "carbon_tax_USD_t": 100,
+        "profit_million_USD_y": 2.7,
+        "capital_million_USD": 8.9,
+        "non_electric_OM_million_USD_y": 1.3,
+        "reliquefaction_LCC_million_USD": -17.2,
+        "vent_only_LCC_million_USD": 94.6
+      }
+    ],
+    "oil_projections": [
+      {
+        "year": 2008,
+        "reference_2008_USD_bbl": 100,
+        "low_2008_USD_bbl": 100,
+        "high_2008_USD_bbl": 100
+      },
+      {
+        "year": 2015,
+        "reference_2008_USD_bbl": 95,
+        "low_2008_USD_bbl": 52,
+        "high_2008_USD_bbl": 145
+      },
+      {
+        "year": 2020,
+        "reference_2008_USD_bbl": 108,
+        "low_2008_USD_bbl": 52,
+        "high_2008_USD_bbl": 186
+      },
+      {
+        "year": 2025,
+        "reference_2008_USD_bbl": 115,
+        "low_2008_USD_bbl": 52,
+        "high_2008_USD_bbl": 196
+      },
+      {
+        "year": 2030,
+        "reference_2008_USD_bbl": 124,
+        "low_2008_USD_bbl": 52,
+        "high_2008_USD_bbl": 204
+      },
+      {
+        "year": 2035,
+        "reference_2008_USD_bbl": 133,
+        "low_2008_USD_bbl": 51,
+        "high_2008_USD_bbl": 210
+      }
+    ],
+    "market": [
+      {
+        "item": "EU ETS",
+        "volume_2008_Mt": 3093,
+        "value_2008_million_USD": 100526,
+        "volume_2009_Mt": 6326,
+        "value_2009_million_USD": 118474
+      },
+      {
+        "item": "NSW",
+        "volume_2008_Mt": 31,
+        "value_2008_million_USD": 183,
+        "volume_2009_Mt": 34,
+        "value_2009_million_USD": 117
+      },
+      {
+        "item": "CCX",
+        "volume_2008_Mt": 69,
+        "value_2008_million_USD": 309,
+        "volume_2009_Mt": 41,
+        "value_2009_million_USD": 50
+      },
+      {
+        "item": "RGGI",
+        "volume_2008_Mt": 62,
+        "value_2008_million_USD": 198,
+        "volume_2009_Mt": 805,
+        "value_2009_million_USD": 2179
+      },
+      {
+        "item": "AAUs",
+        "volume_2008_Mt": 23,
+        "value_2008_million_USD": 276,
+        "volume_2009_Mt": 155,
+        "value_2009_million_USD": 2003
+      },
+      {
+        "item": "Allowances subtotal",
+        "volume_2008_Mt": 3278,
+        "value_2008_million_USD": 101492,
+        "volume_2009_Mt": 7362,
+        "value_2009_million_USD": 122822
+      },
+      {
+        "item": "Spot and secondary Kyoto subtotal",
+        "volume_2008_Mt": 1072,
+        "value_2008_million_USD": 26277,
+        "volume_2009_Mt": 1055,
+        "value_2009_million_USD": 17543
+      },
+      {
+        "item": "Primary CDM",
+        "volume_2008_Mt": 404,
+        "value_2008_million_USD": 6511,
+        "volume_2009_Mt": 211,
+        "value_2009_million_USD": 2678
+      },
+      {
+        "item": "JI",
+        "volume_2008_Mt": 25,
+        "value_2008_million_USD": 367,
+        "volume_2009_Mt": 26,
+        "value_2009_million_USD": 354
+      },
+      {
+        "item": "Voluntary market",
+        "volume_2008_Mt": 57,
+        "value_2008_million_USD": 419,
+        "volume_2009_Mt": 46,
+        "value_2009_million_USD": 338
+      },
+      {
+        "item": "Project subtotal",
+        "volume_2008_Mt": 486,
+        "value_2008_million_USD": 7297,
+        "volume_2009_Mt": 283,
+        "value_2009_million_USD": 3370
+      },
+      {
+        "item": "Total",
+        "volume_2008_Mt": 4836,
+        "value_2008_million_USD": 135066,
+        "volume_2009_Mt": 8700,
+        "value_2009_million_USD": 143735
+      }
+    ],
+    "market_2009_prose_billion_USD": 114,
+    "market_growth_prose_percent": 6,
+    "market_unit_price_2009_prose_USD_t": 16.5,
+    "market_price_drop_prose_percent": 41,
+    "range_abstract_percent": [
+      95.7,
+      98.2
+    ],
+    "range_body_tax_percent": [
+      97.2,
+      98.1
+    ],
+    "range_body_zero_tax_percent": [
+      95.7,
+      97.5
+    ],
+    "range_body_tax20_percent": [
+      97.2,
+      97.7
+    ]
+  },
+  "native_missing": {
+    "native_HYSYS_versioned_case": null,
+    "w_function_or_exact_array": null,
+    "native_refrigerant_flow_pressure_array": null,
+    "generator_k_numeric": null,
+    "generator_fuel_rate": null,
+    "fuel_LHV": null,
+    "generator_efficiency": null,
+    "validated_mixture_solid_phase_model": null,
+    "complete_thermal_hull_model": null,
+    "full_capture_utilities_suppliers": null,
+    "native_annual_reservoir_service": null,
+    "discount_rate": null,
+    "complete_financial_cashflows": null,
+    "supplement_URI": null
+  },
+  "analyst": {
+    "seconds_h": 3600,
+    "kg_per_t": 1000,
+    "hours_y": 8760,
+    "illustrative_w_kJ_kg": 270,
+    "illustrative_x": 0.975,
+    "fuel_CO2_mass_ratio": 3.153333333333333,
+    "illustrative_generator_fuel_kg_kWh": 0.2,
+    "illustrative_gamma_kgCO2_kWh": 0.8,
+    "illustrative_CL_USD_kJ": 5e-05,
+    "synthetic_work_quadratic_coefficient_kJ_kg": 2000,
+    "synthetic_price_cases": [
+      {
+        "name": "zero_value",
+        "CP": 0,
+        "CS": 0
+      },
+      {
+        "name": "interior",
+        "CP": 50,
+        "CS": 80
+      },
+      {
+        "name": "upper_boundary",
+        "CP": 100,
+        "CS": 1000
+      },
+      {
+        "name": "negative_sale_value",
+        "CP": 0,
+        "CS": -20
+      }
+    ],
+    "rounding_halfstep_million": 0.05,
+    "rounding_shared_cashflow_witness": {
+      "capital_million": 8.9,
+      "OM_million_y": 1.347,
+      "profits_million_y": [
+        2.897,
+        2.807,
+        2.652
+      ]
+    },
+    "scope": "Explicit calendar/unit conversions,financial intervals and invented convex work/generator examples only. No measuredBOR,native wfit,corrected source units,pure-to-mixture phase certification or accepted input inferred."
+  }
+}

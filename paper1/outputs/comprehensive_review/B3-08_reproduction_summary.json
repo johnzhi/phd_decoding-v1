@@ -1,0 +1,24 @@
+{
+  "study_id": "B3-08",
+  "source_sha256": "fb3fc40fbca20613816253c83c1f3655e849e9a21be7722582a6de4958f5d7a7",
+  "limited_checks": 41,
+  "component_split_examples": 5,
+  "LCC_rows": 3,
+  "synthetic_scalar_cases": 4,
+  "joint_shared_LCC_rounding_feasible": true,
+  "possible_rounding_LP_values": [
+    8.950000000000001,
+    1.35,
+    2.9,
+    2.81,
+    2.6550000000000002
+  ],
+  "pure_reference_backend": {
+    "CoolProp": "8.0.0",
+    "backend": "HEOS::CO2",
+    "EOS": "Span-JPCRD-1996"
+  },
+  "scoped_citation_edges": 1,
+  "native_HYSYS_work_curve_optimum_thermal_or_financial_model_reproduced": false,
+  "limits": "Literal-unit and accounting diagnostics only;synthetic work and feasible rounding witnesses are not source data. Source3600/1000time/mass bases,CO2-component switch,k,phase feasibility,price labels and graph cases remain open. No accepted operating/GHG input or native value corrected."
+}

@@ -508,15 +508,15 @@ Two exact scoped originals qualify attribution: Roussanaly 2014/B3-36 starts bot
 
 ### B3-08 — Optimum liquefaction fraction for boil-off gas reliquefaction system of semi-pressurized liquid CO2 carriers based on economic evaluation
 
-. Identifier: 10.1016/j.ijggc.2012.05.016. [PDF](../papers/B3-08.pdf).
+Chu, Chang and Chung (2012), *IJGGC* 10, 46–55. DOI: 10.1016/j.ijggc.2012.05.016. [PDF](../papers/B3-08.pdf). All ten retained pages, fifteen figures, six tables, nomenclature and thirteen equations read and visually inspected. **Comprehensive status: incomplete.** See the [item record](comprehensive_review/B3-08.md) and [partial-BOG findings](partial_bog_comprehensive_findings.md).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,6,9.
+The source minimizes energy expense plus emissions penalties minus recovered-CO2 sales. Its broad 95.7–98.2%, taxed 97.2–98.1% and no-tax 95.7–97.5% ranges are distinct case quotes, not universal vessel loss or retention. BOR 0.12%/day is assumed because detailed vessel/thermal information was unavailable. Nominal 5400 kg/h, design 6000 kg/h, cargo geometry/fill and CO2-component versus bulk-gas bases remain explicit and unreconciled.
 
-Process/economic optimisation of partial BOG reliquefaction for a semi-pressurised CO2 carrier. Compressor work rises sharply when condensing light impurities. The objective includes reliquefaction expenditure, fuel-generated emissions penalties and the value of recovered CO2, rather than only physical mass conservation.
+Printed kW/kg-h/kJ-kg and dollar-per-kJ versus dollar-per-tonne require explicit 3600/1000 conversions; native code is not assumed erroneous. Generator k is not numerically supplied. Cryogenic water and below-pure-triple temperature claims require validated mixture-solid/phase treatment, rather than an unsupported corrected composition or temperature. MDO 1100 prose versus1200 caption, market 114 B prose versus143.735 B table and Figure 13/15 case correspondence remain open. Holding other inputs fixed, the objective makes carbon-penalty increases raise expense; negative financial cost is assumed sales profit, not negative emissions.
 
-The100,000m3 case specifies cargo density1155kg/m3, assumed0.12%/day BOG and6000kg/h process BOG load. Under the study fuel/carbon-price assumptions, the optimum reliquefaction fraction spans97.2–98.1%, not necessarily100%. Economic LCC benefits include sale/recovery assumptions.
+The 20-year vent-only LCC component reproduces rounded values. Joint shared-capital/OPEX display intervals can reconcile all three reliquefaction LCC cases, so point-replay differences are not proven financial errors. Feasible witness values are analyst examples, not native cash flows.
 
-Transfer limits: This old design/cost case does not establish the actual BOR, duty or venting of our vessel. The volume, insulation, composition and storage state differ. Financial optimum fractions are not universal cargo-loss rates or environmental optima; BOG generated, reliquefied and atmospherically vented must remain separate.
+Forty-one limited checks, five conditional component splits, three cash-flow rows and four invented scalar examples are saved. One exact Aspelund 2006/B3-35 check supplies only near-triple/source/impurity qualifications; no native work/BOG optimum, thermal/HYSYS/financial model, full capture inventory or GHG factor is reproduced/transferred. Other 29 originals and fourteen dependencies remain open. Accepted inputs/results and the combined 1.5 MPa HOLD are unchanged.
 
 ### B3-09 — Planning of carbon capture storage deployment using process graph approach
 

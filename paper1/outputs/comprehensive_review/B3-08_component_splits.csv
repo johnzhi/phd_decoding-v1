@@ -1,0 +1,6 @@
+x_CO2_component,generated_component_kg_h,recovered_component_kg_h,vented_component_kg_h,nominal_BOR_vent_fraction_day,scope
+0.957,6000,5742.0,258.0000000000002,5.160000000000004e-05,Conditional6000CO2-component rate and fixedBOR;native bulk/component reconciliation and actualBOR missing. Not a whole-vessel loss/retention factor.
+0.972,6000,5832.0,168.00000000000014,3.3600000000000024e-05,Conditional6000CO2-component rate and fixedBOR;native bulk/component reconciliation and actualBOR missing. Not a whole-vessel loss/retention factor.
+0.981,6000,5886.0,114.0000000000001,2.280000000000002e-05,Conditional6000CO2-component rate and fixedBOR;native bulk/component reconciliation and actualBOR missing. Not a whole-vessel loss/retention factor.
+0.982,6000,5892.0,108.0000000000001,2.1600000000000017e-05,Conditional6000CO2-component rate and fixedBOR;native bulk/component reconciliation and actualBOR missing. Not a whole-vessel loss/retention factor.
+1.0,6000,6000.0,0.0,0.0,Conditional6000CO2-component rate and fixedBOR;native bulk/component reconciliation and actualBOR missing. Not a whole-vessel loss/retention factor.

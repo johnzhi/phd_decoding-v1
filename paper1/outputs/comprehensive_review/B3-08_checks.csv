@@ -1,0 +1,42 @@
+item,value,unit,scope
+captured_mol_percent_sum,100.00200000000001,mol_percent,Small printed composition rounding; not equilibrium or dehydration validation
+liquid_mol_percent_sum,99.999,mol_percent,Small printed composition rounding; not equilibrium or dehydration validation
+BOG_mol_percent_sum,99.999,mol_percent,"Printed three-component gas,not full cargo-water/solid inventory"
+BOG_CO2_mass_fraction_component,0.9896216233007077,kg_CO2/kg_bulk_BOG,"Molecular-weight conversion only; native economic BOG is redefined CO2-only,bulk6000basis unresolved"
+liquid_water_quoted_ppmv,9170.0,ppmv,"Native.917mol% retained,no guessed dry-gas correction;cold phase/solid validation required"
+N2_vapor_over_liquid_molar_enrichment,77.85,ratio,"Mole ratio,not mass-recovery fraction or validated mixture model"
+O2_vapor_over_liquid_molar_enrichment,56.0,ratio,"Source rounded molar fractions,not a process reproduction"
+nominal_full_cargo_mass,115500.0,t,"Volume*density stock,not delivered/retained mass"
+initial95percent_cargo_mass,109725.0,t,Initial fill assumption;no actual loading or terminal stock
+cylindrical_bodies_volume,96211.27501618741,m3,Heads/usable-volume definitions missing;not a correction of100000m3nominal capacity
+cylinder_bodies_over_nominal_volume,96.21127501618741,percent,"Geometric approximation only,no new ship capacity accepted"
+BOG_if_full_mass_times_assumed_BOR,5775.0,kg/h,"5775using full nominal stock,not quoted5400;source rounding/basis unresolved"
+BOG_if95percent_initial_stock,5486.25,kg/h,"5486.25on initial stock,not a measured BOR or corrected source load"
+design_over_quoted_nominal_margin,11.111111111111116,percent,Source6000design versus5400nominal;capacity margin not observed average flow
+annual_BOG_at_design_and90percent_calendar,47304.0,t/y,"Matches source47304under stated design/load assumption,not actual yearly venting"
+pure_CO2_reference_critical_density,467.59996991047996,kg/m3,"CoolProp8.0.0/SpanEOS pure reference467.6 versus source600quote,not a native mixture critical point or corrected cargo density"
+needed_temperature_below_quoted_pure_triple,8.999999999999993,K,9Kbelow quoted pureCO2triple;not proof of mixture phase impossibility or native solid feasibility
+illustrative270kJkg_to_kW,450.0,kW,"270kJ/kg explicitly chosen within plotted range,not exact native output"
+illustrative270kJkg_to_kWh_per_t,75.0,kWh/t,"Specific work conversion,not a complete capture/transport utility inventory"
+unconverted_power_over_kg_h_numeric,0.075,kWh/kg,"RawWkW/mdotkg/h is kWh/kg,not statedkJ/kg;conversion3600must be explicit"
+fuel_carbon_to_CO2,3.153333333333333,kg_CO2/kg_fuel,Complete carbon oxidation component only;fuel rate/efficiency required for electrical intensity
+analyst_generator_gamma_from_fuel_rate,0.6306666666666666,kg_CO2/kWh,"Fuel.2kg/kWh is explicitly analyst choice,not source generator calibration"
+analyst_unit_consistent_fuel_USD_t,13.5,dimensioned component,"Inventedx.975,w270,CL5e-5,gamma.8,CP50,CS80;no native cost/inventory inferred"
+analyst_unit_consistent_emission_tCO2_tBOG,0.08500000000000002,dimensioned component,"Inventedx.975,w270,CL5e-5,gamma.8,CP50,CS80;no native cost/inventory inferred"
+analyst_unit_consistent_penalty_USD_t,4.250000000000001,dimensioned component,"Inventedx.975,w270,CL5e-5,gamma.8,CP50,CS80;no native cost/inventory inferred"
+analyst_unit_consistent_sale_USD_t,78.0,dimensioned component,"Inventedx.975,w270,CL5e-5,gamma.8,CP50,CS80;no native cost/inventory inferred"
+analyst_unit_consistent_total_USD_t,-60.25,dimensioned component,"Inventedx.975,w270,CL5e-5,gamma.8,CP50,CS80;no native cost/inventory inferred"
+market_2008_allowance_volume_sum_minus_subtotal,0,printed units,Native integer rows;one-unit differences are compatible with component/subtotal rounding
+market_2008_allowance_value_sum_minus_subtotal,0,printed units,Native integer rows;one-unit differences are compatible with component/subtotal rounding
+market_2008_project_volume_sum_minus_subtotal,0,printed units,Native integer rows;one-unit differences are compatible with component/subtotal rounding
+market_2008_project_value_sum_minus_subtotal,0,printed units,Native integer rows;one-unit differences are compatible with component/subtotal rounding
+market_2009_allowance_volume_sum_minus_subtotal,-1,printed units,Native integer rows;one-unit differences are compatible with component/subtotal rounding
+market_2009_allowance_value_sum_minus_subtotal,1,printed units,Native integer rows;one-unit differences are compatible with component/subtotal rounding
+market_2009_project_volume_sum_minus_subtotal,0,printed units,Native integer rows;one-unit differences are compatible with component/subtotal rounding
+market_2009_project_value_sum_minus_subtotal,0,printed units,Native integer rows;one-unit differences are compatible with component/subtotal rounding
+market_2009_table_value,143.735,billion_USD,"143.735table versus114prose,neither silently replaced"
+market_2009_minus_prose_value,29.735000000000014,billion_USD,"Source case discrepancy,not a current market estimate"
+market_table_value_growth,6.418343624598344,percent,6.418%compatible with approximate6%prose
+market_2008_mean_value,27.929280397022332,USD/tCO2e,"Historical aggregate value/volume,not market instrument eligibility or current carbon price"
+market_2009_mean_value,16.52126436781609,USD/tCO2e,Compatible with16.5source price when table total used
+market_mean_value_drop,40.846079336947405,percent,40.846%compatible with41%decline;does not reconcile114Bquote

@@ -375,7 +375,7 @@ The terminal literature reinforces this dependence on design and operating condi
 
 Across the 18 paired Jeong cases, calculated purge-plus-auxiliary-generation intensity spans **1.27–21.25 kgCO₂/t transported**. The variation reflects different pressure/process and nitrogen cases, not repeated observations of one chain. The complete case matrix is provided below to preserve the pairing rather than using its extrema as a statistical range.
 
-The [comprehensive BOG-process audit](../docs/bog_reliquefaction_comprehensive_findings.md) confirms the reported maximum annual process-emission reductions from Table 6, while identifying discussion percentages that confuse remaining fractions with reductions [B1-19, pp7–10]. A 105 mol% refrigerant row, conflicting appendix pressure labels, missing annual time in the printed OPEX equation and unavailable native HYSYS/PSO/APEA files prevent independent process reproduction [B1-19, pp4,12–14]. The paired reported-output benchmark remains separate from accepting those parameters or establishing full transport-chain mitigation.
+The [comprehensive BOG-process audit](../docs/bog_reliquefaction_comprehensive_findings.md) confirms the reported maximum annual process-emission reductions from Table 6, while identifying discussion percentages that confuse remaining fractions with reductions [B1-19, pp7–10]. A 105 mol% refrigerant row, conflicting appendix pressure labels, missing annual time in the printed OPEX equation and unavailable native HYSYS/PSO/APEA files prevent independent process reproduction [B1-19, pp4,12–14]. The paired reported-output benchmark remains separate from accepting those parameters or establishing full transport-chain mitigation. Earlier partial-BOG economics also balances power cost, emissions penalties and recovered-CO2 sales [B3-08, pp5–6,9]. Its [audit](../docs/partial_bog_comprehensive_findings.md) keeps assumed boil-off, CO2-component recovery and phase/unit bases separate; reported economic fractions supply no universal vessel-loss or GHG factor [B3-08, pp2–6,9–10].
 
 | Process case | N₂ 0.05 mol% (kg/t) | N₂ 0.10 mol% (kg/t) | N₂ 0.15 mol% (kg/t) |
 |---|---|---|---|
@@ -748,6 +748,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B3-06]** Assessing-the-cost-reduction-potential-of-CCUS-cluster-projects-of-coal-fired-plants-in-Guangdong. [10.1007/s11707-022-1030-1](https://doi.org/10.1007/s11707-022-1030-1). [Retained PDF](../papers/B3-06.pdf).
 
 - **[B3-07]** Estimation of CO2 Transport Costs in South Korea Using a Techno-Economic Model. [10.3390/en8032176](https://doi.org/10.3390/en8032176). [Retained PDF](../papers/B3-07.pdf).
+
+- **[B3-08]** Optimum liquefaction fraction for boil-off gas reliquefaction system of semi-pressurized liquid CO2 carriers based on economic evaluation. [10.1016/j.ijggc.2012.05.016](https://doi.org/10.1016/j.ijggc.2012.05.016). [Retained PDF](../papers/B3-08.pdf).
 
 - **[B3-09]** Planning of carbon capture storage deployment using process graph approach. [10.1016/j.energy.2014.08.060](https://doi.org/10.1016/j.energy.2014.08.060). [Retained PDF](../papers/B3-09.pdf).
 

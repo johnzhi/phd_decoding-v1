@@ -1,0 +1,2280 @@
+{
+  "study_id": "B3-08",
+  "source_sha256": "fb3fc40fbca20613816253c83c1f3655e849e9a21be7722582a6de4958f5d7a7",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All ten retained pages were text-read and visually inspected, including fifteen figures, six tables, nomenclature, thirteen numbered equations and six process assumptions. Forty-one limited checks, five conditional component splits, three cash-flow rows and four invented scalar examples do not reproduce the native HYSYS, thermal, work-curve or economic models. Joint shared rounding intervals reconcile the displayed LCC figures; they are not proven financial errors. Unit/component bases, phase feasibility, price/graph correspondence and original sources remain open. One exact scoped original check adds near-triple-point and impurity qualifications. No accepted operating/GHG input changed.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "original_model_status": "unreproduced_native_HYSYS_mixture_solid_work_curve_thermal_and_economic_cases",
+  "supplement_status": "no_separate_SI_code_data_or_availability_statement_identified_in_retained_PDF_external_assets_unverified",
+  "sections": [
+    {
+      "id": "S001",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract and publication record",
+      "assessment": "Bongsik Chu, Daejun Chang and Hyun Chung; IJGGC 10(2012)46–55, DOI10.1016/j.ijggc.2012.05.016. Received 9 June 2011, revised 16 May 2012, accepted 21 May 2012, online 13 June 2012. Elsevier all rights reserved. Abstract 95.7–98.2% is an economic scenario range, not universal cargo loss or a physical optimum."
+    },
+    {
+      "id": "S002",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction: CCS, transport and EOR context",
+      "assessment": "Read geological acceptance, pipeline/ship economics, historical FINNCAP cancellation, shuttle concepts and EOR-cost arguments. Flexibility and profit depend on route/source/price assumptions; historical projects and venting-policy assertions are not current verified operation/law."
+    },
+    {
+      "id": "S003",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Prior liquefaction and transport-chain evidence",
+      "assessment": "Read near-triple transport, 142 kWh/t and about 25 USD/t at 1500 km roundtrip, cold-exergy integration and EOR sale context. Exact Aspelund 2006 original supports a qualified near-triple concept, not this paper's BOR, mixture or optimum. No energy/GHG factor transferred."
+    },
+    {
+      "id": "S004",
+      "pages": [
+        2
+      ],
+      "scope": "Nomenclature and thermophysical assertions",
+      "assessment": "All abbreviations, expense/revenue terms, rate/work units and k definition read. Source states density 1200 at triple and 600 at critical; citation alone does not independently establish those values. Unit/mass bases must be reconciled before numerical financial reuse. A pinned pure-CO2 HEOS reference gives 467.59997 kg/m³ at the critical point, distinct from the quoted 600. The source number is preserved; this does not establish a native mixture critical point or change cargo density."
+    },
+    {
+      "id": "S005",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2.1 Target carrier, cargo and composition",
+      "assessment": "Captured gas 1 bar 30°C and cargo 6.5 bar/-51°C; every Table 1 species read, including liquid H2O.917 mol%.100000 m³ concept with 100 vertical 7 m×25 m tanks, 95/98% fill and grouped cargo operations. Not observed vessel or independently validated cryogenic phase composition."
+    },
+    {
+      "id": "S006",
+      "pages": [
+        3
+      ],
+      "scope": "3 BOG generation and assumed insulation",
+      "assessment": "Authors explicitly lack detailed hull/equipment/environment/voyage information. BOR.12%/day borrowed from LNG reasoning, 10 cm PUF and conservative inner-hull temperature.5400 kg/h quoted nominal then 6000 design margin; raw volume/density/fill bases do not uniquely reproduce 5400."
+    },
+    {
+      "id": "S007",
+      "pages": [
+        3
+      ],
+      "scope": "BOG inlet and light-component enrichment",
+      "assessment": "6.2 bar/-28.5°C and Table 3 three-component vapor. N2/O2 enriched relative to stored liquid. Bulk gas versus CO2-only financial definition and disappearance of water/SO2 require native phase/component reconciliation."
+    },
+    {
+      "id": "S008",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "3.1 JT refrigeration and minimum temperatures",
+      "assessment": "JT selected for simpler two-phase handling rather than highest efficiency. Propane atmospheric limit and 5 K approach motivate ethylene cascade. Claimed >98% requires below-65.6°C, below the quoted pure-CO2 triple temperature; PR fluid simulation is not validated mixture-solid feasibility."
+    },
+    {
+      "id": "S009",
+      "pages": [
+        4
+      ],
+      "scope": "Six process assumptions and HYSYS implementation",
+      "assessment": "Read 40°C seawater-HX outlet, 5 K approach, 80% polytropic compressors, 10/21 kPa HX drops, saturated refrigerant outlet vapor and saturated BOG liquid before JT. HYSYS 7.1/Peng-Robinson identified; full stream/refrigerant pressures, duties and native files unavailable."
+    },
+    {
+      "id": "S010",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "Figure 3 process and COP assessment",
+      "assessment": "All BOG/propane/ethylene/liquid return lines, compressors, exchangers, separators and valves inspected. Three propane stages and ethylene coupling described. COP is a heat/work ratio; 1.6–2.1 versus commercial.6–1.2 needs matched boundaries and validated phases, not just a plotted comparison."
+    },
+    {
+      "id": "S011",
+      "pages": [
+        5
+      ],
+      "scope": "3.2 Financial component and mass definitions",
+      "assessment": "Source explicitly redefines financial BOG as only CO2. Eqs 2–4 split component mass and define x. Process mixture 6000 kg/h and chart x bases need correspondence; no assumption that all bulk vented gas is CO2."
+    },
+    {
+      "id": "S012",
+      "pages": [
+        5
+      ],
+      "scope": "Treatment expense and constant-capital assumption",
+      "assessment": "Eqs 5–6 combine electricity expense, emission penalty and CO2 sales. CAPEX invariant with x and labor negligible are explicit assumptions; constant equipment count alone does not prove constant size/capital or availability. Constant capital may cancel within an installed-plant fraction comparison, but does not settle the separate install/no-install decision."
+    },
+    {
+      "id": "S013",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "Energy, generator emissions and economic units",
+      "assessment": "Eqs 6–9 use kW, kg/h, kJ/kg, $/kJ and $/ton quantities.3600 time/energy and 1000 money/mass conversions need explicit bases; native code behavior unverified. Fuel/generator k is symbolic without a supplied numeric value or generator efficiency/fuel rate."
+    },
+    {
+      "id": "S014",
+      "pages": [
+        6
+      ],
+      "scope": "Sales, objective and optimum derivative",
+      "assessment": "Eqs 10–13 give sales and stationary condition. Interior derivative zero needs global/boundary checks; actual w(x) remains unavailable. Sale revenue and financial penalties do not minimize full-chain physical emissions or prove retention."
+    },
+    {
+      "id": "S015",
+      "pages": [
+        6
+      ],
+      "scope": "4 Pressure/level and specific-work results",
+      "assessment": "Read dual-axis no-vent thermal chart, assumed.12%/day, 7 bar around 7 days and 10% margin rationale. Not actual design certification, observed BOR or calibrated safe-voyage duration. Work curve steepens at high x, but no exact values/derivative implementation supplied."
+    },
+    {
+      "id": "S016",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "Oil-price forecast and operation-cost labels",
+      "assessment": "EIA 2010 forecasts use 2008 dollars, including 2030 reference 124/low 52/high 204 USD/bbl. MDO 1100 prose versus Figure 8 caption 1200 unresolved. Correlation and generator efficiency inputs incomplete; historical scenarios are not current forecasts."
+    },
+    {
+      "id": "S017",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "Carbon balances and market context",
+      "assessment": "Read 86% C/13% H/1% S MDO, plotted vent/generator/total CO2, historical market table and 20/50/100 tax assumptions. Table 2009 value 143.735 B differs from 114 B prose; aggregate 6% growth/41% unit-price fall are compatible with table arithmetic. Small subtotal differences fit rounding."
+    },
+    {
+      "id": "S018",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "CO2 sale prices and total-expense curves",
+      "assessment": "Read price anchors and future EOR revenue, separate sales/penalty/cost graphs and negative ET. Higher carbon penalty increases fixed-design expense under Eq 11; body's decreasing-expense wording needs qualification, including after optimization when other inputs stay fixed."
+    },
+    {
+      "id": "S019",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "Optimum ranges and derivative/sensitivity figures",
+      "assessment": "Read all carbon-price curve legends and axes. Abstract 95.7–98.2%, taxed body 97.2–98.1%, no-tax 95.7–97.5% retained separately. Figure 13 zero crossings around 98.1–98.6% do not transparently match Figure 15 same-price cases; no axis or case repair inferred."
+    },
+    {
+      "id": "S020",
+      "pages": [
+        9
+      ],
+      "scope": "Table 6 annual load and lifecycle-cost comparison",
+      "assessment": "90% calendar operation at 6000 kg/h gives 47304 t/year. Undiscounted 20 year vent penalties match rounded LCC. Reliquefaction displayed-point replay differs, but a joint shared capital/OPEX rounding witness reconciles all three cases. No hidden values identified as native inputs."
+    },
+    {
+      "id": "S021",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "5 Conclusions, transferability and uncertainty",
+      "assessment": "Process design, equipment, light ends and storage conditions can change w and its derivative. Expected small uncertainty impact is qualitative, not a calibrated uncertainty bound. Negative financial LCC depends on assumed EOR sales, not whole-chain climate credit."
+    },
+    {
+      "id": "S022",
+      "pages": [
+        10
+      ],
+      "scope": "Acknowledgments, references and missing assets",
+      "assessment": "Read WCU/NRF grantR31-2008-000-10045-0 and Korean marine-storage funding, all 30 bibliography entries. No separate SI/data/code availability, author-contribution or conflict declaration identified. Do not invent declarations or infer online asset absence; original/cited models remain open."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F001",
+      "pages": [
+        3
+      ],
+      "object": "Figure 1",
+      "inspection": "Insulated hull/tank sketch, PUF label and cargo-group context. Inspect hull, cargo vessels, PUF and group-operation assumptions; no native thermal dimensions beyond Table 2."
+    },
+    {
+      "id": "F002",
+      "pages": [
+        4
+      ],
+      "object": "Figure 2",
+      "inspection": "Condensation temperature versus reliquefaction fraction, unlabeled continuous curve. Temperature axis about-70 to-40°C; fraction about 90–100%; approximate curve, not native data."
+    },
+    {
+      "id": "F003",
+      "pages": [
+        4
+      ],
+      "object": "Figure 3",
+      "inspection": "Propane–ETHYLENE JT cascade, three refrigerant/BOG line styles plus dotted liquid return, all valves/separators/heat exchangers. Enlarged all four line-style legend entries, three propane stages, ethylene compressor, BOG compressor, exchangers, JT valves, separators, vent and liquid return."
+    },
+    {
+      "id": "F004",
+      "pages": [
+        5
+      ],
+      "object": "Figure 4",
+      "inspection": "COP versus x, dimensionless power ratio, not exact energy inventory. COP axis 1.5–2.1, x 90–100%; heat/work basis and full auxiliary boundary unverified."
+    },
+    {
+      "id": "F005",
+      "pages": [
+        6
+      ],
+      "object": "Figure 5",
+      "inspection": "Pressure and liquid level over time, dual bar/percent axes, assumed.12%/day. Two y axes pressure 6–10 bar and level 95–100%, time 0–40 days; solid/dashed series and caption inspected."
+    },
+    {
+      "id": "F006",
+      "pages": [
+        6
+      ],
+      "object": "Figure 6",
+      "inspection": "Specific compression work kJ/kg versus x, no native numerical curve supplied. Specific work 250–350 kJ/kg versus x 90–100%; high-end slope matters but no exact source array."
+    },
+    {
+      "id": "F007",
+      "pages": [
+        7
+      ],
+      "object": "Figure 7",
+      "inspection": "MDO price versus crude price, trend not provided as coefficients. Crude 50–210 USD/bbl versus MDO 400–2000 USD/t; native regression coefficients absent."
+    },
+    {
+      "id": "F008",
+      "pages": [
+        7
+      ],
+      "object": "Figure 8",
+      "inspection": "Operating cost versus x, caption 1200 USD/t MDO while prose 1100. EL 10–20 USD/t BOG versus x 90–100%; caption 1200 USD/t MDO conflicts with 1100 prose."
+    },
+    {
+      "id": "F009",
+      "pages": [
+        7
+      ],
+      "object": "Figure 9",
+      "inspection": "Vented, generator and total CO2 kg/h versus x. Three legends vented/generated/total CO2, kg/h axis; CO2-component normalization needs native correspondence."
+    },
+    {
+      "id": "F010",
+      "pages": [
+        7
+      ],
+      "object": "Figure 10",
+      "inspection": "Emission penalties for 20/50/100 USD/t CO2. All 20/50/100 USD/tcarbon-price line styles read; penalties positive and approach finite values at high recovery."
+    },
+    {
+      "id": "F011",
+      "pages": [
+        8
+      ],
+      "object": "Figure 11",
+      "inspection": "Recovered-sale benefit versus x, 80 USD/tbase. Benefit 70–80 USD/t BOG versus x 90–100%, linear recovered-sales term, not net climate benefit."
+    },
+    {
+      "id": "F012",
+      "pages": [
+        8
+      ],
+      "object": "Figure 12",
+      "inspection": "Total treatment expense, negative net financial cost, three carbon prices. Negative ET about-45 to-65 USD/t BOG, three carbon-price curves, local minima; negative means financial revenue."
+    },
+    {
+      "id": "F013",
+      "pages": [
+        8
+      ],
+      "object": "Figure 13",
+      "inspection": "Derivative zero crossings with xaxis 98–99%, apparent case mismatch with Fig 15. Enlarged zero line and 98.0/98.5/99.0% x ticks. Approximate roots in 98.1–98.6% region; no source x-axis correction or exact root digitization."
+    },
+    {
+      "id": "F014",
+      "pages": [
+        9
+      ],
+      "object": "Figure 14",
+      "inspection": "Derivative/work and low/high oil-price limits at 20 USD/ttax, x 97–98%. Enlarged derivative ordinate 500–2500, 97–98% x axis, low/high oil limits and range arrow. Units/fraction-versus-percentage derivative need correspondence."
+    },
+    {
+      "id": "F015",
+      "pages": [
+        9
+      ],
+      "object": "Figure 15",
+      "inspection": "Optimum fractions versus crude, 0/20/50/100 tax regimes. Four tax cases 0/20/50/100, crude 50–210 USD/bbl, x 95.5–98.5%; full plot/legend inspected. Approximate curves are not exact optimized arrays."
+    },
+    {
+      "id": "F016",
+      "pages": [
+        2
+      ],
+      "object": "Table 1",
+      "inspection": "Both source/cargo state columns, composition header and every species including H2O.917 mol% read; no silent ppm or drying correction.",
+      "native_table_record": "evidence/comprehensive_review_inputs/B3-08_tables.json#T001"
+    },
+    {
+      "id": "F017",
+      "pages": [
+        3
+      ],
+      "object": "Table 2",
+      "inspection": "All six rows, units, dimensions, tank count, fill levels read; cylinder body/heads/nominal volume definitions remain distinct.",
+      "native_table_record": "evidence/comprehensive_review_inputs/B3-08_tables.json#T002"
+    },
+    {
+      "id": "F018",
+      "pages": [
+        3
+      ],
+      "object": "Table 3",
+      "inspection": "BOR, 6000 kg/h load, pressure, temperature and three molar species read. Native process mixture versus economic CO2 component unresolved.",
+      "native_table_record": "evidence/comprehensive_review_inputs/B3-08_tables.json#T003"
+    },
+    {
+      "id": "F019",
+      "pages": [
+        6
+      ],
+      "object": "Table 4",
+      "inspection": "All six years/three columns and 2008-dollar basis read. Historical forecasts remain separate from current facts.",
+      "native_table_record": "evidence/comprehensive_review_inputs/B3-08_tables.json#T004"
+    },
+    {
+      "id": "F020",
+      "pages": [
+        8
+      ],
+      "object": "Table 5",
+      "inspection": "Every market row, subtotal, total and four volume/value columns read. One-unit subtotal differences are rounding-compatible; 143.735 Bvalue differs from 114 B prose.",
+      "native_table_record": "evidence/comprehensive_review_inputs/B3-08_tables.json#T005"
+    },
+    {
+      "id": "F021",
+      "pages": [
+        9
+      ],
+      "object": "Table 6",
+      "inspection": "All three tax columns, profit/shared CAPEX/OPEX/LCC rows and units read. Rounded shared-parameter feasibility checked, not native financial reproduction.",
+      "native_table_record": "evidence/comprehensive_review_inputs/B3-08_tables.json#T006"
+    },
+    {
+      "id": "F022",
+      "pages": [
+        2
+      ],
+      "object": "Nomenclature and Greek symbol box",
+      "inspection": "All abbreviations and dollar/rate/power/work units read. PUF is printed polyurethane form; native text retained. k is symbolic; no numeric generator calibration supplied."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "pages": [
+        5
+      ],
+      "printed": "COP = heat_removed_from_BOG / total_compressor_work_in_cascade",
+      "check": "Heat and compressor work must share a power/energy basis; COP is dimensionless, not an independent full-inventory validation.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E001"
+    },
+    {
+      "id": "E002",
+      "pages": [
+        5
+      ],
+      "printed": "m_B = m_L + m_V",
+      "check": "Mass closure applies to the source financial CO2-component definition, not automatically bulk Table 3 gas.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E002"
+    },
+    {
+      "id": "E003",
+      "pages": [
+        5
+      ],
+      "printed": "x = m_L/m_B",
+      "check": "x is a fraction 0..1 in equations, percent in graphs; CO2 recovery versus bulk-liquefaction fraction needs native mapping.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E003"
+    },
+    {
+      "id": "E004",
+      "pages": [
+        5
+      ],
+      "printed": "m_V = (1-x)*m_B",
+      "check": "Generated minus recovered component equals atmospheric vent; BOR generated is not vented fraction or retention.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E004"
+    },
+    {
+      "id": "E005",
+      "pages": [
+        5
+      ],
+      "printed": "E_T = E_L + E_P - B_S",
+      "check": "Financial expense adds energy and penalties and subtracts recovered sales; not a whole-chain climate objective.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E005"
+    },
+    {
+      "id": "E006",
+      "pages": [
+        5
+      ],
+      "printed": "E_L = (W_tot(x)/m_B)*C_L = w(x)*C_L",
+      "check": "Printed Wdot kW/mdot kg/h gives kWh/kg, while w labeledkJ/kg. w times C_L gives USD/kg if CL$/kJ, whereas EL labeled USD/t. Explicit conversions needed; native code not assumed wrong.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E006"
+    },
+    {
+      "id": "E007",
+      "pages": [
+        5
+      ],
+      "printed": "E_P = (m_V+m_G)/m_B*C_P = [(1-x)*m_B+m_G]/m_B*C_P",
+      "check": "Includes vented CO2 and generator CO2; component mass and common time units essential. Excludes full upstream/capture/EOR/storage burdens.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E007"
+    },
+    {
+      "id": "E008",
+      "pages": [
+        5
+      ],
+      "printed": "m_G = k*W_tot(x)",
+      "check": "k units depend on stated Wdot/mass bases; numeric fuel rate, LHV/generator efficiency missing. Fuel carbon fraction alone does not give gamma per electrical kWh.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E008"
+    },
+    {
+      "id": "E009",
+      "pages": [
+        6
+      ],
+      "printed": "E_P = [(1-x)+k*w(x)]*C_P",
+      "check": "k*w must be dimensionless on consistent energy/mass bases. Do not multiply symbolic generator coefficient by plottedkJ/kg without conversion.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E009"
+    },
+    {
+      "id": "E010",
+      "pages": [
+        6
+      ],
+      "printed": "B_S = m_L/m_B*C_S = x*C_S",
+      "check": "Recovered CO2 sale is financial credit, not avoided-emissions or permanent-retention credit.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E010"
+    },
+    {
+      "id": "E011",
+      "pages": [
+        6
+      ],
+      "printed": "E_T = w(x)*C_L + [(1-x)+k*w(x)]*C_P - x*C_S",
+      "check": "Literal native objective retained. Common unit conversions and physical process feasibility must be checked before numeric optimization.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E011"
+    },
+    {
+      "id": "E012",
+      "pages": [
+        6
+      ],
+      "printed": "dE_T/dx = w_prime(x)*(C_L+k*C_P) - (C_P+C_S) = 0",
+      "check": "Necessary differentiable interior stationarity only; boundaries and global convexity/actual work curve needed.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E012"
+    },
+    {
+      "id": "E013",
+      "pages": [
+        6
+      ],
+      "printed": "w_prime(x) = (C_P+C_S)/(C_L+k*C_P) at optimum",
+      "check": "Requires nonzero consistent marginal-cost denominator and a validated derivative/domain. Native curve and price-case correspondence missing.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-08_equations.json#E013"
+    },
+    {
+      "id": "E014",
+      "pages": [
+        5,
+        6
+      ],
+      "printed": "w_kJkg = 3600*W_kW/m_kg_h; E_L_USD_t = 1000*w_kJkg*C_L_USD_kJ",
+      "check": "Disclosed unit conversion, not a correction or reproduction of native code. Analyst 270 kJ/kg and 6000 kg/h give 450 kW and 75 kWh/t."
+    },
+    {
+      "id": "E015",
+      "pages": [
+        5,
+        6
+      ],
+      "printed": "E_T_USD_t = 1000*w*C_L + [1-x+gamma*w/3600]*C_P - x*C_S",
+      "check": "Explicit analyst consistent basis with gamma in kg CO2/kWh. Native numeric generator gamma and complete inventory remain missing."
+    },
+    {
+      "id": "E016",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "printed": "partial E_T/partial C_P = 1-x+gamma*w/3600 >= 0",
+      "check": "At fixed other inputs, expense cannot fall when carbon penalty rises. Minimizing over the same feasible set preserves monotonicity. Native decreasing-expense wording not supported by its own objective."
+    },
+    {
+      "id": "E017",
+      "pages": [
+        9
+      ],
+      "printed": "LCC = capital + 20*(annual_nonpower_OM - annual_treatment_profit)",
+      "check": "Conditional undiscounted diagnostic. Joint±.05 display intervals admit common capital/OPEX and all three native LCC targets; witness values are not source data."
+    },
+    {
+      "id": "E018",
+      "pages": [
+        6,
+        9
+      ],
+      "printed": "w_analyst(x)=2000*x²; x_star=clip[(C_P+C_S)/(4000*(1000*C_L+gamma*C_P/3600)),0,1]",
+      "check": "Invented convex scalar example checked with independent bounded optimization and endpoints. Not fitted to native w, not a physical/reported optimum or safe process design."
+    }
+  ],
+  "variables": [
+    {
+      "id": "V001",
+      "pages": [
+        2,
+        5
+      ],
+      "name": "BOG and CO2-component mass basis",
+      "unit": "bulk mixture versus kg CO2",
+      "assumption": "Source explicitly narrows financial BOG to CO2. Table 3 bulk 6000 kg/h, component flows, phase x and plotted emissions need correspondence."
+    },
+    {
+      "id": "V002",
+      "pages": [
+        2,
+        5
+      ],
+      "name": "m_B, m_L, m_V",
+      "unit": "kg/h in nomenclature",
+      "assumption": "Generated, reliquefied and atmospheric-vented component mass. No universal vessel BOR or permanent-retention factor."
+    },
+    {
+      "id": "V003",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "name": "x",
+      "unit": "fraction 0..1; percent in plots",
+      "assumption": "Economic CO2 recovery fraction; different from full-voyage retained cargo and a demonstrated mixed-fluid liquefaction fraction."
+    },
+    {
+      "id": "V004",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "name": "W_tot, w and COP",
+      "unit": "kW; kJ/kg; dimensionless",
+      "assumption": "Time conversion 3600 and consistent heat/work basis needed. Native exact w(x), derivative and auxiliary boundary unavailable."
+    },
+    {
+      "id": "V005",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "name": "C_L",
+      "unit": "USD/kJ",
+      "assumption": "Fuel cost per generated electrical energy requires fuel consumption/efficiency/price definition.1000 kg/tconversion needed for plotted USD/t costs."
+    },
+    {
+      "id": "V006",
+      "pages": [
+        2,
+        6,
+        7,
+        8
+      ],
+      "name": "C_P, C_S",
+      "unit": "USD/t CO2",
+      "assumption": "Penalty and EOR sale assumptions, not verified current markets/eligibility or physical removal. Source future-price relationships incomplete."
+    },
+    {
+      "id": "V007",
+      "pages": [
+        2,
+        5,
+        6,
+        8
+      ],
+      "name": "E_T, E_L, E_P, B_S",
+      "unit": "USD/t BOG",
+      "assumption": "Financial cost, energy expense, emission penalty and sales. Negative total is assumed financial profit, not negative emissions."
+    },
+    {
+      "id": "V008",
+      "pages": [
+        2,
+        5,
+        7
+      ],
+      "name": "k, m_G and MDO composition",
+      "unit": "kg CO2/kWh if kg/h andkW; kg/h; mass fractions",
+      "assumption": "86% C permits a complete-oxidation fuel factor, not generator k without fuel rate/efficiency. No native numeric gamma recovered from plots."
+    },
+    {
+      "id": "V009",
+      "pages": [
+        2,
+        3
+      ],
+      "name": "Cargo and BOG compositions",
+      "unit": "mol_percent; component mass fractions",
+      "assumption": "CO2/N2/O2 and upstreamH2O/SO2 different stages. Source liquid.917% water and omitted BOG water/solids need validated phase/treatment basis."
+    },
+    {
+      "id": "V010",
+      "pages": [
+        2,
+        3
+      ],
+      "name": "Cargo volume, density, tanks and fill",
+      "unit": "m³; kg/m³; m; count; fraction",
+      "assumption": "Nominal 100000 m³, 1155 density, 100 tanks 7 D×25 H, 95/98% fill. Heads/working volume and thermal behavior unknown; not actual vessel data."
+    },
+    {
+      "id": "V011",
+      "pages": [
+        3,
+        6,
+        9
+      ],
+      "name": "BOR, nominal/design BOG and annual load",
+      "unit": "fraction/day; kg/h; t/year",
+      "assumption": "Assumed.12%/day, quoted 5400 then 6000 design.90% calendar gives 47304 t/yatdesign; not calibrated annual generation/venting."
+    },
+    {
+      "id": "V012",
+      "pages": [
+        3
+      ],
+      "name": "PUF, temperature difference and heat ingress",
+      "unit": "m; K; heat rate unspecified",
+      "assumption": "10 cminsulation andinnerhull=cargotemperature assumed, detailedthermalgeometry/env/voyageunavailable. LNG analogy not native measured heat/boiloff."
+    },
+    {
+      "id": "V013",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "name": "Cargo, BOG, refrigerant P/T and solid boundary",
+      "unit": "bar; C; K",
+      "assumption": "6.5 bar/-51 Ccargo, 6.2 bar/-28.5°C BOG, 40°C cooling, 5 Kapproach, below-65.6°C condensation quote. Pure triple proxy flags need for mixture-solid validation, not proof of exact mixture freeze point."
+    },
+    {
+      "id": "V014",
+      "pages": [
+        4
+      ],
+      "name": "HX drops, compressor efficiency and saturation assumptions",
+      "unit": "kPa; fraction; phase labels",
+      "assumption": "10 kPasteam/21 otherwise, 80% polytropic, saturated vapor refrigerant/saturated liquid BOG before JT. Fullcycle pressures/flows and feasible phases not supplied."
+    },
+    {
+      "id": "V015",
+      "pages": [
+        6,
+        7,
+        8
+      ],
+      "name": "Oil, MDO and carbon-market forecasts",
+      "unit": "2008 USD/bbl; USD/t; Mt CO2 e; MUSD",
+      "assumption": "Historical 2010 projections for 2030 and 2008–09 marketdata, not current facts. Preserve 1100/1200 MDO labels and 114/143.735 B market value."
+    },
+    {
+      "id": "V016",
+      "pages": [
+        9
+      ],
+      "name": "CAPEX, OPEX, profit, LCC and operating time",
+      "unit": "MUSD; MUSD/y; years; fraction",
+      "assumption": "8.9 capital, 1.3 annual nonpower OPEX, 2.9/2.8/2.7 profit, 20 y, .9 calendar. Discount not specified; rounding witness is only a compatible conventional interpretation."
+    },
+    {
+      "id": "V017",
+      "pages": [
+        5,
+        9,
+        10
+      ],
+      "name": "Equipment count, capacity, availability and uncertainty",
+      "unit": "count; unspecified sizes/distributions",
+      "assumption": "Constant count is not independent proof of invariant capital. Uncertainty/range robustness not calibrated across equipment, composition, storage state or phase constraints."
+    },
+    {
+      "id": "V018",
+      "pages": [
+        1,
+        2,
+        9,
+        10
+      ],
+      "name": "Financial sale, EOR and full-chain physical benefit",
+      "unit": "USD versus CO2 mass over time",
+      "assumption": "Recovered-sale revenue does not establish durable storage, capture efficiency, oil displacement, upstream utilities or permanent-retention credit."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "pages": [
+        1,
+        9
+      ],
+      "claim": "The optimum is roughly 95.7–98.2% across plausible scenarios.",
+      "assessment": "Broad abstract/conclusion range; taxed body 97.2–98.1% andno-tax 95.7–97.5% remain distinct, not a universal vessel loss rate.",
+      "reference_ids": [
+        "D002",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C002",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Ship-based CCS is flexible and offshore storage addresses public concern.",
+      "assessment": "Historical planning context, not proof of universal cost advantage, current deployment or safe annual field service.",
+      "reference_ids": [
+        "R009",
+        "R014",
+        "R021",
+        "R023",
+        "R025",
+        "R026",
+        "R029",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C003",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "EOR can cover capture costs and improve CCS economics.",
+      "assessment": "Financial/source-specific argument at assumed oil prices; no lifecycle oil/upstream or retention accounting.",
+      "reference_ids": [
+        "R008",
+        "R013",
+        "D010",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C004",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Near-triple transport has 142 kWh/tchain energy and about 25 USD/tcost.",
+      "assessment": "Scoped exact R002 supports near-triple 6.5 bara/-52 Cconcept and source-specific chain/cost lineage, not this BOG process or exact-triple operation. No source factors transferred. The quoted critical-density context is not independently validated by that citation: a pure-CO2 HEOS reference gives about 467.6 kg/m³, versus the source 600 quote. No cargo/mixture density is corrected.",
+      "reference_ids": [
+        "R001",
+        "R002",
+        "D003",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C005",
+      "pages": [
+        2
+      ],
+      "claim": "Liquefied cargo composition is obtained from captured coal-plant gas.",
+      "assessment": "Table 1 allvalues retained, including.917 mol% water at-51°C. Native drying/solid/hydrate and phase basis unverified; no ppmrepair.",
+      "reference_ids": [
+        "R024",
+        "D003",
+        "D005"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C006",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Large 100000 m³ carriers and grouped tanks are feasible design targets.",
+      "assessment": "Concept, not actual ship. Nominal capacity and cylindrical body volume differ with unspecified heads/usable-volume definition.",
+      "reference_ids": [
+        "R005",
+        "R020",
+        "R028",
+        "D004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C007",
+      "pages": [
+        3
+      ],
+      "claim": "95% initial and 98% maximum fill provide expansion margin.",
+      "assessment": "Source code/context and grouped equalP/T assumptions need originals/native thermal model; not present certification or service guarantee.",
+      "reference_ids": [
+        "R015",
+        "D004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C008",
+      "pages": [
+        3
+      ],
+      "claim": "BOR.12%/day follows LNG analogies and 10 cminsulation.",
+      "assessment": "Explicitly assumed because detailed vessel/environment information inaccessible. Not measured CO2 vessel BOR or transferable operating input.",
+      "reference_ids": [
+        "D004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C009",
+      "pages": [
+        3
+      ],
+      "claim": "The BOG load is 5400 kg/h, raised to 6000 for margin.",
+      "assessment": "Full nominal stock gives 5775; 95% stock 5486.25 under same rate. Approximate/source bases unclear; design capacity not observed average flow. No corrected nominal inserted.",
+      "reference_ids": [
+        "D004",
+        "D005"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C010",
+      "pages": [
+        3
+      ],
+      "claim": "BOG contains enriched light ends at 6.2 bar/-28.5°C.",
+      "assessment": "Molar enrichment checked; mass fractions and economic CO2-only redefinition need mapping. Upstreamwater/SO2 omission and phases unverified.",
+      "reference_ids": [
+        "D003",
+        "D005"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C011",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "JT refrigeration is appropriate for simple two-phase handling.",
+      "assessment": "Engineering rationale and cited equipment do not independently validate full cycle, phase feasibility or optimum.",
+      "reference_ids": [
+        "R004",
+        "R007",
+        "R010",
+        "R011",
+        "R012",
+        "D001"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C012",
+      "pages": [
+        4
+      ],
+      "claim": "Over 98% recovery requires cooling below-65.6°C.",
+      "assessment": "Below quoted pure triple by 9 K; PR fluid package is not validated mixture-solid/hydrate equilibrium. Not proof of exact mixture infeasibility or a corrected temperature.",
+      "reference_ids": [
+        "D001",
+        "D003"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C013",
+      "pages": [
+        4
+      ],
+      "claim": "Six process assumptions produce a feasible propane–ethylene cycle.",
+      "assessment": "All assumptions and PFD read; missing stream pressures/refrigerantflows and solids validation prevent full native replay. Ethylene is distinct from ethane.",
+      "reference_ids": [
+        "R003",
+        "D001",
+        "D003"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C014",
+      "pages": [
+        5
+      ],
+      "claim": "COP 1.6–2.1 outperforms conventional.6–1.2 at similar temperature.",
+      "assessment": "Boundary, fluid, phase and heat/work correspondence need original/native checks; no standalone validation from a favorable COP.",
+      "reference_ids": [
+        "R018",
+        "R030",
+        "D001",
+        "D003"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C015",
+      "pages": [
+        6,
+        9
+      ],
+      "claim": "Pressure rises 10% within seven days without BOG treatment.",
+      "assessment": "Assumed thermal chart and generic design-margin argument, not actual vessel observation, approved limit or safe voyage duration.",
+      "reference_ids": [
+        "D004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C016",
+      "pages": [
+        5
+      ],
+      "claim": "The generated/recovered/vented mass equations quantify cargo loss.",
+      "assessment": "Valid component identity under explicit financial CO2-only definition. Bulk mixture and full-voyage retained cargo require separate inventories.",
+      "reference_ids": [
+        "D005",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C017",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Eq 6 converts compressor power into per-tonne reliquefaction expense.",
+      "assessment": "Printed kW/kg-h, kJ/kg, $/kJ, $/t require 3600/1000 bases. Native code may convert internally; do not allege implementation error without it.",
+      "reference_ids": [
+        "D006"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C018",
+      "pages": [
+        5
+      ],
+      "claim": "CAPEX is invariant because equipment count is unchanged.",
+      "assessment": "Explicit simplification, not proof that capacity, work, materials or installedcosts are constant. Full LCC case separate.",
+      "reference_ids": [
+        "R022",
+        "D008",
+        "D009"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C019",
+      "pages": [
+        5,
+        7
+      ],
+      "claim": "Generator CO2 is proportional to total compressor power.",
+      "assessment": "Fuel carbon balance alone does not supply a numeric generator k; fuel rate, efficiency and units missing.",
+      "reference_ids": [
+        "R006",
+        "D006",
+        "D007"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C020",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "claim": "Emissions penalty includes vented cargo and generator CO2.",
+      "assessment": "Local operational proxy, not full capture/shipping/EOR/storage LCA. Carbon-price eligibility and component basis unverified.",
+      "reference_ids": [
+        "D005",
+        "D007",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C021",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Recovered BOG earns CO2 sale revenue.",
+      "assessment": "Financial market assumption; not net physical abatement or certified retained-carbon benefit.",
+      "reference_ids": [
+        "R013",
+        "R017",
+        "D010",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C022",
+      "pages": [
+        6
+      ],
+      "claim": "The derivative-zero equation identifies optimum reliquefaction.",
+      "assessment": "Necessary interior condition only; complete w, domain, phase feasibility, convexity and boundary comparison required.",
+      "reference_ids": [
+        "D001",
+        "D002",
+        "D003",
+        "D006"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C023",
+      "pages": [
+        6
+      ],
+      "claim": "Specific work grows steeply at high recovery due to light ends.",
+      "assessment": "Qualitative curve read; native exact array/derivative/process cases absent, so reported optimum not reproduced by fitting a convenient curve.",
+      "reference_ids": [
+        "D001",
+        "D002"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C024",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Future MDO prices follow crude-oil forecasts.",
+      "assessment": "Historical 2008-dollar scenarios from EIA 2010, not current forecast. Regression/fuel-generation inputs and cost-case correspondence missing.",
+      "reference_ids": [
+        "R027",
+        "D007",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C025",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "The operating-cost plot uses the 1100 USD/t MDO baseline.",
+      "assessment": "Figure 8 caption instead 1200. Preserve both; no costcurve orcaseprice silently corrected.",
+      "reference_ids": [
+        "D010",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C026",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Carbon market value grew 6% to 114 billion USD in 2009.",
+      "assessment": "Table 5 gives 143.735 B; table-based 6.418% growth compatible with 6%, but 114 Bnot reconciled. Native table and quote separate.",
+      "reference_ids": [
+        "R019",
+        "D011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C027",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "8.7 billion t CO2 e and 16.5 USD/tshow 41% unit-price decline.",
+      "assessment": "Tablevolume/value arithmetic supports 16.52 and 40.85% decline. Small integer subtotals fit rounding, not automatically source errors.",
+      "reference_ids": [
+        "R019",
+        "D011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C028",
+      "pages": [
+        7
+      ],
+      "claim": "Future carbon taxes 20/50/100 USD/t are plausible.",
+      "assessment": "Scenario assumptions with unverified original IPCC interpretation, not current law or predictive probabilities.",
+      "reference_ids": [
+        "R016",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C029",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "CO2 sale price rises to 80 USD/t at 124 USD/bblcrude and varies 8–156.",
+      "assessment": "Quoted anchors do not provide a complete price function. No affine interpolation imposed or actual future sale proceeds verified.",
+      "reference_ids": [
+        "R013",
+        "R017",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C030",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Higher recovery reduces total modeled CO2 emissions.",
+      "assessment": "Native plotted component proxy, not full system/environmental optimum; fuel k, phase feasible range and exact curve unavailable.",
+      "reference_ids": [
+        "D002",
+        "D003",
+        "D007",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C031",
+      "pages": [
+        8
+      ],
+      "claim": "As carbon tax increases, total treatment expense decreases.",
+      "assessment": "Holding other inputs fixed, Eq 11 partial derivative is nonnegative emitted mass. Figure 12/Table 6 also show increasing expense/lower profit. Minimized expense cannot decrease over the same feasible set.",
+      "reference_ids": [
+        "D002",
+        "D006",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C032",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Figures 13–15 provide consistent optimum ranges.",
+      "assessment": "Approximate zero crossings in Figure 13 around 98.1–98.6% do not transparently match Figure 15 at corresponding crude/tax. Axis/derivative basis and native cases required; no x-axis shift inferred.",
+      "reference_ids": [
+        "D002",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C033",
+      "pages": [
+        9
+      ],
+      "claim": "Taxed cases stay 97.2–98.1% andno-taxcases 95.7–97.5%.",
+      "assessment": "Specific quoted scenario ranges, not guaranteed different-vessel optima. Broad abstract 95.7–98.2% retained alongside them.",
+      "reference_ids": [
+        "D002",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C034",
+      "pages": [
+        9
+      ],
+      "claim": "90% calendaroperation gives 47304 t BOG/year.",
+      "assessment": "Exact at 6000 kg/h design, not measured yearly BOG. Nominal 5400/design 6000 and CO2-versus-bulk basis remain distinct.",
+      "reference_ids": [
+        "D004",
+        "D005",
+        "D009"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C035",
+      "pages": [
+        9
+      ],
+      "claim": "Vent-only 20 year costs are 18.9/47.3/94.6 million USD.",
+      "assessment": "Undiscounted 47304 t/year times 20 timescarbonprice reproduces rounded values. No native discount/time/price realization verified.",
+      "reference_ids": [
+        "D009",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C036",
+      "pages": [
+        9
+      ],
+      "claim": "Reliquefaction LCC is-22.1/-20.3/-17.2 million USD.",
+      "assessment": "Displayed-point replay differs, but a joint common CAPEX/OPEX rounding witness reconciles all cases. Do not claim proven financial inconsistency or identify witness as actual native cash flows.",
+      "reference_ids": [
+        "D008",
+        "D009"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C037",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Negative ET/LCC means reliquefaction is advantageous and profitable.",
+      "assessment": "Depends on assumed EOR sales exceeding costs, not negative emissions or permanent carbon storage. No complete financial risk/availability or LCA claim.",
+      "reference_ids": [
+        "D008",
+        "D010",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C038",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "The optimum changes little with uncertainty in system design, composition and storage conditions.",
+      "assessment": "Authors also acknowledge those factors affect w and its derivative. Narrow selected scenario range is not calibrated uncertainty or robust physical feasibility.",
+      "reference_ids": [
+        "D001",
+        "D002",
+        "D003",
+        "D004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C039",
+      "pages": [
+        10
+      ],
+      "claim": "Bibliography entries establish original support for the model.",
+      "assessment": "Only R002 has a scoped exact-original check. R021 andR029 have different titles/authors but the same EnergyProcedia 4:2992–2999 citation; identity remains open.",
+      "reference_ids": [
+        "R021",
+        "R029",
+        "D013"
+      ],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C040",
+      "pages": [
+        10
+      ],
+      "claim": "HYSYS/prior references permit full independent model reproduction.",
+      "assessment": "Native case/stream/work/economic assets and rights not supplied/verified. Literal formulas and synthetic diagnostics are not native reproduction.",
+      "reference_ids": [
+        "R003",
+        "R004",
+        "R022",
+        "R024",
+        "D001",
+        "D013"
+      ],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C041",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        9
+      ],
+      "claim": "Paper 1 can take these values as observed BOR, utility duty or permanent retention.",
+      "assessment": "Audit implication: it cannot. No accepted B3-08 row; keep nominal/design/component/inventory/financial scope and missing actual evidence explicit.",
+      "reference_ids": [
+        "D004",
+        "D005",
+        "D006",
+        "D014"
+      ],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C042",
+      "pages": [
+        1,
+        5,
+        6,
+        9,
+        10
+      ],
+      "claim": "Paper 1 should acknowledge economic partial recovery and preserve physical/financial distinction.",
+      "assessment": "Use as qualified prior-art context. No corrected source value, native optimum, complete capture balance, annual pressure limit or retention factor accepted. Existing combined 1.5 MPa 39.2 HOLD unchanged.",
+      "reference_ids": [
+        "R002",
+        "D003",
+        "D014"
+      ],
+      "kind": "audit_scope_implication"
+    }
+  ],
+  "references": [
+    {
+      "id": "R001",
+      "pages": [
+        10
+      ],
+      "citation": "Aspelund, A., Gundersen, T., 2009. A liqueﬁed energy chain for transport and utiliza- tion of natural gas for power production with CO2 capture and storage – part 1. Applied Energy 86, 781–792.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        10
+      ],
+      "citation": "Aspelund, A., Molnvik, M.J., Koeijer, G.D., 2006. Ship transport of CO2 technical solu- tions and analysis of costs energy utilization, exergy analysis, and CO2 emissions. Chemical Engineering Research and Design 84, 847–855.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "primary_text_checked_scoped_not_full_original",
+      "claim_links": [
+        "C004",
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R002",
+      "primary_check_record": "evidence/comprehensive_review_inputs/B3-08_citation_checks.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        10
+      ],
+      "citation": "Aspen Technology Inc., 2009. Aspen HYSYS: Process Modeling. Version 7.1. Aspen Technology Inc., Massachusetts, USA.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013",
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        10
+      ],
+      "citation": "Barrson, R.F., 1985. Cryogenic System, second ed. Oxford University Press, New York.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011",
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        10
+      ],
+      "citation": "Borresen, S.E., 2010. CCS value chains with CO2 shipping. In: Conference Handbook, 21–23, Proceedings of the CO2 Shipping Conference 2010, 6–7 May, London, UK.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        10
+      ],
+      "citation": "Brussen, P., Vugt, J., Vries, L.B., Stapersma, D., Knoll, H., Boonstra, H., Keimpema, H., 2006. CO2-Emissions of Various Ship Types Simulated in an Operational Year Proﬁle. TNO-rapport, April 2006, pp. 9–10.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        10
+      ],
+      "citation": "Cryostar, 2007. Special Report – Reliqefaction System EcoRel. Cryostar Magazine, Hesingue, France.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        10
+      ],
+      "citation": "Ferguson, R.C., Nichols, C., van Leeuwen, T., Kuuskraa, V.A., 2009. Storing CO2 with enhanced oil recovery. Proc. GHGT-9, Washington, DC, USA, 16–20 November 2008. Energy Procedia 1, 1989–1996.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        10
+      ],
+      "citation": "Gale, J., Davison, J., 2004. Transmission of CO2 – safety and economic considerations. Energy 29, 1318–1319.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        10
+      ],
+      "citation": "Hamworthy Ltd., 2007a. LNG Systems for Marine Application. Hamworthy Brochure, Asker, Norway.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        10
+      ],
+      "citation": "Hamworthy Ltd., 2007b. LPG Cooling and Reliquefaction. Hamworthy Brochure, Asker, Norway.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        10
+      ],
+      "citation": "Hamworthy Ltd., 2007c. VOC Recovery and Power Generation System. Hamworthy Brochure, Asker, Norway.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        10
+      ],
+      "citation": "Holt, T., Lindeberg, E., Wessel-Berg, D., 2009. EOR and CO2 disposal – economic and capacity potential in the North Sea. Proceedings of the GHGT-9, Washington, DC, USA, 16–20 November 2008. Energy Procedia 1, 4159–4166.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C021",
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        10
+      ],
+      "citation": "International Energy Agency, 2006. Energy Technology Perspectives 2006: Scenarios & Strategies to 2050.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        10
+      ],
+      "citation": "International Maritime Organization, 2008. International Code for the Construc- tion and Equipment of Ships Carrying Liqueﬁed Gasses in Bulk (IGC Code). IMO, London, UK.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        10
+      ],
+      "citation": "International Panel on Climate Change, 2007. Working group III contribution to the intergovernmental panel on climate change fourth assessment report. In: The 9th Session of Working Group III of the IPCC, Bangkok, Thailand, 30 April–4 May.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C028"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        10
+      ],
+      "citation": "Kapteijn, P., 2010. Energy and environment: the ultimate test of E&P Intelligence. Journal of Petroleum Technology 62, 38–41.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C021",
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        10
+      ],
+      "citation": "Kilicarslan, A., Hosoz, M., 2010. Energy and irreversibility analysis of a cascade refrigeration system for various refrigerant couples. Energy Conversion and Management 51, 2947–2954.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        10
+      ],
+      "citation": "Kossoy, A., Ambrosi, P., 2010. State and Trends of the Carbon Market 2010. Carbon Finance at the World Bank, Washington, DC, pp. 1–2.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026",
+        "C027"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        10
+      ],
+      "citation": "Ozaki, M., 1997. CO2 injection and dispersion in mid-ocean depth by moving ship. Waste Management 17, 369–373.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        10
+      ],
+      "citation": "Ozaki, M., Ohsumi, T., 2011. CCS from multiple sources to offshore storage site com- plex via ship transport. Proceedings of the GHGT-10, Amsterdam, Netherlands, 19–23 September 2010. Energy Procedia 4, 2992–2999.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002",
+        "C039"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        10
+      ],
+      "citation": "Peters, M.S., Timmerhaus, K.D., West, R.E., 2003. Plant Design and Economics for Chemical Engineers, ﬁfth ed. McGraw-Hill, New York.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        10
+      ],
+      "citation": "Rauramo, J., 2010. Fortum CCS projects update. In: Conference Handbook, Proceed- ings of the CO2 Shipping Conference, London, UK, 6–7 May 2010, pp. 45–48.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        10
+      ],
+      "citation": "Sanpasertparnich, T., Idem, R., Bolea, I., deMontigny, D., Tontiwachwuthikul, P., 2010. Integration of post-combustion capture and storage into a pulverized coal-ﬁred power plant. International Journal of Greenhouse Gas Control 4, 499–510.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        10
+      ],
+      "citation": "Skovholt, O., 1993. CO2 transportation system. Energy Conversion and Management 34, 1095–1103.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        10
+      ],
+      "citation": "Svensson, R., Odenberger, M., Johnsson, F., Stromberg, L., 2004. Transportation sys- tems for CO2 – application to carbon capture and storage. Energy Conversion and Management 45, 2343–2353.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        10
+      ],
+      "citation": "U.S. Energy Information Administration, 2010. International Energy Outlook 2010. July. Washington, DC, pp. 25–26.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C024"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        10
+      ],
+      "citation": "Yoo, B.Y., Lee, S.G., Oh, Y.T., Han, J.H., Gang, H.D., Park, J.M., 2010. Achieving viability: delivering an integrated shipping solution for CCS using CO2 shipping. In: Con- ference Handbook, Proceedings of the CO2 Shipping Conference, London, UK, 6–7 May, pp. 121–137.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        10
+      ],
+      "citation": "Yoo, B.Y., Lee, S.G., Rhee, K.P., Na, H.S., Park, J.M., 2011. New CCS system integration with CO2 carrier and liquefaction process. Proceedings of the GHGT-10, Amster- dam, Netherlands, 19–23 September 2010. Energy Procedia 4, 2992–2999.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002",
+        "C039"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        10
+      ],
+      "citation": "Yunus, A.C., Michael, A.B., 2006. Thermodynamics: An Engineering Approach, ﬁfth ed. McGraw-Hill, New York.",
+      "role": "Direct printed bibliography; claim links map retained-paper attribution or an explicit audit question, not full original validation.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-08_bibliography.json#R030"
+    },
+    {
+      "id": "D001",
+      "pages": [
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "citation": "Native versioned HYSYS/process/equipment assets",
+      "role": "Need actual stream pressures, flows, refrigerant cycles, property setup, equipment duties/costs and rights; not native replay from schematic alone.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C011",
+        "C012",
+        "C013",
+        "C014",
+        "C022",
+        "C023",
+        "C038",
+        "C040"
+      ]
+    },
+    {
+      "id": "D002",
+      "pages": [
+        4,
+        5,
+        6,
+        8,
+        9,
+        10
+      ],
+      "citation": "Native w(x), derivative, domain and optimization data",
+      "role": "Need exact numerical arrays/function, case correspondence, global/boundary checks and physically feasible process domain; no fitted synthetic substitute.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C001",
+        "C022",
+        "C023",
+        "C030",
+        "C031",
+        "C032",
+        "C033",
+        "C038"
+      ]
+    },
+    {
+      "id": "D003",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        9,
+        10
+      ],
+      "citation": "Mixture water, solid/hydrate phase and thermophysical validation",
+      "role": "Need cryogenic compositions, purity/dehydration, operating pressures and validated solid/mixture envelope; pure triple proxy and prior 600 density quote are not independent validation.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C004",
+        "C005",
+        "C010",
+        "C012",
+        "C013",
+        "C014",
+        "C022",
+        "C030",
+        "C038",
+        "C042"
+      ]
+    },
+    {
+      "id": "D004",
+      "pages": [
+        2,
+        3,
+        6,
+        9,
+        10
+      ],
+      "citation": "Native vessel geometry/insulation/environment and thermal voyage model",
+      "role": "Need heads/working volume, hull/conduction/heat-leak inputs, actual BOR, duty cycle, pressure/fill limits and calibrated transient outputs.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C006",
+        "C007",
+        "C008",
+        "C009",
+        "C015",
+        "C034",
+        "C038",
+        "C041"
+      ]
+    },
+    {
+      "id": "D005",
+      "pages": [
+        2,
+        3,
+        5,
+        7,
+        9
+      ],
+      "citation": "Bulk mixture versus economic CO2-component basis",
+      "role": "Need component mass/phase recovery, 6000 kg/h definition and mapping of x, vented mass and Figure 9 emissions; do not conflate all bulk BOG withCO2.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C005",
+        "C009",
+        "C010",
+        "C016",
+        "C020",
+        "C034",
+        "C041"
+      ]
+    },
+    {
+      "id": "D006",
+      "pages": [
+        2,
+        5,
+        6,
+        8
+      ],
+      "citation": "Explicit mass, time, energy and monetary-unit conventions",
+      "role": "Need 3600 and 1000 conversions for native W/m, w, CL, k, ETand derivative basis; do not infer unavailable code errors or repaired coefficients.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C017",
+        "C019",
+        "C022",
+        "C031",
+        "C041"
+      ]
+    },
+    {
+      "id": "D007",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "citation": "Generator k, fuel rate, LHV and efficiency",
+      "role": "Carbon composition alone gives fuelCO2/kg, not emissions per electrical work or complete thermal/power inventory.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C019",
+        "C020",
+        "C024",
+        "C030"
+      ]
+    },
+    {
+      "id": "D008",
+      "pages": [
+        5,
+        9
+      ],
+      "citation": "Native capital, nonpower OPEX, availability and equipment sizing",
+      "role": "Need constant-capital justification, actual component/equipment costs and operating availability; fixed count does not prove invariant size/cost.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C018",
+        "C036",
+        "C037"
+      ]
+    },
+    {
+      "id": "D009",
+      "pages": [
+        9
+      ],
+      "citation": "Complete author financial cash flows and rounding conventions",
+      "role": "Need time/discount/price paths and unrounded case outputs. Joint feasible rounding witness is not native data or full LCC reproduction.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C018",
+        "C034",
+        "C035",
+        "C036"
+      ]
+    },
+    {
+      "id": "D010",
+      "pages": [
+        1,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Exact fuel, CO2 sale/carbon-price sources and case identities",
+      "role": "Need historical vintages, regression, 1100/1200 MDO correspondence, 2030 scenario interpretation and actual eligibility; financial proceeds are not climate credits.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C003",
+        "C021",
+        "C024",
+        "C025",
+        "C028",
+        "C029",
+        "C031",
+        "C035",
+        "C037"
+      ]
+    },
+    {
+      "id": "D011",
+      "pages": [
+        7,
+        8
+      ],
+      "citation": "Original historical carbon-market table and definitions",
+      "role": "Need 114 Bversus 143.735 Breconciliation and original categories/rounding; aggregate value/volume not a current instrument price.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C026",
+        "C027"
+      ]
+    },
+    {
+      "id": "D012",
+      "pages": [
+        1,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Native plot arrays, range definitions, axes and captions",
+      "role": "Need Figure 13 versus 15 case and derivative-unit correspondence, abstract/bodyfraction ranges and exact curves; no shifted axes or fabricated precise readings.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C001",
+        "C025",
+        "C032",
+        "C033"
+      ]
+    },
+    {
+      "id": "D013",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Exact originals and deeper citation/model dependencies",
+      "role": "29 other direct originals remain unverified; R021/R029 sharedpages and native spelling/versions need identity checks. R002 selected passages do not complete that original or its NIST/property chain.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C039",
+        "C040"
+      ]
+    },
+    {
+      "id": "D014",
+      "pages": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Complete capture-to-ship utilities, annual service and lifecycle fate",
+      "role": "Need heat, electricity, cooling, suppliers, upstream/EORoil/storage/permanence and native pressure/well histories; financialBOGoptimum is not an annual operating/GHG/retention input.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C002",
+        "C003",
+        "C004",
+        "C016",
+        "C020",
+        "C021",
+        "C030",
+        "C037",
+        "C041",
+        "C042"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "I001",
+      "pages": [
+        2,
+        3,
+        6,
+        9
+      ],
+      "status": "open",
+      "finding": "Assumed BOR/design load is not a measured vessel loss or annual service input.",
+      "action": "Keep.12%/day, 5400 nominal, 6000 design and fill/volume bases separate. No native BOR or voyage-pressure model reproduced."
+    },
+    {
+      "id": "I002",
+      "pages": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "status": "open",
+      "finding": "Bulk BOG and financial CO2-only component definitions are not reconciled.",
+      "action": "Do not apply x or mVto full mixture/cargo/permanence without source mass/component mapping."
+    },
+    {
+      "id": "I003",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "status": "open",
+      "finding": "Cryogenic water and below-triple-temperature process feasibility remain unverified.",
+      "action": "Preserve.917 mol% water andbelow-65.6°C quote. Need validated mixture-solid/hydrate and dehydration model; no pure-fluid proof of exact mixture infeasibility or corrected temperature."
+    },
+    {
+      "id": "I004",
+      "pages": [
+        2,
+        5,
+        6
+      ],
+      "status": "open",
+      "finding": "Power/mass/time/money units and generator k need explicit conventions.",
+      "action": "Keep printed equations and units.3600/1000 diagnostics are not a native code repair; no source gamma derived from approximate plots."
+    },
+    {
+      "id": "I005",
+      "pages": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "status": "open",
+      "finding": "Native HYSYS/cycle/work/derivative data unavailable.",
+      "action": "Keep full native process and optimizer unreproduced. Synthetic work functions only test mathematics; they are not author-fit curves or reported optimal fractions."
+    },
+    {
+      "id": "I006",
+      "pages": [
+        5,
+        9
+      ],
+      "status": "open",
+      "finding": "Constant capital/equipment-count and availability assumptions not independently validated.",
+      "action": "Need actual capacities, costs, design operating limits and availability; no complete cost model from constant-count assertion."
+    },
+    {
+      "id": "I007",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "open",
+      "finding": "MDO baseline 1100 prose differs from Figure 8 caption 1200.",
+      "action": "Preserve both cases and seek native correspondence; do not recalibrate C_L from unlabelled graph values."
+    },
+    {
+      "id": "I008",
+      "pages": [
+        7,
+        8
+      ],
+      "status": "open",
+      "finding": "Market 2009 value 114 B prose differs from 143.735 B table.",
+      "action": "Retain both source figures. Growth/unit-value changes fit table totals; small subtotal differences are rounding-compatible, not proven errors."
+    },
+    {
+      "id": "I009",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "status": "open",
+      "finding": "Carbon-penalty increase cannot lower expense at fixed other inputs in the printed model.",
+      "action": "Qualify native decreasing-expense wording; optimized minimum is also nondecreasing on the same feasible set. Do not confuse increasing recovery/sales with lower total expense."
+    },
+    {
+      "id": "I010",
+      "pages": [
+        1,
+        8,
+        9
+      ],
+      "status": "open",
+      "finding": "Abstract/body optimum ranges and Figure 13/15 cases are unresolved.",
+      "action": "Keep all ranges/axes/caption labels and approximate zero-crossing question. No guessed axis shift or universal 97% recovery factor."
+    },
+    {
+      "id": "I011",
+      "pages": [
+        6,
+        9
+      ],
+      "status": "open",
+      "finding": "Pressure/level chart and 10% margin do not certify safe voyage duration or actual vessel data.",
+      "action": "Need calibrated thermal/control model and exact codes/operating limits; no safe-service/retention inference."
+    },
+    {
+      "id": "I012",
+      "pages": [
+        9
+      ],
+      "status": "open",
+      "finding": "Rounded Table 6 does not uniquely establish unrounded cash flows.",
+      "action": "Joint common-capital/OPEX intervals reconcile the native displayed LCC; do not label point-replay differences proven financial errors. Feasible witness remains analyst diagnostic."
+    },
+    {
+      "id": "I013",
+      "pages": [
+        1,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "open",
+      "finding": "EOR sales and negative financial costs are not whole-chain climate benefit.",
+      "action": "Keep local vent/generator mass separate from capture/upstream/oil/storage/permanence; no retained-carbon or removal credit from sale prices."
+    },
+    {
+      "id": "I014",
+      "pages": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "open",
+      "finding": "Historical prices, policies and uncertain optimum transferability remain qualified.",
+      "action": "No current forecast/eligibility, venting permission or robust design/uncertainty result inferred from²012 scenario assumptions."
+    },
+    {
+      "id": "I015",
+      "pages": [
+        10
+      ],
+      "status": "open",
+      "finding": "Original bibliography identity and full source chains remain incomplete.",
+      "action": "Verify 29 other direct originals and fourteen dependencies, especially shared R021/R029 pages. Selected R002 passages are not full original/model verification."
+    },
+    {
+      "id": "I016",
+      "pages": [
+        4,
+        9,
+        10
+      ],
+      "status": "open",
+      "finding": "SI, code/data and rights correspondence not supplied or externally verified.",
+      "action": "External retrieval remains paused pending requested Chrome; do not infer public-web asset absence or invent declarations."
+    },
+    {
+      "id": "I017",
+      "pages": [
+        1,
+        2,
+        3,
+        5,
+        6,
+        9,
+        10
+      ],
+      "status": "open",
+      "finding": "Paper 1 annual pressure service and complete capture inventory remain unsupplied.",
+      "action": "No accepted operating/GHG input, native source correction or current numerical result changes. Preserve existing combined 1.5 MPa HOLD."
+    }
+  ],
+  "supplements": "No separate SI, code, data or availability statement identified in retained ten-page article; HYSYS 7.1 and bibliography identify software, not supplied versioned case assets. Elsevier all-rights-reserved statement read. External availability/licences and original source assets remain unverified; no outreach sent.",
+  "reproduction": "Forty-one limited checks, five conditional CO2 component splits, three rounded-LCC diagnostic rows and four invented convex scalar cases saved by audit_partial_bog.py. Joint common cashflow rounding is feasible. Native HYSYS, mixture/solid phases, w curve, economic optimum, thermal voyage and full financial/LCI models remain unreproduced. One exact original edge supports only stated source-context qualifications.",
+  "paper1_use": "Acknowledge economic partial-recovery prior art and preserve component/unit/physical/financial boundaries. No actual BOR, utility duty, reported optimum, negative-emissions or retention factor transferred. B3-08 has no accepted curated/analysis rows. Existing combined 1.5 MPa 39.2 HOLD and numerical outputs unchanged.",
+  "next_steps": "Continue B3-09 locally. Verify 29 other direct originals, fourteen dependencies, asset/version/rights and native unit, component, phase, price/plot and cashflow correspondence when external retrieval resumes. All pages read does not complete scientific verification."
+}

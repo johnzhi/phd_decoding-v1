@@ -1,0 +1,214 @@
+{
+  "study_id": "B3-08",
+  "source_sha256": "fb3fc40fbca20613816253c83c1f3655e849e9a21be7722582a6de4958f5d7a7",
+  "equations": [
+    {
+      "id": "E001",
+      "number": 1,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "COP = heat_removed_from_BOG / total_compressor_work_in_cascade",
+      "source_bbox": [
+        35,
+        392.1053161621094,
+        303,
+        432.1053161621094
+      ],
+      "native_region_text": "refrigeration\n system\n is\n defined\n by\n the\n following\n equation:\nCOP\n =\nheat\n removed\n from\n the\n BOG\ntotal\n compressor\n work\n in\n the\n cascade\n cycle\n(1)\nThe\nchange\nin\nthe\nCOP\nof\nthe\npropane–ethylene\nJT\nrefrigeration\nr\na\nd\nr",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E002",
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "m_B = m_L + m_V",
+      "source_bbox": [
+        310,
+        75.50641632080078,
+        559,
+        115.50641632080078
+      ],
+      "native_region_text": "phere.\nB = ˙mL + ˙mV\n(2)\nere ˙mB, ˙mL,and ˙mV are\nthe\ngenerated,\nliquefied,\nand\nvented\nBOG,",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E003",
+      "number": 3,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "x = m_L/m_B",
+      "source_bbox": [
+        310,
+        135.53436279296875,
+        559,
+        175.53436279296875
+      ],
+      "native_region_text": "e\n liquefied\n BOG\n to\n the\n generated\n BOG.\n≡\n˙mL\n˙mB\n(3)",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E004",
+      "number": 4,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "m_V = (1-x)*m_B",
+      "source_bbox": [
+        310,
+        184.962158203125,
+        559,
+        224.962158203125
+      ],
+      "native_region_text": "on:\nV =\n (1\n −\n x) ˙mB\n(4)\nThe\ntotal\ntreatment\nexpense\nfor\nthe\nrecovery\nof\nnormal\ngases",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E005",
+      "number": 5,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "E_T = E_L + E_P - B_S",
+      "source_bbox": [
+        310,
+        293.12176513671875,
+        559,
+        333.12176513671875
+      ],
+      "native_region_text": "L\nP\nO2 sale,\n BS.\n =\n EL +\n EP −\n BS\n(5)\nGenerally\nspeaking,\nthe\nreliquefaction\nexpense,\nEL,consists\nof",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E006",
+      "number": 6,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "E_L = (W_tot(x)/m_B)*C_L = w(x)*C_L",
+      "source_bbox": [
+        310,
+        490.590576171875,
+        559,
+        530.590576171875
+      ],
+      "native_region_text": "ower\n consumption\n for\n liquefying\n BOG.\n =\n˙Wtot(x)\n˙mB\nCL =\n w(x)CL\n(6)",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E007",
+      "number": 7,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "E_P = (m_V+m_G)/m_B*C_P = [(1-x)*m_B+m_G]/m_B*C_P",
+      "source_bbox": [
+        310,
+        650.0935668945312,
+        559,
+        690.0935668945312
+      ],
+      "native_region_text": "mission,\n CP.\n =\n˙mV + ˙mG\n˙mB\nCP = (1 −\n x) ˙mB + ˙mG\n˙mB\nCP\n(7)\nm",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E008",
+      "number": 8,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "m_G = k*W_tot(x)",
+      "source_bbox": [
+        310,
+        689.140380859375,
+        559,
+        729.140380859375
+      ],
+      "native_region_text": "ote\n that ˙mG is\n directly\n proportional\n to\n the\n total\n compressor\n work.\nG =\n k ˙Wtot(x)\n \n(8)\nhe\nproportional\nconstant\nk\nis\ncompletely\ndependent\nupon\nthe\ngen-",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E009",
+      "number": 9,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "E_P = [(1-x)+k*w(x)]*C_P",
+      "source_bbox": [
+        35,
+        282,
+        302,
+        329
+      ],
+      "native_region_text": "pletely\n a\n function\n of\n the\n reliquefaction\n fraction.\nEP =\n˙mV + ˙mG\n˙mB\nCP = (1\n −\n x) ˙mB +\n k ˙Wtot(x)\n˙mB\nCP =\n [(1\n −\n x)\n +\n kw(x)]CP(9)\nProvided\n the\n cargo\n may\n be\n used\n for\n commercial\n purpose\n such",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E010",
+      "number": 10,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "B_S = m_L/m_B*C_S = x*C_S",
+      "source_bbox": [
+        35,
+        353.8304748535156,
+        303,
+        393.8304748535156
+      ],
+      "native_region_text": "treatment\n expense.\nBS =\n˙mL\n˙mB\nCS = x ˙mB\n˙mB\nCS =\n xCS\n(10)",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E011",
+      "number": 11,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "E_T = w(x)*C_L + [(1-x)+k*w(x)]*C_P - x*C_S",
+      "source_bbox": [
+        35,
+        423.2380676269531,
+        303,
+        463.2380676269531
+      ],
+      "native_region_text": "T\nthe\n emission\n penalty,\n and\n benefit\n of\n CO2 sale.\nET =\n w(x)CL +\n [(1\n −\n x)\n +\n kw(x)]CP −\n xCS\n(11)\nAt\nthe\noptimum\nreliquefaction\nfraction,\nthe\nderivative\nof\nthe\ntotal",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E012",
+      "number": 12,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "dE_T/dx = w_prime(x)*(C_L+k*C_P) - (C_P+C_S) = 0",
+      "source_bbox": [
+        35,
+        475.499267578125,
+        303,
+        536.499267578125
+      ],
+      "native_region_text": "treatment\n expense\n vanishes.\ndET\ndx = dw(x)\ndx\nCL −\n CP +\n kCP\ndw(x)\ndx\n−\n CS\n= dw(x)\ndx\n(CL +\n kCP)\n −\n (CP +\n CS) =\n 0\n \n(12)\nThe\nderivative\nof\nthe\nspecific\nwork\ncan\nbe\nexpressed\nby\nthe\nfollow-",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    },
+    {
+      "id": "E013",
+      "number": 13,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "w_prime(x) = (C_P+C_S)/(C_L+k*C_P) at optimum",
+      "source_bbox": [
+        35,
+        547.6952514648438,
+        303,
+        587.6952514648438
+      ],
+      "native_region_text": "ing\n equation\n at\n the\n optimum\n reliquefaction\n fraction.\ndw(x)\ndx\n= CP +\n CS\nCL +\n kCP\nat\n optimum\n \n(13)\nIf\nthe\nderivative\ndoes\nnot\nvanish\nin\nthe\ndomain\nof\n[0,1],\nthe\noptimum",
+      "provenance": "Literal printed relation,with dot-mass and dot-power denoting rates in native layout. Transcription does not insert missing3600/1000unit conversions. FinancialBOG is explicitly redefined as the CO2component in adjacent prose; process/table bulk composition remains separate."
+    }
+  ]
+}
