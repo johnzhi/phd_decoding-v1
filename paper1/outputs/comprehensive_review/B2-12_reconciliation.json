@@ -1,0 +1,27 @@
+{
+  "study_id": "B2-12",
+  "limited_checks": 133,
+  "source_design_rows": 28,
+  "analyst_scalarization_rows": 11,
+  "author_model": "not_reproduced",
+  "combined15_status": "HOLD_CONFLICTING_BEST_SOLUTION_CASE",
+  "source_quotes_not_repaired": true,
+  "existing_case_exclusion_7045333_preserved": true,
+  "newly_accepted_operating_GHG_inputs": 0,
+  "excluded_missing_inputs": [
+    "Native2021a/2021b cost/MILP constraints,network incidence/routes/cost arrays and exact code",
+    "All five-period source profiles and field injectivity/remaining-resource/well limits",
+    "Normalisation,objective units,best-point rule,solver tolerances/logs and complete solution arrays",
+    "Exact Figure17\u201320 case mappings,including combined1.5MPa prose/graphic conflict",
+    "Sphera/GaBi2023.1 native inventories,licensed process datasets and CML characterisation",
+    "Liquefaction method weights,inlet/product states,unrounded duties,cooling/material/supplier inventory",
+    "Tank geometry/steel-density unit,integer/continuous material bases and native equations",
+    "Lorry fuel/unit basis and original Shires calculations",
+    "Ship energy/work basis,round-trip definition,trip-count variables,BOG/98% payload and vent controls",
+    "Appendix/body fugitive,loading,pressure,50kt storage and pipeline unit reconciliations",
+    "Construction timing/activation and shared-node/field emission-allocation mapping",
+    "Additional direct-injection conditioning/dynamic-positioning equipment and utility inventories",
+    "Original supporting citations,relevant external assets and rights beyond retained files",
+    "Capture/purification,maintenance/decommissioning,counterfactual and retained-carbon inventories"
+  ]
+}

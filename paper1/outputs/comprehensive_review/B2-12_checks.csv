@@ -1,0 +1,134 @@
+item,value,unit,basis,source_locator,interpretation
+tank_0.7MPa_thinwall_diameter,13.962857142857143,m,analyst thin-wall hoop-stress relation,p7 Table3,"Comparison only; no native equation, ASME design or thickness tolerance reproduced"
+tank_0.7MPa_volume_m3,4591.7895215986855,m3,analyst cylinder with two flat ends,"pp7,9 Tables3–4","Uses displayed diameter; real heads, allowance and engineering code missing"
+tank_0.7MPa_area_m2,1621.8183047633177,m2,analyst cylinder with two flat ends,"pp7,9 Tables3–4","Uses displayed diameter; real heads, allowance and engineering code missing"
+tank_0.7MPa_thin_shell_volume_m3,72.98182371434929,m3,analyst cylinder with two flat ends,"pp7,9 Tables3–4","Uses displayed diameter; real heads, allowance and engineering code missing"
+tank_0.7MPa_mass_if_steel_unit_kg_m3,573.7101162184997,tsteel,explicit alternative unit interpretation,"pp7,9 Tables3–4","Table3 prints7861t/m3; kg/m3 interpretation approximates Table4, not a source correction"
+tank_0.7MPa_mass_if_literal_t_m3,573710.1162184997,tsteel,literal printed steel-density unit,p7 Table3,Factor1000 larger than kg/m3 interpretation; native unit unresolved
+tank_0.7MPa_conditional_CO2_mass,5.2808,ktCO2,printed volume/density component,"pp7,9 Tables3–4",Gross capacity; no98% fill or actual EOS/purity validation
+tank_1.5MPa_thinwall_diameter,6.515999999999999,m,analyst thin-wall hoop-stress relation,p7 Table3,"Comparison only; no native equation, ASME design or thickness tolerance reproduced"
+tank_1.5MPa_volume_m3,1001.6277025587265,m3,analyst cylinder with two flat ends,"pp7,9 Tables3–4","Uses displayed diameter; real heads, allowance and engineering code missing"
+tank_1.5MPa_area_m2,681.2707032127452,m2,analyst cylinder with two flat ends,"pp7,9 Tables3–4","Uses displayed diameter; real heads, allowance and engineering code missing"
+tank_1.5MPa_thin_shell_volume_m3,30.65718164457353,m3,analyst cylinder with two flat ends,"pp7,9 Tables3–4","Uses displayed diameter; real heads, allowance and engineering code missing"
+tank_1.5MPa_mass_if_steel_unit_kg_m3,240.99610490799253,tsteel,explicit alternative unit interpretation,"pp7,9 Tables3–4","Table3 prints7861t/m3; kg/m3 interpretation approximates Table4, not a source correction"
+tank_1.5MPa_mass_if_literal_t_m3,240996.10490799253,tsteel,literal printed steel-density unit,p7 Table3,Factor1000 larger than kg/m3 interpretation; native unit unresolved
+tank_1.5MPa_conditional_CO2_mass,1.0,ktCO2,printed volume/density component,"pp7,9 Tables3–4",Gross capacity; no98% fill or actual EOS/purity validation
+assumed_density_decrease,13.043478260869568,%,source assumed-density arithmetic,"pp3,7","13% wording agrees with1150/1000 assumptions, not a general pressure-only EOS law"
+Table4_low_high_volume_ratio,4.592,ratio,printed tank volume comparison,p9 Table4,About4.6 volume versus5.28 mass ratio; preserve approximate five-times wording
+6kt_0.7MPa_ceil_tanks,2,tanks,printed capacity ceiling component,p9 Tables4–5,Matches printed count; no buffer availability or headspace feasibility inferred
+6kt_0.7MPa_rounded_mass_residual,0,tsteel,rounded table comparison,p9 Tables4–5,Displayed one-tank mass is rounded; residual is not a proven material error
+6kt_0.7MPa_steel_GWP,2514.12,tCO2e,printed steel-factor component,p9 Table5,Compare rounded table values only; no complete construction LCI reproduced
+6kt_1.5MPa_ceil_tanks,6,tanks,printed capacity ceiling component,p9 Tables4–5,Matches printed count; no buffer availability or headspace feasibility inferred
+6kt_1.5MPa_rounded_mass_residual,-3,tsteel,rounded table comparison,p9 Tables4–5,Displayed one-tank mass is rounded; residual is not a proven material error
+10kt_0.7MPa_ceil_tanks,2,tanks,printed capacity ceiling component,p9 Tables4–5,Matches printed count; no buffer availability or headspace feasibility inferred
+10kt_0.7MPa_rounded_mass_residual,0,tsteel,rounded table comparison,p9 Tables4–5,Displayed one-tank mass is rounded; residual is not a proven material error
+10kt_0.7MPa_steel_GWP,2514.12,tCO2e,printed steel-factor component,p9 Table5,Compare rounded table values only; no complete construction LCI reproduced
+10kt_1.5MPa_ceil_tanks,10,tanks,printed capacity ceiling component,p9 Tables4–5,Matches printed count; no buffer availability or headspace feasibility inferred
+10kt_1.5MPa_rounded_mass_residual,-5,tsteel,rounded table comparison,p9 Tables4–5,Displayed one-tank mass is rounded; residual is not a proven material error
+10kt_1.5MPa_steel_GWP,5266.95,tCO2e,printed steel-factor component,p9 Table5,Compare rounded table values only; no complete construction LCI reproduced
+20kt_0.7MPa_ceil_tanks,4,tanks,printed capacity ceiling component,p9 Tables4–5,Matches printed count; no buffer availability or headspace feasibility inferred
+20kt_0.7MPa_rounded_mass_residual,-1,tsteel,rounded table comparison,p9 Tables4–5,Displayed one-tank mass is rounded; residual is not a proven material error
+20kt_0.7MPa_steel_GWP,5026.05,tCO2e,printed steel-factor component,p9 Table5,Compare rounded table values only; no complete construction LCI reproduced
+20kt_1.5MPa_ceil_tanks,20,tanks,printed capacity ceiling component,p9 Tables4–5,Matches printed count; no buffer availability or headspace feasibility inferred
+20kt_1.5MPa_rounded_mass_residual,-9,tsteel,rounded table comparison,p9 Tables4–5,Displayed one-tank mass is rounded; residual is not a proven material error
+50kt_0.7MPa_ceil_tanks,10,tanks,printed capacity ceiling component,p9 Tables4–5,Matches printed count; no buffer availability or headspace feasibility inferred
+50kt_0.7MPa_rounded_mass_residual,-1,tsteel,rounded table comparison,p9 Tables4–5,Displayed one-tank mass is rounded; residual is not a proven material error
+50kt_0.7MPa_steel_GWP,12568.41,tCO2e,printed steel-factor component,p9 Table5,Compare rounded table values only; no complete construction LCI reproduced
+50kt_1.5MPa_ceil_tanks,50,tanks,printed capacity ceiling component,p9 Tables4–5,Matches printed count; no buffer availability or headspace feasibility inferred
+50kt_1.5MPa_rounded_mass_residual,-23,tsteel,rounded table comparison,p9 Tables4–5,Displayed one-tank mass is rounded; residual is not a proven material error
+ship_6000t_DWT_from85percent_cargo,7058.823529411765,tDWT,source cargo/DWT assumption,p10 Table10,"Not legal payload, stability, power or shipyard validation"
+ship_6000t_base_plus_tanks,4303,tCO2e,printed construction accounting,p10 Table10,Reported total reconstructs; source inventory/regression remains unverified
+ship_6000t_tank_GHG_if_continuous_count,1428.4772727272727,tCO2e,explicit continuous-count comparison,"pp9–10 Tables5,10","Pattern approximates ship tank column, not integer facility table; native sizing basis unresolved"
+ship_10000t_DWT_from85percent_cargo,11764.705882352942,tDWT,source cargo/DWT assumption,p10 Table10,"Not legal payload, stability, power or shipyard validation"
+ship_10000t_base_plus_tanks,7173,tCO2e,printed construction accounting,p10 Table10,Reported total reconstructs; source inventory/regression remains unverified
+ship_10000t_tank_GHG_if_continuous_count,2380.795454545454,tCO2e,explicit continuous-count comparison,"pp9–10 Tables5,10","Pattern approximates ship tank column, not integer facility table; native sizing basis unresolved"
+ship_20000t_DWT_from85percent_cargo,23529.411764705885,tDWT,source cargo/DWT assumption,p10 Table10,"Not legal payload, stability, power or shipyard validation"
+ship_20000t_base_plus_tanks,14346,tCO2e,printed construction accounting,p10 Table10,Reported total reconstructs; source inventory/regression remains unverified
+ship_20000t_tank_GHG_if_continuous_count,4761.590909090908,tCO2e,explicit continuous-count comparison,"pp9–10 Tables5,10","Pattern approximates ship tank column, not integer facility table; native sizing basis unresolved"
+ship_50000t_DWT_from85percent_cargo,58823.529411764706,tDWT,source cargo/DWT assumption,p10 Table10,"Not legal payload, stability, power or shipyard validation"
+ship_50000t_base_plus_tanks,35867,tCO2e,printed construction accounting,p10 Table10,Reported total reconstructs; source inventory/regression remains unverified
+ship_50000t_tank_GHG_if_continuous_count,11903.977272727272,tCO2e,explicit continuous-count comparison,"pp9–10 Tables5,10","Pattern approximates ship tank column, not integer facility table; native sizing basis unresolved"
+high10kt_construction_sum,10061,tCO2e,printed component sum,p10 Table10,"10061 remains reported construction factor, not independent ship LCA"
+facility_site_component_sum,767.5899999999999,tCO2e/ktcapacity,printed component sum,"pp9,23",767.59 rounds to Appendix768; ship-capacity versus stored-flow unit still needs mapping
+50kt_storage_appendix_minus_body,-540,tCO2e,literal body/appendix comparison,"pp9,23",12027 versus12567; do not select a corrected cell
+ship_WtW_component_sum,629,gCO2e/kWh,printed fuel-boundary sum,p10,488+141=629; underlying methane/carbon factors not reproduced
+ship_6kt_energy_times_WtW_factor,155.992,tCO2e/day,conditional power/energy basis comparison,pp22–23,Requires compatible engine-output versus fuel-energy basis; exact unrounded daily factors missing
+ship_6kt_daily_factor_residual,-0.4919999999999902,tCO2e/day,printed daily-factor comparison,pp22–23,Do not silently replace either source factor;6kt residual about0.3%
+ship_10kt_energy_times_WtW_factor,165.427,tCO2e/day,conditional power/energy basis comparison,pp22–23,Requires compatible engine-output versus fuel-energy basis; exact unrounded daily factors missing
+ship_10kt_daily_factor_residual,-0.026999999999986812,tCO2e/day,printed daily-factor comparison,pp22–23,Do not silently replace either source factor;6kt residual about0.3%
+ship_20kt_energy_times_WtW_factor,189.329,tCO2e/day,conditional power/energy basis comparison,pp22–23,Requires compatible engine-output versus fuel-energy basis; exact unrounded daily factors missing
+ship_20kt_daily_factor_residual,-0.028999999999996362,tCO2e/day,printed daily-factor comparison,pp22–23,Do not silently replace either source factor;6kt residual about0.3%
+ship_50kt_energy_times_WtW_factor,261.035,tCO2e/day,conditional power/energy basis comparison,pp22–23,Requires compatible engine-output versus fuel-energy basis; exact unrounded daily factors missing
+ship_50kt_daily_factor_residual,-0.03500000000002501,tCO2e/day,printed daily-factor comparison,pp22–23,Do not silently replace either source factor;6kt residual about0.3%
+body_terminal_fugitive_30y,751.608,tCO2e/site,conditional uninterrupted30year activity,"pp8,23",Literal factors differ tenfold; no actual-site count or availability assigned
+body_toy_active_state_t,751.6080000000001,tCO2e,disclosed five-period activity example,p17 Eq12,Active state and activation increment differ; no claim native code follows printed increment
+body_toy_activation_increment_t,150.32160000000002,tCO2e,disclosed five-period activity example,p17 Eq12,Active state and activation increment differ; no claim native code follows printed increment
+appendix_terminal_fugitive_30y,7516.08,tCO2e/site,conditional uninterrupted30year activity,"pp8,23",Literal factors differ tenfold; no actual-site count or availability assigned
+appendix_toy_active_state_t,7516.08,tCO2e,disclosed five-period activity example,p17 Eq12,Active state and activation increment differ; no claim native code follows printed increment
+appendix_toy_activation_increment_t,1503.2160000000001,tCO2e,disclosed five-period activity example,p17 Eq12,Active state and activation increment differ; no claim native code follows printed increment
+toy_retired_increment_total,0.0,tCO2e,disclosed activity example,p17 Eq12,Negative retirement increments can cancel earlier release; source monotonicity/implementation unknown
+lorry_construction_component_sum,70.0,tCO2e/lorry,printed component sum,p12,25.1+44.9=70; no truck/tank geometry or native LCA reproduced
+CO2_literal_g_to_kg,0.0077800000000000005,kgCO2e/km,conditional unit/characterisation comparison,p12 Table12,Input g/km versus output kg/km differs1000; native Shires/CML conversion unresolved
+CO2_alternative_input_kg,7.78,kgCO2e/km,conditional unit/characterisation comparison,p12 Table12,Input g/km versus output kg/km differs1000; native Shires/CML conversion unresolved
+CH4_literal_g_to_kg,9.436e-07,kgCO2e/km,conditional unit/characterisation comparison,p12 Table12,Input g/km versus output kg/km differs1000; native Shires/CML conversion unresolved
+CH4_alternative_input_kg,0.0009436,kgCO2e/km,conditional unit/characterisation comparison,p12 Table12,Input g/km versus output kg/km differs1000; native Shires/CML conversion unresolved
+N2O_literal_g_to_kg,5.9625e-08,kgCO2e/km,conditional unit/characterisation comparison,p12 Table12,Input g/km versus output kg/km differs1000; native Shires/CML conversion unresolved
+N2O_alternative_input_kg,5.9625e-05,kgCO2e/km,conditional unit/characterisation comparison,p12 Table12,Input g/km versus output kg/km differs1000; native Shires/CML conversion unresolved
+lorry_appendix_body_factor_difference,-0.08000000000000007,kgCO2e/km,literal body/appendix comparison,"pp12,23",7.7 versus7.78; no source value corrected
+handling_6000t_1stages,36.0,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_6000t_2stages,72.0,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_6000t_implied_two_stage_grid,0.03129166666666666,kgCO2e/kWh,conditional inverse component,p12 Table13,Not an accepted supplier factor; truck rounding/mass basis remains open
+handling_10000t_1stages,60.0,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_10000t_2stages,120.0,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_10000t_implied_two_stage_grid,0.0313,kgCO2e/kWh,conditional inverse component,p12 Table13,Not an accepted supplier factor; truck rounding/mass basis remains open
+handling_20000t_1stages,120.0,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_20000t_2stages,240.0,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_20000t_implied_two_stage_grid,0.0313,kgCO2e/kWh,conditional inverse component,p12 Table13,Not an accepted supplier factor; truck rounding/mass basis remains open
+handling_50000t_1stages,300.0,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_50000t_2stages,600.0,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_50000t_implied_two_stage_grid,0.031310000000000004,kgCO2e/kWh,conditional inverse component,p12 Table13,Not an accepted supplier factor; truck rounding/mass basis remains open
+handling_30t_1stages,0.18,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_30t_2stages,0.36,kgCO2e/trip,explicit one/two-operation comparison,p12 Table13,Ships' two-operation implied grid approximately0.03131 can round to0.03; native loading convention/unrounded input unresolved
+handling_30t_implied_two_stage_grid,0.024999999999999998,kgCO2e/kWh,conditional inverse component,p12 Table13,Not an accepted supplier factor; truck rounding/mass basis remains open
+appendix_handling_6000t_specific_work,0.2,kWh/t,printed appendix energy/cargo conversion,p23 TableA2,20/50kt entries yield0.1 versus body0.2; stage/batch basis unresolved
+appendix_handling_20000t_specific_work,0.1,kWh/t,printed appendix energy/cargo conversion,p23 TableA2,20/50kt entries yield0.1 versus body0.2; stage/batch basis unresolved
+appendix_handling_50000t_specific_work,0.1,kWh/t,printed appendix energy/cargo conversion,p23 TableA2,20/50kt entries yield0.1 versus body0.2; stage/batch basis unresolved
+appendix_handling_10000t_specific_work,0.2,kWh/t,printed appendix energy/cargo conversion,p23 TableA2,20/50kt entries yield0.1 versus body0.2; stage/batch basis unresolved
+storage_resource_sum,6051,MtCO2,printed stock sum,p15 Table14,6051Mt resource is not annual pressure-constrained injection service
+profile_rounded_source_sum,296,MtCO2,rounded legend sum,p16 Figure15,296 is compatible with296.3 rounded total; source with zero printed is not known zero flow
+NL_CAGR_24year_interval,8.785302895158797,%,conditional calendar comparison,p15,Thirty-year equivalent roughly matches reported7/14/10%; no complete period-average/calendar arrays inferred
+NL_CAGR_30year_interval,6.968567592504704,%,conditional calendar comparison,p15,Thirty-year equivalent roughly matches reported7/14/10%; no complete period-average/calendar arrays inferred
+SM_CAGR_24year_interval,17.736373298167685,%,conditional calendar comparison,p15,Thirty-year equivalent roughly matches reported7/14/10%; no complete period-average/calendar arrays inferred
+SM_CAGR_30year_interval,13.953724163508262,%,conditional calendar comparison,p15,Thirty-year equivalent roughly matches reported7/14/10%; no complete period-average/calendar arrays inferred
+combined_CAGR_24year_interval,12.450655809041855,%,conditional calendar comparison,p15,Thirty-year equivalent roughly matches reported7/14/10%; no complete period-average/calendar arrays inferred
+combined_CAGR_30year_interval,9.842293928348301,%,conditional calendar comparison,p15,Thirty-year equivalent roughly matches reported7/14/10%; no complete period-average/calendar arrays inferred
+NL07_quoted_mass_equivalent,150.2957317073171,MtCO2stored,prose-only denominator diagnostic,"pp18,20,22",Not native mass proof; combined15 remainsHOLD despite internally compatible prose ratios
+NL07_quoted_GWP_mass_percent,3.28,%,unit conversion of reported quote,"pp18,20,22","Postcapture burden/stored-mass ratio, not loss fraction, capture efficiency or whole-chain avoidance"
+NL15_quoted_mass_equivalent,150.29589632829374,MtCO2stored,prose-only denominator diagnostic,"pp18,20,22",Not native mass proof; combined15 remainsHOLD despite internally compatible prose ratios
+NL15_quoted_GWP_mass_percent,4.63,%,unit conversion of reported quote,"pp18,20,22","Postcapture burden/stored-mass ratio, not loss fraction, capture efficiency or whole-chain avoidance"
+SM07_quoted_mass_equivalent,145.82477128782548,MtCO2stored,prose-only denominator diagnostic,"pp18,20,22",Not native mass proof; combined15 remainsHOLD despite internally compatible prose ratios
+SM07_quoted_GWP_mass_percent,14.209999999999999,%,unit conversion of reported quote,"pp18,20,22","Postcapture burden/stored-mass ratio, not loss fraction, capture efficiency or whole-chain avoidance"
+SM15_quoted_mass_equivalent,145.89640287769782,MtCO2stored,prose-only denominator diagnostic,"pp18,20,22",Not native mass proof; combined15 remainsHOLD despite internally compatible prose ratios
+SM15_quoted_GWP_mass_percent,13.9,%,unit conversion of reported quote,"pp18,20,22","Postcapture burden/stored-mass ratio, not loss fraction, capture efficiency or whole-chain avoidance"
+combined07_quoted_mass_equivalent,296.5734939759036,MtCO2stored,prose-only denominator diagnostic,"pp18,20,22",Not native mass proof; combined15 remainsHOLD despite internally compatible prose ratios
+combined07_quoted_GWP_mass_percent,4.15,%,unit conversion of reported quote,"pp18,20,22","Postcapture burden/stored-mass ratio, not loss fraction, capture efficiency or whole-chain avoidance"
+combined15_quoted_mass_equivalent,296.3698979591837,MtCO2stored,prose-only denominator diagnostic,"pp18,20,22",Not native mass proof; combined15 remainsHOLD despite internally compatible prose ratios
+combined15_quoted_GWP_mass_percent,3.9200000000000004,%,unit conversion of reported quote,"pp18,20,22","Postcapture burden/stored-mass ratio, not loss fraction, capture efficiency or whole-chain avoidance"
+conditional_3well_construction,190.74,ktCO2e,conditional integer-well accounting,"pp19–21,23",Approximates labels191/254/381/572; no actual well schedule or pressure feasibility reconstructed
+conditional_4well_construction,254.32,ktCO2e,conditional integer-well accounting,"pp19–21,23",Approximates labels191/254/381/572; no actual well schedule or pressure feasibility reconstructed
+conditional_6well_construction,381.48,ktCO2e,conditional integer-well accounting,"pp19–21,23",Approximates labels191/254/381/572; no actual well schedule or pressure feasibility reconstructed
+conditional_9well_construction,572.22,ktCO2e,conditional integer-well accounting,"pp19–21,23",Approximates labels191/254/381/572; no actual well schedule or pressure feasibility reconstructed
+one_well_30y_fugitive,0.76212,tCO2e,literal grams-to-tonnes and hypothetical continuous activity,p23,0.76212t per well is not measured field leakage or retention
+literal_vent_ratio_1days,4.347826086956522e-05,fraction under printed-percentage interpretation,literal Eq8 algebra treating EF4 as dimensionless percentage,"pp12,16–17",Positive before46days; body per-day rate versus printed percentage definition unresolved. Not an actual cargo-loss estimate
+conditional_threshold_vent_1days,0.0,fraction of initial capacity/trip,explicit alternative threshold/constant-volume interpretation,p12,Not a corrected native BOG law; density/compounding/pressure controller unknown
+literal_vent_ratio_10days,0.0004347826086956522,fraction under printed-percentage interpretation,literal Eq8 algebra treating EF4 as dimensionless percentage,"pp12,16–17",Positive before46days; body per-day rate versus printed percentage definition unresolved. Not an actual cargo-loss estimate
+conditional_threshold_vent_10days,0.0,fraction of initial capacity/trip,explicit alternative threshold/constant-volume interpretation,p12,Not a corrected native BOG law; density/compounding/pressure controller unknown
+literal_vent_ratio_46days,0.002,fraction under printed-percentage interpretation,literal Eq8 algebra treating EF4 as dimensionless percentage,"pp12,16–17",Positive before46days; body per-day rate versus printed percentage definition unresolved. Not an actual cargo-loss estimate
+conditional_threshold_vent_46days,0.0,fraction of initial capacity/trip,explicit alternative threshold/constant-volume interpretation,p12,Not a corrected native BOG law; density/compounding/pressure controller unknown
+literal_vent_ratio_50days,0.002173913043478261,fraction under printed-percentage interpretation,literal Eq8 algebra treating EF4 as dimensionless percentage,"pp12,16–17",Positive before46days; body per-day rate versus printed percentage definition unresolved. Not an actual cargo-loss estimate
+conditional_threshold_vent_50days,0.008,fraction of initial capacity/trip,explicit alternative threshold/constant-volume interpretation,p12,Not a corrected native BOG law; density/compounding/pressure controller unknown
+days_divided_by24_ratio,0.041666666666666664,ratio,literal unit diagnostic,pp16–17 Eq8,TRIP defined in days and factor per day; dividing by24 would reduce by24 unless native TRIP uses hours
+toy_weighted_sum_middle_plan_selected,0,runs,disclosed nonconvex three-plan example,"pp16,18–19",Weighted sums miss a nondominated discrete point; sampled native runs do not certify complete Pareto coverage
+toy_epsilon_middle_plan,1,plan index,independent epsilon-constrained MILP,"pp16,18–19",Selects nondominated middle plan in the example; no native optimum tested
+toy_weighted_choice_tonne,0,plan index,disclosed unnormalised cost/mass example,p16 Eq2,Same numeric percentage weight changes choice under mass units; native normalisation/implicit carbon price missing
+toy_weighted_choice_kilogram,1,plan index,disclosed unnormalised cost/mass example,p16 Eq2,Same numeric percentage weight changes choice under mass units; native normalisation/implicit carbon price missing

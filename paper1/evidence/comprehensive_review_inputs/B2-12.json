@@ -1,0 +1,680 @@
+{
+  "study_id": "B2-12",
+  "source": {
+    "study_id": "B2-12",
+    "path": "papers/B2-12.pdf",
+    "sha256": "d72f7eb3ced1df218f53b4c2d3bf025331957a8ea362ad38b9bf5b6b6166ccf3",
+    "doi": "10.1016/j.ccst.2024.100190"
+  },
+  "cited_sources": [
+    {
+      "study_id": "B3-38",
+      "path": "papers/B3-38.pdf",
+      "sha256": "518dbe935abd0c7cfa92e5554b92f1ecbdf641ceedcb1ef9e36f76b06140d79f",
+      "doi": "10.3390/en14185635"
+    }
+  ],
+  "provenance": "All24 native pages and internal appendix text-read/rendered;16 magnifications inspected. All20 figures,16 numbered tables,AppendixA1/A2 and13 numbered equations read. Native labels/units retained, not silently repaired. Main source-case HOLD already saved in7045333.",
+  "geometry": {
+    "pressure_MPa": [
+      0.7,
+      1.5
+    ],
+    "thickness_m": 0.045,
+    "allowable_stress_MPa": 108.6,
+    "height_m": 30,
+    "diameter_m": [
+      13.96,
+      6.52
+    ],
+    "CO2_density_kg_m3": [
+      1150,
+      1000
+    ],
+    "steel_density_printed": 7861,
+    "steel_density_printed_unit": "t/m3",
+    "table4": {
+      "volume_m3": [
+        4592,
+        1000
+      ],
+      "steel_area_m2": [
+        1621,
+        681
+      ],
+      "steel_volume_m3": [
+        73,
+        30.6
+      ],
+      "empty_mass_t": [
+        574,
+        241
+      ],
+      "CO2_capacity_kt": [
+        5.28,
+        1
+      ]
+    }
+  },
+  "tanks": {
+    "ship_capacity_kt": [
+      6,
+      10,
+      20,
+      50
+    ],
+    "number_low": [
+      2,
+      2,
+      4,
+      10
+    ],
+    "number_high": [
+      6,
+      10,
+      20,
+      50
+    ],
+    "steel_low_t": [
+      1148,
+      1148,
+      2295,
+      5739
+    ],
+    "steel_high_t": [
+      1443,
+      2405,
+      4811,
+      12027
+    ],
+    "GHG_low_t": [
+      2513,
+      2513,
+      5027,
+      12567
+    ],
+    "GHG_high_t": [
+      null,
+      5268,
+      null,
+      null
+    ],
+    "steel_EF_t_t": 2.19,
+    "site_components_t_per_kt": [
+      537.06,
+      230.53
+    ],
+    "admin_t_facility": 7067
+  },
+  "liquefaction": {
+    "countries": [
+      "Norway",
+      "Sweden",
+      "Belgium",
+      "France",
+      "Ireland"
+    ],
+    "low_kg_t": [
+      0.9,
+      1,
+      4.3,
+      1.8,
+      9.4
+    ],
+    "high_kg_t": [
+      0.7,
+      0.8,
+      3.4,
+      1.4,
+      7.5
+    ],
+    "native_inlet_pressure_MPa": 7,
+    "body_pressure_design_labels_MPa": [
+      7,
+      1.5
+    ],
+    "table_pressure_design_labels_MPa": [
+      0.7,
+      1.5
+    ],
+    "native_duty_kWh_t": null,
+    "country_EF_series": null,
+    "case_note": "Average across referenced process methods,not one matched process case; construction/coolants/venting/fugitive excluded p6"
+  },
+  "ship_construction": {
+    "capacity_t": [
+      6000,
+      10000,
+      20000,
+      50000
+    ],
+    "DWT_t": [
+      7059,
+      11765,
+      23529,
+      58824
+    ],
+    "noncargo_DWT_fraction": 0.15,
+    "base_GHG_t": [
+      2876,
+      4793,
+      9587,
+      23968
+    ],
+    "low_tank_GHG_t": [
+      1427,
+      2380,
+      4759,
+      11899
+    ],
+    "low_total_GHG_t": [
+      4303,
+      7173,
+      14346,
+      35867
+    ],
+    "high_10kt_tank_GHG_t": 5268,
+    "high_10kt_total_GHG_t": 10061,
+    "GaBi_DWT_labels": [
+      "50,000",
+      "100,000",
+      "200,0000"
+    ],
+    "GaBi_CO2_t": [
+      22700,
+      37100,
+      66000
+    ],
+    "GaBi_CH4_t": [
+      19.7,
+      32,
+      57
+    ],
+    "Panamax": {
+      "DWT_t": 74296,
+      "speed_kn": 14,
+      "length_m": 219,
+      "breadth_m": 32.24,
+      "depth_m": 20.6,
+      "draught_m": 14.17,
+      "main_engine_t": 368,
+      "aux_engine_t": 19.7,
+      "aux_engine_count": 3,
+      "CO2_t": 22900,
+      "CH4_t": 4.06
+    },
+    "regression_coefficients": null,
+    "characterisation_factors": null
+  },
+  "operation": {
+    "ship_capacities_kt": [
+      6,
+      10,
+      20,
+      50
+    ],
+    "energy_MWh_day": [
+      248,
+      263,
+      301,
+      415
+    ],
+    "WtW_t_day": [
+      155.5,
+      165.4,
+      189.3,
+      261
+    ],
+    "total_g_kWh": 629,
+    "combustion_g_kWh": 488,
+    "supply_g_kWh": 141,
+    "LNG_g_kWh": 159.3,
+    "CH4_g_kWh": 3.84,
+    "N2O_g_kWh": 0.017,
+    "ship_hours_year": 8332,
+    "ship_speed_kmh": 27.8,
+    "ship_loading_h": [
+      26,
+      26,
+      50,
+      80
+    ],
+    "lorry_hours_year": 7884,
+    "lorry_speed_kmh": 50,
+    "lorry_loading_h": 0.8,
+    "terminal_fugitive_body_t_h": 0.00286,
+    "terminal_fugitive_appendix_t_h": 0.0286,
+    "ship_headspace_full_fraction": 0.98,
+    "buildup_days": 46,
+    "vent_fraction_per_day": 0.002,
+    "construction_reference_years": 30
+  },
+  "lorry": {
+    "capacity_t": 30,
+    "construction_vehicle_t": 25.1,
+    "construction_tank_t": 44.9,
+    "construction_total_t": 70,
+    "table12_input_unit": "g/km",
+    "table12_output_unit": "kgCO2e/km",
+    "species": [
+      "CO2",
+      "CH4",
+      "N2O"
+    ],
+    "input_values": [
+      7.78,
+      3.37e-05,
+      2.25e-07
+    ],
+    "output_GWP_values": [
+      7.78,
+      0.000944,
+      5.96e-05
+    ],
+    "body_total_kg_km": 7.78,
+    "appendix_total_kg_km": 7.7,
+    "appendix_loading_kWh_trip": 12
+  },
+  "handling": {
+    "capacity_t": [
+      6000,
+      10000,
+      20000,
+      50000,
+      30
+    ],
+    "reported_kg_trip": [
+      75.1,
+      125.2,
+      250.4,
+      626.2,
+      0.3
+    ],
+    "body_kWh_t": 0.2,
+    "NO_grid_kg_kWh": 0.03,
+    "appendix_ship_capacity_t": [
+      6000,
+      20000,
+      50000,
+      10000
+    ],
+    "appendix_MWh_trip": [
+      1.2,
+      2,
+      5,
+      2
+    ],
+    "appendix_high_only_10kt": true
+  },
+  "case": {
+    "periods": 5,
+    "years_per_period": 6,
+    "source_total_Mt": 296.3,
+    "profile_rounded_source_Mt": [
+      61,
+      66,
+      19,
+      9,
+      48,
+      49,
+      32,
+      0,
+      12
+    ],
+    "source_ids": [
+      "Antwerp7",
+      "Dunkirk6",
+      "Ervia8",
+      "FOV3",
+      "Kollsnes5",
+      "Norcem1",
+      "Preem4",
+      "SL-F1_9",
+      "Yara2"
+    ],
+    "source_arrays": null,
+    "endpoint_Mt_year": {
+      "NL": [
+        1.1,
+        8.3
+      ],
+      "SM": [
+        0.3,
+        15.1
+      ],
+      "combined": [
+        1.4,
+        23.4
+      ]
+    },
+    "reported_CAGR_percent": {
+      "NL": 7,
+      "SM": 14,
+      "combined": 10
+    },
+    "resource_fields": [
+      "Aurora13",
+      "Smeaheia_gamma14",
+      "Smeaheia_alpha15",
+      "Troll16"
+    ],
+    "resource_Mt": [
+      206,
+      1800,
+      45,
+      4000
+    ],
+    "available_period": [
+      1,
+      2,
+      2,
+      5
+    ],
+    "resource_total_Mt": 6051
+  },
+  "appendix": {
+    "site_factor_t_per_kt": 768,
+    "low_tank_pressure_label": "7MPa",
+    "high_tank_pressure_label": "15MPa",
+    "storage_50kt_GHG_t": 12027,
+    "pipeline_steel_EF_kg_kg": 2.2,
+    "pipeline_fugitive_t_km": 2.3,
+    "booster_diameter_inch": [
+      36,
+      40,
+      48
+    ],
+    "booster_printed_values": [
+      2,
+      1.7,
+      1.4
+    ],
+    "booster_printed_unit": "kWh^-1 tCO2transported",
+    "booster_fugitive_value": 23.24,
+    "booster_fugitive_printed_unit": "tCO2e MW year^-1",
+    "well_construction_t": 63580,
+    "well_fugitive_g_h": 2.9
+  },
+  "best_reported": [
+    {
+      "case": "NL07",
+      "pressure_MPa": 0.7,
+      "weight_percent": 10,
+      "cost_change_percent": 0.4,
+      "GHG_change_percent": -3.3,
+      "GWP_kg_t": 32.8,
+      "total_kt": 4929.7,
+      "status": "reported_partial_case_not_independently_validated"
+    },
+    {
+      "case": "NL15",
+      "pressure_MPa": 1.5,
+      "weight_percent": 50,
+      "cost_change_percent": 1.1,
+      "GHG_change_percent": -0.8,
+      "GWP_kg_t": 46.3,
+      "total_kt": 6958.7,
+      "status": "reported_partial_case_not_independently_validated"
+    },
+    {
+      "case": "SM07",
+      "pressure_MPa": 0.7,
+      "weight_percent": 60,
+      "cost_change_percent": 1.4,
+      "GHG_change_percent": -0.4,
+      "GWP_kg_t": 142.1,
+      "total_kt": 20721.7,
+      "status": "reported_partial_case_not_independently_validated"
+    },
+    {
+      "case": "SM15",
+      "pressure_MPa": 1.5,
+      "weight_percent": 60,
+      "cost_change_percent": 1.1,
+      "GHG_change_percent": -0.4,
+      "GWP_kg_t": 139,
+      "total_kt": 20279.6,
+      "status": "reported_partial_case_not_independently_validated"
+    },
+    {
+      "case": "combined07",
+      "pressure_MPa": 0.7,
+      "weight_percent": 20,
+      "cost_change_percent": 0.2,
+      "GHG_change_percent": -1.9,
+      "GWP_kg_t": 41.5,
+      "total_kt": 12307.8,
+      "status": "reported_partial_case_not_independently_validated"
+    },
+    {
+      "case": "combined15",
+      "pressure_MPa": 1.5,
+      "weight_percent": 20,
+      "cost_change_percent": 13.3,
+      "GHG_change_percent": -33.8,
+      "GWP_kg_t": 39.2,
+      "total_kt": 11617.7,
+      "status": "HOLD_CONFLICTING_BEST_SOLUTION_CASE"
+    }
+  ],
+  "generic_designs": [
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 6000,
+      "distance_km": 50,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 6000,
+      "distance_km": 100,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 6000,
+      "distance_km": 200,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 6000,
+      "distance_km": 400,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 6000,
+      "distance_km": 800,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 10000,
+      "distance_km": 50,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 10000,
+      "distance_km": 100,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 10000,
+      "distance_km": 200,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 10000,
+      "distance_km": 400,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 10000,
+      "distance_km": 800,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 20000,
+      "distance_km": 50,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 20000,
+      "distance_km": 100,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 20000,
+      "distance_km": 200,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 20000,
+      "distance_km": 400,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 20000,
+      "distance_km": 800,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 50000,
+      "distance_km": 50,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 50000,
+      "distance_km": 100,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 50000,
+      "distance_km": 200,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 50000,
+      "distance_km": 400,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 0.7,
+      "capacity_t": 50000,
+      "distance_km": 800,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 1.5,
+      "capacity_t": 10000,
+      "distance_km": 50,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 1.5,
+      "capacity_t": 10000,
+      "distance_km": 100,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 1.5,
+      "capacity_t": 10000,
+      "distance_km": 200,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 1.5,
+      "capacity_t": 10000,
+      "distance_km": 400,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "ship",
+      "pressure_MPa": 1.5,
+      "capacity_t": 10000,
+      "distance_km": 800,
+      "source_locator": "pp13–14 Figures11–13;50km omitted from AppendixA1 distance list"
+    },
+    {
+      "mode": "lorry",
+      "pressure_MPa": 0.7,
+      "capacity_t": 30,
+      "distance_km": 25,
+      "source_locator": "p13 Figure11/p14 Figure13"
+    },
+    {
+      "mode": "lorry",
+      "pressure_MPa": 0.7,
+      "capacity_t": 30,
+      "distance_km": 50,
+      "source_locator": "p13 Figure11/p14 Figure13"
+    },
+    {
+      "mode": "lorry",
+      "pressure_MPa": 0.7,
+      "capacity_t": 30,
+      "distance_km": 100,
+      "source_locator": "p13 Figure11/p14 Figure13"
+    }
+  ],
+  "analyst": {
+    "days_per_year": 365,
+    "hours_per_year": 8760,
+    "full_cargo_and98percent_alternatives": true,
+    "rounding_note": "Display intervals only,not empirical uncertainty."
+  },
+  "missing_inputs": [
+    "Native2021a/2021b cost/MILP constraints,network incidence/routes/cost arrays and exact code",
+    "All five-period source profiles and field injectivity/remaining-resource/well limits",
+    "Normalisation,objective units,best-point rule,solver tolerances/logs and complete solution arrays",
+    "Exact Figure17–20 case mappings,including combined1.5MPa prose/graphic conflict",
+    "Sphera/GaBi2023.1 native inventories,licensed process datasets and CML characterisation",
+    "Liquefaction method weights,inlet/product states,unrounded duties,cooling/material/supplier inventory",
+    "Tank geometry/steel-density unit,integer/continuous material bases and native equations",
+    "Lorry fuel/unit basis and original Shires calculations",
+    "Ship energy/work basis,round-trip definition,trip-count variables,BOG/98% payload and vent controls",
+    "Appendix/body fugitive,loading,pressure,50kt storage and pipeline unit reconciliations",
+    "Construction timing/activation and shared-node/field emission-allocation mapping",
+    "Additional direct-injection conditioning/dynamic-positioning equipment and utility inventories",
+    "Original supporting citations,relevant external assets and rights beyond retained files",
+    "Capture/purification,maintenance/decommissioning,counterfactual and retained-carbon inventories"
+  ]
+}

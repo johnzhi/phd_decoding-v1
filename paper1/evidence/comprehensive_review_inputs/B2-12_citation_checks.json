@@ -1,0 +1,21 @@
+{
+  "study_id": "B2-12",
+  "source_sha256": "d72f7eb3ced1df218f53b4c2d3bf025331957a8ea362ad38b9bf5b6b6166ccf3",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R47",
+      "cited_study": "B3-38",
+      "source_sha256": "518dbe935abd0c7cfa92e5554b92f1ecbdf641ceedcb1ef9e36f76b06140d79f",
+      "doi": "10.3390/en14185635",
+      "targeted_pages": [
+        1,
+        3,
+        4
+      ],
+      "inspection": "All three selected native pages text-read and rendered pages inspected. Remainder of27-page original and its reference/model chain pending.",
+      "supported": "Exact identity and explicit7/15barg basis. Original pp1,3 cover capture-outlet through liquefaction/shipping/reconditioning, pure ambient-feed base cases and pressure/capacity dependence. Pp3–4 consider90bara feed, impurities/purity and baseline maximum10kt at15barg versus50kt at7barg with scenarios relaxing capacities.",
+      "unresolved": "Supports scoped pressure/size/boundary context, not Fraga averaged liquefaction duty/GHG, assumed1150/1000kg/m3 densities, absolute/gauge conversion, native MoMILP, cost/LCI cases or complete utility inventory. No original models or complete source chain reproduced."
+    }
+  ]
+}

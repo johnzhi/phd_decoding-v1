@@ -1,0 +1,2898 @@
+{
+  "study_id": "B2-12",
+  "source_sha256": "d72f7eb3ced1df218f53b4c2d3bf025331957a8ea362ad38b9bf5b6b6166ccf3",
+  "provenance": "All58 printed entries read in native text and rendered pages23–24. Geometry preserves Burchhardt column continuation and Fraga2019 page continuation. Printed entries are not58 independently verified or necessarily distinct originals.",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "3D Project (2022) 3D overview. [Online]. 2022. Available from: https://3d-ccus.com/",
+        "3d-overview/ [Accessed: 21 February 2022]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            490.514,
+            292.565,
+            497.132
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.863,
+            498.479,
+            180.551,
+            505.098
+          ]
+        }
+      ],
+      "citation": "3D Project (2022) 3D overview. [Online]. 2022. Available from: https://3d-ccus.com/ 3d-overview/ [Accessed: 21 February 2022].",
+      "role": "Historical Dunkirk source-growth plan",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C49"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "ALIGN (2019) ALIGN-CCUS project work package 2 transport. [Online]. 2019. Available",
+        "from: https://www.alignccus.eu/ [Accessed: 26 November 2019]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            506.453,
+            292.592,
+            513.071
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.862,
+            514.418,
+            239.448,
+            521.036
+          ]
+        }
+      ],
+      "citation": "ALIGN (2019) ALIGN-CCUS project work package 2 transport. [Online]. 2019. Available from: https://www.alignccus.eu/ [Accessed: 26 November 2019].",
+      "role": "Earlier project transport context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C18"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Altera Infrastructure (2020) Stella Maris CCS - carbon capture and stor-",
+        "age.",
+        "[Online].",
+        "2020.",
+        "Available",
+        "from:",
+        "https://alterainfra.com/articles/",
+        "stella- maris- ccs- carbon- capture- and- storage [Accessed: 13 October 2021]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            522.392,
+            292.614,
+            529.01
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.863,
+            530.357,
+            64.705,
+            536.975
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            71.734,
+            530.357,
+            101.113,
+            536.975
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            108.124,
+            530.357,
+            127.62,
+            536.975
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            134.64,
+            530.357,
+            164.514,
+            536.975
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            171.552,
+            530.357,
+            190.138,
+            536.975
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            197.184,
+            530.357,
+            292.433,
+            536.975
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.863,
+            538.331,
+            264.602,
+            544.95
+          ]
+        }
+      ],
+      "citation": "Altera Infrastructure (2020) Stella Maris CCS - carbon capture and stor- age. [Online]. 2020. Available from: https://alterainfra.com/articles/ stella- maris- ccs- carbon- capture- and- storage [Accessed: 13 October 2021].",
+      "role": "Historical Stella Maris concept and readiness",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10",
+        "C48"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Aspelund, A., Jordal, K., 2007. Gas conditioning-the interface between CO2 capture and",
+        "transport. Int. J. Greenh. Gas Control 1 (3), 343–354. doi: 10.1016/S1750-5836(07)",
+        "00040-0 , [Online] [Accessed: 1 April 2019] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            546.305,
+            292.643,
+            552.924
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.86,
+            554.27,
+            292.6,
+            560.888
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.862,
+            562.244,
+            179.094,
+            568.862
+          ]
+        }
+      ],
+      "citation": "Aspelund, A., Jordal, K., 2007. Gas conditioning-the interface between CO2 capture and transport. Int. J. Greenh. Gas Control 1 (3), 343–354. doi: 10.1016/S1750-5836(07) 00040-0 , [Online] [Accessed: 1 April 2019] .",
+      "role": "Gas conditioning boundary",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06",
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Aspelund, A., Mølnvik, M.J., De Koeijer, G., 2006. Ship transport of CO2 : technical solu-",
+        "tions and analysis of costs, energy utilization, exergy eﬃciency and CO2 emissions.",
+        "Chem. Eng. Res. Des. 84 (9), 847–855. doi: 10.1205/CHERD.5147 , [Online] [Accessed:",
+        "23 July 2019] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            570.209,
+            292.67,
+            578.178
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.863,
+            578.183,
+            292.587,
+            586.152
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.863,
+            586.148,
+            292.617,
+            592.767
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.862,
+            594.122,
+            95.043,
+            600.74
+          ]
+        }
+      ],
+      "citation": "Aspelund, A., Mølnvik, M.J., De Koeijer, G., 2006. Ship transport of CO2 : technical solu- tions and analysis of costs, energy utilization, exergy eﬃciency and CO2 emissions. Chem. Eng. Res. Des. 84 (9), 847–855. doi: 10.1205/CHERD.5147 , [Online] [Accessed: 23 July 2019] .",
+      "role": "Ship energy/loading model and appendix factors",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C42",
+        "C82"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "bp (2023) bp Energy outlook 2023 edition. [Online]. 2023. Available from:",
+        "https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/",
+        "energy- economics/energy- outlook/bp- energy- outlook- 2023.pdf",
+        "[Accessed:",
+        "20",
+        "February 2023]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            602.096,
+            292.598,
+            608.714
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.864,
+            610.061,
+            282.641,
+            616.679
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.864,
+            618.035,
+            231.154,
+            624.653
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            241.923,
+            618.035,
+            274.911,
+            624.654
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            281.959,
+            618.035,
+            292.489,
+            624.654
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.862,
+            626.0,
+            99.313,
+            632.619
+          ]
+        }
+      ],
+      "citation": "bp (2023) bp Energy outlook 2023 edition. [Online]. 2023. Available from: https://www.bp.com/content/dam/bp/business-sites/en/global/corporate/pdfs/ energy- economics/energy- outlook/bp- energy- outlook- 2023.pdf [Accessed: 20 February 2023].",
+      "role": "Global energy forecasts",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Brevik Engineering AS (2020) CO2 logistics by ship phase II (CO2LOS II). [Online]. Avail-",
+        "able from: https://www.brevik.com/project/co2los- ii- iii- rd/ ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            633.974,
+            292.692,
+            640.592
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.864,
+            641.939,
+            226.659,
+            648.557
+          ]
+        }
+      ],
+      "citation": "Brevik Engineering AS (2020) CO2 logistics by ship phase II (CO2LOS II). [Online]. Avail- able from: https://www.brevik.com/project/co2los- ii- iii- rd/ .",
+      "role": "Pressure buildup/ship logistics",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C41"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Brownsort, P. (2015) Ship transport of CO2 for enhanced oil recovery-literature sur-",
+        "vey. [Online] Available from: https://era.ed.ac.uk/bitstream/handle/1842/15703/",
+        "SCCS- CO2- EOR- JIP- WP15- Shipping.pdf?sequence=1& isAllowed=y ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            649.913,
+            292.604,
+            657.882
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.861,
+            657.878,
+            292.413,
+            664.497
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.862,
+            665.852,
+            249.537,
+            672.471
+          ]
+        }
+      ],
+      "citation": "Brownsort, P. (2015) Ship transport of CO2 for enhanced oil recovery-literature sur- vey. [Online] Available from: https://era.ed.ac.uk/bitstream/handle/1842/15703/ SCCS- CO2- EOR- JIP- WP15- Shipping.pdf?sequence=1& isAllowed=y .",
+      "role": "Ship/buffer/injection concept literature",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13",
+        "C15"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Brunsting, S., De Best-Waldhober, M., Feenstra, C.F.J., Mikunda, T., 2011. Stakeholder",
+        "participation practices and onshore CCS: lessons from the Dutch CCS case Baren-",
+        "drecht. In: Energy Procedia. Elsevier Ltd, pp. 6376–6383. doi: 10.1016/j.egypro.2011.",
+        "02.655 [Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            673.826,
+            292.6,
+            680.445
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.862,
+            681.791,
+            292.643,
+            688.41
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.862,
+            689.765,
+            292.565,
+            696.383
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.862,
+            697.73,
+            100.902,
+            704.349
+          ]
+        }
+      ],
+      "citation": "Brunsting, S., De Best-Waldhober, M., Feenstra, C.F.J., Mikunda, T., 2011. Stakeholder participation practices and onshore CCS: lessons from the Dutch CCS case Baren- drecht. In: Energy Procedia. Elsevier Ltd, pp. 6376–6383. doi: 10.1016/j.egypro.2011. 02.655 [Online] .",
+      "role": "Onshore stakeholder acceptance",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Bui, M., Adjiman, C.S., Bardow, A., Anthony, E.J., et al., 2018. Carbon capture and stor-",
+        "age (CCS): the way forward. Energy Environ. Sci. 11 (5), 1062–1176. doi: 10.1039/",
+        "c7ee02342a , [Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            705.704,
+            292.73,
+            712.322
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.867,
+            713.669,
+            292.653,
+            720.287
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            49.866,
+            721.643,
+            116.976,
+            728.261
+          ]
+        }
+      ],
+      "citation": "Bui, M., Adjiman, C.S., Bardow, A., Anthony, E.J., et al., 2018. Carbon capture and stor- age (CCS): the way forward. Energy Environ. Sci. 11 (5), 1062–1176. doi: 10.1039/ c7ee02342a , [Online] .",
+      "role": "CCS technology/readiness context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09",
+        "C18"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Burchhardt, U., Lindgren, G., Porsche, T., 2011. Three years operational experiences with",
+        "the oxyfuel pilot plant of Vattenfall in Schwarze Pumpe. In: Proceedings of the 2nd",
+        "Oxyfuel Combustion Conference. [Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            37.911,
+            729.617,
+            292.648,
+            736.235
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.855,
+            472.082,
+            561.689,
+            478.701
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.854,
+            480.047,
+            443.136,
+            486.666
+          ]
+        }
+      ],
+      "citation": "Burchhardt, U., Lindgren, G., Porsche, T., 2011. Three years operational experiences with the oxyfuel pilot plant of Vattenfall in Schwarze Pumpe. In: Proceedings of the 2nd Oxyfuel Combustion Conference. [Online] .",
+      "role": "Ketzin truck-campaign context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11",
+        "C15"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "CATO (2016) Transportation and unloading of CO2 by ship - a comparative assess-",
+        "ment. [Online] Available from: https://www.co2-cato.org/publications/library1/",
+        "transportation- and- unloading- of- co2- by- ship- a- comparative- assessment ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            488.021,
+            561.654,
+            494.639
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.855,
+            495.986,
+            561.404,
+            502.605
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.855,
+            503.96,
+            529.329,
+            510.578
+          ]
+        }
+      ],
+      "citation": "CATO (2016) Transportation and unloading of CO2 by ship - a comparative assess- ment. [Online] Available from: https://www.co2-cato.org/publications/library1/ transportation- and- unloading- of- co2- by- ship- a- comparative- assessment .",
+      "role": "Ship/unloading comparative report",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Chatzinikolaou, S.D., Ventikos, N.P., 2015. Holistic framework for studying ship air emis-",
+        "sions in a life cycle perspective. Ocean Eng. 110, 113–122. doi: 10.1016/j.oceaneng.",
+        "2015.05.042 , [Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            511.934,
+            561.63,
+            518.552
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.855,
+            519.899,
+            561.612,
+            526.518
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.856,
+            527.873,
+            387.84,
+            534.492
+          ]
+        }
+      ],
+      "citation": "Chatzinikolaou, S.D., Ventikos, N.P., 2015. Holistic framework for studying ship air emis- sions in a life cycle perspective. Ocean Eng. 110, 113–122. doi: 10.1016/j.oceaneng. 2015.05.042 , [Online] .",
+      "role": "Panamax hull/machinery inventory",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C32",
+        "C33",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Danish Energy Authority (2023) The ministry of climate, energy and util-",
+        "ities grants Denmark’s ﬁrst full-scale CO2 storage permits in the Dan-",
+        "ish North Sea. [Online]. 2023. Available from: https://ens.dk/en/press/",
+        "ministry- climate- energy- and- utilities- grants- denmarks- ﬁrst- full- scale- co2- storage-",
+        "permits [Accessed: 26 July 2023]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            535.838,
+            561.608,
+            542.456
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.857,
+            543.812,
+            561.605,
+            550.43
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.854,
+            551.777,
+            561.494,
+            558.395
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.854,
+            559.751,
+            557.27,
+            566.369
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.851,
+            567.716,
+            418.69,
+            574.334
+          ]
+        }
+      ],
+      "citation": "Danish Energy Authority (2023) The ministry of climate, energy and util- ities grants Denmark’s ﬁrst full-scale CO2 storage permits in the Dan- ish North Sea. [Online]. 2023. Available from: https://ens.dk/en/press/ ministry- climate- energy- and- utilities- grants- denmarks- ﬁrst- full- scale- co2- storage- permits [Accessed: 26 July 2023].",
+      "role": "Historical Danish storage-permit context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C18"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO2 liquefac-",
+        "tion: impact of product pressure and impurities. Int. J. Refrig. doi: 10.1016/j.ijrefrig.",
+        "2019.04.011 , [Online] [Accessed: 28 May 2019] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            575.69,
+            561.578,
+            583.659
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.854,
+            583.664,
+            561.609,
+            590.283
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.855,
+            591.629,
+            461.505,
+            598.248
+          ]
+        }
+      ],
+      "citation": "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO2 liquefac- tion: impact of product pressure and impurities. Int. J. Refrig. doi: 10.1016/j.ijrefrig. 2019.04.011 , [Online] [Accessed: 28 May 2019] .",
+      "role": "Liquefaction power/cooling process references",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08",
+        "C22"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "EIA (2021) International energy outlook 2021. [Online]. 2021. Available from: https://",
+        "www.eia.gov/outlooks/ieo/tables_side_xls.php [Accessed: 20 February 2023]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            599.603,
+            561.581,
+            606.221
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.858,
+            607.568,
+            542.01,
+            614.187
+          ]
+        }
+      ],
+      "citation": "EIA (2021) International energy outlook 2021. [Online]. 2021. Available from: https:// www.eia.gov/outlooks/ieo/tables_side_xls.php [Accessed: 20 February 2023].",
+      "role": "Global energy forecasts",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Eiken, O., Ringrose, P., Hermanrud, C., Nazarian, B., et al., 2011. Lessons learned from 14",
+        "years of CCS operations: sleipner. In: Salah, Snøhvit (Eds.), Energy Procedia. Elsevier",
+        "Ltd, pp. 5541–5548. doi: 10.1016/j.egypro.2011.02.541 [Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            615.542,
+            561.708,
+            622.161
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.853,
+            623.507,
+            561.628,
+            630.126
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.855,
+            631.481,
+            507.315,
+            638.099
+          ]
+        }
+      ],
+      "citation": "Eiken, O., Ringrose, P., Hermanrud, C., Nazarian, B., et al., 2011. Lessons learned from 14 years of CCS operations: sleipner. In: Salah, Snøhvit (Eds.), Energy Procedia. Elsevier Ltd, pp. 5541–5548. doi: 10.1016/j.egypro.2011.02.541 [Online] .",
+      "role": "Storage monitoring/field experience",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C18"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Element Energy (2018) Shipping CO2 – UK cost estimation study for BEIS. [On-",
+        "line]. Available from: https://assets.publishing.service.gov.uk/government/uploads/",
+        "system/uploads/attachment_data/ﬁle/761762/BEIS_Shipping_CO2.pdf [Accessed: 30",
+        "October 2019]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            639.455,
+            561.647,
+            646.073
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.858,
+            647.42,
+            561.394,
+            654.039
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.858,
+            655.394,
+            561.346,
+            662.012
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.854,
+            663.359,
+            365.379,
+            669.977
+          ]
+        }
+      ],
+      "citation": "Element Energy (2018) Shipping CO2 – UK cost estimation study for BEIS. [On- line]. Available from: https://assets.publishing.service.gov.uk/government/uploads/ system/uploads/attachment_data/ﬁle/761762/BEIS_Shipping_CO2.pdf [Accessed: 30 October 2019].",
+      "role": "Ship/tank/pressure/size and appendix-factor reference",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08",
+        "C12",
+        "C15",
+        "C82"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Equinor (2020) Northern lights FEED report. [Online]. Available from: https://",
+        "northernlightsccs.com/wp- content/uploads/2021/03/Northern- Lights- FEED- report-",
+        "public-version.pdf."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            671.333,
+            561.553,
+            677.951
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.856,
+            679.298,
+            560.894,
+            685.916
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.856,
+            687.272,
+            376.023,
+            693.891
+          ]
+        }
+      ],
+      "citation": "Equinor (2020) Northern lights FEED report. [Online]. Available from: https:// northernlightsccs.com/wp- content/uploads/2021/03/Northern- Lights- FEED- report- public-version.pdf.",
+      "role": "Northern Lights FEED/purity/site/handling reference",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14",
+        "C21",
+        "C30",
+        "C41",
+        "C42",
+        "C48",
+        "C52",
+        "C82"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Ervia (2019) Ervia equinor MOU on CCS | News | Ervia. [Online]. 2019. Available from:",
+        "http://www.ervia.ie/news/ErviaEquinorMOUonCCS/ [Accessed: 21 February 2022]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            695.246,
+            561.7,
+            701.864
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.855,
+            703.211,
+            561.432,
+            709.829
+          ]
+        }
+      ],
+      "citation": "Ervia (2019) Ervia equinor MOU on CCS | News | Ervia. [Online]. 2019. Available from: http://www.ervia.ie/news/ErviaEquinorMOUonCCS/ [Accessed: 21 February 2022].",
+      "role": "Historical Ervia memorandum",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C49"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        23
+      ],
+      "native_lines": [
+        "Eurostat (2022) Producer price index. [Online]. 2022. Available from: https://ec.europa.",
+        "eu/eurostat/ [Accessed: 21 February 2023]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            711.185,
+            561.536,
+            717.804
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.853,
+            719.15,
+            446.645,
+            725.768
+          ]
+        }
+      ],
+      "citation": "Eurostat (2022) Producer price index. [Online]. 2022. Available from: https://ec.europa. eu/eurostat/ [Accessed: 21 February 2023].",
+      "role": "2022 cost indexing/exchange-rate reference",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C52"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        23,
+        24
+      ],
+      "native_lines": [
+        "Fraga, D.M. (2019) The logistics of compressed natural gas and small-scale LNG: the com-",
+        "petitive frontier of the roads modal. [Online]. São Paulo, Biblioteca Digital de Teses",
+        "e Dissertações da Universidade de São Paulo. Available from: doi:10.11606/D.106.",
+        "2019.tde- 19122018- 092510 . [Accessed: 26 June 2019]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 23,
+          "bbox": [
+            306.903,
+            727.124,
+            561.683,
+            733.742
+          ]
+        },
+        {
+          "page": 23,
+          "bbox": [
+            318.855,
+            735.089,
+            561.643,
+            741.707
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.863,
+            58.793,
+            292.574,
+            65.411
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.863,
+            66.758,
+            212.149,
+            73.377
+          ]
+        }
+      ],
+      "citation": "Fraga, D.M. (2019) The logistics of compressed natural gas and small-scale LNG: the com- petitive frontier of the roads modal. [Online]. São Paulo, Biblioteca Digital de Teses e Dissertações da Universidade de São Paulo. Available from: doi:10.11606/D.106. 2019.tde- 19122018- 092510 . [Accessed: 26 June 2019].",
+      "role": "Lorry/CNG/LNG context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Fraga, D.M., Korre, A., Nie, Z., Durucan, S., 2021a. Multi-period cost optimization of multi-",
+        "mode carbon capture and storage chains. SSRN Electr. J. doi: 10.2139/ssrn.3821770 ,",
+        "[Online] [Accessed: 21 October 2021] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            74.732,
+            292.702,
+            81.351
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.864,
+            82.697,
+            292.629,
+            89.316
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            90.671,
+            163.146,
+            97.289
+          ]
+        }
+      ],
+      "citation": "Fraga, D.M., Korre, A., Nie, Z., Durucan, S., 2021a. Multi-period cost optimization of multi- mode carbon capture and storage chains. SSRN Electr. J. doi: 10.2139/ssrn.3821770 , [Online] [Accessed: 21 October 2021] .",
+      "role": "Delegated2021a cost/MILP model",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C47",
+        "C53"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Fraga, D.M., Skagestad, R., Eldrup, N.H., Korre, A., et al., 2021b. Design of a multi-user",
+        "CO2 intermediate storage facility in the Grenland region of Norway. Int. J. Greenh.",
+        "Gas Control 112, 103514. doi: 10.1016/J.IJGGC.2021.103514 , [Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            98.636,
+            292.715,
+            105.255
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.861,
+            106.61,
+            292.634,
+            114.579
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.863,
+            114.575,
+            257.394,
+            121.194
+          ]
+        }
+      ],
+      "citation": "Fraga, D.M., Skagestad, R., Eldrup, N.H., Korre, A., et al., 2021b. Design of a multi-user CO2 intermediate storage facility in the Grenland region of Norway. Int. J. Greenh. Gas Control 112, 103514. doi: 10.1016/J.IJGGC.2021.103514 , [Online] .",
+      "role": "Delegated2021b Grenland hub/cost/tank model",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12",
+        "C16",
+        "C26",
+        "C28",
+        "C47",
+        "C53"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Global CCS Institute (2022) Global status of CCS 2022. [Online]. Available from: www.",
+        "globalccsinstitute.com ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            122.549,
+            292.648,
+            129.167
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            130.523,
+            117.786,
+            137.141
+          ]
+        }
+      ],
+      "citation": "Global CCS Institute (2022) Global status of CCS 2022. [Online]. Available from: www. globalccsinstitute.com .",
+      "role": "Historical CCS capacity/operation inventory",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C04",
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Global CCS Institute (2021a) Technology readiness and costs of CCS the circular carbon",
+        "economy. The circular carbon economy: keystone to global sustainability series. 50 p."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            138.488,
+            292.653,
+            145.106
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            146.462,
+            292.634,
+            153.08
+          ]
+        }
+      ],
+      "citation": "Global CCS Institute (2021a) Technology readiness and costs of CCS the circular carbon economy. The circular carbon economy: keystone to global sustainability series. 50 p.",
+      "role": "Readiness and costs",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Global CCS Institute (2021b) The global status of CCS: 2021. [Online]. Available from:",
+        "www.globalccsinstitute.com . [Accessed: 12 October 2021]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            154.427,
+            292.653,
+            161.045
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.861,
+            162.401,
+            220.241,
+            169.019
+          ]
+        }
+      ],
+      "citation": "Global CCS Institute (2021b) The global status of CCS: 2021. [Online]. Available from: www.globalccsinstitute.com . [Accessed: 12 October 2021].",
+      "role": "Historical CCS project context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C49"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "House, M. (2015) Scottish carbon capture & storage ship transport of CO2 for enhanced",
+        "oil recovery-literature survey."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            170.366,
+            292.699,
+            176.984
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            178.34,
+            137.351,
+            184.958
+          ]
+        }
+      ],
+      "citation": "House, M. (2015) Scottish carbon capture & storage ship transport of CO2 for enhanced oil recovery-literature survey.",
+      "role": "Ship/EOR literature review",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C15"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "IEA (2022) World energy outlook 2022. World-Energy-Outlook-2022. [Online]. Available",
+        "from: https://www.iea.org/reports/world- energy- outlook- 2022 ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            186.314,
+            292.539,
+            192.932
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            194.279,
+            235.605,
+            200.898
+          ]
+        }
+      ],
+      "citation": "IEA (2022) World energy outlook 2022. World-Energy-Outlook-2022. [Online]. Available from: https://www.iea.org/reports/world- energy- outlook- 2022 .",
+      "role": "Global forecast/capture scale",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02",
+        "C03",
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "IEAGHG (2004) Ship transport of CO2 - background to the study. [Online]. Avail-",
+        "able from: https://ieaghg.org/docs/General_Docs/Reports/PH4-30.Ship.Transport.",
+        "pdf [Accessed: 20 September 2022]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            202.253,
+            292.659,
+            208.872
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.86,
+            210.218,
+            292.381,
+            216.837
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.86,
+            218.192,
+            155.964,
+            224.81
+          ]
+        }
+      ],
+      "citation": "IEAGHG (2004) Ship transport of CO2 - background to the study. [Online]. Avail- able from: https://ieaghg.org/docs/General_Docs/Reports/PH4-30.Ship.Transport. pdf [Accessed: 20 September 2022].",
+      "role": "Ship/BOG and appendix-factor reference",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C41",
+        "C82"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "IPCC (2022) Climate change 2022 - mitigation of climate change - full report."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            226.157,
+            261.224,
+            232.776
+          ]
+        }
+      ],
+      "citation": "IPCC (2022) Climate change 2022 - mitigation of climate change - full report.",
+      "role": "Global mitigation pathway",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "IPCC (2005) IPCC special report on carbon dioxide capture and storage. In: Prepared",
+        "By Working Group III of the Intergovernmental Panel on Climate Change [Metz,",
+        "B., Davidson, O., Coninck, H.C., de Loos, M., Meyer, L.A. (eds)]. [Online]. Cam-",
+        "bridge, Cambridge University Press. p. Available from:. doi:10.1002/9783527809080.",
+        "cataz02826 ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            234.131,
+            292.652,
+            240.75
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.861,
+            242.105,
+            292.643,
+            248.723
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.863,
+            250.07,
+            292.662,
+            256.688
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.864,
+            258.044,
+            292.533,
+            264.662
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.864,
+            266.009,
+            87.537,
+            272.627
+          ]
+        }
+      ],
+      "citation": "IPCC (2005) IPCC special report on carbon dioxide capture and storage. In: Prepared By Working Group III of the Intergovernmental Panel on Climate Change [Metz, B., Davidson, O., Coninck, H.C., de Loos, M., Meyer, L.A. (eds)]. [Online]. Cam- bridge, Cambridge University Press. p. Available from:. doi:10.1002/9783527809080. cataz02826 .",
+      "role": "Geological storage/seal/trapping context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C17"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Kler, R.de, Neele, F., Nienoord, M., Brownsort, P., et al. (2016) Transportation and un-",
+        "loading of CO2 by ship - a comparative assessment WP9 ﬁnal report. 31 (0), 117."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            273.983,
+            292.701,
+            280.601
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.866,
+            281.948,
+            283.384,
+            288.566
+          ]
+        }
+      ],
+      "citation": "Kler, R.de, Neele, F., Nienoord, M., Brownsort, P., et al. (2016) Transportation and un- loading of CO2 by ship - a comparative assessment WP9 ﬁnal report. 31 (0), 117.",
+      "role": "Ship/unloading comparative report",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "KPMG (2022) COP26 reﬂections: implications for businesses. [Online] Avail-",
+        "able",
+        "from:",
+        "https://kpmg.com/xx/en/home/insights/2020/06/kpmg-impact/",
+        "cop26- reﬂections- implications- for- business.html [Accessed: 20 February 2023]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            289.922,
+            292.553,
+            296.54
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            297.896,
+            65.001,
+            304.514
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            74.568,
+            297.896,
+            93.155,
+            304.514
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            102.746,
+            297.896,
+            292.363,
+            304.514
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            305.861,
+            279.758,
+            312.479
+          ]
+        }
+      ],
+      "citation": "KPMG (2022) COP26 reﬂections: implications for businesses. [Online] Avail- able from: https://kpmg.com/xx/en/home/insights/2020/06/kpmg-impact/ cop26- reﬂections- implications- for- business.html [Accessed: 20 February 2023].",
+      "role": "COP26 policy context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "KPMG (2023) In the race toward urgent climate action. Reﬂections on COP27 KPMG.",
+        "2023."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            313.835,
+            292.66,
+            320.453
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.86,
+            321.8,
+            69.356,
+            328.419
+          ]
+        }
+      ],
+      "citation": "KPMG (2023) In the race toward urgent climate action. Reﬂections on COP27 KPMG. 2023.",
+      "role": "COP27 policy context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "KPMG (2020) Key outcomes of COP25 - KPMG global."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            329.774,
+            194.769,
+            336.392
+          ]
+        }
+      ],
+      "citation": "KPMG (2020) Key outcomes of COP25 - KPMG global.",
+      "role": "COP25 policy context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Linde A.G. (2017) CO2 puriﬁcation and liquefaction. [Online] 1–8. Available from:",
+        "https://www.leamericas.com/en/images/CO2.Puriﬁcation.and.Liquefaction.",
+        "Brochure_tcm136-425658.pdf."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            337.739,
+            292.567,
+            345.708
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.863,
+            345.713,
+            269.49,
+            352.332
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.863,
+            353.687,
+            139.674,
+            360.306
+          ]
+        }
+      ],
+      "citation": "Linde A.G. (2017) CO2 puriﬁcation and liquefaction. [Online] 1–8. Available from: https://www.leamericas.com/en/images/CO2.Puriﬁcation.and.Liquefaction. Brochure_tcm136-425658.pdf.",
+      "role": "Illustrative purification/liquefaction layout",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Martens, S., Kempka, T., Liebscher, A., Lüth, S., et al., 2012. Europe’s longest-operating",
+        "on-shore CO2 storage site at Ketzin, Germany: a progress report after three years of",
+        "injection. Environ. Earth Sci. 67 (2), 323–334. doi: 10.1007/s12665- 012- 1672- 5 , [On-",
+        "line] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            361.652,
+            292.662,
+            368.271
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.861,
+            369.626,
+            292.657,
+            377.595
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            377.591,
+            292.684,
+            384.21
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            385.565,
+            68.286,
+            392.183
+          ]
+        }
+      ],
+      "citation": "Martens, S., Kempka, T., Liebscher, A., Lüth, S., et al., 2012. Europe’s longest-operating on-shore CO2 storage site at Ketzin, Germany: a progress report after three years of injection. Environ. Earth Sci. 67 (2), 323–334. doi: 10.1007/s12665- 012- 1672- 5 , [On- line] .",
+      "role": "Ketzin truck/operating context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Ministry of Petroleum and Energy, 2016. Feasibility study for full-scale CCS in Norway.",
+        "Gassnova. Minist. Pet. Energy 63. doi: 10.1007/s00253- 011- 3828- 8 , [Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            393.53,
+            292.654,
+            400.148
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            401.504,
+            273.792,
+            408.122
+          ]
+        }
+      ],
+      "citation": "Ministry of Petroleum and Energy, 2016. Feasibility study for full-scale CCS in Norway. Gassnova. Minist. Pet. Energy 63. doi: 10.1007/s00253- 011- 3828- 8 , [Online] .",
+      "role": "Norwegian feasibility/injection concept",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C18",
+        "C48"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Mouette, D., Machado, P.G., Fraga, D., Peyerl, D., et al., 2019. Costs and emissions assess-",
+        "ment of a blue corridor in a Brazilian reality: the use of liqueﬁed natural gas in the",
+        "transport sector. Sci. Total Environ. 668. doi: 10.1016/j.scitotenv.2019.02.255 , [On-",
+        "line] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            409.478,
+            292.716,
+            416.096
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            417.443,
+            292.769,
+            424.062
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.864,
+            425.417,
+            292.576,
+            432.035
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            433.382,
+            68.286,
+            440.001
+          ]
+        }
+      ],
+      "citation": "Mouette, D., Machado, P.G., Fraga, D., Peyerl, D., et al., 2019. Costs and emissions assess- ment of a blue corridor in a Brazilian reality: the use of liqueﬁed natural gas in the transport sector. Sci. Total Environ. 668. doi: 10.1016/j.scitotenv.2019.02.255 , [On- line] .",
+      "role": "Brazilian lorry/CNG/LNG context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Neele, F., De Kler, R., Nienoord, M., Brownsort, P., et al., 2017. CO2 transport by ship:",
+        "the way forward in Europe. In: Energy Procedia. Elsevier Ltd, pp. 6824–6834. doi: 10.",
+        "1016/j.egypro.2017.03.1813 [Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            441.356,
+            292.743,
+            447.974
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.862,
+            449.321,
+            292.664,
+            455.94
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.861,
+            457.295,
+            162.921,
+            463.914
+          ]
+        }
+      ],
+      "citation": "Neele, F., De Kler, R., Nienoord, M., Brownsort, P., et al., 2017. CO2 transport by ship: the way forward in Europe. In: Energy Procedia. Elsevier Ltd, pp. 6824–6834. doi: 10. 1016/j.egypro.2017.03.1813 [Online] .",
+      "role": "Ship scale/readiness context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Nie, Z. (2009) Life cycle modelling of carbon dioxide capture and geologi-",
+        "cal storage in energy production. PhD Thesis, Imperial College London. [On-",
+        "line]. Available from: https://spiral.imperial.ac.uk/bitstream/10044/1/9016/1/",
+        "Nie- Z- 2009- PhD- Thesis.pdf [Accessed: 28 February 2019]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            37.911,
+            465.26,
+            292.632,
+            471.878
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.863,
+            473.234,
+            292.622,
+            479.852
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.86,
+            481.208,
+            292.377,
+            487.826
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            49.86,
+            489.173,
+            220.565,
+            495.791
+          ]
+        }
+      ],
+      "citation": "Nie, Z. (2009) Life cycle modelling of carbon dioxide capture and geologi- cal storage in energy production. PhD Thesis, Imperial College London. [On- line]. Available from: https://spiral.imperial.ac.uk/bitstream/10044/1/9016/1/ Nie- Z- 2009- PhD- Thesis.pdf [Accessed: 28 February 2019].",
+      "role": "Underlying construction/fugitive/field LCI thesis",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C17",
+        "C31",
+        "C82"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Northern Lights (2021) About the longship project -Northern Lights. [Online]. 2021. Avail-",
+        "able from: https://northernlightsccs.com/about- the- longship- project/ [Accessed: 12",
+        "November 2021]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            58.793,
+            561.628,
+            65.411
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.853,
+            66.758,
+            561.508,
+            73.377
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            74.732,
+            372.095,
+            81.35
+          ]
+        }
+      ],
+      "citation": "Northern Lights (2021) About the longship project -Northern Lights. [Online]. 2021. Avail- able from: https://northernlightsccs.com/about- the- longship- project/ [Accessed: 12 November 2021].",
+      "role": "Historical Northern Lights description",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C48"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Paul, S., Shepherd, R. & Wolling, P. (2012) Selection of materials for high pressure",
+        "CO2 transport - TWI. [Online]. 2012. Available from: https://www.twi-global.com/",
+        "technical- knowledge/published- papers/selection- of- materials- for- high- pressure- co2-",
+        "transport [Accessed: 27 November 2019]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            82.697,
+            561.682,
+            89.315
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.856,
+            90.671,
+            561.516,
+            97.289
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.856,
+            98.636,
+            563.773,
+            105.254
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            106.61,
+            440.355,
+            113.229
+          ]
+        }
+      ],
+      "citation": "Paul, S., Shepherd, R. & Wolling, P. (2012) Selection of materials for high pressure CO2 transport - TWI. [Online]. 2012. Available from: https://www.twi-global.com/ technical- knowledge/published- papers/selection- of- materials- for- high- pressure- co2- transport [Accessed: 27 November 2019].",
+      "role": "Pure-fluid phase illustration/materials",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Peletiri, S.P., Rahmanian, N., Mujtaba, I.M., 2018. CO2 Pipeline design: a review. Energies",
+        "11 (9), 2184. doi: 10.3390/en11092184 , [Online] [Accessed: 5 April 2019] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            114.575,
+            561.656,
+            121.193
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            122.549,
+            535.899,
+            129.167
+          ]
+        }
+      ],
+      "citation": "Peletiri, S.P., Rahmanian, N., Mujtaba, I.M., 2018. CO2 Pipeline design: a review. Energies 11 (9), 2184. doi: 10.3390/en11092184 , [Online] [Accessed: 5 April 2019] .",
+      "role": "Pipeline technology review",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Pentair (2023) Pentair - liquid CO2 storage tanks - Pentair - products | Pentair food &",
+        "beverage. [Online]. 2023. Available from: https://foodandbeverage.pentair.com/en/",
+        "products/pentair- liquid- co2- storage- tanks [Accessed: 31 July 2023]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            130.523,
+            561.735,
+            137.141
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            138.488,
+            561.438,
+            145.107
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.856,
+            146.462,
+            517.249,
+            153.08
+          ]
+        }
+      ],
+      "citation": "Pentair (2023) Pentair - liquid CO2 storage tanks - Pentair - products | Pentair food & beverage. [Online]. 2023. Available from: https://foodandbeverage.pentair.com/en/ products/pentair- liquid- co2- storage- tanks [Accessed: 31 July 2023].",
+      "role": "Storage-tank illustration",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Roussanaly, S., Deng, H., Skaugen, G., Gundersen, T., 2021. At what pressure shall CO2 be",
+        "transported by ship? An in-depth cost comparison of 7 and 15 barg shipping. Energies",
+        "14 (18), 5635 ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            154.427,
+            561.708,
+            161.045
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.853,
+            162.401,
+            561.68,
+            169.019
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.853,
+            170.366,
+            363.108,
+            176.984
+          ]
+        }
+      ],
+      "citation": "Roussanaly, S., Deng, H., Skaugen, G., Gundersen, T., 2021. At what pressure shall CO2 be transported by ship? An in-depth cost comparison of 7 and 15 barg shipping. Energies 14 (18), 5635 .",
+      "role": "Pressure/capacity/conditioning comparison",
+      "verification_status": "primary_text_checked_scoped_pressure_capacity_boundary",
+      "claim_links": [
+        "C12",
+        "C22"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Seo, Y., Huh, C., Lee, S., Chang, D., 2016. Comparison of CO 2 liquefaction pressures for",
+        "ship-based Carbon Capture and Storage (CCS) chain. Int. J. Greenh. Gas Control 52,",
+        "1–12. doi: 10.1016/j.ijggc.2016.06.011 , [Online] [Accessed: 1 April 2019] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            178.34,
+            561.736,
+            184.958
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            186.314,
+            561.654,
+            192.932
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            194.279,
+            533.667,
+            200.898
+          ]
+        }
+      ],
+      "citation": "Seo, Y., Huh, C., Lee, S., Chang, D., 2016. Comparison of CO 2 liquefaction pressures for ship-based Carbon Capture and Storage (CCS) chain. Int. J. Greenh. Gas Control 52, 1–12. doi: 10.1016/j.ijggc.2016.06.011 , [Online] [Accessed: 1 April 2019] .",
+      "role": "Liquefaction pressure/cost studies",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08",
+        "C22"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R48"
+    },
+    {
+      "id": "R49",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Seo, Y., You, H., Lee, S., Huh, C., et al., 2015. Evaluation of CO2liquefaction processes",
+        "for ship-based Carbon Capture and Storage (CCS) in terms of Life Cycle Cost (LCC)",
+        "considering availability. Int. J. Greenh. Gas Control doi: 10.1016/j.ijggc.2015.01.006 ,",
+        "[Online] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            202.253,
+            561.699,
+            208.872
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            210.218,
+            561.674,
+            216.837
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.857,
+            218.192,
+            561.567,
+            224.81
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            226.157,
+            348.258,
+            232.776
+          ]
+        }
+      ],
+      "citation": "Seo, Y., You, H., Lee, S., Huh, C., et al., 2015. Evaluation of CO2liquefaction processes for ship-based Carbon Capture and Storage (CCS) in terms of Life Cycle Cost (LCC) considering availability. Int. J. Greenh. Gas Control doi: 10.1016/j.ijggc.2015.01.006 , [Online] .",
+      "role": "Liquefaction process/cost comparison",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R49"
+    },
+    {
+      "id": "R50",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Shaw, J., Bachu, S., 2002. Screening, evaluation, and ranking of oil reservoirs suitable for",
+        "CO2-ﬂood EOR and carbon dioxide sequestration. J. Can. Pet. Technol. 41 (9), 51–61.",
+        "doi: 10.2118/02- 09- 05 , [Online] [Accessed: 13 April 2023] ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            234.131,
+            561.684,
+            240.75
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.856,
+            242.105,
+            561.657,
+            248.723
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.857,
+            250.07,
+            491.52,
+            256.688
+          ]
+        }
+      ],
+      "citation": "Shaw, J., Bachu, S., 2002. Screening, evaluation, and ranking of oil reservoirs suitable for CO2-ﬂood EOR and carbon dioxide sequestration. J. Can. Pet. Technol. 41 (9), 51–61. doi: 10.2118/02- 09- 05 , [Online] [Accessed: 13 April 2023] .",
+      "role": "EOR storage screening",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C17"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R50"
+    },
+    {
+      "id": "R51",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Shell (2021) The energy transformation scenarios report. [Online]. Available from: www.",
+        "shell.com/transformationscenarios ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            258.044,
+            561.58,
+            264.662
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.857,
+            266.009,
+            421.734,
+            272.628
+          ]
+        }
+      ],
+      "citation": "Shell (2021) The energy transformation scenarios report. [Online]. Available from: www. shell.com/transformationscenarios .",
+      "role": "Global energy forecasts",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R51"
+    },
+    {
+      "id": "R52",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Shires, T.M. & Loughran, C.J. (2021) Compendium of greenhouse gas emissions method-",
+        "ologies for the oil and gas industry."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            273.983,
+            561.641,
+            280.601
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.858,
+            281.948,
+            422.368,
+            288.566
+          ]
+        }
+      ],
+      "citation": "Shires, T.M. & Loughran, C.J. (2021) Compendium of greenhouse gas emissions method- ologies for the oil and gas industry.",
+      "role": "Lorry fuel/emission calculations",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C39"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R52"
+    },
+    {
+      "id": "R53",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Streit, J.E., Siggins, A.F. & Evans, B.J. (2005) Predicting and monitoring geomechanical",
+        "eﬀects of CO2 injection. In: Carbon Dioxide Capture for Storage in Deep Geologic",
+        "Formations - Results from the CO. [Online]. pp. 751–766. Available from:. 10.1016/",
+        "B978- 008044570- 0/50132- X [Accessed: 13 April 2023]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            289.922,
+            561.618,
+            296.54
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.853,
+            297.896,
+            561.64,
+            304.514
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.851,
+            305.861,
+            561.61,
+            312.479
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.85,
+            313.835,
+            482.968,
+            320.453
+          ]
+        }
+      ],
+      "citation": "Streit, J.E., Siggins, A.F. & Evans, B.J. (2005) Predicting and monitoring geomechanical eﬀects of CO2 injection. In: Carbon Dioxide Capture for Storage in Deep Geologic Formations - Results from the CO. [Online]. pp. 751–766. Available from:. 10.1016/ B978- 008044570- 0/50132- X [Accessed: 13 April 2023].",
+      "role": "Geomechanical safety context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C17"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R53"
+    },
+    {
+      "id": "R54",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Thinkstep (2019) 2nd life cycle GHG emission study on the use of LNG",
+        "as marine fuel. On behalf of SEA-LNG limited, and Society for Gas",
+        "as a Marine Fuel Limited (SGMF). [Online]. Available from: https://",
+        "3gry456jeet9ifa41gtbwy7a- wpengine.netdna- ssl.com/wp- content/uploads/2021/",
+        "04/Sphera- SEA- LNG- and- SGMF- 2nd- GHG- Analysis- of- LNG_Full_Report_v1.0.pdf",
+        "[Accessed: 29 July 2022]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            321.8,
+            561.648,
+            328.418
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            329.774,
+            561.621,
+            336.392
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            337.739,
+            561.552,
+            344.357
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            345.713,
+            553.611,
+            352.331
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            353.687,
+            548.047,
+            360.305
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            361.652,
+            395.551,
+            368.271
+          ]
+        }
+      ],
+      "citation": "Thinkstep (2019) 2nd life cycle GHG emission study on the use of LNG as marine fuel. On behalf of SEA-LNG limited, and Society for Gas as a Marine Fuel Limited (SGMF). [Online]. Available from: https:// 3gry456jeet9ifa41gtbwy7a- wpengine.netdna- ssl.com/wp- content/uploads/2021/ 04/Sphera- SEA- LNG- and- SGMF- 2nd- GHG- Analysis- of- LNG_Full_Report_v1.0.pdf [Accessed: 29 July 2022].",
+      "role": "LNG fuel well-to-wake inventory",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C37"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R54"
+    },
+    {
+      "id": "R55",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Thomas, D.C. (2005) Carbon dioxide capture for storage in deep geologic forma-",
+        "tions - results from the CO2 capture project: vol 1 - capture and separa-",
+        "tion of carbon dioxide from combustion, Vol 2 - geologic storage of carbon",
+        "dioxide with monitoring and veriﬁcation. [Online]. Available from: https:",
+        "//books.google.com.br/books?hl=en& lr=& id=9GjBxoOqqFAC& oi=fnd& pg=",
+        "PR2& dq=Benson+S.M, +2005, +Overview+of+Geologic+Storage+of+",
+        "CO2+,+in+Carbon+Dioxide+Capture+for+Storage+in+Deep+Geologic+",
+        "Formations& ots=Mj04EQuefW& sig=z5RbfxHMBU1Xe7MOypzoExK4UwI",
+        "[Ac-",
+        "cessed: 13 April 2023]."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            369.626,
+            561.617,
+            376.244
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            377.591,
+            561.667,
+            384.209
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            385.565,
+            561.643,
+            392.183
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            393.53,
+            561.532,
+            400.148
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            401.504,
+            546.825,
+            408.122
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.855,
+            409.478,
+            536.401,
+            416.096
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            417.443,
+            550.327,
+            424.061
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            425.417,
+            531.983,
+            432.035
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            545.988,
+            425.417,
+            561.343,
+            432.035
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.854,
+            433.382,
+            387.782,
+            440.001
+          ]
+        }
+      ],
+      "citation": "Thomas, D.C. (2005) Carbon dioxide capture for storage in deep geologic forma- tions - results from the CO2 capture project: vol 1 - capture and separa- tion of carbon dioxide from combustion, Vol 2 - geologic storage of carbon dioxide with monitoring and veriﬁcation. [Online]. Available from: https: //books.google.com.br/books?hl=en& lr=& id=9GjBxoOqqFAC& oi=fnd& pg= PR2& dq=Benson+S.M, +2005, +Overview+of+Geologic+Storage+of+ CO2+,+in+Carbon+Dioxide+Capture+for+Storage+in+Deep+Geologic+ Formations& ots=Mj04EQuefW& sig=z5RbfxHMBU1Xe7MOypzoExK4UwI [Ac- cessed: 13 April 2023].",
+      "role": "Geological trapping reference",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C17"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R55"
+    },
+    {
+      "id": "R56",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "UNFCCC (2023) Outcome of the ﬁrst global stocktake - COP 28. [Online]. Available from:",
+        "https://unfccc.int/sites/default/ﬁles/resource/cma2023_L17_adv.pdf."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            441.356,
+            561.675,
+            447.974
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.856,
+            449.321,
+            519.384,
+            455.94
+          ]
+        }
+      ],
+      "citation": "UNFCCC (2023) Outcome of the ﬁrst global stocktake - COP 28. [Online]. Available from: https://unfccc.int/sites/default/ﬁles/resource/cma2023_L17_adv.pdf.",
+      "role": "COP28 policy context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R56"
+    },
+    {
+      "id": "R57",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Universiteit Leiden (2016) CML-IA Characterisation Factors. [Online]. 2016. Avail-",
+        "able",
+        "from:",
+        "https://www.universiteitleiden.nl/onderzoek/onderzoeksoutput/",
+        "wiskunde- en- natuurwetenschappen/cml- cml- ia- characterisation- factors ."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            457.295,
+            561.545,
+            463.914
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.852,
+            465.26,
+            333.991,
+            471.879
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            344.431,
+            465.26,
+            363.018,
+            471.879
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            373.491,
+            465.26,
+            561.371,
+            471.879
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.852,
+            473.234,
+            528.132,
+            479.852
+          ]
+        }
+      ],
+      "citation": "Universiteit Leiden (2016) CML-IA Characterisation Factors. [Online]. 2016. Avail- able from: https://www.universiteitleiden.nl/onderzoek/onderzoeksoutput/ wiskunde- en- natuurwetenschappen/cml- cml- ia- characterisation- factors .",
+      "role": "CML2016 characterisation factors",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C20"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R57"
+    },
+    {
+      "id": "R58",
+      "pages": [
+        24
+      ],
+      "native_lines": [
+        "Vermeulen, T.N. (2011) Knowledge sharing report – CO2 Liquid Logistics Shipping Con-",
+        "cept (LLSC)."
+      ],
+      "line_bboxes": [
+        {
+          "page": 24,
+          "bbox": [
+            306.903,
+            481.208,
+            561.612,
+            487.826
+          ]
+        },
+        {
+          "page": 24,
+          "bbox": [
+            318.856,
+            489.173,
+            356.587,
+            495.791
+          ]
+        }
+      ],
+      "citation": "Vermeulen, T.N. (2011) Knowledge sharing report – CO2 Liquid Logistics Shipping Con- cept (LLSC).",
+      "role": "Ship loading/unloading/BOG logistics",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-12_bibliography.json#R58"
+    }
+  ]
+}

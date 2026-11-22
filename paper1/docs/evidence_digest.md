@@ -360,15 +360,15 @@ Transfer limits: B2-11 adds all 14 pages, eleven figures, six tables, six number
 
 ### B2-12 — Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains
 
-Fraga, Korre, Nie & Durucan (2024). Identifier: 10.1016/j.ccst.2024.100190. [PDF](../papers/B2-12.pdf).
+Fraga, Korre, Nie and Durucan (2024). DOI:10.1016/j.ccst.2024.100190. [Retained PDF](../papers/B2-12.pdf); [detailed audit](postcapture_lci_comprehensive_findings.md).
 
-Reading stage: comprehensive review in progress. All 24 retained pages and the internal appendix have been read as text and visually inspected, with sixteen magnifications. Full item, cited-source and model verification remain unfinished.
+Reading stage: all 24 native pages and internal appendix read as text and visually inspected, with sixteen magnifications. Twenty figures, sixteen main tables, AppendixA1/A2, thirteen numbered equations and all 58 printed references inspected. Overall status remains incomplete; source support and full model reproduction are separate.
 
-Multi-period cost/GHG optimisation incorporates conditioning, ships, pipelines, hubs and injection. Six best-solution cases yield 32.8–142.1 kgCO2e per tonne stored.
+The postcapture model combines delegated cost/MILP constraints with prospective partial GHG accounting over five six-year periods. Capture/purification are upstream; liquefaction work is averaged across methods and several material, utility, fugitive and lifecycle components are omitted. Pressures also allow different ship capacities, so differences are not isolated pressure effects. The6051Mt resource stock supplies no pressure-constrained annual service.
 
-Transfer limits: Post-capture gate-to-gate boundary; no capture penalty or matched industrial no-CCS service. Maintenance/decommissioning exclusions and location-specific factors matter.
+The133 component/mathematical checks plus three earlier lower-bound checks preserve steel/lorry units, pressure labels, integer/continuous tank sizing, body/appendix fugitives, time/activation, indexing and weighted-objective questions.28 source design labels have conditional analyst timing/full-or98%-cargo examples, with native GWP fields blank. Native MoMILP/cost/Sphera inventories, fluid/thermal and geological models remain unreproduced.
 
-Comprehensive audit update, 22 November 2026: all 24 retained pages and internal appendix read/rendered, with sixteen magnifications. The 39.2kgCO2e/t combined 1.5 MPa result is preserved as a quote but on HOLD for calculated scores: three Figure 20 component labels already exceed its paired 11617.7 kt prose total. Item/source/model verification remains in progress; no corrected result or complete model is claimed. [Findings](postcapture_lci_comprehensive_findings.md).
+Transfer limits: B2-12 adds all 24 pages and internal Appendix A1/A2, twenty figures, sixteen main tables, thirteen numbered equations, 87 claim records, 133 component/mathematical checks plus three prior case-conflict checks, and 28 source-design rows with conditional timing examples. Pressure/units, material bases, time/activation, objective normalization, source labels and physical/lifecycle boundaries remain open. One scoped Roussanaly2021 original check brings citation edges to twenty-four; 57 other printed entries and fourteen native dependencies remain unverified. The combined1.5 MPa quote remains on HOLD and excluded from scores under7045333. No native cost/MoMILP/Sphera/field/complete LCI model reproduced and no additional operating/GHG input accepted. Its39.2 kgCO2e/t source quote remains preserved on HOLD after Figure 20’s three disjoint components exceed the11617.7kt prose total. The existing exclusion from current analysis and two AppendixA scores is retained; no replacement factor is invented. Other reported intensities remain explicitly conditional postcapture diagnostic scenarios, not complete regional LCA inputs.
 
 ### B2-13 — How to transport carbon dioxide with minimal environmental impacts today and tomorrow A prospective life cycle assessment
 
