@@ -1,0 +1,25 @@
+{
+  "study_id": "B2-13",
+  "source_sha256": "4a0815a62c5f60d76eb4a939b2cfcd31ba50b48162b9762cdb0ac39dd25a423b",
+  "limited_checks": 38,
+  "source_switch_cells": 66,
+  "source_ordinal_ranks": 272,
+  "analyst_annual_rows": 40,
+  "native_LCA_model_reproduced": false,
+  "native_payback_cases_reproduced": false,
+  "native_absolute_impacts_reconstructed": false,
+  "accepted_Paper1_inputs_added": 0,
+  "scope": "Printed arithmetic, ordinal transcription and Eq1 component with synthetic inputs only",
+  "missing_native": {
+    "SI_A": null,
+    "SI_B": null,
+    "native_models": null,
+    "licensed_ecoinvent": null,
+    "capture_heat_GJ_t": null,
+    "capture_electricity_kWh_t": null,
+    "complete_conditioning_inventory": null,
+    "absolute_category_impacts": null,
+    "author_case_reproduced": false,
+    "retrieval_status": "paused_pending_requested_Chrome_connection"
+  }
+}

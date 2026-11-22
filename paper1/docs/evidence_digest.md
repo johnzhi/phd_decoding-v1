@@ -370,15 +370,17 @@ The133 component/mathematical checks plus three earlier lower-bound checks prese
 
 Transfer limits: B2-12 adds all 24 pages and internal Appendix A1/A2, twenty figures, sixteen main tables, thirteen numbered equations, 87 claim records, 133 component/mathematical checks plus three prior case-conflict checks, and 28 source-design rows with conditional timing examples. Pressure/units, material bases, time/activation, objective normalization, source labels and physical/lifecycle boundaries remain open. One scoped Roussanaly2021 original check brings citation edges to twenty-four; 57 other printed entries and fourteen native dependencies remain unverified. The combined1.5 MPa quote remains on HOLD and excluded from scores under7045333. No native cost/MoMILP/Sphera/field/complete LCI model reproduced and no additional operating/GHG input accepted. Its39.2 kgCO2e/t source quote remains preserved on HOLD after Figure 20’s three disjoint components exceed the11617.7kt prose total. The existing exclusion from current analysis and two AppendixA scores is retained; no replacement factor is invented. Other reported intensities remain explicitly conditional postcapture diagnostic scenarios, not complete regional LCA inputs.
 
-### B2-13 — How to transport carbon dioxide with minimal environmental impacts today and tomorrow A prospective life cycle assessment
+### B2-13 — How to transport carbon dioxide with minimal environmental impacts today and tomorrow? A prospective life cycle assessment
 
-Nöhl et al. (2025). Identifier: 10.1016/j.jclepro.2025.145659. [PDF](../papers/B2-13.pdf).
+Nöhl et al. (2025). DOI: 10.1016/j.jclepro.2025.145659. [Retained PDF](../papers/B2-13.pdf); [detailed audit](prospective_transport_comprehensive_findings.md).
 
-Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 3, 4, 5, 6, 8.
+Reading stage: All 11 retained main-PDF pages text-read and visually inspected, including five magnifications. Comprehensive verification remains incomplete.
 
-European prospective LCA uses transport-only and conditioning-inclusive boundaries, time-varying energy backgrounds and an explicit cumulative carbon-payback equation.
+The prospective European LCA distinguishes transport-only T from conditioning-inclusive T+C, uses future regional inventories and defines cumulative construction/operating carbon payback. Pure 1 bar/30°C feed is assumed; capture, purification and geological retention remain outside. The 4% returning ISO heel is not a vent-loss factor. Early battery-truck cases explicitly exceed approximately 44 t.
 
-Transfer limits: Already models cumulative carbon payback. ISO-container ship concept and regional future inventories cannot be substituted for dedicated Asian CO2-carrier data.
+All 66 displayed payback cells and 272 category ranks are preserved. Train-to-small-dense payback is 6.7 years in 2040, HFO-to-gas is 12/20 years, and e-fuel-to-dense is 14–31 years. Dense pipelines rank first in 14 of 16 offshore categories, with water-use and freshwater-eutrophication exceptions despite broader conclusion wording. Fixed HFO background qualifies the 72–93% reduction claim. The 70 Gtkm/y and linear GVA calculation yield a conditional 0.023333–0.073889% sector allocation; a pipeline upper bound near 0.075% alone establishes neither universal compliance nor actual exceedance.
+
+Transfer limits: 38 limited diagnostics, graphic transcriptions and a synthetic annual Equation 1 component do not reproduce the native LCA or payback cases. All 53 originals, thirteen dependencies or scope requirements, supplements A/B and licensed inventories remain unverified. No complete capture-to-ship utilities, pressure-constrained annual service or retained/avoided factor is added. European backgrounds require disclosed geographic proxy treatment; no accepted operating/GHG inputs change.
 
 ### B2-14 — A High-Precision Geo-Spatial-Techno-Economic Framework for CO2 Source-Sink Pairing Land-Sea Synergy and Cross-Regional Coalitions in China
 

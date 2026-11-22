@@ -1,0 +1,2301 @@
+{
+  "study_id": "B2-13",
+  "source_sha256": "4a0815a62c5f60d76eb4a939b2cfcd31ba50b48162b9762cdb0ac39dd25a423b",
+  "provenance": "All printed bibliography entries pp10 right and11 left/right text-read and visually inspected.53 manually margin-segmented records preserve native lines and bboxes; citation string is only a reading aid, not a corrected reference or proof of original-source verification. No original-passage edges checked.",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Andreasi Bassi, S., Biganzoli, F., Ferrara, N., Amadei, A., Valente, A., Sala, S.,",
+        "Ardente, F., 2023. European Commission. Joint Research Centre. Updated Charac-",
+        "terisation and Normalisation Factors for the Environmental Footprint 3.1 Method.",
+        "Publications Office, http://dx.doi.org/10.2760/798894."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          193.6351,
+          561.0056,
+          207.7521
+        ],
+        [
+          318.559,
+          202.2031,
+          557.6912,
+          216.3201
+        ],
+        [
+          318.559,
+          210.7711,
+          561.0056,
+          224.8881
+        ],
+        [
+          318.559,
+          219.3381,
+          478.3383,
+          233.4551
+        ]
+      ],
+      "citation": "Andreasi Bassi, S., Biganzoli, F., Ferrara, N., Amadei, A., Valente, A., Sala, S., Ardente, F., 2023. European Commission. Joint Research Centre. Updated Charac- terisation and Normalisation Factors for the Environmental Footprint 3.1 Method. Publications Office, http://dx.doi.org/10.2760/798894.",
+      "role": "Land-use global-impact proxy; EF3.1 reference versus EF3.0 methods needs exact-version confirmation",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C45"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "AspenTech, 2018. V11: Asset optimization software: Engineering, manufacturing &",
+        "supply chain and asset performance management. URL: https://www.aspentech.",
+        "com/en."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          228.1481,
+          561.0056,
+          242.2651
+        ],
+        [
+          318.559,
+          236.7151,
+          557.6854,
+          250.8322
+        ],
+        [
+          318.559,
+          251.6879,
+          342.0693,
+          258.064
+        ]
+      ],
+      "citation": "AspenTech, 2018. V11: Asset optimization software: Engineering, manufacturing & supply chain and asset performance management. URL: https://www.aspentech. com/en.",
+      "role": "AspenPlus v11.1 conditioning software context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C38"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Bahadori, A., 2017. Plant piping systems. In: Oil and Gas Pipelines and Piping Systems.",
+        "Elsevier, pp. 269–284. http://dx.doi.org/10.1016/B978-0-12-803777-5.00010-1."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          254.0921,
+          561.0056,
+          268.2092
+        ],
+        [
+          318.559,
+          262.6601,
+          549.6493,
+          276.7772
+        ]
+      ],
+      "citation": "Bahadori, A., 2017. Plant piping systems. In: Oil and Gas Pipelines and Piping Systems. Elsevier, pp. 269–284. http://dx.doi.org/10.1016/B978-0-12-803777-5.00010-1.",
+      "role": "Onshore pipeline trench/burial geometry context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C34"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Baumstark, L., Bauer, N., Benke, F., Bertram, C., Bi, S., Gong, C.C., Dietrich, J.P.,",
+        "Dirnaichner, A., Giannousakis, A., Hilaire, J., Klein, D., Koch, J., Leimbach, M.,",
+        "Levesque, A., Madeddu, S., Malik, A., Merfort, A., Merfort, L., Odenweller, A.,",
+        "Pehl, M., Pietzcker, R.C., Piontek, F., Rauner, S., Rodrigues, R., Rottoli, M.,",
+        "Schreyer, F., Schultes, A., Soergel, B., Soergel, D., Strefler, J., Ueckerdt, F.,",
+        "Kriegler, E., Luderer, G., 2021. REMIND2.1: transformation and innovation dynam-",
+        "ics of the energy-economic system within climate and sustainability limits. Geosci.",
+        "Model. Dev. 14 (10), 6571–6603. http://dx.doi.org/10.5194/gmd-14-6571-2021."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          271.4691,
+          561.0056,
+          285.5862
+        ],
+        [
+          318.559,
+          280.0371,
+          561.0056,
+          294.1541
+        ],
+        [
+          318.559,
+          288.6051,
+          561.0056,
+          302.7221
+        ],
+        [
+          318.559,
+          297.1731,
+          561.0056,
+          311.2902
+        ],
+        [
+          318.559,
+          305.7411,
+          561.0056,
+          319.8582
+        ],
+        [
+          318.559,
+          314.3091,
+          557.6921,
+          328.4261
+        ],
+        [
+          318.559,
+          322.8771,
+          561.0056,
+          336.9941
+        ],
+        [
+          318.559,
+          331.4451,
+          552.6903,
+          345.5621
+        ]
+      ],
+      "citation": "Baumstark, L., Bauer, N., Benke, F., Bertram, C., Bi, S., Gong, C.C., Dietrich, J.P., Dirnaichner, A., Giannousakis, A., Hilaire, J., Klein, D., Koch, J., Leimbach, M., Levesque, A., Madeddu, S., Malik, A., Merfort, A., Merfort, L., Odenweller, A., Pehl, M., Pietzcker, R.C., Piontek, F., Rauner, S., Rodrigues, R., Rottoli, M., Schreyer, F., Schultes, A., Soergel, B., Soergel, D., Strefler, J., Ueckerdt, F., Kriegler, E., Luderer, G., 2021. REMIND2.1: transformation and innovation dynam- ics of the energy-economic system within climate and sustainability limits. Geosci. Model. Dev. 14 (10), 6571–6603. http://dx.doi.org/10.5194/gmd-14-6571-2021.",
+      "role": "REMIND2.1 model and scenario structure",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C40",
+        "C41",
+        "C42"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Bui, M., Adjiman, C.S., Bardow, A., Anthony, E.J., Boston, A., Brown, S., Fennell, P.S.,",
+        "Fuss, S., Galindo, A., Hackett, L.A., Hallett, J.P., Herzog, H.J., Jackson, G.,",
+        "Kemper, J., Krevor, S., Maitland, G.C., Matuszewski, M., Metcalfe, I.S., Petit, C.,",
+        "Puxty, G., Reimer, J., Reiner, D.M., Rubin, E.S., Scott, S.A., Shah, N., Smit, B.,",
+        "Trusler, J.P.M., Webley, P., Wilcox, J., Mac Dowell, N., 2018. Carbon capture",
+        "and storage (CCS): the way forward. Energy Environ. Sci. 11 (5), 1062–1176.",
+        "http://dx.doi.org/10.1039/c7ee02342a."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          340.2541,
+          561.0056,
+          354.3712
+        ],
+        [
+          318.559,
+          348.8221,
+          561.0056,
+          362.9391
+        ],
+        [
+          318.559,
+          357.3891,
+          561.0056,
+          371.5061
+        ],
+        [
+          318.559,
+          365.9571,
+          561.0056,
+          380.0742
+        ],
+        [
+          318.559,
+          374.5251,
+          561.0056,
+          388.6422
+        ],
+        [
+          318.559,
+          383.0931,
+          561.0056,
+          397.2101
+        ],
+        [
+          318.559,
+          398.0659,
+          432.2373,
+          404.442
+        ]
+      ],
+      "citation": "Bui, M., Adjiman, C.S., Bardow, A., Anthony, E.J., Boston, A., Brown, S., Fennell, P.S., Fuss, S., Galindo, A., Hackett, L.A., Hallett, J.P., Herzog, H.J., Jackson, G., Kemper, J., Krevor, S., Maitland, G.C., Matuszewski, M., Metcalfe, I.S., Petit, C., Puxty, G., Reimer, J., Reiner, D.M., Rubin, E.S., Scott, S.A., Shah, N., Smit, B., Trusler, J.P.M., Webley, P., Wilcox, J., Mac Dowell, N., 2018. Carbon capture and storage (CCS): the way forward. Energy Environ. Sci. 11 (5), 1062–1176. http://dx.doi.org/10.1039/c7ee02342a.",
+      "role": "Carbon capture/removal background",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Burger, J., Nöhl, J., Seiler, J., Gabrielli, P., Oeuvray, P., Becattini, V., Reyes-Lúa, A.,",
+        "Riboldi, L., Sansavini, G., Bardow, A., 2024. Environmental impacts of carbon",
+        "capture, transport, and storage supply chains: Status and the way forward. Int. J.",
+        "Greenh. Gas Control. 132, 104039. http://dx.doi.org/10.1016/j.ijggc.2023.104039."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          400.4701,
+          561.0056,
+          414.5872
+        ],
+        [
+          318.559,
+          409.0381,
+          561.0056,
+          423.1552
+        ],
+        [
+          318.559,
+          417.6061,
+          561.0056,
+          431.7231
+        ],
+        [
+          318.559,
+          426.1741,
+          557.6893,
+          440.2911
+        ]
+      ],
+      "citation": "Burger, J., Nöhl, J., Seiler, J., Gabrielli, P., Oeuvray, P., Becattini, V., Reyes-Lúa, A., Riboldi, L., Sansavini, G., Bardow, A., 2024. Environmental impacts of carbon capture, transport, and storage supply chains: Status and the way forward. Int. J. Greenh. Gas Control. 132, 104039. http://dx.doi.org/10.1016/j.ijggc.2023.104039.",
+      "role": "Pioneering batch-chain environmental burden and up to152kgCO2e/t quote; original differs from B2-13",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C14",
+        "C15"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Carbfix, 2024. Carbfix coda terminal. URL: https://www.carbfix.com/operations/",
+        "codaterminal."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          434.9831,
+          557.683,
+          449.1002
+        ],
+        [
+          318.559,
+          449.9559,
+          357.5143,
+          456.332
+        ]
+      ],
+      "citation": "Carbfix, 2024. Carbfix coda terminal. URL: https://www.carbfix.com/operations/ codaterminal.",
+      "role": "Historical Coda terminal example",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Corsten, M., Ramírez, A., Shen, L., Koornneef, J., Faaij, A., 2013. Environmental impact",
+        "assessment of CCS chains – Lessons learned and limitations from LCA literature. Int.",
+        "J. Greenh. Gas Control. 13, 59–71. http://dx.doi.org/10.1016/j.ijggc.2012.12.003."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          452.3601,
+          561.0056,
+          466.4771
+        ],
+        [
+          318.559,
+          460.9281,
+          561.0056,
+          475.0451
+        ],
+        [
+          318.559,
+          469.4961,
+          557.4393,
+          483.6132
+        ]
+      ],
+      "citation": "Corsten, M., Ramírez, A., Shen, L., Koornneef, J., Faaij, A., 2013. Environmental impact assessment of CCS chains – Lessons learned and limitations from LCA literature. Int. J. Greenh. Gas Control. 13, 59–71. http://dx.doi.org/10.1016/j.ijggc.2012.12.003.",
+      "role": "Static transport/pipeline LCA review context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Cruz, T.T.d., Perrella Balestieri, J.A., de Toledo Silva, J.M., Vilanova, M.R.,",
+        "Oliveira, O.J., Ávila, I., 2021. Life cycle assessment of carbon capture and stor-",
+        "age/utilization: From current state to future research directions and opportunities.",
+        "Int. J. Greenh. Gas Control. 108, 103309. http://dx.doi.org/10.1016/j.ijggc.2021.",
+        "103309."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          478.3051,
+          561.0056,
+          492.4221
+        ],
+        [
+          318.559,
+          486.8731,
+          557.6904,
+          500.9901
+        ],
+        [
+          318.559,
+          495.4411,
+          561.0056,
+          509.5581
+        ],
+        [
+          318.559,
+          504.0081,
+          557.6945,
+          518.1251
+        ],
+        [
+          318.559,
+          518.9808,
+          341.8823,
+          525.3569
+        ]
+      ],
+      "citation": "Cruz, T.T.d., Perrella Balestieri, J.A., de Toledo Silva, J.M., Vilanova, M.R., Oliveira, O.J., Ávila, I., 2021. Life cycle assessment of carbon capture and stor- age/utilization: From current state to future research directions and opportunities. Int. J. Greenh. Gas Control. 108, 103309. http://dx.doi.org/10.1016/j.ijggc.2021. 103309.",
+      "role": "CCS/CCU LCA review context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Cuéllar-Franca, R.M., Azapagic, A., 2015. Carbon capture, storage and utilisation",
+        "technologies: A critical analysis and comparison of their life cycle environmental",
+        "impacts. J. CO2 Util. 9, 82–102. http://dx.doi.org/10.1016/j.jcou.2014.12.001."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          521.3851,
+          561.0056,
+          535.5021
+        ],
+        [
+          318.559,
+          529.9531,
+          561.0056,
+          544.0701
+        ],
+        [
+          318.559,
+          538.5211,
+          548.1803,
+          552.6382
+        ]
+      ],
+      "citation": "Cuéllar-Franca, R.M., Azapagic, A., 2015. Carbon capture, storage and utilisation technologies: A critical analysis and comparison of their life cycle environmental impacts. J. CO2 Util. 9, 82–102. http://dx.doi.org/10.1016/j.jcou.2014.12.001.",
+      "role": "CCS/CCU LCA review context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO2 lique-",
+        "faction: Impact of product pressure and impurities. Int. J. Refrig. 103, 301–315.",
+        "http://dx.doi.org/10.1016/j.ijrefrig.2019.04.011."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          547.3301,
+          557.6897,
+          561.4471
+        ],
+        [
+          318.559,
+          555.8981,
+          561.0056,
+          570.0151
+        ],
+        [
+          318.559,
+          570.8708,
+          458.8063,
+          577.2469
+        ]
+      ],
+      "citation": "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO2 lique- faction: Impact of product pressure and impurities. Int. J. Refrig. 103, 301–315. http://dx.doi.org/10.1016/j.ijrefrig.2019.04.011.",
+      "role": "16bar liquefaction process and conditioning assumptions, claimed +/-4% validation",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C38"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Di Maria, A., Snellings, R., Alaerts, L., Quaghebeur, M., van Acker, K., 2020. Envi-",
+        "ronmental assessment of CO2 mineralisation for sustainable construction materials.",
+        "Int. J. Greenh. Gas Control. 93, 102882. http://dx.doi.org/10.1016/j.ijggc.2019.",
+        "102882."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          573.2751,
+          557.6897,
+          587.3922
+        ],
+        [
+          318.559,
+          581.8431,
+          561.0056,
+          595.9601
+        ],
+        [
+          318.559,
+          590.4111,
+          557.6945,
+          604.5281
+        ],
+        [
+          318.559,
+          605.3839,
+          341.8823,
+          611.7599
+        ]
+      ],
+      "citation": "Di Maria, A., Snellings, R., Alaerts, L., Quaghebeur, M., van Acker, K., 2020. Envi- ronmental assessment of CO2 mineralisation for sustainable construction materials. Int. J. Greenh. Gas Control. 93, 102882. http://dx.doi.org/10.1016/j.ijggc.2019. 102882.",
+      "role": "Construction-material mineralisation context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Equinor, 2019a. EL001 Northern Lights - Receiving and permanent storage of CO2:",
+        "Plan for development, installation and operation, part II - Impact Assessment. URL:",
+        "https://norlights.com/what-we-do/reports/."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          607.7881,
+          561.0056,
+          621.9052
+        ],
+        [
+          318.559,
+          616.3561,
+          561.0056,
+          630.4731
+        ],
+        [
+          318.559,
+          631.3289,
+          443.7903,
+          637.705
+        ]
+      ],
+      "citation": "Equinor, 2019a. EL001 Northern Lights - Receiving and permanent storage of CO2: Plan for development, installation and operation, part II - Impact Assessment. URL: https://norlights.com/what-we-do/reports/.",
+      "role": "Historical Northern Lights receiving/storage impact-assessment conditions",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C07",
+        "C37"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Equinor, 2019b. Northern lights concept report: RE-PM673-00001. URL: https://",
+        "norlights.com/what-we-do/reports/."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          633.7331,
+          557.6873,
+          647.8502
+        ],
+        [
+          318.559,
+          648.7059,
+          421.6583,
+          655.082
+        ]
+      ],
+      "citation": "Equinor, 2019b. Northern lights concept report: RE-PM673-00001. URL: https:// norlights.com/what-we-do/reports/.",
+      "role": "Northern Lights concept condition basis",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C37"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "European Commission, 2019. Environmental footprint reference packages 3.0 (EF 3.0).",
+        "URL: https://eplca.jrc.ec.europa.eu/LCDN/EF_archive.html."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          651.1101,
+          561.0056,
+          665.2272
+        ],
+        [
+          318.559,
+          659.6781,
+          488.3063,
+          673.7952
+        ]
+      ],
+      "citation": "European Commission, 2019. Environmental footprint reference packages 3.0 (EF 3.0). URL: https://eplca.jrc.ec.europa.eu/LCDN/EF_archive.html.",
+      "role": "EF3.0 reference package",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C66"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "European Commission and Directorate-General for Climate Action, 2019. Going climate-",
+        "neutral by 2050 – A strategic long-term vision for a prosperous, modern,",
+        "competitive and climate-neutral EU economy. URL: https://data.europa.eu/doi/10.",
+        "2834/02074."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          668.4871,
+          557.6904,
+          682.6041
+        ],
+        [
+          318.559,
+          677.0551,
+          561.0056,
+          691.1721
+        ],
+        [
+          318.559,
+          685.6231,
+          557.6904,
+          699.7402
+        ],
+        [
+          318.559,
+          700.5959,
+          355.7773,
+          706.972
+        ]
+      ],
+      "citation": "European Commission and Directorate-General for Climate Action, 2019. Going climate- neutral by 2050 – A strategic long-term vision for a prosperous, modern, competitive and climate-neutral EU economy. URL: https://data.europa.eu/doi/10. 2834/02074.",
+      "role": "Historical European net-zero transition context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        10
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Fazio, S., Biganzioli, F., de Laurentiis, V., Zampori, L., Sala, S., Diaconu, E., 2018.",
+        "Supporting information to the characterisation factors of recommended EF Life",
+        "Cycle Impact Assessment methods: Version 2, from ILCD to EF 3.0, EUR 29600",
+        "EN. http://dx.doi.org/10.2760/002447."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          703.0001,
+          561.0056,
+          717.1171
+        ],
+        [
+          318.559,
+          711.5681,
+          561.0056,
+          725.6852
+        ],
+        [
+          318.559,
+          720.1351,
+          561.0056,
+          734.2521
+        ],
+        [
+          318.559,
+          728.7031,
+          432.5273,
+          742.8201
+        ]
+      ],
+      "citation": "Fazio, S., Biganzioli, F., de Laurentiis, V., Zampori, L., Sala, S., Diaconu, E., 2018. Supporting information to the characterisation factors of recommended EF Life Cycle Impact Assessment methods: Version 2, from ILCD to EF 3.0, EUR 29600 EN. http://dx.doi.org/10.2760/002447.",
+      "role": "EF LCIA methods/characterisation factors",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C66"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Hank, C., Lazar, L., Mantei, F., Ouda, M., White, R.J., Smolinka, T., Schaadt, A.,",
+        "Hebling, C., Henning, H.M., 2019. Comparative well-to-wheel life cycle assessment",
+        "of OME 3–5 synfuel production via the power-to-liquid pathway. Sustain. Energy",
+        "Fuels 3 (11), 3219–3233. http://dx.doi.org/10.1039/C9SE00658C."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          50.1611,
+          291.9886,
+          64.2781
+        ],
+        [
+          49.543,
+          58.7291,
+          291.9886,
+          72.8461
+        ],
+        [
+          49.543,
+          67.2961,
+          291.9886,
+          81.4132
+        ],
+        [
+          49.543,
+          75.8641,
+          242.0843,
+          89.9811
+        ]
+      ],
+      "citation": "Hank, C., Lazar, L., Mantei, F., Ouda, M., White, R.J., Smolinka, T., Schaadt, A., Hebling, C., Henning, H.M., 2019. Comparative well-to-wheel life cycle assessment of OME 3–5 synfuel production via the power-to-liquid pathway. Sustain. Energy Fuels 3 (11), 3219–3233. http://dx.doi.org/10.1039/C9SE00658C.",
+      "role": "Methanol/synfuel production foreground inventory lineage",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C29"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Hare, B., Brecha, R., Schaeffer, M., 2018. Integrated assessment models:",
+        "what are they and how do they arrive at their conclusions? URL:",
+        "https://climateanalytics.org/publications/integrated-assessment-models-what-",
+        "are-they-and-how-do-they-arrive-at-their-conclusions."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          84.4321,
+          291.9886,
+          98.5491
+        ],
+        [
+          49.543,
+          93.0001,
+          291.9886,
+          107.1171
+        ],
+        [
+          49.543,
+          107.9729,
+          271.1882,
+          114.3489
+        ],
+        [
+          49.543,
+          116.5409,
+          200.9383,
+          122.917
+        ]
+      ],
+      "citation": "Hare, B., Brecha, R., Schaeffer, M., 2018. Integrated assessment models: what are they and how do they arrive at their conclusions? URL: https://climateanalytics.org/publications/integrated-assessment-models-what- are-they-and-how-do-they-arrive-at-their-conclusions.",
+      "role": "IAM explanatory context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C17",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "IEA, 2020. Energy technology perspective 2020: Special report on carbon cap-",
+        "ture utilisation and storage. URL: https://www.iea.org/reports/energy-technology-",
+        "perspectives-2020."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          118.7041,
+          288.6743,
+          132.8212
+        ],
+        [
+          49.543,
+          127.2721,
+          288.6679,
+          141.3892
+        ],
+        [
+          49.543,
+          142.2439,
+          102.2433,
+          148.62
+        ]
+      ],
+      "citation": "IEA, 2020. Energy technology perspective 2020: Special report on carbon cap- ture utilisation and storage. URL: https://www.iea.org/reports/energy-technology- perspectives-2020.",
+      "role": "European demand/proximity/scale projections; no field annual safe injection",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C06",
+        "C09",
+        "C16",
+        "C47"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "IMO, 2016. Methanol as marine fuel: Environmental benefits, technology readiness, and",
+        "economic feasibility. URL: https://www.uncclearn.org/resources/library/methanol-",
+        "as-marine-fuel-environmental-benefits-technology-readiness-and-economic-",
+        "feasibility/."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          144.4071,
+          291.9886,
+          158.5242
+        ],
+        [
+          49.543,
+          152.9751,
+          288.6697,
+          167.0922
+        ],
+        [
+          49.543,
+          167.9479,
+          262.1788,
+          174.324
+        ],
+        [
+          49.543,
+          176.5159,
+          82.2183,
+          182.892
+        ]
+      ],
+      "citation": "IMO, 2016. Methanol as marine fuel: Environmental benefits, technology readiness, and economic feasibility. URL: https://www.uncclearn.org/resources/library/methanol- as-marine-fuel-environmental-benefits-technology-readiness-and-economic- feasibility/.",
+      "role": "Methanol ship exhaust emission inventory",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C31"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "IPCC, 2005. In: Metz, B., Davidson, O., de Coninck, H., Loos, M., Meyer, L. (Eds.),",
+        "Carbon Dioxide Capture and Storage. Cambridge University Press, Cambridge,",
+        "England, URL: https://www.ipcc.ch/report/carbon-dioxide-capture-and-storage/."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          178.6791,
+          291.9886,
+          192.7961
+        ],
+        [
+          49.543,
+          187.2471,
+          291.9886,
+          201.3641
+        ],
+        [
+          49.543,
+          195.8151,
+          281.1573,
+          209.9321
+        ]
+      ],
+      "citation": "IPCC, 2005. In: Metz, B., Davidson, O., de Coninck, H., Loos, M., Meyer, L. (Eds.), Carbon Dioxide Capture and Storage. Cambridge University Press, Cambridge, England, URL: https://www.ipcc.ch/report/carbon-dioxide-capture-and-storage/.",
+      "role": "CCS transport-cost and mineralisation background",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C05",
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "IPCC, 2022. In: Masson-Delmotte, V., Zhai, P., Pörtner, H.O., Roberts, D., Skea, J.,",
+        "Shukla, P.R., Pirani, A., Moufouma-Okia, W., Péan, C., Pidcock, R., Connors, S.,",
+        "Matthews, J.B.R., Chen, Y., Zhou, X., Gomis, M.I., Lonnoy, E., Maycock, T.,",
+        "Tignor, M., Waterfield, T. (Eds.), Global Warming of 1.5 ◦ C: IPCC Special",
+        "Report on Impacts of Global Warming of 1.5 ◦ C above Pre-industrial Levels in",
+        "Context of Strengthening Response to Climate Change, Sustainable Development,",
+        "and Efforts to Eradicate Poverty. Cambridge University Press, http://dx.doi.org/10.",
+        "1017/9781009157940."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          204.3821,
+          291.9886,
+          218.4991
+        ],
+        [
+          49.543,
+          212.9501,
+          291.9886,
+          227.0671
+        ],
+        [
+          49.543,
+          221.5181,
+          291.9886,
+          235.6351
+        ],
+        [
+          49.543,
+          230.0861,
+          291.9886,
+          244.2031
+        ],
+        [
+          49.543,
+          238.6541,
+          291.9886,
+          252.7712
+        ],
+        [
+          49.543,
+          247.2221,
+          291.9886,
+          261.3392
+        ],
+        [
+          49.543,
+          255.7901,
+          288.674,
+          269.9072
+        ],
+        [
+          49.543,
+          270.7629,
+          115.4783,
+          277.139
+        ]
+      ],
+      "citation": "IPCC, 2022. In: Masson-Delmotte, V., Zhai, P., Pörtner, H.O., Roberts, D., Skea, J., Shukla, P.R., Pirani, A., Moufouma-Okia, W., Péan, C., Pidcock, R., Connors, S., Matthews, J.B.R., Chen, Y., Zhou, X., Gomis, M.I., Lonnoy, E., Maycock, T., Tignor, M., Waterfield, T. (Eds.), Global Warming of 1.5 ◦ C: IPCC Special Report on Impacts of Global Warming of 1.5 ◦ C above Pre-industrial Levels in Context of Strengthening Response to Climate Change, Sustainable Development, and Efforts to Eradicate Poverty. Cambridge University Press, http://dx.doi.org/10. 1017/9781009157940.",
+      "role": "Climate goals and IAM context; source is cited2022 edition of1.5C report",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C01",
+        "C17"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "ISO, 2020a. ISO 14040:2006/Amd 1:2020. Environmental management — Life cycle",
+        "assessment — Principles and framework — Amendment 1."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          272.9251,
+          291.9886,
+          287.0421
+        ],
+        [
+          49.543,
+          281.4931,
+          220.4321,
+          295.6101
+        ]
+      ],
+      "citation": "ISO, 2020a. ISO 14040:2006/Amd 1:2020. Environmental management — Life cycle assessment — Principles and framework — Amendment 1.",
+      "role": "LCA principles/framework standard, amendment2020",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C18"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "ISO, 2020b. ISO 14044:2006/Amd 2:2020. Environmental management — Life cycle",
+        "assessment — Requirements and guidelines — Amendment 2."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          290.0611,
+          291.9886,
+          304.1782
+        ],
+        [
+          49.543,
+          298.6291,
+          229.4881,
+          312.7462
+        ]
+      ],
+      "citation": "ISO, 2020b. ISO 14044:2006/Amd 2:2020. Environmental management — Life cycle assessment — Requirements and guidelines — Amendment 2.",
+      "role": "LCA requirements/guidelines standard, amendment2020",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C18"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Kätelhön, A., Meys, R., Deutz, S., Suh, S., Bardow, A., 2019. Climate change mitigation",
+        "potential of carbon capture and utilization in the chemical industry. Proc. Natl.",
+        "Acad. Sci. 116 (23), 11187–11194. http://dx.doi.org/10.1073/pnas.1821029116."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          307.1971,
+          291.9886,
+          321.3141
+        ],
+        [
+          49.543,
+          315.7651,
+          291.9886,
+          329.8821
+        ],
+        [
+          49.543,
+          324.3331,
+          284.4363,
+          338.4501
+        ]
+      ],
+      "citation": "Kätelhön, A., Meys, R., Deutz, S., Suh, S., Bardow, A., 2019. Climate change mitigation potential of carbon capture and utilization in the chemical industry. Proc. Natl. Acad. Sci. 116 (23), 11187–11194. http://dx.doi.org/10.1073/pnas.1821029116.",
+      "role": "CCU chemical-industry context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Knoope, M., Guijt, W., Ramírez, A., Faaij, A., 2014. Improved cost models for optimizing",
+        "CO2 pipeline configuration for point-to-point pipelines and simple networks. Int. J.",
+        "Greenh. Gas Control. 22, 25–46. http://dx.doi.org/10.1016/j.ijggc.2013.12.016."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          332.9011,
+          291.9886,
+          347.0182
+        ],
+        [
+          49.543,
+          341.4681,
+          291.9886,
+          355.5851
+        ],
+        [
+          49.543,
+          350.0361,
+          280.8903,
+          364.1531
+        ]
+      ],
+      "citation": "Knoope, M., Guijt, W., Ramírez, A., Faaij, A., 2014. Improved cost models for optimizing CO2 pipeline configuration for point-to-point pipelines and simple networks. Int. J. Greenh. Gas Control. 22, 25–46. http://dx.doi.org/10.1016/j.ijggc.2013.12.016.",
+      "role": "Gas/dense pipeline state range and optimization context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C22"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Koen, R., Hans Bolscher, FHHE, MMS, 2012. Assessing the Case for EU Legislation",
+        "on the Safety of Pipelines and the Possible Impacts of such an Initiative. Final",
+        "Report: ENV.G.1/FRA/2006/0073, European Commission, Directorate-General En-",
+        "vironment, URL: https://op.europa.eu/publication-detail/-/publication/ed12ad91-",
+        "6eec-4aad-b44e-7c9d3c99f98f."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          358.6041,
+          291.9886,
+          372.7212
+        ],
+        [
+          49.543,
+          367.1721,
+          291.9886,
+          381.2892
+        ],
+        [
+          49.543,
+          375.7401,
+          288.6728,
+          389.8571
+        ],
+        [
+          49.543,
+          384.3081,
+          288.6747,
+          398.4251
+        ],
+        [
+          49.543,
+          399.2809,
+          136.5983,
+          405.657
+        ]
+      ],
+      "citation": "Koen, R., Hans Bolscher, FHHE, MMS, 2012. Assessing the Case for EU Legislation on the Safety of Pipelines and the Possible Impacts of such an Initiative. Final Report: ENV.G.1/FRA/2006/0073, European Commission, Directorate-General En- vironment, URL: https://op.europa.eu/publication-detail/-/publication/ed12ad91- 6eec-4aad-b44e-7c9d3c99f98f.",
+      "role": "Pipeline safety/trench geometry recommendations; printed author identity retained",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C34"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Krone Commercial Vehicles SE, 2021. Die container chassis. URL: https://www.krone-",
+        "trailer.com/downloads. (Accessed 01 December 2023)."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          401.4441,
+          288.6664,
+          415.5612
+        ],
+        [
+          49.543,
+          410.0111,
+          207.9977,
+          424.1281
+        ]
+      ],
+      "citation": "Krone Commercial Vehicles SE, 2021. Die container chassis. URL: https://www.krone- trailer.com/downloads. (Accessed 01 December 2023).",
+      "role": "Truck trailer manufacturer weights",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Matter, J.M., Broecker, W.S., Gislason, S.R., Gunnlaugsson, E., Oelkers, E.H., Stute, M.,",
+        "Sigurdardóttir, H., Stefansson, A., Alfredsson, H.A., Aradóttir, E.S., Axelsson, G.,",
+        "Sigfússon, B., Wolff-Boenisch, D., 2011. The CarbFix Pilot Project–Storing carbon",
+        "dioxide in basalt. Energy Procedia 4, 5579–5585. http://dx.doi.org/10.1016/j.",
+        "egypro.2011.02.546."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          418.5791,
+          291.9886,
+          432.6961
+        ],
+        [
+          49.543,
+          427.1471,
+          291.9886,
+          441.2642
+        ],
+        [
+          49.543,
+          435.7151,
+          291.9886,
+          449.8322
+        ],
+        [
+          49.543,
+          444.2831,
+          288.6742,
+          458.4001
+        ],
+        [
+          49.543,
+          459.2559,
+          108.3643,
+          465.632
+        ]
+      ],
+      "citation": "Matter, J.M., Broecker, W.S., Gislason, S.R., Gunnlaugsson, E., Oelkers, E.H., Stute, M., Sigurdardóttir, H., Stefansson, A., Alfredsson, H.A., Aradóttir, E.S., Axelsson, G., Sigfússon, B., Wolff-Boenisch, D., 2011. The CarbFix Pilot Project–Storing carbon dioxide in basalt. Energy Procedia 4, 5579–5585. http://dx.doi.org/10.1016/j. egypro.2011.02.546.",
+      "role": "Basalt mineralisation and25bar terminal context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Mayer, P., Ramirez, A., Pezzella, G., Winter, B., Sarathy, S.M., Gascon, J., Bardow, A.,",
+        "2023. Blue and green ammonia production: A techno-economic and life cycle",
+        "assessment perspective. iScience 26 (8), 107389. http://dx.doi.org/10.1016/j.isci.",
+        "2023.107389."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          461.4191,
+          291.9886,
+          475.5362
+        ],
+        [
+          49.543,
+          469.9871,
+          291.9886,
+          484.1042
+        ],
+        [
+          49.543,
+          478.5541,
+          288.6744,
+          492.6711
+        ],
+        [
+          49.543,
+          493.5269,
+          89.0083,
+          499.903
+        ]
+      ],
+      "citation": "Mayer, P., Ramirez, A., Pezzella, G., Winter, B., Sarathy, S.M., Gascon, J., Bardow, A., 2023. Blue and green ammonia production: A techno-economic and life cycle assessment perspective. iScience 26 (8), 107389. http://dx.doi.org/10.1016/j.isci. 2023.107389.",
+      "role": "Ammonia production process inventory lineage",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C30"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Meeberg Group, 2022. Meeberg ISO tanks & containers. URL: https://www.meeberg.",
+        "com/en/tank-container-stock/21000l-new-build-t75-cryogenic-. (Accessed 27 July",
+        "2022)."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          495.6901,
+          288.6631,
+          509.8072
+        ],
+        [
+          49.543,
+          504.2581,
+          291.9886,
+          518.3751
+        ],
+        [
+          49.543,
+          519.2308,
+          68.0846,
+          525.6069
+        ]
+      ],
+      "citation": "Meeberg Group, 2022. Meeberg ISO tanks & containers. URL: https://www.meeberg. com/en/tank-container-stock/21000l-new-build-t75-cryogenic-. (Accessed 27 July 2022).",
+      "role": "ISO tank manufacturer tare/capacity data",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Minx, J.C., Lamb, W.F., Callaghan, M.W., Fuss, S., Hilaire, J., Creutzig, F., Amann, T.,",
+        "Beringer, T., de Oliveira Garcia, W., Hartmann, J., Khanna, T., Lenzi, D., Lud-",
+        "erer, G., Nemet, G.F., Rogelj, J., Smith, P., Vicente Vicente, J.L., Wilcox, J., Del",
+        "Mar Zamora Dominguez, M., 2018. Negative emissions—Part 1: Research landscape",
+        "and synthesis. Environ. Res. Lett. 13 (6), 063001. http://dx.doi.org/10.1088/1748-",
+        "9326/aabf9b."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          521.394,
+          291.9886,
+          535.5111
+        ],
+        [
+          49.543,
+          529.9621,
+          288.6751,
+          544.0792
+        ],
+        [
+          49.543,
+          538.5301,
+          291.9886,
+          552.6472
+        ],
+        [
+          49.543,
+          547.0981,
+          291.9886,
+          561.2151
+        ],
+        [
+          49.543,
+          555.6651,
+          288.6744,
+          569.7822
+        ],
+        [
+          49.543,
+          570.6379,
+          88.0493,
+          577.014
+        ]
+      ],
+      "citation": "Minx, J.C., Lamb, W.F., Callaghan, M.W., Fuss, S., Hilaire, J., Creutzig, F., Amann, T., Beringer, T., de Oliveira Garcia, W., Hartmann, J., Khanna, T., Lenzi, D., Lud- erer, G., Nemet, G.F., Rogelj, J., Smith, P., Vicente Vicente, J.L., Wilcox, J., Del Mar Zamora Dominguez, M., 2018. Negative emissions—Part 1: Research landscape and synthesis. Environ. Res. Lett. 13 (6), 063001. http://dx.doi.org/10.1088/1748- 9326/aabf9b.",
+      "role": "Carbon dioxide removal landscape context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        11
+      ],
+      "native_column": "left",
+      "native_lines": [
+        "Oeuvray, P., Burger, J., Roussanaly, S., Mazzotti, M., Becattini, V., 2024. Multi-criteria",
+        "assessment of inland and offshore carbon dioxide transport options. J. Clean. Prod.",
+        "443, 140781. http://dx.doi.org/10.1016/j.jclepro.2024.140781."
+      ],
+      "line_bboxes": [
+        [
+          37.587,
+          572.8011,
+          291.9886,
+          586.9182
+        ],
+        [
+          49.543,
+          581.3691,
+          291.9886,
+          595.4861
+        ],
+        [
+          49.543,
+          589.9371,
+          232.8923,
+          604.0541
+        ]
+      ],
+      "citation": "Oeuvray, P., Burger, J., Roussanaly, S., Mazzotti, M., Becattini, V., 2024. Multi-criteria assessment of inland and offshore carbon dioxide transport options. J. Clean. Prod. 443, 140781. http://dx.doi.org/10.1016/j.jclepro.2024.140781.",
+      "role": "Transport cost/configuration/geometry/phase/range/context; no original retained exact DOI found",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C08",
+        "C10",
+        "C11",
+        "C14",
+        "C22",
+        "C32",
+        "C33",
+        "C34",
+        "C55",
+        "C57"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Paltrinieri, N., Khan, F. (Eds.), 2016. Dynamic Risk Analysis in the Chemical and",
+        "Petroleum Industry. Elsevier, http://dx.doi.org/10.1016/C2014-0-04902-7."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          50.1611,
+          561.0056,
+          64.2781
+        ],
+        [
+          318.559,
+          58.7291,
+          534.1013,
+          72.8461
+        ]
+      ],
+      "citation": "Paltrinieri, N., Khan, F. (Eds.), 2016. Dynamic Risk Analysis in the Chemical and Petroleum Industry. Elsevier, http://dx.doi.org/10.1016/C2014-0-04902-7.",
+      "role": "Payback concept analogy; detailed native equation provenance not independently checked",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C43"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Paltsev, S., Morris, J., Kheshgi, H., Herzog, H., 2021. Hard-to-Abate Sectors: The role of",
+        "industrial carbon capture and storage (CCS) in emission mitigation. Appl. Energy",
+        "300, 117322. http://dx.doi.org/10.1016/j.apenergy.2021.117322."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          67.2961,
+          561.0056,
+          81.4132
+        ],
+        [
+          318.559,
+          75.8641,
+          561.0056,
+          89.9811
+        ],
+        [
+          318.559,
+          84.4321,
+          508.4253,
+          98.5491
+        ]
+      ],
+      "citation": "Paltsev, S., Morris, J., Kheshgi, H., Herzog, H., 2021. Hard-to-Abate Sectors: The role of industrial carbon capture and storage (CCS) in emission mitigation. Appl. Energy 300, 117322. http://dx.doi.org/10.1016/j.apenergy.2021.117322.",
+      "role": "Hard-to-abate industrial CCS context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Ryberg, M.W., Andersen, M.M., Owsianiak, M., Hauschild, M.Z., 2020. Downscaling",
+        "the planetary boundaries in absolute environmental sustainability assessments –",
+        "A review. J. Clean. Prod. 276, 123287. http://dx.doi.org/10.1016/j.jclepro.2020.",
+        "123287."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          93.0001,
+          561.0056,
+          107.1171
+        ],
+        [
+          318.559,
+          101.5681,
+          561.0056,
+          115.6851
+        ],
+        [
+          318.559,
+          110.1361,
+          557.6935,
+          124.2532
+        ],
+        [
+          318.559,
+          125.1089,
+          341.8823,
+          131.485
+        ]
+      ],
+      "citation": "Ryberg, M.W., Andersen, M.M., Owsianiak, M., Hauschild, M.Z., 2020. Downscaling the planetary boundaries in absolute environmental sustainability assessments – A review. J. Clean. Prod. 276, 123287. http://dx.doi.org/10.1016/j.jclepro.2020. 123287.",
+      "role": "Planetary-boundary downscaling/allocation choices",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C45",
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Ryberg, M.W., Owsianiak, M., Clavreul, J., Mueller, C., Sim, S., King, H.,",
+        "Hauschild, M.Z., 2018. How to bring absolute sustainability into decision-making:",
+        "An industry case study using a Planetary Boundary-based methodology. Sci. Total",
+        "Environ. 634, 1406–1416. http://dx.doi.org/10.1016/j.scitotenv.2018.04.075."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          127.2721,
+          561.0056,
+          141.3892
+        ],
+        [
+          318.559,
+          135.8391,
+          561.0056,
+          149.9562
+        ],
+        [
+          318.559,
+          144.4071,
+          561.0056,
+          158.5242
+        ],
+        [
+          318.559,
+          152.9751,
+          543.1023,
+          167.0922
+        ]
+      ],
+      "citation": "Ryberg, M.W., Owsianiak, M., Clavreul, J., Mueller, C., Sim, S., King, H., Hauschild, M.Z., 2018. How to bring absolute sustainability into decision-making: An industry case study using a Planetary Boundary-based methodology. Sci. Total Environ. 634, 1406–1416. http://dx.doi.org/10.1016/j.scitotenv.2018.04.075.",
+      "role": "Population/economic allocation approaches",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C46",
+        "C70"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Rycroft, L., Neele, F., Bruun, K.B., Meneguolo, R., de Moor, J., Schiferli, W., Can-",
+        "dela, T.G., Snæbjörnsdóttir, S.Ó., Hoffman, N., O’Brien, S., 2024. Geological storage",
+        "of CO2. In: Deployment of Carbon Capture and Storage. Elsevier, pp. 133–266.",
+        "http://dx.doi.org/10.1016/B978-0-323-95498-3.00003-1."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          161.5431,
+          557.6918,
+          175.6602
+        ],
+        [
+          318.559,
+          170.1111,
+          561.0056,
+          184.2281
+        ],
+        [
+          318.559,
+          178.6791,
+          561.0056,
+          192.7961
+        ],
+        [
+          318.559,
+          193.6519,
+          482.2743,
+          200.028
+        ]
+      ],
+      "citation": "Rycroft, L., Neele, F., Bruun, K.B., Meneguolo, R., de Moor, J., Schiferli, W., Can- dela, T.G., Snæbjörnsdóttir, S.Ó., Hoffman, N., O’Brien, S., 2024. Geological storage of CO2. In: Deployment of Carbon Capture and Storage. Elsevier, pp. 133–266. http://dx.doi.org/10.1016/B978-0-323-95498-3.00003-1.",
+      "role": "Geological sink classes and required states",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C36",
+        "C37"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Sacchi, R., Bauer, C., Cox, B.L., 2021. Does size matter? The influence of size, load",
+        "factor, range autonomy, and application type on the life cycle assessment of",
+        "current and future medium- and heavy-duty vehicles. Environ. Sci. Technol. 55",
+        "(8), 5224–5235. http://dx.doi.org/10.1021/acs.est.0c07773."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          195.8151,
+          561.0056,
+          209.9321
+        ],
+        [
+          318.559,
+          204.3821,
+          561.0056,
+          218.4991
+        ],
+        [
+          318.559,
+          212.9501,
+          561.0056,
+          227.0671
+        ],
+        [
+          318.559,
+          221.5181,
+          492.0613,
+          235.6351
+        ]
+      ],
+      "citation": "Sacchi, R., Bauer, C., Cox, B.L., 2021. Does size matter? The influence of size, load factor, range autonomy, and application type on the life cycle assessment of current and future medium- and heavy-duty vehicles. Environ. Sci. Technol. 55 (8), 5224–5235. http://dx.doi.org/10.1021/acs.est.0c07773.",
+      "role": "carculator_truck model and time-dependent truck inventories",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C25",
+        "C26",
+        "C27"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Sacchi, R., Terlouw, T., Siala, K., Dirnaichner, A., Bauer, C., Cox, B., Mutel, C.,",
+        "Daioglou, V., Luderer, G., 2022. PRospective EnvironMental impact asSEment",
+        "(premise): A streamlined approach to producing databases for prospective life cycle",
+        "assessment using integrated assessment models. Renew. Sustain. Energy Rev. 160,",
+        "112311. http://dx.doi.org/10.1016/j.rser.2022.112311."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          230.0861,
+          561.0056,
+          244.2031
+        ],
+        [
+          318.559,
+          238.6541,
+          561.0056,
+          252.7712
+        ],
+        [
+          318.559,
+          247.2221,
+          561.0056,
+          261.3392
+        ],
+        [
+          318.559,
+          255.7901,
+          561.0056,
+          269.9072
+        ],
+        [
+          318.559,
+          264.3581,
+          477.9733,
+          278.4752
+        ]
+      ],
+      "citation": "Sacchi, R., Terlouw, T., Siala, K., Dirnaichner, A., Bauer, C., Cox, B., Mutel, C., Daioglou, V., Luderer, G., 2022. PRospective EnvironMental impact asSEment (premise): A streamlined approach to producing databases for prospective life cycle assessment using integrated assessment models. Renew. Sustain. Energy Rev. 160, 112311. http://dx.doi.org/10.1016/j.rser.2022.112311.",
+      "role": "premise prospective background and hydrogen/nitrogen/fuel inventories",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C17",
+        "C29",
+        "C30",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Sala, S., Crenna, E., Secchi, M., Sanyé-Mengual, E., 2020. Environmental sustainability",
+        "of European production and consumption assessed against planetary boundaries. J.",
+        "Environ. Manag. 269, 110686. http://dx.doi.org/10.1016/j.jenvman.2020.110686."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          272.9251,
+          561.0056,
+          287.0421
+        ],
+        [
+          318.559,
+          281.4931,
+          561.0056,
+          295.6101
+        ],
+        [
+          318.559,
+          290.0611,
+          556.9143,
+          304.1782
+        ]
+      ],
+      "citation": "Sala, S., Crenna, E., Secchi, M., Sanyé-Mengual, E., 2020. Environmental sustainability of European production and consumption assessed against planetary boundaries. J. Environ. Manag. 269, 110686. http://dx.doi.org/10.1016/j.jenvman.2020.110686.",
+      "role": "LCIA-based planetary boundaries/equality allocation",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C45",
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Schiferli, W., 2023. Porthos – CO2 storage in highly-depleted gas fields. http://dx.doi.",
+        "org/10.2118/215562-MS."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          298.6291,
+          557.6907,
+          312.7462
+        ],
+        [
+          318.559,
+          313.6019,
+          391.7113,
+          319.978
+        ]
+      ],
+      "citation": "Schiferli, W., 2023. Porthos – CO2 storage in highly-depleted gas fields. http://dx.doi. org/10.2118/215562-MS.",
+      "role": "Porthos depleted-field historical receiving-state example",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C07",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Schwarzkopf, D.A., Petrik, R., Hahn, J., Ntziachristos, L., Matthias, V., Quante, M.,",
+        "2023. Future ship emission scenarios with a focus on ammonia fuel. Atmosphere",
+        "14 (5), 879. http://dx.doi.org/10.3390/atmos14050879."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          315.7651,
+          561.0056,
+          329.8821
+        ],
+        [
+          318.559,
+          324.3331,
+          561.0056,
+          338.4501
+        ],
+        [
+          318.559,
+          332.9011,
+          481.6583,
+          347.0182
+        ]
+      ],
+      "citation": "Schwarzkopf, D.A., Petrik, R., Hahn, J., Ntziachristos, L., Matthias, V., Quante, M., 2023. Future ship emission scenarios with a focus on ammonia fuel. Atmosphere 14 (5), 879. http://dx.doi.org/10.3390/atmos14050879.",
+      "role": "Ammonia ship exhaust inventory",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C31"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Skovholt, O., 1993. CO2 transportation system. Energy Convers. Manage. 34 (9–11),",
+        "1095–1103. http://dx.doi.org/10.1016/0196-8904(93)90058-I."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          341.4681,
+          561.0056,
+          355.5851
+        ],
+        [
+          318.559,
+          350.0361,
+          499.4023,
+          364.1531
+        ]
+      ],
+      "citation": "Skovholt, O., 1993. CO2 transportation system. Energy Convers. Manage. 34 (9–11), 1095–1103. http://dx.doi.org/10.1016/0196-8904(93)90058-I.",
+      "role": "Pipeline development/transport context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "UNFCCC, 2016. The Paris agreement: United Nations framework convention on climate",
+        "change (UNFCCC)."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          358.6041,
+          561.0056,
+          372.7212
+        ],
+        [
+          318.559,
+          367.1721,
+          372.3389,
+          381.2892
+        ]
+      ],
+      "citation": "UNFCCC, 2016. The Paris agreement: United Nations framework convention on climate change (UNFCCC).",
+      "role": "Paris Agreement climate goal",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "United Nations, 2023. World population prospects 2024. United Nations: Department",
+        "of Economic and Social Affairs: Population Division, New York, NY, URL: https:",
+        "//population.un.org/wpp/. (Accessed 01 September 2024)."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          375.7401,
+          561.0056,
+          389.8571
+        ],
+        [
+          318.559,
+          384.3081,
+          557.6897,
+          398.4251
+        ],
+        [
+          318.559,
+          392.8761,
+          489.4206,
+          406.9932
+        ]
+      ],
+      "citation": "United Nations, 2023. World population prospects 2024. United Nations: Department of Economic and Social Affairs: Population Division, New York, NY, URL: https: //population.un.org/wpp/. (Accessed 01 September 2024).",
+      "role": "Population allocation7.9%; printed2023 author-year/2024 title and accessdate need exact dataset identity",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Wang, Y., Pan, Z., Zhang, W., Borhani, T.N., Li, R., Zhang, Z., 2022. Life cycle",
+        "assessment of combustion-based electricity generation technologies integrated with",
+        "carbon capture and storage: A review. Environ. Res. 207, 112219. http://dx.doi.",
+        "org/10.1016/j.envres.2021.112219."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          401.4441,
+          561.0056,
+          415.5612
+        ],
+        [
+          318.559,
+          410.0111,
+          561.0056,
+          424.1281
+        ],
+        [
+          318.559,
+          418.5791,
+          557.6907,
+          432.6961
+        ],
+        [
+          318.559,
+          433.5519,
+          420.6063,
+          439.928
+        ]
+      ],
+      "citation": "Wang, Y., Pan, Z., Zhang, W., Borhani, T.N., Li, R., Zhang, Z., 2022. Life cycle assessment of combustion-based electricity generation technologies integrated with carbon capture and storage: A review. Environ. Res. 207, 112219. http://dx.doi. org/10.1016/j.envres.2021.112219.",
+      "role": "CCS power-generation LCA review",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R48"
+    },
+    {
+      "id": "R49",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Wernet, G., Bauer, C., Steubing, B., Reinhard, J., Moreno-Ruiz, E., Weidema, B., 2016.",
+        "The ecoinvent database version 3 (part I): overview and methodology. Int. J.",
+        "LifeCycle Assess. 21 (9), 1218–1230. http://dx.doi.org/10.1007/s11367-016-1087-",
+        "8."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          435.7151,
+          561.0056,
+          449.8322
+        ],
+        [
+          318.559,
+          444.2831,
+          561.0056,
+          458.4001
+        ],
+        [
+          318.559,
+          452.8511,
+          557.6935,
+          466.9681
+        ],
+        [
+          318.559,
+          467.8239,
+          323.9343,
+          474.2
+        ]
+      ],
+      "citation": "Wernet, G., Bauer, C., Steubing, B., Reinhard, J., Moreno-Ruiz, E., Weidema, B., 2016. The ecoinvent database version 3 (part I): overview and methodology. Int. J. LifeCycle Assess. 21 (9), 1218–1230. http://dx.doi.org/10.1007/s11367-016-1087- 8.",
+      "role": "ecoinvent3.8 cutoff foreground/background methodology",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C28",
+        "C34",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R49"
+    },
+    {
+      "id": "R50",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Wildbolz, C., 2007. Life Cycle Assessment of Selected Technologies for CO2 Transport",
+        "and Sequestration (Ph.D. thesis). Swiss Federal Institute of Technology Zurich,",
+        "Switzerland, URL: https://doka.ch/publications.htm."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          469.9871,
+          561.0056,
+          484.1042
+        ],
+        [
+          318.559,
+          478.5541,
+          561.0056,
+          492.6711
+        ],
+        [
+          318.559,
+          487.1221,
+          469.5273,
+          501.2391
+        ]
+      ],
+      "citation": "Wildbolz, C., 2007. Life Cycle Assessment of Selected Technologies for CO2 Transport and Sequestration (Ph.D. thesis). Swiss Federal Institute of Technology Zurich, Switzerland, URL: https://doka.ch/publications.htm.",
+      "role": "8Mt/y supercritical pipeline comparator; exact thesis/version and inventories pending",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C35"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R50"
+    },
+    {
+      "id": "R51",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Zanne, M., Twrdy, E., Muha, R., Batista, M., 2023. The impact of migration of road",
+        "freight transport services on economic indicators in selected EU countries. Promet",
+        "- Traffic Transp. 35 (3), 271–284. http://dx.doi.org/10.7307/ptt.v35i3.198."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          495.6901,
+          561.0056,
+          509.8072
+        ],
+        [
+          318.559,
+          504.2581,
+          561.0056,
+          518.3751
+        ],
+        [
+          318.559,
+          512.826,
+          538.0583,
+          526.9431
+        ]
+      ],
+      "citation": "Zanne, M., Twrdy, E., Muha, R., Batista, M., 2023. The impact of migration of road freight transport services on economic indicators in selected EU countries. Promet - Traffic Transp. 35 (3), 271–284. http://dx.doi.org/10.7307/ptt.v35i3.198.",
+      "role": "EU27 road freight1800Gtkm/GVA reference",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C70"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R51"
+    },
+    {
+      "id": "R52",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "ZEP, 2019. Building a CO2 transport infrastructure for Europe. URL: https:",
+        "//zeroemissionsplatform.eu/document/building-a-co2-transport-infrastructure-",
+        "for-europe/. (Accessed 08 July 2024)."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          521.394,
+          557.6897,
+          535.5111
+        ],
+        [
+          318.559,
+          536.3669,
+          542.3466,
+          542.743
+        ],
+        [
+          318.559,
+          538.5301,
+          428.8486,
+          552.6472
+        ]
+      ],
+      "citation": "ZEP, 2019. Building a CO2 transport infrastructure for Europe. URL: https: //zeroemissionsplatform.eu/document/building-a-co2-transport-infrastructure- for-europe/. (Accessed 08 July 2024).",
+      "role": "European CO2 infrastructure development context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R52"
+    },
+    {
+      "id": "R53",
+      "pages": [
+        11
+      ],
+      "native_column": "right",
+      "native_lines": [
+        "Zincir, B.A., Arslanoglu, Y., 2024. Comparative life cycle assessment of alternative",
+        "marine fuels. Fuel 358, 129995. http://dx.doi.org/10.1016/j.fuel.2023.129995."
+      ],
+      "line_bboxes": [
+        [
+          306.604,
+          547.0981,
+          561.0056,
+          561.2151
+        ],
+        [
+          318.559,
+          555.6651,
+          548.2013,
+          569.7822
+        ]
+      ],
+      "citation": "Zincir, B.A., Arslanoglu, Y., 2024. Comparative life cycle assessment of alternative marine fuels. Fuel 358, 129995. http://dx.doi.org/10.1016/j.fuel.2023.129995.",
+      "role": "Alternative marine fuel LHV/tank-to-wheel assumption lineage",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C31"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R53"
+    }
+  ]
+}

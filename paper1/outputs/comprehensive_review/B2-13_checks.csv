@@ -1,0 +1,39 @@
+item,value,unit,basis
+conditional_ISO_full_t,29.9,t,Conditional fill/heel mass balance; not native freight denominator or atmospheric loss
+conditional_ISO_heel_t,0.828,t,Conditional fill/heel mass balance; not native freight denominator or atmospheric loss
+conditional_ISO_returned_t,10.027999999999999,t,Conditional fill/heel mass balance; not native freight denominator or atmospheric loss
+conditional_ISO_delivered_t,19.872,t,Conditional fill/heel mass balance; not native freight denominator or atmospheric loss
+conditional_ISO_circulated_CO2_per_delivered_t,1.0416666666666667,ratio,Conditional fill/heel mass balance; not native freight denominator or atmospheric loss
+remaining_44t_allowance,14.100000000000001,t,"Approximate gross less full container, not actual tractor/trailer/battery weights or legal validation"
+annual_transport_demand,70.0,Gtkm/y,"Reported scenario product, not field capacity"
+GVA_sector_allocation_low,0.023333333333333334,% of Europe safe operating space,Conditional linear GVA allocation; EU27 freight and population/EUR boundaries need alignment
+pipeline_quoted_upper_over_low_allocation,3.214285714285714,ratio,Quoted upper bound divided by conditional budget; not proof actual case exceeds budget
+GVA_sector_allocation_high,0.07388888888888889,% of Europe safe operating space,Conditional linear GVA allocation; EU27 freight and population/EUR boundaries need alignment
+pipeline_quoted_upper_over_high_allocation,1.0150375939849623,ratio,Quoted upper bound divided by conditional budget; not proof actual case exceeds budget
+batch_low_over_high_allocation,5.413533834586466,ratio,"Reported impact endpoint versus optimistic sector budget, T only; not complete-chain burden"
+batch_high_over_high_allocation,64.96240601503759,ratio,"Reported impact endpoint versus optimistic sector budget, T only; not complete-chain burden"
+Europe_to_global_upper_share,0.005925,% global,Allocation arithmetic only; not a new planetary boundary
+selected_4g_intensity_at_100km,0.4,kgCO2e/t transported,"Transport-only unit conversion of selected quoted intensity, not all pipelines or whole-chain avoidance"
+selected_4g_at_70Gtkm,0.28,MtCO2e/y,"Conditional intensity times demand, not reproduced European network LCA"
+annual_snapshot_time_points,12,count,"Source time grid, not annual inventory arrays"
+onshore_displayed_switches,45,count,All Figure4 upper-triangle cells
+onshore_finite_displayed_switches,34,count,"Source classifications, not recomputed paybacks"
+onshore_all_directed_pairs,90,count,Combinatorial comparison; missing reverse directions were not assessed in figure
+offshore_displayed_switches,21,count,All Figure4 upper-triangle cells
+offshore_finite_displayed_switches,15,count,"Source classifications, not recomputed paybacks"
+offshore_all_directed_pairs,42,count,Combinatorial comparison; missing reverse directions were not assessed in figure
+finite_displayed_switches,49,count,Includes parenthesized beyond-lifetime16
+source_X_switches,17,count,"Native X, no inferred infinite-horizon model"
+beyond_lifetime_switches,1,count,"H2 truck to electric truck, printed(16)"
+source_zero_labels,2,count,Rounded/displayed zero is not an instantaneous payoff
+F3_2040_train_dense03,6.7,y,"Native Figure3 quote, Figure4 rounds to7"
+F3_2040_excess_over_3y,3.7,y,Counterexample to an unqualified under3 claim
+F3_negative_adjacent_changes,2,count,Source sequence is not monotonically increasing
+onshore_dense10_first_categories,16,count,"Native Figure5 discrete rank, not cardinal environmental benefit"
+offshore_dense10_first_categories,14,count,"Native Figure5 discrete rank, not cardinal environmental benefit"
+electric_truck_worse_than_hydrogen_truck,11,categories,"Source ordinal comparison corroborates11/16 and4/16, respectively"
+electric_truck_worse_than_diesel_truck,4,categories,"Source ordinal comparison corroborates11/16 and4/16, respectively"
+HFO_better_than_ammonia_ship_nonclimate,9,categories,"Pairwise ordinal comparison, no weighting or aggregate sustainability score"
+HFO_better_than_methanol_ship_nonclimate,7,categories,"Pairwise ordinal comparison, no weighting or aggregate sustainability score"
+analyst_constant_payback,2.0,y,Synthetic Eq1 example; no author inputs
+analyst_declining_payback,3.0596026490066226,y,"Synthetic interpolated annual rates, source discretization, no author LCA"

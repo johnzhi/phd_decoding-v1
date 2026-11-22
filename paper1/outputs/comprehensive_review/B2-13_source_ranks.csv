@@ -1,0 +1,273 @@
+area,category,mode,rank,source_page,scenario,year,system_boundary,absolute_impact,provenance
+onshore,Climate change impact,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,supercritical,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,electric_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,hydrogen_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,diesel_barge,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Climate change impact,diesel_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,supercritical,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,electric_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,hydrogen_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,diesel_barge,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Energy resources: non-renewable,diesel_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,supercritical,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,electric_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,hydrogen_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,diesel_barge,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ionising radiation,diesel_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,supercritical,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,electric_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,hydrogen_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,diesel_barge,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ozone depletion potential,diesel_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,supercritical,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,electric_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,hydrogen_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,diesel_barge,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Acidification,diesel_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,supercritical,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,electric_train,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,electric_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,hydrogen_truck,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,diesel_barge,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: marine,diesel_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,supercritical,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,electric_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,hydrogen_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,diesel_barge,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Photochemical ozone formation,diesel_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,supercritical,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,electric_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,hydrogen_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,diesel_barge,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: terrestrial,diesel_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,supercritical,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,electric_train,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,electric_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,hydrogen_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,diesel_barge,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Particulate matter formation,diesel_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,supercritical,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,electric_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,hydrogen_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,diesel_barge,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Ecotoxicity: freshwater,diesel_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,supercritical,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,electric_train,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,electric_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,hydrogen_truck,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,diesel_barge,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: carcinogenic,diesel_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,supercritical,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,electric_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,hydrogen_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,diesel_barge,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Human toxicity: non-carcinogenic,diesel_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,supercritical,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,gas03,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,electric_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,hydrogen_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,diesel_barge,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Material resources: metals/minerals,diesel_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,supercritical,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,electric_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,hydrogen_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,diesel_barge,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Land use: soil quality index,diesel_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,supercritical,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,electric_train,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,electric_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,hydrogen_truck,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,diesel_barge,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Water use,diesel_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,supercritical,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,gas03,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,electric_train,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,electric_truck,10,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,hydrogen_truck,9,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,diesel_barge,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+onshore,Eutrophication: freshwater,diesel_truck,8,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Climate change impact,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Climate change impact,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Climate change impact,ammonia_ship,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Climate change impact,methanol_ship,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Climate change impact,gas10,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Climate change impact,gas03,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Climate change impact,hfo_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Energy resources: non-renewable,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Energy resources: non-renewable,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Energy resources: non-renewable,ammonia_ship,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Energy resources: non-renewable,methanol_ship,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Energy resources: non-renewable,gas10,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Energy resources: non-renewable,gas03,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Energy resources: non-renewable,hfo_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ionising radiation,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ionising radiation,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ionising radiation,ammonia_ship,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ionising radiation,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ionising radiation,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ionising radiation,gas03,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ionising radiation,hfo_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ozone depletion potential,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ozone depletion potential,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ozone depletion potential,ammonia_ship,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ozone depletion potential,methanol_ship,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ozone depletion potential,gas10,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ozone depletion potential,gas03,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ozone depletion potential,hfo_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Acidification,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Acidification,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Acidification,ammonia_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Acidification,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Acidification,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Acidification,gas03,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Acidification,hfo_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: marine,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: marine,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: marine,ammonia_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: marine,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: marine,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: marine,gas03,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: marine,hfo_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Photochemical ozone formation,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Photochemical ozone formation,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Photochemical ozone formation,ammonia_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Photochemical ozone formation,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Photochemical ozone formation,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Photochemical ozone formation,gas03,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Photochemical ozone formation,hfo_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: terrestrial,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: terrestrial,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: terrestrial,ammonia_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: terrestrial,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: terrestrial,gas10,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: terrestrial,gas03,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: terrestrial,hfo_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Particulate matter formation,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Particulate matter formation,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Particulate matter formation,ammonia_ship,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Particulate matter formation,methanol_ship,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Particulate matter formation,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Particulate matter formation,gas03,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Particulate matter formation,hfo_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ecotoxicity: freshwater,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ecotoxicity: freshwater,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ecotoxicity: freshwater,ammonia_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ecotoxicity: freshwater,methanol_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ecotoxicity: freshwater,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ecotoxicity: freshwater,gas03,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Ecotoxicity: freshwater,hfo_ship,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: carcinogenic,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: carcinogenic,dense03,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: carcinogenic,ammonia_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: carcinogenic,methanol_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: carcinogenic,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: carcinogenic,gas03,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: carcinogenic,hfo_ship,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: non-carcinogenic,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: non-carcinogenic,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: non-carcinogenic,ammonia_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: non-carcinogenic,methanol_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: non-carcinogenic,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: non-carcinogenic,gas03,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Human toxicity: non-carcinogenic,hfo_ship,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Material resources: metals/minerals,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Material resources: metals/minerals,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Material resources: metals/minerals,ammonia_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Material resources: metals/minerals,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Material resources: metals/minerals,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Material resources: metals/minerals,gas03,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Material resources: metals/minerals,hfo_ship,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Land use: soil quality index,dense10,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Land use: soil quality index,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Land use: soil quality index,ammonia_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Land use: soil quality index,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Land use: soil quality index,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Land use: soil quality index,gas03,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Land use: soil quality index,hfo_ship,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Water use,dense10,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Water use,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Water use,ammonia_ship,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Water use,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Water use,gas10,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Water use,gas03,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Water use,hfo_ship,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: freshwater,dense10,2,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: freshwater,dense03,3,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: freshwater,ammonia_ship,4,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: freshwater,methanol_ship,5,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: freshwater,gas10,6,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: freshwater,gas03,7,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only
+offshore,Eutrophication: freshwater,hfo_ship,1,9,SSP2-NDC,2070,T,,Manual tracing corroborated by native vector paths; ordinal only

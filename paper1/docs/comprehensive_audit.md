@@ -6,7 +6,9 @@ The [current progress register](comprehensive_review/README.md) distinguishes re
 
 The requested [detailed summary of the first 30 papers](comprehensive_review/first_30_detailed_summary.md) is also available as a [standalone PDF](comprehensive_review/first_30_detailed_summary.pdf). It covers 388 main-PDF pages and separates reported findings, audit qualifications, independent checks, Paper 1 implications and open evidence. It does not certify any paper as comprehensively complete.
 
-Current checkpoint: **37 detailed records; 518 of 1,301 main-PDF pages read and visually inspected; zero comprehensively complete papers.** There are 1,938 bibliography/dependency records and 24 scoped original-passage citation checks; those counts are not verified full original papers.
+Current checkpoint: **38 detailed records; 529 of 1,301 main-PDF pages read and visually inspected; zero comprehensively complete papers.** There are 2,004 bibliography/dependency records and 24 scoped original-passage citation checks; those counts are not verified full original papers.
+
+B2-13 now has a full retained-PDF item record, with original-source and model verification still incomplete. The [prospective transport findings](prospective_transport_comprehensive_findings.md) preserve boundary, payback, ranking and allocation exceptions; no numerical operating/GHG input changes.
 
 B2-12 now has a full retained-PDF item record, with original-source/model verification still incomplete. Its [inventory findings](postcapture_lci_comprehensive_findings.md) preserve the existing combined 1.5 MPa source-case HOLD: the 39.2 quote remains in the source inventory and excluded from analysis/scores. Current primary operating results and that prior exclusion are unchanged.
 
@@ -78,6 +80,7 @@ These are separate dimensions. A paper is not comprehensively complete because e
 - [B2-05](pipeline_diffusion_comprehensive_findings.md): all 12 pages, six figures, two tables, 14 numbered equations and 73 bibliography entries read/inspected. Forty-nine limited diagnostics and nine synthetic diffusion rows check temporal/cost components without reproducing the Swiss ZEN-garden model. The 4.8/1.7 Mt gap, period weighting, cost/annuity lineage, levelization, scenario restrictions and physical/lifecycle boundaries remain open. Two originals have scoped primary support; 71 other originals, ten dependencies and explicit public code/data/SI remain unverified. No accepted numerical input changes.
 
 - [B2-12](postcapture_lci_comprehensive_findings.md): B2-12 adds all 24 pages and internal Appendix A1/A2, twenty figures, sixteen main tables, thirteen numbered equations, 87 claim records, 133 component/mathematical checks plus three prior case-conflict checks, and 28 source-design rows with conditional timing examples. Pressure/units, material bases, time/activation, objective normalization, source labels and physical/lifecycle boundaries remain open. One scoped Roussanaly2021 original check brings citation edges to twenty-four; 57 other printed entries and fourteen native dependencies remain unverified. The combined 1.5 MPa quote remains on HOLD and excluded from scores under7045333. No native cost/MoMILP/Sphera/field/complete LCI model reproduced and no additional operating/GHG input accepted.
+- [B2-13](prospective_transport_comprehensive_findings.md): B2-13 adds all 11 retained pages, five figures, one numbered equation, 79 claim records, 38 limited checks, 66 source payback cells and 272 ordinal ranks corroborated by native vector paths. Its T/T+C boundaries exclude capture and field retention. Payback exceptions, static HFO background, two offshore rank exceptions and conditional planetary allocation qualify the headline findings. All 53 originals, thirteen dependencies or scope requirements, explicit supplements A/B and native licensed LCA/conditioning/payback cases remain open. No accepted operating/GHG input changes.
 
 - [B2-11](chp_capture_comprehensive_findings.md): B2-11 adds all 14 pages, eleven figures, six tables, six numbered equations, 56 claim records, 65 limited diagnostics, fifteen analyst truck-volume examples and fourteen transcribed representative cases. Bundled utility work, extracted-steam recovery, product state, part-load dispatch, cost timing and gross-versus-net climate boundaries remain open. One exact Kjärstad2016 check brings scoped citation edges to twenty-three; 47 other originals, twelve dependencies and explicit publisher SI remain unverified. No native Ebsilon/Aspen/spreadsheet or complete LCI model is reproduced, and no accepted operating/GHG input changes.
 
@@ -135,6 +138,7 @@ python paper1/scripts/audit_shipping_flexibility.py
 python paper1/scripts/audit_chp_capture.py
 python paper1/scripts/audit_postcapture_case_conflict.py
 python paper1/scripts/audit_postcapture_lci.py
+python paper1/scripts/audit_prospective_transport.py
 python -m unittest discover -s paper1/tests -v
 ```
 

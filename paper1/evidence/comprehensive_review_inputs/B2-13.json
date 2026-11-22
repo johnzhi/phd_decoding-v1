@@ -1,0 +1,1108 @@
+{
+  "study_id": "B2-13",
+  "source_path": "papers/B2-13.pdf",
+  "source_sha256": "4a0815a62c5f60d76eb4a939b2cfcd31ba50b48162b9762cdb0ac39dd25a423b",
+  "doi": "10.1016/j.jclepro.2025.145659",
+  "provenance": "Manual observations from all11 retained main-PDF pages, text and renders. Figure4a/b and Figure5a/b magnified. No external assets retrieved, no native inventories or source code inferred. Pressure basis unspecified in mainPDF.",
+  "boundaries": {
+    "T": "1t conditioned CO2 over1km; batch full outbound and empty/heel return; pipeline one-way and pressure-loss work. Initial/final conditioning outside T.",
+    "T+C": "1t pure unconditioned CO2 at1bar30C over1km to25bar gas or70bar>1C dense sink; capture/purification/storage/retention excluded."
+  },
+  "containers": {
+    "pages": [
+      3
+    ],
+    "tare_t": 9.2,
+    "capacity_CO2_t": 20.7,
+    "remaining_fraction": 0.04,
+    "pressure_bar_printed": 16,
+    "gross_truck_t_approx": 44,
+    "denominator_status": "20.7t interpreted conditionally as initial CO2 fill for arithmetic; native LCI denominator/heel handling unverified. Heel returns in tank, not vented loss."
+  },
+  "pipeline": {
+    "pages": [
+      3,
+      4,
+      7
+    ],
+    "length_km": 200,
+    "annual_capacities_Mt": [
+      0.3,
+      10
+    ],
+    "gas_inlet_bar": [
+      15,
+      30
+    ],
+    "gas_outlet_bar": 15,
+    "dense_inlet_bar": [
+      80,
+      350
+    ],
+    "dense_outlet_bar": 80,
+    "onshore_temperature_C": 15,
+    "offshore_temperature_C": 4,
+    "supercritical_comparator_Mt_y": 8,
+    "lifetime_y_figure3": 40,
+    "gas_sink_2040_threshold_km": {
+      "0.3Mt_y": 125,
+      "10Mt_y": 340
+    }
+  },
+  "background": {
+    "pages": [
+      4,
+      5,
+      6,
+      9
+    ],
+    "ecoinvent_version": "cutoff3.8",
+    "premise_version": null,
+    "REMIND_version": "2.1",
+    "scenarios": [
+      "SSP2-NDC",
+      "SSP2-Base",
+      "SSP2-PkBudg500"
+    ],
+    "EUR_scope": "EU countries and UK",
+    "years": [
+      2020,
+      2025,
+      2030,
+      2035,
+      2040,
+      2045,
+      2050,
+      2060,
+      2070,
+      2080,
+      2090,
+      2100
+    ],
+    "all_life_cycle_phases_same_year_figures2_5": true,
+    "HFO_prospective_mix_absent": true
+  },
+  "planetary_allocation": {
+    "pages": [
+      5,
+      8,
+      9
+    ],
+    "European_population_fraction": 0.079,
+    "population_scope_printed": "Europe excluding Russia",
+    "annual_CO2_Gt": 0.7,
+    "average_distance_km": 100,
+    "annual_demand_Gtkm": 70,
+    "EU27_road_freight_Gtkm": 1800,
+    "road_GVA_percent_range": [
+      0.6,
+      1.9
+    ],
+    "sector_allocated_percent_printed": [
+      0.023,
+      0.074
+    ],
+    "pipeline_highest_impacts_percent_range": [
+      0.012,
+      0.075
+    ],
+    "batch_onshore_highest_percent_range": [
+      0.4,
+      4.8
+    ],
+    "pipeline_abstract_upper_percent": 0.075,
+    "true_PB_categories": 15,
+    "land_use_proxy": "current global environmental impact, not an LCIA planetary boundary",
+    "native_absolute_category_limits": null
+  },
+  "figures": {
+    "F2": {
+      "pages": [
+        6
+      ],
+      "specific_2020_pipeline_gCO2e_tkm_quote": 4,
+      "truck_2020_construction_gCO2e_tkm": {
+        "diesel": 38,
+        "hydrogen": 43,
+        "electric": 85
+      },
+      "full_native_total_or_use_phase_series": null
+    },
+    "F3": {
+      "pages": [
+        7
+      ],
+      "switching_years": [
+        2020,
+        2025,
+        2030,
+        2040,
+        2050,
+        2060,
+        2070,
+        2080
+      ],
+      "quoted_payback_years": [
+        3.3,
+        5.7,
+        7.1,
+        6.7,
+        6.4,
+        6.7,
+        7.3,
+        8.1
+      ],
+      "scope": "electric train to0.3Mt/y dense pipeline, T, SSP2-NDC,40y pipeline",
+      "native_annual_construction_and_use_arrays": null
+    },
+    "F4": {
+      "pages": [
+        8
+      ],
+      "scenario": "SSP2-NDC",
+      "switching_year": 2040,
+      "system_boundary": "T",
+      "rounded_integer_caution": "Printed integers, no rounding convention supplied. Zero is not proof of instantaneous payoff. Parenthesized16 exceeds modeled lifetime. X is source status, not a reproduced optimizer result. Only selected upper-triangle directions shown.",
+      "onshore_order": [
+        "diesel_truck",
+        "diesel_barge",
+        "hydrogen_truck",
+        "electric_truck",
+        "electric_train",
+        "gas03",
+        "gas10",
+        "supercritical",
+        "dense03",
+        "dense10"
+      ],
+      "offshore_order": [
+        "hfo_ship",
+        "gas03",
+        "gas10",
+        "ammonia_ship",
+        "methanol_ship",
+        "dense03",
+        "dense10"
+      ],
+      "switches": [
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "diesel_barge",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "hydrogen_truck",
+          "quoted": 3,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "electric_truck",
+          "quoted": 3,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "electric_train",
+          "quoted": 10,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "gas03",
+          "quoted": 2,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "gas10",
+          "quoted": 1,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "supercritical",
+          "quoted": 1,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "dense03",
+          "quoted": 1,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_truck",
+          "new": "dense10",
+          "quoted": 0,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_barge",
+          "new": "hydrogen_truck",
+          "quoted": 5,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_barge",
+          "new": "electric_truck",
+          "quoted": 4,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_barge",
+          "new": "electric_train",
+          "quoted": 13,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_barge",
+          "new": "gas03",
+          "quoted": 2,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_barge",
+          "new": "gas10",
+          "quoted": 2,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_barge",
+          "new": "supercritical",
+          "quoted": 1,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_barge",
+          "new": "dense03",
+          "quoted": 1,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "diesel_barge",
+          "new": "dense10",
+          "quoted": 0,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "hydrogen_truck",
+          "new": "electric_truck",
+          "quoted": "(16)",
+          "finite": true,
+          "beyond_lifetime": true
+        },
+        {
+          "area": "onshore",
+          "existing": "hydrogen_truck",
+          "new": "electric_train",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "hydrogen_truck",
+          "new": "gas03",
+          "quoted": 10,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "hydrogen_truck",
+          "new": "gas10",
+          "quoted": 5,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "hydrogen_truck",
+          "new": "supercritical",
+          "quoted": 4,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "hydrogen_truck",
+          "new": "dense03",
+          "quoted": 3,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "hydrogen_truck",
+          "new": "dense10",
+          "quoted": 1,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_truck",
+          "new": "electric_train",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_truck",
+          "new": "gas03",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_truck",
+          "new": "gas10",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_truck",
+          "new": "supercritical",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_truck",
+          "new": "dense03",
+          "quoted": 30,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_truck",
+          "new": "dense10",
+          "quoted": 6,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_train",
+          "new": "gas03",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_train",
+          "new": "gas10",
+          "quoted": 12,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_train",
+          "new": "supercritical",
+          "quoted": 11,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_train",
+          "new": "dense03",
+          "quoted": 7,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "electric_train",
+          "new": "dense10",
+          "quoted": 2,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "gas03",
+          "new": "gas10",
+          "quoted": 23,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "gas03",
+          "new": "supercritical",
+          "quoted": 19,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "gas03",
+          "new": "dense03",
+          "quoted": 11,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "gas03",
+          "new": "dense10",
+          "quoted": 3,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "gas10",
+          "new": "supercritical",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "gas10",
+          "new": "dense03",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "gas10",
+          "new": "dense10",
+          "quoted": 23,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "supercritical",
+          "new": "dense03",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "supercritical",
+          "new": "dense10",
+          "quoted": 32,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "onshore",
+          "existing": "dense03",
+          "new": "dense10",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "hfo_ship",
+          "new": "gas03",
+          "quoted": 20,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "hfo_ship",
+          "new": "gas10",
+          "quoted": 12,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "hfo_ship",
+          "new": "ammonia_ship",
+          "quoted": 1,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "hfo_ship",
+          "new": "methanol_ship",
+          "quoted": 1,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "hfo_ship",
+          "new": "dense03",
+          "quoted": 3,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "hfo_ship",
+          "new": "dense10",
+          "quoted": 2,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas03",
+          "new": "gas10",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas03",
+          "new": "ammonia_ship",
+          "quoted": 7,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas03",
+          "new": "methanol_ship",
+          "quoted": 6,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas03",
+          "new": "dense03",
+          "quoted": 11,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas03",
+          "new": "dense10",
+          "quoted": 7,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas10",
+          "new": "ammonia_ship",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas10",
+          "new": "methanol_ship",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas10",
+          "new": "dense03",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "gas10",
+          "new": "dense10",
+          "quoted": 38,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "ammonia_ship",
+          "new": "methanol_ship",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "ammonia_ship",
+          "new": "dense03",
+          "quoted": 31,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "ammonia_ship",
+          "new": "dense10",
+          "quoted": 15,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "methanol_ship",
+          "new": "dense03",
+          "quoted": 26,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "methanol_ship",
+          "new": "dense10",
+          "quoted": 14,
+          "finite": true,
+          "beyond_lifetime": false
+        },
+        {
+          "area": "offshore",
+          "existing": "dense03",
+          "new": "dense10",
+          "quoted": "X",
+          "finite": false,
+          "beyond_lifetime": false
+        }
+      ]
+    },
+    "F5": {
+      "pages": [
+        9
+      ],
+      "year": 2070,
+      "scenario": "SSP2-NDC",
+      "system_boundary": "T",
+      "category_order": [
+        "Climate change impact",
+        "Energy resources: non-renewable",
+        "Ionising radiation",
+        "Ozone depletion potential",
+        "Acidification",
+        "Eutrophication: marine",
+        "Photochemical ozone formation",
+        "Eutrophication: terrestrial",
+        "Particulate matter formation",
+        "Ecotoxicity: freshwater",
+        "Human toxicity: carcinogenic",
+        "Human toxicity: non-carcinogenic",
+        "Material resources: metals/minerals",
+        "Land use: soil quality index",
+        "Water use",
+        "Eutrophication: freshwater"
+      ],
+      "onshore_ranks": {
+        "dense10": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "dense03": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          2,
+          2,
+          3
+        ],
+        "supercritical": [
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          2,
+          2,
+          2,
+          2,
+          4,
+          3,
+          2
+        ],
+        "gas10": [
+          4,
+          4,
+          4,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          3,
+          4,
+          4
+        ],
+        "gas03": [
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          7,
+          5,
+          5,
+          5
+        ],
+        "electric_train": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          7,
+          6,
+          6,
+          7,
+          6,
+          8,
+          6,
+          6,
+          6,
+          6,
+          7
+        ],
+        "electric_truck": [
+          7,
+          7,
+          8,
+          7,
+          8,
+          8,
+          7,
+          8,
+          9,
+          9,
+          9,
+          10,
+          10,
+          8,
+          8,
+          10
+        ],
+        "hydrogen_truck": [
+          8,
+          10,
+          10,
+          9,
+          7,
+          6,
+          8,
+          7,
+          8,
+          8,
+          6,
+          8,
+          9,
+          7,
+          7,
+          9
+        ],
+        "diesel_barge": [
+          9,
+          8,
+          7,
+          8,
+          10,
+          10,
+          10,
+          10,
+          6,
+          7,
+          10,
+          7,
+          5,
+          9,
+          9,
+          6
+        ],
+        "diesel_truck": [
+          10,
+          9,
+          9,
+          10,
+          9,
+          9,
+          9,
+          9,
+          10,
+          10,
+          7,
+          9,
+          8,
+          10,
+          10,
+          8
+        ]
+      },
+      "offshore_ranks": {
+        "dense10": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          2,
+          2
+        ],
+        "dense03": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "ammonia_ship": [
+          3,
+          3,
+          3,
+          3,
+          6,
+          6,
+          6,
+          7,
+          7,
+          5,
+          5,
+          5,
+          6,
+          6,
+          6,
+          4
+        ],
+        "methanol_ship": [
+          4,
+          4,
+          5,
+          4,
+          5,
+          5,
+          5,
+          5,
+          3,
+          6,
+          6,
+          6,
+          5,
+          5,
+          5,
+          5
+        ],
+        "gas10": [
+          5,
+          5,
+          4,
+          5,
+          3,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          6
+        ],
+        "gas03": [
+          6,
+          6,
+          6,
+          6,
+          4,
+          4,
+          4,
+          4,
+          6,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "hfo_ship": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          6,
+          5,
+          3,
+          3,
+          2,
+          2,
+          2,
+          1,
+          1
+        ]
+      },
+      "legend_area_percent": [
+        0.1,
+        1,
+        4.5
+      ],
+      "rank_status": "Manually traced native discrete rank lines; circle areas inspected qualitatively, exact absolute category impacts not digitized or inferred."
+    }
+  },
+  "analyst_examples": {
+    "not_native_cases": true,
+    "constant": {
+      "old_rate_g_y": 8,
+      "new_rate_g_y": 2,
+      "construction_g": 12
+    },
+    "declining": {
+      "knot_years": [
+        2040,
+        2050,
+        2060,
+        2070,
+        2080
+      ],
+      "old_rate_g_y": [
+        10,
+        8,
+        6,
+        4,
+        2
+      ],
+      "new_rate_g_y": [
+        2,
+        1.5,
+        1,
+        0.8,
+        0.5
+      ],
+      "construction_g": 24,
+      "start_year": 2040,
+      "horizon_years": 40
+    },
+    "explanation": "Synthetic equal-throughput annual1tkm/y examples reconstruct Eq1 only. Rates gCO2e/y, capital gCO2e; not source annual arrays. Future annual rates linearly interpolated at year starts then held constant in each year, as stated source discretization."
+  },
+  "missing_native": {
+    "SI_A": null,
+    "SI_B": null,
+    "native_models": null,
+    "licensed_ecoinvent": null,
+    "capture_heat_GJ_t": null,
+    "capture_electricity_kWh_t": null,
+    "complete_conditioning_inventory": null,
+    "absolute_category_impacts": null,
+    "author_case_reproduced": false,
+    "retrieval_status": "paused_pending_requested_Chrome_connection"
+  }
+}

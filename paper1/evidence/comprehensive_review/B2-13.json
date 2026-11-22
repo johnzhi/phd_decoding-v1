@@ -1,0 +1,2710 @@
+{
+  "study_id": "B2-13",
+  "source_sha256": "4a0815a62c5f60d76eb4a939b2cfcd31ba50b48162b9762cdb0ac39dd25a423b",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 11 retained main-PDF pages were read as text and visually inspected, with five magnifications. Five figures (ten panel/legend records), no standalone tables, one numbered equation plus five reconstructed components, and all 53 printed bibliography entries were inspected. The review adds 38 limited checks, 66 source payback cells and 272 source ordinal ranks corroborated against native vector paths. The general Equation 1 component was tested with synthetic inputs only. All 53 originals and 13 dependencies or scope requirements remain unverified; explicit supplements A/B, licensed inventories and native LCA, conditioning and payback cases are not reproduced. No accepted Paper 1 input was added.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "original_model_status": "Eq1_component_with_disclosed_synthetic_inputs_and_source_ordinal_transcription_checked_native_LCA_Aspen_premise_carculator_pipeline_payback_cases_not_reproduced",
+  "supplement_status": "explicit_SI_A_B_models_notice_no_embedded_files_assets_not_verified_locally_external_retrieval_paused",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, title, abstract, keywords, dates and licence",
+      "assessment": "Eight ETH Zurich authors; JCleanProd514(2025)145659, exact DOI retained, CCBY4.0. Received23Dec2024/revised27Mar2025/accepted4May2025/online21May2025. Abstract generalisations require scenario/boundary/payback and allocation qualifications."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction and entire literature review",
+      "assessment": "Read climate/CCS/CCU/CDR/mineralisation context, European hub/distance/demand, existing cost/LCA findings, static-inventory limitations and objective. Historical projections are not current deployment facts. All supporting original sources remain unverified."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "2 Methods overview",
+      "assessment": "Read LCA workflow/ISO references, prospective inventories, switching and absolute sustainability assessment. No claim of native independent reproduction."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2.1 Goal and scope definition",
+      "assessment": "Read conditioned/unconditioned functional units and T versus T+C boundary. Batch full outbound/empty return; pipe one-way. Capture/purification and geological retention outside. Figure1 pressure-loss work allocation must avoid double counting."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "2.2 Foreground transport: batch modes",
+      "assessment": "Read ISO container, residual heel, carculator_truck, trailer/gross weights/driving cycles, train/barge/HFO and e-fuel ship inventories. Equal fuel efficiency/LHV and future battery assumptions remain conditional."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        4
+      ],
+      "scope": "2.2 Foreground transport: pipeline models",
+      "assessment": "Read200km and0.3/10Mt/y, LCOT-optimized geometry/inlet pressures/recompression, coatings/trench/scaling, ambient temperatures, and8Mt/y supercritical comparator. These prescribed flows are not pressure-constrained field injection limits."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4
+      ],
+      "scope": "2.3 Foreground conditioning model",
+      "assessment": "Read pure1bar30C feed,25bar gas versus70bar>1C sink,16bar liquefaction, AspenPlus assumptions/claimed4% validation, available surface-water cooling and heat/refrigeration inventory models. SI A/B needed for numerical inventories."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        4
+      ],
+      "scope": "2.4 Prospective background system",
+      "assessment": "Read premise/ecoinvent3.8, REMIND2.1, three SSP2 scenarios and EUR region. Scenarios are conditional pathways, not empirical probabilities; exact software commits and licensed inventories absent locally."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "2.5 Carbon payback period",
+      "assessment": "Read Eq1 and definitions, annual hold and linear interpolation. Capital stock and impact/year rates need matched service, timing/horizon, replacements and residual-value conventions. General component reconstructed only with explicit synthetic inputs."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        5
+      ],
+      "scope": "2.6 LCIA-based planetary boundaries",
+      "assessment": "Read15PB categories plus land-use global-impact proxy,7.9% population allocation and70Gtkm/y demand. Geographic and sectoral allocation assumptions need separate disclosure."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        5
+      ],
+      "scope": "3 Results overview",
+      "assessment": "Four result subsections and their different boundaries recognized. No mixing T and T+C inventories or same-year snapshots with dynamic cohorts."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "3.1 Climate change impact of transport",
+      "assessment": "Read4g/tkm example,40x truck comparison, construction burdens, projected reductions/rankings and three fuel-system trends. HFO mix intentionally remains static; blanket72-93% reduction wording overreaches it. Batteries/e-fuels uncertain, costs and access can alter choice."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "3.2 Conditioning for pipeline transport",
+      "assessment": "Read25bar-sink distance crossovers125/340km in2040, dense70bar sink and batch liquefaction comparison. Missing SI means native crossover curves and component energy duties are not independently reconstructed."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "3.3 Switching transport modes",
+      "assessment": "Read Figure3 eight switching years,66 Figure4 selected switches,49finite17X, grouped exceptions, lifetime caveat and pipeline replacement. Broad under3/fossil-to-pipe wording is qualified by native cases up to38years."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "scope": "3.4 Beyond climate change",
+      "assessment": "Read EF3.0/16-category ranks, onshore/offshore differences, electric-truck and ship tradeoffs, GVA allocation and all impact ranges/claimed absolute sustainability. Figure5 explicitly has two offshore categories where HFO ranks above dense pipelines."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "4 Conclusion",
+      "assessment": "Read climate/conditioning/access/payback and future pathways conclusions. Main body14/16 offshore minimum differs from all-category conclusion. Upper-bound.075% alone does not establish fit within entire.023-.074% sector allocation range."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        10
+      ],
+      "scope": "CRediT authorship",
+      "assessment": "Read eight author contribution statements including JN software/validation and PO software/methodology. Authorship declaration is provenance, not independent validation."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        10
+      ],
+      "scope": "Generative AI declaration",
+      "assessment": "Read disclosed ChatGPT use for readability/language and authors taking responsibility. Does not establish the substance correct or incorrect."
+    },
+    {
+      "id": "S19",
+      "pages": [
+        10
+      ],
+      "scope": "Competing interests",
+      "assessment": "Read AB industry review committees/ownership declarations and other-author statements. Retained as provenance; no unsupported inference of misconduct."
+    },
+    {
+      "id": "S20",
+      "pages": [
+        10
+      ],
+      "scope": "Acknowledgments",
+      "assessment": "Read DemoUpCARMA Swiss Federal Office funding and Horizon2020ACCSESS grant101022487. Not a current operational or data-availability guarantee."
+    },
+    {
+      "id": "S21",
+      "pages": [
+        10
+      ],
+      "scope": "Appendix A Supplementary data and Data availability",
+      "assessment": "Read explicit online SI at article DOI, models stated to be included in SI, data licensed from ecoinvent. Neither SI/code nor licence/assets verified locally; local absence is not online absence."
+    },
+    {
+      "id": "S22",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "References: all printed entries",
+      "assessment": "53 native entries text-read/rendered and geometry preserved in bibliography JSON. Their originals and further literature chains are unverified; zero new primary-source edges claimed."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "V01",
+      "pages": [
+        3
+      ],
+      "object": "Figure 1a: batch boundary, arrows and caption",
+      "inspection": "Read capture, conditioning, full/empty ISO paths, container/vehicle/infrastructure/fuel inputs, sink conditioning and use/storage. Red T versus purple T+C; blue CO₂ and green tank arrows. Capture/storage operations are outside; returning heel is not an implied vent loss."
+    },
+    {
+      "id": "V02",
+      "pages": [
+        3
+      ],
+      "object": "Figure 1b: pipeline boundary and shared legend",
+      "inspection": "Read the split between preparation to outlet pressure and loss-related work to inlet pressure, construction, recompression and sink conditioning. Loss work belongs to T, with other conditioning added in T+C. No flow or utility magnitudes appear in this schematic."
+    },
+    {
+      "id": "V03",
+      "pages": [
+        6
+      ],
+      "object": "Figure 2 onshore panel and caption",
+      "inspection": "Read all ten modes, colours, markers, years, gCO₂e/tkm axis and dotted initial segments. SSP2-NDC, T only, all lifecycle phases in the same year. The small gas line is not uniformly below batch modes. Curves are not substituted for native use-phase arrays."
+    },
+    {
+      "id": "V04",
+      "pages": [
+        6
+      ],
+      "object": "Figure 2 offshore panel and shared caption",
+      "inspection": "Read seven modes, the approximately flat HFO line, e-fuel declines and dense/gas capacities. The same T, SSP2-NDC and snapshot convention applies. The missing prospective HFO market explains its fixed baseline; no pressure or density correction is inferred."
+    },
+    {
+      "id": "V05",
+      "pages": [
+        7
+      ],
+      "object": "Figure 3 cumulative-payback plot, labels and caption",
+      "inspection": "Read train use-only baseline, eight dense 0.3 Mt/y switches, 40-year lifetime and labels 3.3/5.7/7.1/6.7/6.4/6.7/7.3/8.1 years. Cumulative normalized units need an annual-service interpretation. The sequence is nonmonotonic and 2040 exceeds three years."
+    },
+    {
+      "id": "V06",
+      "pages": [
+        8
+      ],
+      "object": "Figure 4a: all 45 onshore cells and group outlines",
+      "inspection": "Inspected at 3× with every row/column label, X, dash, zero and (16). Saved 34 finite and 11 X entries; the H₂-to-electric-truck case exceeds lifetime. A/C/D are the authors’ group labels; 45 reverse directions are absent."
+    },
+    {
+      "id": "V07",
+      "pages": [
+        8
+      ],
+      "object": "Figure 4b: all 21 offshore cells and shared caption",
+      "inspection": "Inspected at 3×: 15 finite and 6 X entries. HFO-to-gas is 20/12 years and e-fuel-to-dense is 14–31. The total is 49 finite of 66 selected directions. A displayed zero is not proof of instantaneous payoff."
+    },
+    {
+      "id": "V08",
+      "pages": [
+        9
+      ],
+      "object": "Figure 5 onshore ranking panel",
+      "inspection": "At 3×, traced all 160 ordinal ranks and corroborated the transcription with native vector paths. Dense 10 Mt/y ranks first in 16 categories; electric trucks rank worse than H₂ in 11 and diesel in 4. Rank gaps are not cardinal benefits."
+    },
+    {
+      "id": "V09",
+      "pages": [
+        9
+      ],
+      "object": "Figure 5 offshore ranking panel",
+      "inspection": "At 3×, traced all 112 ordinal ranks and corroborated native vector paths. Dense 10 Mt/y ranks first in 14 categories; HFO is first for water use and freshwater eutrophication. These exceptions conflict with page 10’s broad conclusion. Bubble magnitudes remain undigitized."
+    },
+    {
+      "id": "V10",
+      "pages": [
+        9
+      ],
+      "object": "Figure 5 category labels, circle-area legend and caption",
+      "inspection": "Read all sixteen labels in native order. SSP2-NDC, T, 2070, all lifecycle phases in the same year. Circle area keys are 0.1%, 1% and 4.5% of European carrying capacity. Land use uses current global impact, not a defined PB; no aggregate sustainability score is inferred."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        5
+      ],
+      "printed": "Native Eq(1): integral Iop,old dt = Iinv,new(ts) + integral Iop,new dt, ts to ts+Delta_tcpb",
+      "check": "Definitions read at magnification: ts switching year; Iinv climate impact stock; Iop impact rate/year for consistent integration. Source states annual constant values and linearly interpolated year values. No native LCA arrays supplied."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        5
+      ],
+      "printed": "Independent annual-hold first-crossing derivation: sum prior annual savings + fractional-year saving = new capital",
+      "check": "Implemented first_payback: for positive current saving s, tau=j+(capital-Sprior)/s if that year reaches equality. None is no crossing within supplied horizon. Changes in utilization, replacements and later reversal require explicit treatment; no native cases reproduced."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        5
+      ],
+      "printed": "Independent constant-rate limit: Delta_tcpb=Iinv/(Iop,old-Iop,new) for positive saving",
+      "check": "Checked fractional crossing and scale invariance against analytical limit. Nonpositive saving has no positive-capital payoff within constant scenario. Synthetic values only; equality alone does not guarantee permanent superiority with varying rates."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        2,
+        3,
+        5,
+        6
+      ],
+      "printed": "Independent reference-flow conversion: gCO2e/tkm * distance_km /1000 = kgCO2e/t transported",
+      "check": "Selected4g/tkm at100km=.4kg/t;0.7Gt/y=>.28MtCO2e/y. Transport-only conditional conversion, not avoided/permanent CO2 or an all-pipeline factor."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        5,
+        8
+      ],
+      "printed": "Independent demand and allocation:0.7Gt/y*100km=70Gtkm/y; sector percent=(70/1800)*GVA percent",
+      "check": "Reconstructs.023333-.073889% sector range; population allocation Europe7.9% is a separate stage. Upper bound<.075% cannot alone guarantee compatibility with lower or even strict upper rounded GVA threshold. Land use uses different proxy denominator."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        3
+      ],
+      "printed": "Independent container conservation: full=tare+fill; return=tare+.04fill; delivered=.96fill",
+      "check": "Conditional20.7t initial fill gives29.9tfull,.828theel,10.028treturn,19.872tdelivery. Does not independently verify native allocation or claim4% atmospheric loss."
+    }
+  ],
+  "variables": [
+    {
+      "id": "Q01",
+      "pages": [
+        2,
+        3
+      ],
+      "name": "Functional unit and reference mass",
+      "unit": "tCO₂ and tkm",
+      "assumption": "T and T+C use different inlet states. Preserve the printed ton/t definitions and native inventory denominator; captured, delivered, injected, avoided and permanently retained mass are distinct."
+    },
+    {
+      "id": "Q02",
+      "pages": [
+        3
+      ],
+      "name": "ISO tare and capacity",
+      "unit": "9.2 t tare; 20.7 t CO₂",
+      "assumption": "Manufacturer case at 16 bar; capacity is treated conditionally as initial fill only for the mass diagnostic."
+    },
+    {
+      "id": "Q03",
+      "pages": [
+        3
+      ],
+      "name": "Residual heel and return",
+      "unit": "4% of initial CO₂",
+      "assumption": "Gas remains at maximum allowable pressure and returns; no vent-loss inference. Native freight normalization remains unverified."
+    },
+    {
+      "id": "Q04",
+      "pages": [
+        3
+      ],
+      "name": "Gross truck, trailer and early battery mass",
+      "unit": "approximately 44 t",
+      "assumption": "Truck, driver and freight. The 2020/2025 battery cases explicitly exceed this mass; applicable road limits and actual weights are not verified."
+    },
+    {
+      "id": "Q05",
+      "pages": [
+        3
+      ],
+      "name": "Driving cycle and range",
+      "unit": "400 km baseline; 150/800 km sensitivities",
+      "assumption": "carculator uses target speed and gross mass; autonomy is not actual case distance or a fleet schedule."
+    },
+    {
+      "id": "Q06",
+      "pages": [
+        3,
+        4
+      ],
+      "name": "Fuels, propulsion and exhaust",
+      "unit": "diesel, electricity, H₂, HFO, methanol and ammonia",
+      "assumption": "Production pathways, equal shipping efficiency, LHV and pollutant inventories are case-dependent; missing quantities are not filled."
+    },
+    {
+      "id": "Q07",
+      "pages": [
+        3,
+        4
+      ],
+      "name": "Transport state",
+      "unit": "16 bar liquid; 15–30 bar gas; 80–350 bar dense",
+      "assumption": "Pressure datum is not explicit. Batch temperature is slightly below boiling, with no exact temperature invented; ambient pipelines use 15°C onshore and 4°C offshore."
+    },
+    {
+      "id": "Q08",
+      "pages": [
+        4
+      ],
+      "name": "Pipeline length, flow, comparator and lifetime",
+      "unit": "200 km; 0.3/10 Mt/y; 8 Mt/y comparator; 40 y in Figure 3",
+      "assumption": "Prescribed transport design and lifetime, rather than annual safe sink service, actual utilization or universal asset life."
+    },
+    {
+      "id": "Q09",
+      "pages": [
+        4
+      ],
+      "name": "Optimized design variables",
+      "unit": "diameters, inlet pressure, station count and electricity",
+      "assumption": "The LCOT model has modified work allocation. Exact parameters and native code remain missing; a cost optimum need not minimize environmental impacts."
+    },
+    {
+      "id": "Q10",
+      "pages": [
+        4
+      ],
+      "name": "Geometry, coating, burial and scaling",
+      "unit": "steel, coating, trench and cross-section quantities",
+      "assumption": "Some natural-gas pipeline analogues are scaled; no actual dimensions, failure properties or field calibration are inferred."
+    },
+    {
+      "id": "Q11",
+      "pages": [
+        4
+      ],
+      "name": "Conditioning feed",
+      "unit": "pure CO₂ at 1 bar and 30°C",
+      "assumption": "Capture and purification are upstream; no mixture assumption, datum conversion or upstream heat credit is inferred."
+    },
+    {
+      "id": "Q12",
+      "pages": [
+        4
+      ],
+      "name": "Sink receiving states",
+      "unit": "25 bar gas or 70 bar dense above 1°C",
+      "assumption": "Historical terminal conditions do not establish bottom-hole limits, injectivity or retained-carbon guarantees."
+    },
+    {
+      "id": "Q13",
+      "pages": [
+        4
+      ],
+      "name": "Conditioning duties and validation",
+      "unit": "compression, pumping, cooling, refrigeration and heating; claimed ±4%",
+      "assumption": "Aspen v11.1, Deng assumptions, surface water and ecoinvent models; the complete numerical case and supplier inventory requires unverified supplements."
+    },
+    {
+      "id": "Q14",
+      "pages": [
+        4
+      ],
+      "name": "Background and geography",
+      "unit": "premise, ecoinvent cutoff 3.8, REMIND 2.1 EUR",
+      "assumption": "EUR covers the EU and UK. Exact commits and licensed assets are absent locally; Asian use requires a disclosed proxy."
+    },
+    {
+      "id": "Q15",
+      "pages": [
+        4
+      ],
+      "name": "Scenario and time",
+      "unit": "SSP2-NDC/Base/PkBudg500; 500 Gt; 12 snapshots",
+      "assumption": "Common SSP2 narrative, without empirical probabilities. Five-year then ten-year plot steps are interpolated annually; snapshots are not dynamic cohorts."
+    },
+    {
+      "id": "Q16",
+      "pages": [
+        4,
+        5
+      ],
+      "name": "Switching time and payback",
+      "unit": "calendar year and elapsed years",
+      "assumption": "The first cumulative crossing needs explicit service scale, horizon, lifetime, renewal, residual-value and reversal conventions."
+    },
+    {
+      "id": "Q17",
+      "pages": [
+        5
+      ],
+      "name": "New construction impact",
+      "unit": "impact stock, e.g. gCO₂e at a normalized service scale",
+      "assumption": "Capital enters once at switching; it cannot be added to annual rates without consistent stock/time accounting."
+    },
+    {
+      "id": "Q18",
+      "pages": [
+        5
+      ],
+      "name": "Old and new use-phase impacts",
+      "unit": "impact/year at the same service scale",
+      "assumption": "Equation 1 integrates annual rates. Annual-hold discretization differs from a continuously varying-rate integral."
+    },
+    {
+      "id": "Q19",
+      "pages": [
+        5,
+        6,
+        9
+      ],
+      "name": "Intensities and lifecycle snapshots",
+      "unit": "gCO₂e/tkm",
+      "assumption": "Figures 2/5 place lifecycle phases in the same year. The 4 g value is a selected pipeline example; 38/43/85 g are construction-only truck figures for 2020."
+    },
+    {
+      "id": "Q20",
+      "pages": [
+        5,
+        8
+      ],
+      "name": "Global and European category allocation",
+      "unit": "15 PB categories plus land-use proxy; 7.9%",
+      "assumption": "Population Europe excluding Russia differs from EUR/EU-27 scope; allocation is not physical reservoir safety."
+    },
+    {
+      "id": "Q21",
+      "pages": [
+        5,
+        8
+      ],
+      "name": "Network demand and freight GVA",
+      "unit": "0.7 Gt/y; 100 km; 70/1800 Gtkm; 0.6–1.9% GVA",
+      "assumption": "Equal GVA per tkm yields 0.023333–0.073889% sector allocation; routing and annual injection are not reproduced."
+    },
+    {
+      "id": "Q22",
+      "pages": [
+        8,
+        9
+      ],
+      "name": "Absolute shares and ranks",
+      "unit": "percent of European carrying capacity; ranks 1–10 or 1–7",
+      "assumption": "Circle area represents share; ranks are ordinal. Ranges do not provide whole-chain avoided-emission factors or cardinal benefits."
+    },
+    {
+      "id": "Q23",
+      "pages": [
+        7,
+        8
+      ],
+      "name": "Payback labels and symbols",
+      "unit": "years, X, parentheses and dash",
+      "assumption": "Figure 3 decimals differ from Figure 4 integers. No rounding rule is supplied; zero is not instantaneous, (16) exceeds lifetime and dashes are unassessed directions."
+    },
+    {
+      "id": "Q24",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "name": "LCIA versions and missing absolute arrays",
+      "unit": "EF 3.0 methods; EF 3.1 normalization reference",
+      "assumption": "Exact characterization, normalization and PB versions require clarification. Land use is a global-impact substitute, rather than a defined PB threshold."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1
+      ],
+      "claim": "Paris 1.5°C and net-zero goals require major reductions and removals.",
+      "assessment": "Historical scientific and policy context; the cited originals remain unverified.",
+      "reference_ids": [
+        "R23",
+        "R46"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1
+      ],
+      "claim": "CCS can support hard-to-abate cement, steel and chemical industries.",
+      "assessment": "Background role, rather than a performance or counterfactual inventory of this transport model.",
+      "reference_ids": [
+        "R36"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C03",
+      "pages": [
+        1
+      ],
+      "claim": "Permanent storage of DAC or biogenic CO₂ can enable removal.",
+      "assessment": "Conditional on the complete lifecycle and storage; this transport boundary does not demonstrate removal.",
+      "reference_ids": [
+        "R05",
+        "R33"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C04",
+      "pages": [
+        1
+      ],
+      "claim": "CCU can help replace fossil feedstocks in chemical production.",
+      "assessment": "Background; utilization does not automatically provide permanent storage.",
+      "reference_ids": [
+        "R26"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C05",
+      "pages": [
+        1
+      ],
+      "claim": "CO₂ may enter long-lived mineralised construction products.",
+      "assessment": "Carbon fate and substitution must be established for each case.",
+      "reference_ids": [
+        "R12",
+        "R22"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C06",
+      "pages": [
+        1
+      ],
+      "claim": "European capture deployment may reach the gigatonne scale by mid-century.",
+      "assessment": "IEA 2020 projection, rather than current operating capacity or pressure-constrained storage service.",
+      "reference_ids": [
+        "R20"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C07",
+      "pages": [
+        1
+      ],
+      "claim": "Northern Lights, Porthos and Coda are pioneering storage-hub examples.",
+      "assessment": "Historical cited plans and receiving conditions; current operation was not checked.",
+      "reference_ids": [
+        "R07",
+        "R13",
+        "R43"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C08",
+      "pages": [
+        1
+      ],
+      "claim": "Pioneering chains can span several thousand kilometres.",
+      "assessment": "Cited geographical and cost context; no native chain mass or service inventory is supplied here.",
+      "reference_ids": [
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C09",
+      "pages": [
+        2
+      ],
+      "claim": "About one-third of European emitters are over 100 km from potential storage.",
+      "assessment": "Cited IEA 2020 statistic; the exact dataset and point-source weighting remain unverified.",
+      "reference_ids": [
+        "R20"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C10",
+      "pages": [
+        2
+      ],
+      "claim": "Pipelines are often least-cost for large onshore flows, while fossil-fuel ships can compete at long offshore distances.",
+      "assessment": "Cost context depends on the original case; it does not establish an environmental optimum or project feasibility.",
+      "reference_ids": [
+        "R22",
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C11",
+      "pages": [
+        2
+      ],
+      "claim": "Transport selection requires several criteria beyond cost.",
+      "assessment": "Methodological motivation, rather than a validated weighted decision rule.",
+      "reference_ids": [
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C12",
+      "pages": [
+        2
+      ],
+      "claim": "Existing CCS LCAs frequently assume pipelines and static or historical inventories.",
+      "assessment": "The four review originals and their literature coverage have not been independently verified.",
+      "reference_ids": [
+        "R08",
+        "R09",
+        "R10",
+        "R48"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C13",
+      "pages": [
+        2
+      ],
+      "claim": "Pipeline networks can require years or decades and multinational agreements.",
+      "assessment": "Context references do not supply exact local construction or permission durations.",
+      "reference_ids": [
+        "R45",
+        "R52"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C14",
+      "pages": [
+        2
+      ],
+      "claim": "Batch modes are needed in pioneering, small or remote chains.",
+      "assessment": "Context and access assumptions; no implication that every batch mode is available everywhere.",
+      "reference_ids": [
+        "R06",
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C15",
+      "pages": [
+        2
+      ],
+      "claim": "Burger 2024 reports transport dominating more than half of impact categories and reaching 152 kgCO₂e/t transported for a Swiss–North Sea chain.",
+      "assessment": "Quote from a different original, not a B2-13 per-tkm factor or whole-chain avoidance value; original DOI 104039 is not retained locally.",
+      "reference_ids": [
+        "R06"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C16",
+      "pages": [
+        2
+      ],
+      "claim": "Projected capture expansion in 2035–2070 overlaps the European energy transition.",
+      "assessment": "Historical IEA and strategy projections, rather than current forecasts independently validated by this audit.",
+      "reference_ids": [
+        "R16",
+        "R20"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C17",
+      "pages": [
+        2
+      ],
+      "claim": "premise couples IAM changes with LCA; several futures address projection uncertainty.",
+      "assessment": "Conditional scenario modelling; no empirical scenario probabilities are established.",
+      "reference_ids": [
+        "R19",
+        "R23",
+        "R41"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C18",
+      "pages": [
+        2
+      ],
+      "claim": "The study follows ISO LCA methodology and assesses transport through 2100.",
+      "assessment": "Authors’ methods statement; native cases, inventories and standards compliance were not independently reproduced.",
+      "reference_ids": [
+        "R24",
+        "R25"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C19",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Boundary T uses 1 t of conditioned CO₂ over 1 km, excluding conditioning; batch transport includes full outbound and empty return trips, and pipelines are one-way.",
+      "assessment": "Figure 1 confirms the boundary; equal service and freight normalization require native code. Returning heel is not an atmospheric loss.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C20",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Boundary T+C uses 1 t of unconditioned CO₂ over 1 km and includes transport and storage conditioning.",
+      "assessment": "Pure feed at 1 bar and 30°C is assumed; capture, purification and geological injection or retention remain outside the inventory.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C21",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Pipeline work to overcome pressure loss belongs to T; other initial and final conditioning belongs to T+C.",
+      "assessment": "The Figure 1 split must avoid double counting; the modified native algorithm remains unavailable locally.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C22",
+      "pages": [
+        3
+      ],
+      "claim": "Batch CO₂ is liquid at 16 bar slightly below boiling; gas pipelines use 15–30 bar and dense pipelines 80–350 bar at ambient temperature.",
+      "assessment": "The main PDF does not give pressure datum or exact batch temperature; no conversion or state correction was invented.",
+      "reference_ids": [
+        "R27",
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C23",
+      "pages": [
+        3
+      ],
+      "claim": "The ISO tank has a 9.2 t tare and 20.7 t CO₂ capacity at 16 bar.",
+      "assessment": "Conditional mass arithmetic was checked; the manufacturer original remains unverified.",
+      "reference_ids": [
+        "R32"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C24",
+      "pages": [
+        3
+      ],
+      "claim": "Four percent of the CO₂ remains as gas for the return trip at maximum allowable pressure.",
+      "assessment": "A conservative heel assumption, rather than vented loss; native LCI normalization has not been verified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C25",
+      "pages": [
+        3
+      ],
+      "claim": "carculator_truck supplies diesel, battery-electric and fuel-cell truck inventories.",
+      "assessment": "The stated model uses per-second target speed and gross mass; its exact version, data and outputs are not retained.",
+      "reference_ids": [
+        "R40"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C26",
+      "pages": [
+        3
+      ],
+      "claim": "Loaded truck gross mass is about 44 t; battery trucks exceed that mass in 2020 and 2025 and fall below it after 2025.",
+      "assessment": "Explicit feasibility caveat for early electric cases; actual weights and applicable national road limits remain unverified.",
+      "reference_ids": [
+        "R29",
+        "R40"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C27",
+      "pages": [
+        3
+      ],
+      "claim": "The baseline regional cycle has 400 km autonomy, with 150 km urban and 800 km long-haul sensitivities.",
+      "assessment": "Autonomy is not the route length or fleet schedule; sensitivity curves are referred to the unverified supplement.",
+      "reference_ids": [
+        "R40"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C28",
+      "pages": [
+        3
+      ],
+      "claim": "Electric trains, diesel barges and HFO container ships use ecoinvent cutoff 3.8 inventories.",
+      "assessment": "Licensed inventories are not retained or verified; supplier, version and geography matter.",
+      "reference_ids": [
+        "R49"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C29",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Methanol ship fuel uses DAC CO₂, heat pumps and electrolytic H₂.",
+      "assessment": "Foreground lineage is attributed to Hank and premise; no complete feed, utility or supplier balance appears in the main PDF.",
+      "reference_ids": [
+        "R18",
+        "R41"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C30",
+      "pages": [
+        4
+      ],
+      "claim": "Ammonia uses Haber–Bosch synthesis, electrolytic H₂ and nitrogen from air separation.",
+      "assessment": "Mayer and premise provide the stated lineage; the main PDF does not give a complete utility inventory.",
+      "reference_ids": [
+        "R31",
+        "R41"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C31",
+      "pages": [
+        4
+      ],
+      "claim": "Alternative-fuel ships use HFO tank-to-wheel efficiency with fuel demand scaled by LHV; exhaust inventories come from IMO and Schwarzkopf.",
+      "assessment": "Equal efficiency is an assumption, rather than an independent engine model; pollutant pathways and original cases remain open.",
+      "reference_ids": [
+        "R21",
+        "R44",
+        "R53"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C32",
+      "pages": [
+        4
+      ],
+      "claim": "The 200 km pipelines at 0.3 and 10 Mt/y are optimized for lowest levelized transport cost.",
+      "assessment": "These are prescribed transport flows, not field injectivity limits; minimum cost need not minimize LCIA impacts.",
+      "reference_ids": [
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C33",
+      "pages": [
+        4
+      ],
+      "claim": "Gas outlet pressure is 15 bar and dense outlet pressure 80 bar; inlet pressures and recompression stations vary.",
+      "assessment": "The conditioning split is documented, but native pressure-work arrays and optimization cases were not reproduced.",
+      "reference_ids": [
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C34",
+      "pages": [
+        4
+      ],
+      "claim": "Steel and coating follow geometry, burial follows trench recommendations, and some inventories scale with cross-section; pipelines use ambient 15°C onshore and 4°C offshore without insulation.",
+      "assessment": "Analogue and scaling assumptions need the actual dimensions, inventories and native supplement.",
+      "reference_ids": [
+        "R03",
+        "R28",
+        "R34",
+        "R49"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C35",
+      "pages": [
+        4
+      ],
+      "claim": "An 8 Mt/y supercritical comparator has lower density and viscosity than dense CO₂.",
+      "assessment": "Specific thermodynamic states and the legacy inventory are needed; no universal property ranking is inferred.",
+      "reference_ids": [
+        "R50"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C36",
+      "pages": [
+        4
+      ],
+      "claim": "Gas at 25 bar represents Coda and Porthos receiving or injection conditions.",
+      "assessment": "Historical source conditions do not establish a bottom-hole operating limit or deliverability case.",
+      "reference_ids": [
+        "R30",
+        "R39",
+        "R43"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C37",
+      "pages": [
+        4
+      ],
+      "claim": "Dense CO₂ at 70 bar and above 1°C represents the Northern Lights Phase 1 pipeline inlet.",
+      "assessment": "Historical receiving state, rather than a fracture threshold or annual storage-service guarantee.",
+      "reference_ids": [
+        "R13",
+        "R14",
+        "R39"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C38",
+      "pages": [
+        4
+      ],
+      "claim": "The 16 bar liquefaction model follows Deng; other processes use AspenPlus and are said to reproduce liquefaction energy within ±4%.",
+      "assessment": "This is the authors’ validation claim. Exact states, errors, original data and native cases remain unverified; no complete numerical balance is provided in the main PDF.",
+      "reference_ids": [
+        "R02",
+        "R11"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C39",
+      "pages": [
+        4
+      ],
+      "claim": "Compression, pumping, cooling, refrigeration and heating are considered, with surface-water cooling and ecoinvent equipment models; flowsheets and inventories are in supplements.",
+      "assessment": "Naming operations does not close a capture-to-ship inventory. Missing duties are not set to zero.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C40",
+      "pages": [
+        4
+      ],
+      "claim": "premise modifies ecoinvent 3.8 for IAM energy, industry and fuel changes.",
+      "assessment": "Conditional background construction; no licensed inventory or version-matched native model was rerun.",
+      "reference_ids": [
+        "R04",
+        "R19",
+        "R41",
+        "R49"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C41",
+      "pages": [
+        4
+      ],
+      "claim": "The three SSP2 scenarios are NDC, Base and PkBudg500, the last with a global 500 Gt CO₂ budget through 2100.",
+      "assessment": "Cited scenario semantics were read; probabilities and the underlying IAM implementation were not independently audited.",
+      "reference_ids": [
+        "R04"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C42",
+      "pages": [
+        4
+      ],
+      "claim": "Results use 5-year steps in 2020–2050 and 10-year steps through 2100; REMIND has 12 regions, with EUR covering the EU and UK.",
+      "assessment": "Twelve plotted time points were checked. European averages vary by country and require explicit proxy disclosure for Asian applications.",
+      "reference_ids": [
+        "R04"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C43",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Carbon payback equates cumulative old operating impacts with new capital plus cumulative new operating impacts.",
+      "assessment": "The dimensional and first-crossing component was reconstructed with synthetic inputs; the conceptual payback reference remains unverified.",
+      "reference_ids": [
+        "R35"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C44",
+      "pages": [
+        5
+      ],
+      "claim": "Equation 1 is discretized with annual constant impacts, using linear interpolation to obtain each year’s values.",
+      "assessment": "Annual-hold integration passes constant-rate and fractional-year checks; the native annual arrays are missing.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C45",
+      "pages": [
+        5
+      ],
+      "claim": "The assessment uses 15 EF-based planetary boundaries and substitutes current global impact for land use.",
+      "assessment": "There are not 16 defined planetary-boundary thresholds. Exact EF 3.0/3.1 factor alignment needs the supplement and original sources.",
+      "reference_ids": [
+        "R01",
+        "R37",
+        "R42"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C46",
+      "pages": [
+        5
+      ],
+      "claim": "Europe receives 7.9% of global safe operating space by population, excluding Russia.",
+      "assessment": "An equality-allocation choice; population data and alignment with the EUR and EU-27 geographical scopes remain unverified.",
+      "reference_ids": [
+        "R37",
+        "R38",
+        "R42",
+        "R47"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C47",
+      "pages": [
+        5
+      ],
+      "claim": "A 0.7 Gt/y capture projection and 100 km mean proximity yield 70 Gtkm/y.",
+      "assessment": "The product was checked; it does not reproduce routing or pressure-constrained annual injection.",
+      "reference_ids": [
+        "R20"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C48",
+      "pages": [
+        5
+      ],
+      "claim": "Pipeline climate impacts can already be as low as 4 gCO₂e/tkm because of low operating burdens and high lifetime throughput.",
+      "assessment": "A selected large-pipeline example, rather than a factor for every capacity, state or complete chain; the exact inventory remains missing.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C49",
+      "pages": [
+        5
+      ],
+      "claim": "Trucks can exceed 40 times pipeline climate impact; 2020 construction burdens are 38, 43 and 85 gCO₂e/tkm for diesel, H₂ and electric trucks.",
+      "assessment": "Those three values cover construction, rather than total truck impacts; gross-to-cargo ratio and return assumptions qualify the comparison.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C50",
+      "pages": [
+        5,
+        9
+      ],
+      "claim": "By 2100 climate impacts are said to decline 72–93%, with 127 g/tkm average truck reduction and 86% pipeline versus 81% truck reductions.",
+      "assessment": "The HFO mix is held constant and its Figure 2 curve is flat, so broad all-mode wording overreaches it. Native averages and percentages were not independently reproduced.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C51",
+      "pages": [
+        5,
+        9
+      ],
+      "claim": "Non-pipeline climate rankings change until 2030 and then stabilize across scenarios.",
+      "assessment": "Conditional native projection; the other scenario curves are in unverified supplementary material, rather than a proof across all plausible futures.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C52",
+      "pages": [
+        5
+      ],
+      "claim": "Electric and e-fuel impacts fall strongly in 2020–2035 with electricity decarbonization, then with changes in steel, cement and fuels.",
+      "assessment": "A model dependency, rather than independent measurement; native scenario arrays are needed.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C53",
+      "pages": [
+        5
+      ],
+      "claim": "Diesel-like fuel impacts decline with biofuel and e-fuel blending, except in the pessimistic Base case.",
+      "assessment": "Fuel-market assumption, rather than a guarantee of improved diesel-engine efficiency; native inventories remain open.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C54",
+      "pages": [
+        5
+      ],
+      "claim": "HFO ship impacts remain constant because premise lacks a prospective HFO market mix.",
+      "assessment": "Explicitly asymmetric background treatment; qualifies comparisons across fuels and broad reduction or robustness claims.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C55",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Pipeline maturity gives the authors confidence in inventories, while trains and e-fuel ships are alternatives with larger uncertainties.",
+      "assessment": "Confidence and cost literature do not independently validate field performance or define a weighted environmental score.",
+      "reference_ids": [
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C56",
+      "pages": [
+        6
+      ],
+      "claim": "Electric and H₂ trucks are expected to beat diesel climate impacts across autonomy assumptions, with substantial battery supply-chain uncertainty.",
+      "assessment": "Conditional supplementary result; retain early gross-mass limits and variation in country of production and raw materials.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C57",
+      "pages": [
+        6
+      ],
+      "claim": "Barges may be cheaper than trains above 500 km, while trucks can suit shorter distances or restricted access.",
+      "assessment": "An economic case threshold, rather than an environmental or universally applicable one; the exact original costs remain unverified.",
+      "reference_ids": [
+        "R34"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C58",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "For a 25 bar gas sink in 2040, dense versus gas pipeline crossovers are 125 km at 0.3 Mt/y and 340 km at 10 Mt/y.",
+      "assessment": "Supplement-based source quotes, rather than independently reproduced curves, universal route choices or reservoir pressure limits.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C59",
+      "pages": [
+        7
+      ],
+      "claim": "For a 70 bar dense sink, dense pipelines have the lowest climate impact regardless of transport distance.",
+      "assessment": "Within the modeled cases, backgrounds and sink conditions; native conditioning arrays remain unverified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C60",
+      "pages": [
+        7
+      ],
+      "claim": "Batch liquefaction has greater conditioning climate impact than pipeline preparation.",
+      "assessment": "Boundary-specific supplementary claim; it does not supply capture utilities or a matched-source heat credit.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C61",
+      "pages": [
+        7
+      ],
+      "claim": "Train-to-0.3 Mt/y dense-pipeline payback ranges from 3.3 years for a 2020 switch to 8.1 years in 2080.",
+      "assessment": "All eight labels were read: 2040 is 6.7 years, and the sequence decreases in 2040 and 2050. It is not universally under three years.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C62",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "For 2040, 49 of 66 switches benefit within less than six months to 38 years, while 17 increase cumulative impacts.",
+      "assessment": "Counts were corroborated from every cell. These are 66 selected directions, rather than all 132 directed pairs; the finite count includes a payback beyond lifetime.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C63",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Batch-to-pipeline switches usually pay back within seven years, and often within three for dense pipelines, subject to exceptions.",
+      "assessment": "Retain train-to-small-dense at 6.7 years, e-fuel ships at 14–31 years and electric-truck cases at 30 or 6 years, rather than adopting an unqualified headline rule.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C64",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Switching diesel or HFO transport to pipelines is said to give benefits within three years.",
+      "assessment": "Overbroad versus Figure 4: HFO to 0.3 or 10 Mt/y gas pipelines is 20 or 12 years. Preserve mode, capacity, year and boundary instead of guessing corrected values.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C65",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Switching between pipelines rarely benefits unless capacity increases substantially or a more efficient dense line is introduced.",
+      "assessment": "Native X and 3–38 year cases remain conditional on horizon, lifetime and replacement conventions. Similar intensities alone do not establish payback.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C66",
+      "pages": [
+        7,
+        8,
+        9
+      ],
+      "claim": "EF 3.0 rankings put dense pipelines first in all 16 onshore categories and 14 of 16 offshore categories.",
+      "assessment": "All 272 discrete ranks were corroborated against native vector paths. Offshore exceptions are water use and freshwater eutrophication; absolute magnitudes and factor versions remain open.",
+      "reference_ids": [
+        "R15",
+        "R17"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C67",
+      "pages": [
+        8
+      ],
+      "claim": "After dense pipelines, gas pipelines outperform batch modes onshore, but only some categories offshore.",
+      "assessment": "Figure 5 is an ordinal comparison for 2070, T and SSP2-NDC; it does not define a weighted aggregate winner.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C68",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Electric trucks rank worse than H₂ trucks in 11 of 16 categories and diesel trucks in 4, largely due to battery burdens.",
+      "assessment": "Counts reconstruct from the native ordinals; the mechanism needs licensed LCI. Rank separation does not measure impact magnitude.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C69",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "HFO ships have greater climate impact but perform better in about half of the other categories than alternative-fuel ships.",
+      "assessment": "The ordinal replay gives 9 of 15 against ammonia and 7 of 15 against methanol. This does not define an aggregate weighted winner.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C70",
+      "pages": [
+        8
+      ],
+      "claim": "EU-27 road freight of 1,800 Gtkm and 0.6–1.9% GVA imply a 0.023–0.074% sector allocation for 70 Gtkm.",
+      "assessment": "Arithmetic gives 0.023333–0.073889%. It assumes linear GVA per tkm; future CO₂-sector contribution and geographical alignment were not measured.",
+      "reference_ids": [
+        "R38",
+        "R51"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C71",
+      "pages": [
+        8
+      ],
+      "claim": "Overall shares span 0.000003–4.8% onshore and 0.000005–0.46% offshore.",
+      "assessment": "Quoted ranges across categories and modes, rather than independent absolute-LCI reproduction. Bubble areas were not converted to exact impacts.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C72",
+      "pages": [
+        8
+      ],
+      "claim": "Dense pipeline impacts are below 0.075%, with ecotoxicity, minerals and particulates at 0.012–0.075% and other categories below 0.023%.",
+      "assessment": "This upper bound does not establish that every case fits the entire GVA allocation range; exact category impacts are missing. Actual exceedance is not established either.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C73",
+      "pages": [
+        8
+      ],
+      "claim": "Onshore batch impacts reach 0.4–4.8% in critical categories; diesel trucks or barges can exceed 0.075% in up to ten categories and other land modes in up to seven.",
+      "assessment": "Scenario and category statements need native absolute arrays. Land use uses a proxy denominator, so these are not sixteen common physical PB thresholds.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C74",
+      "pages": [
+        8
+      ],
+      "claim": "Most offshore category-mode impacts are below 0.075%, suggesting environmentally preferable offshore transport.",
+      "assessment": "Equivalent routes, service and sinks must be compared; different onshore and offshore networks are not automatically interchangeable.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C75",
+      "pages": [
+        8,
+        10
+      ],
+      "claim": "A gigatonne-scale dense pipeline network can achieve absolute sustainability, while unmodeled learning might improve batch modes.",
+      "assessment": "Conditional on allocation, categories, scenarios, demand, routes and utilization. An approximate upper bound and economic allocation do not prove unconditional sustainability for every case.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C76",
+      "pages": [
+        10
+      ],
+      "claim": "The conclusion says dense pipelines have the lowest impacts across all categories both onshore and offshore.",
+      "assessment": "Conflicts with Section 3.4 and Figure 5’s 14 of 16 offshore categories. Retain the water-use and freshwater-eutrophication exceptions.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C77",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        8,
+        10
+      ],
+      "claim": "Paper 1 implication: transport LCA is not complete capture-to-ship or field-service evidence.",
+      "assessment": "No accepted heat, electricity, injection or retention factor is added; preserve pure-feed, T/T+C, geographic and allocation boundaries.",
+      "reference_ids": [],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C78",
+      "pages": [
+        3,
+        4,
+        10
+      ],
+      "claim": "Paper 1 implication: returning heel and named operations do not close reference-flow or utility inventories.",
+      "assessment": "Keep the 20.7 t fill versus 19.872 t delivery comparison conditional, with no 4% loss credit; exact supplementary data and originals are needed.",
+      "reference_ids": [],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C79",
+      "pages": [
+        4,
+        5,
+        7,
+        10
+      ],
+      "claim": "Paper 1 implication: native LCA and payback cases remain unreproduced.",
+      "assessment": "The general Equation 1 component, 38 diagnostics and graphic transcriptions do not supply missing ecoinvent, supplementary or Aspen cases.",
+      "reference_ids": [],
+      "kind": "audit_scope_implication"
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        10
+      ],
+      "citation": "Andreasi Bassi, S., Biganzoli, F., Ferrara, N., Amadei, A., Valente, A., Sala, S., Ardente, F., 2023. European Commission. Joint Research Centre. Updated Charac- terisation and Normalisation Factors for the Environmental Footprint 3.1 Method. Publications Office, http://dx.doi.org/10.2760/798894.",
+      "role": "Land-use global-impact proxy; EF3.1 reference versus EF3.0 methods needs exact-version confirmation",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C45"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        10
+      ],
+      "citation": "AspenTech, 2018. V11: Asset optimization software: Engineering, manufacturing & supply chain and asset performance management. URL: https://www.aspentech. com/en.",
+      "role": "AspenPlus v11.1 conditioning software context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C38"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        10
+      ],
+      "citation": "Bahadori, A., 2017. Plant piping systems. In: Oil and Gas Pipelines and Piping Systems. Elsevier, pp. 269–284. http://dx.doi.org/10.1016/B978-0-12-803777-5.00010-1.",
+      "role": "Onshore pipeline trench/burial geometry context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C34"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        10
+      ],
+      "citation": "Baumstark, L., Bauer, N., Benke, F., Bertram, C., Bi, S., Gong, C.C., Dietrich, J.P., Dirnaichner, A., Giannousakis, A., Hilaire, J., Klein, D., Koch, J., Leimbach, M., Levesque, A., Madeddu, S., Malik, A., Merfort, A., Merfort, L., Odenweller, A., Pehl, M., Pietzcker, R.C., Piontek, F., Rauner, S., Rodrigues, R., Rottoli, M., Schreyer, F., Schultes, A., Soergel, B., Soergel, D., Strefler, J., Ueckerdt, F., Kriegler, E., Luderer, G., 2021. REMIND2.1: transformation and innovation dynam- ics of the energy-economic system within climate and sustainability limits. Geosci. Model. Dev. 14 (10), 6571–6603. http://dx.doi.org/10.5194/gmd-14-6571-2021.",
+      "role": "REMIND2.1 model and scenario structure",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C40",
+        "C41",
+        "C42"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        10
+      ],
+      "citation": "Bui, M., Adjiman, C.S., Bardow, A., Anthony, E.J., Boston, A., Brown, S., Fennell, P.S., Fuss, S., Galindo, A., Hackett, L.A., Hallett, J.P., Herzog, H.J., Jackson, G., Kemper, J., Krevor, S., Maitland, G.C., Matuszewski, M., Metcalfe, I.S., Petit, C., Puxty, G., Reimer, J., Reiner, D.M., Rubin, E.S., Scott, S.A., Shah, N., Smit, B., Trusler, J.P.M., Webley, P., Wilcox, J., Mac Dowell, N., 2018. Carbon capture and storage (CCS): the way forward. Energy Environ. Sci. 11 (5), 1062–1176. http://dx.doi.org/10.1039/c7ee02342a.",
+      "role": "Carbon capture/removal background",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        10
+      ],
+      "citation": "Burger, J., Nöhl, J., Seiler, J., Gabrielli, P., Oeuvray, P., Becattini, V., Reyes-Lúa, A., Riboldi, L., Sansavini, G., Bardow, A., 2024. Environmental impacts of carbon capture, transport, and storage supply chains: Status and the way forward. Int. J. Greenh. Gas Control. 132, 104039. http://dx.doi.org/10.1016/j.ijggc.2023.104039.",
+      "role": "Pioneering batch-chain environmental burden and up to152kgCO2e/t quote; original differs from B2-13",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C14",
+        "C15"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        10
+      ],
+      "citation": "Carbfix, 2024. Carbfix coda terminal. URL: https://www.carbfix.com/operations/ codaterminal.",
+      "role": "Historical Coda terminal example",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        10
+      ],
+      "citation": "Corsten, M., Ramírez, A., Shen, L., Koornneef, J., Faaij, A., 2013. Environmental impact assessment of CCS chains – Lessons learned and limitations from LCA literature. Int. J. Greenh. Gas Control. 13, 59–71. http://dx.doi.org/10.1016/j.ijggc.2012.12.003.",
+      "role": "Static transport/pipeline LCA review context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        10
+      ],
+      "citation": "Cruz, T.T.d., Perrella Balestieri, J.A., de Toledo Silva, J.M., Vilanova, M.R., Oliveira, O.J., Ávila, I., 2021. Life cycle assessment of carbon capture and stor- age/utilization: From current state to future research directions and opportunities. Int. J. Greenh. Gas Control. 108, 103309. http://dx.doi.org/10.1016/j.ijggc.2021. 103309.",
+      "role": "CCS/CCU LCA review context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        10
+      ],
+      "citation": "Cuéllar-Franca, R.M., Azapagic, A., 2015. Carbon capture, storage and utilisation technologies: A critical analysis and comparison of their life cycle environmental impacts. J. CO2 Util. 9, 82–102. http://dx.doi.org/10.1016/j.jcou.2014.12.001.",
+      "role": "CCS/CCU LCA review context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        10
+      ],
+      "citation": "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO2 lique- faction: Impact of product pressure and impurities. Int. J. Refrig. 103, 301–315. http://dx.doi.org/10.1016/j.ijrefrig.2019.04.011.",
+      "role": "16bar liquefaction process and conditioning assumptions, claimed +/-4% validation",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C38"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        10
+      ],
+      "citation": "Di Maria, A., Snellings, R., Alaerts, L., Quaghebeur, M., van Acker, K., 2020. Envi- ronmental assessment of CO2 mineralisation for sustainable construction materials. Int. J. Greenh. Gas Control. 93, 102882. http://dx.doi.org/10.1016/j.ijggc.2019. 102882.",
+      "role": "Construction-material mineralisation context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        10
+      ],
+      "citation": "Equinor, 2019a. EL001 Northern Lights - Receiving and permanent storage of CO2: Plan for development, installation and operation, part II - Impact Assessment. URL: https://norlights.com/what-we-do/reports/.",
+      "role": "Historical Northern Lights receiving/storage impact-assessment conditions",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C07",
+        "C37"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        10
+      ],
+      "citation": "Equinor, 2019b. Northern lights concept report: RE-PM673-00001. URL: https:// norlights.com/what-we-do/reports/.",
+      "role": "Northern Lights concept condition basis",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C37"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        10
+      ],
+      "citation": "European Commission, 2019. Environmental footprint reference packages 3.0 (EF 3.0). URL: https://eplca.jrc.ec.europa.eu/LCDN/EF_archive.html.",
+      "role": "EF3.0 reference package",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C66"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        10
+      ],
+      "citation": "European Commission and Directorate-General for Climate Action, 2019. Going climate- neutral by 2050 – A strategic long-term vision for a prosperous, modern, competitive and climate-neutral EU economy. URL: https://data.europa.eu/doi/10. 2834/02074.",
+      "role": "Historical European net-zero transition context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        10
+      ],
+      "citation": "Fazio, S., Biganzioli, F., de Laurentiis, V., Zampori, L., Sala, S., Diaconu, E., 2018. Supporting information to the characterisation factors of recommended EF Life Cycle Impact Assessment methods: Version 2, from ILCD to EF 3.0, EUR 29600 EN. http://dx.doi.org/10.2760/002447.",
+      "role": "EF LCIA methods/characterisation factors",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C66"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        11
+      ],
+      "citation": "Hank, C., Lazar, L., Mantei, F., Ouda, M., White, R.J., Smolinka, T., Schaadt, A., Hebling, C., Henning, H.M., 2019. Comparative well-to-wheel life cycle assessment of OME 3–5 synfuel production via the power-to-liquid pathway. Sustain. Energy Fuels 3 (11), 3219–3233. http://dx.doi.org/10.1039/C9SE00658C.",
+      "role": "Methanol/synfuel production foreground inventory lineage",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C29"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        11
+      ],
+      "citation": "Hare, B., Brecha, R., Schaeffer, M., 2018. Integrated assessment models: what are they and how do they arrive at their conclusions? URL: https://climateanalytics.org/publications/integrated-assessment-models-what- are-they-and-how-do-they-arrive-at-their-conclusions.",
+      "role": "IAM explanatory context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C17",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        11
+      ],
+      "citation": "IEA, 2020. Energy technology perspective 2020: Special report on carbon cap- ture utilisation and storage. URL: https://www.iea.org/reports/energy-technology- perspectives-2020.",
+      "role": "European demand/proximity/scale projections; no field annual safe injection",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C06",
+        "C09",
+        "C16",
+        "C47"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        11
+      ],
+      "citation": "IMO, 2016. Methanol as marine fuel: Environmental benefits, technology readiness, and economic feasibility. URL: https://www.uncclearn.org/resources/library/methanol- as-marine-fuel-environmental-benefits-technology-readiness-and-economic- feasibility/.",
+      "role": "Methanol ship exhaust emission inventory",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C31"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        11
+      ],
+      "citation": "IPCC, 2005. In: Metz, B., Davidson, O., de Coninck, H., Loos, M., Meyer, L. (Eds.), Carbon Dioxide Capture and Storage. Cambridge University Press, Cambridge, England, URL: https://www.ipcc.ch/report/carbon-dioxide-capture-and-storage/.",
+      "role": "CCS transport-cost and mineralisation background",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C05",
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        11
+      ],
+      "citation": "IPCC, 2022. In: Masson-Delmotte, V., Zhai, P., Pörtner, H.O., Roberts, D., Skea, J., Shukla, P.R., Pirani, A., Moufouma-Okia, W., Péan, C., Pidcock, R., Connors, S., Matthews, J.B.R., Chen, Y., Zhou, X., Gomis, M.I., Lonnoy, E., Maycock, T., Tignor, M., Waterfield, T. (Eds.), Global Warming of 1.5 ◦ C: IPCC Special Report on Impacts of Global Warming of 1.5 ◦ C above Pre-industrial Levels in Context of Strengthening Response to Climate Change, Sustainable Development, and Efforts to Eradicate Poverty. Cambridge University Press, http://dx.doi.org/10. 1017/9781009157940.",
+      "role": "Climate goals and IAM context; source is cited2022 edition of1.5C report",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C01",
+        "C17"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        11
+      ],
+      "citation": "ISO, 2020a. ISO 14040:2006/Amd 1:2020. Environmental management — Life cycle assessment — Principles and framework — Amendment 1.",
+      "role": "LCA principles/framework standard, amendment2020",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C18"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        11
+      ],
+      "citation": "ISO, 2020b. ISO 14044:2006/Amd 2:2020. Environmental management — Life cycle assessment — Requirements and guidelines — Amendment 2.",
+      "role": "LCA requirements/guidelines standard, amendment2020",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C18"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        11
+      ],
+      "citation": "Kätelhön, A., Meys, R., Deutz, S., Suh, S., Bardow, A., 2019. Climate change mitigation potential of carbon capture and utilization in the chemical industry. Proc. Natl. Acad. Sci. 116 (23), 11187–11194. http://dx.doi.org/10.1073/pnas.1821029116.",
+      "role": "CCU chemical-industry context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        11
+      ],
+      "citation": "Knoope, M., Guijt, W., Ramírez, A., Faaij, A., 2014. Improved cost models for optimizing CO2 pipeline configuration for point-to-point pipelines and simple networks. Int. J. Greenh. Gas Control. 22, 25–46. http://dx.doi.org/10.1016/j.ijggc.2013.12.016.",
+      "role": "Gas/dense pipeline state range and optimization context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C22"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        11
+      ],
+      "citation": "Koen, R., Hans Bolscher, FHHE, MMS, 2012. Assessing the Case for EU Legislation on the Safety of Pipelines and the Possible Impacts of such an Initiative. Final Report: ENV.G.1/FRA/2006/0073, European Commission, Directorate-General En- vironment, URL: https://op.europa.eu/publication-detail/-/publication/ed12ad91- 6eec-4aad-b44e-7c9d3c99f98f.",
+      "role": "Pipeline safety/trench geometry recommendations; printed author identity retained",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C34"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        11
+      ],
+      "citation": "Krone Commercial Vehicles SE, 2021. Die container chassis. URL: https://www.krone- trailer.com/downloads. (Accessed 01 December 2023).",
+      "role": "Truck trailer manufacturer weights",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        11
+      ],
+      "citation": "Matter, J.M., Broecker, W.S., Gislason, S.R., Gunnlaugsson, E., Oelkers, E.H., Stute, M., Sigurdardóttir, H., Stefansson, A., Alfredsson, H.A., Aradóttir, E.S., Axelsson, G., Sigfússon, B., Wolff-Boenisch, D., 2011. The CarbFix Pilot Project–Storing carbon dioxide in basalt. Energy Procedia 4, 5579–5585. http://dx.doi.org/10.1016/j. egypro.2011.02.546.",
+      "role": "Basalt mineralisation and25bar terminal context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        11
+      ],
+      "citation": "Mayer, P., Ramirez, A., Pezzella, G., Winter, B., Sarathy, S.M., Gascon, J., Bardow, A., 2023. Blue and green ammonia production: A techno-economic and life cycle assessment perspective. iScience 26 (8), 107389. http://dx.doi.org/10.1016/j.isci. 2023.107389.",
+      "role": "Ammonia production process inventory lineage",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C30"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        11
+      ],
+      "citation": "Meeberg Group, 2022. Meeberg ISO tanks & containers. URL: https://www.meeberg. com/en/tank-container-stock/21000l-new-build-t75-cryogenic-. (Accessed 27 July 2022).",
+      "role": "ISO tank manufacturer tare/capacity data",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        11
+      ],
+      "citation": "Minx, J.C., Lamb, W.F., Callaghan, M.W., Fuss, S., Hilaire, J., Creutzig, F., Amann, T., Beringer, T., de Oliveira Garcia, W., Hartmann, J., Khanna, T., Lenzi, D., Lud- erer, G., Nemet, G.F., Rogelj, J., Smith, P., Vicente Vicente, J.L., Wilcox, J., Del Mar Zamora Dominguez, M., 2018. Negative emissions—Part 1: Research landscape and synthesis. Environ. Res. Lett. 13 (6), 063001. http://dx.doi.org/10.1088/1748- 9326/aabf9b.",
+      "role": "Carbon dioxide removal landscape context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        11
+      ],
+      "citation": "Oeuvray, P., Burger, J., Roussanaly, S., Mazzotti, M., Becattini, V., 2024. Multi-criteria assessment of inland and offshore carbon dioxide transport options. J. Clean. Prod. 443, 140781. http://dx.doi.org/10.1016/j.jclepro.2024.140781.",
+      "role": "Transport cost/configuration/geometry/phase/range/context; no original retained exact DOI found",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C08",
+        "C10",
+        "C11",
+        "C14",
+        "C22",
+        "C32",
+        "C33",
+        "C34",
+        "C55",
+        "C57"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        11
+      ],
+      "citation": "Paltrinieri, N., Khan, F. (Eds.), 2016. Dynamic Risk Analysis in the Chemical and Petroleum Industry. Elsevier, http://dx.doi.org/10.1016/C2014-0-04902-7.",
+      "role": "Payback concept analogy; detailed native equation provenance not independently checked",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C43"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        11
+      ],
+      "citation": "Paltsev, S., Morris, J., Kheshgi, H., Herzog, H., 2021. Hard-to-Abate Sectors: The role of industrial carbon capture and storage (CCS) in emission mitigation. Appl. Energy 300, 117322. http://dx.doi.org/10.1016/j.apenergy.2021.117322.",
+      "role": "Hard-to-abate industrial CCS context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        11
+      ],
+      "citation": "Ryberg, M.W., Andersen, M.M., Owsianiak, M., Hauschild, M.Z., 2020. Downscaling the planetary boundaries in absolute environmental sustainability assessments – A review. J. Clean. Prod. 276, 123287. http://dx.doi.org/10.1016/j.jclepro.2020. 123287.",
+      "role": "Planetary-boundary downscaling/allocation choices",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C45",
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        11
+      ],
+      "citation": "Ryberg, M.W., Owsianiak, M., Clavreul, J., Mueller, C., Sim, S., King, H., Hauschild, M.Z., 2018. How to bring absolute sustainability into decision-making: An industry case study using a Planetary Boundary-based methodology. Sci. Total Environ. 634, 1406–1416. http://dx.doi.org/10.1016/j.scitotenv.2018.04.075.",
+      "role": "Population/economic allocation approaches",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C46",
+        "C70"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        11
+      ],
+      "citation": "Rycroft, L., Neele, F., Bruun, K.B., Meneguolo, R., de Moor, J., Schiferli, W., Can- dela, T.G., Snæbjörnsdóttir, S.Ó., Hoffman, N., O’Brien, S., 2024. Geological storage of CO2. In: Deployment of Carbon Capture and Storage. Elsevier, pp. 133–266. http://dx.doi.org/10.1016/B978-0-323-95498-3.00003-1.",
+      "role": "Geological sink classes and required states",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C36",
+        "C37"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        11
+      ],
+      "citation": "Sacchi, R., Bauer, C., Cox, B.L., 2021. Does size matter? The influence of size, load factor, range autonomy, and application type on the life cycle assessment of current and future medium- and heavy-duty vehicles. Environ. Sci. Technol. 55 (8), 5224–5235. http://dx.doi.org/10.1021/acs.est.0c07773.",
+      "role": "carculator_truck model and time-dependent truck inventories",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C25",
+        "C26",
+        "C27"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        11
+      ],
+      "citation": "Sacchi, R., Terlouw, T., Siala, K., Dirnaichner, A., Bauer, C., Cox, B., Mutel, C., Daioglou, V., Luderer, G., 2022. PRospective EnvironMental impact asSEment (premise): A streamlined approach to producing databases for prospective life cycle assessment using integrated assessment models. Renew. Sustain. Energy Rev. 160, 112311. http://dx.doi.org/10.1016/j.rser.2022.112311.",
+      "role": "premise prospective background and hydrogen/nitrogen/fuel inventories",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C17",
+        "C29",
+        "C30",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        11
+      ],
+      "citation": "Sala, S., Crenna, E., Secchi, M., Sanyé-Mengual, E., 2020. Environmental sustainability of European production and consumption assessed against planetary boundaries. J. Environ. Manag. 269, 110686. http://dx.doi.org/10.1016/j.jenvman.2020.110686.",
+      "role": "LCIA-based planetary boundaries/equality allocation",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C45",
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        11
+      ],
+      "citation": "Schiferli, W., 2023. Porthos – CO2 storage in highly-depleted gas fields. http://dx.doi. org/10.2118/215562-MS.",
+      "role": "Porthos depleted-field historical receiving-state example",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C07",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        11
+      ],
+      "citation": "Schwarzkopf, D.A., Petrik, R., Hahn, J., Ntziachristos, L., Matthias, V., Quante, M., 2023. Future ship emission scenarios with a focus on ammonia fuel. Atmosphere 14 (5), 879. http://dx.doi.org/10.3390/atmos14050879.",
+      "role": "Ammonia ship exhaust inventory",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C31"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        11
+      ],
+      "citation": "Skovholt, O., 1993. CO2 transportation system. Energy Convers. Manage. 34 (9–11), 1095–1103. http://dx.doi.org/10.1016/0196-8904(93)90058-I.",
+      "role": "Pipeline development/transport context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        11
+      ],
+      "citation": "UNFCCC, 2016. The Paris agreement: United Nations framework convention on climate change (UNFCCC).",
+      "role": "Paris Agreement climate goal",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        11
+      ],
+      "citation": "United Nations, 2023. World population prospects 2024. United Nations: Department of Economic and Social Affairs: Population Division, New York, NY, URL: https: //population.un.org/wpp/. (Accessed 01 September 2024).",
+      "role": "Population allocation7.9%; printed2023 author-year/2024 title and accessdate need exact dataset identity",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        11
+      ],
+      "citation": "Wang, Y., Pan, Z., Zhang, W., Borhani, T.N., Li, R., Zhang, Z., 2022. Life cycle assessment of combustion-based electricity generation technologies integrated with carbon capture and storage: A review. Environ. Res. 207, 112219. http://dx.doi. org/10.1016/j.envres.2021.112219.",
+      "role": "CCS power-generation LCA review",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R48"
+    },
+    {
+      "id": "R49",
+      "pages": [
+        11
+      ],
+      "citation": "Wernet, G., Bauer, C., Steubing, B., Reinhard, J., Moreno-Ruiz, E., Weidema, B., 2016. The ecoinvent database version 3 (part I): overview and methodology. Int. J. LifeCycle Assess. 21 (9), 1218–1230. http://dx.doi.org/10.1007/s11367-016-1087- 8.",
+      "role": "ecoinvent3.8 cutoff foreground/background methodology",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C28",
+        "C34",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R49"
+    },
+    {
+      "id": "R50",
+      "pages": [
+        11
+      ],
+      "citation": "Wildbolz, C., 2007. Life Cycle Assessment of Selected Technologies for CO2 Transport and Sequestration (Ph.D. thesis). Swiss Federal Institute of Technology Zurich, Switzerland, URL: https://doka.ch/publications.htm.",
+      "role": "8Mt/y supercritical pipeline comparator; exact thesis/version and inventories pending",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C35"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R50"
+    },
+    {
+      "id": "R51",
+      "pages": [
+        11
+      ],
+      "citation": "Zanne, M., Twrdy, E., Muha, R., Batista, M., 2023. The impact of migration of road freight transport services on economic indicators in selected EU countries. Promet - Traffic Transp. 35 (3), 271–284. http://dx.doi.org/10.7307/ptt.v35i3.198.",
+      "role": "EU27 road freight1800Gtkm/GVA reference",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C70"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R51"
+    },
+    {
+      "id": "R52",
+      "pages": [
+        11
+      ],
+      "citation": "ZEP, 2019. Building a CO2 transport infrastructure for Europe. URL: https: //zeroemissionsplatform.eu/document/building-a-co2-transport-infrastructure- for-europe/. (Accessed 08 July 2024).",
+      "role": "European CO2 infrastructure development context",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R52"
+    },
+    {
+      "id": "R53",
+      "pages": [
+        11
+      ],
+      "citation": "Zincir, B.A., Arslanoglu, Y., 2024. Comparative life cycle assessment of alternative marine fuels. Fuel 358, 129995. http://dx.doi.org/10.1016/j.fuel.2023.129995.",
+      "role": "Alternative marine fuel LHV/tank-to-wheel assumption lineage",
+      "verification_status": "unverified_original_not_retrieved",
+      "claim_links": [
+        "C31"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-13_bibliography.json#R53"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Supplementary Material A",
+      "role": "Explicit flowsheets, pipeline model and modified work allocation; not verified locally.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C21",
+        "C32",
+        "C33",
+        "C38"
+      ]
+    },
+    {
+      "id": "D02",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Supplementary Material B",
+      "role": "Explicit transport/conditioning inventories and climate impacts; not verified locally.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C28",
+        "C39",
+        "C60"
+      ]
+    },
+    {
+      "id": "D03",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Native models declared in supplementary data",
+      "role": "Page 10 states models are included; actual code, formats, versions and runtimes remain unverified, rather than nonexistent.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C43",
+        "C79"
+      ]
+    },
+    {
+      "id": "D04",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Licensed ecoinvent cutoff 3.8 and LCIA packages",
+      "role": "Page 10 states data can be licensed. Neither assets nor license entitlement was verified locally; no substitute database was used.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C28",
+        "C40",
+        "C66"
+      ]
+    },
+    {
+      "id": "D05",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "premise version and generated databases",
+      "role": "Prospective database, fuel, grid and industry transformations and exact version/commit are not retained.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C40",
+        "C50",
+        "C52",
+        "C53",
+        "C54"
+      ]
+    },
+    {
+      "id": "D06",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "carculator_truck version, vehicles and driving cycles",
+      "role": "Native gross weights, freight normalization and per-second outputs are not retained.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C25",
+        "C26",
+        "C27",
+        "C56"
+      ]
+    },
+    {
+      "id": "D07",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "AspenPlus conditioning cases",
+      "role": "Exact EOS, performance, efficiencies, feeds, duties and Deng validation are needed.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C38",
+        "C39",
+        "C58",
+        "C59"
+      ]
+    },
+    {
+      "id": "D08",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Oeuvray optimizer and geometry exports",
+      "role": "Modified work allocation, optimized designs and inventory scaling are not retained.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C32",
+        "C33",
+        "C34"
+      ]
+    },
+    {
+      "id": "D09",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "REMIND 2.1 scenario files",
+      "role": "IAM data and regional mappings are not retained; scenario probabilities are not invented.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C41",
+        "C42"
+      ]
+    },
+    {
+      "id": "D10",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "PB factors, population and GVA denominators",
+      "role": "Exact factor versions, units, thresholds and geographical or economic denominators remain unverified.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C45",
+        "C46",
+        "C70",
+        "C72",
+        "C75"
+      ]
+    },
+    {
+      "id": "D11",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Figures 2–5 native arrays and payback conventions",
+      "role": "Use/capital series, lifetimes, replacements, equal-service normalization and rounding require native assets.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C44",
+        "C49",
+        "C61",
+        "C62",
+        "C66"
+      ]
+    },
+    {
+      "id": "D12",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Complete capture/purification utility inventory",
+      "role": "Paper 1 requirement outside the source boundary; not an asset the authors claim to supply. Missing duties remain missing.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C77",
+        "C78"
+      ]
+    },
+    {
+      "id": "D13",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10
+      ],
+      "citation": "Pressure-constrained injection and retention evidence",
+      "role": "Paper 1 requirement outside the source boundary, not claimed supplementary content. Transport capacity is not safe annual field service.",
+      "verification_status": "unverified_dependency_or_explicit_scope_requirement",
+      "claim_links": [
+        "C77",
+        "C79"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        2,
+        3,
+        4,
+        10
+      ],
+      "status": "open_boundary_exclusion",
+      "finding": "Capture, purification, geological service and retention lie outside T/T+C.",
+      "action": "Admit no complete capture-utility or pressure-constrained annual-injection inputs."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        3
+      ],
+      "status": "open_reference_flow",
+      "finding": "The 4% heel returns; the 20.7 t fill versus delivery denominator is unresolved.",
+      "action": "Obtain native LCI allocation; retain the conditional mass balance and no vent-loss interpretation."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        3
+      ],
+      "status": "open_mode_feasibility",
+      "finding": "Early battery trucks in 2020 and 2025 exceed the approximate 44 t case mass.",
+      "action": "Obtain native weights, routes and constraints; make no unsupported legal claim or silent payload correction."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        3,
+        4
+      ],
+      "status": "open_state_basis",
+      "finding": "Pressure datum, exact batch temperature, purity and case states are not fully specified.",
+      "action": "Preserve printed state labels; invent no gauge conversion or utility correction."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        4,
+        10
+      ],
+      "status": "missing_native_assets",
+      "finding": "Explicit supplementary A/B, native author models and licensed ecoinvent are not locally verified.",
+      "action": "Preserve provenance; retrieval is paused, without claiming online absence or author-case reproduction."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        4,
+        5,
+        6,
+        9
+      ],
+      "status": "open_temporal_background",
+      "finding": "Same-year lifecycle snapshots differ from cohort timing; IAM scenarios and regional mixes are conditional.",
+      "action": "Need exact versions, annual use/capital arrays, utilization and disclosed geographic proxies."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        5,
+        6,
+        9
+      ],
+      "status": "open_source_wording_conflict",
+      "finding": "The broad 72–93% decline wording conflicts with fixed HFO background treatment.",
+      "action": "Retain the HFO exception and qualify reduction or ranking-robustness claims."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        1,
+        7,
+        8,
+        9
+      ],
+      "status": "open_payback_generalisation",
+      "finding": "The under-three-year headline and fossil-to-pipeline prose overgeneralize native cases.",
+      "action": "Retain train-to-small-dense at 6.7 years, HFO-to-gas at 12/20 years and e-fuel-to-dense at 14–31 years."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        7,
+        8
+      ],
+      "status": "open_matrix_scope_rounding",
+      "finding": "Figure 4 shows 66 selected directions, with rounded zero and a payback beyond lifetime.",
+      "action": "Preserve unassessed directions, X and parenthesized 16; infer neither zero capital nor lifetime feasibility."
+    },
+    {
+      "id": "I10",
+      "pages": [
+        5,
+        7,
+        8
+      ],
+      "status": "open_time_service_counterfactual",
+      "finding": "Equation 1 requires matched service, stock/rate units, horizon, replacements, residual value and continued benefit.",
+      "action": "Reconstruct only the general component with synthetic inputs; Figure 2 total intensities are not native use-phase arrays."
+    },
+    {
+      "id": "I11",
+      "pages": [
+        5,
+        8,
+        9
+      ],
+      "status": "open_absolute_sustainability_allocation",
+      "finding": "Population Europe, EUR and EU-27 freight have different geographic scopes; linear GVA allocation and the land-use proxy need qualification.",
+      "action": "Verify exact denominators and factor versions; allocation is not physical storage safety or permanence."
+    },
+    {
+      "id": "I12",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "status": "open_threshold_support",
+      "finding": "The quoted pipeline upper bound does not establish fit within the full 0.023333–0.073889% sector budget.",
+      "action": "Obtain native category impacts; neither universal compliance nor actual exceedance follows from the upper bound alone."
+    },
+    {
+      "id": "I13",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "status": "open_conclusion_rank_conflict",
+      "finding": "The all-category offshore conclusion conflicts with 14/16 and two explicit ship advantages.",
+      "action": "Retain water-use and freshwater-eutrophication exceptions; ordinal ranks are not cardinal benefits."
+    },
+    {
+      "id": "I14",
+      "pages": [
+        4,
+        5,
+        8,
+        9
+      ],
+      "status": "open_version_and_inventory",
+      "finding": "Methods cite EF 3.0 while the normalization reference names EF 3.1; HFO lacks a prospective mix.",
+      "action": "Obtain exact LCIA, supplier and characterization versions; do not invent consistent factors."
+    },
+    {
+      "id": "I15",
+      "pages": [
+        1,
+        2,
+        4,
+        10,
+        11
+      ],
+      "status": "unverified_primary_chain",
+      "finding": "All 53 printed originals and their underlying literature chains remain unverified.",
+      "action": "Use exact DOIs and versions; similar retained transport papers cannot substitute for the originals. No new primary edge is counted."
+    },
+    {
+      "id": "I16",
+      "pages": [
+        2,
+        4,
+        6,
+        7,
+        8,
+        10
+      ],
+      "status": "open_transferability",
+      "finding": "A cost-optimized transport case and annual geographic scenario do not establish field service or whole-chain climate benefit.",
+      "action": "Use bounded methods and qualitative findings, acknowledge prior work, and exclude unsupported operating or GHG inputs."
+    }
+  ],
+  "supplements": "Page 4 explicitly refers to Supplementary Material A for flowsheets, the pipeline model and work allocation, and B for transport and conditioning inventories and impacts. Pages 5–7 refer to Figures A.9–A.13. Page 10 links the article DOI and states that models are included in supplementary material and data can be licensed from ecoinvent. Neither supplement, native model files, inventories nor license entitlement was verified locally; the PDF has no embedded files. External retrieval remains paused under the user’s Chrome instruction. Local absence does not establish online absence.",
+  "reproduction": "audit_prospective_transport.py reconstructs the general Equation 1 annual-hold first-crossing component using explicitly synthetic equal-service inputs. Analytical, fractional-year, scaling, horizon and reversal tests pass. It produces 38 limited mass/unit/allocation/count/rank checks, 66 manually transcribed Figure 4 cells, 272 Figure 5 ordinal ranks corroborated by PDF vector geometry and 40 analyst annual rows. It does not reproduce the authors’ actual payback cases, absolute LCIA, licensed ecoinvent/premise/carculator models, Aspen conditioning or cost-optimized pipelines. Missing native inventories remain null. Bubble areas were not converted into exact impacts.",
+  "paper1_use": "Recognize prior prospective transport LCA and construction-versus-operating carbon-payback work. Preserve T/T+C boundaries, full/empty heel routing, region, scenario, lifetime, allocation and category tradeoffs. Retain train/HFO/e-fuel payback exceptions, the offshore 14/16 ranking, static HFO background and conditional planetary budget. This paper does not close matched capture-to-ship utilities, pressure-constrained annual reservoir service or retained/avoided-carbon factors. The existing combined 1.5 MPa HOLD remains; no accepted operating/GHG inputs or current numerical results changed.",
+  "next_steps": "Next local main paper: B2-14. B2-13 remains incomplete pending its 53 originals, explicit supplements A/B, native versions and licensed inventories, plus resolution of source wording, temporal, geographic, allocation and reference-flow issues. Native annual payback arrays, complete utility inventories and case-specific service/retention evidence are required before uptake. Keep the goal active; external retrieval remains paused pending the requested Chrome connection."
+}
