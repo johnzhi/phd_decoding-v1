@@ -1,0 +1,105 @@
+{
+  "study_id": "B2-07",
+  "source": {
+    "path": "papers/B2-07.pdf",
+    "sha256": "21a96f4a425beef54f68a5916da55c8aad2d6bd8351137a5c6389152dcc99363",
+    "doi": "10.3389/fenvs.2026.1966624"
+  },
+  "cited_sources": [
+    {
+      "path": "papers/B3-44.pdf",
+      "sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75"
+    },
+    {
+      "path": "papers/B4-06.pdf",
+      "sha256": "e8ceec0d96625b2fca7f58868f580a6843a31a0ad9eae78ef26695131e14e833"
+    }
+  ],
+  "screening": {
+    "WoS": 518,
+    "Scopus": 1051,
+    "registers": 0,
+    "before_deduplication": 1569,
+    "duplicates": 427,
+    "screened": 1142,
+    "abstract_excluded": 775,
+    "reports_sought": 367,
+    "not_retrieved": 0,
+    "assessed": 367,
+    "fulltext_excluded": 350,
+    "included_studies": 17,
+    "included_reports": 17,
+    "reasons": {
+      "system_scope": 142,
+      "topic": 86,
+      "decision": 57,
+      "outcome": 46,
+      "document_type": 19
+    }
+  },
+  "graph": {
+    "source_rates_Mtpy": [
+      8,
+      5,
+      3
+    ],
+    "sink_stocks_Mt": [
+      500,
+      200,
+      80
+    ],
+    "diameters_inch": [
+      32,
+      24,
+      16
+    ]
+  },
+  "project_snapshot": {
+    "audit_date": "2026-08-04",
+    "Porthos_rate_Mtpy": 2.5,
+    "Porthos_stock_Mt": 37,
+    "Northern_Lights_phase1_Mtpy": 1.5,
+    "Northern_Lights_expansion_lower_Mtpy": 5,
+    "Summit_Iowa_miles": 688,
+    "Li_sources": 1186,
+    "Li_sinks": 329,
+    "Li_candidate_km": 80700
+  },
+  "compute": {
+    "Bogs_runtime_s": [
+      5,
+      258900
+    ],
+    "Bogs_cap_h": 72,
+    "target_gap_percent": 1,
+    "accepted_gap_percent": 2,
+    "PWL_errors_percent": [
+      10.09,
+      1.55,
+      0.52
+    ],
+    "PWL_runtime_h": [
+      0.55,
+      14,
+      23
+    ],
+    "other_approximation_percent": [
+      0.3,
+      2.9,
+      20.97
+    ]
+  },
+  "missing": {
+    "publisher_SI_queries_exclusion_matrix": null,
+    "database_exports_deduplication": null,
+    "independent_coder_quality_protocol": null,
+    "complete_native_optimization_cases": null,
+    "matched_pressure_injection_dataset": null,
+    "complete_capture_ship_utility_inventory": null,
+    "native_AI_twin_training_and_control": null,
+    "quantum_hardware_and_baseline": null,
+    "currency_year_cost_horizon": null,
+    "project_allocation_operating_permission": null
+  },
+  "scope": "Reportedbookkeepingandschematicnumbersseparatefromallanalystfixtures. No inferred17studylist,no importedoperating/GHGfactor,nativecasesnotreproduced."
+}

@@ -1,0 +1,50 @@
+item,value,unit,basis,source_locator,interpretation
+identified_residual,0,count,reported bookkeeping,pp3–6 Figure2,"Zero verifies arithmetic only, not database selection or eligibility"
+deduplicated_residual,0,count,reported bookkeeping,pp3–6 Figure2,"Zero verifies arithmetic only, not database selection or eligibility"
+fulltext_sought_residual,0,count,reported bookkeeping,pp3–6 Figure2,"Zero verifies arithmetic only, not database selection or eligibility"
+fulltext_assessed_residual,0,count,reported bookkeeping,pp3–6 Figure2,"Zero verifies arithmetic only, not database selection or eligibility"
+fulltext_exclusion_reasons_residual,0,count,reported bookkeeping,pp3–6 Figure2,"Zero verifies arithmetic only, not database selection or eligibility"
+included_residual,0,count,reported bookkeeping,pp3–6 Figure2,"Zero verifies arithmetic only, not database selection or eligibility"
+studies_reports_residual,0,count,reported bookkeeping,pp3–6 Figure2,"Zero verifies arithmetic only, not database selection or eligibility"
+duplicate_share,27.21478648820905,percent,reported count ratio,pp3–6,"Descriptive ratio, not sensitivity, precision or probability of completeness"
+abstract_exclusion_share,67.86339754816112,percent,reported count ratio,pp3–6,"Descriptive ratio, not sensitivity, precision or probability of completeness"
+fulltext_inclusion_share,4.632152588555858,percent,reported count ratio,pp3–6,"Descriptive ratio, not sensitivity, precision or probability of completeness"
+screened_inclusion_share,1.4886164623467601,percent,reported count ratio,pp3–6,"Descriptive ratio, not sensitivity, precision or probability of completeness"
+reason_share_sum,100.0,percent,reported count ratio,p6,One primary reason per excluded report as stated
+figure8_source_rate,16,MtCO2/year,printed schematic sum,p15 Figure8,"Illustration, not measured source or injection service"
+figure8_resource_stock,780,MtCO2,printed schematic sum,p15 Figure8,Stock is not an annual injection bound
+figure8_aggregate_stock_rate_ratio,48.75,years,conditional schematic ratio,p15 Figure8,"No per-sink injectivity, allocation, availability or retention inferred"
+diameter_32_inch,0.8128,m,unit conversion,p15 Figure8,Diameter alone does not determine flow capacity or safe pressure
+diameter_24_inch,0.6095999999999999,m,unit conversion,p15 Figure8,Diameter alone does not determine flow capacity or safe pressure
+diameter_16_inch,0.4064,m,unit conversion,p15 Figure8,Diameter alone does not determine flow capacity or safe pressure
+Iowa_length_conversion,1107.2286720000002,km,dated reported unit conversion,p13 Table4,"Iowa proposed filing scope at source audit date, not current whole-project length"
+Porthos_nominal_stock_rate_ratio,14.8,years,conditional dated ratio,p13 Table4,"Not a verified operational life, yearly service or commercial allocation"
+Northern_Lights_expansion_ratio_lower,3.3333333333333335,ratio,dated reported ratio,p13 Table4,"Lower-bound nominal expansion ratio, not observed performance"
+Li_source_sink_pair_count,390194,pairs,possible Cartesian size only,"pp13,18",Not a recovered candidate-arc count or a complexity lower bound
+Bogs_cap,259200,seconds,reported unit conversion,p18 Table6,Maximum reported runtime may be below a cap
+Bogs_runtime_below_cap,300,seconds,reported arithmetic,p18 Table6,"300 seconds below the cap is compatible, not a discrepancy"
+PWL_runtime_segments_1,1980.0000000000002,seconds,reported unit conversion,p18 Table6 footnote,"Different approximation and compute cases, not a controlled method ranking"
+PWL_error_reduction_segments_1,0.0,percent relative,reported arithmetic,p18 Table6 footnote,"Approximation error change, not solver optimality gap or net climate gain"
+PWL_runtime_segments_2,50400,seconds,reported unit conversion,p18 Table6 footnote,"Different approximation and compute cases, not a controlled method ranking"
+PWL_error_reduction_segments_2,84.63825569871159,percent relative,reported arithmetic,p18 Table6 footnote,"Approximation error change, not solver optimality gap or net climate gain"
+PWL_runtime_segments_3,82800,seconds,reported unit conversion,p18 Table6 footnote,"Different approximation and compute cases, not a controlled method ranking"
+PWL_error_reduction_segments_3,94.84638255698712,percent relative,reported arithmetic,p18 Table6 footnote,"Approximation error change, not solver optimality gap or net climate gain"
+toy_objective_literal_classes,0.0,analyst cost units,analyst independent MILP,pp15–16 illustrative classes,Not the authors’ optimization or a corrected native solution
+toy_arc_flow_literal_classes,0.0,analyst flow units,analyst independent MILP,pp15–16,All added target/link assumptions are explicit in the variant label
+toy_injection_literal_classes,0.0,analyst flow units,analyst independent MILP,pp15–16,"Unlinked injection shows an incomplete illustration, not a native-code defect"
+toy_objective_added_demand_only,3.0,analyst cost units,analyst independent MILP,pp15–16 illustrative classes,Not the authors’ optimization or a corrected native solution
+toy_arc_flow_added_demand_only,0.0,analyst flow units,analyst independent MILP,pp15–16,All added target/link assumptions are explicit in the variant label
+toy_injection_added_demand_only,3.0,analyst flow units,analyst independent MILP,pp15–16,"Unlinked injection shows an incomplete illustration, not a native-code defect"
+toy_objective_added_demand_and_sink_link,29.0,analyst cost units,analyst independent MILP,pp15–16 illustrative classes,Not the authors’ optimization or a corrected native solution
+toy_arc_flow_added_demand_and_sink_link,3.0,analyst flow units,analyst independent MILP,pp15–16,All added target/link assumptions are explicit in the variant label
+toy_injection_added_demand_and_sink_link,3.0,analyst flow units,analyst independent MILP,pp15–16,"Unlinked injection shows an incomplete illustration, not a native-code defect"
+compact_allocation_without_arc_flow,1,boolean,analyst compact-display fixture,p12,"q=a=b=1, E=I=1, f=y=0 satisfies the displayed totals without a delivery link"
+toy_integrated_injection,12.0,MtCO2,analyst rate-stock example,pp15–16,"3 Mt/year for four years gives 12 Mt, exceeding a hypothetical 10 Mt resource"
+toy_literal_rate_stock_test,1,boolean,analyst literal numeric comparison,p16,A rate-stock number comparison passes despite the integrated mass excess
+toy_resource_feasible_after_integration,0,boolean,analyst mass comparison,p16,Separate dimensionally consistent check; no source value repaired
+toy_lifetime_PV,140.26048839364864,analyst currency units,analyst cost-time example,pp15–16,"100 capital and 6 annual cost at analyst 8% over ten years, not source costing"
+toy_capital_plus_one_year,106,analyst currency units,analyst cost-time example,pp15–16,Needs a common time convention before comparison with lifetime PV
+toy_persistent_capacity_all_years,1,boolean,analyst commissioned-stock comparison,p16,A separately supplied stock equation preserves an asset; delta-y alone is an event
+toy_event_only_capacity_all_years,0,boolean,analyst event-only comparison,p16,Different capacity linkage rejects later service; neither is asserted native code
+toy_static_robust_cost,10.0,analyst cost units,analyst finite enumeration,p16,One decision before uncertainty; no probabilities or CCUS calibration
+toy_perfect_information_cost,0.0,analyst cost units,analyst distinct comparator,p16,"Decision after complete information, not automatically implementable recourse"

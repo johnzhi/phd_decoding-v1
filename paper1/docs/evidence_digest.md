@@ -302,15 +302,15 @@ Transfer limits: All 27 pages and internal Appendices A–D read/inspected, incl
 
 ### B2-07 — From point-to-point to hub-and-cluster a systematic review of co-optimization of source–sink matching and transport networks for large-scale CO2 sequestration
 
-. Identifier: 10.3389/fenvs.2026.1966624. [PDF](../papers/B2-07.pdf).
+Hu, Wu, Yang & Zhou (2026). Identifier: 10.3389/fenvs.2026.1966624. [PDF](../papers/B2-07.pdf).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,4,13,21.
+Reading stage: Detailed retained-PDF audit with open scientific verification. Checked sections: All 24 physical pages, figures, tables, equations and end matter; no paper-completion claim.
 
 PRISMA-guided source-sink/network co-optimisation review distinguishes contextual references from17 direct-evidence studies. Its extraction protocol codes system boundary, decisions, uncertainty, scale, computational reporting and limitations. It distinguishes sequential, monolithic and decomposition approaches and separates demonstrated methods from prospective AI/digital-twin capabilities.
 
 The review argues for auditable feasibility/objective/runtime/gap reporting and matched static/perfect-information controls. Its proposed future scale benchmarks and digital-twin/learning directions are evaluation priorities, not verified achievements. Cross-study evidence does not support a universal algorithm ranking.
 
-Transfer limits: The supplementary search/exclusion/extraction matrix is not supplied with our library, so the reported systematic-review workflow is described rather than independently reproduced. Counts are review metadata, not empirical reservoir or transport inputs. Prospective AI/closed-loop concepts do not validate safe operating policies or local access.
+Transfer limits: All 24 pages, 11 figures, six tables, 13 distinct displayed relations and 86 bibliography entries read/inspected. Forty-nine limited checks reconcile screening counts and analyst examples without reproducing search selection or any cited native model. The exact queries, exclusions and 17-study matrix are in an unretained supplement. Rate/stock, cost-time and graph links remain unresolved. Two scoped original checks qualify SimCCS dynamic/capture/solver attribution and Budiarto Pareto/LCA/entry-exit scope. Eighty-four other originals and twelve dependencies remain unverified. Prospective AI, quantum and national benchmark proposals are not achieved operating capabilities. See [detailed findings](cooptimization_review_comprehensive_findings.md); accepted numerical inputs remain unchanged.
 
 ### B2-08 — Optimal design and cost of ship-based CO2 transport under uncertainties and fluctuations
 

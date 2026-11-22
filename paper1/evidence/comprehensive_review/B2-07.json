@@ -1,0 +1,3976 @@
+{
+  "study_id": "B2-07",
+  "source_sha256": "21a96f4a425beef54f68a5916da55c8aad2d6bd8351137a5c6389152dcc99363",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 24 retained main-PDF pages were read as text and visually inspected, including 11 figures, six tables, 13 distinct unnumbered displayed mathematical relations, domains and 86 bibliography entries. Four pages were magnified. The record contains 88 claims, limited bookkeeping and disclosed analyst checks, and two scoped original-source checks. Eighty-four other originals, twelve dependencies, the publisher supplement, selection reproduction and native models remain open. The paper is not comprehensively complete.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24
+  ],
+  "original_model_status": "limited_bookkeeping_and_analyst_schematic_checks_only_native_review_selection_and_cited_models_not_reproduced",
+  "supplement_status": "explicit_search_exclusion_extraction_SI_not_retained_or_verified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract, keywords, CC-BY and editorial metadata",
+      "assessment": "Hu, Wu, Yang and Zhou; Frontiers Environmental Science14:1966624, published5October2026. Abstract reports17 eligible studies and explicitly declines universal algorithm rankings. Copyright/attribution, editor, reviewers, received13August/revised22September/accepted24September dates read. DOI10.3389/fenvs.2026.1966624."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "scope": "1 Introduction and Table1 positioning",
+      "assessment": "Read climate/policy, project growth, hard-to-abate sectors, spatial mismatch, network coupling, static-model/scalability and novelty claims. Most/static/no-integrated-framework assertions need the actual eligible corpus and originals. Contextual/method references are not all direct evidence."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        3
+      ],
+      "scope": "2 Methods and2.1 Review design",
+      "assessment": "Explicit direct-evidence versus contextual/prospective distinction; sequential, monolithic and decomposition architectures. No universal method ranking or pooled effect inferred. Main text does not give a closed17-item extraction matrix."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "scope": "2.2 Search methodology and eligibility",
+      "assessment": "WoS518+Scopus1051 on16September2026, no database filters; DOI then exact normalized title/year deduplication;427duplicates;1142screened. Four eligibility conditions allow partial cooptimization but require identifiable geological storage and extractable quantitative planning outputs. Exact queries reside in missingS1a."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "2.3 Selection and coding",
+      "assessment": "775abstract exclusions;367full reports;350excluded with one primary reason each;17studies/17reports included. All counts reconcile. Exclusion logS1–S3 and extraction/coding matrix missing; no independently reproduced search, completeness, coding or quality appraisal. Main protocol does not identify independent reviewers/agreement metrics; SI remains unknown."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "3 Optimization and3.1 Concepts",
+      "assessment": "Read source/sink definitions, source/site geography, irreversible investment, topology, multidimensional constraints and multiple objectives. General mixed-integer models can be NP-hard, but that does not establish every SSM instance is hard or rule out polynomial algorithms without conditions. Mass resource, maximum annual rate and actual physical safety remain distinct."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "3.2 Paradigm evolution",
+      "assessment": "Four capabilities distinguished: time-indexed optimization, scenario planning, monitoring and intelligent support. Digital twins/closed-loop operation explicitly prospective. Source/storage databases and historical MILP/multiperiod/supply-chain evolution are cited, not newly reproduced."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "3.3.1 Large-scale models and decomposition",
+      "assessment": "Candidate GIS corridors, clustering and hierarchy are discussed. Candidate generation before joint flow/design optimization is not the same as independently fixing matching; aggregation does not by itself guarantee engineering fidelity or global optimality. No native decomposition proof/implementation supplied."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        10
+      ],
+      "scope": "3.3.2 AI-driven methods",
+      "assessment": "DRL prospective operational adaptation; MDP context, training/inference, feasibility, distribution shift and strong baseline requirements read. PINNs are component/state surrogates, not discrete-network optimality certificates. Claimed absence of common end-to-end benchmark is corpus-dependent."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "3.3.3 Digital twins",
+      "assessment": "Components, storage monitoring and transferable port/trunk-pipeline architectures separated from operationally validated multi-operator network control. Figures5/6 are proposed architectures, not experimental results."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "scope": "3.3.4 Intelligent-method limitations",
+      "assessment": "Scarce failures/transient data, inherited simulator bias, offline burden, auditability, distribution shift and insufficient penalty-only safeguards. A safety filter needs a valid physical/domain model; calling it a certificate does not validate the real plant."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        12
+      ],
+      "scope": "3.4 Coupling and3.4.1 Formal architectures",
+      "assessment": "All five unnumbered allocation/capacity/terminal relations read. Terminal totals do not explicitly link to graph incidence/fet. yed lacks time index. Benders/ADMM descriptions and caveats are conceptual; no cut derivation, convergence proof, recourse implementation or native case supplied."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        12,
+        13
+      ],
+      "scope": "3.4.2 International deployment",
+      "assessment": "Porthos/NorthernLights/Summit and Chinese model distinguished; Table4 status snapshot4August2026. Geography, scope, proposed versus constructed infrastructure, modal interface and access implications read. No present access or project performance verified."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        12,
+        13,
+        14
+      ],
+      "scope": "4 Transport and4.1 Modes",
+      "assessment": "Volume/distance/utilization and modal complementarity; qualitativeFigure7 expressly has no quantitative boundaries. Table5 monetary ranges use different currencies/scales/boundaries; rail/truckNR means unavailable on common basis, not zero cost. No complete process utility/retention data."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        14
+      ],
+      "scope": "4.2 Routes: spatial/economic constraints",
+      "assessment": "Terrain, land, ecological/population constraints, construction and shortest-versus-least-cost distinction read. Coefficients and geospatial realizations absent."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        14
+      ],
+      "scope": "4.2 Routes: topology",
+      "assessment": "MILP bounds apply to stated linearized model; nonlinear/global and metaheuristic guarantees qualified. Trunk economies depend on utilization; no universal comparative saving established."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        14
+      ],
+      "scope": "4.2 Routes: physical/safety constraints",
+      "assessment": "Pressure/temperature/phase stability, impurities/materials, corrosion, dispersion and emergency response discussed. No native equations, phase envelope, impurity specification or pressure-constrained reservoir dataset supplied."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        14
+      ],
+      "scope": "4.2 Routes: governance/social constraints",
+      "assessment": "Permitted arcs, tariffs, reservations and liability as parameters/scenarios versus empirically unsupported endogenous public acceptance. Recommendations do not establish current legal/commercial access."
+    },
+    {
+      "id": "S19",
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "scope": "4.2.1 Graph, static objective, five constraints and dynamic/robust extensions",
+      "assessment": "Read every expression and domain, including incomplete printed forall-v suffix, rate/stock mismatch, cost-time conventions and omitted links/target. Figure9 includes more capabilities than explicit algebra. Dynamic objective lacks capture term relative to static; delta-y needs commissioned-stock/upgrade links. Robust minmax is not a fully specified multistage policy."
+    },
+    {
+      "id": "S20",
+      "pages": [
+        17,
+        18
+      ],
+      "scope": "4.2.2 Solution methods",
+      "assessment": "Exact, decomposition, metaheuristic, learned and hierarchical methods separated. Table6 contains five representative rows, not all17eligible studies. Runtime/gap/approximation metrics are not interchangeable. Source arithmetic checked, native benchmarks not reproduced."
+    },
+    {
+      "id": "S21",
+      "pages": [
+        18,
+        19
+      ],
+      "scope": "4.3 Challenges",
+      "assessment": "Complexity versus physical fidelity, joint uncertainty/recourse and competing objectives/data scales. Proposed comparisons require expected/worst cost, regret, shortfall and physical residuals. No measured solution to these gaps supplied."
+    },
+    {
+      "id": "S22",
+      "pages": [
+        19,
+        20
+      ],
+      "scope": "5 Discussion and5.1 Methods",
+      "assessment": "Model optimality versus physical validity; random seed/tuning/repair and total training/inference budget; hybrid proposals and matched-instance evaluation. Broad method preferences are evidence-qualified recommendations rather than universal theorems or measured ranking."
+    },
+    {
+      "id": "S23",
+      "pages": [
+        20
+      ],
+      "scope": "5.2 Demand",
+      "assessment": "Participation thresholds, carbon incentives, source entry/exit, jurisdictions and product-dependent utilization fate. A recommended endogenous entry/exit model is not demonstrated by a citation to fixed-source Budiarto2025."
+    },
+    {
+      "id": "S24",
+      "pages": [
+        20
+      ],
+      "scope": "5.3 Supply",
+      "assessment": "Scalability, scarce shared assets, data/calibrated safeguards, liability, decommissioning and finance. Investability and operability are requirements, not results of the example algebra."
+    },
+    {
+      "id": "S25",
+      "pages": [
+        20,
+        21
+      ],
+      "scope": "5.4 Future paradigms and synthesis",
+      "assessment": "Digital twin, MARL, markets, hydrogen/cement-methanol synergies and conditional quantum agenda. The86-reference no-quantum-advantage statement is limited to this reported corpus; not a global impossibility conclusion. No new operational/quantum/model result supplied."
+    },
+    {
+      "id": "S26",
+      "pages": [
+        21
+      ],
+      "scope": "5.5 RQ1–RQ5",
+      "assessment": "All five questions and metrics read: >1000sources/>300sinks is a proposed benchmark; matched scenario/static/perfect-information comparisons; budget balance/individual rationality/coalition/incentives; total compute; sensing/latency/uptime/override/missing-data validation. None is an achieved benchmark."
+    },
+    {
+      "id": "S27",
+      "pages": [
+        21,
+        22
+      ],
+      "scope": "Data, contributions, funding, acknowledgments, conflicts, AI and publisher notes",
+      "assessment": "Public-source extraction, no centralized repository/accessions. DH/XW/TZ writing and LYreview roles; grantX-202605. ChatGPT GPT-5 editing and publisher AI alt text disclosed; not proof of a scientific error. Data statement journals/proceedings does not describe every web/report/book bibliography entry."
+    },
+    {
+      "id": "S28",
+      "pages": [
+        22
+      ],
+      "scope": "Supplementary material notice",
+      "assessment": "Explicit Frontiers URL/full#supplementary-material preserved. Search strings, logs and extraction matrix not retained locally; public availability and exact versions unverified under Chrome pause. No author message sent."
+    },
+    {
+      "id": "S29",
+      "pages": [
+        22,
+        23,
+        24
+      ],
+      "scope": "Complete86-entry bibliography",
+      "assessment": "All entries read; Giakoumi and Wei2026 continuations joined without duplicate entries. Two exact originals have scoped checks;84others remain unverified. R86Zhao appears bibliography-only in retained main-body named citation scan; SI role unresolved. Books/reports/web authorities retained with access dates, not discarded."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "V01",
+      "pages": [
+        4
+      ],
+      "object": "Figure1 framework/caption/all arrows and labels",
+      "inspection": "Background climate/CCUS; climate-goal toCCUS toSSM chain; research scope, MILP/MINLP/network/time/uncertainty and DRL/GNN/PINN; synthesis/gap arrows. Conceptual hierarchy, no numerical validation or executable optimization."
+    },
+    {
+      "id": "V02",
+      "pages": [
+        5
+      ],
+      "object": "Figure2 PRISMA flow/caption",
+      "inspection": "Read every box: WoS518/Scopus1051/registers0, duplicates427/automation0/other0; screened1142/excluded775; sought367/notretrieved0/assessed367; exclusions142/86/57/46/19;17studies/17reports. Arithmetic reconstructed only; reports-not-retrieved0 is authors' statement, not our availability."
+    },
+    {
+      "id": "V03",
+      "pages": [
+        6
+      ],
+      "object": "Figure3 source/sink/topology features and legend",
+      "inspection": "Power/steel/cement/refinery sources; aquifer/coal/depleted/EORutilization sinks; S1–S4,H1/H2,K1–K4 and cost/utilization/stability/security labels. Conceptual utilization icon does not establish geological eligibility or durable product storage."
+    },
+    {
+      "id": "V04",
+      "pages": [
+        8
+      ],
+      "object": "Figure4 evolution and full legend",
+      "inspection": "Static point-to-point→multi-source→hub→intelligent adaptive dispatch. Solidselectedlinks,dottedcandidatepaths,purplefeedback,hubs,storage and computericon read. Final panel is prospective per adjacent text, not operational chronology proved for all systems."
+    },
+    {
+      "id": "V05",
+      "pages": [
+        9
+      ],
+      "object": "Figure5 three-phase AI architecture",
+      "inspection": "Phase1 bottlenecks/multistage/opportunities; phase2MDP/physics/graph→DRL/PINN/GNN potential; phase3candidatepolicy/physicalassessment/pathreconstruction→alignment/riskwarning→prospectiveadaptation. Inputs operating/physical/spatial constraints; prospective MARL/generative line. No trained weights, simulator, rewards or validation."
+    },
+    {
+      "id": "V06",
+      "pages": [
+        11
+      ],
+      "object": "Figure6 twin closed-loop diagram and qualifier",
+      "inspection": "Emission/source,networkpressure/flow,sinkinjectivity/storage inputs; equations,physics,AI,sharedassets; physical/virtualtwo-waymapping; calibration,prediction,feedback; failure/congestion/buffer/rerouting; prospectiveclosedloop. Explicit note says not broadly deployed practice; safeguard effectiveness not demonstrated."
+    },
+    {
+      "id": "V07",
+      "pages": [
+        13
+      ],
+      "object": "Figure7 qualitative applicability map/legend/note",
+      "inspection": "Axes low–hightransportscale andshort–longdistance; pipeline,shipping,rail,truck,multimodal regions andscenarioicons. Explicitlyqualitative,actualchoicecase-dependent. No numeric thresholds or cost crossing inferred."
+    },
+    {
+      "id": "V08",
+      "pages": [
+        15
+      ],
+      "object": "Figure8 schematic source–hub–sink graph/all labels/legend",
+      "inspection": "S1power8,S2steel5,S3chemical3Mt/year; hubsV1compression/split,V2aggregation/transfer; K1aquifer500,K2depleted200,K3basalt80Mt. Bluefeed/greenexit/orangedashedinternalflow;32/24/16inchdiameters. HubsVgraphic versusVallnodes inprose;diameterisnotcapacitywithoutPVT/hydraulics. No exact directed operatingcase solved."
+    },
+    {
+      "id": "V09",
+      "pages": [
+        16
+      ],
+      "object": "Figure9 MILP input/process/output diagram",
+      "inspection": "Sources,sinks,arcs,diameters,periods,scenarios; sixdecisionclasses; objectiveCAPEX/OPEX/compression/storage/risk; mass/capture/storage/injectivity/flowdiameter/pressurephase/spatial/robustconstraints; pipeline,diameter,schedule,expansion,costriskoutputs. Explicit algebra doesnot fullydefineallthese advertised capabilities."
+    },
+    {
+      "id": "V10",
+      "pages": [
+        17
+      ],
+      "object": "Figure10 five-column taxonomy/labels",
+      "inspection": "Formulations,methods,uncertainty,learning,systemarchitectures. Read allMILP/MINLP/network/multiperiod;branchbound/Benders/GA/PSO/SA/hybrids;robust/stochastic/scenario/regret;DRL/MARL/GNN/PINN/surrogates;twins/hierarchicalcoupling. Genericmethodbox no-guaranteed-optimality wording cannotapplyuniformly to convergedexactsolvers."
+    },
+    {
+      "id": "V11",
+      "pages": [
+        19
+      ],
+      "object": "Figure11 challenges/caption",
+      "inspection": "Threecolumns:complexity/nonconvexity/combinatorialexplosion;price/policy/capacityandtemporalstorageuncertainty/limitedrobustuse;cost/emission/equity,cross-sectorallocation,sparseheterogeneousdata. Qualitativechallenges,notnewmeasuredperformance."
+    },
+    {
+      "id": "V12",
+      "pages": [
+        3
+      ],
+      "object": "Table1 review-scope comparison/footnote",
+      "inspection": "Fivepriorreviews pluspresent;SSM/network/hubs/AI/evidencecolumnsallread. Partialdefinedorganizingfocus;notjournalquality/citationimpact. Originalreviewcoverage/nototalcensusunverified;present17+SImatrixrequiresmissingasset."
+    },
+    {
+      "id": "V13",
+      "pages": [
+        4
+      ],
+      "object": "Table2 protocol/all sixrows/footnote",
+      "inspection": "1142/427/17,16Sepsearch1569,corequery/S1a,eligibility,extractiondimensions,nopooling/noinference/rankingconditions. Revisedworkflowwordingdoesnotdocumentindependentcoderagreementorreproducequeries."
+    },
+    {
+      "id": "V14",
+      "pages": [
+        11
+      ],
+      "object": "Table3 maturity/reporting/all sixrows/footnote",
+      "inspection": "MILP/MINLP,stochastic/robust,metaheuristic,PINN/surrogate,DRL/MARL,twin/shadow;decisionhorizon,certificates,data,comparability,maturity. Gapsconditionalonvalidformulation/solver;uncertaintyguaranteesconditionalonset;NRandnocontrolledbenchmarkarecorpusstatements. MARLdefined."
+    },
+    {
+      "id": "V15",
+      "pages": [
+        13
+      ],
+      "object": "Table4 fourcases/status/scope/footnote",
+      "inspection": "Porthos>30km+>20km,2.5Mt/year,37Mt;NorthernLights1.5,~100km,>=5Mt/year;SummitIowa688miles6–24inch;Li1186/329/~80700km. Auditdate4Aug2026;boundariesdiffer,notcostperformancebenchmarks. DNabbreviationdefinedthoughnotusedasnumericinrow."
+    },
+    {
+      "id": "V16",
+      "pages": [
+        14
+      ],
+      "object": "Table5 allfourmodes/sixcolumns/footnote",
+      "inspection": "PipelineEUR.25–55.82/tat1000–25000t/day;shippingUSD9–50/tat1–5Mt/year600–1200km;rail/truckNRcommonbasis. Requirementsliquid/buffer/berth,safety/spec;CAPEX/OPEX/vol%/ppmdefined. No same-casecurrencyyear/utilization/costboundaryorutilityquantityinventory."
+    },
+    {
+      "id": "V17",
+      "pages": [
+        18
+      ],
+      "object": "Table6 fivecases/allcolumnsandfootnote",
+      "inspection": "SimCCS,Hasan,Li,Promsuk,Bogs;mostsolver/runtimeNR;BogsGurobi12/36cores96GB,5–258900s72hcap,1%target<=2%accepted,approx.30–2.90%/one20.97%;PWL10.09/1.55/.52%and33min14h23h. Differentphysicaldata/hardware/stoppingrules;no universalranking. SimCCSsolverNRqualifiedbyoriginalCPLEX11.0."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        12
+      ],
+      "printed": "Sum_j q_ijt <= E_it",
+      "check": "Allocation source limit; consistent mass/time units required. No explicit nonnegativeq domain or total service lower bound in snippet."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        12
+      ],
+      "printed": "Sum_i q_ijt <= Ibar_jt",
+      "check": "Supplied injectivity bound, not pressure-derived physics or cumulative storage stock. A safe/allocated yearly rate is not validated by the symbol."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        12
+      ],
+      "printed": "0 <= f_et <= Sum_d Fbar_ed y_ed",
+      "check": "Arc capacity activation. Binaryyed lacks t index; persistence/commissioning and capacity-option exclusivity unspecified here."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        12
+      ],
+      "printed": "a_it = Sum_j q_ijt",
+      "check": "Defines source allocation total; no displayed incidence relation connects a to fet. Toy nonzeroallocation/zeroarcflow can satisfy snippet."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        12
+      ],
+      "printed": "b_jt = Sum_i q_ijt",
+      "check": "Defines sink allocation total; no graph inflow equality shown. Consistent totals alone do not demonstrate transport delivery."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        15
+      ],
+      "printed": "minZ=Sum_(i,j),d ccap_ij,d y_ij,d + Sum_(i,j) cop_ij q_ij + Sum_i ccapt_i x_i + Sum_k cstor_k q_k",
+      "check": "Static monetary schematic; capital fixed and annualflow-operating terms require same annual/lifetimepresentvaluebasis. Capturetermfixedonlyaswritten;positivecoefficients+upperboundsonlypermitzero-serviceoptimum. No fullnativecase supplied."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        15
+      ],
+      "printed": "Sum_(i,v) q_iv = Sum_(v,j) q_vj, forall v in [printed suffix ends here]",
+      "check": "Prose supplies intermediate nodes V/(S unionK), but displayed quantifier incomplete. Hub conservation alone lacks sinkflow/injection identity and service target; not proof citednativecodefails."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        16
+      ],
+      "printed": "Sum_(i,j) q_ij <= Q_i^max x_i, forall i in S",
+      "check": "Binarycaptureactivationandmaximumrate; no minimumcapture/requiredservice. Optionalcapturezeroisfeasibleunlessanotherconstraintadded."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        16
+      ],
+      "printed": "q_k <= C_k, forall k in K",
+      "check": "qkdefinedannualt/year p15 whileCkcumulativeavailablemass/prose p16. Requireslifetimeconversion or duration-weighted sum. Literalrate-stockcomparecannotguaranteeresourcefeasibility."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        16
+      ],
+      "printed": "Sum_d Qmin_ij,d y_ij,d <= q_ij <= Sum_d Qmax_ij,d y_ij,d, forall(i,j)inA",
+      "check": "Validprecomputedflowcapacityboundswhenconsistentdomains; positive minimum forbidsunusedbuiltarcinthisstaticform. Doesnotindependentlyimposepressure/phase limitsmentionedprose."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        16
+      ],
+      "printed": "Sum_d y_ij,d <= 1, forall(i,j)inA",
+      "check": "Atmostoneoption,notexactlyone. Combinednonnegativeflowandcapacityboundforceszeroifnonebuilt."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        16
+      ],
+      "printed": "minZ=Sum_t delta^t[Sum_(i,j),d ccap_ij,d Delta y^t_ij,d + Sum_(i,j) cop_ij q^t_ij + Sum_k cstor_k q^t_k]",
+      "check": "BinarynewbuildDelta doesnotbyitselflinkcapacitytoexistingstock/retirement/upgrades. Capturetermfromstaticobjectiveomitted;ratecostneedperiodduration;discountformula/basisnotgiven. Notafullmulti-periodmodel."
+    },
+    {
+      "id": "E13",
+      "pages": [
+        16
+      ],
+      "printed": "min_(x in X) max_(xi in U) C(x,xi)",
+      "check": "Staticrobusttemplate. Noexplicitdecisionpolicy,informationfiltration,nonanticipativity orinnerrecourse;multi-stageadaptivitydescribedinproseisnotderivedbythisdisplay."
+    },
+    {
+      "id": "E14",
+      "pages": [
+        12,
+        15,
+        16
+      ],
+      "printed": "yed,yij,d,xi,Delta y binary; qij,qk>=0;V,S,K,A,D,T",
+      "check": "Domainsandsetrolesread. xstrategicrobust versusxicapturebinaryvsuncertaintyxi contextmustbedistinct; p12i/jsource-sink indicesversusgraphij p15. Nonnegativityneededforallphysicalflows."
+    },
+    {
+      "id": "E15",
+      "pages": [
+        16
+      ],
+      "printed": "delta^t dimensionless discount factor; t in T",
+      "check": "No numericrate/baseyear/durationconventionprovided. SeparateanalystPV/annuityexampleisnotnativecostreconstruction."
+    },
+    {
+      "id": "E16",
+      "pages": [
+        16
+      ],
+      "printed": "Operating pressure in[Pmin,Pmax]",
+      "check": "Printedinlineintervalonly;no pressurevariables,headloss,EoS,temperature,impurity or phase equations. PredeterminedQboundsneedsvaliddomainandverification."
+    },
+    {
+      "id": "E17",
+      "pages": [
+        15
+      ],
+      "printed": "qij,qk in tonnes/year; Figure8 sources Mt/year and sinks Mt",
+      "check": "1Mt=10^6tonnes; dimensionsmustnotbemixed. Anonymousschematicstocksnotannualinjectivityoractualcalibration."
+    },
+    {
+      "id": "E18",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "printed": "518+1051=1569;1569-427=1142;1142-775=367;367-350=17",
+      "check": "Independentbookkeepingfromreportedcounts;notdatabasequery/deduplication/screeningreproduction."
+    },
+    {
+      "id": "E19",
+      "pages": [
+        6
+      ],
+      "printed": "142+86+57+46+19=350",
+      "check": "Exclusionreasoncountsreconcileunderauthorsoneprimaryreasonrule;notvalidationofindividualexclusions."
+    },
+    {
+      "id": "E20",
+      "pages": [
+        15
+      ],
+      "printed": "Analyst16Mt/year and780Mt;780/16=48.75years",
+      "check": "Aggregateillustrativemass/rateonly;individualinjectivity,phasing,networkconstraintsandretentionnotgiven."
+    },
+    {
+      "id": "E21",
+      "pages": [
+        16
+      ],
+      "printed": "Analyst3Mt/year for4years=12Mt>10Mtstock although3<=10",
+      "check": "Counterexampletoliteralrate-stockuse;notnativefieldfailureoracorrectionattributedtoauthors."
+    },
+    {
+      "id": "E22",
+      "pages": [
+        15,
+        16
+      ],
+      "printed": "Analystpositive-costupper-bound-onlyMILP haszero-serviceoptimum",
+      "check": "Independentsmallmodeltestslogicalcompleteness,notauthormodel. Addeddemand/sinklinkvariantslabeledseparately."
+    },
+    {
+      "id": "E23",
+      "pages": [
+        12
+      ],
+      "printed": "Analystq=1,E=I=1,a=b=1,f=0,y=0satisfiessnippet",
+      "check": "Demonstratesthatterminaldefinitionsalonefailtodisplayallocation-to-arcconservation. Extrafulllinksareneeded;notclaimtheyareabsentfromcitedmodels."
+    },
+    {
+      "id": "E24",
+      "pages": [
+        16
+      ],
+      "printed": "Analystactiveasset_t=Sum_tau<=t Delta_y_tau",
+      "check": "Separatepersistentassetcomparison,notprintedsourceequation. Additionalretirement/upgrade/exclusivitydefinitionswouldbeneededforphysicalcase."
+    },
+    {
+      "id": "E25",
+      "pages": [
+        16
+      ],
+      "printed": "Analystannuity/PV factorSum_t(1+r)^(-t)",
+      "check": "Diagnosticcommoncosttimebasis;noassumedauthorrateorcostyear. Staticone-offCAPEX+oneyearOPEXnotcompletewholelifePVwithoutconventions."
+    },
+    {
+      "id": "E26",
+      "pages": [
+        16
+      ],
+      "printed": "Analystrobustcostmatrix[[0,10],[10,0]]:staticworst10;perfectinfo0",
+      "check": "Finiteenumerationillustratesdifferencebetweenstaticandinformation-adaptivechoice,notanativeCCUSsavingorimplementablerecourseclaim."
+    },
+    {
+      "id": "E27",
+      "pages": [
+        13
+      ],
+      "printed": "Analyst688internationalmiles*1.609344km/mile",
+      "check": "ExactunitconversionforsnapshotIowascaleonly;notnewrouteorverifiedprojectlength."
+    },
+    {
+      "id": "E28",
+      "pages": [
+        13
+      ],
+      "printed": "Analyst37Mt/2.5Mt/year=14.8years",
+      "check": "Nominalratioonly;doesnotestablishPorthosoperatinglife,actualannualcapacityorallocation."
+    },
+    {
+      "id": "E29",
+      "pages": [
+        18
+      ],
+      "printed": "72hours=259200seconds;259200-258900=300seconds",
+      "check": "Table6maximumcanbe300secondsbelowstatedcapwithoutcontradiction;gapvsapproximationerrornotpooled."
+    },
+    {
+      "id": "E30",
+      "pages": [
+        18
+      ],
+      "printed": "AnalystrelativePWLerrorchangefrom10.09to1.55/.52",
+      "check": "Arithmeticonly;differentapproximationerrorsandruntimearenotMILPoptimalitygapsorcontrolledmethodcomparison."
+    }
+  ],
+  "variables": [
+    {
+      "id": "X01",
+      "pages": [
+        12
+      ],
+      "symbols": "qijt,ait,bjt,Eit,Ibarjt",
+      "assessment": "Source–sinkallocationandterminaltotals; rateorperiodmassmustmatch;upperboundsaresuppliednotcalibrated."
+    },
+    {
+      "id": "X02",
+      "pages": [
+        12
+      ],
+      "symbols": "fet,Fbared,yed",
+      "assessment": "Arcflow/capacity/binarybuild; no explicit incidence/timing linkage in compactdisplay."
+    },
+    {
+      "id": "X03",
+      "pages": [
+        15
+      ],
+      "symbols": "V,S,K,A,D",
+      "assessment": "Allnodes/source/sink/arcs/diameters;F8labelsVhubswhileproseVallnodes;graphorientationandmembershipneeded."
+    },
+    {
+      "id": "X04",
+      "pages": [
+        15,
+        16
+      ],
+      "symbols": "qij,qk,Qimax,Ck",
+      "assessment": "Flowandannualinjectiont/yearversusstoragecumulativemass; no fullsinklink/resourceintegral."
+    },
+    {
+      "id": "X05",
+      "pages": [
+        15,
+        16
+      ],
+      "symbols": "yij,d,xi,Delta y^t_ij,d",
+      "assessment": "Binarycapacity/capture/newbuild; ystatesandDeltaeventsneedseparatelinks."
+    },
+    {
+      "id": "X06",
+      "pages": [
+        15,
+        16
+      ],
+      "symbols": "ccap,cop,ccapt,cstor,Z",
+      "assessment": "Fixedcapitalandthroughputcostcoefficients; currencyyear/annualization/discountscopeunprovided; no utilityinventory."
+    },
+    {
+      "id": "X07",
+      "pages": [
+        16
+      ],
+      "symbols": "Qmin,Qmax,Pmin,Pmax",
+      "assessment": "Flowboundsandpressureinterval; implied hydraulicvaliditynotverified."
+    },
+    {
+      "id": "X08",
+      "pages": [
+        16
+      ],
+      "symbols": "T,t,delta^t",
+      "assessment": "Timeindex/periodlength/baseyear/discountconventionneeddefinition;rate×durationrequiredformass/cost."
+    },
+    {
+      "id": "X09",
+      "pages": [
+        16
+      ],
+      "symbols": "x,X,xi,U,C(x,xi)",
+      "assessment": "Robuststrategicdecision/feasibleset/uncertaintyset/cost; noexplicitrecourseorprobabilitiesandnogeneraladaptivityproof."
+    },
+    {
+      "id": "X10",
+      "pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "symbols": "records,reports,studies,deduplication/reasoncounts",
+      "assessment": "Screenbookkeepingcountsnotstorage/calibrationevidence;17directstudiesdistinctfrom86contextualbibliography."
+    },
+    {
+      "id": "X11",
+      "pages": [
+        13,
+        14
+      ],
+      "symbols": "Mt/year,Mt,t/day,km,miles,inches,EUR/t,USD/t",
+      "assessment": "Rates/stocks/unitsandcurrencieskeptseparate;nonepromotedasacceptedutility/injection/GHGinput."
+    },
+    {
+      "id": "X12",
+      "pages": [
+        11,
+        18,
+        21
+      ],
+      "symbols": "MILPgap,approximationerror,runtime,training/inference,NR",
+      "assessment": "Differentmetrics;NRmissingnotzero;prospectivebenchmarksnotachievedperformance."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        3
+      ],
+      "claim": "Seventeen eligible studies provide the direct evidence synthesis",
+      "assessment": "The exact search, exclusions and extraction matrix are missing locally; the 17-study completeness claim is not independently verified.",
+      "reference_ids": [
+        "D01"
+      ]
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1,
+        10,
+        19,
+        21
+      ],
+      "claim": "Mathematical programming offers feasibility and bounds for the stated model",
+      "assessment": "Solver bounds apply to the formulated model and tolerances; they do not validate omitted physics or real operation.",
+      "reference_ids": [
+        "R37",
+        "R44",
+        "R45"
+      ]
+    },
+    {
+      "id": "C03",
+      "pages": [
+        1,
+        13,
+        20
+      ],
+      "claim": "Shared hubs and modes can improve infrastructure sharing under conditions",
+      "assessment": "The mechanism is conditional on utilization, phasing, participation and access. No universal saving or local service allocation follows.",
+      "reference_ids": [
+        "R03",
+        "R07",
+        "R28",
+        "R62"
+      ]
+    },
+    {
+      "id": "C04",
+      "pages": [
+        1,
+        10,
+        18,
+        21
+      ],
+      "claim": "No universal ranking of AI, metaheuristics and conventional methods is established",
+      "assessment": "The authors explicitly avoid ranking incomparable studies. The missing eligible matrix and originals still qualify the evidence census.",
+      "reference_ids": [
+        "R43",
+        "R52",
+        "R59"
+      ]
+    },
+    {
+      "id": "C05",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Climate observations and Paris temperature goals motivate mitigation",
+      "assessment": "The cited observations and treaty are unverified here. Temperature goals are policy context rather than model results.",
+      "reference_ids": [
+        "R69",
+        "R70",
+        "R78"
+      ]
+    },
+    {
+      "id": "C06",
+      "pages": [
+        2
+      ],
+      "claim": "IEA capture and storage capacity growth between the 2025 and 2026 updates",
+      "assessment": "The claim concerns operational plus under-construction capacity. Its project-database attribution needs reconciliation with the ETP reference.",
+      "reference_ids": [
+        "R31",
+        "R32"
+      ]
+    },
+    {
+      "id": "C07",
+      "pages": [
+        2
+      ],
+      "claim": "Operational facilities reportedly grew 54%, with 27 new facilities in 2025",
+      "assessment": "The snapshot is unverified. Under a common population, 27 divided by 54% implies 50 previous facilities; this is only conditional arithmetic.",
+      "reference_ids": [
+        "R21"
+      ]
+    },
+    {
+      "id": "C08",
+      "pages": [
+        2
+      ],
+      "claim": "CCUS is discussed as a pathway for hard-to-abate process sectors",
+      "assessment": "This is attributed pathway context, not proof of net benefit for every technology, sector or site.",
+      "reference_ids": [
+        "R16",
+        "R19",
+        "R26",
+        "R35",
+        "R53",
+        "D12"
+      ]
+    },
+    {
+      "id": "C09",
+      "pages": [
+        2
+      ],
+      "claim": "Transport and storage are described as major cost components",
+      "assessment": "Cost shares depend on the case boundary. The inspected Budiarto original reports capture as roughly 80% of full-chain cost.",
+      "reference_ids": [
+        "R03",
+        "R44"
+      ]
+    },
+    {
+      "id": "C10",
+      "pages": [
+        2,
+        7
+      ],
+      "claim": "Spatial mismatch and topology create interdependent planning decisions",
+      "assessment": "The original SimCCS supports the coupling mechanism. This does not validate a Japanese network or physical storage service.",
+      "reference_ids": [
+        "R44",
+        "R66",
+        "R72",
+        "R75"
+      ]
+    },
+    {
+      "id": "C11",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Most studies reportedly isolate matching or networks and remain static",
+      "assessment": "Main text does not quantify these literature frequencies. Verification needs the eligible-study matrix and original formulations.",
+      "reference_ids": [
+        "R06",
+        "R14",
+        "R45",
+        "R48"
+      ]
+    },
+    {
+      "id": "C12",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "No framework is said to integrate the entire planning and operating process",
+      "assessment": "This broad absence claim requires a defined decision horizon and eligible corpus, rather than titles or contextual citations alone.",
+      "reference_ids": [
+        "R17",
+        "R41"
+      ]
+    },
+    {
+      "id": "C13",
+      "pages": [
+        3
+      ],
+      "claim": "Table 1 compares this review with five earlier reviews",
+      "assessment": "The five earlier reviews were not inspected here. Partial coverage is a scope label, not a quality score.",
+      "reference_ids": [
+        "R42",
+        "R52",
+        "R59",
+        "R67",
+        "R82"
+      ]
+    },
+    {
+      "id": "C14",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "The search applies no database filters and uses DOI/title-year deduplication",
+      "assessment": "The stated protocol is readable, but exact strings, exports, normalization and database versions are unavailable locally.",
+      "reference_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "id": "C15",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "claim": "The reported screening and exclusion counts reconcile",
+      "assessment": "All reported arithmetic identities reconcile. Search retrieval, deduplication and individual screening decisions are not reproduced.",
+      "reference_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "id": "C16",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Eligibility permits partial coupled decisions and requires geological storage",
+      "assessment": "This is the explicit operational definition. Contextual CCU or AI examples are not automatically direct eligible evidence.",
+      "reference_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "C17",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "The 17 reports are described as all eligible reports, rather than chosen examples",
+      "assessment": "The report-level log and full matrix are needed. Table 6 has five examples and is not the complete included set.",
+      "reference_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "id": "C18",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "The protocol declines pooled effects, inferred missing values and unsupported rankings",
+      "assessment": "These are explicit protocol safeguards. They do not independently verify the underlying extraction or assessment.",
+      "reference_ids": [
+        "D02"
+      ]
+    },
+    {
+      "id": "C19",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "General source–sink matching is described as NP-hard",
+      "assessment": "Hard mixed-integer formulations do not imply every transport subcase is hard. A precise reduction and complexity assumptions are needed.",
+      "reference_ids": [
+        "D04"
+      ]
+    },
+    {
+      "id": "C20",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Source and storage geography constrains network choices",
+      "assessment": "Resource mass, annual rate, physical safety and commercial access remain distinct. The cited geographic sources are unverified.",
+      "reference_ids": [
+        "R13",
+        "R29",
+        "R60",
+        "R71"
+      ]
+    },
+    {
+      "id": "C21",
+      "pages": [
+        7
+      ],
+      "claim": "Irreversible early choices can create lock-in and underutilization",
+      "assessment": "The risk is case dependent; no calibrated outage probability or universal benefit is supplied.",
+      "reference_ids": [
+        "R40"
+      ]
+    },
+    {
+      "id": "C22",
+      "pages": [
+        7
+      ],
+      "claim": "Hubs can reduce duplicated assets and improve utilization",
+      "assessment": "Fixed-charge sharing can help, but participation, minimum utilization and cost recovery can change the result.",
+      "reference_ids": [
+        "R62"
+      ]
+    },
+    {
+      "id": "C23",
+      "pages": [
+        7,
+        21
+      ],
+      "claim": "Cement–methanol production illustrates hydrogen and CCUS coupling",
+      "assessment": "The native energy and product case is unverified. Product fate, hydrogen alternatives and operating profiles matter.",
+      "reference_ids": [
+        "R25"
+      ]
+    },
+    {
+      "id": "C24",
+      "pages": [
+        7
+      ],
+      "claim": "Earlier continuous-time models address timing, injection rates and resource capacity",
+      "assessment": "Tan 2013 is not inspected here. The methodological claim does not supply an annual physical dataset.",
+      "reference_ids": [
+        "R65"
+      ]
+    },
+    {
+      "id": "C25",
+      "pages": [
+        7
+      ],
+      "claim": "Cost, safety, reliability and redundancy can create competing objectives",
+      "assessment": "This is a modelling requirement, not a measured safety or reliability bound.",
+      "reference_ids": [
+        "R18",
+        "R34"
+      ]
+    },
+    {
+      "id": "C26",
+      "pages": [
+        8
+      ],
+      "claim": "Time-indexed optimization, scenarios, monitoring and decision support differ",
+      "assessment": "The distinction is useful. A time index does not alone establish feedback control, recourse or endogenous participation.",
+      "reference_ids": [
+        "R06",
+        "R07",
+        "R17",
+        "R48",
+        "R59"
+      ]
+    },
+    {
+      "id": "C27",
+      "pages": [
+        8
+      ],
+      "claim": "GeoCapacity, NETL and Chinese databases support larger-scale studies",
+      "assessment": "Coverage, versions and actual database contents remain unverified. Resource atlases are not injection histories.",
+      "reference_ids": [
+        "R46",
+        "R47",
+        "R71",
+        "R81"
+      ]
+    },
+    {
+      "id": "C28",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Early SimCCS jointly selects capture, pipelines and storage",
+      "assessment": "The scoped original supports joint decisions on a lifetime basis; it explicitly has no temporal component.",
+      "reference_ids": [
+        "R44",
+        "D11"
+      ]
+    },
+    {
+      "id": "C29",
+      "pages": [
+        9
+      ],
+      "claim": "Later models add periods, supply-chain scope and uncertainty",
+      "assessment": "These are method summaries. Each original's decision domains, uncertainties and physical constraints still need verification.",
+      "reference_ids": [
+        "R03",
+        "R06",
+        "R07",
+        "R15"
+      ]
+    },
+    {
+      "id": "C30",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Clustering and decomposition can reduce model size",
+      "assessment": "Aggregation may reduce model size, but it can introduce approximation and feasibility losses. Hierarchy alone is not an optimality certificate.",
+      "reference_ids": [
+        "R03",
+        "R45",
+        "R62"
+      ]
+    },
+    {
+      "id": "C31",
+      "pages": [
+        10
+      ],
+      "claim": "DRL is proposed for repeated operational decisions through an MDP",
+      "assessment": "The text calls this prospective. No trained CCUS network policy or controlled performance advantage is supplied.",
+      "reference_ids": [
+        "R43",
+        "R64"
+      ]
+    },
+    {
+      "id": "C32",
+      "pages": [
+        10,
+        18
+      ],
+      "claim": "PINNs can support component simulation and state estimation",
+      "assessment": "Physics penalties do not certify discrete-network, legal or emergency constraints. Actual trained cases and benchmark domains remain unverified.",
+      "reference_ids": [
+        "R01",
+        "R36",
+        "R54",
+        "R84"
+      ]
+    },
+    {
+      "id": "C33",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Digital twins and shadows provide component monitoring evidence",
+      "assessment": "The authors qualify the evidence. Port and trunk-pipeline architectures provide transfer context rather than full CCUS control validation.",
+      "reference_ids": [
+        "R04",
+        "R17",
+        "R56",
+        "R59"
+      ]
+    },
+    {
+      "id": "C34",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "claim": "Training bias, distribution shift and safeguards limit learned policies",
+      "assessment": "A filter still needs a valid model, calibrated uncertainty and a verified operating domain. No safety result is reproduced.",
+      "reference_ids": [
+        "R36",
+        "R43",
+        "R54"
+      ]
+    },
+    {
+      "id": "C35",
+      "pages": [
+        12
+      ],
+      "claim": "Coupled planning should preserve a common objective and system feasibility",
+      "assessment": "The compact equations do not fully specify incidence or delivery. A disclosed analyst counterexample demonstrates the missing links.",
+      "reference_ids": [
+        "R24",
+        "R44"
+      ]
+    },
+    {
+      "id": "C36",
+      "pages": [
+        12
+      ],
+      "claim": "Benders and ADMM are described as coordination architectures",
+      "assessment": "No native cuts, convergence proof or implementation is supplied. Standard convex guarantees do not automatically apply to discrete nonconvex cases.",
+      "reference_ids": [
+        "D05"
+      ]
+    },
+    {
+      "id": "C37",
+      "pages": [
+        12
+      ],
+      "claim": "The terminal definitions are said to link allocations to network flows",
+      "assessment": "The display defines allocation totals but shows no incidence relation to arc flow; it is an incomplete illustration.",
+      "reference_ids": [
+        "D04"
+      ]
+    },
+    {
+      "id": "C38",
+      "pages": [
+        12,
+        13
+      ],
+      "claim": "Porthos illustrates shared trunks and staged access at a dated snapshot",
+      "assessment": "This is a 4 August 2026 snapshot. A nominal stock/rate ratio does not establish operating life, service availability or permission.",
+      "reference_ids": [
+        "R50",
+        "D09"
+      ]
+    },
+    {
+      "id": "C39",
+      "pages": [
+        12,
+        13
+      ],
+      "claim": "Northern Lights illustrates a ship–terminal–pipeline chain and phased capacity",
+      "assessment": "Nominal phased capacity is not a guarantee of present access, utilization or operational availability.",
+      "reference_ids": [
+        "R12",
+        "D09"
+      ]
+    },
+    {
+      "id": "C40",
+      "pages": [
+        12,
+        13
+      ],
+      "claim": "The Summit Iowa filing concerns a proposed 688-mile pipeline scope",
+      "assessment": "The claim concerns the Iowa proposed/permitting scope. Only its unit conversion is checked.",
+      "reference_ids": [
+        "R33",
+        "D09"
+      ]
+    },
+    {
+      "id": "C41",
+      "pages": [
+        13,
+        18
+      ],
+      "claim": "Li et al. report a national model with 1,186 sources and 329 sinks",
+      "assessment": "The reported candidate/shared layout is a model output, not built infrastructure or a transferable runtime boundary.",
+      "reference_ids": [
+        "R40"
+      ]
+    },
+    {
+      "id": "C42",
+      "pages": [
+        13,
+        14
+      ],
+      "claim": "Transport-mode applicability depends on volume, distance and utilization",
+      "assessment": "The map explicitly has no numeric thresholds. Complete service and logistics conditions can alter the preferred mode.",
+      "reference_ids": [
+        "R02",
+        "R22",
+        "R23",
+        "R68"
+      ]
+    },
+    {
+      "id": "C43",
+      "pages": [
+        14
+      ],
+      "claim": "Pipeline and shipping cost ranges have different case boundaries",
+      "assessment": "Currencies, years, volumes and boundaries differ. These ranges cannot establish a matched ranking or utility inventory.",
+      "reference_ids": [
+        "R22",
+        "R61",
+        "D10"
+      ]
+    },
+    {
+      "id": "C44",
+      "pages": [
+        14
+      ],
+      "claim": "The shortest route need not minimize total cost",
+      "assessment": "The conceptual distinction is reasonable; no native raster, routing cost surface or engineering case is reproduced.",
+      "reference_ids": [
+        "R06",
+        "R23",
+        "R38"
+      ]
+    },
+    {
+      "id": "C45",
+      "pages": [
+        14
+      ],
+      "claim": "Impurities, phase conditions and materials affect pipeline design",
+      "assessment": "Species, water content, temperature and phase domains need the originals. No universal impurity limit is adopted.",
+      "reference_ids": [
+        "R02",
+        "R49",
+        "R63"
+      ]
+    },
+    {
+      "id": "C46",
+      "pages": [
+        14,
+        20
+      ],
+      "claim": "Governance can enter as costs, eligibility rules or scenarios",
+      "assessment": "Empirical acceptance and permitting can remain exogenous. These recommendations do not establish current legal access.",
+      "reference_ids": [
+        "R20",
+        "R57",
+        "R77",
+        "R83"
+      ]
+    },
+    {
+      "id": "C47",
+      "pages": [
+        15
+      ],
+      "claim": "Budiarto is cited as an example of Pareto multiple-objective modelling",
+      "assessment": "The inspected original has one cost objective and scenario sensitivity, not a demonstrated Pareto frontier.",
+      "reference_ids": [
+        "R07",
+        "D11"
+      ]
+    },
+    {
+      "id": "C48",
+      "pages": [
+        15
+      ],
+      "claim": "Becattini and Budiarto are cited for lifecycle emissions or abatement-cost objectives",
+      "assessment": "Budiarto's inspected cost/storage results do not provide a full LCA or LCOA. Becattini's exact support remains unverified in this check.",
+      "reference_ids": [
+        "R03",
+        "R07",
+        "D12"
+      ]
+    },
+    {
+      "id": "C49",
+      "pages": [
+        15
+      ],
+      "claim": "Hasan is described as extending SimCCS to include capture investment",
+      "assessment": "The 2009 original already includes capture investment. This does not judge the specific additional contributions of Hasan 2014.",
+      "reference_ids": [
+        "R24",
+        "R44"
+      ]
+    },
+    {
+      "id": "C50",
+      "pages": [
+        15
+      ],
+      "claim": "The basic objective is described as discounted full-chain cost",
+      "assessment": "The expression has no displayed discount/horizon or variable capture-cost term. Scope, service target and cost basis remain incomplete.",
+      "reference_ids": [
+        "D04",
+        "D10"
+      ]
+    },
+    {
+      "id": "C51",
+      "pages": [
+        15
+      ],
+      "claim": "The hub conservation expression requires an intermediate-node set",
+      "assessment": "The prose supplies the intermediate-node set, but the printed expression ends after the membership symbol. No correction is silently substituted.",
+      "reference_ids": [
+        "D04"
+      ]
+    },
+    {
+      "id": "C52",
+      "pages": [
+        15,
+        16
+      ],
+      "claim": "Annual injection is bounded by a cumulative storage resource",
+      "assessment": "The stated units require a lifetime conversion or duration-weighted mass integral. A numeric rate-stock comparison cannot calibrate service.",
+      "reference_ids": [
+        "R44",
+        "R62",
+        "D12"
+      ]
+    },
+    {
+      "id": "C53",
+      "pages": [
+        16
+      ],
+      "claim": "Flow–diameter capacity bounds are associated with pressure and phase conditions",
+      "assessment": "Bounds alone do not impose pressure, temperature or phase stability. Valid preprocessing or additional equations are needed.",
+      "reference_ids": [
+        "R49",
+        "R59",
+        "R61"
+      ]
+    },
+    {
+      "id": "C54",
+      "pages": [
+        16
+      ],
+      "claim": "Each static arc can select at most one diameter",
+      "assessment": "The binary inequality correctly means at most one static option. It does not describe parallel pipes, replacement or upgrades.",
+      "reference_ids": [
+        "R10"
+      ]
+    },
+    {
+      "id": "C55",
+      "pages": [
+        16
+      ],
+      "claim": "The 2009 SimCCS paper is credited with a multiperiod dynamic framework",
+      "assessment": "The exact original explicitly states no temporal component and converts quantities to a 25-year lifetime basis, contradicting this attribution.",
+      "reference_ids": [
+        "R44",
+        "D11"
+      ]
+    },
+    {
+      "id": "C56",
+      "pages": [
+        16
+      ],
+      "claim": "New-construction variables are said to prevent repeated capital charges",
+      "assessment": "A construction-event cost needs asset-stock, persistence and expansion links. The full dynamic case is not defined locally.",
+      "reference_ids": [
+        "R15",
+        "R80",
+        "D10"
+      ]
+    },
+    {
+      "id": "C57",
+      "pages": [
+        16
+      ],
+      "claim": "A robust min–max template is discussed alongside multistage recourse",
+      "assessment": "The displayed min-max is static and lacks a recourse policy and nonanticipativity. No adaptive value is reproduced.",
+      "reference_ids": [
+        "R06",
+        "R48"
+      ]
+    },
+    {
+      "id": "C58",
+      "pages": [
+        17,
+        18
+      ],
+      "claim": "Exact and decomposition methods can supply conditional solution bounds",
+      "assessment": "Guarantees depend on valid formulations, cuts, convergence and tolerances. No universal computational advantage follows.",
+      "reference_ids": [
+        "R37",
+        "R38",
+        "R44",
+        "R67"
+      ]
+    },
+    {
+      "id": "C59",
+      "pages": [
+        17,
+        18
+      ],
+      "claim": "Metaheuristics are described as offering near-optimal solutions with less computation",
+      "assessment": "Near-optimality and lower computational cost need repeated runs, meaningful bounds and matched budgets, rather than an algorithm label.",
+      "reference_ids": [
+        "R09",
+        "R11",
+        "R52",
+        "R55",
+        "R76"
+      ]
+    },
+    {
+      "id": "C60",
+      "pages": [
+        18
+      ],
+      "claim": "Table 6 lists SimCCS solver and runtime as not reported",
+      "assessment": "The original names ILOG CPLEX 11.0. Runtime and gap remain unestablished by the selected passages.",
+      "reference_ids": [
+        "R44",
+        "D11"
+      ]
+    },
+    {
+      "id": "C61",
+      "pages": [
+        18
+      ],
+      "claim": "Hasan case scenarios concern 50–80% stationary-source reductions",
+      "assessment": "These are scenario reduction quantities, not accuracy or optimality metrics. The original cases remain unverified.",
+      "reference_ids": [
+        "R24",
+        "D11"
+      ]
+    },
+    {
+      "id": "C62",
+      "pages": [
+        18
+      ],
+      "claim": "The Thailand AHA case has four candidate sinks",
+      "assessment": "This is an attributed case summary, not a reproduced optimum or a global certificate.",
+      "reference_ids": [
+        "R51",
+        "D11"
+      ]
+    },
+    {
+      "id": "C63",
+      "pages": [
+        11,
+        18
+      ],
+      "claim": "Bogs computation metadata and runtime cap are transcribed",
+      "assessment": "These are reported metadata. The maximum runtime below the cap is compatible; no native benchmark has been rerun.",
+      "reference_ids": [
+        "R06",
+        "D11"
+      ]
+    },
+    {
+      "id": "C64",
+      "pages": [
+        18
+      ],
+      "claim": "Solver gaps and approximation or regret errors are different metrics",
+      "assessment": "Solver, approximation and regret errors are different quantities and must not be combined into a single accuracy measure.",
+      "reference_ids": [
+        "R06"
+      ]
+    },
+    {
+      "id": "C65",
+      "pages": [
+        18
+      ],
+      "claim": "More piecewise-linear segments change reported error and runtime",
+      "assessment": "The arithmetic is checkable, but different approximation and timing cases do not establish a universal causal ranking.",
+      "reference_ids": [
+        "R06"
+      ]
+    },
+    {
+      "id": "C66",
+      "pages": [
+        18,
+        19
+      ],
+      "claim": "Joint uncertainty and information-dependent recourse remain limited",
+      "assessment": "This is a corpus-dependent frequency claim requiring the missing matrix and individual originals.",
+      "reference_ids": [
+        "R06",
+        "R07",
+        "R48"
+      ]
+    },
+    {
+      "id": "C67",
+      "pages": [
+        19,
+        20
+      ],
+      "claim": "Solver bounds do not establish physical model validity",
+      "assessment": "This is an evaluation principle, not independent validation of the cited physical models.",
+      "reference_ids": [
+        "R37",
+        "R45"
+      ]
+    },
+    {
+      "id": "C68",
+      "pages": [
+        19,
+        20
+      ],
+      "claim": "Single-run or weak-baseline comparisons can exaggerate heuristic gains",
+      "assessment": "The recommendation is methodological; no quantitative bias estimate is supplied or reproduced.",
+      "reference_ids": [
+        "R11",
+        "R76"
+      ]
+    },
+    {
+      "id": "C69",
+      "pages": [
+        20
+      ],
+      "claim": "AI training cost, distribution shift and feasibility require explicit tests",
+      "assessment": "These are evaluation conditions for proposed methods, not a demonstration of operational network control.",
+      "reference_ids": [
+        "R14",
+        "R17",
+        "R43",
+        "R59"
+      ]
+    },
+    {
+      "id": "C70",
+      "pages": [
+        20
+      ],
+      "claim": "Hybrid candidate generation, exact repair and updated states are proposed",
+      "assessment": "This is a proposed architecture rather than a new implementation or controlled experiment.",
+      "reference_ids": [
+        "D06"
+      ]
+    },
+    {
+      "id": "C71",
+      "pages": [
+        20
+      ],
+      "claim": "Changing participation motivates entry, exit and ramp-up decisions",
+      "assessment": "Budiarto's fixed-source allocation does not demonstrate endogenous entry and exit. Other original support remains unverified.",
+      "reference_ids": [
+        "R07",
+        "R30",
+        "R35",
+        "R48"
+      ]
+    },
+    {
+      "id": "C72",
+      "pages": [
+        20
+      ],
+      "claim": "Product-dependent utilization is distinct from durable storage",
+      "assessment": "Product demand and carbon fate are not assumed permanent. The cited market and lifecycle evidence remains unverified.",
+      "reference_ids": [
+        "R26",
+        "D12"
+      ]
+    },
+    {
+      "id": "C73",
+      "pages": [
+        20
+      ],
+      "claim": "Infrastructure, data, liability and finance affect investability",
+      "assessment": "These are conditional institutional requirements. They do not provide quantified availability or a local service contract.",
+      "reference_ids": [
+        "R19",
+        "R40",
+        "R62",
+        "R82"
+      ]
+    },
+    {
+      "id": "C74",
+      "pages": [
+        20,
+        21
+      ],
+      "claim": "Digital twins are forecast to progress toward bounded decision support",
+      "assessment": "The forecast depends on interfaces, calibration and safeguards. It is not an achieved result.",
+      "reference_ids": [
+        "R17",
+        "R59"
+      ]
+    },
+    {
+      "id": "C75",
+      "pages": [
+        21
+      ],
+      "claim": "Multi-agent learning is proposed for separate operators",
+      "assessment": "Agent-based transport and Markov games do not alone prove stable multi-operator learned control.",
+      "reference_ids": [
+        "R08",
+        "R68"
+      ]
+    },
+    {
+      "id": "C76",
+      "pages": [
+        21
+      ],
+      "claim": "Markets and cooperative allocation may shape future networks",
+      "assessment": "This is a research direction, without demonstrated budget balance, cost recovery or coalition stability here.",
+      "reference_ids": [
+        "R06",
+        "R74",
+        "R83"
+      ]
+    },
+    {
+      "id": "C77",
+      "pages": [
+        21
+      ],
+      "claim": "Hydrogen synergies require operating-profile and alternative-use comparisons",
+      "assessment": "Synergies cannot be assumed; native coupled profiles, energy inventories and alternative-use comparisons are needed.",
+      "reference_ids": [
+        "R25",
+        "R62"
+      ]
+    },
+    {
+      "id": "C78",
+      "pages": [
+        21
+      ],
+      "claim": "No realistic quantum advantage is reported within the 86-reference corpus",
+      "assessment": "This is an absence statement within the reported corpus, not an independent global search or hardware test.",
+      "reference_ids": [
+        "D07"
+      ]
+    },
+    {
+      "id": "C79",
+      "pages": [
+        21
+      ],
+      "claim": "RQ1 proposes a physically valid benchmark above 1,000 sources and 300 sinks",
+      "assessment": "The scale is a proposed evaluation target, not an achieved physically valid national model.",
+      "reference_ids": [
+        "R37",
+        "R40",
+        "R81"
+      ]
+    },
+    {
+      "id": "C80",
+      "pages": [
+        21
+      ],
+      "claim": "RQ2 proposes matched static and perfect-information comparisons",
+      "assessment": "The proposed metrics require matched information and scenarios; no calibrated recovery or value-of-information case is supplied.",
+      "reference_ids": [
+        "R06",
+        "R07",
+        "R48"
+      ]
+    },
+    {
+      "id": "C81",
+      "pages": [
+        21
+      ],
+      "claim": "RQ3 proposes governance and distributional evaluation criteria",
+      "assessment": "These are governance evaluation criteria, not established commercial arrangements.",
+      "reference_ids": [
+        "R62",
+        "R68",
+        "R83"
+      ]
+    },
+    {
+      "id": "C82",
+      "pages": [
+        21
+      ],
+      "claim": "RQ4 proposes total-computation and feasibility benchmarks for AI",
+      "assessment": "This is a benchmark proposal and not proof of AI advantage.",
+      "reference_ids": [
+        "R14",
+        "R17",
+        "R36",
+        "R43"
+      ]
+    },
+    {
+      "id": "C83",
+      "pages": [
+        21
+      ],
+      "claim": "RQ5 proposes validation requirements for closed-loop digital twins",
+      "assessment": "These are validation requirements, not an operationally assured twin.",
+      "reference_ids": [
+        "R17",
+        "R59"
+      ]
+    },
+    {
+      "id": "C84",
+      "pages": [
+        21,
+        22
+      ],
+      "claim": "The data statement describes extraction without a centralized repository",
+      "assessment": "The bibliography also contains books, reports and web sources. No complete machine-readable 17-study matrix is retained locally.",
+      "reference_ids": [
+        "D01",
+        "D02"
+      ]
+    },
+    {
+      "id": "C85",
+      "pages": [
+        22
+      ],
+      "claim": "Generative-AI editing and publisher figure-alt-text use are disclosed",
+      "assessment": "The declarations document provenance; they neither establish an error nor validate the scientific content.",
+      "reference_ids": [
+        "D08"
+      ]
+    },
+    {
+      "id": "C86",
+      "pages": [
+        22,
+        23,
+        24
+      ],
+      "claim": "The bibliography contains 86 printed entries",
+      "assessment": "All 86 entries are read and preserved. Two scoped checks do not verify the other 84 originals or close recursive source chains.",
+      "reference_ids": [
+        "D03"
+      ]
+    },
+    {
+      "id": "C87",
+      "pages": [
+        19
+      ],
+      "claim": "Heterogeneous data limit transfer between scenarios",
+      "assessment": "A regional power-generation paper is cited for this broad claim. Exact support and transfer remain unverified.",
+      "reference_ids": [
+        "R27"
+      ]
+    },
+    {
+      "id": "C88",
+      "pages": [
+        8
+      ],
+      "claim": "Earlier point-to-point matching emphasized distance and local cost",
+      "assessment": "The Boavida original is not inspected here. No universal historical chronology is established.",
+      "reference_ids": [
+        "R05"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Ajayi, A. S., Bodude, A. D., Segun, S. E., Ajayi, E. I., and Shanzhi, D. I. (2026). Hybrid machine learning and computational fluid dynamics framework for optimizing supercritical CO2 pipeline networks in large-scale carbon capture and storage. Eur. J. Sustain. Dev. Res. 10, em0378. doi: 10.29333/ejosdr/17977",
+      "pages": [
+        10,
+        18,
+        22
+      ],
+      "claim_links": [
+        "C32"
+      ],
+      "role": "PINNs can support component simulation and state estimation",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R02",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Al Baroudi, H., Awoyomi, A., Patchigolla, K., Jonnalagadda, K., and Anthony, E. (2021). A review of large-scale CO2 shipping and marine emissions management for carbon capture, utilisation and storage. Appl. Energy 287, 116510. doi: 10.1016/j.apenergy.2021. 116510",
+      "pages": [
+        13,
+        14,
+        22
+      ],
+      "claim_links": [
+        "C42",
+        "C45"
+      ],
+      "role": "Transport-mode applicability depends on volume, distance and utilization; Impurities, phase conditions and materials affect pipeline design",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R03",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Becattini, V., Gabrielli, P., Antonini, C., Campos, J., Acquilino, A., Sansavini, G., et al. (2022). Carbon dioxide capture, transport and storage supply chains: optimal economic and environmental performance of infrastructure rollout. Int. J. Greenh. Gas. Control 117, 103635. doi: 10.1016/j.ijggc.2022.103635",
+      "pages": [
+        1,
+        2,
+        9,
+        10,
+        13,
+        15,
+        20,
+        22
+      ],
+      "claim_links": [
+        "C03",
+        "C09",
+        "C29",
+        "C30",
+        "C48"
+      ],
+      "role": "Shared hubs and modes can improve infrastructure sharing under conditions; Transport and storage are described as major cost components; Later models add periods, supply-chain scope and uncertainty; Clustering and decomposition can reduce model size; Becattini and Budiarto are cited for lifecycle emissions or abatement-cost objectives",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R04",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Bi, J., Wang, P., Zhang, W., Bao, K., and Qin, L. (2024). Research on the construction of a digital twin system for the long-term service monitoring of port terminals. J. Mar. Sci. Eng. 12, 1215. doi: 10.3390/jmse12071215",
+      "pages": [
+        10,
+        11,
+        22
+      ],
+      "claim_links": [
+        "C33"
+      ],
+      "role": "Digital twins and shadows provide component monitoring evidence",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R05",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Boavida, D., Carneiro, J., Martinez, R., van der Meer, B., Ramirez, A., Rimi, A., et al. (2013). Planning CCS development in the west mediterranean. Energy Procedia 37, 3212–3220. doi: 10.1016/j.egypro.2013.06.208",
+      "pages": [
+        8,
+        22
+      ],
+      "claim_links": [
+        "C88"
+      ],
+      "role": "Earlier point-to-point matching emphasized distance and local cost",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R06",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Bogs, S., Abdelshafy, A., and Walther, G. (2026). Planning minimum regret CO2 pipeline networks. IISE Trans. 58, 1284–1297. doi: 10.1080/24725854.2025.2602823",
+      "pages": [
+        2,
+        3,
+        8,
+        9,
+        11,
+        14,
+        16,
+        18,
+        19,
+        21,
+        22
+      ],
+      "claim_links": [
+        "C11",
+        "C26",
+        "C29",
+        "C44",
+        "C57",
+        "C63",
+        "C64",
+        "C65",
+        "C66",
+        "C76",
+        "C80"
+      ],
+      "role": "Most studies reportedly isolate matching or networks and remain static; Time-indexed optimization, scenarios, monitoring and decision support differ; Later models add periods, supply-chain scope and uncertainty; The shortest route need not minimize total cost; A robust min–max template is discussed alongside multistage recourse; Bogs computation metadata and runtime cap are transcribed; Solver gaps and approximation or regret errors are different metrics; More piecewise-linear segments change reported error and runtime; Joint uncertainty and information-dependent recourse remain limited; Markets and cooperative allocation may shape future networks; RQ2 proposes matched static and perfect-information comparisons",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R07",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Budiarto, O., Purwanto, W. W., Halimatussadiah, A., and Maharsi, D. (2025). Multi- period superstructure optimization for CCS source-sink matching in South Sumatra industrial clusters. Carbon Neutrality 4, 20. doi: 10.1007/s43979-025-00135-w",
+      "pages": [
+        1,
+        8,
+        9,
+        13,
+        15,
+        18,
+        19,
+        20,
+        21,
+        22
+      ],
+      "claim_links": [
+        "C03",
+        "C26",
+        "C29",
+        "C47",
+        "C48",
+        "C66",
+        "C71",
+        "C80"
+      ],
+      "role": "Shared hubs and modes can improve infrastructure sharing under conditions; Time-indexed optimization, scenarios, monitoring and decision support differ; Later models add periods, supply-chain scope and uncertainty; Budiarto is cited as an example of Pareto multiple-objective modelling; Becattini and Budiarto are cited for lifecycle emissions or abatement-cost objectives; Joint uncertainty and information-dependent recourse remain limited; Changing participation motivates entry, exit and ramp-up decisions; RQ2 proposes matched static and perfect-information comparisons",
+      "verification_status": "primary_text_checked_partial_support_with_attribution_conflicts",
+      "assessment": "Original passages checked with explicit attribution/metadata limits; native model and full citation chain remain unverified."
+    },
+    {
+      "id": "R08",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Chen, J., and Hosseini, S. A. (2026). Optimal CO2 storage management considering safety constraints in multi-stakeholder multi-site GCS projects: a markov game perspective. Int. J. Greenh. Gas. Control 154, 104682. doi: 10.1016/j.ijggc.2026.104682",
+      "pages": [
+        21,
+        22
+      ],
+      "claim_links": [
+        "C75"
+      ],
+      "role": "Multi-agent learning is proposed for separate operators",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R09",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Coello Coello, C. A. (2006). Evolutionary multi-objective optimization: a historical view of the field. IEEE comput. Intell. Mag. 1, 28–36. doi: 10.1109/MCI.2006.1597059",
+      "pages": [
+        17,
+        18,
+        22
+      ],
+      "claim_links": [
+        "C59"
+      ],
+      "role": "Metaheuristics are described as offering near-optimal solutions with less computation",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R10",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "D’Amore, F., Mocellin, P., Vianello, C., Maschio, G., and Bezzo, F. (2018). Economic optimisation of European supply chains for CO2 capture, transport and sequestration, including societal risk analysis and risk mitigation measures. Appl. Energy 223, 401–415. doi: 10.1016/j.apenergy.2018.04.043",
+      "pages": [
+        16,
+        22
+      ],
+      "claim_links": [
+        "C54"
+      ],
+      "role": "Each static arc can select at most one diameter",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R11",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Deb, K. (2011). “Multi-objective optimisation using evolutionary algorithms: an introduction,” in Multi-Objective Evolutionary Optimisation for Product Design and Manufacturing. Editors L. Wang, A. H. C. Ng, and K. Deb (London: Springer), 3–34. doi: 10.1007/978-0-85729-652-8_1",
+      "pages": [
+        17,
+        18,
+        19,
+        20,
+        22
+      ],
+      "claim_links": [
+        "C59",
+        "C68"
+      ],
+      "role": "Metaheuristics are described as offering near-optimal solutions with less computation; Single-run or weak-baseline comparisons can exaggerate heuristic gains",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R12",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Equinor (2026). Northern Lights: The First Cross-Border, Open-Source CO2 Transport and Storage Infrastructure. Available online at: https://www.equinor.com/energy/ northern-lights (Accessed August 4, 2026).",
+      "pages": [
+        12,
+        13,
+        22
+      ],
+      "claim_links": [
+        "C39"
+      ],
+      "role": "Northern Lights illustrates a ship–terminal–pipeline chain and phased capacity",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R13",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Fan, J. L., Xu, M., Li, F., Yang, L., and Zhang, X. (2018). CCS retrofit potential of coal- fired power plants in China: the technology lock-in and cost optimization perspective. Appl. Energy 229, 326–334. doi: 10.1016/j.apenergy.2018.07.117",
+      "pages": [
+        6,
+        7,
+        22
+      ],
+      "claim_links": [
+        "C20"
+      ],
+      "role": "Source and storage geography constrains network choices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R14",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Fang, H., Gu, C., Ye, K., and Yu, S. (2025). Study on CCS source-sink matching and its cluster deployment in multi-type geological bodies in Anhui province, China. Sci. Rep. 15, 9080. doi: 10.1038/s41598-024-82831-8",
+      "pages": [
+        2,
+        3,
+        20,
+        21,
+        22
+      ],
+      "claim_links": [
+        "C11",
+        "C69",
+        "C82"
+      ],
+      "role": "Most studies reportedly isolate matching or networks and remain static; AI training cost, distribution shift and feasibility require explicit tests; RQ4 proposes total-computation and feasibility benchmarks for AI",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R15",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Fraga, D. M., Skagestad, R., Eldrup, N. H., Korre, A., Haugen, H. A., Nie, Z., et al. (2021). Design of a multi-user CO2 intermediate storage facility in the grenland region of Norway. Int. J. Greenh. Gas. Control 112, 103514. doi: 10.1016/j.ijggc.2021.103514",
+      "pages": [
+        9,
+        16,
+        22
+      ],
+      "claim_links": [
+        "C29",
+        "C56"
+      ],
+      "role": "Later models add periods, supply-chain scope and uncertainty; New-construction variables are said to prevent repeated capital charges",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R16",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Fratalocchi, L., and Rossini, S. (2026). A review on the role of carbon capture, utilization and storage (CCUS) in energy transition: an industrial perspective. Appl. Catal. A Gen. 709, 120660. doi: 10.1016/j.apcata.2025.120660",
+      "pages": [
+        2,
+        22
+      ],
+      "claim_links": [
+        "C08"
+      ],
+      "role": "CCUS is discussed as a pathway for hard-to-abate process sectors",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R17",
+      "bibliography_pages": [
+        22
+      ],
+      "citation": "Gahlot, A. P., Orozco, R., Yin, Z., Bruer, G., and Herrmann, F. (2025). An uncertainty- aware digital shadow for underground multimodal CO2 storage monitoring. Geophys. J. Int. 242, 1–31. doi: 10.1093/gji/ggaf176",
+      "pages": [
+        2,
+        3,
+        8,
+        10,
+        11,
+        20,
+        21,
+        22
+      ],
+      "claim_links": [
+        "C12",
+        "C26",
+        "C33",
+        "C69",
+        "C74",
+        "C82",
+        "C83"
+      ],
+      "role": "No framework is said to integrate the entire planning and operating process; Time-indexed optimization, scenarios, monitoring and decision support differ; Digital twins and shadows provide component monitoring evidence; AI training cost, distribution shift and feasibility require explicit tests; Digital twins are forecast to progress toward bounded decision support; RQ4 proposes total-computation and feasibility benchmarks for AI; RQ5 proposes validation requirements for closed-loop digital twins",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R18",
+      "bibliography_pages": [
+        22,
+        23
+      ],
+      "citation": "Giakoumi, M., Konstantinou, C., Ciola, E., Papanastasiou, P., and Pontoni, F. (2026). Pricing CO2 as a dual commodity: engineering-driven market design for CCUS deployment. Appl. Energy 406, 127214. doi: 10.1016/j.apenergy.2025. 127214",
+      "pages": [
+        7,
+        22,
+        23
+      ],
+      "claim_links": [
+        "C25"
+      ],
+      "role": "Cost, safety, reliability and redundancy can create competing objectives",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R19",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Global CCS Institute (2024). Global Status of CCS 2024. Available online at: https://www. globalccsinstitute.com/global-status-report/ (Accessed October 9, 2025).",
+      "pages": [
+        2,
+        20,
+        23
+      ],
+      "claim_links": [
+        "C08",
+        "C73"
+      ],
+      "role": "CCUS is discussed as a pathway for hard-to-abate process sectors; Infrastructure, data, liability and finance affect investability",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R20",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Global CCS Institute (2025a). CCS policy, legal and regulatory snapshot: trends and observations. Available online at: https://www.globalccsinstitute.com/publications/ CCS-policy-legal-and-regulatory-review-2025/ (Accessed May 11, 2026).",
+      "pages": [
+        14,
+        20,
+        23
+      ],
+      "claim_links": [
+        "C46"
+      ],
+      "role": "Governance can enter as costs, eligibility rules or scenarios",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R21",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Global CCS Institute (2025b). Global Status of CCS 2025. Available online at: https:// www.globalccsinstitute.com/global-status-of-CCS-2025/ (Accessed October 10, 2025).",
+      "pages": [
+        2,
+        23
+      ],
+      "claim_links": [
+        "C07"
+      ],
+      "role": "Operational facilities reportedly grew 54%, with 27 new facilities in 2025",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R22",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Global CCS Institute (2025c). Needs, Opportunities and Prospects for CO2 Shipping in CCS Projects. Melbourne: Global CCS Institute. Available online at: https://www. globalccsinstitute.com/publications/needs-opportunities-and-prospects-for-co2- shipping-in-CCS-projects/ (Accessed August 4, 2026).",
+      "pages": [
+        13,
+        14,
+        23
+      ],
+      "claim_links": [
+        "C42",
+        "C43"
+      ],
+      "role": "Transport-mode applicability depends on volume, distance and utilization; Pipeline and shipping cost ranges have different case boundaries",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R23",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Gunawan, T. A., Gittoes, L., Isaac, C., Greig, C., and Larson, E. (2024). Design insights for industrial CO2 capture, transport, and storage systems. Environ. Sci. Technol. 58, 14608–14617. doi: 10.1021/acs.est.4c05484",
+      "pages": [
+        13,
+        14,
+        23
+      ],
+      "claim_links": [
+        "C42",
+        "C44"
+      ],
+      "role": "Transport-mode applicability depends on volume, distance and utilization; The shortest route need not minimize total cost",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R24",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Hasan, M. M. F., Boukouvala, F., First, E. L., and Floudas, C. A. (2014). Nationwide, regional, and statewide CO2 capture, utilization, and sequestration supply chain network optimization. Ind. Eng. Chem. Res. 53, 7489–7506. doi: 10.1021/ie402931c",
+      "pages": [
+        12,
+        15,
+        18,
+        23
+      ],
+      "claim_links": [
+        "C35",
+        "C49",
+        "C61"
+      ],
+      "role": "Coupled planning should preserve a common objective and system feasibility; Hasan is described as extending SimCCS to include capture investment; Hasan case scenarios concern 50–80% stationary-source reductions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R25",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "He, Y., Luo, H., Lin, Y., Talsma, C. J., Li, A., Wang, Z., et al. (2026). Scaling green hydrogen and CCUS via cement-methanol co-production in China. Energy Environ. Sci. 19, 2028–2044. doi: 10.1039/d5ee07379k",
+      "pages": [
+        7,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C23",
+        "C77"
+      ],
+      "role": "Cement–methanol production illustrates hydrogen and CCUS coupling; Hydrogen synergies require operating-profile and alternative-use comparisons",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R26",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Hepburn, C., Adlen, E., Beddington, J., Carter, E. A., Fuss, S., Mac Dowell, N., et al. (2019). The technological and economic prospects for CO2 utilization and removal. Nature 575, 87–97. doi: 10.1038/s41586-019-1681-6",
+      "pages": [
+        2,
+        20,
+        23
+      ],
+      "claim_links": [
+        "C08",
+        "C72"
+      ],
+      "role": "CCUS is discussed as a pathway for hard-to-abate process sectors; Product-dependent utilization is distinct from durable storage",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R27",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Hu, Y. J., Wang, B., Chen, H., and Sun, Y. (2026). Optimizing China’s regional power generation structure for cost-effective emission reduction: a multi-scenario analysis integrating CCUS and policy pathways. J. Clean. Prod. 542, 147576. doi: 10.1016/j. jclepro.2026.147576",
+      "pages": [
+        19,
+        23
+      ],
+      "claim_links": [
+        "C87"
+      ],
+      "role": "Heterogeneous data limit transfer between scenarios",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R28",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Hyypiä, J., Karjunen, H., and Tynjälä, T. (2026). Multi-operator biogenic CO2 hub linked with electricity and heat markets. Int. J. Greenh. Gas. Control 150, 104586. doi: 10. 1016/j.ijggc.2026.104586",
+      "pages": [
+        1,
+        13,
+        20,
+        23
+      ],
+      "claim_links": [
+        "C03"
+      ],
+      "role": "Shared hubs and modes can improve infrastructure sharing under conditions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R29",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Intergovernmental Panel on Climate Change (2005). in IPCC Special Report on Carbon Dioxide Capture and Storage. Editors Metz, B., Davidson, O., de Coninck, H. C., Loos, M., and Meyer, L. A. (Cambridge: Cambridge University Press).",
+      "pages": [
+        6,
+        7,
+        23
+      ],
+      "claim_links": [
+        "C20"
+      ],
+      "role": "Source and storage geography constrains network choices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R30",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "International Energy Agency (2025). World energy outlook 2025. Available online at: https://www.iea.org/reports/world-energy-outlook-2025 (Accessed November 12, 2025).",
+      "pages": [
+        20,
+        23
+      ],
+      "claim_links": [
+        "C71"
+      ],
+      "role": "Changing participation motivates entry, exit and ramp-up decisions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R31",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "International Energy Agency (2026a). Energy technology perspectives 2026. Available online at: https://www.iea.org/reports/energy-technology-perspectives-2026 (Accessed March 26, 2026).",
+      "pages": [
+        2,
+        23
+      ],
+      "claim_links": [
+        "C06"
+      ],
+      "role": "IEA capture and storage capacity growth between the 2025 and 2026 updates",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R32",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "International Energy Agency (2026b). Policy and Financing Momentum Sustain CCUS Progress Despite Setbacks. Available online at: https://www.iea.org/commentaries/ policy-and-financing-momentum-sustain-ccus-progress-despite-setbacks (Accessed March 27, 2026).",
+      "pages": [
+        2,
+        23
+      ],
+      "claim_links": [
+        "C06"
+      ],
+      "role": "IEA capture and storage capacity growth between the 2025 and 2026 updates",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R33",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Iowa Utilities Commission (2026). Hazardous liquid pipeline requests—summit carbon solutions. Available online at: https://iuc.iowa.gov/hazardous-liquid-pipeline-requests (Accessed August 4, 2026).",
+      "pages": [
+        12,
+        13,
+        23
+      ],
+      "claim_links": [
+        "C40"
+      ],
+      "role": "The Summit Iowa filing concerns a proposed 688-mile pipeline scope",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R34",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Ji, Y. Z., Kang, J. N., Tian, X. X., Zhang, Y. L., Shu, Y. L., Ji, C. J., et al. (2026). Full-chain efficiency screening of CCU pathways: evidence from 60 routes in China. J. CO2 Util. 106, 103399. doi: 10.1016/j.jcou.2026.103399",
+      "pages": [
+        7,
+        23
+      ],
+      "claim_links": [
+        "C25"
+      ],
+      "role": "Cost, safety, reliability and redundancy can create competing objectives",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R35",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Jiang, K., Ashworth, P., Zhang, S., Liang, X., Sun, Y., and Angus, D. (2020). China’s carbon capture, utilization and storage (CCUS) policy: a critical review. Renew. Sustain. Energy Rev. 119, 109601. doi: 10.1016/j.rser.2019.109601",
+      "pages": [
+        2,
+        20,
+        23
+      ],
+      "claim_links": [
+        "C08",
+        "C71"
+      ],
+      "role": "CCUS is discussed as a pathway for hard-to-abate process sectors; Changing participation motivates entry, exit and ramp-up decisions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R36",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Karniadakis, G. E., Kevrekidis, I. G., Lu, L., Perdikaris, P., Wang, S., and Yang, L. (2021). Physics-informed machine learning. Nat. Rev. Phys. 3, 422–440. doi: 10.1038/s42254- 021-00314-5",
+      "pages": [
+        10,
+        11,
+        12,
+        18,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C32",
+        "C34",
+        "C82"
+      ],
+      "role": "PINNs can support component simulation and state estimation; Training bias, distribution shift and safeguards limit learned policies; RQ4 proposes total-computation and feasibility benchmarks for AI",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R37",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Kattel, G., Paudel, A., Yeom, S., Kim, J., Hong, T., and Choi, J. K. (2026). Risk-aware planning of CO2 transport and geological storage networks for net-zero buildings under capacity and injectivity uncertainty. Energy Build. 357, 117200. doi: 10.1016/j.enbuild. 2026.117200",
+      "pages": [
+        1,
+        10,
+        17,
+        18,
+        19,
+        20,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C02",
+        "C58",
+        "C67",
+        "C79"
+      ],
+      "role": "Mathematical programming offers feasibility and bounds for the stated model; Exact and decomposition methods can supply conditional solution bounds; Solver bounds do not establish physical model validity; RQ1 proposes a physically valid benchmark above 1,000 sources and 300 sinks",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R38",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Kryeziu, A., Ursavas, E., Varga, D., and Zhu, S. X. (2025). A practical assessment of CCUS opportunities in the southeast European industrial sector. J. Clean. Prod. 517, 145723. doi: 10.1016/j.jclepro.2025.145723",
+      "pages": [
+        14,
+        17,
+        18,
+        23
+      ],
+      "claim_links": [
+        "C44",
+        "C58"
+      ],
+      "role": "The shortest route need not minimize total cost; Exact and decomposition methods can supply conditional solution bounds",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R39",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Kumcu, S., Özyörük, B., Bezzo, F., and D’Amore, F. (2026). Optimization of carbon capture, utilization, and storage supply chains for the hard-to-abate industry in Türkiye. Int. J. Greenh. Gas. Control 150, 104568. doi: 10.1016/j.ijggc.2026.104568",
+      "pages": [
+        23
+      ],
+      "claim_links": [],
+      "role": "Bibliography entry on minimum miscibility pressure prediction; no explicit named main-body citation identified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R40",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Li, K., Mao, Y., Fan, J. L., Li, J., Li, X., Li, J., et al. (2024). A national-scale high-resolution CCUS-shared pipeline layout for retrofitting multisectoral plants via onshore-offshore geological storage. iScience 27, 110978. doi: 10.1016/j.isci.2024.110978",
+      "pages": [
+        7,
+        13,
+        18,
+        20,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C21",
+        "C41",
+        "C73",
+        "C79"
+      ],
+      "role": "Irreversible early choices can create lock-in and underutilization; Li et al. report a national model with 1,186 sources and 329 sinks; Infrastructure, data, liability and finance affect investability; RQ1 proposes a physically valid benchmark above 1,000 sources and 300 sinks",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R41",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Li, B., Li, Y., Liu, S., Xue, M., Li, X., and Wu, P. (2025). Diffusion of CCUS technology under dual drivers: regulatory pressure and carbon source investments. Sustain. Energy Technol. Assess. 83, 104579. doi: 10.1016/j.seta.2025.104579",
+      "pages": [
+        2,
+        3,
+        23
+      ],
+      "claim_links": [
+        "C12"
+      ],
+      "role": "No framework is said to integrate the entire planning and operating process",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R42",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Lin, K., Wei, N., Jiang, D., and Zhang, Y. (2026). Progress and perspectives in source- sink matching for CCUS: a critical review. Renew. Sustain. Energy Rev. 226, 116313. doi: 10.1016/j.rser.2025.116313",
+      "pages": [
+        3,
+        23
+      ],
+      "claim_links": [
+        "C13"
+      ],
+      "role": "Table 1 compares this review with five earlier reviews",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R43",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Mazhar, S., Mumtaz, M. W., El Oirdi, M., Mukhtar, H., Raza, M. A., Farhan, M., et al. (2026). Synergizing advanced materials and artificial intelligence for next-generation carbon capture, utilization and storage (CCUS): a review. RSC Adv. 16, 2621–2651. doi: 10.1039/d5ra07338c",
+      "pages": [
+        1,
+        10,
+        11,
+        12,
+        18,
+        20,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C04",
+        "C31",
+        "C34",
+        "C69",
+        "C82"
+      ],
+      "role": "No universal ranking of AI, metaheuristics and conventional methods is established; DRL is proposed for repeated operational decisions through an MDP; Training bias, distribution shift and safeguards limit learned policies; AI training cost, distribution shift and feasibility require explicit tests; RQ4 proposes total-computation and feasibility benchmarks for AI",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R44",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Middleton, R. S., and Bielicki, J. M. (2009). A scalable infrastructure model for carbon capture and storage: SimCCS. Energy Policy 37, 1052–1060. doi: 10.1016/j.enpol.2008. 09.049",
+      "pages": [
+        1,
+        2,
+        7,
+        8,
+        9,
+        10,
+        12,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C02",
+        "C09",
+        "C10",
+        "C28",
+        "C35",
+        "C49",
+        "C52",
+        "C55",
+        "C58",
+        "C60"
+      ],
+      "role": "Mathematical programming offers feasibility and bounds for the stated model; Transport and storage are described as major cost components; Spatial mismatch and topology create interdependent planning decisions; Early SimCCS jointly selects capture, pipelines and storage; Coupled planning should preserve a common objective and system feasibility; Hasan is described as extending SimCCS to include capture investment; Annual injection is bounded by a cumulative storage resource; The 2009 SimCCS paper is credited with a multiperiod dynamic framework; Exact and decomposition methods can supply conditional solution bounds; Table 6 lists SimCCS solver and runtime as not reported",
+      "verification_status": "primary_text_checked_partial_support_with_attribution_conflicts",
+      "assessment": "Original passages checked with explicit attribution/metadata limits; native model and full citation chain remain unverified."
+    },
+    {
+      "id": "R45",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Middleton, R. S., Kuby, M. J., and Bielicki, J. M. (2012). Generating candidate networks for optimization: the CO2 capture and storage optimization problem. Comput. Environ. Urban Syst. 36, 18–29. doi: 10.1016/j.compenvurbsys.2011.08.002",
+      "pages": [
+        1,
+        2,
+        3,
+        9,
+        10,
+        19,
+        20,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C02",
+        "C11",
+        "C30",
+        "C67"
+      ],
+      "role": "Mathematical programming offers feasibility and bounds for the stated model; Most studies reportedly isolate matching or networks and remain static; Clustering and decomposition can reduce model size; Solver bounds do not establish physical model validity",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R46",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Minervini, J., Burrows, J., Pinto, E., and Barlow, H. (2024). Building Our Way to Net- Zero: Carbon Dioxide Pipelines in the United States. Melbourne: Global CCS Institute.",
+      "pages": [
+        8,
+        23
+      ],
+      "claim_links": [
+        "C27"
+      ],
+      "role": "GeoCapacity, NETL and Chinese databases support larger-scale studies",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R47",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "National Energy Technology Laboratory (2015). Carbon Storage Atlas. 5th Edn. Pittsburgh, PA: U.S. Department of Energy.",
+      "pages": [
+        8,
+        23
+      ],
+      "claim_links": [
+        "C27"
+      ],
+      "role": "GeoCapacity, NETL and Chinese databases support larger-scale studies",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R48",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Olson, D., and Yaw, S. (2025). Planning amidst uncertainty: identifying core CCS infrastructure robust to storage uncertainty. Energies 18, 926. doi: 10.3390/en18040926",
+      "pages": [
+        2,
+        3,
+        8,
+        16,
+        18,
+        19,
+        20,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C11",
+        "C26",
+        "C57",
+        "C66",
+        "C71",
+        "C80"
+      ],
+      "role": "Most studies reportedly isolate matching or networks and remain static; Time-indexed optimization, scenarios, monitoring and decision support differ; A robust min–max template is discussed alongside multistage recourse; Joint uncertainty and information-dependent recourse remain limited; Changing participation motivates entry, exit and ramp-up decisions; RQ2 proposes matched static and perfect-information comparisons",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R49",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Osiadacz, A. J., Chaczykowski, M., Kotyński, Ł., Bleschke, T., and Uilhoorn, F. E. (2026). Steady-state simulation of large-scale pipeline networks for CCUS applications. Int. J. Greenh. Gas. Control 149, 104567. doi: 10.1016/j.ijggc.2026.104567",
+      "pages": [
+        14,
+        16,
+        23
+      ],
+      "claim_links": [
+        "C45",
+        "C53"
+      ],
+      "role": "Impurities, phase conditions and materials affect pipeline design; Flow–diameter capacity bounds are associated with pressure and phase conditions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R50",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Porthos (2026). Porthos CO2 transport and storage project. Available online at: https:// www.porthosco2.nl/en/ (Accessed August 4, 2026).",
+      "pages": [
+        12,
+        13,
+        23
+      ],
+      "claim_links": [
+        "C38"
+      ],
+      "role": "Porthos illustrates shared trunks and staged access at a dated snapshot",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R51",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Promsuk, N., Daraneesrisuk, J., Thongrueang, N., and Suetrong, N. (2025). Optimization of carbon capture and storage transportation networks in Thailand using the artificial hummingbird algorithm. Sci. Rep. 15, 33213. doi: 10.1038/s41598- 025-18312-3",
+      "pages": [
+        18,
+        23
+      ],
+      "claim_links": [
+        "C62"
+      ],
+      "role": "The Thailand AHA case has four candidate sinks",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R52",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Rahmanta, M. A., Sopha, B. M., and Asih, A. M. S. (2026). Modeling and optimization of carbon capture, utilization, and storage networks: a review of mathematical approaches. Energy Rep. 15, 109162. doi: 10.1016/j.egyr.2026.109162",
+      "pages": [
+        1,
+        3,
+        10,
+        17,
+        18,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C04",
+        "C13",
+        "C59"
+      ],
+      "role": "No universal ranking of AI, metaheuristics and conventional methods is established; Table 1 compares this review with five earlier reviews; Metaheuristics are described as offering near-optimal solutions with less computation",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R53",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Raihan, A. (2025). Carbon capture, utilization, and storage (CCUS) in the context of earth energy systems: a multidisciplinary review. Geosci. Front. 16, 102177. doi: 10.1016/ j.gsf.2025.102177",
+      "pages": [
+        2,
+        23
+      ],
+      "claim_links": [
+        "C08"
+      ],
+      "role": "CCUS is discussed as a pathway for hard-to-abate process sectors",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R54",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Raissi, M., Perdikaris, P., and Karniadakis, G. E. (2019). Physics-informed neural networks: a deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. J. Comput. Phys. 378, 686–707. doi: 10.1016/j.jcp.2018.10.045",
+      "pages": [
+        10,
+        11,
+        12,
+        18,
+        23
+      ],
+      "claim_links": [
+        "C32",
+        "C34"
+      ],
+      "role": "PINNs can support component simulation and state estimation; Training bias, distribution shift and safeguards limit learned policies",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R55",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Ríos-Mercado, R. Z., and Borraz-Sánchez, C. (2015). Optimization problems in natural gas transportation systems: a state-of-the-art review. Appl. Energy 147, 536–555. doi: 10. 1016/j.apenergy.2015.03.017",
+      "pages": [
+        17,
+        18,
+        23
+      ],
+      "claim_links": [
+        "C59"
+      ],
+      "role": "Metaheuristics are described as offering near-optimal solutions with less computation",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R56",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Rozhok, A. P., Storozhenko, A. S., Valiaeva, A. V., Sushchev, S. P., Ugarov, A. N., and Revetria, R. (2021). Requirements for the automated monitoring system to reduce environmental risk during operation of trunk pipelines. IOP Conf. Ser. Earth Environ. Sci. 864, 012049. doi: 10.1088/1755-1315/864/1/012049",
+      "pages": [
+        10,
+        11,
+        23
+      ],
+      "claim_links": [
+        "C33"
+      ],
+      "role": "Digital twins and shadows provide component monitoring evidence",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R57",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Schomakers, E. M., Engelmann, L., and Ziefle, M. (2025). Public preferences for local carbon capture and utilization implementation: a French-German comparison. Energy Policy 206, 114781. doi: 10.1016/j.enpol.2025.114781",
+      "pages": [
+        14,
+        20,
+        23
+      ],
+      "claim_links": [
+        "C46"
+      ],
+      "role": "Governance can enter as costs, eligibility rules or scenarios",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R58",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Schrobback, P., Irannezhad, E., and Prato, C. G. (2024). Potential demand for coastal shipping in Queensland: a behavioural econometric analysis. Marit. Policy Manag. 51, 1558–1581. doi: 10.1080/03088839.2023.2191255",
+      "pages": [
+        23
+      ],
+      "claim_links": [],
+      "role": "Bibliography entry on minimum miscibility pressure prediction; no explicit named main-body citation identified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R59",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Sleiti, A. K., Al-Ammari, W. A., Vesely, L., and Kapat, J. S. (2022). Carbon dioxide transport pipeline systems: overview of technical characteristics, safety, integrity and cost, and potential application of digital twin. J. Energy Resour. Technol. 144, 092106. doi: 10.1115/1.4053348",
+      "pages": [
+        1,
+        3,
+        8,
+        10,
+        11,
+        16,
+        18,
+        20,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C04",
+        "C13",
+        "C26",
+        "C33",
+        "C53",
+        "C69",
+        "C74",
+        "C83"
+      ],
+      "role": "No universal ranking of AI, metaheuristics and conventional methods is established; Table 1 compares this review with five earlier reviews; Time-indexed optimization, scenarios, monitoring and decision support differ; Digital twins and shadows provide component monitoring evidence; Flow–diameter capacity bounds are associated with pressure and phase conditions; AI training cost, distribution shift and feasibility require explicit tests; Digital twins are forecast to progress toward bounded decision support; RQ5 proposes validation requirements for closed-loop digital twins",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R60",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Snæbjörnsdóttir, S. Ó., Sigfússon, B., Marieni, C., Goldberg, D., Gislason, S. R., and Oelkers, E. H. (2020). Carbon dioxide storage through mineral carbonation. Nat. Rev. Earth Environ. 1, 90–102. doi: 10.1038/s43017-019-0011-8",
+      "pages": [
+        6,
+        7,
+        23
+      ],
+      "claim_links": [
+        "C20"
+      ],
+      "role": "Source and storage geography constrains network choices",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R61",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Solomon, M. D., Scheffler, M., Heineken, W., Ashkavand, M., and Birth-Reichert, T. (2024). Pipeline infrastructure for CO2 transport: cost analysis and design optimization. Energies 17, 2911. doi: 10.3390/en17122911",
+      "pages": [
+        14,
+        16,
+        23
+      ],
+      "claim_links": [
+        "C43",
+        "C53"
+      ],
+      "role": "Pipeline and shipping cost ranges have different case boundaries; Flow–diameter capacity bounds are associated with pressure and phase conditions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R62",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Sun, X., Alcalde, J., Bakhtbidar, M., Elío, J., Vilarrasa, V., Canal, J., et al. (2021). Hubs and clusters approach to unlock the development of carbon capture and storage—case study in Spain. Appl. Energy 300, 117418. doi: 10.1016/j.apenergy.2021.117418",
+      "pages": [
+        1,
+        7,
+        9,
+        10,
+        13,
+        15,
+        16,
+        20,
+        21,
+        23
+      ],
+      "claim_links": [
+        "C03",
+        "C22",
+        "C30",
+        "C52",
+        "C73",
+        "C77",
+        "C81"
+      ],
+      "role": "Shared hubs and modes can improve infrastructure sharing under conditions; Hubs can reduce duplicated assets and improve utilization; Clustering and decomposition can reduce model size; Annual injection is bounded by a cumulative storage resource; Infrastructure, data, liability and finance affect investability; Hydrogen synergies require operating-profile and alternative-use comparisons; RQ3 proposes governance and distributional evaluation criteria",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R63",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Sun, C., Yan, X., Sun, J., Pang, J., Zhao, W., and Lin, X. (2022). Unraveling the effect of O2, NO2 and SO2 impurities on the stress corrosion behavior of X65 steel in water- saturated supercritical CO2 streams. Corros. Sci. 209, 110729. doi: 10.1016/j.corsci.2022. 110729",
+      "pages": [
+        14,
+        23
+      ],
+      "claim_links": [
+        "C45"
+      ],
+      "role": "Impurities, phase conditions and materials affect pipeline design",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R64",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Sutton, R. S., and Barto, A. G. (1998). Reinforcement Learning: An Introduction. Cambridge, MA: MIT Press.",
+      "pages": [
+        10,
+        23
+      ],
+      "claim_links": [
+        "C31"
+      ],
+      "role": "DRL is proposed for repeated operational decisions through an MDP",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R65",
+      "bibliography_pages": [
+        23
+      ],
+      "citation": "Tan, R. R., Aviso, K. B., Bandyopadhyay, S., and Ng, D. (2013). Optimal source-sink matching in carbon capture and storage systems with time, injection rate, and capacity constraints. Environ. Prog. Sustain. Energy 32, 411–416. doi: 10.1002/ep.11630",
+      "pages": [
+        7,
+        23
+      ],
+      "claim_links": [
+        "C24"
+      ],
+      "role": "Earlier continuous-time models address timing, injection rates and resource capacity",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R66",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Tang, H., Chen, W., Zhang, S., and Zhang, Q. (2023). China’s multi-sector-shared CCUS networks in a carbon-neutral vision. iScience 26, 106347. doi: 10.1016/j.isci.2023.106347",
+      "pages": [
+        2,
+        7,
+        24
+      ],
+      "claim_links": [
+        "C10"
+      ],
+      "role": "Spatial mismatch and topology create interdependent planning decisions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R67",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Tapia, J. F. D., Lee, J. Y., Ooi, R. E. H., Foo, D. C. Y., and Tan, R. R. (2018). A review of optimization and decision-making models for the planning of CO2 capture, utilization and storage (CCUS) systems. Sustain. Prod. Consum. 13, 1–15. doi: 10.1016/j.spc.2017. 10.001",
+      "pages": [
+        3,
+        17,
+        18,
+        24
+      ],
+      "claim_links": [
+        "C13",
+        "C58"
+      ],
+      "role": "Table 1 compares this review with five earlier reviews; Exact and decomposition methods can supply conditional solution bounds",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R68",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Uddin, M., Clark, R. J., Hilliard, M. R., Thompson, J. A., Langholtz, M. H., and Webb, E. G. (2025). Agent-based modeling for multimodal transportation of CO2 for carbon capture, utilization, and storage: CCUS-agent. Appl. Energy 378, 124833. doi: 10.1016/j. apenergy.2024.124833",
+      "pages": [
+        13,
+        14,
+        21,
+        24
+      ],
+      "claim_links": [
+        "C42",
+        "C75",
+        "C81"
+      ],
+      "role": "Transport-mode applicability depends on volume, distance and utilization; Multi-agent learning is proposed for separate operators; RQ3 proposes governance and distributional evaluation criteria",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R69",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "United Nations Environment Programme (2025). Emissions gap report 2025: off target. Available online at: https://www.unep.org/resources/emissions-gap-report-2025 (Accessed November 4, 2025).",
+      "pages": [
+        1,
+        2,
+        24
+      ],
+      "claim_links": [
+        "C05"
+      ],
+      "role": "Climate observations and Paris temperature goals motivate mitigation",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R70",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "United Nations Framework Convention on Climate Change (2015). Paris agreement. Available online at: https://unfccc.int/sites/default/files/resource/parisagreement_ publication.pdf (Accessed July 4, 2026).",
+      "pages": [
+        1,
+        2,
+        24
+      ],
+      "claim_links": [
+        "C05"
+      ],
+      "role": "Climate observations and Paris temperature goals motivate mitigation",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R71",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Vangkilde-Pedersen, T., Anthonsen, K. L., Smith, N., Kirk, K., Neele, F., van der Meer, B., et al. (2009). Assessing European capacity for geological storage of carbon dioxide— the EU GeoCapacity project. Energy Procedia 1, 2663–2670. doi: 10.1016/j.egypro.2009. 02.034",
+      "pages": [
+        6,
+        7,
+        8,
+        24
+      ],
+      "claim_links": [
+        "C20",
+        "C27"
+      ],
+      "role": "Source and storage geography constrains network choices; GeoCapacity, NETL and Chinese databases support larger-scale studies",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R72",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Wang, X., Duan, L., and Mao, T. (2020). Source-sink matching of CO2 emissions and storage capacity in China. Int. J. Greenh. Gas. Control 95, 102943. doi: 10.1016/j.ijggc. 2019.102943",
+      "pages": [
+        2,
+        7,
+        24
+      ],
+      "claim_links": [
+        "C10"
+      ],
+      "role": "Spatial mismatch and topology create interdependent planning decisions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R73",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Wang, P. T., Zhang, Y. X., Wang, F. Y., and Xu, M. (2025). Carbon capture, utilization, and storage in China’s high-emission industries: optimal deployment under carbon neutrality goals. Energy 323, 135774. doi: 10.1016/j.energy.2025. 135774",
+      "pages": [
+        24
+      ],
+      "claim_links": [],
+      "role": "Bibliography entry on minimum miscibility pressure prediction; no explicit named main-body citation identified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R74",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Wang, Z., Wang, B., Kong, J., Li, X., Fan, J., Yang, Q., et al. (2026). Assessing policy uncertainties and interactions of the CCUS deployment in China’s steel industry. Int. J. Greenh. Gas. Control 152, 104615. doi: 10.1016/j.ijggc.2026.104615",
+      "pages": [
+        21,
+        24
+      ],
+      "claim_links": [
+        "C76"
+      ],
+      "role": "Markets and cooperative allocation may shape future networks",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R75",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Wei, Y. M., Kang, J. N., Liu, L. C., Li, Q., Wang, P. T., Hou, J. J., et al. (2021). A proposed global layout of carbon capture and storage in line with a 2°C climate target. Nat. Clim. Chang. 11, 112–118. doi: 10.1038/s41558-020-00960-0",
+      "pages": [
+        2,
+        7,
+        24
+      ],
+      "claim_links": [
+        "C10"
+      ],
+      "role": "Spatial mismatch and topology create interdependent planning decisions",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R76",
+      "bibliography_pages": [
+        24,
+        24
+      ],
+      "citation": "Wei, N., Lin, K., Liu, S., Wang, W., Cheng, G., Yang, L., et al. (2026). A microflow and bioinspired dendritic topology optimization for CO2 capture, utilization and storage hubs in China. ACS Sustain. Chem. Eng. 14, 4403. doi: 10.1021/ acssuschemeng.5c11089",
+      "pages": [
+        17,
+        18,
+        19,
+        20,
+        24
+      ],
+      "claim_links": [
+        "C59",
+        "C68"
+      ],
+      "role": "Metaheuristics are described as offering near-optimal solutions with less computation; Single-run or weak-baseline comparisons can exaggerate heuristic gains",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R77",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Witte, K. (2021). Social acceptance of CCS from industrial applications. Sustainability 13, 12278. doi: 10.3390/su132112278",
+      "pages": [
+        14,
+        20,
+        24
+      ],
+      "claim_links": [
+        "C46"
+      ],
+      "role": "Governance can enter as costs, eligibility rules or scenarios",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R78",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "World Meteorological Organization (2026). State of the Global Climate 2025. Available online at: https://wmo.int/publication-series/state-of-global-climate/state-of-global- climate-2025 (Accessed March 23, 2026).",
+      "pages": [
+        1,
+        2,
+        24
+      ],
+      "claim_links": [
+        "C05"
+      ],
+      "role": "Climate observations and Paris temperature goals motivate mitigation",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R79",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Wu, X., Li, C., He, Y., and Jia, W. (2018). Operation optimization of natural gas transmission pipelines based on stochastic optimization algorithms: a review. Math. Probl. Eng. 2018, 1267045. doi: 10.1155/2018/1267045",
+      "pages": [
+        24
+      ],
+      "claim_links": [],
+      "role": "Bibliography entry on minimum miscibility pressure prediction; no explicit named main-body citation identified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R80",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Wu, Q., Li, Y., Lin, Q., and Xu, D. (2025). Development of a techno-economic assessment model for optimal timing of CCUS deployment based on compound climate change mitigation value. J. Clean. Prod. 516, 145760. doi: 10.1016/j.jclepro. 2025.145760",
+      "pages": [
+        16,
+        24
+      ],
+      "claim_links": [
+        "C56"
+      ],
+      "role": "New-construction variables are said to prevent repeated capital charges",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R81",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Xiang, X., Zhou, S., Yao, Y., Li, K., Zhang, X., and Fan, J. L. (2026). Unlocking key industrial CCUS potential at county level: a triad of county-focused source-sink matching methods. Environ. Impact Assess. Rev. 117, 108236. doi: 10.1016/j.eiar. 2025.108236",
+      "pages": [
+        8,
+        21,
+        24
+      ],
+      "claim_links": [
+        "C27",
+        "C79"
+      ],
+      "role": "GeoCapacity, NETL and Chinese databases support larger-scale studies; RQ1 proposes a physically valid benchmark above 1,000 sources and 300 sinks",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R82",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Yao, Y., Wang, Y., Xiang, X., and Xie, X. (2025). A review of offshore carbon dioxide geological storage from a source-sink perspective. Renew. Sustain. Energy Rev. 222, 115989. doi: 10.1016/j.rser.2025.115989",
+      "pages": [
+        3,
+        20,
+        24
+      ],
+      "claim_links": [
+        "C13",
+        "C73"
+      ],
+      "role": "Table 1 compares this review with five earlier reviews; Infrastructure, data, liability and finance affect investability",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R83",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Yiallourides, C., Westmark, L., and Proelss, A. (2026). Cross-border CO2 transport and storage networks in Europe through arrangements under the London protocol. Ocean. Dev. Int. Law 57, 1–24. doi: 10.1080/00908320.2025.2566714",
+      "pages": [
+        14,
+        20,
+        21,
+        24
+      ],
+      "claim_links": [
+        "C46",
+        "C76",
+        "C81"
+      ],
+      "role": "Governance can enter as costs, eligibility rules or scenarios; Markets and cooperative allocation may shape future networks; RQ3 proposes governance and distributional evaluation criteria",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R84",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Zhai, R., Yin, D., and Pang, G. (2023). A deep learning framework for solving forward and inverse problems of power-law fluids. Phys. Fluids 35, 093115. doi: 10.1063/5. 0166323",
+      "pages": [
+        10,
+        18,
+        24
+      ],
+      "claim_links": [
+        "C32"
+      ],
+      "role": "PINNs can support component simulation and state estimation",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R85",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Zhang, J., Zhao, L., Jin, L., Zhu, C., Wang, H., and Wang, L. (2025). Optimizing regional CCUS clusterization deployment for multi-industrial sectors: a carbon neutrality pathway for emission-intensive region. Carbon Capture Sci. Technol. 17, 100495. doi: 10.1016/j.ccst.2025.100495",
+      "pages": [
+        24
+      ],
+      "claim_links": [],
+      "role": "Bibliography entry on minimum miscibility pressure prediction; no explicit named main-body citation identified.",
+      "verification_status": "unverified",
+      "assessment": "Printed identity and attributed role were read. Exact support, derivations, inputs and further citation dependencies in the original remain unverified."
+    },
+    {
+      "id": "R86",
+      "bibliography_pages": [
+        24
+      ],
+      "citation": "Zhao, L., Guo, Y., Mohammadian, E., Azdarpour, A., and Karami, A. (2026). Application of explainable data-driven methods to predict minimum miscibility pressure for EOR and CCUS applications. Energy Fuels 40, 3673–3694. doi: 10.1021/ acs.energyfuels.5c05352",
+      "pages": [
+        24
+      ],
+      "claim_links": [],
+      "role": "Bibliography entry on minimum miscibility pressure prediction; no explicit named main-body citation identified.",
+      "verification_status": "unverified",
+      "assessment": "Printed MMP-prediction entry read. No explicit Zhao named citation found in the main body; direct/contextual/SI role unresolved. No original or MMP calibration verified."
+    },
+    {
+      "id": "D01",
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        21,
+        22
+      ],
+      "citation": "Publisher SI search stringsS1a, records/exports and normalizeddeduplication",
+      "claim_links": [
+        "C01",
+        "C14",
+        "C15",
+        "C17",
+        "C84"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D02",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        21,
+        22
+      ],
+      "citation": "Publisher SI fulltext exclusionlogS1–S3,17studyextraction/codingmatrix",
+      "claim_links": [
+        "C14",
+        "C15",
+        "C16",
+        "C17",
+        "C18",
+        "C84"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D03",
+      "pages": [
+        1,
+        3,
+        5,
+        21,
+        22,
+        23,
+        24
+      ],
+      "citation": "PRISMA2020reportingguidance and referenced completeauditcorpus",
+      "claim_links": [
+        "C86"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D04",
+      "pages": [
+        6,
+        7,
+        12,
+        15,
+        16
+      ],
+      "citation": "Illustrativegraph fullobjective,incidence,source/sink links,target,units/horizon anddomains",
+      "claim_links": [
+        "C19",
+        "C37",
+        "C50",
+        "C51"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D05",
+      "pages": [
+        12
+      ],
+      "citation": "Benderscuts/subproblemconditions andADMMconvergence/proof/nativeimplementation",
+      "claim_links": [
+        "C36"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D06",
+      "pages": [
+        9,
+        10,
+        11,
+        20
+      ],
+      "citation": "Prospectivehybridtraining/safetyfilter simulator,weights,rewards,data,seedsandcompute",
+      "claim_links": [
+        "C70"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D07",
+      "pages": [
+        21
+      ],
+      "citation": "Quantumsubproblemencoding/hardware/energy/baselineandsearchcoverage",
+      "claim_links": [
+        "C78"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D08",
+      "pages": [
+        22
+      ],
+      "citation": "AIediting/figurealttext sourceandauthorreviewdeclarations",
+      "claim_links": [
+        "C85"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D09",
+      "pages": [
+        12,
+        13
+      ],
+      "citation": "Project4August2026snapshots,permission/allocationcontractsandnativeoperatinglimits",
+      "claim_links": [
+        "C38",
+        "C39",
+        "C40"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D10",
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "citation": "Costpriceyears/currency,annuityandutilization-compatibleboundaries",
+      "claim_links": [
+        "C43",
+        "C50",
+        "C56"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D11",
+      "pages": [
+        8,
+        9,
+        11,
+        15,
+        16,
+        18
+      ],
+      "citation": "Versionednativeunderlyingoptimization/process/reservoircasesandlicenses",
+      "claim_links": [
+        "C28",
+        "C47",
+        "C55",
+        "C60",
+        "C61",
+        "C62",
+        "C63"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    },
+    {
+      "id": "D12",
+      "pages": [
+        2,
+        7,
+        14,
+        15,
+        16,
+        20
+      ],
+      "citation": "LCAcounterfactual,energy/utilitysupplierinventory,carbonfateandretentionproof",
+      "claim_links": [
+        "C08",
+        "C48",
+        "C52",
+        "C72"
+      ],
+      "verification_status": "unverified_dependency",
+      "assessment": "Named method, asset or necessary implementation dependency; not a separately verified original or an invented numerical input."
+    }
+  ],
+  "issues": [
+    {
+      "id": "O01",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        21,
+        22
+      ],
+      "status": "OPEN_SYSTEMATIC_REVIEW_REPRODUCTION",
+      "finding": "Exact database queries, exports, normalization, exclusion logs and the 17-study matrix are not retained. The main methods do not specify independent coding or quality appraisal. Reconciled counts do not reproduce the search or establish completeness.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    },
+    {
+      "id": "O02",
+      "pages": [
+        12,
+        15,
+        16
+      ],
+      "status": "OPEN_FORMULATION_AND_SERVICE",
+      "finding": "The example algebra does not fully specify network incidence, sink-flow linkage, a service target, commissioned asset stocks or all physical constraints. The printed hub quantifier ends after the membership symbol.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    },
+    {
+      "id": "O03",
+      "pages": [
+        15,
+        16
+      ],
+      "status": "OPEN_HOLD_STOCK_RATE_COST_TIME",
+      "finding": "Injection q_k is defined in tonnes/year but compared with cumulative storage C_k. Fixed capital and annual operating costs need a common horizon or annualization. Period duration and capture costs in the dynamic objective remain unspecified.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    },
+    {
+      "id": "O04",
+      "pages": [
+        15,
+        16,
+        18
+      ],
+      "status": "OPEN_PRIMARY_ATTRIBUTION_SIMCCS",
+      "finding": "The 2009 original explicitly has no temporal component, uses a 25-year lifetime basis, includes capture investment and names CPLEX 11.0. These passages qualify or contradict the review’s dynamic-priority, capture-history and solver-NR statements.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    },
+    {
+      "id": "O05",
+      "pages": [
+        8,
+        9,
+        15,
+        20
+      ],
+      "status": "OPEN_PRIMARY_ATTRIBUTION_BUDIARTO",
+      "finding": "The Budiarto original has a cost objective, fixed source inputs and scenario sensitivity. The inspected passages do not demonstrate a Pareto frontier, full LCA/LCOA, endogenous source entry/exit or closed-loop operation.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    },
+    {
+      "id": "O06",
+      "pages": [
+        2,
+        3,
+        7,
+        21,
+        22,
+        23,
+        24
+      ],
+      "status": "OPEN_CITATION_CHAIN_AND_SNAPSHOT",
+      "finding": "Eighty-four printed originals and twelve dependencies remain unverified. IEA database versus ETP attribution, growth snapshots, the bibliography-only Zhao entry and broad literature-frequency claims need exact sources and the missing matrix.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    },
+    {
+      "id": "O07",
+      "pages": [
+        11,
+        17,
+        18,
+        19
+      ],
+      "status": "OPEN_COMPARATIVE_COMPUTE_AND_GUARANTEE",
+      "finding": "Runtime, solver gap, approximation error and regret are distinct. Five illustrative rows are not the complete 17-study synthesis. Matched cases and settings are unavailable; general complexity and algorithm-guarantee claims require qualification.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    },
+    {
+      "id": "O08",
+      "pages": [
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "status": "OPEN_EXCLUDE_PHYSICAL_UTILITY_ACCESS_TRANSFER",
+      "finding": "Project stocks, nominal rates and monetary transport ranges do not provide pressure-constrained annual service, a complete utility/supplier inventory, permanent retention or current commercial permission.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    },
+    {
+      "id": "O09",
+      "pages": [
+        9,
+        10,
+        11,
+        20,
+        21
+      ],
+      "status": "OPEN_PROSPECTIVE_METHODS",
+      "finding": "DRL, PINNs, GNNs, MARL, twins, quantum methods and the proposed national benchmark remain prospective here. No native training, control, quantum or complete coupled case has been reproduced.",
+      "action": "Resolve the specific evidence and implementation gap using exact originals, versioned assets and explicit units. Preserve the published statement and any analyst alternative separately. Do not transfer unsupported physical, operating, access or GHG inputs; keep the audit incomplete."
+    }
+  ],
+  "supplements": "No embedded files. The explicit Frontiers supplement URL is on page 22. Search strings S1a, exclusions S1–S3 and an extraction matrix are referenced but not retained locally. Their public availability and exact version are unverified. External retrieval remains paused pending the requested Chrome connection; no author contact was made.",
+  "reproduction": "Independent checks reconstruct reported screening arithmetic and limited disclosed schematic components. Analyst MILP, rate-stock, cost-time, persistent-asset and information comparisons identify incomplete illustrations without judging unavailable native implementations. The database search, deduplication, eligibility, coding and 17-study synthesis are not reproduced. Neither are cited optimizers, physical cases, trained AI, digital-twin control or quantum performance.",
+  "paper1_use": "Use for qualified model boundaries, matched comparators, evidence maturity and reporting discipline. Preserve the two original-source attribution qualifications and unresolved schematic units, time bases and links. No modal monetary range, nominal stock/rate, prospective capability or benchmark target enters accepted annual physical service, retention, access or utility/GHG inputs. Original files and existing numerical results remain unchanged.",
+  "next_steps": "Continue B2-08 locally. When the requested Chrome connection permits retrieval, archive exact SI, database exports, exclusion/coding records, versioned code and rights. Reproduce review selection and verify the remaining 84 originals and twelve dependencies. Retain incomplete status until the requested dimensions have verified coverage."
+}
