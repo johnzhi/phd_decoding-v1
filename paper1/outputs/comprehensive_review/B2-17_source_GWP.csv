@@ -1,0 +1,7 @@
+gas,lifetime_years,GWP20,GWP100,GWP500,scope
+CH4,12,72,25,7.6,Source Table 1 historical AR4-based values; no accepted current GHG factor
+N2O,114,289,298,153,Source Table 1 historical AR4-based values; no accepted current GHG factor
+HFC-23,270,12000,14800,12200,Source Table 1 historical AR4-based values; no accepted current GHG factor
+HFC-134a,14,3830,1430,435,Source Table 1 historical AR4-based values; no accepted current GHG factor
+SF6,3200,16300,22800,32600,Source Table 1 historical AR4-based values; no accepted current GHG factor
+CCl4,26,2700,1400,435,Source Table 1 historical AR4-based values; no accepted current GHG factor

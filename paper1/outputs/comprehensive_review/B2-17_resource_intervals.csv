@@ -1,0 +1,6 @@
+region,low_1e10t,high_1e10t,emissions_1e10t,Fig10_1e10t,midpoint_1e10t,midpoint_minus_Fig10,stock_over_emissions_low,stock_over_emissions_high,scope
+NorthAmerica,230,2153,25,1192,1191.5,-0.5,9.2,86.12,Printed interval midpoint and cumulative stock/emission ratios; no probability median or annual rate
+Europe,50,50,17,50,50.0,0.0,2.9411764705882355,2.9411764705882355,Printed interval midpoint and cumulative stock/emission ratios; no probability median or annual rate
+Asia_except_China,49,55,30,52,52.0,0.0,1.6333333333333333,1.8333333333333333,Printed interval midpoint and cumulative stock/emission ratios; no probability median or annual rate
+China,121,413,40,267,267.0,0.0,3.025,10.325,Printed interval midpoint and cumulative stock/emission ratios; no probability median or annual rate
+Australia,22,41,1.6,32,31.5,-0.5,13.75,25.625,Printed interval midpoint and cumulative stock/emission ratios; no probability median or annual rate

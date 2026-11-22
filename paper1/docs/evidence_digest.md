@@ -412,17 +412,15 @@ The source proposes a cumulative domestic layout of 3,093 clusters and 432 sinks
 
 Transfer limits: The 67 checks, nine transcribed country rows, 21 synthetic deployment rows and six synthetic LP cases do not reproduce native global C3IAM/GCOP. Two selected-original checks support and qualify earlier SimCCS/InfraCCS methods; 49 other direct originals, fourteen dependencies or requirements, explicit SI and data/code on request remain unverified. No complete matched capture-to-ship utility inventory or public field dataset is supplied. Accepted operating/GHG inputs and current results remain unchanged; the combined 1.5 MPa HOLD is preserved.
 
-### B2-17 — Progress and perspectives in source-sink matching for CCUS A critical review
+### B2-17 — Progress and perspectives in source-sink matching for CCUS: A critical review
 
-. Identifier: 10.1016/j.rser.2025.116313. [PDF](../papers/B2-17.pdf).
+Keyao Lin et al., online 2025/volume 2026. DOI: 10.1016/j.rser.2025.116313. [Retained PDF](../papers/B2-17.pdf); [detailed audit](matching_review_comprehensive_findings.md). B3-46 is its duplicate.
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 5,9,22.
+Reading stage: All 27 retained pages were text-read and visually inspected. Eighteen figures, seven numbered tables, the abbreviation table, twelve capacity equations and two inline relations, 109 claims and 251 bibliography entries are recorded. Some tiny map labels remain unresolved. This is not comprehensive completion.
 
-Critical review separates geographic assessment scales and compares material-balance/volumetric capacity equations for depleted reservoirs, saline formations and coal seams. Parameters include density, effective thickness, porosity, recovery/water history and storage-efficiency factors, which differ by method and trapping mechanism.
+The review synthesizes sources, sinks and matching across four scales and identifies data, physical, economic and coordination gaps. A reproducible literature-selection/extraction protocol is not supplied in the retained PDF. Resource/status dates, duplicated country labels, capacity units, stock/rate periods, historical GWP and future AI capabilities remain qualified. Cement costs differ tenfold between the body and Table 7. Exact original checks separate shipping buffer/service/weather cases and confirm that the cited Wei global model prohibits cross-border transport.
 
-The review identifies multi-source geotechnical data, dynamic node-level carbon footprints, coordinated infrastructure and consistent spatiotemporal data as research needs. Its proposed integration with renewables/hydrogen is prospective. Capacity formulas require formation-specific inputs and compatible trapped-volume definitions.
-
-Transfer limits: Review equations are not site calibration and do not provide independent annual pressure/rate arrays. GWP, storage factors and method-specific capacities cannot be mixed across bases. B3-46 is the same publication and remains excluded from unique-publication counting. Underlying data are stated available on request.
+Transfer limits: The 44 limited checks, five resource interval rows and six synthetic state screens do not reproduce native selection or cited models. Two scoped citation checks do not complete original chains; 249 other direct originals and fourteen dependencies or requirements remain open. No complete matched capture-to-ship utilities or calibrated annual field-service dataset is acquired. Existing accepted inputs, current outputs and the combined 1.5 MPa HOLD are preserved.
 
 ### B2-18 — A prudent planetary limit for geologic carbon storage
 

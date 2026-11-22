@@ -1,0 +1,45 @@
+item,value,unit,scope
+GHG_pie_sum,100,%,Reported emission shares; not atmospheric composition or field retention
+CO2_fossil_plus_landuse,76,%,Fig5 components of reported76% CO2 share
+five_region_2024_mass_sum,23.5,Gt/y,IEA-labelled source series; not the separate36.3Gt dataset
+five_region_2024_mass_share,62.16931216931217,%,Compatible with source>62.1% statement
+emission_total_series_difference,1.5,Gt/y,Different cited datasets/boundaries; not automatically an arithmetic error
+implied_preindustrial_ppm,281.6666666666667,ppm,"Rounded50% statement algebra, not an independently verified historical concentration"
+Fig1_country_share_sum,101,%,Whole-percent labels; rounding can reconcile sum101%
+Fig1_avoided_share_sum,99,%,Scope4-labelled shares; rounding can reconcile99%; no actual future emissions measured
+Fig3_country_resource_sum,13286.166,Gt,"Retains all16 labels, including identical Canada/UK values"
+Fig3_country_share_sum,102.517,%,Exceeds100 if all countries share one nonoverlapping global denominator; original allocation unresolved
+Fig3_top3_share_sum,89.828,%,Rounded89.8% headline compatible
+Fig3_facility_count_sum,135,facilities,"Mixed operating/construction/development/suspended categories, not current operating count"
+China_three_basin_mass,1737.9,Gt,Three quoted basin resources
+China_three_basin_saline_share,71.81404958677686,%,"About71.8%, not50% if quoted2.42T saline total is denominator; case basis unresolved"
+conditional_global_stock_low,8,trillion t,Only if quoted onshore/offshore ranges are nonoverlapping
+conditional_global_stock_high,55,trillion t,"Resource envelope, not annual service or a probability interval"
+cement_low_table_over_body,10.0,ratio,Same229–627plants/20–60% description; preserve both source cost ranges
+cement_high_table_over_body,10.0,ratio,Tenfold source cost discrepancy; native originalR238 remains unverified
+integrated_industry_plant_sum,1116,plants,Different case from the1186-source shared-network study
+conditional_shared_sector_sum,331,million t,Only first sector explicitly /year in prose; require native common period before treating sum as annual
+conditional_India_flat_stock,40.29,Gt,Flat170Mt/y over237years; not a demonstrated sustainable injection history
+conditional_Netherlands_per_site,0.18181818181818182,Mt/site,"Literal32million-ton source quote, no unverified replacement with32Gt"
+place_factor_count_closure,38,projects,"Reported38-project study, not a global probability sample"
+stochastic_99_buffer_over_ship,102.4,%,R172 originalB2-08p7; not18% above ship
+stochastic_100_buffer_over_ship,117.8,%,R172 originalB2-08p8; different100% service case
+stochastic_99_buffer_over_cycle,118.24480369515011,%,"Approximate cycle denominator, distinct from ship capacity"
+weather_cost_penalty_relative_base,5.621301775147929,%,"Source5–5.6% weather-aware versus neglected comparison, not a zero-buffer baseline"
+selected_global_flow_sum,92.0,Gt,R200 domestic cumulative case; not a cross-border delivery solution
+analyst_China_interval_midpoint,267.0,1e10t,Source bounds only; not a probability median
+analyst_China_weighted_median,121,1e10t,Explicit synthetic80/10/10% probabilities; not source uncertainty
+analyst_pore_volume,6000000.0,m3,Disclosed geometry only; no actual basin
+analyst_oil_material_mass,1086000000.0,kg,Literal Table3 component under analyst water-volume convention
+analyst_oil_volumetric_mass,64800000.0,kg,Literal B multiplier retained; in-situ/surface conversion remains unverified
+analyst_saline_volumetric_mass,72000000.0,kg,Literal DOE saline component with disclosed geometry and efficiency; no pressure limit
+analyst_saline_structural_mass,2700000000.0,kg,"Alternative source component, not an independent additive inventory"
+analyst_saline_residual_mass,1080000000.0,kg,Same synthetic pore volume for overlap illustration only
+analyst_summed_components_over_pore_mass,1.05,ratio,Shows why capacities on overlapping pore volumes cannot automatically be summed; no author summation error claimed
+analyst_saline_dissolved_mass,120000000.0,kg,"Conditional densities/mass fractions, not native equilibrium chemistry"
+analyst_dissolution_with_C,12000000.0,kg,Disclosed dimensionless0.1 factor; native C unknown
+analyst_areal_mass,2000000.0,kg,Disclosed coverage0.5 and4kg/m2 coefficient
+analyst_coal_material_mass,2352630.0,kg,Disclosed kg-coal/m3 and m3-gas/kg-coal basis; native nc definition unresolved
+analyst_coal_volumetric_mass,197700.0,kg,Disclosed20standard-m3-gas/m3-coal and0.1 efficiency
+analyst_Shen_literal_mass,2885880000.0,kg,rho multiplies the ENTIRE printed bracket; Cws/Cos dimensionless in toy only
+analyst_molal_mass_conversion,132030.0,kg,"Only under declared mol/kg-water solubility; source R units remain unknown, so no corrected source mass inferred"

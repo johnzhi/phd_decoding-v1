@@ -49,3 +49,8 @@ The [public reservoir/capture review](public_reservoir_capture_review.md) adds a
 ## Later literature audit — global pressure-model boundary, 22 November 2026
 
 The [B2-15 review](pressure_limited_global_comprehensive_findings.md) adds directly pressure-aware modelling precedent without supplying a reproducible public reservoir dataset. Smith et al. model basin-averaged closed systems and equal constant rates; their 5 Mt/y limit applies to multi-well sites. Page 12 explicitly states that the authors lack permission to share underlying data. The native commercial inputs, defaults, software version and supporting arrays remain unverified locally. Its global 30/80-year resource rates do not replace calibrated annual field service or resolve the Bjarmeland completion/warning checks. No accepted operating/GHG input changes, and external retrieval remains paused pending the requested Chrome connection.
+
+
+## Further dataset lead from the critical review
+
+B2-17 reference 185 identifies Fan et al., *Scientific Data* 12 (2025), 640, DOI [10.1038/s41597-025-04875-3](https://doi.org/10.1038/s41597-025-04875-3), on geological storage potential and injection-rate capacity in China based on a fine grid. This confirms an exact bibliographic lead, also noted in the B2-14 audit. Its article, data archive, pressure constraints, units, annual meaning, licence and native inputs have not been retrieved or verified. It is not an acquired public field dataset and adds no accepted operating input. External retrieval remains paused pending the requested Chrome connection. See the [B2-17 audit](matching_review_comprehensive_findings.md).

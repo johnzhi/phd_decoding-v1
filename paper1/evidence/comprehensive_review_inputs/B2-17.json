@@ -1,0 +1,276 @@
+{
+  "study_id": "B2-17",
+  "source_path": "papers/B2-17.pdf",
+  "source_sha256": "ddd464b25455703f2ef321ca6919d777e60dd1e4016020e93ebcb1df6193d2ea",
+  "doi": "10.1016/j.rser.2025.116313",
+  "provenance": "Manual transcription from all 27 text-read and render-inspected physical pages, with enlarged tables/figures. Source quotes and explicitly synthetic examples are separate; no external retrieval.",
+  "source_locators": {
+    "GHG": "pp3,5 Fig5/Table1; historical AR4 sources R43/44",
+    "regional_emissions": "p3/5 Fig6; IEA-labelled series",
+    "Figure3": "p4, enlarged country labels; dates2021/2022 in caption,2023 in prose",
+    "capacity": "pp8–10 Table3/4 and Fig10",
+    "cement": "p17 body versus Table7",
+    "shipping_original": "exact R172/B2-08 pp1,7,8",
+    "global_original": "exact R200/B2-16 pp1,4,8"
+  },
+  "GHG_shares_percent": {
+    "fossil_industry_CO2": 65,
+    "landuse_CO2": 11,
+    "CH4": 16,
+    "N2O": 6,
+    "F_gases": 2
+  },
+  "region_emissions_Gt": {
+    "China": 12.6,
+    "USA": 4.5,
+    "India": 3,
+    "EU": 2.4,
+    "Japan": 1
+  },
+  "figure1_country_emission_shares": [
+    31,
+    14,
+    8,
+    7,
+    5,
+    3,
+    1,
+    1,
+    31
+  ],
+  "figure1_avoided_shares": [
+    39,
+    13,
+    10,
+    5,
+    5,
+    4,
+    23
+  ],
+  "table1_GWP_rows": [
+    {
+      "gas": "CH4",
+      "lifetime_years": 12,
+      "GWP20": 72,
+      "GWP100": 25,
+      "GWP500": 7.6,
+      "scope": "Source Table 1 historical AR4-based values; no accepted current GHG factor"
+    },
+    {
+      "gas": "N2O",
+      "lifetime_years": 114,
+      "GWP20": 289,
+      "GWP100": 298,
+      "GWP500": 153,
+      "scope": "Source Table 1 historical AR4-based values; no accepted current GHG factor"
+    },
+    {
+      "gas": "HFC-23",
+      "lifetime_years": 270,
+      "GWP20": 12000,
+      "GWP100": 14800,
+      "GWP500": 12200,
+      "scope": "Source Table 1 historical AR4-based values; no accepted current GHG factor"
+    },
+    {
+      "gas": "HFC-134a",
+      "lifetime_years": 14,
+      "GWP20": 3830,
+      "GWP100": 1430,
+      "GWP500": 435,
+      "scope": "Source Table 1 historical AR4-based values; no accepted current GHG factor"
+    },
+    {
+      "gas": "SF6",
+      "lifetime_years": 3200,
+      "GWP20": 16300,
+      "GWP100": 22800,
+      "GWP500": 32600,
+      "scope": "Source Table 1 historical AR4-based values; no accepted current GHG factor"
+    },
+    {
+      "gas": "CCl4",
+      "lifetime_years": 26,
+      "GWP20": 2700,
+      "GWP100": 1400,
+      "GWP500": 435,
+      "scope": "Source Table 1 historical AR4-based values; no accepted current GHG factor"
+    }
+  ],
+  "figure3_resource_rows": [
+    {
+      "region": "USA",
+      "mass_Gt": 8061.812,
+      "share_percent": 62.205
+    },
+    {
+      "region": "China",
+      "mass_Gt": 3077.431,
+      "share_percent": 23.746
+    },
+    {
+      "region": "Australia",
+      "mass_Gt": 502.43,
+      "share_percent": 3.877
+    },
+    {
+      "region": "Canada",
+      "mass_Gt": 403.971,
+      "share_percent": 3.117
+    },
+    {
+      "region": "SouthKorea",
+      "mass_Gt": 203.362,
+      "share_percent": 1.569
+    },
+    {
+      "region": "Japan",
+      "mass_Gt": 152.266,
+      "share_percent": 1.175
+    },
+    {
+      "region": "Malaysia",
+      "mass_Gt": 149.573,
+      "share_percent": 1.154
+    },
+    {
+      "region": "Mexico",
+      "mass_Gt": 100.8,
+      "share_percent": 0.778
+    },
+    {
+      "region": "Norway",
+      "mass_Gt": 93.626,
+      "share_percent": 0.722
+    },
+    {
+      "region": "UK",
+      "mass_Gt": 403.971,
+      "share_percent": 3.117
+    },
+    {
+      "region": "India",
+      "mass_Gt": 64.135,
+      "share_percent": 0.495
+    },
+    {
+      "region": "Pakistan",
+      "mass_Gt": 31.702,
+      "share_percent": 0.245
+    },
+    {
+      "region": "Bangladesh",
+      "mass_Gt": 21.133,
+      "share_percent": 0.163
+    },
+    {
+      "region": "Indonesia",
+      "mass_Gt": 15.855,
+      "share_percent": 0.122
+    },
+    {
+      "region": "Brazil",
+      "mass_Gt": 2.47,
+      "share_percent": 0.019
+    },
+    {
+      "region": "Denmark",
+      "mass_Gt": 1.629,
+      "share_percent": 0.013
+    }
+  ],
+  "figure3_facility_counts": {
+    "USA": 70,
+    "Canada": 8,
+    "Brazil": 1,
+    "Hungary": 1,
+    "Norway": 5,
+    "Netherlands": 6,
+    "Sweden": 2,
+    "Denmark": 1,
+    "UK": 16,
+    "Belgium": 4,
+    "Italy": 2,
+    "Ireland": 1,
+    "Malaysia": 1,
+    "China": 6,
+    "Indonesia": 2,
+    "SouthKorea": 1,
+    "Australia": 3,
+    "NewZealand": 1,
+    "SaudiArabia": 1,
+    "UAE": 2,
+    "Qatar": 1
+  },
+  "China_saline_basins_Gt": [
+    694.5,
+    552.8,
+    490.6
+  ],
+  "table4_rows": [
+    {
+      "region": "NorthAmerica",
+      "low_1e10t": 230,
+      "high_1e10t": 2153,
+      "emissions_1e10t": 25,
+      "Fig10_1e10t": 1192
+    },
+    {
+      "region": "Europe",
+      "low_1e10t": 50,
+      "high_1e10t": 50,
+      "emissions_1e10t": 17,
+      "Fig10_1e10t": 50
+    },
+    {
+      "region": "Asia_except_China",
+      "low_1e10t": 49,
+      "high_1e10t": 55,
+      "emissions_1e10t": 30,
+      "Fig10_1e10t": 52
+    },
+    {
+      "region": "China",
+      "low_1e10t": 121,
+      "high_1e10t": 413,
+      "emissions_1e10t": 40,
+      "Fig10_1e10t": 267
+    },
+    {
+      "region": "Australia",
+      "low_1e10t": 22,
+      "high_1e10t": 41,
+      "emissions_1e10t": 1.6,
+      "Fig10_1e10t": 32
+    }
+  ],
+  "analyst_geometry": {
+    "area_m2": 1000000.0,
+    "thickness_m": 40,
+    "porosity": 0.15,
+    "CO2_density_kg_m3": 600,
+    "water_saturation": 0.25,
+    "recovery": 0.4,
+    "water_injected_m3": 10000,
+    "water_produced_m3": 20000,
+    "B": 1.2,
+    "efficiency": 0.02,
+    "residual_saturation": 0.3,
+    "warning": "All values in analyst_geometry and constants used in synthetic components are disclosed analyst assumptions, not native author cases or actual reservoir inputs."
+  },
+  "missing_native": {
+    "literature_search_and_selection_protocol": null,
+    "extraction_and_quality_matrix": null,
+    "all_original_passages": null,
+    "capacity_derivation_units": null,
+    "original_project_resource_datasets": null,
+    "cited_author_code_and_models": null,
+    "cited_training_calibration_data": null,
+    "publisher_online_asset_status": null,
+    "matched_complete_capture_to_ship_utilities": null,
+    "annual_pressure_constrained_field_service": null,
+    "EOR_counterfactual_and_retention": null,
+    "native_models_reproduced": false,
+    "external_retrieval": "paused_pending_requested_Chrome_connection"
+  }
+}

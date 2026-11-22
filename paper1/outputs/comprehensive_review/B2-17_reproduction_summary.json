@@ -1,0 +1,27 @@
+{
+  "study_id": "B2-17",
+  "source_sha256": "ddd464b25455703f2ef321ca6919d777e60dd1e4016020e93ebcb1df6193d2ea",
+  "limited_checks": 44,
+  "resource_interval_rows": 5,
+  "analyst_phase_rows": 6,
+  "source_GWP_rows": 6,
+  "native_literature_selection_reproduced": false,
+  "cited_author_models_reproduced": false,
+  "accepted_Paper1_inputs_added": 0,
+  "scope": "Source accounting and explicitly synthetic dimensional/state components only",
+  "missing_native": {
+    "literature_search_and_selection_protocol": null,
+    "extraction_and_quality_matrix": null,
+    "all_original_passages": null,
+    "capacity_derivation_units": null,
+    "original_project_resource_datasets": null,
+    "cited_author_code_and_models": null,
+    "cited_training_calibration_data": null,
+    "publisher_online_asset_status": null,
+    "matched_complete_capture_to_ship_utilities": null,
+    "annual_pressure_constrained_field_service": null,
+    "EOR_counterfactual_and_retention": null,
+    "native_models_reproduced": false,
+    "external_retrieval": "paused_pending_requested_Chrome_connection"
+  }
+}

@@ -1,0 +1,7 @@
+depth_m,surface_C,gradient_C_km,temperature_C,pressure_MPa_absolute,critical_temperature_C,critical_pressure_MPa,pure_critical_pair_passes,scope
+801,0,25,20.025,7.95645165,30.978200002980714,7.377298373446752,False,"Synthetic hydrostatic/geothermal assumptions; no actual mixture, well or injection limit"
+801,10,25,30.025,7.95645165,30.978200002980714,7.377298373446752,False,"Synthetic hydrostatic/geothermal assumptions; no actual mixture, well or injection limit"
+801,15,25,35.025,7.95645165,30.978200002980714,7.377298373446752,True,"Synthetic hydrostatic/geothermal assumptions; no actual mixture, well or injection limit"
+1000,0,25,25.0,9.907974999999999,30.978200002980714,7.377298373446752,False,"Synthetic hydrostatic/geothermal assumptions; no actual mixture, well or injection limit"
+1000,10,25,35.0,9.907974999999999,30.978200002980714,7.377298373446752,True,"Synthetic hydrostatic/geothermal assumptions; no actual mixture, well or injection limit"
+1000,15,25,40.0,9.907974999999999,30.978200002980714,7.377298373446752,True,"Synthetic hydrostatic/geothermal assumptions; no actual mixture, well or injection limit"
