@@ -64,8 +64,12 @@ def calculate():
  emit('retention','MW_A vs SW_A','gross_storage_increase',100*(hi-lo)/lo,'%',ids,'100*(R_high-R_low)/R_low','Same published source–sink system; additional well GHG not included')
  crit=1000*(1-lo/hi*(1-base/1000))
  emit('hybrid','South Sumatra retention + NL07 reference','score_crossing_high_path_reported_intensity',crit,'kgCO2e/tCO2 stored',ids+['gwp_NL07'],'1000*[1-(R_low/R_high)*(1-e_low/1000)]','Diagnostic cross-study score only; reported GWP includes fugitives. Loss accounting and omitted burdens must be reconciled before avoided-emissions interpretation')
- for name in ['NL07','NL15','SM07','SM15','combined07','combined15']:
-  key='gwp_'+name;e=v(key)
+ # Only eligible registered intensities enter this diagnostic. Source quotes on
+ # HOLD remain in curated_values.csv and must not regain eligibility via a
+ # hard-coded scenario list.
+ for key,x in raw.items():
+  if x['group']!='gwp':continue
+  name=x['scenario'];e=v(key)
   emit('intensity_threshold',name,'required_storage_uplift_for_score_equality',100*((1-base/1000)/(1-e/1000)-1),'%', ['gwp_NL07',key], '100*[(1-e_low/1000)/(1-e_high/1000)-1]','Reported-GWP score equality only; requires loss reconciliation and equal omitted burdens for mitigation interpretation. Portfolio configurations, not isolated pressure effects')
   balhi=hi*(1-e/1000);ballo=lo*(1-base/1000)
   emit('hybrid',name,'difference_in_stored_mass_minus_reported_GWP_score',balhi-ballo,'MtCO2e',ids+['gwp_NL07',key],'R_high*(1-e_high/1000)-R_low*(1-e_low/1000)','Cross-study score only; fugitive/source-loss double counting and extra capture/well burdens require reconciliation; not avoided emissions')
@@ -100,7 +104,9 @@ def figures(rows):
   ys=[next(x['value'] for x in rows if x['group']=='bog' and x['case']==f'{case}; N2={int(n)/100:g} mol%') for n in ['005','010','015']]
   ax.plot([.05,.1,.15],ys,'o-',label='Case '+case)
  ax.set_xlabel('N₂ impurity (mol%)');ax.set_ylabel('Partial process CO₂ (kg/t transported)');ax.set_xticks([.05,.1,.15]);ax.legend(ncol=2,frameon=False);save(fig,'bog_partial_emissions')
- rr=[x for x in rows if x['group']=='intensity_threshold'];fig,ax=plt.subplots(figsize=(7,3.8));ax.bar(['NL\n0.7 MPa','NL\n1.5 MPa','SM\n0.7 MPa','SM\n1.5 MPa','Combined\n0.7 MPa','Combined\n1.5 MPa'],[x['value'] for x in rr]);uplift=next(x['value'] for x in rows if x['metric']=='gross_storage_increase');ax.axhline(uplift,color='firebrick',linestyle='--',label=f'Derived storage uplift: {uplift:.2f}%');ax.set_ylabel('Storage uplift for reported-score equality (%)');ax.set_xlabel('Published post-capture intensity scenario');ax.legend(frameon=False);save(fig,'proxy_thresholds')
+ rr=[x for x in rows if x['group']=='intensity_threshold'];fig,ax=plt.subplots(figsize=(7,3.8))
+ names={'NL07':'NL\n0.7 MPa','NL15':'NL\n1.5 MPa','SM07':'SM\n0.7 MPa','SM15':'SM\n1.5 MPa','combined07':'Combined\n0.7 MPa','combined15':'Combined\n1.5 MPa'}
+ ax.bar([names[x['case']] for x in rr],[x['value'] for x in rr]);uplift=next(x['value'] for x in rows if x['metric']=='gross_storage_increase');ax.axhline(uplift,color='firebrick',linestyle='--',label=f'Derived storage uplift: {uplift:.2f}%');ax.set_ylabel('Storage uplift for reported-score equality (%)');ax.set_xlabel('Eligible reported post-capture intensity scenario');ax.legend(frameon=False,loc='lower left',bbox_to_anchor=(0,1.01));save(fig,'proxy_thresholds')
 
 if __name__=='__main__':
  audit=validate_sources();results=calculate();save_results(results);figures(results)

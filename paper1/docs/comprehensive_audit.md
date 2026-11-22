@@ -8,6 +8,8 @@ The requested [detailed summary of the first 30 papers](comprehensive_review/fir
 
 Current checkpoint: **36 detailed records; 494 of 1,301 main-PDF pages read and visually inspected; zero comprehensively complete papers.** There are 1,866 bibliography/dependency records and 23 scoped original-passage citation checks; those counts are not verified full original papers.
 
+B2-12 is in progress outside that completed-record checkpoint. All 24 retained pages have now been read/rendered, and its [interim inventory finding](postcapture_lci_comprehensive_findings.md) puts the combined 1.5 MPa quoted best-solution case on HOLD for a graphic/text total conflict. The39.2 source quote is preserved, but excluded from current analysis inputs and two Appendix A scores. Full item/source/model checks continue.
+
 ## Evidence required for closure
 
 1. Read every physical page and inspect its rendered layout. Catalogue all sections, panels, captions, legends, table headers/footnotes and appendices. Magnify small labels and equations; native text can omit expressions and misrepresent tables. Record unreadable or unresolved content explicitly.
@@ -129,6 +131,7 @@ python paper1/scripts/audit_stochastic_shipping.py
 python paper1/scripts/audit_risk_network.py
 python paper1/scripts/audit_shipping_flexibility.py
 python paper1/scripts/audit_chp_capture.py
+python paper1/scripts/audit_postcapture_case_conflict.py
 python -m unittest discover -s paper1/tests -v
 ```
 

@@ -18,8 +18,14 @@ def render():
   t.append([c]+[f"{result('partial_process_emissions_intensity',f'{c}; N2={int(n)/100:g} mol%'):.3f}" for n in ['005','010','015']])
  bog=table(['Process case','N₂ 0.05 mol% (kg/t)','N₂ 0.10 mol% (kg/t)','N₂ 0.15 mol% (kg/t)'],t)
  t=[]
+ curated={x['value_id']:x for x in read('data/curated_values.csv')}
  for c in ['NL07','NL15','SM07','SM15','combined07','combined15']:
   names={'NL07':'Northern Lights, 0.7 MPa','NL15':'Northern Lights, 1.5 MPa','SM07':'Stella Maris, 0.7 MPa','SM15':'Stella Maris, 1.5 MPa','combined07':'Combined, 0.7 MPa','combined15':'Combined, 1.5 MPa'}
+  if 'gwp_'+c not in inp:
+   quote=curated['gwp_'+c]
+   if not quote['status'].startswith('HOLD'):raise ValueError(f'Unexplained missing GWP case: {c}')
+   t.append([names[c]+' — HOLD',quote['value']+' (source quote)', '—', '—'])
+   continue
   t.append([names[c],f"{value('gwp_'+c):.1f}",f"{result('required_storage_uplift_for_score_equality',c):.2f}",f"{result('difference_in_stored_mass_minus_reported_GWP_score',c):+.3f}"])
  proxy=table(['High-storage burden scenario','Reported GWP (kgCO₂e/t stored)','Storage uplift for score equality (%)','Δ reported-burden score (MtCO₂e)'],t)
  sup=read('outputs/supplement_scenario_summary.csv');replay=__import__('json').loads((ROOT/'outputs/supplement_replay.json').read_text())

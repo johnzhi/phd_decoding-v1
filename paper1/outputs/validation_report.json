@@ -4,7 +4,7 @@
   "unique_pdf_pages": 1301,
   "extracted_records": 1642,
   "curated_records": 250,
-  "analysis_inputs": 134,
+  "analysis_inputs": 133,
   "source_checks": "All PDF SHA256 hashes, page counts and curated source tokens pass. Token checks locate text; table mapping and interpretation require human review.",
-  "calculated_results": 124
+  "calculated_results": 122
 }

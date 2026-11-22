@@ -69,7 +69,6 @@
 | SM07 | difference_in_stored_mass_minus_reported_GWP_score | -11.0837 | MtCO2e |
 | SM15 | difference_in_stored_mass_minus_reported_GWP_score | -10.5883 | MtCO2e |
 | combined07 | difference_in_stored_mass_minus_reported_GWP_score | 4.99317 | MtCO2e |
-| combined15 | difference_in_stored_mass_minus_reported_GWP_score | 5.36074 | MtCO2e |
 
 ### intensity_threshold
 
@@ -80,7 +79,6 @@
 | SM07 | required_storage_uplift_for_score_equality | 12.7404 | % |
 | SM15 | required_storage_uplift_for_score_equality | 12.3345 | % |
 | combined07 | required_storage_uplift_for_score_equality | 0.907668 | % |
-| combined15 | required_storage_uplift_for_score_equality | 0.666112 | % |
 
 ### fleet
 

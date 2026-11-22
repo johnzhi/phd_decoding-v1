@@ -518,28 +518,6 @@
   },
   {
     "result_id": "R048",
-    "group": "intensity_threshold",
-    "case": "combined15",
-    "metric": "required_storage_uplift_for_score_equality",
-    "value": 0.6661115736886103,
-    "unit": "%",
-    "input_ids": "gwp_NL07;gwp_combined15",
-    "equation": "100*[(1-e_low/1000)/(1-e_high/1000)-1]",
-    "boundary": "Reported-GWP score equality only; requires loss reconciliation and equal omitted burdens for mitigation interpretation. Portfolio configurations, not isolated pressure effects"
-  },
-  {
-    "result_id": "R049",
-    "group": "hybrid",
-    "case": "combined15",
-    "metric": "difference_in_stored_mass_minus_reported_GWP_score",
-    "value": 5.360735999999974,
-    "unit": "MtCO2e",
-    "input_ids": "retention_SW_A;retention_MW_A;gwp_NL07;gwp_combined15",
-    "equation": "R_high*(1-e_high/1000)-R_low*(1-e_low/1000)",
-    "boundary": "Cross-study score only; fugitive/source-loss double counting and extra capture/well burdens require reconciliation; not avoided emissions"
-  },
-  {
-    "result_id": "R050",
     "group": "fleet",
     "case": "40000 m3; 1 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -550,7 +528,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R051",
+    "result_id": "R049",
     "group": "fleet",
     "case": "40000 m3; 1 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -561,7 +539,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R052",
+    "result_id": "R050",
     "group": "fleet",
     "case": "40000 m3; 1 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -572,7 +550,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R053",
+    "result_id": "R051",
     "group": "fleet",
     "case": "40000 m3; 1 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -583,7 +561,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R054",
+    "result_id": "R052",
     "group": "fleet",
     "case": "40000 m3; 1 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -594,7 +572,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R055",
+    "result_id": "R053",
     "group": "fleet",
     "case": "40000 m3; 2 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -605,7 +583,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R056",
+    "result_id": "R054",
     "group": "fleet",
     "case": "40000 m3; 2 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -616,7 +594,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R057",
+    "result_id": "R055",
     "group": "fleet",
     "case": "40000 m3; 2 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -627,7 +605,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R058",
+    "result_id": "R056",
     "group": "fleet",
     "case": "40000 m3; 2 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -638,7 +616,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R059",
+    "result_id": "R057",
     "group": "fleet",
     "case": "40000 m3; 2 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -649,7 +627,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R060",
+    "result_id": "R058",
     "group": "fleet",
     "case": "40000 m3; 5 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -660,7 +638,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R061",
+    "result_id": "R059",
     "group": "fleet",
     "case": "40000 m3; 5 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -671,7 +649,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R062",
+    "result_id": "R060",
     "group": "fleet",
     "case": "40000 m3; 5 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -682,7 +660,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R063",
+    "result_id": "R061",
     "group": "fleet",
     "case": "40000 m3; 5 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -693,7 +671,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R064",
+    "result_id": "R062",
     "group": "fleet",
     "case": "40000 m3; 5 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -704,7 +682,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R065",
+    "result_id": "R063",
     "group": "fleet",
     "case": "40000 m3; 10 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -715,7 +693,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R066",
+    "result_id": "R064",
     "group": "fleet",
     "case": "40000 m3; 10 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -726,7 +704,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R067",
+    "result_id": "R065",
     "group": "fleet",
     "case": "40000 m3; 10 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -737,7 +715,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R068",
+    "result_id": "R066",
     "group": "fleet",
     "case": "40000 m3; 10 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -748,7 +726,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R069",
+    "result_id": "R067",
     "group": "fleet",
     "case": "40000 m3; 10 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -759,7 +737,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R070",
+    "result_id": "R068",
     "group": "fleet",
     "case": "40000 m3; 20 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -770,7 +748,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R071",
+    "result_id": "R069",
     "group": "fleet",
     "case": "40000 m3; 20 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -781,7 +759,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R072",
+    "result_id": "R070",
     "group": "fleet",
     "case": "40000 m3; 20 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -792,7 +770,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R073",
+    "result_id": "R071",
     "group": "fleet",
     "case": "40000 m3; 20 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -803,7 +781,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R074",
+    "result_id": "R072",
     "group": "fleet",
     "case": "40000 m3; 20 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -814,7 +792,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R075",
+    "result_id": "R073",
     "group": "fleet",
     "case": "80000 m3; 1 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -825,7 +803,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R076",
+    "result_id": "R074",
     "group": "fleet",
     "case": "80000 m3; 1 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -836,7 +814,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R077",
+    "result_id": "R075",
     "group": "fleet",
     "case": "80000 m3; 1 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -847,7 +825,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R078",
+    "result_id": "R076",
     "group": "fleet",
     "case": "80000 m3; 1 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -858,7 +836,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R079",
+    "result_id": "R077",
     "group": "fleet",
     "case": "80000 m3; 1 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -869,7 +847,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R080",
+    "result_id": "R078",
     "group": "fleet",
     "case": "80000 m3; 2 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -880,7 +858,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R081",
+    "result_id": "R079",
     "group": "fleet",
     "case": "80000 m3; 2 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -891,7 +869,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R082",
+    "result_id": "R080",
     "group": "fleet",
     "case": "80000 m3; 2 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -902,7 +880,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R083",
+    "result_id": "R081",
     "group": "fleet",
     "case": "80000 m3; 2 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -913,7 +891,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R084",
+    "result_id": "R082",
     "group": "fleet",
     "case": "80000 m3; 2 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -924,7 +902,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R085",
+    "result_id": "R083",
     "group": "fleet",
     "case": "80000 m3; 5 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -935,7 +913,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R086",
+    "result_id": "R084",
     "group": "fleet",
     "case": "80000 m3; 5 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -946,7 +924,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R087",
+    "result_id": "R085",
     "group": "fleet",
     "case": "80000 m3; 5 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -957,7 +935,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R088",
+    "result_id": "R086",
     "group": "fleet",
     "case": "80000 m3; 5 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -968,7 +946,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R089",
+    "result_id": "R087",
     "group": "fleet",
     "case": "80000 m3; 5 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -979,7 +957,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R090",
+    "result_id": "R088",
     "group": "fleet",
     "case": "80000 m3; 10 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -990,7 +968,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R091",
+    "result_id": "R089",
     "group": "fleet",
     "case": "80000 m3; 10 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -1001,7 +979,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R092",
+    "result_id": "R090",
     "group": "fleet",
     "case": "80000 m3; 10 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -1012,7 +990,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R093",
+    "result_id": "R091",
     "group": "fleet",
     "case": "80000 m3; 10 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -1023,7 +1001,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R094",
+    "result_id": "R092",
     "group": "fleet",
     "case": "80000 m3; 10 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -1034,7 +1012,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R095",
+    "result_id": "R093",
     "group": "fleet",
     "case": "80000 m3; 20 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -1045,7 +1023,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R096",
+    "result_id": "R094",
     "group": "fleet",
     "case": "80000 m3; 20 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -1056,7 +1034,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R097",
+    "result_id": "R095",
     "group": "fleet",
     "case": "80000 m3; 20 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -1067,7 +1045,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R098",
+    "result_id": "R096",
     "group": "fleet",
     "case": "80000 m3; 20 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -1078,7 +1056,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R099",
+    "result_id": "R097",
     "group": "fleet",
     "case": "80000 m3; 20 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -1089,7 +1067,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R100",
+    "result_id": "R098",
     "group": "fleet",
     "case": "120000 m3; 1 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -1100,7 +1078,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R101",
+    "result_id": "R099",
     "group": "fleet",
     "case": "120000 m3; 1 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -1111,7 +1089,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R102",
+    "result_id": "R100",
     "group": "fleet",
     "case": "120000 m3; 1 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -1122,7 +1100,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R103",
+    "result_id": "R101",
     "group": "fleet",
     "case": "120000 m3; 1 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -1133,7 +1111,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R104",
+    "result_id": "R102",
     "group": "fleet",
     "case": "120000 m3; 1 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -1144,7 +1122,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R105",
+    "result_id": "R103",
     "group": "fleet",
     "case": "120000 m3; 2 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -1155,7 +1133,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R106",
+    "result_id": "R104",
     "group": "fleet",
     "case": "120000 m3; 2 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -1166,7 +1144,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R107",
+    "result_id": "R105",
     "group": "fleet",
     "case": "120000 m3; 2 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -1177,7 +1155,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R108",
+    "result_id": "R106",
     "group": "fleet",
     "case": "120000 m3; 2 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -1188,7 +1166,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R109",
+    "result_id": "R107",
     "group": "fleet",
     "case": "120000 m3; 2 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -1199,7 +1177,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R110",
+    "result_id": "R108",
     "group": "fleet",
     "case": "120000 m3; 5 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -1210,7 +1188,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R111",
+    "result_id": "R109",
     "group": "fleet",
     "case": "120000 m3; 5 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -1221,7 +1199,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R112",
+    "result_id": "R110",
     "group": "fleet",
     "case": "120000 m3; 5 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -1232,7 +1210,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R113",
+    "result_id": "R111",
     "group": "fleet",
     "case": "120000 m3; 5 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -1243,7 +1221,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R114",
+    "result_id": "R112",
     "group": "fleet",
     "case": "120000 m3; 5 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -1254,7 +1232,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R115",
+    "result_id": "R113",
     "group": "fleet",
     "case": "120000 m3; 10 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -1265,7 +1243,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R116",
+    "result_id": "R114",
     "group": "fleet",
     "case": "120000 m3; 10 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -1276,7 +1254,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R117",
+    "result_id": "R115",
     "group": "fleet",
     "case": "120000 m3; 10 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -1287,7 +1265,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R118",
+    "result_id": "R116",
     "group": "fleet",
     "case": "120000 m3; 10 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -1298,7 +1276,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R119",
+    "result_id": "R117",
     "group": "fleet",
     "case": "120000 m3; 10 Mt/y; 20000 km",
     "metric": "published_ship_count",
@@ -1309,7 +1287,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R120",
+    "result_id": "R118",
     "group": "fleet",
     "case": "120000 m3; 20 Mt/y; 1000 km",
     "metric": "published_ship_count",
@@ -1320,7 +1298,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R121",
+    "result_id": "R119",
     "group": "fleet",
     "case": "120000 m3; 20 Mt/y; 5000 km",
     "metric": "published_ship_count",
@@ -1331,7 +1309,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R122",
+    "result_id": "R120",
     "group": "fleet",
     "case": "120000 m3; 20 Mt/y; 10000 km",
     "metric": "published_ship_count",
@@ -1342,7 +1320,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R123",
+    "result_id": "R121",
     "group": "fleet",
     "case": "120000 m3; 20 Mt/y; 15000 km",
     "metric": "published_ship_count",
@@ -1353,7 +1331,7 @@
     "boundary": "Original Table 7 outputs; density conflict prevents independent cargo/fleet reconstruction"
   },
   {
-    "result_id": "R124",
+    "result_id": "R122",
     "group": "fleet",
     "case": "120000 m3; 20 Mt/y; 20000 km",
     "metric": "published_ship_count",

@@ -362,11 +362,13 @@ Transfer limits: B2-11 adds all 14 pages, eleven figures, six tables, six number
 
 Fraga, Korre, Nie & Durucan (2024). Identifier: 10.1016/j.ccst.2024.100190. [PDF](../papers/B2-12.pdf).
 
-Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 5, 7, 8, 9, 10, 11, 12, 13, 15, 16, 18, 20, 21.
+Reading stage: comprehensive review in progress. All 24 retained pages and the internal appendix have been read as text and visually inspected, with sixteen magnifications. Full item, cited-source and model verification remain unfinished.
 
 Multi-period cost/GHG optimisation incorporates conditioning, ships, pipelines, hubs and injection. Six best-solution cases yield 32.8–142.1 kgCO2e per tonne stored.
 
 Transfer limits: Post-capture gate-to-gate boundary; no capture penalty or matched industrial no-CCS service. Maintenance/decommissioning exclusions and location-specific factors matter.
+
+Comprehensive audit update, 22 November 2026: all 24 retained pages and internal appendix read/rendered, with sixteen magnifications. The 39.2kgCO2e/t combined 1.5 MPa result is preserved as a quote but on HOLD for calculated scores: three Figure 20 component labels already exceed its paired 11617.7 kt prose total. Item/source/model verification remains in progress; no corrected result or complete model is claimed. [Findings](postcapture_lci_comprehensive_findings.md).
 
 ### B2-13 — How to transport carbon dioxide with minimal environmental impacts today and tomorrow A prospective life cycle assessment
 

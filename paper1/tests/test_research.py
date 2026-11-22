@@ -30,10 +30,19 @@ class ResearchChecks(unittest.TestCase):
  def test_outputs_match_current_inputs(self):
   saved=json.loads((ROOT/'outputs/calculated_results.json').read_text());self.assertEqual(saved,self.rows)
   self.assertEqual(sum(x['group']=='fleet' for x in self.rows),75)
-  self.assertEqual(sum(x['group']!='fleet' for x in self.rows),49)
+  self.assertEqual(sum(x['group']!='fleet' for x in self.rows),47)
   self.assertTrue(all(math.isfinite(x['value']) for x in self.rows))
  def test_source_loss_correction_is_disclosed(self):
   text=(ROOT/'manuscript/Paper_1_draft.template.md').read_text()
   self.assertIn('double-count',text);self.assertIn('\\Delta L_{\\mathrm{inc}}',text)
   self.assertIn('Complete lifecycle net avoided GHG is not computed',text)
+ def test_conflicting_combined_case_is_preserved_as_quote_but_excluded_from_scores(self):
+  curated={x['value_id']:x for x in reproduce.read_csv('curated_values.csv')}
+  quote=curated['gwp_combined15']
+  self.assertEqual(quote['value'],'39.2')
+  self.assertTrue(quote['status'].startswith('HOLD'))
+  self.assertNotIn('gwp_combined15',self.inputs)
+  self.assertFalse(any('gwp_combined15' in x['input_ids'].split(';') for x in self.rows))
+  self.assertEqual(sum(x['group']=='intensity_threshold' for x in self.rows),5)
+  self.assertIn('Figure 20',quote['transferability_note'])
 if __name__=='__main__':unittest.main()

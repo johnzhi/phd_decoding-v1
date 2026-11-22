@@ -1,0 +1,4 @@
+item,value,unit,basis
+three_label_subtotal,12220,ktCO2e,Three disjoint Figure20 component labels; not a complete reconstructed total
+subtotal_minus_reported_total,602.2999999999993,ktCO2e,Literal printed numbers; no replacement total inferred
+conditional_rounding_lower_bound_excess,600.75,ktCO2e,"Conditional nearest displayed unit:0.5kt for each integer component,0.05kt for prose total. These are display intervals,not measured uncertainty."

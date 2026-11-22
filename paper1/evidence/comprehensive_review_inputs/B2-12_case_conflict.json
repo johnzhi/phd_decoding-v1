@@ -1,0 +1,28 @@
+{
+  "study_id": "B2-12",
+  "source_path": "papers/B2-12.pdf",
+  "source_sha256": "d72f7eb3ced1df218f53b4c2d3bf025331957a8ea362ad38b9bf5b6b6166ccf3",
+  "doi": "10.1016/j.ccst.2024.100190",
+  "inspection": "All24 retained pages text-read and rendered pages inspected, plus16 magnifications. This record supports the specific Figure20 conflict; full item/source/model verification remains in progress.",
+  "source_quote": {
+    "case": "Combined concept,1.5MPa,described as20% emission-weight best solution",
+    "intensity_kgCO2e_per_t_stored": 39.2,
+    "total_ktCO2e": 11617.7,
+    "physical_pages": [20,22]
+  },
+  "figure20": {
+    "physical_page": 21,
+    "panel": "Combined concept,1.5MPa,absolute-emission mosaic",
+    "disjoint_labelled_components_ktCO2e": {
+      "Transport - Ship operation": 9043,
+      "Transport - Pipe Construction": 2605,
+      "Injection - Well construction": 572
+    },
+    "native_labels": "Manually read from retained rendered figure and magnification. Remaining categories excluded from this lower-bound calculation; no pixel areas or unlabelled values inferred."
+  },
+  "rounding_assumption": "Conditional nearest displayed unit:0.5kt for each integer component,0.05kt for prose total. These are display intervals,not measured uncertainty.",
+  "status": "HOLD_CONFLICTING_BEST_SOLUTION_CASE",
+  "handling": "Preserve39.2 as the exact reported quote in curated_values.csv; remove gwp_combined15 from eligible analysis inputs and both associated AppendixA score calculations. Do not infer a corrected intensity or total. Controlled annual and shared-source operating outputs remain unchanged.",
+  "limitations": "No native MoMILP/cost/LCI case or complete figure arrays reproduced. The figure may represent a different solution than prose; neither presentation is selected as corrected truth. No whole-chain avoided-emissions or retention conclusion follows.",
+  "external_retrieval": "paused_pending_requested_Chrome_connection"
+}
