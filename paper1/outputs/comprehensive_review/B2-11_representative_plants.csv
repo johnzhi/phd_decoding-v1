@@ -1,0 +1,15 @@
+plant,fuel,nominal_power_heat_ratio,Q_B_MW,primary_T_C,primary_P_bar,A_second_DH_condenser,B_LPFWH_bar,deaerator_bar,C_HPFWH_bar,industrial_steam,reboiler_supply,source_reference
+"Idbäcksverket, Nyköping",biomass,0.57,95,543,143,yes,3.5,8.6,29,no,turbine,R37
+"Lugnvik, Östersund",biomass,0.56,125,540,140,yes,3,7.5,17,no,turbine,R20
+Västerås unit5,biomass,0.49,170,485,120,yes,2.9,6.5,13.6,no,turbine,R42/R47
+Västerås unit7,biomass,0.5,150,520,91,yes,2.5,5.8,16.3,no,turbine,personal communication
+"Johannes, Gävle",biomass,0.55,65,480,90,yes,3.6,7,no,no,turbine,R05
+"Silververket, Sala Heby",biomass,0.39,32,480,80,yes,3.6,11,no,no,turbine,R18
+Strängnäs,biomass,0.45,36,482,72,yes,no,3,no,yes15bar,turbine,R11
+Västerås unit6,waste,0.44,159,470,75,yes,2.3,6,no,no,turbine,R01
+"Lillesjö, Uddevalla",waste,0.36,38,400,40,yes,no,6,no,no,turbine,R33
+"Dåva1, Umeå",waste,0.38,55,400,40,no,2,6,no,no,turbine,R41
+Uppsala,waste,0.2,60,226,20,no,no,no(a),no,yes(a),primary steam,R09/R25
+"Sävenäs3, Gothenburg",biomass,0.16,95,220,20,yes(a),no,6,no,no,primary steam,personal communication
+"Munkegårdsverket, Kungälv",biomass,0.13,23,224,29,yes(b),no,no,no,no,hot water(b),R34
+Eksjö,waste,0.11,20,197,16,yes(b),no,no,no,no,hot water(b),R14

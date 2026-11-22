@@ -1,0 +1,2233 @@
+{
+  "study_id": "B2-11",
+  "source_sha256": "5522a8c750a21a7bb097b2ad86e815461a7b7a05d0c3dadc25bbd6865eef2d8a",
+  "provenance": "All48 entries read in native text and rendered pp13–14. Geometry preserves printed source order, including Smith after Cuadrado and Hirata continuation across pages. Extraction is provenance, not original-source verification.",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Beiron, J., Monta˜n´es, R.M., Normann, F., Johnsson, F., 2019. Dynamic modeling for",
+        "assessment of steam cycle operation in waste-fired combined heat and power plants.",
+        "Energy Convers. Manage. 198, 111926 https://doi.org/10.1016/j.",
+        "enconman.2019.111926."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            249.42,
+            548.601,
+            259.845
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            257.357,
+            557.556,
+            267.782
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            265.351,
+            508.569,
+            275.775
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            273.287,
+            390.751,
+            283.712
+          ]
+        }
+      ],
+      "citation": "Beiron, J., Monta˜n´es, R.M., Normann, F., Johnsson, F., 2019. Dynamic modeling for assessment of steam cycle operation in waste-fired combined heat and power plants. Energy Convers. Manage. 198, 111926 https://doi.org/10.1016/j. enconman.2019.111926.",
+      "role": "Dynamic steam-cycle model",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Bhave, A., Taylor, R.H.S., Fennell, P., Livingston, W.R., Shah, N., Dowell, N.M.,",
+        "Dennis, J., Kraft, M., Pourkashanian, M., Insa, M., Jones, J., Burdett, N., Bauen, A.,",
+        "Beal, C., Smallbone, A., Akroyd, J., 2017. Screening and techno-economic",
+        "assessment of biomass-based power generation with CCS technologies to meet 2050",
+        "CO2 targets. Appl. Energy 190, 481–489. https://doi.org/10.1016/j.",
+        "apenergy.2016.12.120."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            281.281,
+            535.463,
+            291.706
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            289.275,
+            557.556,
+            299.699
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            297.212,
+            531.432,
+            307.636
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            305.205,
+            557.527,
+            315.63
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            313.142,
+            515.542,
+            323.567
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            321.136,
+            385.765,
+            331.56
+          ]
+        }
+      ],
+      "citation": "Bhave, A., Taylor, R.H.S., Fennell, P., Livingston, W.R., Shah, N., Dowell, N.M., Dennis, J., Kraft, M., Pourkashanian, M., Insa, M., Jones, J., Burdett, N., Bauen, A., Beal, C., Smallbone, A., Akroyd, J., 2017. Screening and techno-economic assessment of biomass-based power generation with CCS technologies to meet 2050 CO2 targets. Appl. Energy 190, 481–489. https://doi.org/10.1016/j. apenergy.2016.12.120.",
+      "role": "Biomass CCS screening",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Biermann, M., Normann, F., Johnsson, F., Skagestad, R., 2018. Partial carbon capture by",
+        "absorption cycle for reduced specific capture cost. Ind. Eng. Chem. Res. 57 (45),",
+        "15411–15422. https://doi.org/10.1021/acs.iecr.8b02074."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            329.073,
+            557.513,
+            339.497
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            337.066,
+            550.182,
+            347.491
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            345.06,
+            484.897,
+            355.485
+          ]
+        }
+      ],
+      "citation": "Biermann, M., Normann, F., Johnsson, F., Skagestad, R., 2018. Partial carbon capture by absorption cycle for reduced specific capture cost. Ind. Eng. Chem. Res. 57 (45), 15411–15422. https://doi.org/10.1021/acs.iecr.8b02074.",
+      "role": "Partial capture sizing",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C42"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Cooke, D.H., 1985. On Prediction of off-design multistage turbine pressures by Stodola’s",
+        "ellipse. Trans. ASME 107, 596–606."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            352.997,
+            557.54,
+            363.421
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            360.99,
+            422.28,
+            371.415
+          ]
+        }
+      ],
+      "citation": "Cooke, D.H., 1985. On Prediction of off-design multistage turbine pressures by Stodola’s ellipse. Trans. ASME 107, 596–606.",
+      "role": "Stodola off-design turbine pressures",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Cuadrado, R.S., 2009. Return Temperature Influence of a District Heating Network on",
+        "the CHP Plant Production Costs [MSc Thesis]. University of G¨avle."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            368.928,
+            554.334,
+            379.352
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            376.921,
+            510.443,
+            387.346
+          ]
+        }
+      ],
+      "citation": "Cuadrado, R.S., 2009. Return Temperature Influence of a District Heating Network on the CHP Plant Production Costs [MSc Thesis]. University of G¨avle.",
+      "role": "Johannes steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Smith, B., 2020. Microsoft will be carbon negative by 2030 [Accessed 2020-02-11]",
+        "[WWW Document]. URL https://blogs.microsoft.com/blog/2020/01/16/microso",
+        "ft-will-be-carbon-negative-by-2030/."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            384.915,
+            545.669,
+            395.339
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            392.851,
+            550.41,
+            403.276
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            400.845,
+            423.734,
+            411.27
+          ]
+        }
+      ],
+      "citation": "Smith, B., 2020. Microsoft will be carbon negative by 2030 [Accessed 2020-02-11] [WWW Document]. URL https://blogs.microsoft.com/blog/2020/01/16/microso ft-will-be-carbon-negative-by-2030/.",
+      "role": "Voluntary negative-emissions market",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Danish Energy Agency, 2020. Technology data - generation of electricity and district",
+        "heating."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            408.782,
+            550.721,
+            419.207
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            416.776,
+            343.302,
+            427.2
+          ]
+        }
+      ],
+      "citation": "Danish Energy Agency, 2020. Technology data - generation of electricity and district heating.",
+      "role": "Heat-pump capital cost",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C21"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO2",
+        "liquefaction: impact of product pressure and impurities. Int. J. Refrig. 103, 301–315.",
+        "https://doi.org/10.1016/j.ijrefrig.2019.04.011."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            424.769,
+            535.348,
+            435.194
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            432.706,
+            557.548,
+            443.131
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            440.7,
+            454.574,
+            451.125
+          ]
+        }
+      ],
+      "citation": "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO2 liquefaction: impact of product pressure and impurities. Int. J. Refrig. 103, 301–315. https://doi.org/10.1016/j.ijrefrig.2019.04.011.",
+      "role": "Liquefaction electricity/cooling",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C16",
+        "C17"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Djurberg, R., 2020. Practical Implementation of Bio-CCS in Uppsala: a Techno-Economic",
+        "Assessment [MSc Thesis]. KTH Royal Institute of Technology."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            448.637,
+            557.544,
+            459.061
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            456.63,
+            496.121,
+            467.055
+          ]
+        }
+      ],
+      "citation": "Djurberg, R., 2020. Practical Implementation of Bio-CCS in Uppsala: a Techno-Economic Assessment [MSc Thesis]. KTH Royal Institute of Technology.",
+      "role": "Uppsala steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Eliasson, Å., Fahrman, E., Biermann, M., Normann, F., Harvey, S., 2021. Efficient heat",
+        "integration of industrial CO2 capture and district heating supply. Submitted for",
+        "publication."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            464.567,
+            555.253,
+            474.992
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            472.561,
+            547.411,
+            482.986
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            480.554,
+            354.166,
+            490.979
+          ]
+        }
+      ],
+      "citation": "Eliasson, Å., Fahrman, E., Biermann, M., Normann, F., Harvey, S., 2021. Efficient heat integration of industrial CO2 capture and district heating supply. Submitted for publication.",
+      "role": "Capture-compression-liquefaction capital fit",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C20"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Erneby, R., 2012. Kortsiktig produktionsplanering i mindre fj¨arrv¨armesystem [MSc",
+        "Thesis]. M¨alardalen University."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            488.492,
+            544.875,
+            498.916
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            496.485,
+            409.583,
+            506.91
+          ]
+        }
+      ],
+      "citation": "Erneby, R., 2012. Kortsiktig produktionsplanering i mindre fj¨arrv¨armesystem [MSc Thesis]. M¨alardalen University.",
+      "role": "Strängnäs steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Fajardy, M., Mac Dowell, N., 2017. Can BECCS deliver sustainable and resource efficient",
+        "negative emissions? Energy Environ. Sci. 10, 1389–1426. https://doi.org/10.1039/",
+        "c7ee00465f."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            504.422,
+            557.519,
+            514.846
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            512.415,
+            557.533,
+            522.84
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            520.41,
+            355.046,
+            530.834
+          ]
+        }
+      ],
+      "citation": "Fajardy, M., Mac Dowell, N., 2017. Can BECCS deliver sustainable and resource efficient negative emissions? Energy Environ. Sci. 10, 1389–1426. https://doi.org/10.1039/ c7ee00465f.",
+      "role": "Whole BECCS supply-chain boundary",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C55"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Energif¨oretagen Sverige, 2021. Tillf¨ord energi till fj¨arrv¨arme och kraftv¨arme - ¨aldre",
+        "statistik [Accessed 2021-06-24] [WWW Document]. URL https://www.energi",
+        "foretagen.se/statistik/fjarrvarmestatistik/tillford-energi/tillford-energi-till-fjarrvar",
+        "me-och-kraftvarme/."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            528.346,
+            547.316,
+            538.771
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            536.34,
+            541.021,
+            546.764
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            544.276,
+            552.693,
+            554.701
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            552.271,
+            379.102,
+            562.695
+          ]
+        }
+      ],
+      "citation": "Energif¨oretagen Sverige, 2021. Tillf¨ord energi till fj¨arrv¨arme och kraftv¨arme - ¨aldre statistik [Accessed 2021-06-24] [WWW Document]. URL https://www.energi foretagen.se/statistik/fjarrvarmestatistik/tillford-energi/tillford-energi-till-fjarrvar me-och-kraftvarme/.",
+      "role": "Annual district-heat demands",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Fransson, A., Kullendorff, A., Tilly, H.Å., 1998. Konvertering av hetvattenpanna tilll",
+        "extern ångproduktion."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            560.207,
+            548.301,
+            570.632
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            568.201,
+            383.655,
+            578.625
+          ]
+        }
+      ],
+      "citation": "Fransson, A., Kullendorff, A., Tilly, H.Å., 1998. Konvertering av hetvattenpanna tilll extern ångproduktion.",
+      "role": "Eksjö hot-water cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Fuss, S., Johnsson, F., 2021. The BECCS implementation gap–a Swedish case study.",
+        "Front. Energy Res. 8, 1–18. https://doi.org/10.3389/fenrg.2020.553400."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            576.195,
+            546.543,
+            586.619
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            584.132,
+            528.121,
+            594.556
+          ]
+        }
+      ],
+      "citation": "Fuss, S., Johnsson, F., 2021. The BECCS implementation gap–a Swedish case study. Front. Energy Res. 8, 1–18. https://doi.org/10.3389/fenrg.2020.553400.",
+      "role": "Swedish implementation/policy",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Gao, T., Selinger, J.L., Rochelle, G.T., 2019. Demonstration of 99% CO2 removal from",
+        "coal flue gas by amine scrubbing. Int. J. Greenh. Gas Control 83, 236–244. https://",
+        "doi.org/10.1016/j.ijggc.2019.02.013."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            592.125,
+            555.154,
+            602.55
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            600.062,
+            557.533,
+            610.486
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            608.056,
+            426.641,
+            618.48
+          ]
+        }
+      ],
+      "citation": "Gao, T., Selinger, J.L., Rochelle, G.T., 2019. Demonstration of 99% CO2 removal from coal flue gas by amine scrubbing. Int. J. Greenh. Gas Control 83, 236–244. https:// doi.org/10.1016/j.ijggc.2019.02.013.",
+      "role": "High capture rates",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C43"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Gardarsd´ottir, S.´O., Normann, F., Skagestad, R., Johnsson, F., 2018. Investment costs and",
+        "CO2 reduction potential of carbon capture from industrial plants - a Swedish case",
+        "study. Int. J. Greenh. Gas Control 76, 111–124. https://doi.org/10.1016/j.",
+        "ijggc.2018.06.022."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            616.049,
+            557.537,
+            626.474
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            623.986,
+            554.253,
+            634.411
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            631.979,
+            533.513,
+            642.404
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            639.917,
+            373.332,
+            650.341
+          ]
+        }
+      ],
+      "citation": "Gardarsd´ottir, S.´O., Normann, F., Skagestad, R., Johnsson, F., 2018. Investment costs and CO2 reduction potential of carbon capture from industrial plants - a Swedish case study. Int. J. Greenh. Gas Control 76, 111–124. https://doi.org/10.1016/j. ijggc.2018.06.022.",
+      "role": "MEA duty and capture cost context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Ghaffarpour, M.F., Ros, H., 2018. Integration of Thermochemical Heat Storage with a",
+        "Municipal District Heating System: in Future Scenario with Large Variations in",
+        "Electricity Price [MSc Thesis]. M¨alardalen University."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            647.91,
+            553.274,
+            658.335
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            655.847,
+            545.541,
+            666.272
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            663.841,
+            473.475,
+            674.265
+          ]
+        }
+      ],
+      "citation": "Ghaffarpour, M.F., Ros, H., 2018. Integration of Thermochemical Heat Storage with a Municipal District Heating System: in Future Scenario with Large Variations in Electricity Price [MSc Thesis]. M¨alardalen University.",
+      "role": "Silververket steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Gustafsson, K., Sadegh-Vaziri, R., Gr¨onkvist, S., Levihn, F., Sundberg, C., 2021. BECCS",
+        "with combined heat and power: assessing the energy penalty. Int. J. Greenh. Gas",
+        "Control 110, 103434. https://doi.org/10.1016/j.ijggc.2021.103434."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            671.835,
+            555.144,
+            682.259
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            679.771,
+            551.626,
+            690.196
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            687.765,
+            513.902,
+            698.189
+          ]
+        }
+      ],
+      "citation": "Gustafsson, K., Sadegh-Vaziri, R., Gr¨onkvist, S., Levihn, F., Sundberg, C., 2021. BECCS with combined heat and power: assessing the energy penalty. Int. J. Greenh. Gas Control 110, 103434. https://doi.org/10.1016/j.ijggc.2021.103434.",
+      "role": "Alternative capture technology context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Hagberg, L., 2008. Samproduktion av etanol och kraftv¨arme: Integreringsm¨ojligheter i",
+        "energikombinat [MSc Thesis]. Swedish University of Agricultural Sciences."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            695.702,
+            555.022,
+            706.127
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            703.696,
+            533.573,
+            714.12
+          ]
+        }
+      ],
+      "citation": "Hagberg, L., 2008. Samproduktion av etanol och kraftv¨arme: Integreringsm¨ojligheter i energikombinat [MSc Thesis]. Swedish University of Agricultural Sciences.",
+      "role": "Lugnvik steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        13,
+        14
+      ],
+      "native_lines": [
+        "Hirata, T., Tsujiuchi, T., Kamijo, T., Kishimoto, S., Inui, M., Kawasaki, S., Lin, Y.J.,",
+        "Nakagami, Y., Nojo, T., 2020. Near-zero emission coal-fired power plant using",
+        "advanced KM CDR processTM. Int. J. Greenh. Gas Control 92, 102847. https://doi.",
+        "org/10.1016/j.ijggc.2019.102847."
+      ],
+      "line_bboxes": [
+        {
+          "page": 13,
+          "bbox": [
+            306.595,
+            711.689,
+            545.46,
+            722.114
+          ]
+        },
+        {
+          "page": 13,
+          "bbox": [
+            318.557,
+            719.626,
+            544.283,
+            730.05
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.55,
+            51.2,
+            286.608,
+            62.554
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            60.123,
+            148.657,
+            70.547
+          ]
+        }
+      ],
+      "citation": "Hirata, T., Tsujiuchi, T., Kamijo, T., Kishimoto, S., Inui, M., Kawasaki, S., Lin, Y.J., Nakagami, Y., Nojo, T., 2020. Near-zero emission coal-fired power plant using advanced KM CDR processTM. Int. J. Greenh. Gas Control 92, 102847. https://doi. org/10.1016/j.ijggc.2019.102847.",
+      "role": "High capture rates",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C43"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Ignell, V., Johansson, E., 2021. Local Infrastructures for CCS Clusters - a Case Study of",
+        "Two CHP Plants in Gothenburg [MSc Thesis]. Chalmers University of Technology."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            68.06,
+            287.079,
+            78.484
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            76.053,
+            285.79,
+            86.478
+          ]
+        }
+      ],
+      "citation": "Ignell, V., Johansson, E., 2021. Local Infrastructures for CCS Clusters - a Case Study of Two CHP Plants in Gothenburg [MSc Thesis]. Chalmers University of Technology.",
+      "role": "Aspen capture, electricity/cooling, heat recovery",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13",
+        "C14",
+        "C15",
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "IPCC, 2018. Global Warming of 1.5 C. AN IPCC Special Report on the Impacts of Global",
+        "Warming of 1.5C above Pre-Industrial Levels and Related Global Greenhouse Gas",
+        "Emission Pathways."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            83.99,
+            288.551,
+            94.415
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            91.984,
+            283.582,
+            102.409
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            99.977,
+            107.449,
+            110.402
+          ]
+        }
+      ],
+      "citation": "IPCC, 2018. Global Warming of 1.5 C. AN IPCC Special Report on the Impacts of Global Warming of 1.5C above Pre-Industrial Levels and Related Global Greenhouse Gas Emission Pathways.",
+      "role": "Global climate motivation",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Johnsson, F., Normann, F., Svensson, E., 2020. Marginal abatement cost curve of",
+        "industrial CO2 capture and storage – a Swedish case study. Front. Energy Res. 8, 175.",
+        "https://doi.org/10.3389/fenrg.2020.00175."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            107.914,
+            270.978,
+            118.339
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            115.908,
+            288.53,
+            126.333
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            123.845,
+            175.532,
+            134.27
+          ]
+        }
+      ],
+      "citation": "Johnsson, F., Normann, F., Svensson, E., 2020. Marginal abatement cost curve of industrial CO2 capture and storage – a Swedish case study. Front. Energy Res. 8, 175. https://doi.org/10.3389/fenrg.2020.00175.",
+      "role": "Industrial hub volumes and comparator",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C28",
+        "C53"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Jung, J., 2010. Energy Mapping of the Waste Incineration Plant in Uppsala [MSc Thesis].",
+        "Uppsala University."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            131.838,
+            288.544,
+            142.263
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            139.832,
+            107.015,
+            150.256
+          ]
+        }
+      ],
+      "citation": "Jung, J., 2010. Energy Mapping of the Waste Incineration Plant in Uppsala [MSc Thesis]. Uppsala University.",
+      "role": "Uppsala cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "K¨arki, J., Tsupari, E., Thomasson, T., Arasto, A., Pikkarainen, T., 2017. Achieving",
+        "negative emissions with the most promising business case for bio-CCS in power and",
+        "CHP production. Energy Proc. 114, 5994–6002. https://doi.org/10.1016/j.",
+        "egypro.2017.03.1734."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            147.769,
+            272.82,
+            158.194
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            155.763,
+            288.53,
+            166.187
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            163.699,
+            265.073,
+            174.124
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            171.693,
+            113.832,
+            182.118
+          ]
+        }
+      ],
+      "citation": "K¨arki, J., Tsupari, E., Thomasson, T., Arasto, A., Pikkarainen, T., 2017. Achieving negative emissions with the most promising business case for bio-CCS in power and CHP production. Energy Proc. 114, 5994–6002. https://doi.org/10.1016/j. egypro.2017.03.1734.",
+      "role": "Earlier CHP negative-emissions case",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Kemper, J., 2015. Biomass and carbon dioxide capture and storage: a review. Int. J.",
+        "Greenh. Gas Control 40, 401–430. https://doi.org/10.1016/j.ijggc.2015.06.012."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            179.63,
+            279.606,
+            190.055
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            187.624,
+            279.43,
+            198.048
+          ]
+        }
+      ],
+      "citation": "Kemper, J., 2015. Biomass and carbon dioxide capture and storage: a review. Int. J. Greenh. Gas Control 40, 401–430. https://doi.org/10.1016/j.ijggc.2015.06.012.",
+      "role": "BECCS review/context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Kj¨arstad, J., Skagestad, R., Eldrup, N.H., Johnsson, F., 2016. Ship transport — a low cost",
+        "and low risk CO2 transport option in the Nordic countries. Int. J. Greenh. Gas",
+        "Control 54, 168–184. https://doi.org/10.1016/j.ijggc.2016.08.024."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            195.617,
+            288.538,
+            206.042
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            203.554,
+            274.738,
+            213.979
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            211.548,
+            242.75,
+            221.973
+          ]
+        }
+      ],
+      "citation": "Kj¨arstad, J., Skagestad, R., Eldrup, N.H., Johnsson, F., 2016. Ship transport — a low cost and low risk CO2 transport option in the Nordic countries. Int. J. Greenh. Gas Control 54, 168–184. https://doi.org/10.1016/j.ijggc.2016.08.024.",
+      "role": "Road/ship/hub and14–22€/t context",
+      "verification_status": "primary_text_checked_scoped_boundary_only",
+      "claim_links": [
+        "C27",
+        "C28",
+        "C52"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Kouri, S., Tsupari, E., K¨arki, J., Teir, S., Sormunen, R., Arponen, T., Tuomaala, M., 2017.",
+        "The potential for CCUS in selected industrial sectors - summary of concept",
+        "evaluations in Finland. Energy Proc. 114, 6418–6431. https://doi.org/10.1016/j.",
+        "egypro.2017.03.1778."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            219.485,
+            288.549,
+            229.909
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            227.478,
+            264.523,
+            237.903
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            235.472,
+            282.988,
+            245.897
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            243.409,
+            113.832,
+            253.834
+          ]
+        }
+      ],
+      "citation": "Kouri, S., Tsupari, E., K¨arki, J., Teir, S., Sormunen, R., Arponen, T., Tuomaala, M., 2017. The potential for CCUS in selected industrial sectors - summary of concept evaluations in Finland. Energy Proc. 114, 6418–6431. https://doi.org/10.1016/j. egypro.2017.03.1778.",
+      "role": "Earlier CHP negative-emissions case",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Kujanp¨a¨a, L., Pursiheimo, E., 2017. Techno-economic evaluation of flexible CCS concepts",
+        "in a CHP system. Energy Proc. 114, 6638–6649. https://doi.org/10.1016/j.",
+        "egypro.2017.03.1818."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            251.402,
+            288.547,
+            261.827
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            259.339,
+            266.377,
+            269.764
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            267.333,
+            113.832,
+            277.758
+          ]
+        }
+      ],
+      "citation": "Kujanp¨a¨a, L., Pursiheimo, E., 2017. Techno-economic evaluation of flexible CCS concepts in a CHP system. Energy Proc. 114, 6638–6649. https://doi.org/10.1016/j. egypro.2017.03.1818.",
+      "role": "CHP/truck/train alternatives",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08",
+        "C27"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Levihn, F., Linde, L., Gustafsson, K., Dahlen, E., 2019. Introducing BECCS through HPC to",
+        "the research agenda: the case of combined heat and power in Stockholm. Energy",
+        "Rep. 5, 1381–1389. https://doi.org/10.1016/j.egyr.2019.09.018."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            275.27,
+            288.529,
+            285.695
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            283.263,
+            282.613,
+            293.688
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            291.258,
+            236.702,
+            301.682
+          ]
+        }
+      ],
+      "citation": "Levihn, F., Linde, L., Gustafsson, K., Dahlen, E., 2019. Introducing BECCS through HPC to the research agenda: the case of combined heat and power in Stockholm. Energy Rep. 5, 1381–1389. https://doi.org/10.1016/j.egyr.2019.09.018.",
+      "role": "HPC/Stockholm alternative capture context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Magnanelli, E., Mosby, J., Becidan, M., 2021. Scenarios for carbon capture integration in",
+        "a waste-to-energy plant. Energy 227, 120407. https://doi.org/10.1016/j.",
+        "energy.2021.120407."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            299.194,
+            288.553,
+            309.619
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            307.188,
+            259.574,
+            317.612
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            315.124,
+            111.754,
+            325.549
+          ]
+        }
+      ],
+      "citation": "Magnanelli, E., Mosby, J., Becidan, M., 2021. Scenarios for carbon capture integration in a waste-to-energy plant. Energy 227, 120407. https://doi.org/10.1016/j. energy.2021.120407.",
+      "role": "Waste-plant capture integration",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "¨Oberg, S., 2017. Design of Partial CO2 Capture from Waste Fired CHP Plants. Chalmers",
+        "University of Technology."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            323.119,
+            288.571,
+            333.543
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            331.112,
+            124.842,
+            341.537
+          ]
+        }
+      ],
+      "citation": "¨Oberg, S., 2017. Design of Partial CO2 Capture from Waste Fired CHP Plants. Chalmers University of Technology.",
+      "role": "Lillesjö steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Pettersson, N., Eriksson, N., 2006. Small Scale Generation of Electric Power in Arvika",
+        "[MSc Thesis]. Karlstad University."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            339.049,
+            284.063,
+            349.473
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            347.042,
+            148.627,
+            357.467
+          ]
+        }
+      ],
+      "citation": "Pettersson, N., Eriksson, N., 2006. Small Scale Generation of Electric Power in Arvika [MSc Thesis]. Karlstad University.",
+      "role": "Munkegårdsverket cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Pour, N., Webley, P.A., Cook, P.J., 2018. Potential for using municipal solid waste as a",
+        "resource for bioenergy with carbon capture and storage (BECCS). Int. J. Greenh. Gas",
+        "Control 68, 1–15. https://doi.org/10.1016/j.ijggc.2017.11.007."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            37.588,
+            354.98,
+            288.122,
+            365.404
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            362.973,
+            288.572,
+            373.398
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            49.551,
+            370.91,
+            231.979,
+            381.334
+          ]
+        }
+      ],
+      "citation": "Pour, N., Webley, P.A., Cook, P.J., 2018. Potential for using municipal solid waste as a resource for bioenergy with carbon capture and storage (BECCS). Int. J. Greenh. Gas Control 68, 1–15. https://doi.org/10.1016/j.ijggc.2017.11.007.",
+      "role": "Waste BECCS context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Romanchenko, D., Odenberger, M., G¨oransson, L., Johnsson, F., 2017. Impact of",
+        "electricity price fluctuations on the operation of district heating systems: a case study",
+        "of district heating in G¨oteborg, Sweden. Appl. Energy 204, 16–30. https://doi.org/",
+        "10.1016/j.apenergy.2017.06.092."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            52.129,
+            537.772,
+            62.554
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            60.123,
+            557.511,
+            70.547
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            68.06,
+            557.048,
+            78.484
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            76.053,
+            415.857,
+            86.478
+          ]
+        }
+      ],
+      "citation": "Romanchenko, D., Odenberger, M., G¨oransson, L., Johnsson, F., 2017. Impact of electricity price fluctuations on the operation of district heating systems: a case study of district heating in G¨oteborg, Sweden. Appl. Energy 204, 16–30. https://doi.org/ 10.1016/j.apenergy.2017.06.092.",
+      "role": "Gothenburg heat-profile source",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Saarinen, L., 2008. Modelling and Control of a District Heating System [MSc Thesis].",
+        "Uppsala University."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            83.99,
+            551.653,
+            94.415
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            91.984,
+            376.019,
+            102.409
+          ]
+        }
+      ],
+      "citation": "Saarinen, L., 2008. Modelling and Control of a District Heating System [MSc Thesis]. Uppsala University.",
+      "role": "Idbäcksverket cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Sandberg, P., 2020. Northern lights - a European CO2 transport and storage network",
+        "[Presentation slides]. Retrieved from https://zeroemissionsplatform.eu/co2-ts-infras",
+        "tructure/."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            99.977,
+            550.842,
+            110.402
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            107.914,
+            557.505,
+            118.339
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            115.908,
+            348.005,
+            126.333
+          ]
+        }
+      ],
+      "citation": "Sandberg, P., 2020. Northern lights - a European CO2 transport and storage network [Presentation slides]. Retrieved from https://zeroemissionsplatform.eu/co2-ts-infras tructure/.",
+      "role": "Northern Lights30–55€/t prediction",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C53"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Schweiger, G., Rantzer, J., Ericsson, K., Lauenburg, P., 2017. The potential of power-to-",
+        "heat in Swedish district heating systems. Energy 137, 661–669. https://doi.org/",
+        "10.1016/j.energy.2017.02.075."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            123.845,
+            557.543,
+            134.27
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            131.838,
+            548.941,
+            142.263
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            139.832,
+            409.048,
+            150.256
+          ]
+        }
+      ],
+      "citation": "Schweiger, G., Rantzer, J., Ericsson, K., Lauenburg, P., 2017. The potential of power-to- heat in Swedish district heating systems. Energy 137, 661–669. https://doi.org/ 10.1016/j.energy.2017.02.075.",
+      "role": "2012 Luleå/Malmö heat profiles",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "SOU, 2020. V¨agen till en klimatpositiv framtid - Bet¨ankande av Klimatpolitiska",
+        "v¨agvalsutredningen. Stockholm."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            147.769,
+            534.845,
+            158.194
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            155.763,
+            413.039,
+            166.187
+          ]
+        }
+      ],
+      "citation": "SOU, 2020. V¨agen till en klimatpositiv framtid - Bet¨ankande av Klimatpolitiska v¨agvalsutredningen. Stockholm.",
+      "role": "Swedish proposed BECCS targets",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Spett, T., 2006. Optimering av elproduktionen på Dåva kraftv¨armeverk [MSc Thesis].",
+        "Umeå University."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            163.699,
+            552.561,
+            174.124
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            171.693,
+            369.783,
+            182.118
+          ]
+        }
+      ],
+      "citation": "Spett, T., 2006. Optimering av elproduktionen på Dåva kraftv¨armeverk [MSc Thesis]. Umeå University.",
+      "role": "Dåva1 cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Starfelt, F., Tomas-Aparicio, E., Li, H., Dotzauer, E., 2015. Integration of torrefaction in",
+        "CHP plants - a case study. Energy Convers. Manage. 90, 427–435. https://doi.org/",
+        "10.1016/j.enconman.2014.11.019."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            179.63,
+            557.558,
+            190.055
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            187.624,
+            556.311,
+            198.048
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            195.617,
+            419.039,
+            206.042
+          ]
+        }
+      ],
+      "citation": "Starfelt, F., Tomas-Aparicio, E., Li, H., Dotzauer, E., 2015. Integration of torrefaction in CHP plants - a case study. Energy Convers. Manage. 90, 427–435. https://doi.org/ 10.1016/j.enconman.2014.11.019.",
+      "role": "Västerås5 cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Statistics Sweden, 2019. Electricity supply, district heating and supply of natural and",
+        "gasworks gas 2018, Sveriges officiella statistik."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            203.554,
+            551.81,
+            213.979
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            211.548,
+            454.113,
+            221.973
+          ]
+        }
+      ],
+      "citation": "Statistics Sweden, 2019. Electricity supply, district heating and supply of natural and gasworks gas 2018, Sveriges officiella statistik.",
+      "role": "Waste biogenic share",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "The Swedish Energy Agency, 2021. Tr¨adbr¨ansle-, torv- och avfallspriser [Accessed 2021-",
+        "07-07] [WWW Document]. URL https://www.energimyndigheten.se/statistik/den-o",
+        "fficiella-statistiken/statistikprodukter/tradbransle-och-torvpriser/."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            219.485,
+            557.525,
+            229.909
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            227.478,
+            557.519,
+            237.903
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            235.472,
+            507.409,
+            245.897
+          ]
+        }
+      ],
+      "citation": "The Swedish Energy Agency, 2021. Tr¨adbr¨ansle-, torv- och avfallspriser [Accessed 2021- 07-07] [WWW Document]. URL https://www.energimyndigheten.se/statistik/den-o fficiella-statistiken/statistikprodukter/tradbransle-och-torvpriser/.",
+      "role": "Swedish fuel/gate prices",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C22"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "The Swedish Envirnomental Protection Agency, 2004. Rapport 5401 - Sammanst¨allning",
+        "av br¨ansledata. Halter och br¨anslenyckeltal."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            243.409,
+            557.55,
+            253.834
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            251.402,
+            445.713,
+            261.827
+          ]
+        }
+      ],
+      "citation": "The Swedish Envirnomental Protection Agency, 2004. Rapport 5401 - Sammanst¨allning av br¨ansledata. Halter och br¨anslenyckeltal.",
+      "role": "As-received fuel composition",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Tsupari, E., Arponen, T., Hankalin, V., K¨arki, J., Kouri, S., 2017. Feasibility comparison",
+        "of bioenergy and CO2 capture and storage in a large combined heat, power and",
+        "cooling system. Energy 139, 1040–1051. https://doi.org/10.1016/j.",
+        "energy.2017.08.022."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            259.339,
+            557.513,
+            269.764
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            267.333,
+            548.975,
+            277.758
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            275.27,
+            514.066,
+            285.695
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            283.263,
+            378.954,
+            293.688
+          ]
+        }
+      ],
+      "citation": "Tsupari, E., Arponen, T., Hankalin, V., K¨arki, J., Kouri, S., 2017. Feasibility comparison of bioenergy and CO2 capture and storage in a large combined heat, power and cooling system. Energy 139, 1040–1051. https://doi.org/10.1016/j. energy.2017.08.022.",
+      "role": "Earlier CHP capture context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Wiesner, E., 2017. Optimization and Energy Efficiency Measures in Modified Combined",
+        "Heat and Power Plant Processes - a Case Study of Changed Processes in M¨alarenergi",
+        "Power Plant [MSc Thesis]. Uppsala University."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            291.258,
+            557.515,
+            301.682
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            299.194,
+            557.507,
+            309.619
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            307.188,
+            453.574,
+            317.612
+          ]
+        }
+      ],
+      "citation": "Wiesner, E., 2017. Optimization and Energy Efficiency Measures in Modified Combined Heat and Power Plant Processes - a Case Study of Changed Processes in M¨alarenergi Power Plant [MSc Thesis]. Uppsala University.",
+      "role": "Västerås5 cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Zheng, R.F., Barpaga, D., Mathias, P.M., Malhotra, D., Koech, P.K., Jiang, Y., Bhakta, M.,",
+        "Lail, M., Rayer, A., Whyatt, G.A., Freeman, C.J., Zwoster, A.J., Weitz, K.K.,",
+        "Heldebrant, D.J., 2020. A single-component water-lean post-combustion CO2",
+        "capture solvent with exceptionally low operational heat and total costs of capture -",
+        "comprehensive experimental and theoretical evaluation. Energy Environ. Sci. 13,",
+        "4106–4113. https://doi.org/10.1039/d0ee02585b."
+      ],
+      "line_bboxes": [
+        {
+          "page": 14,
+          "bbox": [
+            306.592,
+            315.124,
+            557.538,
+            325.549
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            323.119,
+            534.661,
+            333.543
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            331.112,
+            540.562,
+            341.537
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            339.049,
+            557.51,
+            349.473
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            347.042,
+            551.621,
+            357.467
+          ]
+        },
+        {
+          "page": 14,
+          "bbox": [
+            318.555,
+            354.98,
+            464.751,
+            365.404
+          ]
+        }
+      ],
+      "citation": "Zheng, R.F., Barpaga, D., Mathias, P.M., Malhotra, D., Koech, P.K., Jiang, Y., Bhakta, M., Lail, M., Rayer, A., Whyatt, G.A., Freeman, C.J., Zwoster, A.J., Weitz, K.K., Heldebrant, D.J., 2020. A single-component water-lean post-combustion CO2 capture solvent with exceptionally low operational heat and total costs of capture - comprehensive experimental and theoretical evaluation. Energy Environ. Sci. 13, 4106–4113. https://doi.org/10.1039/d0ee02585b.",
+      "role": "Water-lean solvent cited as KS-1",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C44"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R48"
+    }
+  ]
+}

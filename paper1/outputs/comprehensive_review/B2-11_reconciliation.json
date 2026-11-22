@@ -1,0 +1,25 @@
+{
+  "study_id": "B2-11",
+  "checks": 65,
+  "truck_component_rows": 15,
+  "representative_plants": 14,
+  "author_model": "not_reproduced",
+  "EOS_version": "8.0.0",
+  "EOS_assumptions": "HEOS pureCO2/water; absolute/gauge interpretations explicitly conditional",
+  "missing_cooling_MEA_density_LCI_preserved": true,
+  "accepted_inputs_changed": false,
+  "excluded_missing_inputs": [
+    "Explicit publisher Supplementary Material and full110-plant database",
+    "Native14 Ebsilon cases, turbine/extraction maps and retrofit constraints",
+    "Ignell/Johansson Aspen capture and Deng liquefaction cases/complete utility streams",
+    "Unrounded extracted-steam enthalpy/heat-recovery/COP/HP-duty bases by plant",
+    "Product pressure datum, composition, purity and liquid-density basis",
+    "Hourly2012 three-city demand arrays, leap-calendar handling and78-network mappings",
+    "Native spreadsheet dispatch, minimum-load edge cases and all110 annual output arrays",
+    "Capture/HP/new-FGC costs, price-year and construction/operating cash-flow timing",
+    "Integer fleet/driver calendar, payload constraints, buffers and travel-distance arrays",
+    "Sandberg matched ship/storage case and route/conditioning/price basis",
+    "Biomass supply, electricity/heat counterfactuals, truck/ship/terminal/well/asset LCI",
+    "Native pressure-constrained storage and retained-carbon verification"
+  ]
+}

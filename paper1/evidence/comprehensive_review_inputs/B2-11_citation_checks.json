@@ -1,0 +1,22 @@
+{
+  "study_id": "B2-11",
+  "source_sha256": "5522a8c750a21a7bb097b2ad86e815461a7b7a05d0c3dadc25bbd6865eef2d8a",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R28",
+      "cited_study": "B3-33",
+      "source_sha256": "d43ed9307e5bc7c19228dad415ca2ef988776b841e2bb0e516a218c200987eda",
+      "doi": "10.1016/j.ijggc.2016.08.024",
+      "targeted_pages": [
+        1,
+        2,
+        3,
+        8
+      ],
+      "inspection": "All four selected native pages text-read and rendered pages inspected. Scoped passage check only; remainder of the17-page original and its source chain are pending.",
+      "supported": "Identity/DOI, Nordic ship ramp-up and volume/distance context. Original p8 reports14–22€/t for20→1Mtpa Rautaruukki–Faludden bulk ship systems; p3 specifies70bar20°C hub to70bar0–20°C storage boundary,99%purity and8000h design.",
+      "unresolved": "Includes liquefaction, intermediate barge storage, ports/loading/unloading, flashing70→7bar and pumping/heating, plus subsea templates/wellheads/distribution/umbilicals; excludes collection grid and drilling injection/water-production wells. These are not freight-only costs matched to B2-11 product15bar/−25°C, which already includes compression/liquefaction. B2-11 separately uses unverified Sandberg30–55€/t; no accusation that it added14–22 to its cost range. Full original model/source support and current operating access remain unverified."
+    }
+  ]
+}

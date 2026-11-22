@@ -1,0 +1,2246 @@
+{
+  "study_id": "B2-11",
+  "source_sha256": "5522a8c750a21a7bb097b2ad86e815461a7b7a05d0c3dadc25bbd6865eef2d8a",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 14 retained pages read as text and visually inspected, plus nine magnifications. Eleven figures, six tables, nomenclature, six numbered equations and all 48 printed bibliography entries inspected. Sixty-five limited diagnostics, 15 analyst truck-volume examples and 14 transcribed representative cases preserve utility/state, dispatch, cost and climate boundaries. One citation edge has scoped primary support; 47 other originals, 12 native dependencies and explicit publisher SI remain unverified. No full author model reproduced.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "original_model_status": "printed_utility_cost_components_and_conditional_EOS_checked_native_Ebsilon_Aspen_spreadsheet_110plant_LCI_not_reproduced",
+  "supplement_status": "explicit_publisher_SI_and_database_missing_locally_no_embedded_assets_external_retrieval_paused",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract and keywords",
+      "assessment": "Johanna Beiron, Fredrik Normann and Filip Johnsson; IJGGC 118 (2022) 103684, DOI 10.1016/j.ijggc.2022.103684. CC BY 4.0. Received 5 September 2021, revised 22 April 2022, accepted 27 April and online 3 May 2022. Abstract capture, cost and negative-emission statements retain distinct denominators."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction, whole literature review",
+      "assessment": "Read the climate/BECCS premise, net biomass stock growth, Swedish targets, industrial/CHP context, voluntary markets, previous biomass/waste/HPC studies and contribution at three system levels. Historical plans are not current operation or access. Original references remain separately unverified."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "Nomenclature",
+      "assessment": "All 14 acronym entries read: BECCS, CAPEX, CCS, CHP, CO2, COP, DH, FGC, HOB, HPFWH, LHV, LPFWH, MEA and OPEX. No complete mathematical-variable glossary is provided."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2 Method and2.1 CHP database",
+      "assessment": "110 plants in 78 networks, 7–540 MW and power-to-heat ratio 0.1–0.65. The database includes capacity, FGC, steam conditions and commissioning year, with explicit SI. Figure 2 display range differs from the stated thermal maximum; the full database is needed to map basis/cutoff."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "scope": "2.2 Steam-cycle process model",
+      "assessment": "Fourteen representative Ebsilon models, 88% isentropic and 90% boiler efficiencies; Table 1 states/extractions and Table 2 fixed fuels read. Boiler load is constant with/without capture, and industrial steam delivery is maintained. Full-load/off-design comparisons are not annual physical validation."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "MEA, steam extraction and FGC assumptions",
+      "assessment": "3.6 MJ/kg captured, 120°C reboiler, 3 bar steam supply, 90% capture and 13–15% flue-gas CO2. Turbine extraction or live-steam throttle. There are 85 existing FGCs; 25 new FGCs are assumed, yielding DH at 20% of fuel LHV. Native streams, purity and retrofit constraints are missing."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4
+      ],
+      "scope": "2.3 and2.3.1 DH/capture coupling",
+      "assessment": "Combined electricity/DH changes apply to all plants; base 0.1 MWh/t includes absorption, compression and liquefaction. Heat recovery of 0%, 64% or up to 118% is relative to extracted-steam energy. COP 3 heat pumps add 0.17 MWh/t electricity. Exact per-plant denominators remain open."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        4
+      ],
+      "scope": "2.3.2 Demand profiles",
+      "assessment": "Three measured 2012 city profiles are mapped by nearest location and scaled to annual delivery. Gothenburg data came by personal communication; the other profiles are delegated to Schweiger. Original arrays, leap-year handling and network mappings are not provided."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        4,
+        6
+      ],
+      "scope": "2.3.3 Merit order and five logical rules",
+      "assessment": "Fixed merit order: excess heat, waste CHP, biomass CHP, peak units. Newer units run first; minimum load is 0.7/0.4 for waste/biomass. All five dispatch/subloop rules read. No outages, ramping, minimum up/down times, dynamics or storage. Capture is 90% whenever CHP runs. First/last-unit edge handling needs the native spreadsheet."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "2.4 Cost scope",
+      "assessment": "Figure 4 cost scope includes capture, compression, liquefaction and local trucks; onward shipping/storage is excluded. Intermediate stages are omitted from the diagram for clarity, not demonstrated to be physically unnecessary."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        6
+      ],
+      "scope": "2.4.1 Capital model",
+      "assessment": "Read fitted Equation 1 with captured flow in kg/s, based on 13% flue-gas CO2 and 90% capture. Economic life of 25 years includes 2 construction and 23 operating years. Discount rate is 7.5%; heat-pump capital is delegated. Price year, cash flows and new-FGC capital mapping remain open."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "2.4.2 Fixed and variable OPEX",
+      "assessment": "Fixed OPEX is 6% of absolute CAPEX. Equation 2 includes lost steam-cycle electricity/heat separately from direct auxiliary work, and credits new FGC heat. Cooling/MEA quantities are not printed; prices are not inventory. The 15 bar/−25°C product lacks pressure datum and composition."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        7
+      ],
+      "scope": "2.4.3 Local transport",
+      "assessment": "Truck sizing uses full-load flow, Equations 3–6 and Table 6, three shifts and five drivers; wages/fuel multiply the capacity factor. Seven proposed coastal hubs have separate industrial estimates. Continuous fleet/trips, missing liquid density and actual loading/availability constrain interpretation."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "3 and3.1 Process results",
+      "assessment": "All fourteen case markers in Figure 5a and Lillesjö bars in Figure 5b read. Nominal steam-cycle denominator excludes existing FGC. Electricity retention is 75–85% with turbine extraction and 37–68% with primary supply. Nominal percentage-point loss differs from relative reduction."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "scope": "3.2 Annual system results",
+      "assessment": "All four Västerås dispatch panels read. No heat recovery increases CHP/peak use and full-load hours; 64% resembles reference; 118% reduces intermediate/peak use. Aggregate bars use distinct energy and mass units. Annual arrays and universal physical feasibility remain unverified."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "scope": "3.3 All four cost-result subsections",
+      "assessment": "CAPEX from 16 to more than 100 €/t, variable OPEX 15–28 €/t, ±50% price sensitivities, geographic cost/size/utilization patterns and three MAC panels inspected. Captured tonnes form the denominator; main costs exclude shipping/storage."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        11,
+        12
+      ],
+      "scope": "4.1 Process discussion",
+      "assessment": "Authors explicitly question part-load steam pressure below 3 bar, minimum remaining turbine flow and retrofit feasibility. Options include lower capture, higher extraction pressure or an auxiliary boiler. Partial/high capture and lower solvent-duty claims require originals and fresh integration."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        12
+      ],
+      "scope": "4.2 Energy-system discussion",
+      "assessment": "Local electricity constraints, future heat-only boilers/fuels, biomass opportunity costs and fixed demand/product mix read. Biomass supply-chain and CO2 truck emissions are explicitly omitted; no whole-chain net-negative certification follows."
+    },
+    {
+      "id": "S19",
+      "pages": [
+        13
+      ],
+      "scope": "4.3 Total costs",
+      "assessment": "The Kjärstad 14–22 €/t source and separate Sandberg 30–55 €/t prediction read. Endpoints of 75–180 €/t follow 45–125 plus 30–55, not verified matched cases or a full utility/GHG balance. The 23 Mt industrial comparator remains separate."
+    },
+    {
+      "id": "S20",
+      "pages": [
+        13
+      ],
+      "scope": "5 Conclusion",
+      "assessment": "10–16 Mt biogenic capture, 25–40% national comparison, 45–125 €/t for most plants, 10.6–13.6 Mt below 100 €/t and DH/electricity retention statements read with original units and qualifications. Design/heat-integration optimization remains a recommendation."
+    },
+    {
+      "id": "S21",
+      "pages": [
+        13
+      ],
+      "scope": "Declarations, funding and Supplementary materials",
+      "assessment": "No competing interests declared. Swedish Energy Agency, Göteborg Energi and Energiforsk funding read. Explicit publisher SI at article DOI; no embedded files found. External supplements have not been retrieved or declared nonexistent."
+    },
+    {
+      "id": "S22",
+      "pages": [
+        13,
+        14
+      ],
+      "scope": "References, entire printed bibliography",
+      "assessment": "All 48 entries reconciled by native line geometry, including Smith after Cuadrado and Hirata across pages. One exact retained original is checked on selected passages. Indexing and reading citations do not verify originals or their own literature chains."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "V01",
+      "pages": [
+        3
+      ],
+      "object": "Figure1 flowchart, complete caption and arrows",
+      "inspection": "Steam-cycle/process models and CHP database feed the DH model, which supplies capture potential/full-load hours to the cost model. Every block, arrow, outcome and caption inspected. The diagram does not establish independently calibrated annual capture or a complete physical inventory."
+    },
+    {
+      "id": "V02",
+      "pages": [
+        3
+      ],
+      "object": "Figure2 all portfolio markers, axes and legend",
+      "inspection": "110-plant caption, biomass/waste symbols and power-to-heat/thermal axes read. Markers overlap and are not exact records. Display to 500 MW versus stated 540 MW needs SI basis/cutoff mapping; no missing plant is invented."
+    },
+    {
+      "id": "V03",
+      "pages": [
+        4
+      ],
+      "object": "Figure3 entire process schematic/caption/gray boxes",
+      "inspection": "Steam generator, multistage turbine, condensers, feedwater preheaters/deaerator, pumps, DH and reboiler arrows, optional A–C extraction and dotted retrofit paths inspected. Gray input boxes refer to Table 1. Complete flows, enthalpies and process files are missing."
+    },
+    {
+      "id": "V04",
+      "pages": [
+        5
+      ],
+      "object": "Table1 all14 rows/column headings and footnotes a–c",
+      "inspection": "All names, fuels, ratios, Q_B, primary T/P, A/B/C/deaerator, industrial-steam entries and references read at high resolution and transcribed. Nine biomass and five waste cases; ten turbine, two primary-steam and two hot-water supplies. Footnote a uses primary supply, b hot water and c personal communication. Hot-water states are not failed steam states."
+    },
+    {
+      "id": "V05",
+      "pages": [
+        6
+      ],
+      "object": "Table2 all fuel rows and biogenic shares/caption",
+      "inspection": "All as-received C/H/O/N/S/ash/water wt% and wood/waste biogenic shares of 100%/52% read. Wood sums to 100 and waste to 100.1, compatible with rounding. Native LHV and biogenic-share definition are missing; no renormalization or energy emission factor inferred."
+    },
+    {
+      "id": "V06",
+      "pages": [
+        6
+      ],
+      "object": "Table3 all merit-order rows and caption",
+      "inspection": "All rows/caption read: continuous aggregate excess heat first, waste CHP minimum 0.7, biomass minimum 0.4 and continuous other peak units. Category order is not optimized by hourly electricity price."
+    },
+    {
+      "id": "V07",
+      "pages": [
+        6
+      ],
+      "object": "Figure4 whole cost-chain graphic/caption",
+      "inspection": "Capture/conditioning and local-truck cost portions versus marine/final-storage scope read. Intermediate stages omitted for clarity. This economic diagram is not a full material/energy or reliability balance."
+    },
+    {
+      "id": "V08",
+      "pages": [
+        7
+      ],
+      "object": "Table4 all four utility prices and units",
+      "inspection": "All utility prices/units read: 40 €/MWh electricity, 15 €/MWh DH, 0.02 €/m3 cooling and 2000 €/m3 MEA. No supplier emission factor, steam price or cooling/MEA quantities inferred from prices."
+    },
+    {
+      "id": "V09",
+      "pages": [
+        7
+      ],
+      "object": "Table5 all seven hubs, two volume columns and notes",
+      "inspection": "All seven CHP 64%-case and separate industrial kt/year values transcribed; sums are 15965 and 9100. Caption points to Figure 9, whereas the hub map is Figure 10. Combined 25.065 Mt is not substituted for 110-CHP capture."
+    },
+    {
+      "id": "V10",
+      "pages": [
+        7
+      ],
+      "object": "Table6 all eight truck parameters and units",
+      "inspection": "All eight parameters/units read: 280000 €/truck, 0.6 €/km, 80000 €/driver-year, 1 h loading, 33 m3 cargo, 50 km/h, 10% interest and 10 years. Density absent. Surrounding eight-hour shifts, three shifts, five drivers, capacity factor and fixed-maintenance assumptions also read."
+    },
+    {
+      "id": "V11",
+      "pages": [
+        8
+      ],
+      "object": "Figure5a/5b, all symbols/bars, axes, legend and caption",
+      "inspection": "All symbols/bars, axes, legends and caption inspected/magnified. Figure 5a: orange turbine electricity, blue primary electricity, green biomass heat and purple waste heat. Figure 5b: reference/steam cycle/0/64/118% categories, yellow electricity, purple DH and pink new-FGC DH. Lillesjö electricity approximately 84→70→47%; heat approximately 54→84→110%, and new-FGC totals approximately 84→115→140%. These are chart readings, not exact arrays. Heat recovery of 118% is not universal nominal-DH retention."
+    },
+    {
+      "id": "V12",
+      "pages": [
+        9
+      ],
+      "object": "Figure6 four full dispatch panels and caption",
+      "inspection": "All four panels/caption read: reference, 0%, 64%, 118%. CHP1 blue, CHP2 orange, CHP3 yellow and peak black; stacked MW versus annual hour. Tick 8671 does not establish array length/calendar. Colors are not fully mapped to Table 1 plant types; no minimum-load violation alleged from the picture."
+    },
+    {
+      "id": "V13",
+      "pages": [
+        10
+      ],
+      "object": "Figure7 aggregate bars/legend/axes/caption",
+      "inspection": "All bars, axes, legend and caption read. Electricity yellow, DH purple and fuel orange use TWh/year; biogenic green and fossil black use Mt/year, with mixed units explicit. Trends/order inspected; exact arrays not digitized. Lower fuel use in the 118% case is not whole-chain avoided emissions."
+    },
+    {
+      "id": "V14",
+      "pages": [
+        10
+      ],
+      "object": "Figure8 entire CAPEXscatter/legend/caption",
+      "inspection": "Full scatter, axes, utilization legend and caption read. Full-load captured t/h versus annualized €/t; hour classes below 4000, 4000–6000, 6000–7000 and above 7000. Axis clipped at 100 does not bound all costs at 100. These are specific annualized capital costs, not upfront CAPEX or universal thresholds."
+    },
+    {
+      "id": "V15",
+      "pages": [
+        11
+      ],
+      "object": "Figure9a/9b all cost bars, dots and sensitivity lines/caption",
+      "inspection": "All cost bars/dots, price-sensitivity lines, legends and caption read/magnified. Electricity yellow, DH purple, cooling blue, MEA black, new FGC pink and net cost red dots; white fill denotes new-FGC credit. The 0/64% electric slopes coincide; 118% is steeper and its DH slope negative. Plotted net OPEX is the variable ledger; fixed 6% cost is separate in the MAC. Exact tiny bar values remain approximate."
+    },
+    {
+      "id": "V16",
+      "pages": [
+        11
+      ],
+      "object": "Figure10 full Sweden map, symbols, all legends/caption",
+      "inspection": "Full Sweden map/caption and legends read. Seven diamond proposed hubs; biomass circles and waste triangles. Volume bins above 500, 250–500, 100–250 and below 100 kt; cost bins below 70, 70–100 and above 100 €/t. No exact coordinates or all 110 IDs reconstructed from overlapping symbols. Caption explicitly states hubs do not currently exist."
+    },
+    {
+      "id": "V17",
+      "pages": [
+        12
+      ],
+      "object": "Figure11 all three MAC panels, legends, captions and clipped axes",
+      "inspection": "All three panels, legends and caption read/magnified: 0%, 64%, 118%. Truck brown, CAPEX green, fixed OPEX orange and variable OPEX gray. Captured biogenic plus fossil Mt/year on x; €/t captured on y, clipped at 150. Totals 13.9–19.3 Mt and cost-threshold ranges preserved. This is not an independently reproduced optimizer or avoided/net-negative MAC."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        6
+      ],
+      "printed": "Eq1 AbsoluteCAPEX(k€)=15520*m_CO2^.6339; m inkg/s captured",
+      "check": "Convert t/h to kg/s by dividing by 3.6 before the empirical power fit. Coefficient carries the corresponding units; source fit uses 13% flue-gas CO2 and 90% capture. Annualization is separately stated at 7.5%, 25 economic/23 operating years. No price-year or cash-flow convention silently selected."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        7
+      ],
+      "printed": "Eq2 OPEX=Cel(-Δel,SC+Pel,CCS)+CDH(-ΔDH,SC-QnewFGC)+CcwVcw+CMEAVMEA",
+      "check": "Electric/heat changes, auxiliary work and volumes require common hourly, per-tonne or annual normalization. Signs make lost production positive cost and new heat negative cost. Full quantity/normalization arrays are not printed. Fixed OPEX at 6% of CAPEX is separately defined."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        7
+      ],
+      "printed": "Eq3 ttrip=2L/v+tload",
+      "check": "Return distance included; one-hour loading is stated. Speed is 50 km/h. No separate terminal/unloading/waiting/crew/rest calendar supplied."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        7
+      ],
+      "printed": "Eq4 YCO2,day,truck=(tshift/ttrip)*Nshifts,day*Ytruck",
+      "check": "Eight hours times three shifts allows continuous fractional trips per day, each 33 m3. Trip rounding, shift boundaries and overlaps are not derived."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        7
+      ],
+      "printed": "Eq5 Ntrucks=YCO2,day/YCO2,day,truck",
+      "check": "Daily full-load captured volume determines a continuous fixed fleet. No ceiling, density/mass payload or buffer constraints printed. The analyst 15-row grid keeps m3 and an integer-fleet comparison separate."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        7
+      ],
+      "printed": "Eq6 Ntrips,day=YCO2,day/Ytruck",
+      "check": "Fractional trips can be aggregate costing but are not actual hourly dispatch. Fuel/wages scale with capacity factor; maintenance is 5% of investment, as stated in prose."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        4
+      ],
+      "printed": "Unnumbered COP=Qhot/WHP, recovered fraction64/up-to118%",
+      "check": "Under an exact common 1 MWh/t denominator, 0.64+3*0.17=1.15 rather than 1.18. The source denominator is extracted-steam energy; unrounded enthalpy and plant cases are missing. Conditional 0.03 MWh/t residual is not a verified error or corrected 0.17."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        6,
+        7
+      ],
+      "printed": "Unnumbered fixedOPEX=.06*CAPEX; truckmaintenance=.05*investment",
+      "check": "Absolute annual costs must divide compatible captured mass or cargo volume. Low utilization raises fixed/capital cost per unit. Native annualization timing, price year and arrays are unavailable."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        3,
+        4
+      ],
+      "printed": "Delegated Stodola off-design turbine law and Ebsilon/Aspen balances",
+      "check": "No full constitutive law, efficiency map or stream-balance derivation printed. Cooke and native process-case dependencies remain unverified; no native steam-cycle/process reproduction."
+    }
+  ],
+  "variables": [
+    {
+      "id": "U01",
+      "pages": [
+        2,
+        3,
+        5
+      ],
+      "name": "Portfolio and representative cases",
+      "unit": "plant; MW; dimensionless power-to-heat ratio",
+      "assumption": "110 plants in 78 networks; Table1 Q_B and database capacity basis must be matched. No complete annual plant mapping."
+    },
+    {
+      "id": "U02",
+      "pages": [
+        3,
+        5
+      ],
+      "name": "Primary/extraction conditions",
+      "unit": "°C; bar",
+      "assumption": "Pressure basis unspecified. Table1 footnote b denotes hot water. A/B/C, deaerator and industrial streams are not fully defined."
+    },
+    {
+      "id": "U03",
+      "pages": [
+        2,
+        3
+      ],
+      "name": "Turbine/boiler efficiencies",
+      "unit": "fraction",
+      "assumption": "88% isentropic and 90% boiler efficiencies fixed; no complete load/uncertainty maps."
+    },
+    {
+      "id": "U04",
+      "pages": [
+        3
+      ],
+      "name": "District heat boundary",
+      "unit": "50°C inlet; 90°C supply",
+      "assumption": "Constant model boundary; not an observed annual temperature profile."
+    },
+    {
+      "id": "U05",
+      "pages": [
+        3,
+        4
+      ],
+      "name": "Capture heat and fraction",
+      "unit": "3.6 MJ/kg captured; 90%",
+      "assumption": "MEA, 13–15% flue-gas CO2, 120°C reboiler and 3 bar supply. Boiler load and industrial steam maintained."
+    },
+    {
+      "id": "U06",
+      "pages": [
+        4,
+        7
+      ],
+      "name": "Pel,CCS auxiliary work",
+      "unit": "0.1 MWh/t captured",
+      "assumption": "Already includes absorption, compression and liquefaction. Lost steam-cycle work Δel,SC is separate."
+    },
+    {
+      "id": "U07",
+      "pages": [
+        4
+      ],
+      "name": "Heat recovery, COP and HP work",
+      "unit": "0/64/up-to118%; COP3; 0.17 MWh/t",
+      "assumption": "Extracted-steam energy and exact per-plant enthalpy basis missing. HP work is additional to base 0.1 MWh/t."
+    },
+    {
+      "id": "U08",
+      "pages": [
+        4
+      ],
+      "name": "QnewFGC",
+      "unit": "20% of fuel LHV; matched MW or MWh",
+      "assumption": "Twenty-five new FGCs assumed; heat credit is not measured retrofit performance or a GHG credit."
+    },
+    {
+      "id": "U09",
+      "pages": [
+        6
+      ],
+      "name": "Fuel composition/biogenic share",
+      "unit": "as-received wt%; 100%/52% biogenic",
+      "assumption": "Waste sum100.1 is rounding-compatible. Fixed fuel quality; LHV and biogenic-share basis needed for complete balances."
+    },
+    {
+      "id": "U10",
+      "pages": [
+        4,
+        6
+      ],
+      "name": "DH profiles/calendar",
+      "unit": "hourly, year2012",
+      "assumption": "Three nearest city profiles scaled to network demand. Leap-year handling missing; analyst 8760h/365days applies only to examples."
+    },
+    {
+      "id": "U11",
+      "pages": [
+        6
+      ],
+      "name": "Minimum loads/merit order",
+      "unit": "0.7 waste; 0.4 biomass",
+      "assumption": "Newer units first. No dynamics, storage, outages or minimum up/down times. Online/off edge handling incomplete."
+    },
+    {
+      "id": "U12",
+      "pages": [
+        6
+      ],
+      "name": "mCO2 and capital fit",
+      "unit": "kg captured/s; k€",
+      "assumption": "15520 coefficient and0.6339 exponent, full-load design. Convert t/h to kg/s before use."
+    },
+    {
+      "id": "U13",
+      "pages": [
+        6
+      ],
+      "name": "Finance/fixed OPEX",
+      "unit": "7.5%; 25 total/23 operating years; 6% CAPEX/year",
+      "assumption": "Two construction years stated; detailed cash flows unknown. Alternative CRFs are conditional."
+    },
+    {
+      "id": "U14",
+      "pages": [
+        7
+      ],
+      "name": "Δel,SC, ΔDH,SC and QnewFGC",
+      "unit": "power/energy changes at matched normalization",
+      "assumption": "Lost production becomes positive cost; recovered heat credit is not negative reboiler heat."
+    },
+    {
+      "id": "U15",
+      "pages": [
+        7
+      ],
+      "name": "Cooling/MEA volumes and prices",
+      "unit": "m3 and €/m3 at matched time/mass basis",
+      "assumption": "Only prices0.02 and2000 printed; complete volumes and supplier factors missing. No densities invented."
+    },
+    {
+      "id": "U16",
+      "pages": [
+        7
+      ],
+      "name": "Cel and CDH",
+      "unit": "40 and15 €/MWh",
+      "assumption": "Fixed prices; ±50% sensitivity is not a probability distribution or price forecast."
+    },
+    {
+      "id": "U17",
+      "pages": [
+        7
+      ],
+      "name": "Conditioned product",
+      "unit": "15bar; −25°C",
+      "assumption": "Datum, composition, purity and density absent. Pure-fluid phase checks are conditional, not native Aspen flash validation."
+    },
+    {
+      "id": "U18",
+      "pages": [
+        7
+      ],
+      "name": "L, v, ttrip and tload",
+      "unit": "km; 50km/h; h; 1h/trip",
+      "assumption": "Round trip expression includes loading. Routes, queues, separate unloading and labor calendar not supplied."
+    },
+    {
+      "id": "U19",
+      "pages": [
+        7
+      ],
+      "name": "Ytruck, Yday and Ydaytruck",
+      "unit": "33m3/trip; m3/day",
+      "assumption": "No liquid density or legal mass payload; no tonnes derived from an unrelated process case."
+    },
+    {
+      "id": "U20",
+      "pages": [
+        7
+      ],
+      "name": "Fleet, trips and drivers",
+      "unit": "continuous fleet/trips; five drivers/truck",
+      "assumption": "Eight-hour shifts, three per day, five workdays/week.4.2FTE rounds to five before leave/rest constraints. CF wage scaling is costing, not a roster."
+    },
+    {
+      "id": "U21",
+      "pages": [
+        7
+      ],
+      "name": "Truck finance/cost",
+      "unit": "280000€/truck; 10%; 10years; 0.6€/km; 80000€/driver-year; 5% maintenance",
+      "assumption": "Native price year, ownership/availability, fleet rounding and actual schedule missing."
+    },
+    {
+      "id": "U22",
+      "pages": [
+        7,
+        10,
+        13
+      ],
+      "name": "Hub and national volumes",
+      "unit": "kt/year; Mt/year",
+      "assumption": "Separate CHP and industry portfolios. Gross captured biogenic/fossil mass is not avoided, net-negative or retained mass."
+    },
+    {
+      "id": "U23",
+      "pages": [
+        1,
+        10,
+        13
+      ],
+      "name": "National comparison",
+      "unit": "52MtCO2eq; 43MtCO2; 2019 fossil41MtCO2",
+      "assumption": "Different years/scopes/numerators. Abstract around40% is not identical to19.3/41; no denominator substituted."
+    },
+    {
+      "id": "U24",
+      "pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "name": "Specific costs/MAC",
+      "unit": "€/t captured",
+      "assumption": "Capture plus local truck main boundary. Annualized capital, variable/fixed OPEX, and forecast shipping/storage kept separate."
+    },
+    {
+      "id": "U25",
+      "pages": [
+        12,
+        13
+      ],
+      "name": "Whole-chain climate/storage service",
+      "unit": "not supplied",
+      "assumption": "No complete supply/counterfactual/transport/assets LCI, pressure-constrained annual storage or retained-carbon verification."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1
+      ],
+      "claim": "CCS/BECCS may contribute to global net-zero and net-negative pathways.",
+      "assessment": "Historical cited climate/policy context; a global pathway is not verified by this local process/cost model.",
+      "reference_ids": [
+        "R23"
+      ]
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1
+      ],
+      "claim": "Biogenic capture can yield negative emissions with net-growing biomass stocks.",
+      "assessment": "Conditional premise. Supply/transport GHG are explicitly omitted later; gross biogenic capture is not verified net removal.",
+      "reference_ids": []
+    },
+    {
+      "id": "C03",
+      "pages": [
+        1
+      ],
+      "claim": "Abstract: electricity/heat fall around 20%/40–60%, and heat can recover above 100%.",
+      "assessment": "Case statements require primary-extraction electricity retention of 37–68%, heat-case denominators and unresolved native feasibility.",
+      "reference_ids": []
+    },
+    {
+      "id": "C04",
+      "pages": [
+        1
+      ],
+      "claim": "Up to 19.3 Mt/year at 45–125 €/t corresponds to around 40% of Swedish fossil CO2.",
+      "assessment": "Total captured mass combines biogenic/fossil. 19.3/41=47.1%, whereas biogenic 16/41 is about 39%. Preserve numerator/year questions and approximate wording; do not correct national inputs.",
+      "reference_ids": []
+    },
+    {
+      "id": "C05",
+      "pages": [
+        1
+      ],
+      "claim": "The proposed 3–10 Mt/year BECCS target for 2045 could be met.",
+      "assessment": "Conditional gross-capture potential; no actual deployment, permission or complete LCI demonstrated.",
+      "reference_ids": []
+    },
+    {
+      "id": "C06",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Swedish 2045 net zero, proposed 2 Mt in 2030 and 3–10 Mt in 2045, and reverse auctions.",
+      "assessment": "Historical SOU policy context; original/current status unverified. Targets are not actual capture.",
+      "reference_ids": [
+        "R15",
+        "R40"
+      ]
+    },
+    {
+      "id": "C07",
+      "pages": [
+        2
+      ],
+      "claim": "Stockholm Exergi 2025 plans, Microsoft voluntary market and 100–1000-year permanence.",
+      "assessment": "Historical plans and policy claims; no present operation/access or measured retained-carbon factor.",
+      "reference_ids": [
+        "R06"
+      ]
+    },
+    {
+      "id": "C08",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Previous waste/biomass/HPC screenings exist, with limited CHP/DH scale/utilization research.",
+      "assessment": "All cited literature-review passages read. Original coverage, novelty and search completeness remain unverified.",
+      "reference_ids": [
+        "R02",
+        "R19",
+        "R26",
+        "R27",
+        "R29",
+        "R30",
+        "R31",
+        "R32",
+        "R35",
+        "R46"
+      ]
+    },
+    {
+      "id": "C09",
+      "pages": [
+        2
+      ],
+      "claim": "110 plants in 78 networks represent the Swedish biomass/waste CHP portfolio.",
+      "assessment": "Explicit database SI missing locally; no independently verified national census.",
+      "reference_ids": []
+    },
+    {
+      "id": "C10",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Boilers span 7–540 MW and power-to-heat ratios 0.1–0.65.",
+      "assessment": "Figure 2 range/thermal basis mapping remains open. No extra/missing plant inferred.",
+      "reference_ids": []
+    },
+    {
+      "id": "C11",
+      "pages": [
+        2,
+        4,
+        5
+      ],
+      "claim": "Fourteen steam/water designs represent the portfolio.",
+      "assessment": "All Table 1 cases/footnotes read; exact 110-plant mapping, owner inputs and native cases missing.",
+      "reference_ids": [
+        "R05",
+        "R09",
+        "R11",
+        "R14",
+        "R18",
+        "R20",
+        "R25",
+        "R33",
+        "R34",
+        "R37",
+        "R41",
+        "R42",
+        "R47"
+      ]
+    },
+    {
+      "id": "C12",
+      "pages": [
+        2,
+        3,
+        4
+      ],
+      "claim": "Ebsilon off-design Stodola treatment captures pressure falls under steam extraction.",
+      "assessment": "Method claim; full cases/turbine maps not reproduced. Annual part-load feasibility is acknowledged as open.",
+      "reference_ids": [
+        "R01",
+        "R04"
+      ]
+    },
+    {
+      "id": "C13",
+      "pages": [
+        3
+      ],
+      "claim": "3.6 MJ/kg MEA duty at 90% capture, 13–15% CO2, 120°C reboiler and 3 bar steam.",
+      "assessment": "Printed partial-case assumptions. No matched complete inventory, cooling and utility suppliers.",
+      "reference_ids": [
+        "R17",
+        "R22"
+      ]
+    },
+    {
+      "id": "C14",
+      "pages": [
+        4
+      ],
+      "claim": "Base capture-plant electricity is 0.1 MWh/t across plants.",
+      "assessment": "Context includes absorption, compression and liquefaction. Aspen/Deng cases unverified; lost turbine generation remains separate.",
+      "reference_ids": [
+        "R22"
+      ]
+    },
+    {
+      "id": "C15",
+      "pages": [
+        4
+      ],
+      "claim": "COP 3 heat pumps using 0.17 MWh/t increase 64% recovery to up to 118%.",
+      "assessment": "Exact common denominator gives 115%; extracted-steam energy, case and rounding basis remain open. Conditional 0.03 residual is not a proven native energy error.",
+      "reference_ids": [
+        "R22"
+      ]
+    },
+    {
+      "id": "C16",
+      "pages": [
+        7
+      ],
+      "claim": "Utilities are independent of load and scale linearly with plant size.",
+      "assessment": "Model assumption, not a validated off-design utility balance. Physical cooling/MEA quantities missing.",
+      "reference_ids": [
+        "R08",
+        "R22"
+      ]
+    },
+    {
+      "id": "C17",
+      "pages": [
+        7
+      ],
+      "claim": "CO2 is compressed to 15 bar and −25°C for liquid truck transport.",
+      "assessment": "Pure-CO2 EOS at 15 bara and at 15 barg plus one atmosphere gives gas. Native composition/datum missing. Conditional compatibility question, not proof the native product failed.",
+      "reference_ids": [
+        "R08"
+      ]
+    },
+    {
+      "id": "C18",
+      "pages": [
+        4
+      ],
+      "claim": "85 existing FGCs; the others install FGC yielding heat at 20% of fuel LHV.",
+      "assessment": "25 new units assumed. No independent retrofit-capacity, capital or LCI validation.",
+      "reference_ids": []
+    },
+    {
+      "id": "C19",
+      "pages": [
+        4,
+        6
+      ],
+      "claim": "All CHP running hours capture 90%, and CHP outputs drive annual dispatch.",
+      "assessment": "Requires unverified part-load steam/capture feasibility. Fixed merit order is not a full economic unit-commitment optimization.",
+      "reference_ids": []
+    },
+    {
+      "id": "C20",
+      "pages": [
+        6
+      ],
+      "claim": "CAPEX=15520*m^0.6339 represents economy of scale.",
+      "assessment": "Printed component evaluated with kg/s. Eliasson submitted source, fit range and price year unverified.",
+      "reference_ids": [
+        "R10"
+      ]
+    },
+    {
+      "id": "C21",
+      "pages": [
+        6
+      ],
+      "claim": "25-year economic life includes 2 construction and 23 operating years; heat-pump cost included.",
+      "assessment": "Cash-flow/annuity and heat-pump/new-FGC cost mapping unprovided. 23/25-year comparison is conditional.",
+      "reference_ids": [
+        "R07"
+      ]
+    },
+    {
+      "id": "C22",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Fixed 6% CAPEX, utilities, lost heat/electricity and new-FGC credit form OPEX.",
+      "assessment": "Direct auxiliary and opportunity costs remain separate. No complete volume, normalization or supplier inventory.",
+      "reference_ids": [
+        "R44"
+      ]
+    },
+    {
+      "id": "C23",
+      "pages": [
+        4
+      ],
+      "claim": "Measured 2012 city profiles, mapped/scaled, represent network heat loads.",
+      "assessment": "Three-city and 78-network arrays and calendar not retained; annual dispatch not reproduced.",
+      "reference_ids": [
+        "R13",
+        "R36",
+        "R39"
+      ]
+    },
+    {
+      "id": "C24",
+      "pages": [
+        4,
+        6
+      ],
+      "claim": "Excess heat, waste, biomass and peak logical dispatch respects minimum load.",
+      "assessment": "All five rules read. First/last unit, previous-unit, off and spill handling not fully specified; no outages or storage.",
+      "reference_ids": []
+    },
+    {
+      "id": "C25",
+      "pages": [
+        6
+      ],
+      "claim": "Maintenance, ramping, minimum up/down times and storage are omitted.",
+      "assessment": "Explicit model restriction. No reliability, availability or hourly validation inferred.",
+      "reference_ids": []
+    },
+    {
+      "id": "C26",
+      "pages": [
+        3,
+        6
+      ],
+      "claim": "Fixed fuels and 52% waste biogenic share yield captured CO2 per fuel.",
+      "assessment": "Printed composition supports a partial carbon check. LHV, stream data and biogenic-share definition block a full balance.",
+      "reference_ids": [
+        "R43",
+        "R45"
+      ]
+    },
+    {
+      "id": "C27",
+      "pages": [
+        7
+      ],
+      "claim": "Truck is the likely local mode; train is possible and pipelines face cost/acceptance limits.",
+      "assessment": "Historical/qualitative context. Exact Kjärstad passages checked, not current route/permitting feasibility.",
+      "reference_ids": [
+        "R28",
+        "R30"
+      ]
+    },
+    {
+      "id": "C28",
+      "pages": [
+        7
+      ],
+      "claim": "Seven proposed hubs collect CHP and industrial volumes.",
+      "assessment": "All entries read: 15.965 Mt CHP in the 64% case plus 9.1 Mt separate industry. Proposed hubs; caption references the wrong map number.",
+      "reference_ids": [
+        "R24",
+        "R28"
+      ]
+    },
+    {
+      "id": "C29",
+      "pages": [
+        7
+      ],
+      "claim": "Equations 3–6 size full-load trucks; wages/fuel scale with CF and five drivers are used.",
+      "assessment": "Continuous costing, not integer rosters/logistics. Weekly 4.2 FTE supports rounding to five before leave/rest requirements.",
+      "reference_ids": []
+    },
+    {
+      "id": "C30",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Turbine extraction retains 75–85% electricity and primary supply 37–68%.",
+      "assessment": "Representative full-load results, not all annual plants. Hot-water cases retain their footnotes.",
+      "reference_ids": []
+    },
+    {
+      "id": "C31",
+      "pages": [
+        8
+      ],
+      "claim": "Waste DH retention is 54–67%, compared with biomass 36–65%.",
+      "assessment": "Nominal steam-cycle heat excludes FGC. Fixed moisture/composition assumption; other fuel-energy inputs missing.",
+      "reference_ids": []
+    },
+    {
+      "id": "C32",
+      "pages": [
+        8
+      ],
+      "claim": "Lillesjö auxiliary work causes a further 14% loss; heat-pump case retains 47% electricity.",
+      "assessment": "Nominal chart axis indicates about 14 percentage points, not 14% relative to 84%. Approximate 84→70→47 is compatible with extra HP burden; exact arrays missing.",
+      "reference_ids": []
+    },
+    {
+      "id": "C33",
+      "pages": [
+        8
+      ],
+      "claim": "Lillesjö DH is 84% with heat exchangers and 110% with heat pumps; new FGC adds 20–30%.",
+      "assessment": "Representative chart values, not universal 118% nominal retention or negative process heat.",
+      "reference_ids": []
+    },
+    {
+      "id": "C34",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "No recovery increases CHP3/peak use; 64% resembles reference; 118% reduces intermediate/peak use.",
+      "assessment": "All four Västerås panels read. Native annual arrays, minimum load, off-design feasibility and calendar not validated.",
+      "reference_ids": []
+    },
+    {
+      "id": "C35",
+      "pages": [
+        8
+      ],
+      "claim": "Retrofitting a single plant gives an analogous smaller dispatch impact.",
+      "assessment": "Unshown native alternative-case assertion; no numerical outputs for independent replay.",
+      "reference_ids": []
+    },
+    {
+      "id": "C36",
+      "pages": [
+        8,
+        10
+      ],
+      "claim": "Annual electricity falls in every case, particularly with HP; 118% DH is near reference.",
+      "assessment": "Aggregate Figure 7 trend, not a complete replacement-power or local-grid model.",
+      "reference_ids": []
+    },
+    {
+      "id": "C37",
+      "pages": [
+        8,
+        10
+      ],
+      "claim": "Fuel use and biogenic capture peak without heat recovery and decline with HP.",
+      "assessment": "Within fixed-DH-demand boundaries. No verified regional net-GHG conclusion.",
+      "reference_ids": []
+    },
+    {
+      "id": "C38",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Specific CAPEX ranges from 16 to above 100 €/t; size effects strongest below 50 t/h.",
+      "assessment": "Fit/plot utilization effect is plausible; clipped 100-axis is not an upper bound. Native plant points unreproduced.",
+      "reference_ids": []
+    },
+    {
+      "id": "C39",
+      "pages": [
+        9,
+        11
+      ],
+      "claim": "Net variable OPEX is 15–28 €/t; new FGC reduces it by 8 €/t.",
+      "assessment": "Lost electricity/DH, utilities and heat credits; fixed 6% cost remains separate. The 8 € credit is not a GHG credit.",
+      "reference_ids": []
+    },
+    {
+      "id": "C40",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Capture potential is 13.9–19.3 Mt/year, fossil 2.6–2.9 Mt and biogenic about 10–16 Mt.",
+      "assessment": "Gross capture, not avoided, retained or net-negative mass. Target/national comparisons stay conditional.",
+      "reference_ids": [
+        "R40"
+      ]
+    },
+    {
+      "id": "C41",
+      "pages": [
+        9,
+        11
+      ],
+      "claim": "±50% electricity/DH prices change OPEX by up to 8/6 €/t.",
+      "assessment": "One-at-a-time price sensitivity, not probability/inflation or joint market validation. Lower DH price raises OPEX in the 118% case.",
+      "reference_ids": []
+    },
+    {
+      "id": "C42",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Partial capture may improve costs for load-following plants.",
+      "assessment": "Biermann source unverified. No optimized partial-capture schedule/design in this paper.",
+      "reference_ids": [
+        "R03"
+      ]
+    },
+    {
+      "id": "C43",
+      "pages": [
+        11
+      ],
+      "claim": "Capture above 90% could increase potential.",
+      "assessment": "Gao/Hirata originals unverified. Not demonstrated for the 110 annual CHP cases.",
+      "reference_ids": [
+        "R16",
+        "R21"
+      ]
+    },
+    {
+      "id": "C44",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "KS-1 duty of 2.0–2.3 MJ/kg is attributed to Zheng 2020.",
+      "assessment": "The bibliography title concerns a single-component water-lean solvent. Verify the original before attributing the duty to KS-1 or substituting for 3.6.",
+      "reference_ids": [
+        "R48"
+      ]
+    },
+    {
+      "id": "C45",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Largest/most-utilized plants have lower capture/truck costs, with high Stockholm potential.",
+      "assessment": "Conditional model patterns; not actual hubs, commercial permission or universal breakpoints.",
+      "reference_ids": []
+    },
+    {
+      "id": "C46",
+      "pages": [
+        10
+      ],
+      "claim": "Below 70 €/t: 60–540 MW and at least 4200 h; 70–100 €/t: 14–355 MW and at least 2800 h.",
+      "assessment": "Ranges from particular cases. Size/utilization alone do not guarantee those thresholds.",
+      "reference_ids": []
+    },
+    {
+      "id": "C47",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "claim": "6.4–7.8 Mt below 75 €/t; 10.6–13.6 Mt below 100 €/t; mostly 45–125 €/t.",
+      "assessment": "Captured biogenic/fossil denominator. Shipping/storage excluded and clipped high-cost MAC bars remain.",
+      "reference_ids": []
+    },
+    {
+      "id": "C48",
+      "pages": [
+        11
+      ],
+      "claim": "Lowest 45–50 €/t persists across heat cases as OPEX falls offset capital/utilization/HP effects.",
+      "assessment": "Model tradeoff, not a general optimum. Plant results and HP capital unreproduced.",
+      "reference_ids": []
+    },
+    {
+      "id": "C49",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Part-load pressure may fall below 3 bar and remaining turbine flow below its minimum.",
+      "assessment": "Authors acknowledge open feasibility. Lower capture, higher extraction or an auxiliary boiler may be needed. Annual constant capture is not validated service.",
+      "reference_ids": []
+    },
+    {
+      "id": "C50",
+      "pages": [
+        12
+      ],
+      "claim": "CHP is below 10% of national electricity but can be valuable under local grid constraints.",
+      "assessment": "Historical context and replacement hypothesis; no marginal-generation GHG or grid-capacity model.",
+      "reference_ids": []
+    },
+    {
+      "id": "C51",
+      "pages": [
+        12
+      ],
+      "claim": "Future heat-only boilers, aviation fuel and biomass uses change product value.",
+      "assessment": "Explicitly omitted developments/opportunity costs; not a validated forecast from the fixed model.",
+      "reference_ids": []
+    },
+    {
+      "id": "C52",
+      "pages": [
+        13
+      ],
+      "claim": "Nordic ship cost is 14–22 €/t, with volume more influential than distance.",
+      "assessment": "Exact Kjärstad selected pages support case context. Conditioning, storage and subsea boundaries prevent treatment as a compatible freight-only increment.",
+      "reference_ids": [
+        "R28"
+      ]
+    },
+    {
+      "id": "C53",
+      "pages": [
+        13
+      ],
+      "claim": "Northern Lights 30–55 €/t predicts total 75–180 €/t; industry comparator is 23 Mt at 80–140 €/t.",
+      "assessment": "Sandberg/Johnsson originals unverified. Endpoint arithmetic works; matched boundary, price year and conditioning unresolved.",
+      "reference_ids": [
+        "R24",
+        "R38"
+      ]
+    },
+    {
+      "id": "C54",
+      "pages": [
+        13
+      ],
+      "claim": "Further research should optimize capture integration and heat-recovery share.",
+      "assessment": "Recommendation, not an optimization result or completed reproduction.",
+      "reference_ids": []
+    },
+    {
+      "id": "C55",
+      "pages": [
+        12
+      ],
+      "claim": "Biomass supply-chain and CO2 truck carbon footprints are not accounted for.",
+      "assessment": "Explicit exclusion prevents a whole-chain net-negative LCA claim. The Fajardy citation is not a replacement inventory.",
+      "reference_ids": [
+        "R12"
+      ]
+    },
+    {
+      "id": "C56",
+      "pages": [
+        13
+      ],
+      "claim": "Conclusion: up to 118% nominal DH and 47% retained electricity with heat pumps.",
+      "assessment": "Heat-recovery fraction and nominal-DH retention have distinct denominators. Lillesjö Figure 5b is about 110%, or 140% with new FGC. No all-plant maximum/correction inferred.",
+      "reference_ids": []
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        13
+      ],
+      "citation": "Beiron, J., Monta˜n´es, R.M., Normann, F., Johnsson, F., 2019. Dynamic modeling for assessment of steam cycle operation in waste-fired combined heat and power plants. Energy Convers. Manage. 198, 111926 https://doi.org/10.1016/j. enconman.2019.111926.",
+      "role": "Dynamic steam-cycle model",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        13
+      ],
+      "citation": "Bhave, A., Taylor, R.H.S., Fennell, P., Livingston, W.R., Shah, N., Dowell, N.M., Dennis, J., Kraft, M., Pourkashanian, M., Insa, M., Jones, J., Burdett, N., Bauen, A., Beal, C., Smallbone, A., Akroyd, J., 2017. Screening and techno-economic assessment of biomass-based power generation with CCS technologies to meet 2050 CO2 targets. Appl. Energy 190, 481–489. https://doi.org/10.1016/j. apenergy.2016.12.120.",
+      "role": "Biomass CCS screening",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        13
+      ],
+      "citation": "Biermann, M., Normann, F., Johnsson, F., Skagestad, R., 2018. Partial carbon capture by absorption cycle for reduced specific capture cost. Ind. Eng. Chem. Res. 57 (45), 15411–15422. https://doi.org/10.1021/acs.iecr.8b02074.",
+      "role": "Partial capture sizing",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C42"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        13
+      ],
+      "citation": "Cooke, D.H., 1985. On Prediction of off-design multistage turbine pressures by Stodola’s ellipse. Trans. ASME 107, 596–606.",
+      "role": "Stodola off-design turbine pressures",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        13
+      ],
+      "citation": "Cuadrado, R.S., 2009. Return Temperature Influence of a District Heating Network on the CHP Plant Production Costs [MSc Thesis]. University of G¨avle.",
+      "role": "Johannes steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        13
+      ],
+      "citation": "Smith, B., 2020. Microsoft will be carbon negative by 2030 [Accessed 2020-02-11] [WWW Document]. URL https://blogs.microsoft.com/blog/2020/01/16/microso ft-will-be-carbon-negative-by-2030/.",
+      "role": "Voluntary negative-emissions market",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        13
+      ],
+      "citation": "Danish Energy Agency, 2020. Technology data - generation of electricity and district heating.",
+      "role": "Heat-pump capital cost",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C21"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        13
+      ],
+      "citation": "Deng, H., Roussanaly, S., Skaugen, G., 2019. Techno-economic analyses of CO2 liquefaction: impact of product pressure and impurities. Int. J. Refrig. 103, 301–315. https://doi.org/10.1016/j.ijrefrig.2019.04.011.",
+      "role": "Liquefaction electricity/cooling",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C16",
+        "C17"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        13
+      ],
+      "citation": "Djurberg, R., 2020. Practical Implementation of Bio-CCS in Uppsala: a Techno-Economic Assessment [MSc Thesis]. KTH Royal Institute of Technology.",
+      "role": "Uppsala steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        13
+      ],
+      "citation": "Eliasson, Å., Fahrman, E., Biermann, M., Normann, F., Harvey, S., 2021. Efficient heat integration of industrial CO2 capture and district heating supply. Submitted for publication.",
+      "role": "Capture-compression-liquefaction capital fit",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C20"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        13
+      ],
+      "citation": "Erneby, R., 2012. Kortsiktig produktionsplanering i mindre fj¨arrv¨armesystem [MSc Thesis]. M¨alardalen University.",
+      "role": "Strängnäs steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        13
+      ],
+      "citation": "Fajardy, M., Mac Dowell, N., 2017. Can BECCS deliver sustainable and resource efficient negative emissions? Energy Environ. Sci. 10, 1389–1426. https://doi.org/10.1039/ c7ee00465f.",
+      "role": "Whole BECCS supply-chain boundary",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C55"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        13
+      ],
+      "citation": "Energif¨oretagen Sverige, 2021. Tillf¨ord energi till fj¨arrv¨arme och kraftv¨arme - ¨aldre statistik [Accessed 2021-06-24] [WWW Document]. URL https://www.energi foretagen.se/statistik/fjarrvarmestatistik/tillford-energi/tillford-energi-till-fjarrvar me-och-kraftvarme/.",
+      "role": "Annual district-heat demands",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        13
+      ],
+      "citation": "Fransson, A., Kullendorff, A., Tilly, H.Å., 1998. Konvertering av hetvattenpanna tilll extern ångproduktion.",
+      "role": "Eksjö hot-water cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        13
+      ],
+      "citation": "Fuss, S., Johnsson, F., 2021. The BECCS implementation gap–a Swedish case study. Front. Energy Res. 8, 1–18. https://doi.org/10.3389/fenrg.2020.553400.",
+      "role": "Swedish implementation/policy",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        13
+      ],
+      "citation": "Gao, T., Selinger, J.L., Rochelle, G.T., 2019. Demonstration of 99% CO2 removal from coal flue gas by amine scrubbing. Int. J. Greenh. Gas Control 83, 236–244. https:// doi.org/10.1016/j.ijggc.2019.02.013.",
+      "role": "High capture rates",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C43"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        13
+      ],
+      "citation": "Gardarsd´ottir, S.´O., Normann, F., Skagestad, R., Johnsson, F., 2018. Investment costs and CO2 reduction potential of carbon capture from industrial plants - a Swedish case study. Int. J. Greenh. Gas Control 76, 111–124. https://doi.org/10.1016/j. ijggc.2018.06.022.",
+      "role": "MEA duty and capture cost context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        13
+      ],
+      "citation": "Ghaffarpour, M.F., Ros, H., 2018. Integration of Thermochemical Heat Storage with a Municipal District Heating System: in Future Scenario with Large Variations in Electricity Price [MSc Thesis]. M¨alardalen University.",
+      "role": "Silververket steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        13
+      ],
+      "citation": "Gustafsson, K., Sadegh-Vaziri, R., Gr¨onkvist, S., Levihn, F., Sundberg, C., 2021. BECCS with combined heat and power: assessing the energy penalty. Int. J. Greenh. Gas Control 110, 103434. https://doi.org/10.1016/j.ijggc.2021.103434.",
+      "role": "Alternative capture technology context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        13
+      ],
+      "citation": "Hagberg, L., 2008. Samproduktion av etanol och kraftv¨arme: Integreringsm¨ojligheter i energikombinat [MSc Thesis]. Swedish University of Agricultural Sciences.",
+      "role": "Lugnvik steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        13,
+        14
+      ],
+      "citation": "Hirata, T., Tsujiuchi, T., Kamijo, T., Kishimoto, S., Inui, M., Kawasaki, S., Lin, Y.J., Nakagami, Y., Nojo, T., 2020. Near-zero emission coal-fired power plant using advanced KM CDR processTM. Int. J. Greenh. Gas Control 92, 102847. https://doi. org/10.1016/j.ijggc.2019.102847.",
+      "role": "High capture rates",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C43"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        14
+      ],
+      "citation": "Ignell, V., Johansson, E., 2021. Local Infrastructures for CCS Clusters - a Case Study of Two CHP Plants in Gothenburg [MSc Thesis]. Chalmers University of Technology.",
+      "role": "Aspen capture, electricity/cooling, heat recovery",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13",
+        "C14",
+        "C15",
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        14
+      ],
+      "citation": "IPCC, 2018. Global Warming of 1.5 C. AN IPCC Special Report on the Impacts of Global Warming of 1.5C above Pre-Industrial Levels and Related Global Greenhouse Gas Emission Pathways.",
+      "role": "Global climate motivation",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        14
+      ],
+      "citation": "Johnsson, F., Normann, F., Svensson, E., 2020. Marginal abatement cost curve of industrial CO2 capture and storage – a Swedish case study. Front. Energy Res. 8, 175. https://doi.org/10.3389/fenrg.2020.00175.",
+      "role": "Industrial hub volumes and comparator",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C28",
+        "C53"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        14
+      ],
+      "citation": "Jung, J., 2010. Energy Mapping of the Waste Incineration Plant in Uppsala [MSc Thesis]. Uppsala University.",
+      "role": "Uppsala cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        14
+      ],
+      "citation": "K¨arki, J., Tsupari, E., Thomasson, T., Arasto, A., Pikkarainen, T., 2017. Achieving negative emissions with the most promising business case for bio-CCS in power and CHP production. Energy Proc. 114, 5994–6002. https://doi.org/10.1016/j. egypro.2017.03.1734.",
+      "role": "Earlier CHP negative-emissions case",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        14
+      ],
+      "citation": "Kemper, J., 2015. Biomass and carbon dioxide capture and storage: a review. Int. J. Greenh. Gas Control 40, 401–430. https://doi.org/10.1016/j.ijggc.2015.06.012.",
+      "role": "BECCS review/context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        14
+      ],
+      "citation": "Kj¨arstad, J., Skagestad, R., Eldrup, N.H., Johnsson, F., 2016. Ship transport — a low cost and low risk CO2 transport option in the Nordic countries. Int. J. Greenh. Gas Control 54, 168–184. https://doi.org/10.1016/j.ijggc.2016.08.024.",
+      "role": "Road/ship/hub and14–22€/t context",
+      "verification_status": "primary_text_checked_scoped_boundary_only",
+      "claim_links": [
+        "C27",
+        "C28",
+        "C52"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        14
+      ],
+      "citation": "Kouri, S., Tsupari, E., K¨arki, J., Teir, S., Sormunen, R., Arponen, T., Tuomaala, M., 2017. The potential for CCUS in selected industrial sectors - summary of concept evaluations in Finland. Energy Proc. 114, 6418–6431. https://doi.org/10.1016/j. egypro.2017.03.1778.",
+      "role": "Earlier CHP negative-emissions case",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        14
+      ],
+      "citation": "Kujanp¨a¨a, L., Pursiheimo, E., 2017. Techno-economic evaluation of flexible CCS concepts in a CHP system. Energy Proc. 114, 6638–6649. https://doi.org/10.1016/j. egypro.2017.03.1818.",
+      "role": "CHP/truck/train alternatives",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08",
+        "C27"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        14
+      ],
+      "citation": "Levihn, F., Linde, L., Gustafsson, K., Dahlen, E., 2019. Introducing BECCS through HPC to the research agenda: the case of combined heat and power in Stockholm. Energy Rep. 5, 1381–1389. https://doi.org/10.1016/j.egyr.2019.09.018.",
+      "role": "HPC/Stockholm alternative capture context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        14
+      ],
+      "citation": "Magnanelli, E., Mosby, J., Becidan, M., 2021. Scenarios for carbon capture integration in a waste-to-energy plant. Energy 227, 120407. https://doi.org/10.1016/j. energy.2021.120407.",
+      "role": "Waste-plant capture integration",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        14
+      ],
+      "citation": "¨Oberg, S., 2017. Design of Partial CO2 Capture from Waste Fired CHP Plants. Chalmers University of Technology.",
+      "role": "Lillesjö steam cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        14
+      ],
+      "citation": "Pettersson, N., Eriksson, N., 2006. Small Scale Generation of Electric Power in Arvika [MSc Thesis]. Karlstad University.",
+      "role": "Munkegårdsverket cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        14
+      ],
+      "citation": "Pour, N., Webley, P.A., Cook, P.J., 2018. Potential for using municipal solid waste as a resource for bioenergy with carbon capture and storage (BECCS). Int. J. Greenh. Gas Control 68, 1–15. https://doi.org/10.1016/j.ijggc.2017.11.007.",
+      "role": "Waste BECCS context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        14
+      ],
+      "citation": "Romanchenko, D., Odenberger, M., G¨oransson, L., Johnsson, F., 2017. Impact of electricity price fluctuations on the operation of district heating systems: a case study of district heating in G¨oteborg, Sweden. Appl. Energy 204, 16–30. https://doi.org/ 10.1016/j.apenergy.2017.06.092.",
+      "role": "Gothenburg heat-profile source",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        14
+      ],
+      "citation": "Saarinen, L., 2008. Modelling and Control of a District Heating System [MSc Thesis]. Uppsala University.",
+      "role": "Idbäcksverket cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        14
+      ],
+      "citation": "Sandberg, P., 2020. Northern lights - a European CO2 transport and storage network [Presentation slides]. Retrieved from https://zeroemissionsplatform.eu/co2-ts-infras tructure/.",
+      "role": "Northern Lights30–55€/t prediction",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C53"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        14
+      ],
+      "citation": "Schweiger, G., Rantzer, J., Ericsson, K., Lauenburg, P., 2017. The potential of power-to- heat in Swedish district heating systems. Energy 137, 661–669. https://doi.org/ 10.1016/j.energy.2017.02.075.",
+      "role": "2012 Luleå/Malmö heat profiles",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        14
+      ],
+      "citation": "SOU, 2020. V¨agen till en klimatpositiv framtid - Bet¨ankande av Klimatpolitiska v¨agvalsutredningen. Stockholm.",
+      "role": "Swedish proposed BECCS targets",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        14
+      ],
+      "citation": "Spett, T., 2006. Optimering av elproduktionen på Dåva kraftv¨armeverk [MSc Thesis]. Umeå University.",
+      "role": "Dåva1 cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        14
+      ],
+      "citation": "Starfelt, F., Tomas-Aparicio, E., Li, H., Dotzauer, E., 2015. Integration of torrefaction in CHP plants - a case study. Energy Convers. Manage. 90, 427–435. https://doi.org/ 10.1016/j.enconman.2014.11.019.",
+      "role": "Västerås5 cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        14
+      ],
+      "citation": "Statistics Sweden, 2019. Electricity supply, district heating and supply of natural and gasworks gas 2018, Sveriges officiella statistik.",
+      "role": "Waste biogenic share",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        14
+      ],
+      "citation": "The Swedish Energy Agency, 2021. Tr¨adbr¨ansle-, torv- och avfallspriser [Accessed 2021- 07-07] [WWW Document]. URL https://www.energimyndigheten.se/statistik/den-o fficiella-statistiken/statistikprodukter/tradbransle-och-torvpriser/.",
+      "role": "Swedish fuel/gate prices",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C22"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        14
+      ],
+      "citation": "The Swedish Envirnomental Protection Agency, 2004. Rapport 5401 - Sammanst¨allning av br¨ansledata. Halter och br¨anslenyckeltal.",
+      "role": "As-received fuel composition",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        14
+      ],
+      "citation": "Tsupari, E., Arponen, T., Hankalin, V., K¨arki, J., Kouri, S., 2017. Feasibility comparison of bioenergy and CO2 capture and storage in a large combined heat, power and cooling system. Energy 139, 1040–1051. https://doi.org/10.1016/j. energy.2017.08.022.",
+      "role": "Earlier CHP capture context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        14
+      ],
+      "citation": "Wiesner, E., 2017. Optimization and Energy Efficiency Measures in Modified Combined Heat and Power Plant Processes - a Case Study of Changed Processes in M¨alarenergi Power Plant [MSc Thesis]. Uppsala University.",
+      "role": "Västerås5 cycle",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        14
+      ],
+      "citation": "Zheng, R.F., Barpaga, D., Mathias, P.M., Malhotra, D., Koech, P.K., Jiang, Y., Bhakta, M., Lail, M., Rayer, A., Whyatt, G.A., Freeman, C.J., Zwoster, A.J., Weitz, K.K., Heldebrant, D.J., 2020. A single-component water-lean post-combustion CO2 capture solvent with exceptionally low operational heat and total costs of capture - comprehensive experimental and theoretical evaluation. Energy Environ. Sci. 13, 4106–4113. https://doi.org/10.1039/d0ee02585b.",
+      "role": "Water-lean solvent cited as KS-1",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C44"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-11_bibliography.json#R48"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        2,
+        13
+      ],
+      "citation": "Publisher Supplementary Material and110-plant database",
+      "role": "Explicit missing supplementary asset",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "citation": "Fourteen Ebsilon Professional cases and plant-owner inputs/model rights",
+      "role": "Unreproduced steam-cycle models",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        4,
+        7
+      ],
+      "citation": "Ignell/Johansson Aspen capture cases and Deng liquefaction adaptation",
+      "role": "Unreproduced process cases",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        4,
+        6
+      ],
+      "citation": "Native DH spreadsheet and all78-network mappings",
+      "role": "Unreproduced annual dispatch",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        4
+      ],
+      "citation": "Original2012 three-city hourly profiles and annual network demands",
+      "role": "Unverified demand/calendar",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        4,
+        5,
+        11
+      ],
+      "citation": "Unrounded extraction enthalpy, turbine maps/minimum flow and heat-pump outputs",
+      "role": "Unverified off-design and COP basis",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        6
+      ],
+      "citation": "Capital fit, heat-pump/new-FGC costs, price year and cash flows",
+      "role": "Unverified cost/finance inputs",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        7
+      ],
+      "citation": "Product composition, purity, pressure datum, density and truck payload specification",
+      "role": "Unverified phase/mass interface",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        7,
+        11
+      ],
+      "citation": "Hub routes, fleet/driver calendar, buffers and annual costs",
+      "role": "Unreproduced local transport",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        13
+      ],
+      "citation": "Sandberg matched marine/storage process and price boundary",
+      "role": "Unverified onward transport/storage case",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D11",
+      "pages": [
+        12,
+        13
+      ],
+      "citation": "Biomass, electricity/heat counterfactuals, transport/assets/cooling/solvent LCI",
+      "role": "Missing complete net-GHG inventory",
+      "verification_status": "unverified",
+      "claim_links": []
+    },
+    {
+      "id": "D12",
+      "pages": [
+        13
+      ],
+      "citation": "Pressure-constrained annual storage, well inputs/permission and retained-carbon verification",
+      "role": "Not modeled by this paper",
+      "verification_status": "unverified",
+      "claim_links": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        2,
+        4,
+        13
+      ],
+      "status": "MISSING_EXPLICIT_SI_NATIVE_CASES",
+      "finding": "Publisher SI and110-plant/hourly/native cases not retained locally; no embedded assets.",
+      "action": "Obtain authorized original SI and Ebsilon/Aspen/spreadsheet inputs when the requested Chrome connection is available; keep model status incomplete."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        3,
+        4,
+        6,
+        7
+      ],
+      "status": "HOLD_COMPLETE_UTILITY_BOUNDARY",
+      "finding": "Base0.1MWh/t bundles capture/compression/liquefaction; lost CHP power is separate. Complete cooling/MEA/suppliers/pretreatment inventory missing.",
+      "action": "Preserve partial paired case assumptions; exclude as a complete capture-to-ship or LCI input. Do not append duplicate conditioning work."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        4
+      ],
+      "status": "HOLD_RECOVERY_DENOMINATOR",
+      "finding": "On an exact common1MWh/t basis,0.64+COP3*0.17=1.15, not1.18. Source extracted-steam energy, unrounded quantities and per-plant basis unknown.",
+      "action": "Retain conditional0.03MWh/t residual. Obtain stream enthalpies and heat-pump heat/work before calling an error or correcting native0.17."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        7
+      ],
+      "status": "HOLD_PRODUCT_STATE_PRESSURE_COMPOSITION",
+      "finding": "PureCO2 HEOS at15bara/−25°C gives gas, Psat16.827bar;15barg+one atmosphere is also below pure-fluid saturation. Native datum/composition unknown.",
+      "action": "Do not replace product P/T, density or truck mass. Obtain native state, purity and supplier conditions."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        4,
+        6,
+        11,
+        12
+      ],
+      "status": "HOLD_ANNUAL_PARTLOAD_PHYSICS",
+      "finding": "Full-load ratios, linear utilities and90% running-hour capture apply despite acknowledged3bar/minimum turbine flow/retrofit feasibility questions.",
+      "action": "Obtain load/extraction maps and constraints. Do not infer maximum safe annual capture or injection."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        4,
+        6,
+        9
+      ],
+      "status": "HOLD_DISPATCH_EDGES_CALENDAR",
+      "finding": "Five logical rules lack full first/last-unit minimum, off/spill and previous-unit edge handling;2012 array length missing. Fixed order excludes dynamic operation.",
+      "action": "Inspect native spreadsheet and profile calendar. The10MW/5MW example only shows necessary edge handling, not a proven spreadsheet defect."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "KEEP_TABLE_FOOTNOTES_ROUNDING",
+      "finding": "Two Table1 supplies are hot water, not steam. Waste fuel totals100.1wt%, compatible with display rounding.",
+      "action": "Preserve all14rows and notes; no false phase defect or renormalization. Obtain LHV and biogenic-share definition."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        6,
+        7
+      ],
+      "status": "HOLD_CAPITAL_TIME_PRICE_MAPPING",
+      "finding": "Capital fit requires kg/s.25-year life includes2construction/23operation; heat-pump/new-FGC costs, price year and cash flows missing.",
+      "action": "Keep alternative CRFs conditional. Do not select an annuity or declare omitted FGC capital without full case data."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        7
+      ],
+      "status": "HOLD_CONTINUOUS_TRUCK_LOGISTICS",
+      "finding": "Equations3–6 use fractional trucks/trips, CF wages/fuel and33m3 without liquid density, legal payload or actual availability.",
+      "action": "Use disclosed volume/ceil examples only; no €/t without native density and no actual integer-roster claim."
+    },
+    {
+      "id": "I10",
+      "pages": [
+        7,
+        11
+      ],
+      "status": "HOLD_HUB_DATABASE_MAPPING",
+      "finding": "Table5 points toFigure9 although the map isFigure10. CHP and industrial volumes are different portfolios; hubs are proposed.",
+      "action": "Keep15.965Mt and9.1Mt separate. Do not promote25.065Mt to110-CHP capture or actual hub throughput."
+    },
+    {
+      "id": "I11",
+      "pages": [
+        1,
+        8,
+        10,
+        12,
+        13
+      ],
+      "status": "HOLD_CAPTURED_NEGATIVE_AVOIDED_RETAINED",
+      "finding": "Gross capture MAC/national comparisons are not net-negative LCI. Biomass supply-chain andCO2 transport emissions explicitly omitted.",
+      "action": "No lifecycle credit, retention factor or annual storage service. Require compatible counterfactuals, utilities, transport/storage LCI and mass denominators."
+    },
+    {
+      "id": "I12",
+      "pages": [
+        8,
+        13
+      ],
+      "status": "HOLD_PERCENT_DENOMINATORS",
+      "finding": "About14% electricity wording uses nominal percentage points.118% heat recovery differs from nominalDH retention; national percentages use different mass scopes.",
+      "action": "Preserve approximate source wording/cases. No silent relative/nominal/national-denominator correction."
+    },
+    {
+      "id": "I13",
+      "pages": [
+        11,
+        12,
+        14
+      ],
+      "status": "HOLD_KS1_SOURCE_ATTRIBUTION",
+      "finding": "Zheng2020 is cited forKS-1 lower duty, but its bibliography title concerns a single-component water-lean solvent.",
+      "action": "Read the exact original before attributing2.0–2.3MJ/kg toKS-1 or accepting a lower duty."
+    },
+    {
+      "id": "I14",
+      "pages": [
+        7,
+        13,
+        14
+      ],
+      "status": "QUALIFIED_PRIMARY_SHIP_COST_SUPPORT",
+      "finding": "Exact Kjärstad14–22€/t Rautaruukki/Faludden bulk case includes conditioning, intermediate storage, ports and subsea templates; excludes collection/drilling; starts at70bar20°C.",
+      "action": "Do not append as a freight-only increment matched to15bar/−25°C. Sandberg30–55€/t is a separate unverified prediction; do not accuse authors of adding14–22."
+    },
+    {
+      "id": "I15",
+      "pages": [
+        1,
+        2,
+        13
+      ],
+      "status": "HOLD_HISTORICAL_POLICY_CURRENT_ACCESS",
+      "finding": "2025 plans, proposed hubs/Northern Lights, prices and100–1000-year permanence are not present operation, legal allocation or retention evidence.",
+      "action": "Use as historical context only; no actual storage permission or retained-carbon factor inferred."
+    },
+    {
+      "id": "I16",
+      "pages": [
+        13,
+        14
+      ],
+      "status": "INCOMPLETE_ORIGINALS_REPRODUCTION",
+      "finding": "48 printed entries: one scoped edge,47 other originals and12 native dependencies unverified. No complete process, dispatch, storage or LCI model reproduced.",
+      "action": "Continue exact-source, SI and model verification. All pages read does not mean comprehensively complete."
+    }
+  ],
+  "supplements": "Explicit Supplementary Material (database p2; article DOI p13) is missing locally. No embedded files and no internal appendix identified. External retrieval remains paused; local absence is not evidence of absence online. Personal communications, commercial native cases and model rights remain unverified.",
+  "reproduction": "audit_chp_capture.py produces 65 limited diagnostics, 15 explicitly analyst truck-volume/capacity-factor examples and 14 transcribed Table 1 rows. It evaluates unit/capital/CRF/staff/hub arithmetic, partial utility costs and conditional pure CO2/water HEOS checks (CoolProp 8.0.0). Common-basis heat residual and minimum-load gap are diagnostics, not author-model reproductions. Native Ebsilon, Aspen, Excel, 110-plant annual results, cost fit, integer fleet, storage and LCI models remain unreproduced. Cooling, MEA, density and utility suppliers remain missing.",
+  "paper1_use": "Use as a Swedish geographic/process reference for CHP heat/power opportunity costs, utilization, heat recovery and captured/avoided/retained denominator discipline. It does not close pressure-constrained annual storage or complete capture-to-ship utility/LCI requirements. Base 0.1 MWh/t already bundles conditioning; extra work and lost power remain separate. Product-state and cost-boundary questions stay open. No accepted operating/GHG input replaced.",
+  "next_steps": "Next local main paper: B2-12. For B2-11 resolve explicit SI, fourteen Ebsilon cases, Aspen and Excel cases, the source chain beyond scoped R28, heat/product-state/cooling/MEA/cash-flow/calendar/LCI data and actual storage interfaces. External retrieval remains paused pending the requested Chrome connection. This is an incomplete checkpoint, not certification of a full model or complete paper."
+}

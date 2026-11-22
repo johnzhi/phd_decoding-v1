@@ -348,15 +348,15 @@ Transfer limits: B2-10 adds all nine pages and internal Appendix A, four numbere
 
 ### B2-11 — A techno-economic assessment of CO2 capture in biomass and waste-fired combined heat and power plants – A Swedish case study
 
-. Identifier: 10.1016/j.ijggc.2022.103684. [PDF](../papers/B2-11.pdf).
+Beiron, Normann and Johnsson (2022). DOI:10.1016/j.ijggc.2022.103684. [Retained PDF](../papers/B2-11.pdf); [detailed findings](chp_capture_comprehensive_findings.md).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,4,5,10.
+Reading stage: all fourteen native pages text-read and visually inspected, plus nine magnifications. Eleven figures, six tables, six numbered equations, nomenclature and all48 printed references inspected. Comprehensive status remains incomplete; source checks and full model reproduction are separate.
 
-Steam-cycle process models and an hourly district-heating unit-commitment model assess110 Swedish biomass/waste CHP plants. Fixed boiler load and maintained industrial-process heat define the reference service. A90% MEA capture case assumes reboiler duty3.6MJ/kg captured at120C with3bar steam, and0.1MWh/t electricity including capture/compression/liquefaction. Heat recovery is treated through the DH system rather than a generic negative capture duty.
+The Swedish110-plant/78-network case assumes90% MEA capture with3.6MJ/kg heat at120°C and3bar steam. Base0.1MWh/t electricity already includes absorption/compression/liquefaction; lost CHP generation is separate. Heat pumps add0.17MWh/t atCOP3. The64/up-to118% recovery denominator is extracted-steam energy, not a generic solvent efficiency or negative heat input. Complete cooling/MEA quantities and utility suppliers are missing.
 
-Plant utilization and size jointly drive capture/local truck-transport costs. Higher heat recovery can change DH dispatch and electricity demand; the118% heat-recovery case requires heat pumps with0.17MWh/t additional electricity and COP3. It is not free energy or more than100% solvent heat-efficiency. Reported costs exclude onward ship transport and geological storage.
+Conditional pureCO2 HEOS at15bara/−25°C gives gas; composition and pressure datum remain unknown. Density and tonne-based truck costing are not filled. The fixed-merit-order spreadsheet excludes dynamics/outages/storage, with native minimum-load/calendar and part-load steam feasibility unresolved. Main costs exclude shipping/storage; reported gross biogenic capture excludes biomass/transport LCI and is not verified net removal.
 
-Transfer limits: This provides a transparent alternative MEA utility reference, not measured Japanese steel/refinery demand. Preserve the specified flue-gas/CHP conditions and avoid adding another liquefaction/compression charge. No DH displacement credit can be applied without a matched heating-system counterfactual. Biogenic/fossil shares cannot be transferred to a fossil industrial baseline.
+Transfer limits: B2-11 adds all 14 pages, eleven figures, six tables, six numbered equations, 56 claim records, 65 limited diagnostics, fifteen analyst truck-volume examples and fourteen transcribed representative cases. Bundled utility work, extracted-steam recovery, product state, part-load dispatch, cost timing and gross-versus-net climate boundaries remain open. One exact Kjärstad2016 check brings scoped citation edges to twenty-three; 47 other originals, twelve dependencies and explicit publisher SI remain unverified. No native Ebsilon/Aspen/spreadsheet or complete LCI model is reproduced, and no accepted operating/GHG input changes. The exact shipping original includes conditioning, storage and some subsea equipment; its70bar20°C boundary is not a compatible freight-only increment. Use as a disclosed Swedish process reference, with no Japanese facility or accepted model-input substitution.
 
 ### B2-12 — Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains
 

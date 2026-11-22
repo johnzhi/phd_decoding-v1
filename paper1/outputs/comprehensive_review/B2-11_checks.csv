@@ -1,0 +1,66 @@
+item,value,unit,basis,source_locator,interpretation
+reboiler_heat,1.0,MWh/tcaptured,exact unit conversion,p3,Positive process heat; recovered DH is not a negative reboiler input
+base_bundled_electricity,100.0,kWh/tcaptured,exact unit conversion,"pp4,7",Capture+compression+liquefaction; do not append duplicate conditioning work
+HP_case_direct_electricity,0.27,MWh/tcaptured,source component sum,p4,Lost turbine generation remains a separate opportunity cost
+base_direct_electricity_cost,4.0,EUR/tcaptured,printed component arithmetic,"pp4,7",4EUR/t is not total lost-electricity cost or total OPEX
+HP_direct_electricity_cost,10.8,EUR/tcaptured,printed component arithmetic,"pp4,7",10.8EUR/t direct electricity only
+conditional_HP_heat,0.51,MWh/tcaptured,common-basis assumption,p4,COP heat includes HP work; not a substitute for the native stream enthalpy ledger
+conditional_recovery_fraction,1.15,fraction,exact shared reboiler-basis diagnostic,p4,1.15 only if every quantity uses the same exact1MWh/t basis; not a demonstrated error in118%
+conditional_118_recovery_residual,0.030000000000000027,MWh/tcaptured,exact shared reboiler-basis diagnostic,p4,"0.03 residual; extracted-steam energy, rounding and per-plant cases unresolved"
+conditional_HP_work_for_118,0.17999999999999997,MWh/tcaptured,exact shared reboiler-basis diagnostic,p4,"0.18 is conditional comparison, never a corrected native0.17"
+new_FGC_count,25,plants,source arithmetic,p4,Assumed retrofit at25 plants; feasibility/capital inputs missing
+Table1_case_count,14,plants,manual table reconciliation,p5,14 cases do not supply the110-plant database
+Table1_biomass,9,plants,manual table reconciliation,p5,Count of transcribed representative cases only
+Table1_waste,5,plants,manual table reconciliation,p5,Count of transcribed representative cases only
+Table1_supply_turbine,10,plants,manual table reconciliation,p5,Footnote b is hot water; do not call these failed steam states
+Table1_supply_primary steam,2,plants,manual table reconciliation,p5,Footnote b is hot water; do not call these failed steam states
+Table1_supply_hot water(b),2,plants,manual table reconciliation,p5,Footnote b is hot water; do not call these failed steam states
+wood_chips_composition_sum,100.0,wt%,printed composition sum,p6 Table2,100.1wt% for waste is compatible with one-decimal rounding; no renormalization
+wood_chips_conditional_full_oxidation_CO2,1.2063333333333333,kgCO2/kgfuel,conditional complete carbon oxidation,p6 Table2,No native LHV or oxidation analysis; not kgCO2/MWh or verified biogenic fraction
+wood_chips_conditional90pct_capture,1.0856999999999999,kgCO2/kgfuel,conditional complete carbon oxidation,p6 Table2,Gross capture only; not avoided/retained carbon
+waste_composition_sum,100.1,wt%,printed composition sum,p6 Table2,100.1wt% for waste is compatible with one-decimal rounding; no renormalization
+waste_conditional_full_oxidation_CO2,1.2063333333333333,kgCO2/kgfuel,conditional complete carbon oxidation,p6 Table2,No native LHV or oxidation analysis; not kgCO2/MWh or verified biogenic fraction
+waste_conditional90pct_capture,1.0856999999999999,kgCO2/kgfuel,conditional complete carbon oxidation,p6 Table2,Gross capture only; not avoided/retained carbon
+Table5_CHP_sum,15965,ktCO2/year,seven-hub source sum,p7 Table5,CHP64% case; industrial totals are a separate source portfolio
+Table5_industry_sum,9100,ktCO2/year,seven-hub source sum,p7 Table5,CHP64% case; industrial totals are a separate source portfolio
+Table5_combined_sum,25065,ktCO2/year,separate-portfolios arithmetic,p7 Table5,25.065Mt is not110-CHP capture potential
+truck_unrounded_staff_coverage,4.2,drivers/truck,weekly coverage arithmetic,p7,4.2FTE rounds up to5; leave/fatigue/calendar not modeled
+capture_CRF_25years,0.08971067164944402,1/year,alternative finance convention,p6,25-year economic versus23 operating years; actual construction cash-flow timing not reconstructed
+capture_CAPEX_1t_h_25year,70.5653603581417,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CAPEX_10t_h_25year,30.37327090379428,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CAPEX_50t_h_25year,16.849951110166014,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CAPEX_100t_h_25year,13.073490742669124,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CAPEX_500t_h_25year,7.252682154349862,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CRF_23years,0.0925352780387206,1/year,alternative finance convention,p6,25-year economic versus23 operating years; actual construction cash-flow timing not reconstructed
+capture_CAPEX_1t_h_23year,72.78716255920065,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CAPEX_10t_h_23year,31.32959564733573,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CAPEX_50t_h_23year,17.380484197140934,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CAPEX_100t_h_23year,13.48511920116724,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_CAPEX_500t_h_23year,7.48103817906697,EUR/tcaptured,printed power function with analyst8760full-load hours,p6 Eq1,Not an author plant point; no HP/FGC investment or truck/variable cost
+capture_upfront_1t_h,6890513.083580869,EUR,Eq1 kg/s input conversion,p6 Eq1,t/h divided by3.6 before applying power fit; price-year unknown
+capture_upfront_10t_h,29658662.47852207,EUR,Eq1 kg/s input conversion,p6 Eq1,t/h divided by3.6 before applying power fit; price-year unknown
+capture_upfront_50t_h,82267565.83756392,EUR,Eq1 kg/s input conversion,p6 Eq1,t/h divided by3.6 before applying power fit; price-year unknown
+capture_upfront_100t_h,127659036.32211997,EUR,Eq1 kg/s input conversion,p6 Eq1,t/h divided by3.6 before applying power fit; price-year unknown
+capture_upfront_500t_h,354102218.29778564,EUR,Eq1 kg/s input conversion,p6 Eq1,t/h divided by3.6 before applying power fit; price-year unknown
+conditional_product_Psat,16.827381271995694,barabsolute,pureCO2 HEOS,p7,Not native mixture specification; no product state silently corrected
+15bara_phase,gas,phase,conditional pureCO2 pressure interpretation,p7,Gas under these assumptions; authors' pressure basis/purity/composition unverified
+15bara_saturation_pressure_margin,-1.8273812719956948,bar,conditional pureCO2 pressure interpretation,p7,"Negative margin is a state-compatibility question, not a native flash validation"
+15bara_Tsat,-28.5209219561454,degC,conditional pureCO2 pressure interpretation,p7,Comparison only; do not replace reported−25°C
+15barg_plus_1atm_phase,gas,phase,conditional pureCO2 pressure interpretation,p7,Gas under these assumptions; authors' pressure basis/purity/composition unverified
+15barg_plus_1atm_saturation_pressure_margin,-0.8141312719956948,bar,conditional pureCO2 pressure interpretation,p7,"Negative margin is a state-compatibility question, not a native flash validation"
+15barg_plus_1atm_Tsat,-26.532078907154443,degC,conditional pureCO2 pressure interpretation,p7,Comparison only; do not replace reported−25°C
+conditional3bara_water_Tsat,133.52242046093653,degC,purewater absolute-pressure diagnostic,p3,Saturation above120°C plausible; does not prove steam-flow/part-load feasibility
+"Munkegårdsverket, Kungälv_conditional_primary_phase",liquid,phase,purewater absolute-pressure interpretation,p5 footnote b,Liquid agrees with hot-water footnote; not a steam-model failure
+Eksjö_conditional_primary_phase,liquid,phase,purewater absolute-pressure interpretation,p5 footnote b,Liquid agrees with hot-water footnote; not a steam-model failure
+gross_10Mt_over_41Mt,24.390243902439025,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+gross_16Mt_over_41Mt,39.02439024390244,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+gross_19.3Mt_over_41Mt,47.073170731707314,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+gross_10Mt_over_43Mt,23.25581395348837,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+gross_16Mt_over_43Mt,37.2093023255814,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+gross_19.3Mt_over_43Mt,44.883720930232556,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+gross_10Mt_over_52Mt,19.23076923076923,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+gross_16Mt_over_52Mt,30.76923076923077,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+gross_19.3Mt_over_52Mt,37.11538461538461,%,conditional numerator/denominator comparison,"pp1,10,13",Keep year/fossil/biogenic/CO2/GHG scope distinct; not net climate mitigation
+predicted_total_cost_endpoint_0,75,EUR/tcaptured,reported range endpoint arithmetic,p13,75–180 forecast range; not a matched same-case whole-chain inventory/cost
+predicted_total_cost_endpoint_1,180,EUR/tcaptured,reported range endpoint arithmetic,p13,75–180 forecast range; not a matched same-case whole-chain inventory/cost
+analyst_first_waste_plant_below_min_gap,2.0,MWheat,disclosed10MW plant5MW demand example,"p6 rules1,5","2MW gap if online minimum7MW; off+peak/spill/edge handling missing, not proof of native sheet defect"

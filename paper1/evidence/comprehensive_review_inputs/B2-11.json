@@ -1,0 +1,452 @@
+{
+  "study_id": "B2-11",
+  "source": {
+    "study_id": "B2-11",
+    "path": "papers/B2-11.pdf",
+    "sha256": "5522a8c750a21a7bb097b2ad86e815461a7b7a05d0c3dadc25bbd6865eef2d8a",
+    "identifier": "10.1016/j.ijggc.2022.103684"
+  },
+  "cited_sources": [
+    {
+      "study_id": "B3-33",
+      "path": "papers/B3-33.pdf",
+      "sha256": "d43ed9307e5bc7c19228dad415ca2ef988776b841e2bb0e516a218c200987eda",
+      "identifier": "10.1016/j.ijggc.2016.08.024"
+    }
+  ],
+  "provenance": "All14 pages text-read and visually inspected, plus9 magnified pages4,5,6,7,8,10,11,12,13. Printed tables transcribed; no graph coordinates treated as native arrays. Pure-fluid EOS uses explicit analyst absolute-pressure/composition assumptions, not author Aspen data.",
+  "plants": [
+    {
+      "plant": "Idbäcksverket, Nyköping",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.57,
+      "Q_B_MW": 95,
+      "primary_T_C": 543,
+      "primary_P_bar": 143,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": 3.5,
+      "deaerator_bar": 8.6,
+      "C_HPFWH_bar": 29,
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "R37"
+    },
+    {
+      "plant": "Lugnvik, Östersund",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.56,
+      "Q_B_MW": 125,
+      "primary_T_C": 540,
+      "primary_P_bar": 140,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": 3,
+      "deaerator_bar": 7.5,
+      "C_HPFWH_bar": 17,
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "R20"
+    },
+    {
+      "plant": "Västerås unit5",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.49,
+      "Q_B_MW": 170,
+      "primary_T_C": 485,
+      "primary_P_bar": 120,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": 2.9,
+      "deaerator_bar": 6.5,
+      "C_HPFWH_bar": 13.6,
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "R42/R47"
+    },
+    {
+      "plant": "Västerås unit7",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.5,
+      "Q_B_MW": 150,
+      "primary_T_C": 520,
+      "primary_P_bar": 91,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": 2.5,
+      "deaerator_bar": 5.8,
+      "C_HPFWH_bar": 16.3,
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "personal communication"
+    },
+    {
+      "plant": "Johannes, Gävle",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.55,
+      "Q_B_MW": 65,
+      "primary_T_C": 480,
+      "primary_P_bar": 90,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": 3.6,
+      "deaerator_bar": 7,
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "R05"
+    },
+    {
+      "plant": "Silververket, Sala Heby",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.39,
+      "Q_B_MW": 32,
+      "primary_T_C": 480,
+      "primary_P_bar": 80,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": 3.6,
+      "deaerator_bar": 11,
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "R18"
+    },
+    {
+      "plant": "Strängnäs",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.45,
+      "Q_B_MW": 36,
+      "primary_T_C": 482,
+      "primary_P_bar": 72,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": "no",
+      "deaerator_bar": 3,
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "yes15bar",
+      "reboiler_supply": "turbine",
+      "source_reference": "R11"
+    },
+    {
+      "plant": "Västerås unit6",
+      "fuel": "waste",
+      "nominal_power_heat_ratio": 0.44,
+      "Q_B_MW": 159,
+      "primary_T_C": 470,
+      "primary_P_bar": 75,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": 2.3,
+      "deaerator_bar": 6,
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "R01"
+    },
+    {
+      "plant": "Lillesjö, Uddevalla",
+      "fuel": "waste",
+      "nominal_power_heat_ratio": 0.36,
+      "Q_B_MW": 38,
+      "primary_T_C": 400,
+      "primary_P_bar": 40,
+      "A_second_DH_condenser": "yes",
+      "B_LPFWH_bar": "no",
+      "deaerator_bar": 6,
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "R33"
+    },
+    {
+      "plant": "Dåva1, Umeå",
+      "fuel": "waste",
+      "nominal_power_heat_ratio": 0.38,
+      "Q_B_MW": 55,
+      "primary_T_C": 400,
+      "primary_P_bar": 40,
+      "A_second_DH_condenser": "no",
+      "B_LPFWH_bar": 2,
+      "deaerator_bar": 6,
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "no",
+      "reboiler_supply": "turbine",
+      "source_reference": "R41"
+    },
+    {
+      "plant": "Uppsala",
+      "fuel": "waste",
+      "nominal_power_heat_ratio": 0.2,
+      "Q_B_MW": 60,
+      "primary_T_C": 226,
+      "primary_P_bar": 20,
+      "A_second_DH_condenser": "no",
+      "B_LPFWH_bar": "no",
+      "deaerator_bar": "no(a)",
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "yes(a)",
+      "reboiler_supply": "primary steam",
+      "source_reference": "R09/R25"
+    },
+    {
+      "plant": "Sävenäs3, Gothenburg",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.16,
+      "Q_B_MW": 95,
+      "primary_T_C": 220,
+      "primary_P_bar": 20,
+      "A_second_DH_condenser": "yes(a)",
+      "B_LPFWH_bar": "no",
+      "deaerator_bar": 6,
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "no",
+      "reboiler_supply": "primary steam",
+      "source_reference": "personal communication"
+    },
+    {
+      "plant": "Munkegårdsverket, Kungälv",
+      "fuel": "biomass",
+      "nominal_power_heat_ratio": 0.13,
+      "Q_B_MW": 23,
+      "primary_T_C": 224,
+      "primary_P_bar": 29,
+      "A_second_DH_condenser": "yes(b)",
+      "B_LPFWH_bar": "no",
+      "deaerator_bar": "no",
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "no",
+      "reboiler_supply": "hot water(b)",
+      "source_reference": "R34"
+    },
+    {
+      "plant": "Eksjö",
+      "fuel": "waste",
+      "nominal_power_heat_ratio": 0.11,
+      "Q_B_MW": 20,
+      "primary_T_C": 197,
+      "primary_P_bar": 16,
+      "A_second_DH_condenser": "yes(b)",
+      "B_LPFWH_bar": "no",
+      "deaerator_bar": "no",
+      "C_HPFWH_bar": "no",
+      "industrial_steam": "no",
+      "reboiler_supply": "hot water(b)",
+      "source_reference": "R14"
+    }
+  ],
+  "table1_footnotes": {
+    "a": "Primary steam instead of turbine extraction.",
+    "b": "Hot water instead of steam.",
+    "c": "Personal communication with plant owners."
+  },
+  "utilities": {
+    "capture_fraction": 0.9,
+    "reboiler_MJ_per_kg": 3.6,
+    "reboiler_T_C": 120,
+    "steam_supply_bar": 3,
+    "base_electricity_MWh_per_t": 0.1,
+    "HP_extra_MWh_per_t": 0.17,
+    "COP": 3,
+    "heat_recovery_cases": [
+      0,
+      0.64,
+      1.18
+    ],
+    "product_P_bar": 15,
+    "product_T_C": -25,
+    "product_pressure_basis": "unspecified",
+    "product_composition": "unspecified",
+    "base_electricity_boundary": "absorption+compression+liquefaction; lost steam-cycle generation accounted separately",
+    "cooling_quantity": null,
+    "MEA_quantity": null,
+    "utility_supplier_EFs": null
+  },
+  "case": {
+    "plants": 110,
+    "DH_networks": 78,
+    "existing_FGC": 85,
+    "new_FGC_heat_LHV_fraction": 0.2,
+    "boiler_efficiency": 0.9,
+    "turbine_isentropic_efficiency": 0.88,
+    "DH_inlet_C": 50,
+    "DH_outlet_C": 90,
+    "waste_minimum_load": 0.7,
+    "biomass_minimum_load": 0.4,
+    "profile_year": 2012,
+    "profile_array_hour_count": null
+  },
+  "fuel_composition_wt_percent": {
+    "wood_chips": [
+      32.9,
+      3.9,
+      26.7,
+      0.2,
+      0,
+      1.3,
+      35
+    ],
+    "waste": [
+      32.9,
+      4.5,
+      21.3,
+      0.5,
+      0.4,
+      10.5,
+      30
+    ]
+  },
+  "fuel_element_order": [
+    "C",
+    "H",
+    "O",
+    "N",
+    "S",
+    "ash",
+    "water"
+  ],
+  "biogenic_share_percent": {
+    "wood_chips": 100,
+    "waste": 52
+  },
+  "prices": {
+    "electricity_EUR_per_MWh": 40,
+    "DH_EUR_per_MWh": 15,
+    "cooling_EUR_per_m3": 0.02,
+    "MEA_EUR_per_m3": 2000
+  },
+  "capture_capex": {
+    "coefficient_kEUR": 15520,
+    "exponent": 0.6339,
+    "massflow_unit": "kgCO2captured/s",
+    "discount_rate": 0.075,
+    "economic_years": 25,
+    "construction_years": 2,
+    "operating_years": 23,
+    "fixed_OPEX_fraction": 0.06,
+    "price_year": null
+  },
+  "truck": {
+    "capex_EUR": 280000,
+    "fuel_EUR_per_km": 0.6,
+    "wage_EUR_per_driver_year": 80000,
+    "loading_h": 1,
+    "capacity_m3": 33,
+    "speed_kmh": 50,
+    "discount_rate": 0.1,
+    "lifetime_years": 10,
+    "shift_h": 8,
+    "shifts_per_day": 3,
+    "workdays_per_week": 5,
+    "drivers_per_truck": 5,
+    "maintenance_fraction": 0.05,
+    "density_t_per_m3": null
+  },
+  "hubs": [
+    {
+      "name": "Luleå",
+      "CHP_kt_y": 720,
+      "industry_kt_y": 3300
+    },
+    {
+      "name": "Östrand",
+      "CHP_kt_y": 1690,
+      "industry_kt_y": 2300
+    },
+    {
+      "name": "Stockholm",
+      "CHP_kt_y": 6575,
+      "industry_kt_y": 0
+    },
+    {
+      "name": "Oxelösund",
+      "CHP_kt_y": 2650,
+      "industry_kt_y": 1500
+    },
+    {
+      "name": "Lysekil",
+      "CHP_kt_y": 460,
+      "industry_kt_y": 1500
+    },
+    {
+      "name": "Gothenburg",
+      "CHP_kt_y": 1580,
+      "industry_kt_y": 500
+    },
+    {
+      "name": "Helsingborg",
+      "CHP_kt_y": 2290,
+      "industry_kt_y": 0
+    }
+  ],
+  "reported": {
+    "total_capture_Mt_y": [
+      13.9,
+      19.3
+    ],
+    "fossil_capture_Mt_y": [
+      2.6,
+      2.9
+    ],
+    "biogenic_capture_rounded_Mt_y": [
+      10,
+      16
+    ],
+    "below75_Mt_y": [
+      6.4,
+      7.8
+    ],
+    "below100_Mt_y": [
+      10.6,
+      13.6
+    ],
+    "most_capture_truck_EUR_t": [
+      45,
+      125
+    ],
+    "ship_storage_prediction_EUR_t": [
+      30,
+      55
+    ],
+    "total_prediction_EUR_t": [
+      75,
+      180
+    ],
+    "national_2019_fossil_Mt": 41,
+    "national_intro_CO2_Mt": 43,
+    "national_intro_GHG_Mt": 52
+  },
+  "analyst": {
+    "truck_daily_volume_m3": 1000,
+    "distances_km": [
+      0,
+      10,
+      50,
+      100,
+      200
+    ],
+    "annual_capacity_factors": [
+      0.25,
+      0.5,
+      1
+    ],
+    "days_per_year": 365,
+    "hours_per_year": 8760,
+    "CO2_backend": "HEOS::CO2",
+    "water_backend": "HEOS::Water",
+    "atmospheric_Pa": 101325,
+    "capex_flows_t_h": [
+      1,
+      10,
+      50,
+      100,
+      500
+    ]
+  },
+  "missing_inputs": [
+    "Explicit publisher Supplementary Material and full110-plant database",
+    "Native14 Ebsilon cases, turbine/extraction maps and retrofit constraints",
+    "Ignell/Johansson Aspen capture and Deng liquefaction cases/complete utility streams",
+    "Unrounded extracted-steam enthalpy/heat-recovery/COP/HP-duty bases by plant",
+    "Product pressure datum, composition, purity and liquid-density basis",
+    "Hourly2012 three-city demand arrays, leap-calendar handling and78-network mappings",
+    "Native spreadsheet dispatch, minimum-load edge cases and all110 annual output arrays",
+    "Capture/HP/new-FGC costs, price-year and construction/operating cash-flow timing",
+    "Integer fleet/driver calendar, payload constraints, buffers and travel-distance arrays",
+    "Sandberg matched ship/storage case and route/conditioning/price basis",
+    "Biomass supply, electricity/heat counterfactuals, truck/ship/terminal/well/asset LCI",
+    "Native pressure-constrained storage and retained-carbon verification"
+  ]
+}
