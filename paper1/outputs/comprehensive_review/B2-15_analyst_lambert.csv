@@ -1,0 +1,15 @@
+a,b,branch,scaled_rate,rate,implicit_residual,increasing_pressure_branch,status
+0.1,0.5,0,1.5454149656317648,1.5454149656317648,1.3877787807814457e-16,False,analyst_dimensionless_literal_component_not_native_injection
+0.1,0.5,-1,0.02353300279748548,0.02353300279748548,0.0,True,analyst_dimensionless_literal_component_not_native_injection
+0.5,0.5,0,0.9999999999999998,0.9999999999999998,1.1102230246251565e-16,False,analyst_dimensionless_literal_component_not_native_injection
+0.5,0.5,-1,0.2846681370408385,0.2846681370408385,0.0,True,analyst_dimensionless_literal_component_not_native_injection
+0.5,2,0,6.870412632215135,6.870412632215135,-5.551115123125783e-16,False,analyst_dimensionless_literal_component_not_native_injection
+0.5,2,-1,0.12178883703361898,0.12178883703361898,1.1102230246251565e-16,True,analyst_dimensionless_literal_component_not_native_injection
+1,2,0,6.305395279271691,6.305395279271691,0.0,False,analyst_dimensionless_literal_component_not_native_injection
+1,2,-1,0.3178444328993727,0.3178444328993727,0.0,True,analyst_dimensionless_literal_component_not_native_injection
+2,2,0,4.921553634567504,4.921553634567504,4.440892098500626e-16,False,analyst_dimensionless_literal_component_not_native_injection
+2,2,-1,1.0000000000000002,1.0000000000000002,0.0,True,analyst_dimensionless_literal_component_not_native_injection
+2.5,2,0,3.8781991264951166,3.8781991264951166,8.881784197001252e-16,False,analyst_dimensionless_literal_component_not_native_injection
+2.5,2,-1,1.7044181676464938,1.7044181676464938,4.440892098500626e-16,True,analyst_dimensionless_literal_component_not_native_injection
+1,1,0,1.0,1.0,0.0,True,analyst_dimensionless_literal_component_not_native_injection
+1,1,-1,1.0,1.0,0.0,True,analyst_dimensionless_literal_component_not_native_injection

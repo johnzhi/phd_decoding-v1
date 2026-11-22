@@ -1,0 +1,54 @@
+item,value,unit,scope
+unrestricted_M_30y_mass_over_duration,121.33333333333333,Gt/y,"Separate constant-rate horizon case, not one deployment rate trajectory"
+unrestricted_M_30y_minus_quoted_rate,0.3333333333333286,Gt/y,Compatible with rounded reported annual rates; not native model validation
+unrestricted_M_80y_mass_over_duration,70.375,Gt/y,"Separate constant-rate horizon case, not one deployment rate trajectory"
+unrestricted_M_80y_minus_quoted_rate,0.375,Gt/y,Compatible with rounded reported annual rates; not native model validation
+hydrocarbon_history_M_30y_mass_over_duration,100.0,Gt/y,"Separate constant-rate horizon case, not one deployment rate trajectory"
+hydrocarbon_history_M_30y_minus_quoted_rate,0.0,Gt/y,Compatible with rounded reported annual rates; not native model validation
+hydrocarbon_history_M_80y_mass_over_duration,56.25,Gt/y,"Separate constant-rate horizon case, not one deployment rate trajectory"
+hydrocarbon_history_M_80y_minus_quoted_rate,0.25,Gt/y,Compatible with rounded reported annual rates; not native model validation
+readiness_AB_M_30y_mass_over_duration,26.0,Gt/y,"Separate constant-rate horizon case, not one deployment rate trajectory"
+readiness_AB_M_30y_minus_quoted_rate,0.0,Gt/y,Compatible with rounded reported annual rates; not native model validation
+readiness_AB_M_80y_mass_over_duration,14.7125,Gt/y,"Separate constant-rate horizon case, not one deployment rate trajectory"
+readiness_AB_M_80y_minus_quoted_rate,-0.28749999999999964,Gt/y,Compatible with rounded reported annual rates; not native model validation
+hydrocarbon_history_M_30y_reduction,17.582417582417587,%,Endpoint-specific quote comparison; not the source's across-scenario17%average
+readiness_AB_M_30y_reduction,78.57142857142857,%,Endpoint-specific quote comparison; not the source's across-scenario17%average
+5.6Gt_y_30y_cumulative,168.0,Gt,"Flat-rate benchmark conversion, not actual IAM deployment integration"
+10Gt_y_30y_cumulative,300,Gt,"Flat-rate benchmark conversion, not actual IAM deployment integration"
+hydrocarbon_history_M_80y_reduction,20.071047957371224,%,Endpoint-specific quote comparison; not the source's across-scenario17%average
+readiness_AB_M_80y_reduction,79.09413854351688,%,Endpoint-specific quote comparison; not the source's across-scenario17%average
+5.6Gt_y_80y_cumulative,448.0,Gt,"Flat-rate benchmark conversion, not actual IAM deployment integration"
+10Gt_y_80y_cumulative,800,Gt,"Flat-rate benchmark conversion, not actual IAM deployment integration"
+modelled_over_scheme,32.460732984293195,%,"Source selection/count arithmetic, not coverage probability or validation"
+history_over_modelled,82.25806451612904,%,"Source selection/count arithmetic, not coverage probability or validation"
+europe_data_completion,50.0,%,"Source selection/count arithmetic, not coverage probability or validation"
+europe_depth_retained_entries,80.62707403593089,%,"Source selection/count arithmetic, not coverage probability or validation"
+265_minus_248,17,basins,Unreconciled populations; no inferred filter correction
+europe_entries_per_field,1.3096058744193018,ratio,Repeated fields/strata are not independent reservoir samples
+scenario123_implied_basins,248.0,basins,"Source992sites supports248basin basis, without resolving265"
+scenario11_implied_eligible_basins,127.0,basins,If source50800sites all follow400-site scenario
+reference_wells_per_site,8.771929824561404,wells/site,"Analogue based on average per-well rate, not actual required wells"
+M_projects_four_sites,18377.0,projects,"Source arithmetic with four-site analogue, not an actual project inventory"
+M_wells_nine_per_site,661572,wells,Rounded-rate analogue; site-count horizon and actual well rates unresolved
+M_well_analogue_share_of_petroleum,71.91,%,Count comparison only; no eligibility/integrity inference
+north_sea_nine_well_site_equivalents,1867.6666666666667,site equivalents,"Historical count analogy, not CCS-ready wells"
+10000_wells_as_nine_well_sites,1111.111111111111,site equivalents,Rounded per-well-rate analogue only
+14000_wells_as_nine_well_sites,1555.5555555555557,site equivalents,Rounded per-well-rate analogue only
+M_technical_site_rate_ceiling,367.54,Gt/y,Hypothetical site ceiling before pressure; not a native sustainable rate
+Australia_pressure_over_volumetric,19.150743099787686,%,"Different data, methods, geography and horizons; not isolated pressure effect or validation"
+USA_pressure_over_volumetric,8.11563915012191,%,"Different data, methods, geography and horizons; not isolated pressure effect or validation"
+UK_pressure_over_volumetric,91.75257731958763,%,"Different data, methods, geography and horizons; not isolated pressure effect or validation"
+Norway_pressure_over_volumetric,101.63727959697732,%,"Different data, methods, geography and horizons; not isolated pressure effect or validation"
+UK_quoted_difference,6.3999999999999915,Gt,Literal reported comparison
+Scenario3_average_rate,4.266666666666667,Gt/y,"Constant-rate global scenario, not project schedule"
+Scenario3_above_IEA120Gt,8,Gt,"Meets cumulative120 benchmark, not10Gt/y"
+analyst_theta,0.3333333333333333,dimensionless,Synthetic conventional effective-stress/MC definitions only; native C/theta unknown
+analyst_sigma3_MPa,38.0,MPa,Synthetic conventional effective-stress/MC definitions only; native C/theta unknown
+analyst_tensile_headroom_MPa,20.0,MPa,Synthetic conventional effective-stress/MC definitions only; native C/theta unknown
+analyst_literal_shear_MPa,12.433012701892217,MPa,Synthetic conventional effective-stress/MC definitions only; native C/theta unknown
+analyst_conventional_shear_MPa,13.732050807568875,MPa,Synthetic conventional effective-stress/MC definitions only; native C/theta unknown
+analyst_conditional_controlling_literal_MPa,12.433012701892217,MPa,Synthetic conventional effective-stress/MC definitions only; native C/theta unknown
+analyst_conditional_controlling_conventional_MPa,13.732050807568875,MPa,Synthetic conventional effective-stress/MC definitions only; native C/theta unknown
+analyst_cohesion_term_difference,1.299038105676658,MPa,Conditional conventional strength versus undefined source cohesion factor; no source correction
+analyst_max_implicit_root_residual,8.881784197001252e-16,dimensionless,Mathematical inversion only; bare MPa inputs are not permitted
+analyst_plume_diameter_80_over_30,1.632993161855452,ratio,Cumulative-mass conservation scales with sqrt(time); not native CO2BLOCK geometry or prediction

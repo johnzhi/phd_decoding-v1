@@ -130,6 +130,10 @@ The [zone-scale source–sink audit](../docs/zonal_pairing_comprehensive_finding
 
 Its percentage claims require precise mass and scenario boundaries: 4.2 Gt/y divided by the stated 7.6 Gt/y captured total gives about 55%, rather than 59%, and the 300 km figures differ when gross versus captured emissions form the denominator [B2-14, pp6–9,13]. Native curves and supplementary algorithms are needed to reconcile those cases. The framework is relevant prior work for integrated regional planning, while missing annual pressure constraints, full utilities and native-model verification limit its role in the present operating comparison.
 
+Pressure-aware resource modelling also precedes the present comparison. Smith et al. use CO2BLOCK to estimate basin resources under closed, homogeneous conditions, equal constant rates and a 5 Mt/y ceiling per multi-well storage site [B2-15, pp2–5]. Their 30- and 80-year maxima are separately optimized horizon cases. The corresponding mass/duration rates cannot be connected into one deployment trajectory or transferred as calibrated field annual limits. The [global pressure audit](../docs/pressure_limited_global_comprehensive_findings.md) preserves unresolved basin populations, formula definitions, site-count horizons and resource-share denominators.
+
+The same paper explicitly states that its authors lack permission to share the underlying data [B2-15, p12]. Its public method therefore does not close the present public reservoir-dataset requirement. Arithmetic, dimensionless inverse-function and disclosed failure/geometry checks remain separate from native global replication, field calibration and retained-carbon verification. Actual project timing, compartments and pressure-management utilities also remain outside its demonstrated operating comparison [B2-15, pp10–12].
+
 The [total-efficiency audit](../docs/total_efficiency_comprehensive_findings.md) similarly holds the hypothetical UK/Australia lifecycle-energy results outside the accepted inventory. Coal efficiency-loss denominators, several graphic share labels, baseline fuel/power closure and captured-versus-avoided annual mass need reconciliation [B1-03, pp4–11]. Table 3 combines literature process cases rather than supplying one matched capture-to-ship utility balance. Its displayed sensitivity arithmetic is consistent with rounding, but complete author cases remain unreproduced. Primary energy, electricity and avoided or retained CO2 retain separate accounting bases.
 
 Buffer ratios divide the reported buffer by the 5,000 t ship capacity. The 99% and 100% transport-completion cases are kept separate. The paper's use of average-cycle captured mass as another denominator is not relabelled as ship capacity [B2-08, pp7–8].
@@ -704,6 +708,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B2-13]** Nöhl et al. (2025). How to transport carbon dioxide with minimal environmental impacts today and tomorrow A prospective life cycle assessment. [10.1016/j.jclepro.2025.145659](https://doi.org/10.1016/j.jclepro.2025.145659). [Retained PDF](../papers/B2-13.pdf).
 
 - **[B2-14]** A High-Precision Geo-Spatial-Techno-Economic Framework for CO2 Source-Sink Pairing Land-Sea Synergy and Cross-Regional Coalitions in China. [10.1021/acs.est.5c14041](https://doi.org/10.1021/acs.est.5c14041). [Retained PDF](../papers/B2-14.pdf).
+
+- **[B2-15]** Global analysis of geological CO2 storage by pressure-limited injection sites. [10.1016/j.ijggc.2024.104220](https://doi.org/10.1016/j.ijggc.2024.104220). [Retained PDF](../papers/B2-15.pdf).
 
 - **[B2-17]** Progress and perspectives in source-sink matching for CCUS A critical review. [10.1016/j.rser.2025.116313](https://doi.org/10.1016/j.rser.2025.116313). [Retained PDF](../papers/B2-17.pdf).
 

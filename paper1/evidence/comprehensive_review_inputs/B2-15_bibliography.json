@@ -1,0 +1,2402 @@
+{
+  "study_id": "B2-15",
+  "source_sha256": "0e765af5db3780a2a31a7628c284ac8e52c42c4754d3ca7655368bcf7484e4fa",
+  "provenance": "All68 printed bibliography entries text-read/rendered; native lines and bboxes manually margin-segmented, including IPCC2018p12right to13left continuation. Text-dictionary line geometry restores the Davies author order that sorted full-page extraction interleaved. No original-passage verification claimed.",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Bachu, S., Bonijoly, D., Bradshaw, J., Burruss, R., Holloway, S., Christensen, N.P.,",
+        "Mathiassen, O.M., 2007. CO2 storage resource estimation: methodology and gaps.",
+        "Int. J. Greenhouse Gas Control 1 (4), 430–443."
+      ],
+      "line_bboxes": [
+        [
+          37.5874,
+          693.9495,
+          270.9708,
+          704.3741
+        ],
+        [
+          49.5492,
+          701.943,
+          282.749,
+          713.3882
+        ],
+        [
+          49.5511,
+          709.8799,
+          183.7765,
+          720.3045
+        ]
+      ],
+      "citation": "Bachu, S., Bonijoly, D., Bradshaw, J., Burruss, R., Holloway, S., Christensen, N.P., Mathiassen, O.M., 2007. CO2 storage resource estimation: methodology and gaps. Int. J. Greenhouse Gas Control 1 (4), 430–443.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Bandilla, K.W., Celia, M.A., Elliot, T.R., Person, M., Ellett, K.M., Rupp, J.A., Gable, C.,",
+        "Zhang, Y., 2012. Modeling carbon sequestration in the Illinois Basin using a",
+        "vertically-integrated approach. Comput. Vis. Sci. 15, 39–51."
+      ],
+      "line_bboxes": [
+        [
+          37.5886,
+          717.8734,
+          283.6607,
+          728.298
+        ],
+        [
+          49.5511,
+          725.8101,
+          266.7525,
+          736.2347
+        ],
+        [
+          49.5511,
+          733.8043,
+          220.4775,
+          744.2288
+        ]
+      ],
+      "citation": "Bandilla, K.W., Celia, M.A., Elliot, T.R., Person, M., Ellett, K.M., Rupp, J.A., Gable, C., Zhang, Y., 2012. Modeling carbon sequestration in the Illinois Basin using a vertically-integrated approach. Comput. Vis. Sci. 15, 39–51.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Bandilla, K.W., Celia, M.A., 2017. Active pressure management through brine production",
+        "for basin-wide deployment of geologic carbon sequestration. Int. J. Greenhouse Gas",
+        "Control 61, 155–167."
+      ],
+      "line_bboxes": [
+        [
+          306.5929,
+          52.1376,
+          555.6489,
+          62.5622
+        ],
+        [
+          318.5554,
+          60.1311,
+          555.6522,
+          70.5557
+        ],
+        [
+          318.5554,
+          68.0685,
+          379.3649,
+          78.493
+        ]
+      ],
+      "citation": "Bandilla, K.W., Celia, M.A., 2017. Active pressure management through brine production for basin-wide deployment of geologic carbon sequestration. Int. J. Greenhouse Gas Control 61, 155–167.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C52"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Benson, S., Cook, P., Anderson, J., Bachu, S., Nimir, H.B., Basu, B., Bradshaw, J.,",
+        "Deguchi, G., 2005. Chapter 5: underground geological storage. In: IPCC Special",
+        "Report on Carbon Dioxide Capture and Storage. IPCC, Geneva, Switzerland."
+      ],
+      "line_bboxes": [
+        [
+          306.5929,
+          76.0619,
+          538.3811,
+          86.4865
+        ],
+        [
+          318.5554,
+          83.9986,
+          545.2512,
+          94.4232
+        ],
+        [
+          318.5554,
+          91.9921,
+          534.7992,
+          102.4167
+        ]
+      ],
+      "citation": "Benson, S., Cook, P., Anderson, J., Bachu, S., Nimir, H.B., Basu, B., Bradshaw, J., Deguchi, G., 2005. Chapter 5: underground geological storage. In: IPCC Special Report on Carbon Dioxide Capture and Storage. IPCC, Geneva, Switzerland.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Bentham, M., Mallows, T., Lowndes, J., Green, A., 2014. CO2 STORage evaluation",
+        "database (CO2 Stored). The UK’s online storage atlas. Energy Proc. 63, 5103–5113."
+      ],
+      "line_bboxes": [
+        [
+          306.5929,
+          99.9862,
+          542.1352,
+          110.4108
+        ],
+        [
+          318.5554,
+          107.9229,
+          555.6573,
+          118.3475
+        ]
+      ],
+      "citation": "Bentham, M., Mallows, T., Lowndes, J., Green, A., 2014. CO2 STORage evaluation database (CO2 Stored). The UK’s online storage atlas. Energy Proc. 63, 5103–5113.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C39",
+        "C40"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Birkholzer, J.T., Zhou, Q., 2009. Basin-scale hydrogeologic impacts of CO2 storage:",
+        "resource and regulatory implications. Int. J. Greenhouse Gas Control 3 (6), 745–756."
+      ],
+      "line_bboxes": [
+        [
+          306.5929,
+          115.9084,
+          543.857,
+          127.354
+        ],
+        [
+          318.5594,
+          123.8451,
+          555.6818,
+          134.2697
+        ]
+      ],
+      "citation": "Birkholzer, J.T., Zhou, Q., 2009. Basin-scale hydrogeologic impacts of CO2 storage: resource and regulatory implications. Int. J. Greenhouse Gas Control 3 (6), 745–756.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C18",
+        "C19"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Birkholzer, J.T., Zhou, Q., Tsang, C.F., 2009. Large-scale impact of CO2 storage in deep",
+        "saline aquifers: a sensitivity study on pressure response in stratified systems. Int. J.",
+        "Greenhouse Gas Control 3 (2), 181–194."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          131.8386,
+          555.6757,
+          143.341
+        ],
+        [
+          318.5598,
+          139.8329,
+          555.6489,
+          150.2575
+        ],
+        [
+          318.5598,
+          147.7696,
+          433.9649,
+          158.1942
+        ]
+      ],
+      "citation": "Birkholzer, J.T., Zhou, Q., Tsang, C.F., 2009. Large-scale impact of CO2 storage in deep saline aquifers: a sensitivity study on pressure response in stratified systems. Int. J. Greenhouse Gas Control 3 (2), 181–194.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "B¨ottner, C., Haeckel, M., Schmidt, M., Berndt, C., Vielst¨adte, L., Kutsch, J.A., Karstens, J.,",
+        "Weiß, T., 2020. Greenhouse gas emissions from marine decommissioned",
+        "hydrocarbon wells: leakage detection, monitoring and mitigation strategies. Int. J.",
+        "Greenhouse Gas Control 100, 103119."
+      ],
+      "line_bboxes": [
+        [
+          306.598,
+          155.763,
+          555.6763,
+          166.1876
+        ],
+        [
+          318.5598,
+          163.7004,
+          524.5505,
+          174.125
+        ],
+        [
+          318.5598,
+          171.6939,
+          553.3243,
+          182.1185
+        ],
+        [
+          318.5598,
+          179.6306,
+          427.4321,
+          190.0552
+        ]
+      ],
+      "citation": "B¨ottner, C., Haeckel, M., Schmidt, M., Berndt, C., Vielst¨adte, L., Kutsch, J.A., Karstens, J., Weiß, T., 2020. Greenhouse gas emissions from marine decommissioned hydrocarbon wells: leakage detection, monitoring and mitigation strategies. Int. J. Greenhouse Gas Control 100, 103119.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C49"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Carbon Storage Taskforce, 2009. National Carbon Mapping and Infrastructure Plan –",
+        "Australia: Full Report. Department of Resources, Energy and Tourism, Canberra."
+      ],
+      "line_bboxes": [
+        [
+          306.598,
+          187.6241,
+          548.6303,
+          198.0487
+        ],
+        [
+          318.5598,
+          195.6181,
+          547.9781,
+          206.0428
+        ]
+      ],
+      "citation": "Carbon Storage Taskforce, 2009. National Carbon Mapping and Infrastructure Plan – Australia: Full Report. Department of Resources, Energy and Tourism, Canberra.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "C&C Reservoirs, 2018. DAKS™(Digital Analogs Knowledge System). C&C Reservoirs",
+        "Ltd, Reading, UK. https://www.ccreservoirs.com/products."
+      ],
+      "line_bboxes": [
+        [
+          306.598,
+          203.5549,
+          549.4917,
+          213.9795
+        ],
+        [
+          318.5598,
+          211.5483,
+          486.4481,
+          221.9729
+        ]
+      ],
+      "citation": "C&C Reservoirs, 2018. DAKS™(Digital Analogs Knowledge System). C&C Reservoirs Ltd, Reading, UK. https://www.ccreservoirs.com/products.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Consoli, C., Wildgust, N., Causebrook, R., 2015. Global Storage Readiness Assessment: an",
+        "approach to assessing national readiness for wide-scale deployment of CO2",
+        "geological storage projects. Global CCS Inst. Rep."
+      ],
+      "line_bboxes": [
+        [
+          306.598,
+          219.485,
+          555.6476,
+          229.9097
+        ],
+        [
+          318.5598,
+          227.4792,
+          532.0901,
+          238.2824
+        ],
+        [
+          318.557,
+          235.4744,
+          458.9524,
+          245.899
+        ]
+      ],
+      "citation": "Consoli, C., Wildgust, N., Causebrook, R., 2015. Global Storage Readiness Assessment: an approach to assessing national readiness for wide-scale deployment of CO2 geological storage projects. Global CCS Inst. Rep.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Consoli, C., 2018. CCS Storage Indicator (CCS-SI). Global CCS Institute, Melbourne,",
+        "Australia."
+      ],
+      "line_bboxes": [
+        [
+          306.5952,
+          243.4111,
+          544.927,
+          253.8357
+        ],
+        [
+          318.557,
+          251.4046,
+          345.7821,
+          261.8292
+        ]
+      ],
+      "citation": "Consoli, C., 2018. CCS Storage Indicator (CCS-SI). Global CCS Institute, Melbourne, Australia.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Davidson, C.L., Watson, D.J., Dooley, J.J., Dahowski, R.T., 2014. Benefits and costs of",
+        "brine extraction for increasing injection efficiency in geologic CO2 sequestration.",
+        "Energy Proc. 63, 4745–4749."
+      ],
+      "line_bboxes": [
+        [
+          306.5952,
+          259.3413,
+          552.5735,
+          269.7659
+        ],
+        [
+          318.557,
+          267.3354,
+          549.3356,
+          278.837
+        ],
+        [
+          318.5592,
+          275.2721,
+          401.6856,
+          285.6967
+        ]
+      ],
+      "citation": "Davidson, C.L., Watson, D.J., Dooley, J.J., Dahowski, R.T., 2014. Benefits and costs of brine extraction for increasing injection efficiency in geologic CO2 sequestration. Energy Proc. 63, 4745–4749.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C52"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Davies, R.J., Almond, S., Ward, R.S., Jackson, R.B., Adams, C., Worrall, F.,",
+        "Herringshaw, L.G., Gluyas, J.G., Whitehead, M.A., 2014. Oil and gas wells and their",
+        "integrity: implications for shale and unconventional resource exploitation. Mar. Pet.",
+        "Geol. 56, 239–254."
+      ],
+      "line_bboxes": [
+        [
+          306.5974,
+          283.2656,
+          519.9197,
+          293.6902
+        ],
+        [
+          318.5592,
+          291.2591,
+          555.6432,
+          301.6837
+        ],
+        [
+          318.5592,
+          299.1964,
+          555.6432,
+          309.621
+        ],
+        [
+          318.5592,
+          307.1899,
+          372.9629,
+          317.6145
+        ]
+      ],
+      "citation": "Davies, R.J., Almond, S., Ward, R.S., Jackson, R.B., Adams, C., Worrall, F., Herringshaw, L.G., Gluyas, J.G., Whitehead, M.A., 2014. Oil and gas wells and their integrity: implications for shale and unconventional resource exploitation. Mar. Pet. Geol. 56, 239–254.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C49"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Department for Business, Energy & Industrial Strategy, 2022. Endurance Storage",
+        "Development Plan. Ref: NS051-SS-REP-000-00010. Available at: https://www.gov.",
+        "uk/government/publications/carbon-capture-usage-and-storage-ccus-innovation-n",
+        "epnzt-key-knowledge-deliverables."
+      ],
+      "line_bboxes": [
+        [
+          306.5974,
+          315.1266,
+          536.8458,
+          325.5512
+        ],
+        [
+          318.5592,
+          323.1201,
+          554.1296,
+          333.5447
+        ],
+        [
+          318.5592,
+          331.1142,
+          550.8906,
+          341.5388
+        ],
+        [
+          318.5592,
+          339.0509,
+          416.2316,
+          349.4755
+        ]
+      ],
+      "citation": "Department for Business, Energy & Industrial Strategy, 2022. Endurance Storage Development Plan. Ref: NS051-SS-REP-000-00010. Available at: https://www.gov. uk/government/publications/carbon-capture-usage-and-storage-ccus-innovation-n epnzt-key-knowledge-deliverables.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C08",
+        "C18",
+        "C19"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "De Simone, S., Jackson, S.J., Krevor, S., 2019. The error in using superposition to",
+        "estimate pressure during multisite subsurface CO2 storage. Geophys. Res. Lett. 46",
+        "(12), 6525–6533."
+      ],
+      "line_bboxes": [
+        [
+          306.5974,
+          347.0444,
+          540.0229,
+          357.469
+        ],
+        [
+          318.5592,
+          354.9811,
+          551.0905,
+          366.484
+        ],
+        [
+          318.5595,
+          362.9759,
+          368.1238,
+          373.4005
+        ]
+      ],
+      "citation": "De Simone, S., Jackson, S.J., Krevor, S., 2019. The error in using superposition to estimate pressure during multisite subsurface CO2 storage. Geophys. Res. Lett. 46 (12), 6525–6533.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "De Simone, S., Krevor, S., 2021. A tool for first order estimates and optimisation of",
+        "dynamic storage resource resource in saline aquifers. Int. J. Greenhouse Gas Control",
+        "106, 103258."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          370.9126,
+          544.7522,
+          381.3372
+        ],
+        [
+          318.5595,
+          378.9061,
+          555.6607,
+          389.3307
+        ],
+        [
+          318.5595,
+          386.9002,
+          356.5662,
+          397.3248
+        ]
+      ],
+      "citation": "De Simone, S., Krevor, S., 2021. A tool for first order estimates and optimisation of dynamic storage resource resource in saline aquifers. Int. J. Greenhouse Gas Control 106, 103258.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C07",
+        "C39",
+        "C40",
+        "C48"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Duong, C., Bower, C., Hume, K., Rock, L., Tessarolo, S., 2019. Quest carbon capture and",
+        "storage offset project: findings and learnings from 1st reporting period. Int. J.",
+        "Greenhouse Gas Control 89, 65–75."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          394.8369,
+          555.6716,
+          405.2615
+        ],
+        [
+          318.5595,
+          402.8304,
+          540.5684,
+          413.2549
+        ],
+        [
+          318.5595,
+          410.7671,
+          419.8687,
+          421.1917
+        ]
+      ],
+      "citation": "Duong, C., Bower, C., Hume, K., Rock, L., Tessarolo, S., 2019. Quest carbon capture and storage offset project: findings and learnings from 1st reporting period. Int. J. Greenhouse Gas Control 89, 65–75.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Edwards, R.W., Celia, M.A., Bandilla, K.W., Doster, F., Kanno, C.M., 2015. A model to",
+        "estimate carbon dioxide injectivity and storage resource for geological sequestration",
+        "in shale gas wells. Environ. Sci. Technol. 49 (15), 9222–9229."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          418.7612,
+          552.5519,
+          429.1858
+        ],
+        [
+          318.5595,
+          426.7546,
+          555.6569,
+          437.1792
+        ],
+        [
+          318.5595,
+          434.6914,
+          496.0218,
+          445.116
+        ]
+      ],
+      "citation": "Edwards, R.W., Celia, M.A., Bandilla, K.W., Doster, F., Kanno, C.M., 2015. A model to estimate carbon dioxide injectivity and storage resource for geological sequestration in shale gas wells. Environ. Sci. Technol. 49 (15), 9222–9229.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Evenick, J.C., 2021. Glimpses into Earth’s history using a revised global sedimentary",
+        "basin map. Earth-Sci. Rev. 215, 103564."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          442.6848,
+          549.1783,
+          453.1094
+        ],
+        [
+          318.5595,
+          450.6222,
+          433.6674,
+          461.0468
+        ]
+      ],
+      "citation": "Evenick, J.C., 2021. Glimpses into Earth’s history using a revised global sedimentary basin map. Earth-Sci. Rev. 215, 103564.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Ganjdanesh, R., Hosseini, S.A., 2017. Geologic carbon storage capacity estimation using",
+        "enhanced analytical simulation tool (EASiTool). Energy Proc. 114, 4690–4696."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          458.6157,
+          555.6824,
+          469.0403
+        ],
+        [
+          318.5595,
+          466.5524,
+          543.7557,
+          476.977
+        ]
+      ],
+      "citation": "Ganjdanesh, R., Hosseini, S.A., 2017. Geologic carbon storage capacity estimation using enhanced analytical simulation tool (EASiTool). Energy Proc. 114, 4690–4696.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Ganjdanesh, R., Hosseini, S.A., 2018. Development of an analytical simulation tool for",
+        "storage capacity estimation of saline aquifers. Int. J. Greenhouse Gas Control 74,",
+        "142–154."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          474.5465,
+          553.368,
+          484.9711
+        ],
+        [
+          318.5595,
+          482.5399,
+          549.6438,
+          492.9645
+        ],
+        [
+          318.5595,
+          490.4767,
+          345.0705,
+          500.9012
+        ]
+      ],
+      "citation": "Ganjdanesh, R., Hosseini, S.A., 2018. Development of an analytical simulation tool for storage capacity estimation of saline aquifers. Int. J. Greenhouse Gas Control 74, 142–154.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Global CCS Institute (GCCSI), 2020. Global Status of CCS Report 2020. Melbourne,",
+        "Australia."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          498.4701,
+          543.5121,
+          508.8947
+        ],
+        [
+          318.5595,
+          506.4075,
+          345.7846,
+          516.8321
+        ]
+      ],
+      "citation": "Global CCS Institute (GCCSI), 2020. Global Status of CCS Report 2020. Melbourne, Australia.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01",
+        "C27"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Global CCS Institute (GCCSI), 2022. CO2RE Database. . Available at: https://co2re.co/."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          514.401,
+          555.4778,
+          524.8256
+        ]
+      ],
+      "citation": "Global CCS Institute (GCCSI), 2022. CO2RE Database. . Available at: https://co2re.co/.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C47"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Golding, M.J., Neufeld, J.A., Hesse, M.A., Huppert, H.E., 2011. Two-phase gravity",
+        "currents in porous media. J. Fluid Mech. 678, 248–270."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          522.3945,
+          541.0012,
+          532.819
+        ],
+        [
+          318.5595,
+          530.3312,
+          477.9576,
+          540.7557
+        ]
+      ],
+      "citation": "Golding, M.J., Neufeld, J.A., Hesse, M.A., Huppert, H.E., 2011. Two-phase gravity currents in porous media. J. Fluid Mech. 678, 248–270.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Grant, N., Gambhir, A., Mittal, S., Greig, C., K¨oberle, A.C., 2022. Enhancing the realism",
+        "of decarbonisation scenarios with practicable regional constraints on CO2 storage",
+        "resource. Int. J. Greenhouse Gas Control 120, 103766."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          538.3253,
+          555.6556,
+          548.7498
+        ],
+        [
+          318.5595,
+          546.262,
+          550.6898,
+          557.766
+        ],
+        [
+          318.5605,
+          554.2579,
+          473.9769,
+          564.6825
+        ]
+      ],
+      "citation": "Grant, N., Gambhir, A., Mittal, S., Greig, C., K¨oberle, A.C., 2022. Enhancing the realism of decarbonisation scenarios with practicable regional constraints on CO2 storage resource. Int. J. Greenhouse Gas Control 120, 103766.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Hague, M., 2024. A Hitchhiker’s guide to carbon capture and sequestration regulation in",
+        "Texas and beyond. Houston Law Rev. (4), 61."
+      ],
+      "line_bboxes": [
+        [
+          306.5987,
+          562.2514,
+          555.6948,
+          572.676
+        ],
+        [
+          318.5605,
+          570.1881,
+          449.1867,
+          580.6127
+        ]
+      ],
+      "citation": "Hague, M., 2024. A Hitchhiker’s guide to carbon capture and sequestration regulation in Texas and beyond. Houston Law Rev. (4), 61.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C47"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Harto, C.B., Veil, J.A., 2011. Management of Water Extracted from Carbon Sequestration",
+        "Projects (No. ANL/EVS/R-11/1). Argonne National Lab (ANL), Argonne, ILUnited",
+        "States."
+      ],
+      "line_bboxes": [
+        [
+          306.5987,
+          578.1822,
+          555.6496,
+          588.6068
+        ],
+        [
+          318.5605,
+          586.119,
+          551.1425,
+          596.5435
+        ],
+        [
+          318.5605,
+          594.1124,
+          336.9103,
+          604.537
+        ]
+      ],
+      "citation": "Harto, C.B., Veil, J.A., 2011. Management of Water Extracted from Carbon Sequestration Projects (No. ANL/EVS/R-11/1). Argonne National Lab (ANL), Argonne, ILUnited States.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C52"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Havercroft, I., Consoli, C., 2018. Is the world ready for carbon capture and storage.",
+        "Global CCS Institute Report."
+      ],
+      "line_bboxes": [
+        [
+          306.5987,
+          602.0491,
+          545.2754,
+          612.4737
+        ],
+        [
+          318.5605,
+          610.0432,
+          398.8847,
+          620.4678
+        ]
+      ],
+      "citation": "Havercroft, I., Consoli, C., 2018. Is the world ready for carbon capture and storage. Global CCS Institute Report.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C23"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Hsieh, P.A., Bredehoeft, J.D., 1981. A reservoir analysis of the Denver earthquakes: a",
+        "case of induced seismicity. J. Geophys. Res. 86 (B2), 903–920."
+      ],
+      "line_bboxes": [
+        [
+          306.5987,
+          618.0367,
+          550.2754,
+          628.4612
+        ],
+        [
+          318.5605,
+          625.9734,
+          497.4038,
+          636.398
+        ]
+      ],
+      "citation": "Hsieh, P.A., Bredehoeft, J.D., 1981. A reservoir analysis of the Denver earthquakes: a case of induced seismicity. J. Geophys. Res. 86 (B2), 903–920.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Herzog, H., 2017. Financing CCS demonstration projects: lessons learned from two",
+        "decades of experience. Energy Proc. 114, 5691–5700."
+      ],
+      "line_bboxes": [
+        [
+          306.5987,
+          633.9669,
+          542.975,
+          644.3914
+        ],
+        [
+          318.5605,
+          641.9042,
+          471.4749,
+          652.3288
+        ]
+      ],
+      "citation": "Herzog, H., 2017. Financing CCS demonstration projects: lessons learned from two decades of experience. Energy Proc. 114, 5691–5700.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Huang, X., Bandilla, K.W., Celia, M.A., Bachu, S., 2014. Basin-scale modeling of CO2",
+        "storage using models of varying complexity. Int. J. Greenhouse Gas Control 20,",
+        "73–86."
+      ],
+      "line_bboxes": [
+        [
+          306.5987,
+          649.8977,
+          548.1341,
+          660.7014
+        ],
+        [
+          318.557,
+          657.8925,
+          545.3331,
+          668.317
+        ],
+        [
+          318.557,
+          665.8292,
+          337.8887,
+          676.2537
+        ]
+      ],
+      "citation": "Huang, X., Bandilla, K.W., Celia, M.A., Bachu, S., 2014. Basin-scale modeling of CO2 storage using models of varying complexity. Int. J. Greenhouse Gas Control 20, 73–86.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04",
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "International Energy Agency, 2013. Energy Technology Perspectives 2013: Technology",
+        "Roadmap For Carbon Capture and Storage."
+      ],
+      "line_bboxes": [
+        [
+          306.5952,
+          673.8226,
+          554.545,
+          684.2472
+        ],
+        [
+          318.557,
+          681.7593,
+          441.2319,
+          692.1839
+        ]
+      ],
+      "citation": "International Energy Agency, 2013. Energy Technology Perspectives 2013: Technology Roadmap For Carbon Capture and Storage.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01",
+        "C27"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "International Energy Agency, 2020. Energy Technology Perspectives 2020: Special",
+        "Report On Carbon Capture Utilisation and Storage."
+      ],
+      "line_bboxes": [
+        [
+          306.5952,
+          689.7535,
+          541.8505,
+          700.178
+        ],
+        [
+          318.557,
+          697.6902,
+          463.9651,
+          708.1147
+        ]
+      ],
+      "citation": "International Energy Agency, 2020. Energy Technology Perspectives 2020: Special Report On Carbon Capture Utilisation and Storage.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01",
+        "C27"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "IEA GHG and ZEP, 2010. The costs of CO2 storage: post-demonstration CCS in the EU."
+      ],
+      "line_bboxes": [
+        [
+          306.5952,
+          705.6837,
+          553.3851,
+          717.1867
+        ]
+      ],
+      "citation": "IEA GHG and ZEP, 2010. The costs of CO2 storage: post-demonstration CCS in the EU.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C47"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        12,
+        13
+      ],
+      "native_lines": [
+        "IPCC, 2018. Global warming of 1.5 ◦C. An IPCC Special Report on the impacts of global",
+        "warming of 1.5 ◦C above pre-industrial levels and related global greenhouse gas",
+        "emission pathways, in the context of strengthening the global response to the threat",
+        "of climate change, IPCC – Sr15."
+      ],
+      "line_bboxes": [
+        [
+          306.5963,
+          713.6784,
+          555.6849,
+          724.1032
+        ],
+        [
+          318.5588,
+          721.6154,
+          547.9376,
+          732.0402
+        ],
+        [
+          49.5496,
+          52.1294,
+          286.6566,
+          62.554
+        ],
+        [
+          49.5496,
+          60.1229,
+          140.0128,
+          70.5475
+        ]
+      ],
+      "citation": "IPCC, 2018. Global warming of 1.5 ◦C. An IPCC Special Report on the impacts of global warming of 1.5 ◦C above pre-industrial levels and related global greenhouse gas emission pathways, in the context of strengthening the global response to the threat of climate change, IPCC – Sr15.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "IPCC, 2023. Climate Change 2023: Synthesis Report, Summary for Policymakers.",
+        "Contribution of Working Groups I, II and III to the Sixth Assessment Report of the",
+        "Intergovernmental Panel On Climate Change. IPCC, Geneva, Switzerland."
+      ],
+      "line_bboxes": [
+        [
+          37.5878,
+          68.0596,
+          268.6663,
+          78.4842
+        ],
+        [
+          49.5496,
+          76.0531,
+          284.3632,
+          86.4777
+        ],
+        [
+          49.5496,
+          83.9904,
+          258.593,
+          94.415
+        ]
+      ],
+      "citation": "IPCC, 2023. Climate Change 2023: Synthesis Report, Summary for Policymakers. Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel On Climate Change. IPCC, Geneva, Switzerland.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01",
+        "C27"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Joshi, A., Gangadharan, S., Leonenko, Y., 2016. Modeling of pressure evolution during",
+        "multiple well injection of CO2 in saline aquifers. J. Nat. Gas Sci. Eng. 36, 1070–1079."
+      ],
+      "line_bboxes": [
+        [
+          37.5878,
+          91.9839,
+          285.2921,
+          102.4085
+        ],
+        [
+          49.5496,
+          99.9774,
+          286.6528,
+          111.423
+        ]
+      ],
+      "citation": "Joshi, A., Gangadharan, S., Leonenko, Y., 2016. Modeling of pressure evolution during multiple well injection of CO2 in saline aquifers. J. Nat. Gas Sci. Eng. 36, 1070–1079.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Juanes, R., MacMinn, C.W., Szulczewski, M.L., 2010. The footprint of the CO2 plume",
+        "during carbon dioxide storage in saline aquifers: storage efficiency for capillary",
+        "trapping at the basin scale. Transp. Porous Media 82, 19–30."
+      ],
+      "line_bboxes": [
+        [
+          37.5891,
+          107.9141,
+          280.4574,
+          119.417
+        ],
+        [
+          49.5516,
+          115.9079,
+          276.5043,
+          126.3325
+        ],
+        [
+          49.5516,
+          123.8446,
+          223.5403,
+          134.2692
+        ]
+      ],
+      "citation": "Juanes, R., MacMinn, C.W., Szulczewski, M.L., 2010. The footprint of the CO2 plume during carbon dioxide storage in saline aquifers: storage efficiency for capillary trapping at the basin scale. Transp. Porous Media 82, 19–30.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Karvounis, P., Blunt, M.J., 2021. Assessment of CO2 geological storage resource of saline",
+        "aquifers under the North Sea. Int. J. Greenhouse Gas Control 111, 103463."
+      ],
+      "line_bboxes": [
+        [
+          37.5898,
+          131.838,
+          286.6579,
+          143.341
+        ],
+        [
+          49.551,
+          139.8329,
+          263.6996,
+          150.2575
+        ]
+      ],
+      "citation": "Karvounis, P., Blunt, M.J., 2021. Assessment of CO2 geological storage resource of saline aquifers under the North Sea. Int. J. Greenhouse Gas Control 111, 103463.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Lane, J., Greig, C., Garnett, A., 2021. Uncertain storage prospects create a conundrum for",
+        "carbon capture and storage ambitions. Nat. Clim. Change 11 (11), 925–936."
+      ],
+      "line_bboxes": [
+        [
+          37.5885,
+          147.7696,
+          286.6834,
+          158.1942
+        ],
+        [
+          49.551,
+          155.763,
+          267.0578,
+          166.1876
+        ]
+      ],
+      "citation": "Lane, J., Greig, C., Garnett, A., 2021. Uncertain storage prospects create a conundrum for carbon capture and storage ambitions. Nat. Clim. Change 11 (11), 925–936.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Martin-Roberts, E., Scott, V., Flude, S., Johnson, G., Haszeldine, R.S., Gilfillan, S., 2021.",
+        "Carbon capture and storage at the end of a lost decade. One Earth 4 (11),",
+        "1569–1584."
+      ],
+      "line_bboxes": [
+        [
+          37.5885,
+          163.7004,
+          286.6802,
+          174.125
+        ],
+        [
+          49.5509,
+          171.6939,
+          260.7118,
+          182.1185
+        ],
+        [
+          49.551,
+          179.6306,
+          83.2412,
+          190.0552
+        ]
+      ],
+      "citation": "Martin-Roberts, E., Scott, V., Flude, S., Johnson, G., Haszeldine, R.S., Gilfillan, S., 2021. Carbon capture and storage at the end of a lost decade. One Earth 4 (11), 1569–1584.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Mathias, S.A., Gluyas, J.G., Goldthorpe, W.H., Mackay, E.J., 2015. Impact of maximum",
+        "allowable cost on CO2 storage capacity in saline formations. Environ. Sci. Technol.",
+        "49 (22), 13510–13518."
+      ],
+      "line_bboxes": [
+        [
+          37.5885,
+          187.6241,
+          286.6631,
+          198.0487
+        ],
+        [
+          49.551,
+          195.6181,
+          286.0853,
+          207.064
+        ],
+        [
+          49.5503,
+          203.5552,
+          115.648,
+          213.9798
+        ]
+      ],
+      "citation": "Mathias, S.A., Gluyas, J.G., Goldthorpe, W.H., Mackay, E.J., 2015. Impact of maximum allowable cost on CO2 storage capacity in saline formations. Environ. Sci. Technol. 49 (22), 13510–13518.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Mathias, S.A., Hardisty, P.E., Trudell, M.R., Zimmerman, R.W., 2009. Approximate",
+        "solutions for pressure buildup during CO2 injection in brine aquifers. Transp. Porous",
+        "Media 79, 265–284."
+      ],
+      "line_bboxes": [
+        [
+          37.5878,
+          211.5486,
+          274.0119,
+          221.9732
+        ],
+        [
+          49.5503,
+          219.4854,
+          286.7067,
+          230.988
+        ],
+        [
+          49.5512,
+          227.4799,
+          106.7896,
+          237.9045
+        ]
+      ],
+      "citation": "Mathias, S.A., Hardisty, P.E., Trudell, M.R., Zimmerman, R.W., 2009. Approximate solutions for pressure buildup during CO2 injection in brine aquifers. Transp. Porous Media 79, 265–284.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04",
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "National Energy Technology Laboratory (NETL), 2015. Carbon Storage Atlas V US",
+        "Department of Energy 2015."
+      ],
+      "line_bboxes": [
+        [
+          37.5894,
+          235.4734,
+          272.3328,
+          245.898
+        ],
+        [
+          49.5512,
+          243.4101,
+          130.6648,
+          253.8347
+        ]
+      ],
+      "citation": "National Energy Technology Laboratory (NETL), 2015. Carbon Storage Atlas V US Department of Energy 2015.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "National Energy Technology Laboratory (US) and United States Office of Fossil Energy,",
+        "2008. Carbon Sequestration Atlas of the United States and Canada. National Energy",
+        "Technology Laboratory."
+      ],
+      "line_bboxes": [
+        [
+          37.5894,
+          251.4042,
+          286.6697,
+          261.8288
+        ],
+        [
+          49.5512,
+          259.3409,
+          286.6984,
+          269.7655
+        ],
+        [
+          49.5512,
+          267.3344,
+          117.0873,
+          277.7589
+        ]
+      ],
+      "citation": "National Energy Technology Laboratory (US) and United States Office of Fossil Energy, 2008. Carbon Sequestration Atlas of the United States and Canada. National Energy Technology Laboratory.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Nordbotten, J.M., Celia, M.A., Bachu, S., 2005. Injection and storage of CO2 in deep",
+        "saline aquifers: analytical solution for CO2 plume evolution during injection. Transp.",
+        "Porous Media 58, 339–360."
+      ],
+      "line_bboxes": [
+        [
+          37.5894,
+          275.2711,
+          278.2205,
+          286.774
+        ],
+        [
+          49.552,
+          283.2659,
+          286.6637,
+          294.768
+        ],
+        [
+          49.5504,
+          291.2599,
+          128.162,
+          301.6845
+        ]
+      ],
+      "citation": "Nordbotten, J.M., Celia, M.A., Bachu, S., 2005. Injection and storage of CO2 in deep saline aquifers: analytical solution for CO2 plume evolution during injection. Transp. Porous Media 58, 339–360.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06",
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "North Sea Transition Authority (NSTA), 2023. Guidance on Applications for a Carbon",
+        "Storage Permit."
+      ],
+      "line_bboxes": [
+        [
+          37.5885,
+          299.1966,
+          282.2777,
+          309.6212
+        ],
+        [
+          49.5504,
+          307.1901,
+          93.4644,
+          317.6147
+        ]
+      ],
+      "citation": "North Sea Transition Authority (NSTA), 2023. Guidance on Applications for a Carbon Storage Permit.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R48"
+    },
+    {
+      "id": "R49",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Office of Fossil Energy and Carbon Management (OFECM), 2023. Project selections for",
+        "FOA 2711: carbon storage validation and testing (round 1)."
+      ],
+      "line_bboxes": [
+        [
+          37.5885,
+          315.1274,
+          285.4931,
+          325.552
+        ],
+        [
+          49.5504,
+          323.1209,
+          219.6319,
+          333.5455
+        ]
+      ],
+      "citation": "Office of Fossil Energy and Carbon Management (OFECM), 2023. Project selections for FOA 2711: carbon storage validation and testing (round 1).",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C47"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R49"
+    },
+    {
+      "id": "R50",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Norwegian Petroleium Directorate (NPD), 2014. CO2 Storage Atlas –. Norwegian",
+        "Continental Shelf."
+      ],
+      "line_bboxes": [
+        [
+          37.5885,
+          331.1143,
+          268.0173,
+          342.56
+        ],
+        [
+          49.5515,
+          339.0511,
+          100.3943,
+          349.4757
+        ]
+      ],
+      "citation": "Norwegian Petroleium Directorate (NPD), 2014. CO2 Storage Atlas –. Norwegian Continental Shelf.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C36",
+        "C39"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R50"
+    },
+    {
+      "id": "R51",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Qin, J., Zhong, Q., Tang, Y., Rui, Z., Qiu, S., Chen, H., 2023. CO2 storage potential",
+        "assessment of offshore saline aquifers in China. Fuel 341, 127681."
+      ],
+      "line_bboxes": [
+        [
+          37.5897,
+          347.0446,
+          274.5697,
+          358.491
+        ],
+        [
+          49.5521,
+          354.9821,
+          238.6434,
+          365.4067
+        ]
+      ],
+      "citation": "Qin, J., Zhong, Q., Tang, Y., Rui, Z., Qiu, S., Chen, H., 2023. CO2 storage potential assessment of offshore saline aquifers in China. Fuel 341, 127681.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R51"
+    },
+    {
+      "id": "R52",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Ringrose, P.S., Meckel, T.A., 2019. Maturing global CO2 storage resources on offshore",
+        "continental margins to achieve 2DS emissions reductions. Sci. Rep. 9 (1), 1–10."
+      ],
+      "line_bboxes": [
+        [
+          37.5896,
+          362.9756,
+          282.7876,
+          374.478
+        ],
+        [
+          49.5508,
+          370.9131,
+          276.3014,
+          381.3377
+        ]
+      ],
+      "citation": "Ringrose, P.S., Meckel, T.A., 2019. Maturing global CO2 storage resources on offshore continental margins to achieve 2DS emissions reductions. Sci. Rep. 9 (1), 1–10.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C02",
+        "C42"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R52"
+    },
+    {
+      "id": "R53",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Rutqvist, J., 2012. The geomechanics of CO2 storage in deep sedimentary formations.",
+        "Geotech. Geol. Eng. 30 (3), 525–551."
+      ],
+      "line_bboxes": [
+        [
+          306.5933,
+          52.1294,
+          551.12,
+          63.631
+        ],
+        [
+          318.559,
+          60.1229,
+          424.9492,
+          70.5475
+        ]
+      ],
+      "citation": "Rutqvist, J., 2012. The geomechanics of CO2 storage in deep sedimentary formations. Geotech. Geol. Eng. 30 (3), 525–551.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R53"
+    },
+    {
+      "id": "R54",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Scott, V., Gilfillan, S., Markusson, N., Chalmers, H., Haszeldine, R.S., 2013. Last chance",
+        "for carbon capture and storage. Nat. Clim. Change 3 (2), 105–111."
+      ],
+      "line_bboxes": [
+        [
+          306.5972,
+          68.0596,
+          555.6736,
+          78.4842
+        ],
+        [
+          318.559,
+          76.0531,
+          509.0805,
+          86.4777
+        ]
+      ],
+      "citation": "Scott, V., Gilfillan, S., Markusson, N., Chalmers, H., Haszeldine, R.S., 2013. Last chance for carbon capture and storage. Nat. Clim. Change 3 (2), 105–111.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R54"
+    },
+    {
+      "id": "R55",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Szulczewski, M.L., MacMinn, C.W., Juanes, R., 2014. Theoretical analysis of how",
+        "pressure buildup and CO2 migration can both constrain storage resource in deep",
+        "saline aquifers. Int. J. Greenhouse Gas Control 23, 113–118."
+      ],
+      "line_bboxes": [
+        [
+          306.5972,
+          83.9904,
+          538.1163,
+          94.415
+        ],
+        [
+          318.559,
+          91.9839,
+          548.531,
+          103.486
+        ],
+        [
+          318.5587,
+          99.9779,
+          490.7679,
+          110.4025
+        ]
+      ],
+      "citation": "Szulczewski, M.L., MacMinn, C.W., Juanes, R., 2014. Theoretical analysis of how pressure buildup and CO2 migration can both constrain storage resource in deep saline aquifers. Int. J. Greenhouse Gas Control 23, 113–118.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04",
+        "C06",
+        "C38"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R55"
+    },
+    {
+      "id": "R56",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Szulczewski, M.L., MacMinn, C.W., Herzog, H.J., Juanes, R., 2012. Lifetime of carbon",
+        "capture and storage as a climate-change mitigation technology. Proc. the Natl. Acad.",
+        "Sci. 109 (14), 5185–5189."
+      ],
+      "line_bboxes": [
+        [
+          306.5962,
+          107.9146,
+          551.3925,
+          118.3392
+        ],
+        [
+          318.5587,
+          115.9081,
+          555.6663,
+          126.3327
+        ],
+        [
+          318.5587,
+          123.8454,
+          393.1803,
+          134.27
+        ]
+      ],
+      "citation": "Szulczewski, M.L., MacMinn, C.W., Herzog, H.J., Juanes, R., 2012. Lifetime of carbon capture and storage as a climate-change mitigation technology. Proc. the Natl. Acad. Sci. 109 (14), 5185–5189.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R56"
+    },
+    {
+      "id": "R57",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "The Oil and Gas Climate Initiative (OGCI). 2022. CO2 storage resource catalogue - cycle 3",
+        "report. https://www.ogci.com/download/co2-storage-catalogue-report/."
+      ],
+      "line_bboxes": [
+        [
+          306.5962,
+          131.8389,
+          555.6639,
+          143.341
+        ],
+        [
+          318.5595,
+          139.8329,
+          523.9879,
+          150.2575
+        ]
+      ],
+      "citation": "The Oil and Gas Climate Initiative (OGCI). 2022. CO2 storage resource catalogue - cycle 3 report. https://www.ogci.com/download/co2-storage-catalogue-report/.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C36",
+        "C39",
+        "C41"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R57"
+    },
+    {
+      "id": "R58",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Thibeau, S., Adler, F., 2023. Pressure-derived storage efficiency for open saline aquifer",
+        "CO2 storage. Geoenergy 1 (1), 2022 geoenergy-003."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          147.7696,
+          554.6144,
+          158.1942
+        ],
+        [
+          318.5595,
+          155.763,
+          466.6586,
+          167.209
+        ]
+      ],
+      "citation": "Thibeau, S., Adler, F., 2023. Pressure-derived storage efficiency for open saline aquifer CO2 storage. Geoenergy 1 (1), 2022 geoenergy-003.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R58"
+    },
+    {
+      "id": "R59",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Trupp, M., Ryan, S., Barranco Mendoza, I., Leon, D., Scoby-Smith, L., 2021. Developing",
+        "the world’s largest CO2 Injection System–a history of the Gorgon Carbon Dioxide",
+        "Injection System. In: Proceedings of the 15th Greenhouse Gas Control Technologies",
+        "Conference, pp. 15–18."
+      ],
+      "line_bboxes": [
+        [
+          306.5955,
+          163.7001,
+          555.6624,
+          174.1247
+        ],
+        [
+          318.5573,
+          171.6936,
+          550.4576,
+          183.196
+        ],
+        [
+          318.5585,
+          179.6311,
+          555.6425,
+          190.0558
+        ],
+        [
+          318.5585,
+          187.6246,
+          384.4343,
+          198.0492
+        ]
+      ],
+      "citation": "Trupp, M., Ryan, S., Barranco Mendoza, I., Leon, D., Scoby-Smith, L., 2021. Developing the world’s largest CO2 Injection System–a history of the Gorgon Carbon Dioxide Injection System. In: Proceedings of the 15th Greenhouse Gas Control Technologies Conference, pp. 15–18.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R59"
+    },
+    {
+      "id": "R60",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "U.S. Geological Survey Geologic Carbon Dioxide Storage Resources Assessment Team,",
+        "2013."
+      ],
+      "line_bboxes": [
+        [
+          306.596,
+          195.6181,
+          551.4383,
+          206.0427
+        ],
+        [
+          318.5585,
+          203.5554,
+          334.7023,
+          213.98
+        ]
+      ],
+      "citation": "U.S. Geological Survey Geologic Carbon Dioxide Storage Resources Assessment Team, 2013.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R60"
+    },
+    {
+      "id": "R61",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Vilarrasa, V., Bolster, D., Dentz, M., Olivella, S., Carrera, J., 2010. Effects of CO2",
+        "compressibility on CO2 storage in deep saline aquifers. Transp. Porous Media 85,",
+        "619–639."
+      ],
+      "line_bboxes": [
+        [
+          306.596,
+          211.5489,
+          537.6461,
+          222.3514
+        ],
+        [
+          318.557,
+          219.4864,
+          550.0402,
+          230.988
+        ],
+        [
+          318.5586,
+          227.4799,
+          345.0696,
+          237.9045
+        ]
+      ],
+      "citation": "Vilarrasa, V., Bolster, D., Dentz, M., Olivella, S., Carrera, J., 2010. Effects of CO2 compressibility on CO2 storage in deep saline aquifers. Transp. Porous Media 85, 619–639.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R61"
+    },
+    {
+      "id": "R62",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Vilarrasa, V., Carrera, J., 2015. Geologic carbon storage is unlikely to trigger large",
+        "earthquakes and reactivate faults through which CO2 could leak. Proc. Natl. Acad.",
+        "Sci. 112 (19), 5938–5943."
+      ],
+      "line_bboxes": [
+        [
+          306.5968,
+          235.4734,
+          543.0464,
+          245.898
+        ],
+        [
+          318.5586,
+          243.4101,
+          553.9099,
+          254.913
+        ],
+        [
+          318.5594,
+          251.4049,
+          393.1817,
+          261.8295
+        ]
+      ],
+      "citation": "Vilarrasa, V., Carrera, J., 2015. Geologic carbon storage is unlikely to trigger large earthquakes and reactivate faults through which CO2 could leak. Proc. Natl. Acad. Sci. 112 (19), 5938–5943.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R62"
+    },
+    {
+      "id": "R63",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Warwick, P.D., Blondes, M.S., Brennan, S.T., Corum, M.D., Merrill, M.D., 2013. US",
+        "Geological survey geologic carbon dioxide storage resource assessment of the United",
+        "States. Energy Proc. 37, 5275–5279."
+      ],
+      "line_bboxes": [
+        [
+          306.5976,
+          259.3416,
+          542.928,
+          269.7662
+        ],
+        [
+          318.5594,
+          267.3351,
+          555.6855,
+          277.7596
+        ],
+        [
+          318.5594,
+          275.2724,
+          422.1512,
+          285.697
+        ]
+      ],
+      "citation": "Warwick, P.D., Blondes, M.S., Brennan, S.T., Corum, M.D., Merrill, M.D., 2013. US Geological survey geologic carbon dioxide storage resource assessment of the United States. Energy Proc. 37, 5275–5279.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R63"
+    },
+    {
+      "id": "R64",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Zahasky, C., Krevor, S., 2020. Global geologic carbon storage requirements of climate",
+        "change mitigation scenarios. Energy Environ. Sci. 13 (6), 1561–1567."
+      ],
+      "line_bboxes": [
+        [
+          306.5976,
+          283.2659,
+          551.5119,
+          293.6905
+        ],
+        [
+          318.5594,
+          291.2593,
+          517.1669,
+          301.6839
+        ]
+      ],
+      "citation": "Zahasky, C., Krevor, S., 2020. Global geologic carbon storage requirements of climate change mitigation scenarios. Energy Environ. Sci. 13 (6), 1561–1567.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R64"
+    },
+    {
+      "id": "R65",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Zhang, Y., Jackson, C., Zahasky, C., Nadhira, A., Krevor, S., 2022. European carbon",
+        "storage resource requirements of climate change mitigation targets. Int. J.",
+        "Greenhouse Gas Control 114, 103568."
+      ],
+      "line_bboxes": [
+        [
+          306.5976,
+          299.1961,
+          545.611,
+          309.6207
+        ],
+        [
+          318.5594,
+          307.1902,
+          529.9665,
+          317.6148
+        ],
+        [
+          318.5594,
+          315.1269,
+          427.4312,
+          325.5515
+        ]
+      ],
+      "citation": "Zhang, Y., Jackson, C., Zahasky, C., Nadhira, A., Krevor, S., 2022. European carbon storage resource requirements of climate change mitigation targets. Int. J. Greenhouse Gas Control 114, 103568.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R65"
+    },
+    {
+      "id": "R66",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Zhang, Y., Jackson, C., Darraj, N., Krevor, S., 2023. Feasibility of carbon dioxide storage",
+        "resource use within climate change mitigation scenarios for the United States.",
+        "Environ. Sci. Technol. 57 (40), 14938–14949."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          323.1204,
+          555.6773,
+          333.545
+        ],
+        [
+          318.5595,
+          331.1138,
+          541.4546,
+          341.5384
+        ],
+        [
+          318.5595,
+          339.0512,
+          449.3432,
+          349.4758
+        ]
+      ],
+      "citation": "Zhang, Y., Jackson, C., Darraj, N., Krevor, S., 2023. Feasibility of carbon dioxide storage resource use within climate change mitigation scenarios for the United States. Environ. Sci. Technol. 57 (40), 14938–14949.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R66"
+    },
+    {
+      "id": "R67",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Zhou, Q., Birkholzer, J.T., Tsang, C.F., Rutqvist, J., 2008. A method for quick assessment",
+        "of CO2 storage resource in closed and semi-closed saline formations. Int. J.",
+        "Greenhouse gas control 2 (4), 626–639."
+      ],
+      "line_bboxes": [
+        [
+          306.5977,
+          347.0446,
+          555.6517,
+          357.4692
+        ],
+        [
+          318.5595,
+          354.9814,
+          532.4029,
+          366.484
+        ],
+        [
+          318.5583,
+          362.9759,
+          431.8644,
+          373.4005
+        ]
+      ],
+      "citation": "Zhou, Q., Birkholzer, J.T., Tsang, C.F., Rutqvist, J., 2008. A method for quick assessment of CO2 storage resource in closed and semi-closed saline formations. Int. J. Greenhouse gas control 2 (4), 626–639.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R67"
+    },
+    {
+      "id": "R68",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Zoback, M.D., Gorelick, S.M., 2012. Earthquake triggering and large-scale geologic",
+        "storage of carbon dioxide. Proc. Natl. Acad. Sci. 109 (26), 10164–10168."
+      ],
+      "line_bboxes": [
+        [
+          306.5959,
+          370.9126,
+          542.9709,
+          381.3372
+        ],
+        [
+          318.5583,
+          378.9061,
+          527.123,
+          389.3307
+        ]
+      ],
+      "citation": "Zoback, M.D., Gorelick, S.M., 2012. Earthquake triggering and large-scale geologic storage of carbon dioxide. Proc. Natl. Acad. Sci. 109 (26), 10164–10168.",
+      "role": "Native citation with claim-specific use and qualifications in linked records; original passages remain unverified.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-15_bibliography.json#R68"
+    }
+  ]
+}

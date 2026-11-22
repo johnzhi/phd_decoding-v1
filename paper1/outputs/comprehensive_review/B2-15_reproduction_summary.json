@@ -1,0 +1,26 @@
+{
+  "study_id": "B2-15",
+  "source_sha256": "0e765af5db3780a2a31a7628c284ac8e52c42c4754d3ca7655368bcf7484e4fa",
+  "limited_checks": 53,
+  "source_design_rows": 12,
+  "analyst_lambert_rows": 14,
+  "analyst_geometry_rows": 2,
+  "native_CO2BLOCK_global_model_reproduced": false,
+  "public_reservoir_dataset_acquired": false,
+  "accepted_Paper1_inputs_added": 0,
+  "scope": "Reported arithmetic and synthetic printed components only; commercial data cannot be shared by authors",
+  "missing_native": {
+    "raw_basin_data": null,
+    "commercial_data_redistribution_permission": false,
+    "author_statement": "The authors do not have permission to share data.",
+    "CO2BLOCK_code_version": null,
+    "CO2BLOCK_reference_pressure_solution": null,
+    "defaults_EOS_stress_normalization": null,
+    "supplement_and_basin_means": null,
+    "all_native_scenario_arrays": null,
+    "native_model_reproduced": false,
+    "complete_capture_heat_electricity_inventory": null,
+    "calibrated_field_service_or_retention": null,
+    "external_retrieval": "paused_pending_requested_Chrome_connection"
+  }
+}

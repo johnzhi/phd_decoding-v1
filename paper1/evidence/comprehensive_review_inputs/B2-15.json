@@ -1,0 +1,375 @@
+{
+  "study_id": "B2-15",
+  "source_path": "papers/B2-15.pdf",
+  "source_sha256": "0e765af5db3780a2a31a7628c284ac8e52c42c4754d3ca7655368bcf7484e4fa",
+  "doi": "10.1016/j.ijggc.2024.104220",
+  "provenance": "All13 retained pages text-read/rendered and seven magnifications inspected. Native Figure1 expressions and source numerical statements retained. No raw basin data, native software or supplement retrieved; author data-sharing restriction explicitly recorded.",
+  "model": {
+    "boundary": "closed for every basin",
+    "site_rate_ceiling_Mt_y": 5,
+    "site_is_not_well": true,
+    "site_definition": "one point can represent a cluster of wells within a few kilometres",
+    "duration_years": [
+      30,
+      80
+    ],
+    "equal_constant_rates": true,
+    "homogeneous_arithmetic_basin_means": true,
+    "compartments_ignored": true,
+    "trapping_extents_or_permanent_retention": null,
+    "active_pressure_management_included": false,
+    "native_default_values": null
+  },
+  "figure1": {
+    "pages": [
+      3
+    ],
+    "tensile": "Delta_p_Mt = sigma3 - p0 + S0",
+    "shear": "Delta_p_Mx = (k0-theta)/(1-theta)*(sigma1-p0) + C*cos(phi)*sin(phi)",
+    "injectivity": "Q_M(t) = -Qr*Delta_p_M / W(-Delta_p_M*exp(-Delta_p_r(t)))",
+    "spacing_plume": "d > 2*sqrt(Q_M(t)/(n*pi*porosity*H*rho_c))",
+    "spacing_area": "d <= sqrt(A/n)",
+    "site_count": "n >= Q_M_tot/Qs",
+    "negative_injectivity_prefactor_present": true,
+    "pressure_normalization": null,
+    "lambert_branch": null,
+    "theta_definition": null,
+    "cohesion_factor_definition": null,
+    "rate_vs_mass_in_plume_constraint": null,
+    "per_site_vs_total_Q_in_plume_constraint": null,
+    "source_table1_calls_QM": "Injectivity",
+    "source_table1_calls_Qr": "Reference injection rate",
+    "source_table1_calls_Qtot": "The total injection rate, including all sites",
+    "analyst_raw_MPa_application_permitted": false
+  },
+  "scenarios": [
+    {
+      "scenario": 1,
+      "sites": 4,
+      "spacing_km": 5
+    },
+    {
+      "scenario": 2,
+      "sites": 4,
+      "spacing_km": 15
+    },
+    {
+      "scenario": 3,
+      "sites": 4,
+      "spacing_km": 30
+    },
+    {
+      "scenario": 4,
+      "sites": 25,
+      "spacing_km": 5
+    },
+    {
+      "scenario": 5,
+      "sites": 25,
+      "spacing_km": 15
+    },
+    {
+      "scenario": 6,
+      "sites": 25,
+      "spacing_km": 30
+    },
+    {
+      "scenario": 7,
+      "sites": 100,
+      "spacing_km": 5
+    },
+    {
+      "scenario": 8,
+      "sites": 100,
+      "spacing_km": 15
+    },
+    {
+      "scenario": 9,
+      "sites": 100,
+      "spacing_km": 30
+    },
+    {
+      "scenario": 10,
+      "sites": 400,
+      "spacing_km": 5
+    },
+    {
+      "scenario": 11,
+      "sites": 400,
+      "spacing_km": 15
+    },
+    {
+      "scenario": 12,
+      "sites": 400,
+      "spacing_km": 30
+    }
+  ],
+  "source_inventory": {
+    "pages": [
+      3,
+      5,
+      10,
+      11
+    ],
+    "basin_scheme_count": 764,
+    "modelled_basins": 248,
+    "sufficient_basins_other_prose": 265,
+    "scenario12_eligible_basins": 20,
+    "hydrocarbon_history_basins": 204,
+    "history_well_threshold_boundary": "p5excludesfewerthan100, p9/figure4saymorethan100",
+    "petroleum_reservoir_entries_lower_bound": 80000,
+    "europe_basins_scheme": 72,
+    "europe_entries": 8739,
+    "europe_fields": 6673,
+    "europe_countries": 51,
+    "europe_depth_filtered_entries": 7046,
+    "europe_modelled_basins": 36,
+    "depth_filter_m": 800,
+    "petroleum_property_selection_bias": true,
+    "per_basin_required_inputs": null
+  },
+  "global_quotes": [
+    {
+      "group": "unrestricted_M",
+      "years": 30,
+      "mass_Gt": 3640,
+      "rate_Gt_y": 121
+    },
+    {
+      "group": "unrestricted_M",
+      "years": 80,
+      "mass_Gt": 5630,
+      "rate_Gt_y": 70
+    },
+    {
+      "group": "hydrocarbon_history_M",
+      "years": 30,
+      "mass_Gt": 3000,
+      "rate_Gt_y": 100
+    },
+    {
+      "group": "hydrocarbon_history_M",
+      "years": 80,
+      "mass_Gt": 4500,
+      "rate_Gt_y": 56
+    },
+    {
+      "group": "readiness_AB_M",
+      "years": 30,
+      "mass_Gt": 780,
+      "rate_Gt_y": 26
+    },
+    {
+      "group": "readiness_AB_M",
+      "years": 80,
+      "mass_Gt": 1177,
+      "rate_Gt_y": 15
+    }
+  ],
+  "readiness": {
+    "pages": [
+      5,
+      9,
+      11,
+      12
+    ],
+    "Band_A": [
+      "Canada",
+      "USA",
+      "Norway",
+      "UK",
+      "Australia"
+    ],
+    "Band_B": [
+      "Netherlands",
+      "China",
+      "Denmark",
+      "Germany",
+      "Japan"
+    ],
+    "index_sources_years": [
+      2015,
+      2018
+    ],
+    "current_readiness_verified": false,
+    "scenario11_pressure_percent_quote": 91,
+    "scenarioM_pressure_percent_quote": 81,
+    "figure7_percent_denominator": "global storage resource, not site/basin count; horizon/filter correspondence unverified",
+    "figure9_30y_AB_above10Gt_y_visually": [
+      11,
+      "M"
+    ],
+    "figure9_80y_AB_above10Gt_y_visually": [
+      "M"
+    ],
+    "native_filtered_pressure_percent_arrays": null
+  },
+  "well_analogues": {
+    "pages": [
+      7,
+      10,
+      11,
+      12
+    ],
+    "scenario123_sites": 992,
+    "scenario11_sites": 50800,
+    "scenarioM_sites": 73508,
+    "scenarioM_site_count_horizon": null,
+    "well_reference_rate_Mt_y": 0.57,
+    "rounded_wells_per_site": 9,
+    "sites_per_project_analogue": 4,
+    "reported_projects": 18377,
+    "reported_wells_upper_analogue": 661572,
+    "petroleum_wells_comparison": 920000,
+    "north_sea_registered_wells": 16809,
+    "offshore_well_range": [
+      10000,
+      14000
+    ],
+    "reported_site_equivalent_range": [
+      1100,
+      1600
+    ],
+    "legacy_integrity_survey_percent_quote": 38,
+    "integrity_percent_is_global_failure_probability": false
+  },
+  "comparison_quotes": {
+    "pages": [
+      10,
+      11
+    ],
+    "Australia_volumetric_Gt": 471,
+    "Australia_pressure_Gt": 90.2,
+    "Australia_pressure_horizon_unverified": true,
+    "USA_volumetric_Gt": 8613,
+    "USA_pressure_80y_Gt": 699,
+    "UK_volumetric_Gt": 77.6,
+    "UK_pressure_30y_Gt": 71.2,
+    "Norway_volumetric_Gt": 79.4,
+    "Norway_pressure_Gt": 80.7,
+    "UK_selected_original_25sites_Gt_30y": 140,
+    "Cormorant_Gt_assigned_to_Norway": 43,
+    "Powder_River_Gt": 3.2,
+    "Powder_River_native_years": 80,
+    "Powder_River_original_pressure_limited_years": 101,
+    "Scenario3_Gt_30y": 128,
+    "IEA_midcentury_cumulative_Gt": 120,
+    "GCCSI_annual_Gt_y": 5.6,
+    "IPCC_benchmark_Gt_y": 10,
+    "reported_mean_history_reduction_percent": 17,
+    "own_uncertainty_distribution": null
+  },
+  "figure8_panels": [
+    {
+      "panel": "a",
+      "region": "Los Angeles",
+      "scenario": 4,
+      "years": 30,
+      "Gt_per_mm_diameter": 1
+    },
+    {
+      "panel": "b",
+      "region": "South America",
+      "scenario": 5,
+      "years": 80,
+      "Gt_per_mm_diameter": 1
+    },
+    {
+      "panel": "c",
+      "region": "North Africa",
+      "scenario": 9,
+      "years": 80,
+      "Gt_per_mm_diameter": 4
+    },
+    {
+      "panel": "d",
+      "region": "Middle East",
+      "scenario": 9,
+      "years": 80,
+      "Gt_per_mm_diameter": 4
+    },
+    {
+      "panel": "e",
+      "region": "Europe",
+      "scenario": 6,
+      "years": 80,
+      "Gt_per_mm_diameter": 1
+    },
+    {
+      "panel": "f",
+      "region": "Asia",
+      "scenario": 6,
+      "years": 80,
+      "Gt_per_mm_diameter": 1
+    }
+  ],
+  "analyst_examples": {
+    "not_native_cases": true,
+    "lambert_dimensionless_pairs": [
+      [
+        0.1,
+        0.5
+      ],
+      [
+        0.5,
+        0.5
+      ],
+      [
+        0.5,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        2.5,
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "reference_rate_arbitrary": 1,
+    "pressure": {
+      "sigma1_MPa": 50,
+      "p0_MPa": 20,
+      "effective_stress_ratio": 0.6,
+      "friction_degrees": 30,
+      "analyst_cohesion_strength_MPa": 1,
+      "tensile_strength_MPa": 2,
+      "explanation": "Explicit conventional Mohr-Coulomb/effective-stress assumptions; native theta and C definitions are unknown. No corrected source envelope inferred."
+    },
+    "plume": {
+      "total_rate_Mt_y": 125,
+      "sites": 25,
+      "porosity": 0.2,
+      "thickness_m": 50,
+      "density_kg_m3": 600,
+      "years": [
+        30,
+        80
+      ],
+      "explanation": "Disclosed cumulative-mass conservation cylinder; not native CO2BLOCK plume or migration prediction."
+    }
+  },
+  "missing_native": {
+    "raw_basin_data": null,
+    "commercial_data_redistribution_permission": false,
+    "author_statement": "The authors do not have permission to share data.",
+    "CO2BLOCK_code_version": null,
+    "CO2BLOCK_reference_pressure_solution": null,
+    "defaults_EOS_stress_normalization": null,
+    "supplement_and_basin_means": null,
+    "all_native_scenario_arrays": null,
+    "native_model_reproduced": false,
+    "complete_capture_heat_electricity_inventory": null,
+    "calibrated_field_service_or_retention": null,
+    "external_retrieval": "paused_pending_requested_Chrome_connection"
+  }
+}

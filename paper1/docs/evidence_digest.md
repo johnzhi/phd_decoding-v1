@@ -394,13 +394,13 @@ Transfer limits: 57 limited checks and disclosed spherical-grid, nonuniqueness a
 
 ### B2-15 — Global analysis of geological CO2 storage by pressure-limited injection sites
 
-See supplied first page. Identifier: 10.1016/j.ijggc.2024.104220. [PDF](../papers/B2-15.pdf).
+Smith, Hampson and Krevor (2024). DOI: 10.1016/j.ijggc.2024.104220. [Retained PDF](../papers/B2-15.pdf); [detailed audit](pressure_limited_global_comprehensive_findings.md).
 
-Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 4, 5.
+Reading stage: All 13 retained main-PDF pages text-read and visually inspected, including seven magnifications. Nine figures, two tables, six unnumbered Figure 1 relations and all 68 bibliography entries inspected. Comprehensive source/model verification remains incomplete.
 
-Global basin pressure model contrasts maximum physical injection patterns with hydrocarbon-exploration and storage-readiness restrictions.
+CO2BLOCK models closed homogeneous basins with equal constant rates and a 5 Mt/y cap per multi-well storage site. The headline global/history/readiness resource divided by 30 or 80 years agrees with rounded annual figures; these are separately optimized horizon cases, rather than one evolving rate history. Basin populations 248/265, pressure-resource versus basin shares, Lambert normalization/branch, plume rate/mass definitions and the horizon of the reported site count remain open.
 
-Transfer limits: Global scenario stock/rates are upper-bound model results, not a regional contract; deployment and data coverage constrain applicability.
+Transfer limits: The article is public, but its data statement explicitly says the authors lack permission to share data. No public reservoir dataset or native global model is acquired. The 53 diagnostics, twelve design rows, fourteen dimensionless Lambert roots and two mass-geometry examples are limited components. All 68 originals, fourteen dependencies or requirements, supplements, native defaults/code and field validation remain unverified. Historical well-rate and integrity analogues do not establish required wells or retention probabilities. No accepted operating/GHG input or current numerical result changes.
 
 ### B2-16 — A proposed global layout of carbon capture and storage in line with a 2 °C climate target
 

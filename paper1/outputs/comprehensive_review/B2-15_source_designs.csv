@@ -1,0 +1,13 @@
+scenario,sites,spacing_km,nominal_cell_footprint_km2,centre_hull_km2,technical_ceiling_Mt_y,technical_ceiling_30y_Gt,technical_ceiling_80y_Gt,native_pressure_limited_rate,scope
+1,4,5,100,25.0,20,0.6,1.6,,"Source design and technical ceiling only, not feasible basin injection"
+2,4,15,900,225.0,20,0.6,1.6,,"Source design and technical ceiling only, not feasible basin injection"
+3,4,30,3600,900.0,20,0.6,1.6,,"Source design and technical ceiling only, not feasible basin injection"
+4,25,5,625,400.0,125,3.75,10.0,,"Source design and technical ceiling only, not feasible basin injection"
+5,25,15,5625,3600.0,125,3.75,10.0,,"Source design and technical ceiling only, not feasible basin injection"
+6,25,30,22500,14400.0,125,3.75,10.0,,"Source design and technical ceiling only, not feasible basin injection"
+7,100,5,2500,2025.0,500,15.0,40.0,,"Source design and technical ceiling only, not feasible basin injection"
+8,100,15,22500,18225.0,500,15.0,40.0,,"Source design and technical ceiling only, not feasible basin injection"
+9,100,30,90000,72900.0,500,15.0,40.0,,"Source design and technical ceiling only, not feasible basin injection"
+10,400,5,10000,9025.0,2000,60.0,160.0,,"Source design and technical ceiling only, not feasible basin injection"
+11,400,15,90000,81225.0,2000,60.0,160.0,,"Source design and technical ceiling only, not feasible basin injection"
+12,400,30,360000,324900.0,2000,60.0,160.0,,"Source design and technical ceiling only, not feasible basin injection"
