@@ -1,0 +1,1145 @@
+{
+  "study_id": "B2-09",
+  "source_sha256": "05a904cb3c6323a7a46919d1fbfe39dd7fb10ca10e859cd28c16a718fe1dda90",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        17
+      ],
+      "citation": "Intergovernmental Panel on Climate Change (IPCC), Synthesis Report of the IPCC Sixth Assessment Report (AR6): Headline Statements. 2023, Intergovernmental Panel on Climate Change: Geneva, Switzerland.",
+      "role": "Climate context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        17
+      ],
+      "citation": "International Energy Agency, Iron and Steel Technology Roadmap. 2020, International Energy Agency (IEA): Paris, France.",
+      "role": "Steel roadmap",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        17
+      ],
+      "citation": "United Nations Economic Commission for Europe. COP27: UN Report Shows Pathways to Carbon Neutrality for Energy-Intensive Steel Industry. 2022 10 October 2025]; Available from: https://unece.org/climate-change/press/cop27- un-report-shows-pathways-carbon-neutrality-energy-intensive-steel.",
+      "role": "Steel decarbonization pathway",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        17
+      ],
+      "citation": "International Energy Agency, The Role of CCUS in Low-Carbon Power Systems. 2020, International Energy Agency (IEA): Paris, France.",
+      "role": "Low-carbon power CCUS",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        17
+      ],
+      "citation": "Sapkota, S., J. Park, and J.-K. Choi, Forecasting of energy and emissions for the cement sector: a comprehensive review and scenario-based assessment. Resources, Environment and Sustainability, 2026. 23.",
+      "role": "Cement energy/emission forecasts",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        17
+      ],
+      "citation": "M. Bui, C.S. Adjiman, A. Bardow, E.J. Anthony, A. Boston, S. Brown, P.S. Fennell, S. Fuss, A. Galindo, L.A. Hackett, J.P. Hallett, H.J. Herzog, G. Jackson, J. Kemper, S. Krevor, G.C. Maitland, M. Matuszewski, I.S. Metcalfe, C. Petit, G. Puxty, J. Reimer, D.M. Reiner, E.S. Rubin, S.A. Scott, N. Shah, B. Smit, J.P.M. Trusler, P. Webley, J. Wilcox, N. Mac Dowell, Carbon capture and storage (CCS): the way forward, Energ. Environ. Sci. 11 (5) (2018) 1062–1176.",
+      "role": "CCS overview",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        17
+      ],
+      "citation": "L. Sun, W. Chen, Development and application of a multi-stage CCUS source–sink matching model, Appl. Energy 185 (2017) 1424–1432.",
+      "role": "Multi-stage network context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        18
+      ],
+      "citation": "J.-K. Choi, V. Fthenakis, Crystalline silicon photovoltaic recycling planning: macro and micro perspectives, J. Clean. Prod. 66 (2014) 443–449.",
+      "role": "Printed PV recycling context alongside network claim",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        18
+      ],
+      "citation": "S.K. Mahjour, S.A. Faroughi, Risks and uncertainties in carbon capture, transport, and storage projects: a comprehensive review, Gas Sci. Eng. 119 (2023).",
+      "role": "CCS risk review",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        18
+      ],
+      "citation": "S. McCoy, E. Rubin, An engineering-economic model of pipeline transport of CO2 with application to carbon capture and storage, Int. J. Greenhouse Gas Control 2 (2) (2008) 219–229.",
+      "role": "Pipeline engineering-economic context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        18
+      ],
+      "citation": "Z. Wang, G.A. Fimbres Weihs, P.R. Neal, D.E. Wiley, Effects of pipeline distance, injectivity and capacity on CO 2 pipeline and storage site selection, Int. J. Greenhouse Gas Control 51 (2016) 95–105.",
+      "role": "Distance/injectivity/capacity coupling",
+      "verification_status": "primary_text_checked_scoped",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        18
+      ],
+      "citation": "R.R. Tan, K.B. Aviso, S. Bandyopadhyay, D.K.S. Ng, Continuous-Time Optimization Model for Source–Sink Matching in Carbon Capture and Storage Systems, Ind. Eng. Chem. Res. 51 (30) (2012) 10015–10020.",
+      "role": "Continuous-time matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02",
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        18
+      ],
+      "citation": "R.S. Middleton, S.P. Yaw, B.A. Hoover, K.M. Ellett, SimCCS: an open-source tool for optimizing CO2 capture, transport, and storage infrastructure, Environ. Model. Software 124 (2020).",
+      "role": "Later SimCCS tool context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02",
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        18
+      ],
+      "citation": "U.S. Environmental Protection Agency (EPA). Greenhouse Gas Reporting Program (GHGRP). 2025 12/3/2025]; Available from: https://www.epa.gov/ghgreporting.",
+      "role": "EPA future public emissions data",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        18
+      ],
+      "citation": "U.S. Energy Information Administration (EIA). Electricity data. 2025 12/3/2025]; Available from: https://www.eia.gov/electricity/data.php.",
+      "role": "EIA future electricity data",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        18
+      ],
+      "citation": "National Energy Technology Laboratory (NETL), Carbon Storage Atlas (Atlas V), U. S. Department of Energy, Editor. 2015, National Energy Technology Laboratory: Pittsburgh, PA, USA.",
+      "role": "NETL future storage data",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        18
+      ],
+      "citation": "World Green Building Council. What is a net zero carbon building? 2/9/2026]; Available from: https://worldgbc.org/climate-action/what-is-a-net-zero-carbon- building/.",
+      "role": "Net-zero building definition",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        18
+      ],
+      "citation": "S. Shrestha, S. Sapkota, M. Kong, J. Choi, T. Hong, J.-K. Choi, A multi-agent deep deterministic policy gradient method with hybrid action space for energy-efficient HVAC control, Build. Environ. 290 (2026).",
+      "role": "Building HVAC control",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        18
+      ],
+      "citation": "Global Alliance for Buildings Construction and United Nations Environment Programme, Global Status Report for Buildings and Construction - Beyond foundations: Mainstreaming sustainable solutions to cut emissions from the buildings sector. 2024.",
+      "role": "Building sector status",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        18
+      ],
+      "citation": "G. Kattel, A. Paudel, G. He, J.-K. Choi, Bridging the industrial carbon divide: a techno-economic framework for carbon capture pathways in the cement sector of emerging economies, J. Clean. Prod. 538 (2026).",
+      "role": "Cement capture economics",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        18
+      ],
+      "citation": "International Energy Agency (IEA). CO2 transport and storage. Carbon Capture Utilisation and Storage 2024 25 April 2024 2/9/2026]; Available from: https:// www.iea.org/energy-system/carbon-capture-utilisation-and-storage/co2- transport-and-storage#overview.",
+      "role": "Transport/storage status",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        18
+      ],
+      "citation": "K. Lin, N. Wei, D. Jiang, Y. Zhang, Progress and perspectives in source-sink matching for CCUS: a critical review, Renew. Sustain. Energy Rev. 226 (2026).",
+      "role": "Source-sink review",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        18
+      ],
+      "citation": "Choi, J.-K. and K. Ramani, A quest for sustainable product design: a systematic methodology for integrated assessment of environmentally benign and economically feasible product design. 2009: VDM Publishing.",
+      "role": "Printed product-design reference in MILP attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        18
+      ],
+      "citation": "Fthenakis, V., Z. Zhang, and J.-K. Choi. Cost optimization of decommissioning and recycling cdte pv power plants. in 2017 IEEE 44th Photovoltaic Specialist Conference (PVSC). 2017. IEEE.",
+      "role": "Printed PV decommissioning reference in MILP attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        18
+      ],
+      "citation": "A. Paudel, J.-K. Choi, Techno-economic pathway for green hydrogen adoption in thermal applications across US small and medium manufacturing sectors, Int. J. Hydrogen Energy 98 (2025) 295–307.",
+      "role": "Printed green-hydrogen heat reference in MILP attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        18
+      ],
+      "citation": "S. Sapkota, A. Paudel, W. Choi, I. Ko, J.-K. Choi, A pathway to decarbonizing cement manufacturing via solar-driven green hydrogen systems, Int. J. Hydrogen Energy 194 (2025) 152508.",
+      "role": "Printed green-hydrogen cement reference in MILP attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        18
+      ],
+      "citation": "Zhang, X., K. Li, N. Wei, Z. Li, and J.-L. Fan, Advances, challenges, and perspectives for CCUS source-sink matching models under carbon neutrality target. Carbon Neutrality, 2022. 1(1).",
+      "role": "Network model review",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        18
+      ],
+      "citation": "R.R. Tan, K.B. Aviso, S. Bandyopadhyay, D.K.S. Ng, Optimal source–sink matching in carbon capture and storage systems with time, injection rate, and capacity constraints, Environ. Prog. Sustain. Energy 32 (2) (2012) 411–416.",
+      "role": "Time/rate/capacity matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        18
+      ],
+      "citation": "Gu, C.s., C.k. Zhu, X. Gong, S. Xu, Q.q. Zhang, L. Cui, Y. Lu, and M. Wang, A Novel Source–Sink Matching Optimization Model for Carbon Capture and Storage. Geological Journal, 2025. 60(8): p. 1840–1851.",
+      "role": "Genetic source-sink matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        18
+      ],
+      "citation": "Q. Wu, Q. Lin, Q. Yang, Y. Li, An optimization-based CCUS source-sink matching model for dynamic planning of CCUS clusters, Greenhouse Gases Sci. Technol. 12 (4) (2022) 433–453.",
+      "role": "Dynamic cluster planning",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        18
+      ],
+      "citation": "Y.-J. He, Y. Zhang, Z.-F. Ma, N.V. Sahinidis, R.R. Tan, D.C.Y. Foo, Optimal Source–Sink Matching in Carbon Capture and Storage Systems under uncertainty, Ind. Eng. Chem. Res. 53 (2) (2013) 778–785.",
+      "role": "Interval/stochastic matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        18
+      ],
+      "citation": "Wu, Q., Y. Li, Q. Lin, Z. Xue, and R. Lin, Development of an Inexact Dynamic Source–Sink Matching Optimization Model for CCUS Cluster System Planning Under Uncertainty. Greenhouse Gases: Science and Technology, 2025.",
+      "role": "Inexact dynamic matching and cost parameter lineage",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08",
+        "C27",
+        "C29"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        18
+      ],
+      "citation": "D. Olson, S. Yaw, Planning Amidst uncertainty: Identifying Core CCS Infrastructure Robust to Storage uncertainty, Energies 18 (4) (2025).",
+      "role": "Core infrastructure under storage scenarios",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        18
+      ],
+      "citation": "Holloway, S.K., Anhar; Akai, Makoto; Pipatti, Riitta; Rypdal, Kristin, Carbon Dioxide Transport, Injection and Geological Storage, in 2006 IPCC Guidelines for National Greenhouse Gas Inventories, I.P.o.C.C. (IPCC), Editor. 2006, Institute for Global Environmental Strategies (IGES): Hayama, Kanagawa, Japan. p. 5.1–5.31.",
+      "role": "IPCC transport/injection/inventory and capture assumptions",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09",
+        "C28"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        18
+      ],
+      "citation": "IEAGHG, Injection Strategies for CO 2 Storage Sites. 2010: Cheltenham, UK.",
+      "role": "Injection strategies",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        18
+      ],
+      "citation": "R. Chadwick, R. Arts, C. Bernstone, F. May, S. Thibeau, P. Zweigel, Best practice for the storage of CO2 in saline aquifers - observations and guidelines from the SACS and CO2STORE projects, British Geological Survey Occasional Publication 14 (2008) 1–267.",
+      "role": "Saline storage practice",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        18
+      ],
+      "citation": "K.J. Khudaida, D.B. Das, A numerical study of capillary pressure–saturation relationship for supercritical carbon dioxide (CO2) injection in deep saline aquifer, Chem. Eng. Res. Des. 92 (12) (2014) 3017–3030.",
+      "role": "Capillary pressure/saturation",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        18
+      ],
+      "citation": "J. Leng, A. Bump, S.A. Hosseini, T.A. Meckel, Z. Wang, H. Wang, A comprehensive review of efficient capacity estimation for large-scale CO2 geological storage, Gas Sci. Eng. 126 (2024).",
+      "role": "Capacity estimation",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        18
+      ],
+      "citation": "S. Mishra, P. Ravi Ganesh, M. Valluri, C. Jenkins, Practical Approaches for estimating CO2 Injectivity Index in Saline Aquifers and applications in De-Risking CCS Projects, SSRN Electron. J. (2024).",
+      "role": "Injectivity index",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        18
+      ],
+      "citation": "A. Tadjer, R.B. Bratvold, Managing uncertainty in Geological CO2 Storage using Bayesian Evidential Learning, Energies 14 (6) (2021).",
+      "role": "Bayesian storage learning",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        18
+      ],
+      "citation": "S. De Simone, S.J. Jackson, S. Krevor, The Error in using Superposition to Estimate pressure during Multisite Subsurface CO2Storage, Geophys. Res. Lett. 46 (12) (2019) 6525–6533.",
+      "role": "Pressure-superposition error and disputed cost lineage",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09",
+        "C29"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        18
+      ],
+      "citation": "IEAGHG, Impact of CO2 Impurity on CO2 Compression, Liquefaction and Transportation. 2016, IEA Greenhouse Gas R&D Programme (IEAGHG).",
+      "role": "Impurity/compression/liquefaction/transport",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        18
+      ],
+      "citation": "S.P. Peletiri, N. Rahmanian, I.M. Mujtaba, CO2 Pipeline Design: a Review, Energies 11 (9) (2018).",
+      "role": "Pipeline design",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        18
+      ],
+      "citation": "J. Koornneef, M. Spruijt, M. Molag, A. Ramirez, A. Faaij, W. Turkenburg, Uncertainties in risk assessment of CO2 pipelines, Energy Procedia 1 (1) (2009) 1587–1594.",
+      "role": "Pipeline risk uncertainty",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        18
+      ],
+      "citation": "D. Bertsimas, M. Sim, The Price of Robustness, Oper. Res. 52 (1) (2004) 35–53.",
+      "role": "Bertsimas–Sim robustness attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        18
+      ],
+      "citation": "Q. Tian, D. Zhao, Z. Li, Q. Zhu, Robust and stepwise optimization design for CO 2 pipeline transportation, Int. J. Greenhouse Gas Control 58 (2017) 10–18.",
+      "role": "Robust CO2 pipeline precedent",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        18
+      ],
+      "citation": "D. Aßmann, F. Liers, M. Stingl, Decomposable robust two-stage optimization: an application to gas network operations under uncertainty, Networks 74 (1) (2019) 40–61.",
+      "role": "Gas robust optimization",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        18
+      ],
+      "citation": "X. Zhou, M.E. Efthymiadou, L.G. Papageorgiou, V.M. Charitopoulos, Data-driven robust optimisation of hydrogen infrastructure planning under demand uncertainty using a hybrid decomposition method, Appl. Energy 376 (2024).",
+      "role": "Hydrogen robust planning",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R48"
+    },
+    {
+      "id": "R49",
+      "pages": [
+        18
+      ],
+      "citation": "Jorion, P., Value at risk: a new benchmark for measuring derivatives risk. Irwin Professional Pub, 1996.",
+      "role": "VaR",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R49"
+    },
+    {
+      "id": "R50",
+      "pages": [
+        18
+      ],
+      "citation": "R.T. Rockafellar, S. Uryasev, Optimization of conditional value-at-risk, The Journal of Risk 2 (3) (2000) 21–41.",
+      "role": "CVaR optimization",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R50"
+    },
+    {
+      "id": "R51",
+      "pages": [
+        18
+      ],
+      "citation": "R.T. Rockafellar, S. Uryasev, Conditional value-at-risk for general loss distributions, J. Bank. Financ. 26 (7) (2002) 1443–1471.",
+      "role": "General-distribution CVaR",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R51"
+    },
+    {
+      "id": "R52",
+      "pages": [
+        18
+      ],
+      "citation": "F.D. Munoz, A.H. van der Weijde, B.F. Hobbs, J.-P. Watson, Does risk aversion affect transmission and generation planning? a Western North America case study, Energy Econ. 64 (2017) 213–225.",
+      "role": "Power planning risk",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R52"
+    },
+    {
+      "id": "R53",
+      "pages": [
+        18
+      ],
+      "citation": "J.P.S. Catal˜ao, H.M.I. Pousinho, J. Contreras, Optimal hydro scheduling and offering strategies considering price uncertainty and risk management, Energy 37 (1) (2012) 237–244.",
+      "role": "Hydro risk scheduling",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R53"
+    },
+    {
+      "id": "R54",
+      "pages": [
+        18
+      ],
+      "citation": "Li, K., S. Shen, J.-L. Fan, M. Xu, and X. Zhang, The role of carbon capture, utilization and storage in realizing China's carbon neutrality: A source-sink matching analysis for existing coal-fired power plants. Resources, Conservation and Recycling, 2022. 178.",
+      "role": "China power matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R54"
+    },
+    {
+      "id": "R55",
+      "pages": [
+        18
+      ],
+      "citation": "L. Sun, W. Chen, Impact of carbon tax on CCUS source-sink matching: finding from the improved ChinaCCS DSS, J. Clean. Prod. 333 (2022).",
+      "role": "China tax matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R55"
+    },
+    {
+      "id": "R56",
+      "pages": [
+        18
+      ],
+      "citation": "S. Nie, G. Cai, J. He, S. Wang, R. Bai, X. Chen, W. Wang, Z. Zhou, Economic costs and environmental benefits of deploying CCUS supply chains at scale: Insights from the source–sink matching LCA–MILP approach, Fuel 344 (2023).",
+      "role": "China LCA–MILP supply chains",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R56"
+    },
+    {
+      "id": "R57",
+      "pages": [
+        18
+      ],
+      "citation": "L. Sun, Q. Liu, H. Chen, H. Yu, L. Li, L. Li, Y. Li, C.D. Adenutsi, Source-sink matching and cost analysis of offshore carbon capture, utilization, and storage in China, Energy 291 (2024).",
+      "role": "China offshore matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R57"
+    },
+    {
+      "id": "R58",
+      "pages": [
+        18
+      ],
+      "citation": "R.S. Middleton, J.M. Bielicki, A scalable infrastructure model for carbon capture and storage: SimCCS, Energy Policy 37 (3) (2009) 1052–1060.",
+      "role": "Original integrated discrete SimCCS and present-value economics",
+      "verification_status": "primary_text_checked_scoped",
+      "claim_links": [
+        "C02",
+        "C06",
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R58"
+    },
+    {
+      "id": "R59",
+      "pages": [
+        18
+      ],
+      "citation": "Zero Emissions Platform (ZEP), The costs of CO2 transport: Post-demonstration CCS in the EU. 2011, European Technology Platform for Zero Emission Fossil Fuel Power Plants: Brussels, Belgium.",
+      "role": "European transport costs",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R59"
+    },
+    {
+      "id": "R60",
+      "pages": [
+        18
+      ],
+      "citation": "Tumara, D., A. Uihlein, and I. Hidalgo Gonzalez, Shaping the future CO2 transport network for Europe, in EUR 31835 EN. 2024, Publications Office of the European Union: Luxembourg.",
+      "role": "European network policy",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R60"
+    },
+    {
+      "id": "R61",
+      "pages": [
+        18
+      ],
+      "citation": "Peters, M.S.T., Klaus D.; West, Ronald E., Plant Design and Economics for Chemical Engineers. 5th ed. McGraw-Hill Chemical Engineering Series. 2003, New York: McGraw-Hill Education.",
+      "role": "Plant salvage assumption",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19",
+        "C28"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R61"
+    },
+    {
+      "id": "R62",
+      "pages": [
+        18
+      ],
+      "citation": "IEA Greenhouse Gas R&D Programme (IEAGHG), Long Term Integrity of CO 2 Storage – Well Abandonment. 2009, IEA Greenhouse Gas R&D Programme (IEAGHG): Cheltenham, United Kingdom.",
+      "role": "Well abandonment",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R62"
+    },
+    {
+      "id": "R63",
+      "pages": [
+        18
+      ],
+      "citation": "ICF International; TSB Offshore, Decommissioning Methodology and Cost Evaluation. 2015, U.S. Department of the Interior, Bureau of Safety and Environmental Enforcement (BSEE): Sterling, Virginia, USA.",
+      "role": "Pipeline decommissioning",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R63"
+    },
+    {
+      "id": "R64",
+      "pages": [
+        18
+      ],
+      "citation": "International Energy Agency Greenhouse Gas R&D Programme (IEAGHG), Techno- Economic Assessment of Electrochemical CO 2 Conversion Technologies, I.T.R. 2023-03, Editor. 2023, IEA Greenhouse Gas R&D Programme (IEAGHG): Cheltenham, UK.",
+      "role": "20 year/10% economic assumption support",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19",
+        "C33"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R64"
+    },
+    {
+      "id": "R65",
+      "pages": [
+        18
+      ],
+      "citation": "Jones, A.C.M., Donald J., The Section 45Q Tax Credit for Carbon Sequestration, in CRS In Focus Report IF11455 (Version 4, Updated). 2023, Congressional Research Service, Library of Congress: Washington, D.C., USA.",
+      "role": "45 Q value/duration",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19",
+        "C33"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R65"
+    },
+    {
+      "id": "R66",
+      "pages": [
+        18
+      ],
+      "citation": "P. Brandl, M. Bui, J.P. Hallett, N. Mac Dowell, Beyond 90% capture: possible, but at what cost? Int. J. Greenhouse Gas Control 105 (2021).",
+      "role": "Capture efficiency/target assumptions",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C28",
+        "C34"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R66"
+    },
+    {
+      "id": "R67",
+      "pages": [
+        18
+      ],
+      "citation": "G. Moumin, M. Ryssel, L. Zhao, P. Markewitz, C. Sattler, M. Robinius, D. Stolten, CO2 emission reduction in the cement industry by using a solar calciner, Renew. Energy 145 (2020) 1578–1596.",
+      "role": "Cement 8000 hour operation",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C34"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R67"
+    },
+    {
+      "id": "R68",
+      "pages": [
+        19
+      ],
+      "citation": "International Energy Agency (IEA). Cement – Tracking Industry Progress. 2023 July 11, 2023 [cited 2025 October 26]; Available from: https://www.iea.org/ energy-system/industry/cement.",
+      "role": "Cement emission factor",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R68"
+    },
+    {
+      "id": "R69",
+      "pages": [
+        19
+      ],
+      "citation": "World Steel Association, Sustainability Indicators 2024: Sustainability Performance of the Steel Industry 2003-2023. 2024, World Steel Association: Brussels.",
+      "role": "Steel emission factor",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R69"
+    },
+    {
+      "id": "R70",
+      "pages": [
+        19
+      ],
+      "citation": "U.S. Energy Information Administration. U.S. utility-scale net electricity generation and resulting CO2 emissions by fuel in 2023. 2024 December 11, 2024 [cited 2025 October 26]; Available from: https://www.eia.gov/tools/faqs/faq.php? id=74&t=11.",
+      "role": "Power emission factor",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R70"
+    },
+    {
+      "id": "R71",
+      "pages": [
+        19
+      ],
+      "citation": "International Energy Agency (IEA), Ammonia Technology Roadmap: Towards More Sustainable Nitrogen Fertiliser Production. 2021, International Energy Agency: Paris.",
+      "role": "Ammonia emission factor",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R71"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Native MILP implementation and solver cases",
+      "role": "Exact Equation 1/10–17 implementation, asset activation and domains.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Cost interval/normalization/price-year arrays",
+      "role": "Wu 2025 midpoint lineage and DeSimone attribution, economic units and confidence terminology.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Native coordinates and allowed arc file",
+      "role": "Synthetic geometry, route ordering and corridor versus parallel length.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Scenario generation and calibration",
+      "role": "Five assumed common-factor states, correlations and probabilities are not empirical distributions.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Exact frontier and robustness grids",
+      "role": "Prose/plot lambda ranges, exact objective/count/length arrays and threshold outputs.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Solver/version/gap/optimality evidence",
+      "role": "No exact native release, tolerances, logs or performance benchmark supplied.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Annual scenario flow and shortfall arrays",
+      "role": "Verify target attainment, post 12 credit operation and exact gap values.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Source potential/availability conversion",
+      "role": "MW/lb/kWh, actual annual supply and 8000 hour bound implementation.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Time-dependent credit eligibility and salvage rules",
+      "role": "Verify indexed 85 USD/t 12 year schedule and source/site/salvage activation.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Formation pressure/resource/well-interference model",
+      "role": "Needed for physical service; deliberately abstracted by constant injectivity.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D11",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Complete matched utility and supplier inventory",
+      "role": "Heat/electricity/compression/liquefaction/cooling and actual emissions factors not provided.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D12",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Building allocation, full LCA and retention model",
+      "role": "No building demand trajectory, carbon-fate inventory, counterfactual or postclosure mass balance.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    }
+  ]
+}

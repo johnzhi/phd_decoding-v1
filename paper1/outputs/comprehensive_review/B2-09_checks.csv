@@ -1,0 +1,72 @@
+item,value,unit,basis,source_locator,interpretation
+gross_annual_emissions,50.556,Mt/year,printed accounting,p8 Table2,"Synthetic potential supply, not observed emissions"
+annual_target,40.95036,Mt/year,printed accounting,pp8–9,90% of 90% capturable supply; not 90% of gross emissions
+gross_target_percent,81.00000000000001,%,printed accounting,pp8–9,81% before the separate availability convention
+source_availability,0.91324200913242,fraction,calendar interpretation,"pp6,9","8000h is stated in case data, but an explicit equation fixing/bounding y to it is absent"
+annual_available_capture,41.55287671232876,Mt/year,conditional calendar accounting,"pp6,8–9",Uses all source Qi as full-year potential; native time convention unverified
+twenty_year_target,819.0072,Mt,printed accounting,pp8–10,"A policy target, not a calibrated geological resource"
+twenty_year_gross,1011.1199999999999,Mt,printed accounting,p8 Table2; p10 Figure5,"Blue source labels are gross emissions, not captured arc flows"
+S1_salvage_percent,5.0,%,printed accounting,p8 Table2,5% source capital identity only
+S1_reported_capture,92.44,Mt,rounded flow replay,p10 Figure5,Sum of labelled outgoing arcs; cumulative check only
+S1_available_capture_ceiling,98.63013698630138,Mt,conditional calendar accounting,"pp6,8–10",Not a reconstructed annual operating profile
+S2_salvage_percent,5.0,%,printed accounting,p8 Table2,5% source capital identity only
+S2_reported_capture,252.49,Mt,rounded flow replay,p10 Figure5,Sum of labelled outgoing arcs; cumulative check only
+S2_available_capture_ceiling,252.4931506849315,Mt,conditional calendar accounting,"pp6,8–10",Not a reconstructed annual operating profile
+S3_salvage_percent,5.0,%,printed accounting,p8 Table2,5% source capital identity only
+S3_reported_capture,300.0,Mt,rounded flow replay,p10 Figure5,Sum of labelled outgoing arcs; cumulative check only
+S3_available_capture_ceiling,302.4,Mt,conditional calendar accounting,"pp6,8–10",Not a reconstructed annual operating profile
+S4_salvage_percent,5.0,%,printed accounting,p8 Table2,5% source capital identity only
+S4_reported_capture,98.63,Mt,rounded flow replay,p10 Figure5,Sum of labelled outgoing arcs; cumulative check only
+S4_available_capture_ceiling,98.63013698630138,Mt,conditional calendar accounting,"pp6,8–10",Not a reconstructed annual operating profile
+S5_salvage_percent,5.000000000000001,%,printed accounting,p8 Table2,5% source capital identity only
+S5_reported_capture,78.9,Mt,rounded flow replay,p10 Figure5,Sum of labelled outgoing arcs; cumulative check only
+S5_available_capture_ceiling,78.9041095890411,Mt,conditional calendar accounting,"pp6,8–10",Not a reconstructed annual operating profile
+reported_arc_total,822.46,Mt,rounded flow replay,p10 Figure5,"S5 ribbon is 78.9 Mt, confirmed by magnification"
+reported_sink_total,822.46,Mt,rounded flow replay,p10 Figure5,491.43 plus 331.03 Mt
+reported_node_flow_residual,0.0,Mt,rounded flow replay,p10 Figure5,Zero at displayed precision; no native model certification
+stored_share_gross,81.3414827122399,%,rounded flow replay,"pp8,10","Stored/injected scenario quantity, not lifecycle avoidance or permanence"
+baseline_pipe_units,9,parallel pipe units,rounded flow replay,p10 Figure5,Six selected arcs carry nine units
+baseline_pipe_km,911.44,pipe-km,rounded flow replay,p9 Figure4; p10 Figure5,911.44 agrees with approximately 911; not route-km or a solved optimum
+H1_R1_minus_R2_distance,29.960000000000008,km,printed distance comparison,p9 Figure4; p10,"R1 is farther in every displayed pair; the prose transport-distance advantage needs qualification, not a reversal of the reported allocation"
+S1_R1_minus_R2_distance,48.85000000000001,km,printed distance comparison,p9 Figure4; p10,"R1 is farther in every displayed pair; the prose transport-distance advantage needs qualification, not a reversal of the reported allocation"
+S2_R1_minus_R2_distance,31.39,km,printed distance comparison,p9 Figure4; p10,"R1 is farther in every displayed pair; the prose transport-distance advantage needs qualification, not a reversal of the reported allocation"
+S3_R1_minus_R2_distance,25.120000000000005,km,printed distance comparison,p9 Figure4; p10,"R1 is farther in every displayed pair; the prose transport-distance advantage needs qualification, not a reversal of the reported allocation"
+S4_R1_minus_R2_distance,54.379999999999995,km,printed distance comparison,p9 Figure4; p10,"R1 is farther in every displayed pair; the prose transport-distance advantage needs qualification, not a reversal of the reported allocation"
+S5_R1_minus_R2_distance,81.25,km,printed distance comparison,p9 Figure4; p10,"R1 is farther in every displayed pair; the prose transport-distance advantage needs qualification, not a reversal of the reported allocation"
+all_R1_pairwise_distances_longer,1,boolean,printed distance comparison,p9 Figure4; p10,"This does not prove an optimum is wrong: injectivity, costs and network interactions also matter"
+R1_flow_residual,0.0,Mt,rounded flow replay,p10 Figure5,Displayed arc sum matches displayed sink total
+R1_twenty_year_nominal_well_capacity,493.74,Mt,constant-rate capacity accounting,p9 Table3; p10 Figure5,"Upper bound from assumed per-well rate, not pressure-derived deliverability"
+R1_fixed_opex_residual,0.0,MUSD/year/well,printed accounting,p9 Table3,R2 residual is consistent with six-decimal display rounding
+R2_flow_residual,0.0,Mt,rounded flow replay,p10 Figure5,Displayed arc sum matches displayed sink total
+R2_twenty_year_nominal_well_capacity,331.03200000000004,Mt,constant-rate capacity accounting,p9 Table3; p10 Figure5,"Upper bound from assumed per-well rate, not pressure-derived deliverability"
+R2_fixed_opex_residual,5.00000000069889e-07,MUSD/year/well,printed accounting,p9 Table3,R2 residual is consistent with six-decimal display rounding
+pipe_fixed_opex_residual,2.4999999999955613e-06,MUSD/km/year,printed accounting,p9,Residual consistent with stated rounded annual coefficient
+transport_analyst_length_omitted,0.0475,numeric dollars with unresolved missing km,analyst unit example,p6 Equation1; p9,One tonne and a 100km arc: literal term lacks length if coefficient is per tonne-km
+transport_analyst_length_included,4.75,USD,analyst dimensional comparison,p6 Equation1; p9,4.75USD requires an explicit length factor or a preaggregated coefficient; native code unverified
+coal_emission_8000h,16.764773995200002,Mt/year,exact-unit conditional conversion,p8 Tables1–2,Uses international pound; annual potential versus operating-hour convention remains explicit
+coal_rounding_compatible_8000h,0,boolean,conditional display-rounding check,p8 Tables1–2,2.31lb/kWh ±0.005 and 18.396Mt/year ±0.0005; no unrounded source factor is invented
+coal_emission_8760h,18.357427524744,Mt/year,exact-unit conditional conversion,p8 Tables1–2,Uses international pound; annual potential versus operating-hour convention remains explicit
+coal_rounding_compatible_8760h,1,boolean,conditional display-rounding check,p8 Tables1–2,2.31lb/kWh ±0.005 and 18.396Mt/year ±0.0005; no unrounded source factor is invented
+analyst_CVaR_0,2.0000000000000004,analyst loss units,disclosed analyst fixture,p7 Equations15–16,Independent tail integral; not native scenario losses
+analyst_CVaR_LP_0,2.0000000000000004,analyst loss units,independent analyst LP,p7 Equations15–16,Matches independent linear-program evaluation
+analyst_CVaR_0.5,3.2,analyst loss units,disclosed analyst fixture,p7 Equations15–16,Independent tail integral; not native scenario losses
+analyst_CVaR_LP_0.5,3.1999999999999997,analyst loss units,independent analyst LP,p7 Equations15–16,Matches independent linear-program evaluation
+analyst_CVaR_0.8,4.0,analyst loss units,disclosed analyst fixture,p7 Equations15–16,Independent tail integral; not native scenario losses
+analyst_CVaR_LP_0.8,4.0,analyst loss units,independent analyst LP,p7 Equations15–16,Matches independent linear-program evaluation
+analyst_CVaR_0.95,4.0,analyst loss units,disclosed analyst fixture,p7 Equations15–16,Independent tail integral; not native scenario losses
+analyst_CVaR_LP_0.95,4.0,analyst loss units,independent analyst LP,p7 Equations15–16,Matches independent linear-program evaluation
+minimum_scenario_probability,0.2,fraction,printed scenario arithmetic,p12,20% per atom exceeds the selected 5% tail; CVaR95 equals maximum annual scenario loss
+crossing_annual_CVaR_sum,20.0,analyst loss units,analyst two-year counterexample,p7 Equation17,Undiscounted fixture; separately assessed yearly tails need not be the same scenario
+crossing_horizon_CVaR,10.0,analyst loss units,analyst two-year counterexample,p7 Equation17,"10 versus 20 demonstrates distinction, not a numerical error in the unavailable native case"
+discount_factor_sum_20y,8.513563719758558,PV years,printed discount component,"pp6,9",Discounted mass is not ordinary cumulative mass
+discounted_85_credit_first12y,579.1638049461965,USD per constant annual tonne,stated time-profile component,"pp6,9",Requires time-dependent revenue despite unindexed Rrev in Equation1
+discounted_85_credit_all20y,723.6529161794774,USD per constant annual tonne,literal constant-revenue comparison,"pp6,9",Not a corrected or reproduced author objective
+high_lambda_mean_shortfall_share,36.629714610567525,% of annual target,approximate reported comparison,pp12–13 Figure11,Approximately 36.6%; not a probability or a measured failure frequency
+pipe_central_percent,20.833333333333325,%,rounded endpoint comparison,"pp10,14,17",Rounded endpoints do not give exact native objective values
+pipe_reported_percent_rounding_compatible,1,boolean,conditional rounding interval,"pp10,14,17","Reported 18.9% lies in [18.556701,23.157895] if each endpoint is rounded to 0.1 billion USD"
+injectivity_central_percent,52.08333333333333,%,rounded endpoint comparison,"pp10,14,17",Rounded endpoints do not give exact native objective values
+injectivity_reported_percent_rounding_compatible,1,boolean,conditional rounding interval,"pp10,14,17","Reported 51.8% lies in [49.484536,54.736842] if each endpoint is rounded to 0.1 billion USD"
+joint_central_percent,72.9166666666667,%,rounded endpoint comparison,"pp10,14,17",Rounded endpoints do not give exact native objective values
+joint_reported_percent_rounding_compatible,1,boolean,conditional rounding interval,"pp10,14,17","Reported 72% lies in [70.103093,75.789474] if each endpoint is rounded to 0.1 billion USD"
+injectivity_vs_pipe_central_percent,25.86206896551724,%,rounded endpoint comparison,"pp10,14,17",Rounded endpoints do not give exact native objective values
+injectivity_vs_pipe_reported_percent_rounding_compatible,1,boolean,conditional rounding interval,"pp10,14,17","Reported 27.7% lies in [23.931624,27.826087] if each endpoint is rounded to 0.1 billion USD"

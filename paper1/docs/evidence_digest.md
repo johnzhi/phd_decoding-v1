@@ -324,15 +324,15 @@ Transfer limits: B2-08 adds all 13 pages, 12 figures, six tables, 24 main/append
 
 ### B2-09 — Risk aware planning of CO2 transport and geological storage networks for net zero buildings under capacity and injectivity uncertainty
 
-. Identifier: 10.1016/j.enbuild.2026.117200. [PDF](../papers/B2-09.pdf).
+Kattel et al. (2026). Identifier: 10.1016/j.enbuild.2026.117200. [PDF](../papers/B2-09.pdf).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,8,17.
+Reading stage: Detailed retained-PDF audit with open scientific verification. Checked sections: All 19 pages, figures, tables, numbered/inline equations, parameter and variable definitions, declarations and 71-entry bibliography.
 
-Network MILP uses budgeted uncertainty for pipeline capacity and well injectivity, plus CVaR shortfall risk. It jointly designs shared hubs, integer pipelines/wells and discounted cost. The case is explicitly synthetic: five emission sources, one hub and two sinks, with assumed production capacities and straight-line geometry.
+The synthetic five-source/one-hub/two-sink network fixes integer initial pipes and wells while annual operation responds to economic and scenario inputs. Separate variants use hard-target fractional coefficient derates and soft-target CVaR penalties. The displayed Gamma constraints do not contain a shared cardinality budget controlling how many components degrade. Five equal-probability common-factor scenarios at alpha 0.95 make annual CVaR a maximum scenario loss, rather than a measured 5% failure frequency.
 
-Risk preferences create discrete investment/cost-versus-shortfall tradeoffs. The authors state that regional use requires real source/storage data, pressure management, learning and correlated risks; the illustrative magnitudes do not calibrate physical deliverability. Model scale and uncertain asset capacities are distinct from a validated pressure forecast.
+Rounded Sankey replay closes at 822.46 Mt with 117 wells and 911.44 pipe-km. Blue source boxes are gross emissions, not captured flows; magnification confirms the S5 ribbon as 78.9 Mt. Source salvage/fixed OPEX and rounded cost percentage claims reconcile at stated precision. High-lambda mean shortfall remains approximately 15 Mt/year, about 36.6% of the 40.95036 Mt/year target; this is neither a probability nor a delivery guarantee.
 
-Transfer limits: Literature emission factors combined with assumed production are not observed source emissions. Robustness budgets/CVaR scenario preferences are design parameters, not measured probabilities for our sites. It is strong prior art for injectivity/capacity uncertainty, but no site-specific kr,t or actual permits can be transferred.
+Transfer limits: B2-09 adds all 19 pages, 13 figures, four numbered tables, 17 numbered equations, 56 claim records, 71 limited checks and 11 coefficient-grid rows. Independent fractional derates, five-atom CVaR, annual/PV risk, objective/time/units and physical/lifecycle limits remain open. Flow totals and rounded cost percentages reconcile. Two scoped originals bring citation edges to twenty-one; 69 other originals, twelve dependencies and native optimization/calibration remain unverified. No accepted operating or GHG input changes. Pipeline variable length, revenue/salvage time, asset activation and 8000-hour availability mappings need native code. Annual discounted tails differ generally from horizon CVaR and physical cumulative mass. Static Wang/SimCCS passages support limited economic/design context, not risk calibration or annual pressure service. Native data-on-request assets, full utility/supplier inventory and building/retention LCA remain open. See [detailed findings](risk_network_comprehensive_findings.md).
 
 ### B2-10 — Exploring the value of CO2 shipping transport flexibility in international batchwise transportation carbon capture and storage networks
 

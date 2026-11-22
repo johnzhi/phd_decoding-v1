@@ -1,0 +1,12 @@
+gamma,capacity_fraction,pipe_Mt_year,R1_Mt_year_well,R2_Mt_year_well,minimum_wells_best_sink,interpretation
+0.0,1.0,5.0,0.3798,0.3183,108,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.1,0.96,4.8,0.364608,0.305568,113,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.2,0.9199999999999999,4.6,0.349416,0.292836,118,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.30000000000000004,0.88,4.4,0.334224,0.280104,123,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.4,0.84,4.2,0.31903200000000004,0.267372,129,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.5,0.8,4.0,0.30384000000000005,0.25464000000000003,135,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.6000000000000001,0.76,3.8,0.288648,0.241908,142,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.7000000000000001,0.72,3.5999999999999996,0.27345600000000003,0.22917600000000002,150,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.8,0.6799999999999999,3.3999999999999995,0.258264,0.216444,159,Independent coefficient derates in every row; not a shared component-count budget or solved network
+0.9,0.6399999999999999,3.1999999999999993,0.24307199999999998,0.20371199999999998,169,Independent coefficient derates in every row; not a shared component-count budget or solved network
+1.0,0.6,3.0,0.22788,0.19098,180,Independent coefficient derates in every row; not a shared component-count budget or solved network

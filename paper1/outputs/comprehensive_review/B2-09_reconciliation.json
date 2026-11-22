@@ -1,0 +1,20 @@
+{
+  "study_id": "B2-09",
+  "checks": 71,
+  "capacity_grid_rows": 11,
+  "author_model": "not_reproduced",
+  "accepted_inputs_changed": false,
+  "scope": "Printed accounting and disclosed CVaR/unit fixtures only",
+  "excluded_missing_inputs": {
+    "native_code": null,
+    "solver_version_tolerances_logs": null,
+    "exact_annual_scenario_flows": null,
+    "raw_frontier_and_sweep_grid": null,
+    "coordinate_and_route_data": null,
+    "source_cost_interval_mapping": null,
+    "joint_scenario_calibration": null,
+    "pressure_and_resource_model": null,
+    "complete_same_case_utilities_and_suppliers": null,
+    "lifecycle_and_retention_inventory": null
+  }
+}

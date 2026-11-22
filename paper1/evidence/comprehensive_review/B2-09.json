@@ -1,0 +1,2674 @@
+{
+  "study_id": "B2-09",
+  "source_sha256": "05a904cb3c6323a7a46919d1fbfe39dd7fb10ca10e859cd28c16a718fe1dda90",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 19 retained pages read as text and visually inspected, plus nine magnifications. All 13 figures, four numbered tables, parameter/variable displays,17 numbered equations and 71 printed references read.71 limited diagnostics and 11 coefficient-grid rows preserve successful flow/cost accounting and unresolved Gamma/CVaR, time/unit, source-support and physical/lifecycle scope. Two retained originals have scoped checks;69 others and 12 dependencies remain unverified. No native network optimizer, pressure model, calibrated risk or full utility/LCA reproduced.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "original_model_status": "printed_accounting_and_discrete_CVaR_components_checked_native_network_pressure_risk_LCA_not_reproduced",
+  "supplement_status": "no_appendix_or_embedded_assets_explicit_data_on_request_external_supplement_code_status_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract and licence",
+      "assessment": "Kattel, Paudel, Yeom, Kim, Hong and Choi; Energy & Buildings 357(2026)117200; DOI10.1016/j.enbuild.2026.117200. Received 6 January, revised 13 February, accepted 19 February, online 20 February 2026. CC-BY4.0. All abstract cost/risk claims read as synthetic-case results."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction",
+      "assessment": "Read buildings, industrial supply, policy and reliability motivation. The dataset is explicitly hypothetical; EPA/EIA/NETL are future parameterization suggestions rather than used native field data."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "2 Literature review introduction",
+      "assessment": "Read operational versus embodied carbon, building-control context and claimed deterministic-planning gap. No quantified building demand or building LCA is supplied."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        3
+      ],
+      "scope": "2.1 Foundational network models",
+      "assessment": "Read the MILP, time-window, genetic-algorithm and dynamic-cluster comparisons. Printed R23–26 identities require support checking. Joint discrete infrastructure and present-value economics already occur in the retained SimCCS original."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        3
+      ],
+      "scope": "2.2 Uncertain CCUS planning",
+      "assessment": "Read interval, stochastic, chance and scenario comparisons. Count-of-components and tail-risk claims require the displayed uncertainty definitions, rather than generic method names."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        3
+      ],
+      "scope": "2.3 Technical uncertainty",
+      "assessment": "Read injectivity, pressure, capillarity, Bayesian learning, superposition, impurities, EOS and pipeline safety citations. Their empirical distributions and physical models are not supplied by the scalar derates."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4
+      ],
+      "scope": "2.4 Risk aversion and regional context",
+      "assessment": "Read Bertsimas–Sim, VaR/CVaR, gas/hydrogen/power/hydro and China/US/Europe context. No originals are verified solely by reading their titles. Exact 2009 SimCCS passages qualify integrated-design novelty."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "3 Methodology and framework",
+      "assessment": "Figure 2 stacks deterministic, coefficient-derated and CVaR variants. The displayed CVaR model is separate from Equations 10–11 rather than a demonstrated joint hybrid. Calling synthetic outputs empirical does not turn them into observations."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "3.1 Data preparation",
+      "assessment": "Read all source/sink/pipeline/global inputs, cost and 2.5% fixed-OPEX assumptions. Values are literature midpoints and assumed geometry, not formation characterization. Native units are retained rather than treating all quantities as SI base units."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        6
+      ],
+      "scope": "3.2 Graph and deterministic design",
+      "assessment": "Read S/R/H/N/E, years, adjacency, integer fixed builds and continuous annual operating variables. No source/sink opening binary, cumulative stock, phased investment or retirement constraints are printed."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "3.2.1 Objective and annual balances",
+      "assessment": "Equation 1 cost, unconditional capital/site development, fractional source fixed cost, salvage and revenue read. Equations 2–9 annual target, capture, conservation, capacity and domains read. Time-dependent credit and 8000-hour case bounds need native mapping."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        7
+      ],
+      "scope": "3.2.2 Gamma hedge",
+      "assessment": "Uncertainty bounds and Equations 10–11 derate every coefficient independently. Gamma is a fractional shrinkage level, not a displayed shared cardinality/sum budget limiting simultaneous bad components."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        7
+      ],
+      "scope": "3.2.3 Scenario and CVaR",
+      "assessment": "Equations 12–17 read. Builds fixed across scenarios; all annual operations adapt to scenario. Five equal-probability common-factor scenarios and alpha.95 make the finite annual CVaR a maximum loss. No observed 5% failure frequency is established."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "3.3 Outputs",
+      "assessment": "Read NPC/topology, wells, pipe-km, robustness surfaces, mean shortfall and discounted annual-CVaR outputs. They are not a pressure-derived annual storage dataset or physical cumulative retained mass."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        8
+      ],
+      "scope": "4 Sources and synthetic geometry",
+      "assessment": "All five assumed production/emission rows and cost cells read. Table 1 coal MW, lb/kWh and annual-hours bases need explicit conversion. Straight-line routing is a disclosed assumption, not a proof of preserved route ordering."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        9
+      ],
+      "scope": "4 Sinks, pipes and global case",
+      "assessment": "Both injectivities/cost rows, 17 distance cells, pipe costs, 20 years,10%,85 USD/t first 12 years,90%-of-capturable target and 8000 hours read. No cumulative geological resources or pressures supplied."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "5 Results and5.1 Baseline",
+      "assessment": "Source boxes show gross 20 year emissions; six ribbons show captured/injected mass. Magnification resolves S5 as 78.9 Mt. All ribbon/sink sums close at printed precision, with 117 wells and 911.44 pipe-km. This is accounting, not a native optimum or annual feasibility reconstruction."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "scope": "5.2 Robustness sweeps",
+      "assessment": "Read cost sensitivities, contour, well counts and pipe lengths. Rounded cost endpoints are compatible with printed percentage claims under stated rounding intervals. Local curve dips do not prove integer/solver defects or universal monotonicity of component counts."
+    },
+    {
+      "id": "S19",
+      "pages": [
+        12,
+        13
+      ],
+      "scope": "5.3 CVaR trade-offs",
+      "assessment": "Read five factors/probabilities, alpha.95, frontier and means/wells/length curves. Equation 17 prose lambda 1–50, Figure 10 labels 1–30 and Figures 11–13 axes to 40 need raw-grid mapping. Mean high-lambda shortfall remains approximately 15 Mt/year, around 36.6% of target."
+    },
+    {
+      "id": "S20",
+      "pages": [
+        13,
+        14
+      ],
+      "scope": "6 Discussion and6.1 Contributions",
+      "assessment": "Read transferability, integer breakpoints and deterministic/robust/CVaR distinctions. How-many-components language exceeds the displayed coefficient-derate definition. Native solver evidence is absent."
+    },
+    {
+      "id": "S21",
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "scope": "6.2 Building and policy implications",
+      "assessment": "All subsections 6.2.1–6.2.4 read. Source reliability motivation is plausible, but annual maximum scenario loss and discounted tonnes do not establish building LCA, observed rarity, compliance or permanent retention."
+    },
+    {
+      "id": "S22",
+      "pages": [
+        16
+      ],
+      "scope": "6.3 Policy/geography/demand sensitivity",
+      "assessment": "Both subsections read. Lower/higher credit, policy persistence, geography and variable demand are discussed alternatives, not reproduced sensitivity cases or implemented phased build-out."
+    },
+    {
+      "id": "S23",
+      "pages": [
+        16,
+        17
+      ],
+      "scope": "6.4 Limitations and scalability",
+      "assessment": "Read excluded hydraulics, pressure, routing, permitting, quality, outages, proposed learning/correlation, decomposition and upscaling. No national computational benchmarks or implemented learning/pressure cases supplied."
+    },
+    {
+      "id": "S24",
+      "pages": [
+        17
+      ],
+      "scope": "7 Conclusion and declarations",
+      "assessment": "All conclusions, author roles, conflicts, DOE grantDE-EE0009721, data-on-request and closing numerical claims read. No contact sent or assets retrieved."
+    },
+    {
+      "id": "S25",
+      "pages": [
+        17,
+        18,
+        19
+      ],
+      "scope": "Complete bibliography",
+      "assessment": "All 71 printed entries read and preserved with physical pages. Two retained originals have scoped passage checks;69 other originals and 12 native dependencies remain unverified. No appendix or explicit publisher SI/code notice identified."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "V01",
+      "pages": [
+        2
+      ],
+      "object": "Figure1 building/infrastructure diagram",
+      "inspection": "All demand arrows, electricity/fuel, cement/steel, upstream emissions and capture/transport/storage/utilization labels read. Conceptual dependency only; no allocated building-carbon inventory."
+    },
+    {
+      "id": "V02",
+      "pages": [
+        5
+      ],
+      "object": "Figure2 framework and three output thumbnails",
+      "inspection": "All source/sink/pipeline/global blocks, deterministic/derate/CVaR panels and output thumbnails inspected. Enlarged source outputs in Figures 5/7/10 used for numerical interpretation; not a new independent dataset."
+    },
+    {
+      "id": "V03",
+      "pages": [
+        8
+      ],
+      "object": "Figure3 hypothetical network",
+      "inspection": "Five red sources, blueH1, greenR1/R2, dashed 17 candidate links and 0–30 km scale read, including magnified diagram. No exact coordinate file or actual geographic sites supplied."
+    },
+    {
+      "id": "V04",
+      "pages": [
+        9
+      ],
+      "object": "Figure4 all distance cells and colorbar",
+      "inspection": "OriginsH1/S1–S5 and destinationsH1/R1/R2;17 cells read/magnified, self-H1 blank. Distances 40.08–171.83 km; monotonic colorbar. These are assumed straight-line lengths."
+    },
+    {
+      "id": "V05",
+      "pages": [
+        10
+      ],
+      "object": "Figure5 all source boxes, ribbons and sink labels",
+      "inspection": "Blue gross-emission boxes 120/120/96/307.2/367.92 Mt differ from captured ribbons. Six ribbon masses 92.44/98.63/78.9/61.06/191.43/300 Mt, pipes 1/1/1/1/2/3 and sinks 331.03/491.43 Mt with 52/65 wells. Enlarged S5 one-decimal 78.9 prevents a false mass discrepancy."
+    },
+    {
+      "id": "V06",
+      "pages": [
+        11
+      ],
+      "object": "Figure6 all cost curves and legend",
+      "inspection": "Green pipeline, red injectivity, cyan joint; Gamma 0–1, NPC4500–8500 MUSD. Curves connect sampled solutions; exact objective arrays absent. Rounded endpoint arithmetic is qualified."
+    },
+    {
+      "id": "V07",
+      "pages": [
+        11
+      ],
+      "object": "Figure7 NPC contour",
+      "inspection": "Gamma pipe horizontal, injectivity vertical, NPCMUSD colorbar. Bands/kinks and near-diagonal contours read. Visual surface is not exact additivity or independently calibrated uncertainty."
+    },
+    {
+      "id": "V08",
+      "pages": [
+        11
+      ],
+      "object": "Figure8 well curves and legend",
+      "inspection": "Cyan injectivity and purple joint, well axis 110–190. Magnification shows local dips/crossings despite increasing overall trend. Interpolation does not disclose exact integer solutions; component monotonicity is not guaranteed."
+    },
+    {
+      "id": "V09",
+      "pages": [
+        12
+      ],
+      "object": "Figure9 installed pipe-km",
+      "inspection": "Brown pipe-only/magenta joint; Gamma 0–1,900–1800 km. Local dips/reversals and approximate endpoint 1600/1720 noted. Total parallel-pipe length differs from corridor length."
+    },
+    {
+      "id": "V10",
+      "pages": [
+        13
+      ],
+      "object": "Figure10 all frontier labels",
+      "inspection": "CVaR60–200 Mt and NPC2000–4500 MUSD. Magnified lambda labels 1,3–4,5,6,7–8,9–10,13–16,17,19,21,22–26,27–30 read. Connecting curve/labels do not supply exact raw frontier or all 1–50 runs."
+    },
+    {
+      "id": "V11",
+      "pages": [
+        13
+      ],
+      "object": "Figure11 mean annual shortfall",
+      "inspection": "Lambda to 40, mean 14–26 Mt/year; low 23–25, bump near 4 and high~15. Averages are not failure probabilities, and need not be monotone under CVaR-only penalization."
+    },
+    {
+      "id": "V12",
+      "pages": [
+        13
+      ],
+      "object": "Figure12 total wells",
+      "inspection": "Lambda to 40; count~105 to~186, connected transitions and plateaus. Exact integer output and lambda grid not supplied."
+    },
+    {
+      "id": "V13",
+      "pages": [
+        13
+      ],
+      "object": "Figure13 total pipe length",
+      "inspection": "Lambda to 40; ~820 to~1636 km, several plateaus and connecting slopes. Prose 1214 plateau requires raw mapping; no exact digitization invented."
+    },
+    {
+      "id": "V14",
+      "pages": [
+        8
+      ],
+      "object": "Tables1–2 source characteristics and all cost rows",
+      "inspection": "All five assumed productions, emission factors/citations, Q/CAPEX/fixed/variable/salvage cells read and magnified. MW is power rather than annual production; lb/kWh needs conversion and time convention."
+    },
+    {
+      "id": "V15",
+      "pages": [
+        9
+      ],
+      "object": "Table3 all sink rows",
+      "inspection": "R1/R2 injectivity.3798/.3183 Mt/year/well; development 29.2635/26.3375 MUSD; well capital 26.726/29.3985; fixed.66815/.734963 MUSD/year/well; variable 2.935 USD/t. No pressure/resource calibration."
+    },
+    {
+      "id": "V16",
+      "pages": [
+        9
+      ],
+      "object": "Table4 all global rows",
+      "inspection": "20 years,10%,85 USD/t for t<=12,90%capturable target,8000 hours. Capture efficiency.9 supplied in prose. All distinctions retained."
+    },
+    {
+      "id": "V17",
+      "pages": [
+        6
+      ],
+      "object": "Unnumbered parameter and decision-variable tables",
+      "inspection": "All graph/indices/units, continued revenue/discount definitions, integer pipes/wells and continuous operating variables read. Z+ zero convention, eta symbol reuse, y time mapping and native domains remain qualified."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        6
+      ],
+      "printed": "Eq1: min Z = source+pipe+sink capital + discounted operation - salvage - storage credit",
+      "check": "Read every term. Source capital and sink development unconditionally charged; pipe variable term lacks explicit length; salvage dt outside time sums, credit unindexed. Native implementation not inferred."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        6
+      ],
+      "printed": "Eq2: Sum_j b_j(t)>=Ttar",
+      "check": "Annual hard injection target, not cumulative resource constraint or maximum deliverability."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        6
+      ],
+      "printed": "Eq3: 0<=a_i(t)<=eta Q_i y_i(t)",
+      "check": "Capture fraction and availability separate. Case 8000 h not fixed explicitly by displayed bounds 0–1."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        7
+      ],
+      "printed": "Eq4: Sum_out x-Sum_in x=a_i(t)",
+      "check": "Source conservation; gross emissions not all captured."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        7
+      ],
+      "printed": "Eq5: Sum_in x-Sum_out x=b_j(t)",
+      "check": "Sink conservation; source case has no explicit return/loss state."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        7
+      ],
+      "printed": "Eq6: Sum_in x=Sum_out x at hubs",
+      "check": "Flow-only hub without inventory, pressure, compressor or mixing state."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        7
+      ],
+      "printed": "Eq7: 0<=x_e<=n_e ubar_e",
+      "check": "Displayed time index omitted; narrative annual capacity. No hydraulic pipeline calculation."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        7
+      ],
+      "printed": "Eq8: 0<=b_j<=w_j taubar_j",
+      "check": "Constant annual per-well injectivity, no interference/pressure evolution or cumulative stock."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        7
+      ],
+      "printed": "Eq9: n,w in Z+; y in[0,1]; a,x,b>=0",
+      "check": "Zero convention and unused-site accounting require native definitions. No phased build/retirement."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        7
+      ],
+      "printed": "Eq10: x_e(t)<=(ubar_e-Gamma_pipe_e rho_u_e)n_e",
+      "check": "Every row receives its fractional coefficient derate. No shared count/sum uncertainty set printed."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        7
+      ],
+      "printed": "Eq11: b_j(t)<=(taubar_j-Gamma_sink_j rho_tau_j)w_j",
+      "check": "Same independent shrinkage interpretation; adding wells does not model geological pressure response."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        7
+      ],
+      "printed": "Eq12: x_omega<=n u_omega; b_omega<=w tau_omega",
+      "check": "First-stage builds with scenario-adaptive operations. Global factors determine all capacities simultaneously."
+    },
+    {
+      "id": "E13",
+      "pages": [
+        7
+      ],
+      "printed": "Eq13: Sum_j b_omega_j(t)+g_omega(t)>=Ttar;g>=0",
+      "check": "Controlled soft target. Only a lower bound on gap for an arbitrary feasible solution; positive risk penalty seeks smaller tails but does not impose exact gap equality everywhere."
+    },
+    {
+      "id": "E14",
+      "pages": [
+        7
+      ],
+      "printed": "Eq14: E[Zomega]=Sum_omega pomega Zomega",
+      "check": "Scenario cost includes same fixed build costs weighted by normalized probabilities; not scenario-specific rebuilds."
+    },
+    {
+      "id": "E15",
+      "pages": [
+        7
+      ],
+      "printed": "Eq15: s_omega(t)>=g_omega(t)-eta(t);s>=0",
+      "check": "VaR eta(t) distinct from capture eta; free threshold domain inferred by standard formulation, native declaration needed."
+    },
+    {
+      "id": "E16",
+      "pages": [
+        7
+      ],
+      "printed": "Eq16: CVaR(t)=eta(t)+Sum pomega s_omega(t)/(1-alpha)",
+      "check": "Exact discrete upper-tail component independently implemented and compared with LP. Equal five atoms at alpha.95 yield maximum annual loss."
+    },
+    {
+      "id": "E17",
+      "pages": [
+        7
+      ],
+      "printed": "Eq17: min E[Zomega]+lambda Sum_t dt CVaR(t)",
+      "check": "Weighted annual risk sum, not generally CVaR of total discounted loss. No hard risk ceiling or empirical reliability guarantee."
+    },
+    {
+      "id": "E18",
+      "pages": [
+        6
+      ],
+      "printed": "Inline dt=(1+r)^(-t), y=hours/8760",
+      "check": "r 10% interpreted.1 for comparison; standard end-year discount, not native policy/model reproduction."
+    },
+    {
+      "id": "E19",
+      "pages": [
+        7
+      ],
+      "printed": "Inline lower uncertainty bounds and Gamma fractions",
+      "check": "rho has capacity units; relative 40% gives factor 1-.4 Gamma, with all coefficients affected."
+    },
+    {
+      "id": "E20",
+      "pages": [
+        9
+      ],
+      "printed": "Case Ttar=.9*.9*Sum Q; revenue85 for first12years then0",
+      "check": "81%gross target and explicit policy time profile. Printed Eq 1 omits revenue time index."
+    },
+    {
+      "id": "E21",
+      "pages": [
+        8
+      ],
+      "printed": "Analyst power-to-annual mass conversion",
+      "check": "2000 MW,2.31 lb/kWh, international pound and alternative 8000/8760 hours. Rounded EF can reconcile 8760 h 18.396 Mt; not a proved source-unit error."
+    },
+    {
+      "id": "E22",
+      "pages": [
+        7,
+        12
+      ],
+      "printed": "Analyst discrete CVaR tail integral and independent LP",
+      "check": "Fractional mass at a quantile atom handled explicitly; five equal 20% atoms at 95% have maximum-loss CVaR. No native losses fabricated."
+    },
+    {
+      "id": "E23",
+      "pages": [
+        7
+      ],
+      "printed": "Analyst crossing-year risk counterexample",
+      "check": "Two scenarios[10,0] versus[0,10] over two years: annual CVaR sum 20 versus horizon CVaR10 with unit weights. Conditional distinction, not error in unavailable native case."
+    },
+    {
+      "id": "E24",
+      "pages": [
+        9,
+        10
+      ],
+      "printed": "Analyst pipe-km and constant-rate well bounds",
+      "check": "Sum ne*Le and w*tau*T reconstruct printed cumulative/accounting bounds only. No exact annual operating profile or pressure proof."
+    },
+    {
+      "id": "E25",
+      "pages": [
+        10,
+        14,
+        17
+      ],
+      "printed": "Analyst rounded cost-ratio intervals",
+      "check": "Endpoint uncertainty of±.05 billionUSD makes 18.9/51.8/72/27.7% claims compatible. Rounded central ratios do not prove errors."
+    },
+    {
+      "id": "E26",
+      "pages": [
+        13
+      ],
+      "printed": "Analyst high-lambda mean/target comparison",
+      "check": "15/40.95036=36.63% of target, not observed outage probability. Discounted risk is not physical cumulative mass."
+    },
+    {
+      "id": "E27",
+      "pages": [
+        7,
+        12
+      ],
+      "printed": "Analyst scalarization monotonicity qualification",
+      "check": "For globally optimal solutions on a fixed feasible set as lambda rises, penalized risk cannot rise and expected cost cannot fall. Mean loss, wells and length need not be monotone; no raw optimizer validation."
+    },
+    {
+      "id": "E28",
+      "pages": [
+        6,
+        9
+      ],
+      "printed": "Analyst unit example for transport cost",
+      "check": "One tonne 100 km at.0475 USD/t/km costs 4.75 USD; literal coefficient*x without length gives.0475 numerically. Preaggregation or missing factor requires code, not silent repair."
+    }
+  ],
+  "variables": [
+    {
+      "id": "X01",
+      "pages": [
+        6
+      ],
+      "symbol": "S,R,H,N,E; i,j,h,e,m,n; in/out(k)",
+      "definition": "Disjoint node roles and directed arcs, annual graph conservation; Fig 3/4 case 17 arcs. Exact coordinates and allowed native arc arrays absent."
+    },
+    {
+      "id": "X02",
+      "pages": [
+        6
+      ],
+      "symbol": "t,T,r,dt",
+      "definition": "Annual t 1–20;10%rate converted to.1 in diagnostics. No investment time index or phased retirement."
+    },
+    {
+      "id": "X03",
+      "pages": [
+        6,
+        9
+      ],
+      "symbol": "Qi,eta,Ttar",
+      "definition": "Potential emissions t/year, uniform capture.9 and target.9 capturable. Availability must not be collapsed into either factor."
+    },
+    {
+      "id": "X04",
+      "pages": [
+        6,
+        9
+      ],
+      "symbol": "yi(t)",
+      "definition": "Operatinghours/8760 bounded 0–1;8000 hours stated in case needs explicit native mapping."
+    },
+    {
+      "id": "X05",
+      "pages": [
+        6,
+        7
+      ],
+      "symbol": "ai,xe,bj and scenario versions",
+      "definition": "Captured, transported and injected annual rates, native units tablesMt/year versus equations t/year; not all gross emissions or permanently retained carbon."
+    },
+    {
+      "id": "X06",
+      "pages": [
+        6,
+        7
+      ],
+      "symbol": "ne,wj",
+      "definition": "Time/scenario-invariant integer asset counts; Z+ zero convention and site opening costs not fully specified."
+    },
+    {
+      "id": "X07",
+      "pages": [
+        6,
+        8,
+        9
+      ],
+      "symbol": "Investment/fixed/variable/salvage coefficients",
+      "definition": "MUSD/$, per km/per well/per year/per tonne distinguished. Printed all SI assertion does not remove length/time/currency scale conversions."
+    },
+    {
+      "id": "X08",
+      "pages": [
+        6,
+        9
+      ],
+      "symbol": "Ccj,Rrev",
+      "definition": "Unconditional sink construction term and 85 USD/tfirst 12 years then 0 case policy; indexed time profile absent fromEq 1."
+    },
+    {
+      "id": "X09",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "symbol": "ubar,tau,Le,rho_u,rho_tau",
+      "definition": "Annual capacity and per-well injectivity,km and absolute deviation units. Forty percent is a stipulated lower deviation, not confidence interval."
+    },
+    {
+      "id": "X10",
+      "pages": [
+        7,
+        10,
+        14
+      ],
+      "symbol": "Gamma_pipe,Gamma_sink",
+      "definition": "Fractions 0–1 of maximum derate in every row; not displayed number-of-components budget."
+    },
+    {
+      "id": "X11",
+      "pages": [
+        7,
+        12
+      ],
+      "symbol": "Omega,pomega,uomega,tauomega",
+      "definition": "Five perfectly common factors with equal probabilities. Neither time frequency nor field correlation calibrated."
+    },
+    {
+      "id": "X12",
+      "pages": [
+        7
+      ],
+      "symbol": "gomega(t),somega(t),eta(t),alpha",
+      "definition": "Nonnegative shortfall lower bound/excess, VaR threshold and.95 confidence. Eta(t) is not capture efficiency eta."
+    },
+    {
+      "id": "X13",
+      "pages": [
+        7,
+        13
+      ],
+      "symbol": "lambda,Zomega,Zprime,CVaR(t)",
+      "definition": "USD/t risk weight and discounted expected cost/annual-CVaR sum. Reported lambda ranges differ between prose and plots."
+    },
+    {
+      "id": "X14",
+      "pages": [
+        9,
+        10,
+        13
+      ],
+      "symbol": "Total pipe-km,wellcounts,cumulativeMt,discountedMt",
+      "definition": "Parallel-asset length, discrete count, ordinary stored/injected mass and PV risk have different denominators and meanings."
+    },
+    {
+      "id": "X15",
+      "pages": [
+        16,
+        17
+      ],
+      "symbol": "Excluded physical/institutional state variables",
+      "definition": "Pressure,BHP,stock,composition,utilities,outages,construction dates,learning and retention absent; future proposals do not instantiate them."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Building operational and embodied mitigation depends on reliable upstream CCUS.",
+      "assessment": "Conceptual linkage only; no building demand/allocation or complete lifecycle inventory.",
+      "reference_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06",
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21"
+      ]
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Network investments couple sources, pipelines and injection constraints.",
+      "assessment": "Method context supported in selected Wang/SimCCS originals; not pressure-calibrated risk.",
+      "reference_ids": [
+        "R07",
+        "R08",
+        "R09",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R58"
+      ]
+    },
+    {
+      "id": "C03",
+      "pages": [
+        2
+      ],
+      "claim": "Existing planning is mainly deterministic and lacks sufficient tail-risk integration.",
+      "assessment": "Review-wide novelty/frequency assertion requires exact originals and a defined survey.",
+      "reference_ids": [
+        "R12",
+        "R13",
+        "R22"
+      ]
+    },
+    {
+      "id": "C04",
+      "pages": [
+        2
+      ],
+      "claim": "Public EPA/EIA/NETL datasets can parameterize future real regions.",
+      "assessment": "They are not the inputs actually used by this synthetic demonstration.",
+      "reference_ids": [
+        "R14",
+        "R15",
+        "R16"
+      ]
+    },
+    {
+      "id": "C05",
+      "pages": [
+        3
+      ],
+      "claim": "MILP is widely used for integrated infrastructure design.",
+      "assessment": "Printed R23–26 identities concern other subject areas; exact relevance needs original support.",
+      "reference_ids": [
+        "R23",
+        "R24",
+        "R25",
+        "R26",
+        "R27"
+      ]
+    },
+    {
+      "id": "C06",
+      "pages": [
+        3
+      ],
+      "claim": "Earlier temporal/GA matching does not jointly co-design hubs, integer pipes/wells and NPV.",
+      "assessment": "Comparison scope requires originals; retained SimCCS already combines integrated discrete design and present values, with no temporal component.",
+      "reference_ids": [
+        "R28",
+        "R29",
+        "R58"
+      ]
+    },
+    {
+      "id": "C07",
+      "pages": [
+        3
+      ],
+      "claim": "Dynamic cluster planning retains deterministic capacity parameters.",
+      "assessment": "Read as the authors' comparison, not independently verified original implementation.",
+      "reference_ids": [
+        "R30"
+      ]
+    },
+    {
+      "id": "C08",
+      "pages": [
+        3
+      ],
+      "claim": "Interval/stochastic/chance models inadequately cover combined capacity/count/tail losses.",
+      "assessment": "Exact limitations and method attributions require originals; the present displayed Gamma is a fractional derate.",
+      "reference_ids": [
+        "R31",
+        "R32",
+        "R33"
+      ]
+    },
+    {
+      "id": "C09",
+      "pages": [
+        3
+      ],
+      "claim": "Geological injectivity is uncertain and depends on properties/pressure.",
+      "assessment": "Physical motivation is not a formation-specific pressure dataset or calibrated 40%distribution.",
+      "reference_ids": [
+        "R34",
+        "R35",
+        "R36",
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "R41"
+      ]
+    },
+    {
+      "id": "C10",
+      "pages": [
+        3
+      ],
+      "claim": "Impurities, EOS, compression and risk affect transport.",
+      "assessment": "No source composition, pressure/temperature model or utility inventory is implemented here.",
+      "reference_ids": [
+        "R42",
+        "R43",
+        "R44"
+      ]
+    },
+    {
+      "id": "C11",
+      "pages": [
+        4
+      ],
+      "claim": "Bertsimas–Sim limits the number of adverse coefficients.",
+      "assessment": "Original remains unverified; Equations 10–11 here show independent coefficient shrinkage rather than such a shared budget.",
+      "reference_ids": [
+        "R45"
+      ]
+    },
+    {
+      "id": "C12",
+      "pages": [
+        4
+      ],
+      "claim": "Robust network planning has precedents in CO2, gas and hydrogen.",
+      "assessment": "Original results and uncertainty formulations remain unverified.",
+      "reference_ids": [
+        "R46",
+        "R47",
+        "R48"
+      ]
+    },
+    {
+      "id": "C13",
+      "pages": [
+        4
+      ],
+      "claim": "CVaR is a coherent tail measure used in power and hydro planning.",
+      "assessment": "Standard discrete component independently checked; original financial/power/hydro citations not fully verified.",
+      "reference_ids": [
+        "R49",
+        "R50",
+        "R51",
+        "R52",
+        "R53"
+      ]
+    },
+    {
+      "id": "C14",
+      "pages": [
+        4
+      ],
+      "claim": "Regional CCS applications remain mostly deterministic and scenario-driven.",
+      "assessment": "China/ZEP/JRC cases unverified; SimCCS static design and present-value scope checked in exact original.",
+      "reference_ids": [
+        "R54",
+        "R55",
+        "R56",
+        "R57",
+        "R58",
+        "R59",
+        "R60"
+      ]
+    },
+    {
+      "id": "C15",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Three variants form a coherent synthetic comparison framework.",
+      "assessment": "Shared graph does not make hard-target derates and soft-target CVaR the same reliability requirement.",
+      "reference_ids": []
+    },
+    {
+      "id": "C16",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Literature-midpoint data are internally harmonized and illustrative.",
+      "assessment": "Native cost/units/time mappings remain open; no site-specific forecast is claimed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C17",
+      "pages": [
+        6
+      ],
+      "claim": "Fixed integer builds and annual adaptive operation minimize NPC.",
+      "assessment": "Opening binaries and capital activation not printed; source/site fixed charges appear unconditional.",
+      "reference_ids": []
+    },
+    {
+      "id": "C18",
+      "pages": [
+        6,
+        9
+      ],
+      "claim": "Capture and source operating hours are modeled consistently.",
+      "assessment": "y 0–1 does not explicitly impose stated 8000 hours; native mapping needed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C19",
+      "pages": [
+        6,
+        9
+      ],
+      "claim": "Costs include capital, fixed/variable operation, salvage and time-limited credits.",
+      "assessment": "Pipe variable term needs length mapping; salvage dt and revenue time indices remain open.",
+      "reference_ids": [
+        "R61",
+        "R62",
+        "R63",
+        "R64",
+        "R65"
+      ]
+    },
+    {
+      "id": "C20",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Annual conservation and capacities establish feasible service.",
+      "assessment": "They establish schematic rate feasibility only, not pressure, cumulative resource, outage or retention feasibility.",
+      "reference_ids": []
+    },
+    {
+      "id": "C21",
+      "pages": [
+        7,
+        10,
+        14
+      ],
+      "claim": "Gamma controls conservatism and how many assets deteriorate.",
+      "assessment": "Only fraction of each coefficient deviation is displayed; component-count interpretation is unsupported by 10–11.",
+      "reference_ids": []
+    },
+    {
+      "id": "C22",
+      "pages": [
+        7,
+        12
+      ],
+      "claim": "Two-stage CVaR adapts operation under five derating scenarios.",
+      "assessment": "Whole scenario is known to annual recourse; no chronological learning or validated joint probabilities.",
+      "reference_ids": []
+    },
+    {
+      "id": "C23",
+      "pages": [
+        7,
+        12,
+        15
+      ],
+      "claim": "CVaR95 measures rare severe delivery loss.",
+      "assessment": "With five equal 20%atoms it is the maximum annual scenario loss; not an empirical 5%frequency or the worst 5%years.",
+      "reference_ids": []
+    },
+    {
+      "id": "C24",
+      "pages": [
+        7,
+        15
+      ],
+      "claim": "Discounted annual CVaR summarizes horizon risk.",
+      "assessment": "Sum of annual tails is not generally CVaR of aggregate PV; discounted tonnes differ from physical cumulative tonnes.",
+      "reference_ids": []
+    },
+    {
+      "id": "C25",
+      "pages": [
+        7,
+        13
+      ],
+      "claim": "Raising lambda improves cost-risk performance.",
+      "assessment": "Conditional global scalarization result concerns expected cost and penalized risk, not all means/counts/lengths.",
+      "reference_ids": []
+    },
+    {
+      "id": "C26",
+      "pages": [
+        8
+      ],
+      "claim": "Sources represent cement, steel, coal and ammonia supply chains.",
+      "assessment": "Production sizes assumed; coal units/time conversion and industrial-to-building allocation need qualification.",
+      "reference_ids": [
+        "R68",
+        "R69",
+        "R70",
+        "R71"
+      ]
+    },
+    {
+      "id": "C27",
+      "pages": [
+        8
+      ],
+      "claim": "Source costs are midpoints from Wu 2025.",
+      "assessment": "Original interval/units/price-year mapping is not verified; normalized costs and available annual capture need exact lineage.",
+      "reference_ids": [
+        "R32"
+      ]
+    },
+    {
+      "id": "C28",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Ninety percent capture and five percent salvage are representative.",
+      "assessment": "Source salvage arithmetic matches; broad capture applicability remains cited rather than validated.",
+      "reference_ids": [
+        "R34",
+        "R61",
+        "R66"
+      ]
+    },
+    {
+      "id": "C29",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Sink costs derive through Wu from De Simone/Krevor.",
+      "assessment": "Printed R41 is a pressure-superposition paper; exact cost attribution and dependency chain unresolved.",
+      "reference_ids": [
+        "R32",
+        "R41"
+      ]
+    },
+    {
+      "id": "C30",
+      "pages": [
+        9
+      ],
+      "claim": "Each well has fixed annual injectivity and 2.5%-capital fixed OPEX.",
+      "assessment": "Fixed-cost arithmetic matches rounding; injectivity has no pressure/interference/resource/time calibration.",
+      "reference_ids": []
+    },
+    {
+      "id": "C31",
+      "pages": [
+        9
+      ],
+      "claim": "Straight-line distances preserve useful route ordering.",
+      "assessment": "They are assumed input lengths; terrain/rights-of-way can alter ordering and are not bounded.",
+      "reference_ids": []
+    },
+    {
+      "id": "C32",
+      "pages": [
+        9
+      ],
+      "claim": "Pipeline coefficients and capacity are representative.",
+      "assessment": "Five Mt/year and constant per-km costs are stipulated; no hydraulics, compressor or capture-to-ship utilities.",
+      "reference_ids": []
+    },
+    {
+      "id": "C33",
+      "pages": [
+        9
+      ],
+      "claim": "20 years/10% and 45 Q85 USD/t for 12 years define economics.",
+      "assessment": "Exact IEAGHG/CRS support and eligibility are unverified; policy value not a new real-region forecast.",
+      "reference_ids": [
+        "R64",
+        "R65"
+      ]
+    },
+    {
+      "id": "C34",
+      "pages": [
+        9
+      ],
+      "claim": "8000 operatinghours and 90%capturable target are standard.",
+      "assessment": "Capture, target, availability and gross emissions are separate; target equals 81%gross under stated efficiencies.",
+      "reference_ids": [
+        "R66",
+        "R67"
+      ]
+    },
+    {
+      "id": "C35",
+      "pages": [
+        10
+      ],
+      "claim": "Baseline captures/stores about 822 Mt from 1011 Mt with 117 wells/~911 km.",
+      "assessment": "Rounded replay gives 822.46/1011.12 Mt,117 wells,911.44 pipe-km, not an independently solved design.",
+      "reference_ids": []
+    },
+    {
+      "id": "C36",
+      "pages": [
+        10
+      ],
+      "claim": "R1 stores 491 Mt with 65 wells,R2 stores 331 Mt with 52 wells.",
+      "assessment": "Displayed masses fit constant nominal cumulative well bounds; this does not reconstruct annual targets/pressures. Every displayed R1 distance exceeds the corresponding R2 distance; the prose transport-distance advantage needs qualification without overturning the reported allocation.",
+      "reference_ids": []
+    },
+    {
+      "id": "C37",
+      "pages": [
+        10
+      ],
+      "claim": "S2/S3 contribute roughly two-thirds of storage.",
+      "assessment": "Captured outgoing labels sum 552.49/822.46 Mt, about 67.2%; gross source boxes are not captured flow.",
+      "reference_ids": []
+    },
+    {
+      "id": "C38",
+      "pages": [
+        10
+      ],
+      "claim": "Some flows drop after year 12 because credit expires.",
+      "assessment": "Case narrative supplies the time profile, but Eq 1's unindexed revenue does not display it; exact annual arrays missing.",
+      "reference_ids": []
+    },
+    {
+      "id": "C39",
+      "pages": [
+        10,
+        14,
+        17
+      ],
+      "claim": "Pipeline-only/well-only/joint hedges cost approximately 18/52/72%more.",
+      "assessment": "Rounded endpoints are compatible with claims; exact objective and sweep arrays unavailable.",
+      "reference_ids": []
+    },
+    {
+      "id": "C40",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Injectivity dominates cost sensitivity in this case.",
+      "assessment": "Conditional on assumed costs/geometry; no global geographic ranking or empirical risk prediction.",
+      "reference_ids": []
+    },
+    {
+      "id": "C41",
+      "pages": [
+        11
+      ],
+      "claim": "NPC contours are approximately additive with integer ridges.",
+      "assessment": "Visual interpretation only; no exact additivity or numerical convergence evidence.",
+      "reference_ids": []
+    },
+    {
+      "id": "C42",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Well and pipeline requirements increase in staircase patterns.",
+      "assessment": "Overall trends read, with local dips and connected curves; counts/length need not be globally monotone.",
+      "reference_ids": []
+    },
+    {
+      "id": "C43",
+      "pages": [
+        12,
+        13
+      ],
+      "claim": "CVaR frontier reduces risk from~194 to~60–70 Mt while cost rises.",
+      "assessment": "Approximate graphical outputs only; native losses, optimizer and full lambda grid not available.",
+      "reference_ids": []
+    },
+    {
+      "id": "C44",
+      "pages": [
+        12,
+        13
+      ],
+      "claim": "Mean shortfall falls from 23–25 to~15 Mt/year.",
+      "assessment": "High-lambda mean remains~36.6%of target; not small/infrequent physical failure or a certified reliability target.",
+      "reference_ids": []
+    },
+    {
+      "id": "C45",
+      "pages": [
+        13
+      ],
+      "claim": "Wells rise to~186 and installed pipe to~1636 km.",
+      "assessment": "Reported design trend, not independently reproduced optimal integer solutions.",
+      "reference_ids": []
+    },
+    {
+      "id": "C46",
+      "pages": [
+        14
+      ],
+      "claim": "Discrete capacity additions explain design breakpoints.",
+      "assessment": "Plausible structural mechanism, but individual component monotonicity and all graph details require raw runs.",
+      "reference_ids": []
+    },
+    {
+      "id": "C47",
+      "pages": [
+        14,
+        15
+      ],
+      "claim": "Nominal planning understates delivery risk for net-zero buildings.",
+      "assessment": "Modeled scenario comparison does not verify actual abatement or a failure probability.",
+      "reference_ids": []
+    },
+    {
+      "id": "C48",
+      "pages": [
+        14,
+        15,
+        16
+      ],
+      "claim": "Prioritize storage de-risking before transport under representative conditions.",
+      "assessment": "Case-dependent planning interpretation; long routes/terrain can reverse ranking as authors acknowledge.",
+      "reference_ids": []
+    },
+    {
+      "id": "C49",
+      "pages": [
+        15
+      ],
+      "claim": "Halving discounted risk from 200 to 100 Mt costs 52%more.",
+      "assessment": "Approximate graph comparison plausible; exact costs at those risk levels and interpolation unverified.",
+      "reference_ids": []
+    },
+    {
+      "id": "C50",
+      "pages": [
+        15,
+        16
+      ],
+      "claim": "CVaR can support enforceable reliability policies and credit governance.",
+      "assessment": "Requires calibrated probabilities, annual/cumulative obligations and full scope; model itself has a penalty, not an implemented regulatory ceiling.",
+      "reference_ids": []
+    },
+    {
+      "id": "C51",
+      "pages": [
+        16
+      ],
+      "claim": "Credit level/duration changes design and use.",
+      "assessment": "Qualitative alternatives discussed; no retrieved sensitivity arrays or eligibility verification.",
+      "reference_ids": []
+    },
+    {
+      "id": "C52",
+      "pages": [
+        16
+      ],
+      "claim": "Spatial demand and transport conditions alter binding constraints.",
+      "assessment": "Qualitative regional/demand discussion; no actual building trajectory or geography calibration.",
+      "reference_ids": []
+    },
+    {
+      "id": "C53",
+      "pages": [
+        16,
+        17
+      ],
+      "claim": "Pressure, learning, correlation, phased build and quality can improve realism.",
+      "assessment": "Explicit future extensions, not implemented capabilities or native reproductions.",
+      "reference_ids": []
+    },
+    {
+      "id": "C54",
+      "pages": [
+        16,
+        17
+      ],
+      "claim": "Decomposition/screening can enable large-scale planning.",
+      "assessment": "Proposed methods without national benchmark instances, timings, bounds or exact code here.",
+      "reference_ids": []
+    },
+    {
+      "id": "C55",
+      "pages": [
+        17
+      ],
+      "claim": "Conclusions support delivery-assured CCUS pathways.",
+      "assessment": "Maintain synthetic, soft-target, physical and lifecycle qualifiers; no annual pressure service or full utility data accepted.",
+      "reference_ids": []
+    },
+    {
+      "id": "C56",
+      "pages": [
+        17
+      ],
+      "claim": "Data can be made available on request.",
+      "assessment": "No request sent and no native assets obtained; absence of local supplement does not prove online absence.",
+      "reference_ids": []
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        17
+      ],
+      "citation": "Intergovernmental Panel on Climate Change (IPCC), Synthesis Report of the IPCC Sixth Assessment Report (AR6): Headline Statements. 2023, Intergovernmental Panel on Climate Change: Geneva, Switzerland.",
+      "role": "Climate context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        17
+      ],
+      "citation": "International Energy Agency, Iron and Steel Technology Roadmap. 2020, International Energy Agency (IEA): Paris, France.",
+      "role": "Steel roadmap",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        17
+      ],
+      "citation": "United Nations Economic Commission for Europe. COP27: UN Report Shows Pathways to Carbon Neutrality for Energy-Intensive Steel Industry. 2022 10 October 2025]; Available from: https://unece.org/climate-change/press/cop27- un-report-shows-pathways-carbon-neutrality-energy-intensive-steel.",
+      "role": "Steel decarbonization pathway",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        17
+      ],
+      "citation": "International Energy Agency, The Role of CCUS in Low-Carbon Power Systems. 2020, International Energy Agency (IEA): Paris, France.",
+      "role": "Low-carbon power CCUS",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        17
+      ],
+      "citation": "Sapkota, S., J. Park, and J.-K. Choi, Forecasting of energy and emissions for the cement sector: a comprehensive review and scenario-based assessment. Resources, Environment and Sustainability, 2026. 23.",
+      "role": "Cement energy/emission forecasts",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        17
+      ],
+      "citation": "M. Bui, C.S. Adjiman, A. Bardow, E.J. Anthony, A. Boston, S. Brown, P.S. Fennell, S. Fuss, A. Galindo, L.A. Hackett, J.P. Hallett, H.J. Herzog, G. Jackson, J. Kemper, S. Krevor, G.C. Maitland, M. Matuszewski, I.S. Metcalfe, C. Petit, G. Puxty, J. Reimer, D.M. Reiner, E.S. Rubin, S.A. Scott, N. Shah, B. Smit, J.P.M. Trusler, P. Webley, J. Wilcox, N. Mac Dowell, Carbon capture and storage (CCS): the way forward, Energ. Environ. Sci. 11 (5) (2018) 1062–1176.",
+      "role": "CCS overview",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        17
+      ],
+      "citation": "L. Sun, W. Chen, Development and application of a multi-stage CCUS source–sink matching model, Appl. Energy 185 (2017) 1424–1432.",
+      "role": "Multi-stage network context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        18
+      ],
+      "citation": "J.-K. Choi, V. Fthenakis, Crystalline silicon photovoltaic recycling planning: macro and micro perspectives, J. Clean. Prod. 66 (2014) 443–449.",
+      "role": "Printed PV recycling context alongside network claim",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        18
+      ],
+      "citation": "S.K. Mahjour, S.A. Faroughi, Risks and uncertainties in carbon capture, transport, and storage projects: a comprehensive review, Gas Sci. Eng. 119 (2023).",
+      "role": "CCS risk review",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        18
+      ],
+      "citation": "S. McCoy, E. Rubin, An engineering-economic model of pipeline transport of CO2 with application to carbon capture and storage, Int. J. Greenhouse Gas Control 2 (2) (2008) 219–229.",
+      "role": "Pipeline engineering-economic context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        18
+      ],
+      "citation": "Z. Wang, G.A. Fimbres Weihs, P.R. Neal, D.E. Wiley, Effects of pipeline distance, injectivity and capacity on CO 2 pipeline and storage site selection, Int. J. Greenhouse Gas Control 51 (2016) 95–105.",
+      "role": "Distance/injectivity/capacity coupling",
+      "verification_status": "primary_text_checked_scoped",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        18
+      ],
+      "citation": "R.R. Tan, K.B. Aviso, S. Bandyopadhyay, D.K.S. Ng, Continuous-Time Optimization Model for Source–Sink Matching in Carbon Capture and Storage Systems, Ind. Eng. Chem. Res. 51 (30) (2012) 10015–10020.",
+      "role": "Continuous-time matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02",
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        18
+      ],
+      "citation": "R.S. Middleton, S.P. Yaw, B.A. Hoover, K.M. Ellett, SimCCS: an open-source tool for optimizing CO2 capture, transport, and storage infrastructure, Environ. Model. Software 124 (2020).",
+      "role": "Later SimCCS tool context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C02",
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        18
+      ],
+      "citation": "U.S. Environmental Protection Agency (EPA). Greenhouse Gas Reporting Program (GHGRP). 2025 12/3/2025]; Available from: https://www.epa.gov/ghgreporting.",
+      "role": "EPA future public emissions data",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        18
+      ],
+      "citation": "U.S. Energy Information Administration (EIA). Electricity data. 2025 12/3/2025]; Available from: https://www.eia.gov/electricity/data.php.",
+      "role": "EIA future electricity data",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        18
+      ],
+      "citation": "National Energy Technology Laboratory (NETL), Carbon Storage Atlas (Atlas V), U. S. Department of Energy, Editor. 2015, National Energy Technology Laboratory: Pittsburgh, PA, USA.",
+      "role": "NETL future storage data",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        18
+      ],
+      "citation": "World Green Building Council. What is a net zero carbon building? 2/9/2026]; Available from: https://worldgbc.org/climate-action/what-is-a-net-zero-carbon- building/.",
+      "role": "Net-zero building definition",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        18
+      ],
+      "citation": "S. Shrestha, S. Sapkota, M. Kong, J. Choi, T. Hong, J.-K. Choi, A multi-agent deep deterministic policy gradient method with hybrid action space for energy-efficient HVAC control, Build. Environ. 290 (2026).",
+      "role": "Building HVAC control",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        18
+      ],
+      "citation": "Global Alliance for Buildings Construction and United Nations Environment Programme, Global Status Report for Buildings and Construction - Beyond foundations: Mainstreaming sustainable solutions to cut emissions from the buildings sector. 2024.",
+      "role": "Building sector status",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        18
+      ],
+      "citation": "G. Kattel, A. Paudel, G. He, J.-K. Choi, Bridging the industrial carbon divide: a techno-economic framework for carbon capture pathways in the cement sector of emerging economies, J. Clean. Prod. 538 (2026).",
+      "role": "Cement capture economics",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        18
+      ],
+      "citation": "International Energy Agency (IEA). CO2 transport and storage. Carbon Capture Utilisation and Storage 2024 25 April 2024 2/9/2026]; Available from: https:// www.iea.org/energy-system/carbon-capture-utilisation-and-storage/co2- transport-and-storage#overview.",
+      "role": "Transport/storage status",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        18
+      ],
+      "citation": "K. Lin, N. Wei, D. Jiang, Y. Zhang, Progress and perspectives in source-sink matching for CCUS: a critical review, Renew. Sustain. Energy Rev. 226 (2026).",
+      "role": "Source-sink review",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        18
+      ],
+      "citation": "Choi, J.-K. and K. Ramani, A quest for sustainable product design: a systematic methodology for integrated assessment of environmentally benign and economically feasible product design. 2009: VDM Publishing.",
+      "role": "Printed product-design reference in MILP attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        18
+      ],
+      "citation": "Fthenakis, V., Z. Zhang, and J.-K. Choi. Cost optimization of decommissioning and recycling cdte pv power plants. in 2017 IEEE 44th Photovoltaic Specialist Conference (PVSC). 2017. IEEE.",
+      "role": "Printed PV decommissioning reference in MILP attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        18
+      ],
+      "citation": "A. Paudel, J.-K. Choi, Techno-economic pathway for green hydrogen adoption in thermal applications across US small and medium manufacturing sectors, Int. J. Hydrogen Energy 98 (2025) 295–307.",
+      "role": "Printed green-hydrogen heat reference in MILP attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        18
+      ],
+      "citation": "S. Sapkota, A. Paudel, W. Choi, I. Ko, J.-K. Choi, A pathway to decarbonizing cement manufacturing via solar-driven green hydrogen systems, Int. J. Hydrogen Energy 194 (2025) 152508.",
+      "role": "Printed green-hydrogen cement reference in MILP attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        18
+      ],
+      "citation": "Zhang, X., K. Li, N. Wei, Z. Li, and J.-L. Fan, Advances, challenges, and perspectives for CCUS source-sink matching models under carbon neutrality target. Carbon Neutrality, 2022. 1(1).",
+      "role": "Network model review",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        18
+      ],
+      "citation": "R.R. Tan, K.B. Aviso, S. Bandyopadhyay, D.K.S. Ng, Optimal source–sink matching in carbon capture and storage systems with time, injection rate, and capacity constraints, Environ. Prog. Sustain. Energy 32 (2) (2012) 411–416.",
+      "role": "Time/rate/capacity matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        18
+      ],
+      "citation": "Gu, C.s., C.k. Zhu, X. Gong, S. Xu, Q.q. Zhang, L. Cui, Y. Lu, and M. Wang, A Novel Source–Sink Matching Optimization Model for Carbon Capture and Storage. Geological Journal, 2025. 60(8): p. 1840–1851.",
+      "role": "Genetic source-sink matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        18
+      ],
+      "citation": "Q. Wu, Q. Lin, Q. Yang, Y. Li, An optimization-based CCUS source-sink matching model for dynamic planning of CCUS clusters, Greenhouse Gases Sci. Technol. 12 (4) (2022) 433–453.",
+      "role": "Dynamic cluster planning",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        18
+      ],
+      "citation": "Y.-J. He, Y. Zhang, Z.-F. Ma, N.V. Sahinidis, R.R. Tan, D.C.Y. Foo, Optimal Source–Sink Matching in Carbon Capture and Storage Systems under uncertainty, Ind. Eng. Chem. Res. 53 (2) (2013) 778–785.",
+      "role": "Interval/stochastic matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        18
+      ],
+      "citation": "Wu, Q., Y. Li, Q. Lin, Z. Xue, and R. Lin, Development of an Inexact Dynamic Source–Sink Matching Optimization Model for CCUS Cluster System Planning Under Uncertainty. Greenhouse Gases: Science and Technology, 2025.",
+      "role": "Inexact dynamic matching and cost parameter lineage",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08",
+        "C27",
+        "C29"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        18
+      ],
+      "citation": "D. Olson, S. Yaw, Planning Amidst uncertainty: Identifying Core CCS Infrastructure Robust to Storage uncertainty, Energies 18 (4) (2025).",
+      "role": "Core infrastructure under storage scenarios",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C08"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        18
+      ],
+      "citation": "Holloway, S.K., Anhar; Akai, Makoto; Pipatti, Riitta; Rypdal, Kristin, Carbon Dioxide Transport, Injection and Geological Storage, in 2006 IPCC Guidelines for National Greenhouse Gas Inventories, I.P.o.C.C. (IPCC), Editor. 2006, Institute for Global Environmental Strategies (IGES): Hayama, Kanagawa, Japan. p. 5.1–5.31.",
+      "role": "IPCC transport/injection/inventory and capture assumptions",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09",
+        "C28"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        18
+      ],
+      "citation": "IEAGHG, Injection Strategies for CO 2 Storage Sites. 2010: Cheltenham, UK.",
+      "role": "Injection strategies",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        18
+      ],
+      "citation": "R. Chadwick, R. Arts, C. Bernstone, F. May, S. Thibeau, P. Zweigel, Best practice for the storage of CO2 in saline aquifers - observations and guidelines from the SACS and CO2STORE projects, British Geological Survey Occasional Publication 14 (2008) 1–267.",
+      "role": "Saline storage practice",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        18
+      ],
+      "citation": "K.J. Khudaida, D.B. Das, A numerical study of capillary pressure–saturation relationship for supercritical carbon dioxide (CO2) injection in deep saline aquifer, Chem. Eng. Res. Des. 92 (12) (2014) 3017–3030.",
+      "role": "Capillary pressure/saturation",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        18
+      ],
+      "citation": "J. Leng, A. Bump, S.A. Hosseini, T.A. Meckel, Z. Wang, H. Wang, A comprehensive review of efficient capacity estimation for large-scale CO2 geological storage, Gas Sci. Eng. 126 (2024).",
+      "role": "Capacity estimation",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        18
+      ],
+      "citation": "S. Mishra, P. Ravi Ganesh, M. Valluri, C. Jenkins, Practical Approaches for estimating CO2 Injectivity Index in Saline Aquifers and applications in De-Risking CCS Projects, SSRN Electron. J. (2024).",
+      "role": "Injectivity index",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        18
+      ],
+      "citation": "A. Tadjer, R.B. Bratvold, Managing uncertainty in Geological CO2 Storage using Bayesian Evidential Learning, Energies 14 (6) (2021).",
+      "role": "Bayesian storage learning",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        18
+      ],
+      "citation": "S. De Simone, S.J. Jackson, S. Krevor, The Error in using Superposition to Estimate pressure during Multisite Subsurface CO2Storage, Geophys. Res. Lett. 46 (12) (2019) 6525–6533.",
+      "role": "Pressure-superposition error and disputed cost lineage",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C09",
+        "C29"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        18
+      ],
+      "citation": "IEAGHG, Impact of CO2 Impurity on CO2 Compression, Liquefaction and Transportation. 2016, IEA Greenhouse Gas R&D Programme (IEAGHG).",
+      "role": "Impurity/compression/liquefaction/transport",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        18
+      ],
+      "citation": "S.P. Peletiri, N. Rahmanian, I.M. Mujtaba, CO2 Pipeline Design: a Review, Energies 11 (9) (2018).",
+      "role": "Pipeline design",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        18
+      ],
+      "citation": "J. Koornneef, M. Spruijt, M. Molag, A. Ramirez, A. Faaij, W. Turkenburg, Uncertainties in risk assessment of CO2 pipelines, Energy Procedia 1 (1) (2009) 1587–1594.",
+      "role": "Pipeline risk uncertainty",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        18
+      ],
+      "citation": "D. Bertsimas, M. Sim, The Price of Robustness, Oper. Res. 52 (1) (2004) 35–53.",
+      "role": "Bertsimas–Sim robustness attribution",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C11"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        18
+      ],
+      "citation": "Q. Tian, D. Zhao, Z. Li, Q. Zhu, Robust and stepwise optimization design for CO 2 pipeline transportation, Int. J. Greenhouse Gas Control 58 (2017) 10–18.",
+      "role": "Robust CO2 pipeline precedent",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        18
+      ],
+      "citation": "D. Aßmann, F. Liers, M. Stingl, Decomposable robust two-stage optimization: an application to gas network operations under uncertainty, Networks 74 (1) (2019) 40–61.",
+      "role": "Gas robust optimization",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        18
+      ],
+      "citation": "X. Zhou, M.E. Efthymiadou, L.G. Papageorgiou, V.M. Charitopoulos, Data-driven robust optimisation of hydrogen infrastructure planning under demand uncertainty using a hybrid decomposition method, Appl. Energy 376 (2024).",
+      "role": "Hydrogen robust planning",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R48"
+    },
+    {
+      "id": "R49",
+      "pages": [
+        18
+      ],
+      "citation": "Jorion, P., Value at risk: a new benchmark for measuring derivatives risk. Irwin Professional Pub, 1996.",
+      "role": "VaR",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R49"
+    },
+    {
+      "id": "R50",
+      "pages": [
+        18
+      ],
+      "citation": "R.T. Rockafellar, S. Uryasev, Optimization of conditional value-at-risk, The Journal of Risk 2 (3) (2000) 21–41.",
+      "role": "CVaR optimization",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R50"
+    },
+    {
+      "id": "R51",
+      "pages": [
+        18
+      ],
+      "citation": "R.T. Rockafellar, S. Uryasev, Conditional value-at-risk for general loss distributions, J. Bank. Financ. 26 (7) (2002) 1443–1471.",
+      "role": "General-distribution CVaR",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R51"
+    },
+    {
+      "id": "R52",
+      "pages": [
+        18
+      ],
+      "citation": "F.D. Munoz, A.H. van der Weijde, B.F. Hobbs, J.-P. Watson, Does risk aversion affect transmission and generation planning? a Western North America case study, Energy Econ. 64 (2017) 213–225.",
+      "role": "Power planning risk",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R52"
+    },
+    {
+      "id": "R53",
+      "pages": [
+        18
+      ],
+      "citation": "J.P.S. Catal˜ao, H.M.I. Pousinho, J. Contreras, Optimal hydro scheduling and offering strategies considering price uncertainty and risk management, Energy 37 (1) (2012) 237–244.",
+      "role": "Hydro risk scheduling",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R53"
+    },
+    {
+      "id": "R54",
+      "pages": [
+        18
+      ],
+      "citation": "Li, K., S. Shen, J.-L. Fan, M. Xu, and X. Zhang, The role of carbon capture, utilization and storage in realizing China's carbon neutrality: A source-sink matching analysis for existing coal-fired power plants. Resources, Conservation and Recycling, 2022. 178.",
+      "role": "China power matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R54"
+    },
+    {
+      "id": "R55",
+      "pages": [
+        18
+      ],
+      "citation": "L. Sun, W. Chen, Impact of carbon tax on CCUS source-sink matching: finding from the improved ChinaCCS DSS, J. Clean. Prod. 333 (2022).",
+      "role": "China tax matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R55"
+    },
+    {
+      "id": "R56",
+      "pages": [
+        18
+      ],
+      "citation": "S. Nie, G. Cai, J. He, S. Wang, R. Bai, X. Chen, W. Wang, Z. Zhou, Economic costs and environmental benefits of deploying CCUS supply chains at scale: Insights from the source–sink matching LCA–MILP approach, Fuel 344 (2023).",
+      "role": "China LCA–MILP supply chains",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R56"
+    },
+    {
+      "id": "R57",
+      "pages": [
+        18
+      ],
+      "citation": "L. Sun, Q. Liu, H. Chen, H. Yu, L. Li, L. Li, Y. Li, C.D. Adenutsi, Source-sink matching and cost analysis of offshore carbon capture, utilization, and storage in China, Energy 291 (2024).",
+      "role": "China offshore matching",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R57"
+    },
+    {
+      "id": "R58",
+      "pages": [
+        18
+      ],
+      "citation": "R.S. Middleton, J.M. Bielicki, A scalable infrastructure model for carbon capture and storage: SimCCS, Energy Policy 37 (3) (2009) 1052–1060.",
+      "role": "Original integrated discrete SimCCS and present-value economics",
+      "verification_status": "primary_text_checked_scoped",
+      "claim_links": [
+        "C02",
+        "C06",
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R58"
+    },
+    {
+      "id": "R59",
+      "pages": [
+        18
+      ],
+      "citation": "Zero Emissions Platform (ZEP), The costs of CO2 transport: Post-demonstration CCS in the EU. 2011, European Technology Platform for Zero Emission Fossil Fuel Power Plants: Brussels, Belgium.",
+      "role": "European transport costs",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R59"
+    },
+    {
+      "id": "R60",
+      "pages": [
+        18
+      ],
+      "citation": "Tumara, D., A. Uihlein, and I. Hidalgo Gonzalez, Shaping the future CO2 transport network for Europe, in EUR 31835 EN. 2024, Publications Office of the European Union: Luxembourg.",
+      "role": "European network policy",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C14"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R60"
+    },
+    {
+      "id": "R61",
+      "pages": [
+        18
+      ],
+      "citation": "Peters, M.S.T., Klaus D.; West, Ronald E., Plant Design and Economics for Chemical Engineers. 5th ed. McGraw-Hill Chemical Engineering Series. 2003, New York: McGraw-Hill Education.",
+      "role": "Plant salvage assumption",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19",
+        "C28"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R61"
+    },
+    {
+      "id": "R62",
+      "pages": [
+        18
+      ],
+      "citation": "IEA Greenhouse Gas R&D Programme (IEAGHG), Long Term Integrity of CO 2 Storage – Well Abandonment. 2009, IEA Greenhouse Gas R&D Programme (IEAGHG): Cheltenham, United Kingdom.",
+      "role": "Well abandonment",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R62"
+    },
+    {
+      "id": "R63",
+      "pages": [
+        18
+      ],
+      "citation": "ICF International; TSB Offshore, Decommissioning Methodology and Cost Evaluation. 2015, U.S. Department of the Interior, Bureau of Safety and Environmental Enforcement (BSEE): Sterling, Virginia, USA.",
+      "role": "Pipeline decommissioning",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R63"
+    },
+    {
+      "id": "R64",
+      "pages": [
+        18
+      ],
+      "citation": "International Energy Agency Greenhouse Gas R&D Programme (IEAGHG), Techno- Economic Assessment of Electrochemical CO 2 Conversion Technologies, I.T.R. 2023-03, Editor. 2023, IEA Greenhouse Gas R&D Programme (IEAGHG): Cheltenham, UK.",
+      "role": "20 year/10% economic assumption support",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19",
+        "C33"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R64"
+    },
+    {
+      "id": "R65",
+      "pages": [
+        18
+      ],
+      "citation": "Jones, A.C.M., Donald J., The Section 45Q Tax Credit for Carbon Sequestration, in CRS In Focus Report IF11455 (Version 4, Updated). 2023, Congressional Research Service, Library of Congress: Washington, D.C., USA.",
+      "role": "45 Q value/duration",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C19",
+        "C33"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R65"
+    },
+    {
+      "id": "R66",
+      "pages": [
+        18
+      ],
+      "citation": "P. Brandl, M. Bui, J.P. Hallett, N. Mac Dowell, Beyond 90% capture: possible, but at what cost? Int. J. Greenhouse Gas Control 105 (2021).",
+      "role": "Capture efficiency/target assumptions",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C28",
+        "C34"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R66"
+    },
+    {
+      "id": "R67",
+      "pages": [
+        18
+      ],
+      "citation": "G. Moumin, M. Ryssel, L. Zhao, P. Markewitz, C. Sattler, M. Robinius, D. Stolten, CO2 emission reduction in the cement industry by using a solar calciner, Renew. Energy 145 (2020) 1578–1596.",
+      "role": "Cement 8000 hour operation",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C34"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R67"
+    },
+    {
+      "id": "R68",
+      "pages": [
+        19
+      ],
+      "citation": "International Energy Agency (IEA). Cement – Tracking Industry Progress. 2023 July 11, 2023 [cited 2025 October 26]; Available from: https://www.iea.org/ energy-system/industry/cement.",
+      "role": "Cement emission factor",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R68"
+    },
+    {
+      "id": "R69",
+      "pages": [
+        19
+      ],
+      "citation": "World Steel Association, Sustainability Indicators 2024: Sustainability Performance of the Steel Industry 2003-2023. 2024, World Steel Association: Brussels.",
+      "role": "Steel emission factor",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R69"
+    },
+    {
+      "id": "R70",
+      "pages": [
+        19
+      ],
+      "citation": "U.S. Energy Information Administration. U.S. utility-scale net electricity generation and resulting CO2 emissions by fuel in 2023. 2024 December 11, 2024 [cited 2025 October 26]; Available from: https://www.eia.gov/tools/faqs/faq.php? id=74&t=11.",
+      "role": "Power emission factor",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R70"
+    },
+    {
+      "id": "R71",
+      "pages": [
+        19
+      ],
+      "citation": "International Energy Agency (IEA), Ammonia Technology Roadmap: Towards More Sustainable Nitrogen Fertiliser Production. 2021, International Energy Agency: Paris.",
+      "role": "Ammonia emission factor",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C26"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-09_bibliography.json#R71"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Native MILP implementation and solver cases",
+      "role": "Exact Equation 1/10–17 implementation, asset activation and domains.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Cost interval/normalization/price-year arrays",
+      "role": "Wu 2025 midpoint lineage and DeSimone attribution, economic units and confidence terminology.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Native coordinates and allowed arc file",
+      "role": "Synthetic geometry, route ordering and corridor versus parallel length.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Scenario generation and calibration",
+      "role": "Five assumed common-factor states, correlations and probabilities are not empirical distributions.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Exact frontier and robustness grids",
+      "role": "Prose/plot lambda ranges, exact objective/count/length arrays and threshold outputs.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Solver/version/gap/optimality evidence",
+      "role": "No exact native release, tolerances, logs or performance benchmark supplied.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Annual scenario flow and shortfall arrays",
+      "role": "Verify target attainment, post 12 credit operation and exact gap values.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Source potential/availability conversion",
+      "role": "MW/lb/kWh, actual annual supply and 8000 hour bound implementation.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Time-dependent credit eligibility and salvage rules",
+      "role": "Verify indexed 85 USD/t 12 year schedule and source/site/salvage activation.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Formation pressure/resource/well-interference model",
+      "role": "Needed for physical service; deliberately abstracted by constant injectivity.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D11",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Complete matched utility and supplier inventory",
+      "role": "Heat/electricity/compression/liquefaction/cooling and actual emissions factors not provided.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D12",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        16,
+        17
+      ],
+      "citation": "Required native dependency: Building allocation, full LCA and retention model",
+      "role": "No building demand trajectory, carbon-fate inventory, counterfactual or postclosure mass balance.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        3,
+        4,
+        7,
+        10,
+        14
+      ],
+      "status": "HOLD_GAMMA_BUDGET_INTERPRETATION",
+      "finding": "Equations 10–11 apply independent fractional derates to every coefficient; no shared cardinality/sum uncertainty budget controls how many components degrade. Separate variants do not establish one joint Gamma–CVaR model.",
+      "action": "Retain literal rows and stated 0–1 shrinkage definition; verify R45 and native formulation before count-budget or joint-hybrid claims."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        7,
+        12,
+        15
+      ],
+      "status": "HOLD_FINITE_CVAR_TIME_SCOPE",
+      "finding": "Five equal 20%atoms at alpha.95 yield maximum annual scenario loss. Worst 5%years language conflicts with the distribution and later qualification. Sum annual discounted tails differs generally from horizon CVaR.",
+      "action": "Keep scenario/annual/PV definitions and conditional analyst example separate; require loss arrays and calibrated joint distribution before observed-frequency/compliance interpretation."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "HOLD_OBJECTIVE_UNITS_ASSETS_TIME",
+      "finding": "Pipe variable cost lacks explicit length inEq 1 despiteUSD/t/km data; credit time index, salvage endpoint, source/site activation, zero domains and 8000 hour y mapping are unprovided.",
+      "action": "Preserve printed objective and required mappings; do not silently repair or declare native-code defects. Coal 8760 hour potential is rounding-compatible, not a proved unit error."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        7,
+        9,
+        12,
+        13,
+        15
+      ],
+      "status": "SOFT_TARGET_NOT_DELIVERY_GUARANTEE",
+      "finding": "CVaR has a finite penalty rather than the robust model's hard target. High-lambda mean~15 Mt/year is~36.6%of target; economic postcredit underoperation differs from physical failure.",
+      "action": "Require annual shortfall arrays, explicit criteria and temporal policy before reliability or carbon-budget claims. Do not interpret mean loss fraction as probability."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        2,
+        6,
+        8,
+        9,
+        14,
+        16
+      ],
+      "status": "SYNTHETIC_PARAMETER_PROVENANCE",
+      "finding": "Assumed production, straight-line geometry, midpoint costs,40%derates and equal common factors are not formation/region measurements. Cost interval confidence language does not calibrate occurrence probabilities.",
+      "action": "Keep all quantities illustrative. Verify source cost/EF assumptions and routing/availability definitions; no regional factors accepted."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        6,
+        7,
+        14,
+        15,
+        16,
+        17
+      ],
+      "status": "PHYSICAL_AND_LIFECYCLE_SCOPE",
+      "finding": "No pressure/BHP, cumulative stock, interference, composition, capture utility, losses, postclosure or complete building LCA model is supplied. Static initial builds do not implement phased deployment or learning.",
+      "action": "Acknowledge explicit omissions and future work. No annual reservoir service, full heat/electricity inventory, retained-carbon or building abatement factor inferred."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        10,
+        11,
+        12,
+        13
+      ],
+      "status": "OUTPUT_ROUNDING_AND_NATIVE_RUNS_OPEN",
+      "finding": "Sankey totals close at printed precision and 911.44 pipe-km reconstructs. Cost percentages are rounding-compatible. Local component dips and differing lambda ranges require exact outputs, not guessed repairs. All six R1 pairwise distances exceed R2, so the prose distance advantage needs qualification.",
+      "action": "Retain successful accounting checks and conditional curve interpretations; obtain raw grids, solver logs and exact annual schedules before native optimization reproduction."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        3,
+        4,
+        8,
+        9,
+        18
+      ],
+      "status": "CITATION_ATTRIBUTION_AND_69_ORIGINALS_OPEN",
+      "finding": "R23–26 printed identities differ from the apparent CCS-MILP claim; R41 pressure-superposition title is used for cost lineage. Two retained original checks qualify integrated-design history;69 other originals remain unverified.",
+      "action": "Verify exact passages/derivations and cost chain. Scoped R11/R58 support does not complete their sources or validate 40%derates, probabilities or native results."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        16,
+        17
+      ],
+      "status": "MISSING_NATIVE_ASSETS_AND_EXTERNAL_STATUS",
+      "finding": "Data-on-request; no embedded assets, appendix or explicit separate supplement/code notice identified. Exact code/data/errata availability and 12 required native dependencies unverified during Chrome wait.",
+      "action": "Continue available local work; retrieve originals/assets only when authorized connection preference is resolved. Do not infer public absence or claim full reproduction."
+    }
+  ],
+  "supplements": "All 19 main pages inspected. No internal appendix, embedded assets or explicit separate publisher supplement/code notice identified. P17 states data available on request. No request sent; exact code/data/SI/errata availability and rights remain unverified during requested Chrome wait. Local absence is not public absence.",
+  "reproduction": "audit_risk_network.py produces 71 limited checks and 11 fractional capacity rows. Source/ribbon/sink/pipe/well, fixed-OPEX/salvage, target/availability, discount and rounded-percentage components are checked. A discrete tail-integral implementation agrees with independent LP evaluations; disclosed analyst fixtures demonstrate five-atom maximum loss and annual-versus-horizon CVaR distinction. These do not reproduce native objective, topology, annual scenarios, optimizer, calibration, pressure, actual utility or LCA. No missing native input is invented.",
+  "paper1_use": "Acknowledge discrete network risk planning as prior work, with separate hard-target coefficient hedges and soft-target annual-CVaR penalties. Keep synthetic/cost/correlation/time/PV limits explicit. No annual pressure-constrained service, empirical probability, complete same-case utility, building LCA or retention factor adopted; accepted numeric inputs unchanged.",
+  "next_steps": "Continue B2-10 locally. Obtain exact code, annual/scenario and sweep outputs, cost/EF provenance, objective/time/domain mapping and calibrated pressure/utility/LCA data before complete reproduction. Verify 69 remaining originals and 12 dependencies; external retrieval remains paused pending requested Chrome connection."
+}

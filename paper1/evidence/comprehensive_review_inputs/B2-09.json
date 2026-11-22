@@ -1,0 +1,333 @@
+{
+  "study_id": "B2-09",
+  "source": {
+    "study_id": "B2-09",
+    "path": "papers/B2-09.pdf",
+    "sha256": "05a904cb3c6323a7a46919d1fbfe39dd7fb10ca10e859cd28c16a718fe1dda90",
+    "doi": "10.1016/j.enbuild.2026.117200"
+  },
+  "cited_sources": [
+    {
+      "study_id": "B2-01",
+      "path": "papers/B2-01.pdf",
+      "sha256": "1d220eda63796508f2197e73ac39e71dc4921939204d9477b274a1d2364177cc",
+      "doi": "10.1016/j.ijggc.2016.05.006"
+    },
+    {
+      "study_id": "B3-44",
+      "path": "papers/B3-44.pdf",
+      "sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+      "doi": "10.1016/j.enpol.2008.09.049"
+    }
+  ],
+  "provenance": "Manually transcribed from all 19 read/rendered pages and nine actually inspected magnifications; native units retained. S5 ribbon magnified as 78.9 Mt, not 78.79. No guessed native model inputs.",
+  "case": {
+    "years": 20,
+    "discount_rate": 0.1,
+    "capture_fraction": 0.9,
+    "target_fraction_capturable": 0.9,
+    "hours_year": 8000,
+    "credit_USD_t": 85,
+    "credit_years": 12,
+    "alpha": 0.95,
+    "scenario_factors": [
+      1,
+      0.9,
+      0.8,
+      0.7,
+      0.6
+    ],
+    "scenario_probabilities": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "relative_deviation": 0.4
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "emissions_Mt_year": 6,
+      "capital_MUSD": 432,
+      "fixed_MUSD_year": 13.095,
+      "variable_USD_t": 53.99,
+      "salvage_MUSD": 21.6,
+      "locator": "p8 Tables1\u20132"
+    },
+    {
+      "id": "S2",
+      "emissions_Mt_year": 15.36,
+      "capital_MUSD": 1105.92,
+      "fixed_MUSD_year": 32.832,
+      "variable_USD_t": 47.155,
+      "salvage_MUSD": 55.296,
+      "locator": "p8 Tables1\u20132"
+    },
+    {
+      "id": "S3",
+      "emissions_Mt_year": 18.396,
+      "capital_MUSD": 1200.339,
+      "fixed_MUSD_year": 35.4307,
+      "variable_USD_t": 54.4,
+      "salvage_MUSD": 60.01695,
+      "locator": "p8 Tables1\u20132"
+    },
+    {
+      "id": "S4",
+      "emissions_Mt_year": 6,
+      "capital_MUSD": 432,
+      "fixed_MUSD_year": 13.095,
+      "variable_USD_t": 53.99,
+      "salvage_MUSD": 21.6,
+      "locator": "p8 Tables1\u20132"
+    },
+    {
+      "id": "S5",
+      "emissions_Mt_year": 4.8,
+      "capital_MUSD": 82.08,
+      "fixed_MUSD_year": 6.6744,
+      "variable_USD_t": 10.045,
+      "salvage_MUSD": 4.104,
+      "locator": "p8 Tables1\u20132"
+    }
+  ],
+  "sinks": [
+    {
+      "id": "R1",
+      "injectivity_Mt_year_well": 0.3798,
+      "construction_MUSD": 29.2635,
+      "capital_MUSD_well": 26.726,
+      "fixed_MUSD_year_well": 0.66815,
+      "variable_USD_t": 2.935,
+      "salvage_MUSD": 0,
+      "locator": "p9 Table3"
+    },
+    {
+      "id": "R2",
+      "injectivity_Mt_year_well": 0.3183,
+      "construction_MUSD": 26.3375,
+      "capital_MUSD_well": 29.3985,
+      "fixed_MUSD_year_well": 0.734963,
+      "variable_USD_t": 2.935,
+      "salvage_MUSD": 0,
+      "locator": "p9 Table3"
+    }
+  ],
+  "arcs": [
+    {
+      "origin": "H1",
+      "destination": "R1",
+      "km": 70.04
+    },
+    {
+      "origin": "H1",
+      "destination": "R2",
+      "km": 40.08
+    },
+    {
+      "origin": "S1",
+      "destination": "H1",
+      "km": 113.5
+    },
+    {
+      "origin": "S1",
+      "destination": "R1",
+      "km": 171.83
+    },
+    {
+      "origin": "S1",
+      "destination": "R2",
+      "km": 122.98
+    },
+    {
+      "origin": "S2",
+      "destination": "H1",
+      "km": 78.46
+    },
+    {
+      "origin": "S2",
+      "destination": "R1",
+      "km": 130.38
+    },
+    {
+      "origin": "S2",
+      "destination": "R2",
+      "km": 98.99
+    },
+    {
+      "origin": "S3",
+      "destination": "H1",
+      "km": 38.16
+    },
+    {
+      "origin": "S3",
+      "destination": "R1",
+      "km": 92.2
+    },
+    {
+      "origin": "S3",
+      "destination": "R2",
+      "km": 67.08
+    },
+    {
+      "origin": "S4",
+      "destination": "H1",
+      "km": 62.5
+    },
+    {
+      "origin": "S4",
+      "destination": "R1",
+      "km": 126.49
+    },
+    {
+      "origin": "S4",
+      "destination": "R2",
+      "km": 72.11
+    },
+    {
+      "origin": "S5",
+      "destination": "H1",
+      "km": 91.69
+    },
+    {
+      "origin": "S5",
+      "destination": "R1",
+      "km": 161.25
+    },
+    {
+      "origin": "S5",
+      "destination": "R2",
+      "km": 80
+    }
+  ],
+  "pipeline": {
+    "capacity_Mt_year_pipe": 5,
+    "capital_MUSD_km": 1.0899,
+    "fixed_MUSD_km_year": 0.02725,
+    "variable_USD_t_km": 0.0475,
+    "salvage_MUSD": 0
+  },
+  "reported_baseline": {
+    "flows": [
+      {
+        "origin": "S1",
+        "destination": "R2",
+        "cumulative_Mt": 92.44,
+        "pipes": 1
+      },
+      {
+        "origin": "S4",
+        "destination": "R2",
+        "cumulative_Mt": 98.63,
+        "pipes": 1
+      },
+      {
+        "origin": "S5",
+        "destination": "R2",
+        "cumulative_Mt": 78.9,
+        "pipes": 1
+      },
+      {
+        "origin": "S2",
+        "destination": "R2",
+        "cumulative_Mt": 61.06,
+        "pipes": 1
+      },
+      {
+        "origin": "S2",
+        "destination": "R1",
+        "cumulative_Mt": 191.43,
+        "pipes": 2
+      },
+      {
+        "origin": "S3",
+        "destination": "R1",
+        "cumulative_Mt": 300,
+        "pipes": 3
+      }
+    ],
+    "sink_Mt": {
+      "R1": 491.43,
+      "R2": 331.03
+    },
+    "wells": {
+      "R1": 65,
+      "R2": 52
+    },
+    "cost_approx_billion_USD": 4.8,
+    "length_approx_pipe_km": 911
+  },
+  "reported_cost_comparisons": [
+    [
+      "pipe",
+      4.8,
+      5.8,
+      18.9
+    ],
+    [
+      "injectivity",
+      4.8,
+      7.3,
+      51.8
+    ],
+    [
+      "joint",
+      4.8,
+      8.3,
+      72
+    ],
+    [
+      "injectivity_vs_pipe",
+      5.8,
+      7.3,
+      27.7
+    ]
+  ],
+  "analyst_fixtures": {
+    "cvar_losses": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "cvar_probabilities": [
+      0.2,
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "crossing_losses_by_year": [
+      [
+        10,
+        0
+      ],
+      [
+        0,
+        10
+      ]
+    ],
+    "crossing_probabilities": [
+      0.5,
+      0.5
+    ],
+    "unit_tonnes": 1,
+    "unit_arc_km": 100,
+    "description": "Analyst mathematical/unit comparisons only, not native losses, routes or operating decisions"
+  },
+  "missing_inputs": {
+    "native_code": null,
+    "solver_version_tolerances_logs": null,
+    "exact_annual_scenario_flows": null,
+    "raw_frontier_and_sweep_grid": null,
+    "coordinate_and_route_data": null,
+    "source_cost_interval_mapping": null,
+    "joint_scenario_calibration": null,
+    "pressure_and_resource_model": null,
+    "complete_same_case_utilities_and_suppliers": null,
+    "lifecycle_and_retention_inventory": null
+  }
+}

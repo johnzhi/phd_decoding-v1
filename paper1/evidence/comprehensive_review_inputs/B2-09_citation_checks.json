@@ -1,0 +1,35 @@
+{
+  "study_id": "B2-09",
+  "source_sha256": "05a904cb3c6323a7a46919d1fbfe39dd7fb10ca10e859cd28c16a718fe1dda90",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R11",
+      "cited_study": "B2-01",
+      "source_sha256": "1d220eda63796508f2197e73ac39e71dc4921939204d9477b274a1d2364177cc",
+      "doi": "10.1016/j.ijggc.2016.05.006",
+      "targeted_pages": [
+        1,
+        2,
+        3
+      ],
+      "inspection": "Selected original text passages reread; earlier detailed records separately document full main-PDF render inspection. No new full-original completion declaration.",
+      "supported": "Distance, injectivity, finite resource and well cost jointly affect pipeline/site economics under static supply.",
+      "unresolved": "Two-sink screening with constant per-well injectivity and static supply; does not calibrate 40%derates, joint probabilities, CVaR or annual pressure service."
+    },
+    {
+      "reference_id": "R58",
+      "cited_study": "B3-44",
+      "source_sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+      "doi": "10.1016/j.enpol.2008.09.049",
+      "targeted_pages": [
+        3,
+        4,
+        5
+      ],
+      "inspection": "Selected original text passages reread; earlier detailed records separately document full main-PDF render inspection. No new full-original completion declaration.",
+      "supported": "Integrated discrete source/pipeline/sink MILP, shared networks and present-value costs predate this study.",
+      "unresolved": "Original explicitly atemporal on 25 year lifetime basis, with artificially reduced pipeline costs. It does not establish dynamic pressure accuracy, stochastic reliability or this synthetic case; whole source/model/citation chain remains incomplete."
+    }
+  ]
+}
