@@ -1,0 +1,13 @@
+{
+  "study_id": "B3-03",
+  "source_sha256": "fca4c4f26547045938bfa703af2b417a269865c7b0cf7874b0f14b08a2297a9a",
+  "limited_percentage_checks": 6,
+  "rounding_compatible": 6,
+  "additional_arithmetic_checks": 3,
+  "conditional_buffer_examples": 4,
+  "conditional_handling_examples": 2,
+  "native_quantitative_model_reported": false,
+  "current_legal_status_verified": false,
+  "original_sources_verified": 0,
+  "limits": "Qualitative legal synthesis and recommendations, not a QRA or current permission. Freight checks do not verify underlying series; density, throughput and handling-event assumptions are illustrative. Generic unpaired pressure/temperature ranges,24h notice and other-gas thresholds are not operational constraints. No native model or cited source chain reproduced; no accepted operating/GHG input changes."
+}

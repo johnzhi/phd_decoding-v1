@@ -454,15 +454,13 @@ Twenty bibliography originals, ten numbered legal/fund notes and twelve further 
 
 ### B3-03 — Critical review and recommendations for strengthening health and safety and major accident prevention regulations for carbon capture and storage in UK ports
 
-. Identifier: 10.1016/j.ijggc.2025.104479. [PDF](../papers/B3-03.pdf).
+Dbouk and five coauthors (2025), IJGGC 147, 104479. DOI: 10.1016/j.ijggc.2025.104479. [PDF](../papers/B3-03.pdf). All 13 retained pages were text-read and inspected as renders; Figure 1 and both tables were enlarged. **Comprehensive status: incomplete.** See the [item record](comprehensive_review/B3-03.md) and [port-safety findings](port_safety_comprehensive_findings.md).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,9,11.
+The authors propose clearer underlying PMSC performance goals, bespoke DGHAR guidance and two separate COMAH changes: address the transport/temporary-storage exclusion and recognize CO2 under a qualifying trigger. Three recognition routes do not automatically remove the independent exclusion. Recommendations and Table 1 equivalence judgments are not verified adopted law, site permission or quantitative safety outcomes.
 
-UK-port regulatory analysis compares the Port Marine Safety Code, dangerous-goods harbour rules and COMAH with CO2 loading/unloading, temporary storage and intermodal transfer. It identifies exclusions/classification issues and evaluates amendment/guidance pathways.
+All 21 substantive table cells, 24 numbered notes, 54 claims and six analyst relations are recorded. Six freight percentage checks are rounding-compatible. Three arithmetic checks, four constant-density buffer examples and two conditional handling examples preserve source/analyst boundaries. Notice lead time is not dwell; generic unpaired temperature/pressure ranges are not an operating envelope; scenario capture/import mass differs from commodity-specific handling or reservoir service.
 
-Table2 maps gaps to recommendations and implementation mechanisms. The authors argue for context-specific hazards rather than assuming nonflammable CO2 poses no major-accident risk; handling quantity, temperature, pressure and phase matter.
-
-Transfer limits: Recommendations are not proof that amendments were adopted or that a particular port is licensed. Generic cryogenic pressure/temperature descriptions are not vessel-specific operability limits, terminal dwell times or release probabilities. No quantitative risk frequency is transferred.
+All 87 bibliography originals, 24 notes and fourteen further dependencies remain unverified. Exact CCSA scenario provenance is unresolved, and an unpublished MCA report explicitly requires lead-author approval. No native quantitative author model or QRA was identified; cited shipping/risk models and possible publisher assets remain open. No new citation edge or accepted numerical input changes; the existing combined 1.5 MPa HOLD is preserved.
 
 ### B3-04 — Development of CCUS clusters in Croatia
 

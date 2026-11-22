@@ -1,0 +1,116 @@
+{
+  "study_id": "B3-03",
+  "source_path": "papers/B3-03.pdf",
+  "source_sha256": "fca4c4f26547045938bfa703af2b417a269865c7b0cf7874b0f14b08a2297a9a",
+  "provenance": "2025 qualitative UK port-safety legal review, not verified current law or a quantitative risk assessment. Native quantities and explicit analyst assumptions kept separate; no inputs transferred to accepted Paper1 model.",
+  "native_freight_Mt": {
+    "UK_total_2023": 425.86,
+    "Southampton_total_2023": 30.62,
+    "UK_liquid_bulk_2023": 169.26,
+    "Southampton_liquid_bulk_2023": 18.25,
+    "UK_liquid_bulk_2022": 180.03,
+    "Southampton_liquid_bulk_2022": 19.89,
+    "UK_liquid_gas_2023": 17.95,
+    "Southampton_liquid_gas_2023": 0.31,
+    "UK_liquid_bulk_Q1_2024": 40.5,
+    "UK_liquid_bulk_2000": 290.55
+  },
+  "reported_percentages": {
+    "Southampton_total_share": 7.2,
+    "Southampton_liquid_bulk_share": 10.8,
+    "UK_liquid_bulk_decline_2022_2023": 5.98,
+    "Southampton_liquid_bulk_decline_2022_2023": 8.25,
+    "UK_liquid_gas_share_of_liquid_bulk": 10.6,
+    "Southampton_liquid_gas_share_of_UK_liquid_gas": 1.73,
+    "UK_liquid_bulk_decline_Q1_2023_2024": 11
+  },
+  "native_scenarios": {
+    "UK_2035_domestic_capture_Mt_per_y": 15,
+    "UK_2035_imports_Mt_per_y": 20,
+    "UK_2035_total_Mt_per_y": 35,
+    "Solent_source_case_Mt_per_y": 5.9,
+    "source_case_ship_volume_m3": [
+      7500,
+      32000
+    ],
+    "source_case_buffer_ship_multipliers": [
+      1,
+      2
+    ]
+  },
+  "native_generic_CO2": {
+    "temperature_C": [
+      -50,
+      -20
+    ],
+    "pressure_bar": [
+      10,
+      25
+    ],
+    "pressure_basis": null,
+    "composition": null,
+    "paired_states": null
+  },
+  "native_incident": {
+    "released_t": 15,
+    "intoxicated_people": 107,
+    "hospitalized_reported": 16,
+    "intensive_care_reported": 1,
+    "ICU_subset_or_additional": null,
+    "event_year": 2008,
+    "source_publication_year_in_bibliography": 2013,
+    "source_access_year": 2024
+  },
+  "native_notice": {
+    "minimum_hours": 24,
+    "maximum_months": 6,
+    "scope": "DGHAR notice for covered entry, with source exceptions. Not actual dwell, berth waiting or compulsory handling delay."
+  },
+  "analyst": {
+    "density_kg_per_m3": 1000,
+    "days_per_year": 365,
+    "report_rounding_halfwidth_Mt": 0.005,
+    "scope": "Constant pure-mass volume conversion and uniform daily throughput are illustrative only; density, filling fraction, weather, residence, actual schedules and port handling conventions are not calibrated."
+  },
+  "source_locators": {
+    "freight": [
+      5
+    ],
+    "2035_scenario": [
+      2
+    ],
+    "generic_states_and_incident": [
+      3
+    ],
+    "buffer_and_Solent_scenario": [
+      6
+    ],
+    "notice": [
+      7
+    ],
+    "COMAH_barriers": [
+      8,
+      9,
+      10,
+      11
+    ],
+    "tables": [
+      10,
+      11
+    ]
+  },
+  "missing_native_inputs": {
+    "quantitative_release_frequency_dispersion_and_exposure": null,
+    "terminal_design_inventory_filling_fraction_actual_density": null,
+    "hourly_vessel_berth_weather_and_storage_schedules": null,
+    "current_legal_text_exceptions_thresholds_territorial_applicability": null,
+    "primary_freight_source_series_and_handling_count_convention": null,
+    "pressure_basis_composition_and_paired_TP_states": null,
+    "native_reservoir_pressure_rate_and_annual_service": null,
+    "complete_capture_to_ship_heat_electricity_cooling_utility_inventory": null
+  },
+  "availability_statement": "No data was used for the research described in the article.",
+  "unavailable_native_dependency": "Maritime and Coastal Agency, Supporting the ports ecosystem in decarbonisation,2023. Unpublished, available upon request with approval from the lead author.",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "licence_link_observed_in_PDF": "http://creativecommons.org/licenses/by/4.0/"
+}

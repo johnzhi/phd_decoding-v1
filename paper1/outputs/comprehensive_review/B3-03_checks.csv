@@ -1,0 +1,4 @@
+item,value,unit,scope
+2035_scenario_components,35,Mt/y,"15 domestic +20 import =35 physical CO2 scenario, not observed freight or annual injection service"
+scenario35_over2023_all_liquid_gases,1.9498607242339834,ratio,Different dates/commodities and scenario basis; neither forecast probability nor proof of a specific freight increase
+Solent_constant_daily_analyst_rate,16164.383561643835,t/day,Uniform 365-day analyst schedule from cited5.9Mt/y case; not a timestamped terminal operating series

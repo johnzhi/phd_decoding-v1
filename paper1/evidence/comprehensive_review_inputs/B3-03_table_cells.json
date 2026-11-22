@@ -1,0 +1,1176 @@
+{
+  "study_id": "B3-03",
+  "source_sha256": "fca4c4f26547045938bfa703af2b417a269865c7b0cf7874b0f14b08a2297a9a",
+  "provenance": "Nine Table1 substantive cells plus twelve Table2 substantive cells; six row labels and all seven content headers separately inspected. Lines selected by native start coordinates to preserve overlapping font bounding boxes.",
+  "cells": [
+    {
+      "id": "T1_methane_named_Part2",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "methane",
+      "column": "named_Part2",
+      "native_text": "No",
+      "native_lines": [
+        "No"
+      ],
+      "line_bboxes": [
+        [
+          83.05509948730469,
+          133.20040893554688,
+          91.12061309814453,
+          143.62501525878906
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T1_methane_hazard_Part1",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "methane",
+      "column": "hazard_Part1",
+      "native_text": "Yes – e.g. highly \nflammable gas (87, \npara. 5.2)",
+      "native_lines": [
+        "Yes – e.g. highly ",
+        "flammable gas (87, ",
+        "para. 5.2)"
+      ],
+      "line_bboxes": [
+        [
+          139.97402954101562,
+          133.20040893554688,
+          188.34352111816406,
+          143.62501525878906
+        ],
+        [
+          139.97402954101562,
+          141.7606964111328,
+          196.0067138671875,
+          152.185302734375
+        ],
+        [
+          139.97402954101562,
+          150.3209686279297,
+          167.60653686523438,
+          160.74557495117188
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T1_methane_equivalence_Part3",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "methane",
+      "column": "equivalence_Part3",
+      "native_text": "Not needed",
+      "native_lines": [
+        "Not needed"
+      ],
+      "line_bboxes": [
+        [
+          216.7353973388672,
+          133.20040893554688,
+          249.0471649169922,
+          143.62501525878906
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T1_ammonia_named_Part2",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "ammonia",
+      "column": "named_Part2",
+      "native_text": "Yes",
+      "native_lines": [
+        "Yes"
+      ],
+      "line_bboxes": [
+        [
+          83.05509948730469,
+          158.88143920898438,
+          92.70820617675781,
+          169.30604553222656
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T1_ammonia_hazard_Part1",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "ammonia",
+      "column": "hazard_Part1",
+      "native_text": "Yes – e.g. acute \ntoxicity; flammable; \nhazardous to the \naquatic environment",
+      "native_lines": [
+        "Yes – e.g. acute ",
+        "toxicity; flammable; ",
+        "hazardous to the ",
+        "aquatic environment"
+      ],
+      "line_bboxes": [
+        [
+          139.97402954101562,
+          158.88143920898438,
+          185.60824584960938,
+          169.30604553222656
+        ],
+        [
+          139.97402954101562,
+          167.4417266845703,
+          198.43020629882812,
+          177.8663330078125
+        ],
+        [
+          139.97402954101562,
+          176.05874633789062,
+          189.06080627441406,
+          186.4833526611328
+        ],
+        [
+          139.97402954101562,
+          184.6196746826172,
+          198.54112243652344,
+          195.04428100585938
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T1_ammonia_equivalence_Part3",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "ammonia",
+      "column": "equivalence_Part3",
+      "native_text": "Not needed",
+      "native_lines": [
+        "Not needed"
+      ],
+      "line_bboxes": [
+        [
+          216.7353973388672,
+          158.88143920898438,
+          249.0471649169922,
+          169.30604553222656
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T1_carbon_dioxide_named_Part2",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "carbon_dioxide",
+      "column": "named_Part2",
+      "native_text": "No",
+      "native_lines": [
+        "No"
+      ],
+      "line_bboxes": [
+        [
+          83.05509948730469,
+          193.18142700195312,
+          91.12061309814453,
+          203.6060333251953
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T1_carbon_dioxide_hazard_Part1",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "carbon_dioxide",
+      "column": "hazard_Part1",
+      "native_text": "No – substance \nclassified as \n“compressed gas” \nunder the CLP (not \nlisted in Part 1, \nSchedule 1)",
+      "native_lines": [
+        "No – substance ",
+        "classified as ",
+        "“compressed gas” ",
+        "under the CLP (not ",
+        "listed in Part 1, ",
+        "Schedule 1)"
+      ],
+      "line_bboxes": [
+        [
+          139.97402954101562,
+          193.18142700195312,
+          184.28781127929688,
+          203.6060333251953
+        ],
+        [
+          139.97402954101562,
+          201.74171447753906,
+          175.40426635742188,
+          212.16632080078125
+        ],
+        [
+          139.97402954101562,
+          210.30198669433594,
+          191.1157684326172,
+          220.72659301757812
+        ],
+        [
+          139.97402954101562,
+          218.8629150390625,
+          195.72682189941406,
+          229.2875213623047
+        ],
+        [
+          139.97402954101562,
+          227.42318725585938,
+          185.37106323242188,
+          237.84779357910156
+        ],
+        [
+          139.97402954101562,
+          236.04022216796875,
+          173.17333984375,
+          246.46482849121094
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T1_carbon_dioxide_equivalence_Part3",
+      "pages": [
+        10
+      ],
+      "table": 1,
+      "row": "carbon_dioxide",
+      "column": "equivalence_Part3",
+      "native_text": "Yes – equivalence with \nacute toxicity based on \n(Health and Safety \nExecutive, 2024g; \nHealth and Safety \nExecutive, 2024h; \nHealth and Safety \nExecutive, 2024i; \nO’Leary, 2002); and \nhazardous to the \naquatic environment (\nDEFRA, 2025a; \nDEFRA, 2025b)",
+      "native_lines": [
+        "Yes – equivalence with ",
+        "acute toxicity based on ",
+        "(Health and Safety ",
+        "Executive, 2024g; ",
+        "Health and Safety ",
+        "Executive, 2024h; ",
+        "Health and Safety ",
+        "Executive, 2024i; ",
+        "O’Leary, 2002); and ",
+        "hazardous to the ",
+        "aquatic environment (",
+        "DEFRA, 2025a; ",
+        "DEFRA, 2025b)"
+      ],
+      "line_bboxes": [
+        [
+          216.7353973388672,
+          193.18142700195312,
+          283.4553527832031,
+          203.6060333251953
+        ],
+        [
+          216.7353973388672,
+          201.74171447753906,
+          283.85321044921875,
+          212.16632080078125
+        ],
+        [
+          216.7353973388672,
+          210.30198669433594,
+          271.4093933105469,
+          220.72659301757812
+        ],
+        [
+          216.7353973388672,
+          218.8629150390625,
+          269.0483703613281,
+          229.2875213623047
+        ],
+        [
+          216.7353973388672,
+          227.42320251464844,
+          269.0285949707031,
+          237.84780883789062
+        ],
+        [
+          216.7353973388672,
+          236.04022216796875,
+          269.3608093261719,
+          246.46482849121094
+        ],
+        [
+          216.7353973388672,
+          244.6011505126953,
+          269.0285949707031,
+          255.0257568359375
+        ],
+        [
+          216.7353973388672,
+          253.16143798828125,
+          267.6329345703125,
+          263.5860290527344
+        ],
+        [
+          216.7353973388672,
+          261.72235107421875,
+          275.60406494140625,
+          272.1469421386719
+        ],
+        [
+          216.7353973388672,
+          270.2826232910156,
+          265.8221740722656,
+          280.70721435546875
+        ],
+        [
+          216.7353973388672,
+          278.8429260253906,
+          279.56671142578125,
+          289.26751708984375
+        ],
+        [
+          216.7353973388672,
+          287.4038391113281,
+          261.6899719238281,
+          297.82843017578125
+        ],
+        [
+          216.7353973388672,
+          295.9641418457031,
+          260.7272033691406,
+          306.38873291015625
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_PMSC_gap",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "PMSC",
+      "column": "gap",
+      "native_text": "Limited efficiency in the \nabsence of clear performance \ngoals in specific legislation \nand/or regulatory guidance",
+      "native_lines": [
+        "Limited efficiency in the ",
+        "absence of clear performance ",
+        "goals in specific legislation ",
+        "and/or regulatory guidance"
+      ],
+      "line_bboxes": [
+        [
+          92.35203552246094,
+          97.93655395507812,
+          163.20867919921875,
+          108.36114501953125
+        ],
+        [
+          92.35203552246094,
+          106.496826171875,
+          176.9844512939453,
+          116.92142486572266
+        ],
+        [
+          92.3520278930664,
+          115.05711364746094,
+          170.26168823242188,
+          125.4817123413086
+        ],
+        [
+          92.3520278930664,
+          123.61802673339844,
+          170.42108154296875,
+          134.04263305664062
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_PMSC_recommendation",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "PMSC",
+      "column": "recommendation",
+      "native_text": "Ensuring that clear performance \ngoals are set out in relevant \nlegislation and that appropriate \nguidance is issued where needed",
+      "native_lines": [
+        "Ensuring that clear performance ",
+        "goals are set out in relevant ",
+        "legislation and that appropriate ",
+        "guidance is issued where needed"
+      ],
+      "line_bboxes": [
+        [
+          188.72885131835938,
+          97.93655395507812,
+          281.751953125,
+          108.36114501953125
+        ],
+        [
+          188.72885131835938,
+          106.496826171875,
+          269.19146728515625,
+          116.92142486572266
+        ],
+        [
+          188.72885131835938,
+          115.05711364746094,
+          280.0374450683594,
+          125.4817123413086
+        ],
+        [
+          188.72885131835938,
+          123.61802673339844,
+          281.2476806640625,
+          134.04263305664062
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_PMSC_implementation_pathway",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "PMSC",
+      "column": "implementation_pathway",
+      "native_text": "Depends on the specific legislation in \nquestion",
+      "native_lines": [
+        "Depends on the specific legislation in ",
+        "question"
+      ],
+      "line_bboxes": [
+        [
+          297.9180603027344,
+          97.93655395507812,
+          405.22509765625,
+          108.36114501953125
+        ],
+        [
+          297.9180603027344,
+          106.496826171875,
+          321.8914489746094,
+          116.92142486572266
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_PMSC_operability_assessment",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "PMSC",
+      "column": "operability_assessment",
+      "native_text": "N/A",
+      "native_lines": [
+        "N/A"
+      ],
+      "line_bboxes": [
+        [
+          429.6709289550781,
+          97.93655395507812,
+          441.68951416015625,
+          108.36114501953125
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_DGHAR_gap",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "DGHAR",
+      "column": "gap",
+      "native_text": "Lack of awareness of novel \nrisks to be introduced by the \npassage of larger quantities of \nCO2 through ports in support \nof CCS",
+      "native_lines": [
+        "Lack of awareness of novel ",
+        "risks to be introduced by the ",
+        "passage of larger quantities of ",
+        "CO2 through ports in support ",
+        "of CCS"
+      ],
+      "line_bboxes": [
+        [
+          92.35203552246094,
+          132.17831420898438,
+          170.35479736328125,
+          142.60292053222656
+        ],
+        [
+          92.35203552246094,
+          140.79534912109375,
+          175.4542236328125,
+          151.21995544433594
+        ],
+        [
+          92.35203552246094,
+          149.35626220703125,
+          179.0228271484375,
+          159.78086853027344
+        ],
+        [
+          92.35203552246094,
+          157.9165496826172,
+          176.87159729003906,
+          168.57904052734375
+        ],
+        [
+          92.35330963134766,
+          166.4787139892578,
+          111.1539306640625,
+          176.9033203125
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_DGHAR_recommendation",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "DGHAR",
+      "column": "recommendation",
+      "native_text": "Issuing specific guidance to clarify \nrisk management responsibilities \nfor anticipated substantial increase \nin CO₂ shipping operations",
+      "native_lines": [
+        "Issuing specific guidance to clarify ",
+        "risk management responsibilities ",
+        "for anticipated substantial increase ",
+        "in CO₂ shipping operations"
+      ],
+      "line_bboxes": [
+        [
+          188.7294921875,
+          132.18019104003906,
+          288.1297912597656,
+          142.60479736328125
+        ],
+        [
+          188.7294921875,
+          140.79786682128906,
+          283.4403076171875,
+          151.22247314453125
+        ],
+        [
+          188.7294921875,
+          149.35813903808594,
+          288.47406005859375,
+          159.78274536132812
+        ],
+        [
+          188.7294921875,
+          157.91842651367188,
+          264.54974365234375,
+          168.34303283691406
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_DGHAR_implementation_pathway",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "DGHAR",
+      "column": "implementation_pathway",
+      "native_text": "The guidance can replicate similar HSE \ndocuments on the major hazard potential \nof CCS and its development can be \ninformed by the MCA’s engagement with \nrelevant governmental bodies, CCS \nstakeholders, and the wider research \ncommunity",
+      "native_lines": [
+        "The guidance can replicate similar HSE ",
+        "documents on the major hazard potential ",
+        "of CCS and its development can be ",
+        "informed by the MCA’s engagement with ",
+        "relevant governmental bodies, CCS ",
+        "stakeholders, and the wider research ",
+        "community"
+      ],
+      "line_bboxes": [
+        [
+          297.918701171875,
+          132.18019104003906,
+          411.0016784667969,
+          142.60479736328125
+        ],
+        [
+          297.918701171875,
+          140.79786682128906,
+          416.7502136230469,
+          151.22247314453125
+        ],
+        [
+          297.918701171875,
+          149.35813903808594,
+          398.1778259277344,
+          159.78274536132812
+        ],
+        [
+          297.918701171875,
+          157.91842651367188,
+          416.3995056152344,
+          168.34303283691406
+        ],
+        [
+          297.918701171875,
+          166.4787139892578,
+          398.7503356933594,
+          176.9033203125
+        ],
+        [
+          297.918701171875,
+          175.03900146484375,
+          403.6546936035156,
+          185.46360778808594
+        ],
+        [
+          297.918701171875,
+          183.59991455078125,
+          329.9193420410156,
+          194.02452087402344
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_DGHAR_operability_assessment",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "DGHAR",
+      "column": "operability_assessment",
+      "native_text": "The issuance of such guidance is common \npractice when new operational \ncircumstances arise, and the MCA has a \nproven track record of producing them. \nDeveloping this guidance should be \nrelatively straightforward but will depend \non the realization of HMG’s plans to rely on \nCO₂ shipping for CCS",
+      "native_lines": [
+        "The issuance of such guidance is common ",
+        "practice when new operational ",
+        "circumstances arise, and the MCA has a ",
+        "proven track record of producing them. ",
+        "Developing this guidance should be ",
+        "relatively straightforward but will depend ",
+        "on the realization of HMG’s plans to rely on ",
+        "CO₂ shipping for CCS"
+      ],
+      "line_bboxes": [
+        [
+          429.67218017578125,
+          132.18019104003906,
+          549.84130859375,
+          142.60479736328125
+        ],
+        [
+          429.67218017578125,
+          140.79786682128906,
+          519.0890502929688,
+          151.22247314453125
+        ],
+        [
+          429.67218017578125,
+          149.35813903808594,
+          543.691162109375,
+          159.78274536132812
+        ],
+        [
+          429.67218017578125,
+          157.91842651367188,
+          543.4500122070312,
+          168.34303283691406
+        ],
+        [
+          429.672119140625,
+          166.4787139892578,
+          532.2553100585938,
+          176.9033203125
+        ],
+        [
+          429.67218017578125,
+          175.03900146484375,
+          550.4075317382812,
+          185.46360778808594
+        ],
+        [
+          429.6722412109375,
+          183.59991455078125,
+          553.5387573242188,
+          194.02452087402344
+        ],
+        [
+          429.6722412109375,
+          192.1602020263672,
+          489.68792724609375,
+          202.58480834960938
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_COMAH_gap",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "COMAH",
+      "column": "gap",
+      "native_text": "(1) The transport of dangerous \nsubstances and directly \nrelated temporary storage is \ncurrently excluded from the \nRegulations \n(2) CO2 is not currently \nconsidered as a dangerous \nsubstance under the \nRegulations",
+      "native_lines": [
+        "(1) The transport of dangerous ",
+        "substances and directly ",
+        "related temporary storage is ",
+        "currently excluded from the ",
+        "Regulations ",
+        "(2) CO2 is not currently ",
+        "considered as a dangerous ",
+        "substance under the ",
+        "Regulations"
+      ],
+      "line_bboxes": [
+        [
+          92.35330200195312,
+          200.72047424316406,
+          179.23130798339844,
+          211.14508056640625
+        ],
+        [
+          92.35330963134766,
+          209.33815002441406,
+          159.9410400390625,
+          219.76275634765625
+        ],
+        [
+          92.35330963134766,
+          217.8984375,
+          173.80734252929688,
+          228.3230438232422
+        ],
+        [
+          92.35331726074219,
+          226.4593505859375,
+          173.30108642578125,
+          236.8839569091797
+        ],
+        [
+          92.35330963134766,
+          235.01962280273438,
+          127.3187484741211,
+          245.44422912597656
+        ],
+        [
+          92.35330963134766,
+          243.5799102783203,
+          161.08792114257812,
+          254.2420654296875
+        ],
+        [
+          92.35317993164062,
+          252.14166259765625,
+          168.5164794921875,
+          262.5662536621094
+        ],
+        [
+          92.35317993164062,
+          260.70196533203125,
+          150.79403686523438,
+          271.1265563964844
+        ],
+        [
+          92.3531723022461,
+          269.26287841796875,
+          125.45046997070312,
+          279.6874694824219
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_COMAH_recommendation",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "COMAH",
+      "column": "recommendation",
+      "native_text": "Amending the Regulations to \nremove the exclusion of temporary \nstorage and recognize CO₂ as a \ndangerous substance",
+      "native_lines": [
+        "Amending the Regulations to ",
+        "remove the exclusion of temporary ",
+        "storage and recognize CO₂ as a ",
+        "dangerous substance"
+      ],
+      "line_bboxes": [
+        [
+          188.7293701171875,
+          200.72259521484375,
+          272.93841552734375,
+          211.14720153808594
+        ],
+        [
+          188.72933959960938,
+          209.33961486816406,
+          288.43695068359375,
+          219.76422119140625
+        ],
+        [
+          188.72933959960938,
+          217.89990234375,
+          277.8044738769531,
+          228.3245086669922
+        ],
+        [
+          188.72933959960938,
+          226.4608154296875,
+          247.04905700683594,
+          236.8854217529297
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_COMAH_implementation_pathway",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "COMAH",
+      "column": "implementation_pathway",
+      "native_text": "The exclusion can be removed through \nlegislative amendment. \nCO2 can be recognized as a dangerous \nsubstance by (1) adding it as a named \nsubstance in Part 2 of Schedule 1 through a \ndirect legislative amendment, (2) formally \nreviewing its classification under the CLP \nin a manner that it fits within one of the \nhazard categories listed in Part 1 of \nSchedule 1, or (3) treating it as possessing \nequivalent major accident potential as \nregulated substances under Paragraph 5 of \nPart 3 of Schedule 1",
+      "native_lines": [
+        "The exclusion can be removed through ",
+        "legislative amendment. ",
+        "CO2 can be recognized as a dangerous ",
+        "substance by (1) adding it as a named ",
+        "substance in Part 2 of Schedule 1 through a ",
+        "direct legislative amendment, (2) formally ",
+        "reviewing its classification under the CLP ",
+        "in a manner that it fits within one of the ",
+        "hazard categories listed in Part 1 of ",
+        "Schedule 1, or (3) treating it as possessing ",
+        "equivalent major accident potential as ",
+        "regulated substances under Paragraph 5 of ",
+        "Part 3 of Schedule 1"
+      ],
+      "line_bboxes": [
+        [
+          297.919189453125,
+          200.72259521484375,
+          409.9144592285156,
+          211.14720153808594
+        ],
+        [
+          297.919189453125,
+          209.33961486816406,
+          365.3998107910156,
+          219.76422119140625
+        ],
+        [
+          297.9192199707031,
+          217.89938354492188,
+          407.8163146972656,
+          228.5030517578125
+        ],
+        [
+          297.92132568359375,
+          226.4596710205078,
+          407.2858581542969,
+          236.88427734375
+        ],
+        [
+          297.92132568359375,
+          235.0199432373047,
+          420.2174377441406,
+          245.44454956054688
+        ],
+        [
+          297.92132568359375,
+          243.58087158203125,
+          419.6971740722656,
+          254.00547790527344
+        ],
+        [
+          297.92132568359375,
+          252.14114379882812,
+          416.9351501464844,
+          262.56573486328125
+        ],
+        [
+          297.92132568359375,
+          260.7014465332031,
+          414.358642578125,
+          271.12603759765625
+        ],
+        [
+          297.92132568359375,
+          269.2623596191406,
+          400.4088134765625,
+          279.68695068359375
+        ],
+        [
+          297.92132568359375,
+          277.8793640136719,
+          419.41473388671875,
+          288.303955078125
+        ],
+        [
+          297.92132568359375,
+          286.4403076171875,
+          408.12811279296875,
+          296.8648986816406
+        ],
+        [
+          297.92132568359375,
+          295.0005798339844,
+          420.19451904296875,
+          305.4251708984375
+        ],
+        [
+          297.92132568359375,
+          303.5608825683594,
+          355.1979675292969,
+          313.9854736328125
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    },
+    {
+      "id": "T2_COMAH_operability_assessment",
+      "pages": [
+        11
+      ],
+      "table": 2,
+      "row": "COMAH",
+      "column": "operability_assessment",
+      "native_text": "Statutory instruments are the usual \nlegislative mechanism for amending \nCOMAH and have been relied on before (for \nexample, to implement the Seveso III \nDirective (Directive 2012/18/EU) in 2015). \nThis route can be used to remove the \nexclusion of temporary storage and add CO₂ \nas a named substance in Part 2 of Schedule \n1, providing the greatest levels of legal \ncertainty and clarity, but it will hinge on \npolicy developments. \nThe responsibility for reviewing the \nclassification of CO₂ under the CLP rests \nwith CCS stakeholders but could be \nfacilitated by the HSE through developing \nclear guidance on how CO₂ should be \nclassified in CCS contexts. This is a longer \nprocess and depends on greater \ncoordination between different \nstakeholders. \nTreating CO₂ as having equivalent major \naccident potential depends on the HSE’s \nreview of CCS hazards, drawing on new \nscientific and incident data and \ncollaboration with relevant stakeholders. \nThis route offers the advantage of not \nrequiring reclassification of CO₂ (which can \nhave implications for other regulations) or \ndirect amendment of COMAH, but it \ndepends on buy-in from regulated entities.",
+      "native_lines": [
+        "Statutory instruments are the usual ",
+        "legislative mechanism for amending ",
+        "COMAH and have been relied on before (for ",
+        "example, to implement the Seveso III ",
+        "Directive (Directive 2012/18/EU) in 2015). ",
+        "This route can be used to remove the ",
+        "exclusion of temporary storage and add CO₂ ",
+        "as a named substance in Part 2 of Schedule ",
+        "1, providing the greatest levels of legal ",
+        "certainty and clarity, but it will hinge on ",
+        "policy developments. ",
+        "The responsibility for reviewing the ",
+        "classification of CO₂ under the CLP rests ",
+        "with CCS stakeholders but could be ",
+        "facilitated by the HSE through developing ",
+        "clear guidance on how CO₂ should be ",
+        "classified in CCS contexts. This is a longer ",
+        "process and depends on greater ",
+        "coordination between different ",
+        "stakeholders. ",
+        "Treating CO₂ as having equivalent major ",
+        "accident potential depends on the HSE’s ",
+        "review of CCS hazards, drawing on new ",
+        "scientific and incident data and ",
+        "collaboration with relevant stakeholders. ",
+        "This route offers the advantage of not ",
+        "requiring reclassification of CO₂ (which can ",
+        "have implications for other regulations) or ",
+        "direct amendment of COMAH, but it ",
+        "depends on buy-in from regulated entities."
+      ],
+      "line_bboxes": [
+        [
+          429.6735534667969,
+          200.72207641601562,
+          531.172119140625,
+          211.1466827392578
+        ],
+        [
+          429.6735534667969,
+          209.33909606933594,
+          533.7034301757812,
+          219.76370239257812
+        ],
+        [
+          429.6735534667969,
+          217.89938354492188,
+          553.5496215820312,
+          228.32398986816406
+        ],
+        [
+          429.67352294921875,
+          226.4596710205078,
+          536.6121215820312,
+          236.88427734375
+        ],
+        [
+          429.6735534667969,
+          235.01995849609375,
+          553.5464477539062,
+          245.44456481933594
+        ],
+        [
+          429.67352294921875,
+          243.58087158203125,
+          536.7000732421875,
+          254.00547790527344
+        ],
+        [
+          429.67352294921875,
+          252.14114379882812,
+          553.457763671875,
+          262.56573486328125
+        ],
+        [
+          429.6734924316406,
+          260.7014465332031,
+          553.57763671875,
+          271.12603759765625
+        ],
+        [
+          429.6734619140625,
+          269.2623596191406,
+          541.8765869140625,
+          279.68695068359375
+        ],
+        [
+          429.6734619140625,
+          277.8793640136719,
+          547.2476196289062,
+          288.303955078125
+        ],
+        [
+          429.6734619140625,
+          286.4403076171875,
+          491.4399719238281,
+          296.8648986816406
+        ],
+        [
+          429.6734619140625,
+          295.0005798339844,
+          532.8450927734375,
+          305.4251708984375
+        ],
+        [
+          429.6734619140625,
+          303.5608825683594,
+          545.200927734375,
+          313.9854736328125
+        ],
+        [
+          429.6734619140625,
+          312.1217956542969,
+          531.9735717773438,
+          322.54638671875
+        ],
+        [
+          429.6734924316406,
+          320.68206787109375,
+          550.5663452148438,
+          331.1066589355469
+        ],
+        [
+          429.6734924316406,
+          329.2430114746094,
+          537.6430053710938,
+          339.6676025390625
+        ],
+        [
+          429.6734619140625,
+          337.80328369140625,
+          550.33935546875,
+          348.2278747558594
+        ],
+        [
+          429.6734924316406,
+          346.4203186035156,
+          520.5874633789062,
+          356.84490966796875
+        ],
+        [
+          429.6734924316406,
+          354.9812316894531,
+          519.24658203125,
+          365.40582275390625
+        ],
+        [
+          429.6734924316406,
+          363.54150390625,
+          468.5792541503906,
+          373.9660949707031
+        ],
+        [
+          429.6734924316406,
+          372.1024475097656,
+          546.6744384765625,
+          382.52703857421875
+        ],
+        [
+          429.6734619140625,
+          380.6626892089844,
+          545.5458984375,
+          391.0872802734375
+        ],
+        [
+          429.6734924316406,
+          389.2229919433594,
+          544.4690551757812,
+          399.6475830078125
+        ],
+        [
+          429.6734619140625,
+          397.7839050292969,
+          520.5734252929688,
+          408.20849609375
+        ],
+        [
+          429.6734619140625,
+          406.40093994140625,
+          547.4949951171875,
+          416.8255310058594
+        ],
+        [
+          429.6734619140625,
+          414.9612121582031,
+          538.30419921875,
+          425.38580322265625
+        ],
+        [
+          429.6734619140625,
+          423.52215576171875,
+          553.5674438476562,
+          433.9467468261719
+        ],
+        [
+          429.6734619140625,
+          432.0824279785156,
+          551.9651489257812,
+          442.50701904296875
+        ],
+        [
+          429.6734924316406,
+          440.64337158203125,
+          534.7394409179688,
+          451.0679626464844
+        ],
+        [
+          429.6734924316406,
+          449.20367431640625,
+          550.0805053710938,
+          459.6282653808594
+        ]
+      ],
+      "inspection": "All native text, row/column placement, captions and headers inspected enlarged. Legal proposals and author equivalence judgments are not established current law."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+item,numerator_Mt,denominator_Mt,decline,calculated_percent,reported_percent,rounding_lower_percent,rounding_upper_percent,rounding_compatible,scope
+Southampton_total_share,30.62,425.86,False,7.190156389423754,7.2,7.188897890176464,7.191414918223338,True,Printed arithmetic/rounding only; original freight series and commodity definitions unverified
+Southampton_liquid_bulk_share,18.25,169.26,False,10.782228524164008,10.8,10.778956074793962,10.78550116687838,True,Printed arithmetic/rounding only; original freight series and commodity definitions unverified
+UK_liquid_bulk_decline_2022_2023,169.26,180.03,True,5.982336277287126,5.98,5.976947646160255,5.987724609103779,True,Printed arithmetic/rounding only; original freight series and commodity definitions unverified
+Southampton_liquid_bulk_decline_2022_2023,18.25,19.89,True,8.245349421820015,8.25,8.19713351772694,8.293541090726308,True,Printed arithmetic/rounding only; original freight series and commodity definitions unverified
+UK_liquid_gas_share_of_liquid_bulk,17.95,169.26,False,10.604986411438025,10.6,10.601719197707737,10.608253818203302,True,Printed arithmetic/rounding only; original freight series and commodity definitions unverified
+Southampton_liquid_gas_share_of_UK_liquid_gas,0.31,17.95,False,1.7270194986072425,1.73,1.698691172375383,1.755363611033714,True,Printed arithmetic/rounding only; original freight series and commodity definitions unverified

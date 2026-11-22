@@ -1,0 +1,5 @@
+ship_m3,buffer_ship_multiplier,analyst_density_kg_m3,buffer_m3,conditional_buffer_t,equivalent_uniform_throughput_days,scope
+7500,1,1000,7500,7500.0,0.4639830508474576,"Analyst constant density and full volume; no filling fraction, reserve, weather, port dwell, schedule or native density verified"
+7500,2,1000,15000,15000.0,0.9279661016949152,"Analyst constant density and full volume; no filling fraction, reserve, weather, port dwell, schedule or native density verified"
+32000,1,1000,32000,32000.0,1.9796610169491526,"Analyst constant density and full volume; no filling fraction, reserve, weather, port dwell, schedule or native density verified"
+32000,2,1000,64000,64000.0,3.9593220338983053,"Analyst constant density and full volume; no filling fraction, reserve, weather, port dwell, schedule or native density verified"
