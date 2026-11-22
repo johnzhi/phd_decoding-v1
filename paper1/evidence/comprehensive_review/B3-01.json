@@ -1,0 +1,1994 @@
+{
+  "study_id": "B3-01",
+  "source_sha256": "02d7121b5e02ef464fb6a377444f339015efacc035060a8c0f15fbe757e9dde8",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 14 retained main-PDF pages were text-read and inspected as renders, with enlarged figures, tables and formulae. The review records two figures, four tables, the 13-row abbreviation list, two unnumbered printed identities, 26 numbered footnotes and 38 bibliography entries. Thirty-nine limited checks, 30 capacity cells, six historical classification cases, 12 reported credit-value cells, 24 finite-credit examples and three price-growth examples do not reproduce the native Table 4 model. No exact original citation passages were verified. Historical legal applicability, credit timing/release assumptions, source notation and missing native assets remain open; no accepted operating/GHG input changed.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "original_model_status": "native_temporary_credit_Table4_model_not_reproduced_disclosed_cohort_components_only_no_author_reservoir_model",
+  "supplement_status": "no_embedded_files_or_explicit_SI_code_data_availability_identified_online_assets_unverified",
+  "sections": [
+    {
+      "id": "S001",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Identity, abstract, keywords, affiliations and abbreviations",
+      "assessment": "Sven Bode and Martina Jung, International Environmental Agreements 6 (2006), 173–186. DOI 10.1007/s10784-006-9004-4. Received 10 August 2005, accepted 8 May 2006, online 8 July 2006. Springer copyright 2006; no CC licence identified. Read all 13 abbreviations and distinct capture, storage and buyer roles."
+    },
+    {
+      "id": "S002",
+      "pages": [
+        2
+      ],
+      "scope": "1 Introduction",
+      "assessment": "Read UNFCCC climate goals, source reduction versus atmospheric sinks, historical efficiency and renewable-policy discussion. The legal and deployment context is 2006, not a verified present-day framework."
+    },
+    {
+      "id": "S003",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2 CCS technologies and boundaries",
+      "assessment": "Read capture including compression, transport, storage, three capture methods, 15–40% energy-output penalty, historical pipeline/ship context and three geological media. Generic duties and technology maturity statements are not a complete same-case utility inventory."
+    },
+    {
+      "id": "S004",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "2 Storage resources and costs",
+      "assessment": "Read all 30 Table 1 intervals, regional allocation footnote, cost identity, avoided/captured denominator caveats, monetary EOR revenues and missing monitoring costs. Listed totals 476–5880 Gt close; 1660 Gt best estimate is not identified from bounds. Saline aquifers lack a Table 1 column."
+    },
+    {
+      "id": "S005",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "3 Performance of storage",
+      "assessment": "Read site-specific retention, uncertain seepage, well integrity and earthquakes. Site screening is necessary but does not by itself ensure complete accounting or allocate liability. Figure 1 distinguishes energy-related and fugitive emissions."
+    },
+    {
+      "id": "S006",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "4.1 Removal or emission reduction",
+      "assessment": "Read Article 1.8 quotation and assumed point-source classification; authors explicitly call the choice political and unresolved at that time. Footnote 10 distinguishes biomass; the argument is not a universal classification of all CCS/CDR."
+    },
+    {
+      "id": "S007",
+      "pages": [
+        7
+      ],
+      "scope": "4.2 Cross-border projects",
+      "assessment": "Read all six combinations and merged storage cells in Table 2, JI/domestic/CDM distinctions, inventory quality and third-country buyer caveats. Non-Annex participation alone does not imply CDM under the authors assumption."
+    },
+    {
+      "id": "S008",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "4.3 Liability for non-permanence",
+      "assessment": "Read bans, ex-ante discounting and monitored actual releases, moral-hazard discussion, HWP analogy, export-country accounting and temporary buyer liability. Table 3 contains conditional proposals rather than verified current treaty obligations."
+    },
+    {
+      "id": "S009",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "5 Economic implications and Table 4",
+      "assessment": "Read replacement-cost definition, Vtemp=Vperm−RC, stable-price assumption, three discount/four release columns and limits of the near-negligible-value-loss conclusion. Missing release, payment, renewal and horizon conventions prevent exact native reproduction."
+    },
+    {
+      "id": "S010",
+      "pages": [
+        11
+      ],
+      "scope": "5 Restricted crediting periods and Figure 2",
+      "assessment": "Read 21/60-year historical limits, alternative nonrenewable/renewable terms, credit expiry and missed economic benefits beyond expiry. No physical release at the credit boundary is established. Schematic release lines have unscaled time axes."
+    },
+    {
+      "id": "S011",
+      "pages": [
+        11,
+        12
+      ],
+      "scope": "6 Conclusion",
+      "assessment": "Read repeated conditional legal classification, proposed liability, literal (>0.01) without units, short-credit-period qualification and explicit multi-exporter/shared/transboundary reservoir limits. Do not correct the inequality or infer current national obligations."
+    },
+    {
+      "id": "S012",
+      "pages": [
+        12,
+        13,
+        14
+      ],
+      "scope": "References",
+      "assessment": "All 38 printed entries read in text and renders with line/page geometry. Native Heafeli/Haefeli and Romberg/Rumberg spellings and Pearce report placeholders/year ambiguity preserved; exact originals remain unverified."
+    },
+    {
+      "id": "S013",
+      "pages": [
+        1,
+        14
+      ],
+      "scope": "Availability, provenance and reproduction scope",
+      "assessment": "No embedded files or explicit SI/code/data availability section identified. Local absence does not prove online absence. No licence for unavailable external assets, author code or current legal instruments inferred; no author contacted."
+    },
+    {
+      "id": "S014",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered footnote 1",
+      "assessment": "Direct air capture proposals by Ha-Duong/Keith 2002 and Lackner 1999; a distinct atmospheric source pathway."
+    },
+    {
+      "id": "S015",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered footnote 2",
+      "assessment": "OECD/IEA2004 also identifies fuel extraction/transformation as capture sources."
+    },
+    {
+      "id": "S016",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered footnote 3",
+      "assessment": "Food/fertilizer utilization has short retention; not a durable-storage example."
+    },
+    {
+      "id": "S017",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered footnote 4",
+      "assessment": "Trucks and trains are also possible transport modes."
+    },
+    {
+      "id": "S018",
+      "pages": [
+        3
+      ],
+      "scope": "Numbered footnote 5",
+      "assessment": "Historical EOR experience/profitability and limited EGR/ECBM maturity, not current universal economics."
+    },
+    {
+      "id": "S019",
+      "pages": [
+        4
+      ],
+      "scope": "Numbered footnote 6",
+      "assessment": "Avoided-cost includes energy penalty and differs from captured-cost; eleven listed cost sources plus IPCC synthesis remain unverified."
+    },
+    {
+      "id": "S020",
+      "pages": [
+        4
+      ],
+      "scope": "Numbered footnote 7",
+      "assessment": "Baseline plant choice is crucial to avoidance cost; Anderson/Newell original unverified."
+    },
+    {
+      "id": "S021",
+      "pages": [
+        5
+      ],
+      "scope": "Numbered footnote 8",
+      "assessment": "Additional cited storage-cost studies and IPCC synthesis are not independent field service observations."
+    },
+    {
+      "id": "S022",
+      "pages": [
+        5
+      ],
+      "scope": "Numbered footnote 9",
+      "assessment": "IPCC ranges 0–70 US$/t avoided for pulverized coal versus 20–270 with NGCC reference; baseline boundaries differ."
+    },
+    {
+      "id": "S023",
+      "pages": [
+        7
+      ],
+      "scope": "Numbered footnote 10",
+      "assessment": "Biomass combustion must be treated differently from the assumed fossil point-source classification."
+    },
+    {
+      "id": "S024",
+      "pages": [
+        7
+      ],
+      "scope": "Numbered footnote 11",
+      "assessment": "CDM credit generation depends on the subsequent accounting analysis, not a storage-only location flag."
+    },
+    {
+      "id": "S025",
+      "pages": [
+        7
+      ],
+      "scope": "Numbered footnote 12",
+      "assessment": "A third Annex I buyer may participate in JI; capture country receives reduction accounting and may compensate the store."
+    },
+    {
+      "id": "S026",
+      "pages": [
+        7
+      ],
+      "scope": "Numbered footnote 13",
+      "assessment": "Non-ratification and inadequate inventory quality can create similar accounting gaps."
+    },
+    {
+      "id": "S027",
+      "pages": [
+        8
+      ],
+      "scope": "Numbered footnote 14",
+      "assessment": "Annex I restriction assumes Kyoto ratification and minimum inventory quality."
+    },
+    {
+      "id": "S028",
+      "pages": [
+        8
+      ],
+      "scope": "Numbered footnote 15",
+      "assessment": "Yoshigahara et al.2004 is cited for default-factor/accounting methods; original unverified."
+    },
+    {
+      "id": "S029",
+      "pages": [
+        8
+      ],
+      "scope": "Numbered footnote 16",
+      "assessment": "DTI quotation says credible discount rates are constrained by uncertain storage fluxes; Pearce monitoring review is separately cited."
+    },
+    {
+      "id": "S030",
+      "pages": [
+        8
+      ],
+      "scope": "Numbered footnote 17",
+      "assessment": "Proposed release/refill incentive after permanent credit issuance is a moral-hazard hypothesis, not observed misconduct."
+    },
+    {
+      "id": "S031",
+      "pages": [
+        8
+      ],
+      "scope": "Numbered footnote 18",
+      "assessment": "Heafeli/Haefeli 2004 pp 21–22 supports the inventory discussion only if the original passage is verified."
+    },
+    {
+      "id": "S032",
+      "pages": [
+        9
+      ],
+      "scope": "Numbered footnote 19",
+      "assessment": "HWP production-approach analogy assigns exported-pool emissions to exporter; not a current CCS rule."
+    },
+    {
+      "id": "S033",
+      "pages": [
+        9
+      ],
+      "scope": "Numbered footnote 20",
+      "assessment": "Authors consider permanent CERs with Annex I storage unproblematic in case 3, conditional on inventory accounting."
+    },
+    {
+      "id": "S034",
+      "pages": [
+        9
+      ],
+      "scope": "Numbered footnote 21",
+      "assessment": "Temporary and long-term forestry CER types referenced; ambiguous l/I glyph and Rumberg/Romberg metadata not silently corrected."
+    },
+    {
+      "id": "S035",
+      "pages": [
+        9
+      ],
+      "scope": "Numbered footnote 22",
+      "assessment": "Herzog/Caldeira/Reilly 2003 cited for temporary-storage effectiveness, not independently reproduced here."
+    },
+    {
+      "id": "S036",
+      "pages": [
+        10
+      ],
+      "scope": "Numbered footnote 23",
+      "assessment": "Ha-Duong/Keith 2003 cited for replacement-cost context; no original formula check."
+    },
+    {
+      "id": "S037",
+      "pages": [
+        10
+      ],
+      "scope": "Numbered footnote 24",
+      "assessment": "Temporary value is a chain of temporary credits during the crediting period; exact issuance/renewal timing omitted."
+    },
+    {
+      "id": "S038",
+      "pages": [
+        10
+      ],
+      "scope": "Numbered footnote 25",
+      "assessment": "Increasing-price tendency is asserted; convergence and price-growth/discount relation must be specified before generalizing."
+    },
+    {
+      "id": "S039",
+      "pages": [
+        11
+      ],
+      "scope": "Numbered footnote 26",
+      "assessment": "Historical alternatives: nonrenewable 10/30 years or 7/20 years with two renewals, yielding 21/60 maxima."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F001",
+      "pages": [
+        1,
+        2
+      ],
+      "object": "Unnumbered abbreviation list",
+      "inspection": "All 13 rows read: CCS, CDM, CER, ECBM, EOR, Former S.U., GHG, HWP, IPCC, JI, LULUCF, RC, UNFCCC. Definitions and institutional roles kept distinct."
+    },
+    {
+      "id": "F002",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 storage potential",
+      "inspection": "All six on/offshore and Annex/non/total rows, five medium columns, 30 lower/upper interval cells, Gt units and footnote inspected enlarged. Saline aquifers discussed in prose but absent as a table column; former Soviet allocation ambiguous."
+    },
+    {
+      "id": "F003",
+      "pages": [
+        6
+      ],
+      "object": "Figure 1 emissions along CCS chain",
+      "inspection": "Inspected main capture→transport→injection/store and EOR recapture loop, all energy CO2e and fugitive CO2f labels, legend and source caption. It is a qualitative boundary diagram without native quantities, and does not close produced-oil combustion or whole LCA."
+    },
+    {
+      "id": "F004",
+      "pages": [
+        7
+      ],
+      "object": "Table 2 country combinations",
+      "inspection": "All six rows, merged storage Annex I cases 1–3/non Annex I cases 4–6 and mechanism footnote read enlarged. Native classification mechanically reconstructs; no proof of current legal applicability."
+    },
+    {
+      "id": "F005",
+      "pages": [
+        9
+      ],
+      "object": "Table 3 liability proposals",
+      "inspection": "Four grouped rows cover all six cases; storing country for 1/2/3, capture country for 4, temporary-credit buyer for 5/6. Read footnote and permanent-CER distinction for 3. Proposed accounting party is not necessarily reservoir operator."
+    },
+    {
+      "id": "F006",
+      "pages": [
+        10
+      ],
+      "object": "Table 4 temporary value",
+      "inspection": "All 12 cells at discount 1/5/10% and release 0/.01/.1/1%, constant-price footnote read enlarged. Values preserved exactly. Two explicit analyst cash-flow timing conventions do not reconcile nonzero-release cells; missing native calculation remains open."
+    },
+    {
+      "id": "F007",
+      "pages": [
+        11
+      ],
+      "object": "Figure 2 restricted crediting period",
+      "inspection": "Read initial-input arrow, unscaled stored-carbon/time axes, release 0/1/5/10% lines, vertical end-of-credit marker, brackets and caption. Schematic lines do not identify original-stock versus remaining-stock release law or a measured retention profile."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "pages": [
+        4
+      ],
+      "printed": "Unnumbered native identity: C_CCS=C_capture+C_transportation+C_storage+C_monitoring",
+      "check": "All components must share currency/year, service boundary and mass denominator. A sum of separately quoted avoided/captured/transported costs is not automatically valid."
+    },
+    {
+      "id": "E002",
+      "pages": [
+        10
+      ],
+      "printed": "Unnumbered native identity: V_temp=V_perm−RC",
+      "check": "RC is discounted future replacement spending; subtracting it from monetary value does not calculate retained physical mass. Full native RC expression and timing are not printed."
+    },
+    {
+      "id": "E003",
+      "pages": [
+        10
+      ],
+      "printed": "Analyst isolated-cohort law R_t=(1−lambda)^t and release_t=lambda*(1−lambda)^(t−1)",
+      "check": "Explicit remaining-stock fractional release assumption; native Table 4/Fig 2 release basis is unspecified. Not a fitted site law."
+    },
+    {
+      "id": "E004",
+      "pages": [
+        10
+      ],
+      "printed": "Analyst year-end replacement RC/P0=sum release_t*((1+g)/(1+r))^t",
+      "check": "Uses an initial cohort, annual end-year replacement and price growthg. Under constant price, unrestricted RC/P0=lambda/(r+lambda). Neither timing convention is inferred to be native."
+    },
+    {
+      "id": "E005",
+      "pages": [
+        10
+      ],
+      "printed": "Analyst unrestricted temporary value/P0=r/(r+lambda), for constant price and r+lambda>0",
+      "check": "Year-end isolated-cohort diagnostic. Nine nonzero native cells remain outside nearest 0.1 percentage-point display rounding; not proof the authors model is erroneous."
+    },
+    {
+      "id": "E006",
+      "pages": [
+        10
+      ],
+      "printed": "Analyst year-start comparison RC_start=(1+r)*RC_end under constant price",
+      "check": "Moves each replacement one year earlier. Explicit alternative only; no native verification/renewal cycle established."
+    },
+    {
+      "id": "E007",
+      "pages": [
+        10,
+        11
+      ],
+      "printed": "Analyst finite-expiry RC_T/P0=lambda*h*sum(a^k, k=0..T−1)+a^T, h=(1+g)/(1+r), a=(1−lambda)*h",
+      "check": "Terminal term replaces surviving credits atT while the mass may remain stored. Independent cash-flow sums check the geometric expression, includinga=1."
+    },
+    {
+      "id": "E008",
+      "pages": [
+        11
+      ],
+      "printed": "Analyst zero-leak finite-credit value/P0=1−(1+r)^(-T)",
+      "check": "For constant price andlambda 0, physical retention stays 100% even when financial value is 18.86% at 1% discount/21 years. Expiry is not physical release."
+    },
+    {
+      "id": "E009",
+      "pages": [
+        10
+      ],
+      "printed": "Analyst convergence condition (1−lambda)*(1+g)/(1+r)<1 for positive release",
+      "check": "An increasing price path can reduce value or make unrestricted replacement PV diverge. Native footnote 25 supplies no path or parameter limits; no native growth calculation reproduced."
+    },
+    {
+      "id": "E010",
+      "pages": [
+        4
+      ],
+      "printed": "Analyst interval total and midpoint: low 476, high 5880, midpoint 3178 Gt",
+      "check": "Endpoint sums reproduce quoted range, but do not derive reported best 1660 or a probability median/mean."
+    },
+    {
+      "id": "E011",
+      "pages": [
+        6
+      ],
+      "printed": "Analyst mass ledger: retained=captured−downstream releases; avoided=baseline−uncaptured−utility emissions−downstream releases",
+      "check": "Disclosed 100 t baseline/90 captured/15 utility/2 transport loss/1 storage release gives 87 retained and 72 avoided. Utility carbon is distinct from fugitive original carbon."
+    },
+    {
+      "id": "E012",
+      "pages": [
+        4,
+        5
+      ],
+      "printed": "Analyst common-denominator cost c_avoided=c_transported*M_transported/M_avoided",
+      "check": "Disclosed 2 currency/t at 90 t versus 72 t avoided becomes 2.5 currency/t avoided. No source cost or accepted input corrected."
+    }
+  ],
+  "variables": [
+    {
+      "id": "V001",
+      "pages": [
+        4
+      ],
+      "name": "Listed geological resource",
+      "unit": "GtCO2 cumulative",
+      "assumption": "Oil/gas/coal intervals; no pressure/rate history or explicit aquifer column. Endpoint covariance and best-estimate selection unknown."
+    },
+    {
+      "id": "V002",
+      "pages": [
+        4,
+        5
+      ],
+      "name": "CCS and component costs",
+      "unit": "currency per matched mass service",
+      "assumption": "Euro and US dollar source ranges not harmonized by year/baseline. Captured, transported, avoided and monitored mass differ."
+    },
+    {
+      "id": "V003",
+      "pages": [
+        3
+      ],
+      "name": "Energy penalty",
+      "unit": "15–40% of energy output",
+      "assumption": "Gross/net/reference-output basis and compression allocation not sufficiently specified; not separate heat/electricity inventory."
+    },
+    {
+      "id": "V004",
+      "pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "name": "Capture, storage and buyer parties",
+      "unit": "historical AnnexI/nonAnnexI categories",
+      "assumption": "Tables 2/3 conditional 2006 policy framework; country group is not a safety or leakage distribution."
+    },
+    {
+      "id": "V005",
+      "pages": [
+        10
+      ],
+      "name": "Vtemp, Vperm, RC",
+      "unit": "monetary value or normalized percentage",
+      "assumption": "Vtemp+RC=Vperm; a financial fraction is not retained-carbon fraction."
+    },
+    {
+      "id": "V006",
+      "pages": [
+        10
+      ],
+      "name": "Release rate",
+      "unit": "printed percent; analyst lambda fraction/year",
+      "assumption": "Table columns 0, .01, .1, 1% converted to 0, .0001, .001, .01 for analyst model only; original stock/time law unknown."
+    },
+    {
+      "id": "V007",
+      "pages": [
+        10
+      ],
+      "name": "Discount rate",
+      "unit": "printed percent; analyst fraction/year",
+      "assumption": "1, 5, 10% financial discounting, not physical loss or climate decay."
+    },
+    {
+      "id": "V008",
+      "pages": [
+        10,
+        11
+      ],
+      "name": "Carbon price and growth",
+      "unit": "constant price native; analyst P0=1,g per year",
+      "assumption": "No currency price or native path invented. Positive release and sufficiently high growth can invalidate infinite PV."
+    },
+    {
+      "id": "V009",
+      "pages": [
+        11
+      ],
+      "name": "Crediting period versus retention",
+      "unit": "years",
+      "assumption": "Historical 21/60 maxima and 10/30 alternatives; expiry does not imply a physical release or expiry of every broader liability."
+    },
+    {
+      "id": "V010",
+      "pages": [
+        6
+      ],
+      "name": "Energy-related versus fugitive CO2",
+      "unit": "mass emission boundary",
+      "assumption": "CO2e and CO2f are graphic labels for energy/fugitive CO2; do not read the former as a complete multi-gas CO2e inventory."
+    },
+    {
+      "id": "V011",
+      "pages": [
+        12
+      ],
+      "name": "Conclusion (>0.01)",
+      "unit": "unit and direction unresolved",
+      "assumption": "Greater-than sign and absence of percent preserved; no automatic less-than 0.01% retention assumption."
+    },
+    {
+      "id": "V012",
+      "pages": [
+        5,
+        8,
+        12
+      ],
+      "name": "Site integrity and liability",
+      "unit": "qualitative site/accounting conditions",
+      "assumption": "Monitoring accuracy, default seepage, commingled sources and stock-dependent releases not quantitatively modeled."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "CCS non-permanence and cross-border accounting require liability arrangements.",
+      "assessment": "Historical problem framing; source abatement and atmospheric removal kept distinct, not current legal determination.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C002",
+      "pages": [
+        2
+      ],
+      "claim": "Efficiency improvements/no-regret measures did not meet earlier expectations.",
+      "assessment": "Cited historical policy interpretation, not independently verified energy trend.",
+      "reference_ids": [
+        "R024"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C003",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "CCS comprises capture including compression, transport and storage.",
+      "assessment": "Useful boundary decomposition, but no complete matched utility inventory.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C004",
+      "pages": [
+        3
+      ],
+      "claim": "Post/pre-combustion and oxyfuel are principal large-point-source capture routes.",
+      "assessment": "Historical technology description, not reproduced capture model.",
+      "reference_ids": [
+        "R034",
+        "R036"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C005",
+      "pages": [
+        3
+      ],
+      "claim": "Energy penalty 15–40% and compression additional energy.",
+      "assessment": "Denominator and compression allocation require care; no GJ/t or k Wh/t pair established.",
+      "reference_ids": [
+        "R014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C006",
+      "pages": [
+        3
+      ],
+      "claim": "Industrial hydrogen/gas processing separates CO2; DAC also proposed.",
+      "assessment": "Vented/used/sequestered and atmospheric/fossil sources differ.",
+      "reference_ids": [
+        "R012",
+        "R023",
+        "R026"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C007",
+      "pages": [
+        3
+      ],
+      "claim": "US pipeline length~2800 km and shipping favored over longer/water-separated routes.",
+      "assessment": "Historical infrastructure/economic context; no current universal ship/pipeline break-even.",
+      "reference_ids": [
+        "R008",
+        "R037"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C008",
+      "pages": [
+        3
+      ],
+      "claim": "Oil/gas, saline aquifers and coal seams offer storage; EOR/EGR/ECBM maturity differs.",
+      "assessment": "Historical market/technology categories, not current availability or net climate benefit.",
+      "reference_ids": [
+        "R025",
+        "R026"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C009",
+      "pages": [
+        4
+      ],
+      "claim": "Resource estimates are uncertain; quoted range 476–5880 Gt and best 1660 Gt.",
+      "assessment": "Five-column endpoints sum exactly; best estimate not derived from intervals. These are not annual pressure-safe capacities.",
+      "reference_ids": [
+        "R010",
+        "R016",
+        "R019"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C010",
+      "pages": [
+        4
+      ],
+      "claim": "Saline aquifers more evenly distributed; non-Annex I countries hold larger share.",
+      "assessment": "No aquifer column in Table 1; Annex allocation and joint uncertainty need original Hendriks data. Endpoint majority is not universal interval dominance.",
+      "reference_ids": [
+        "R016"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C011",
+      "pages": [
+        4
+      ],
+      "claim": "Full CCS cost includes capture, transport, storage and monitoring.",
+      "assessment": "Native sum requires common denominator, currency/year and scope; missing monitoring prevents a closed full-chain estimate.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C012",
+      "pages": [
+        4
+      ],
+      "claim": "Capture 24–52€/t avoided; ammonia/hydrogen lower.",
+      "assessment": "Historical reference-dependent cost, not capture utility or net-GHG factor.",
+      "reference_ids": [
+        "R016",
+        "R036"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C013",
+      "pages": [
+        4
+      ],
+      "claim": "Avoided cost includes energy penalty and exceeds captured cost under matched assumptions.",
+      "assessment": "Read all footnote 6 literature and baseline qualification; no universal cross-case ratio inferred.",
+      "reference_ids": [
+        "R002",
+        "R003",
+        "R004",
+        "R009",
+        "R017",
+        "R020",
+        "R026",
+        "R029",
+        "R030",
+        "R031",
+        "R032"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C014",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Gas/coal reference investment strongly changes avoidance costs.",
+      "assessment": "Counterfactual plant matters; no native same-case baseline reproduced.",
+      "reference_ids": [
+        "R001"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C015",
+      "pages": [
+        5
+      ],
+      "claim": "Pipeline 1–6€/t per 100 km, shipping cheaper at longer distances.",
+      "assessment": "Scale/state/terrain/regulation and route boundary matter; cannot linearize into a universal modern service cost.",
+      "reference_ids": [
+        "R007",
+        "R016"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C016",
+      "pages": [
+        5
+      ],
+      "claim": "Storage 1–11€/t and EOR−10 to 30 including oil revenue.",
+      "assessment": "Monetary revenue credits are not avoided climate emissions; source cost arrays and complete LCI absent.",
+      "reference_ids": [
+        "R011",
+        "R015",
+        "R016",
+        "R020",
+        "R028",
+        "R033",
+        "R037"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C017",
+      "pages": [
+        5
+      ],
+      "claim": "Full combinations span−3 to 106€/t avoided with little monitoring-cost experience.",
+      "assessment": "Unspecified distance, capture variant, matched denominator and monitoring prevent exact reconstruction; no definite arithmetic-error claim.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C018",
+      "pages": [
+        5
+      ],
+      "claim": "IPCC coal and NGCC-reference avoided costs have different ranges.",
+      "assessment": "Footnote 9 gives 0–70 and 20–270 US$/t with distinct baselines; original SPM unverified.",
+      "reference_ids": [
+        "R020"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C019",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Retention is site-specific; seepage and sudden releases uncertain.",
+      "assessment": "Geology/history/wells/seals and earthquakes discussed without calibrated leakage or pressure-service model.",
+      "reference_ids": [
+        "R005",
+        "R021",
+        "R026"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C020",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Strict site selection necessary but insufficient for full GHG accounting.",
+      "assessment": "Physical suitability and accounting completeness are different requirements.",
+      "reference_ids": [
+        "R014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C021",
+      "pages": [
+        6
+      ],
+      "claim": "Figure 1 identifies energy and fugitive emissions across capture/transport/injection/storage/EOR recapture.",
+      "assessment": "Qualitative diagram only; no supplier/mass/electricity totals or produced-oil-use emissions.",
+      "reference_ids": [
+        "R014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C022",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "Point-source CCS probably qualifies as source reduction under Article 1.8, assuming the authors framework.",
+      "assessment": "Explicit political/unresolved qualification and biomass exception preserved; no universal DAC/biomass/current-law claim.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C023",
+      "pages": [
+        7
+      ],
+      "claim": "Capture location determines Annex I mitigation versus CDM in all six cases.",
+      "assessment": "Mechanical reconstruction corroborates Tables 2/3. Case 4 has non-Annex storage without CDM under the assumed framework.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C024",
+      "pages": [
+        7
+      ],
+      "claim": "Annex I storage-country inventories cover seepage in cases 1–3.",
+      "assessment": "Requires ratification/inventory-quality assumptions; not current legal verification.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C025",
+      "pages": [
+        7
+      ],
+      "claim": "Storage in non-Annex I may leave no emission-budget deduction under then-current rules.",
+      "assessment": "Historical accounting gap, not a claim every such project has no present liability.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C026",
+      "pages": [
+        8
+      ],
+      "claim": "Options include storage ban, ex-ante discounting or monitored actual releases.",
+      "assessment": "Normative alternatives; no optimized policy selection or calibrated discount factor.",
+      "reference_ids": [
+        "R014",
+        "R038"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C027",
+      "pages": [
+        8
+      ],
+      "claim": "Credible standard seepage discount rates unavailable and shocks/wilful release problematic.",
+      "assessment": "2006 source quotation and uncertainty; no measured failure probability supplied.",
+      "reference_ids": [
+        "R005",
+        "R027"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C028",
+      "pages": [
+        8
+      ],
+      "claim": "Permanent-credit release/refill could create incentives to repeat credit issuance.",
+      "assessment": "Hypothetical moral hazard, not evidence of observed conduct.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C029",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "Exporting Annex I capture country could include non-Annex reservoir releases in its own inventory.",
+      "assessment": "Proposed case 4 accounting; HWP production approach is an analogy, not enacted CCS rule.",
+      "reference_ids": [
+        "R014",
+        "R035"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C030",
+      "pages": [
+        9
+      ],
+      "claim": "Temporary-credit buyers could retain liability in cases 5/6; case 3 can use permanent CER with Annex I storage inventory.",
+      "assessment": "Proposed instruments and parties are kept distinct from storage operators and current treaty obligations.",
+      "reference_ids": [
+        "R006"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C031",
+      "pages": [
+        9
+      ],
+      "claim": "Economic comparisons must include replacement costs for non-permanence.",
+      "assessment": "Cited economic background, not verified native valuation or storage-effectiveness model.",
+      "reference_ids": [
+        "R018",
+        "R022"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C032",
+      "pages": [
+        10
+      ],
+      "claim": "RC is discounted permanent-credit purchases compensating future releases; Vtemp=Vperm−RC.",
+      "assessment": "Printed identity checked; source does not give full RC recurrence/payment timing. Financial value not physical retention.",
+      "reference_ids": [
+        "R013"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C033",
+      "pages": [
+        10
+      ],
+      "claim": "Table 4 values increase with discounting and decrease with releases under constant price.",
+      "assessment": "All 12 native cells preserve these ordinal trends. Native model not reproduced by two disclosed initial-cohort timing assumptions.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C034",
+      "pages": [
+        10
+      ],
+      "claim": "Temporary value loss almost negligible when release rates are small and credit generation unrestricted.",
+      "assessment": "Conditional economic statement; no measured rate or permanence factor. Native 1% release/1% discount cell 48.5% demonstrates scope of the qualification.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C035",
+      "pages": [
+        10
+      ],
+      "claim": "Economic compensation applies across all six cases when some party remains liable.",
+      "assessment": "Accounting-party reconstruction is not proof of enforcement, solvency or actual collection.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C036",
+      "pages": [
+        10
+      ],
+      "claim": "Increasing permanent-credit prices preserve the general tendency.",
+      "assessment": "Price path and convergence conditions omitted. Analyst examples show growing replacement costs and divergence for some paths; no blanket native-error claim.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C037",
+      "pages": [
+        11
+      ],
+      "claim": "Historical credit periods max 21 years energy and 60 forestry, with 10/30 alternatives.",
+      "assessment": "Footnote 26 seven/twenty years plus two renewals gives stated maxima; historical instruments not reverified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C038",
+      "pages": [
+        11
+      ],
+      "claim": "Expiry of temporary credits acts financially like releasing all surviving carbon at credit-period end.",
+      "assessment": "Accounting equivalence, explicitly possible continued physical storage; no physical release inferred.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C039",
+      "pages": [
+        11
+      ],
+      "claim": "Short 20–60 year crediting periods can reduce CCS CDM attractiveness.",
+      "assessment": "Synthetic finite-expiry examples support the mechanism, not the authors numeric model or current project profitability.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C040",
+      "pages": [
+        11
+      ],
+      "claim": "Figure 2 illustrates missed value after crediting ends for 0/1/5/10% release paths.",
+      "assessment": "Schematic/unscaled plot; release normalization and time law not identified from line shape.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C041",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Capture does not prevent CO2 formation, and accounting must include later releases.",
+      "assessment": "Applies to discussed point-source framing; biomass caveat remains, no whole-chain LCA result.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C042",
+      "pages": [
+        12
+      ],
+      "claim": "Release rates as small as widely suggested (>0.01) make replacement costs almost negligible.",
+      "assessment": "Literal greater-than sign and missing unit preserved as unresolved notation; no corrected<0.01% assumed.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C043",
+      "pages": [
+        12
+      ],
+      "claim": "Shared stores, several exporters, stock-dependent releases and transboundary reservoirs complicate accounting.",
+      "assessment": "Explicit limitation; fixed six-case taxonomy does not solve commingled allocation or multi-country plume liability.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C044",
+      "pages": [
+        12
+      ],
+      "claim": "Future targets for non-Annex countries may change allocation.",
+      "assessment": "Historical policy uncertainty, not a 2026 national-target classification.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C045",
+      "pages": [
+        12
+      ],
+      "claim": "Complete accurate accounting and long-term liability are necessary for credibility.",
+      "assessment": "Author conclusion/recommendation, not demonstrated legal enforcement or retained-carbon guarantee.",
+      "reference_ids": [],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C046",
+      "pages": [
+        12,
+        13,
+        14
+      ],
+      "claim": "Bibliography, report identities and source spellings underpin the evidence chain.",
+      "assessment": "All 38 native entries read, none verified against exact originals; placeholder Pearce identifiers and author/year ambiguities remain open.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C047",
+      "pages": [
+        1,
+        14
+      ],
+      "claim": "No separately retained supplement, code or explicit availability statement identified.",
+      "assessment": "No online absence inferred; external retrieval paused pending requested Chrome connection.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C048",
+      "pages": [
+        4,
+        6,
+        10,
+        11
+      ],
+      "claim": "Paper 1 must separate financial credit value/expiry, physical retention and net avoided mass.",
+      "assessment": "39 limited checks and disclosed models add no native pressure-constrained annual service, complete capture-to-ship inventory or accepted operating/GHG input.",
+      "reference_ids": [],
+      "kind": "audit_scope_implication"
+    }
+  ],
+  "references": [
+    {
+      "id": "R001",
+      "pages": [
+        12
+      ],
+      "citation": "Anderson, S., & Newell, R. (2003). Prospects for carbon capture and storage technologies, resources for the future. Resources for the Future, Discussion Paper 02–68.http://www.rff.org",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        12
+      ],
+      "citation": "Audus, H. (2000). Leading options for the capture of CO2 at power stations. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth Inter- national Conference on Greenhouse Gas Control Technologies—13–16 August 2000 CD ROM (pp. 91–96). Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        13
+      ],
+      "citation": "Condorelli, P., Smelser, S. C., & McCleary, G. J. (1991). Engineering and economic evaluation of CO2 removal from fossil-fuel-ﬁred power plants, Volume 2: Coal gasiﬁcation combined-cycle power plants. Report No: IE-7365, Palo Alto: EPRI.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        13
+      ],
+      "citation": "David, J., & Herzog, H. (2001). The cost of carbon capture. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas Control Technologies—13–1 6 August 2000 CD ROM (pp. 985–990). Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        13
+      ],
+      "citation": "DTI (2004). Monitoring, reporting and veriﬁcation guidelines for CO2 capture and storage under the EU.ETS, DTI Ad hoc group on CO2 capture and storage, October 2004. (CD-ROM).",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019",
+        "C027"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        13
+      ],
+      "citation": "Dutschke, M., Schlamadinger, B., Wong, J. L. P., & Romberg, M. (2004). Value and risks of expiring carbon credits from CDM afforestation and reforestation. Hamburg, Institute of International Economics, HWWA Discussion Paper 290.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C030"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        13
+      ],
+      "citation": "Freund, P., & Davison, J. (2002), General overview of costs. Proceedings of the IPCC Workshop on Carbon Dioxide Capture and Storage—18–21 November 2002. Regina: ECN.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C015"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        13
+      ],
+      "citation": "Gale, J., & Davison, J. (2004). Transmission of CO2—safety and economic considerations. Energy, 29(19–10), 1319–1328.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        13
+      ],
+      "citation": "Go¨ttlicher, G., & Pruschek, R. (1999). Analysis of development potential for power stations with CO2 removal/concentrations. In B. Eliason, P. Riemer, & A. Wokaun (Eds.), Greenhouse Gas Control Technologies, Proceedings of the 4th International Conference on Greenhouse Gas Control Technologies, 30 August–2 September 1998 (pp. 83–88). Amsterdam: Pergamon.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        13
+      ],
+      "citation": "Grimston, M. C., Karakoussis, V., Fouquet, R., Vorst, R., van der Person, P., & Leach, M. (2001). The European and the global potential of carbon dioxide sequestration tackling climate change. Climate Policy, 1, 155–171.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        13
+      ],
+      "citation": "Gupta, N. J., Smith, B., Sass, S., Chattopadhyay, S., & Byrer, C. W., (2002). Engineering and economic assessment of CO2 sequestration in saline reservoirs. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas Control Technologies, 13–16 August 2000 CD ROM. Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        13
+      ],
+      "citation": "Ha-Duong, M., & Keith, D. W. (2002). Climate strategy with CO2 capture from the air, September 11, 2002, retrievable online: http://ideas.repec.org/p/hal/papers/ halshs-00003926_vl.html , accessed: 17 August 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        13
+      ],
+      "citation": "Ha-Duong, M., & Keith, D. W. (2003). Carbon storage: The economic efﬁciency of storing CO2 in leaky reservoirs. Clean Technology and Environmental Policy, 5, 181–189.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C032"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        13
+      ],
+      "citation": "Heafeli, S., Bosi, M., & Philibert, C. (2004). Carbon dioxide capture and storage issues—accounting and baselines under the United Nations Framework Convention on Climate Change (UNFCCC). Paris: IEA Information Paper.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C020",
+        "C021",
+        "C026",
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        13
+      ],
+      "citation": "Hendriks, C., Wildenborg, A. F. B., Blok, K., Floris, F., & Van Wees, J. D. (2001). Costs of carbon dioxide removal by underground storage. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas Control Technologies, 13–16 August 2000 CD ROM. Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        13
+      ],
+      "citation": "Hendriks, C., Graus, W., & van Bergen, F. (2004). Global carbon dioxide storage potential and costs. Utrecht: Ecofys.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009",
+        "C010",
+        "C012",
+        "C015",
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        13
+      ],
+      "citation": "Herzog, H. (1999). The economics of CO2 capture. In B. Eliason, P. Riemer, & A. Wokaun (Eds.), Greenhouse Gas Control Technologies, Proceedings of the 4th International Conference on Greenhouse Gas Control Technologies, 30 August–2 September 1998 (pp. 101–106), Amsterdam: Pergamon.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        13
+      ],
+      "citation": "Herzog, H., Caldeira, K., & Reilly, J. (2003). An issue of permanence: Assessing the effectiveness of temporary carbon storage. Climatic Change, 59(3), 293–310.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C031"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        13
+      ],
+      "citation": "IEA (2001). Putting carbon back in the ground. Cheltenham: IEA Greenhouse Gas R&D Pro- gramme.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        13
+      ],
+      "citation": "IPCC (2005). IPCC Special Report on Carbon Dioxide Capture and Storage, Summary for Policy- makers. Cambridge University Press.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013",
+        "C016",
+        "C018"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        13
+      ],
+      "citation": "Jimenez, J. A., & Chatlaturnyk, R. J. (2003). Are disused hydrocarbon reservoirs safe for geological storage of CO2? In Y. Kaya, & J. Gale (Eds.), GHGT-6: Sixth International Conference on Greenhouse Gas Control Technologies CD ROM. Kyoto: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        13
+      ],
+      "citation": "Kallbekken, S., & Torvanger, A. (2004). Can geological carbon storage be competitive? Oslo: CI- CERO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C031"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        13
+      ],
+      "citation": "Lackner, K. S., Grimes, P., & Ziock, H. J. (1999). Carbon dioxide extraction from the air? Los Alamos: Los Alamos National Laboratory.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        14
+      ],
+      "citation": "Michaelowa, A. (2005). Carbon capture and geological storage research—a capture by fossil fuel interests? In Governing climate: The Struggles For A Global Framework Beyond Kyoto, Taishi Sugiyama (Ed.), IISD, 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        14
+      ],
+      "citation": "OECD/IEA (2003). CO2 capture and storage in geological formations. Paris: IEA.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        14
+      ],
+      "citation": "OECD/IEA (2004). Prospects for CO2 capture and storage, energy technology analysis. Paris: OECD/ IEA.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006",
+        "C008",
+        "C013",
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        14
+      ],
+      "citation": "Pearce, J., Chadwick, A., Bentham, M., Holloway, S., & Kirby, G. (2004). A technology status review of monitoring technologies for CO2 storage. Report No., COAL Rxxx, DTI/Pub, URN 05/xxx, February 2005, Nottingham: British Geological Survey.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C027"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        14
+      ],
+      "citation": "Reeves, S. R., & Schoeling, L. (2001). Geological sequestration of CO2 in coal seams: reservoir mechanisms, ﬁeld performance and economics. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas Control Technologies, 13–16 August 2000. Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        14
+      ],
+      "citation": "Reimer, P., Audus, H., & Smith, A. (1999). Carbon dioxide capture from power stations. Glouces- tershire: IEA GHG R&D Programme.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        14
+      ],
+      "citation": "Rubin, E. S., & Rao, A. (2003). Uncertainties in CO2 capture and sequestration costs. In Y. Kaya, & J. Gale (Eds.), GHGT-6: Sixth International Conference on Greenhouse Gas Control Technol- ogies CD ROM. Kyoto: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R030"
+    },
+    {
+      "id": "R031",
+      "pages": [
+        14
+      ],
+      "citation": "Simbeck, D. (1999). A portfolio selection approach for power plant CO2 capture, separation and R&D options. In B. Eliason, P. Riemer, & A. Wokaun (Eds.), Greenhouse Gas Control Tech- nologies, Proceedings of the 4th International Conference on Greenhouse Gas Control Tech- nologies, 30 August–2 September 1998 (pp. 119–124). Amsterdam: Pergamon.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R031"
+    },
+    {
+      "id": "R032",
+      "pages": [
+        14
+      ],
+      "citation": "Smelser, S. C. (1991). An engineering and economic evaluation of CO2 removal from fossil fuel-ﬁred power plants, Vol 1: Pulverised coal-ﬁred power plants. Report IE-7365, Palo Alto: EPRI.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R032"
+    },
+    {
+      "id": "R033",
+      "pages": [
+        14
+      ],
+      "citation": "Smith, L., Gupta, N., Sass, B., & Bubenik, T., (2001). Carbon dioxide sequestration in deep saline formations—engineering and economic assessment. Columbus: BATTELLE.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R033"
+    },
+    {
+      "id": "R034",
+      "pages": [
+        14
+      ],
+      "citation": "Thambimuthu, K., Davison, J., & Gupta, M. (2002). CO2 capture and reuse. Proceedings of the IPCC Workshop on Carbon Dioxide Capture and Storage, online: http://arch.rivm.nl/env/int/ipcc/pa- ges_media/ccs2002.html, accessed: 8 June 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R034"
+    },
+    {
+      "id": "R035",
+      "pages": [
+        14
+      ],
+      "citation": "UNFCCC (2003). Estimation, reporting and accounting of harvested wood products—technical paper. UN FCCC/TP/2003/7, online: http://unfccc.int/resource/docs/tp/tpO3 07.pdf, accessed: 8 June 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R035"
+    },
+    {
+      "id": "R036",
+      "pages": [
+        14
+      ],
+      "citation": "VGB (2004). CO2 capture and storage—a VGB report on the state of the art. Essen: VGB Power Tech",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004",
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R036"
+    },
+    {
+      "id": "R037",
+      "pages": [
+        14
+      ],
+      "citation": "Wildenborg, A. F. B., & Van der Meer, L. G. H. (2002). The use of oil, gas and coal ﬁelds as CO2 sinks. Proceedings of the IPCC Workshop on Carbon Dioxide Capture and storage, online: http: //arch.rivm.nl/env/int/ipcc/pages_media/ccs2002.html, accessed: 8 June 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007",
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R037"
+    },
+    {
+      "id": "R038",
+      "pages": [
+        14
+      ],
+      "citation": "Yoshigahara, C., Itaoka, K., & Akai, M. (2004). Draft accounting rules for carbon capture and storage technology. GHGT-7 Seventh International Conference on Greenhouse Gas Control Technologies. Vancouver: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R038"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        2,
+        6,
+        7,
+        11,
+        12
+      ],
+      "citation": "UNFCCC Articles1.8/2 and Kyoto AnnexI/AnnexB,ratification and inventory rules",
+      "role": "Named legal authorities not supplied as primary instruments; historical reading not present legal verification.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        9,
+        11
+      ],
+      "citation": "Original CDM/JI modalities, temporary/long-term CER rules and renewal terms",
+      "role": "Historical rules cited in prose/notes; no original governing decisions or current amendments verified.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        4
+      ],
+      "citation": "Hendriks2004 regional allocation and best-estimate arrays",
+      "role": "Essential Table 1 source; covariance, former Soviet classification, saline coverage and 1660 Gt best selection unknown.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        6
+      ],
+      "citation": "Heafeli/Haefeli2004 original Figure1 and accounting boundaries",
+      "role": "Exact original figure/page 15 and spellings unverified; qualitative copied diagram not a full inventory.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        10
+      ],
+      "citation": "Native Table4 replacement-cost calculation and release/time/renewal conventions",
+      "role": "Printed identity and 12 values insufficient to reproduce exact native financial model.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        10
+      ],
+      "citation": "Original price paths, discount basis and unrestricted horizon",
+      "role": "Stable native price assumption noted; increasing-price footnote lacks a specified convergent path.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        11
+      ],
+      "citation": "Finite-credit expiry versus actual storage duration and renewal timing",
+      "role": "Need author/legal correspondence; synthetic terminal replacement does not cause physical release.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        5,
+        8,
+        12
+      ],
+      "citation": "Monitoring accuracy, seepage calibration and event/wilful-release accounting",
+      "role": "Qualitative cited conditions, not field probabilities, permanent-retention or annual-service data.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        4,
+        5
+      ],
+      "citation": "Matched capture/transport/storage/monitoring cost and heat/electricity inventories",
+      "role": "Audit requirement, not advertised author dataset. Common currency, year, baseline and mass basis unresolved.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        12
+      ],
+      "citation": "Multi-exporter commingled store and transboundary allocation model",
+      "role": "Explicit author limitation; no source-flow tracing or liability-allocation solver reproduced.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D11",
+      "pages": [
+        13,
+        14
+      ],
+      "citation": "Exact reference identities, report versions, spelling and placeholders",
+      "role": "Pearce 2004 entry includes February 2005 andxxx report identifiers; native spelling/year preserved, not corrected.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D12",
+      "pages": [
+        1,
+        14
+      ],
+      "citation": "Publisher supplements/code/data, asset rights and later legal developments",
+      "role": "Online assets not retrieved under pause. Local absence not web absence; no current project permission or author-model execution inferred.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I001",
+      "pages": [
+        1,
+        6,
+        7,
+        8,
+        9,
+        11,
+        12
+      ],
+      "status": "open",
+      "finding": "2006 legal/accounting context and proposals do not establish present permits, eligibility or enforceable liability.",
+      "action": "Verify exact historical instruments and later/current rules before applying to a specific project; retain assumed classification and biomass caveat."
+    },
+    {
+      "id": "I002",
+      "pages": [
+        10
+      ],
+      "status": "open",
+      "finding": "Native Table 4 release/timing/renewal/horizon recurrence absent; candidate cash flows do not reproduce nine nonzero-release cells.",
+      "action": "Keep all 12 reported values and explicit candidate assumptions. Obtain native calculation and essential originals; do not infer author error or fit a leakage rate."
+    },
+    {
+      "id": "I003",
+      "pages": [
+        12
+      ],
+      "status": "open",
+      "finding": "Literal (>0.01) has unresolved greater-than direction and missing unit.",
+      "action": "Preserve quote; no silent<0.01% correction or field-retention input."
+    },
+    {
+      "id": "I004",
+      "pages": [
+        4
+      ],
+      "status": "open",
+      "finding": "Table 1 totals close but saline aquifers have no column and 1660 Gt best estimate is not identified from bounds.",
+      "action": "Acquire original Hendriks data, region/media coverage and best-selection method; do not treat 3178 midpoint as a corrected best estimate."
+    },
+    {
+      "id": "I005",
+      "pages": [
+        4
+      ],
+      "status": "open",
+      "finding": "Annex/non-Annex allocation and shared uncertainty do not support universal majority across every independent interval combination.",
+      "action": "Preserve native former Soviet footnote; no current country allocation or probability inferred."
+    },
+    {
+      "id": "I006",
+      "pages": [
+        3,
+        4,
+        5
+      ],
+      "status": "open",
+      "finding": "Energy/cost denominators, compression allocation, monitoring duty and currency/year do not form a matched full-chain inventory.",
+      "action": "Exclude unsupported utilities/costs/GHG factors; distinguish capture, avoided and transported mass and monetary EOR revenues."
+    },
+    {
+      "id": "I007",
+      "pages": [
+        6
+      ],
+      "status": "open",
+      "finding": "Figure 1 is a qualitative energy/fugitive CO2 boundary, not a complete multi-gas or produced-oil LCA.",
+      "action": "Do not read CO2e graphic subscript as a measured climate-equivalent inventory or assign numeric intensities."
+    },
+    {
+      "id": "I008",
+      "pages": [
+        10,
+        11
+      ],
+      "status": "open",
+      "finding": "Financial value and credit expiry differ from physical carbon retention and monitoring duration.",
+      "action": "Keep monetary and mass ledgers separate; do not make 21/60 years a physical release event or a financial fraction a retained-carbon factor."
+    },
+    {
+      "id": "I009",
+      "pages": [
+        10
+      ],
+      "status": "open",
+      "finding": "Increasing-price claim lacks growth/convergence limits; unrestricted PV may diverge under some disclosed alternatives.",
+      "action": "Specify annual price and discount conventions and finite/unrestricted horizon before adopting the financial generalization."
+    },
+    {
+      "id": "I010",
+      "pages": [
+        5,
+        8,
+        12
+      ],
+      "status": "open",
+      "finding": "No calibrated leakage/event model, monitoring accuracy, solvency/enforcement or pressure-safe annual service supplied.",
+      "action": "Preserve qualitative risk/accountability roles; require actual native physical/control data and complete avoided-emission inventory."
+    },
+    {
+      "id": "I011",
+      "pages": [
+        12
+      ],
+      "status": "open",
+      "finding": "Several exporters, commingled stocks and transboundary reservoirs are explicitly outside the simple liability taxonomy.",
+      "action": "Do not claim Table 3 solves multi-party physical allocation or current treaty obligations."
+    },
+    {
+      "id": "I012",
+      "pages": [
+        12,
+        13,
+        14
+      ],
+      "status": "open",
+      "finding": "All 38 cited originals and twelve dependencies remain unverified; bibliographic metadata contain unresolved spellings/versions/placeholders.",
+      "action": "Obtain exact originals and relevant passages after external retrieval resumes; do not substitute a related report or publisher title match."
+    },
+    {
+      "id": "I013",
+      "pages": [
+        1,
+        14
+      ],
+      "status": "open",
+      "finding": "No explicit SI/code/data section or embedded assets; native author model and online supplements not available locally.",
+      "action": "Do not infer online absence or successful reproduction. Keep paper incomplete and continue B3-02 locally."
+    }
+  ],
+  "supplements": "No embedded files and no explicit supplementary-information/code/data-availability statement identified in the retained 14-page paper. This does not establish online absence. Native Table 4 calculations, exact original sources and relevant legal instruments remain unverified locally; external retrieval is paused pending the requested Chrome connection. No author contacted.",
+  "reproduction": "audit_ccs_liability.py checks 39 source/analyst components, 30 capacity cells, six mechanical historical classifications, 12 reported financial cells, 24 finite-credit examples and three price-growth cases. Nine tests compare cash flows with geometric sums and conservation/limits. Two candidate timing conventions do not reproduce the source Table 4; no author financial, process, reservoir, monitoring or liability-enforcement model is claimed reproduced.",
+  "paper1_use": "Use as historical prior work distinguishing credit expiry and financial replacement value from physical retention, complete emissions accounting and multi-country responsibility. Preserve the conditional point-source/biomass classification, omitted native valuation conventions, resource/cost boundaries and unresolved notation. No accepted operating/GHG input or primary numerical result changes; the combined 1.5 MPa source-case HOLD remains.",
+  "next_steps": "Continue B3-02 locally. Verify all 38 exact cited originals and twelve dependencies, obtain native financial timing/release/renewal calculations and resolve resource/notation/reference issues when retrieval resumes. Current legal applicability and field retention/service require separate evidence. Keep the comprehensive goal active and this paper incomplete."
+}

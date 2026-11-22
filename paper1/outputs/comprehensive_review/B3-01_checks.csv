@@ -1,0 +1,40 @@
+item,value,unit,scope
+onshore_remaining_oil_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_remaining_oil_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_depleted_oil_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_depleted_oil_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_remaining_gas_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_remaining_gas_high_Gt_closure,0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_depleted_gas_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_depleted_gas_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_ECBM_low_Gt_closure,0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+onshore_ECBM_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_remaining_oil_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_remaining_oil_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_depleted_oil_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_depleted_oil_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_remaining_gas_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_remaining_gas_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_depleted_gas_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_depleted_gas_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_ECBM_low_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+offshore_ECBM_high_Gt_closure,0.0,Gt,"Printed group endpoint sums, not correlated uncertainty scenarios"
+Annex_I_low_Gt_sum,173.7,Gt,Five listed media columns; saline aquifers have no explicit Table1 column
+Annex_I_high_Gt_sum,2050.1,Gt,Five listed media columns; saline aquifers have no explicit Table1 column
+non_Annex_I_low_Gt_sum,302.3,Gt,Five listed media columns; saline aquifers have no explicit Table1 column
+non_Annex_I_high_Gt_sum,3829.8999999999996,Gt,Five listed media columns; saline aquifers have no explicit Table1 column
+total_low_Gt_sum,476,Gt,Five listed media columns; saline aquifers have no explicit Table1 column
+total_high_Gt_sum,5880,Gt,Five listed media columns; saline aquifers have no explicit Table1 column
+range_midpoint,3178.0,Gt,"3178 is only an interval midpoint, not the reported1660 best estimate or an identified statistical mean"
+non_Annex_share_low_Gt,63.50840336134455,%,Paired endpoint totals only; not guaranteed dominance under every joint allocation
+non_Annex_share_high_Gt,65.1343537414966,%,Paired endpoint totals only; not guaranteed dominance under every joint allocation
+analyst_independent_interval_non_Annex_share_low,12.850705662302332,%,Counterexample under independent bounds; native correlation/region allocation unknown
+historical_energy_renewable_max,21,years,2006 historical7years plus two renewals; not a physical retention period or current eligibility rule
+historical_forestry_renewable_max,60,years,2006 historical20years plus two renewals; not release at expiry
+analyst_ledger_captured_t,90,t,"Synthetic gross100/captured90/utility15/transportloss2/storageloss1, not an observed facility inventory"
+analyst_ledger_retained_t,87,t,"Synthetic gross100/captured90/utility15/transportloss2/storageloss1, not an observed facility inventory"
+analyst_ledger_emitted_t,28,t,"Synthetic gross100/captured90/utility15/transportloss2/storageloss1, not an observed facility inventory"
+analyst_ledger_avoided_t,72,t,"Synthetic gross100/captured90/utility15/transportloss2/storageloss1, not an observed facility inventory"
+analyst_ledger_physical_balance_residual_t,0,t,"Synthetic gross100/captured90/utility15/transportloss2/storageloss1, not an observed facility inventory"
+analyst_transport_cost_per_t_avoided,2.5,currency/t avoided,2 per captured tonne ×90/72=2.5; not a new native transport cost
+analyst_loss_of_financial_value_without_leakage,18.856983134921247,%,Zero physical leakage retains100% mass while finite21-year credit value is below100%; no retention factor inferred

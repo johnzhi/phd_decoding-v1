@@ -1,0 +1,25 @@
+release_percent,discount_percent,credit_expiry_year,value_fraction,replacement_fraction,physical_retention,scope
+0,1,21,0.18856983134921246,0.8114301686507875,1.0,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0,1,60,0.44955038406224035,0.5504496159377597,1.0,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0,5,21,0.6410576353590474,0.35894236464095264,1.0,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0,5,60,0.9464644762535059,0.053535523746494104,1.0,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0,10,21,0.8648694290689604,0.1351305709310396,1.0,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0,10,60,0.9967157297185272,0.003284270281472817,1.0,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.01,1,21,0.18838824928588271,0.8116117507141173,0.9979020986705985,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.01,1,60,0.44835976000914735,0.5516402399908527,0.9940176658287095,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.01,5,21,0.640529601819367,0.359470398180633,0.9979020986705985,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.01,5,60,0.9448949537391141,0.05510504626088591,0.9940176658287095,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.01,10,21,0.8642886310423169,0.1357113689576831,0.9979020986705985,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.01,10,60,0.9957396376831766,0.004260362316823396,0.9940176658287095,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.1,1,21,0.18676412628876815,0.8132358737112318,0.9792086759647052,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.1,1,60,0.4378378510405416,0.5621621489594584,0.9417362622231682,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.1,5,21,0.6358044336983257,0.3641955663016743,0.9792086759647052,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.1,5,60,0.9309643685988401,0.0690356314011599,0.9417362622231682,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.1,10,21,0.8590880916398632,0.14091190836013678,0.9792086759647052,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+0.1,10,60,0.9870367164168269,0.012963283583173123,0.9417362622231682,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+1,1,21,0.17148118966399095,0.828518810336009,0.8097278682212584,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+1,1,60,0.349408918169106,0.650591081830894,0.5471566423907612,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+1,5,21,0.5911286368874864,0.40887136311251365,0.8097278682212584,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+1,5,60,0.8089230688151978,0.19107693118480215,0.5471566423907612,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+1,10,21,0.8096191007895346,0.19038089921046547,0.8097278682212584,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon
+1,10,60,0.9074572633637142,0.09254273663628575,0.5471566423907612,Analyst finite-credit cash flows; credit replacement at T does not physically release retained carbon

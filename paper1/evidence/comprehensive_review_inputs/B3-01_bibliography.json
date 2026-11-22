@@ -1,0 +1,1577 @@
+{
+  "study_id": "B3-01",
+  "source_sha256": "02d7121b5e02ef464fb6a377444f339015efacc035060a8c0f15fbe757e9dde8",
+  "provenance": "All 38 printed entries read as text and rendered pages. Page/line geometry retained. Native spelling, hyphenation, placeholder report identifiers and years preserved; no original source has been verified in this record.",
+  "entries": [
+    {
+      "id": "R001",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Anderson, S., & Newell, R. (2003). Prospects for carbon capture and storage technologies, resources",
+        "for the future. Resources for the Future, Discussion Paper 02–68.http://www.rff.org"
+      ],
+      "line_bboxes": [
+        [
+          42.51969909667969,
+          553.6328125,
+          388.41290283203125,
+          561.60302734375
+        ],
+        [
+          56.693111419677734,
+          562.81689453125,
+          347.5345458984375,
+          570.787109375
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Anderson, S., & Newell, R. (2003). Prospects for carbon capture and storage technologies, resources for the future. Resources for the Future, Discussion Paper 02–68.http://www.rff.org",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "Audus, H. (2000). Leading options for the capture of CO2 at power stations. In D. Williams, B.",
+        "Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth Inter-",
+        "national Conference on Greenhouse Gas Control Technologies—13–16 August 2000 CD ROM",
+        "(pp. 91–96). Cairns: CSIRO."
+      ],
+      "line_bboxes": [
+        [
+          42.51969909667969,
+          572.0574951171875,
+          388.3533020019531,
+          581.3320922851562
+        ],
+        [
+          56.69255065917969,
+          581.1844482421875,
+          388.4059143066406,
+          589.2122802734375
+        ],
+        [
+          56.69255065917969,
+          590.4251098632812,
+          388.40673828125,
+          598.4529418945312
+        ],
+        [
+          56.69255065917969,
+          599.6668090820312,
+          155.88967895507812,
+          607.6370239257812
+        ]
+      ],
+      "line_pages": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "citation": "Audus, H. (2000). Leading options for the capture of CO2 at power stations. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth Inter- national Conference on Greenhouse Gas Control Technologies—13–16 August 2000 CD ROM (pp. 91–96). Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Condorelli, P., Smelser, S. C., & McCleary, G. J. (1991). Engineering and economic evaluation of",
+        "CO2 removal from fossil-fuel-ﬁred power plants, Volume 2: Coal gasiﬁcation combined-cycle",
+        "power plants. Report No: IE-7365, Palo Alto: EPRI."
+      ],
+      "line_bboxes": [
+        [
+          51.02360153198242,
+          58.19258117675781,
+          396.87603759765625,
+          66.22039794921875
+        ],
+        [
+          65.19700622558594,
+          67.43324279785156,
+          396.85992431640625,
+          76.70770263671875
+        ],
+        [
+          65.19670867919922,
+          76.61756896972656,
+          249.01434326171875,
+          84.6453857421875
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13
+      ],
+      "citation": "Condorelli, P., Smelser, S. C., & McCleary, G. J. (1991). Engineering and economic evaluation of CO2 removal from fossil-fuel-ﬁred power plants, Volume 2: Coal gasiﬁcation combined-cycle power plants. Report No: IE-7365, Palo Alto: EPRI.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "David, J., & Herzog, H. (2001). The cost of carbon capture. In D. Williams, B. Durie, P. McMullan,",
+        "C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on",
+        "Greenhouse Gas Control Technologies—13–1 6 August 2000 CD ROM (pp. 985–990). Cairns:",
+        "CSIRO."
+      ],
+      "line_bboxes": [
+        [
+          51.02330017089844,
+          85.91584777832031,
+          396.8600769042969,
+          93.88604736328125
+        ],
+        [
+          65.19670867919922,
+          95.04225158691406,
+          396.86456298828125,
+          103.070068359375
+        ],
+        [
+          65.19670867919922,
+          104.28291320800781,
+          396.8934326171875,
+          112.31072998046875
+        ],
+        [
+          65.19670867919922,
+          113.58119201660156,
+          93.24384307861328,
+          121.5513916015625
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "citation": "David, J., & Herzog, H. (2001). The cost of carbon capture. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas Control Technologies—13–1 6 August 2000 CD ROM (pp. 985–990). Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "DTI (2004). Monitoring, reporting and veriﬁcation guidelines for CO2 capture and storage under the",
+        "EU.ETS, DTI Ad hoc group on CO2 capture and storage, October 2004. (CD-ROM)."
+      ],
+      "line_bboxes": [
+        [
+          51.02330017089844,
+          122.76527404785156,
+          396.89105224609375,
+          132.0408935546875
+        ],
+        [
+          65.19612884521484,
+          130.19711303710938,
+          366.7200927734375,
+          141.28179931640625
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "DTI (2004). Monitoring, reporting and veriﬁcation guidelines for CO2 capture and storage under the EU.ETS, DTI Ad hoc group on CO2 capture and storage, October 2004. (CD-ROM).",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019",
+        "C027"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Dutschke, M., Schlamadinger, B., Wong, J. L. P., & Romberg, M. (2004). Value and risks of expiring",
+        "carbon credits from CDM afforestation and reforestation. Hamburg, Institute of International",
+        "Economics, HWWA Discussion Paper 290."
+      ],
+      "line_bboxes": [
+        [
+          51.02275848388672,
+          141.19178771972656,
+          396.92010498046875,
+          149.1619873046875
+        ],
+        [
+          65.1961669921875,
+          150.4324188232422,
+          396.87451171875,
+          158.40261840820312
+        ],
+        [
+          65.1961669921875,
+          159.6165008544922,
+          216.1151580810547,
+          167.58670043945312
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13
+      ],
+      "citation": "Dutschke, M., Schlamadinger, B., Wong, J. L. P., & Romberg, M. (2004). Value and risks of expiring carbon credits from CDM afforestation and reforestation. Hamburg, Institute of International Economics, HWWA Discussion Paper 290.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C030"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Freund, P., & Davison, J. (2002), General overview of costs. Proceedings of the IPCC Workshop on",
+        "Carbon Dioxide Capture and Storage—18–21 November 2002. Regina: ECN."
+      ],
+      "line_bboxes": [
+        [
+          51.02275848388672,
+          168.7995147705078,
+          396.8631286621094,
+          176.82733154296875
+        ],
+        [
+          65.1961669921875,
+          177.9835968017578,
+          333.2882080078125,
+          186.01141357421875
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Freund, P., & Davison, J. (2002), General overview of costs. Proceedings of the IPCC Workshop on Carbon Dioxide Capture and Storage—18–21 November 2002. Regina: ECN.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C015"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Gale, J., & Davison, J. (2004). Transmission of CO2—safety and economic considerations. Energy,",
+        "29(19–10), 1319–1328."
+      ],
+      "line_bboxes": [
+        [
+          51.0235595703125,
+          187.22569274902344,
+          396.92095947265625,
+          195.98355102539062
+        ],
+        [
+          65.1956787109375,
+          196.40977478027344,
+          141.54623413085938,
+          204.43759155273438
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Gale, J., & Davison, J. (2004). Transmission of CO2—safety and economic considerations. Energy, 29(19–10), 1319–1328.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Go¨ttlicher, G., & Pruschek, R. (1999). Analysis of development potential for power stations with",
+        "CO2 removal/concentrations. In B. Eliason, P. Riemer, & A. Wokaun (Eds.), Greenhouse Gas",
+        "Control Technologies, Proceedings of the 4th International Conference on Greenhouse Gas",
+        "Control Technologies, 30 August–2 September 1998 (pp. 83–88). Amsterdam: Pergamon."
+      ],
+      "line_bboxes": [
+        [
+          51.02227020263672,
+          205.5382843017578,
+          396.901123046875,
+          213.67822265625
+        ],
+        [
+          65.1956787109375,
+          214.8917999267578,
+          396.882080078125,
+          224.2235107421875
+        ],
+        [
+          65.19740295410156,
+          224.0758514404297,
+          396.88201904296875,
+          232.04605102539062
+        ],
+        [
+          65.19740295410156,
+          233.31651306152344,
+          373.3692932128906,
+          241.34432983398438
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "citation": "Go¨ttlicher, G., & Pruschek, R. (1999). Analysis of development potential for power stations with CO2 removal/concentrations. In B. Eliason, P. Riemer, & A. Wokaun (Eds.), Greenhouse Gas Control Technologies, Proceedings of the 4th International Conference on Greenhouse Gas Control Technologies, 30 August–2 September 1998 (pp. 83–88). Amsterdam: Pergamon.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Grimston, M. C., Karakoussis, V., Fouquet, R., Vorst, R., van der Person, P., & Leach, M. (2001).",
+        "The European and the global potential of carbon dioxide sequestration tackling climate change.",
+        "Climate Policy, 1, 155–171."
+      ],
+      "line_bboxes": [
+        [
+          51.02399826049805,
+          242.5581817626953,
+          396.88629150390625,
+          250.52838134765625
+        ],
+        [
+          65.19740295410156,
+          251.79884338378906,
+          396.91485595703125,
+          259.76904296875
+        ],
+        [
+          65.19740295410156,
+          260.9252624511719,
+          159.26255798339844,
+          268.9530944824219
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13
+      ],
+      "citation": "Grimston, M. C., Karakoussis, V., Fouquet, R., Vorst, R., van der Person, P., & Leach, M. (2001). The European and the global potential of carbon dioxide sequestration tackling climate change. Climate Policy, 1, 155–171.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Gupta, N. J., Smith, B., Sass, S., Chattopadhyay, S., & Byrer, C. W., (2002). Engineering and",
+        "economic assessment of CO2 sequestration in saline reservoirs. In D. Williams, B. Durie, P.",
+        "McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International",
+        "Conference on Greenhouse Gas Control Technologies, 13–16 August 2000 CD ROM. Cairns:",
+        "CSIRO."
+      ],
+      "line_bboxes": [
+        [
+          51.02399826049805,
+          270.2235412597656,
+          396.883056640625,
+          278.1937561035156
+        ],
+        [
+          65.19740295410156,
+          279.4076232910156,
+          396.8787536621094,
+          288.7401123046875
+        ],
+        [
+          65.1962890625,
+          288.5922546386719,
+          396.87371826171875,
+          296.6200866699219
+        ],
+        [
+          65.1962890625,
+          297.8328857421875,
+          396.8929443359375,
+          305.8607177734375
+        ],
+        [
+          65.1962890625,
+          307.0745544433594,
+          93.24342346191406,
+          315.0447692871094
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "citation": "Gupta, N. J., Smith, B., Sass, S., Chattopadhyay, S., & Byrer, C. W., (2002). Engineering and economic assessment of CO2 sequestration in saline reservoirs. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas Control Technologies, 13–16 August 2000 CD ROM. Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Ha-Duong, M., & Keith, D. W. (2002). Climate strategy with CO2 capture from the air, September 11,",
+        "2002, retrievable online: http://ideas.repec.org/p/hal/papers/ halshs-00003926_vl.html , accessed:",
+        "17 August 2005."
+      ],
+      "line_bboxes": [
+        [
+          51.02288055419922,
+          316.2575988769531,
+          396.89276123046875,
+          325.5328063964844
+        ],
+        [
+          65.19618225097656,
+          325.5003662109375,
+          396.94158935546875,
+          333.4705810546875
+        ],
+        [
+          65.19618225097656,
+          334.74102783203125,
+          121.45384216308594,
+          342.71124267578125
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13
+      ],
+      "citation": "Ha-Duong, M., & Keith, D. W. (2002). Climate strategy with CO2 capture from the air, September 11, 2002, retrievable online: http://ideas.repec.org/p/hal/papers/ halshs-00003926_vl.html , accessed: 17 August 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Ha-Duong, M., & Keith, D. W. (2003). Carbon storage: The economic efﬁciency of storing CO2 in",
+        "leaky reservoirs. Clean Technology and Environmental Policy, 5, 181–189."
+      ],
+      "line_bboxes": [
+        [
+          51.022769927978516,
+          343.9250793457031,
+          396.8563537597656,
+          353.2566223144531
+        ],
+        [
+          65.19563293457031,
+          353.1087341308594,
+          324.29412841796875,
+          361.1365661621094
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Ha-Duong, M., & Keith, D. W. (2003). Carbon storage: The economic efﬁciency of storing CO2 in leaky reservoirs. Clean Technology and Environmental Policy, 5, 181–189.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C032"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Heafeli, S., Bosi, M., & Philibert, C. (2004). Carbon dioxide capture and storage issues—accounting",
+        "and baselines under the United Nations Framework Convention on Climate Change (UNFCCC).",
+        "Paris: IEA Information Paper."
+      ],
+      "line_bboxes": [
+        [
+          51.0222282409668,
+          362.2928161621094,
+          396.91217041015625,
+          370.3206481933594
+        ],
+        [
+          65.19563293457031,
+          371.533447265625,
+          396.8587646484375,
+          379.561279296875
+        ],
+        [
+          65.19563293457031,
+          380.7751159667969,
+          171.87997436523438,
+          388.7453308105469
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13
+      ],
+      "citation": "Heafeli, S., Bosi, M., & Philibert, C. (2004). Carbon dioxide capture and storage issues—accounting and baselines under the United Nations Framework Convention on Climate Change (UNFCCC). Paris: IEA Information Paper.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C020",
+        "C021",
+        "C026",
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Hendriks, C., Wildenborg, A. F. B., Blok, K., Floris, F., & Van Wees, J. D. (2001). Costs of carbon",
+        "dioxide removal by underground storage. In D. Williams, B. Durie, P. McMullan, C. Paulson, &",
+        "A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas",
+        "Control Technologies, 13–16 August 2000 CD ROM. Cairns: CSIRO."
+      ],
+      "line_bboxes": [
+        [
+          51.0222282409668,
+          390.0157775878906,
+          396.91229248046875,
+          397.9859924316406
+        ],
+        [
+          65.19563293457031,
+          399.2564392089844,
+          396.8588562011719,
+          407.2266540527344
+        ],
+        [
+          65.19563293457031,
+          408.38287353515625,
+          396.8802490234375,
+          416.41070556640625
+        ],
+        [
+          65.19563293457031,
+          417.62353515625,
+          307.0330505371094,
+          425.6513671875
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "citation": "Hendriks, C., Wildenborg, A. F. B., Blok, K., Floris, F., & Van Wees, J. D. (2001). Costs of carbon dioxide removal by underground storage. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas Control Technologies, 13–16 August 2000 CD ROM. Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Hendriks, C., Graus, W., & van Bergen, F. (2004). Global carbon dioxide storage potential and costs.",
+        "Utrecht: Ecofys."
+      ],
+      "line_bboxes": [
+        [
+          51.0222282409668,
+          426.8075866699219,
+          396.8587646484375,
+          434.8354187011719
+        ],
+        [
+          65.19563293457031,
+          436.1058654785156,
+          122.1020736694336,
+          444.0760803222656
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Hendriks, C., Graus, W., & van Bergen, F. (2004). Global carbon dioxide storage potential and costs. Utrecht: Ecofys.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009",
+        "C010",
+        "C012",
+        "C015",
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Herzog, H. (1999). The economics of CO2 capture. In B. Eliason, P. Riemer, & A. Wokaun (Eds.),",
+        "Greenhouse Gas Control Technologies, Proceedings of the 4th International Conference on",
+        "Greenhouse Gas Control Technologies, 30 August–2 September 1998 (pp. 101–106), Amsterdam:",
+        "Pergamon."
+      ],
+      "line_bboxes": [
+        [
+          51.0222282409668,
+          445.2899169921875,
+          396.92156982421875,
+          454.62353515625
+        ],
+        [
+          65.19619750976562,
+          454.4757385253906,
+          396.86480712890625,
+          462.4459533691406
+        ],
+        [
+          65.19619750976562,
+          463.6597900390625,
+          396.9486999511719,
+          471.6876220703125
+        ],
+        [
+          65.19619750976562,
+          472.95806884765625,
+          102.5445556640625,
+          480.92828369140625
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13,
+        13
+      ],
+      "citation": "Herzog, H. (1999). The economics of CO2 capture. In B. Eliason, P. Riemer, & A. Wokaun (Eds.), Greenhouse Gas Control Technologies, Proceedings of the 4th International Conference on Greenhouse Gas Control Technologies, 30 August–2 September 1998 (pp. 101–106), Amsterdam: Pergamon.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Herzog, H., Caldeira, K., & Reilly, J. (2003). An issue of permanence: Assessing the effectiveness of",
+        "temporary carbon storage. Climatic Change, 59(3), 293–310."
+      ],
+      "line_bboxes": [
+        [
+          51.022789001464844,
+          482.19873046875,
+          396.8778381347656,
+          490.1689453125
+        ],
+        [
+          65.19619750976562,
+          491.3251647949219,
+          274.7447814941406,
+          499.3529968261719
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Herzog, H., Caldeira, K., & Reilly, J. (2003). An issue of permanence: Assessing the effectiveness of temporary carbon storage. Climatic Change, 59(3), 293–310.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C031"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "IEA (2001). Putting carbon back in the ground. Cheltenham: IEA Greenhouse Gas R&D Pro-",
+        "gramme."
+      ],
+      "line_bboxes": [
+        [
+          51.022789001464844,
+          500.5657958984375,
+          396.8993225097656,
+          508.5936279296875
+        ],
+        [
+          65.19539642333984,
+          509.8074951171875,
+          95.49012756347656,
+          517.7777099609375
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "IEA (2001). Putting carbon back in the ground. Cheltenham: IEA Greenhouse Gas R&D Pro- gramme.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "IPCC (2005). IPCC Special Report on Carbon Dioxide Capture and Storage, Summary for Policy-",
+        "makers. Cambridge University Press."
+      ],
+      "line_bboxes": [
+        [
+          51.02199935913086,
+          518.9905395507812,
+          396.91748046875,
+          527.0183715820312
+        ],
+        [
+          65.19539642333984,
+          528.1746215820312,
+          194.40673828125,
+          536.2024536132812
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "IPCC (2005). IPCC Special Report on Carbon Dioxide Capture and Storage, Summary for Policy- makers. Cambridge University Press.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013",
+        "C016",
+        "C018"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Jimenez, J. A., & Chatlaturnyk, R. J. (2003). Are disused hydrocarbon reservoirs safe for geological",
+        "storage of CO2? In Y. Kaya, & J. Gale (Eds.), GHGT-6: Sixth International Conference on",
+        "Greenhouse Gas Control Technologies CD ROM. Kyoto: CSIRO."
+      ],
+      "line_bboxes": [
+        [
+          51.02199935913086,
+          537.4728393554688,
+          396.9495849609375,
+          545.4430541992188
+        ],
+        [
+          65.19539642333984,
+          546.6019897460938,
+          396.8631591796875,
+          555.41650390625
+        ],
+        [
+          65.1969223022461,
+          555.8426513671875,
+          296.2060241699219,
+          563.8704833984375
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13
+      ],
+      "citation": "Jimenez, J. A., & Chatlaturnyk, R. J. (2003). Are disused hydrocarbon reservoirs safe for geological storage of CO2? In Y. Kaya, & J. Gale (Eds.), GHGT-6: Sixth International Conference on Greenhouse Gas Control Technologies CD ROM. Kyoto: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Kallbekken, S., & Torvanger, A. (2004). Can geological carbon storage be competitive? Oslo: CI-",
+        "CERO."
+      ],
+      "line_bboxes": [
+        [
+          51.02350997924805,
+          565.0266723632812,
+          396.8448791503906,
+          573.0545043945312
+        ],
+        [
+          65.1969223022461,
+          574.324951171875,
+          91.49858093261719,
+          582.295166015625
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Kallbekken, S., & Torvanger, A. (2004). Can geological carbon storage be competitive? Oslo: CI- CERO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C031"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "Lackner, K. S., Grimes, P., & Ziock, H. J. (1999). Carbon dioxide extraction from the air? Los",
+        "Alamos: Los Alamos National Laboratory."
+      ],
+      "line_bboxes": [
+        [
+          51.02350997924805,
+          583.5079956054688,
+          396.8712158203125,
+          591.5358276367188
+        ],
+        [
+          65.19612121582031,
+          592.7496948242188,
+          215.5795135498047,
+          600.7199096679688
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Lackner, K. S., Grimes, P., & Ziock, H. J. (1999). Carbon dioxide extraction from the air? Los Alamos: Los Alamos National Laboratory.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Michaelowa, A. (2005). Carbon capture and geological storage research—a capture by fossil fuel",
+        "interests? In Governing climate: The Struggles For A Global Framework Beyond Kyoto, Taishi",
+        "Sugiyama (Ed.), IISD, 2005."
+      ],
+      "line_bboxes": [
+        [
+          42.51969909667969,
+          58.25019454956055,
+          388.3619384765625,
+          66.22039794921875
+        ],
+        [
+          56.693111419677734,
+          67.43324279785156,
+          388.3857421875,
+          75.4610595703125
+        ],
+        [
+          56.693111419677734,
+          76.67494201660156,
+          155.4710235595703,
+          84.6451416015625
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14
+      ],
+      "citation": "Michaelowa, A. (2005). Carbon capture and geological storage research—a capture by fossil fuel interests? In Governing climate: The Struggles For A Global Framework Beyond Kyoto, Taishi Sugiyama (Ed.), IISD, 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "OECD/IEA (2003). CO2 capture and storage in geological formations. Paris: IEA."
+      ],
+      "line_bboxes": [
+        [
+          42.51969909667969,
+          85.85798645019531,
+          329.6319885253906,
+          95.1329345703125
+        ]
+      ],
+      "line_pages": [
+        14
+      ],
+      "citation": "OECD/IEA (2003). CO2 capture and storage in geological formations. Paris: IEA.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "OECD/IEA (2004). Prospects for CO2 capture and storage, energy technology analysis. Paris: OECD/",
+        "IEA."
+      ],
+      "line_bboxes": [
+        [
+          42.51980972290039,
+          95.04286193847656,
+          388.3812255859375,
+          104.373779296875
+        ],
+        [
+          56.69255828857422,
+          104.34126281738281,
+          74.11541748046875,
+          112.31146240234375
+        ]
+      ],
+      "line_pages": [
+        14,
+        14
+      ],
+      "citation": "OECD/IEA (2004). Prospects for CO2 capture and storage, energy technology analysis. Paris: OECD/ IEA.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006",
+        "C008",
+        "C013",
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Pearce, J., Chadwick, A., Bentham, M., Holloway, S., & Kirby, G. (2004). A technology status review",
+        "of monitoring technologies for CO2 storage. Report No., COAL Rxxx, DTI/Pub, URN 05/xxx,",
+        "February 2005, Nottingham: British Geological Survey."
+      ],
+      "line_bboxes": [
+        [
+          42.51914978027344,
+          113.52430725097656,
+          388.37799072265625,
+          121.5521240234375
+        ],
+        [
+          56.69255828857422,
+          122.70838928222656,
+          388.4112243652344,
+          131.9832763671875
+        ],
+        [
+          56.692169189453125,
+          132.00746154785156,
+          249.7536163330078,
+          139.9776611328125
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14
+      ],
+      "citation": "Pearce, J., Chadwick, A., Bentham, M., Holloway, S., & Kirby, G. (2004). A technology status review of monitoring technologies for CO2 storage. Report No., COAL Rxxx, DTI/Pub, URN 05/xxx, February 2005, Nottingham: British Geological Survey.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C027"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Reeves, S. R., & Schoeling, L. (2001). Geological sequestration of CO2 in coal seams: reservoir",
+        "mechanisms, ﬁeld performance and economics. In D. Williams, B. Durie, P. McMullan, C.",
+        "Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on",
+        "Greenhouse Gas Control Technologies, 13–16 August 2000. Cairns: CSIRO."
+      ],
+      "line_bboxes": [
+        [
+          42.518768310546875,
+          141.19154357910156,
+          388.3260498046875,
+          150.522705078125
+        ],
+        [
+          56.6923713684082,
+          150.4325714111328,
+          388.353271484375,
+          158.40277099609375
+        ],
+        [
+          56.6923713684082,
+          159.5590057373047,
+          388.3601989746094,
+          167.58682250976562
+        ],
+        [
+          56.6923713684082,
+          168.79966735839844,
+          320.4701232910156,
+          176.82748413085938
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "citation": "Reeves, S. R., & Schoeling, L. (2001). Geological sequestration of CO2 in coal seams: reservoir mechanisms, ﬁeld performance and economics. In D. Williams, B. Durie, P. McMullan, C. Paulson, & A. Smith (Eds.), GHGT-5: Proceedings of the Fifth International Conference on Greenhouse Gas Control Technologies, 13–16 August 2000. Cairns: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Reimer, P., Audus, H., & Smith, A. (1999). Carbon dioxide capture from power stations. Glouces-",
+        "tershire: IEA GHG R&D Programme."
+      ],
+      "line_bboxes": [
+        [
+          42.518959045410156,
+          177.9837188720703,
+          388.3969421386719,
+          186.01153564453125
+        ],
+        [
+          56.69157028198242,
+          187.28199768066406,
+          193.0617218017578,
+          195.252197265625
+        ]
+      ],
+      "line_pages": [
+        14,
+        14
+      ],
+      "citation": "Reimer, P., Audus, H., & Smith, A. (1999). Carbon dioxide capture from power stations. Glouces- tershire: IEA GHG R&D Programme.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Rubin, E. S., & Rao, A. (2003). Uncertainties in CO2 capture and sequestration costs. In Y. Kaya, &",
+        "J. Gale (Eds.), GHGT-6: Sixth International Conference on Greenhouse Gas Control Technol-",
+        "ogies CD ROM. Kyoto: CSIRO."
+      ],
+      "line_bboxes": [
+        [
+          42.51816940307617,
+          196.46604919433594,
+          388.3531188964844,
+          205.79830932617188
+        ],
+        [
+          56.692291259765625,
+          205.6505584716797,
+          388.337890625,
+          213.67837524414062
+        ],
+        [
+          56.692291259765625,
+          214.89122009277344,
+          170.85667419433594,
+          222.91903686523438
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14
+      ],
+      "citation": "Rubin, E. S., & Rao, A. (2003). Uncertainties in CO2 capture and sequestration costs. In Y. Kaya, & J. Gale (Eds.), GHGT-6: Sixth International Conference on Greenhouse Gas Control Technol- ogies CD ROM. Kyoto: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R030"
+    },
+    {
+      "id": "R031",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Simbeck, D. (1999). A portfolio selection approach for power plant CO2 capture, separation and",
+        "R&D options. In B. Eliason, P. Riemer, & A. Wokaun (Eds.), Greenhouse Gas Control Tech-",
+        "nologies, Proceedings of the 4th International Conference on Greenhouse Gas Control Tech-",
+        "nologies, 30 August–2 September 1998 (pp. 119–124). Amsterdam: Pergamon."
+      ],
+      "line_bboxes": [
+        [
+          42.518890380859375,
+          224.1328887939453,
+          388.3750305175781,
+          233.46453857421875
+        ],
+        [
+          56.69198989868164,
+          233.31675720214844,
+          388.38934326171875,
+          241.34457397460938
+        ],
+        [
+          56.69198989868164,
+          242.5008087158203,
+          388.3901672363281,
+          250.47100830078125
+        ],
+        [
+          56.69198989868164,
+          251.74147033691406,
+          326.878662109375,
+          259.769287109375
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14,
+        14
+      ],
+      "citation": "Simbeck, D. (1999). A portfolio selection approach for power plant CO2 capture, separation and R&D options. In B. Eliason, P. Riemer, & A. Wokaun (Eds.), Greenhouse Gas Control Tech- nologies, Proceedings of the 4th International Conference on Greenhouse Gas Control Tech- nologies, 30 August–2 September 1998 (pp. 119–124). Amsterdam: Pergamon.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R031"
+    },
+    {
+      "id": "R032",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Smelser, S. C. (1991). An engineering and economic evaluation of CO2 removal from fossil fuel-ﬁred",
+        "power plants, Vol 1: Pulverised coal-ﬁred power plants. Report IE-7365, Palo Alto: EPRI."
+      ],
+      "line_bboxes": [
+        [
+          42.51939010620117,
+          260.9255065917969,
+          388.38934326171875,
+          270.2572937011719
+        ],
+        [
+          56.69192886352539,
+          270.16705322265625,
+          370.846923828125,
+          278.19488525390625
+        ]
+      ],
+      "line_pages": [
+        14,
+        14
+      ],
+      "citation": "Smelser, S. C. (1991). An engineering and economic evaluation of CO2 removal from fossil fuel-ﬁred power plants, Vol 1: Pulverised coal-ﬁred power plants. Report IE-7365, Palo Alto: EPRI.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R032"
+    },
+    {
+      "id": "R033",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Smith, L., Gupta, N., Sass, B., & Bubenik, T., (2001). Carbon dioxide sequestration in deep saline",
+        "formations—engineering and economic assessment. Columbus: BATTELLE."
+      ],
+      "line_bboxes": [
+        [
+          42.51852035522461,
+          279.3511047363281,
+          388.39642333984375,
+          287.3789367675781
+        ],
+        [
+          56.69192886352539,
+          288.5917663574219,
+          322.3976745605469,
+          296.6195983886719
+        ]
+      ],
+      "line_pages": [
+        14,
+        14
+      ],
+      "citation": "Smith, L., Gupta, N., Sass, B., & Bubenik, T., (2001). Carbon dioxide sequestration in deep saline formations—engineering and economic assessment. Columbus: BATTELLE.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R033"
+    },
+    {
+      "id": "R034",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Thambimuthu, K., Davison, J., & Gupta, M. (2002). CO2 capture and reuse. Proceedings of the IPCC",
+        "Workshop on Carbon Dioxide Capture and Storage, online: http://arch.rivm.nl/env/int/ipcc/pa-",
+        "ges_media/ccs2002.html, accessed: 8 June 2005."
+      ],
+      "line_bboxes": [
+        [
+          42.51852035522461,
+          297.83349609375,
+          388.38360595703125,
+          307.1653137207031
+        ],
+        [
+          56.69261169433594,
+          307.0175476074219,
+          388.41790771484375,
+          315.0453796386719
+        ],
+        [
+          56.69261169433594,
+          316.3158264160156,
+          221.40406799316406,
+          324.2860412597656
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14
+      ],
+      "citation": "Thambimuthu, K., Davison, J., & Gupta, M. (2002). CO2 capture and reuse. Proceedings of the IPCC Workshop on Carbon Dioxide Capture and Storage, online: http://arch.rivm.nl/env/int/ipcc/pa- ges_media/ccs2002.html, accessed: 8 June 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R034"
+    },
+    {
+      "id": "R035",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "UNFCCC (2003). Estimation, reporting and accounting of harvested wood products—technical paper.",
+        "UN FCCC/TP/2003/7, online: http://unfccc.int/resource/docs/tp/tpO3 07.pdf, accessed: 8 June",
+        "2005."
+      ],
+      "line_bboxes": [
+        [
+          42.51919937133789,
+          325.4422607421875,
+          388.3819580078125,
+          333.4700927734375
+        ],
+        [
+          56.69261169433594,
+          334.74053955078125,
+          388.36859130859375,
+          342.71075439453125
+        ],
+        [
+          56.69261169433594,
+          343.9245910644531,
+          74.62556457519531,
+          351.8948059082031
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14
+      ],
+      "citation": "UNFCCC (2003). Estimation, reporting and accounting of harvested wood products—technical paper. UN FCCC/TP/2003/7, online: http://unfccc.int/resource/docs/tp/tpO3 07.pdf, accessed: 8 June 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R035"
+    },
+    {
+      "id": "R036",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "VGB (2004). CO2 capture and storage—a VGB report on the state of the art. Essen: VGB Power Tech"
+      ],
+      "line_bboxes": [
+        [
+          42.51919937133789,
+          353.1076354980469,
+          388.3690185546875,
+          362.3832092285156
+        ]
+      ],
+      "line_pages": [
+        14
+      ],
+      "citation": "VGB (2004). CO2 capture and storage—a VGB report on the state of the art. Essen: VGB Power Tech",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004",
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R036"
+    },
+    {
+      "id": "R037",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Wildenborg, A. F. B., & Van der Meer, L. G. H. (2002). The use of oil, gas and coal ﬁelds as CO2",
+        "sinks. Proceedings of the IPCC Workshop on Carbon Dioxide Capture and storage, online: http:",
+        "//arch.rivm.nl/env/int/ipcc/pages_media/ccs2002.html, accessed: 8 June 2005."
+      ],
+      "line_bboxes": [
+        [
+          42.51892852783203,
+          362.35076904296875,
+          388.330322265625,
+          371.1079406738281
+        ],
+        [
+          56.692901611328125,
+          371.5343017578125,
+          388.4029846191406,
+          379.5621337890625
+        ],
+        [
+          56.692901611328125,
+          380.7759704589844,
+          320.0523681640625,
+          388.7461853027344
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14
+      ],
+      "citation": "Wildenborg, A. F. B., & Van der Meer, L. G. H. (2002). The use of oil, gas and coal ﬁelds as CO2 sinks. Proceedings of the IPCC Workshop on Carbon Dioxide Capture and storage, online: http: //arch.rivm.nl/env/int/ipcc/pages_media/ccs2002.html, accessed: 8 June 2005.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007",
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R037"
+    },
+    {
+      "id": "R038",
+      "pages": [
+        14
+      ],
+      "native_lines": [
+        "Yoshigahara, C., Itaoka, K., & Akai, M. (2004). Draft accounting rules for carbon capture and",
+        "storage technology. GHGT-7 Seventh International Conference on Greenhouse Gas Control",
+        "Technologies. Vancouver: CSIRO."
+      ],
+      "line_bboxes": [
+        [
+          42.51948928833008,
+          390.0166320800781,
+          388.3775634765625,
+          397.9868469238281
+        ],
+        [
+          56.692901611328125,
+          399.19964599609375,
+          388.3990478515625,
+          407.22747802734375
+        ],
+        [
+          56.692901611328125,
+          408.38372802734375,
+          176.97999572753906,
+          416.41156005859375
+        ]
+      ],
+      "line_pages": [
+        14,
+        14,
+        14
+      ],
+      "citation": "Yoshigahara, C., Itaoka, K., & Akai, M. (2004). Draft accounting rules for carbon capture and storage technology. GHGT-7 Seventh International Conference on Greenhouse Gas Control Technologies. Vancouver: CSIRO.",
+      "role": "Printed bibliography source for linked claims; reading the bibliography does not verify the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-01_bibliography.json#R038"
+    }
+  ]
+}

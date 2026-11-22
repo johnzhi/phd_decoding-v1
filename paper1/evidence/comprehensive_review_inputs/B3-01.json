@@ -1,0 +1,280 @@
+{
+  "study_id": "B3-01",
+  "source_path": "papers/B3-01.pdf",
+  "source_sha256": "02d7121b5e02ef464fb6a377444f339015efacc035060a8c0f15fbe757e9dde8",
+  "provenance": "Native tables/formulae transcribed from text and enlarged renders. Historical 2006 policy claims; no current legal rule, measured retention or author calculation file inferred. Analyst examples are distinct from accepted Paper 1 inputs.",
+  "source_locators": {
+    "capacity": [
+      4
+    ],
+    "costs": [
+      4,
+      5
+    ],
+    "classification": [
+      7,
+      9
+    ],
+    "value_identity_and_table4": [
+      10
+    ],
+    "crediting_limits": [
+      11
+    ],
+    "conclusion_literal": [
+      12
+    ]
+  },
+  "capacity_columns": [
+    "remaining_oil",
+    "depleted_oil",
+    "remaining_gas",
+    "depleted_gas",
+    "ECBM"
+  ],
+  "capacity_rows": [
+    {
+      "zone": "onshore",
+      "group": "Annex_I",
+      "low_Gt": [
+        2.6,
+        8.4,
+        91.2,
+        2.5,
+        0
+      ],
+      "high_Gt": [
+        186.2,
+        16.8,
+        382,
+        156.7,
+        401.7
+      ]
+    },
+    {
+      "zone": "onshore",
+      "group": "non_Annex_I",
+      "low_Gt": [
+        6.4,
+        13.6,
+        127.8,
+        1.5,
+        0
+      ],
+      "high_Gt": [
+        547.8,
+        27.2,
+        543,
+        234.3,
+        1078.3
+      ]
+    },
+    {
+      "zone": "onshore",
+      "group": "total",
+      "low_Gt": [
+        9,
+        22,
+        219,
+        4,
+        0
+      ],
+      "high_Gt": [
+        734,
+        44,
+        925,
+        391,
+        1480
+      ]
+    },
+    {
+      "zone": "offshore",
+      "group": "Annex_I",
+      "low_Gt": [
+        0.6,
+        6.1,
+        38.3,
+        13.6,
+        10.4
+      ],
+      "high_Gt": [
+        67.2,
+        32.6,
+        412.3,
+        20.5,
+        374.1
+      ]
+    },
+    {
+      "zone": "offshore",
+      "group": "non_Annex_I",
+      "low_Gt": [
+        2.4,
+        13.9,
+        110.7,
+        6.4,
+        19.6
+      ],
+      "high_Gt": [
+        240.8,
+        74.4,
+        365.7,
+        11.5,
+        706.9
+      ]
+    },
+    {
+      "zone": "offshore",
+      "group": "total",
+      "low_Gt": [
+        3,
+        20,
+        149,
+        20,
+        30
+      ],
+      "high_Gt": [
+        308,
+        107,
+        778,
+        32,
+        1081
+      ]
+    }
+  ],
+  "native_total_resource_Gt": [
+    476,
+    5880
+  ],
+  "native_best_estimate_Gt": 1660,
+  "release_percent": [
+    0,
+    0.01,
+    0.1,
+    1
+  ],
+  "discount_percent": [
+    1,
+    5,
+    10
+  ],
+  "table4_value_percent": [
+    [
+      100,
+      98.8,
+      90.6,
+      48.5
+    ],
+    [
+      100,
+      99.6,
+      97.7,
+      80.8
+    ],
+    [
+      100,
+      99.7,
+      98.7,
+      88.0
+    ]
+  ],
+  "historical_credit_rules": {
+    "energy_nonrenewable_years": 10,
+    "energy_renewable_years": 7,
+    "forestry_nonrenewable_years": 30,
+    "forestry_renewable_years": 20,
+    "max_renewals": 2
+  },
+  "native_classification": [
+    {
+      "case": 1,
+      "capture_annex_I": true,
+      "storage_annex_I": true,
+      "same_country": true,
+      "mechanism": "Annex_I_mitigation",
+      "proposed_liability": "storing_country"
+    },
+    {
+      "case": 2,
+      "capture_annex_I": true,
+      "storage_annex_I": true,
+      "same_country": false,
+      "mechanism": "Annex_I_mitigation",
+      "proposed_liability": "storing_country"
+    },
+    {
+      "case": 3,
+      "capture_annex_I": false,
+      "storage_annex_I": true,
+      "same_country": false,
+      "mechanism": "CDM",
+      "proposed_liability": "storing_country"
+    },
+    {
+      "case": 4,
+      "capture_annex_I": true,
+      "storage_annex_I": false,
+      "same_country": false,
+      "mechanism": "Annex_I_mitigation",
+      "proposed_liability": "capturing_country"
+    },
+    {
+      "case": 5,
+      "capture_annex_I": false,
+      "storage_annex_I": false,
+      "same_country": true,
+      "mechanism": "CDM",
+      "proposed_liability": "temporary_credit_buyer"
+    },
+    {
+      "case": 6,
+      "capture_annex_I": false,
+      "storage_annex_I": false,
+      "same_country": false,
+      "mechanism": "CDM",
+      "proposed_liability": "temporary_credit_buyer"
+    }
+  ],
+  "quotes": {
+    "cost_identity": "C_CCS = C_capture + C_transportation + C_storage + C_monitoring",
+    "value_identity": "V_temp = V_perm - RC",
+    "conclusion": "as small as widely suggested (>0.01)",
+    "stable_price": "a stable price for (permanent) emission reduction credits"
+  },
+  "analyst": {
+    "permanent_credit_value": 1,
+    "credit_expiry_years": [
+      21,
+      60
+    ],
+    "price_growth_examples": [
+      0,
+      0.05,
+      0.12
+    ],
+    "growth_discount_fraction": 0.1,
+    "growth_release_fraction": 0.01,
+    "ledger": {
+      "gross_source_t": 100,
+      "captured_t": 90,
+      "utility_emissions_t": 15,
+      "transport_fugitive_t": 2,
+      "injection_fugitive_t": 0,
+      "storage_release_t": 1
+    },
+    "transport_cost_per_t_transported": 2,
+    "scope": "Initial isolated cohort with fraction of remaining mass released each year. Replacement paid at year end or, in a separate comparison, advanced one year. Finite-expiry scenarios replace surviving credits at T without physically releasing that carbon. Prices and quantities are explicitly analyst choices, not native calculations."
+  },
+  "missing_native_inputs": {
+    "Table4_RC_derivation_and_time_convention": null,
+    "release_rate_stock_basis_and_horizon": null,
+    "credit_verification_or_renewal_schedule": null,
+    "native_price_paths_or_code": null,
+    "Hendriks_capacity_data_and_region_allocation": null,
+    "full_matched_cost_utility_inventory": null,
+    "measured_retention_or_pressure_service": null,
+    "current_legal_instruments_and_applicability": null,
+    "publisher_supplements": null
+  },
+  "external_retrieval": "paused_pending_requested_Chrome_connection"
+}

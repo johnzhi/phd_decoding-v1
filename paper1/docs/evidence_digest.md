@@ -434,15 +434,13 @@ All 93 printed bibliography entries were read. R024 has one scoped exact Wei2021
 
 ### B3-01 — Carbon dioxide capture and storage—liability for non-permanence under the UNFCCC
 
-. Identifier: 10.1007/s10784-006-9004-4. [PDF](../papers/B3-01.pdf).
+Bode and Jung (2006), International Environmental Agreements 6, 173–186. DOI: 10.1007/s10784-006-9004-4. [PDF](../papers/B3-01.pdf). All 14 retained pages were read as text and inspected as renders, with enlarged graphics and formulae. **Comprehensive status: incomplete.** See the [item record](comprehensive_review/B3-01.md) and [scientific findings](ccs_liability_comprehensive_findings.md).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 2,4,11.
+The conditional 2006 framework distinguishes six capture/storage combinations and proposed storage-country, capture-country or temporary-credit buyer responsibility. It does not establish current legal rules. Table 1's listed resource endpoints close at 476–5,880 Gt, but saline coverage, the 1,660 Gt best estimate and regional allocation require original data. Historical cost ranges lack a complete common utility/currency/mass boundary.
 
-Historical UNFCCC/CDM policy analysis separates capture/compression, transport and storage and examines non-permanence, cross-border accounting and the economic value of temporary versus permanent credits. Crediting period is distinct from physical retention duration.
+The native temporary-value identity is monetary, not a physical retention fraction. All twelve Table 4 values are preserved. Two disclosed cash-flow timing assumptions do not reproduce its nine nonzero-release cells; missing release/renewal/timing conventions remain open. Finite-credit examples show that zero physical leakage can coexist with lower financial value at credit expiry. The conclusion's literal (>0.01) lacks a unit and is not silently corrected.
 
-Temporary credits can lose value when crediting periods are shorter than actual retention. The conclusion treats CCS classification within the then-current climate regime as a policy question. Historical capacity/cost tables are secondary context, not a current service database.
-
-Transfer limits: The2006 regime discussion does not establish present permits, accepted accounting or liability transfers. Crediting horizons are not leakage probabilities or measured retention fractions; old global resource ranges and capture costs are not Paper1 physical inputs.
+The record includes two figures, four tables, two printed identities, 26 numbered footnotes, 48 claims and 39 limited checks. Thirty capacity cells, six historical classifications, twelve source credit-value cells, 24 finite-credit examples and three price-growth cases do not reproduce the native author model. All 38 originals and twelve dependencies remain unverified; no new primary-passage edge was added. No supplement/code/data statement or embedded file was identified; online assets remain unverified. Accepted operating/GHG inputs, primary outputs and the combined 1.5 MPa HOLD are preserved.
 
 ### B3-02 — Assessing a Liability Regime for Carbon Capture and Storage
 

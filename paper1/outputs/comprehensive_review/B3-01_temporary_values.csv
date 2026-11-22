@@ -1,0 +1,13 @@
+release_percent,discount_percent,reported_value_percent,analyst_year_end_percent,analyst_year_start_percent,year_end_minus_reported_pp,year_start_minus_reported_pp,year_end_within_nearest_tenth,year_start_within_nearest_tenth,scope
+0,1,100,100.0,100.0,0.0,0.0,True,True,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+0.01,1,98.8,99.00990099009901,99.0,0.20990099009901542,0.20000000000000284,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+0.1,1,90.6,90.90909090909092,90.81818181818181,0.3090909090909264,0.2181818181818187,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+1,1,48.5,50.00000000000004,49.50000000000004,1.5000000000000426,1.0000000000000426,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+0,5,100,100.0,100.0,0.0,0.0,True,True,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+0.01,5,99.6,99.8003992015968,99.79041916167665,0.20039920159680946,0.19041916167665818,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+0.1,5,97.7,98.0392156862745,97.94117647058823,0.3392156862744997,0.2411764705882291,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+1,5,80.8,83.33333333333334,82.5,2.5333333333333456,1.7000000000000028,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+0,10,100,100.0,100.0,0.0,0.0,True,True,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+0.01,10,99.7,99.9000999000999,99.8901098901099,0.2000999000999002,0.19010989010989476,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+0.1,10,98.7,99.00990099009901,98.91089108910892,0.30990099009900973,0.2108910891089124,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"
+1,10,88.0,90.90909090909092,90.00000000000001,2.9090909090909207,2.000000000000014,False,False,"Disclosed isolated-cohort proportional release models, not native Table4 reproduction or proof of author error"

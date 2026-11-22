@@ -1,0 +1,15 @@
+{
+  "study_id": "B3-01",
+  "source_sha256": "02d7121b5e02ef464fb6a377444f339015efacc035060a8c0f15fbe757e9dde8",
+  "limited_checks": 39,
+  "capacity_cells": 30,
+  "classification_cases": 6,
+  "reported_table4_cells": 12,
+  "finite_credit_examples": 24,
+  "price_growth_examples": 3,
+  "nonzero_release_cells_not_reconciled_under_analyst_year_end": 9,
+  "native_Table4_reproduced": false,
+  "native_physical_model_reproduced": false,
+  "current_legal_status_verified": false,
+  "limits": "Native Table4 timing/release/crediting calculation and original citations remain unverified. Disclosed cash flows, not physical retention or author model reproduction. Historical accounting proposals, not current legal determinations. No accepted operating/GHG input changes."
+}

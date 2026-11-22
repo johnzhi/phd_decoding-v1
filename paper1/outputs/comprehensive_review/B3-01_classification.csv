@@ -1,0 +1,7 @@
+case,capture_annex_I,storage_annex_I,same_country,mechanism,proposed_liability,scope
+1,True,True,True,Annex_I_mitigation,storing_country,Conditional2006 author classification/proposed liability; current legal applicability unverified
+2,True,True,False,Annex_I_mitigation,storing_country,Conditional2006 author classification/proposed liability; current legal applicability unverified
+3,False,True,False,CDM,storing_country,Conditional2006 author classification/proposed liability; current legal applicability unverified
+4,True,False,False,Annex_I_mitigation,capturing_country,Conditional2006 author classification/proposed liability; current legal applicability unverified
+5,False,False,True,CDM,temporary_credit_buyer,Conditional2006 author classification/proposed liability; current legal applicability unverified
+6,False,False,False,CDM,temporary_credit_buyer,Conditional2006 author classification/proposed liability; current legal applicability unverified
