@@ -1,0 +1,68 @@
+item,value,unit,scope
+target_from_IEA,92,Gt,Source target accounting only; not net avoided GHG
+sector_target_sum,92,Gt,Global lower bounds in Eq9/10
+sink_flow_sum,92.0,Gt,"Reported cumulative injection, not annual pressure service"
+saline_flow_share,63.70652173913044,%,Cumulative source case
+saline_global_stock_utilization,3.0621734587251828,%,Global mass/stock ratio; not necessarily country-average utilization
+EOR_flow_share,36.29347826086956,%,Cumulative source case
+EOR_global_stock_utilization,19.875,%,Global mass/stock ratio; not necessarily country-average utilization
+basin_count_sum,794,basins,Reported inventory
+selected_sink_count_sum,432,sinks,Reported selected basins
+stock_sum,2082,Gt,Volumetric cumulative resource
+clusters_selected,73.29383886255924,%,Source population fraction; not probability or validation
+sinks_selected,54.4080604534005,%,Source population fraction; not probability or validation
+regions_selected,97.70114942528735,%,Source population fraction; not probability or validation
+cluster_threshold_ratio,10.0,ratio,Literal method/body threshold conflict; no correction
+fig1_mass_sum,693.6,Gt,Rounded nine-row source transcription
+fig1_sum_minus_global,-0.1999999999999318,Gt,Within nine nearest 0.1 Gt intervals and global interval
+fig1_display_share_sum,99.9,%,Compatible with nine nearest 0.1 percentage-point intervals
+fig1_weighted_power,517.6080000000001,Gt,"Rounded pie weights, not original emission arrays"
+eight_country_emission_share,81.56529259152494,%,These eight Fig1 regions differ from eight selected Fig4 regions
+eight_country_emission_share_rounding_upper,81.62882882882882,%,Nearest-display upper still below 83.5%; denominator/case unresolved for the 84% prose
+fig4_eight_mass_sum,69.8,Gt,Different selected-country set from Fig1
+fig4_eight_target_share,75.8695652173913,%,Compatible with the 76% headline
+power_inventory_fraction,74.77659267800519,%,"Source inventory, not captured-power fraction"
+nonpower_inventory,175.0,Gt,Source inventory difference
+EOR_66percent_power,22.0374,Gt,Approximate source sector share only
+China_72percent_nonpower,19.2096,Gt,Approximate reported national sector share
+US_EOR_fraction,32.753262896208824,%,Reported cumulative mass ratio
+Australia_98percent_power,1.8228,Gt,Approximate source sector share
+gross_cost,8.2,trillion 2019 USD,Rounded cumulative component sum
+net_cost,5.76,trillion 2019 USD,"Financial net, not net lifecycle emissions"
+gross_average,89.1304347826087,USD/t,Gross investment/cumulative reported mass
+net_average,62.608695652173914,USD/t,Rounded aggregates give 62.6087; 62.65 is compatible with display intervals
+quoted_unit_cost_implied_total,5.7638,trillionUSD,Compare rounded 5.76 trillion without silently changing the quote
+capture_share_of_gross,54.268292682926834,%,Gross cost composition
+capture_share_of_net,77.25694444444444,%,Explains >77% wording using net denominator
+country_mean_cost_total,5.763850000000001,trillionUSD,Rounded arithmetic mean of national net costs
+country_mean_benefit_total,2.4378,trillionUSD,Rounded arithmetic mean of national benefits
+implied_cumulative_GDP,4800.0,trillionUSD,Normalization only; not annual GDP or causal growth
+groupII_count_by_remainder,10,regions,"Group count remainder, not new primary data"
+groupIV_mass_remainder,7.299999999999997,%,"Rounded group mass remainder, not source native allocation"
+base_conditional_Eq6_revenue,13.75,USD/t,ONLY if printed 4 means t/bbl; unit is not stated
+base_conditional_fixed_flow_benefit,0.45911250000000003,trillionUSD,Literal Eq6 and fixed 33.39 Gt; no native reoptimization or inferred correction
+high_conditional_Eq6_revenue,23.75,USD/t,ONLY if printed 4 means t/bbl; unit is not stated
+high_conditional_fixed_flow_benefit,0.7930125,trillionUSD,Literal Eq6 and fixed 33.39 Gt; no native reoptimization or inferred correction
+quoted_benefit_per_EOR_mass,73.07577118897873,USD/t,Conditional global ratio; reconcile with Eq6/units/time/case
+quoted_benefit_implied_displacement_at55,0.7526434426229508,t/bbl,Diagnostic only; not an accepted corrected displacement
+high_cost_unit_implied_total,7.38392,trillionUSD,Compatible with the 7.38 trillion rounded reoptimized case
+low_cost_unit_from_saving,44.879999999999995,USD/t,Reported saving algebra
+low_cost_implied_total,4.128959999999999,trillionUSD,Compatible with the 4.13 trillion rounded reoptimized case
+high_oil_unit_implied_total,3.7039199999999997,trillionUSD,Conditional same 92 Gt case; not native result array
+inclusive_year_count,31,calendar entries,Eq15/17 sum; not automatically a duration error
+flat_average_30,3.066666666666667,Gt/y,"Analyst cumulative/duration conversion, not source annual injection history"
+flat_average_31,2.967741935483871,Gt/y,"Analyst cumulative/duration conversion, not source annual injection history"
+saline_synthetic_mass,177500.0,t,Literal Eq2 with disclosed analyst geometry; not a site estimate or service rate
+oil_synthetic_standard_volume_mass,1186.2,t,Literal Eq1 ONLY under explicit volume convention; does not establish correct oil-to-storage conversion
+reservoir_to_standard_density,359.12999494183106,ratio,Different states; not a permission to replace Eq1 density
+five_year_cost_multiplier_six_cycles,0.177978515625,dimensionless,Conditional Eq29 cost recurrence; not deployment decline
+avoided_cost_synthetic,57.14285714285714,USD/tavoided,Eq23 per equal electricity output; captured mass requires separate inventory
+captured_cost_synthetic,50.0,USD/tcaptured,"Disclosed analyst 0.8 t captured/MWh, different from 0.7 t avoided/MWh"
+mixed_cluster_true_capture_bound,8.100000000000001,Mt,Analyst 70/30 emissions and 90/60% capture; native mixed-source mapping unknown
+mixed_cluster_all_power_bound,9.0,Mt,Counterexample to treating a mixed cluster as all power
+mixed_cluster_all_nonpower_bound,6.0,Mt,Counterexample to treating a mixed cluster as all nonpower
+analyst_LCOE_initial_USD_MWh,50.22831050228311,USD/MWh,Eq22/24 component with explicit analyst costs; not native technology optimization
+analyst_LCOE_doubled_USD_MWh,39.5738203957382,USD/MWh,Eq22/24 component with explicit analyst costs; not native technology optimization
+analyst_LCOE_learning_direct,0.21212121212121215,dimensionless,Eq22/24 component with explicit analyst costs; not native technology optimization
+analyst_LCOE_learning_Eq24,0.21212121212121215,dimensionless,Eq22/24 component with explicit analyst costs; not native technology optimization
+analyst_LCOE_residual,0.0,dimensionless,Eq22/24 component with explicit analyst costs; not native technology optimization

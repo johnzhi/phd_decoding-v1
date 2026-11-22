@@ -1,0 +1,27 @@
+{
+  "study_id": "B2-16",
+  "source_sha256": "ba2c448e350c1ccfd5f9acdf9f6458d41706e25736ea1b0fee00ee47a07428f0",
+  "limited_checks": 67,
+  "source_country_rows": 9,
+  "analyst_deployment_rows": 21,
+  "analyst_LP_rows": 6,
+  "native_C3IAM_GCOP_global_model_reproduced": false,
+  "accepted_Paper1_inputs_added": 0,
+  "scope": "Printed arithmetic and explicitly synthetic components only",
+  "missing_native": {
+    "supplement": null,
+    "C3IAM_GCOP_code": null,
+    "solver_version_and_tolerances": null,
+    "native_GIS_clusters_and_basins": null,
+    "source_sector_mapping": null,
+    "displacement_unit_and_benefit_basis": null,
+    "all_country_flow_cost_arrays": null,
+    "power_capacity_path": null,
+    "nonpower_learning_inputs": null,
+    "complete_capture_conditioning_heat_electricity_inventory": null,
+    "annual_pressure_limited_service": null,
+    "field_validation_and_retention": null,
+    "native_model_reproduced": false,
+    "external_retrieval": "paused_pending_requested_Chrome_connection"
+  }
+}

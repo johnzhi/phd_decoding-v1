@@ -1,0 +1,261 @@
+{
+  "study_id": "B2-16",
+  "source_path": "papers/B2-16.pdf",
+  "source_sha256": "ba2c448e350c1ccfd5f9acdf9f6458d41706e25736ea1b0fee00ee47a07428f0",
+  "doi": "10.1038/s41558-020-00960-0",
+  "provenance": "Manual transcription from all eleven text-read and render-inspected physical pages. Source quotes and analyst examples are separated. Native files are preserved; no external retrieval.",
+  "source_quotes": {
+    "IEA_target_Gt": 94,
+    "excluded_Gt": 2,
+    "target_Gt": 92,
+    "sector_targets_Gt": [
+      52,
+      40
+    ],
+    "saline_flow_Gt": 58.61,
+    "EOR_flow_Gt": 33.39,
+    "saline_stock_Gt": 1914,
+    "EOR_stock_Gt": 168,
+    "basin_type_counts": [
+      614,
+      180
+    ],
+    "selected_sink_type_counts": [
+      277,
+      155
+    ],
+    "body_threshold_t_y": 40000,
+    "methods_threshold_Mt_y": 0.4,
+    "global_emissions_Gt": 693.8,
+    "power_emissions_Gt": 518.8
+  },
+  "source_locators": {
+    "targets": "pp1,9 Eq9/10/17",
+    "flows_and_finance": "pp4,6,7",
+    "stocks": "p3; formulasp8",
+    "thresholds": "p2body; p8Methods",
+    "country_rows": "p2 Fig1b",
+    "oil": "p7sensitivity; p9Eq6",
+    "learning": "pp9–10"
+  },
+  "figure1_country_rows": [
+    {
+      "region": "CHN",
+      "mass_Gt": 275.7,
+      "share_percent": 39.7,
+      "power_percent": 66
+    },
+    {
+      "region": "USA",
+      "mass_Gt": 96.4,
+      "share_percent": 13.9,
+      "power_percent": 78
+    },
+    {
+      "region": "IND",
+      "mass_Gt": 56.6,
+      "share_percent": 8.2,
+      "power_percent": 82
+    },
+    {
+      "region": "EU",
+      "mass_Gt": 49.4,
+      "share_percent": 7.1,
+      "power_percent": 76
+    },
+    {
+      "region": "RUS",
+      "mass_Gt": 43.8,
+      "share_percent": 6.3,
+      "power_percent": 77
+    },
+    {
+      "region": "JPA_literal_JPN_caption",
+      "mass_Gt": 21.4,
+      "share_percent": 3.1,
+      "power_percent": 81
+    },
+    {
+      "region": "SAU",
+      "mass_Gt": 11.9,
+      "share_percent": 1.7,
+      "power_percent": 78
+    },
+    {
+      "region": "ZAF",
+      "mass_Gt": 10.7,
+      "share_percent": 1.5,
+      "power_percent": 95
+    },
+    {
+      "region": "Others",
+      "mass_Gt": 127.7,
+      "share_percent": 18.4,
+      "power_percent": 83
+    }
+  ],
+  "figure4_country_mass_Gt": [
+    26.7,
+    16.1,
+    9,
+    7.2,
+    3.8,
+    3.3,
+    1.9,
+    1.8
+  ],
+  "cost_quotes": {
+    "components_trillion_USD": [
+      4.45,
+      3.25,
+      0.5
+    ],
+    "EOR_benefit_trillion_USD": 2.44,
+    "net_trillion_USD": 5.76,
+    "unit_USD_t": 62.65,
+    "GDP_cost_percent": 0.12,
+    "currency_basis": "2019constantUSD; discount/time/unit/case mapping incomplete"
+  },
+  "printed_displacement_value": 4,
+  "analyst_examples": {
+    "area_m2": 1000000.0,
+    "effective_area_ratio": 0.5,
+    "thickness_m": 50,
+    "porosity": 0.2,
+    "OOIP_m3": 1000000.0,
+    "warning": "Every geometry, LCOE and LP parameter in this analyst_examples object is a disclosed synthetic diagnostic assumption, not an author input or actual site.",
+    "lcoe": {
+      "capital_USD": 100000000.0,
+      "annual_OM_USD": 2000000.0,
+      "annual_fuel_initial_USD": 10000000.0,
+      "annual_fuel_doubled_USD": 11000000.0,
+      "CRF_per_year": 0.1,
+      "CF_initial": 0.5,
+      "CF_doubled": 0.6,
+      "hours_per_year": 8760,
+      "power_MW": 100,
+      "capital_learning": 0.2,
+      "OM_learning": 0.1
+    },
+    "lp": {
+      "source_limits_Mt": [
+        8,
+        4
+      ],
+      "sector_targets_Mt": [
+        5,
+        2
+      ],
+      "EOR_capacity_Mt": 10,
+      "saline_capacity_Mt": 10,
+      "displacement_t_per_bbl": 4,
+      "gross_unit_cost_USD_t": [
+        17,
+        10
+      ]
+    }
+  },
+  "missing_native": {
+    "supplement": null,
+    "C3IAM_GCOP_code": null,
+    "solver_version_and_tolerances": null,
+    "native_GIS_clusters_and_basins": null,
+    "source_sector_mapping": null,
+    "displacement_unit_and_benefit_basis": null,
+    "all_country_flow_cost_arrays": null,
+    "power_capacity_path": null,
+    "nonpower_learning_inputs": null,
+    "complete_capture_conditioning_heat_electricity_inventory": null,
+    "annual_pressure_limited_service": null,
+    "field_validation_and_retention": null,
+    "native_model_reproduced": false,
+    "external_retrieval": "paused_pending_requested_Chrome_connection"
+  },
+  "figure5_country_order": [
+    "CHN",
+    "CHL",
+    "ZMB",
+    "VNM",
+    "JOR",
+    "GBR",
+    "IDN",
+    "IND",
+    "ISR",
+    "IRN",
+    "IRQ",
+    "YEM",
+    "ARM",
+    "SYR",
+    "NZL",
+    "UZB",
+    "UKR",
+    "VEN",
+    "GTM",
+    "TKM",
+    "TUR",
+    "TUN",
+    "TTO",
+    "TZA",
+    "THA",
+    "TJK",
+    "SDN",
+    "LKA",
+    "SAU",
+    "SEN",
+    "SLV",
+    "CHE",
+    "JPN",
+    "EU",
+    "NOR",
+    "NGA",
+    "NIC",
+    "SRB",
+    "ZAF",
+    "MEX",
+    "MAR",
+    "MDA",
+    "MMR",
+    "PER",
+    "BGD",
+    "MNG",
+    "USA",
+    "MUS",
+    "MYS",
+    "LBY",
+    "KEN",
+    "KWT",
+    "CIV",
+    "QAT",
+    "CMR",
+    "ZWE",
+    "KHM",
+    "GHA",
+    "CAN",
+    "KGZ",
+    "HND",
+    "KOR",
+    "HTI",
+    "KAZ",
+    "GEO",
+    "COL",
+    "PHL",
+    "ECU",
+    "RUS",
+    "DOM",
+    "BWA",
+    "BOL",
+    "BIH",
+    "BLR",
+    "BRA",
+    "PAN",
+    "PAK",
+    "AUS",
+    "AGO",
+    "EGY",
+    "AZE",
+    "OMN",
+    "ARE",
+    "ARG",
+    "DZA"
+  ]
+}

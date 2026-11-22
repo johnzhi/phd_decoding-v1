@@ -1,0 +1,7 @@
+oil_price_USD_bbl,exact_targets,power_EOR_Mt,power_saline_Mt,nonpower_EOR_Mt,nonpower_saline_Mt,total_Mt,target_Mt,excess_Mt,EOR_Mt,objective_million_USD,scope
+0,False,0.0,5.0,0.0,2.0,7.0,7,0.0,0.0,105.0,Analyst cumulative LP only; no native global flows or annual pressure limit
+0,True,5.0,0.0,2.0,0.0,7.0,7,0.0,7.0,105.0,Analyst cumulative LP only; no native global flows or annual pressure limit
+55,False,5.0,0.0,4.0,0.0,9.0,7,2.0,9.0,1.25,Analyst cumulative LP only; no native global flows or annual pressure limit
+55,True,5.0,0.0,2.0,0.0,7.0,7,0.0,7.0,8.75,Analyst cumulative LP only; no native global flows or annual pressure limit
+95,False,6.0,0.0,4.0,0.0,10.0,7,3.0,10.0,-95.5,Analyst cumulative LP only; no native global flows or annual pressure limit
+95,True,5.0,0.0,2.0,0.0,7.0,7,0.0,7.0,-61.25,Analyst cumulative LP only; no native global flows or annual pressure limit

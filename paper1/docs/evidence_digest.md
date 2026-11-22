@@ -404,13 +404,13 @@ Transfer limits: The article is public, but its data statement explicitly says t
 
 ### B2-16 — A proposed global layout of carbon capture and storage in line with a 2 °C climate target
 
-See supplied first page. Identifier: 10.1038/s41558-020-00960-0. [PDF](../papers/B2-16.pdf).
+Yi-Ming Wei et al. (2021). DOI: 10.1038/s41558-020-00960-0. [Retained PDF](../papers/B2-16.pdf); [detailed audit](global_layout_comprehensive_findings.md).
 
-Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1.
+Reading stage: All eleven retained main-PDF pages text-read and visually inspected; five figures/eighteen panels, 33 numbered equations, all 51 bibliography entries, 62 claims and fifteen issues recorded. This does not certify comprehensive completion.
 
-Global clustered source–sink matching selects 3093 clusters and 432 sinks for a 92 Gt mitigation scenario, including saline storage and EOR.
+The source proposes a cumulative domestic layout of 3,093 clusters and 432 sinks in 85 regions: 58.61 Gt saline plus 33.39 Gt EOR. Volumetric basin stock is not annual pressure-constrained service. The main-text 40,000 t/y cluster threshold differs tenfold from Methods 0.4 Mt/y. Mixed-sector capture, avoided-versus-captured cost, conditional EOR revenue units, learning initialization/thresholds and case denominators remain open. Financial EOR credits and cumulative-GDP ratios do not establish avoided GHG or causal growth.
 
-Transfer limits: Includes EOR and economic oil-price assumptions; not a uniform permanent-retention or avoided-GHG inventory.
+Transfer limits: The 67 checks, nine transcribed country rows, 21 synthetic deployment rows and six synthetic LP cases do not reproduce native global C3IAM/GCOP. Two selected-original checks support and qualify earlier SimCCS/InfraCCS methods; 49 other direct originals, fourteen dependencies or requirements, explicit SI and data/code on request remain unverified. No complete matched capture-to-ship utility inventory or public field dataset is supplied. Accepted operating/GHG inputs and current results remain unchanged; the combined 1.5 MPa HOLD is preserved.
 
 ### B2-17 — Progress and perspectives in source-sink matching for CCUS A critical review
 

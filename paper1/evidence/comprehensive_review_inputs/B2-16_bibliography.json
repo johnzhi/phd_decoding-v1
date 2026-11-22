@@ -1,0 +1,1891 @@
+{
+  "study_id": "B2-16",
+  "source_sha256": "ba2c448e350c1ccfd5f9acdf9f6458d41706e25736ea1b0fee00ee47a07428f0",
+  "provenance": "All 51 entries were read as text with rendered pages inspected. Native right-column lines and bounding boxes are preserved: p7 R1–28 and p10 R29–51. Bibliography reading does not verify originals.",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t1.\t Szulczewski, M. L., MacMinn, C. W., Herzog, H. J. & Juanes, R. Lifetime of ",
+        "carbon capture and storage as a climate-change mitigation technology. Proc. ",
+        "Natl Acad. Sci. USA 109, 5185–5189 (2012)."
+      ],
+      "line_bboxes": [
+        [
+          303.6378,
+          63.6394,
+          545.7214,
+          73.7569
+        ],
+        [
+          314.9703,
+          72.242,
+          547.6868,
+          82.457
+        ],
+        [
+          314.9703,
+          80.777,
+          448.7329,
+          91.157
+        ]
+      ],
+      "citation": "Szulczewski, M. L., MacMinn, C. W., Herzog, H. J. & Juanes, R. Lifetime of carbon capture and storage as a climate-change mitigation technology. Proc. Natl Acad. Sci. USA 109, 5185–5189 (2012).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t2.\t Mac Dowell, N., Fennell, P. S., Shah, N. & Maitland, G. C. The role of CO2 ",
+        "capture and utilization in mitigating climate change. Nat. Clim. Change 7, ",
+        "243–249 (2017)."
+      ],
+      "line_bboxes": [
+        [
+          303.6303,
+          89.7393,
+          543.815,
+          100.2309
+        ],
+        [
+          314.975,
+          98.1768,
+          540.845,
+          108.5568
+        ],
+        [
+          314.975,
+          107.1393,
+          363.9876,
+          117.2568
+        ]
+      ],
+      "citation": "Mac Dowell, N., Fennell, P. S., Shah, N. & Maitland, G. C. The role of CO2 capture and utilization in mitigating climate change. Nat. Clim. Change 7, 243–249 (2017).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01",
+        "C61"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t3.\t 20 Years of Carbon Capture and Storage (International Energy Agency, 2016). ."
+      ],
+      "line_bboxes": [
+        [
+          303.635,
+          115.7418,
+          550.0009,
+          125.9568
+        ]
+      ],
+      "citation": "20 Years of Carbon Capture and Storage (International Energy Agency, 2016). .",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01",
+        "C08",
+        "C09",
+        "C53",
+        "C54"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t4.\t Wei, Y.-M. et al. Climate engineering management: an emerging ",
+        "interdisciplinary subject. J. Model. Manag. 15, 685–702 (2019)."
+      ],
+      "line_bboxes": [
+        [
+          303.635,
+          124.5393,
+          512.3289,
+          134.6568
+        ],
+        [
+          314.9675,
+          132.9769,
+          505.0851,
+          143.3569
+        ]
+      ],
+      "citation": "Wei, Y.-M. et al. Climate engineering management: an emerging interdisciplinary subject. J. Model. Manag. 15, 685–702 (2019).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t5.\t Exploring Clean Energy Pathways: The Role of CO2 Storage (International ",
+        "Energy Agency, 2019)."
+      ],
+      "line_bboxes": [
+        [
+          303.6275,
+          141.8418,
+          536.5606,
+          152.4309
+        ],
+        [
+          314.9739,
+          150.6393,
+          383.1708,
+          160.7568
+        ]
+      ],
+      "citation": "Exploring Clean Energy Pathways: The Role of CO2 Storage (International Energy Agency, 2019).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C01",
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t6.\t Bui, M. et al. Carbon capture and storage (CCS): the way forward. Energy ",
+        "Environ. Sci. 11, 1062–1176 (2018)."
+      ],
+      "line_bboxes": [
+        [
+          303.6339,
+          159.2418,
+          541.2696,
+          169.4568
+        ],
+        [
+          314.9664,
+          167.7769,
+          422.359,
+          178.1568
+        ]
+      ],
+      "citation": "Bui, M. et al. Carbon capture and storage (CCS): the way forward. Energy Environ. Sci. 11, 1062–1176 (2018).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C02"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t7.\t Dahowski, R. T., Li, X., Davidson, C. L., Wei, N. & Dooley, J. J. Regional ",
+        "Opportunities for Carbon Dioxide Capture and Storage in China: A ",
+        "Comprehensive CO2 Storage Cost Curve and Analysis of the Potential for Large ",
+        "Scale Carbon Dioxide Capture and Storage in the People’s Republic of China ",
+        "No. PNNL-19091 (Pacific Northwest National Lab, 2009)."
+      ],
+      "line_bboxes": [
+        [
+          303.6339,
+          176.6419,
+          536.2297,
+          186.8569
+        ],
+        [
+          314.9664,
+          185.3419,
+          517.7644,
+          195.5569
+        ],
+        [
+          314.9664,
+          194.0419,
+          552.6772,
+          204.2569
+        ],
+        [
+          314.9664,
+          202.7419,
+          543.0397,
+          212.9569
+        ],
+        [
+          314.9664,
+          211.4419,
+          489.5286,
+          221.6569
+        ]
+      ],
+      "citation": "Dahowski, R. T., Li, X., Davidson, C. L., Wei, N. & Dooley, J. J. Regional Opportunities for Carbon Dioxide Capture and Storage in China: A Comprehensive CO2 Storage Cost Curve and Analysis of the Potential for Large Scale Carbon Dioxide Capture and Storage in the People’s Republic of China No. PNNL-19091 (Pacific Northwest National Lab, 2009).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t8.\t Building the Cost Curve for CO2 Storage: European Sector Report 2005/2 ",
+        "(IEAGHG, 2005)."
+      ],
+      "line_bboxes": [
+        [
+          303.6264,
+          220.1418,
+          534.1661,
+          230.7309
+        ],
+        [
+          314.9719,
+          228.9393,
+          368.3644,
+          239.0568
+        ]
+      ],
+      "citation": "Building the Cost Curve for CO2 Storage: European Sector Report 2005/2 (IEAGHG, 2005).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t9.\t Middleton, R. S. et al. The cross-scale science of CO2 capture and storage: ",
+        "from pore scale to regional scale. Energy Environ. Sci. 5, 7328–7345 (2012)."
+      ],
+      "line_bboxes": [
+        [
+          303.6319,
+          237.6393,
+          541.1483,
+          248.131
+        ],
+        [
+          314.9781,
+          246.077,
+          543.968,
+          256.457
+        ]
+      ],
+      "citation": "Middleton, R. S. et al. The cross-scale science of CO2 capture and storage: from pore scale to regional scale. Energy Environ. Sci. 5, 7328–7345 (2012).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t10.\tMiddleton, R. S. & Bielicki, J. M. A scalable infrastructure model for carbon ",
+        "capture and storage: SimCCS. Energy Policy 37, 1052–1060 (2009)."
+      ],
+      "line_bboxes": [
+        [
+          303.6456,
+          255.0395,
+          548.7578,
+          265.157
+        ],
+        [
+          314.9781,
+          263.477,
+          517.2607,
+          273.857
+        ]
+      ],
+      "citation": "Middleton, R. S. & Bielicki, J. M. A scalable infrastructure model for carbon capture and storage: SimCCS. Energy Policy 37, 1052–1060 (2009).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "primary_text_checked_selected_original_passages_only",
+      "claim_links": [
+        "C03",
+        "C62"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t11.\tSanchez, D. L., Johnson, N., McCoy, S. T., Turner, P. A. & Mach, K. J. ",
+        "Near-term deployment of carbon capture and sequestration from biorefineries ",
+        "in the United States. Proc. Natl Acad. Sci. USA 115, 4875 (2018)."
+      ],
+      "line_bboxes": [
+        [
+          303.6381,
+          272.4395,
+          527.6034,
+          282.557
+        ],
+        [
+          314.9706,
+          281.1395,
+          554.2719,
+          291.257
+        ],
+        [
+          314.9706,
+          289.577,
+          511.4557,
+          299.957
+        ]
+      ],
+      "citation": "Sanchez, D. L., Johnson, N., McCoy, S. T., Turner, P. A. & Mach, K. J. Near-term deployment of carbon capture and sequestration from biorefineries in the United States. Proc. Natl Acad. Sci. USA 115, 4875 (2018).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t12.\tHe, Y. J. et al. Optimal source–sink matching in carbon capture and storage ",
+        "systems under uncertainty. Ind. Eng. Chem. Res. 53, 778–785 (2013)."
+      ],
+      "line_bboxes": [
+        [
+          303.6306,
+          298.5395,
+          546.8492,
+          308.657
+        ],
+        [
+          314.9631,
+          306.9771,
+          523.2757,
+          317.3571
+        ]
+      ],
+      "citation": "He, Y. J. et al. Optimal source–sink matching in carbon capture and storage systems under uncertainty. Ind. Eng. Chem. Res. 53, 778–785 (2013).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t13.\tHan, J. H., Ryu, J. H. & Lee, I. B. Two-stage stochastic programming model ",
+        "for planning CO2 utilization and disposal infrastructure considering the ",
+        "uncertainty in the CO2 emission. Ind. Eng. Chem. Res. 50, 13435–13443 ",
+        "(2012)."
+      ],
+      "line_bboxes": [
+        [
+          303.6231,
+          315.9395,
+          546.4578,
+          326.0571
+        ],
+        [
+          314.9556,
+          324.6394,
+          535.3695,
+          335.131
+        ],
+        [
+          314.9757,
+          333.0768,
+          534.6733,
+          343.8309
+        ],
+        [
+          314.9758,
+          342.0393,
+          336.2758,
+          352.1569
+        ]
+      ],
+      "citation": "Han, J. H., Ryu, J. H. & Lee, I. B. Two-stage stochastic programming model for planning CO2 utilization and disposal infrastructure considering the uncertainty in the CO2 emission. Ind. Eng. Chem. Res. 50, 13435–13443 (2012).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t14.\tEdwards, R. W. & Celia, M. A. Infrastructure to enable deployment of carbon ",
+        "capture, utilization, and storage in the United States. Proc. Natl Acad. Sci. ",
+        "USA 115, 8815–8824 (2018)."
+      ],
+      "line_bboxes": [
+        [
+          303.6358,
+          350.7393,
+          553.0469,
+          360.8569
+        ],
+        [
+          314.9683,
+          359.3419,
+          539.6064,
+          369.5569
+        ],
+        [
+          314.9683,
+          367.8769,
+          402.3584,
+          378.2569
+        ]
+      ],
+      "citation": "Edwards, R. W. & Celia, M. A. Infrastructure to enable deployment of carbon capture, utilization, and storage in the United States. Proc. Natl Acad. Sci. USA 115, 8815–8824 (2018).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t15.\tWang, P. et al. Carbon capture and storage in China’s power sector: optimal ",
+        "planning under the 2 °C constraint. Appl. Energy 263, 114694 (2020)."
+      ],
+      "line_bboxes": [
+        [
+          303.6283,
+          376.8394,
+          546.7614,
+          386.9569
+        ],
+        [
+          314.9608,
+          385.2769,
+          524.9459,
+          395.6569
+        ]
+      ],
+      "citation": "Wang, P. et al. Carbon capture and storage in China’s power sector: optimal planning under the 2 °C constraint. Appl. Energy 263, 114694 (2020).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C03"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t16.\tMorbee, J., Serpa, J. & Tzimas, E. Optimised deployment of a European CO2 ",
+        "transport network. Int. J. Greenh. Gas Con. 7, 48–61 (2012)."
+      ],
+      "line_bboxes": [
+        [
+          303.6208,
+          394.2393,
+          549.3696,
+          404.7309
+        ],
+        [
+          314.9796,
+          402.6768,
+          496.9972,
+          413.0569
+        ]
+      ],
+      "citation": "Morbee, J., Serpa, J. & Tzimas, E. Optimised deployment of a European CO2 transport network. Int. J. Greenh. Gas Con. 7, 48–61 (2012).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "primary_text_checked_selected_original_passages_only",
+      "claim_links": [
+        "C03",
+        "C62"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t17.\tUnderstanding Industrial CCS Hubs and Clusters (Global CCS Institute, 2016); ",
+        "https://www.globalccsinstitute.com/resources/publications-reports-research/",
+        "understanding-industrial-ccs-hubs-and-clusters/"
+      ],
+      "line_bboxes": [
+        [
+          303.6396,
+          411.5418,
+          553.6952,
+          421.7569
+        ],
+        [
+          314.9796,
+          420.3394,
+          544.1925,
+          430.4569
+        ],
+        [
+          314.9796,
+          429.0394,
+          460.9215,
+          439.1569
+        ]
+      ],
+      "citation": "Understanding Industrial CCS Hubs and Clusters (Global CCS Institute, 2016); https://www.globalccsinstitute.com/resources/publications-reports-research/ understanding-industrial-ccs-hubs-and-clusters/",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04",
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t18.\tIPCC. Special Report on Carbon Dioxide Capture and Storage (eds Metz, B. ",
+        "et al.) (Cambridge Univ. Press, 2005)."
+      ],
+      "line_bboxes": [
+        [
+          303.6396,
+          437.6419,
+          544.0225,
+          447.8569
+        ],
+        [
+          314.9796,
+          446.4394,
+          428.9048,
+          456.5569
+        ]
+      ],
+      "citation": "IPCC. Special Report on Carbon Dioxide Capture and Storage (eds Metz, B. et al.) (Cambridge Univ. Press, 2005).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C05",
+        "C24"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t19.\tBuilding the Costs Curves for CO2 Storage: North America (International ",
+        "Energy Agency, 2005)."
+      ],
+      "line_bboxes": [
+        [
+          303.6396,
+          455.0419,
+          534.0092,
+          465.631
+        ],
+        [
+          314.9793,
+          463.8394,
+          383.1762,
+          473.9569
+        ]
+      ],
+      "citation": "Building the Costs Curves for CO2 Storage: North America (International Energy Agency, 2005).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t20.\tNational Assessment of Geologic Carbon Dioxide Storage Resources—Results ",
+        "v.1.1, Circular 1386 (US Geological Survey, 2013); https://pubs.usgs.gov/",
+        "circ/1386/"
+      ],
+      "line_bboxes": [
+        [
+          303.6393,
+          472.4419,
+          543.1799,
+          482.657
+        ],
+        [
+          314.9793,
+          481.2394,
+          534.6816,
+          491.357
+        ],
+        [
+          314.9793,
+          489.9395,
+          345.3843,
+          500.057
+        ]
+      ],
+      "citation": "National Assessment of Geologic Carbon Dioxide Storage Resources—Results v.1.1, Circular 1386 (US Geological Survey, 2013); https://pubs.usgs.gov/ circ/1386/",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C05"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t21.\tTask Force on Clusters, Hubs, and Infrastructure (Carbon Sequestration ",
+        "Leadership Forum, 2020); https://www.cslforum.org/cslf/sites/default/files/",
+        "documents/Task-Force_CO2-Hubs-Clusters-Infrastructure-and-CCS_",
+        "Annual-Report_2019-2020.pdf"
+      ],
+      "line_bboxes": [
+        [
+          303.6393,
+          498.542,
+          531.4949,
+          508.757
+        ],
+        [
+          314.9793,
+          507.3394,
+          540.2022,
+          517.457
+        ],
+        [
+          314.9793,
+          516.0396,
+          526.1322,
+          526.157
+        ],
+        [
+          314.9793,
+          524.7395,
+          407.9562,
+          534.857
+        ]
+      ],
+      "citation": "Task Force on Clusters, Hubs, and Infrastructure (Carbon Sequestration Leadership Forum, 2020); https://www.cslforum.org/cslf/sites/default/files/ documents/Task-Force_CO2-Hubs-Clusters-Infrastructure-and-CCS_ Annual-Report_2019-2020.pdf",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C04"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t22.\tGoodman, A. et al. U.S. DOE methodology for the development of geologic ",
+        "storage potential for carbon dioxide at the national and regional scale. Int. J. ",
+        "Greenh. Gas Con. 5, 952–965 (2011)."
+      ],
+      "line_bboxes": [
+        [
+          303.6393,
+          533.4395,
+          547.8824,
+          543.557
+        ],
+        [
+          314.9718,
+          542.042,
+          548.6785,
+          552.257
+        ],
+        [
+          314.9718,
+          550.577,
+          426.7444,
+          560.957
+        ]
+      ],
+      "citation": "Goodman, A. et al. U.S. DOE methodology for the development of geologic storage potential for carbon dioxide at the national and regional scale. Int. J. Greenh. Gas Con. 5, 952–965 (2011).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C05",
+        "C14",
+        "C15",
+        "C17",
+        "C18",
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t23.\tOsmonson, L. M. et al. Geologic Provinces of the World (US Geological ",
+        "Survey, 2000); https://certmapper.cr.usgs.gov/data/wep/dds60/wep_prv.",
+        "htm#Entity_and_Attribute_Information"
+      ],
+      "line_bboxes": [
+        [
+          303.6318,
+          559.442,
+          531.4044,
+          569.657
+        ],
+        [
+          314.9643,
+          568.2395,
+          529.9573,
+          578.357
+        ],
+        [
+          314.9643,
+          576.9395,
+          435.5855,
+          587.057
+        ]
+      ],
+      "citation": "Osmonson, L. M. et al. Geologic Provinces of the World (US Geological Survey, 2000); https://certmapper.cr.usgs.gov/data/wep/dds60/wep_prv. htm#Entity_and_Attribute_Information",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C05",
+        "C14",
+        "C17",
+        "C18",
+        "C19",
+        "C20"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t24.\tRiahi, K. et al. The shared socioeconomic pathways and their energy, land ",
+        "use, and greenhouse gas emissions implications: an overview. Glob. Environ. ",
+        "Change 42, 153–168 (2017)."
+      ],
+      "line_bboxes": [
+        [
+          303.6243,
+          585.6395,
+          541.8457,
+          595.757
+        ],
+        [
+          314.9568,
+          594.2419,
+          547.7198,
+          604.457
+        ],
+        [
+          314.9568,
+          602.777,
+          399.7444,
+          613.157
+        ]
+      ],
+      "citation": "Riahi, K. et al. The shared socioeconomic pathways and their energy, land use, and greenhouse gas emissions implications: an overview. Glob. Environ. Change 42, 153–168 (2017).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C40",
+        "C41",
+        "C42"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t25.\tCARMAv3.0: Carbon Monitoring for Action: Power Plants (Center for Global ",
+        "Development, accessed 18 May 2020); https://www.cgdev.org/topics/",
+        "carbon-monitoring-action"
+      ],
+      "line_bboxes": [
+        [
+          303.6168,
+          611.642,
+          548.4382,
+          621.857
+        ],
+        [
+          314.9568,
+          620.4395,
+          522.2841,
+          630.557
+        ],
+        [
+          314.9568,
+          629.1395,
+          394.1404,
+          639.257
+        ]
+      ],
+      "citation": "CARMAv3.0: Carbon Monitoring for Action: Power Plants (Center for Global Development, accessed 18 May 2020); https://www.cgdev.org/topics/ carbon-monitoring-action",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06",
+        "C07",
+        "C09",
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t26.\tFLIGHT Tool: Facility Level Information on GreenHouse gases Tool (US ",
+        "Envarionmental Protection Agency, accessed 19 May 2020); http://ghgdata.",
+        "epa.gov/ghgp"
+      ],
+      "line_bboxes": [
+        [
+          303.6168,
+          637.7419,
+          531.2698,
+          647.957
+        ],
+        [
+          314.9568,
+          646.5395,
+          542.8806,
+          656.657
+        ],
+        [
+          314.9568,
+          655.2395,
+          355.1711,
+          665.357
+        ]
+      ],
+      "citation": "FLIGHT Tool: Facility Level Information on GreenHouse gases Tool (US Envarionmental Protection Agency, accessed 19 May 2020); http://ghgdata. epa.gov/ghgp",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06",
+        "C07",
+        "C09",
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t27.\tEuropean Pollutant Release and Transfer Register v.4.2 data (European ",
+        "Environment Agency, accessed 05/15 May 2020); http://prtr.ec.europa.eu"
+      ],
+      "line_bboxes": [
+        [
+          303.6168,
+          663.8419,
+          527.4833,
+          674.0569
+        ],
+        [
+          314.9568,
+          672.6395,
+          535.7465,
+          682.757
+        ]
+      ],
+      "citation": "European Pollutant Release and Transfer Register v.4.2 data (European Environment Agency, accessed 05/15 May 2020); http://prtr.ec.europa.eu",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06",
+        "C07",
+        "C09",
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        7
+      ],
+      "native_lines": [
+        "\t28.\tCrippa, M., Solazzo, E., Janssens-Maenhout, G. & Muntean, M. High ",
+        "resolution temporal profiles in the emissions database for global atmospheric ",
+        "research. Sci. Data 7, 121 (2020)."
+      ],
+      "line_bboxes": [
+        [
+          303.6168,
+          681.3395,
+          526.5381,
+          691.457
+        ],
+        [
+          314.9493,
+          690.0395,
+          551.1307,
+          700.157
+        ],
+        [
+          314.9493,
+          698.477,
+          415.2694,
+          708.857
+        ]
+      ],
+      "citation": "Crippa, M., Solazzo, E., Janssens-Maenhout, G. & Muntean, M. High resolution temporal profiles in the emissions database for global atmospheric research. Sci. Data 7, 121 (2020).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06",
+        "C07",
+        "C09",
+        "C10",
+        "C11",
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t29.\tFriedl, M. A. et al. MODIS Collection 5 global land cover: algorithm ",
+        "refinements and characterization of new datasets. Remote Sens. Environ. 114, ",
+        "168–182 (2010)."
+      ],
+      "line_bboxes": [
+        [
+          303.6378,
+          198.2536,
+          526.0543,
+          208.3711
+        ],
+        [
+          314.9703,
+          206.6912,
+          550.4628,
+          217.0712
+        ],
+        [
+          314.9703,
+          215.6537,
+          363.9828,
+          225.7712
+        ]
+      ],
+      "citation": "Friedl, M. A. et al. MODIS Collection 5 global land cover: algorithm refinements and characterization of new datasets. Remote Sens. Environ. 114, 168–182 (2010).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C06",
+        "C07"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t30.\tLackey, Greg et al. Managing well leakage risks at a geologic carbon storage ",
+        "site with many wells. Int. J. Greenh. Gas Con. 88, 182–194 (2019)."
+      ],
+      "line_bboxes": [
+        [
+          303.6303,
+          224.3537,
+          546.6292,
+          234.4712
+        ],
+        [
+          314.9628,
+          232.7912,
+          514.5679,
+          243.1712
+        ]
+      ],
+      "citation": "Lackey, Greg et al. Managing well leakage risks at a geologic carbon storage site with many wells. Int. J. Greenh. Gas Con. 88, 182–194 (2019).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t31.\tLi, X., Liu, Y., Bai, B. & Fang, Z. Ranking and screening of CO2 saline aquifer ",
+        "storage zones in China. Chin. J. Rock. Mech. Eng. 25, 963–968 (2006)."
+      ],
+      "line_bboxes": [
+        [
+          303.6227,
+          241.7536,
+          552.7979,
+          252.2452
+        ],
+        [
+          314.9737,
+          250.1912,
+          526.5262,
+          260.5712
+        ]
+      ],
+      "citation": "Li, X., Liu, Y., Bai, B. & Fang, Z. Ranking and screening of CO2 saline aquifer storage zones in China. Chin. J. Rock. Mech. Eng. 25, 963–968 (2006).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t32.\tOgawa, T., Nakanishi, S., Shidahara, T., Okumura, T. & Hayashi, E. ",
+        "Saline-aquifer CO2 sequestration in Japan-methodology of storage capacity ",
+        "assessment. Int. J. Greenh. Gas Con. 5, 318–326 (2011)."
+      ],
+      "line_bboxes": [
+        [
+          303.6338,
+          259.1537,
+          520.4442,
+          269.2712
+        ],
+        [
+          314.9662,
+          267.8535,
+          544.2499,
+          278.3452
+        ],
+        [
+          314.9746,
+          276.2911,
+          482.1572,
+          286.6711
+        ]
+      ],
+      "citation": "Ogawa, T., Nakanishi, S., Shidahara, T., Okumura, T. & Hayashi, E. Saline-aquifer CO2 sequestration in Japan-methodology of storage capacity assessment. Int. J. Greenh. Gas Con. 5, 318–326 (2011).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t33.\tSu, X., Xu, W. & Du, S. Basin-scale CO2 storage capacity assessment of deep ",
+        "saline aquifers in the Songliao Basin, Northeast China. Greenh. Gas. Sci. ",
+        "Technol. 3, 266–280 (2013)."
+      ],
+      "line_bboxes": [
+        [
+          303.6346,
+          285.2535,
+          548.3778,
+          295.7451
+        ],
+        [
+          314.9785,
+          293.856,
+          536.3401,
+          304.071
+        ],
+        [
+          314.9785,
+          302.3911,
+          398.1236,
+          312.7711
+        ]
+      ],
+      "citation": "Su, X., Xu, W. & Du, S. Basin-scale CO2 storage capacity assessment of deep saline aquifers in the Songliao Basin, Northeast China. Greenh. Gas. Sci. Technol. 3, 266–280 (2013).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t34.\tQiao, X., Li, G., Li, M. & Wang, Z. CO2 storage capacity assessment of deep ",
+        "saline aquifers in the Subei Basin, East China. Int. J. Greenh. Gas Con. 11, ",
+        "52–63 (2012)."
+      ],
+      "line_bboxes": [
+        [
+          303.6385,
+          311.3535,
+          547.329,
+          321.8451
+        ],
+        [
+          314.9797,
+          319.791,
+          541.4947,
+          330.1711
+        ],
+        [
+          314.9797,
+          328.7535,
+          356.7922,
+          338.8711
+        ]
+      ],
+      "citation": "Qiao, X., Li, G., Li, M. & Wang, Z. CO2 storage capacity assessment of deep saline aquifers in the Subei Basin, East China. Int. J. Greenh. Gas Con. 11, 52–63 (2012).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t35.\tCalvo, R. & Gvirtzman, Z. Assessment of CO2 storage capacity in southern ",
+        "Israel. Int. J. Greenh. Gas. Con. 14, 25–38 (2013)."
+      ],
+      "line_bboxes": [
+        [
+          303.6397,
+          337.4535,
+          544.5677,
+          347.9451
+        ],
+        [
+          314.9778,
+          345.8911,
+          463.7029,
+          356.2711
+        ]
+      ],
+      "citation": "Calvo, R. & Gvirtzman, Z. Assessment of CO2 storage capacity in southern Israel. Int. J. Greenh. Gas. Con. 14, 25–38 (2013).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t36.\tSilva, P. N. K. D., Ranjith, P. G. & Choi, S. K. A study of methodologies for ",
+        "CO2 storage capacity estimation of coal. Fuel 91, 1–15 (2012)."
+      ],
+      "line_bboxes": [
+        [
+          303.6378,
+          354.8535,
+          545.6257,
+          364.9711
+        ],
+        [
+          314.9703,
+          363.291,
+          502.7074,
+          374.0451
+        ]
+      ],
+      "citation": "Silva, P. N. K. D., Ranjith, P. G. & Choi, S. K. A study of methodologies for CO2 storage capacity estimation of coal. Fuel 91, 1–15 (2012).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t37.\tComparison Between Methodologies Recommended for Estimation of CO2 ",
+        "Storage Capacity in Geologic Media Phase III Report: April 21 (Carbon ",
+        "Sequestration Leadership Forum, 2008)."
+      ],
+      "line_bboxes": [
+        [
+          303.6348,
+          372.156,
+          535.5481,
+          382.7451
+        ],
+        [
+          314.9731,
+          380.856,
+          531.5947,
+          391.071
+        ],
+        [
+          314.9731,
+          389.6535,
+          436.6151,
+          399.7711
+        ]
+      ],
+      "citation": "Comparison Between Methodologies Recommended for Estimation of CO2 Storage Capacity in Geologic Media Phase III Report: April 21 (Carbon Sequestration Leadership Forum, 2008).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C15"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t38.\tCarbon Sequestration Atlas of the United State and Canada 2nd edn (US ",
+        "Department of Energy, National Energy Technology Laboratory, Office of ",
+        "Fossil Energy, 2008)."
+      ],
+      "line_bboxes": [
+        [
+          303.6331,
+          398.256,
+          535.5912,
+          408.4711
+        ],
+        [
+          314.9731,
+          407.0536,
+          540.1738,
+          417.1711
+        ],
+        [
+          314.9731,
+          415.7536,
+          377.7032,
+          425.8711
+        ]
+      ],
+      "citation": "Carbon Sequestration Atlas of the United State and Canada 2nd edn (US Department of Energy, National Energy Technology Laboratory, Office of Fossil Energy, 2008).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C15"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t39.\tZhou, Q., Birkholzer, J. T., Tsang, C.-F. & Rutqvist, J. A method for quick ",
+        "assessment of CO2 storage capacity in closed and semi-closed saline ",
+        "formation. Int. J. Greenh. Gas Con. 2, 626–639 (2008)."
+      ],
+      "line_bboxes": [
+        [
+          303.6331,
+          424.4536,
+          539.3035,
+          434.5711
+        ],
+        [
+          314.9656,
+          433.1535,
+          523.2867,
+          443.6451
+        ],
+        [
+          314.9755,
+          441.591,
+          479.3156,
+          451.971
+        ]
+      ],
+      "citation": "Zhou, Q., Birkholzer, J. T., Tsang, C.-F. & Rutqvist, J. A method for quick assessment of CO2 storage capacity in closed and semi-closed saline formation. Int. J. Greenh. Gas Con. 2, 626–639 (2008).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C15"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t40.\tGoodman, A. et al. Comparison of methods for geologic storage of carbon ",
+        "dioxide in saline formations. Int. J. Greenh. Gas Con. 18, 329–342 (2013)."
+      ],
+      "line_bboxes": [
+        [
+          303.6355,
+          450.5535,
+          544.0378,
+          460.6711
+        ],
+        [
+          314.968,
+          458.9911,
+          538.168,
+          469.3711
+        ]
+      ],
+      "citation": "Goodman, A. et al. Comparison of methods for geologic storage of carbon dioxide in saline formations. Int. J. Greenh. Gas Con. 18, 329–342 (2013).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C14",
+        "C15",
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t41.\tAminu, M. D., Nabavi, S. A., Rochelle, C. A. & Manovic, V. A review of ",
+        "developments in carbon dioxide storage. Appl. Energy 208, 1389–1419 (2017)."
+      ],
+      "line_bboxes": [
+        [
+          303.628,
+          467.9536,
+          535.4825,
+          478.0711
+        ],
+        [
+          314.9605,
+          476.3911,
+          551.7053,
+          486.7711
+        ]
+      ],
+      "citation": "Aminu, M. D., Nabavi, S. A., Rochelle, C. A. & Manovic, V. A review of developments in carbon dioxide storage. Appl. Energy 208, 1389–1419 (2017).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C14",
+        "C16"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t42.\tHendriks, C., Graus, W. & van Bergen, F. Global Carbon Dioxide Storage ",
+        "Potential and Costs (Ecofys, 2004)."
+      ],
+      "line_bboxes": [
+        [
+          303.6205,
+          485.2561,
+          536.7567,
+          495.4711
+        ],
+        [
+          314.953,
+          493.9561,
+          419.6372,
+          504.1711
+        ]
+      ],
+      "citation": "Hendriks, C., Graus, W. & van Bergen, F. Global Carbon Dioxide Storage Potential and Costs (Ecofys, 2004).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C14",
+        "C16",
+        "C17",
+        "C18",
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t43.\tvan der Meer, L. G. H. The conditions limiting CO2 storage in aquifers. ",
+        "Energy Convers. Manag. 34, 959–966 (1993)."
+      ],
+      "line_bboxes": [
+        [
+          303.613,
+          502.7535,
+          533.7315,
+          513.2451
+        ],
+        [
+          314.9789,
+          511.191,
+          450.024,
+          521.571
+        ]
+      ],
+      "citation": "van der Meer, L. G. H. The conditions limiting CO2 storage in aquifers. Energy Convers. Manag. 34, 959–966 (1993).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C14",
+        "C18",
+        "C46"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t44.\tWei, Y.-M. et al. Self-preservation strategy for approaching global warming ",
+        "targets in the post-Paris Agreement era. Nat. Commun. 11, 1624 (2020)."
+      ],
+      "line_bboxes": [
+        [
+          303.6389,
+          520.1536,
+          544.9344,
+          530.2711
+        ],
+        [
+          314.9714,
+          528.5911,
+          534.2413,
+          538.9711
+        ]
+      ],
+      "citation": "Wei, Y.-M. et al. Self-preservation strategy for approaching global warming targets in the post-Paris Agreement era. Nat. Commun. 11, 1624 (2020).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C51"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t45.\tWei, Y.-M. et al. An integrated assessment of INDCs under shared ",
+        "socioeconomic pathways: an implementation of C3IAM. Nat. Hazards 92, ",
+        "585–618 (2018)."
+      ],
+      "line_bboxes": [
+        [
+          303.6314,
+          537.5536,
+          519.0603,
+          547.6711
+        ],
+        [
+          314.9639,
+          545.991,
+          539.5557,
+          556.371
+        ],
+        [
+          314.9757,
+          554.9536,
+          363.9883,
+          565.071
+        ]
+      ],
+      "citation": "Wei, Y.-M. et al. An integrated assessment of INDCs under shared socioeconomic pathways: an implementation of C3IAM. Nat. Hazards 92, 585–618 (2018).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C51"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t46.\tAzzolina, N. A. et al. How green is my oil? A detailed look at greenhouse gas ",
+        "accounting for CO2-enhanced oil recovery (CO2-EOR) sites. Int. J. Greenh. ",
+        "Gas Con. 51, 369–379 (2016)."
+      ],
+      "line_bboxes": [
+        [
+          303.6357,
+          563.6536,
+          552.1988,
+          573.7711
+        ],
+        [
+          314.9682,
+          572.256,
+          543.1398,
+          582.8451
+        ],
+        [
+          314.9747,
+          580.791,
+          405.1848,
+          591.171
+        ]
+      ],
+      "citation": "Azzolina, N. A. et al. How green is my oil? A detailed look at greenhouse gas accounting for CO2-enhanced oil recovery (CO2-EOR) sites. Int. J. Greenh. Gas Con. 51, 369–379 (2016).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C35",
+        "C43",
+        "C49",
+        "C61"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t47.\tLapillonne, B. et al. World Energy Technology Outlook–2050–WETO-H2 ",
+        "(Luxembourg: Office for Official Publications of the European Communities, ",
+        "2007); https://espas.secure.europarl.europa.eu/orbis/sites/default/files/",
+        "generated/document/en/WETO-H2.pdf"
+      ],
+      "line_bboxes": [
+        [
+          303.6347,
+          589.656,
+          533.7999,
+          599.871
+        ],
+        [
+          314.9672,
+          598.4536,
+          550.2711,
+          608.571
+        ],
+        [
+          314.9672,
+          607.1536,
+          525.5202,
+          617.2711
+        ],
+        [
+          314.9672,
+          615.8535,
+          435.1541,
+          625.971
+        ]
+      ],
+      "citation": "Lapillonne, B. et al. World Energy Technology Outlook–2050–WETO-H2 (Luxembourg: Office for Official Publications of the European Communities, 2007); https://espas.secure.europarl.europa.eu/orbis/sites/default/files/ generated/document/en/WETO-H2.pdf",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C54"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t48.\tWu, X. D., Yang, Q., Chen, G. Q., Hayat, T. & Alsaedi, A. Progress and ",
+        "prospect of CCS in China: using learning curve to assess the cost-viability of ",
+        "a 2 × 600 MW retrofitted oxyfuel power plant as a case study. Renew. Sustain. ",
+        "Energy Rev. 60, 1274–1285 (2016)."
+      ],
+      "line_bboxes": [
+        [
+          303.6272,
+          624.5535,
+          532.0092,
+          634.671
+        ],
+        [
+          314.9597,
+          633.2535,
+          550.4481,
+          643.371
+        ],
+        [
+          314.9597,
+          641.4585,
+          551.1339,
+          652.7834
+        ],
+        [
+          314.9597,
+          650.391,
+          419.5173,
+          660.771
+        ]
+      ],
+      "citation": "Wu, X. D., Yang, Q., Chen, G. Q., Hayat, T. & Alsaedi, A. Progress and prospect of CCS in China: using learning curve to assess the cost-viability of a 2 × 600 MW retrofitted oxyfuel power plant as a case study. Renew. Sustain. Energy Rev. 60, 1274–1285 (2016).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C54"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R48"
+    },
+    {
+      "id": "R49",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t49.\tLi, S., Zhang, X., Gao, L. & Jin, H. Learning rates and future cost curves for ",
+        "fossil fuel energy systems with CO2 capture: methodology and case studies. ",
+        "Appl. Energy 93, 348–356 (2012)."
+      ],
+      "line_bboxes": [
+        [
+          303.6197,
+          659.3535,
+          547.3475,
+          669.471
+        ],
+        [
+          314.9522,
+          668.0535,
+          545.4432,
+          678.5451
+        ],
+        [
+          314.9762,
+          676.491,
+          415.7163,
+          686.871
+        ]
+      ],
+      "citation": "Li, S., Zhang, X., Gao, L. & Jin, H. Learning rates and future cost curves for fossil fuel energy systems with CO2 capture: methodology and case studies. Appl. Energy 93, 348–356 (2012).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C54",
+        "C55"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R49"
+    },
+    {
+      "id": "R50",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t50.\tRubin, E. S., Chen, C. & Rao, A. B. Cost and performance of fossil fuel power ",
+        "plants with CO2 capture and storage. Energy Policy 35, 4444–4454 (2007)."
+      ],
+      "line_bboxes": [
+        [
+          303.6362,
+          685.4536,
+          554.2032,
+          695.571
+        ],
+        [
+          314.9687,
+          693.8911,
+          538.8655,
+          704.6451
+        ]
+      ],
+      "citation": "Rubin, E. S., Chen, C. & Rao, A. B. Cost and performance of fossil fuel power plants with CO2 capture and storage. Energy Policy 35, 4444–4454 (2007).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C54",
+        "C55"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R50"
+    },
+    {
+      "id": "R51",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "\t51.\tLeeson, D., Dowell, N. M., Shah, N., Petit, C. & Fennell, P. S. A ",
+        "techno-economic analysis and systematic review of carbon capture and ",
+        "storage (CCS) applied to the iron and steel, cement, oil refining and pulp and ",
+        "paper industries, as well as other high purity sources. Int. J. Greenh. Gas Con. ",
+        "61, 71–84 (2017)."
+      ],
+      "line_bboxes": [
+        [
+          303.6356,
+          702.8535,
+          509.4704,
+          712.971
+        ],
+        [
+          314.9681,
+          711.5535,
+          532.8036,
+          721.671
+        ],
+        [
+          314.9681,
+          720.2535,
+          552.7612,
+          730.371
+        ],
+        [
+          314.9681,
+          728.856,
+          552.5687,
+          739.071
+        ],
+        [
+          314.9681,
+          737.3911,
+          368.2032,
+          747.7711
+        ]
+      ],
+      "citation": "Leeson, D., Dowell, N. M., Shah, N., Petit, C. & Fennell, P. S. A techno-economic analysis and systematic review of carbon capture and storage (CCS) applied to the iron and steel, cement, oil refining and pulp and paper industries, as well as other high purity sources. Int. J. Greenh. Gas Con. 61, 71–84 (2017).",
+      "role": "Printed bibliography source for the linked literature, method or result claim. Only expressly recorded selected passages have original-source checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C56",
+        "C57"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-16_bibliography.json#R51"
+    }
+  ]
+}

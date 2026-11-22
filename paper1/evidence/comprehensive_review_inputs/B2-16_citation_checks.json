@@ -1,0 +1,33 @@
+{
+  "study_id": "B2-16",
+  "source_sha256": "ba2c448e350c1ccfd5f9acdf9f6458d41706e25736ea1b0fee00ee47a07428f0",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R10",
+      "cited_study": "B3-44",
+      "source_sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+      "doi": "10.1016/j.enpol.2008.09.049",
+      "targeted_pages": [
+        1,
+        2
+      ],
+      "inspection": "Both selected original pages text-read and rendered pages inspected locally; exact title/authors/DOI matched. No external retrieval.",
+      "supported": "Original pp1–2 describe integrated source, capture, reservoir, route and pipeline-capacity optimization with shared trunklines, demonstrated in California and intended for local/regional/national scales. Page 2 describes a 1 km cost raster.",
+      "unresolved": "This qualifies a transport-only description: SimCCS already integrates source/sink decisions. It does not validate Wei2021 global data, capture/avoidance mapping, native optimization, pressure service or LCI. Full original/model verification remains incomplete."
+    },
+    {
+      "reference_id": "R16",
+      "cited_study": "B3-13",
+      "source_sha256": "ff86c737307a2d56c0524b25161eaeadf620b44c87725e4cd3e7a9a99470ab5d",
+      "doi": "10.1016/j.ijggc.2011.11.011",
+      "targeted_pages": [
+        1,
+        2
+      ],
+      "inspection": "Both selected original pages text-read and rendered pages inspected locally; exact title/authors/DOI matched. No external retrieval.",
+      "supported": "Original pp1–2 describe European 2015–2050 coordinated cross-border pipeline optimization, k-means/Delaunay preprocessing and five interdependent steps. Page 2 explicitly takes an external capture scenario.",
+      "unresolved": "Supports continent-scale temporal prior-work context, rather than endogenous global capture forecasts or Wei2021 case validation. Only selected pages were checked here; the fourteen-page original/model and its underlying sources remain incomplete."
+    }
+  ]
+}
