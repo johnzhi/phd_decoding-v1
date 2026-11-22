@@ -4,6 +4,8 @@ Requested on21November2026: review every section, figure/graphic/table/caption/l
 
 The [current progress register](comprehensive_review/README.md) distinguishes retained-PDF reading from scientific verification. The corpus has93 retained PDFs,92 unique publications and1,301 unique physical pages; B3-46 remains a preserved duplicate, not a second reviewed publication. Later reference intakes are separate assets and can support this audit where properly matched.
 
+The requested [detailed summary of the first 30 papers](comprehensive_review/first_30_detailed_summary.md) is also available as a [standalone PDF](comprehensive_review/first_30_detailed_summary.pdf). It covers 388 main-PDF pages and separates reported findings, audit qualifications, independent checks, Paper 1 implications and open evidence. It does not certify any paper as comprehensively complete.
+
 ## Evidence required for closure
 
 1. Read every physical page and inspect its rendered layout. Catalogue all sections, panels, captions, legends, table headers/footnotes and appendices. Magnify small labels and equations; native text can omit expressions and misrepresent tables. Record unreadable or unresolved content explicitly.
