@@ -1,0 +1,37 @@
+item,value,unit,scope
+one_Mt_y_constant_365day_flow,31.709791983764585,kg/s,Calendar conversion only; native operating hours remain unknown
+printed_2800kg_s_if_continuous,88.3008,Mt/y,Raw2800 preserved; does not equal1Mt/y under continuous365day operation
+printed_over_calendar_flow_ratio,88.30080000000001,ratio,No alternative unit or corrected injection rate inferred
+hours_for_one_Mt_at_printed_flow,99.20634920634922,h,"Could represent limited batch operation, not the stated continuous equivalence"
+pipeline_route_leg_sum,530,km,"Matches native530km pipeline route, not an optimal GIS reconstruction"
+scenario2_ship_table_leg_sum,887,km,Native Table2 leg sum887; preserve prose877 separately
+scenario2_table_sum_minus_prose,10,km,Unresolved10km native source discrepancy
+scenario2_table_extension,22.513812154696122,percent,22.51% from table legs; route rounding/basis remains unknown
+scenario2_prose_extension,21.132596685082873,percent,21.13% from prose877; printed22% is not silently replaced
+Hadong_pipeline_fraction_of_total,52.83018867924528,percent,Compatible with approximate53% claim
+unequal_route_ship_over_pipe,1.3660377358490565,ratio,"Technology cost comparison has unequal geographic routes, not a common-distance break-even threshold"
+scenario3_disjoint_shared_network,780,km,"Conditional unique-length accounting, not actual optimized GIS"
+scenario3_two_separate_source_paths,840,km,Sum of source paths differs from unique shared length
+scenario3_conditional_shared_length_reduction,7.14285714285714,percent,Two source paths held fixed; no universal hub cost or GHG advantage
+pipeline_pressure_band,6.4,MPa,"6.4MPa transport-design range, not reservoir fracture or maximum-injection calibration"
+five_reported_stage_ratios,73.20824821759999,pressure ratio,2.36^5 is compatible with rounding of the stated1-to73.8bar target
+stage_ratio_required_for_target,2.363802961193877,ratio,2.36380 rounds to2.36; no corrected native stage ratio inserted
+capital_recovery_exact_component,0.08024258719069129,1/y,"5%discount and20years; native0.08 is rounded CRF, not8%discount"
+capital_recovery_rounding_relative_difference,-0.30231725968006273,percent,"Display-rounding component only, not full native annualization/cash flows"
+pipe_one_to_three_Mt_reported_unit_cost_reduction,36.36363636363637,percent,"Approximate native cost labels, not lifecycle or equal-route comparison"
+ship_one_to_three_Mt_reported_unit_cost_reduction,17.85714285714286,percent,"Approximate native cost labels, not lifecycle or equal-route comparison"
+quoted_no_conditioning_B1_gap,12,USD/t transported,Approximate pipeline23/ship11 component costs; conditioning premium can reverse rankings
+quoted_seven_USD_if_all_electricity,99.99999999999999,kWh/t,"Conditional conversion only: financial premium includes other costs, so100kWh/t is NOT native electricity duty"
+storage_material_share_at_280_total,154.0,USD/m3,"Manufacturing45%of total implies material55%, not45%markup on material"
+storage_manufacturing_share_at_280_total,126.0,USD/m3,"Source approximate tank cost, not native fabrication quote or rights verification"
+number_priced_steel_grades,8,count,Eight priced grades; ninthX90 explicitlyN/A
+quoted_design_combinations,64,count,Eight diameter choices times eight priced grades; standard schedules and native choices remain missing
+analyst_horizontal_pressure_drop,667135.3655462571,Pa,"Analyst30kg/s,100km,0.3m,900kg/m3,f.02; no native hydraulics replay"
+analyst_offshore_gravity_component,-1323897.7499999998,Pa,Analyst density with native minus150m elevation; seawater depth is not reservoir depth
+analyst_Eq6_minimum_wall,0.010791118477847993,m,Analyst0.3m outer diameter and quotedX42strength; no schedule rounding or64-case replay
+analyst_Eq5_pipe_mass,76450.65722510761,kg,"Explicit analyst1km,7850kg/m3,0.3m inner,0.01m wall; not native material procurement"
+analyst_Eq3_pump_at_1000kW,1180000.0,USD,"Literal coefficient component with analyst power, not actual equipment quote"
+analyst_Eq4_booster_at_1000kW,8280000.0,USD,Literal coefficient component; native station powers/counts unverified
+two_hour_buffer_for_one_Mt_calendar_flow,228.31050228310502,t,Conditional flat1Mt/y basis; source actual buffer geometry and operation not reconstructed
+analyst_equal_mean_unit_cost,20.0,cost units/mass,Analyst10/30unit costs and1/3flows: simple mean20 is not total cost divided by total mass
+analyst_mass_weighted_unit_cost,25.0,cost units/mass,Analyst weighted25; paper equal1Mt source average does not generalize unchanged to unequal flows

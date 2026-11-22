@@ -1,0 +1,10 @@
+grade,psi,quoted_MPa,price_USD_per_ton,exact_psi_conversion_MPa,quoted_minus_exact_MPa,scope
+X42,42000,289.59,650,289.579806313056,0.010193686943978264,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.
+X46,46000,317.17,700,317.158835485728,0.011164514272024917,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.
+X52,52000,358.54,750,358.527379244736,0.012620755264038053,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.
+X56,56000,386.1,770,386.106408417408,-0.006408417407953948,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.
+X60,60000,413.7,800,413.68543759007997,0.014562409920017672,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.
+X65,65000,448.175,900,448.15922405592,0.015775944080019144,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.
+X70,70000,482.65,960,482.63301052176,0.016989478239963773,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.
+X80,80000,551.6,1000,551.58058345344,0.019416546560023562,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.
+X90,90000,620.53,,620.5281563851199,0.0018436148800446972,Small native conversion/rounding variations preserved. USD/ton basis and2015internet quotes unverified; no corrected design strength.

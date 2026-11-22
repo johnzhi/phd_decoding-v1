@@ -496,13 +496,15 @@ Thirty-four limited checks, eight financial rows, six savings-rounding rows and 
 
 ### B3-07 — Estimation of CO2 Transport Costs in South Korea Using a Techno-Economic Model
 
-See supplied first page. Identifier: 10.3390/en8032176. [PDF](../papers/B3-07.pdf).
+Kwangu Kang, Youngkyun Seo, Daejun Chang, Seong-Gil Kang and Cheol Huh (2015), *Energies* 8, 2176–2196. DOI: 10.3390/en8032176. [PDF](../papers/B3-07.pdf). All 21 retained pages, seven figures, four tables and six equations read and visually inspected. **Comprehensive status: incomplete.** See the [item record](comprehensive_review/B3-07.md) and [Korean transport findings](korea_transport_comprehensive_findings.md).
 
-Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 6, 10, 11, 18.
+The cost boundary excludes capture/storage but includes compression/liquefaction and conditioning to assumed 100 bar/10°C wellhead delivery. The 5 Gt resource and 100 bar assumption are not actual annual field service. Reported 33/28 USD/t at 1 Mt/year and 21/23 at 3 Mt/year compare unequal 530/724 km routes. Financial 1.6/1.7 liquefaction multipliers and conditioning cost shares are not complete heat/electricity/cooling/supplier inventories.
 
-At 1 Mt/year, route-specific pipeline/ship costs are about USD33/28 per tonne; at 3 Mt/year they are USD21/23.
+Preserve printed 2800 kg/s versus 1 Mt/year, Table 2 shipping legs totaling 887 km versus 877 km prose, and Figure 3 versus Figure 4 feed/cargo states. A 365 day conversion gives 31.70979 kg/s for 1 Mt/year, not 2800. If 20 h unloading is the only direct well-delivery window, three ships at 15 knots over 724 km each way cover at most 62.42% of a 96.12 h ideal cycle. Native injection duration, buffer/control and schedule could change that interpretation; no full author-model infeasibility or actual five-vessel design inferred.
 
-Transfer limits: Pipeline 530 km and shipping 724 km are unequal routes. Printed 2800 kg/s as 1 Mt/year on p11 is inconsistent; hold injection rate.
+Thirty-six limited checks, nine steel rows, four compressor examples, three conditional fleet rows and eleven pure-state rows are saved. CRF 0.08 and 2.36 stage ratio are rounding-compatible. The 64-design pipeline, HYSYS, cost, GIS, ship and reservoir models remain unreproduced.
+
+Two exact scoped originals qualify attribution: Roussanaly 2014/B3-36 starts both chains at 1 bar with conditioning and excluded glycol dehydration; Aspelund 2006/B3-35 supports heating but uses different offshore pressures/temperatures and batch-operation alternatives. Neither original is comprehensively complete. Other 43 direct bibliography sources, two named standards and fourteen dependencies remain open; no accepted operating/GHG input changes.
 
 ### B3-08 — Optimum liquefaction fraction for boil-off gas reliquefaction system of semi-pressurized liquid CO2 carriers based on economic evaluation
 

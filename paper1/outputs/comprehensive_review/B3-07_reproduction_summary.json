@@ -1,0 +1,18 @@
+{
+  "study_id": "B3-07",
+  "source_sha256": "cb1ef1b0e6b0cb2951f19fd44079f382185007977c23dde37ac806071aa77cfd",
+  "limited_checks": 36,
+  "steel_rows": 9,
+  "compressor_example_rows": 4,
+  "conditional_fleet_rows": 3,
+  "nominal_pure_states": 7,
+  "rounding_state_corners": 4,
+  "pure_backend": {
+    "CoolProp": "8.0.0",
+    "backend": "HEOS::CO2",
+    "EOS": "Span-JPCRD-1996"
+  },
+  "scoped_citation_edges": 2,
+  "native_design_optimization_HYSYS_GIS_ship_or_reservoir_reproduced": false,
+  "limits": "Printed arithmetic, literal formula components, analyst geometry/flows, conditional scheduling and pure states only. Preserve2800kg/s,877/887km,Fig3versusFig4states and native approximate costs. No unsupported corrections, capture inventory, annual pressure service, GHG/retention factor or accepted operating input."
+}

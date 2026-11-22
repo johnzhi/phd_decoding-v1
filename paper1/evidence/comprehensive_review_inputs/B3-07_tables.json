@@ -1,0 +1,1056 @@
+{
+  "study_id": "B3-07",
+  "source_sha256": "cb1ef1b0e6b0cb2951f19fd44079f382185007977c23dde37ac806071aa77cfd",
+  "tables": [
+    {
+      "id": "T001",
+      "physical_page": 4,
+      "source_bbox": [
+        49,
+        262,
+        550,
+        580
+      ],
+      "rows": [
+        {
+          "scenario": 1,
+          "capture_Mt_y": {
+            "Boryeong": [
+              1,
+              2,
+              3,
+              4,
+              6
+            ]
+          },
+          "modes": [
+            "pipeline",
+            "ship"
+          ],
+          "scope": "One source to Ulleung; Table1 diagrams and annual-volume header inspected."
+        },
+        {
+          "scenario": 2,
+          "capture_Mt_y": {
+            "Boryeong": [
+              1,
+              3
+            ],
+            "Hadong": [
+              1,
+              3
+            ]
+          },
+          "modes": [
+            "pipeline",
+            "ship"
+          ],
+          "scope": "Added source on Boryeong-Hadong-Ulleung route, with unequal flow on two sections."
+        },
+        {
+          "scenario": 3,
+          "capture_Mt_y": {
+            "Boryeong": [
+              1
+            ],
+            "Samcheok": [
+              1
+            ]
+          },
+          "modes": [
+            "both feeders pipeline",
+            "both feeders ship",
+            "Boryeong ship and Samcheok pipeline"
+          ],
+          "scope": "All three modes share Ulsan-Ulleung offshore pipeline. Scenario3total2Mt/y."
+        }
+      ],
+      "native_region_text": "Table 1. CO2 transport scenarios. \n \nTransportation method \nCapture plant  \n(annual volume) \nScenario 1 \nBoryeong only  \n(1, 2, 3, 4, 6 MtCO2) \nScenario 2 \nBoryeong (1, 3 MtCO2), \nHadong (1, 3 MtCO2) \nScenario 3 \nBoryeong (1 MtCO2), \nSamcheok (1 MtCO2) ",
+      "native_lines": [
+        {
+          "text": "Table 1. CO2 transport scenarios. ",
+          "bbox": [
+            217.1994171142578,
+            269.0876770019531,
+            381.4815979003906,
+            282.3717346191406
+          ]
+        },
+        {
+          "text": " ",
+          "bbox": [
+            86.04000091552734,
+            308.2919006347656,
+            88.54399871826172,
+            319.384033203125
+          ]
+        },
+        {
+          "text": "Transportation method ",
+          "bbox": [
+            215.99960327148438,
+            300.9121398925781,
+            318.06158447265625,
+            312.0042724609375
+          ]
+        },
+        {
+          "text": "Capture plant  ",
+          "bbox": [
+            447.41827392578125,
+            293.4121398925781,
+            512.5262451171875,
+            304.5042724609375
+          ]
+        },
+        {
+          "text": "(annual volume) ",
+          "bbox": [
+            442.61859130859375,
+            308.4120788574219,
+            514.822998046875,
+            319.50421142578125
+          ]
+        },
+        {
+          "text": "Scenario 1 ",
+          "bbox": [
+            64.80000305175781,
+            333.3118591308594,
+            109.7287826538086,
+            344.40399169921875
+          ]
+        },
+        {
+          "text": "Boryeong only  ",
+          "bbox": [
+            447.5985107421875,
+            325.8118896484375,
+            512.3080444335938,
+            336.9040222167969
+          ]
+        },
+        {
+          "text": "(1, 2, 3, 4, 6 MtCO2) ",
+          "bbox": [
+            436.0190124511719,
+            340.81182861328125,
+            521.4443359375,
+            352.1593933105469
+          ]
+        },
+        {
+          "text": "Scenario 2 ",
+          "bbox": [
+            64.80000305175781,
+            367.0318603515625,
+            109.7287826538086,
+            378.1239929199219
+          ]
+        },
+        {
+          "text": "Boryeong (1, 3 MtCO2), ",
+          "bbox": [
+            428.7584228515625,
+            359.5318603515625,
+            528.705322265625,
+            370.87939453125
+          ]
+        },
+        {
+          "text": "Hadong (1, 3 MtCO2) ",
+          "bbox": [
+            433.91986083984375,
+            374.53179931640625,
+            523.5442504882812,
+            385.87939453125
+          ]
+        },
+        {
+          "text": "Scenario 3 ",
+          "bbox": [
+            64.80142211914062,
+            479.5314636230469,
+            109.7302017211914,
+            490.62359619140625
+          ]
+        },
+        {
+          "text": "Boryeong (1 MtCO2), ",
+          "bbox": [
+            433.7397766113281,
+            472.031494140625,
+            523.6654663085938,
+            483.37939453125
+          ]
+        },
+        {
+          "text": "Samcheok (1 MtCO2) ",
+          "bbox": [
+            433.9200439453125,
+            487.03179931640625,
+            523.5442504882812,
+            498.3793029785156
+          ]
+        }
+      ],
+      "provenance": "Typed rows normalize layout; native text/coordinates remain separate and unchanged. Table1contains graphical transport arrows not fully captured as native text; all three scenario rows and arrows were visually inspected. Null denotes printed N/A, not zero."
+    },
+    {
+      "id": "T002",
+      "physical_page": 6,
+      "source_bbox": [
+        49,
+        74,
+        550,
+        242
+      ],
+      "rows": [
+        {
+          "route": "Boryeong to Hadong",
+          "pipeline_km": 280,
+          "ship_km": 617
+        },
+        {
+          "route": "Hadong to Ulsan",
+          "pipeline_km": 190,
+          "ship_km": null
+        },
+        {
+          "route": "Ulsan to Ulleung",
+          "pipeline_km": 60,
+          "ship_km": 60
+        },
+        {
+          "route": "Boryeong to Ulleung",
+          "pipeline_km": 530,
+          "ship_km": 724
+        },
+        {
+          "route": "Boryeong to Ulsan",
+          "pipeline_km": 470,
+          "ship_km": 726
+        },
+        {
+          "route": "Hadong to Ulleung",
+          "pipeline_km": 250,
+          "ship_km": 270
+        },
+        {
+          "route": "Samcheok to Ulsan",
+          "pipeline_km": 250,
+          "ship_km": 282
+        }
+      ],
+      "native_region_text": " \nTable 2. Distances from PP (Power Plant) to PP, PPs to storage site, PPs to hub terminal, \nand hub terminal to storage site. \nDeparture/Destination \nPipeline (km) \nShip (km) \nBoryeong PP to Hadong PP \n280 \n617 \nHadong PP to Ulsan terminal \n190 \nN/A \nUlsan terminal to Ulleung Basin \n60 \n60 \nBoryeong PP to Ulleung Basin \n530 \n724 \nBoryeong PP to Ulsan terminal \n470 \n726 \nHadong PP to Ulleung Basin \n250 \n270 \nSamcheok PP to Ulsan terminal \n250 \n282 ",
+      "native_lines": [
+        {
+          "text": "Table 2. Distances from PP (Power Plant) to PP, PPs to storage site, PPs to hub terminal, ",
+          "bbox": [
+            77.99993896484375,
+            80.08766174316406,
+            520.7205200195312,
+            93.37166595458984
+          ]
+        },
+        {
+          "text": "and hub terminal to storage site. ",
+          "bbox": [
+            77.99996948242188,
+            97.06764221191406,
+            234.890380859375,
+            110.35164642333984
+          ]
+        },
+        {
+          "text": "Departure/Destination ",
+          "bbox": [
+            163.44000244140625,
+            119.69649505615234,
+            271.90374755859375,
+            131.85134887695312
+          ]
+        },
+        {
+          "text": "Pipeline (km) ",
+          "bbox": [
+            321.89898681640625,
+            119.69649505615234,
+            387.8734436035156,
+            131.85134887695312
+          ]
+        },
+        {
+          "text": "Ship (km) ",
+          "bbox": [
+            411.6484375,
+            119.69649505615234,
+            461.1375427246094,
+            131.85134887695312
+          ]
+        },
+        {
+          "text": "Boryeong PP to Hadong PP ",
+          "bbox": [
+            155.16000366210938,
+            135.23654174804688,
+            280.228759765625,
+            147.39138793945312
+          ]
+        },
+        {
+          "text": "280 ",
+          "bbox": [
+            345.34344482421875,
+            135.23654174804688,
+            364.5639343261719,
+            147.39138793945312
+          ]
+        },
+        {
+          "text": "617 ",
+          "bbox": [
+            426.798583984375,
+            135.23654174804688,
+            446.0190734863281,
+            147.39138793945312
+          ]
+        },
+        {
+          "text": "Hadong PP to Ulsan terminal ",
+          "bbox": [
+            151.8000030517578,
+            150.23654174804688,
+            283.65338134765625,
+            162.39138793945312
+          ]
+        },
+        {
+          "text": "190 ",
+          "bbox": [
+            345.4696960449219,
+            150.23654174804688,
+            364.6912841796875,
+            162.39138793945312
+          ]
+        },
+        {
+          "text": "N/A ",
+          "bbox": [
+            425.6676330566406,
+            150.23654174804688,
+            447.3728942871094,
+            162.39138793945312
+          ]
+        },
+        {
+          "text": "Ulsan terminal to Ulleung Basin ",
+          "bbox": [
+            145.0802459716797,
+            165.23629760742188,
+            290.3675537109375,
+            177.39114379882812
+          ]
+        },
+        {
+          "text": "60 ",
+          "bbox": [
+            348.2222900390625,
+            165.23629760742188,
+            361.9308166503906,
+            177.39114379882812
+          ]
+        },
+        {
+          "text": "60 ",
+          "bbox": [
+            429.68621826171875,
+            165.23629760742188,
+            443.3947448730469,
+            177.39114379882812
+          ]
+        },
+        {
+          "text": "Boryeong PP to Ulleung Basin ",
+          "bbox": [
+            148.44012451171875,
+            180.23605346679688,
+            286.93304443359375,
+            192.39089965820312
+          ]
+        },
+        {
+          "text": "530 ",
+          "bbox": [
+            345.38836669921875,
+            180.23605346679688,
+            364.6044616699219,
+            192.39089965820312
+          ]
+        },
+        {
+          "text": "724 ",
+          "bbox": [
+            426.839111328125,
+            180.23605346679688,
+            446.0552062988281,
+            192.39089965820312
+          ]
+        },
+        {
+          "text": "Boryeong PP to Ulsan terminal ",
+          "bbox": [
+            147.53976440429688,
+            195.23580932617188,
+            287.8992614746094,
+            207.39065551757812
+          ]
+        },
+        {
+          "text": "470 ",
+          "bbox": [
+            345.3938293457031,
+            195.23580932617188,
+            364.60552978515625,
+            207.39065551757812
+          ]
+        },
+        {
+          "text": "726 ",
+          "bbox": [
+            426.8401794433594,
+            195.23580932617188,
+            446.0518798828125,
+            207.39065551757812
+          ]
+        },
+        {
+          "text": "Hadong PP to Ulleung Basin ",
+          "bbox": [
+            152.6992645263672,
+            210.23556518554688,
+            282.7068786621094,
+            222.39041137695312
+          ]
+        },
+        {
+          "text": "250 ",
+          "bbox": [
+            345.4224548339844,
+            210.23556518554688,
+            364.6407470703125,
+            222.39041137695312
+          ]
+        },
+        {
+          "text": "270 ",
+          "bbox": [
+            426.8753967285156,
+            210.23556518554688,
+            446.09368896484375,
+            222.39041137695312
+          ]
+        },
+        {
+          "text": "Samcheok PP to Ulsan terminal ",
+          "bbox": [
+            146.3396453857422,
+            225.23532104492188,
+            289.06866455078125,
+            237.39016723632812
+          ]
+        },
+        {
+          "text": "250 ",
+          "bbox": [
+            345.42352294921875,
+            225.23532104492188,
+            364.6374206542969,
+            237.39016723632812
+          ]
+        },
+        {
+          "text": "282 ",
+          "bbox": [
+            426.8720703125,
+            225.23532104492188,
+            446.0859680175781,
+            237.39016723632812
+          ]
+        }
+      ],
+      "provenance": "Typed rows normalize layout; native text/coordinates remain separate and unchanged. Table1contains graphical transport arrows not fully captured as native text; all three scenario rows and arrows were visually inspected. Null denotes printed N/A, not zero."
+    },
+    {
+      "id": "T003",
+      "physical_page": 6,
+      "source_bbox": [
+        49,
+        392,
+        550,
+        531
+      ],
+      "rows": [
+        [
+          "Pipeline",
+          "Capture site",
+          "Compression"
+        ],
+        [
+          "Pipeline",
+          "Pipe",
+          "Material, Labor, Right of way, Miscellaneous"
+        ],
+        [
+          "Pipeline",
+          "Booster",
+          "Onshore, Entrance of offshore pipeline"
+        ],
+        [
+          "Ship",
+          "Capture site",
+          "Liquefaction, Temporary storage tank"
+        ],
+        [
+          "Ship",
+          "Ship",
+          "Ship, Pumping for injection"
+        ],
+        [
+          "Terminal",
+          "Terminal",
+          "Storage tank"
+        ],
+        [
+          "Terminal",
+          "Terminal to offshore pipeline",
+          "Pressurization"
+        ]
+      ],
+      "native_region_text": "Table 3. List of major cost elements in CO2 transportation. \nPipeline \nCapture site \nCompression \nPipe \nMaterial, Labor, Right of way, Miscellaneous \nBooster \nOnshore, Entrance of offshore pipeline \nShip \nCapture site \nLiquefaction, Temporary storage tank \nShip \nShip, Pumping for injection \nTerminal \nTerminal \nStorage tank \nTerminal to offshore pipeline \nPressurization ",
+      "native_lines": [
+        {
+          "text": "Table 3. List of major cost elements in CO2 transportation. ",
+          "bbox": [
+            156.0600128173828,
+            397.60772705078125,
+            442.6378479003906,
+            410.8917236328125
+          ]
+        },
+        {
+          "text": "Pipeline ",
+          "bbox": [
+            96.05999755859375,
+            435.8365173339844,
+            136.65744018554688,
+            447.9913635253906
+          ]
+        },
+        {
+          "text": "Capture site ",
+          "bbox": [
+            201.11993408203125,
+            420.23614501953125,
+            256.71832275390625,
+            432.3909912109375
+          ]
+        },
+        {
+          "text": "Compression ",
+          "bbox": [
+            381.3534240722656,
+            420.23614501953125,
+            442.2034606933594,
+            432.3909912109375
+          ]
+        },
+        {
+          "text": "Pipe ",
+          "bbox": [
+            217.8000030517578,
+            435.7765197753906,
+            240.09817504882812,
+            447.9313659667969
+          ]
+        },
+        {
+          "text": "Material, Labor, Right of way, Miscellaneous ",
+          "bbox": [
+            310.4327697753906,
+            435.7765197753906,
+            513.1159057617188,
+            447.9313659667969
+          ]
+        },
+        {
+          "text": "Booster ",
+          "bbox": [
+            210.47999572753906,
+            451.25653076171875,
+            247.44525146484375,
+            463.411376953125
+          ]
+        },
+        {
+          "text": "Onshore, Entrance of offshore pipeline ",
+          "bbox": [
+            324.86083984375,
+            451.25653076171875,
+            498.69512939453125,
+            463.411376953125
+          ]
+        },
+        {
+          "text": "Ship ",
+          "bbox": [
+            104.27999877929688,
+            474.5965270996094,
+            128.44039916992188,
+            486.7513732910156
+          ]
+        },
+        {
+          "text": "Capture site ",
+          "bbox": [
+            201.12030029296875,
+            466.7370300292969,
+            256.7362060546875,
+            478.8918762207031
+          ]
+        },
+        {
+          "text": "Liquefaction, Temporary storage tank ",
+          "bbox": [
+            327.4913024902344,
+            466.7370300292969,
+            496.022216796875,
+            478.8918762207031
+          ]
+        },
+        {
+          "text": "Ship ",
+          "bbox": [
+            217.5,
+            482.2765197753906,
+            240.4262237548828,
+            494.4313659667969
+          ]
+        },
+        {
+          "text": "Ship, Pumping for injection ",
+          "bbox": [
+            349.2808532714844,
+            482.2765197753906,
+            474.27276611328125,
+            494.4313659667969
+          ]
+        },
+        {
+          "text": "Terminal ",
+          "bbox": [
+            93.54000091552734,
+            505.5565490722656,
+            139.25082397460938,
+            517.71142578125
+          ]
+        },
+        {
+          "text": "Terminal ",
+          "bbox": [
+            207.78030395507812,
+            497.7563171386719,
+            250.05992126464844,
+            509.9111633300781
+          ]
+        },
+        {
+          "text": "Storage tank ",
+          "bbox": [
+            382.73455810546875,
+            497.7563171386719,
+            440.72760009765625,
+            509.9111633300781
+          ]
+        },
+        {
+          "text": "Terminal to offshore pipeline ",
+          "bbox": [
+            163.44000244140625,
+            513.2365112304688,
+            294.41162109375,
+            525.3914184570312
+          ]
+        },
+        {
+          "text": "Pressurization ",
+          "bbox": [
+            379.2068786621094,
+            513.2365112304688,
+            444.3544921875,
+            525.3914184570312
+          ]
+        }
+      ],
+      "provenance": "Typed rows normalize layout; native text/coordinates remain separate and unchanged. Table1contains graphical transport arrows not fully captured as native text; all three scenario rows and arrows were visually inspected. Null denotes printed N/A, not zero."
+    },
+    {
+      "id": "T004",
+      "physical_page": 8,
+      "source_bbox": [
+        49,
+        407,
+        550,
+        609
+      ],
+      "rows": [
+        {
+          "grade": "X42",
+          "psi": 42000,
+          "quoted_MPa": 289.59,
+          "price_USD_per_ton": 650
+        },
+        {
+          "grade": "X46",
+          "psi": 46000,
+          "quoted_MPa": 317.17,
+          "price_USD_per_ton": 700
+        },
+        {
+          "grade": "X52",
+          "psi": 52000,
+          "quoted_MPa": 358.54,
+          "price_USD_per_ton": 750
+        },
+        {
+          "grade": "X56",
+          "psi": 56000,
+          "quoted_MPa": 386.1,
+          "price_USD_per_ton": 770
+        },
+        {
+          "grade": "X60",
+          "psi": 60000,
+          "quoted_MPa": 413.7,
+          "price_USD_per_ton": 800
+        },
+        {
+          "grade": "X65",
+          "psi": 65000,
+          "quoted_MPa": 448.175,
+          "price_USD_per_ton": 900
+        },
+        {
+          "grade": "X70",
+          "psi": 70000,
+          "quoted_MPa": 482.65,
+          "price_USD_per_ton": 960
+        },
+        {
+          "grade": "X80",
+          "psi": 80000,
+          "quoted_MPa": 551.6,
+          "price_USD_per_ton": 1000
+        },
+        {
+          "grade": "X90",
+          "psi": 90000,
+          "quoted_MPa": 620.53,
+          "price_USD_per_ton": null
+        }
+      ],
+      "native_region_text": "Table 4. Minimum specified yield strengths and prices of API 5LX grade carbon steels. \nThe price is roughly determined from internet survey [21,22]. \nSpecification \nMinimum Specified Yield Strength, psi (MPa) \nPrice ($/ton) \nAPI 5LX Grade X42 \n42,000 (289.59) \n650 \nAPI 5LX Grade X46 \n46,000 (317.17) \n700 \nAPI 5LX Grade X52 \n52,000 (358.54) \n750 \nAPI 5LX Grade X56 \n56,000 (386.1) \n770 \nAPI 5LX Grade X60 \n60,000 (413.7) \n800 \nAPI 5LX Grade X65 \n65,000 (448.175) \n900 \nAPI 5LX Grade X70 \n70,000 (482.65) \n960 \nAPI 5LX Grade X80 \n80,000 (551.6) \n1000 \nAPI 5LX Grade X90 \n90,000 (620.53) \nN/A ",
+      "native_lines": [
+        {
+          "text": "Table 4. Minimum specified yield strengths and prices of API 5LX grade carbon steels. ",
+          "bbox": [
+            78.00006103515625,
+            415.067626953125,
+            520.76611328125,
+            428.35162353515625
+          ]
+        },
+        {
+          "text": "The price is roughly determined from internet survey [21,22]. ",
+          "bbox": [
+            78.00006103515625,
+            432.1076354980469,
+            376.9346923828125,
+            445.3916320800781
+          ]
+        },
+        {
+          "text": "Specification ",
+          "bbox": [
+            112.62000274658203,
+            454.7365417480469,
+            175.81211853027344,
+            466.8913879394531
+          ]
+        },
+        {
+          "text": "Minimum Specified Yield Strength, psi (MPa) ",
+          "bbox": [
+            223.64759826660156,
+            454.7365417480469,
+            442.10797119140625,
+            466.8913879394531
+          ]
+        },
+        {
+          "text": "Price ($/ton) ",
+          "bbox": [
+            457.3031921386719,
+            454.7365417480469,
+            518.3541870117188,
+            466.8913879394531
+          ]
+        },
+        {
+          "text": "API 5LX Grade X42 ",
+          "bbox": [
+            96.83999633789062,
+            470.2165222167969,
+            191.6435089111328,
+            482.3713684082031
+          ]
+        },
+        {
+          "text": "42,000 (289.59) ",
+          "bbox": [
+            296.3586730957031,
+            470.2165222167969,
+            369.5711364746094,
+            482.3713684082031
+          ]
+        },
+        {
+          "text": "650 ",
+          "bbox": [
+            478.2456970214844,
+            470.2165222167969,
+            497.4639892578125,
+            482.3713684082031
+          ]
+        },
+        {
+          "text": "API 5LX Grade X46 ",
+          "bbox": [
+            96.83999633789062,
+            485.2164306640625,
+            191.6435089111328,
+            497.37127685546875
+          ]
+        },
+        {
+          "text": "46,000 (317.17) ",
+          "bbox": [
+            296.3586730957031,
+            485.2164306640625,
+            369.5711364746094,
+            497.37127685546875
+          ]
+        },
+        {
+          "text": "700 ",
+          "bbox": [
+            478.2456970214844,
+            485.2164306640625,
+            497.4639892578125,
+            497.37127685546875
+          ]
+        },
+        {
+          "text": "API 5LX Grade X52 ",
+          "bbox": [
+            96.83999633789062,
+            500.2162170410156,
+            191.6435089111328,
+            512.37109375
+          ]
+        },
+        {
+          "text": "52,000 (358.54) ",
+          "bbox": [
+            296.3586730957031,
+            500.2162170410156,
+            369.5711364746094,
+            512.37109375
+          ]
+        },
+        {
+          "text": "750 ",
+          "bbox": [
+            478.2456970214844,
+            500.2162170410156,
+            497.4639892578125,
+            512.37109375
+          ]
+        },
+        {
+          "text": "API 5LX Grade X56 ",
+          "bbox": [
+            96.83999633789062,
+            515.2159423828125,
+            191.6281280517578,
+            527.370849609375
+          ]
+        },
+        {
+          "text": "56,000 (386.1) ",
+          "bbox": [
+            299.04327392578125,
+            515.2159423828125,
+            366.8107604980469,
+            527.370849609375
+          ]
+        },
+        {
+          "text": "770 ",
+          "bbox": [
+            478.2456970214844,
+            515.2159423828125,
+            497.4617919921875,
+            527.370849609375
+          ]
+        },
+        {
+          "text": "API 5LX Grade X60 ",
+          "bbox": [
+            96.83999633789062,
+            530.2157592773438,
+            191.6281280517578,
+            542.3706665039062
+          ]
+        },
+        {
+          "text": "60,000 (413.7) ",
+          "bbox": [
+            299.04327392578125,
+            530.2157592773438,
+            366.8107604980469,
+            542.3706665039062
+          ]
+        },
+        {
+          "text": "800 ",
+          "bbox": [
+            478.2456970214844,
+            530.2157592773438,
+            497.4617919921875,
+            542.3706665039062
+          ]
+        },
+        {
+          "text": "API 5LX Grade X65 ",
+          "bbox": [
+            96.83999633789062,
+            545.215576171875,
+            191.65887451171875,
+            557.3704833984375
+          ]
+        },
+        {
+          "text": "65,000 (448.175) ",
+          "bbox": [
+            293.6136474609375,
+            545.215576171875,
+            372.34466552734375,
+            557.3704833984375
+          ]
+        },
+        {
+          "text": "900 ",
+          "bbox": [
+            478.25994873046875,
+            545.215576171875,
+            497.4804382324219,
+            557.3704833984375
+          ]
+        },
+        {
+          "text": "API 5LX Grade X70 ",
+          "bbox": [
+            96.83999633789062,
+            560.21533203125,
+            191.66217041015625,
+            572.3702392578125
+          ]
+        },
+        {
+          "text": "70,000 (482.65) ",
+          "bbox": [
+            296.3784484863281,
+            560.21533203125,
+            369.6073913574219,
+            572.3702392578125
+          ]
+        },
+        {
+          "text": "960 ",
+          "bbox": [
+            478.2830505371094,
+            560.21533203125,
+            497.504638671875,
+            572.3702392578125
+          ]
+        },
+        {
+          "text": "API 5LX Grade X80 ",
+          "bbox": [
+            96.83999633789062,
+            575.215087890625,
+            191.66217041015625,
+            587.3699951171875
+          ]
+        },
+        {
+          "text": "80,000 (551.6) ",
+          "bbox": [
+            299.07843017578125,
+            575.215087890625,
+            366.8722839355469,
+            587.3699951171875
+          ]
+        },
+        {
+          "text": "1000 ",
+          "bbox": [
+            475.5479431152344,
+            575.215087890625,
+            500.277099609375,
+            587.3699951171875
+          ]
+        },
+        {
+          "text": "API 5LX Grade X90 ",
+          "bbox": [
+            96.83999633789062,
+            590.2149047851562,
+            191.66217041015625,
+            602.3698120117188
+          ]
+        },
+        {
+          "text": "90,000 (620.53) ",
+          "bbox": [
+            296.3784484863281,
+            590.2149047851562,
+            369.6073913574219,
+            602.3698120117188
+          ]
+        },
+        {
+          "text": "N/A ",
+          "bbox": [
+            477.0236511230469,
+            590.2149047851562,
+            498.7289123535156,
+            602.3698120117188
+          ]
+        }
+      ],
+      "provenance": "Typed rows normalize layout; native text/coordinates remain separate and unchanged. Table1contains graphical transport arrows not fully captured as native text; all three scenario rows and arrows were visually inspected. Null denotes printed N/A, not zero."
+    }
+  ]
+}

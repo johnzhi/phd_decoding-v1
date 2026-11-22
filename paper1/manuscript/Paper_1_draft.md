@@ -148,6 +148,8 @@ DBSCAN/MST and full/partial redirection already support CCS clustering compariso
 
 Shared-cluster cost comparisons also predate this study. A Guangdong three-plant case reports lower unit costs at larger capture scale, while its relative sharing advantage falls from 19.94% to 15.92% [B3-06, pp7–10]. The [case audit](../docs/guangdong_clusters_comprehensive_findings.md) retains conflicting financial units, auxiliary-emission denominators and scenario totals; those costs remain contextual. Its static LF-2A resource and lumped auxiliary emissions supply neither pressure-constrained annual service nor a complete capture-utility inventory [B3-06, pp6–9].
 
+Conditioning-inclusive transport comparisons also precede this study: the Korean case includes initial compression or liquefaction but excludes capture and storage, while comparing unequal geographic routes [B3-07, pp3,6–12]. Its [audit](../docs/korea_transport_comprehensive_findings.md) preserves disputed rate and route units, conditional fleet timing and source-specific heating. Static Ulleung resources, an assumed wellhead pressure and financial liquefaction multipliers cannot supply annual pressure service or complete capture utilities. Exact original checks also qualify the paper's description of earlier conditioning boundaries [B3-07, pp3,7,11–12; B3-36, pp4,6].
+
 The [prudent storage audit](../docs/prudent_storage_comprehensive_findings.md) distinguishes a risk-screened cumulative resource from annual injection service. Its 1,460 Gt central estimate uses a borrowed, pressure-aware coefficient for a 50-year period, while explicitly leaving deployment feasibility outside the spatial assessment [B2-18, pp6,10–12]. Policy buffers, sequential exclusions and long-horizon scenario extrapolation cannot supply a local operating limit or retained-carbon factor. Regional figure totals and thermodynamic state conventions remain unresolved. The stated temperature potential also assumes net removal, reversible climate response and storage space that competes with fossil CCS and residual offsets [B2-18, pp5–8]. Public code/data are advertised but have not been independently reproduced.
 
 The [total-efficiency audit](../docs/total_efficiency_comprehensive_findings.md) similarly holds the hypothetical UK/Australia lifecycle-energy results outside the accepted inventory. Coal efficiency-loss denominators, several graphic share labels, baseline fuel/power closure and captured-versus-avoided annual mass need reconciliation [B1-03, pp4–11]. Table 3 combines literature process cases rather than supplying one matched capture-to-ship utility balance. Its displayed sensitivity arithmetic is consistent with rounding, but complete author cases remain unreproduced. Primary energy, electricity and avoided or retained CO2 retain separate accounting bases.
@@ -745,6 +747,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 
 - **[B3-06]** Assessing-the-cost-reduction-potential-of-CCUS-cluster-projects-of-coal-fired-plants-in-Guangdong. [10.1007/s11707-022-1030-1](https://doi.org/10.1007/s11707-022-1030-1). [Retained PDF](../papers/B3-06.pdf).
 
+- **[B3-07]** Estimation of CO2 Transport Costs in South Korea Using a Techno-Economic Model. [10.3390/en8032176](https://doi.org/10.3390/en8032176). [Retained PDF](../papers/B3-07.pdf).
+
 - **[B3-09]** Planning of carbon capture storage deployment using process graph approach. [10.1016/j.energy.2014.08.060](https://doi.org/10.1016/j.energy.2014.08.060). [Retained PDF](../papers/B3-09.pdf).
 
 - **[B3-11]** Ooi, Foo, Ng & Tan (2013). Planning of carbon capture and storage with pinch analysis techniques. [10.1016/j.cherd.2013.04.007](https://doi.org/10.1016/j.cherd.2013.04.007). [Retained PDF](../papers/B3-11.pdf).
@@ -760,6 +764,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B3-29]** Jeon et al. (2026). Integrated modelling and simulation of liquefied CO2 tank and cargo handling system with new marine transportation greenhouse gas intensity. [10.1016/j.energy.2025.139624](https://doi.org/10.1016/j.energy.2025.139624). [Retained PDF](../papers/B3-29.pdf).
 
 - **[B3-33]** Kjärstad, Skagestad, Eldrup & Johnsson (2016). Ship transport—A low cost and low risk CO2 transport option in the Nordic countries. [10.1016/j.ijggc.2016.08.024](https://doi.org/10.1016/j.ijggc.2016.08.024). [Retained PDF](../papers/B3-33.pdf).
+
+- **[B3-36]** Benchmarking of CO2 transport technologies Part II  Offshore pipeline and shipping to an offshore site. [10.1016/j.ijggc.2014.06.019](https://doi.org/10.1016/j.ijggc.2014.06.019). [Retained PDF](../papers/B3-36.pdf).
 
 - **[B3-37]** Kolster, Agada, Mac Dowell & Krevor (2018). The impact of time-varying CO2 injection rate on large scale storage in the UK Bunter Sandstone. [10.1016/j.ijggc.2017.10.011](https://doi.org/10.1016/j.ijggc.2017.10.011). [Retained PDF](../papers/B3-37.pdf).
 

@@ -1,0 +1,5 @@
+analyst_mode,train_flow_kg_s,trains,total_flow_kg_s,capital_USD,capital_per_kg_s,scope
+fixed_count,10,1,10,15379814.286936965,1537981.4286936964,Analyst flow/count components. Fixed train flow yields proportional total capital; fixed count has sublinear flow powers. No native40MWtrain assignment inferred.
+fixed_count,20,1,20,20269232.629768286,1013461.6314884142,Analyst flow/count components. Fixed train flow yields proportional total capital; fixed count has sublinear flow powers. No native40MWtrain assignment inferred.
+fixed_train_flow,10,1,10,15379814.286936965,1537981.4286936964,Analyst flow/count components. Fixed train flow yields proportional total capital; fixed count has sublinear flow powers. No native40MWtrain assignment inferred.
+fixed_train_flow,10,2,20,30759628.57387393,1537981.4286936964,Analyst flow/count components. Fixed train flow yields proportional total capital; fixed count has sublinear flow powers. No native40MWtrain assignment inferred.

@@ -1,0 +1,206 @@
+{
+  "study_id": "B3-07",
+  "source_sha256": "cb1ef1b0e6b0cb2951f19fd44079f382185007977c23dde37ac806071aa77cfd",
+  "provenance": "All7 figures and their panels/captions/legends inspected; enlarged checks of Figures4–7. No exact numerical arrays reconstructed from unlabeled bar heights.",
+  "figures": [
+    {
+      "number": 1,
+      "pages": [
+        3
+      ],
+      "labels": [
+        "Boryeong power plant",
+        "Hadong power plant",
+        "Samcheok power plant",
+        "Ulsan terminal",
+        "Ulleung basin"
+      ],
+      "scope": "Geographic markers, no field operating dataset"
+    },
+    {
+      "number": 2,
+      "pages": [
+        5
+      ],
+      "panels": [
+        "Scenarios1/2",
+        "Scenario3"
+      ],
+      "legend": [
+        "solid red:onshore pipeline",
+        "solid green:offshore pipeline",
+        "dotted blue:ship"
+      ],
+      "scope": "Actual geographic routes fixed by scenario, not same-distance technology comparison"
+    },
+    {
+      "number": 3,
+      "pages": [
+        7
+      ],
+      "panels": [
+        "pipeline transport",
+        "ship transport"
+      ],
+      "states": [
+        [
+          "feed",
+          1,
+          35
+        ],
+        [
+          "compression outlet",
+          73.8,
+          40
+        ],
+        [
+          "pipeline inlet",
+          150,
+          28
+        ],
+        [
+          "onshore outlet",
+          86,
+          28
+        ],
+        [
+          "wellhead delivery",
+          100,
+          10
+        ],
+        [
+          "ship cargo",
+          7,
+          -50
+        ]
+      ],
+      "state_units": [
+        "label",
+        "bar",
+        "C"
+      ],
+      "scope": "Dotted cost boundaries exclude capture/storage; pressures assumed, reservoir condition unverified"
+    },
+    {
+      "number": 4,
+      "pages": [
+        11
+      ],
+      "components": [
+        "3 propane compressor stages",
+        "ethane compressor",
+        "propane condenser/cooling water",
+        "ethane condenser",
+        "4 expansion valves",
+        "4 separators",
+        "2CO2compressor stages",
+        "2CO2coolers",
+        "3scrubbers",
+        "CO2liquefaction exchanger"
+      ],
+      "states": [
+        [
+          "feed",
+          1,
+          25
+        ],
+        [
+          "liquefied CO2",
+          6,
+          -53
+        ]
+      ],
+      "state_units": [
+        "label",
+        "bar",
+        "C"
+      ],
+      "scope": "Different schematic state labels from Fig3/main text; process-case correspondence unresolved, no native mass/energy balance"
+    },
+    {
+      "number": 5,
+      "pages": [
+        13
+      ],
+      "cases": [
+        "B1 pipe",
+        "B1 ship",
+        "B3 pipe",
+        "B3 ship"
+      ],
+      "legend": [
+        "Emitter B",
+        "Onshore Pipeline",
+        "Offshore Pipeline",
+        "Carrier",
+        "Injection Pumping",
+        "Sum"
+      ],
+      "scope": "Emitter component separate from stacked transport components and total Sum; no error bars or numeric bar labels"
+    },
+    {
+      "number": 6,
+      "pages": [
+        13,
+        14
+      ],
+      "panels": [
+        "pipeline",
+        "ship"
+      ],
+      "cases_each_panel": [
+        "B1+H1",
+        "B2",
+        "B1+H3",
+        "B3+H1",
+        "B4",
+        "B3+H3",
+        "B6"
+      ],
+      "legend_pipeline": [
+        "Emitter B",
+        "Emitter H",
+        "Onshore Pipeline",
+        "Offshore Pipeline"
+      ],
+      "legend_ship": [
+        "Emitter B",
+        "Emitter H",
+        "Carrier",
+        "Injection Pumping"
+      ],
+      "scope": "Seven bars per panel include four two-source and three same-total single-source comparisons"
+    },
+    {
+      "number": 7,
+      "pages": [
+        14
+      ],
+      "cases": [
+        "B1+S1 (pipe)",
+        "B1+S1 (ship)",
+        "B1+S1 (mixed)",
+        "B1 (pipe)",
+        "S1 (pipe)",
+        "B1 (ship)",
+        "S1 (ship)",
+        "B2 (pipe)",
+        "S2 (pipe)",
+        "B2 (ship)",
+        "S2 (ship)"
+      ],
+      "legend": [
+        "Emitter B",
+        "Emitter S",
+        "Onshore B",
+        "Onshore S",
+        "Carrier B",
+        "Carrier S",
+        "HUB",
+        "Offshore",
+        "Injection"
+      ],
+      "scope": "Eleven bars; two-source hub case vs single-source same-total changes geography; matched separate two-source comparisons are discussedp17"
+    }
+  ]
+}

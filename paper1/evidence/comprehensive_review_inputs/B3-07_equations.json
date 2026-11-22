@@ -1,0 +1,102 @@
+{
+  "study_id": "B3-07",
+  "source_sha256": "cb1ef1b0e6b0cb2951f19fd44079f382185007977c23dde37ac806071aa77cfd",
+  "equations": [
+    {
+      "id": "E001",
+      "number": 1,
+      "pages": [
+        8
+      ],
+      "printed_transcription": "DeltaP = 8*f*Q_m^2*L/(rho_CO2*pi^2*D_i^5) + rho_CO2*g*Deltaz",
+      "source_bbox": [
+        65,
+        642.107666015625,
+        560,
+        696.107666015625
+      ],
+      "native_region_text": "uation [19]: \nz\ng\nD\nL\nfQ\nP\nCO\ni\nCO\nm\n\n\n\n\n2\n5\n2\n2\n2\n8\n\n\n\n \n(1)",
+      "provenance": "Literal printed relation checked against retained rendered page; Eq2 also enlarged. Region can include adjacent prose. No coefficient, unit, notation or timing correction."
+    },
+    {
+      "id": "E002",
+      "number": 2,
+      "pages": [
+        9
+      ],
+      "printed_transcription": "C_comp = m_train*N_train*[0.13e6*m_train^(-0.71) + 1.40e6*m_train^(-0.60)*ln(P_cut_off/P_initial)]",
+      "source_bbox": [
+        65,
+        201.58265686035156,
+        560,
+        255.58265686035156
+      ],
+      "native_region_text": "The capital costs of the CO2 compressor can be obtained using the following equation [24]:  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninitial\noff\ncut\ntrain\ntrain\ntrain\ntrain\ncomp\nP\nP\nm\nm\nN\nm\nC\nln\n10\n40\n.1\n10\n13\n.0\n60\n.0\n6\n71\n.0\n6\n \n(2)",
+      "provenance": "Literal printed relation checked against retained rendered page; Eq2 also enlarged. Region can include adjacent prose. No coefficient, unit, notation or timing correction."
+    },
+    {
+      "id": "E003",
+      "number": 3,
+      "pages": [
+        9
+      ],
+      "printed_transcription": "C_pump = 1.11e6*(W_p/1000) + 0.07e6",
+      "source_bbox": [
+        65,
+        337.6026306152344,
+        560,
+        391.6026306152344
+      ],
+      "native_region_text": "The capital costs of the CO2 pump and booster were calculated using the following equations [25]:  \n\n\n6\n6\n10\n07\n.0\n1000\n10\n11\n.1\n\n\n\n\n\n\n\n\n\n\n\np\npump\nW\nC\n \n(3)",
+      "provenance": "Literal printed relation checked against retained rendered page; Eq2 also enlarged. Region can include adjacent prose. No coefficient, unit, notation or timing correction."
+    },
+    {
+      "id": "E004",
+      "number": 4,
+      "pages": [
+        9
+      ],
+      "printed_transcription": "C_booster = 7.82e6*(W_p/1000) + 0.46e6",
+      "source_bbox": [
+        65,
+        404.5626220703125,
+        560,
+        458.5626220703125
+      ],
+      "native_region_text": "d:  \n\n\n6\n6\n10\n46\n.0\n1000\n10\n82\n.7\n\n\n\n\n\n\n\n\n\n\n\np\nbooster\nW\nC\n \n(4)",
+      "provenance": "Literal printed relation checked against retained rendered page; Eq2 also enlarged. Region can include adjacent prose. No coefficient, unit, notation or timing correction."
+    },
+    {
+      "id": "E005",
+      "number": 5,
+      "pages": [
+        9
+      ],
+      "printed_transcription": "W_s = pi*L*rho_steel*t*(D_i+t)",
+      "source_bbox": [
+        65,
+        690.1024169921875,
+        560,
+        744.1024169921875
+      ],
+      "native_region_text": "e diameter and thickness: \n\nt\nD\nt\nL\nW\ni\nsteel\ns\n\n\n\n\n \n(5)\nere W (kg) is the pipeline weight,  (kg/m3) is the density of carbon steel, and t (m) is the pipe ",
+      "provenance": "Literal printed relation checked against retained rendered page; Eq2 also enlarged. Region can include adjacent prose. No coefficient, unit, notation or timing correction."
+    },
+    {
+      "id": "E006",
+      "number": 6,
+      "pages": [
+        10
+      ],
+      "printed_transcription": "t = P_design*D_0/(2*S*F*L_f*J*T)",
+      "source_bbox": [
+        65,
+        63.58264923095703,
+        560,
+        117.58264923095703
+      ],
+      "native_region_text": "T\nJ\nL\nF\nS\nD\nP\nt\nf\ndesign\n\n\n\n\n\n2\n0\n \n(6)",
+      "provenance": "Literal printed relation checked against retained rendered page; Eq2 also enlarged. Region can include adjacent prose. No coefficient, unit, notation or timing correction. The displayed outer-diameter subscript is zero (D_0), while adjacent prose defines Do; this notation variation is retained."
+    }
+  ]
+}

@@ -1,0 +1,1485 @@
+{
+  "study_id": "B3-07",
+  "source_sha256": "cb1ef1b0e6b0cb2951f19fd44079f382185007977c23dde37ac806071aa77cfd",
+  "provenance": "All45 numbered bibliography entries were text-read and render-inspected on physical pp18–21. Separate numeric label lines, native spelling and line geometry are retained; display citations normalize whitespace and remove only the leading reference number. Original-source verification is separately scoped.",
+  "entries": [
+    {
+      "id": "R001",
+      "number": 1,
+      "pages": [
+        18
+      ],
+      "native_lines": [
+        "1. ",
+        "Global CCS Institute. The Global Status of CCS: 2013; Global CCS Institute: Melbourne, ",
+        "Australia, 2013. "
+      ],
+      "line_bboxes": [
+        [
+          49.619998931884766,
+          685.919677734375,
+          61.95600128173828,
+          699.3729248046875
+        ],
+        [
+          72.30000305175781,
+          686.0823974609375,
+          549.0867309570312,
+          699.3729248046875
+        ],
+        [
+          72.29998779296875,
+          703.0623779296875,
+          152.29409790039062,
+          716.3529052734375
+        ]
+      ],
+      "line_pages": [
+        18,
+        18,
+        18
+      ],
+      "citation": "Global CCS Institute. The Global Status of CCS: 2013; Global CCS Institute: Melbourne, Australia, 2013."
+    },
+    {
+      "id": "R002",
+      "number": 2,
+      "pages": [
+        18
+      ],
+      "native_lines": [
+        "2. ",
+        "International Energy Agency. CO2 Emissions from Fuel Combustion—Highlights; IEA Statistics: ",
+        "Paris, France, 2012. "
+      ],
+      "line_bboxes": [
+        [
+          49.61964416503906,
+          719.939697265625,
+          61.95600128173828,
+          733.3928833007812
+        ],
+        [
+          72.30000305175781,
+          720.1024169921875,
+          549.0494384765625,
+          733.3929443359375
+        ],
+        [
+          72.30010986328125,
+          737.0823974609375,
+          170.9550018310547,
+          750.3729248046875
+        ]
+      ],
+      "line_pages": [
+        18,
+        18,
+        18
+      ],
+      "citation": "International Energy Agency. CO2 Emissions from Fuel Combustion—Highlights; IEA Statistics: Paris, France, 2012."
+    },
+    {
+      "id": "R003",
+      "number": 3,
+      "pages": [
+        18
+      ],
+      "native_lines": [
+        "3. ",
+        "United Nations Environment Programme. Overview of the Republic of Korea’s Green Growth ",
+        "National Vision—Greenjobs Ap; UNEP: Geneva, Switzerland, 2009. "
+      ],
+      "line_bboxes": [
+        [
+          49.61976623535156,
+          753.8997192382812,
+          61.95600128173828,
+          767.3528442382812
+        ],
+        [
+          72.30000305175781,
+          754.0624389648438,
+          549.109130859375,
+          767.3529663085938
+        ],
+        [
+          72.30000305175781,
+          771.1024169921875,
+          404.9883117675781,
+          784.3929443359375
+        ]
+      ],
+      "line_pages": [
+        18,
+        18,
+        18
+      ],
+      "citation": "United Nations Environment Programme. Overview of the Republic of Korea’s Green Growth National Vision—Greenjobs Ap; UNEP: Geneva, Switzerland, 2009."
+    },
+    {
+      "id": "R004",
+      "number": 4,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "4. ",
+        "Presidential Committee on Green Growth. Korea CCS master plan. In Proceedings of the 8th ",
+        "Presidential Committee on Green Growth, Seoul, Korea, 13 July 2010.  "
+      ],
+      "line_bboxes": [
+        [
+          49.619998931884766,
+          79.91972351074219,
+          61.95600128173828,
+          93.37196350097656
+        ],
+        [
+          72.30000305175781,
+          80.08246612548828,
+          549.1538696289062,
+          93.37300109863281
+        ],
+        [
+          72.30001831054688,
+          97.06238555908203,
+          417.9812316894531,
+          110.35292053222656
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19
+      ],
+      "citation": "Presidential Committee on Green Growth. Korea CCS master plan. In Proceedings of the 8th Presidential Committee on Green Growth, Seoul, Korea, 13 July 2010."
+    },
+    {
+      "id": "R005",
+      "number": 5,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "5. ",
+        "Finkenrath, M. Cost and Performance of Carbon Dioxide Capture from Power Generation; ",
+        "International Energy Agency: Paris, France, 2011. "
+      ],
+      "line_bboxes": [
+        [
+          49.61967468261719,
+          113.93968200683594,
+          61.95600128173828,
+          127.39289855957031
+        ],
+        [
+          72.30000305175781,
+          114.10242462158203,
+          549.0639038085938,
+          127.39295959472656
+        ],
+        [
+          72.30001831054688,
+          131.0823516845703,
+          316.645263671875,
+          144.3728790283203
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19
+      ],
+      "citation": "Finkenrath, M. Cost and Performance of Carbon Dioxide Capture from Power Generation; International Energy Agency: Paris, France, 2011."
+    },
+    {
+      "id": "R006",
+      "number": 6,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "6. ",
+        "Parsons, W. Economic Assessment of Carbon Capture and Storage Technologies: 2011 Update; ",
+        "Global CCS Institute: Canberra, Australia, 2011 "
+      ],
+      "line_bboxes": [
+        [
+          49.61967468261719,
+          147.8997039794922,
+          61.95600128173828,
+          161.35279846191406
+        ],
+        [
+          72.30000305175781,
+          148.0624542236328,
+          549.0639038085938,
+          161.3529815673828
+        ],
+        [
+          72.30001831054688,
+          165.10243225097656,
+          306.2961730957031,
+          178.39295959472656
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19
+      ],
+      "citation": "Parsons, W. Economic Assessment of Carbon Capture and Storage Technologies: 2011 Update; Global CCS Institute: Canberra, Australia, 2011"
+    },
+    {
+      "id": "R007",
+      "number": 7,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "7. ",
+        "Zero Emission Platform. The Costs of CO2 Capture: Post-Demonstration CCS in the EU;  ",
+        "Zero Emission Platform: Brussel, Belgium, 2011. "
+      ],
+      "line_bboxes": [
+        [
+          49.61967468261719,
+          181.9197235107422,
+          61.95600128173828,
+          195.3728790283203
+        ],
+        [
+          72.30000305175781,
+          182.0824737548828,
+          552.0640869140625,
+          195.3730010986328
+        ],
+        [
+          72.29989624023438,
+          199.06239318847656,
+          313.2714538574219,
+          212.35292053222656
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19
+      ],
+      "citation": "Zero Emission Platform. The Costs of CO2 Capture: Post-Demonstration CCS in the EU; Zero Emission Platform: Brussel, Belgium, 2011."
+    },
+    {
+      "id": "R008",
+      "number": 8,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "8. ",
+        "Park, Y.C.; Jo, S.-H.; Kyung, D.-H.; Kim, J.-Y.; Yi, C.-K.; Ryu, C.K.; Shin, M.S. Test operation ",
+        "results of the 10 mwe-scale dry-sorbent CO2 capture process integrated with a real coal-fired ",
+        "power plant in korea. Energy Procedia 2014, 63, 2261–2265. "
+      ],
+      "line_bboxes": [
+        [
+          49.61955261230469,
+          215.93968200683594,
+          61.95600128173828,
+          229.3928985595703
+        ],
+        [
+          72.30000305175781,
+          216.10243225097656,
+          549.13818359375,
+          229.39295959472656
+        ],
+        [
+          72.30001831054688,
+          233.0823516845703,
+          549.0834350585938,
+          246.3730010986328
+        ],
+        [
+          72.30026245117188,
+          250.0623321533203,
+          369.9653015136719,
+          263.3529052734375
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19,
+        19
+      ],
+      "citation": "Park, Y.C.; Jo, S.-H.; Kyung, D.-H.; Kim, J.-Y.; Yi, C.-K.; Ryu, C.K.; Shin, M.S. Test operation results of the 10 mwe-scale dry-sorbent CO2 capture process integrated with a real coal-fired power plant in korea. Energy Procedia 2014, 63, 2261–2265."
+    },
+    {
+      "id": "R009",
+      "number": 9,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "9. ",
+        "Kim, Y.-L.; Lee, K.-S.; Jo, S.-H.; Kim, M.-J.; Kim, J.-S.; Park, M.-H. A preliminary evaluation on ",
+        "CO2 storage capacity of the southwestern part of Ulleung basin, offshore, east sea. Econ. Environ. ",
+        "Geol. 2012, 45, 41–48. "
+      ],
+      "line_bboxes": [
+        [
+          49.6202392578125,
+          266.939697265625,
+          61.95600128173828,
+          280.392822265625
+        ],
+        [
+          72.30000305175781,
+          267.1024169921875,
+          549.0341796875,
+          280.3929443359375
+        ],
+        [
+          72.30000305175781,
+          284.08233642578125,
+          549.0765380859375,
+          297.37298583984375
+        ],
+        [
+          72.30062866210938,
+          301.06231689453125,
+          185.64308166503906,
+          314.3529052734375
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19,
+        19
+      ],
+      "citation": "Kim, Y.-L.; Lee, K.-S.; Jo, S.-H.; Kim, M.-J.; Kim, J.-S.; Park, M.-H. A preliminary evaluation on CO2 storage capacity of the southwestern part of Ulleung basin, offshore, east sea. Econ. Environ. Geol. 2012, 45, 41–48."
+    },
+    {
+      "id": "R010",
+      "number": 10,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "10. Intergovernmental Panel on Climate Change. IPCC Special Report on Carbon Dioxide Capture ",
+        "and Storage; Cambrige University Press: Cambrige, UK, 2005. "
+      ],
+      "line_bboxes": [
+        [
+          49.619834899902344,
+          317.939697265625,
+          549.1057739257812,
+          331.3929443359375
+        ],
+        [
+          72.30001831054688,
+          335.0823669433594,
+          379.2763671875,
+          348.3728942871094
+        ]
+      ],
+      "line_pages": [
+        19,
+        19
+      ],
+      "citation": "Intergovernmental Panel on Climate Change. IPCC Special Report on Carbon Dioxide Capture and Storage; Cambrige University Press: Cambrige, UK, 2005."
+    },
+    {
+      "id": "R011",
+      "number": 11,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "11. Yoo, B.-Y.; Choi, D.-K.; Kim, H.-J.; Moon, Y.-S.; Na, H.-S.; Lee, S.-G. Development of CO2 ",
+        "terminal and CO2 carrier for future commercialized CCS market. Int. J. Greenh. Gas Control ",
+        "2013, 12, 323–332. "
+      ],
+      "line_bboxes": [
+        [
+          49.619667053222656,
+          351.89971923828125,
+          549.0613403320312,
+          365.35296630859375
+        ],
+        [
+          72.29864501953125,
+          369.1024169921875,
+          549.0448608398438,
+          382.3929748535156
+        ],
+        [
+          72.30000305175781,
+          386.0824279785156,
+          168.30418395996094,
+          399.3729553222656
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19
+      ],
+      "citation": "Yoo, B.-Y.; Choi, D.-K.; Kim, H.-J.; Moon, Y.-S.; Na, H.-S.; Lee, S.-G. Development of CO2 terminal and CO2 carrier for future commercialized CCS market. Int. J. Greenh. Gas Control 2013, 12, 323–332."
+    },
+    {
+      "id": "R012",
+      "number": 12,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "12. Roussanaly, S.; Jakobsen, J.P.; Hognes, E.H.; Brunsvold, A.L. Benchmarking of CO2 transport ",
+        "technologies: Part I—Onshore pipeline and shipping between two onshore areas. Int. J. Greenh. ",
+        "Gas Control 2013, 19, 584–594. "
+      ],
+      "line_bboxes": [
+        [
+          49.61985778808594,
+          402.89971923828125,
+          549.073974609375,
+          416.35296630859375
+        ],
+        [
+          72.29922485351562,
+          420.1024169921875,
+          549.0643310546875,
+          433.3929443359375
+        ],
+        [
+          72.29925537109375,
+          437.0823669433594,
+          231.00418090820312,
+          450.3729553222656
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19
+      ],
+      "citation": "Roussanaly, S.; Jakobsen, J.P.; Hognes, E.H.; Brunsvold, A.L. Benchmarking of CO2 transport technologies: Part I—Onshore pipeline and shipping between two onshore areas. Int. J. Greenh. Gas Control 2013, 19, 584–594."
+    },
+    {
+      "id": "R013",
+      "number": 13,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "13. Roussanaly, S.; Brunsvold, A.L.; Hognes, E.S. Benchmarking of CO2 transport technologies: Part ",
+        "II—Offshore pipeline and shipping to an offshore site. Int. J. Greenh. Gas Control 2014, 28, 283–299. "
+      ],
+      "line_bboxes": [
+        [
+          49.6202392578125,
+          453.89971923828125,
+          549.1248168945312,
+          467.35296630859375
+        ],
+        [
+          72.2996826171875,
+          471.1024169921875,
+          547.7606201171875,
+          484.3929748535156
+        ]
+      ],
+      "line_pages": [
+        19,
+        19
+      ],
+      "citation": "Roussanaly, S.; Brunsvold, A.L.; Hognes, E.S. Benchmarking of CO2 transport technologies: Part II—Offshore pipeline and shipping to an offshore site. Int. J. Greenh. Gas Control 2014, 28, 283–299."
+    },
+    {
+      "id": "R014",
+      "number": 14,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "14. Zero Emission Platform. The Costs of CO2 Transport; Zero Emission Platform: Brussel, Belgium, ",
+        "2011. "
+      ],
+      "line_bboxes": [
+        [
+          49.619171142578125,
+          487.9197082519531,
+          549.1566162109375,
+          501.3729553222656
+        ],
+        [
+          72.2991943359375,
+          505.0623779296875,
+          102.30194091796875,
+          518.3529052734375
+        ]
+      ],
+      "line_pages": [
+        19,
+        19
+      ],
+      "citation": "Zero Emission Platform. The Costs of CO2 Transport; Zero Emission Platform: Brussel, Belgium, 2011."
+    },
+    {
+      "id": "R015",
+      "number": 15,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "15. McCoy, S.T.; Rubin, E.S. An engineering-economic model of pipeline transport of CO2 with ",
+        "application to carbon capture and storage. Int. J. Greenh. Gas Control 2008, 2, 219–229. "
+      ],
+      "line_bboxes": [
+        [
+          49.61885070800781,
+          521.939697265625,
+          549.0625610351562,
+          535.3929443359375
+        ],
+        [
+          72.29864501953125,
+          539.0823974609375,
+          501.1848449707031,
+          552.3729248046875
+        ]
+      ],
+      "line_pages": [
+        19,
+        19
+      ],
+      "citation": "McCoy, S.T.; Rubin, E.S. An engineering-economic model of pipeline transport of CO2 with application to carbon capture and storage. Int. J. Greenh. Gas Control 2008, 2, 219–229."
+    },
+    {
+      "id": "R016",
+      "number": 16,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "16. Recht, D.L. Design considerations for carbon dioxide pipe lines. Pipe Line Ind. 1984, 61, 38–39. "
+      ],
+      "line_bboxes": [
+        [
+          49.6201171875,
+          555.899658203125,
+          530.3173217773438,
+          569.3529052734375
+        ]
+      ],
+      "line_pages": [
+        19
+      ],
+      "citation": "Recht, D.L. Design considerations for carbon dioxide pipe lines. Pipe Line Ind. 1984, 61, 38–39."
+    },
+    {
+      "id": "R017",
+      "number": 17,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "17. Korea meteorological administration. Available online: http://web.kma.go.kr/eng/index.jsp ",
+        "(accessed on 5 March 2015). "
+      ],
+      "line_bboxes": [
+        [
+          49.61907958984375,
+          572.939697265625,
+          549.123779296875,
+          586.3929443359375
+        ],
+        [
+          72.29876708984375,
+          590.0823974609375,
+          213.57704162597656,
+          603.3729248046875
+        ]
+      ],
+      "line_pages": [
+        19,
+        19
+      ],
+      "citation": "Korea meteorological administration. Available online: http://web.kma.go.kr/eng/index.jsp (accessed on 5 March 2015)."
+    },
+    {
+      "id": "R018",
+      "number": 18,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "18. Knoope, M.M.J.; Ramírez, A.; Faaij, A.P.C. A state-of-the-art review of techno-economic models ",
+        "predicting the costs of CO2 pipeline transport. Int. J. Greenh. Gas Control 2013, 16, 241–270. "
+      ],
+      "line_bboxes": [
+        [
+          49.61842346191406,
+          606.8997192382812,
+          549.0901489257812,
+          620.3529663085938
+        ],
+        [
+          72.30117797851562,
+          624.1024169921875,
+          526.9841918945312,
+          637.3929443359375
+        ]
+      ],
+      "line_pages": [
+        19,
+        19
+      ],
+      "citation": "Knoope, M.M.J.; Ramírez, A.; Faaij, A.P.C. A state-of-the-art review of techno-economic models predicting the costs of CO2 pipeline transport. Int. J. Greenh. Gas Control 2013, 16, 241–270."
+    },
+    {
+      "id": "R019",
+      "number": 19,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "19. Vandeginste, V.; Piessens, K. Pipeline design for a least-cost router application for CO2 transport ",
+        "in the CO2 sequestration cycle. Int. J. Greenh. Gas Control 2008, 2, 571–581. "
+      ],
+      "line_bboxes": [
+        [
+          49.620025634765625,
+          640.919677734375,
+          549.0337524414062,
+          654.3729248046875
+        ],
+        [
+          72.29986572265625,
+          658.0623779296875,
+          448.8648376464844,
+          671.3529663085938
+        ]
+      ],
+      "line_pages": [
+        19,
+        19
+      ],
+      "citation": "Vandeginste, V.; Piessens, K. Pipeline design for a least-cost router application for CO2 transport in the CO2 sequestration cycle. Int. J. Greenh. Gas Control 2008, 2, 571–581."
+    },
+    {
+      "id": "R020",
+      "number": 20,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "20. Kang, K.; Huh, C.; Kang, S.-G.; Baek, J.-H.; Noh, H.J. Estimation of CO2 pipeline transport cost ",
+        "in south korea based on the scenarios. Energy Procedia 2014, 63, 2475–2480. "
+      ],
+      "line_bboxes": [
+        [
+          49.62060546875,
+          674.939697265625,
+          549.0850219726562,
+          688.3929443359375
+        ],
+        [
+          72.29953002929688,
+          692.0823974609375,
+          449.5852966308594,
+          705.3729248046875
+        ]
+      ],
+      "line_pages": [
+        19,
+        19
+      ],
+      "citation": "Kang, K.; Huh, C.; Kang, S.-G.; Baek, J.-H.; Noh, H.J. Estimation of CO2 pipeline transport cost in south korea based on the scenarios. Energy Procedia 2014, 63, 2475–2480."
+    },
+    {
+      "id": "R021",
+      "number": 21,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "21. Himesh steel. Available online: http://www.himeshsteel.com (accessed on 5 March 2015). "
+      ],
+      "line_bboxes": [
+        [
+          49.6195068359375,
+          708.8997192382812,
+          508.8886413574219,
+          722.3529663085938
+        ]
+      ],
+      "line_pages": [
+        19
+      ],
+      "citation": "Himesh steel. Available online: http://www.himeshsteel.com (accessed on 5 March 2015)."
+    },
+    {
+      "id": "R022",
+      "number": 22,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "22. Trident steel. Available online: http://www.tridentsteel.co.in (accessed on 5 March 2015). "
+      ],
+      "line_bboxes": [
+        [
+          49.620849609375,
+          725.939697265625,
+          506.4346618652344,
+          739.3929443359375
+        ]
+      ],
+      "line_pages": [
+        19
+      ],
+      "citation": "Trident steel. Available online: http://www.tridentsteel.co.in (accessed on 5 March 2015)."
+    },
+    {
+      "id": "R023",
+      "number": 23,
+      "pages": [
+        19
+      ],
+      "native_lines": [
+        "23. McCollum, D.L.; Ogden, J.M. Techno-Economic Models for Carbon Dioxide Compression, ",
+        "Transport, and Storage & Correlations for Estimating Carbon Dioxide Density and Viscosity; ",
+        "University of California, Davis: Davis, CA, USA, 2006. "
+      ],
+      "line_bboxes": [
+        [
+          49.620849609375,
+          742.9197387695312,
+          549.100830078125,
+          756.3729858398438
+        ],
+        [
+          72.30000305175781,
+          760.0623779296875,
+          549.0639038085938,
+          773.3529052734375
+        ],
+        [
+          72.30001831054688,
+          777.1023559570312,
+          344.56976318359375,
+          790.3928833007812
+        ]
+      ],
+      "line_pages": [
+        19,
+        19,
+        19
+      ],
+      "citation": "McCollum, D.L.; Ogden, J.M. Techno-Economic Models for Carbon Dioxide Compression, Transport, and Storage & Correlations for Estimating Carbon Dioxide Density and Viscosity; University of California, Davis: Davis, CA, USA, 2006."
+    },
+    {
+      "id": "R024",
+      "number": 24,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "24. Hendriks, C.; Graus, W.; van Bergen, F. Global Carbon Dioxide Storage Potential and Costs; ",
+        "Ecofys: Utrecht, The Netherland, 2004. "
+      ],
+      "line_bboxes": [
+        [
+          49.619998931884766,
+          79.91972351074219,
+          549.0639038085938,
+          93.37300109863281
+        ],
+        [
+          72.30001831054688,
+          97.06238555908203,
+          264.9731750488281,
+          110.35292053222656
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Hendriks, C.; Graus, W.; van Bergen, F. Global Carbon Dioxide Storage Potential and Costs; Ecofys: Utrecht, The Netherland, 2004."
+    },
+    {
+      "id": "R025",
+      "number": 25,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "25. IEA Greenhouse Gas R&D Programme. Transmission of CO2 and Energy; International Energy ",
+        "Agency: Cheltenham, UK, 2002.  "
+      ],
+      "line_bboxes": [
+        [
+          49.61967468261719,
+          113.93968200683594,
+          549.0999755859375,
+          127.39295959472656
+        ],
+        [
+          72.29888916015625,
+          131.0823516845703,
+          236.25628662109375,
+          144.3728790283203
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "IEA Greenhouse Gas R&D Programme. Transmission of CO2 and Energy; International Energy Agency: Cheltenham, UK, 2002."
+    },
+    {
+      "id": "R026",
+      "number": 26,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "26. Parker, N. Using Natural Gas Transmission Pipeline Costs to Estimate Hydrogen Pipeline Costs; ",
+        "University of California, Davis: Davis, CA, USA, 2004. "
+      ],
+      "line_bboxes": [
+        [
+          49.61854553222656,
+          147.8997039794922,
+          549.0639038085938,
+          161.3529815673828
+        ],
+        [
+          72.30001831054688,
+          165.10243225097656,
+          344.56976318359375,
+          178.39295959472656
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Parker, N. Using Natural Gas Transmission Pipeline Costs to Estimate Hydrogen Pipeline Costs; University of California, Davis: Davis, CA, USA, 2004."
+    },
+    {
+      "id": "R027",
+      "number": 27,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "27. Knoope, M.M.J.; Guijt, W.; Ramírez, A.; Faaij, A.P.C. Improved cost models for optimizing CO2 ",
+        "pipeline configuration for point-to-point pipelines and simple networks. Int. J. Greenh. Gas Control ",
+        "2014, 22, 25–46. "
+      ],
+      "line_bboxes": [
+        [
+          49.61967468261719,
+          181.9197235107422,
+          549.0613403320312,
+          195.3730010986328
+        ],
+        [
+          72.29864501953125,
+          199.06239318847656,
+          549.1141357421875,
+          212.35292053222656
+        ],
+        [
+          72.30000305175781,
+          216.10243225097656,
+          156.30308532714844,
+          229.39295959472656
+        ]
+      ],
+      "line_pages": [
+        20,
+        20,
+        20
+      ],
+      "citation": "Knoope, M.M.J.; Guijt, W.; Ramírez, A.; Faaij, A.P.C. Improved cost models for optimizing CO2 pipeline configuration for point-to-point pipelines and simple networks. Int. J. Greenh. Gas Control 2014, 22, 25–46."
+    },
+    {
+      "id": "R028",
+      "number": 28,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "28. Mohitpour, M.; Golshan, H.; Murray, M.A. Pipeline Design and Construction: A Practical Approach; ",
+        "American Society of Mechanical Engineers: New York, NY, USA, 2003; p. 688. "
+      ],
+      "line_bboxes": [
+        [
+          49.61985778808594,
+          232.9197235107422,
+          549.0639038085938,
+          246.3730010986328
+        ],
+        [
+          72.29998779296875,
+          250.06239318847656,
+          463.875,
+          263.3529052734375
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Mohitpour, M.; Golshan, H.; Murray, M.A. Pipeline Design and Construction: A Practical Approach; American Society of Mechanical Engineers: New York, NY, USA, 2003; p. 688."
+    },
+    {
+      "id": "R029",
+      "number": 29,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "29. Alabdulkarem, A.; Hwang, Y.; Radermacher, R. Development of CO2 liquefaction cycles for CO2 ",
+        "sequestration. Appl. Therm. Eng. 2012, 33–34, 144–156. "
+      ],
+      "line_bboxes": [
+        [
+          49.61962890625,
+          266.939697265625,
+          549.0613403320312,
+          280.3929443359375
+        ],
+        [
+          72.29864501953125,
+          284.08233642578125,
+          346.9246520996094,
+          297.37298583984375
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Alabdulkarem, A.; Hwang, Y.; Radermacher, R. Development of CO2 liquefaction cycles for CO2 sequestration. Appl. Therm. Eng. 2012, 33–34, 144–156."
+    },
+    {
+      "id": "R030",
+      "number": 30,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "30. Seo, Y.; Chang, D. Optimization of ship-based CCS. In Proceedings of the OCEANS, 2012—Yeosu, ",
+        "Yeosu, Korea, 21–24 May 2012; pp. 1–9. "
+      ],
+      "line_bboxes": [
+        [
+          49.6201171875,
+          300.89959716796875,
+          549.0950927734375,
+          314.3529052734375
+        ],
+        [
+          72.29998779296875,
+          318.102294921875,
+          274.6234130859375,
+          331.392822265625
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Seo, Y.; Chang, D. Optimization of ship-based CCS. In Proceedings of the OCEANS, 2012—Yeosu, Yeosu, Korea, 21–24 May 2012; pp. 1–9."
+    },
+    {
+      "id": "R031",
+      "number": 31,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "31. Seo, Y.; You, H.; Lee, S.; Huh, C.; Chang, D. Evaluation of CO2 liquefaction processes for  ",
+        "ship-based carbon capture and storage (CCS) in terms of life cycle cost (LCC) considering ",
+        "availability. Int. J. Greenh. Gas Control 2015, 35, 1–12. "
+      ],
+      "line_bboxes": [
+        [
+          49.61964416503906,
+          334.9197082519531,
+          552.0433959960938,
+          348.3729553222656
+        ],
+        [
+          72.29962158203125,
+          352.0623779296875,
+          549.1248779296875,
+          365.3529052734375
+        ],
+        [
+          72.30087280273438,
+          369.10235595703125,
+          345.6025390625,
+          382.3929748535156
+        ]
+      ],
+      "line_pages": [
+        20,
+        20,
+        20
+      ],
+      "citation": "Seo, Y.; You, H.; Lee, S.; Huh, C.; Chang, D. Evaluation of CO2 liquefaction processes for ship-based carbon capture and storage (CCS) in terms of life cycle cost (LCC) considering availability. Int. J. Greenh. Gas Control 2015, 35, 1–12."
+    },
+    {
+      "id": "R032",
+      "number": 32,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "32. American Society of Mechanical Engineers. ASME Boiler and Pressure Vessel Code, Section viii, ",
+        "Division 1: Rules for Construction of Pressure Vessels; American Society of Mechanical Engineers: ",
+        "New York, NY, USA, 2010. "
+      ],
+      "line_bboxes": [
+        [
+          49.619873046875,
+          385.9197082519531,
+          549.0388793945312,
+          399.3729553222656
+        ],
+        [
+          72.30123901367188,
+          403.0623779296875,
+          549.1336669921875,
+          416.3529052734375
+        ],
+        [
+          72.30123901367188,
+          420.10235595703125,
+          211.97068786621094,
+          433.39288330078125
+        ]
+      ],
+      "line_pages": [
+        20,
+        20,
+        20
+      ],
+      "citation": "American Society of Mechanical Engineers. ASME Boiler and Pressure Vessel Code, Section viii, Division 1: Rules for Construction of Pressure Vessels; American Society of Mechanical Engineers: New York, NY, USA, 2010."
+    },
+    {
+      "id": "R033",
+      "number": 33,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "33. International Maritime Organization. International Code for the Construction and Equipment of ",
+        "Ships Carrying Liquefied Gases in Bulk: IGC Code; IMO Publishing: London, UK, 2000; p. 212. "
+      ],
+      "line_bboxes": [
+        [
+          49.62089538574219,
+          436.9197082519531,
+          549.0903930664062,
+          450.3729553222656
+        ],
+        [
+          72.30001831054688,
+          454.0623779296875,
+          542.72216796875,
+          467.3529052734375
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "International Maritime Organization. International Code for the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk: IGC Code; IMO Publishing: London, UK, 2000; p. 212."
+    },
+    {
+      "id": "R034",
+      "number": 34,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "34. Seo, Y.; Chang, D.; Jung, J.-Y.; Huh, C.; Kang, S.-G. Economic evaluation of ship-based CCS ",
+        "with availability. Energy Procedia 2013, 37, 2511–2518. "
+      ],
+      "line_bboxes": [
+        [
+          49.619659423828125,
+          470.9397277832031,
+          549.0856323242188,
+          484.3929748535156
+        ],
+        [
+          72.29998779296875,
+          488.0823974609375,
+          349.26531982421875,
+          501.3729553222656
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Seo, Y.; Chang, D.; Jung, J.-Y.; Huh, C.; Kang, S.-G. Economic evaluation of ship-based CCS with availability. Energy Procedia 2013, 37, 2511–2518."
+    },
+    {
+      "id": "R035",
+      "number": 35,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "35. Aspelund, A.; Mølnvik, M.J.; de Koeijer, G. Ship transport of CO2: Technical solutions and ",
+        "analysis of costs, energy utilization, exergy efficiency and CO2 emissions. Chem. Eng. Res. Des. ",
+        "2006, 84, 847–855. "
+      ],
+      "line_bboxes": [
+        [
+          49.61962890625,
+          504.899658203125,
+          549.1028442382812,
+          518.3529052734375
+        ],
+        [
+          72.29928588867188,
+          522.102294921875,
+          549.0800170898438,
+          535.3929443359375
+        ],
+        [
+          72.30000305175781,
+          539.0823974609375,
+          168.30418395996094,
+          552.3729248046875
+        ]
+      ],
+      "line_pages": [
+        20,
+        20,
+        20
+      ],
+      "citation": "Aspelund, A.; Mølnvik, M.J.; de Koeijer, G. Ship transport of CO2: Technical solutions and analysis of costs, energy utilization, exergy efficiency and CO2 emissions. Chem. Eng. Res. Des. 2006, 84, 847–855."
+    },
+    {
+      "id": "R036",
+      "number": 36,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "36. Vermeulen, T.N. CO2 Liquid Logistics Shipping Concept (LLSC) Overall Supply Chain Optimization; ",
+        "Global CCS Institute: Canberra, Australia, 2011.  "
+      ],
+      "line_bboxes": [
+        [
+          49.61985778808594,
+          555.899658203125,
+          549.0642700195312,
+          569.3529052734375
+        ],
+        [
+          72.30035400390625,
+          573.102294921875,
+          312.2382507324219,
+          586.392822265625
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Vermeulen, T.N. CO2 Liquid Logistics Shipping Concept (LLSC) Overall Supply Chain Optimization; Global CCS Institute: Canberra, Australia, 2011."
+    },
+    {
+      "id": "R037",
+      "number": 37,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "37. Aspen Hysys. Available online: http://www.aspentech.com/ (accessed on 5 March 2015). "
+      ],
+      "line_bboxes": [
+        [
+          49.62001037597656,
+          589.919677734375,
+          504.216064453125,
+          603.3729248046875
+        ]
+      ],
+      "line_pages": [
+        20
+      ],
+      "citation": "Aspen Hysys. Available online: http://www.aspentech.com/ (accessed on 5 March 2015)."
+    },
+    {
+      "id": "R038",
+      "number": 38,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "38. Peters, M.S.; West, R.E. Plant Design and Economics for Chemical Engineers; McGraw-Hill: ",
+        "New York, NY, USA, 2003. "
+      ],
+      "line_bboxes": [
+        [
+          49.61967468261719,
+          606.8997192382812,
+          549.1034545898438,
+          620.3529663085938
+        ],
+        [
+          72.29998779296875,
+          624.1024169921875,
+          211.9694366455078,
+          637.3929443359375
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Peters, M.S.; West, R.E. Plant Design and Economics for Chemical Engineers; McGraw-Hill: New York, NY, USA, 2003."
+    },
+    {
+      "id": "R039",
+      "number": 39,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "39. Jung, J.-Y.; Huh, C.; Kang, S.-G.; Seo, Y.; Chang, D. CO2 transport strategy and its cost ",
+        "estimation for the offshore CCS in Korea. Appl. Energ. 2013, 111, 1054–1060. "
+      ],
+      "line_bboxes": [
+        [
+          49.61964416503906,
+          640.919677734375,
+          549.0430297851562,
+          654.3729248046875
+        ],
+        [
+          72.29953002929688,
+          658.0623779296875,
+          454.265869140625,
+          671.3529663085938
+        ]
+      ],
+      "line_pages": [
+        20,
+        20
+      ],
+      "citation": "Jung, J.-Y.; Huh, C.; Kang, S.-G.; Seo, Y.; Chang, D. CO2 transport strategy and its cost estimation for the offshore CCS in Korea. Appl. Energ. 2013, 111, 1054–1060."
+    },
+    {
+      "id": "R040",
+      "number": 40,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "40. Seo, Y.; Huh, C.; Chang, D. Economic evaluation of CO2 liquefaction processes for ship-based ",
+        "carbon capture and storage (CCS) chain. In Proceedings of the International Ocean and Polar ",
+        "Engineering Conference, Busan, Korea, 15–20 June 2014; p. 580. "
+      ],
+      "line_bboxes": [
+        [
+          49.620208740234375,
+          674.939697265625,
+          549.1265258789062,
+          688.3929443359375
+        ],
+        [
+          72.30007934570312,
+          692.0823974609375,
+          549.1637573242188,
+          705.3729248046875
+        ],
+        [
+          72.30007934570312,
+          709.0623168945312,
+          390.8071594238281,
+          722.3528442382812
+        ]
+      ],
+      "line_pages": [
+        20,
+        20,
+        20
+      ],
+      "citation": "Seo, Y.; Huh, C.; Chang, D. Economic evaluation of CO2 liquefaction processes for ship-based carbon capture and storage (CCS) chain. In Proceedings of the International Ocean and Polar Engineering Conference, Busan, Korea, 15–20 June 2014; p. 580."
+    },
+    {
+      "id": "R041",
+      "number": 41,
+      "pages": [
+        20
+      ],
+      "native_lines": [
+        "41. Yang, S.; Lee, U.; Jeong, Y.S.; Kim, J.; Lee, C.; Han, C. Process design and cost estimation of ",
+        "carbon dioxide compression and liquefaction for transportation. Korean Chem. Eng. Res. 2012, ",
+        "50, 988–993. "
+      ],
+      "line_bboxes": [
+        [
+          49.61973571777344,
+          725.939697265625,
+          549.0938720703125,
+          739.3929443359375
+        ],
+        [
+          72.30000305175781,
+          743.0823974609375,
+          549.0615844726562,
+          756.3729858398438
+        ],
+        [
+          72.29891967773438,
+          760.0623779296875,
+          138.30255126953125,
+          773.3529052734375
+        ]
+      ],
+      "line_pages": [
+        20,
+        20,
+        20
+      ],
+      "citation": "Yang, S.; Lee, U.; Jeong, Y.S.; Kim, J.; Lee, C.; Han, C. Process design and cost estimation of carbon dioxide compression and liquefaction for transportation. Korean Chem. Eng. Res. 2012, 50, 988–993."
+    },
+    {
+      "id": "R042",
+      "number": 42,
+      "pages": [
+        21
+      ],
+      "native_lines": [
+        "42. Megyesy, E.F.; Buthod, P. Pressure Vessel Handbook; Pressure Vessel Publishing: Tulas, OK, ",
+        "USA, 2008. "
+      ],
+      "line_bboxes": [
+        [
+          49.619998931884766,
+          79.91972351074219,
+          549.03369140625,
+          93.37300109863281
+        ],
+        [
+          72.29998779296875,
+          97.06238555908203,
+          132.31028747558594,
+          110.35292053222656
+        ]
+      ],
+      "line_pages": [
+        21,
+        21
+      ],
+      "citation": "Megyesy, E.F.; Buthod, P. Pressure Vessel Handbook; Pressure Vessel Publishing: Tulas, OK, USA, 2008."
+    },
+    {
+      "id": "R043",
+      "number": 43,
+      "pages": [
+        21
+      ],
+      "native_lines": [
+        "43. IEA Greenhouse Gas R&D Programme. Ship Transport of CO2; International Energy Agency: ",
+        "Cheltenham, UK, 2004. "
+      ],
+      "line_bboxes": [
+        [
+          49.61964416503906,
+          113.93968200683594,
+          549.1290893554688,
+          127.39295959472656
+        ],
+        [
+          72.29913330078125,
+          131.0823516845703,
+          189.618408203125,
+          144.3728790283203
+        ]
+      ],
+      "line_pages": [
+        21,
+        21
+      ],
+      "citation": "IEA Greenhouse Gas R&D Programme. Ship Transport of CO2; International Energy Agency: Cheltenham, UK, 2004."
+    },
+    {
+      "id": "R044",
+      "number": 44,
+      "pages": [
+        21
+      ],
+      "native_lines": [
+        "44. Clarksons shipping intelligence network. Available online: http://www.clarksons.net/sin2010/ ",
+        "(accessed on 5 March 2015). "
+      ],
+      "line_bboxes": [
+        [
+          49.61878967285156,
+          147.8997039794922,
+          549.14306640625,
+          161.3529815673828
+        ],
+        [
+          72.30000305175781,
+          165.10243225097656,
+          213.57827758789062,
+          178.39295959472656
+        ]
+      ],
+      "line_pages": [
+        21,
+        21
+      ],
+      "citation": "Clarksons shipping intelligence network. Available online: http://www.clarksons.net/sin2010/ (accessed on 5 March 2015)."
+    },
+    {
+      "id": "R045",
+      "number": 45,
+      "pages": [
+        21
+      ],
+      "native_lines": [
+        "45. Chandel, M.K.; Pratson, L.F.; Williams, E. Potential economies of scale in CO2 transport through ",
+        "use of a trunk pipeline. Energy Convers. Manag. 2010, 51, 2825–2834. "
+      ],
+      "line_bboxes": [
+        [
+          49.619659423828125,
+          181.9197235107422,
+          549.1124267578125,
+          195.3730010986328
+        ],
+        [
+          72.2994384765625,
+          199.06239318847656,
+          417.185302734375,
+          212.3529815673828
+        ]
+      ],
+      "line_pages": [
+        21,
+        21
+      ],
+      "citation": "Chandel, M.K.; Pratson, L.F.; Williams, E. Potential economies of scale in CO2 transport through use of a trunk pipeline. Energy Convers. Manag. 2010, 51, 2825–2834."
+    }
+  ]
+}

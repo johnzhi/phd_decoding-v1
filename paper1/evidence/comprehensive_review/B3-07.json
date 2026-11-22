@@ -1,0 +1,2522 @@
+{
+  "study_id": "B3-07",
+  "source_sha256": "cb1ef1b0e6b0cb2951f19fd44079f382185007977c23dde37ac806071aa77cfd",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 21 retained physical pages were text-read and visually inspected, including seven figures and all panels, four tables, captions, legends and six native equations. Thirty-six limited checks, nine steel rows, four compressor examples, three conditional fleet rows and eleven pure-state rows do not reproduce native author models. Exact original checks qualify the prior-conditioning attribution and offshore-heating assumptions. Preserve the 2800 kg/s annual-rate conflict, 877/887 km route discrepancy, diagram state differences and approximate costs. No accepted operating/GHG input changed; underlying originals, assets and native models remain open.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21
+  ],
+  "original_model_status": "unreproduced_native_64design_pipeline_HYSYS_ship_schedule_GIS_and_reservoir_models",
+  "supplement_status": "no_separate_SI_code_data_or_availability_statement_identified_locally_external_availability_unverified",
+  "sections": [
+    {
+      "id": "S001",
+      "pages": [
+        1,
+        21
+      ],
+      "scope": "Identity, dates, affiliations and rights",
+      "assessment": "Kwangu Kang, Youngkyun Seo, Daejun Chang, Seong-Gil Kang and Cheol Huh. Energies 2015, 8:2176–2196; DOI10.3390/en8032176. Received 16 December 2014, accepted 16 March 2015, published 19 March 2015. Three institutional affiliations; article CC BY 4.0. Article licence does not supply or license absent HYSYS cases or commercial databases."
+    },
+    {
+      "id": "S002",
+      "pages": [
+        1
+      ],
+      "scope": "Abstract",
+      "assessment": "Read both route lengths, 1/3 Mt/year cases, 33/28 and 21/23 USD/t cost comparisons and qualified hub conclusion. These are projected transport costs on unequal routes, not observed operating or lifecycle benefits."
+    },
+    {
+      "id": "S003",
+      "pages": [
+        2
+      ],
+      "scope": "1 Introduction: historical plans and mitigation",
+      "assessment": "65 large projects operating or planned 2013, 592.9 Mt Korean 2012 combustion emissions, ~50% power, 30% BAU 2020 target, 2017/2020/2030 deployment plans. Historical plans and CCS-as-intermediary framing do not verify current operation or unavoidable future requirements."
+    },
+    {
+      "id": "S004",
+      "pages": [
+        2
+      ],
+      "scope": "Capture-cost literature and geographic transfer",
+      "assessment": "Coal and NG cost ranges from three reports, claim capture>50% of chain cost and weak country dependence. No matched capture utilities, energy suppliers, currency year or whole-chain comparison reconstructed."
+    },
+    {
+      "id": "S005",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "Korean pilots, sources and storage context",
+      "assessment": "Read 10 MW amine/dry-sorbent pilots, >100 MW FID uncertainty, three plants, Ulleung 5 Gt resource and offshore-only rationale. No annual field pressure/well dataset or actual selected technology supplied."
+    },
+    {
+      "id": "S006",
+      "pages": [
+        3
+      ],
+      "scope": "Prior transport comparisons and conditioning attribution",
+      "assessment": "Read 200–1000 km crossover context and claim that cited recent work starts with>100 bar CO2. Exact Roussanaly 2014 original instead starts at 1 bar in both chains; do not apply that characterization to R013. Conditioning-inclusive comparisons already exist."
+    },
+    {
+      "id": "S007",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "2 Three transport scenarios and Table 1 diagrams",
+      "assessment": "All graphical arrows and annual capture lists read. S 1 one source 1/2/3/4/6 Mt/year; S 2 four combinations of 1/3 Mt at Boryeong/Hadong; S 3 two 1 Mt sources and three feeder modes to Ulsan, always offshore pipeline thereafter."
+    },
+    {
+      "id": "S008",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "Route geometry and transport distances",
+      "assessment": "Coastal routing avoids mountains; Hadong lies on S 1 pipeline. Table 2 seven rows read. Ship/pipeline routes differ; S 2 table legs 617+270=887 km, prose later says 877. Ulsan selected as nearest harbor, not an independently optimized network."
+    },
+    {
+      "id": "S009",
+      "pages": [
+        6,
+        7
+      ],
+      "scope": "3 Cost boundary, Table 3 and Figure 3",
+      "assessment": "Capture and storage excluded, compression/liquefaction included. Pumping to assumed wellhead state included, injection itself excluded. Read all subsystem arrows and pressure/temperature pairs; Injection label is a conditioning cost, not storage operation."
+    },
+    {
+      "id": "S010",
+      "pages": [
+        7,
+        8
+      ],
+      "scope": "3.1.1 Pipeline pressure, burial and diameter design",
+      "assessment": "86–150 bar design band, 100 bar assumed wellhead because reservoir conditions undetermined, 1 m burial/28°C, booster assumptions. All candidate diameters/materials enumerated conceptually, not reconstructed from missing native schedules and hydraulics."
+    },
+    {
+      "id": "S011",
+      "pages": [
+        8
+      ],
+      "scope": "Materials, Table 4 and Eq 1",
+      "assessment": "Nine material rows, eight with prices, plus X90 N/A. Eight NPS choices imply 64 priced candidates. Read rough 2015 internet-price provenance and Eq 1 constant-property friction/gravity variables; zero onshore elevation and minus 150 m offshore water-depth change are assumptions."
+    },
+    {
+      "id": "S012",
+      "pages": [
+        9
+      ],
+      "scope": "3.1.2 Compressor, pump and booster",
+      "assessment": "Read five-stage 2.36 ratio, 40/140°C temperatures, 40 MW train splitting, Eqs 2–4 and maintenance/electricity costs. Fixed train flow versus variable flow changes scale effects; native train powers/assignments absent."
+    },
+    {
+      "id": "S013",
+      "pages": [
+        9,
+        10
+      ],
+      "scope": "3.1.3 Pipeline construction and Eqs 5–6",
+      "assessment": "Parker nonmaterial model transferred from natural-gas cost context; steel annulus weight and minimum-wall factors read. Greater available schedule thickness chosen, then cost comparison. No native full 64 design enumeration or cost validation reproduced."
+    },
+    {
+      "id": "S014",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "3.2.1 Shipping design and Figure 4",
+      "assessment": "Cargo 7 bar/-50°C, near-triple-point choice, closed propane/ethane cycle, pressure vessels and standards. Figure 4 feed 1 bar 25°C and product 6 bar/-53°C differ from main boundary; all refrigerant/CO2 components inspected. Case correspondence and full process balance unresolved."
+    },
+    {
+      "id": "S015",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "Ship time, continuous injection and three ships",
+      "assessment": "15 knots, 20 h loading/unloading, 2 h entry/exit, continuous direct injection and fixed three vessels read. Printed 2800 kg/s does not convert to 1 Mt/year. A 20 h direct-delivery interpretation gives an uncovered interval under stated voyage times; native schedule/control must be checked."
+    },
+    {
+      "id": "S016",
+      "pages": [
+        11,
+        12
+      ],
+      "scope": "3.2.2 Liquefaction costs and borrowed scale factors",
+      "assessment": "Read HYSYS economic estimation and delivered-equipment methodology, followed by 1.6 CAPEX/1.7 OPEX multipliers relative to compression. Financial multipliers do not give electrical duties, heat, cooling or full native liquefaction results."
+    },
+    {
+      "id": "S017",
+      "pages": [
+        12
+      ],
+      "scope": "Storage, carrier and injection conditioning costs",
+      "assessment": "Tank manufacturing 45% of total, ~280 USD/m³, 5% annual maintenance; hull/tanker/Clarksons analogies and 850 USD/ton fuel. Pump/heat to 100 bar 10°C includes no absolute native duties or verified heat source. Exact original heating regimes differ."
+    },
+    {
+      "id": "S018",
+      "pages": [
+        12,
+        13
+      ],
+      "scope": "3.3 Hub terminal",
+      "assessment": "Ship tank and pressurization included; tank injection/discharge handling excluded. Pipeline 2 h buffer as parallel high-pressure pipes assumed. No continuous end-to-end service, actual buffer geometry, receiving chronology or weather performance established."
+    },
+    {
+      "id": "S019",
+      "pages": [
+        13
+      ],
+      "scope": "4 Annualized costs and plot definitions",
+      "assessment": "CRF 0.08 with 20 y/5% is rounding-compatible. All emitter/carrier/onshore/offshore/injection/hub and B/H/S labels read. Costs are per transported tonne; annualization assumptions do not create avoided/retained-mass accounting."
+    },
+    {
+      "id": "S020",
+      "pages": [
+        13,
+        14,
+        15
+      ],
+      "scope": "4.1 Scenario 1 and Figure 5",
+      "assessment": "Read all component/total groups, 33/28 costs at 1 Mt and 21/23 at 3 Mt, 30–70% conditioning shares and 7 USD/t premium argument. Approximate bar heights are not exact native arrays. Literal twice-cost phrasing has an unresolved unit/total interpretation relative to plotted declines."
+    },
+    {
+      "id": "S021",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ],
+      "scope": "4.2 Scenario 2 and Figure 6",
+      "assessment": "Both seven-bar panels compare four two-source designs with same-total single-source cases. Less upstream flow lowers some pipe costs but duplicated conditioning offsets savings; ship extra route raises costs. Preserve 877/887 discrepancy and distinguish section-versus-whole cost percentages."
+    },
+    {
+      "id": "S022",
+      "pages": [
+        14,
+        16,
+        17
+      ],
+      "scope": "4.3 Scenario 3 and Figure 7",
+      "assessment": "Eleven bars, all categories and four marginal-addition choices read. Same-total single-source comparisons change geography; matched two-source averages have equal 1 Mt weights. Short 60 km shared trunk/two routes give small conditional savings, not universally uneconomic hubs."
+    },
+    {
+      "id": "S023",
+      "pages": [
+        17,
+        18
+      ],
+      "scope": "5 Conclusions and implementation implications",
+      "assessment": "Read comparative rankings, conditioning boundary, transport>20% of CCS cost proposition and future-capacity recommendation. Capture/storage omitted, no universal full-chain share proven; oversizing/technology superiority needs actual demand, uncertainty and boundary evidence."
+    },
+    {
+      "id": "S024",
+      "pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "scope": "Funding, contributions, conflicts, references and assets",
+      "assessment": "Funding from Korean Ministry of Oceans and Fisheries marine-storage technology project, all five author roles and no-conflict statement read. All 45 references and CC BY 4.0 inspected. No retained supplement/code/data availability statement identified. Original models and cited dependencies remain open."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F001",
+      "pages": [
+        3
+      ],
+      "object": "Figure 1 location map",
+      "inspection": "Read three power-plant markers, Ulsan terminal and Ulleung basin marker. Geographic proximity is not an observed transport route, storage depth, pressure limit or availability record."
+    },
+    {
+      "id": "F002",
+      "pages": [
+        4
+      ],
+      "object": "Table 1 all three scenario rows and transport diagrams",
+      "inspection": "Inspected pipeline/ship arrows, two-source merge, Ulsan trunk and mixed Boryeong-ship/Samcheok-pipe option. Native text alone omits graphical labels; annual-volume lists and every arrow were checked in rendered layout."
+    },
+    {
+      "id": "F003",
+      "pages": [
+        5
+      ],
+      "object": "Figure 2 panels(a)/(b), route legend and full caption",
+      "inspection": "Red onshore, green offshore and blue dotted ship routes distinguish S 1/2 andS 3. Coastal paths and source/hub/sink markers read. Boryeong 530 km pipeline versus 724 km ship is not equal-distance comparison."
+    },
+    {
+      "id": "F004",
+      "pages": [
+        6
+      ],
+      "object": "Table 2 seven distance rows and headers",
+      "inspection": "All departure/destination/pipeline/ship cells read, including Hadong-Ulsan N/A.617+270=887 km differs from 877 prose; native values retained.60 km ship entry does not override S 3 fixed pipeline trunk."
+    },
+    {
+      "id": "F005",
+      "pages": [
+        6
+      ],
+      "object": "Table 3 all subsystem cost elements",
+      "inspection": "Seven rows with merged transport labels read. Compression/ship liquefaction, carrier/tank/pump and hub pressurization boundaries retained. Capture/storage and hub tank handling exclusions are explicit in prose."
+    },
+    {
+      "id": "F006",
+      "pages": [
+        7
+      ],
+      "object": "Figure 3(a) pipeline boundary and all state pairs",
+      "inspection": "Dotted boundary and arrows inspected:1 bar 35°C→73.8 bar 40°C→150 bar 28°C→86 bar 28°C→100 bar 10°C. Capture/injection to storage outside; assumed wellhead condition does not certify native field service."
+    },
+    {
+      "id": "F007",
+      "pages": [
+        7
+      ],
+      "object": "Figure 3(b) ship boundary and all state pairs",
+      "inspection": "Read 1 bar 35°C feed, 7 bar/-50 Ccargo and 100 bar 10 Cdelivery, liquefaction, storage, carrier and injection-pumping blocks. No complete capture heat/power balance or actual operating timeline."
+    },
+    {
+      "id": "F008",
+      "pages": [
+        8
+      ],
+      "object": "Table 4 nine steel grades, strength units and prices",
+      "inspection": "All X42–X90 psi/MPa/price cells inspected. X90 priceN/A; eight priced grades match 64 cases with eight sizes. Internet price/currency/ton basis and standard edition need originals; no value silently corrected."
+    },
+    {
+      "id": "F009",
+      "pages": [
+        11
+      ],
+      "object": "Figure 4 complete propane/ethane cascade",
+      "inspection": "Enlarged all three propane stages, ethane compressor, two condensers, cooling-water inlet, four expansion valves/four separators, liquefier and recycle connections. CO2 path has two compressors, two coolers, three scrubbers. No unprinted heat duties or flows inferred."
+    },
+    {
+      "id": "F010",
+      "pages": [
+        11
+      ],
+      "object": "Figure 4 state labels and correspondence",
+      "inspection": "Enlarged feed 1 bar 25°C and product 6 bar/-53°C, versus 35°C feed/7 bar/-50°C main scheme. Rounded 6 bar/-53 Ccan straddle saturation under a pure-fluid absolute-pressure illustration; no confirmed solid/hydrate or native HYSYS error claimed."
+    },
+    {
+      "id": "F011",
+      "pages": [
+        13
+      ],
+      "object": "Figure 5 Scenario 1 component groups, legend and total",
+      "inspection": "Four B 1/B 3 pipe/ship groups inspected. Red emitter bar is separate from stacked transport components and blue Sum. All six legend entries, axis USD/t CO2, caption and absence of error bars read. Native 33/28 and 21/23 are approximate prose labels, not exact digitized heights."
+    },
+    {
+      "id": "F012",
+      "pages": [
+        13
+      ],
+      "object": "Figure 6(a) pipeline panel and continuation",
+      "inspection": "Seven labels B 1+H 1, B 2, B 1+H 3, B 3+H 1, B 4, B 3+H 3, B 6 and four emitter/pipeline colors read, including caption continuation. Native graph values remain approximate; no exact optimization replay."
+    },
+    {
+      "id": "F013",
+      "pages": [
+        14
+      ],
+      "object": "Figure 6(b) ship panel and final caption",
+      "inspection": "Same seven comparisons and four emitter/carrier/pumping categories read. Two-source geography and conditioning differ from concentrated single-source baseline; no common-mode universal efficiency factor."
+    },
+    {
+      "id": "F014",
+      "pages": [
+        14
+      ],
+      "object": "Figure 7 all eleven bars and nine legend categories",
+      "inspection": "Three B 1+S 1 hub modes; separate B 1/S 1 pipe/ship cases; B 2/S 2 pipe/ship cases inspected. Legend covers two emitters, two onshore routes, two carriers, hub, offshore, injection. Graph is cost-per-transported-tonne, not emissions or reliability."
+    },
+    {
+      "id": "F015",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "object": "All six displayed equations and variable prose",
+      "inspection": "Every numerator, denominator, power, coefficient, index and unit read; Eq 2 enlarged. Native line regions preserved separately. There is no additional numbered objective, CRF or scheduling equation in retained paper."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "pages": [
+        8
+      ],
+      "printed": "DeltaP = 8*f*Q_m^2*L/(rho_CO2*pi^2*D_i^5) + rho_CO2*g*Deltaz",
+      "check": "Eq 1 literal constant-property Darcy-style pressure/gravity relation. Native f, CO2 density, route profile and friction convention not supplied. Negative 150 mwater-depth term is not reservoir-depth pressure calibration.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-07_equations.json#E001"
+    },
+    {
+      "id": "E002",
+      "pages": [
+        9
+      ],
+      "printed": "C_comp = m_train*N_train*[0.13e6*m_train^(-0.71) + 1.40e6*m_train^(-0.60)*ln(P_cut_off/P_initial)]",
+      "check": "Eq 2 literal m_train/N_train and pressure-ratio expression. Fixed train flow scales linearly with train count; fixed count has sublinear flow powers.40 MW threshold needs actual native power, not a guessed train allocation.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-07_equations.json#E002"
+    },
+    {
+      "id": "E003",
+      "pages": [
+        9
+      ],
+      "printed": "C_pump = 1.11e6*(W_p/1000) + 0.07e6",
+      "check": "Eq 3 uses electric power in kW divided by 1000, capital USD. No native pump power or duty/efficiency inferred from coefficient.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-07_equations.json#E003"
+    },
+    {
+      "id": "E004",
+      "pages": [
+        9
+      ],
+      "printed": "C_booster = 7.82e6*(W_p/1000) + 0.46e6",
+      "check": "Eq 4 uses kW and a booster-specific capital slope/intercept. Actual station count and operation remain unknown.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-07_equations.json#E004"
+    },
+    {
+      "id": "E005",
+      "pages": [
+        9
+      ],
+      "printed": "W_s = pi*L*rho_steel*t*(D_i+t)",
+      "check": "Eq 5 matches the exact annular-steel-volume identity with inner diameter D_i and outside D_i+2 t. Analyst geometry/density checks do not reconstruct native materials.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-07_equations.json#E005"
+    },
+    {
+      "id": "E006",
+      "pages": [
+        10
+      ],
+      "printed": "t = P_design*D_0/(2*S*F*L_f*J*T)",
+      "check": "Eq 6 minimum-wall component uses native factors.8/.9/1/1; actual standard-thickness rounding and complete diameter/material selection unverified. Printed D_0 is distinguished from prose Do for outer diameter; no dimensional reinterpretation is inferred.",
+      "native_equation_record": "evidence/comprehensive_review_inputs/B3-07_equations.json#E006"
+    },
+    {
+      "id": "E007",
+      "pages": [
+        11
+      ],
+      "printed": "q_kg_s = annual_Mt*1e9/(365*86400)",
+      "check": "Analyst calendar conversion:1 Mt/y=31.70979 kg/s; continuous 2800 kg/s=88.3008 Mt/y. No repaired source unit or actual operating hours inserted."
+    },
+    {
+      "id": "E008",
+      "pages": [
+        13
+      ],
+      "printed": "CRF = r/[1-(1+r)^(-N)]",
+      "check": "Analyst conventional component gives.0802425872 for 5%/20 y, compatible with rounded.08. This is distinct from discount rate or full native cash flows."
+    },
+    {
+      "id": "E009",
+      "pages": [
+        10,
+        11
+      ],
+      "printed": "Tcycle = 2L/(15*1.852)+20+20+2+2; direct_coverage <= Nships*20/Tcycle",
+      "check": "Conditional direct-well delivery only during each 20 h unloading window, no buffer/weather/extra stop.724 km gives 96.12383 h cycle, three ships≤.6242 coverage. Different native injection durations/buffering may alter the bound; no recommended fleet inferred."
+    },
+    {
+      "id": "E010",
+      "pages": [
+        13,
+        17
+      ],
+      "printed": "C_weighted = sum(q_i*C_i)/sum(q_i)",
+      "check": "Equal 1 Mt source average in matched marginal comparisons is valid only with equal masses and common boundaries. Analyst 1/3 flows and 10/30 costs give 25 weighted versus 20 simple mean."
+    },
+    {
+      "id": "E011",
+      "pages": [
+        13
+      ],
+      "printed": "C_unit = (CRF*CAPEX + annual_OPEX)/annual_transported_mass",
+      "check": "Conventional diagnostic interpretation of annualized transport cost, not another printed numbered equation. Not automatically cost per avoided/stored/retained tonne or a full author annualization replay."
+    }
+  ],
+  "variables": [
+    {
+      "id": "V001",
+      "pages": [
+        1,
+        4,
+        13
+      ],
+      "name": "Transport/capture rate and annual denominator",
+      "unit": "Mt CO2/year; USD/t transported",
+      "assumption": "Scenario rates are assumed design loads; no measured capture fraction, pressure-limited annual injection or avoided-mass denominator."
+    },
+    {
+      "id": "V002",
+      "pages": [
+        5,
+        6,
+        16,
+        17
+      ],
+      "name": "Route length and source location",
+      "unit": "km",
+      "assumption": "Unequal pipeline/ship paths, fixed coastal route, hub scenario changes geography.877 prose and 887 table sum unresolved; N/A does not mean zero."
+    },
+    {
+      "id": "V003",
+      "pages": [
+        7
+      ],
+      "name": "Pipeline min/max and wellhead pressures",
+      "unit": "bar/MPa",
+      "assumption": "86–150 bar band and 100 bar assumed wellhead; actual reservoir not determined. Flange/pump/network pressures are not geological maximum injection pressure."
+    },
+    {
+      "id": "V004",
+      "pages": [
+        7,
+        10,
+        11
+      ],
+      "name": "CO2 state temperature, phase and pressure basis",
+      "unit": "C; bar",
+      "assumption": "Native gauge/absolute basis not explicitly stated. Pure-EOS comparisons assume absolute pressure and no impurities; diagram states differ and rounding can span phases. No hydrate/solid validation."
+    },
+    {
+      "id": "V005",
+      "pages": [
+        8
+      ],
+      "name": "Q_m, L, D_i, rho_CO2, f, g, deltaz",
+      "unit": "kg/s, m, kg/m³, dimensionless, m/s²",
+      "assumption": "Literal Eq 1 needs native density/friction/route. Onshore elevation 0 and offshore minus 150 mwater-depth are source assumptions, not calibrated reservoir datum."
+    },
+    {
+      "id": "V006",
+      "pages": [
+        8,
+        10
+      ],
+      "name": "Grade, standard NPS and schedule",
+      "unit": "psi/MPa; in.; m; USD/ton",
+      "assumption": "Eight priced materials, eight sizes, 64 cases. Exact schedules/selection and metric-versus-short-ton pricing unverified. Higher strength alone does not establish minimum capital cost."
+    },
+    {
+      "id": "V007",
+      "pages": [
+        9
+      ],
+      "name": "m_train, N_train and compression ratios",
+      "unit": "kg/s; integer; dimensionless",
+      "assumption": "Parallelization above 40 MW needs native power. Five 2.36 ratios match rounded target; fixed train flow and fixed count are different scaling assumptions."
+    },
+    {
+      "id": "V008",
+      "pages": [
+        9
+      ],
+      "name": "W_p, Cpump, Cbooster",
+      "unit": "kW; USD",
+      "assumption": "Literal Eq 3/4 coefficients require kW-to-MW numerical conversion; no supplied actual station power or pumping duty."
+    },
+    {
+      "id": "V009",
+      "pages": [
+        9,
+        10
+      ],
+      "name": "Ws, rho_steel, t, D_o, D_i",
+      "unit": "kg; kg/m³; m",
+      "assumption": "Annular mass and minimum-wall relation checked with disclosed analyst geometry. Standard thickness rounding, corrosion/installation factors and native validation remain open. Eq6 prints D_0 while prose calls outer diameter Do."
+    },
+    {
+      "id": "V010",
+      "pages": [
+        10
+      ],
+      "name": "Pdesign, S, F, Lf, J, T",
+      "unit": "Pa; Pa; dimensionless",
+      "assumption": "Factors.8/.9/1/1 are design assumptions; mechanical/safety standard editions not independently validated. Tfactor is not CO2 temperature."
+    },
+    {
+      "id": "V011",
+      "pages": [
+        10,
+        11
+      ],
+      "name": "Ship count, speed, port/loading/unloading and injection window",
+      "unit": "count; knots; h; kg/s",
+      "assumption": "Three vessels 15 knots 20 h load/unload 2 h entry/exit with continuous injection need full schedule.2800 kg/s correspondence unsupported; 20 h direct-delivery bound is conditional."
+    },
+    {
+      "id": "V012",
+      "pages": [
+        11,
+        12
+      ],
+      "name": "Liquefaction CAPEX/OPEX ratios",
+      "unit": "dimensionless financial multipliers",
+      "assumption": "1.6/1.7 relative to compression are not electric/heat ratios and do not give native process duties or suppliers."
+    },
+    {
+      "id": "V013",
+      "pages": [
+        12
+      ],
+      "name": "Tank cost and manufacturing share",
+      "unit": "USD/m³; fraction; 1/y",
+      "assumption": "Approx 280 USD/m³; manufacturing 45% TOTAL, not 45% markup.5% annual O&M; actual volume/quote/native material basis unverified."
+    },
+    {
+      "id": "V014",
+      "pages": [
+        9,
+        10,
+        12
+      ],
+      "name": "Energy, fuel and maintenance prices",
+      "unit": "USD/kWh; USD/ton; 1/y",
+      "assumption": "Electricity.07, fuel 850, pipeline/compression 4% CAPEX, storage/carrier 5% CAPEX plus fuel. No source-specific GHG intensity or complete cost-vintage/inventory."
+    },
+    {
+      "id": "V015",
+      "pages": [
+        12,
+        13
+      ],
+      "name": "Hub buffer and handling",
+      "unit": "h; high-pressure pipe/tank stock",
+      "assumption": "2 hpipeline-buffer assumption, handling excluded. Ship-side inventories, timing, working capacity/quality and interruptions not verified."
+    },
+    {
+      "id": "V016",
+      "pages": [
+        13
+      ],
+      "name": "r, N, CRF and normalized cost",
+      "unit": "fraction; years; 1/y; USD/t",
+      "assumption": "5%, 20 y, .08 rounded; not 8% discount. Exact cashflow timing, availability and currency bases remain unresolved."
+    },
+    {
+      "id": "V017",
+      "pages": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "name": "Emitter/cost-share, hub benefit and comparison weights",
+      "unit": "USD/t; percent",
+      "assumption": "Conditioning 30–70% is financial share, not emissions share. Changing source location/flow and equipment boundaries matters; some percentages concern subsegments."
+    },
+    {
+      "id": "V018",
+      "pages": [
+        2,
+        3,
+        7,
+        18
+      ],
+      "name": "Resource, policy and future-capacity scope",
+      "unit": "Gt; calendar years; Mt/year",
+      "assumption": "5 Gt resource and 2017–2030 plans are not actual annual service. Future economies require demand/uncertainty evidence, not universal overbuilding or guaranteed climate benefit."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "pages": [
+        1,
+        18
+      ],
+      "claim": "Pipeline/ship cost is approximately 33/28 USD/t at 1 Mt/y and 21/23 at 3 Mt/y.",
+      "assessment": "Source-specific transport ranking on 530/724 km routes; approximate labels, no universal threshold or climate factor.",
+      "reference_ids": [
+        "D001",
+        "D002",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C002",
+      "pages": [
+        2
+      ],
+      "claim": "65 large CCS projects and Korean deployment targets motivate the study.",
+      "assessment": "Operating-or-planned 2013 inventory and 2017–2030 targets are historical, not current operating evidence.",
+      "reference_ids": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "D014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C003",
+      "pages": [
+        2
+      ],
+      "claim": "Capture costs exceed half of CCS costs and vary little by country.",
+      "assessment": "Reported ranges need exact technology, utility, currency and system-boundary matching; no global invariance or full capture inventory established.",
+      "reference_ids": [
+        "R005",
+        "R006",
+        "R007",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C004",
+      "pages": [
+        2,
+        3
+      ],
+      "claim": "Korean 10 MW_pilots and technology selection lead to future full-scale capture.",
+      "assessment": "Pilots/FID plans do not establish selected process, annual availability or actual native utilities.",
+      "reference_ids": [
+        "R008",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C005",
+      "pages": [
+        3
+      ],
+      "claim": "Ulleung has 5 Gt capacity and offshore is the appropriate storage option.",
+      "assessment": "Static source estimate and siting rationale require original geological evidence; no depth/pressure/well/injectivity dataset.",
+      "reference_ids": [
+        "R009",
+        "D009"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C006",
+      "pages": [
+        3
+      ],
+      "claim": "Recent transport work[11–14]starts above 100 bar and omits initial conditioning.",
+      "assessment": "Exact R013/B3-36 starts both chains at atmospheric 1 bar and includes conditioning. Qualification required; other editions and original claims remain open.",
+      "reference_ids": [
+        "R011",
+        "R012",
+        "R013",
+        "R014",
+        "D013"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C007",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Three scenarios span one-source, two-source and hub transport.",
+      "assessment": "All diagrams/rates read. Candidate options are restricted scenarios, not proof of a global source-sink or infrastructure optimum.",
+      "reference_ids": [
+        "D001",
+        "D002"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C008",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Boryeong coastal pipeline avoids mountains and Hadong shares the same route.",
+      "assessment": "Fixed routing assumption with table distances; exact GIS, terrain, rights and route optimization unverified.",
+      "reference_ids": [
+        "D002"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C009",
+      "pages": [
+        6,
+        7
+      ],
+      "claim": "The cost boundary includes compression/liquefaction and transport-related pumping.",
+      "assessment": "Capture/storage excluded. Injection-pumping labels do not mean storage costs or observed physical injection are included.",
+      "reference_ids": [
+        "D001",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C010",
+      "pages": [
+        7
+      ],
+      "claim": "86–150 bar avoids abrupt compressibility and satisfies 900#flange constraints.",
+      "assessment": "Transport-design assumptions and cited standards need exact originals. Not reservoir pressure limits or proof of mixture/equipment safety.",
+      "reference_ids": [
+        "R010",
+        "R015",
+        "R016",
+        "N001",
+        "D003"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C011",
+      "pages": [
+        7
+      ],
+      "claim": "100 bar wellhead and 28 Cburied-pipeline temperatures support the design.",
+      "assessment": "Wellhead explicitly assumed because site conditions undetermined; summer-temperature datum and pure/mixed phase correspondence unverified.",
+      "reference_ids": [
+        "R017",
+        "D003",
+        "D009"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C012",
+      "pages": [
+        8
+      ],
+      "claim": "Eight materials/eight sizes yield least-cost pipe design over 64 cases.",
+      "assessment": "Eight priced grades plusX 90 N/A consistent with 64. Native size/schedule/friction/property/cost choices and previous optimization not reproduced.",
+      "reference_ids": [
+        "R018",
+        "R019",
+        "R020",
+        "R021",
+        "R022",
+        "N002",
+        "D004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C013",
+      "pages": [
+        8
+      ],
+      "claim": "Eq 1 determines pressure difference and booster requirements.",
+      "assessment": "Dimensionally interpretable constant-property relation; actual f/rho/route and friction convention unresolved. Minus 150 mseabed elevation is not reservoir-depth evidence.",
+      "reference_ids": [
+        "R019",
+        "D003",
+        "D004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C014",
+      "pages": [
+        9
+      ],
+      "claim": "Five compressor stages with 2.36 ratio reach critical pressure.",
+      "assessment": "2.36380 required ratio rounds to 2.36. Pressure alone does not guarantee liquid state; native compressor/pump correspondence at 73.8 bar 40 Cunverified.",
+      "reference_ids": [
+        "R023",
+        "D003"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C015",
+      "pages": [
+        9,
+        12,
+        14
+      ],
+      "claim": "Compression has no economies of scale because parallel trains are used.",
+      "assessment": "Conditional on fixed per-train flow and train scaling. Literal Eq 2 is sublinear in train flow at fixed count; 40 MW assignment and native powers missing.",
+      "reference_ids": [
+        "R024",
+        "R025",
+        "D005"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C016",
+      "pages": [
+        9
+      ],
+      "claim": "Eqs 3/4 estimate pump and booster capital and 4% maintenance.",
+      "assessment": "Coefficients require kWnumerical scale; no native power or total station count. Literal examples are not equipment validation.",
+      "reference_ids": [
+        "R025",
+        "D005"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C017",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Parker costs are suitable for Korean CO2 pipeline transport.",
+      "assessment": "Natural-gas analogy and cited improved-model validation need exact original support and cost vintage; nonmaterial coefficients not fully supplied.",
+      "reference_ids": [
+        "R018",
+        "R023",
+        "R026",
+        "R027",
+        "D006"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C018",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Steel weight and minimum-wall equations select optimum material/thickness.",
+      "assessment": "Annular identity checks; minimum-wall factors do not reproduce schedule rounding, corrosion/installation conditions or total 64 design optimization.",
+      "reference_ids": [
+        "R028",
+        "N002",
+        "D004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C019",
+      "pages": [
+        10
+      ],
+      "claim": "7 bar/-50 Ccargo and closed propane/ethane liquefaction are economical.",
+      "assessment": "Case selection, not universal optimum. Native refrigerant flows, EoS, cycles, duties and availability assumptions absent; pure-fluid states do not validate full process.",
+      "reference_ids": [
+        "R029",
+        "R030",
+        "R031",
+        "D007"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C020",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Figure 4 represents the liquefaction scheme used for the transport case.",
+      "assessment": "Drawing gives 1 bar 25°C feed and 6 bar/-53°C product versus main 1 bar 35°C/7 bar/-50°C. Correspondence unresolved; rounded labels can span saturation, no guessed replacement states.",
+      "reference_ids": [
+        "D003",
+        "D007"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C021",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Cylindrical vessels meet ASME and IGC codes.",
+      "assessment": "Chosen design basis and cheaper/easier fabrication rationale need exact code/edition and native design; no present approval established.",
+      "reference_ids": [
+        "R032",
+        "R033",
+        "N002",
+        "D011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C022",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "15 knot speed and 20 h load/unload, 2 h port times allow optimized three ships.",
+      "assessment": "Fixed fleet and native referenced schedule remain unverified. No weather, maintenance, concurrent operations or actual payload data supplied here.",
+      "reference_ids": [
+        "R034",
+        "D008"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C023",
+      "pages": [
+        11
+      ],
+      "claim": "Approximately 2800 kg/s corresponds to 1 Mt/year continuous injection.",
+      "assessment": "365 day conversion gives 88.3008 Mt/year; 1 Mt/year is 31.70979 kg/s. Preserve literal rate; no corrected unit or batch schedule inferred.",
+      "reference_ids": [
+        "R034",
+        "D008",
+        "D009"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C024",
+      "pages": [
+        11
+      ],
+      "claim": "Three ships provide continuous direct injection.",
+      "assessment": "If 20 h unloading is the direct-delivery window, 724 km roundtrip 96.12383 h allows≤62.42% coverage with three windows. Native control/buffer/longer injection could change interpretation; conditional bound is not full native infeasibility proof or a five-vessel design.",
+      "reference_ids": [
+        "R034",
+        "D008"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C025",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Pumping/heating to 100 bar 10°C avoids hydrate/freezing problems.",
+      "assessment": "Exact R035 supports need for heating but uses different 200–300 bar/15–20°C or platform 10–20°C routes. Neither pure EOS nor that original validates universal 100 bar 10°C or actual hydrate conditions.",
+      "reference_ids": [
+        "R035",
+        "R036",
+        "D003",
+        "D009"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C026",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "HYSYS delivered-equipment evaluation supplies liquefaction costs.",
+      "assessment": "Underlying process/economic files, installation factors, cooling/heat/electricity and full output correspondence missing.",
+      "reference_ids": [
+        "R037",
+        "R038",
+        "R039",
+        "R040",
+        "D007",
+        "D011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C027",
+      "pages": [
+        12
+      ],
+      "claim": "Liquefaction capital/OPEX are 1.6/1.7 times compression.",
+      "assessment": "Explicit financial proxy supported by cited comparison range, not heat/power ratios or complete native HYSYS results. Cannot infer energy from aggregate OPEX.",
+      "reference_ids": [
+        "R041",
+        "D005",
+        "D007",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C028",
+      "pages": [
+        12
+      ],
+      "claim": "Storage costs about 280 USD/m³ with 45% manufacturing and 5% annual O&M.",
+      "assessment": "Manufacturing 45% of total implies 55% material; not 45% markup. Native volume, material quotes, vessel formula and currency basis still unverified.",
+      "reference_ids": [
+        "R042",
+        "R043",
+        "D006",
+        "D011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C029",
+      "pages": [
+        12
+      ],
+      "claim": "An oil-tanker hull/fuel analogy and Clarkson prices estimate CO2 carrier cost.",
+      "assessment": "Payload/density, ship/cargo designs, year/ton basis and actual fuel-rate data need native evidence.850 USD/ton fuel is a price, not a GHG factor.",
+      "reference_ids": [
+        "R044",
+        "R043",
+        "D006",
+        "D008",
+        "D010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C030",
+      "pages": [
+        12,
+        13
+      ],
+      "claim": "A hub needs tanks/pressurization and a 2 hpipeline buffer.",
+      "assessment": "Handling excluded; 2 h buffer in parallel pipes is a design assumption, not ship-side receiving capacity or demonstrated uninterrupted annual service.",
+      "reference_ids": [
+        "D008",
+        "D011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C031",
+      "pages": [
+        13
+      ],
+      "claim": "CRF 0.08 with 20 y/5% normalizes transport costs.",
+      "assessment": "Conventional CRF.08024259 rounds to.08; not 8% discount. Actual annualization timing, currency/availability and full capital basis still missing.",
+      "reference_ids": [
+        "D001",
+        "D006"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C032",
+      "pages": [
+        13,
+        14,
+        15
+      ],
+      "claim": "Scenario 1 pipeline/carrier scale benefits lower transport unit costs.",
+      "assessment": "Reported pipe 33→21 andship 28→23 give 36.36/17.86% approximate savings. Conditioning/train scaling is conditional; plot costs not lifecycle emissions.",
+      "reference_ids": [
+        "D001",
+        "D005",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C033",
+      "pages": [
+        14
+      ],
+      "claim": "3 Mt/y onshore/offshore costs are about twice 1 Mt/y costs.",
+      "assessment": "Literal wording has unclear per-tonne versus total-cost basis while plotted unit costs decline. No silent replacement with half, or a guessed total-cost interpretation.",
+      "reference_ids": [
+        "D012",
+        "D013"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C034",
+      "pages": [
+        15
+      ],
+      "claim": "Conditioning 30–70% share and 7 USD/tpremium can reverse mode choice.",
+      "assessment": "Financial boundary matters; conditioning-inclusive comparison already appears in R013. Approximate 7 USD/t cannot be converted into native power/heat without cost breakdown.",
+      "reference_ids": [
+        "R013",
+        "D007",
+        "D010",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C035",
+      "pages": [
+        15,
+        16
+      ],
+      "claim": "Additional Hadong flow reduces upstream pipe cost but duplicates conditioning.",
+      "assessment": "280/530≈53% route fraction and approximate section/whole-cost percentages have different denominators. Equal-total cases retain different spatial source distributions.",
+      "reference_ids": [
+        "R045",
+        "D001",
+        "D002",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C036",
+      "pages": [
+        16
+      ],
+      "claim": "Scenario 2 ship distance is 877 km, 22% longer than 724 km.",
+      "assessment": "Table legs 617+270=887 km→22.51%; prose 877→21.13%. Preserve both routes and 22% quote; rounding/exact basis unknown.",
+      "reference_ids": [
+        "D002",
+        "D013"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C037",
+      "pages": [
+        16
+      ],
+      "claim": "Two-source shipping costs more than the same-total single source.",
+      "assessment": "Duplicated conditioning and longer route are case drivers; carrier 7.5 versus 5 USD/t is a component comparison, not full-chain or GHG difference.",
+      "reference_ids": [
+        "D001",
+        "D002",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C038",
+      "pages": [
+        16,
+        17
+      ],
+      "claim": "Hub pipeline around 28 USD/t is least costly among three Scenario 3 modes.",
+      "assessment": "Small plotted differences without full uncertainty/native arrays; conditional cost ranking, not universal hub technology or physical reliability conclusion.",
+      "reference_ids": [
+        "D001",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C039",
+      "pages": [
+        17
+      ],
+      "claim": "Single-source B 2/S 2 cases are cheaper than two-source B 1+S 1 hub.",
+      "assessment": "Same total mass but different source geography and number of conditioners; not isolated causal effect of the hub.",
+      "reference_ids": [
+        "D002",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C040",
+      "pages": [
+        17
+      ],
+      "claim": "A marginal additional B 1 route can use four hub/no-hub choices.",
+      "assessment": "Matched two 1 Mt source averages are valid at equal flows. Separate source costs must be mass-weighted for unequal flows; native schedule and existing-asset costs still need reconstruction.",
+      "reference_ids": [
+        "D001",
+        "D008",
+        "D012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C041",
+      "pages": [
+        17,
+        18
+      ],
+      "claim": "Few sources and a short 60 km shared trunk make the hub uneconomic.",
+      "assessment": "Conditional to geography and compared cases. Paper also finds small shared-pipe savings versus matched separate routes and a handling-complexity tradeoff; not all hubs are uneconomic.",
+      "reference_ids": [
+        "D001",
+        "D002",
+        "D011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C042",
+      "pages": [
+        18
+      ],
+      "claim": "Transport can exceed 20% of total CCS costs and should be separated from storage.",
+      "assessment": "Cost-boundary recommendation is reasonable context; capture/storage excluded here, so universal full-chain share is not independently demonstrated.",
+      "reference_ids": [
+        "D001",
+        "D010"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C043",
+      "pages": [
+        18
+      ],
+      "claim": "Build higher-capacity systems to accommodate future transport.",
+      "assessment": "Recommendation based on scale effects; actual demand, time, discount, stranding, availability and resource limits require independent dynamic analysis.",
+      "reference_ids": [
+        "D001",
+        "D008",
+        "D014"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C044",
+      "pages": [
+        18,
+        21
+      ],
+      "claim": "Funding, author contributions and open access support transparency.",
+      "assessment": "Declarations read, not independent validation. CC BY 4.0 article does not provide or license absent commercial cost models/software.",
+      "reference_ids": [
+        "R037",
+        "R044",
+        "D011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C045",
+      "pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "claim": "The bibliography and prior author papers establish model support.",
+      "assessment": "45 direct entries retained; only R013 andR035 have scoped original checks. Other originals and entire cited model chains remain unverified.",
+      "reference_ids": [
+        "R020",
+        "R030",
+        "R031",
+        "R034",
+        "R040",
+        "D013"
+      ],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C046",
+      "pages": [
+        3,
+        7,
+        11,
+        12,
+        18
+      ],
+      "claim": "This case can supply pressure-constrained annual storage or complete capture utilities.",
+      "assessment": "Audit implication: it cannot close those requirements. Static 5 Gt, assumed 100 bar, the disputed 2800 kg/sandfinancial ratios are excluded as native operating/retention/GHG inputs.",
+      "reference_ids": [
+        "D009",
+        "D010"
+      ],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C047",
+      "pages": [
+        3,
+        6,
+        7,
+        13,
+        18
+      ],
+      "claim": "Paper 1 should recognize existing conditioning-inclusive and source-specific transport comparison.",
+      "assessment": "Use as prior-art context with boundaries, route and schedule qualifications. No new accepted numerical inputs or source repairs; existing B2-12 HOLD preserved.",
+      "reference_ids": [
+        "R013",
+        "R035",
+        "D009",
+        "D010",
+        "D013"
+      ],
+      "kind": "audit_scope_implication"
+    }
+  ],
+  "references": [
+    {
+      "id": "R001",
+      "pages": [
+        18
+      ],
+      "citation": "Global CCS Institute. The Global Status of CCS: 2013; Global CCS Institute: Melbourne, Australia, 2013.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        18
+      ],
+      "citation": "International Energy Agency. CO2 Emissions from Fuel Combustion—Highlights; IEA Statistics: Paris, France, 2012.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        18
+      ],
+      "citation": "United Nations Environment Programme. Overview of the Republic of Korea’s Green Growth National Vision—Greenjobs Ap; UNEP: Geneva, Switzerland, 2009.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        19
+      ],
+      "citation": "Presidential Committee on Green Growth. Korea CCS master plan. In Proceedings of the 8th Presidential Committee on Green Growth, Seoul, Korea, 13 July 2010.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        19
+      ],
+      "citation": "Finkenrath, M. Cost and Performance of Carbon Dioxide Capture from Power Generation; International Energy Agency: Paris, France, 2011.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        19
+      ],
+      "citation": "Parsons, W. Economic Assessment of Carbon Capture and Storage Technologies: 2011 Update; Global CCS Institute: Canberra, Australia, 2011",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        19
+      ],
+      "citation": "Zero Emission Platform. The Costs of CO2 Capture: Post-Demonstration CCS in the EU; Zero Emission Platform: Brussel, Belgium, 2011.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        19
+      ],
+      "citation": "Park, Y.C.; Jo, S.-H.; Kyung, D.-H.; Kim, J.-Y.; Yi, C.-K.; Ryu, C.K.; Shin, M.S. Test operation results of the 10 mwe-scale dry-sorbent CO2 capture process integrated with a real coal-fired power plant in korea. Energy Procedia 2014, 63, 2261–2265.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        19
+      ],
+      "citation": "Kim, Y.-L.; Lee, K.-S.; Jo, S.-H.; Kim, M.-J.; Kim, J.-S.; Park, M.-H. A preliminary evaluation on CO2 storage capacity of the southwestern part of Ulleung basin, offshore, east sea. Econ. Environ. Geol. 2012, 45, 41–48.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        19
+      ],
+      "citation": "Intergovernmental Panel on Climate Change. IPCC Special Report on Carbon Dioxide Capture and Storage; Cambrige University Press: Cambrige, UK, 2005.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        19
+      ],
+      "citation": "Yoo, B.-Y.; Choi, D.-K.; Kim, H.-J.; Moon, Y.-S.; Na, H.-S.; Lee, S.-G. Development of CO2 terminal and CO2 carrier for future commercialized CCS market. Int. J. Greenh. Gas Control 2013, 12, 323–332.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        19
+      ],
+      "citation": "Roussanaly, S.; Jakobsen, J.P.; Hognes, E.H.; Brunsvold, A.L. Benchmarking of CO2 transport technologies: Part I—Onshore pipeline and shipping between two onshore areas. Int. J. Greenh. Gas Control 2013, 19, 584–594.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        19
+      ],
+      "citation": "Roussanaly, S.; Brunsvold, A.L.; Hognes, E.S. Benchmarking of CO2 transport technologies: Part II—Offshore pipeline and shipping to an offshore site. Int. J. Greenh. Gas Control 2014, 28, 283–299.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "primary_text_checked_scoped_not_full_original",
+      "claim_links": [
+        "C006",
+        "C034",
+        "C047"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R013",
+      "primary_check_record": "evidence/comprehensive_review_inputs/B3-07_citation_checks.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        19
+      ],
+      "citation": "Zero Emission Platform. The Costs of CO2 Transport; Zero Emission Platform: Brussel, Belgium, 2011.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        19
+      ],
+      "citation": "McCoy, S.T.; Rubin, E.S. An engineering-economic model of pipeline transport of CO2 with application to carbon capture and storage. Int. J. Greenh. Gas Control 2008, 2, 219–229.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        19
+      ],
+      "citation": "Recht, D.L. Design considerations for carbon dioxide pipe lines. Pipe Line Ind. 1984, 61, 38–39.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        19
+      ],
+      "citation": "Korea meteorological administration. Available online: http://web.kma.go.kr/eng/index.jsp (accessed on 5 March 2015).",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        19
+      ],
+      "citation": "Knoope, M.M.J.; Ramírez, A.; Faaij, A.P.C. A state-of-the-art review of techno-economic models predicting the costs of CO2 pipeline transport. Int. J. Greenh. Gas Control 2013, 16, 241–270.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012",
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        19
+      ],
+      "citation": "Vandeginste, V.; Piessens, K. Pipeline design for a least-cost router application for CO2 transport in the CO2 sequestration cycle. Int. J. Greenh. Gas Control 2008, 2, 571–581.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012",
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        19
+      ],
+      "citation": "Kang, K.; Huh, C.; Kang, S.-G.; Baek, J.-H.; Noh, H.J. Estimation of CO2 pipeline transport cost in south korea based on the scenarios. Energy Procedia 2014, 63, 2475–2480.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012",
+        "C045"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        19
+      ],
+      "citation": "Himesh steel. Available online: http://www.himeshsteel.com (accessed on 5 March 2015).",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        19
+      ],
+      "citation": "Trident steel. Available online: http://www.tridentsteel.co.in (accessed on 5 March 2015).",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        19
+      ],
+      "citation": "McCollum, D.L.; Ogden, J.M. Techno-Economic Models for Carbon Dioxide Compression, Transport, and Storage & Correlations for Estimating Carbon Dioxide Density and Viscosity; University of California, Davis: Davis, CA, USA, 2006.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014",
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        20
+      ],
+      "citation": "Hendriks, C.; Graus, W.; van Bergen, F. Global Carbon Dioxide Storage Potential and Costs; Ecofys: Utrecht, The Netherland, 2004.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C015"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        20
+      ],
+      "citation": "IEA Greenhouse Gas R&D Programme. Transmission of CO2 and Energy; International Energy Agency: Cheltenham, UK, 2002.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C015",
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        20
+      ],
+      "citation": "Parker, N. Using Natural Gas Transmission Pipeline Costs to Estimate Hydrogen Pipeline Costs; University of California, Davis: Davis, CA, USA, 2004.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        20
+      ],
+      "citation": "Knoope, M.M.J.; Guijt, W.; Ramírez, A.; Faaij, A.P.C. Improved cost models for optimizing CO2 pipeline configuration for point-to-point pipelines and simple networks. Int. J. Greenh. Gas Control 2014, 22, 25–46.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        20
+      ],
+      "citation": "Mohitpour, M.; Golshan, H.; Murray, M.A. Pipeline Design and Construction: A Practical Approach; American Society of Mechanical Engineers: New York, NY, USA, 2003; p. 688.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        20
+      ],
+      "citation": "Alabdulkarem, A.; Hwang, Y.; Radermacher, R. Development of CO2 liquefaction cycles for CO2 sequestration. Appl. Therm. Eng. 2012, 33–34, 144–156.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        20
+      ],
+      "citation": "Seo, Y.; Chang, D. Optimization of ship-based CCS. In Proceedings of the OCEANS, 2012—Yeosu, Yeosu, Korea, 21–24 May 2012; pp. 1–9.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019",
+        "C045"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R030"
+    },
+    {
+      "id": "R031",
+      "pages": [
+        20
+      ],
+      "citation": "Seo, Y.; You, H.; Lee, S.; Huh, C.; Chang, D. Evaluation of CO2 liquefaction processes for ship-based carbon capture and storage (CCS) in terms of life cycle cost (LCC) considering availability. Int. J. Greenh. Gas Control 2015, 35, 1–12.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019",
+        "C045"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R031"
+    },
+    {
+      "id": "R032",
+      "pages": [
+        20
+      ],
+      "citation": "American Society of Mechanical Engineers. ASME Boiler and Pressure Vessel Code, Section viii, Division 1: Rules for Construction of Pressure Vessels; American Society of Mechanical Engineers: New York, NY, USA, 2010.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C021"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R032"
+    },
+    {
+      "id": "R033",
+      "pages": [
+        20
+      ],
+      "citation": "International Maritime Organization. International Code for the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk: IGC Code; IMO Publishing: London, UK, 2000; p. 212.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C021"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R033"
+    },
+    {
+      "id": "R034",
+      "pages": [
+        20
+      ],
+      "citation": "Seo, Y.; Chang, D.; Jung, J.-Y.; Huh, C.; Kang, S.-G. Economic evaluation of ship-based CCS with availability. Energy Procedia 2013, 37, 2511–2518.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C023",
+        "C024",
+        "C045"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R034"
+    },
+    {
+      "id": "R035",
+      "pages": [
+        20
+      ],
+      "citation": "Aspelund, A.; Mølnvik, M.J.; de Koeijer, G. Ship transport of CO2: Technical solutions and analysis of costs, energy utilization, exergy efficiency and CO2 emissions. Chem. Eng. Res. Des. 2006, 84, 847–855.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "primary_text_checked_scoped_not_full_original",
+      "claim_links": [
+        "C025",
+        "C047"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R035",
+      "primary_check_record": "evidence/comprehensive_review_inputs/B3-07_citation_checks.json#R035"
+    },
+    {
+      "id": "R036",
+      "pages": [
+        20
+      ],
+      "citation": "Vermeulen, T.N. CO2 Liquid Logistics Shipping Concept (LLSC) Overall Supply Chain Optimization; Global CCS Institute: Canberra, Australia, 2011.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R036"
+    },
+    {
+      "id": "R037",
+      "pages": [
+        20
+      ],
+      "citation": "Aspen Hysys. Available online: http://www.aspentech.com/ (accessed on 5 March 2015).",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R037"
+    },
+    {
+      "id": "R038",
+      "pages": [
+        20
+      ],
+      "citation": "Peters, M.S.; West, R.E. Plant Design and Economics for Chemical Engineers; McGraw-Hill: New York, NY, USA, 2003.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R038"
+    },
+    {
+      "id": "R039",
+      "pages": [
+        20
+      ],
+      "citation": "Jung, J.-Y.; Huh, C.; Kang, S.-G.; Seo, Y.; Chang, D. CO2 transport strategy and its cost estimation for the offshore CCS in Korea. Appl. Energ. 2013, 111, 1054–1060.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R039"
+    },
+    {
+      "id": "R040",
+      "pages": [
+        20
+      ],
+      "citation": "Seo, Y.; Huh, C.; Chang, D. Economic evaluation of CO2 liquefaction processes for ship-based carbon capture and storage (CCS) chain. In Proceedings of the International Ocean and Polar Engineering Conference, Busan, Korea, 15–20 June 2014; p. 580.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026",
+        "C045"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R040"
+    },
+    {
+      "id": "R041",
+      "pages": [
+        20
+      ],
+      "citation": "Yang, S.; Lee, U.; Jeong, Y.S.; Kim, J.; Lee, C.; Han, C. Process design and cost estimation of carbon dioxide compression and liquefaction for transportation. Korean Chem. Eng. Res. 2012, 50, 988–993.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C027"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R041"
+    },
+    {
+      "id": "R042",
+      "pages": [
+        21
+      ],
+      "citation": "Megyesy, E.F.; Buthod, P. Pressure Vessel Handbook; Pressure Vessel Publishing: Tulas, OK, USA, 2008.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C028"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R042"
+    },
+    {
+      "id": "R043",
+      "pages": [
+        21
+      ],
+      "citation": "IEA Greenhouse Gas R&D Programme. Ship Transport of CO2; International Energy Agency: Cheltenham, UK, 2004.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C028",
+        "C029"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R043"
+    },
+    {
+      "id": "R044",
+      "pages": [
+        21
+      ],
+      "citation": "Clarksons shipping intelligence network. Available online: http://www.clarksons.net/sin2010/ (accessed on 5 March 2015).",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C029",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R044"
+    },
+    {
+      "id": "R045",
+      "pages": [
+        21
+      ],
+      "citation": "Chandel, M.K.; Pratson, L.F.; Williams, E. Potential economies of scale in CO2 transport through use of a trunk pipeline. Energy Convers. Manag. 2010, 51, 2825–2834.",
+      "role": "Direct numbered bibliography. Claim links identify native attribution or an explicit audit-support question; original identity/support is verified only within the separate scoped check where present.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C035"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-07_bibliography.json#R045"
+    },
+    {
+      "id": "N001",
+      "pages": [
+        7
+      ],
+      "citation": "ASME-ANSI900#flange allowable-pressure basis",
+      "role": "Named mechanical standard without exact edition/clause/temperature/material correspondence. R015 context does not replace original code verification.",
+      "verification_status": "unverified_named_authority",
+      "claim_links": [
+        "C010"
+      ]
+    },
+    {
+      "id": "N002",
+      "pages": [
+        8,
+        10
+      ],
+      "citation": "API 5 X/5 LX carbon-steel grades, standard NPS and available thickness schedules",
+      "role": "Native spelling variants retained. Exact standards/edition/schedule table and permitted materials/pressures not supplied or verified.",
+      "verification_status": "unverified_named_authority",
+      "claim_links": [
+        "C012",
+        "C018",
+        "C021"
+      ]
+    },
+    {
+      "id": "D001",
+      "pages": [
+        4,
+        6,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "citation": "Native integrated financial case and annualization",
+      "role": "Need case-specific capital/OPEX arrays, annual transported mass, utilization, currency/timing and native optimized outputs; not just quoted unit costs.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C001",
+        "C007",
+        "C009",
+        "C031",
+        "C032",
+        "C035",
+        "C037",
+        "C038",
+        "C040",
+        "C041",
+        "C042",
+        "C043"
+      ]
+    },
+    {
+      "id": "D002",
+      "pages": [
+        3,
+        5,
+        6,
+        16,
+        17
+      ],
+      "citation": "Native geographic routes and distance provenance",
+      "role": "Need actual GIS, rights/terrain and 877/887 km correspondence; source/geography changes must be held explicit in comparisons.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C001",
+        "C007",
+        "C008",
+        "C035",
+        "C036",
+        "C037",
+        "C039",
+        "C041"
+      ]
+    },
+    {
+      "id": "D003",
+      "pages": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "citation": "Fluid, pressure/temperature basis and mechanical/phase correspondence",
+      "role": "Need absolute/gauge basis, purity/EOS, friction/density, hydrate/solid/thermal and pump/riser constraints; pure-fluid examples are partial diagnostics.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C010",
+        "C011",
+        "C013",
+        "C014",
+        "C020",
+        "C025"
+      ]
+    },
+    {
+      "id": "D004",
+      "pages": [
+        8,
+        9,
+        10
+      ],
+      "citation": "Native 64 pipeline candidate enumeration and schedules",
+      "role": "Need eight actual diameter choices, thickness schedules, grade costs, friction/pressure/booster rules and selected optimal cases.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C012",
+        "C013",
+        "C018"
+      ]
+    },
+    {
+      "id": "D005",
+      "pages": [
+        9,
+        12,
+        14,
+        15
+      ],
+      "citation": "Compressor/pump/booster powers, trains and scale rules",
+      "role": "Need actual power/efficiency, 40 MW split and per-case flows. No fixed train assignment or complete power inventory inferred.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C015",
+        "C016",
+        "C027",
+        "C032"
+      ]
+    },
+    {
+      "id": "D006",
+      "pages": [
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "citation": "Original cost coefficients, currency vintage and price units",
+      "role": "Need Parker nonmaterial factors, steel/fuelton basis, internet quotes, Clarkson edition and all annual O&M/installation/capital sources.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C017",
+        "C028",
+        "C029",
+        "C031"
+      ]
+    },
+    {
+      "id": "D007",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "citation": "Native HYSYS liquefaction/reconditioning cases and complete duties",
+      "role": "Need cycle/stream/recycle/component specifications, EoS, heat/cooling/electricity and equipment cost/version outputs; 1.6/1.7 financial ratios are insufficient.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C019",
+        "C020",
+        "C026",
+        "C027",
+        "C034"
+      ]
+    },
+    {
+      "id": "D008",
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        17
+      ],
+      "citation": "Native ship payload, availability and full scheduling model",
+      "role": "Need R034 implementation, loading/direct-injection durations, fleet chronology, port stops, weather/maintenance/backup and buffer/control. Conditional duty bound not native reproduction.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C022",
+        "C023",
+        "C024",
+        "C029",
+        "C030",
+        "C040",
+        "C043"
+      ]
+    },
+    {
+      "id": "D009",
+      "pages": [
+        3,
+        7,
+        8,
+        11
+      ],
+      "citation": "Native Ulleung pressure-constrained annual injection dataset",
+      "role": "Need timestamps, rate/BHP/temperature, units/datum, well/completion geometry, shut-ins/limits and reservoir boundary.5 Gt/assumed 100 bar/disputed 2800 kg/s do not supply it.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C005",
+        "C011",
+        "C023",
+        "C025",
+        "C046",
+        "C047"
+      ]
+    },
+    {
+      "id": "D010",
+      "pages": [
+        2,
+        6,
+        7,
+        11,
+        12,
+        18
+      ],
+      "citation": "Complete matched capture-to-ship utilities and lifecycle boundaries",
+      "role": "Need capture heat/auxiliary electricity, compression/liquefaction/cooling/suppliers, upstream/transport/storage losses, counterfactual and retention; cost shares are not GHG factors.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C003",
+        "C004",
+        "C009",
+        "C027",
+        "C029",
+        "C034",
+        "C042",
+        "C046",
+        "C047"
+      ]
+    },
+    {
+      "id": "D011",
+      "pages": [
+        10,
+        11,
+        12,
+        13,
+        18,
+        21
+      ],
+      "citation": "Native tank/hub design, handling, code/data/SI versions and rights",
+      "role": "Need available volume/pressure cycles, codes, commercial software/data permissions and exact model assets. No supplied SI is not evidence of public-web absence.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C021",
+        "C026",
+        "C028",
+        "C030",
+        "C041",
+        "C044"
+      ]
+    },
+    {
+      "id": "D012",
+      "pages": [
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "citation": "Native plot arrays, denominators and comparison definitions",
+      "role": "Need exact cost arrays and uncertainty, twice-cost wording, section/whole metrics and geography-matched marginal baselines; do not present digitized heights as exact outputs.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C001",
+        "C032",
+        "C033",
+        "C034",
+        "C035",
+        "C037",
+        "C038",
+        "C039",
+        "C040"
+      ]
+    },
+    {
+      "id": "D013",
+      "pages": [
+        3,
+        8,
+        9,
+        11,
+        12,
+        16,
+        18,
+        19,
+        20,
+        21
+      ],
+      "citation": "Exact bibliography passage checks and author clarifications",
+      "role": "Need all other 43 direct originals, two named standards and deeper dependencies. Preserve scoped R013 conditioning conflict, R035 different heating regime, 2800 rate and 877/887 route without guessed repairs.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C006",
+        "C033",
+        "C036",
+        "C045",
+        "C047"
+      ]
+    },
+    {
+      "id": "D014",
+      "pages": [
+        2,
+        3,
+        17,
+        18
+      ],
+      "citation": "Historical project/policy versions and future-demand cases",
+      "role": "Need verified operating status, technology selection, demand/stranding/time/risk assumptions; historical plans and capacity recommendations are not actual annual service.",
+      "verification_status": "unverified_dependency",
+      "claim_links": [
+        "C002",
+        "C043"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "I001",
+      "pages": [
+        11
+      ],
+      "status": "open",
+      "finding": "Printed 2800 kg/s is equated with 1 Mt/year continuous injection.",
+      "action": "Preserve native value; 365 day diagnostic gives 88.3008 Mt/year. No alternative unit or corrected design rate accepted."
+    },
+    {
+      "id": "I002",
+      "pages": [
+        6,
+        16
+      ],
+      "status": "open",
+      "finding": "Table 2 shipping legs sum 887 km while prose says 877 km and 22% extension.",
+      "action": "Keep table/prose separate; neither native route nor percentage silently repaired. Need exact GIS/basis."
+    },
+    {
+      "id": "I003",
+      "pages": [
+        7,
+        11
+      ],
+      "status": "open",
+      "finding": "Main scheme and liquefaction PFD state labels differ.",
+      "action": "Keep feed 35 versus 25°C andcargo 7 bar/-50°C versus 6 bar/-53°C. Pure absolute-pressure rounding illustration does not verify native process or identify a definitive phase error."
+    },
+    {
+      "id": "I004",
+      "pages": [
+        3,
+        7,
+        8,
+        11
+      ],
+      "status": "open",
+      "finding": "Static 5 Gt and assumed 100 bar wellhead do not provide native pressure-constrained annual service.",
+      "action": "Exclude rate/retention/field-calibration inference from these values. Need original geology, paired operating histories and well/pressure limits."
+    },
+    {
+      "id": "I005",
+      "pages": [
+        3,
+        19
+      ],
+      "status": "open",
+      "finding": "R013 is inaccurately grouped with studies starting above 100 bar.",
+      "action": "Exact original starts both chains at 1 bar with conditioning. Preserve qualified attribution; its excluded dehydration and different cases do not give full capture inventory."
+    },
+    {
+      "id": "I006",
+      "pages": [
+        11,
+        12,
+        20
+      ],
+      "status": "open",
+      "finding": "R035 supports heating but not the assumed 100 bar 10°C or continuous fleet.",
+      "action": "Retain source-specific alternatives 200–300 bar/15–20°C, waste-heat route and batch injection. Do not transfer its energy/GHG numbers or certify Korean conditions."
+    },
+    {
+      "id": "I007",
+      "pages": [
+        10,
+        11
+      ],
+      "status": "open",
+      "finding": "Three ships and 20 hhandling do not establish continuous direct well delivery.",
+      "action": "Keep conditional 62.42% coverage bound for 724 km and 20 h direct windows. Different native injection duration/control/buffering may change it; no five-ship actual design claimed."
+    },
+    {
+      "id": "I008",
+      "pages": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "status": "open",
+      "finding": "Native pipeline hydraulics, standard schedules and 64 candidate optimization unavailable.",
+      "action": "Retain constant-property/synthetic geometry checks separately. Flange MAOP and material equations are not complete code compliance or reservoir service."
+    },
+    {
+      "id": "I009",
+      "pages": [
+        9,
+        12,
+        14
+      ],
+      "status": "open",
+      "finding": "Compression no-scale claim depends on per-train flow/count assumptions.",
+      "action": "Fixed-count Eq 2 sublinear terms differ from fixed-flow train multiplication. Need native powers and 40 MW allocation; do not infer a full energy balance."
+    },
+    {
+      "id": "I010",
+      "pages": [
+        8,
+        9,
+        10,
+        12,
+        13
+      ],
+      "status": "open",
+      "finding": "Cost vintages, ton basis and commercial cost/installation inputs unverified.",
+      "action": "Keep 2015 internet quotes, older correlations, 4%/5% O&M and prices in source context. No current transferable financial benchmark or GHG factor."
+    },
+    {
+      "id": "I011",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "status": "open",
+      "finding": "Financial 1.6/1.7 liquefaction multipliers do not give actual process duties.",
+      "action": "No complete capture heat/electricity/compression/liquefaction/cooling/supplier inventory accepted. Preserve missing absolute native outputs."
+    },
+    {
+      "id": "I012",
+      "pages": [
+        12,
+        13
+      ],
+      "status": "open",
+      "finding": "Hub buffer, handling exclusions and ship-side inventories are unresolved.",
+      "action": "2 hparallel-pipe storage is not weather/annual-service assurance. Missing native tank/handling schedule and actual mechanical/phase bounds remain open."
+    },
+    {
+      "id": "I013",
+      "pages": [
+        13,
+        14,
+        15
+      ],
+      "status": "open",
+      "finding": "Approximate graphs and twice-cost wording do not reconstruct exact financial arrays.",
+      "action": "Keep per-tonne/annual-total and component/whole-cost denominators explicit. No guessed half-cost correction or spurious precision from bar heights."
+    },
+    {
+      "id": "I014",
+      "pages": [
+        14,
+        16,
+        17,
+        18
+      ],
+      "status": "open",
+      "finding": "Hub and same-total comparisons change source geography/conditioning.",
+      "action": "Use matched two-source marginal baselines and appropriate mass weights. Preserve short 60 km/two-route scope rather than a universal hub disadvantage."
+    },
+    {
+      "id": "I015",
+      "pages": [
+        2,
+        3,
+        18
+      ],
+      "status": "open",
+      "finding": "Historical deployment and future-capacity recommendations are not verified current operations.",
+      "action": "Keep plans, policy and overbuilding judgments conditional to demand, time, uncertainty and stranded capacity; no universal technology or climate conclusion."
+    },
+    {
+      "id": "I016",
+      "pages": [
+        18,
+        19,
+        20,
+        21
+      ],
+      "status": "open",
+      "finding": "Only two scoped original edges checked; other originals and all full citation chains remain incomplete.",
+      "action": "Verify other 43 direct sources, two named authorities and fourteen dependencies; selected passage reading does not complete R013/R035 or their cited models."
+    },
+    {
+      "id": "I017",
+      "pages": [
+        10,
+        11,
+        12,
+        18,
+        21
+      ],
+      "status": "open",
+      "finding": "Native software, cost/schedule files, SI and licences not supplied or verified.",
+      "action": "Keep native pipeline, HYSYS, ship optimization, GIS and field models unreproduced. External originals remain paused pending Chrome; no missing-public-asset claim."
+    },
+    {
+      "id": "I018",
+      "pages": [
+        2,
+        6,
+        7,
+        11,
+        12,
+        18
+      ],
+      "status": "open",
+      "finding": "Transport-cost evidence does not provide full capture, physical and lifecycle proof for Paper 1.",
+      "action": "No accepted operating/GHG inputs or numerical results change. Preserve captured/transported/avoided/stored/retained distinctions and existing B2-12 combined 1.5 MPa HOLD."
+    }
+  ],
+  "supplements": "No separate SI, code, data or availability statement identified in the retained 21-page article; external availability/version/rights unverified. Article is CC BY 4.0. HYSYS, Clarkson data and prior author models are separate assets and not supplied or licensed by that statement.",
+  "reproduction": "Thirty-six limited checks, nine steel-conversion rows, four compressor examples, three conditional fleet bounds, seven nominal pure states and four rounded-state corners saved by audit_korea_transport.py. These implement literal components and disclosed assumptions. They do not reproduce native 64 design optimization, GIS, HYSYS/cost cases, ship scheduling, reservoir service or full utilities. Two selected exact originals checked with narrow scope; their models and full source chains remain open.",
+  "paper1_use": "Recognize existing conditioning-inclusive transport comparisons and source/geography-dependent mode/hub costs. Qualify the R013 attribution and R035 heating regime. Preserve raw rate/route/state discrepancies and cost boundaries. No B3-07 rows in accepted curated/analysis tables; no source corrections, annual field service, retention or GHG factors accepted. Existing B2-12 combined 1.5 MPa 39.2 HOLD remains unchanged.",
+  "next_steps": "Continue B3-08 locally. Verify 43 other direct originals, two named standards, fourteen dependencies, native ship/pipeline/HYSYS assets, exact routes, pressure/temperature/rate units, full utilities and author clarification when external retrieval resumes. Every retained page read does not complete scientific verification."
+}

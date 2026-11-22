@@ -1,0 +1,313 @@
+{
+  "study_id": "B3-07",
+  "source_path": "papers/B3-07.pdf",
+  "source_sha256": "cb1ef1b0e6b0cb2951f19fd44079f382185007977c23dde37ac806071aa77cfd",
+  "provenance": "All21 physical pages text-read and render-inspected. Raw native values retained; every arithmetic/property/scheduling example below is a component or conditional diagnostic, not full author reproduction or accepted Paper1data.",
+  "routes": [
+    {
+      "route": "Boryeong to Hadong",
+      "pipeline_km": 280,
+      "ship_km": 617
+    },
+    {
+      "route": "Hadong to Ulsan",
+      "pipeline_km": 190,
+      "ship_km": null
+    },
+    {
+      "route": "Ulsan to Ulleung",
+      "pipeline_km": 60,
+      "ship_km": 60
+    },
+    {
+      "route": "Boryeong to Ulleung",
+      "pipeline_km": 530,
+      "ship_km": 724
+    },
+    {
+      "route": "Boryeong to Ulsan",
+      "pipeline_km": 470,
+      "ship_km": 726
+    },
+    {
+      "route": "Hadong to Ulleung",
+      "pipeline_km": 250,
+      "ship_km": 270
+    },
+    {
+      "route": "Samcheok to Ulsan",
+      "pipeline_km": 250,
+      "ship_km": 282
+    }
+  ],
+  "steel": [
+    {
+      "grade": "X42",
+      "psi": 42000,
+      "quoted_MPa": 289.59,
+      "price_USD_per_ton": 650
+    },
+    {
+      "grade": "X46",
+      "psi": 46000,
+      "quoted_MPa": 317.17,
+      "price_USD_per_ton": 700
+    },
+    {
+      "grade": "X52",
+      "psi": 52000,
+      "quoted_MPa": 358.54,
+      "price_USD_per_ton": 750
+    },
+    {
+      "grade": "X56",
+      "psi": 56000,
+      "quoted_MPa": 386.1,
+      "price_USD_per_ton": 770
+    },
+    {
+      "grade": "X60",
+      "psi": 60000,
+      "quoted_MPa": 413.7,
+      "price_USD_per_ton": 800
+    },
+    {
+      "grade": "X65",
+      "psi": 65000,
+      "quoted_MPa": 448.175,
+      "price_USD_per_ton": 900
+    },
+    {
+      "grade": "X70",
+      "psi": 70000,
+      "quoted_MPa": 482.65,
+      "price_USD_per_ton": 960
+    },
+    {
+      "grade": "X80",
+      "psi": 80000,
+      "quoted_MPa": 551.6,
+      "price_USD_per_ton": 1000
+    },
+    {
+      "grade": "X90",
+      "psi": 90000,
+      "quoted_MPa": 620.53,
+      "price_USD_per_ton": null
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": 1,
+      "capture_Mt_y": {
+        "Boryeong": [
+          1,
+          2,
+          3,
+          4,
+          6
+        ]
+      },
+      "modes": [
+        "pipeline",
+        "ship"
+      ],
+      "scope": "One source to Ulleung; Table1 diagrams and annual-volume header inspected."
+    },
+    {
+      "scenario": 2,
+      "capture_Mt_y": {
+        "Boryeong": [
+          1,
+          3
+        ],
+        "Hadong": [
+          1,
+          3
+        ]
+      },
+      "modes": [
+        "pipeline",
+        "ship"
+      ],
+      "scope": "Added source on Boryeong-Hadong-Ulleung route, with unequal flow on two sections."
+    },
+    {
+      "scenario": 3,
+      "capture_Mt_y": {
+        "Boryeong": [
+          1
+        ],
+        "Samcheok": [
+          1
+        ]
+      },
+      "modes": [
+        "both feeders pipeline",
+        "both feeders ship",
+        "Boryeong ship and Samcheok pipeline"
+      ],
+      "scope": "All three modes share Ulsan-Ulleung offshore pipeline. Scenario3total2Mt/y."
+    }
+  ],
+  "native": {
+    "pipeline_min_bar": 86,
+    "pipeline_max_bar": 150,
+    "wellhead_assumed_bar": 100,
+    "onshore_T_C": 28,
+    "onshore_depth_m": 1,
+    "offshore_water_depth_m": 150,
+    "offshore_deltaz_m": -150,
+    "feed_P_bar": 1,
+    "feed_T_C": 35,
+    "compression_outlet_bar": 73.8,
+    "compression_outlet_T_C": 40,
+    "compression_stages": 5,
+    "stage_ratio": 2.36,
+    "compressor_train_power_limit_kW": 40000,
+    "price_electricity_USD_kWh": 0.07,
+    "price_fuel_USD_ton": 850,
+    "pipe_compressor_pump_OM_fraction_y": 0.04,
+    "liquefaction_CAPEX_multiplier": 1.6,
+    "liquefaction_OPEX_multiplier": 1.7,
+    "storage_tank_USD_m3": 280,
+    "storage_manufacturing_fraction_of_total": 0.45,
+    "storage_carrier_OM_fraction_y": 0.05,
+    "carrier_count": 3,
+    "ship_speed_knots": 15,
+    "loading_h": 20,
+    "unloading_h": 20,
+    "port_entry_h": 2,
+    "port_exit_h": 2,
+    "injection_as_printed_kg_s": 2800,
+    "claim_equivalent_Mt_y": 1,
+    "pipeline_buffer_h": 2,
+    "discount_rate": 0.05,
+    "lifetime_y": 20,
+    "capital_recovery_printed": 0.08,
+    "scenario2_ship_distance_prose_km": 877,
+    "scenario2_ship_extension_printed_percent": 22,
+    "scenario1_pipe_USD_t": {
+      "1": 33,
+      "3": 21
+    },
+    "scenario1_ship_USD_t": {
+      "1": 28,
+      "3": 23
+    },
+    "wall_factors": {
+      "F": 0.8,
+      "L_f": 0.9,
+      "J": 1,
+      "T": 1
+    }
+  },
+  "native_missing": {
+    "full_code_version": null,
+    "native_HYSYS_cases": null,
+    "native_GIS": null,
+    "standard_diameters_and_schedules": null,
+    "native_fluid_properties_and_friction": null,
+    "actual_ship_capacity_and_schedule": null,
+    "native_absolute_energy_duties": null,
+    "utility_suppliers": null,
+    "CO2_impurity_composition": null,
+    "annual_field_pressure_or_rate_series": null,
+    "retention": null,
+    "capture_heat_or_auxiliary_electricity": null,
+    "cost_currency_base_year": null
+  },
+  "analyst": {
+    "seconds_per_year": 31536000,
+    "knot_km_h": 1.852,
+    "g_m_s2": 9.80665,
+    "rho_CO2_kg_m3": 900,
+    "rho_steel_kg_m3": 7850,
+    "friction_factor": 0.02,
+    "test_mass_kg_s": 30,
+    "test_length_m": 100000,
+    "test_inner_diameter_m": 0.3,
+    "test_outer_diameter_m": 0.3,
+    "test_capital_power_kW": 1000,
+    "test_pipe_length_m": 1000,
+    "test_wall_t_m": 0.01,
+    "test_grade_MPa": 289.59,
+    "compressor_test_flows_kg_s": [
+      10,
+      20
+    ],
+    "compressor_fixed_train_flow_kg_s": 10,
+    "compressor_train_counts": [
+      1,
+      2
+    ],
+    "pressure_ratio": 73.8,
+    "illustrative_cost_weighting": [
+      {
+        "flow": 1,
+        "unit_cost": 10
+      },
+      {
+        "flow": 3,
+        "unit_cost": 30
+      }
+    ],
+    "assumption_scope": "All test properties, geometry, flows and cost examples are analyst choices. Fixed365-day annualization, constant density/friction, absolute pressure and zero-weather cycle are conditional diagnostics, not source-case reconstruction.",
+    "pure_states": [
+      {
+        "label": "main_feed",
+        "P_bar": 1,
+        "T_C": 35
+      },
+      {
+        "label": "compression_outlet",
+        "P_bar": 73.8,
+        "T_C": 40
+      },
+      {
+        "label": "pipeline_inlet",
+        "P_bar": 150,
+        "T_C": 28
+      },
+      {
+        "label": "onshore_outlet",
+        "P_bar": 86,
+        "T_C": 28
+      },
+      {
+        "label": "wellhead_assumed",
+        "P_bar": 100,
+        "T_C": 10
+      },
+      {
+        "label": "main_ship_cargo",
+        "P_bar": 7,
+        "T_C": -50
+      },
+      {
+        "label": "Figure4_liquid_label",
+        "P_bar": 6,
+        "T_C": -53
+      }
+    ],
+    "Figure4_rounding_corners": [
+      {
+        "P_bar": 5.5,
+        "T_C": -53.5
+      },
+      {
+        "P_bar": 5.5,
+        "T_C": -52.5
+      },
+      {
+        "P_bar": 6.5,
+        "T_C": -53.5
+      },
+      {
+        "P_bar": 6.5,
+        "T_C": -52.5
+      }
+    ],
+    "pure_EOS_scope": "CoolProp8.0.0 HEOS::CO2, absolute pressure assumed. Pure-state component only; mixture/solid/hydrate/flow/equipment feasibility unvalidated. Rounded Fig4P/T labels can straddle saturation."
+  }
+}
