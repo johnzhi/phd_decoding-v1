@@ -1,0 +1,5 @@
+cost_unit,design,residual,cost,EI_weight,weighted_numeric_score,scope
+USD,zero_residual,0,1000000000.0,100,1000000000.0,Explicit analyst finite weight/scaling counterexample; no native weights or preference inferred
+USD,one_residual,1,0,100,100,Explicit analyst finite weight/scaling counterexample; no native weights or preference inferred
+BUSD,zero_residual,0,1.0,100,1.0,Explicit analyst finite weight/scaling counterexample; no native weights or preference inferred
+BUSD,one_residual,1,0.0,100,100.0,Explicit analyst finite weight/scaling counterexample; no native weights or preference inferred

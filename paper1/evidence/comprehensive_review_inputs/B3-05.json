@@ -1,0 +1,318 @@
+{
+  "study_id": "B3-05",
+  "source_path": "papers/B3-05.pdf",
+  "source_sha256": "24edcd8c8b194b47bf136cb5224e239f389fccc0798be6985ff416fb6be935fa",
+  "provenance": "Retained11-page paper and19 equations read/render-inspected. Essential TableA1/A2/FigA1/A2 assets are external publisher supplements and unlocated locally. Advertised native code/version and full scenario data unverified; all diagnostic process/graph examples are analyst assumptions,not native Kazakhstan results.",
+  "native_sectors": [
+    {
+      "name": "pulverized_coal",
+      "sources": 39,
+      "emissions_Mt_y": 87.91
+    },
+    {
+      "name": "natural_gas_power",
+      "sources": 19,
+      "emissions_Mt_y": 11.59
+    },
+    {
+      "name": "gas_processing",
+      "sources": 6,
+      "emissions_Mt_y": 12.01
+    },
+    {
+      "name": "cement",
+      "sources": 11,
+      "emissions_Mt_y": 8.06
+    },
+    {
+      "name": "iron_steel",
+      "sources": 9,
+      "emissions_Mt_y": 24.91
+    },
+    {
+      "name": "refinery",
+      "sources": 4,
+      "emissions_Mt_y": 4.05
+    }
+  ],
+  "native_radii_km": [
+    100,
+    180,
+    200,
+    240,
+    300,
+    360,
+    400
+  ],
+  "native_figure4_total_labels": [
+    {
+      "radius_km": 100,
+      "full": 23,
+      "partial": 24,
+      "unit_axis": "BUSD",
+      "unit_component_legend": "MUSD",
+      "precision": "Rounded printed bar label,not exact native scenario total"
+    },
+    {
+      "radius_km": 180,
+      "full": 34,
+      "partial": 36,
+      "unit_axis": "BUSD",
+      "unit_component_legend": "MUSD",
+      "precision": "Rounded printed bar label,not exact native scenario total"
+    },
+    {
+      "radius_km": 200,
+      "full": 35,
+      "partial": 35,
+      "unit_axis": "BUSD",
+      "unit_component_legend": "MUSD",
+      "precision": "Rounded printed bar label,not exact native scenario total"
+    },
+    {
+      "radius_km": 240,
+      "full": 35,
+      "partial": 35,
+      "unit_axis": "BUSD",
+      "unit_component_legend": "MUSD",
+      "precision": "Rounded printed bar label,not exact native scenario total"
+    },
+    {
+      "radius_km": 300,
+      "full": 31,
+      "partial": 31,
+      "unit_axis": "BUSD",
+      "unit_component_legend": "MUSD",
+      "precision": "Rounded printed bar label,not exact native scenario total"
+    },
+    {
+      "radius_km": 360,
+      "full": 34,
+      "partial": 34,
+      "unit_axis": "BUSD",
+      "unit_component_legend": "MUSD",
+      "precision": "Rounded printed bar label,not exact native scenario total"
+    },
+    {
+      "radius_km": 400,
+      "full": 38,
+      "partial": 38,
+      "unit_axis": "BUSD",
+      "unit_component_legend": "MUSD",
+      "precision": "Rounded printed bar label,not exact native scenario total"
+    }
+  ],
+  "native_costs": {
+    "100full_total_billion_USD": 23.3,
+    "100partial_total_billion_USD": 24.02,
+    "100full_unit_USD_t": 201.38,
+    "100partial_unit_USD_t": 207.61,
+    "100full_transport_USD_t": 91.85,
+    "100partial_transport_USD_t": 96.48,
+    "400_transport_USD_t": 197.23,
+    "100capture_percent": 50.47,
+    "100transport_percent": 45.61,
+    "180capture_percent": 36.17,
+    "180transport_percent": 61.01,
+    "100existing_compare_amounts": [
+      11,
+      10
+    ],
+    "400existing_compare_amounts": [
+      24,
+      23
+    ],
+    "existing_compare_prose_unit": "MUSD",
+    "existing_compare_figure_axis_unit": "BUSD",
+    "uncertainty_100_prose_median_unit": "11BUSD",
+    "uncertainty_100_prose_bounds_BUSD": [
+      9,
+      13
+    ]
+  },
+  "native_factors": {
+    "fugitive_t_per_km_y": 1.4,
+    "Eq12_length_unit": "m",
+    "grid_kgCO2e_per_kWh": 0.882,
+    "pump_efficiency": 0.85,
+    "g_value": 9.81,
+    "g_printed_unit": "m/s",
+    "storage_sites": 17,
+    "storage_capacity_Mt": 5784,
+    "national_storage_Gt": 583,
+    "four_basin_storage_Gt": 539,
+    "pipeline_life_y": 30
+  },
+  "native_MC": {
+    "trials": 5000,
+    "capital_recovery_factor_y_inverse": [
+      0.1,
+      0.2
+    ],
+    "OM_USD_km_y": [
+      2150,
+      4350
+    ],
+    "pipeline_capacity_factor": [
+      0.5,
+      1
+    ],
+    "capex_multiplier": [
+      0.75,
+      1.25
+    ],
+    "compressor_inlet_MPa": [
+      12,
+      15
+    ],
+    "reported_interval_percentiles": [
+      5,
+      95
+    ],
+    "seed": null,
+    "joint_distribution": null,
+    "scope": "Uniform marginals reported; native routing code/version/data/joint dependence unverified. Capital recoveryCRF is distinct from capture-rateCRF."
+  },
+  "native_code_URI": "https://github.com/aminatgy/CCS-NetOptmizer",
+  "native_code_name_in_prose": "CCS-NetOptimizer",
+  "native_SI_URI": "https://doi.org/10.1016/j.jclepro.2025.146563",
+  "native_data_availability": "Data will be made available on request.",
+  "analyst": {
+    "pipeline_examples": [
+      {
+        "length_km": 50,
+        "diameter_m": 0.3
+      },
+      {
+        "length_km": 100,
+        "diameter_m": 0.3
+      },
+      {
+        "length_km": 200,
+        "diameter_m": 0.3
+      }
+    ],
+    "leak_length_km": 100,
+    "power_MW": 1,
+    "hours_y": 8760,
+    "capture_example_source_t_y": 1000000.0,
+    "capture_fraction": 0.9,
+    "unit_capture_USD_t": 100,
+    "compression_example": {
+      "k": 1.3,
+      "T_K": 300,
+      "efficiency": 0.8,
+      "Pin_Pa": 12000000.0,
+      "Pout_Pa": 15000000.0,
+      "mass_kg_s": 10,
+      "molar_mass_kg_mol": 0.04401,
+      "R_J_mol_K": 8.314462618
+    },
+    "volume_example": {
+      "E": 0.02,
+      "A_m2": 100000000.0,
+      "h_m": 50,
+      "phi": 0.2,
+      "rho_kg_m3": 700
+    },
+    "graph_coordinates_km": [
+      [
+        0,
+        0
+      ],
+      [
+        90,
+        0
+      ],
+      [
+        180,
+        0
+      ],
+      [
+        270,
+        0
+      ],
+      [
+        1000,
+        0
+      ]
+    ],
+    "graph_eps_km": 100,
+    "MST_counterexample_coordinates_km": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "MST_counterexample_source_flows": [
+      0,
+      1,
+      100
+    ],
+    "scope": "All process/operating/calendar/graph inputs here are explicitly analyst examples. Standard constants do not establish a native CO2 phase or validated hydraulic/pressure model. No accepted physical/GHG input derived."
+  },
+  "missing_native_inputs": {
+    "Table_A1_capture_rates_costs_and_sector_parameters": null,
+    "Table_A2_area_thickness_porosity_density_efficiency_site_data": null,
+    "Fig_A1_A2_case_designs_and_native_maps": null,
+    "native_code_commit_licence_dependencies_and_full_case_data": null,
+    "objective_weights_normalization_and_full_MILP_constraints": null,
+    "included_source_IDs_noise_handling_and_case_coverage": null,
+    "capacity_horizon_and_time_index": null,
+    "pressure_limits_field_injectivity_and_controls": null,
+    "engineering_coefficients_units_and_money_time_basis": null,
+    "power_energy_hours_and_kg_t_conversion_implementation": null,
+    "capture_heat_electricity_cooling_and_utility_suppliers": null,
+    "MC_seed_joint_dependence_and_trial_results": null,
+    "raw_routed_lengths_parallel_count_and_reuse_permissions": null,
+    "current_legal_status_and_original_source_chain": null
+  },
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "native_licence": "CC BY-NC-ND4.0; not an established code-repository licence",
+  "source_locators": {
+    "sector_counts_and_emissions": [
+      6
+    ],
+    "selected_and_national_resources": [
+      6
+    ],
+    "radius_labels_and_rounded_totals": [
+      8
+    ],
+    "exact100km_total_costs": [
+      1
+    ],
+    "unit_costs_and_transport": [
+      7
+    ],
+    "cost_component_shares_reuse_and_uncertainty_summary": [
+      8
+    ],
+    "fugitive_grid_efficiency_and_g_units": [
+      5
+    ],
+    "pipeline_lifespan_and_cost_formulas": [
+      4
+    ],
+    "MC_marginals_and_trials": [
+      6
+    ],
+    "code_URI": [
+      3
+    ],
+    "SI_and_data_availability": [
+      10
+    ],
+    "figure_environment_and_length_boundaries": [
+      9
+    ]
+  }
+}

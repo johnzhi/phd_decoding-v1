@@ -1,0 +1,1880 @@
+{
+  "study_id": "B3-05",
+  "source_sha256": "24edcd8c8b194b47bf136cb5224e239f389fccc0798be6985ff416fb6be935fa",
+  "provenance": "All48 bibliography entries text-read and visually inspected. Nnamdi2023 continues from left to right column onp11. Native spelling,lines andgeometry retained; no metadata-only source verification.",
+  "entries": [
+    {
+      "id": "R001",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Abuov, Y., Seisenbayev, N., Lee, W., 2020. CO2 storage potential in sedimentary basins ",
+        "of Kazakhstan. Int. J. Greenh. Gas Control 103, 103186."
+      ],
+      "line_bboxes": [
+        [
+          306.5950012207031,
+          478.743408203125,
+          557.5140991210938,
+          489.1679992675781
+        ],
+        [
+          318.55682373046875,
+          486.73687744140625,
+          478.9617004394531,
+          497.1614685058594
+        ]
+      ],
+      "citation": "Abuov, Y., Seisenbayev, N., Lee, W., 2020. CO2 storage potential in sedimentary basins of Kazakhstan. Int. J. Greenh. Gas Control 103, 103186.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C027",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Abuov, Y., Serik, G., Lee, W., 2022. Techno-economic assessment and life cycle ",
+        "assessment of CO2-EOR. Environ. Sci. Technol. 56 (12), 8571–8580."
+      ],
+      "line_bboxes": [
+        [
+          306.5950012207031,
+          494.673583984375,
+          534.9446411132812,
+          505.0981750488281
+        ],
+        [
+          318.5567932128906,
+          502.66705322265625,
+          513.480224609375,
+          513.0916748046875
+        ]
+      ],
+      "citation": "Abuov, Y., Serik, G., Lee, W., 2022. Techno-economic assessment and life cycle assessment of CO2-EOR. Environ. Sci. Technol. 56 (12), 8571–8580.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Bachu, S., 2008. CO2 storage in geological media: role, means, status and barriers to ",
+        "deployment. Prog. Energy Combust. Sci. 34 (2), 254–273."
+      ],
+      "line_bboxes": [
+        [
+          306.5950012207031,
+          510.6611633300781,
+          550.9596557617188,
+          521.0857543945312
+        ],
+        [
+          318.55682373046875,
+          518.597900390625,
+          483.4535217285156,
+          529.0224609375
+        ]
+      ],
+      "citation": "Bachu, S., 2008. CO2 storage in geological media: role, means, status and barriers to deployment. Prog. Energy Combust. Sci. 34 (2), 254–273.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C027",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Benson, H.Y., Ogden, J.M., 2003. Mathematical programming techniques for designing ",
+        "minimum cost pipeline networks for CO2 sequestration. In: Greenhouse Gas Control ",
+        "Technologies-6th International Conference. Pergamon, pp. 627–632."
+      ],
+      "line_bboxes": [
+        [
+          306.5950012207031,
+          526.5913696289062,
+          556.32568359375,
+          537.0159301757812
+        ],
+        [
+          318.55682373046875,
+          534.528076171875,
+          557.5267944335938,
+          544.95263671875
+        ],
+        [
+          318.5567932128906,
+          542.522216796875,
+          513.2736206054688,
+          552.94677734375
+        ]
+      ],
+      "citation": "Benson, H.Y., Ogden, J.M., 2003. Mathematical programming techniques for designing minimum cost pipeline networks for CO2 sequestration. In: Greenhouse Gas Control Technologies-6th International Conference. Pergamon, pp. 627–632.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Bock, B., Rhudy, R., Herzog, H., Klett, M., Davison, J., Ugarte, D.G.D.L.T., Simbeck, D., ",
+        "2003. Economic evaluation of co2 storage and sink enhancement options. Office of ",
+        "Scientific and Technical Information (OSTI."
+      ],
+      "line_bboxes": [
+        [
+          306.5950012207031,
+          550.4589233398438,
+          557.52685546875,
+          560.8834838867188
+        ],
+        [
+          318.5568542480469,
+          558.452392578125,
+          545.314453125,
+          568.876953125
+        ],
+        [
+          318.5568542480469,
+          566.4458618164062,
+          442.4896545410156,
+          576.8704223632812
+        ]
+      ],
+      "citation": "Bock, B., Rhudy, R., Herzog, H., Klett, M., Davison, J., Ugarte, D.G.D.L.T., Simbeck, D., 2003. Economic evaluation of co2 storage and sink enhancement options. Office of Scientific and Technical Information (OSTI.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Bui, M., Adjiman, C.S., Bardow, A., Anthony, E.J., Boston, A., Brown, S., Fennell, P.S., ",
+        "Fuss, S., Galindo, A., Hackett, L.A., Hallett, J.P., Herzog, H.J., Jackson, G., ",
+        "Kemper, J., Krevor, S., Maitland, G.C., Matuszewski, M., Metcalfe, I.S., Petit, C., ",
+        "Puxty, G., Reimer, J., Reiner, D.M., Rubin, E.S., Scott, S.A., Shah, N., Smit, B., ",
+        "Trusler, J.P.M., Webley, P., Wilcox, J., Dowell, N.M., 2018. Carbon capture and ",
+        "storage (CCS): the way forward. Energy Environ. Sci. 11, 1062–1076."
+      ],
+      "line_bboxes": [
+        [
+          306.5950012207031,
+          574.3832397460938,
+          555.028076171875,
+          584.8078002929688
+        ],
+        [
+          318.55682373046875,
+          582.3766479492188,
+          533.4259033203125,
+          592.8012084960938
+        ],
+        [
+          318.55682373046875,
+          590.3134155273438,
+          548.8096923828125,
+          600.7379760742188
+        ],
+        [
+          318.55682373046875,
+          598.3074951171875,
+          543.9639892578125,
+          608.7320556640625
+        ],
+        [
+          318.55682373046875,
+          606.3009643554688,
+          548.2964477539062,
+          616.7255249023438
+        ],
+        [
+          318.55682373046875,
+          614.2376708984375,
+          516.99462890625,
+          624.6622924804688
+        ]
+      ],
+      "citation": "Bui, M., Adjiman, C.S., Bardow, A., Anthony, E.J., Boston, A., Brown, S., Fennell, P.S., Fuss, S., Galindo, A., Hackett, L.A., Hallett, J.P., Herzog, H.J., Jackson, G., Kemper, J., Krevor, S., Maitland, G.C., Matuszewski, M., Metcalfe, I.S., Petit, C., Puxty, G., Reimer, J., Reiner, D.M., Rubin, E.S., Scott, S.A., Shah, N., Smit, B., Trusler, J.P.M., Webley, P., Wilcox, J., Dowell, N.M., 2018. Carbon capture and storage (CCS): the way forward. Energy Environ. Sci. 11, 1062–1076.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C028",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Decree of the President of the Republic, 2023. Of Kazakhstan on approval of the strategy ",
+        "for achieving carbon neutrality of the Republic of Kazakhstan until 2060. Retrieved ",
+        "from. https://adilet.zan.kz/rus/docs/U2300000121."
+      ],
+      "line_bboxes": [
+        [
+          306.5950012207031,
+          622.2311401367188,
+          557.5242919921875,
+          632.6557006835938
+        ],
+        [
+          318.55682373046875,
+          630.1685180664062,
+          557.5421752929688,
+          640.5930786132812
+        ],
+        [
+          318.55682373046875,
+          638.1619873046875,
+          466.5465393066406,
+          648.5865478515625
+        ]
+      ],
+      "citation": "Decree of the President of the Republic, 2023. Of Kazakhstan on approval of the strategy for achieving carbon neutrality of the Republic of Kazakhstan until 2060. Retrieved from. https://adilet.zan.kz/rus/docs/U2300000121.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Diabate, M.F., Kalantari, F., Chen, S., Shi, J., Krishnamoorthy, H.S., 2024. Analyzing the ",
+        "impact of pipeline length and CO2 mass flow rate on the transportation cost based on ",
+        "the required number of booster pumps: a case study of Houston. SPE J. 29, ",
+        "3859–3875. https://doi.org/10.2118/219729-PA."
+      ],
+      "line_bboxes": [
+        [
+          306.5950012207031,
+          646.0986938476562,
+          557.5064697265625,
+          656.5232543945312
+        ],
+        [
+          318.5568542480469,
+          654.0921630859375,
+          557.567626953125,
+          664.8964233398438
+        ],
+        [
+          318.5593566894531,
+          662.087890625,
+          535.5242309570312,
+          672.512451171875
+        ],
+        [
+          318.5593566894531,
+          670.0245971679688,
+          459.53369140625,
+          680.4491577148438
+        ]
+      ],
+      "citation": "Diabate, M.F., Kalantari, F., Chen, S., Shi, J., Krishnamoorthy, H.S., 2024. Analyzing the impact of pipeline length and CO2 mass flow rate on the transportation cost based on the required number of booster pumps: a case study of Houston. SPE J. 29, 3859–3875. https://doi.org/10.2118/219729-PA.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Fan, J.L., Li, Z., Huang, X., Li, K., Zhang, X., Lu, X., et al., 2023. A net-zero emissions ",
+        "strategy for China’s power sector using carbon-capture utilization and storage. Nat. ",
+        "Commun. 14 (1), 5972."
+      ],
+      "line_bboxes": [
+        [
+          306.59686279296875,
+          678.01806640625,
+          553.3805541992188,
+          688.442626953125
+        ],
+        [
+          318.559326171875,
+          685.9554443359375,
+          557.5172729492188,
+          696.3800048828125
+        ],
+        [
+          318.559326171875,
+          693.9489135742188,
+          385.7829895019531,
+          704.3734741210938
+        ]
+      ],
+      "citation": "Fan, J.L., Li, Z., Huang, X., Li, K., Zhang, X., Lu, X., et al., 2023. A net-zero emissions strategy for China’s power sector using carbon-capture utilization and storage. Nat. Commun. 14 (1), 5972.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C007",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Garnett, A., Rodger, I., Lane, J. and Hurter, S., 2022. Basis of design for CCS Hubs-the ",
+        "importance of uncertainties in dynamic storage capacity. In Proceedings of the 16th ",
+        "Greenhouse Gas Control Technologies Conference (GHGT-16) (pp. 23-24)."
+      ],
+      "line_bboxes": [
+        [
+          306.59686279296875,
+          701.9423828125,
+          555.3947143554688,
+          712.366943359375
+        ],
+        [
+          318.559326171875,
+          709.8790893554688,
+          555.7415771484375,
+          720.3036499023438
+        ],
+        [
+          318.5593566894531,
+          717.8731689453125,
+          520.838623046875,
+          728.2977294921875
+        ]
+      ],
+      "citation": "Garnett, A., Rodger, I., Lane, J. and Hurter, S., 2022. Basis of design for CCS Hubs-the importance of uncertainties in dynamic storage capacity. In Proceedings of the 16th Greenhouse Gas Control Technologies Conference (GHGT-16) (pp. 23-24).",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        10
+      ],
+      "native_lines": [
+        "Global CCS Institute, 2023. The global status of CCS: 2023. https://status23.globalccsi ",
+        "nstitute.com/."
+      ],
+      "line_bboxes": [
+        [
+          306.59686279296875,
+          725.8098754882812,
+          555.1371459960938,
+          736.2344360351562
+        ],
+        [
+          318.559326171875,
+          733.8034057617188,
+          358.4533386230469,
+          744.2279663085938
+        ]
+      ],
+      "citation": "Global CCS Institute, 2023. The global status of CCS: 2023. https://status23.globalccsi nstitute.com/.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Goodman, A., Hakala, A., Bromhal, G., Deel, D., Rodosta, T., Frailey, S., et al., 2011. US ",
+        "DOE methodology for the development of geologic storage potential for carbon ",
+        "dioxide at the national and regional scale. Int. J. Greenh. Gas Control 5 (4), 952–965."
+      ],
+      "line_bboxes": [
+        [
+          37.587398529052734,
+          52.12942886352539,
+          288.54217529296875,
+          62.55402374267578
+        ],
+        [
+          49.549224853515625,
+          60.12289810180664,
+          278.01617431640625,
+          70.54749298095703
+        ],
+        [
+          49.549224853515625,
+          68.05961608886719,
+          286.672119140625,
+          78.48420715332031
+        ]
+      ],
+      "citation": "Goodman, A., Hakala, A., Bromhal, G., Deel, D., Rodosta, T., Frailey, S., et al., 2011. US DOE methodology for the development of geologic storage potential for carbon dioxide at the national and regional scale. Int. J. Greenh. Gas Control 5 (4), 952–965.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C027",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Hatta, S.M., Mohamad, N.Y., Masoudi, R., Mokhtar, S., Zakaria, W.A.W., Harris, S., ",
+        "Wahab, W.A.W.A., 2022. Shifting towards low carbon offshore industry in Malaysia ",
+        "via CCS hubs and clusters approach. In: EAGE Asia Pacific Workshop on CO2 ",
+        "Geological Storage."
+      ],
+      "line_bboxes": [
+        [
+          37.587398529052734,
+          76.05308532714844,
+          277.0285339355469,
+          86.47767639160156
+        ],
+        [
+          49.549224853515625,
+          83.99043273925781,
+          288.5670166015625,
+          94.41503143310547
+        ],
+        [
+          49.549224853515625,
+          91.98390197753906,
+          270.9461364746094,
+          102.78643798828125
+        ],
+        [
+          49.549598693847656,
+          99.97738647460938,
+          104.42060089111328,
+          110.40198516845703
+        ]
+      ],
+      "citation": "Hatta, S.M., Mohamad, N.Y., Masoudi, R., Mokhtar, S., Zakaria, W.A.W., Harris, S., Wahab, W.A.W.A., 2022. Shifting towards low carbon offshore industry in Malaysia via CCS hubs and clusters approach. In: EAGE Asia Pacific Workshop on CO2 Geological Storage.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Hughes, S., Zoelle, A., Woods, M., Henry, S., Homsy, S., Pidaparti, S., Kuehn, N., ",
+        "Hoffman, H., Forrest, K., Sheriff, A., Fout, T., Summers, W., Herron, S., 2022. Cost of ",
+        "Capturing CO2 from Industrial Sources. Office of Scientific and Technical ",
+        "Information (OSTI)."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          107.91410827636719,
+          270.42352294921875,
+          118.33870697021484
+        ],
+        [
+          49.549598693847656,
+          115.90757751464844,
+          288.552734375,
+          126.33216857910156
+        ],
+        [
+          49.549598693847656,
+          123.84429931640625,
+          260.91448974609375,
+          134.26890563964844
+        ],
+        [
+          49.549598693847656,
+          131.83839416503906,
+          105.80799102783203,
+          142.26300048828125
+        ]
+      ],
+      "citation": "Hughes, S., Zoelle, A., Woods, M., Henry, S., Homsy, S., Pidaparti, S., Kuehn, N., Hoffman, H., Forrest, K., Sheriff, A., Fout, T., Summers, W., Herron, S., 2022. Cost of Capturing CO2 from Industrial Sources. Office of Scientific and Technical Information (OSTI).",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Hughes, S., Cvetic, P., Homsy, S., Zoelle, A., Woods, M., White, C., Pidaparti, S., ",
+        "Kuehn, N., Hoffman, H., Forrest, K., Shultz, T., Fout, T., Grol, E., James III, R., ",
+        "Bohan, R., 2023. Analysis of Carbon Capture Retrofits for Cement Plants. Office of ",
+        "Scientific and Technical Information (OSTI)."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          139.8318634033203,
+          269.0915832519531,
+          150.2564697265625
+        ],
+        [
+          49.549598693847656,
+          147.76858520507812,
+          276.37091064453125,
+          158.1931915283203
+        ],
+        [
+          49.549598693847656,
+          155.76205444335938,
+          286.90838623046875,
+          166.18666076660156
+        ],
+        [
+          49.549598693847656,
+          163.69940185546875,
+          175.8797607421875,
+          174.12400817871094
+        ]
+      ],
+      "citation": "Hughes, S., Cvetic, P., Homsy, S., Zoelle, A., Woods, M., White, C., Pidaparti, S., Kuehn, N., Hoffman, H., Forrest, K., Shultz, T., Fout, T., Grol, E., James III, R., Bohan, R., 2023. Analysis of Carbon Capture Retrofits for Cement Plants. Office of Scientific and Technical Information (OSTI).",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "IEA, 2020. CCUS in Clean Energy Transitions. IEA, Paris. https://www.iea. ",
+        "org/reports/ccus-in-clean-energy-transitions,Licence:CCBY4.0. "
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          171.69287109375,
+          253.29595947265625,
+          182.1174774169922
+        ],
+        [
+          49.549598693847656,
+          179.62957763671875,
+          227.57110595703125,
+          190.05418395996094
+        ]
+      ],
+      "citation": "IEA, 2020. CCUS in Clean Energy Transitions. IEA, Paris. https://www.iea. org/reports/ccus-in-clean-energy-transitions,Licence:CCBY4.0.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C041",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "IEA, 2021. CCUS Around the World in 2021. IEA, Paris. https://www.iea.org/reports/ ",
+        "ccus-around-the-world-in-2021. Licence: CC BY 4.0. "
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          187.623046875,
+          285.6970520019531,
+          198.0476531982422
+        ],
+        [
+          49.549598693847656,
+          195.61715698242188,
+          198.85214233398438,
+          206.04176330566406
+        ]
+      ],
+      "citation": "IEA, 2021. CCUS Around the World in 2021. IEA, Paris. https://www.iea.org/reports/ ccus-around-the-world-in-2021. Licence: CC BY 4.0.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C041",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "IPCC, 2023. Climate change 2023: synthesis report. In: Lee, H., Romero, J. (Eds.), ",
+        "Contribution of Working Groups I, II and III to the Sixth Assessment Report of the ",
+        "Intergovernmental Panel on Climate Change [Core Writing Team. IPCC, Geneva, ",
+        "Switzerland, pp. 35–115. https://doi.org/10.59327/IPCC/AR6-9789291691647."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          203.55389404296875,
+          273.3857116699219,
+          213.97850036621094
+        ],
+        [
+          49.549598693847656,
+          211.54733276367188,
+          286.2313232421875,
+          221.97193908691406
+        ],
+        [
+          49.549598693847656,
+          219.48471069335938,
+          281.2695617675781,
+          229.90931701660156
+        ],
+        [
+          49.549598693847656,
+          227.47816467285156,
+          277.72265625,
+          237.90277099609375
+        ]
+      ],
+      "citation": "IPCC, 2023. Climate change 2023: synthesis report. In: Lee, H., Romero, J. (Eds.), Contribution of Working Groups I, II and III to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change [Core Writing Team. IPCC, Geneva, Switzerland, pp. 35–115. https://doi.org/10.59327/IPCC/AR6-9789291691647.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003",
+        "C024",
+        "C025",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "ISO, 2024. ISO/TC 265 - Carbon Dioxide Capture, Transportation, and Geological ",
+        "Storage. ISO. https://www.iso.org/committee/648607.html. (Accessed 7 March ",
+        "2024)."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          235.4716339111328,
+          272.52947998046875,
+          245.896240234375
+        ],
+        [
+          49.549598693847656,
+          243.40835571289062,
+          278.2263488769531,
+          253.8329620361328
+        ],
+        [
+          49.549598693847656,
+          251.40243530273438,
+          68.0907211303711,
+          261.8270263671875
+        ]
+      ],
+      "citation": "ISO, 2024. ISO/TC 265 - Carbon Dioxide Capture, Transportation, and Geological Storage. ISO. https://www.iso.org/committee/648607.html. (Accessed 7 March 2024).",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C041",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "James, R., Zoelle, A., Keairns, D., Turner, M., Woods, M., Kuehn, N., 2019. Cost and ",
+        "performance baseline for fossil energy plants. In: Bituminous Coal and Natural Gas to ",
+        "Electricity, ume 1 (NETL-PUB-22638). "
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          259.33917236328125,
+          280.6492004394531,
+          269.7637634277344
+        ],
+        [
+          49.549598693847656,
+          267.3326416015625,
+          288.52850341796875,
+          277.7572326660156
+        ],
+        [
+          49.549598693847656,
+          275.2693786621094,
+          160.3009033203125,
+          285.6939697265625
+        ]
+      ],
+      "citation": "James, R., Zoelle, A., Keairns, D., Turner, M., Woods, M., Kuehn, N., 2019. Cost and performance baseline for fossil energy plants. In: Bituminous Coal and Natural Gas to Electricity, ume 1 (NETL-PUB-22638).",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Jiang, K., Ashworth, P., Zhang, S., Liang, X., Sun, Y., Angus, D., 2020. China’s carbon ",
+        "capture, utilization and storage (CCUS) policy: a critical review. Renew. Sustain. ",
+        "Energy Rev. 119, 109601."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          283.2634582519531,
+          285.0459899902344,
+          293.68804931640625
+        ],
+        [
+          49.549598693847656,
+          291.2569274902344,
+          281.76751708984375,
+          301.6815185546875
+        ],
+        [
+          49.549598693847656,
+          299.1936340332031,
+          123.8951416015625,
+          309.61822509765625
+        ]
+      ],
+      "citation": "Jiang, K., Ashworth, P., Zhang, S., Liang, X., Sun, Y., Angus, D., 2020. China’s carbon capture, utilization and storage (CCUS) policy: a critical review. Renew. Sustain. Energy Rev. 119, 109601.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C041",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Khoyashov, N., Serik, G., Togay, A., Abuov, Y., Alibekov, A., Lee, W., 2024. Development ",
+        "of carbon capture and storage (CCS) hubs in Kazakhstan. Int. J. Greenh. Gas Control ",
+        "138, 104259."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          307.1871032714844,
+          288.5693664550781,
+          317.6116943359375
+        ],
+        [
+          49.549598693847656,
+          315.1244812011719,
+          288.51959228515625,
+          325.549072265625
+        ],
+        [
+          49.549598693847656,
+          323.1179504394531,
+          87.55570220947266,
+          333.54254150390625
+        ]
+      ],
+      "citation": "Khoyashov, N., Serik, G., Togay, A., Abuov, Y., Alibekov, A., Lee, W., 2024. Development of carbon capture and storage (CCS) hubs in Kazakhstan. Int. J. Greenh. Gas Control 138, 104259.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C002",
+        "C004",
+        "C011",
+        "C017",
+        "C019",
+        "C030",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Knoope, M.M.J., Ramírez, A., Faaij, A.P.C., 2013. A state-of-the-art review of techno- ",
+        "economic models predicting the costs of CO2 pipeline transport. Int. J. Greenh. Gas ",
+        "Control 16, 241–270."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          331.1114196777344,
+          282.7927551269531,
+          341.5360107421875
+        ],
+        [
+          49.549598693847656,
+          339.04876708984375,
+          288.5705871582031,
+          349.4733581542969
+        ],
+        [
+          49.549598693847656,
+          347.042236328125,
+          110.41585540771484,
+          357.4668273925781
+        ]
+      ],
+      "citation": "Knoope, M.M.J., Ramírez, A., Faaij, A.P.C., 2013. A state-of-the-art review of techno- economic models predicting the costs of CO2 pipeline transport. Int. J. Greenh. Gas Control 16, 241–270.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C020",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Lee, J., Tan, R.R., Chen, C., 2014. A unified model for the deployment of carbon capture ",
+        "and storage. Appl. Energy 121, 140–148. https://doi.org/10.1016/j. ",
+        "apenergy.2014.01.080."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          354.97894287109375,
+          288.5520935058594,
+          365.4035339355469
+        ],
+        [
+          49.549598693847656,
+          362.972412109375,
+          246.08096313476562,
+          373.3970031738281
+        ],
+        [
+          49.549598693847656,
+          370.9097595214844,
+          114.88982391357422,
+          381.3343505859375
+        ]
+      ],
+      "citation": "Lee, J., Tan, R.R., Chen, C., 2014. A unified model for the deployment of carbon capture and storage. Appl. Energy 121, 140–148. https://doi.org/10.1016/j. apenergy.2014.01.080.",
+      "role": "The exact Lee,Tan,Chen2014 paper presents a unified multi-period MILP,explicit time intervals,finite injection/cumulative limits,retrofits and compensatory electricity emissions. This supports the cited retrofit-planning context and establishes existing temporal/energy prior art. Onlypp1–3 read as text and inspected as renders for this edge. Not the complete paper,all equations/results/source chain or independent model reproduction. Its injection limits are exogenous,not a calibrated pressure-feedback dataset.",
+      "verification_status": "primary_text_checked_scoped_support_and_limitations",
+      "claim_links": [
+        "C005",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "McCoy, S., Rubin, E., 2008. An engineering-economic model of pipeline transport of CO2 ",
+        "with application to carbon capture and storage. Int. J. Greenh. Gas Control 2 (2), ",
+        "219–229. https://doi.org/10.1016/s1750-5836(07)00119-3."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          378.9032287597656,
+          288.0681457519531,
+          389.70941162109375
+        ],
+        [
+          49.549598693847656,
+          386.9004211425781,
+          284.0475158691406,
+          397.32501220703125
+        ],
+        [
+          49.549598693847656,
+          394.8371276855469,
+          220.603515625,
+          405.26171875
+        ]
+      ],
+      "citation": "McCoy, S., Rubin, E., 2008. An engineering-economic model of pipeline transport of CO2 with application to carbon capture and storage. Int. J. Greenh. Gas Control 2 (2), 219–229. https://doi.org/10.1016/s1750-5836(07)00119-3.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020",
+        "C022",
+        "C023",
+        "C029",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Middleton, R.S., Bielicki, J.M., 2009. A comprehensive carbon capture and storage ",
+        "infrastructure model. Energy Proc. 1 (1), 1611–1616."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          402.8305969238281,
+          275.3833312988281,
+          413.25518798828125
+        ],
+        [
+          49.549598693847656,
+          410.767333984375,
+          201.72637939453125,
+          421.1919250488281
+        ]
+      ],
+      "citation": "Middleton, R.S., Bielicki, J.M., 2009. A comprehensive carbon capture and storage infrastructure model. Energy Proc. 1 (1), 1611–1616.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C020",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Middleton, R.S., Yaw, S.P., Hoover, B.A., Ellett, K.M., 2020. SimCCS: an open-source tool ",
+        "for optimizing CO2 capture, transport, and storage infrastructure. Environ. Model. ",
+        "Software 124, 104560."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          418.7614440917969,
+          288.5616760253906,
+          429.18603515625
+        ],
+        [
+          49.549598693847656,
+          426.7549133300781,
+          286.30078125,
+          437.17950439453125
+        ],
+        [
+          49.549598693847656,
+          434.6916198730469,
+          114.59780883789062,
+          445.1162109375
+        ]
+      ],
+      "citation": "Middleton, R.S., Yaw, S.P., Hoover, B.A., Ellett, K.M., 2020. SimCCS: an open-source tool for optimizing CO2 capture, transport, and storage infrastructure. Environ. Model. Software 124, 104560.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C004",
+        "C008",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Nie, S., Cai, G., He, J., Wang, S., Bai, R., Chen, X., et al., 2023. Economic costs and ",
+        "environmental benefits of deploying CCUS supply chains at scale: insights from the ",
+        "source–sink matching LCA–MILP approach. Fuel 344, 128047."
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          442.6850891113281,
+          278.1549377441406,
+          453.10968017578125
+        ],
+        [
+          49.549598693847656,
+          450.6224365234375,
+          288.5559387207031,
+          461.0470275878906
+        ],
+        [
+          49.549598693847656,
+          458.61590576171875,
+          227.18853759765625,
+          469.0404968261719
+        ]
+      ],
+      "citation": "Nie, S., Cai, G., He, J., Wang, S., Bai, R., Chen, X., et al., 2023. Economic costs and environmental benefits of deploying CCUS supply chains at scale: insights from the source–sink matching LCA–MILP approach. Fuel 344, 128047.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C024",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Nnamdi, D., Moghanloo, R.G., 2023. Embedding existing pipelines in design of CO2 ",
+        "transportation networks for optimal sequestration economics [Paper presentation]. ",
+        "In: SPE Annual Technical Conference and Exhibition. https://doi.org/10.2118/ ",
+        "214917-MS. San Antonio, TX, USA. "
+      ],
+      "line_bboxes": [
+        [
+          37.587772369384766,
+          466.5526123046875,
+          277.8631286621094,
+          477.3564147949219
+        ],
+        [
+          49.549598693847656,
+          474.54840087890625,
+          287.3929748535156,
+          484.9729919433594
+        ],
+        [
+          318.5545349121094,
+          52.13418960571289,
+          545.90771484375,
+          62.55878448486328
+        ],
+        [
+          318.5545349121094,
+          60.128299713134766,
+          421.332763671875,
+          70.55289459228516
+        ]
+      ],
+      "citation": "Nnamdi, D., Moghanloo, R.G., 2023. Embedding existing pipelines in design of CO2 transportation networks for optimal sequestration economics [Paper presentation]. In: SPE Annual Technical Conference and Exhibition. https://doi.org/10.2118/ 214917-MS. San Antonio, TX, USA.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014",
+        "C021",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Northern Lights Project. Northern Lights: a European CO2 Transport and Storage ",
+        "Network. https://norlights.com/."
+      ],
+      "line_bboxes": [
+        [
+          306.5920715332031,
+          68.06500244140625,
+          539.7300415039062,
+          78.4896011352539
+        ],
+        [
+          318.5545349121094,
+          76.0584716796875,
+          412.5295715332031,
+          86.48307037353516
+        ]
+      ],
+      "citation": "Northern Lights Project. Northern Lights: a European CO2 Transport and Storage Network. https://norlights.com/.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C013",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R030"
+    },
+    {
+      "id": "R031",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Olson, D., Yaw, S., 2025. Planning amidst uncertainty: Identifying core CCS ",
+        "infrastructure robust to storage uncertainty. Energies 18 (4), 926. https://doi.org/ ",
+        "10.3390/en18040926."
+      ],
+      "line_bboxes": [
+        [
+          306.5920715332031,
+          83.99520874023438,
+          524.9468994140625,
+          94.41980743408203
+        ],
+        [
+          318.5545349121094,
+          91.98931884765625,
+          555.233642578125,
+          102.4139175415039
+        ],
+        [
+          318.5545349121094,
+          99.9827880859375,
+          382.2433776855469,
+          110.40738677978516
+        ]
+      ],
+      "citation": "Olson, D., Yaw, S., 2025. Planning amidst uncertainty: Identifying core CCS infrastructure robust to storage uncertainty. Energies 18 (4), 926. https://doi.org/ 10.3390/en18040926.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R031"
+    },
+    {
+      "id": "R032",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Ravi, N.K., Annaland, M.V.S., Fransoo, J.C., Grievink, J., Zondervan, E., 2017. ",
+        "Development and implementation of supply chain optimization framework for CO2 ",
+        "capture and storage in the Netherlands. Comput. Chem. Eng. 102, 40–51."
+      ],
+      "line_bboxes": [
+        [
+          306.5920715332031,
+          107.91949462890625,
+          532.0414428710938,
+          118.3440933227539
+        ],
+        [
+          318.5545349121094,
+          115.9129638671875,
+          557.5125122070312,
+          126.33756256103516
+        ],
+        [
+          318.5545349121094,
+          123.85031127929688,
+          528.5422973632812,
+          134.27491760253906
+        ]
+      ],
+      "citation": "Ravi, N.K., Annaland, M.V.S., Fransoo, J.C., Grievink, J., Zondervan, E., 2017. Development and implementation of supply chain optimization framework for CO2 capture and storage in the Netherlands. Comput. Chem. Eng. 102, 40–51.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R032"
+    },
+    {
+      "id": "R033",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Rochelle, G.T., 2009. Amine scrubbing for CO2 capture. Science 325 (5948), 1652–1654."
+      ],
+      "line_bboxes": [
+        [
+          306.5920715332031,
+          131.84378051757812,
+          555.6564331054688,
+          142.2683868408203
+        ]
+      ],
+      "citation": "Rochelle, G.T., 2009. Amine scrubbing for CO2 capture. Science 325 (5948), 1652–1654.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R033"
+    },
+    {
+      "id": "R034",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Rubin, E.S., Mantripragada, H., Marks, A., Versteeg, P., Kitchin, J., 2012. The outlook for ",
+        "improved carbon capture technology. Prog. Energy Combust. Sci. 38 (5), 630–671."
+      ],
+      "line_bboxes": [
+        [
+          306.5920715332031,
+          139.83724975585938,
+          557.5557861328125,
+          150.26185607910156
+        ],
+        [
+          318.5545349121094,
+          147.77398681640625,
+          555.0532836914062,
+          158.19859313964844
+        ]
+      ],
+      "citation": "Rubin, E.S., Mantripragada, H., Marks, A., Versteeg, P., Kitchin, J., 2012. The outlook for improved carbon capture technology. Prog. Energy Combust. Sci. 38 (5), 630–671.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R034"
+    },
+    {
+      "id": "R035",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Sannan, S., Jordal, A.B., Roussanaly, S., Giraldi, C., Clapis, A., 2017. Understanding the ",
+        "cost of retrofitting CO2 capture in an integrated oil refinery: reference base case ",
+        "plants. Economic evaluation (SINTEF Rapport No. 2017-00320). Retrieved from. ",
+        "https://sintef.brage.unit.no/sintef-xmlui/bitstream/handle/11250/2616430/2017- ",
+        "00320.pdf?sequence=2."
+      ],
+      "line_bboxes": [
+        [
+          306.5920715332031,
+          155.76806640625,
+          557.5608520507812,
+          166.1926727294922
+        ],
+        [
+          318.5545349121094,
+          163.70040893554688,
+          549.1528930664062,
+          174.50244140625
+        ],
+        [
+          318.5588684082031,
+          171.69387817382812,
+          550.1947021484375,
+          182.1184844970703
+        ],
+        [
+          318.5588684082031,
+          179.63059997558594,
+          555.1430053710938,
+          190.05520629882812
+        ],
+        [
+          318.5588684082031,
+          187.62405395507812,
+          386.5386962890625,
+          198.0486602783203
+        ]
+      ],
+      "citation": "Sannan, S., Jordal, A.B., Roussanaly, S., Giraldi, C., Clapis, A., 2017. Understanding the cost of retrofitting CO2 capture in an integrated oil refinery: reference base case plants. Economic evaluation (SINTEF Rapport No. 2017-00320). Retrieved from. https://sintef.brage.unit.no/sintef-xmlui/bitstream/handle/11250/2616430/2017- 00320.pdf?sequence=2.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R035"
+    },
+    {
+      "id": "R036",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Santibanez-Gonzalez, E.D., 2017. A modelling approach that combines pricing policies ",
+        "with a carbon capture and storage supply chain network. J. Clean. Prod. 167, ",
+        "1354–1369."
+      ],
+      "line_bboxes": [
+        [
+          306.5964050292969,
+          195.6181640625,
+          555.4095458984375,
+          206.0427703857422
+        ],
+        [
+          318.5588684082031,
+          203.5548858642578,
+          542.4588012695312,
+          213.9794921875
+        ],
+        [
+          318.5588684082031,
+          211.54833984375,
+          352.2491149902344,
+          221.9729461669922
+        ]
+      ],
+      "citation": "Santibanez-Gonzalez, E.D., 2017. A modelling approach that combines pricing policies with a carbon capture and storage supply chain network. J. Clean. Prod. 167, 1354–1369.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R036"
+    },
+    {
+      "id": "R037",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Smith, E., Morris, J., Kheshgi, H., Teletzke, G., Herzog, H., Paltsev, S., 2021. The cost of ",
+        "CO2 transport and storage in global integrated assessment modeling. Int. J. Greenh. ",
+        "Gas Control 109, 103367. https://doi.org/10.1016/j.ijggc.2021.103367."
+      ],
+      "line_bboxes": [
+        [
+          306.5964050292969,
+          219.48507690429688,
+          557.5614013671875,
+          229.90968322753906
+        ],
+        [
+          318.5588684082031,
+          227.4791717529297,
+          557.5218505859375,
+          238.28240966796875
+        ],
+        [
+          318.55755615234375,
+          235.47390747070312,
+          524.3927001953125,
+          245.8985137939453
+        ]
+      ],
+      "citation": "Smith, E., Morris, J., Kheshgi, H., Teletzke, G., Herzog, H., Paltsev, S., 2021. The cost of CO2 transport and storage in global integrated assessment modeling. Int. J. Greenh. Gas Control 109, 103367. https://doi.org/10.1016/j.ijggc.2021.103367.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013",
+        "C022",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R037"
+    },
+    {
+      "id": "R038",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Solomon, M.D., Scheffler, M., Heineken, W., Ashkavand, M., Birth-Reichert, T., 2024. ",
+        "Pipeline infrastructure for CO2 transport: cost analysis and design optimization. ",
+        "Energies 17 (12), 2911. https://doi.org/10.3390/en17122911."
+      ],
+      "line_bboxes": [
+        [
+          306.5957336425781,
+          243.41062927246094,
+          552.169921875,
+          253.83523559570312
+        ],
+        [
+          318.55755615234375,
+          251.40408325195312,
+          547.7059326171875,
+          262.150390625
+        ],
+        [
+          318.55926513671875,
+          259.3410949707031,
+          497.0417175292969,
+          269.76568603515625
+        ]
+      ],
+      "citation": "Solomon, M.D., Scheffler, M., Heineken, W., Ashkavand, M., Birth-Reichert, T., 2024. Pipeline infrastructure for CO2 transport: cost analysis and design optimization. Energies 17 (12), 2911. https://doi.org/10.3390/en17122911.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R038"
+    },
+    {
+      "id": "R039",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Sivanathan, J., 2022. EIC insight report on carbon capture, utilisation, and storage ",
+        "(CCUS). Retrieved from. https://www.the-eic.com/EICTV/2022/Dec/CCUS."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          267.3345642089844,
+          544.6760864257812,
+          277.7591552734375
+        ],
+        [
+          318.55926513671875,
+          275.27130126953125,
+          534.179443359375,
+          285.6958923339844
+        ]
+      ],
+      "citation": "Sivanathan, J., 2022. EIC insight report on carbon capture, utilisation, and storage (CCUS). Retrieved from. https://www.the-eic.com/EICTV/2022/Dec/CCUS.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R039"
+    },
+    {
+      "id": "R040",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Sun, L., Chen, W., 2017. Development and application of a multi-stage CCUS source–sink ",
+        "matching model. Appl. Energy 185, 1424–1432."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          283.2654113769531,
+          557.5318603515625,
+          293.69000244140625
+        ],
+        [
+          318.55926513671875,
+          291.2588806152344,
+          455.82598876953125,
+          301.6834716796875
+        ]
+      ],
+      "citation": "Sun, L., Chen, W., 2017. Development and application of a multi-stage CCUS source–sink matching model. Appl. Energy 185, 1424–1432.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C010",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R040"
+    },
+    {
+      "id": "R041",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Sun, L., Liu, Q., Chen, H., Yu, H., Li, L., Li, L., Li, Y., Adenutsi, C.D., 2024. Source-sink ",
+        "matching and cost analysis of offshore carbon capture, utilization, and storage in ",
+        "China. Energy 291, 130137. https://doi.org/10.1016/j.energy.2023.130137."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          299.1955871582031,
+          556.998779296875,
+          309.62017822265625
+        ],
+        [
+          318.55926513671875,
+          307.1890563964844,
+          552.005859375,
+          317.6136474609375
+        ],
+        [
+          318.55926513671875,
+          315.12640380859375,
+          536.5946655273438,
+          325.5509948730469
+        ]
+      ],
+      "citation": "Sun, L., Liu, Q., Chen, H., Yu, H., Li, L., Li, L., Li, Y., Adenutsi, C.D., 2024. Source-sink matching and cost analysis of offshore carbon capture, utilization, and storage in China. Energy 291, 130137. https://doi.org/10.1016/j.energy.2023.130137.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R041"
+    },
+    {
+      "id": "R042",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2012. Continuous-time optimization ",
+        "model for source–sink matching in carbon capture and storage systems. Ind. Eng. ",
+        "Chem. Res. 51 (30), 10015–10020."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          323.119873046875,
+          557.5426635742188,
+          333.5444641113281
+        ],
+        [
+          318.55926513671875,
+          331.11334228515625,
+          552.5745849609375,
+          341.5379333496094
+        ],
+        [
+          318.55926513671875,
+          339.050048828125,
+          418.44537353515625,
+          349.4746398925781
+        ]
+      ],
+      "citation": "Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2012. Continuous-time optimization model for source–sink matching in carbon capture and storage systems. Ind. Eng. Chem. Res. 51 (30), 10015–10020.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R042"
+    },
+    {
+      "id": "R043",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2013. Optimal source–sink matching ",
+        "in carbon capture and storage systems with time, injection rate, and capacity ",
+        "constraints. Environ. Prog. Sustain. Energy 32 (2), 411–416."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          347.0441589355469,
+          557.56689453125,
+          357.46875
+        ],
+        [
+          318.55926513671875,
+          354.98089599609375,
+          541.0220947265625,
+          365.4054870605469
+        ],
+        [
+          318.55926513671875,
+          362.9743347167969,
+          490.4853820800781,
+          373.39892578125
+        ]
+      ],
+      "citation": "Tan, R.R., Aviso, K.B., Bandyopadhyay, S., Ng, D.K., 2013. Optimal source–sink matching in carbon capture and storage systems with time, injection rate, and capacity constraints. Environ. Prog. Sustain. Energy 32 (2), 411–416.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R043"
+    },
+    {
+      "id": "R044",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Tapia, J.F.D., 2024. Optimal multi-period source-sink matching in carbon capture, ",
+        "utilization, and storage (CCUS) systems under neutrosophic environment. J. Clean. ",
+        "Prod. 467, 142967. https://doi.org/10.1016/j.jclepro.2024.142967."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          370.9117126464844,
+          543.529052734375,
+          381.3363037109375
+        ],
+        [
+          318.55926513671875,
+          378.9051818847656,
+          556.806884765625,
+          389.32977294921875
+        ],
+        [
+          318.55926513671875,
+          386.8986511230469,
+          511.88671875,
+          397.3232421875
+        ]
+      ],
+      "citation": "Tapia, J.F.D., 2024. Optimal multi-period source-sink matching in carbon capture, utilization, and storage (CCUS) systems under neutrosophic environment. J. Clean. Prod. 467, 142967. https://doi.org/10.1016/j.jclepro.2024.142967.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R044"
+    },
+    {
+      "id": "R045",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Zhang, S., Zhuang, Y., Liu, L., Zhang, L., Du, J., 2019. Risk management optimization ",
+        "framework for the optimal deployment of carbon capture and storage system under ",
+        "uncertainty. Renew. Sustain. Energy Rev. 113, 109280."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          394.8353576660156,
+          553.5743408203125,
+          405.25994873046875
+        ],
+        [
+          318.55926513671875,
+          402.8294372558594,
+          557.529296875,
+          413.2540283203125
+        ],
+        [
+          318.55926513671875,
+          410.76617431640625,
+          476.4125061035156,
+          421.1907653808594
+        ]
+      ],
+      "citation": "Zhang, S., Zhuang, Y., Liu, L., Zhang, L., Du, J., 2019. Risk management optimization framework for the optimal deployment of carbon capture and storage system under uncertainty. Renew. Sustain. Energy Rev. 113, 109280.",
+      "role": "The exact Zhang2019 abstract,nomenclature and framework state two-stage carbon-tax uncertainty and three financial risk metrics with epsilon-constraint tradeoffs. Geological uncertainty is discussed as literature context. These passages do not establish that the authors own stochastic model calibrates geological storage failure. Onlypp1,2,4 inspected;remaining paper/citations/native model unverified. Financial scenario probabilities are not measured physical failure frequencies.",
+      "verification_status": "primary_text_checked_scoped_support_and_limitations",
+      "claim_links": [
+        "C006",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R045"
+    },
+    {
+      "id": "R046",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Zhang, X., Hou, L., Zhu, Z., 2023. Data generation and verification of pipeline ",
+        "transportation based on integration of simulation and DBSCAN algorithm. Adv. Eng. ",
+        "Technol. Res. 8 (1), 107. https://doi.org/10.56028/aetr.8.1.107.2023."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          418.7596435546875,
+          531.904541015625,
+          429.1842346191406
+        ],
+        [
+          318.55926513671875,
+          426.75311279296875,
+          557.5630493164062,
+          437.1777038574219
+        ],
+        [
+          318.55926513671875,
+          434.6904602050781,
+          519.0545654296875,
+          445.11505126953125
+        ]
+      ],
+      "citation": "Zhang, X., Hou, L., Zhu, Z., 2023. Data generation and verification of pipeline transportation based on integration of simulation and DBSCAN algorithm. Adv. Eng. Technol. Res. 8 (1), 107. https://doi.org/10.56028/aetr.8.1.107.2023.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009",
+        "C012",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R046"
+    },
+    {
+      "id": "R047",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Zero Emissions Platform, 2019. The costs of CO2 storage: post-demonstration CCS in the ",
+        "EU. Retrieved from https://zeroemissionsplatform.eu/document/the-costs-of-co2 ",
+        "-storage/. ."
+      ],
+      "line_bboxes": [
+        [
+          306.597412109375,
+          442.6839294433594,
+          557.5648803710938,
+          453.4324035644531
+        ],
+        [
+          318.5591735839844,
+          450.62310791015625,
+          550.1069946289062,
+          461.0476989746094
+        ],
+        [
+          318.5591735839844,
+          458.6165771484375,
+          349.82403564453125,
+          469.0411682128906
+        ]
+      ],
+      "citation": "Zero Emissions Platform, 2019. The costs of CO2 storage: post-demonstration CCS in the EU. Retrieved from https://zeroemissionsplatform.eu/document/the-costs-of-co2 -storage/. .",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C022",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R047"
+    },
+    {
+      "id": "R048",
+      "pages": [
+        11
+      ],
+      "native_lines": [
+        "Zero Emission Platform, 2021. CO2 storage report. Retrieved from. https://zeroemiss ",
+        "ionsplatform.eu/wp-content/uploads/CO2-Storage-Report.pdf?."
+      ],
+      "line_bboxes": [
+        [
+          306.5967102050781,
+          466.5533142089844,
+          551.6678466796875,
+          476.9779052734375
+        ],
+        [
+          318.5591735839844,
+          474.5473937988281,
+          498.3722839355469,
+          484.97198486328125
+        ]
+      ],
+      "citation": "Zero Emission Platform, 2021. CO2 storage report. Retrieved from. https://zeroemiss ionsplatform.eu/wp-content/uploads/CO2-Storage-Report.pdf?.",
+      "role": "Printed bibliography original; exact edition and original claim support unverified except the explicitly scoped Lee/Zhang checks.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B3-05_bibliography.json#R048"
+    }
+  ]
+}

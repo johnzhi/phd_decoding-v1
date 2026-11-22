@@ -1,0 +1,14 @@
+{
+  "study_id": "B3-05",
+  "source_sha256": "24edcd8c8b194b47bf136cb5224e239f389fccc0798be6985ff416fb6be935fa",
+  "limited_checks": 34,
+  "synthetic_graph_points": 5,
+  "synthetic_tree_cases": 3,
+  "synthetic_weight_cases": 4,
+  "synthetic_horizon_cases": 2,
+  "reported_cost_labels": 14,
+  "native_code_MILP_MC_or_Kazakhstan_case_reproduced": false,
+  "SI_inspected": false,
+  "scoped_citation_edges": 2,
+  "limits": "Unit/arithmetic/synthetic component checks only. Essential SI and native code/version/data unverified. No correction of printed indices,coefficient scale,money horizon,kg/t,m/km,power/energy or residual/abatement naming silently applied. No accepted operating/GHG inputs changed."
+}

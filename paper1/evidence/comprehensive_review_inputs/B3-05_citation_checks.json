@@ -1,0 +1,47 @@
+{
+  "study_id": "B3-05",
+  "source_sha256": "24edcd8c8b194b47bf136cb5224e239f389fccc0798be6985ff416fb6be935fa",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R024",
+      "target_study_id": "B3-14",
+      "target_source_path": "papers/B3-14.pdf",
+      "target_source_sha256": "7a73019d7e1c34d8e2d8dda344d8d6e2ad4e2e280968d4e8bedcdfd47aca751e",
+      "doi": "10.1016/j.apenergy.2014.01.080",
+      "text_read_pages": [
+        1,
+        2,
+        3
+      ],
+      "visually_inspected_pages": [
+        1,
+        2,
+        3
+      ],
+      "supported": "The exact Lee,Tan,Chen2014 paper presents a unified multi-period MILP,explicit time intervals,finite injection/cumulative limits,retrofits and compensatory electricity emissions. This supports the cited retrofit-planning context and establishes existing temporal/energy prior art.",
+      "unresolved": "Onlypp1–3 read as text and inspected as renders for this edge. Not the complete paper,all equations/results/source chain or independent model reproduction. Its injection limits are exogenous,not a calibrated pressure-feedback dataset.",
+      "status": "primary_text_checked_scoped_support_and_limitations"
+    },
+    {
+      "reference_id": "R045",
+      "target_study_id": "B3-43",
+      "target_source_path": "papers/B3-43.pdf",
+      "target_source_sha256": "6cff40ef1712e93a6407821ff6371d458fc5b14891863772e8f21b77e3e268a5",
+      "doi": "10.1016/j.rser.2019.109280",
+      "text_read_pages": [
+        1,
+        2,
+        4
+      ],
+      "visually_inspected_pages": [
+        1,
+        2,
+        4
+      ],
+      "supported": "The exact Zhang2019 abstract,nomenclature and framework state two-stage carbon-tax uncertainty and three financial risk metrics with epsilon-constraint tradeoffs. Geological uncertainty is discussed as literature context.",
+      "unresolved": "These passages do not establish that the authors own stochastic model calibrates geological storage failure. Onlypp1,2,4 inspected;remaining paper/citations/native model unverified. Financial scenario probabilities are not measured physical failure frequencies.",
+      "status": "primary_text_checked_scoped_support_and_limitations"
+    }
+  ]
+}

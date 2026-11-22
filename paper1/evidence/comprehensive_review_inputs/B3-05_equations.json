@@ -1,0 +1,310 @@
+{
+  "study_id": "B3-05",
+  "source_sha256": "24edcd8c8b194b47bf136cb5224e239f389fccc0798be6985ff416fb6be935fa",
+  "equations": [
+    {
+      "id": "E001",
+      "number": 1,
+      "pages": [
+        4
+      ],
+      "printed_transcription": "Minimize EI + TC",
+      "source_bbox": [
+        37,
+        382.9843444824219,
+        292,
+        435.01544189453125
+      ],
+      "native_region_text": "represents the net CO2 emissions from the CCS supply chain, and TC\ndenotes the total cost, including capture, transportation, and storage\nexpenses.:\nMinimize : EI + TC                                              (Eq. 1)\n  G id d b  K   kh     ’         b  2060                  f      h",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E002",
+      "number": 2,
+      "pages": [
+        4
+      ],
+      "printed_transcription": "C_capture = CRF * C_unit * Q",
+      "source_bbox": [
+        37,
+        662.8207397460938,
+        292,
+        714.8518676757812
+      ],
+      "native_region_text": "ogy proposed by Khoyashov et al. (2024), which incorporates capture\nrate factors (CRF), emission capacity (Q, tCO2/year), unit capture costs\n(Cunit,USD/tCO2), and adjustment factors for Kazakhstan.\nCcapture = CRF⋅Cunit⋅Q                                            (Eq.2)\n      bl      h      d            h   d        l            d",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E003",
+      "number": 3,
+      "pages": [
+        4
+      ],
+      "printed_transcription": "C_pipeline = 1294 L^0.90 d^1.59 + 30690 L^0.82 d^0.94 + 8913 L^1.05 d^0.40 + 24547 L^0.78 d^0.79",
+      "source_bbox": [
+        305,
+        534.5809326171875,
+        561,
+        586.612060546875
+      ],
+      "native_region_text": "                   p                                       ,               ,        ,\nmiscellaneous costs assuming a 30-year lifespan:\n                        (                                 (                               (\nCpipeline = 1294 L0.90d1.59) + 30690 L0.82d0.94) + 8913 L1.05d0.40)\n                   (\n + 24547 L0.78d0.79)                                           (Eq. 3)",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E004",
+      "number": 4,
+      "pages": [
+        4
+      ],
+      "printed_transcription": "C_PBF = 8.35 P_PBF + 0.49",
+      "source_bbox": [
+        305,
+        587.9297485351562,
+        561,
+        639.9608764648438
+      ],
+      "native_region_text": "   Pressure booster facilities are required to maintain CO2 flow over\nlong distances. Their capital cost (CPBF, USD) (Eq. (4)) is estimated using\na formula linking cost to installed booster station power (PPBF,MW):\nCPBF = 8.35PPBF + 0.49                                          (Eq. 4)\n  B               i           i      ll d     70 200 k  (S  l              l 2024",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E005",
+      "number": 5,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "P_PBF = [k/(k−1)] * (R T/e) * [(P_out/P_in)^((k−1)/k)−1] * Q",
+      "source_bbox": [
+        37,
+        48,
+        292,
+        79.15383911132812
+      ],
+      "native_region_text": "       k       ((Pout )(k−1)/k  )PPBF =     ⋅RT ⋅         −1 ⋅Q                         (Eq. 5)      k −1  e       Pin",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E006",
+      "number": 6,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "C_DC+IE = a1 * exp(a2 D)",
+      "source_bbox": [
+        37,
+        430.3797607421875,
+        292,
+        482.4108581542969
+      ],
+      "native_region_text": "while a2 determines the exponential cost increase with depth (D, m),\nreflecting higher expenses for deeper wells. These coefficients vary by\nregion, adjusted for geographic similarity in this study.\nCDC+IE = a1⋅exp(a2D)                                            (Eq. 6)\n   Th        i   l         f h                    (E   (7)) f  ll    h   I",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E007",
+      "number": 7,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "C_injection = 8.35 P_inj + 0.49",
+      "source_bbox": [
+        37,
+        482.93377685546875,
+        292,
+        534.9649047851562
+      ],
+      "native_region_text": "   The capital cost of the compressor system (Eq. (7)) follows the In­\nternational Energy Agency (IEA) model, which estimates costs based on\ninstalled booster station power, the same as in the case of transportation.\nCinjection = 8.35Pinj + 0.49                                        (Eq. 7)\n    h    d  l             f   h                   d",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E008",
+      "number": 8,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "P_inj = Q(Delta P_s + Delta P_f)/e = Q[rho g D + f D rho nu^2/(2 d_w)]/e",
+      "source_bbox": [
+        37,
+        593.8248901367188,
+        292,
+        645.8560180664062
+      ],
+      "native_region_text": "                      ,   ,        q      p   ,  (  / )             j               y,\nand dw (m) is the well diameter.\n             (       )\n                                          fDρ                    ρgD + 2dwν2      ΔPs + ΔPfPinj = Q      = Q                                          (Eq. 8)            e                e",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E009",
+      "number": 9,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "EI_total = E_capture + E_transport + E_storage",
+      "source_bbox": [
+        305,
+        48,
+        561,
+        87.48788452148438
+      ],
+      "native_region_text": "formulated as:\nEItotal = Ecapture + Etransport + Estorage                                 (Eq. 9)",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E010",
+      "number": 10,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "CO2_abated = CO2_source − EI_total",
+      "source_bbox": [
+        305,
+        103.60173034667969,
+        561,
+        155.63284301757812
+      ],
+      "native_region_text": "Etransport, and  Estorage (tCO2/year) corresponds to emissions from CO2\ncapture, transport, and storage, respectively.\n   The net CO2 abated can be expressed as:\nCO2 abated = CO2 source −EItotal                                    (Eq. 10)",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E011",
+      "number": 11,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "E_capture = (1−CRF) * CO2_source",
+      "source_bbox": [
+        305,
+        254.40475463867188,
+        561,
+        306.43585205078125
+      ],
+      "native_region_text": "Eq. (11), where CRF is the capture rate factor obtained from Table A1.\nThis equation accounts for the fraction of CO2 successfully captured and\nremoved, with the remainder contributing to total emissions.\nEcapture = (1 −CRF) ⋅CO2 source                                    (Eq. 11)\n   Th                   i   h         ib               i   i         i      il  h    h",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E012",
+      "number": 12,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "EI_transport_pipeline-fugitive = EF_f-pipeline * L",
+      "source_bbox": [
+        305,
+        350.1027526855469,
+        561,
+        402.13385009765625
+      ],
+      "native_region_text": "transported (Eq. (12)), where the EFf−pipeline (tCO2/km/year) is the factor\nof pipeline fugitive emission from IPCC et al., 2023 estimated at 1.4\ntCO2/km/year and L is the pipeline length, m.\n       = EFf−pipeline⋅L                                     (Eq. 12)EItransportpipeline−fugitive",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E013",
+      "number": 13,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "EF_e = sum_{i=1}^n EF * ESS",
+      "source_bbox": [
+        305,
+        395.2867736816406,
+        561,
+        447.31787109375
+      ],
+      "native_region_text": "    Electricity-related emissions from compressor stations are estimated\nusing the emission factor of Kazakhstan’s electricity grid, calculated as:\n  ∑\nEFe =   nEF⋅ESS                                              (Eq. 13)\n        i=1",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E014",
+      "number": 14,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "EI_transport_pbf-energy = EF_e * P_pbf",
+      "source_bbox": [
+        305,
+        522.5057373046875,
+        561,
+        574.536865234375
+      ],
+      "native_region_text": "the electricity required to maintain CO2 flow along the pipeline. The\nenergy consumption of pressure boosters and injection compressors is\nconverted into emissions using:\n      = EFe⋅Ppbf                                            (Eq. 14)EItransportpbf−energy",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E015",
+      "number": 15,
+      "pages": [
+        5
+      ],
+      "printed_transcription": "EI_storage_inject-energy = EF_e * P_inj",
+      "source_bbox": [
+        305,
+        544.6727294921875,
+        561,
+        596.703857421875
+      ],
+      "native_region_text": "converted into emissions using:\n      = EFe⋅Ppbf                                            (Eq. 14)EItransportpbf−energy\n\nEIstorageinject−energy = EFe⋅Pinj                                           (Eq. 15)",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E016",
+      "number": 16,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "M_CO2 = E * A * h * phi * rho",
+      "source_bbox": [
+        37,
+        244.31375122070312,
+        292,
+        296.3448486328125
+      ],
+      "native_region_text": "USDOE method, aligned with the Carbon Sequestration Leadership\nForum (CSLF) framework (Goodman et al., 2011; Bachu, 2008). Effec­\ntive CO2 storage capacity is estimated using:\nMCO2 = E⋅A⋅h⋅φ⋅ρ                                              (Eq. 16)",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E017",
+      "number": 17,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "sum_{i=1}^m x_ij = 1, forall i in s [literal printed index]",
+      "source_bbox": [
+        37,
+        617.749755859375,
+        292,
+        669.7808837890625
+      ],
+      "native_region_text": "enhance pipeline utilization efficiency (Eq. (17)), where xij = 1 if source\ni is connected to sink j.\n∑m\n      xij = 1, ∀i ∈s                                               (Eq. 17)\n i=1",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E018",
+      "number": 18,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "sum_{i=1}^n C_i * x_ij <= D_j, forall j in T",
+      "source_bbox": [
+        37,
+        684.5908813476562,
+        292,
+        736.6220092773438
+      ],
+      "native_region_text": "represents captured CO2 at source i, and Dj represents the maximum\nstorage capacity of sink j.\n∑n\n    Ci ⋅xij ≤Dj, ∀j ∈T                                          (Eq. 18)\n i=1",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    },
+    {
+      "id": "E019",
+      "number": 19,
+      "pages": [
+        6
+      ],
+      "printed_transcription": "sum_{k in routes(i,j)} d_ijk y_ijk = min(d(s_i,t_j)), forall i in s",
+      "source_bbox": [
+        305,
+        99.85893249511719,
+        561,
+        151.89004516601562
+      ],
+      "native_region_text": "hances efficiency by grouping emission sources into shared transport\nnetworks. This method minimizes transport distances and costs while\noptimizing storage utilization.\n ∑                         (   (    ))\n           dijkyijk = min d  si, tj  ∀i ∈s                             (Eq. 19)\nk∈routes(i,j)",
+      "provenance": "Literal mathematical transcription checked against rendered equation; region may include adjacent prose. No index/unit correction applied to printed form."
+    }
+  ]
+}

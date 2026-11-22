@@ -1,0 +1,35 @@
+item,value,unit,scope
+sector_source_count,88,count,Six sector counts total88; included source IDs per radius remain unknown
+sector_emission_total,148.53,Mt/y,"Native selected inventory148.53,not necessarily every plotted scenario baseline"
+selected_inventory_power_share,66.98983370362889,percent,Selected-source denominator differs from national80% statement
+selected_sites_capacity_Gt,5.784,Gt,"Static5784Mt selected sites,not annual injection service"
+selected_over_national_resource_percent,0.9921097770154373,percent,Different resource levels; not an availability probability
+100_full_implied_cost_denominator,115.70165855596385,Mt,Conditional BUSD/USD-per-t quotient; stored versus abated and annual/lifetime basis unresolved
+100_full_transport_cost_share,45.61028900585957,percent,Common cost denominator assumed; no native optimizer replay
+100_partial_implied_cost_denominator,115.697702422812,Mt,Conditional BUSD/USD-per-t quotient; stored versus abated and annual/lifetime basis unresolved
+100_partial_transport_cost_share,46.471749915707335,percent,Common cost denominator assumed; no native optimizer replay
+100_partial_total_premium,3.090128755364807,percent,"Reported deterministic totals,not MC ranking probability"
+100_partial_unit_premium,3.093653788856887,percent,Reported unit-cost arithmetic only
+100_partial_transport_premium,5.040827436037021,percent,Not evidence of stochastic equivalence
+100_unassigned_cost_share,3.9200000000000017,percent,"Residual percentage only,not a verified storage-cost decomposition"
+180_unassigned_cost_share,2.8200000000000003,percent,"Residual percentage only,not a verified storage-cost decomposition"
+100_reported_reuse_saving,9.090909090909092,percent,Scale-free arithmetic; MUSD prose versus BUSD axis remains unresolved
+400_reported_reuse_saving,4.166666666666667,percent,Scale-free arithmetic; MUSD prose versus BUSD axis remains unresolved
+100_prose_MC_relative_halfwidth,18.181818181818183,percent,About18.18% from illustrative9–13around11; not confidence in a population median
+length_consistent_fugitive_example,140.0,t/y,100km analyst length with quoted1.4t/km/y; no actual leak calibration verified
+unconverted_m_length_numeric_example,140000.0,inconsistent raw product,"Deliberately mismatched m and per-km inputs,not a valid emission estimate or demonstrated code behavior"
+m_km_numeric_ratio,1000,ratio,Unit conflict magnitude only; no guessed repair of author implementation
+analyst_MW_to_annual_energy,8760000,kWh/y,"1MW and8760h are analyst assumptions,not native station load or operating schedule"
+analyst_energy_to_tonnes,7726.32,tCO2e/y,"Quoted grid intensity; includes explicit kg-to-t conversion,not native grid verification"
+analyst_capture_Eq2,90000000.0,USD/y,"Dimensionally annual cost,not USD stock; all example source/rate/unit cost analyst choices"
+analyst_capture_Eq11_residual,99999.99999999997,t/y,"Uncaptured fraction; no heat,electricity,upstream or utility suppliers represented"
+analyst_Eq5_universalR_raw_product,7139.695680645898,unresolved mol/kg basis,Literal numeric product with analyst inputs; cannot interpret directly as native MW
+analyst_dimensioned_ideal_gas_compression,0.1622289407099727,MW,"Analyst R/M and W/MW conversion,not a correction/reproduction of native code or validated dense-CO2 compression"
+analyst_Eq16_volume_component,14.0,Mt,"All geometry/properties/efficiency analyst choices; static mass only,no annual pressure limit"
+analyst_Eq3_L50,786465.1619322186,source coefficient numeric output,"Literal units km/m assumed; coefficient currency/vintage/original scale unverified,not accepted pipeline cost"
+analyst_Eq3_L100,1481557.1187920673,source coefficient numeric output,"Literal units km/m assumed; coefficient currency/vintage/original scale unverified,not accepted pipeline cost"
+analyst_Eq3_L200,2811659.5388245475,source coefficient numeric output,"Literal units km/m assumed; coefficient currency/vintage/original scale unverified,not accepted pipeline cost"
+synthetic_DBSCAN_cluster_size,4,count,"Four chain points neighbor-connected at eps100,min_samples2; isolated fifth is noise"
+synthetic_DBSCAN_cluster_diameter,270.0,km,270km diameter does not violate100km neighbor epsilon
+synthetic_DBSCAN_max_centroid_distance,135.0,km,135km from centroid; epsilon is not guaranteed hub-distance bound
+synthetic_DBSCAN_MST_length,270.0,km,"Synthetic Euclidean component,not native Kazakhstan GIS/routing"
