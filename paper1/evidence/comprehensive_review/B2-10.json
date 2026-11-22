@@ -1,0 +1,1321 @@
+{
+  "study_id": "B2-10",
+  "source_sha256": "7f4394948f17ba0dea0bbdc4e7bd05c213d061313a83f6d13f51b3ee362bb260",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All nine retained pages and internal Appendix A read as text and visually inspected, plus thirteen magnifications. Four numbered figures, two tables, all 24 appendix line/heatmap panels, one numbered objective and nine references read. Sixty limited diagnostics and a fifteen-design taxonomy preserve count/identity, metric/calendar, buffer and scope questions. One original has scoped support; eight originals and ten native dependencies remain unverified. No native MoMilp/CPLEX, process, geological or LCI model reproduced.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "original_model_status": "printed_taxonomy_units_and_analyst_cost_buffer_LPs_checked_native_MoMilp_CPLEX_process_field_LCI_not_reproduced",
+  "supplement_status": "internal_AppendixA_read_no_embedded_assets_or_explicit_external_notice_external_assets_unverified",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract and keywords",
+      "assessment": "Fraga, Korre, Nie and Şevket Durucan; GHGT-17, 20–24 October 2024 Calgary. SSRN5070419 is the printed identifier/link, not a separately verified DOI. PDF metadata author Suzanne Killick is not substituted for the named authors. No explicit licence notice identified."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "1 Introduction",
+      "assessment": "Read historical 61%/119 project claim, European/UK policy, Northern Lights and national integration motivation. These are 2023/2024 context, not present operational access or field permission."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        2
+      ],
+      "scope": "2 Cost-data methodology",
+      "assessment": "Read four-step framework and delegated vessel, conditioning, tank and pipeline models. Three ship capacities 6/20/50 kt and pipe diameter alternatives read; no complete cost/state arrays supplied."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        2,
+        3
+      ],
+      "scope": "2 Model scope and Equation1",
+      "assessment": "Figure 1 shows broad cost/LCI/stochastic/multi-objective capability; p 3 explicitly restricts this implementation to deterministic 30 year annual cost minimization. No native constraints/domains or separate storage-maximization objective printed."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        3
+      ],
+      "scope": "2 Geological and buffer assumptions",
+      "assessment": "UK platform/wells versus NL/SM subsea cost strategies delegated to R6. Intermediate storage uses one cargo of largest upstream ship; this is not a demonstrated inventory/weather/availability envelope."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "3 Case boundaries and identities",
+      "assessment": "Read UK NZT/Teesside/Solent and NL/SM geographic analogues, source/hub/field lists and map. Yara/Norcem and hub numbers differ between prose/captions/figures; no missing node 8 inferred."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4
+      ],
+      "scope": "3 Assumed emission profiles",
+      "assessment": "UK2016→2034 kt/year, NL+SM1001→28402 kt/year and 333.8 Mt horizon total read. Complete source/year arrays absent; graph/index differences remain open."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        4
+      ],
+      "scope": "3 Scenario design/Table1",
+      "assessment": "Four drivers and all listed cases read. Plots/second table identify 15 designs including 3 bases and 12 alternatives. Table 1 omits standalone storage-delay z while Table 2 and appendix include it."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        5
+      ],
+      "scope": "4 Results and metrics",
+      "assessment": "Read cost/unit/levelized 10% metrics, emission, fleet, trips and wells as intended metrics. No annual well series, exact cost formulas/denominators or native optimum supplied."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        5
+      ],
+      "scope": "4 Table2 all entries",
+      "assessment": "Every growth/delay/interconnection row and printed range preserved. Repeated−4.8% endpoints, positive descending 5.8→1.3%, mixed signs and prose/plot differences require native arrays; no signs silently restored."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        6
+      ],
+      "scope": "4 Figure4 all nine panels",
+      "assessment": "Three contexts each with unit/levelized scatter, total-cost bars and relative-change heatmap inspected/magnified. No exact cost values digitized from unannotated points."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        6
+      ],
+      "scope": "5 Conclusions",
+      "assessment": "Read integration variability, fleet-sharing, SM→UK synergies and unchanged x configuration claim. Optional-access economics and discounted metrics need matched objectives, mass and timing; no field-causal or universal integration benefit inferred."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        6
+      ],
+      "scope": "Acknowledgements",
+      "assessment": "Read IDRIC93, NERC CDT, Imperial sponsorship, ACTiON327340 and ALIGN271501. Funding does not supply code, data or model rights."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        7
+      ],
+      "scope": "AppendixA/A.1 Emission profile",
+      "assessment": "All six line/heatmap panels read, including legends, axes and 30 year labels. First-year UK graph appears below 1000 kt despite prose 2016 kt; retain as apparent profile/index question, without invented exact pixels."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        7
+      ],
+      "scope": "A.2 Total cost",
+      "assessment": "All six annual-cost/heatmap panels read and magnified through lower panels. Global−71/+316% matches body. Different period-cost denominators and early investment spikes remain separate from levelized costs."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        8
+      ],
+      "scope": "A.3 Ship fleet",
+      "assessment": "All six line/heatmap panels inspected. Counts aggregate different cargo classes; −3/+5 global extrema agree. No exact native capacity mix, load, downtime or integer schedule reconstructed."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        8
+      ],
+      "scope": "A.4 Ship trips",
+      "assessment": "All six panels inspected. Global−212/+343 trips agrees. NL+SM heatmap caption says base case 1 although its context is 2; empty/loaded trip definitions and load mix unavailable."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        8,
+        9
+      ],
+      "scope": "Complete bibliography and asset scope",
+      "assessment": "All nine printed references read, including R1 continuing onto p 9. R5 has a scoped retained-original check; eight other originals and ten native dependencies remain unverified. No embedded assets, separate supplement/code/data notice or author contact."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "V01",
+      "pages": [
+        2
+      ],
+      "object": "Figure1 four-step framework, complete panels",
+      "inspection": "All cost/LCI blocks, pipeline/batch/tank/well sizing, incidence matrix arrows, green postcapture boundary, model options and CPLEX label inspected/magnified. The broad diagram does not establish GHG results or stochastic/multi-objective implementation in this cost-only paper."
+    },
+    {
+      "id": "V02",
+      "pages": [
+        3
+      ],
+      "object": "Figure2 map, legend, caption and node labels",
+      "inspection": "Emitter red diamonds, blue intermediate squares/ship routes, green fields and black pipes read. Map hubs 11/12 differ from caption/prose 10/11; UK Bunter Closure 36 appears on map but not field list 13–14. No exact coordinate/route file."
+    },
+    {
+      "id": "V03",
+      "pages": [
+        4
+      ],
+      "object": "Figure3 stacked30year profile, all ten legend classes",
+      "inspection": "Eight grey/black NL+SM named classes and orange NZT/Solent read. Yara(2)/Norcem(1) reverse prose/caption identities. Duplicate black shades and absent node 8 are not resolved by assumption."
+    },
+    {
+      "id": "V04",
+      "pages": [
+        4
+      ],
+      "object": "Table1 every row/column",
+      "inspection": "Bases 0/1/2; growtha/b/c/d; source-delaye/f/g/h; storagey; accessx/i. Standalone storage cells n/a omit z despite later outputs. SM header differs from NL+SM context labels."
+    },
+    {
+      "id": "V05",
+      "pages": [
+        5
+      ],
+      "object": "Table2 every context, baseline, scenario and range",
+      "inspection": "Growth total 6.4–37.1%, levelized−4.8→−4.8%, unit 5.8→1.3%; source delay−1.3→.6/1.4→9.8/7.1→27.9%; storage 7.7→7.8/7.7→7.8/−.4→4.6%; access total/unit−.3%, levelized−.5→3.3%. Literal signs/order retained."
+    },
+    {
+      "id": "V06",
+      "pages": [
+        6
+      ],
+      "object": "Figure4 integrated scatter/bar/heatmap",
+      "inspection": "Labels 0, a, c, e, g, i, x, y; grey levelized/orange unit€/t and M€ bars, then percent heatmap. Growth a increases grey metric while c decreases; x levelized rises. No exact raw values or repaired ranges."
+    },
+    {
+      "id": "V07",
+      "pages": [
+        6
+      ],
+      "object": "Figure4 UK scatter/bar/heatmap",
+      "inspection": "Labels 1, b, f; f has visibly higher levelized/unit metrics, b total-cost increase. Different denominators and time profiles not supplied."
+    },
+    {
+      "id": "V08",
+      "pages": [
+        6
+      ],
+      "object": "Figure4 NL+SM scatter/bar/heatmap",
+      "inspection": "Labels 2, d, h, z; d decreases grey cost and raises total; delay/storage signs require common-basis arrays. Shared colorbar−6 to 38% does not supply exact cell values."
+    },
+    {
+      "id": "V09",
+      "pages": [
+        7
+      ],
+      "object": "A.1 integrated line and heatmap",
+      "inspection": "All eight designs/legend, annual ktCO2 and percent variation read. Growth/delay changes known profiles, not a stochastic failure process; colorbar−48/+50%."
+    },
+    {
+      "id": "V10",
+      "pages": [
+        7
+      ],
+      "object": "A.1 UK line and heatmap",
+      "inspection": "Legend f, b, 1; apparent first-year base below 1000 kt then near 2016 kt contrasts prose endpoint statement. Colorbar−62/+61%, growth timing and delay-cell calendar unverified."
+    },
+    {
+      "id": "V11",
+      "pages": [
+        7
+      ],
+      "object": "A.1 NL+SM line and heatmap",
+      "inspection": "Legend 2, d, h, z, 0–55000 kt scale, −54/+54% colorbar. Complete annual source values not reconstructible from endpoints alone."
+    },
+    {
+      "id": "V12",
+      "pages": [
+        7
+      ],
+      "object": "A.2 integrated annual cost and heatmap",
+      "inspection": "All eight legends and 30 years, annual M€, cost spikes and−57/+143% relative scale read. A high percentage on a low-cost year is not a horizon cost increase."
+    },
+    {
+      "id": "V13",
+      "pages": [
+        7
+      ],
+      "object": "A.2 UK annual cost and heatmap",
+      "inspection": "Legend 1, b, f, 0–1200 M€ scale and−46/+179% read. Initial and delayed capital spikes need native investment timing."
+    },
+    {
+      "id": "V14",
+      "pages": [
+        7
+      ],
+      "object": "A.2 NL+SM annual cost and heatmap",
+      "inspection": "Legend 2, d, h, z, 0–1000 M€ scale, −71/+316% read, including separately magnified lower rows. No exact schedules digitized."
+    },
+    {
+      "id": "V15",
+      "pages": [
+        8
+      ],
+      "object": "A.3 integrated fleet and heatmap",
+      "inspection": "Eight design legends, counts to 25 and−3/+5 ship changes read. Connected curves do not specify the 6/20/50 kt mix or individual ship redeployment."
+    },
+    {
+      "id": "V16",
+      "pages": [
+        8
+      ],
+      "object": "A.3 UK fleet and heatmap",
+      "inspection": "Legendf, b, 1; roughly 3 base ships, 4 in high-growth later years; 0/+1 change scale. Exact capacity/load mix and CPLEX decisions absent."
+    },
+    {
+      "id": "V17",
+      "pages": [
+        8
+      ],
+      "object": "A.3 NL+SM fleet and heatmap",
+      "inspection": "Legendz, h, d, 2 and−1/+5 scale inspected through lower axes. Qualitative fleet pooling is not independently reconstructed physical scheduling."
+    },
+    {
+      "id": "V18",
+      "pages": [
+        8
+      ],
+      "object": "A.4 integrated trips and heatmap",
+      "inspection": "All legends, trips/year scale to 1600 and−212/+333 changes read. No route/load or empty-leg definitions supplied."
+    },
+    {
+      "id": "V19",
+      "pages": [
+        8
+      ],
+      "object": "A.4 UK trips and heatmap",
+      "inspection": "Legendf, b, 1, 0–400 trips and 0/+127 scale read. Coincident trips under differing mass do not prove conservation failure without cargo mix/load data."
+    },
+    {
+      "id": "V20",
+      "pages": [
+        8
+      ],
+      "object": "A.4 NL+SM trips and heatmap",
+      "inspection": "Legendz, h, d, 2 and−38/+343 scale read. Printed heatmap says relation to base case 1 although context/row is 2. Mapping kept open rather than repaired."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        3
+      ],
+      "printed": "Eq1: min Sum_(k,i,j,t) TC_(k,i,j,t)",
+      "check": "Only numbered equation. TC in euros by mode, origin, destination, year. No explicit discount factor, set domains, capital/operating decomposition, mass/asset/injection constraints; TC could embed discounting, which remains unverified."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        2,
+        3
+      ],
+      "printed": "Prose intermediate storage = one cargo of largest upstream ship",
+      "check": "Sizing assumption rather than time-resolved inventory or reliability derivation."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        4
+      ],
+      "printed": "Prose growth2%p.a.; delay6years; xaccess after10years",
+      "check": "Which source/year is compounded or shifted, horizon truncation and common sunk assets require native definitions."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        5
+      ],
+      "printed": "Levelized metric discounted at10%",
+      "check": "No complete numerator/denominator, base year or period convention printed. Unit cost and total cost definitions remain incomplete."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        4
+      ],
+      "printed": "Analyst endpoint sums and horizon average",
+      "check": "Combined 3017/30436 kt endpoints and 333.8 Mt/30 years are source accounting, not thirty reconstructed flows."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        4
+      ],
+      "printed": "Analyst nondecreasing-profile endpoint bounds",
+      "check": "Assumption-specific total interval illustrates nonuniqueness; not a fitted source profile."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        4,
+        7
+      ],
+      "printed": "Analyst compound growth(1.02)^n",
+      "check": "29 versus 24/30 interval comparisons disclose calendar sensitivity without choosing an unprovided native start year."
+    },
+    {
+      "id": "E08",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "printed": "Analyst nested optional-choice objective property",
+      "check": "Globally minimized same objective cannot rise when optional choices expand a common feasible set. Different service, cost definitions or forced investments invalidate a simple comparison."
+    },
+    {
+      "id": "E09",
+      "pages": [
+        3,
+        5,
+        6
+      ],
+      "printed": "Analyst two-plan TC/PV counterexample",
+      "check": "Base plan[0, 101] versus optional[100, 0] reduces undiscounted total 101→100 but raises discounted cost and conditional levelized cost at 10%. Does not establish which convention the authors used."
+    },
+    {
+      "id": "E10",
+      "pages": [
+        3
+      ],
+      "printed": "Analyst inventory LP mass balance",
+      "check": "Full 20 unit tank with 2 units/hour withdrawal covers 10 hours; 12 hours without arrivals requires 4 unmet unless capacity/initial stock 24. Conditional illustration, not native weather or buffer sizing."
+    },
+    {
+      "id": "E11",
+      "pages": [
+        2
+      ],
+      "printed": "Analyst inch/metre and kt/tonne conversions",
+      "check": "Exact unit conversions do not establish hydraulic pipeline capacity or annual vessel throughput."
+    },
+    {
+      "id": "E12",
+      "pages": [
+        7,
+        8
+      ],
+      "printed": "Analyst extrema across three contexts",
+      "check": "Appendix outer ranges reconcile cost/fleet/trips headlines, not native optimization or observed event distributions."
+    }
+  ],
+  "variables": [
+    {
+      "id": "X01",
+      "pages": [
+        3
+      ],
+      "symbol": "k,i,j,t,TC(k,i,j,t)",
+      "definition": "Transport mode, origin, destination, annual period and euros. Missing formal sets, incidence matrix and TC decomposition."
+    },
+    {
+      "id": "X02",
+      "pages": [
+        2,
+        3
+      ],
+      "symbol": "Ship cargo and pipeline diameter choices",
+      "definition": "6/20/50 ktCO2 and 6/12/18 inch onshore, 36/40/48 inch offshore; no native mass-flow, pressure or equipment-state mapping."
+    },
+    {
+      "id": "X03",
+      "pages": [
+        3,
+        4
+      ],
+      "symbol": "Annual CO2 profile and horizon total",
+      "definition": "Assumed ktCO2/year and 333.8 Mt across 30 years. Not chain-GHG emissions, capture efficiency or verified injected/retained mass."
+    },
+    {
+      "id": "X04",
+      "pages": [
+        4
+      ],
+      "symbol": "Scenario/base IDs and network contexts",
+      "definition": "0 integrated, 1 UK, 2 NL+SM; twelve alternative letters. Table 1 SM shorthand and absent z preserved."
+    },
+    {
+      "id": "X05",
+      "pages": [
+        4
+      ],
+      "symbol": "Source/hub/field IDs",
+      "definition": "Yara/Norcem reversal, hubs 10/11 versus 11/12, missing 8 and UKfield 36 caption gap unresolved."
+    },
+    {
+      "id": "X06",
+      "pages": [
+        4,
+        5
+      ],
+      "symbol": "Growth, delays and interconnection timing",
+      "definition": "2%per annum, 6 year source/storage changes, 10 year access; exact array/calendar/sunk-asset mapping not provided."
+    },
+    {
+      "id": "X07",
+      "pages": [
+        5,
+        6
+      ],
+      "symbol": "Total,unit,levelized costs",
+      "definition": "M€, €/t, 10%discount; exact timing, denominator and included service need native definitions."
+    },
+    {
+      "id": "X08",
+      "pages": [
+        5,
+        7,
+        8
+      ],
+      "symbol": "Annual cost/profile/fleet/trip changes",
+      "definition": "Percent relative to corresponding baseline versus integer ship/trip deltas; neither probabilities nor universal sensitivities."
+    },
+    {
+      "id": "X09",
+      "pages": [
+        5
+      ],
+      "symbol": "Accumulated wells",
+      "definition": "Named result metric without supplied annual table/plot or sufficient field model."
+    },
+    {
+      "id": "X10",
+      "pages": [
+        2,
+        3,
+        7,
+        8
+      ],
+      "symbol": "Buffer and operational state variables",
+      "definition": "One-cargo design rule; no complete inventory, arrival, loaded/emptytrip, weather, availability or pressure state model printed."
+    },
+    {
+      "id": "X11",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "symbol": "GHG and multi-objective framework",
+      "definition": "Model-family capabilities shown, but this implementation is deterministic cost-only. No complete capture utility or actual inventory accepted."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1
+      ],
+      "claim": "Shipping can postpone capital investment and enable scale/integration benefits.",
+      "assessment": "Conditional comparative planning hypothesis; no observed causal deployment evidence.",
+      "reference_ids": []
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1,
+        3
+      ],
+      "claim": "Study evaluates 15 what-if scenarios with three base networks.",
+      "assessment": "Plotted labels resolve 15 total designs including 3 bases and 12 alternatives; no three extra alternatives invented.",
+      "reference_ids": []
+    },
+    {
+      "id": "C03",
+      "pages": [
+        1,
+        3
+      ],
+      "claim": "MoMilp includes multi-period, multi-mode and multi-objective capabilities.",
+      "assessment": "P3 explicitly excludes stochasticity and multi-objective optimization from this implementation.",
+      "reference_ids": []
+    },
+    {
+      "id": "C04",
+      "pages": [
+        1,
+        3
+      ],
+      "claim": "Boundary covers elements after capture.",
+      "assessment": "Capture heat, capture investment and whole-chain avoidance do not follow from postcapture costs.",
+      "reference_ids": []
+    },
+    {
+      "id": "C05",
+      "pages": [
+        1
+      ],
+      "claim": "European projects grew 61% to 119 in 2023 with policy support.",
+      "assessment": "Historical cited snapshot, not current operation or allocation; originals unverified.",
+      "reference_ids": [
+        "R01",
+        "R02"
+      ]
+    },
+    {
+      "id": "C06",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Northern Lights/UK/SM are advanced analogues for cross-network planning.",
+      "assessment": "Regional scenario context, not proof of actual access, permits or current fleet readiness.",
+      "reference_ids": [
+        "R01",
+        "R02"
+      ]
+    },
+    {
+      "id": "C07",
+      "pages": [
+        2
+      ],
+      "claim": "Bottom-up costs incorporate regional differences.",
+      "assessment": "Exact assumptions, price years and native costing models are delegated; not reproduced.",
+      "reference_ids": [
+        "R03",
+        "R04",
+        "R05"
+      ]
+    },
+    {
+      "id": "C08",
+      "pages": [
+        2
+      ],
+      "claim": "Three vessel and pipeline size classes support network choice.",
+      "assessment": "Sizes read; hydraulic capacities, pressure/composition and unit operating inventories absent.",
+      "reference_ids": [
+        "R03",
+        "R04",
+        "R05"
+      ]
+    },
+    {
+      "id": "C09",
+      "pages": [
+        2
+      ],
+      "claim": "Figure 1 provides cost/LCI and optimization framework.",
+      "assessment": "Broad family diagram does not supply GHG results, complete utility quantities or implemented stochastic/multiobjective cases.",
+      "reference_ids": []
+    },
+    {
+      "id": "C10",
+      "pages": [
+        3
+      ],
+      "claim": "Storage costs represent platform/well UK and subsea NL/SM strategies.",
+      "assessment": "Cost model lineage not a pressure-constrained annual field dataset.",
+      "reference_ids": [
+        "R06"
+      ]
+    },
+    {
+      "id": "C11",
+      "pages": [
+        3
+      ],
+      "claim": "Intermediate buffer holds one cargo of highest upstream ship.",
+      "assessment": "Heuristic sizing is not sufficient proof of delayed-arrival or continuous-injection feasibility.",
+      "reference_ids": []
+    },
+    {
+      "id": "C12",
+      "pages": [
+        3
+      ],
+      "claim": "Thirty-year yearly deterministic network cost minimization is implemented.",
+      "assessment": "Only aggregate Equation 1 printed; full constraints, decision domains and code unavailable.",
+      "reference_ids": [
+        "R03",
+        "R04",
+        "R05",
+        "R07",
+        "R08"
+      ]
+    },
+    {
+      "id": "C13",
+      "pages": [
+        3
+      ],
+      "claim": "Broader models can represent stochasticity and multiple objectives.",
+      "assessment": "R5 scoped original supports multiobjective/LCI capability after capture; thesis/code/full model unverified.",
+      "reference_ids": [
+        "R05",
+        "R09"
+      ]
+    },
+    {
+      "id": "C14",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "Named sources, hubs and fields define case topology.",
+      "assessment": "Yara/Norcem and hub numbering differ across graphics/prose; exact node/route identities remain open.",
+      "reference_ids": []
+    },
+    {
+      "id": "C15",
+      "pages": [
+        4
+      ],
+      "claim": "UK profile 2016→2034 kt andNL+SM1001→28402 kt sum to 333.8 Mt over horizon.",
+      "assessment": "Endpoints and total read; full annual profiles not supplied, apparent UK first-year graph/index mismatch remains.",
+      "reference_ids": []
+    },
+    {
+      "id": "C16",
+      "pages": [
+        4
+      ],
+      "claim": "Growth uses 2%per annum and source delays six years.",
+      "assessment": "Actual compounding start, delayed increment/whole stream and truncated-volume conventions unprovided.",
+      "reference_ids": []
+    },
+    {
+      "id": "C17",
+      "pages": [
+        4,
+        5
+      ],
+      "claim": "Storage delay of Aurora is studied in integrated and standalone designs.",
+      "assessment": "z absent from Table 1 but appears in Table 2/plots; do not infer a missing third scenario.",
+      "reference_ids": []
+    },
+    {
+      "id": "C18",
+      "pages": [
+        4
+      ],
+      "claim": "x opens NL+SM to UK after 10 years and iopens UK toSM.",
+      "assessment": "Exact optional/mandatory route and common fixed-asset constraints not printed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C19",
+      "pages": [
+        5
+      ],
+      "claim": "Annual emission changes reach approximately±62%.",
+      "assessment": "Appendix context extrema lie within that headline bound; handled CO2 profiles are not lifecycle emissions.",
+      "reference_ids": []
+    },
+    {
+      "id": "C20",
+      "pages": [
+        5
+      ],
+      "claim": "Annual optimal cost changes range−71% to 316%.",
+      "assessment": "Appendix extrema agree; independent accounting does not reproduce CPLEX runs or total-horizon effects.",
+      "reference_ids": []
+    },
+    {
+      "id": "C21",
+      "pages": [
+        5
+      ],
+      "claim": "Fleet changes range−3 to+5 ships.",
+      "assessment": "Appendix context extrema agree; cargo mix, utilization, integer schedule and operating validity remain missing.",
+      "reference_ids": []
+    },
+    {
+      "id": "C22",
+      "pages": [
+        5
+      ],
+      "claim": "Trip changes range−212 to+343 peryear.",
+      "assessment": "Appendix extrema agree; loaded/empty definitions and route schedules unprovided.",
+      "reference_ids": []
+    },
+    {
+      "id": "C23",
+      "pages": [
+        5
+      ],
+      "claim": "Higher growth raises total cost and mostly lowers levelized/unit costs.",
+      "assessment": "Literal repeated−4.8%levelized and positive descending unit range conflict with broad wording/varied plot signs; no repair adopted.",
+      "reference_ids": []
+    },
+    {
+      "id": "C24",
+      "pages": [
+        5
+      ],
+      "claim": "Source delay has limited total-cost effect but raises cost pertonne.",
+      "assessment": "Different handled volume/timing can alter denominators; exact arrays required before attributing to logistics alone.",
+      "reference_ids": []
+    },
+    {
+      "id": "C25",
+      "pages": [
+        5
+      ],
+      "claim": "Storage delay raises total/levelized/unit costs.",
+      "assessment": "Table's−.4%unit endpoint is an exception; exact common-basis metric mapping needed.",
+      "reference_ids": []
+    },
+    {
+      "id": "C26",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Interconnection reduces cost, while x raises levelized cost.",
+      "assessment": "Different total/PV definitions can produce this combination; no error inferred solely from optionality.",
+      "reference_ids": []
+    },
+    {
+      "id": "C27",
+      "pages": [
+        6
+      ],
+      "claim": "Integrated networks reduce cost variability across most scenarios.",
+      "assessment": "No explicit variance/normalization statistic supplied; different denominators/service volumes need matching.",
+      "reference_ids": []
+    },
+    {
+      "id": "C28",
+      "pages": [
+        6
+      ],
+      "claim": "Integrated base has a lower optimal fleet, implying sharing/trip benefits.",
+      "assessment": "Qualitative plotted comparison, not an independently reconstructed capacity mix or causal field benefit.",
+      "reference_ids": []
+    },
+    {
+      "id": "C29",
+      "pages": [
+        6
+      ],
+      "claim": "SM→UK marginally lowers costs through trip synergies.",
+      "assessment": "Native common-service schedules and attribution remain unavailable.",
+      "reference_ids": []
+    },
+    {
+      "id": "C30",
+      "pages": [
+        6
+      ],
+      "claim": "UK→NL after 10 years does not alter network configuration.",
+      "assessment": "Cost/LC variation and any timing changes need exact outputs; unchanged topology alone need not imply identical cash flow.",
+      "reference_ids": []
+    },
+    {
+      "id": "C31",
+      "pages": [
+        6
+      ],
+      "claim": "Cost differentials must be material to switch after infrastructure is in place.",
+      "assessment": "Conditional sunk-asset interpretation, not a universal switching threshold or measured access rule.",
+      "reference_ids": []
+    },
+    {
+      "id": "C32",
+      "pages": [
+        7
+      ],
+      "claim": "Appendix A provides detailed emission and cost comparisons.",
+      "assessment": "All panels read/magnified, but unannotated curves are not exact annual arrays; UK first-year/label mapping open.",
+      "reference_ids": []
+    },
+    {
+      "id": "C33",
+      "pages": [
+        8
+      ],
+      "claim": "Fleet/trip appendix supports design changes.",
+      "assessment": "All panels inspected; NLtrip heatmap's base case 1 caption differs from context 2. No exact native schedule.",
+      "reference_ids": []
+    },
+    {
+      "id": "C34",
+      "pages": [
+        5,
+        8
+      ],
+      "claim": "Accumulated wells is a reported evaluation metric.",
+      "assessment": "No annual well output provided in retained appendix; no well-count or injection-model reproduction.",
+      "reference_ids": []
+    },
+    {
+      "id": "C35",
+      "pages": [
+        8,
+        9
+      ],
+      "claim": "References support model/data lineage.",
+      "assessment": "One exact original has scoped support; eight originals and ten native dependencies remain unverified.",
+      "reference_ids": []
+    },
+    {
+      "id": "C36",
+      "pages": [
+        6,
+        9
+      ],
+      "claim": "Funded model-family work supports this analysis.",
+      "assessment": "Acknowledgements do not supply versioned code, data, rights or complete model availability.",
+      "reference_ids": [
+        "R07",
+        "R08",
+        "R09"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        8,
+        9
+      ],
+      "citation": "DESNZ, Carbon Capture, Usage and Storage: A Vision to Establish a Competitive Market,2023. Available:https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero.",
+      "role": "UK policy context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05",
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        9
+      ],
+      "citation": "Global CCS Insitute, CCS in Europe: Regional Overview,2023. Available:https://www.globalccsinstitute.com/resources/publications-reports-research/ccs-in-europe-regional-overview/.",
+      "role": "Historical Europe status",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05",
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        9
+      ],
+      "citation": "D.M.Fraga,A.Korre,Z.Nie,S.Durucan, Multi-Period Cost Optimization of Multi-Mode Carbon Capture and Storage Chains,SSRN Electron.J.,Apr.2021,doi:10.2139/ssrn.3821770.",
+      "role": "Earlier cost model, not substituted by the 2024 paper",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07",
+        "C08",
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        9
+      ],
+      "citation": "D.M.Fraga,R.Skagestad,N.H.Eldrup,A.Korre,H.A.Haugen,Z.Nie,S.Durucan, Design of a multi-user CO2 intermediate storage facility in the Grenland region of Norway,IJGGC112,103514,Dec.2021,doi:10.1016/J.IJGGC.2021.103514.",
+      "role": "Hub/conditioning cost design",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07",
+        "C08",
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        9
+      ],
+      "citation": "D.M.Fraga,A.Korre,Z.Nie,S.Durucan, Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains,Carbon Capture Sci.Technol.,100190,Jan.2024,doi:10.1016/J.CCST.2024.100190.",
+      "role": "Model-family/postcapture multiobjective and LCI lineage; scoped original check",
+      "verification_status": "primary_text_checked_scoped",
+      "claim_links": [
+        "C07",
+        "C08",
+        "C12",
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        9
+      ],
+      "citation": "Z.Nie,A.Korre,N.Elahi,S.Durucan, Real Options Analysis of CO2 Transport and Storage in the UK Continental Shelf under Geological and Market Uncertainties and the Viability of Subsidies for Market Development,Energy Procedia114,6612–6622,Jul.2017,doi:10.1016/j.egypro.2017.03.1815.",
+      "role": "Geological-storage cost model lineage",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        9
+      ],
+      "citation": "ALIGN, ALIGN-CCUS Project Work Package2 Transport,2019.",
+      "role": "Transport project models",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        9
+      ],
+      "citation": "A.Korre,S.Durucan,F.Neele,S.Hurter,R.Pawar,R.Chalaturnyk,G.Zambrano,A.Estublier,P.Coussy,S.Anghel,D.Maclean,W.Sturgess,O.Burachok,F.Devaux,R.Arts,J.Pearson,T.Espie,D.Fujii, ACTiON ERA-NET ACT project:Advanced multitemporal modelling and optimisation of CO2 transport,utilisation and storage networks,2022.https://ssrn.com/abstract=4288940.",
+      "role": "Multitemporal project methods",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        9
+      ],
+      "citation": "D.Martins Fraga, Techno-economic and environmental optimisation of batch-wise dominant Carbon Capture and Storage chains,London,Aug.2023.",
+      "role": "Thesis/model-family details",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R09"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Exact MoMilp/CPLEX implementation",
+      "role": "Native formulation, solver release, gaps, logs and optimality evidence.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Full constraints and domains",
+      "role": "Incidence, flow conservation, integer assets, cumulative stock and route/capacity definitions not printed.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Annual profiles and output arrays",
+      "role": "Exact source/cost/fleet/trip/well values for all fifteen designs.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Node IDs and routes",
+      "role": "Resolve source/hub/field identity differences and actual arc distances.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Regional costing/price-year inputs",
+      "role": "Underlying conditioning, ships, pipes, tanks, platform/subsea parameters and construction timing.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Metric discounting and denominators",
+      "role": "TC preprocessing, UC, levelized cost, baseyear and mass/service definitions.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Scenario/sunk-asset timing",
+      "role": "Growth start, delayed increments, truncation, common installed assets and optional access rules.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Buffer events and ship operation",
+      "role": "Loading, utilization, empty legs, arrival times, weather, downtime and tank trajectories.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Reservoir pressure/resource/injectivity",
+      "role": "Field-specific states, annual safe limits, interference and access unavailable from cost model.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Complete capture/utility/LCI/retention inventory",
+      "role": "Same-case heat, work, cooling, suppliers, counterfactual and postclosure mass accounting.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        1,
+        2,
+        3,
+        5,
+        6
+      ],
+      "status": "MODEL_FAMILY_VERSUS_IMPLEMENTATION_SCOPE",
+      "finding": "Only deterministic postcapture cost minimization is implemented here. Figure 1/model name includes broader GHG/stochastic/multiobjective capabilities; only aggregate Equation 1 is printed.",
+      "action": "Do not attribute a Pareto frontier, stochastic policy, storage-maximization objective or complete LCA to this implementation. Obtain actual constraints/domains/code."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "status": "HOLD_SCENARIO_COUNT_AND_Z_MAPPING",
+      "finding": "Fifteen plotted labels equal three bases plus twelve alternatives, not fifteen alternatives plus bases. Table 1 omits standalone storage-delay z, later present in Table 2/plots.",
+      "action": "Preserve all labels and their baseline groups; do not invent extra scenarios or treat alternatives as probabilistic events."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        3,
+        4,
+        8
+      ],
+      "status": "HOLD_NODE_AND_GRAPH_IDENTITIES",
+      "finding": "Yara/Norcem numbering reverses in Figure 3; map hubs 11/12 differ from prose 10/11; UKfield 36 omitted in caption; NLtrip heatmap refers to base case 1 rather than 2.",
+      "action": "Resolve exact native node/route and plotting map before source-specific annual reconstruction; missing 8 not supplied by assumption."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "status": "HOLD_COST_METRIC_SIGNS_TIME_AND_DENOMINATORS",
+      "finding": "Table 2 repeats−4.8%growth levelized endpoints and prints positive descending 5.8→1.3%unit endpoints despite mixed-sign plot/writing. Discount and total/unit/levelized denominators unprovided.",
+      "action": "Keep printed ranges literal. Optionality constrains the same minimized objective, not every differently discounted metric; obtain native cash flows/mass before declaring errors."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        4,
+        7
+      ],
+      "status": "HOLD_ANNUAL_PROFILE_AND_CALENDAR_MAPPING",
+      "finding": "Only endpoints and 333.8 Mt total are stated; appendix UK first-year curve appears below 1000 kt rather than 2016 kt. Growth/delay start, increment and truncation mapping unknown.",
+      "action": "Retain apparent graph/index question without exact pixel invention. Do not fit thirty native annual inputs or infer probabilities from deterministic what-ifs."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        2,
+        3,
+        6,
+        7,
+        8
+      ],
+      "status": "BUFFER_AND_OPERATIONAL_FEASIBILITY_UNVERIFIED",
+      "finding": "One-cargo sizing and annual ship/trip counts lack time-resolved arrivals, capacity mix, load, weather/downtime and inventory proof. Annual well metric is named without a supplied series.",
+      "action": "Use disclosed gap LP only to show conditional insufficiency of a cargo rule; no native tank, fleet, well or dispatch model is reproduced."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        1,
+        2,
+        3,
+        6
+      ],
+      "status": "PHYSICAL_AND_CLIMATE_BOUNDARY_LIMIT",
+      "finding": "Postcapture regional analogues and geological cost models do not supply pressure-constrained annual service, actual permits, complete capture utilities or permanent-retention/avoidedGHG inventories.",
+      "action": "Retain native geography/scenario boundaries. No cost saving, handled mass, model-family intensity or reliability factor enters accepted operating/GHG inputs."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        2,
+        3,
+        6,
+        8,
+        9
+      ],
+      "status": "MISSING_NATIVE_MODELS_AND_EIGHT_ORIGINALS",
+      "finding": "R5 receives one scoped B2-12 check; eight originals and ten native dependencies remain unverified. No explicit external supplement/code/data notice or embedded assets identified.",
+      "action": "Continue local source work. External availability/errata/rights remain unverified during requested Chrome wait; do not infer online absence or replace R3's 2021 original by R5's 2024 study."
+    }
+  ],
+  "supplements": "Internal Appendix A pp 7–8 fully read and rendered, including all emission, cost, fleet and trip line/heatmap panels. No embedded files or explicit separate supplement/code/data-availability notice identified. Native code, data, errata, assets and rights remain unverified; no author contact. Local absence does not establish public absence.",
+  "reproduction": "audit_shipping_flexibility.py produces 60 limited diagnostics and 15 labelled scenario/base rows. It checks exact taxonomy, unit/endpoint accounting and appendix extrema. Disclosed analyst LPs demonstrate different objective/PV metric ordering and the one-cargo gap limit; they do not represent native cost, weather, buffer or investment data. Only one aggregate native objective is printed; full MoMilp, CPLEX schedules, cost models, well cases and LCI remain unreproduced. No missing native input or plot array invented.",
+  "paper1_use": "Acknowledge postcapture international shipping-flexibility and staged-network cost planning as prior work. Preserve deterministic cost-only scope, three bases/twelve alternatives, metric/time differences and assumed profile/operational limits. No complete utility, annual pressure service, actual access, stochastic probability or retained-carbon/GHG factor adopted. Existing numeric outputs unchanged.",
+  "next_steps": "Continue B2-11 locally. Obtain exact annual/source/node/cost/scenario arrays, full MoMilp constraints/code/CPLEX outputs, metric conventions, underlying originals and field/utility inventories before reproduction. R5 check does not complete B2-12. External retrieval remains paused pending requested Chrome connection."
+}

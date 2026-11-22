@@ -1,0 +1,21 @@
+{
+  "study_id": "B2-10",
+  "checks": 60,
+  "baseline_designs": 3,
+  "what_if_alternatives": 12,
+  "labelled_designs": 15,
+  "author_model": "not_reproduced",
+  "accepted_inputs_changed": false,
+  "excluded_missing_inputs": {
+    "native_MoMilp_CPLEX_code_version": null,
+    "full_constraints_and_domains": null,
+    "annual_profile_cost_fleet_trip_well_arrays": null,
+    "exact_node_arc_identity_and_routes": null,
+    "regional_cost_and_price_year_parameters": null,
+    "discounting_and_cost_denominators": null,
+    "sunk_assets_and_scenario_timing": null,
+    "buffer_events_weather_and_load_mix": null,
+    "pressure_resource_and_annual_injection": null,
+    "complete_capture_utilities_LCI_and_retention": null
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "study_id": "B2-10",
+  "source_sha256": "7f4394948f17ba0dea0bbdc4e7bd05c213d061313a83f6d13f51b3ee362bb260",
+  "entries": [
+    {
+      "id": "R01",
+      "pages": [
+        8,
+        9
+      ],
+      "citation": "DESNZ, Carbon Capture, Usage and Storage: A Vision to Establish a Competitive Market,2023. Available:https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero.",
+      "role": "UK policy context",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05",
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        9
+      ],
+      "citation": "Global CCS Insitute, CCS in Europe: Regional Overview,2023. Available:https://www.globalccsinstitute.com/resources/publications-reports-research/ccs-in-europe-regional-overview/.",
+      "role": "Historical Europe status",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C05",
+        "C06"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        9
+      ],
+      "citation": "D.M.Fraga,A.Korre,Z.Nie,S.Durucan, Multi-Period Cost Optimization of Multi-Mode Carbon Capture and Storage Chains,SSRN Electron.J.,Apr.2021,doi:10.2139/ssrn.3821770.",
+      "role": "Earlier cost model, not substituted by the 2024 paper",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07",
+        "C08",
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        9
+      ],
+      "citation": "D.M.Fraga,R.Skagestad,N.H.Eldrup,A.Korre,H.A.Haugen,Z.Nie,S.Durucan, Design of a multi-user CO2 intermediate storage facility in the Grenland region of Norway,IJGGC112,103514,Dec.2021,doi:10.1016/J.IJGGC.2021.103514.",
+      "role": "Hub/conditioning cost design",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C07",
+        "C08",
+        "C12"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        9
+      ],
+      "citation": "D.M.Fraga,A.Korre,Z.Nie,S.Durucan, Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains,Carbon Capture Sci.Technol.,100190,Jan.2024,doi:10.1016/J.CCST.2024.100190.",
+      "role": "Model-family/postcapture multiobjective and LCI lineage; scoped original check",
+      "verification_status": "primary_text_checked_scoped",
+      "claim_links": [
+        "C07",
+        "C08",
+        "C12",
+        "C13"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        9
+      ],
+      "citation": "Z.Nie,A.Korre,N.Elahi,S.Durucan, Real Options Analysis of CO2 Transport and Storage in the UK Continental Shelf under Geological and Market Uncertainties and the Viability of Subsidies for Market Development,Energy Procedia114,6612–6622,Jul.2017,doi:10.1016/j.egypro.2017.03.1815.",
+      "role": "Geological-storage cost model lineage",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C10"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        9
+      ],
+      "citation": "ALIGN, ALIGN-CCUS Project Work Package2 Transport,2019.",
+      "role": "Transport project models",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        9
+      ],
+      "citation": "A.Korre,S.Durucan,F.Neele,S.Hurter,R.Pawar,R.Chalaturnyk,G.Zambrano,A.Estublier,P.Coussy,S.Anghel,D.Maclean,W.Sturgess,O.Burachok,F.Devaux,R.Arts,J.Pearson,T.Espie,D.Fujii, ACTiON ERA-NET ACT project:Advanced multitemporal modelling and optimisation of CO2 transport,utilisation and storage networks,2022.https://ssrn.com/abstract=4288940.",
+      "role": "Multitemporal project methods",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C12",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        9
+      ],
+      "citation": "D.Martins Fraga, Techno-economic and environmental optimisation of batch-wise dominant Carbon Capture and Storage chains,London,Aug.2023.",
+      "role": "Thesis/model-family details",
+      "verification_status": "unverified",
+      "claim_links": [
+        "C13",
+        "C36"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-10_bibliography.json#R09"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Exact MoMilp/CPLEX implementation",
+      "role": "Native formulation, solver release, gaps, logs and optimality evidence.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Full constraints and domains",
+      "role": "Incidence, flow conservation, integer assets, cumulative stock and route/capacity definitions not printed.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Annual profiles and output arrays",
+      "role": "Exact source/cost/fleet/trip/well values for all fifteen designs.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Node IDs and routes",
+      "role": "Resolve source/hub/field identity differences and actual arc distances.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Regional costing/price-year inputs",
+      "role": "Underlying conditioning, ships, pipes, tanks, platform/subsea parameters and construction timing.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Metric discounting and denominators",
+      "role": "TC preprocessing, UC, levelized cost, baseyear and mass/service definitions.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Scenario/sunk-asset timing",
+      "role": "Growth start, delayed increments, truncation, common installed assets and optional access rules.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Buffer events and ship operation",
+      "role": "Loading, utilization, empty legs, arrival times, weather, downtime and tank trajectories.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Reservoir pressure/resource/injectivity",
+      "role": "Field-specific states, annual safe limits, interference and access unavailable from cost model.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "citation": "Required native dependency: Complete capture/utility/LCI/retention inventory",
+      "role": "Same-case heat, work, cooling, suppliers, counterfactual and postclosure mass accounting.",
+      "verification_status": "unverified_dependency",
+      "claim_links": []
+    }
+  ]
+}

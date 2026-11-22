@@ -336,13 +336,15 @@ Transfer limits: B2-09 adds all 19 pages, 13 figures, four numbered tables, 17 n
 
 ### B2-10 — Exploring the value of CO2 shipping transport flexibility in international batchwise transportation carbon capture and storage networks
 
-See supplied first page. Identifier: SSRN5070419 / GHGT-17. [PDF](../papers/B2-10.pdf).
+Fraga, Korre, Nie and Durucan (2024), GHGT-17. Identifier: SSRN5070419. [Retained PDF](../papers/B2-10.pdf); [printed SSRN link](https://ssrn.com/abstract=5070419).
 
-Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 3, 4, 5, 6.
+Reading stage: Detailed retained-PDF audit with open scientific verification. Checked sections: All nine pages, internal Appendix A, all main figures/tables, 24 appendix panels, the numbered objective, acknowledgements and nine references.
 
-Fraga GHGT-17 assesses 15 what-if scenarios including six-year source/sink delays and network interconnection over 30 years.
+The implementation is deterministic, annual-resolution, 30-year cost minimization after capture. It does not implement the broader model family's stochastic or multi-objective capabilities. Fifteen plotted designs consist of three baselines and twelve alternatives. Table1 omits z, while later tables/plots include it. Node labels, profile/index mapping and cost-range signs/denominators remain unresolved. Appendix outer annual-cost, fleet and trip changes reconcile the stated headline ranges; no exact annual arrays or native optimum are reconstructed.
 
-Transfer limits: Implemented analysis minimises cost after capture. Model name includes multi-objective but this paper is not a whole-chain baseline climate assessment.
+Optional interconnection cannot worsen the globally minimized same objective on a common feasible set, but a differently discounted metric can increase. A disclosed two-plan LP demonstrates the distinction without asserting the native discount convention. A separate inventory LP shows why one cargo alone does not establish delayed-arrival service.
+
+Transfer limits: B2-10 adds all nine pages and internal Appendix A, four numbered figures, two tables, 24 appendix panels, 36 claim records, 60 limited checks and a fifteen-design register. Three baselines/twelve alternatives, missing z, node labels, metric/calendar and buffer limits remain open. One exact parent-source check brings citation edges to twenty-two; eight other originals, ten dependencies and native MoMilp/CPLEX/process/field/LCI remain unverified. No accepted operating or GHG input changes. The exact2024 parent supports postcapture multiobjective/LCI lineage, not this UK-linked study's costs, delays or GHG factors. Native code, full constraints, annual inputs/results, timing and operational states are absent from the retained paper. No pressure-constrained annual service, complete capture utility/supplier inventory, current access or retained-carbon factor adopted. See [detailed findings](shipping_flexibility_comprehensive_findings.md).
 
 ### B2-11 — A techno-economic assessment of CO2 capture in biomass and waste-fired combined heat and power plants – A Swedish case study
 

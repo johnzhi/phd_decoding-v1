@@ -1,0 +1,16 @@
+id,driver,context,base,change,locator
+0,baseline,integrated,0,UK+NL+SM base,pp3–8; Table1/2 and plotted labels
+1,baseline,UK,1,UK standalone base,pp3–8; Table1/2 and plotted labels
+2,baseline,NL_SM,2,NL+SM standalone base,pp3–8; Table1/2 and plotted labels
+a,growth,integrated,0,2% per annum UK profile growth,pp3–8; Table1/2 and plotted labels
+b,growth,UK,1,2% per annum UK profile growth,pp3–8; Table1/2 and plotted labels
+c,growth,integrated,0,2% per annum NL+SM profile growth,pp3–8; Table1/2 and plotted labels
+d,growth,NL_SM,2,2% per annum NL+SM profile growth,pp3–8; Table1/2 and plotted labels
+e,source_delay,integrated,0,6year Solent source/profile delay,pp3–8; Table1/2 and plotted labels
+f,source_delay,UK,1,6year Solent source/profile delay,pp3–8; Table1/2 and plotted labels
+g,source_delay,integrated,0,6year Kollsnes/Norcem growth delay,pp3–8; Table1/2 and plotted labels
+h,source_delay,NL_SM,2,6year Kollsnes/Norcem growth delay,pp3–8; Table1/2 and plotted labels
+y,storage_delay,integrated,0,6year Aurora availability delay,pp3–8; Table1/2 and plotted labels
+z,storage_delay,NL_SM,2,6year Aurora availability delay; omitted in Table1 but present Table2/plots,pp3–8; Table1/2 and plotted labels
+x,interconnection,integrated,0,UK to NL+SM after10years,pp3–8; Table1/2 and plotted labels
+i,interconnection,integrated,0,SM to UK storage availability,pp3–8; Table1/2 and plotted labels

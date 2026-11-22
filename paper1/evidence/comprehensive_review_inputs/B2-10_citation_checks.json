@@ -1,0 +1,21 @@
+{
+  "study_id": "B2-10",
+  "source_sha256": "7f4394948f17ba0dea0bbdc4e7bd05c213d061313a83f6d13f51b3ee362bb260",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R05",
+      "cited_study": "B2-12",
+      "source_sha256": "d72f7eb3ced1df218f53b4c2d3bf025331957a8ea362ad38b9bf5b6b6166ccf3",
+      "doi": "10.1016/j.ccst.2024.100190",
+      "targeted_pages": [
+        1,
+        2,
+        3
+      ],
+      "inspection": "All three selected original pages text-read and rendered pages inspected in this scoped check.",
+      "supported": "Exact title/authors/DOI and broader multiobjective cost/GHG model with prospective LCI after capture. Pp2–3 support batchwise hub context and at-least-one-cargo sizing discussion.",
+      "unresolved": "Parent has different Northern Lights/Stella Maris cases; its 3.3–14.2%GHG intensities are not B2-10 outputs. It does not validate the UK what-ifs, scenario counts, delays, cost metrics, full utilities or native code. Neither full parent audit/model nor its source chain is complete. Parent CC-BY-NC-ND4 notice read; no illustrations newly redistributed."
+    }
+  ]
+}

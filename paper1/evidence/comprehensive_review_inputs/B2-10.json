@@ -1,0 +1,416 @@
+{
+  "study_id": "B2-10",
+  "source": {
+    "study_id": "B2-10",
+    "path": "papers/B2-10.pdf",
+    "sha256": "7f4394948f17ba0dea0bbdc4e7bd05c213d061313a83f6d13f51b3ee362bb260",
+    "identifier": "SSRN5070419 / GHGT-17"
+  },
+  "cited_sources": [
+    {
+      "study_id": "B2-12",
+      "path": "papers/B2-12.pdf",
+      "sha256": "d72f7eb3ced1df218f53b4c2d3bf025331957a8ea362ad38b9bf5b6b6166ccf3",
+      "identifier": "10.1016/j.ccst.2024.100190"
+    }
+  ],
+  "provenance": "All9 main pages and internal AppendixA read/rendered;13 magnifications actually inspected. Exact printed labels/ranges/units retained; no annual curve arrays digitized as native inputs.",
+  "case": {
+    "years": 30,
+    "discount_rate": 0.1,
+    "annual_growth": 0.02,
+    "delay_years": 6,
+    "interconnection_delay_years": 10,
+    "ship_capacities_kt": [
+      6,
+      20,
+      50
+    ],
+    "pipe_inches": {
+      "onshore": [
+        6,
+        12,
+        18
+      ],
+      "offshore": [
+        36,
+        40,
+        48
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "integrated",
+      "base": "0",
+      "ids": [
+        "0",
+        "a",
+        "c",
+        "e",
+        "g",
+        "i",
+        "x",
+        "y"
+      ]
+    },
+    {
+      "name": "UK",
+      "base": "1",
+      "ids": [
+        "1",
+        "b",
+        "f"
+      ]
+    },
+    {
+      "name": "NL_SM",
+      "base": "2",
+      "ids": [
+        "2",
+        "d",
+        "h",
+        "z"
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "0",
+      "driver": "baseline",
+      "context": "integrated",
+      "base": "0",
+      "change": "UK+NL+SM base",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "1",
+      "driver": "baseline",
+      "context": "UK",
+      "base": "1",
+      "change": "UK standalone base",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "2",
+      "driver": "baseline",
+      "context": "NL_SM",
+      "base": "2",
+      "change": "NL+SM standalone base",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "a",
+      "driver": "growth",
+      "context": "integrated",
+      "base": "0",
+      "change": "2% per annum UK profile growth",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "b",
+      "driver": "growth",
+      "context": "UK",
+      "base": "1",
+      "change": "2% per annum UK profile growth",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "c",
+      "driver": "growth",
+      "context": "integrated",
+      "base": "0",
+      "change": "2% per annum NL+SM profile growth",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "d",
+      "driver": "growth",
+      "context": "NL_SM",
+      "base": "2",
+      "change": "2% per annum NL+SM profile growth",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "e",
+      "driver": "source_delay",
+      "context": "integrated",
+      "base": "0",
+      "change": "6year Solent source/profile delay",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "f",
+      "driver": "source_delay",
+      "context": "UK",
+      "base": "1",
+      "change": "6year Solent source/profile delay",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "g",
+      "driver": "source_delay",
+      "context": "integrated",
+      "base": "0",
+      "change": "6year Kollsnes/Norcem growth delay",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "h",
+      "driver": "source_delay",
+      "context": "NL_SM",
+      "base": "2",
+      "change": "6year Kollsnes/Norcem growth delay",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "y",
+      "driver": "storage_delay",
+      "context": "integrated",
+      "base": "0",
+      "change": "6year Aurora availability delay",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "z",
+      "driver": "storage_delay",
+      "context": "NL_SM",
+      "base": "2",
+      "change": "6year Aurora availability delay; omitted in Table1 but present Table2/plots",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "x",
+      "driver": "interconnection",
+      "context": "integrated",
+      "base": "0",
+      "change": "UK to NL+SM after10years",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    },
+    {
+      "id": "i",
+      "driver": "interconnection",
+      "context": "integrated",
+      "base": "0",
+      "change": "SM to UK storage availability",
+      "locator": "pp3–8; Table1/2 and plotted labels"
+    }
+  ],
+  "table1_ids": [
+    "0",
+    "1",
+    "2",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "g",
+    "h",
+    "y",
+    "x",
+    "i"
+  ],
+  "emission_endpoints_kt": [
+    {
+      "context": "UK",
+      "first": 2016,
+      "last": 2034
+    },
+    {
+      "context": "NL_SM",
+      "first": 1001,
+      "last": 28402
+    }
+  ],
+  "reported_total_Mt": 333.8,
+  "cost_ranges": [
+    {
+      "driver": "growth",
+      "ranges": {
+        "total": [
+          6.4,
+          37.1
+        ],
+        "levelized": [
+          -4.8,
+          -4.8
+        ],
+        "unit": [
+          5.8,
+          1.3
+        ]
+      }
+    },
+    {
+      "driver": "source_delay",
+      "ranges": {
+        "total": [
+          -1.3,
+          0.6
+        ],
+        "levelized": [
+          1.4,
+          9.8
+        ],
+        "unit": [
+          7.1,
+          27.9
+        ]
+      }
+    },
+    {
+      "driver": "storage_delay",
+      "ranges": {
+        "total": [
+          7.7,
+          7.8
+        ],
+        "levelized": [
+          7.7,
+          7.8
+        ],
+        "unit": [
+          -0.4,
+          4.6
+        ]
+      }
+    },
+    {
+      "driver": "interconnection",
+      "ranges": {
+        "total": [
+          -0.3,
+          -0.3
+        ],
+        "levelized": [
+          -0.5,
+          3.3
+        ],
+        "unit": [
+          -0.3,
+          -0.3
+        ]
+      }
+    }
+  ],
+  "appendix_extremes": {
+    "profile": {
+      "integrated": [
+        -48,
+        50
+      ],
+      "UK": [
+        -62,
+        61
+      ],
+      "NL_SM": [
+        -54,
+        54
+      ]
+    },
+    "annual_cost": {
+      "integrated": [
+        -57,
+        143
+      ],
+      "UK": [
+        -46,
+        179
+      ],
+      "NL_SM": [
+        -71,
+        316
+      ]
+    },
+    "fleet": {
+      "integrated": [
+        -3,
+        5
+      ],
+      "UK": [
+        0,
+        1
+      ],
+      "NL_SM": [
+        -1,
+        5
+      ]
+    },
+    "trips": {
+      "integrated": [
+        -212,
+        333
+      ],
+      "UK": [
+        0,
+        127
+      ],
+      "NL_SM": [
+        -38,
+        343
+      ]
+    }
+  },
+  "extreme_units": {
+    "profile": "%",
+    "annual_cost": "%",
+    "fleet": "ships",
+    "trips": "trips/year"
+  },
+  "identity_questions": {
+    "prose_source_ids": {
+      "Yara": 1,
+      "Norcem": 2
+    },
+    "Figure3_source_ids": {
+      "Yara": 2,
+      "Norcem": 1
+    },
+    "prose_hubs": [
+      10,
+      11
+    ],
+    "Figure2_hubs": [
+      11,
+      12
+    ],
+    "UK_field_map": "Bunter Closure36, not named in Figure2 injection-field caption",
+    "A4_NL_heatmap_caption": "basecase1 rather than context2"
+  },
+  "analyst_fixtures": {
+    "cost_plans": [
+      [
+        100,
+        0
+      ],
+      [
+        0,
+        101
+      ]
+    ],
+    "annual_mass": [
+      1,
+      1
+    ],
+    "rate": 0.1,
+    "buffer_interval_demand": 2,
+    "buffer_base_capacity": 20,
+    "normal_gap_steps": 10,
+    "delayed_gap_steps": 12,
+    "description": "Disclosed mathematical/unit counterexamples only, not native costs, weather, schedules or demand"
+  },
+  "missing_inputs": {
+    "native_MoMilp_CPLEX_code_version": null,
+    "full_constraints_and_domains": null,
+    "annual_profile_cost_fleet_trip_well_arrays": null,
+    "exact_node_arc_identity_and_routes": null,
+    "regional_cost_and_price_year_parameters": null,
+    "discounting_and_cost_denominators": null,
+    "sunk_assets_and_scenario_timing": null,
+    "buffer_events_weather_and_load_mix": null,
+    "pressure_resource_and_annual_injection": null,
+    "complete_capture_utilities_LCI_and_retention": null
+  }
+}
