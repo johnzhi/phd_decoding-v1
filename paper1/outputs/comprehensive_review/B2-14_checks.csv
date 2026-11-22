@@ -1,0 +1,58 @@
+item,value,unit,scope
+CO2 injection (a)_square_root_area,5.0,km,Square-grid convention only; not equivalence for irregular wells
+CO2 injection (a)_square_grid_spacing_residual,0.0,km,Printed spacing boundary is strict <; source map-scale inequalities retained literally
+CO2 injection (a)_nominal_1km_cells_per_well,25.0,count,"Conditional nominal area ratio, not new independent observations"
+detailed characterization (b)_square_root_area,10.0,km,Square-grid convention only; not equivalence for irregular wells
+detailed characterization (b)_square_grid_spacing_residual,0.0,km,Printed spacing boundary is strict <; source map-scale inequalities retained literally
+detailed characterization (b)_nominal_1km_cells_per_well,100.0,count,"Conditional nominal area ratio, not new independent observations"
+investigation (c)_square_root_area,20.0,km,Square-grid convention only; not equivalence for irregular wells
+investigation (c)_square_grid_spacing_residual,0.0,km,Printed spacing boundary is strict <; source map-scale inequalities retained literally
+investigation (c)_nominal_1km_cells_per_well,400.0,count,"Conditional nominal area ratio, not new independent observations"
+general survey (d)_square_root_area,50.0,km,Square-grid convention only; not equivalence for irregular wells
+general survey (d)_square_grid_spacing_residual,0.0,km,Printed spacing boundary is strict <; source map-scale inequalities retained literally
+general survey (d)_nominal_1km_cells_per_well,2500.0,count,"Conditional nominal area ratio, not new independent observations"
+Table2_count_sum,4673,count,Printed sector rows
+Table2_emission_sum,8914.2,Mt/y,"Literal displayed sector rows, no correction"
+Table2_sum_minus_total,0.1000000000003638,Mt/y,0.1 discrepancy can fit display rounding
+Table2_conditional_rounding_overlap,True,boolean,"Conditional nearest0.1Mt/y for emission displays, not measured uncertainty;226Mt/y membership in total is not independently verified."
+printed_total_times_85percent,7576.985,Mt/y,"Scenario product, not measured avoided or retained CO2"
+coal power_times_85percent,3959.47,Mt/y,Conditional common capture fraction; no native source-case reproduction
+crude steel_times_85percent,1498.89,Mt/y,Conditional common capture fraction; no native source-case reproduction
+coal chemical_times_85percent,333.79499999999996,Mt/y,Conditional common capture fraction; no native source-case reproduction
+cement_times_85percent,1784.915,Mt/y,Conditional common capture fraction; no native source-case reproduction
+captive_share_of_power,6.869606285689752,%,"Magnitude comparison, not a justified negligible-error criterion"
+power_minus_captive,4338.2,Mt/y,Conditional subtraction reproduces rounded4.34Gt prose; no accepted correction
+conditional_total_minus_captive,8594.1,Mt/y,Hypothesis only; exact enterprise overlap remains unknown
+conditional_capture_difference,272.0,Mt/y,Hypothesis only; source total preserved
+conditional_capture_after_removing_captive,7304.985,Mt/y,No corrected native input adopted
+Table3_theoretical_sum_residual,0.0,Gt,Printed stock sums
+Table3_theoretical_onshore_percent,52.075938260279976,%,"Resource stock share, not annual flow share"
+Table3_effective_sum_residual,2.2737367544323206e-13,Gt,Printed stock sums
+Table3_effective_onshore_percent,50.420056007467664,%,"Resource stock share, not annual flow share"
+Table3_onshore_effective_over_theoretical,57.915294478057746,%,"Reported hierarchy ratio, not independently calibrated efficiency"
+Table3_offshore_effective_over_theoretical,61.884154460719046,%,"Reported hierarchy ratio, not independently calibrated efficiency"
+Table3_total_effective_over_theoretical,59.81733338651138,%,"Reported hierarchy ratio, not independently calibrated efficiency"
+matched_150km_sum_residual,0.0,Mt/y,Printed annual matched-flow sums
+matched_150km_onshore_percent,89.23533602469722,%,"Matching result share, not pressure-safe service"
+matched_150km_captured_percent,55.576195544797834,%,85% times printed Table2 total as conditional common denominator
+matched_150km_gross_emission_percent,47.239766213078155,%,Gross-emission denominator differs from captured mass
+matched_300km_sum_residual,0.0,Mt/y,Printed annual matched-flow sums
+matched_300km_onshore_percent,91.29321851059551,%,"Matching result share, not pressure-safe service"
+matched_300km_captured_percent,72.18306489982493,%,85% times printed Table2 total as conditional common denominator
+matched_300km_gross_emission_percent,61.35560516485119,%,Gross-emission denominator differs from captured mass
+matched_800km_sum_residual,0.0,Mt/y,Printed annual matched-flow sums
+matched_800km_onshore_percent,91.02400366768184,%,"Matching result share, not pressure-safe service"
+matched_800km_captured_percent,80.60462043939641,%,85% times printed Table2 total as conditional common denominator
+matched_800km_gross_emission_percent,68.51392737348695,%,Gross-emission denominator differs from captured mass
+effective_stock_over_800km_annual_flow,245.57094672037204,y,"Stock/flow arithmetic, not lifetime or sustainable injection capacity"
+body_4.2Gt_over_7.6,55.26315789473684,%,Source mass-denominator comparison; no replaced source result
+body_6.0Gt_over_7.6,78.94736842105263,%,Source mass-denominator comparison; no replaced source result
+4.2_over_7.6_rounding_upper,56.29139072847682,%,"Conditional displayed precision, not measured uncertainty"
+rounding_upper_below_59_lower,2.20860927152318,percentage points,Positive gap rules out this specific rounding explanation; actual denominator unresolved
+implied_denominator_for_4.2_at59percent,7.118644067796611,Gt/y,"Inverse diagnostic only, not a recovered native denominator"
+300km_all_matches_over_gross,61.35560516485119,%,Same-case conditional upper bound before applyingcost90; native industrial-emissions denominator unresolved
+Figure9_named_basin_curves,21,count,"Named curves, not all national basin sites or independent optima"
+Figure10_named_regions,34,count,"Native labels preserved as geography, not a jurisdictional inference"
+proposed_coalitions,12,count,"Policy proposal, not implemented sharing infrastructure"
+analyst_20km_unresolved_peak,1.0,dimensionless,Two fields agree at observed coarse endpoints; no native property error inferred
+analyst_50km_unresolved_peak,1.0,dimensionless,Two fields agree at observed coarse endpoints; no native property error inferred

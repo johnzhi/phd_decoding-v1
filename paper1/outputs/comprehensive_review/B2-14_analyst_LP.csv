@@ -1,0 +1,4 @@
+sink_capacity_Mt_y,geographically_eligible_percent,served_Mt_y,served_percent,disclosed_cost,flows,status
+0,100.0,0.0,0.0,0.0,"[0.0, 0.0]",analyst_shared_sink_LP_not_native_pairing
+1,100.0,1.0,50.0,1.0,"[1.0, 0.0]",analyst_shared_sink_LP_not_native_pairing
+2,100.0,2.0,100.0,3.0,"[1.0, 1.0]",analyst_shared_sink_LP_not_native_pairing

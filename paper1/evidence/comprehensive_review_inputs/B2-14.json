@@ -1,0 +1,300 @@
+{
+  "study_id": "B2-14",
+  "source_path": "papers/B2-14.pdf",
+  "source_sha256": "6b9a35f4f9a54d69147ea2e94636fecc3032b11b96cb91930aeced048850416c",
+  "doi": "10.1021/acs.est.5c14041",
+  "provenance": "Manual reading of all15 main-PDF text/renders and8 magnifications. Exact source numbers retained; conditional arithmetic is not native ITEAM-CCS reproduction. MainPDF has no formal numbered equations; explicitSM1 remains unverified locally.",
+  "quality_table": {
+    "pages": [
+      5
+    ],
+    "stages": [
+      "CO2 injection (a)",
+      "detailed characterization (b)",
+      "investigation (c)",
+      "general survey (d)"
+    ],
+    "map_scale_printed": [
+      "<=1:1 million",
+      "<=1:2.5 million",
+      "<=1:5 million",
+      "<=1:10 million"
+    ],
+    "area_per_well_km2": [
+      25,
+      100,
+      400,
+      2500
+    ],
+    "spacing_upper_km": [
+      5,
+      10,
+      20,
+      50
+    ],
+    "resolution_levels": [
+      "site",
+      "zone",
+      "sub-basin",
+      "basin"
+    ],
+    "grid_km": 1,
+    "alternative_angular_grid_degrees": 0.01,
+    "native_CRS_and_cell_area_weights": null
+  },
+  "emissions_table": {
+    "pages": [
+      6
+    ],
+    "year": 2022,
+    "sectors": [
+      {
+        "name": "coal power",
+        "count": 1133,
+        "Mt_y": 4658.2,
+        "high_concentration_Mt_y": null,
+        "volume_percent_printed": "12-15"
+      },
+      {
+        "name": "crude steel",
+        "count": 280,
+        "Mt_y": 1763.4,
+        "high_concentration_Mt_y": null,
+        "volume_percent_printed": "20-25"
+      },
+      {
+        "name": "coal chemical",
+        "count": 312,
+        "Mt_y": 392.7,
+        "high_concentration_Mt_y": 226,
+        "volume_percent_printed": "12-15 and >85"
+      },
+      {
+        "name": "cement",
+        "count": 2948,
+        "Mt_y": 2099.9,
+        "high_concentration_Mt_y": null,
+        "volume_percent_printed": "25-30"
+      }
+    ],
+    "total_count": 4673,
+    "total_Mt_y": 8914.1,
+    "total_high_concentration_Mt_y": 226,
+    "net_capture_fraction": 0.85,
+    "captured_rounded_Gt_y": 7.6,
+    "captive_power_Mt_y": 320,
+    "power_other_prose_Gt_y": 4.34,
+    "excluded_source_threshold_kt_y": 500,
+    "rounding_assumption": "Conditional nearest0.1Mt/y for emission displays, not measured uncertainty;226Mt/y membership in total is not independently verified."
+  },
+  "capacities_table": {
+    "pages": [
+      9
+    ],
+    "probability_label": "P50",
+    "onshore_theoretical_Gt": 1305.7,
+    "offshore_theoretical_Gt": 1201.6,
+    "total_theoretical_Gt": 2507.3,
+    "onshore_effective_Gt": 756.2,
+    "offshore_effective_Gt": 743.6,
+    "total_effective_Gt": 1499.8,
+    "matching": [
+      {
+        "radius_km": 150,
+        "onshore_Mt_y": 3757.7,
+        "offshore_Mt_y": 453.3,
+        "total_Mt_y": 4211
+      },
+      {
+        "radius_km": 300,
+        "onshore_Mt_y": 4993.1,
+        "offshore_Mt_y": 476.2,
+        "total_Mt_y": 5469.3
+      },
+      {
+        "radius_km": 800,
+        "onshore_Mt_y": 5559.2,
+        "offshore_Mt_y": 548.2,
+        "total_Mt_y": 6107.4
+      }
+    ],
+    "theoretical_P10_P90_trillion_t": [
+      1.25,
+      3.76
+    ],
+    "quantile_convention_and_joint_distribution": null,
+    "annual_pressure_constrained_field_service": null
+  },
+  "source_quotes": {
+    "pages": [
+      1,
+      7,
+      8,
+      11,
+      12,
+      13
+    ],
+    "abstract_under90_percent_range": [
+      60,
+      75
+    ],
+    "body_under90_flow_Gt_y": [
+      4.2,
+      6.0
+    ],
+    "body_under90_captured_percent_range": [
+      59,
+      79
+    ],
+    "implications_300km_under90_industrial_percent_range": [
+      64,
+      75
+    ],
+    "abstract_coal_sector_percent": 80,
+    "geographic_eligible_source_percent_lower_bound": 99,
+    "cost_year": 2022,
+    "onshore_storage_USD_t": [
+      3,
+      10
+    ],
+    "offshore_storage_USD_t": [
+      10,
+      60
+    ],
+    "coastal_halving_comparator": null,
+    "validation_case_arrays_and_tolerances": null,
+    "Figure1_illustrative_capture_percent": 50,
+    "Figure1_illustrative_distance_km": 250,
+    "Figure1_cost_unit": "LACOE USD/MWh",
+    "Figure8_radii_km": [
+      150,
+      200,
+      250,
+      300,
+      500,
+      800
+    ],
+    "native_capture_avoidance_and_levelized_cost_denominators": null
+  },
+  "figure_legends": {
+    "F9_basins": [
+      "Bohai Bay",
+      "Junggar",
+      "Jianghan-Dongting",
+      "Erlian",
+      "Taixi",
+      "North Yellow Sea",
+      "Ordos",
+      "Tarim",
+      "Bohai",
+      "Turpan-Hami",
+      "East China Sea Shelf",
+      "Subei",
+      "Songliao",
+      "Jianghan",
+      "Pearl River Mouth",
+      "South Yellow Sea",
+      "Sichuan",
+      "Qaidam",
+      "Nanxiang",
+      "Beibuwan",
+      "Yinggehai"
+    ],
+    "F9_x_axis": "logarithmic cumulative matched capacity Mt/y",
+    "F9_y_axis": "Levelized Cost USD/t; caption says carbon abatement cost",
+    "F10_regions": [
+      "Anhui",
+      "Beijing",
+      "Fujian",
+      "Gansu",
+      "Guangdong",
+      "Guangxi",
+      "Guizhou",
+      "Hainan",
+      "Hebei",
+      "Henan",
+      "Heilongjiang",
+      "Hubei",
+      "Hunan",
+      "Jilin",
+      "Jiangsu",
+      "Jiangxi",
+      "Liaoning",
+      "Inner Mongolia",
+      "Ningxia",
+      "Qinghai",
+      "Shandong",
+      "Shanxi",
+      "Shaanxi",
+      "Shanghai",
+      "Sichuan",
+      "Tianjin",
+      "Tibet",
+      "Xinjiang",
+      "Yunnan",
+      "Zhejiang",
+      "Chongqing",
+      "Taiwan",
+      "Macau",
+      "Hong Kong"
+    ],
+    "F10_x_axis": "linear cumulative annual capacity Mt/y",
+    "native_curve_arrays": null
+  },
+  "coalitions": [
+    "Junggar-Tuha",
+    "Tarim",
+    "Qaidam",
+    "Ordos",
+    "Songliao",
+    "Jianghan-Dongting",
+    "Erlian",
+    "Subei/South Yellow Sea",
+    "Bohai Bay/Bohai",
+    "East China Sea Shelf",
+    "Pearl River Mouth",
+    "Beibuwan"
+  ],
+  "analyst_examples": {
+    "not_native_cases": true,
+    "spherical_radius_km": 6371,
+    "cell_latitudes_deg": [
+      20,
+      35,
+      50
+    ],
+    "grid_delta_deg": 0.01,
+    "coarse_spacing_km": [
+      20,
+      50
+    ],
+    "interpolant_baseline": 1,
+    "unobserved_peak_amplitude": 1,
+    "LP_source_demands_Mt_y": [
+      1,
+      1
+    ],
+    "LP_unit_costs": [
+      1,
+      2
+    ],
+    "LP_sink_caps_Mt_y": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Spherical angular-cell geometry, two fields identical at coarse samples, and shared-sink LP are disclosed analyst examples only. No invented original GIS values, likelihoods or pressure limits."
+  },
+  "missing_native": {
+    "SM1": null,
+    "ITEAM_code": null,
+    "native_GIS_rasters": null,
+    "suitability_weights": null,
+    "annual_pressure_injection_profiles": null,
+    "CO2_water_pumping_disposal_utilities": null,
+    "complete_capture_conditioning_heat_electricity_inventory": null,
+    "native_cost_curves": null,
+    "native_model_reproduced": false,
+    "external_retrieval": "paused_pending_requested_Chrome_connection"
+  }
+}

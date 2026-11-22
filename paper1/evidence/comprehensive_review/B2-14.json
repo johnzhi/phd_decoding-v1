@@ -1,0 +1,2675 @@
+{
+  "study_id": "B2-14",
+  "source_sha256": "6b9a35f4f9a54d69147ea2e94636fecc3032b11b96cb91930aeced048850416c",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 15 retained main-PDF pages were read as text and visually inspected, with eight magnifications. Ten numbered figures plus the graphical abstract, three tables, all main sections and 63 printed references were inspected. The main PDF has no formal numbered equations; mathematical realizations are deferred to unverified SM1. The 57 limited checks and disclosed geometry, nonuniqueness and shared-sink examples do not reproduce native ITEAM, GIS, cost or physical models. Two original-passage edges support bounded context; 61 other originals and 14 dependencies or scope requirements remain open. No accepted Paper 1 input was added.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "original_model_status": "printed_arithmetic_and_disclosed_analyst_examples_checked_native_ITEAM_GIS_cost_pressure_LCI_models_not_reproduced",
+  "supplement_status": "explicit_SM1_methods_PDF_and_data_upon_request_not_verified_locally_no_embedded_files",
+  "sections": [
+    {
+      "id": "S01",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract and keywords",
+      "assessment": "Eight authors; EST60(2026)19170–19184, exact DOI and CC BY-NC-ND4.0 retained. Received14Oct2025, revised17June2026, accepted18June2026, published30June2026. Download stamp is not publication date."
+    },
+    {
+      "id": "S02",
+      "pages": [
+        1,
+        2,
+        3
+      ],
+      "scope": "1 Introduction and entire literature review",
+      "assessment": "Read climate/industry motivation, sparse aquifer data, prior Chinese assessments, framework gaps and four-tier terminology. Underlying originals remain separately open."
+    },
+    {
+      "id": "S03",
+      "pages": [
+        3,
+        4
+      ],
+      "scope": "2 Methods and scope",
+      "assessment": "Read zone/raster framework and explicit macro/prefeasibility limitation. Not a basis for specific site screening or project design."
+    },
+    {
+      "id": "S04",
+      "pages": [
+        4
+      ],
+      "scope": "2.1 Technical schemes",
+      "assessment": "Read near mass balance, injection/geofluid production, strata, wells and risk controls. No actual field flow, pressure or water utility arrays supplied."
+    },
+    {
+      "id": "S05",
+      "pages": [
+        4
+      ],
+      "scope": "2.2 Algorithms overview",
+      "assessment": "Read GIS raster or numerical approaches and capacity-cost-matching integration; formal implementation is in SM1."
+    },
+    {
+      "id": "S06",
+      "pages": [
+        4
+      ],
+      "scope": "2.2.1 Suitability",
+      "assessment": "Read three index groups, multisource normalization and independent on/offshore systems. S2/S3 criteria and weights remain missing."
+    },
+    {
+      "id": "S07",
+      "pages": [
+        4
+      ],
+      "scope": "2.2.2 Capacity",
+      "assessment": "Read trapping/time/data-quality hierarchy and cited algorithm classes. No formal numbered equation in the main PDF."
+    },
+    {
+      "id": "S08",
+      "pages": [
+        4
+      ],
+      "scope": "2.2.3 Source assessment",
+      "assessment": "Read enterprise, process, fuel/water/electricity and emission screening; P10/P90 cross-reference does not give a model here."
+    },
+    {
+      "id": "S09",
+      "pages": [
+        4
+      ],
+      "scope": "2.2.4 Full-chain techno-economics",
+      "assessment": "Read pre-feasibility cost methods, project components and2022USD escalation; S5–S10 parameters unverified."
+    },
+    {
+      "id": "S10",
+      "pages": [
+        4,
+        5
+      ],
+      "scope": "2.2.5 Pairing",
+      "assessment": "Read P2P/M2M, cost surface, search radius and prompt operation of all sources. Native optimization formulation/cases deferred to SI."
+    },
+    {
+      "id": "S11",
+      "pages": [
+        5
+      ],
+      "scope": "2.3.1 Dataset",
+      "assessment": "Read nested subsurface/surface taxonomy, institutional sources and petroleum parameter lineage. Original datasets and S13 unverified."
+    },
+    {
+      "id": "S12",
+      "pages": [
+        5
+      ],
+      "scope": "2.3.2 Implementation and quality",
+      "assessment": "Read Table1, scaling/fusion,1km or0.01degree grids and explicit20–50km-well limitations. Downscaling does not identify hidden heterogeneity."
+    },
+    {
+      "id": "S13",
+      "pages": [
+        5,
+        6
+      ],
+      "scope": "2.3.3 Framework",
+      "assessment": "Read four-pillar Resources–Engineering–Economics–Policy system. Integration narrative is not a physical or policy validation."
+    },
+    {
+      "id": "S14",
+      "pages": [
+        6
+      ],
+      "scope": "3.1 Coal-based source inventory",
+      "assessment": "Read all Table2 quantities, process/concentration assumptions,85%capture and captive-power warning. Preserve literal total and rounded discrepancy."
+    },
+    {
+      "id": "S15",
+      "pages": [
+        6
+      ],
+      "scope": "3.2 Geological setting",
+      "assessment": "Read basin tectonics, porosity/permeability and thickness ranges. Regional context does not establish site safety."
+    },
+    {
+      "id": "S16",
+      "pages": [
+        6
+      ],
+      "scope": "3.3 Suitability results",
+      "assessment": "Read named basins, rankings and typical cost statements; all are bounded by missing criteria/native arrays."
+    },
+    {
+      "id": "S17",
+      "pages": [
+        6,
+        7,
+        9
+      ],
+      "scope": "3.4 Capacity hierarchy",
+      "assessment": "Read resource densities, theory/effective totals, P10–P90 and all Table3 annual matched flows. Stock and flow remain distinct."
+    },
+    {
+      "id": "S18",
+      "pages": [
+        7
+      ],
+      "scope": "3.5 Storage cost",
+      "assessment": "Read on/offshore ranges, injectivity and pressure/water-recovery caveat. No annual pressure-limited maximum derived."
+    },
+    {
+      "id": "S19",
+      "pages": [
+        7,
+        8,
+        11
+      ],
+      "scope": "3.6 Cost curves overview",
+      "assessment": "Read source eligibility, radius and90USD/t claims, cost/avoidance differences, plateaus and validation statement. Denominator/case mapping unresolved."
+    },
+    {
+      "id": "S20",
+      "pages": [
+        8,
+        9,
+        12
+      ],
+      "scope": "3.6.1 Basin/administrative curves",
+      "assessment": "Read all Figure9/10 legends, log versus linear axes and sector/capacity distinctions. Exact curve arrays unavailable."
+    },
+    {
+      "id": "S21",
+      "pages": [
+        9,
+        10,
+        11
+      ],
+      "scope": "3.6.2 Regional/sectoral differences",
+      "assessment": "Read cost mechanisms, twelve coalitions, policy stages and industrial relocation proposals. No implemented-policy or native staged-operation inference."
+    },
+    {
+      "id": "S22",
+      "pages": [
+        11
+      ],
+      "scope": "3.6.3 Global competition",
+      "assessment": "Read international cost and industrial-resilience claims; matched international inventories and counterfactuals unavailable."
+    },
+    {
+      "id": "S23",
+      "pages": [
+        11,
+        12
+      ],
+      "scope": "3.7 Limitations/future work",
+      "assessment": "Read duplicate emissions, limited uncertainty/P50, saline-only scope, residual emissions and future full-range analysis."
+    },
+    {
+      "id": "S24",
+      "pages": [
+        13
+      ],
+      "scope": "4 Implications",
+      "assessment": "Read all four findings and three implications,64–75%/300km and80% claims,31areas and GlobalSouth transfer; preserve unresolved bases."
+    },
+    {
+      "id": "S25",
+      "pages": [
+        13
+      ],
+      "scope": "Associated content and data availability",
+      "assessment": "Read data upon reasonable request and explicit free SM1 PDF link. No external request/download made."
+    },
+    {
+      "id": "S26",
+      "pages": [
+        13
+      ],
+      "scope": "Author information and notes",
+      "assessment": "Read eight authors/affiliations and no-competing-interest declaration; provenance only."
+    },
+    {
+      "id": "S27",
+      "pages": [
+        13,
+        14
+      ],
+      "scope": "Acknowledgments",
+      "assessment": "Read NSFC72243011,2023YFB4104200 and US-China2019YFE0100100 funding."
+    },
+    {
+      "id": "S28",
+      "pages": [
+        14,
+        15
+      ],
+      "scope": "References",
+      "assessment": "All63 entries including R19 continuation read and located. Two selected original checks do not complete their sources or models."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "V01",
+      "pages": [
+        1
+      ],
+      "object": "Graphical abstract",
+      "inspection": "Eight-magnification set includes this panel. Read technical schemes, injection/geofluid production, four source sectors, pipeline/utilization/storage, six modules, map and genericUSD/t cost curve. It is schematic, not a native utility/annual schedule."
+    },
+    {
+      "id": "V02",
+      "pages": [
+        2
+      ],
+      "object": "Figure1, all panels/arrows and caption",
+      "inspection": "Magnified suitability/source filters, GIS layers, technical design, cost matrix and priority curve. Illustrative50%net capture and250km LACOEUSD/MWh versus installedGW differs from main85%/USD-t cases. Underlying tiny GIS-layer labels remain unresolved; do not claim exact data-layer reproduction."
+    },
+    {
+      "id": "V03",
+      "pages": [
+        2
+      ],
+      "object": "Figure2 hierarchy and caption",
+      "inspection": "Read theoretical/effective/practical/matched capacities versus geological/suitability/TE/matching stages, data types and software. Hierarchy schematic is not a calibrated physical model."
+    },
+    {
+      "id": "V04",
+      "pages": [
+        3
+      ],
+      "object": "Figure3 zoning workflow",
+      "inspection": "Read StepsI–IV, index/algorithm groups, technical outputs and four policy blocks. No mathematical constraints or dynamic implementation supplied by arrows."
+    },
+    {
+      "id": "V05",
+      "pages": [
+        5
+      ],
+      "object": "Table1, header/rows/inequalities",
+      "inspection": "Magnified all four map scales, well areas, strict spacing bounds and levels. Preserve literal map-scale inequalities; square-root checks are conditional grid conventions."
+    },
+    {
+      "id": "V06",
+      "pages": [
+        6
+      ],
+      "object": "Table2, all headers/rows",
+      "inspection": "Read four sector counts, total emissions, high-concentration column, vol% and summary. Captive overlap and226Mt/y membership unresolved. Counts close;0.1Mt/y emission discrepancy can fit display rounding."
+    },
+    {
+      "id": "V07",
+      "pages": [
+        7
+      ],
+      "object": "Figure4 source/basin map",
+      "inspection": "Read four sector symbols, grey basins, north/scale/graticule and basin labels. Point density and colours are not exact mass totals or validated source coordinates."
+    },
+    {
+      "id": "V08",
+      "pages": [
+        8
+      ],
+      "object": "Figure5 suitability map",
+      "inspection": "Magnified basin labels and six ordered categories from not recommended to very high. Native China/adjacent scope preserved; categories are not safety probabilities."
+    },
+    {
+      "id": "V09",
+      "pages": [
+        9
+      ],
+      "object": "Figure6 density map",
+      "inspection": "Read Mt/km²,Low0/High1.35 and basin patterns. Exact pixel stock, land mask and area weights not reconstructed; printed body lower density0.01 retains separate scope."
+    },
+    {
+      "id": "V10",
+      "pages": [
+        9
+      ],
+      "object": "Table3 all hierarchy and annual-flow cells",
+      "inspection": "Magnified all two stock columns and three annual matched-flow columns with onshore/offshore/totals. All sums close; balanced resource stocks differ from annual-flow shares."
+    },
+    {
+      "id": "V11",
+      "pages": [
+        10
+      ],
+      "object": "Figure7 storage-cost map",
+      "inspection": "Read None and<5/5–10/10–20/20–40/40–80/80–100/>100USD/t classes. None is not zero, and descriptive typical ranges are not universal bounds."
+    },
+    {
+      "id": "V12",
+      "pages": [
+        11
+      ],
+      "object": "Figure8a levelized-cost curves and shared caption",
+      "inspection": "Read six150/200/250/300/500/800km radii, USD/t and cumulative annualMt/a. Qualitative curve shapes only; exact cost threshold quantities/native capture denominator unavailable."
+    },
+    {
+      "id": "V13",
+      "pages": [
+        11
+      ],
+      "object": "Figure8b avoidance-cost curves",
+      "inspection": "Read same six radii and axes; higher costs and different endpoints need native avoided-mass/project-emissions definitions. Do not treat levelized and avoidance costs as interchangeable."
+    },
+    {
+      "id": "V14",
+      "pages": [
+        12
+      ],
+      "object": "Figure9 basin curves, full legend and caption",
+      "inspection": "Magnified21names and symbols. Logarithmic matchedMt/a axis and LevelizedCostUSD/t ordinate differ from abatement-cost caption. No exact native curves inferred from pixels."
+    },
+    {
+      "id": "V15",
+      "pages": [
+        12
+      ],
+      "object": "Figure10 regional curves, full legend and caption",
+      "inspection": "Magnified34native geographical labels and markers, linearMt/a0–600 andUSD/t. Some points extend past the displayed right bound; no terminal capacity inferred. Native labels do not imply jurisdictional conclusions."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E01",
+      "pages": [
+        5,
+        6,
+        9
+      ],
+      "printed": "No native formal numbered equations in main PDF; independent sum/rounding relations only",
+      "check": "Source algorithm realizations and derivations are explicitly deferred to SM1. Sum diagnostics do not reproduce them."
+    },
+    {
+      "id": "E02",
+      "pages": [
+        6
+      ],
+      "printed": "Independent captured mass = emission mass ×0.85",
+      "check": "All sector products and conditional captive subtraction keep source totals unchanged. Concentration, capture, avoided and retained quantities stay distinct."
+    },
+    {
+      "id": "E03",
+      "pages": [
+        7,
+        8,
+        9,
+        13
+      ],
+      "printed": "Independent stock/flow and percentage denominators",
+      "check": "ResourceGt divided by annualGt/y yields years, not annual safe service. Same-case Table3 ratios expose gross-versus-captured denominator limits without supplying a correction."
+    },
+    {
+      "id": "E04",
+      "pages": [
+        8
+      ],
+      "printed": "Independent display-interval bound on4.2/7.6 versus59%",
+      "check": "Conditional nearest0.1Gt bounds give upper100×4.25/7.55≈56.29%, below58.5% for nearest59. This rejects only that rounding explanation."
+    },
+    {
+      "id": "E05",
+      "pages": [
+        5
+      ],
+      "printed": "Independent spherical angular-cell area R² delta_lambda [sin(phi_north)-sin(phi_south)]",
+      "check": "Synthetic geometry at20/35/50degrees shows0.01degree cells are not constant1km². No native CRS or erroneous source area inferred."
+    },
+    {
+      "id": "E06",
+      "pages": [
+        5
+      ],
+      "printed": "Independent nonuniqueness example f=1 and g=1+sin²(pi*x/L)",
+      "check": "Both fields match coarse endpoints but differ between them.72synthetic1km rows illustrate missing information, not native geological uncertainty."
+    },
+    {
+      "id": "E07",
+      "pages": [
+        5,
+        7,
+        8
+      ],
+      "printed": "Independent shared-sink service/cost LP",
+      "check": "Two fully eligible sources can deliver only50%of demand to one limited sink. Two-stage service-then-cost example is not the unprinted native P2P/M2M optimizer."
+    }
+  ],
+  "variables": [
+    {
+      "id": "Q01",
+      "pages": [
+        1,
+        3,
+        5
+      ],
+      "name": "Spatial resolution and observational support",
+      "unit": "1km;0.01degree;20–50km wells",
+      "assumption": "Output grid, source density and accuracy differ. Native CRS/resampling/cell-area weights missing."
+    },
+    {
+      "id": "Q02",
+      "pages": [
+        5
+      ],
+      "name": "Map scale and data tiers",
+      "unit": "Printed≤1:1/2.5/5/10million;25/100/400/2500km² per well",
+      "assumption": "Preserve source map-scale notation; spacing<5/10/20/50km is not rigorously equivalent for irregular data."
+    },
+    {
+      "id": "Q03",
+      "pages": [
+        3,
+        4
+      ],
+      "name": "Capacity hierarchy",
+      "unit": "theoretical/effective/practical/matched",
+      "assumption": "Native algorithms/technical strategies define the tiers; no annual safety inference."
+    },
+    {
+      "id": "Q04",
+      "pages": [
+        4,
+        5,
+        12
+      ],
+      "name": "P10/P50/P90",
+      "unit": "quantile labels",
+      "assumption": "Capacity-only range and P50 matching; no complete distribution, exceedance convention or joint uncertainty supplied."
+    },
+    {
+      "id": "Q05",
+      "pages": [
+        4,
+        5
+      ],
+      "name": "Suitability criteria",
+      "unit": "performance, risk, social/economic/environmental indices",
+      "assumption": "Independent on/offshore systems; S2/S3 normalization/weights remain unverified, not probabilities."
+    },
+    {
+      "id": "Q06",
+      "pages": [
+        4,
+        7
+      ],
+      "name": "Injection and geofluid production",
+      "unit": "well numbers, strata, mass balance and pressure",
+      "assumption": "Hypothesized strategies do not supply flow, water-disposal, pumping, interference or safe annual envelopes."
+    },
+    {
+      "id": "Q07",
+      "pages": [
+        4,
+        5,
+        7
+      ],
+      "name": "Costs and currency",
+      "unit": "2022USD/t",
+      "assumption": "All costs said escalated; indices, locations and native budgets absent. Typical ranges not universal bounds."
+    },
+    {
+      "id": "Q08",
+      "pages": [
+        5
+      ],
+      "name": "Source operation",
+      "unit": "prompt retrofit and assumed capacity",
+      "assumption": "No staged construction/dispatch or downtime model provided in main PDF."
+    },
+    {
+      "id": "Q09",
+      "pages": [
+        5,
+        7,
+        11
+      ],
+      "name": "Search radius and route",
+      "unit": "150–800km; six Figure8 cases",
+      "assumption": "Candidate radius not necessarily pipe path length; cost-surface routes and capacities missing."
+    },
+    {
+      "id": "Q10",
+      "pages": [
+        6
+      ],
+      "name": "Source counts/emissions",
+      "unit": "4673records;8914.1Mt/y total",
+      "assumption": "Four-sector2022 database; literal row sum8914.2 can fit rounding. Facility deduplication unresolved."
+    },
+    {
+      "id": "Q11",
+      "pages": [
+        6
+      ],
+      "name": "CO₂ stream quality",
+      "unit": "vol%12–15/20–25/25–30/>85",
+      "assumption": "Concentrations are not net capture rates or complete feed compositions."
+    },
+    {
+      "id": "Q12",
+      "pages": [
+        6
+      ],
+      "name": "High-concentration CO₂",
+      "unit": "226Mt/y",
+      "assumption": "Substream membership cannot be independently verified; do not add again without native data."
+    },
+    {
+      "id": "Q13",
+      "pages": [
+        6
+      ],
+      "name": "Net capture and captive overlap",
+      "unit": "85%;320Mt/y;500kt/y threshold",
+      "assumption": "Captured mass differs from avoided/injected/retained; conditional removal of320 is not a correction."
+    },
+    {
+      "id": "Q14",
+      "pages": [
+        6
+      ],
+      "name": "Regional geology",
+      "unit": "5–20%porosity;.1–10mD central range;8–10km sediment",
+      "assumption": "Basin-scale descriptions are not calibrated project properties or safe pressure limits."
+    },
+    {
+      "id": "Q15",
+      "pages": [
+        7,
+        9
+      ],
+      "name": "Resource capacity/density",
+      "unit": "Gt;Mt/km²",
+      "assumption": "1499.8Gt effective is stock. Pixel colour and nominal cell size do not establish actual area-integrated capacity."
+    },
+    {
+      "id": "Q16",
+      "pages": [
+        7,
+        9
+      ],
+      "name": "Annual matched flows",
+      "unit": "4211/5469.3/6107.4Mt/y",
+      "assumption": "Allocation/model outputs, not independent physical annual maxima; on/offshore share differs from stock share."
+    },
+    {
+      "id": "Q17",
+      "pages": [
+        8,
+        11,
+        12,
+        13
+      ],
+      "name": "Cost and mitigation denominators",
+      "unit": "captured/avoided/industrial emissions/project counts;USD/t",
+      "assumption": "60–75,59–79,64–75 and79%statements need exact case and denominator mapping."
+    },
+    {
+      "id": "Q18",
+      "pages": [
+        2,
+        11
+      ],
+      "name": "Schematic versus case capture/cost",
+      "unit": "50%and250km,LACOEUSD/MWh versus85%andUSD/t",
+      "assumption": "Figure1illustration cannot be pooled with native national cost curves."
+    },
+    {
+      "id": "Q19",
+      "pages": [
+        10,
+        13
+      ],
+      "name": "Coalitions and assessment areas",
+      "unit": "12proposals;16onshore+15offshore",
+      "assumption": "Proposals/regions are not implemented agreements or independently validated fields."
+    },
+    {
+      "id": "Q20",
+      "pages": [
+        12,
+        13
+      ],
+      "name": "Data/model availability",
+      "unit": "SM1PDF and data upon request",
+      "assumption": "Neither native model nor source data acquired locally; no author contact or external retrieval resumed."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C01",
+      "pages": [
+        1
+      ],
+      "claim": "CCUS can contribute to decarbonizing fossil-intensive industry and energy.",
+      "assessment": "Context references, rather than a complete lifecycle or facility inventory in this paper.",
+      "reference_ids": [
+        "R01",
+        "R02",
+        "R03",
+        "R04",
+        "R05",
+        "R06"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C02",
+      "pages": [
+        1
+      ],
+      "claim": "Deep saline aquifers contribute over 90% of storage potential but have sparse data and heterogeneous trapping behavior.",
+      "assessment": "Resource context and geological uncertainty do not establish annual pressure-limited service or verified retention.",
+      "reference_ids": [
+        "R07",
+        "R08",
+        "R09",
+        "R10"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C03",
+      "pages": [
+        1
+      ],
+      "claim": "China has spatial source–sink mismatch, with transport/storage costs above 60 USD/t in some cases.",
+      "assessment": "Historical cost/geographic context; not a universal cost or current contracted service.",
+      "reference_ids": [
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C04",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Several Chinese onshore and offshore basins have been assessed with inconsistent data and methods.",
+      "assessment": "Six supporting regional originals remain unverified; no exhaustive national literature audit is reproduced.",
+      "reference_ids": [
+        "R16",
+        "R17",
+        "R18",
+        "R19",
+        "R20",
+        "R21"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C05",
+      "pages": [
+        2
+      ],
+      "claim": "Existing models poorly integrate capacity, economics, matching and policy, limiting national analysis.",
+      "assessment": "Scoped Lin original passages support four broad challenges, rather than proof that every prior model lacks integration.",
+      "reference_ids": [
+        "R22",
+        "R23",
+        "R24",
+        "R25",
+        "R26"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C06",
+      "pages": [
+        3
+      ],
+      "claim": "Storage assessment has theoretical, effective, practical and matched tiers across basin, zone and site scales.",
+      "assessment": "Hierarchical terms need their native algorithms; a tier is not a calibrated annual injection bound.",
+      "reference_ids": [
+        "R27",
+        "R28"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C07",
+      "pages": [
+        3
+      ],
+      "claim": "Offshore assessments often focus on individual basins or theoretical basin-scale capacity.",
+      "assessment": "Originals and the scope of this literature claim remain unverified.",
+      "reference_ids": [
+        "R29",
+        "R30"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C08",
+      "pages": [
+        3
+      ],
+      "claim": "ITEAM-CCS hub integrates national sources, geology, suitability, capacity, costs, matching and pipeline generation at 1 km resolution.",
+      "assessment": "Software integration is described, but no native implementation, data or accuracy benchmark is reproduced.",
+      "reference_ids": [
+        "R11",
+        "R12",
+        "R31",
+        "R32"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C09",
+      "pages": [
+        3,
+        4
+      ],
+      "claim": "The zone framework complements Petrel, TOUGH2 and MRST by supporting national planning.",
+      "assessment": "Complementary scope, rather than greater physical accuracy or an independently validated substitute for field models.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C10",
+      "pages": [
+        4
+      ],
+      "claim": "Onshore and offshore suitability and economic models are assessed separately.",
+      "assessment": "Their index definitions, scales and comparability require the supporting material.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C11",
+      "pages": [
+        4
+      ],
+      "claim": "The results serve macro-assessment and preliminary feasibility and cannot underpin site screening or project design.",
+      "assessment": "Explicit source limitation retained in Paper 1; no source-site licensing or safe operating envelope inferred.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C12",
+      "pages": [
+        4
+      ],
+      "claim": "Large-scale schemes can combine near mass balance, injection and geofluid-production wells, multiple strata and risk mitigation.",
+      "assessment": "Hypothesized engineering strategy, not supplied water volumes, pumping/disposal utilities or verified pressure limits.",
+      "reference_ids": [
+        "R33",
+        "R34",
+        "R35"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C13",
+      "pages": [
+        4
+      ],
+      "claim": "Suitability combines storage performance, safety/risk and social-economic/environmental constraints.",
+      "assessment": "Weights, normalization and on/offshore criteria in S2/S3 remain unverified; categories are not failure probabilities.",
+      "reference_ids": [
+        "R27",
+        "R36",
+        "R37"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C14",
+      "pages": [
+        4
+      ],
+      "claim": "Capacity methods include empirical, analytical, reduced-order, numerical, AI and hybrid approaches selected by data quality.",
+      "assessment": "The mathematical realizations are deferred to SM1; no formal numbered equation appears in the main PDF.",
+      "reference_ids": [
+        "R38",
+        "R39",
+        "R40",
+        "R41",
+        "R42",
+        "R43",
+        "R44",
+        "R45",
+        "R46",
+        "R47",
+        "R48"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C15",
+      "pages": [
+        4
+      ],
+      "claim": "Source screening uses enterprise location, process, output, fuels, water, electricity and emission quantities/concentrations.",
+      "assessment": "Naming data does not supply a complete matched capture/conditioning utility balance; facility records remain unavailable locally.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C16",
+      "pages": [
+        4
+      ],
+      "claim": "Source-screening criteria vary by industry and region, with P10/P90 details referred to capacity algorithms in the supplement.",
+      "assessment": "The apparent section cross-reference does not supply a quantile definition or original algorithm.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C17",
+      "pages": [
+        4
+      ],
+      "claim": "Storage costs depend on site performance, platforms, wells, injection strategies and parameters; all money is escalated to 2022 USD.",
+      "assessment": "Original cost models are cited; a scoped SimCCS check supports economic/geospatial precedent, not China case validation. Escalation indices and native parameters are missing.",
+      "reference_ids": [
+        "R09",
+        "R49",
+        "R50",
+        "R51",
+        "R52",
+        "R53",
+        "R54",
+        "R55",
+        "R56",
+        "R57"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C18",
+      "pages": [
+        5
+      ],
+      "claim": "P2P and M2M pairing use pipeline routes and cost surfaces within search radii.",
+      "assessment": "The main PDF gives no formal objective, network constraints or native optimization cases; candidate radius is not necessarily actual pipe length.",
+      "reference_ids": [
+        "R58",
+        "R62",
+        "R63"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C19",
+      "pages": [
+        5
+      ],
+      "claim": "All modeled sources promptly retrofit and operate at their assumed capacities.",
+      "assessment": "Explicit simultaneous deployment assumption; proposed policy stages are not a native annual construction/dispatch schedule.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C20",
+      "pages": [
+        5
+      ],
+      "claim": "Subsurface data span basin, regional and site scales; surface data include geology, terrain, networks, climate and social-economic layers.",
+      "assessment": "Taxonomy and multi-resolution integration do not establish every layer's accuracy; originals and S13 remain unverified.",
+      "reference_ids": [
+        "R59",
+        "R60"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C21",
+      "pages": [
+        5
+      ],
+      "claim": "Institutional geological sources and petroleum/project parameters support the data compilation.",
+      "assessment": "Exact versions and access are pending. The cited 1994–2009 US equipment-cost lineage needs transparent 2022 escalation and regional transfer.",
+      "reference_ids": [
+        "R61"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C22",
+      "pages": [
+        5
+      ],
+      "claim": "Table 1 associates one well per 25/100/400/2500 km² with spacing below 5/10/20/50 km.",
+      "assessment": "Square-root arithmetic agrees with boundary values, but does not prove equivalence for irregular well patterns; preserve strict inequalities and printed map scales.",
+      "reference_ids": [
+        "R59"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C23",
+      "pages": [
+        5
+      ],
+      "claim": "Data fusion creates about 1 km × 1 km or 0.01° × 0.01° grids.",
+      "assessment": "Angular area changes with latitude; native CRS, cell areas, resampling and aggregation weights are required. No erroneous source area is assumed.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C24",
+      "pages": [
+        5
+      ],
+      "claim": "The 1 km grid is interpolated from well spacing of 20–50 km and cannot resolve unobserved small faults, channels or barriers.",
+      "assessment": "Explicit source limitation: output cell size is not observation density or predictive accuracy. Denser wells/seismic data are needed for site claims.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C25",
+      "pages": [
+        6
+      ],
+      "claim": "Four-sector 2022 emissions total 8.9 Gt, with 4,673 source records and 226 Mt/y high-concentration CO₂.",
+      "assessment": "Counts close; the literal emission rows sum to 8,914.2 versus 8,914.1 Mt/y, compatible with displayed rounding. Do not add the 226 Mt/y again without its native membership.",
+      "reference_ids": [
+        "R12",
+        "R15",
+        "R36"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C26",
+      "pages": [
+        6
+      ],
+      "claim": "At 85% net capture, about 7.6 Gt/y could be captured.",
+      "assessment": "8,914.1 × 0.85 = 7,576.985 Mt/y. Capture is distinct from full-chain avoidance, injection and permanent retention. Feed vol% is also distinct from capture efficiency.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C27",
+      "pages": [
+        6
+      ],
+      "claim": "Captive-power double counting is possible; 320 Mt/y and excluded small sources are described as negligible against 4.34 Gt/y coal power.",
+      "assessment": "320/4,658.2 is about 6.87%. Removing 320 conditionally reconstructs 4.3382 Gt/y but is not an accepted deduplication or a justified negligible-error criterion.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C28",
+      "pages": [
+        6
+      ],
+      "claim": "Basins have different tectonics, reservoir/seal properties, porosity, permeability and sediment thickness.",
+      "assessment": "Regional ranges are not site-specific pressure/risk calibration. Central 5–15% and 0.1–10 mD, western 12–20% and 10 km, and offshore 8 km are retained as source context.",
+      "reference_ids": [
+        "R62"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C29",
+      "pages": [
+        6
+      ],
+      "claim": "Several offshore basins have high suitability, capacity, injectivity and safety, with typical costs below 10/30 USD/t on/offshore.",
+      "assessment": "Qualitative regional rankings, not measured safety or universal bounds; later cost ranges and map outliers require case scope.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C30",
+      "pages": [
+        7,
+        9
+      ],
+      "claim": "Theoretical and effective capacity totals are about 2.5 and 1.5 trillion tonnes.",
+      "assessment": "Table 3 sums close exactly at displayed precision. These are resource stocks, rather than annual physical service.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C31",
+      "pages": [
+        7,
+        9
+      ],
+      "claim": "Capacity density spans 0.01–1.35 Mt/km²; large basin areas and strata support substantial resources.",
+      "assessment": "Figure 6 legend includes zero; neither a colour nor a nominal 1 km pixel supplies a precise stock without original area/mask data.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C32",
+      "pages": [
+        7,
+        9
+      ],
+      "claim": "Theoretical P10–P90 spans 1.25–3.76 trillion tonnes, while matched capacity is 4.2–6.1 Gt/y across 150–800 km.",
+      "assessment": "Only capacity ranges are supplied; quantile convention, joint uncertainty and native pressure constraints remain unverified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C33",
+      "pages": [
+        9
+      ],
+      "claim": "P50 onshore/offshore theoretical stocks are 1305.7/1201.6 Gt, and effective stocks 756.2/743.6 Gt.",
+      "assessment": "Nearly balanced stocks do not imply balanced annual matched flows; onshore provides roughly 89–91% of the matched totals.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C34",
+      "pages": [
+        7,
+        10
+      ],
+      "claim": "Most offshore storage costs are 10–60 USD/t, compared with 3–10 onshore.",
+      "assessment": "2022-USD regional ranges, not universal minima/maxima; Figure 7 includes >100 USD/t and a None category that is not zero.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C35",
+      "pages": [
+        7
+      ],
+      "claim": "High-pressure buildup can limit capacity and increase risk, requiring well-field and water-recovery design.",
+      "assessment": "Acknowledges the mechanism but supplies no validated annual maximum rates, pressure controls or water-treatment inventory.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C36",
+      "pages": [
+        7,
+        8
+      ],
+      "claim": "Over 99% of sources have suitable onshore or offshore candidates within 800 km.",
+      "assessment": "Source-count geographical eligibility differs from mass served, economic deployment and shared-sink feasibility.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C37",
+      "pages": [
+        8,
+        11
+      ],
+      "claim": "At costs below 90 USD/t, 85% capture yields 4.2 Gt/y at 150 km and 6.0 Gt/y at 800 km, described as 59–79% of captured emissions.",
+      "assessment": "4.2/7.6 is 55.26%, while 6.0/7.6 is 78.95%. Conditional display intervals cannot explain 59%; preserve the unresolved denominator or case distinction.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C38",
+      "pages": [
+        8,
+        11
+      ],
+      "claim": "Avoidance costs exceed levelized costs because CCS uses energy and creates emissions.",
+      "assessment": "The native capture, avoided-mass and project-emission arrays are missing; exact full-chain duties cannot be recovered from the plotted difference.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C39",
+      "pages": [
+        8,
+        11
+      ],
+      "claim": "Plateaus reflect onshore/offshore transitions and basin heterogeneity; beyond about 300 km transport dominates costs.",
+      "assessment": "Source interpretation, not an independently reproduced causal or sensitivity result; route, land and infrastructure arrays are needed.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C40",
+      "pages": [
+        8
+      ],
+      "claim": "Urban, water, rail and conservation costs motivate backbone pipelines and clusters.",
+      "assessment": "Policy/economic implication, rather than validated shared-network savings under the native M2M model.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C41",
+      "pages": [
+        8
+      ],
+      "claim": "Over 69% of captured CO₂ costs 30–60 USD/t and over 79% of cases cost less than 90 USD/t.",
+      "assessment": "Mass shares, project counts, radius scenarios and denominators must be separated; do not merge this with abstract 60–75% or implications 64–75%.",
+      "reference_ids": [
+        "R37",
+        "R57",
+        "R63"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C42",
+      "pages": [
+        8
+      ],
+      "claim": "P50 suitability, capacities and costs are consistent with Ordos, Yulin, Enping and Bohai Bay project assessments.",
+      "assessment": "No native comparisons, tolerances or held-out case definition are printed; the authors' consistency statement is not an independently reproduced validation.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C43",
+      "pages": [
+        8,
+        9,
+        12
+      ],
+      "claim": "Basin cost curves have smooth or stepwise features due to source distribution, storage zones and matching.",
+      "assessment": "Figure 9 uses a logarithmic mass axis and Levelized Cost ordinate despite its abatement-cost caption. Exact curve arrays and category partitions remain open.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C44",
+      "pages": [
+        9,
+        12
+      ],
+      "claim": "Provincial curves differ between centralized single-basin and multibasin regions.",
+      "assessment": "Figure 10 has 34 native region labels and a linear mass axis. Native names are preserved as geography; plotted limits do not establish terminal capacities.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C45",
+      "pages": [
+        9,
+        10
+      ],
+      "claim": "Regional geology, land/energy costs and source characteristics explain sectoral and administrative cost differences.",
+      "assessment": "Qualitative attribution requires native sensitivity/counterfactual cases. No complete utility inventory follows from CO₂-concentration categories.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C46",
+      "pages": [
+        10
+      ],
+      "claim": "Coastal marine basins can halve abatement costs through proximal pairing.",
+      "assessment": "The exact comparator, cases and common avoided-mass/cost boundary are not supplied.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C47",
+      "pages": [
+        10
+      ],
+      "claim": "Twelve coalitions and carbon corridors are proposed, including integrated land/sea basins.",
+      "assessment": "Named proposals are not implemented agreements, infrastructure or field-service contracts; duplicate/overlapping basin partitions need native mapping.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C48",
+      "pages": [
+        10,
+        11
+      ],
+      "claim": "Enterprise sharing, provincial agreements and statutory corridors can enable cost, technical and policy synergy and industrial relocation.",
+      "assessment": "A proposed roadmap, not a native multi-period schedule or independent prediction of jobs, economic revival or deployment.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C49",
+      "pages": [
+        11
+      ],
+      "claim": "China has a cost advantage versus the US, Central Asia and Europe and can reduce stranded-asset risk.",
+      "assessment": "Cross-study costs need common currency year, scope, capacity, technology and denominator; no matched international comparison was reproduced.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C50",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Uncertainty analysis is constrained by input ranges and computational cost; matching relies on P50 medians.",
+      "assessment": "Explicit limitation; P50 is not a probability of project success or evidence of calibrated joint uncertainty.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C51",
+      "pages": [
+        12
+      ],
+      "claim": "The analysis focuses on saline aquifers and excludes oilfield content, even though EOR profit/pricing is discussed.",
+      "assessment": "Do not pool illustrative utilization/oilfield schematics with the quantitative saline-aquifer cost boundary.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C52",
+      "pages": [
+        12
+      ],
+      "claim": "CCS alone cannot deliver 100% net mitigation for coal-based industry; complementary energy/removal options are needed.",
+      "assessment": "Residual emissions are acknowledged; complete counterfactual and retained-carbon accounting remains outside the supplied numerical evidence.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C53",
+      "pages": [
+        13
+      ],
+      "claim": "Implications say 64–75% of industrial emissions can be stored within 300 km below 90 USD/t.",
+      "assessment": "For the same Table 2/3 case, all 300 km matches are only 61.36% of gross emissions or 72.18% of calculated captured emissions, before cost filtering. Case/denominator mapping is unresolved.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C54",
+      "pages": [
+        1,
+        13
+      ],
+      "claim": "The framework could manage about 80% of coal-sector emissions and offers Global South replication.",
+      "assessment": "The 800 km total is about 80.6% of calculated captured mass but 68.5% of gross Table 2 emissions. Do not silently choose a denominator or treat transfer as field validation.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C55",
+      "pages": [
+        13
+      ],
+      "claim": "The database covers 16 onshore basins and 15 offshore areas with 1 km analysis and 12 coalition candidates.",
+      "assessment": "31 assessment areas are not 31 independently validated storage sites or safe annual operating envelopes.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C56",
+      "pages": [
+        13
+      ],
+      "claim": "The framework resolves spatial-temporal 5W2H planning and aligns geology, costs and policy.",
+      "assessment": "The prompt retrofit assumption is not a dynamic construction, dispatch or reservoir-feedback model. Transfer requires local data and transparent constraints.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C57",
+      "pages": [
+        13
+      ],
+      "claim": "Supporting data can be requested from the corresponding author; SM1 is linked as a free PDF.",
+      "assessment": "No author was contacted and no external download resumed. Native files, code and complete supporting algorithms remain unverified locally.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C58",
+      "pages": [
+        13,
+        14
+      ],
+      "claim": "Eight authors, no competing financial interest and named Chinese/US-China funding are disclosed.",
+      "assessment": "Provenance only; authorship, funding and declarations neither validate results nor establish misconduct.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C59",
+      "pages": [
+        14,
+        15
+      ],
+      "claim": "All 63 printed references support the paper's context and methods.",
+      "assessment": "Native bibliography read and preserved, with R19 column continuation. Two selected-original edges support bounded context; 61 originals and further literature chains remain unverified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C60",
+      "pages": [
+        3,
+        4,
+        5,
+        7,
+        12
+      ],
+      "claim": "Paper 1 implication: a high-resolution national resource/matching framework does not supply field-level annual service.",
+      "assessment": "No pressure, injectivity, water utility or retention factor is accepted from this paper.",
+      "reference_ids": [],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C61",
+      "pages": [
+        4,
+        5,
+        8,
+        11,
+        12
+      ],
+      "claim": "Paper 1 implication: source-count eligibility, captured/avoided mass, capacity stock and annual flow require separate denominators.",
+      "assessment": "57 diagnostics and synthetic geometry/grid/LP examples do not reproduce native ITEAM, source records, cost curves or physical models.",
+      "reference_ids": [],
+      "kind": "audit_scope_implication"
+    },
+    {
+      "id": "C62",
+      "pages": [
+        3,
+        5,
+        10,
+        13
+      ],
+      "claim": "Paper 1 implication: existing economic/geospatial integration and coalition proposals qualify novelty claims.",
+      "assessment": "Recognize the prior framework while keeping its limited native-data/model verification explicit.",
+      "reference_ids": [
+        "R23",
+        "R52"
+      ],
+      "kind": "audit_scope_implication"
+    }
+  ],
+  "references": [
+    {
+      "id": "R01",
+      "pages": [
+        14
+      ],
+      "citation": "(1) Prado, A.; Mac Dowell, N. The cost of permanent carbon dioxide removal. Joule 2023, 7 (4), 700−712.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C01"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R01"
+    },
+    {
+      "id": "R02",
+      "pages": [
+        14
+      ],
+      "citation": "(2) Fan, J.-L.; Xiang, X.; Yao, Y.; Li, K.; Li, Z.; Wei, S.; Diao, Y.; Ju, Z.; Li, X.; Li, X.; Peng, B.; Ma, J.; Qi, S.; Zhang, X. Dataset of CO2 geological storage potential and injection rate capacity in China based on fine grid technology. Sci. Data 2025, 12 (1), 640.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C01"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R02"
+    },
+    {
+      "id": "R03",
+      "pages": [
+        14
+      ],
+      "citation": "(3) Yuan, J.-H.; Lyon, T. P. Promoting global CCS RDD&D by stronger U.S.−China collaboration. Renew. Sustain. Energy Rev. 2012, 16 (9), 6746−6769.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C01"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R03"
+    },
+    {
+      "id": "R04",
+      "pages": [
+        14
+      ],
+      "citation": "(4) Liu, Z.; Guan, D.; Wei, W.; Davis, S. J.; Ciais, P.; Bai, J.; Peng, S.; Zhang, Q.; Hubacek, K.; Marland, G.; Andres, R. J.; Crawford-Brown, D.; Lin, J.; Zhao, H.; Hong, C.; Boden, T. A.; Feng, K.; Peters, G. P.; Xi, F.; Liu, J.; Li, Y.; Zhao, Y.; Zeng, N.; He, K. Reduced carbon emission estimates from fossil fuel combustion and cement production in China. Nature 2015, 524 (7565), 335−338.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C01"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R04"
+    },
+    {
+      "id": "R05",
+      "pages": [
+        14
+      ],
+      "citation": "(5) Mallapaty, S. How China could be carbon neutral by mid-century. Nature 2020, 586 (7830), 482−483.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C01"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R05"
+    },
+    {
+      "id": "R06",
+      "pages": [
+        14
+      ],
+      "citation": "(6) Moore, E. A.; Chua, A.; Middleton, E.; Middleton, R.; Sale, K.; Mehdi, Q.; Miranda, M.; Grol, E.; Azarijafari, H.; Kirchain, R. How can the Cement Industry Enable Industrial Decarbonization at Scale? Environ. Sci. Technol. 2025, 59 (36), 19233−19243.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C01"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R06"
+    },
+    {
+      "id": "R07",
+      "pages": [
+        14
+      ],
+      "citation": "(7) Bachu, S.; Bonijoly, D.; Bradshaw, J.; Burruss, R.; Holloway, S.; Christensen, N. P.; Mathiassen, O. M. CO2 storage capacity estimation: Methodology and gaps. Int. J. Greenhouse Gas Control 2007, 1 (4), 430− 443.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C02"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R07"
+    },
+    {
+      "id": "R08",
+      "pages": [
+        14
+      ],
+      "citation": "(8) Bradshaw, J.; Bachu, S.; Bonijoly, D.; Burruss, R.; Holloway, S.; Christensen, N. P.; Mathiassen, O. M. CO2 storage capacity estimation: issues and development of standards. Int. J. Greenhouse Gas Control 2007, 1, 62−68.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C02"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R08"
+    },
+    {
+      "id": "R09",
+      "pages": [
+        14
+      ],
+      "citation": "(9) Anderson, S. T. Cost Implications of Uncertainty in CO2 Storage Resource Estimates: A Review. Nat. Resour Res. 2017, 26 (2), 137−159.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C02",
+        "C17"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R09"
+    },
+    {
+      "id": "R10",
+      "pages": [
+        14
+      ],
+      "citation": "(10) Elenius, M.; Skurtveit, E.; Yarushina, V.; Baig, I.; Sundal, A.; Wangen, M.; Landschulze, K.; Kaufmann, R.; Choi, J. C.; Hellevang, H.; Podladchikov, Y.; Aavatsmark, I.; Gasda, S. E. Assessment of CO2 storage capacity based on sparse data: Skade Formation. Int. J. Greenhouse Gas Control 2018, 79, 252−271.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C02"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R10"
+    },
+    {
+      "id": "R11",
+      "pages": [
+        14
+      ],
+      "citation": "(11) Wei, N.; Jiao, Z.; Ellett, K.; Ku, A. Y.; Liu, S.; Middleton, R.; Li, X. Decarbonizing the Coal-Fired Power Sector in China via Carbon Capture, Geological Utilization, and Storage Technology. Environ. Sci. Technol. 2021, 55 (19), 13164−13173.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C03",
+        "C08"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R11"
+    },
+    {
+      "id": "R12",
+      "pages": [
+        14
+      ],
+      "citation": "(12) Wei, N.; Liu, S. N.; Jiao, Z. S.; Li, X. C. A possible contribution of carbon capture, geological utilization, and storage in the Chinese crude steel industry for carbon neutrality. J. Cleaner Prod. 2022, 374, 133793.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C03",
+        "C08",
+        "C25"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R12"
+    },
+    {
+      "id": "R13",
+      "pages": [
+        14
+      ],
+      "citation": "(13) Li, X.; Wei, N.; Liu, Y.; Fang, Z.; Dahowski, R. T.; Davidson, C. L. CO2 point emission and geological storage capacity in China. Energy Procedia 2009, 1 (1), 2793−2800.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C03"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R13"
+    },
+    {
+      "id": "R14",
+      "pages": [
+        14
+      ],
+      "citation": "(14) Wei, N.; Li, X.; Fang, Z.; Bai, B.; Li, Q.; Liu, S.; Jia, Y. Regional resource distribution of onshore carbon geological utilization in China. J. CO2 Util. 2015, 11, 20−30.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C03"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R14"
+    },
+    {
+      "id": "R15",
+      "pages": [
+        14
+      ],
+      "citation": "(15) Liu, S.; Wei, N.; Jiang, D.; Nie, L.; Cai, B.; Tao, Y.; Li, X. Emission reduction path for coal-based enterprises via carbon capture, geological utilization, and storage: China energy group. Energy 2023, 273, 127222.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C03",
+        "C25"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R15"
+    },
+    {
+      "id": "R16",
+      "pages": [
+        14
+      ],
+      "citation": "(16) Wang, S.; Vincent, C. J.; Stephenson, M. H.; Zeng, R. Assessment of storage capacity for CO2 in saline aquifers near hydrocarbon fields, northern Songliao Basin, China. Greenhouse Gases:Sci. Technol. 2014, 4 (3), 366−383.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C04"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R16"
+    },
+    {
+      "id": "R17",
+      "pages": [
+        14
+      ],
+      "citation": "(17) Sun, L.; Dou, H.; Li, Z.; Hu, Y.; Hao, X. Assessment of CO2 storage potential and carbon capture, utilization and storage prospect in China. J. Energy Inst. 2018, 91 (6), 970−977.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C04"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R17"
+    },
+    {
+      "id": "R18",
+      "pages": [
+        14
+      ],
+      "citation": "(18) Heinemann, N.; Haszeldine, R. S.; Shu, Y.; Stewart, R. J.; Scott, V.; Wilkinson, M. CO2 sequestration with limited sealing capability: A new injection and storage strategy in the Pearl River Mouth Basin (China). Int. J. Greenhouse Gas Control 2018, 68, 230−235.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C04"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R18"
+    },
+    {
+      "id": "R19",
+      "pages": [
+        14
+      ],
+      "citation": "(19) Zhou, D.; Li, P.; Liang, X.; Liu, M.; Wang, L. A long-term strategic plan of offshore CO2 transport and storage in northern South China Sea for a low-carbon development in Guangdong province, China. Int. J. Greenhouse Gas Control 2018, 70, 76−87.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C04"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R19"
+    },
+    {
+      "id": "R20",
+      "pages": [
+        14
+      ],
+      "citation": "(20) Zhou, D.; Zhao, Z.; Liao, J.; Sun, Z. A preliminary assessment on CO2 storage capacity in the Pearl River Mouth Basin offshore Guangdong, China. Int. J. Greenhouse Gas Control 2011, 5 (2), 308− 317.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C04"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R20"
+    },
+    {
+      "id": "R21",
+      "pages": [
+        14
+      ],
+      "citation": "(21) Qiao, X.; Li, G.; Li, M.; Wang, Z. CO2 storage capacity assessment of deep saline aquifers in the Subei Basin, East China. Int. J. Greenhouse Gas Control 2012, 11 (0), 52−63.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C04"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R21"
+    },
+    {
+      "id": "R22",
+      "pages": [
+        14
+      ],
+      "citation": "(22) Zhang, X.; Li, K.; Wei, N.; Li, Z.; Fan, J.-L. Advances, challenges, and perspectives for CCUS source-sink matching models under carbon neutrality target. J. Carbon Neutr. 2022, 1 (1), 12.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C05"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R22"
+    },
+    {
+      "id": "R23",
+      "pages": [
+        14
+      ],
+      "citation": "(23) Lin, K.; Wei, N.; Jiang, D.; Zhang, Y. Progress and perspectives in source-sink matching for CCUS: A critical review. Renew. Sustain. Energy Rev. 2026, 226, 116313.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C05",
+        "C62"
+      ],
+      "verification_status": "primary_text_checked_selected_passages_only",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R23"
+    },
+    {
+      "id": "R24",
+      "pages": [
+        14
+      ],
+      "citation": "(24) Middleton, R. S.; Yaw, S. The cost of getting CCS wrong: Uncertainty, infrastructure design, and stranded CO2. Int. J. Greenhouse Gas Control 2018, 70, 1−11.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C05"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R24"
+    },
+    {
+      "id": "R25",
+      "pages": [
+        14
+      ],
+      "citation": "(25) DOE-NETL. Site Screening, Selection and Characterization for Storage of CO2 in Deep Geologic Formations; United State Department of Energy: National Energy Technology Laboratory, https://www.netl. doe.gov/sites/default/files/2018-10/BPM-SiteScreening.pdf: Albany, Oregon, 2017.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C05"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R25"
+    },
+    {
+      "id": "R26",
+      "pages": [
+        14
+      ],
+      "citation": "(26) Zhai, H.; Ou, Y.; Rubin, E. S. Opportunities for Decarbonizing Existing U.S. Coal-Fired Power Plants via CO2 Capture, Utilization and Storage. Environ. Sci. Technol. 2015, 49 (13), 7571−7579.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C05"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R26"
+    },
+    {
+      "id": "R27",
+      "pages": [
+        14
+      ],
+      "citation": "(27) IEA CO2 Storage Resources and Their Development; 2022.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C06",
+        "C13"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R27"
+    },
+    {
+      "id": "R28",
+      "pages": [
+        14
+      ],
+      "citation": "(28) Bachu, S. Review of CO2 storage efficiency in deep saline aquifers. Int. J. Greenhouse Gas Control 2015, 40, 188−202.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C06"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R28"
+    },
+    {
+      "id": "R29",
+      "pages": [
+        14
+      ],
+      "citation": "(29) Huo, C. Study on the Potential Evaluation and the Storage Areas of the Carbon Dioxide Seabed Storage in Offshore China; Dalian Maritime University: Dalian, 2014.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C07"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R29"
+    },
+    {
+      "id": "R30",
+      "pages": [
+        14
+      ],
+      "citation": "(30) Sun, L. L.; Liu, Q.; Chen, H. J.; Yu, H.; Li, L.; Li, L. T.; Li, Y. Z.; Adenutsi, C. D. Source-sink matching and cost analysis of offshore carbon capture, utilization, and storage in China. Energy 2024, 291, 130137.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C07"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R30"
+    },
+    {
+      "id": "R31",
+      "pages": [
+        14
+      ],
+      "citation": "(31) Wei, N.; Li, X. C.; Wang, Y.; Dahowski, R. T.; Davidson, C. L.; Bromhal, G. S. A preliminary sub-basin scale evaluation framework of site suitability for onshore aquifer-based CO2 storage in China. Int. J. Greenhouse Gas Control 2013, 12, 231−246.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C08"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R31"
+    },
+    {
+      "id": "R32",
+      "pages": [
+        14
+      ],
+      "citation": "(32) Li, X.; Wei, N.; Jiao, Z.; Liu, S.; Dahowski, R. Cost curve of large- scale deployment of CO2-enhanced water recovery technology in modern coal chemical industries in China. Int. J. Greenhouse Gas Control 2019, 81, 66−82.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C08"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R32"
+    },
+    {
+      "id": "R33",
+      "pages": [
+        14
+      ],
+      "citation": "(33) Birkholzer, J. T.; Oldenburg, C. M.; Zhou, Q. CO2 migration and pressure evolution in deep saline aquifers. Int. J. Greenhouse Gas Control 2015, 40, 203−220.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C12"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R33"
+    },
+    {
+      "id": "R34",
+      "pages": [
+        14
+      ],
+      "citation": "(34) Chadwick, R. A.; Williams, G. A.; Falcon-Suarez, I. Forensic mapping of seismic velocity heterogeneity in a CO2 layer at the Sleipner CO2 storage operation, North Sea, using time-lapse seismics. Int. J. Greenhouse Gas Control 2019, 90, 102793.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C12"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R34"
+    },
+    {
+      "id": "R35",
+      "pages": [
+        14
+      ],
+      "citation": "(35) Deng, H. L.; Stauffer, P. H.; Dai, Z. X.; Jiao, Z. S.; Surdam, R. C. Simulation of industrial-scale CO2 storage: Multi-scale heterogeneity and its impacts on storage capacity, injectivity and leakage. Int. J. Greenhouse Gas Control 2012, 10, 397−418.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C12"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R35"
+    },
+    {
+      "id": "R36",
+      "pages": [
+        14
+      ],
+      "citation": "(36) Alcalde, J.; Heinemann, N.; James, A.; Bond, C. E.; Ghanbari, S.; Mackay, E. J.; Haszeldine, R. S.; Faulkner, D. R.; Worden, R. H.; Allen, M. J. A criteria-driven approach to the CO2 storage site selection of East Mey for the acorn project in the North Sea. Mar. Pet. Geol. 2021, 133, 105309.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C13",
+        "C25"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R36"
+    },
+    {
+      "id": "R37",
+      "pages": [
+        14
+      ],
+      "citation": "(37) Ye, J.; Afifi, A.; Rowaihy, F.; Baby, G.; De Santiago, A.; Tasianas, A.; Hamieh, A.; Khodayeva, A.; Al-Juaied, M.; Meckel, T. A.; Hoteit, H. Evaluation of geological CO2 storage potential in Saudi Arabian sedimentary basins. Earth-Sci. Rev. 2023, 244, 104539.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C13",
+        "C41"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R37"
+    },
+    {
+      "id": "R38",
+      "pages": [
+        14
+      ],
+      "citation": "(38) Cantucci, B.; Buttinelli, M.; Procesi, M.; Sciarra, A.; Anselm, M. Algorithms for CO2 Storage Capacity Estimation: Review and Case Study.In Geologic Carbon Sequestration; Springer: Cham, 2016; pp 21− 44.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R38"
+    },
+    {
+      "id": "R39",
+      "pages": [
+        15
+      ],
+      "citation": "(39) Bachu, S. Comparison between Methodologies Recommended for Estimation of CO2 Storage Capacity in Geological Media by the CSLF Task Force on CO2 Storage Capacity Estimation and the USDOE Capacity and Fairways Subgroup of the Regional Carbon Sequestration Partnerships Program, 2008.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R39"
+    },
+    {
+      "id": "R40",
+      "pages": [
+        15
+      ],
+      "citation": "(40) Pruess, K.; García, J.; Kovscek, T.; Oldenburg, C.; Rutqvist, J.; Steefel, C.; Xu, T. Code intercomparison builds confidence in numerical simulation models for geologic disposal of CO2. Energy 2004, 29 (9−10), 1431−1444.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R40"
+    },
+    {
+      "id": "R41",
+      "pages": [
+        15
+      ],
+      "citation": "(41) Goodman, A.; Bromhal, G.; Strazisar, B.; Rodosta, T.; Guthrie, W. F.; Allen, D.; Guthrie, G. Comparison of methods for geologic storage of carbon dioxide in saline formations. Int. J. Greenhouse Gas Control 2013, 18, 329−342.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R41"
+    },
+    {
+      "id": "R42",
+      "pages": [
+        15
+      ],
+      "citation": "(42) Popova, O. H.; Small, M. J.; McCoy, S. T.; Thomas, A. C.; Rose, S.; Karimi, B.; Carter, K.; Goodman, A. Spatial Stochastic Modeling of Sedimentary Formations to Assess CO2 Storage Potential. Environ. Sci. Technol. 2014, 48 (11), 6247−6255.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R42"
+    },
+    {
+      "id": "R43",
+      "pages": [
+        15
+      ],
+      "citation": "(43) De Silva, P. N. K.; Ranjith, P. G. A study of methodologies for CO2 storage capacity estimation of saline aquifers. Fuel 2012, 93, 13− 27.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R43"
+    },
+    {
+      "id": "R44",
+      "pages": [
+        15
+      ],
+      "citation": "(44) Celia, M. A.; Bachu, S.; Nordbotten, J. M.; Bandilla, K. W. Status of CO2 storage in deep saline aquifers with emphasis on modeling approaches and practical simulations. Water Resour. Res. 2015, 51 (9), 6846−6892.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R44"
+    },
+    {
+      "id": "R45",
+      "pages": [
+        15
+      ],
+      "citation": "(45) Rose, K. Development of an Open Global Oil and Gas Infrastructure Inventory and Geodatabase: United States, 2018.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R45"
+    },
+    {
+      "id": "R46",
+      "pages": [
+        15
+      ],
+      "citation": "(46) Khosravi, M.; Askari, Z.; Okwen, R. T.; Taft, K. Evaluating the regional geological characteristics of the St. Peter Sandstone and Everton Formation for CO2 storage in Southern Illinois: A case study on site-specific injection feasibility in Washington County, Illinois. Int. J. Greenhouse Gas Control 2025, 141, 104292.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R46"
+    },
+    {
+      "id": "R47",
+      "pages": [
+        15
+      ],
+      "citation": "(47) Zhang, Y.-F.; Qu, M.-L.; Yang, J.-P.; Foroughi, S.; Niu, B.; Yu, Z.- T.; Gao, X.; Blunt, M. J.; Lin, Q. Prediction of CO2 storage efficiency and its uncertainty using deep-convolutional GANs and pore network modelling. Appl. Energy 2025, 381, 125142.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R47"
+    },
+    {
+      "id": "R48",
+      "pages": [
+        15
+      ],
+      "citation": "(48) Edouard, M. N.; Okere, C. J.; Ejike, C.; Dong, P. C.; Suliman, M. A. M. Comparative numerical study on the co-optimization of CO2 storage and utilization in EOR, EGR, and EWR: Implications for CCUS project development. Appl. Energy 2023, 347, 121448.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C14"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R48"
+    },
+    {
+      "id": "R49",
+      "pages": [
+        15
+      ],
+      "citation": "(49) Mathias, S. A.; Gluyas, J. G.; Goldthorpe, W. H.; Mackay, E. J. Impact of Maximum Allowable Cost on CO2 Storage Capacity in Saline Formations. Environ. Sci. Technol. 2015, 49 (22), 13510−13518.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R49"
+    },
+    {
+      "id": "R50",
+      "pages": [
+        15
+      ],
+      "citation": "(50) Knoope, M. M. J.; Guijt, W.; Ramírez, A.; Faaij, A. P. C. Improved cost models for optimizing CO2 pipeline configuration for point-to- point pipelines and simple networks. Int. J. Greenhouse Gas Control 2014, 22, 25−46.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R50"
+    },
+    {
+      "id": "R51",
+      "pages": [
+        15
+      ],
+      "citation": "(51) McCoy, S. T.; Rubin, E. S. An engineering-economic model of pipeline transport of CO2 with application to carbon capture and storage. Int. J. Greenhouse Gas Control 2008, 2 (2), 219−229.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R51"
+    },
+    {
+      "id": "R52",
+      "pages": [
+        15
+      ],
+      "citation": "(52) Middleton, R. S.; Bielicki, J. M. A scalable infrastructure model for carbon capture and storage. Energy Policy 2009, 37 (3), 1052−1060.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17",
+        "C62"
+      ],
+      "verification_status": "primary_text_checked_selected_passages_only",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R52"
+    },
+    {
+      "id": "R53",
+      "pages": [
+        15
+      ],
+      "citation": "(53) Leeson, D.; Mac Dowell, N.; Shah, N.; Petit, C.; Fennell, P. S. A Techno-economic analysis and systematic review of carbon capture and storage (CCS) applied to the iron and steel, cement, oil refining and pulp and paper industries, as well as other high purity sources. Int. J. Greenhouse Gas Control 2017, 61, 71−84.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R53"
+    },
+    {
+      "id": "R54",
+      "pages": [
+        15
+      ],
+      "citation": "(54) Zimmermann, A. W.; Wunderlich, J.; Müller, L.; Buchner, G. A.; Marxen, A.; Michailos, S.; Armstrong, K.; Naims, H.; McCord, S.; Styring, P.; Sick, V.; Schomäcker, R. Techno-Economic Assessment Guidelines for CO2 Utilization. Front. Energy Res. 2020, 8, 5.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R54"
+    },
+    {
+      "id": "R55",
+      "pages": [
+        15
+      ],
+      "citation": "(55) Bui, M.; Adjiman, C. S.; Bardow, A.; Anthony, E. J.; Boston, A.; Brown, S.; Fennell, P. S.; Fuss, S.; Galindo, A.; Hackett, L. A.; Hallett, J. P.; Herzog, H. J.; Jackson, G.; Kemper, J.; Krevor, S.; Maitland, G. C.; Matuszewski, M.; Metcalfe, I. S.; Petit, C.; Puxty, G.; Reimer, J.; Reiner, D. M.; Rubin, E. S.; Scott, S. A.; Shah, N.; Smit, B.; Trusler, J. P. M.; Webley, P.; Wilcox, J.; Mac Dowell, N. Carbon capture and storage (CCS): the way forward. Energy Environ. Sci. 2018, 11 (5), 1062−1176.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R55"
+    },
+    {
+      "id": "R56",
+      "pages": [
+        15
+      ],
+      "citation": "(56) Leung, D. Y. C.; Caramanna, G.; Maroto-Valer, M. M. An overview of current status of carbon dioxide capture and storage technologies. Renewable Sustainable Energy Rev. 2014, 39, 426−443.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R56"
+    },
+    {
+      "id": "R57",
+      "pages": [
+        15
+      ],
+      "citation": "(57) Rowaihy, F.; Hamieh, A.; Odeh, N.; Hejazi, M.; Al-Juaied, M.; Afifi, A. M.; Hoteit, H. Decarbonizing Saudi Arabia energy and industrial sectors: Assessment of carbon capture cost. Carbon Capture Sci. Technol. 2025, 14, 100375.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C17",
+        "C41"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R57"
+    },
+    {
+      "id": "R58",
+      "pages": [
+        15
+      ],
+      "citation": "(58) Wei, N.; Lin, K. Y.; Liu, S. N.; Wang, W. D.; Cheng, G. Q.; Yang, L. X.; Jiao, Z. S.; Li, X. C. A Microflow and Bioinspired Dendritic Topology Optimization for CO2 Capture, Utilization and Storage Hubs in China: Integrating Microfluid Dynamics with Macro-Scale Infra- structure Design. ACS Sustainable Chem. Eng. 2026, 14 (9), 4403− 4421.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C18"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R58"
+    },
+    {
+      "id": "R59",
+      "pages": [
+        15
+      ],
+      "citation": "(59) Wei, N.; Li, X.; Jiao, Z.; Stauffer, P. H.; Liu, S.; Ellett, K.; Middleton, R. S. A Hierarchical Framework for CO2 Storage Capacity in Deep Saline Aquifer Formations. Front. Earth Sci. 2022, 9, 777323.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C20",
+        "C22"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R59"
+    },
+    {
+      "id": "R60",
+      "pages": [
+        15
+      ],
+      "citation": "(60) Rubin, E. S.; Davison, J. E.; Herzog, H. J. The cost of CO2 capture and storage. Int. J. Greenhouse Gas Control 2015, 40, 378−400.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C20"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R60"
+    },
+    {
+      "id": "R61",
+      "pages": [
+        15
+      ],
+      "citation": "(61) EIA Oil and Gas Lease Equipment and Operating Costs 1994 Through 2009; Energy Information Administration, Department of Energy: U.S, 2010.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C21"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R61"
+    },
+    {
+      "id": "R62",
+      "pages": [
+        15
+      ],
+      "citation": "(62) Mi, L. Current status of global CO2 ocean sequestration and opportunities and challenges in China offshore areas. CHINA OFF- SHORE OIL AND GAS (GEOLOGY) 2023, vol 35, pp 123−135.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C18",
+        "C28"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R62"
+    },
+    {
+      "id": "R63",
+      "pages": [
+        15
+      ],
+      "citation": "(63) Hamieh, A.; Rowaihy, F.; Al-Juaied, M.; Abo-Khatwa, A. N.; Afifi, A. M.; Hoteit, H. Quantification and analysis of CO2 footprint from industrial facilities in Saudi Arabia. Energy Convers. Manage.:X 2022, 16, 100299.",
+      "role": "Native context/method citation; claim-specific scope and qualifications are in the linked records.",
+      "claim_links": [
+        "C18",
+        "C41"
+      ],
+      "verification_status": "unverified_original",
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-14_bibliography.json#R63"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "SM1 methods PDF",
+      "role": "Explicit algorithms, criteriaS2/S3, parametersS5–S10, dataS13 and basinresultsS14; locally unverified.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "ITEAM-CCS hub implementation",
+      "role": "Exact code, release, solver/settings and runtime correspondence missing.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Native GIS rasters and metadata",
+      "role": "Original CRS, masks, interpolation and area weighting needed.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "2022enterprise source records",
+      "role": "Facility IDs, screening thresholds, process/activity data and captive deduplication needed.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Capacity algorithms and quantile inputs",
+      "role": "Native geological/engineering strategies, probability conventions and joint distributions missing.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Suitability criteria and weights",
+      "role": "Independent on/offshore criteria, normalization and sensitivities missing.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Native2022USD budgets and escalation",
+      "role": "Price indices, regional coefficients, design lives and engineering costs missing.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Native pipeline cost surface and routes",
+      "role": "Routes, crossings, candidate radii, capacities and sharing allocations missing.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Native P2P/M2M cases",
+      "role": "Actual objectives, constraints, source/sink arrays and scenario mappings missing.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Matched capture/conditioning/water utilities",
+      "role": "Named fuel/water/electricity inputs do not give complete mass/heat/work/supplier balances.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D11",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Native cost/avoidance curve arrays",
+      "role": "Captured/avoided denominators, price cases, figures and percentage mappings missing.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D12",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Project comparison/validation cases",
+      "role": "Independent test cases, tolerances, observed/prefeasibility data and uncertainty missing.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D13",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Field annual pressure/service/retention evidence",
+      "role": "Paper1 requirement outside macro-resource claims; no supplied safe operating or permanence model.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D14",
+      "pages": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        11,
+        12,
+        13
+      ],
+      "citation": "Staged construction/operating/coalition evidence",
+      "role": "Paper1 dynamic operating requirement, not native material claimed by the source; proposals do not supply it.",
+      "verification_status": "unverified_dependency_or_scope_requirement",
+      "claim_links": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I01",
+      "pages": [
+        4,
+        5,
+        12
+      ],
+      "status": "open_scope_resolution",
+      "finding": "Kilometre output is based on sparse geology and explicitly not project design.",
+      "action": "Keep physical service/accuracy claims out; obtain denser observations and validation."
+    },
+    {
+      "id": "I02",
+      "pages": [
+        5
+      ],
+      "status": "open_CRS_scaling",
+      "finding": "Metric/angular grids and scale transitions need original geometry/area weights.",
+      "action": "Use disclosed geometric examples only; no source area correction."
+    },
+    {
+      "id": "I03",
+      "pages": [
+        4,
+        5,
+        13
+      ],
+      "status": "missing_native_assets",
+      "finding": "SM1, ITEAM versions, GIS data, weights and cost cases unavailable locally.",
+      "action": "Preserve data-upon-request/free-SI notices and paused retrieval; do not claim online absence."
+    },
+    {
+      "id": "I04",
+      "pages": [
+        6,
+        11
+      ],
+      "status": "open_emissions_deduplication",
+      "finding": "Captive-power overlap and320Mt/y described negligible without criterion.",
+      "action": "Retain printed totals; conditional subtraction is not an accepted correction."
+    },
+    {
+      "id": "I05",
+      "pages": [
+        6
+      ],
+      "status": "open_table_rounding_membership",
+      "finding": "Emission rows differ0.1Mt/y from summary;226Mt/y substream basis unresolved.",
+      "action": "Rounding can explain the discrepancy; do not double count high-concentration flow."
+    },
+    {
+      "id": "I06",
+      "pages": [
+        1,
+        8,
+        11,
+        13
+      ],
+      "status": "open_denominator_case_conflict",
+      "finding": "Percentage ranges and4.2/7.6→59%need case/denominator mapping.",
+      "action": "Preserve literal source claims; reject only the stated rounding explanation."
+    },
+    {
+      "id": "I07",
+      "pages": [
+        3,
+        7,
+        9
+      ],
+      "status": "open_stock_service",
+      "finding": "Resources, annual matching and physical injection envelopes differ.",
+      "action": "Do not divide stocks by an arbitrary lifetime or adopt matched flows as safe annual rates."
+    },
+    {
+      "id": "I08",
+      "pages": [
+        4,
+        7
+      ],
+      "status": "open_pressure_water_inventory",
+      "finding": "Pressure buildup and near-mass-balance schemes lack verified field/water utilities.",
+      "action": "No pressure, pumping/disposal or retention factor accepted."
+    },
+    {
+      "id": "I09",
+      "pages": [
+        4,
+        5,
+        12
+      ],
+      "status": "open_uncertainty",
+      "finding": "P50 matching and capacity-onlyP10–P90 do not establish joint/calibrated uncertainty.",
+      "action": "Obtain quantile definitions, dependencies and full sensitivity/validation cases."
+    },
+    {
+      "id": "I10",
+      "pages": [
+        5,
+        7,
+        8
+      ],
+      "status": "open_matching_constraints",
+      "finding": "Geographic source-count eligibility is not feasible shared mass delivery.",
+      "action": "Need native constraints/capacities/routes; toy LP only establishes the distinction."
+    },
+    {
+      "id": "I11",
+      "pages": [
+        2,
+        8,
+        11,
+        12
+      ],
+      "status": "open_cost_mass_basis",
+      "finding": "Figure1schematic units differ; Figures8/9levelized/avoidance captions need reconciliation.",
+      "action": "Preserve economic denominators and exact curve arrays; no pixel-derived replacements."
+    },
+    {
+      "id": "I12",
+      "pages": [
+        7,
+        10
+      ],
+      "status": "open_typical_cost_range",
+      "finding": "Figure7contains>100USD/t andNone despite typical narrower ranges.",
+      "action": "Treat typical descriptions as bounded, None as unavailable rather than zero."
+    },
+    {
+      "id": "I13",
+      "pages": [
+        8,
+        10,
+        11
+      ],
+      "status": "open_validation_counterfactual",
+      "finding": "Project-consistency/global-cost/halving claims lack native comparisons and tolerances.",
+      "action": "No independent validation or international ranking certified."
+    },
+    {
+      "id": "I14",
+      "pages": [
+        5,
+        10,
+        13
+      ],
+      "status": "open_dynamic_policy",
+      "finding": "Prompt operation is not staged deployment; coalitions/corridors are proposals.",
+      "action": "No implemented-policy, schedule or shared-infrastructure saving inferred."
+    },
+    {
+      "id": "I15",
+      "pages": [
+        3,
+        4,
+        5,
+        14,
+        15
+      ],
+      "status": "unverified_primary_chain",
+      "finding": "Two scoped context checks leave61printed originals and further sources open.",
+      "action": "Recognize1kmSimCCScost-raster precedent without claiming the new geological framework is identical."
+    },
+    {
+      "id": "I16",
+      "pages": [
+        4,
+        6,
+        12,
+        13
+      ],
+      "status": "open_full_chain_boundary",
+      "finding": "Economic full-chain language does not supply complete matched utilities or net retained carbon.",
+      "action": "Keep unsupported operating/GHG inputs excluded and source provenance intact."
+    }
+  ],
+  "supplements": "Page13 explicitly links free SM1 Methods for the Zone-scale Source-Sink Pairing for CO2 Capture and Geological Storage and states data are available from the corresponding author upon reasonable request. No embedded files. Neither SM1, native code nor requested data is verified locally. No author contacted; external retrieval remains paused pending the requested Chrome connection. Local absence does not mean online absence.",
+  "reproduction": "audit_zonal_pairing.py produces 57 limited table, rounding, unit, denominator, stock/flow and count checks; three disclosed spherical cells; 72 nonuniqueness grid rows; and three shared-sink LP cases. These are source arithmetic and explicit analyst diagnostics, rather than native ITEAM, GIS, source-matching, cost, pressure or LCA reproduction. Formal algorithms and derivations are deferred to unverified SM1. Native utilities, curve arrays, raw data and validation remain missing.",
+  "paper1_use": "Acknowledge national geological/economic integration and regional-coalition planning precedent. Preserve explicit macro/prefeasibility, sparse-data, P50 and prompt-operation limits. Resource Gt, matched Mt/y, source-count eligibility and captured/avoided fractions remain distinct. Native cost/percentage cases and complete utilities are unresolved; no accepted operating/GHG input or numerical result changes. The existing combined 1.5 MPa HOLD is preserved.",
+  "next_steps": "Next local main paper: B2-15. Resolve SM1, native GIS/ITEAM/cost/source data, 61 other originals and fourteen dependencies. When external retrieval resumes, prioritize the exact Fan 2025 Scientific Data 12:640 reference as an unverified public injection-capacity dataset lead; its title alone does not establish pressure-constrained field service. Keep the goal active and this paper incomplete. External retrieval remains paused pending the requested Chrome connection."
+}

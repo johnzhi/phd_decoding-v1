@@ -126,6 +126,10 @@ The [prospective transport audit](../docs/prospective_transport_comprehensive_fi
 
 Their environmental ranking is likewise conditional: dense pipelines lead fourteen of sixteen offshore categories, with water-use and freshwater-eutrophication exceptions. Population and economic allocations, a land-use proxy and a fixed prospective HFO background limit absolute-sustainability and future-reduction interpretations [B2-13, pp5–10]. Such results support explicit boundary, timing and tradeoff analysis, rather than a universal whole-chain climate factor. Missing supplementary inventories and licensed background data remain open.
 
+The [zone-scale source–sink audit](../docs/zonal_pairing_comprehensive_findings.md) adds a national Chinese framework integrating geology, capacity, suitability, economics and coalition planning. Its 1 km output is based partly on much coarser well support, and the authors explicitly limit use to macro-assessment and preliminary feasibility [B2-14, pp3–5,11–13]. Nearly balanced resource stocks coexist with predominantly onshore annual matched flows. Neither quantity establishes pressure-constrained annual field service. The prompt-retrofit assumption and proposed policy stages also do not constitute a dynamic construction or dispatch model.
+
+Its percentage claims require precise mass and scenario boundaries: 4.2 Gt/y divided by the stated 7.6 Gt/y captured total gives about 55%, rather than 59%, and the 300 km figures differ when gross versus captured emissions form the denominator [B2-14, pp6–9,13]. Native curves and supplementary algorithms are needed to reconcile those cases. The framework is relevant prior work for integrated regional planning, while missing annual pressure constraints, full utilities and native-model verification limit its role in the present operating comparison.
+
 The [total-efficiency audit](../docs/total_efficiency_comprehensive_findings.md) similarly holds the hypothetical UK/Australia lifecycle-energy results outside the accepted inventory. Coal efficiency-loss denominators, several graphic share labels, baseline fuel/power closure and captured-versus-avoided annual mass need reconciliation [B1-03, pp4–11]. Table 3 combines literature process cases rather than supplying one matched capture-to-ship utility balance. Its displayed sensitivity arithmetic is consistent with rounding, but complete author cases remain unreproduced. Primary energy, electricity and avoided or retained CO2 retain separate accounting bases.
 
 Buffer ratios divide the reported buffer by the 5,000 t ship capacity. The 99% and 100% transport-completion cases are kept separate. The paper's use of average-cycle captured mass as another denominator is not relabelled as ship capacity [B2-08, pp7–8].
@@ -698,6 +702,8 @@ The following references are cited by stable source ID. Full supplied-library ti
 - **[B2-12]** Fraga, Korre, Nie & Durucan (2024). Multi-period, multi-objective optimisation of the Northern Lights and Stella Maris carbon capture and storage chains. [10.1016/j.ccst.2024.100190](https://doi.org/10.1016/j.ccst.2024.100190). [Retained PDF](../papers/B2-12.pdf).
 
 - **[B2-13]** Nöhl et al. (2025). How to transport carbon dioxide with minimal environmental impacts today and tomorrow A prospective life cycle assessment. [10.1016/j.jclepro.2025.145659](https://doi.org/10.1016/j.jclepro.2025.145659). [Retained PDF](../papers/B2-13.pdf).
+
+- **[B2-14]** A High-Precision Geo-Spatial-Techno-Economic Framework for CO2 Source-Sink Pairing Land-Sea Synergy and Cross-Regional Coalitions in China. [10.1021/acs.est.5c14041](https://doi.org/10.1021/acs.est.5c14041). [Retained PDF](../papers/B2-14.pdf).
 
 - **[B2-17]** Progress and perspectives in source-sink matching for CCUS A critical review. [10.1016/j.rser.2025.116313](https://doi.org/10.1016/j.rser.2025.116313). [Retained PDF](../papers/B2-17.pdf).
 

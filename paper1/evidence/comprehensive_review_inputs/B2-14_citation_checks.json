@@ -1,0 +1,34 @@
+{
+  "study_id": "B2-14",
+  "source_sha256": "6b9a35f4f9a54d69147ea2e94636fecc3032b11b96cb91930aeced048850416c",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R23",
+      "cited_study": "B2-17",
+      "source_sha256": "ddd464b25455703f2ef321ca6919d777e60dd1e4016020e93ebcb1df6193d2ea",
+      "doi": "10.1016/j.rser.2025.116313",
+      "targeted_pages": [
+        1,
+        2,
+        3
+      ],
+      "inspection": "Selected original pages text-read and rendered pages inspected; source is27pages and B3-46 is its duplicate. DOI2025/volume2026 reflect online versus volume dating, not an automatic identity conflict.",
+      "supported": "P1 identifies four systemic challenges: technology-economy-policy disconnect, data accuracy/scale mismatch, transport/cluster limitations and algorithm/physics/dynamic disconnections. P2provides cross-regional/multifactor background; p3schematic illustrates an integrated chain.",
+      "unresolved": "Supports bounded review context, not exhaustive proof that all prior models lack integration, current project/resource facts, Wei2026predictions or native GIS/ITEAM/cost validation. Full review and its underlying sources remain unverified."
+    },
+    {
+      "reference_id": "R52",
+      "cited_study": "B3-44",
+      "source_sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75",
+      "doi": "10.1016/j.enpol.2008.09.049",
+      "targeted_pages": [
+        1,
+        2
+      ],
+      "inspection": "Both selected original pages text-read/rendered pages inspected. Existing B3-44full-PDF reading record remains incomplete in original-source/model dimensions.",
+      "supported": "Integrated capture/transport/storage economic-geospatial model, shared trunklines and cost-dependent routing; p2explicit1kmUSraster combining social/topographic cost layers. Establishes earlier high-resolution infrastructure-cost modelling.",
+      "unresolved": "Does not reproduce or validate the China database, geological downscaling, site safety, ITEAMoptimization, full utility inventory or annual pressure-constrained field service. A1kmcostraster alone is not the novelty of an integrated zone geological database; complete original/native model remains open."
+    }
+  ]
+}

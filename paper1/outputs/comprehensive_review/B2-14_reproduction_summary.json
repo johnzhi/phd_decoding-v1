@@ -1,0 +1,23 @@
+{
+  "study_id": "B2-14",
+  "source_sha256": "6b9a35f4f9a54d69147ea2e94636fecc3032b11b96cb91930aeced048850416c",
+  "limited_checks": 57,
+  "analyst_cell_rows": 3,
+  "analyst_grid_rows": 72,
+  "analyst_LP_rows": 3,
+  "native_ITEAM_GIS_cost_model_reproduced": false,
+  "accepted_Paper1_inputs_added": 0,
+  "scope": "Printed arithmetic and disclosed geometry/nonuniqueness/shared-sink examples only",
+  "missing_native": {
+    "SM1": null,
+    "ITEAM_code": null,
+    "native_GIS_rasters": null,
+    "suitability_weights": null,
+    "annual_pressure_injection_profiles": null,
+    "CO2_water_pumping_disposal_utilities": null,
+    "complete_capture_conditioning_heat_electricity_inventory": null,
+    "native_cost_curves": null,
+    "native_model_reproduced": false,
+    "external_retrieval": "paused_pending_requested_Chrome_connection"
+  }
+}

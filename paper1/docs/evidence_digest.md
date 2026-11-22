@@ -382,17 +382,15 @@ All 66 displayed payback cells and 272 category ranks are preserved. Train-to-sm
 
 Transfer limits: 38 limited diagnostics, graphic transcriptions and a synthetic annual Equation 1 component do not reproduce the native LCA or payback cases. All 53 originals, thirteen dependencies or scope requirements, supplements A/B and licensed inventories remain unverified. No complete capture-to-ship utilities, pressure-constrained annual service or retained/avoided factor is added. European backgrounds require disclosed geographic proxy treatment; no accepted operating/GHG inputs change.
 
-### B2-14 — A High-Precision Geo-Spatial-Techno-Economic Framework for CO2 Source-Sink Pairing Land-Sea Synergy and Cross-Regional Coalitions in China
+### B2-14 — A High-Precision Geo-Spatial-Techno-Economic Framework for CO2 Source-Sink Pairing: Land-Sea Synergy and Cross-Regional Coalitions in China
 
-. Identifier: 10.1021/acs.est.5c14041. [PDF](../papers/B2-14.pdf).
+Wei et al. (2026). DOI: 10.1021/acs.est.5c14041. [Retained PDF](../papers/B2-14.pdf); [detailed audit](zonal_pairing_comprehensive_findings.md).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 3,4,9.
+Reading stage: All 15 retained main-PDF pages text-read and visually inspected, with eight magnifications. Ten numbered figures plus the graphical abstract, three tables and all 63 printed references inspected; no formal numbered equations in the main PDF. Algorithms are deferred to unverified SM1. Comprehensive verification remains incomplete.
 
-ITEAM-CCS hub integrates onshore/offshore suitability, tiered storage capacities, techno-economics, source pairing and candidate pipelines. Separate onshore/offshore assessment criteria reflect different data and technical schemes. The authors explicitly limit the framework to macro-assessment/preliminary feasibility rather than project design.
+The national 1 km framework explicitly serves macro-assessment/prefeasibility rather than specific site screening or design. Geological support can be wells 20–50 km apart. Table 3 balances onshore/offshore resource stocks, while approximately 89–91% of annual matched flow is onshore. These are model allocations, not pressure-constrained annual service. The 4.2/7.6 ratio is 55.26%, rather than the nearby 59% claim; captive-power overlap, capture/avoidance/cost denominators and percentage ranges remain unresolved. No source correction is selected.
 
-Table3 distinguishes theoretical/effective resource inGt from source-matched annual amounts inMt/a at specified distance thresholds. National-scale spatial and cost heterogeneity supports cross-regional screening; a large resource does not automatically become developed yearly storage service.
-
-Transfer limits: P50 resource labels and annual matched source quantities are different metrics. National matching is not pressure-constrained well delivery or contracted capacity. No Chinese basin value is assigned to a Japanese sink; detailed underlying geological/economic data are not fully supplied.
+Transfer limits: 57 limited checks and disclosed spherical-grid, nonuniqueness and shared-sink LP examples do not reproduce native ITEAM/GIS/cost or physical models. Two scoped Lin/SimCCS checks support bounded context; 61 other originals, fourteen dependencies or scope requirements, explicit SM1 and native source data remain open. Prompt retrofitting is not staged construction/dispatch, and coalition proposals are not implemented sharing agreements. No accepted operating/GHG inputs or current numerical results change.
 
 ### B2-15 — Global analysis of geological CO2 storage by pressure-limited injection sites
 
