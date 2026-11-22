@@ -1,0 +1,100 @@
+item,value,unit,basis,source_locator,interpretation
+target_mass_N1,1152.0,MtCO2,printed ramp reconstruction,p15 Figure6; p16,Authors explicitly acknowledge that cumulative service changes with partition
+target_mass_ratio_N1,1.9047619047619047,ratio,printed ramp reconstruction,p16 Section6.2.2,Not a controlled comparison with identical service
+per_tonne_from_rounded_total_N1,51.2,percent,reported rounded arithmetic,p16,Point values need not reproduce independently rounded percentages
+rounding_overlap_N1,1,boolean,conditional displayed-precision check,p16,Nearest displayed-unit intervals only; not measured uncertainty or a corrected result
+target_mass_N2,864.0,MtCO2,printed ramp reconstruction,p15 Figure6; p16,Authors explicitly acknowledge that cumulative service changes with partition
+target_mass_ratio_N2,1.4285714285714284,ratio,printed ramp reconstruction,p16 Section6.2.2,Not a controlled comparison with identical service
+per_tonne_from_rounded_total_N2,18.300000000000004,percent,reported rounded arithmetic,p16,Point values need not reproduce independently rounded percentages
+rounding_overlap_N2,1,boolean,conditional displayed-precision check,p16,Nearest displayed-unit intervals only; not measured uncertainty or a corrected result
+target_mass_N4,720.0,MtCO2,printed ramp reconstruction,p15 Figure6; p16,Authors explicitly acknowledge that cumulative service changes with partition
+target_mass_ratio_N4,1.1904761904761902,ratio,printed ramp reconstruction,p16 Section6.2.2,Not a controlled comparison with identical service
+per_tonne_from_rounded_total_N4,7.520000000000016,percent,reported rounded arithmetic,p16,Point values need not reproduce independently rounded percentages
+rounding_overlap_N4,1,boolean,conditional displayed-precision check,p16,Nearest displayed-unit intervals only; not measured uncertainty or a corrected result
+target_mass_N5,691.2,MtCO2,printed ramp reconstruction,p15 Figure6; p16,Authors explicitly acknowledge that cumulative service changes with partition
+target_mass_ratio_N5,1.1428571428571428,ratio,printed ramp reconstruction,p16 Section6.2.2,Not a controlled comparison with identical service
+per_tonne_from_rounded_total_N5,5.875000000000008,percent,reported rounded arithmetic,p16,Point values need not reproduce independently rounded percentages
+rounding_overlap_N5,1,boolean,conditional displayed-precision check,p16,Nearest displayed-unit intervals only; not measured uncertainty or a corrected result
+target_mass_N10,633.6,MtCO2,printed ramp reconstruction,p15 Figure6; p16,Authors explicitly acknowledge that cumulative service changes with partition
+target_mass_ratio_N10,1.0476190476190474,ratio,printed ramp reconstruction,p16 Section6.2.2,Not a controlled comparison with identical service
+per_tonne_from_rounded_total_N10,0.22727272727274261,percent,reported rounded arithmetic,p16,Point values need not reproduce independently rounded percentages
+rounding_overlap_N10,1,boolean,conditional displayed-precision check,p16,Nearest displayed-unit intervals only; not measured uncertainty or a corrected result
+target_mass_N20,604.8000000000001,MtCO2,printed ramp reconstruction,p15 Figure6; p16,Authors explicitly acknowledge that cumulative service changes with partition
+target_mass_ratio_N20,1.0,ratio,printed ramp reconstruction,p16 Section6.2.2,Not a controlled comparison with identical service
+figure3_loads,5.8999999999999995,loads/year,printed component,pp10–11 Figure3/Eq52,5.9 cargo loads is not5.9 integer trips or six vehicles
+figure3_outbound_trips,6.0,trips/year,independent two-arc MILP,pp10–11 Eq52–54,Six outbound trips
+figure3_empty_return_trips,6.0,trips/year,independent two-arc MILP,pp10–11 Eq52–54,Six return trips despite zero return cargo; source does model these trips
+train_single_capacity,0.008,MtCO2/train,printed arithmetic,p14 Section6.1,100railcars of80tonnes; no train utilization/calendar inferred
+transload_full_train_equivalents,625.0,full train loads/year,conditional printed arithmetic,p19,5Mt/year per direction; partial loads can require more actual trips
+transload_calendar_daily_average,1.7123287671232876,full train loads/day,conditional calendar example,p19,"1.71average under365days, not a strict daily maximum; source four/day needs its handling/calendar convention"
+transload_both_directions_average,3.4246575342465753,full train handlings/day,conditional combined-direction example,p19,3.42if5Mtloading and5Mtunloading; not proof of the published interpretation
+injection_ship_loads,45.7,loads/year,printed arithmetic,p19,Conditional46loaded trips; native sailing/unloading schedule not available
+injection_ship_integer_loaded_trips,46,trips/year,printed arithmetic,p19,Matches reported46 under10ktcapacity
+transport_ship_loads,19.475,loads/year,printed arithmetic,p19,19.475; at least20loaded trips if one cargo capacity applies
+transport_ship_integer_loaded_trips,20,trips/year,conditional printed arithmetic,p19,No native trips inferred beyond this conditional lower bound
+end_year_storage_sum,57.599999999999994,MtCO2/year,printed arithmetic,p18,"Equals57.6; this is achieved model flow, not maximum physical service"
+parallel_offshore_capacity,49.5,MtCO2/year rated,printed arithmetic,p19,49.5rated can exceed49.4flow; no contradiction
+approximate_pipeline_lengths_sum,1256,km,rounded source arithmetic,p19,1256from explicitly approximate components versus1253reported total; not a proven inconsistency
+average_train_additions,6.3,trains/year,printed arithmetic,p19,"6.3arithmetic, not independent confirmation of2.4standard deviation"
+pie_display_sum,100.1,percent,printed graphic arithmetic,p20 Figure13,100.1is compatible with component display rounding; no forced normalization
+pipeline_pie_minus_body,0.09999999999999787,percentage points,printed graphic/text comparison,p19 versus p20,19.2graphic versus19.1body remains a minor presentation discrepancy
+offshore_share_of_total_if_body,16.235,percent,conditional source arithmetic,p19,85%ofpipelinecost is not85%ofwhole-chaincost
+heuristic_612s_vs_2days,0.3541666666666667,percent,reported timing arithmetic,"pp20,25–26",About.354%versus statedabout.4%; not an independent runtime benchmark
+five_period_10min_time_saving,41.833333333333336,percent,reported timing arithmetic,p25 TableD.1,41.83%at reportedcommon.8%gap
+five_period_1h_time_saving,55.00000000000001,percent,reported timing arithmetic,p25 TableD.1,55%at reportedcommon.5%gap
+twenty_period_cost_advantage_10min_vs_2days,8.774978279756729,percent,conditional common-positive-LB comparison,pp25–26,8.78%usingrounded5/15.1gaps; not10%improvement over a proved optimum
+twenty_period_cost_advantage_64min_vs_2days,10.069504778453531,percent,conditional common-positive-LB comparison,p26,About10.07%usingdifferent runtime comparison; exact native logs unavailable
+gap_after_point06percent_cost_reduction,1.9288060000000051,percent gap,conditional common-positive-LB example,p26,Cost reduction.06%is not automatically.06percentage-point gap reduction
+normalized_objective_N1_heuristic_10min,1.019,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N2_heuristic_10min,1.011,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N4_heuristic_10min,1.009,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N5_heuristic_10min,1.008,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N10_heuristic_10min,1.02,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N20_heuristic_10min,1.05,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N1_heuristic_1h,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N2_heuristic_1h,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N4_heuristic_1h,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N5_heuristic_1h,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N10_heuristic_1h,1.014,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N20_heuristic_1h,1.035,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N1_CPLEX_10min,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N2_CPLEX_10min,1.006,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N4_CPLEX_10min,1.006,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N5_CPLEX_10min,1.008,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N10_CPLEX_10min,3.6,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N20_CPLEX_10min,906.3,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N1_CPLEX_1h,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N2_CPLEX_1h,1.006,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N4_CPLEX_1h,1.006,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N5_CPLEX_1h,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N10_CPLEX_1h,1.873,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N20_CPLEX_1h,906.3,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N1_CPLEX_1day,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N2_CPLEX_1day,1.006,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N4_CPLEX_1day,1.006,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N5_CPLEX_1day,1.005,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N10_CPLEX_1day,1.013,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+normalized_objective_N20_CPLEX_1day,1.33,objective/common positive LB,printed table normalization,p25 TableD.1,Not an observed absolutecost or native optimizer reproduction
+product_width_y0_x0,-0.0,flow units,analyst independent LP,p9 Eq34–36,Exact binary product when0<=x<=M and all required domains/links hold
+product_width_y0_x0.2,-0.0,flow units,analyst independent LP,p9 Eq34–36,Exact binary product when0<=x<=M and all required domains/links hold
+product_width_y0_x0.7,-0.0,flow units,analyst independent LP,p9 Eq34–36,Exact binary product when0<=x<=M and all required domains/links hold
+product_width_y0_x1,-0.0,flow units,analyst independent LP,p9 Eq34–36,Exact binary product when0<=x<=M and all required domains/links hold
+product_width_y1_x0,-0.0,flow units,analyst independent LP,p9 Eq34–36,Exact binary product when0<=x<=M and all required domains/links hold
+product_width_y1_x0.2,0.0,flow units,analyst independent LP,p9 Eq34–36,Exact binary product when0<=x<=M and all required domains/links hold
+product_width_y1_x0.7,0.0,flow units,analyst independent LP,p9 Eq34–36,Exact binary product when0<=x<=M and all required domains/links hold
+product_width_y1_x1,0.0,flow units,analyst independent LP,p9 Eq34–36,Exact binary product when0<=x<=M and all required domains/links hold
+literal_two_year_inventory,0.5,MtCO2,analyst literal Eq8/22 example,pp7–8,NoOhfactor as printed; not native source inventory
+integrated_two_year_inventory,0.9,MtCO2,analyst time integral,pp7–8; p24 AppA,Separate conditional stock-flow comparison; do not silently repair native code
+literal_q1_index_toy_feasible,1,boolean,analyst LP,p7 Eq10,"q1=1,q2=0,x2>=.5 allowed by printedq1bound"
+process_specific_q2_toy_feasible,0,boolean,analyst alternative LP,p7 Eq10; p24 AppA,Same toy not feasible under separately labeledq2bound; native implementation unknown
+two_day_rule_buffer,6.575342465753424,ktCO2,analyst1Mt/year example,p10 Eq43–46; p23 beta,6.575kt; not native case size
+one_day_40kt_delivery_peak,37.26027397260274,ktCO2,analyst dynamic balance,p10 strategic scope,About37.26ktpeak withinitialemptytank; not a native failed schedule
+annual_activity_count_for_overlapping_jobs,1,vehicles,analyst aggregation example,p11 Eq57,Two3hjobs both required in same3hwindow need2vehicles despite annual aggregate1
+overlapping_window_required_vehicles,2,vehicles,analyst concurrent-window example,p11 strategic scope,"An explicit missing scheduling restriction, not a claimed native failure"
+loaded_leg_fuel_proxy,50.0,litres,analyst full outbound/empty return,p12 Eq69,"100kmperleg,2km/L,loaded-mass coefficientcountsonelegonly"
+trip_based_roundtrip_fuel,100.0,litres,analyst per-trip accounting,p12 FCtrip alternative,Source allowsper-tripfuelcost thatcountsbothemptyandloadedlegs
+positive_used_fleet_cost_argmin,1,vehicles,analyst signed-cost domain,p12 Eq68,Minimumceil fleet1ifpositivecoefficient
+negative_used_fleet_cost_argmin,3,vehicles,analyst signed-cost domain,p12 Eq68,Nonzeroaloneis insufficient;this is not an asserted native negativecost
+minimum_buffer_additions_after_three_open_periods,0.30000000000000004,MtCO2,analyst positive-minimum rule,p10 Eq41/42,"Ifminimumaddition.1,eachopenperiodforces.1;notjustone-timebuild"
+late_child_per_period_implication,0,boolean,analyst opening-event example,p13 Eq76; pp24–25 AppendixB,"Hubopensfirst,childsecond; per-periodopeningimplicationrejectsthis"
+late_child_cumulative_availability,1,boolean,analyst separate availability comparison,p13 Eq76; pp24–25 AppendixB,Cumulativeavailabilitywouldpermitit; not a proposed silent replacement

@@ -1,0 +1,12 @@
+{
+  "study_id": "B2-06",
+  "source_sha256": "d22b9de6a04b50ed10b83d7fe70aaf490821379766ca75c9f8962b81bb576aac",
+  "checks": 99,
+  "stipulated_ramp_rows": 120,
+  "reported_performance_rows": 30,
+  "native_Canadian_GAMS_CPLEX_model_reproduced": false,
+  "native_heuristic_or_six_benchmarks_reproduced": false,
+  "pressure_constrained_reservoir_or_complete_utility_inventory": false,
+  "accepted_operating_GHG_inputs_changed": false,
+  "scope": "Reported arithmetic and disclosed analyst component/counterexample checks only; unresolved printed notation is not proof of a native code defect"
+}

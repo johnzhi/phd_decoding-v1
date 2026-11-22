@@ -1,0 +1,362 @@
+{
+  "study_id": "B2-06",
+  "source": {
+    "path": "papers/B2-06.pdf",
+    "sha256": "d22b9de6a04b50ed10b83d7fe70aaf490821379766ca75c9f8962b81bb576aac",
+    "doi": "10.1016/j.compchemeng.2025.109525"
+  },
+  "cited_sources": [
+    {
+      "study_id": "B4-07",
+      "path": "papers/B4-07.pdf",
+      "sha256": "9aac87d615b403c8f7d9fc3c8f0b65a87207a9fc662e5efa743272b8dee63a05"
+    },
+    {
+      "study_id": "B3-44",
+      "path": "papers/B3-44.pdf",
+      "sha256": "4a888e57269c2636426ca93b53d09a7ab62a8f5f192645e65d46e5c75f2b6d75"
+    }
+  ],
+  "case": {
+    "emissions_Mtpy": 57.6,
+    "emission_points": 144,
+    "industrial_facilities": 71,
+    "years": 20,
+    "start_year": 2025,
+    "partitions": [
+      1,
+      2,
+      4,
+      5,
+      10,
+      20
+    ],
+    "ports": 14,
+    "reservoirs": 3,
+    "train_railcars": 100,
+    "tonnes_per_railcar": 80,
+    "ship_injection_capacity_kt": 10,
+    "ship_injection_flow_Mtpy": 0.457,
+    "ship_injection_trips": 46,
+    "ship_transport_capacity_kt": 40,
+    "ship_transport_flow_Mtpy": 0.779,
+    "final_trains": 126,
+    "transshipment_limit_Mtpy": 5,
+    "final_offshore_flow_Mtpy": 49.4,
+    "final_inland_flow_Mtpy": 8.2,
+    "pipeline_capacity_additions_Mtpy": [
+      29.3,
+      20.2
+    ],
+    "pipeline_capacity_years": [
+      4,
+      14
+    ],
+    "reported_pipeline_length_km": 1253
+  },
+  "cost_differences": {
+    "1": {
+      "total_percent": 188,
+      "per_tonne_percent": 51
+    },
+    "2": {
+      "total_percent": 69,
+      "per_tonne_percent": 18
+    },
+    "4": {
+      "total_percent": 28,
+      "per_tonne_percent": 7
+    },
+    "5": {
+      "total_percent": 21,
+      "per_tonne_percent": 5
+    },
+    "10": {
+      "total_percent": 5,
+      "per_tonne_percent": 0.4
+    }
+  },
+  "pie_percent": {
+    "capture": 68.3,
+    "pipelines": 19.2,
+    "vehicles": 4.3,
+    "storage": 6.2,
+    "other": 2.1
+  },
+  "pipeline_body_percent": 19.1,
+  "performance_table": [
+    {
+      "periods": 1,
+      "method": "heuristic_10min",
+      "gap_to_bkb_percent": 1.9,
+      "calculation_seconds": 15,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 2,
+      "method": "heuristic_10min",
+      "gap_to_bkb_percent": 1.1,
+      "calculation_seconds": 59,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 4,
+      "method": "heuristic_10min",
+      "gap_to_bkb_percent": 0.9,
+      "calculation_seconds": 207,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 5,
+      "method": "heuristic_10min",
+      "gap_to_bkb_percent": 0.8,
+      "calculation_seconds": 349,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 10,
+      "method": "heuristic_10min",
+      "gap_to_bkb_percent": 2,
+      "calculation_seconds": 449,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 20,
+      "method": "heuristic_10min",
+      "gap_to_bkb_percent": 5,
+      "calculation_seconds": 612,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 1,
+      "method": "heuristic_1h",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 32,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 2,
+      "method": "heuristic_1h",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 276,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 4,
+      "method": "heuristic_1h",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 583,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 5,
+      "method": "heuristic_1h",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 1620,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 10,
+      "method": "heuristic_1h",
+      "gap_to_bkb_percent": 1.4,
+      "calculation_seconds": 3472,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 20,
+      "method": "heuristic_1h",
+      "gap_to_bkb_percent": 3.5,
+      "calculation_seconds": 3810,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 1,
+      "method": "CPLEX_10min",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 19,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 2,
+      "method": "CPLEX_10min",
+      "gap_to_bkb_percent": 0.6,
+      "calculation_seconds": 88,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 4,
+      "method": "CPLEX_10min",
+      "gap_to_bkb_percent": 0.6,
+      "calculation_seconds": 421,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 5,
+      "method": "CPLEX_10min",
+      "gap_to_bkb_percent": 0.8,
+      "calculation_seconds": 600,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 10,
+      "method": "CPLEX_10min",
+      "gap_to_bkb_percent": 260,
+      "calculation_seconds": 600,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 20,
+      "method": "CPLEX_10min",
+      "gap_to_bkb_percent": 90530,
+      "calculation_seconds": 600,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 1,
+      "method": "CPLEX_1h",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 19,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 2,
+      "method": "CPLEX_1h",
+      "gap_to_bkb_percent": 0.6,
+      "calculation_seconds": 88,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 4,
+      "method": "CPLEX_1h",
+      "gap_to_bkb_percent": 0.6,
+      "calculation_seconds": 421,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 5,
+      "method": "CPLEX_1h",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 3600,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 10,
+      "method": "CPLEX_1h",
+      "gap_to_bkb_percent": 87.3,
+      "calculation_seconds": 3600,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 20,
+      "method": "CPLEX_1h",
+      "gap_to_bkb_percent": 90530,
+      "calculation_seconds": 3600,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 1,
+      "method": "CPLEX_1day",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 19,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 2,
+      "method": "CPLEX_1day",
+      "gap_to_bkb_percent": 0.6,
+      "calculation_seconds": 88,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 4,
+      "method": "CPLEX_1day",
+      "gap_to_bkb_percent": 0.6,
+      "calculation_seconds": 421,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 5,
+      "method": "CPLEX_1day",
+      "gap_to_bkb_percent": 0.5,
+      "calculation_seconds": 19740,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 10,
+      "method": "CPLEX_1day",
+      "gap_to_bkb_percent": 1.3,
+      "calculation_seconds": 85851,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    },
+    {
+      "periods": 20,
+      "method": "CPLEX_1day",
+      "gap_to_bkb_percent": 33,
+      "calculation_seconds": 85728,
+      "source_locator": "physical p25 TableD.1",
+      "scope": "source-reported; not independent native solver timing"
+    }
+  ],
+  "printed_domains": {
+    "CO2_mass": "MtCO2",
+    "flow": "MtCO2/year",
+    "time": "years",
+    "distance": "km",
+    "cost": "millions of2025CAD; coefficient time/annuity factors require native arrays",
+    "process_yield": "mu in(0,1]",
+    "buffer_factor": "beta=1.2*2/365 labeleddimensionless; normalized annual-time convention",
+    "fleet_activity": "annual cumulative vehicle years; tau_max normalized active-year share"
+  },
+  "printed_questions": {
+    "process_capacity_Eq10": "RHS q^xi_1 even for zeta2",
+    "inventory_Eq8_Eq22": "NoO_h factor multiplying annual net flows; AppA defines stock at end ofperiod",
+    "FSI_Eq45": "xind summed for allU while productconstraints34–36 restrict direct-injection ship types",
+    "targets": "Eq62/63equalities versus lower-boundprose p15",
+    "heuristic": "Equation references53–55and65 do not cleanly identify the intended vehicle relaxation",
+    "cost_share": "19.1body versus19.2Fig13"
+  },
+  "scope": "All diagnostic scheduling, fluid-stock, cost-sign, fuel, and capacity-index examples are analyst cases; they do not assert a defect in unavailable native code. Reported performance values and stipulated ramps remain separate from optimized reproduced results.",
+  "missing": {
+    "native_case_inputs_and_code": null,
+    "native_heuristic_model_mapping_and_logs": null,
+    "six_SimCCS2_benchmark_cases": null,
+    "exact_GIS_arcs_cost_weights_and_rasters": null,
+    "discount_annuity_currency_tax_coefficients": null,
+    "pressure_constrained_reservoir_realizations": null,
+    "native_capture_heat_electricity_cooling_and_suppliers": null,
+    "unloading_rates_berths_weather_and_daily_calendars": null,
+    "native_yields_initial_closing_stocks_and_period_mapping": null,
+    "matched_external_supplement_or_errata": null,
+    "native_performance_absolute_LB_incumbent_series": null,
+    "complete_retained_carbon_and_utilization_inventory": null
+  }
+}

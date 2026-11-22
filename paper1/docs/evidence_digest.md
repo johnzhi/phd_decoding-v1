@@ -290,7 +290,7 @@ Transfer limits: All 12 pages, six figures, two tables, 14 numbered equations an
 
 ### B2-06 — Multiperiod strategic planning of CO2 capture, transport, utilization and storage with multimodal transportation
 
-. Identifier: 10.1016/j.compchemeng.2025.109525. [PDF](../papers/B2-06.pdf).
+Ayotte-Sauvé et al. (2026). Identifier: 10.1016/j.compchemeng.2025.109525. [PDF](../papers/B2-06.pdf).
 
 Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 6,15,19,22.
 
@@ -298,7 +298,7 @@ Multiperiod strategic CCUS MILP includes gas/liquid/supercritical state changes,
 
 Time discretisation and transshipment constraints affect feasible infrastructure. Limiting emitter vehicle loading/unloading to5Mt/y prevents concentrating49.4Mt/y of train-to-offshore-pipeline transfers at one emitter. The constrained example uses trains, pipelines and a40kt ship delivering779kt/y in the last two years. The authors explicitly call the costs/geographic weighting illustrative while Canadian data are being developed.
 
-Transfer limits: An annual strategic fleet formulation does not validate detailed ship schedules. Cost weights transferred from US studies and assumed transshipment capability are not actual Japanese terminal designs. It already represents phase transitions, buffers, utilization and changing injection limits, so these are prior art rather than unique Paper1 contributions. Monetary values are2025CAD; no conversion to GHG is justified.
+Transfer limits: All 27 pages and internal Appendices A–D read/inspected, including 14 figures, Table D.1, 78 numbered equations and 65 references. Ninety-nine limited checks, 120 stipulated target rows and 30 reported performance pairs do not reproduce the Canadian GAMS/CPLEX model, heuristic or six benchmarks. Printed process indices, inventory period duration, target wording, algorithm references, cost/domain and daily feasibility questions remain open. The source explicitly treats Canadian terrain costs/results as illustrative and acknowledges that time partitions change cumulative service. Two originals have scoped support; 63 other originals and 12 dependencies remain unverified. No calibrated pressure service, actual schedules, complete same-case utilities or retained-carbon input follows. See multimodal_strategy_comprehensive_findings.md; accepted numerical inputs remain unchanged.
 
 ### B2-07 — From point-to-point to hub-and-cluster a systematic review of co-optimization of source–sink matching and transport networks for large-scale CO2 sequestration
 
