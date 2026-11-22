@@ -1,0 +1,6259 @@
+{
+  "study_id": "B3-06",
+  "source_sha256": "7cbd9e221b60410beba9cfcac68d345d8fd1f4e92c35fe798623a495cad40326",
+  "tables": [
+    {
+      "id": "T001",
+      "physical_page": 3,
+      "source_bbox": [
+        28,
+        63,
+        570,
+        746
+      ],
+      "columns": [
+        "project",
+        "country",
+        "source_types",
+        "capture_Mtpa",
+        "transport",
+        "storage",
+        "schedule"
+      ],
+      "rows": [
+        [
+          "Summit Carbon Solutions",
+          "United States",
+          "Bioethanol",
+          "7.9",
+          "Pipeline",
+          "Deep saline formations",
+          "2024"
+        ],
+        [
+          "Valero Blackrock",
+          "United States",
+          "Bioethanol",
+          "5",
+          "Pipeline",
+          "To Be Determined",
+          "2024"
+        ],
+        [
+          "Integrated Mid-Continent Stacked Carbon Storage Hub",
+          "United States",
+          "Coal-fired power, cement production, bioethanol, chemical production",
+          "1.9–19.4",
+          "Pipeline",
+          "Various options Considered",
+          "2025–2035"
+        ],
+        [
+          "CarbonSafe Illinois Macon County",
+          "United States",
+          "Coal Fired Power, Ethanol Production",
+          "2–15",
+          "Pipeline",
+          "Various options Considered",
+          "2025–2035"
+        ],
+        [
+          "Illinois Storage Corridor",
+          "United States",
+          "Coal-fired power, bioethanol",
+          "6.5",
+          "Pipeline",
+          "Deep saline formations",
+          "2035"
+        ],
+        [
+          "Houston Ship Channel CCS Innovation Zone",
+          "United States",
+          "Various",
+          "100",
+          "Pipeline",
+          "To Be Determined",
+          "2040"
+        ],
+        [
+          "Acorn",
+          "United Kingdom",
+          "Hydrogen production, natural gas-fired power, natural gas processing, DAC",
+          "5–10",
+          "Pipeline",
+          "Deep saline formations",
+          "mid-2020s"
+        ],
+        [
+          "Humber Zero",
+          "United Kingdom",
+          "Hydrogen production, natural gas-fired power",
+          "8",
+          "Pipeline",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "Hynet North West",
+          "United Kingdom",
+          "Hydrogen production",
+          "1",
+          "Pipeline",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "Net Zero Teesside",
+          "United Kingdom",
+          "Natural gas-fired power, iron and steel production, chemical production",
+          "1–6",
+          "Pipeline",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "Zero Carbon Humber",
+          "United Kingdom",
+          "Hydrogen Production, Iron and Steel Production, Chemical Production, Cement Production, Ethanol Production",
+          "10",
+          "Pipeline",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "South Wales Industrial Cluster",
+          "United Kingdom",
+          "Natural gas-fired power, hydrogen production, oil refining, chemical production",
+          "9",
+          "Pipeline and ship",
+          "Deep saline formations",
+          "2040"
+        ],
+        [
+          "Porthos",
+          "Netherlands",
+          "Hydrogen production, chemical production",
+          "2–5",
+          "Pipeline",
+          "Depleted oil and gas reservoirs",
+          "2024"
+        ],
+        [
+          "Athos",
+          "Netherlands",
+          "Hydrogen production, iron and steel production, chemical production",
+          "1–6",
+          "Pipeline",
+          "Various options Considered",
+          "2026"
+        ],
+        [
+          "Aramis (tie up Athos Project and Porthos Project)",
+          "Netherlands",
+          "Oil refining, Hydrogen Production, Waste Incineration, Chemical Production, Steelmaking",
+          "20",
+          "Pipeline and ship",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "Alberta Carbon Trunk Line (ACTL)",
+          "Canada",
+          "Fertilizer production, hydrogen production, chemical production",
+          "1.7–14.6",
+          "Pipeline",
+          "EOR",
+          "2020"
+        ],
+        [
+          "Edmonton Hub",
+          "Canada",
+          "Natural gas-fired power, hydrogen production, oil refining, chemical production, cement production",
+          "10",
+          "Pipeline",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "C4 Copenhagen",
+          "Denmark",
+          "Waste Incineration, Natural Gas Power",
+          "3",
+          "Pipeline",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "Greensand",
+          "Denmark",
+          "Waste Incineration, Cement Production",
+          "3.5",
+          "Pipeline and ship",
+          "Depleted oil and gas reservoirs",
+          "2030"
+        ],
+        [
+          "Carbon Connect Delta",
+          "Belgium and Netherlands",
+          "Iron and steel production, chemical production",
+          "6.5",
+          "Pipeline and ship",
+          "Under evaluation",
+          "2026–2030"
+        ],
+        [
+          "Antwerp@C",
+          "Belgium",
+          "Hydrogen production, chemical production, oil refining",
+          "9",
+          "Pipeline",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "Langskip",
+          "Norway",
+          "Waste Incineration, Cement Production",
+          "1.5–5",
+          "Pipeline and ship",
+          "Deep saline formations",
+          "2024–2030"
+        ],
+        [
+          "Ravenna Hub",
+          "Italy",
+          "Hydrogen production, natural gas-fired power",
+          "4",
+          "Pipeline",
+          "Depleted oil and gas reservoirs",
+          "2026"
+        ],
+        [
+          "Abu Dhabi Cluster",
+          "United Arab Emirates",
+          "Natural gas processing, hydrogen production, iron and steel production",
+          "2.7–5",
+          "Pipeline",
+          "EOR",
+          "2030"
+        ],
+        [
+          "CarbonNet",
+          "Australia",
+          "Natural gas processing, hydrogen production, fertilizer production, waste-to-energy, DAC",
+          "2–5",
+          "Pipeline",
+          "Deep saline formations",
+          "2030"
+        ],
+        [
+          "Xinjiang Junggar Basin CCUS Hub",
+          "China",
+          "Coal-fired power, hydrogen production, chemical production",
+          "3",
+          "Pipeline and tank truck",
+          "EOR",
+          "2030"
+        ]
+      ],
+      "native_region_text": "   \nTable 1    Planned CCUS cluster projects up to 2021\nNo.\nProject\nCountry\nIndustry\nCapture\ncapacity Mtpa\nCO2\nTransportation\ntype\nStorage code\nOperation\nyear\n1\nSummit Carbon Solutions\nUnited\nStates\nBioethanol\n7.9\nPipeline\nDeep Saline\nFormations\n2024\n2\nValero Blackrock\nUnited\nStates\nBioethanol\n5.0\nPipeline\nTo Be\nDetermined\n2024\n3\nIntegrated Mid-Continent\nStacked Carbon Storage Hub\nUnited\nStates\nCoal Fired Power, Cement Production,\nEthanol Production, Chemical Production\n1.9−19.4\nPipeline\nVarious options\nConsidered\n2025−2035\n4\nCarbonSafe Illinois Macon\nCounty\nUnited\nStates\nCoal Fired Power, Ethanol Production\n2.0−15.0\nPipeline\nVarious options\nConsidered\n2025−2035\n5\nIllinois Storage Corridor\nUnited\nStates\nCoal Power, Bioethanol\n6.5\nPipeline\nDeep Saline\nFormations\n2035\n6\nHouston Ship Channel CCS\nInnovation Zone\nUnited\nStates\nVarious\n100.0\nPipeline\nTo Be\nDetermined\n2040\n7\nAcorn\nUK\nHydrogen Production, Natural Gas Power,\nNatural Gas Processing, DAC\n5.0−10.0\nPipeline\nDeep Saline\nFormations\nBy the mid\nof 2020s\n8\nHumber Zero\nUK\nHydrogen Production, Natural Gas Power\n8.0\nPipeline\nDeep Saline\nFormations\n2030\n9\nHynet North West\nUK\nHydrogen Production\n1.0\nPipeline\nDeep Saline\nFormations\n2030\n10\nNet Zero Teesside\nUK\nNatural Gas Power, Iron and Steel\nProduction, Chemical Production\n1−6.0\nPipeline\nDeep Saline\nFormations\n2030\n11\nZero Carbon Humber\nUK\nHydrogen Production, Iron and Steel\nProduction, Chemical Production, Cement\nProduction, Ethanol Production\n10\nPipeline\nDeep Saline\nFormations\n2030\n12\nSouth Wales Industrial Cluster\nUK\nNatural Gas Power, Hydrogen Production,\nOil Refining, Chemical Production\n9.0\nPipeline, Ship\nDeep Saline\nFormations\n2040\n13\nPorthos\nNetherlands\nHydrogen Production, Chemical\nProduction\n2.0−5.0\nPipeline\nDepleted Oil &\nGas Reservoirs\n2024\n14\nAthos\nNetherlands\nHydrogen Production, Iron and Steel\nProduction, Chemical Production,\n1.0−6.0\nPipeline\nVarious options\nConsidered\n2026\n15\nAramis (tie up Athos Project\nand Porthos Project)\nNetherlands Oil refining, Hydrogen Production, Waste\nIncineration, Chemical Production,\nSteelmaking\n20\nPipeline, Ship\nDeep Saline\nFormations\n2030\n16\nAlberta Carbon Trunk Line\n(ACTL)\nCanada\nFertiliser Production, Hydrogen\nProduction, Chemical Production\n1.7−14.6\nPipeline\nEOR\n2020\n17\nEdmonton Hub\nCanada\nNatural Gas Power, Hydrogen Production,\nOil Refining, Chemical Production,\nCement Production\n10.0\nPipeline\nDeep Saline\nFormations\n2030\n18\nC4 Copenhagen\nDenmark\nWaste Incineration, Natural Gas Power\n3.0\nPipeline\nDeep Saline\nFormations\n2030\n19\nGreensand\nDenmark\nWaste Incineration, Cement Production\n3.5\nPipeline, Ship\nDepleted Oil &\nGas Reservoirs\n2030\n20\nCarbon Connect Delta\nBelgium&\nNetherlands\nSteelmaking, Chemical Production\n6.5\nPipeline, Ship Under Evaluation 2026−2030\n21\nAntwerp@C\nBelgium\nHydrogen Production, Chemical\nProduction, Oil Refining\n9.0\nPipeline\nDeep Saline\nFormations\n2030\n22\nLangskip\nNorway\nWaste Incineration, Cement Production\n1.5−5.0\nPipeline, Ship\nDeep Saline\nFormations\n2024−2030\n23\nRavenna Hub\nItaly\nHydrogen Production, Natural Gas Power\n4.0\nPipeline\nDepleted Oil &\nGas Reservoirs\n2026\n24\nAbu Dhabi Cluster\nUnited Arab\nEmirates\nNatural Gas Processing, Hydrogen\nProduction, Iron and Steel Production\n2.7−5.0\nPipeline\nEOR\n2030\n25\nCarbonNet\nAustralia\nNatural Gas Processing, Hydrogen,\nFertilizers, Waste to Energy, DAC\n2.0−5.0\nPipeline\nDeep Saline\nFormations\n2030\n26\nXinjiang Junggar\nBasin CCUS Hub\nChina\nCoal Fired Power, Hydrogen Production,\nChemical Production\n3.0\nPipeline, Tank\nTruck\nEOR\n2030\n* Most data are obtained from the official websites of each project or the websites of the relevant competent department and GCCSI’s Global CCUS Status\nReport 2021.\n* The items in the table are only those with a clear implementation schedule, and some conceptual projects without substantive arrangement are not\nlisted here.\n ",
+      "native_lines": [
+        {
+          "native_text": "   ",
+          "bbox": [
+            39.70000076293945,
+            63.746803283691406,
+            42.31500244140625,
+            74.20680236816406
+          ]
+        },
+        {
+          "native_text": "Table 1    Planned CCUS cluster projects up to 2021",
+          "bbox": [
+            39.70000076293945,
+            78.0156021118164,
+            218.6033477783203,
+            86.52157592773438
+          ]
+        },
+        {
+          "native_text": "No.",
+          "bbox": [
+            39.70000076293945,
+            101.91429138183594,
+            51.47600173950195,
+            109.91429138183594
+          ]
+        },
+        {
+          "native_text": "Project",
+          "bbox": [
+            92.72000122070312,
+            101.91429138183594,
+            115.35200500488281,
+            109.91429138183594
+          ]
+        },
+        {
+          "native_text": "Country",
+          "bbox": [
+            163.510009765625,
+            101.91429138183594,
+            189.718017578125,
+            109.91429138183594
+          ]
+        },
+        {
+          "native_text": "Industry",
+          "bbox": [
+            254.33001708984375,
+            101.91429138183594,
+            280.98602294921875,
+            109.91429138183594
+          ]
+        },
+        {
+          "native_text": "Capture",
+          "bbox": [
+            350.72003173828125,
+            92.25431823730469,
+            376.01605224609375,
+            100.25431823730469
+          ]
+        },
+        {
+          "native_text": "capacity Mtpa",
+          "bbox": [
+            340.6200256347656,
+            101.05430603027344,
+            386.1000671386719,
+            109.05430603027344
+          ]
+        },
+        {
+          "native_text": "CO2",
+          "bbox": [
+            356.4100341796875,
+            109.85429382324219,
+            370.32000732421875,
+            119.5260009765625
+          ]
+        },
+        {
+          "native_text": "Transportation",
+          "bbox": [
+            391.3700256347656,
+            97.51426696777344,
+            438.4260559082031,
+            105.51426696777344
+          ]
+        },
+        {
+          "native_text": "type",
+          "bbox": [
+            408.02001953125,
+            106.31425476074219,
+            421.780029296875,
+            114.31425476074219
+          ]
+        },
+        {
+          "native_text": "Storage code",
+          "bbox": [
+            448.94000244140625,
+            101.91423034667969,
+            490.44403076171875,
+            109.91423034667969
+          ]
+        },
+        {
+          "native_text": "Operation",
+          "bbox": [
+            502.7300109863281,
+            97.51420593261719,
+            534.6900024414062,
+            105.51420593261719
+          ]
+        },
+        {
+          "native_text": "year",
+          "bbox": [
+            511.83001708984375,
+            106.31419372558594,
+            525.58203125,
+            114.31419372558594
+          ]
+        },
+        {
+          "native_text": "1",
+          "bbox": [
+            39.70001220703125,
+            125.84422302246094,
+            43.70001220703125,
+            133.84422302246094
+          ]
+        },
+        {
+          "native_text": "Summit Carbon Solutions",
+          "bbox": [
+            62.50801086425781,
+            125.84422302246094,
+            145.56402587890625,
+            133.84422302246094
+          ]
+        },
+        {
+          "native_text": "United",
+          "bbox": [
+            165.72402954101562,
+            125.84422302246094,
+            187.47604370117188,
+            133.84422302246094
+          ]
+        },
+        {
+          "native_text": "States",
+          "bbox": [
+            167.07000732421875,
+            134.6442108154297,
+            186.1500244140625,
+            142.6442108154297
+          ]
+        },
+        {
+          "native_text": "Bioethanol",
+          "bbox": [
+            250.1300048828125,
+            125.84422302246094,
+            285.19403076171875,
+            133.84422302246094
+          ]
+        },
+        {
+          "native_text": "7.9",
+          "bbox": [
+            358.3600158691406,
+            125.84422302246094,
+            368.3600158691406,
+            133.84422302246094
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8080139160156,
+            125.84422302246094,
+            427.9920349121094,
+            133.84422302246094
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.27001953125,
+            134.6442108154297,
+            489.10205078125,
+            142.6442108154297
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.4800109863281,
+            143.44419860839844,
+            487.8960266113281,
+            151.44419860839844
+          ]
+        },
+        {
+          "native_text": "2024",
+          "bbox": [
+            510.71002197265625,
+            125.84422302246094,
+            526.7100219726562,
+            133.84422302246094
+          ]
+        },
+        {
+          "native_text": "2",
+          "bbox": [
+            39.70001220703125,
+            153.72422790527344,
+            43.70001220703125,
+            161.72422790527344
+          ]
+        },
+        {
+          "native_text": "Valero Blackrock",
+          "bbox": [
+            75.7400131225586,
+            153.72422790527344,
+            132.3240203857422,
+            161.72422790527344
+          ]
+        },
+        {
+          "native_text": "United",
+          "bbox": [
+            165.73202514648438,
+            153.72422790527344,
+            187.48403930664062,
+            161.72422790527344
+          ]
+        },
+        {
+          "native_text": "States",
+          "bbox": [
+            167.07000732421875,
+            162.5242156982422,
+            186.1500244140625,
+            170.5242156982422
+          ]
+        },
+        {
+          "native_text": "Bioethanol",
+          "bbox": [
+            250.1300048828125,
+            153.72422790527344,
+            285.19403076171875,
+            161.72422790527344
+          ]
+        },
+        {
+          "native_text": "5.0",
+          "bbox": [
+            358.3600158691406,
+            153.72422790527344,
+            368.3600158691406,
+            161.72422790527344
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8080139160156,
+            153.72422790527344,
+            427.9920349121094,
+            161.72422790527344
+          ]
+        },
+        {
+          "native_text": "To Be",
+          "bbox": [
+            459.80804443359375,
+            153.72422790527344,
+            479.56005859375,
+            161.72422790527344
+          ]
+        },
+        {
+          "native_text": "Determined",
+          "bbox": [
+            450.83001708984375,
+            162.5242156982422,
+            488.550048828125,
+            170.5242156982422
+          ]
+        },
+        {
+          "native_text": "2024",
+          "bbox": [
+            510.71002197265625,
+            153.72422790527344,
+            526.7100219726562,
+            161.72422790527344
+          ]
+        },
+        {
+          "native_text": "3",
+          "bbox": [
+            39.70001220703125,
+            172.7942352294922,
+            43.70001220703125,
+            180.7942352294922
+          ]
+        },
+        {
+          "native_text": "Integrated Mid-Continent",
+          "bbox": [
+            63.076011657714844,
+            172.7942352294922,
+            144.98004150390625,
+            180.7942352294922
+          ]
+        },
+        {
+          "native_text": "Stacked Carbon Storage Hub",
+          "bbox": [
+            57.52001190185547,
+            181.59422302246094,
+            150.5440216064453,
+            189.59422302246094
+          ]
+        },
+        {
+          "native_text": "United",
+          "bbox": [
+            165.73001098632812,
+            172.7942352294922,
+            187.48202514648438,
+            180.7942352294922
+          ]
+        },
+        {
+          "native_text": "States",
+          "bbox": [
+            167.07000732421875,
+            181.59422302246094,
+            186.1500244140625,
+            189.59422302246094
+          ]
+        },
+        {
+          "native_text": "Coal Fired Power, Cement Production,",
+          "bbox": [
+            205.49000549316406,
+            172.7942352294922,
+            329.81805419921875,
+            180.7942352294922
+          ]
+        },
+        {
+          "native_text": "Ethanol Production, Chemical Production",
+          "bbox": [
+            200.8400115966797,
+            181.59422302246094,
+            334.4801025390625,
+            189.59422302246094
+          ]
+        },
+        {
+          "native_text": "1.9−19.4",
+          "bbox": [
+            349.1100158691406,
+            172.7942352294922,
+            377.614013671875,
+            180.7942352294922
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8060302734375,
+            172.7942352294922,
+            427.99005126953125,
+            180.7942352294922
+          ]
+        },
+        {
+          "native_text": "Various options",
+          "bbox": [
+            444.2540588378906,
+            172.7942352294922,
+            495.1100769042969,
+            180.7942352294922
+          ]
+        },
+        {
+          "native_text": "Considered",
+          "bbox": [
+            451.4800109863281,
+            181.59422302246094,
+            487.8880310058594,
+            189.59422302246094
+          ]
+        },
+        {
+          "native_text": "2025−2035",
+          "bbox": [
+            500.45001220703125,
+            172.7942352294922,
+            536.9540405273438,
+            180.7942352294922
+          ]
+        },
+        {
+          "native_text": "4",
+          "bbox": [
+            39.70001220703125,
+            191.86424255371094,
+            43.70001220703125,
+            199.86424255371094
+          ]
+        },
+        {
+          "native_text": "CarbonSafe Illinois Macon",
+          "bbox": [
+            60.74801254272461,
+            191.86424255371094,
+            147.32403564453125,
+            199.86424255371094
+          ]
+        },
+        {
+          "native_text": "County",
+          "bbox": [
+            92.260009765625,
+            200.6642303466797,
+            115.80401611328125,
+            208.6642303466797
+          ]
+        },
+        {
+          "native_text": "United",
+          "bbox": [
+            165.73001098632812,
+            191.86424255371094,
+            187.48202514648438,
+            199.86424255371094
+          ]
+        },
+        {
+          "native_text": "States",
+          "bbox": [
+            167.07000732421875,
+            200.6642303466797,
+            186.1500244140625,
+            208.6642303466797
+          ]
+        },
+        {
+          "native_text": "Coal Fired Power, Ethanol Production",
+          "bbox": [
+            206.49000549316406,
+            191.86424255371094,
+            328.8260498046875,
+            199.86424255371094
+          ]
+        },
+        {
+          "native_text": "2.0−15.0",
+          "bbox": [
+            349.1060485839844,
+            191.86424255371094,
+            377.61004638671875,
+            199.86424255371094
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80206298828125,
+            191.86424255371094,
+            427.986083984375,
+            199.86424255371094
+          ]
+        },
+        {
+          "native_text": "Various options",
+          "bbox": [
+            444.2500915527344,
+            191.86424255371094,
+            495.1061096191406,
+            199.86424255371094
+          ]
+        },
+        {
+          "native_text": "Considered",
+          "bbox": [
+            451.4800109863281,
+            200.6642303466797,
+            487.8880310058594,
+            208.6642303466797
+          ]
+        },
+        {
+          "native_text": "2025−2035",
+          "bbox": [
+            500.45001220703125,
+            191.86424255371094,
+            536.9540405273438,
+            199.86424255371094
+          ]
+        },
+        {
+          "native_text": "5",
+          "bbox": [
+            39.70001220703125,
+            210.9442596435547,
+            43.70001220703125,
+            218.9442596435547
+          ]
+        },
+        {
+          "native_text": "Illinois Storage Corridor",
+          "bbox": [
+            64.7400131225586,
+            210.9442596435547,
+            143.33203125,
+            218.9442596435547
+          ]
+        },
+        {
+          "native_text": "United",
+          "bbox": [
+            165.73202514648438,
+            210.9442596435547,
+            187.48403930664062,
+            218.9442596435547
+          ]
+        },
+        {
+          "native_text": "States",
+          "bbox": [
+            167.07000732421875,
+            219.74424743652344,
+            186.1500244140625,
+            227.74424743652344
+          ]
+        },
+        {
+          "native_text": "Coal Power, Bioethanol",
+          "bbox": [
+            229.37001037597656,
+            210.9442596435547,
+            305.95404052734375,
+            218.9442596435547
+          ]
+        },
+        {
+          "native_text": "6.5",
+          "bbox": [
+            358.3600158691406,
+            210.9442596435547,
+            368.3600158691406,
+            218.9442596435547
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8080139160156,
+            210.9442596435547,
+            427.9920349121094,
+            218.9442596435547
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2640380859375,
+            210.9442596435547,
+            489.0960693359375,
+            218.9442596435547
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.4800109863281,
+            219.74424743652344,
+            487.8960266113281,
+            227.74424743652344
+          ]
+        },
+        {
+          "native_text": "2035",
+          "bbox": [
+            510.71002197265625,
+            210.9442596435547,
+            526.7100219726562,
+            218.9442596435547
+          ]
+        },
+        {
+          "native_text": "6",
+          "bbox": [
+            39.70001220703125,
+            230.01426696777344,
+            43.70001220703125,
+            238.01426696777344
+          ]
+        },
+        {
+          "native_text": "Houston Ship Channel CCS",
+          "bbox": [
+            59.2760124206543,
+            230.01426696777344,
+            148.780029296875,
+            238.01426696777344
+          ]
+        },
+        {
+          "native_text": "Innovation Zone",
+          "bbox": [
+            77.50001525878906,
+            238.8142547607422,
+            130.56402587890625,
+            246.8142547607422
+          ]
+        },
+        {
+          "native_text": "United",
+          "bbox": [
+            165.73001098632812,
+            230.01426696777344,
+            187.48202514648438,
+            238.01426696777344
+          ]
+        },
+        {
+          "native_text": "States",
+          "bbox": [
+            167.07000732421875,
+            238.8142547607422,
+            186.1500244140625,
+            246.8142547607422
+          ]
+        },
+        {
+          "native_text": "Various",
+          "bbox": [
+            255.0,
+            230.01426696777344,
+            280.31201171875,
+            238.01426696777344
+          ]
+        },
+        {
+          "native_text": "100.0",
+          "bbox": [
+            354.3599853515625,
+            230.01426696777344,
+            372.3599853515625,
+            238.01426696777344
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8079833984375,
+            230.01426696777344,
+            427.99200439453125,
+            238.01426696777344
+          ]
+        },
+        {
+          "native_text": "To Be",
+          "bbox": [
+            459.8080139160156,
+            230.01426696777344,
+            479.5600280761719,
+            238.01426696777344
+          ]
+        },
+        {
+          "native_text": "Determined",
+          "bbox": [
+            450.8299865722656,
+            238.8142547607422,
+            488.5500183105469,
+            246.8142547607422
+          ]
+        },
+        {
+          "native_text": "2040",
+          "bbox": [
+            510.7099914550781,
+            230.01426696777344,
+            526.7099609375,
+            238.01426696777344
+          ]
+        },
+        {
+          "native_text": "7",
+          "bbox": [
+            39.699981689453125,
+            249.0842742919922,
+            43.699981689453125,
+            257.08428955078125
+          ]
+        },
+        {
+          "native_text": "Acorn",
+          "bbox": [
+            94.03997802734375,
+            249.0842742919922,
+            114.02397918701172,
+            257.08428955078125
+          ]
+        },
+        {
+          "native_text": "UK",
+          "bbox": [
+            170.82998657226562,
+            249.0842742919922,
+            182.38198852539062,
+            257.08428955078125
+          ]
+        },
+        {
+          "native_text": "Hydrogen Production, Natural Gas Power,",
+          "bbox": [
+            199.70999145507812,
+            249.0842742919922,
+            335.6060485839844,
+            257.08428955078125
+          ]
+        },
+        {
+          "native_text": "Natural Gas Processing, DAC",
+          "bbox": [
+            219.69998168945312,
+            257.88427734375,
+            315.6120300292969,
+            265.88427734375
+          ]
+        },
+        {
+          "native_text": "5.0−10.0",
+          "bbox": [
+            349.1099853515625,
+            249.0842742919922,
+            377.6139831542969,
+            257.08428955078125
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80596923828125,
+            249.0842742919922,
+            427.989990234375,
+            257.08428955078125
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2619934082031,
+            249.0842742919922,
+            489.0940246582031,
+            257.08428955078125
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47998046875,
+            257.88427734375,
+            487.89599609375,
+            265.88427734375
+          ]
+        },
+        {
+          "native_text": "By the mid",
+          "bbox": [
+            500.9499816894531,
+            249.0842742919922,
+            536.469970703125,
+            257.08428955078125
+          ]
+        },
+        {
+          "native_text": "of 2020s",
+          "bbox": [
+            504.8199768066406,
+            257.88427734375,
+            532.5960083007812,
+            265.88427734375
+          ]
+        },
+        {
+          "native_text": "8",
+          "bbox": [
+            39.699981689453125,
+            268.1642761230469,
+            43.699981689453125,
+            276.1642761230469
+          ]
+        },
+        {
+          "native_text": "Humber Zero",
+          "bbox": [
+            82.38798522949219,
+            268.1642761230469,
+            125.67598724365234,
+            276.1642761230469
+          ]
+        },
+        {
+          "native_text": "UK",
+          "bbox": [
+            170.82998657226562,
+            268.1642761230469,
+            182.38198852539062,
+            276.1642761230469
+          ]
+        },
+        {
+          "native_text": "Hydrogen Production, Natural Gas Power",
+          "bbox": [
+            200.70999145507812,
+            268.1642761230469,
+            334.6060485839844,
+            276.1642761230469
+          ]
+        },
+        {
+          "native_text": "8.0",
+          "bbox": [
+            358.3580627441406,
+            268.1642761230469,
+            368.3580627441406,
+            276.1642761230469
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8060607910156,
+            268.1642761230469,
+            427.9900817871094,
+            276.1642761230469
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2620849609375,
+            268.1642761230469,
+            489.0941162109375,
+            276.1642761230469
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47998046875,
+            276.9642639160156,
+            487.89599609375,
+            284.9642639160156
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099914550781,
+            268.1642761230469,
+            526.7099609375,
+            276.1642761230469
+          ]
+        },
+        {
+          "native_text": "9",
+          "bbox": [
+            39.699981689453125,
+            287.2342834472656,
+            43.699981689453125,
+            295.2342834472656
+          ]
+        },
+        {
+          "native_text": "Hynet North West",
+          "bbox": [
+            74.73197937011719,
+            287.2342834472656,
+            133.33999633789062,
+            295.2342834472656
+          ]
+        },
+        {
+          "native_text": "UK",
+          "bbox": [
+            170.8280029296875,
+            287.2342834472656,
+            182.3800048828125,
+            295.2342834472656
+          ]
+        },
+        {
+          "native_text": "Hydrogen Production",
+          "bbox": [
+            233.11997985839844,
+            287.2342834472656,
+            302.1920166015625,
+            295.2342834472656
+          ]
+        },
+        {
+          "native_text": "1.0",
+          "bbox": [
+            358.3599853515625,
+            287.2342834472656,
+            368.3599853515625,
+            295.2342834472656
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8079833984375,
+            287.2342834472656,
+            427.99200439453125,
+            295.2342834472656
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2640075683594,
+            287.2342834472656,
+            489.0960388183594,
+            295.2342834472656
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47998046875,
+            296.0342712402344,
+            487.89599609375,
+            304.0342712402344
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099914550781,
+            287.2342834472656,
+            526.7099609375,
+            295.2342834472656
+          ]
+        },
+        {
+          "native_text": "10",
+          "bbox": [
+            39.699981689453125,
+            306.3042907714844,
+            47.699981689453125,
+            314.3042907714844
+          ]
+        },
+        {
+          "native_text": "Net Zero Teesside",
+          "bbox": [
+            74.74798583984375,
+            306.3042907714844,
+            133.32398986816406,
+            314.3042907714844
+          ]
+        },
+        {
+          "native_text": "UK",
+          "bbox": [
+            170.82798767089844,
+            306.3042907714844,
+            182.37998962402344,
+            314.3042907714844
+          ]
+        },
+        {
+          "native_text": "Natural Gas Power, Iron and Steel",
+          "bbox": [
+            212.82798767089844,
+            306.3042907714844,
+            322.4920654296875,
+            314.3042907714844
+          ]
+        },
+        {
+          "native_text": "Production, Chemical Production",
+          "bbox": [
+            214.26998901367188,
+            315.1042785644531,
+            321.0540466308594,
+            323.1042785644531
+          ]
+        },
+        {
+          "native_text": "1−6.0",
+          "bbox": [
+            354.1099853515625,
+            306.3042907714844,
+            372.6139831542969,
+            314.3042907714844
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80596923828125,
+            306.3042907714844,
+            427.989990234375,
+            314.3042907714844
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2699890136719,
+            315.1042785644531,
+            489.1020202636719,
+            323.1042785644531
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47998046875,
+            323.9042663574219,
+            487.89599609375,
+            331.9042663574219
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099914550781,
+            306.30426025390625,
+            526.7099609375,
+            314.30426025390625
+          ]
+        },
+        {
+          "native_text": "11",
+          "bbox": [
+            39.699981689453125,
+            334.18426513671875,
+            47.699981689453125,
+            342.18426513671875
+          ]
+        },
+        {
+          "native_text": "Zero Carbon Humber",
+          "bbox": [
+            69.61997985839844,
+            334.18426513671875,
+            138.44398498535156,
+            342.18426513671875
+          ]
+        },
+        {
+          "native_text": "UK",
+          "bbox": [
+            170.82798767089844,
+            334.18426513671875,
+            182.37998962402344,
+            342.18426513671875
+          ]
+        },
+        {
+          "native_text": "Hydrogen Production, Iron and Steel",
+          "bbox": [
+            208.6999969482422,
+            334.18426513671875,
+            326.612060546875,
+            342.18426513671875
+          ]
+        },
+        {
+          "native_text": "Production, Chemical Production, Cement",
+          "bbox": [
+            199.83998107910156,
+            342.9842529296875,
+            335.4720458984375,
+            350.9842529296875
+          ]
+        },
+        {
+          "native_text": "Production, Ethanol Production",
+          "bbox": [
+            217.13998413085938,
+            351.78424072265625,
+            318.1720275878906,
+            359.78424072265625
+          ]
+        },
+        {
+          "native_text": "10",
+          "bbox": [
+            359.3599853515625,
+            334.1842346191406,
+            367.3599853515625,
+            342.1842346191406
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8079833984375,
+            334.1842346191406,
+            427.99200439453125,
+            342.1842346191406
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2699890136719,
+            342.9842224121094,
+            489.1020202636719,
+            350.9842224121094
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47998046875,
+            351.7842102050781,
+            487.89599609375,
+            359.7842102050781
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099914550781,
+            334.1842041015625,
+            526.7099609375,
+            342.1842041015625
+          ]
+        },
+        {
+          "native_text": "12",
+          "bbox": [
+            39.699981689453125,
+            362.05419921875,
+            47.699981689453125,
+            370.05419921875
+          ]
+        },
+        {
+          "native_text": "South Wales Industrial Cluster",
+          "bbox": [
+            54.86798095703125,
+            362.05419921875,
+            153.20401000976562,
+            370.05419921875
+          ]
+        },
+        {
+          "native_text": "UK",
+          "bbox": [
+            170.8280029296875,
+            362.05419921875,
+            182.3800048828125,
+            370.05419921875
+          ]
+        },
+        {
+          "native_text": "Natural Gas Power, Hydrogen Production,",
+          "bbox": [
+            199.7080078125,
+            362.05419921875,
+            335.60406494140625,
+            370.05419921875
+          ]
+        },
+        {
+          "native_text": "Oil Refining, Chemical Production",
+          "bbox": [
+            211.71998596191406,
+            370.85418701171875,
+            323.592041015625,
+            378.85418701171875
+          ]
+        },
+        {
+          "native_text": "9.0",
+          "bbox": [
+            358.3599853515625,
+            362.05419921875,
+            368.3599853515625,
+            370.05419921875
+          ]
+        },
+        {
+          "native_text": "Pipeline, Ship",
+          "bbox": [
+            392.47198486328125,
+            362.05419921875,
+            437.32000732421875,
+            370.05419921875
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2699890136719,
+            370.85418701171875,
+            489.1020202636719,
+            378.85418701171875
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47998046875,
+            379.6541748046875,
+            487.89599609375,
+            387.6541748046875
+          ]
+        },
+        {
+          "native_text": "2040",
+          "bbox": [
+            510.7099914550781,
+            362.0541687011719,
+            526.7099609375,
+            370.0541687011719
+          ]
+        },
+        {
+          "native_text": "13",
+          "bbox": [
+            39.699981689453125,
+            389.9341735839844,
+            47.699981689453125,
+            397.9341735839844
+          ]
+        },
+        {
+          "native_text": "Porthos",
+          "bbox": [
+            91.80998229980469,
+            389.9341735839844,
+            116.24998474121094,
+            397.9341735839844
+          ]
+        },
+        {
+          "native_text": "Netherlands",
+          "bbox": [
+            157.29998779296875,
+            389.9341735839844,
+            195.916015625,
+            397.9341735839844
+          ]
+        },
+        {
+          "native_text": "Hydrogen Production, Chemical",
+          "bbox": [
+            215.8200225830078,
+            389.9341735839844,
+            319.50006103515625,
+            397.9341735839844
+          ]
+        },
+        {
+          "native_text": "Production",
+          "bbox": [
+            250.1099853515625,
+            398.7341613769531,
+            285.197998046875,
+            406.7341613769531
+          ]
+        },
+        {
+          "native_text": "2.0−5.0",
+          "bbox": [
+            351.1099853515625,
+            389.9341735839844,
+            375.6139831542969,
+            397.9341735839844
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80596923828125,
+            389.9341735839844,
+            427.989990234375,
+            397.9341735839844
+          ]
+        },
+        {
+          "native_text": "Depleted Oil &",
+          "bbox": [
+            445.0539855957031,
+            389.9341735839844,
+            494.3180236816406,
+            397.9341735839844
+          ]
+        },
+        {
+          "native_text": "Gas Reservoirs",
+          "bbox": [
+            445.3799743652344,
+            398.7341613769531,
+            493.9960021972656,
+            406.7341613769531
+          ]
+        },
+        {
+          "native_text": "2024",
+          "bbox": [
+            510.7099609375,
+            389.9341735839844,
+            526.7099609375,
+            397.9341735839844
+          ]
+        },
+        {
+          "native_text": "14",
+          "bbox": [
+            39.699951171875,
+            409.0041809082031,
+            47.699951171875,
+            417.0041809082031
+          ]
+        },
+        {
+          "native_text": "Athos",
+          "bbox": [
+            94.47994995117188,
+            409.0041809082031,
+            113.58395385742188,
+            417.0041809082031
+          ]
+        },
+        {
+          "native_text": "Netherlands",
+          "bbox": [
+            157.29995727539062,
+            409.0041809082031,
+            195.91598510742188,
+            417.0041809082031
+          ]
+        },
+        {
+          "native_text": "Hydrogen Production, Iron and Steel",
+          "bbox": [
+            208.69998168945312,
+            409.0041809082031,
+            326.6120300292969,
+            417.0041809082031
+          ]
+        },
+        {
+          "native_text": "Production, Chemical Production,",
+          "bbox": [
+            213.26995849609375,
+            417.8041687011719,
+            322.05401611328125,
+            425.8041687011719
+          ]
+        },
+        {
+          "native_text": "1.0−6.0",
+          "bbox": [
+            351.1099548339844,
+            409.0041809082031,
+            375.61395263671875,
+            417.0041809082031
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80596923828125,
+            409.0041809082031,
+            427.989990234375,
+            417.0041809082031
+          ]
+        },
+        {
+          "native_text": "Various options",
+          "bbox": [
+            444.2539978027344,
+            409.0041809082031,
+            495.1100158691406,
+            417.0041809082031
+          ]
+        },
+        {
+          "native_text": "Considered",
+          "bbox": [
+            451.4799499511719,
+            417.8041687011719,
+            487.8879699707031,
+            425.8041687011719
+          ]
+        },
+        {
+          "native_text": "2026",
+          "bbox": [
+            510.7099609375,
+            409.0041809082031,
+            526.7099609375,
+            417.0041809082031
+          ]
+        },
+        {
+          "native_text": "15",
+          "bbox": [
+            39.699951171875,
+            428.0741882324219,
+            47.699951171875,
+            436.0741882324219
+          ]
+        },
+        {
+          "native_text": "Aramis (tie up Athos Project",
+          "bbox": [
+            58.075950622558594,
+            428.0741882324219,
+            149.97999572753906,
+            436.0741882324219
+          ]
+        },
+        {
+          "native_text": "and Porthos Project)",
+          "bbox": [
+            71.38995361328125,
+            436.8741760253906,
+            136.6699676513672,
+            444.8741760253906
+          ]
+        },
+        {
+          "native_text": "Netherlands Oil refining, Hydrogen Production, Waste",
+          "bbox": [
+            157.29995727539062,
+            428.0741882324219,
+            334.9320373535156,
+            436.0741882324219
+          ]
+        },
+        {
+          "native_text": "Incineration, Chemical Production,",
+          "bbox": [
+            211.50994873046875,
+            436.8741760253906,
+            323.81402587890625,
+            444.8741760253906
+          ]
+        },
+        {
+          "native_text": "Steelmaking",
+          "bbox": [
+            247.68994140625,
+            445.6741638183594,
+            287.63397216796875,
+            453.6741638183594
+          ]
+        },
+        {
+          "native_text": "20",
+          "bbox": [
+            359.35992431640625,
+            428.07415771484375,
+            367.35992431640625,
+            436.07415771484375
+          ]
+        },
+        {
+          "native_text": "Pipeline, Ship",
+          "bbox": [
+            392.471923828125,
+            428.07415771484375,
+            437.3199462890625,
+            436.07415771484375
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2719421386719,
+            428.07415771484375,
+            489.1039733886719,
+            436.07415771484375
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47991943359375,
+            436.8741455078125,
+            487.89593505859375,
+            444.8741455078125
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099304199219,
+            428.07415771484375,
+            526.7099609375,
+            436.07415771484375
+          ]
+        },
+        {
+          "native_text": "16",
+          "bbox": [
+            39.699920654296875,
+            455.95416259765625,
+            47.699920654296875,
+            463.95416259765625
+          ]
+        },
+        {
+          "native_text": "Alberta Carbon Trunk Line",
+          "bbox": [
+            60.18791961669922,
+            455.95416259765625,
+            147.86795043945312,
+            463.95416259765625
+          ]
+        },
+        {
+          "native_text": "(ACTL)",
+          "bbox": [
+            90.93992614746094,
+            464.754150390625,
+            117.13192749023438,
+            472.754150390625
+          ]
+        },
+        {
+          "native_text": "Canada",
+          "bbox": [
+            164.6299285888672,
+            455.95416259765625,
+            188.58995056152344,
+            463.95416259765625
+          ]
+        },
+        {
+          "native_text": "Fertiliser Production, Hydrogen",
+          "bbox": [
+            216.7019500732422,
+            455.95416259765625,
+            318.614013671875,
+            463.95416259765625
+          ]
+        },
+        {
+          "native_text": "Production, Chemical Production",
+          "bbox": [
+            214.26992797851562,
+            464.754150390625,
+            321.0539855957031,
+            472.754150390625
+          ]
+        },
+        {
+          "native_text": "1.7−14.6",
+          "bbox": [
+            349.10992431640625,
+            455.95416259765625,
+            377.6139221191406,
+            463.95416259765625
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.805908203125,
+            455.95416259765625,
+            427.98992919921875,
+            463.95416259765625
+          ]
+        },
+        {
+          "native_text": "EOR",
+          "bbox": [
+            461.6939392089844,
+            455.95416259765625,
+            477.6779479980469,
+            463.95416259765625
+          ]
+        },
+        {
+          "native_text": "2020",
+          "bbox": [
+            510.70196533203125,
+            455.95416259765625,
+            526.7019653320312,
+            463.95416259765625
+          ]
+        },
+        {
+          "native_text": "17",
+          "bbox": [
+            39.699920654296875,
+            475.024169921875,
+            47.699920654296875,
+            483.024169921875
+          ]
+        },
+        {
+          "native_text": "Edmonton Hub",
+          "bbox": [
+            79.4919204711914,
+            475.024169921875,
+            128.57992553710938,
+            483.024169921875
+          ]
+        },
+        {
+          "native_text": "Canada",
+          "bbox": [
+            164.6279296875,
+            475.024169921875,
+            188.58795166015625,
+            483.024169921875
+          ]
+        },
+        {
+          "native_text": "Natural Gas Power, Hydrogen Production,",
+          "bbox": [
+            199.70794677734375,
+            475.024169921875,
+            335.60400390625,
+            483.024169921875
+          ]
+        },
+        {
+          "native_text": "Oil Refining, Chemical Production,",
+          "bbox": [
+            210.7199249267578,
+            483.82415771484375,
+            324.59197998046875,
+            491.82415771484375
+          ]
+        },
+        {
+          "native_text": "Cement Production",
+          "bbox": [
+            236.68992614746094,
+            492.6241455078125,
+            298.6259765625,
+            500.6241455078125
+          ]
+        },
+        {
+          "native_text": "10.0",
+          "bbox": [
+            356.35992431640625,
+            475.0241394042969,
+            370.35992431640625,
+            483.0241394042969
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80792236328125,
+            475.0241394042969,
+            427.991943359375,
+            483.0241394042969
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2639465332031,
+            475.0241394042969,
+            489.0959777832031,
+            483.0241394042969
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47991943359375,
+            483.8241271972656,
+            487.89593505859375,
+            491.8241271972656
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099304199219,
+            475.0241394042969,
+            526.7099609375,
+            483.0241394042969
+          ]
+        },
+        {
+          "native_text": "18",
+          "bbox": [
+            39.699920654296875,
+            502.8941345214844,
+            47.699920654296875,
+            510.8941345214844
+          ]
+        },
+        {
+          "native_text": "C4 Copenhagen",
+          "bbox": [
+            78.38792419433594,
+            502.8941345214844,
+            129.67593383789062,
+            510.8941345214844
+          ]
+        },
+        {
+          "native_text": "Denmark",
+          "bbox": [
+            161.73992919921875,
+            502.8941345214844,
+            191.48394775390625,
+            510.8941345214844
+          ]
+        },
+        {
+          "native_text": "Waste Incineration, Natural Gas Power",
+          "bbox": [
+            204.95594787597656,
+            502.8941345214844,
+            330.3480224609375,
+            510.8941345214844
+          ]
+        },
+        {
+          "native_text": "3.0",
+          "bbox": [
+            358.35601806640625,
+            502.8941345214844,
+            368.35601806640625,
+            510.8941345214844
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80401611328125,
+            502.8941345214844,
+            427.988037109375,
+            510.8941345214844
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2600402832031,
+            502.8941345214844,
+            489.0920715332031,
+            510.8941345214844
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47991943359375,
+            511.694091796875,
+            487.89593505859375,
+            519.694091796875
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099304199219,
+            502.8941345214844,
+            526.7099609375,
+            510.8941345214844
+          ]
+        },
+        {
+          "native_text": "19",
+          "bbox": [
+            39.699920654296875,
+            521.97412109375,
+            47.699920654296875,
+            529.97412109375
+          ]
+        },
+        {
+          "native_text": "Greensand",
+          "bbox": [
+            86.93992614746094,
+            521.97412109375,
+            121.1239242553711,
+            529.97412109375
+          ]
+        },
+        {
+          "native_text": "Denmark",
+          "bbox": [
+            161.73992919921875,
+            521.97412109375,
+            191.48394775390625,
+            529.97412109375
+          ]
+        },
+        {
+          "native_text": "Waste Incineration, Cement Production",
+          "bbox": [
+            204.4119415283203,
+            521.97412109375,
+            330.916015625,
+            529.97412109375
+          ]
+        },
+        {
+          "native_text": "3.5",
+          "bbox": [
+            358.364013671875,
+            521.97412109375,
+            368.364013671875,
+            529.97412109375
+          ]
+        },
+        {
+          "native_text": "Pipeline, Ship",
+          "bbox": [
+            392.47601318359375,
+            521.97412109375,
+            437.32403564453125,
+            529.97412109375
+          ]
+        },
+        {
+          "native_text": "Depleted Oil &",
+          "bbox": [
+            445.0680236816406,
+            521.97412109375,
+            494.3320617675781,
+            529.97412109375
+          ]
+        },
+        {
+          "native_text": "Gas Reservoirs",
+          "bbox": [
+            445.37994384765625,
+            530.7741088867188,
+            493.9959716796875,
+            538.7741088867188
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099609375,
+            521.97412109375,
+            526.7099609375,
+            529.97412109375
+          ]
+        },
+        {
+          "native_text": "20",
+          "bbox": [
+            39.699951171875,
+            541.0441284179688,
+            47.699951171875,
+            549.0441284179688
+          ]
+        },
+        {
+          "native_text": "Carbon Connect Delta",
+          "bbox": [
+            68.2999496459961,
+            541.0441284179688,
+            139.76397705078125,
+            549.0441284179688
+          ]
+        },
+        {
+          "native_text": "Belgium&",
+          "bbox": [
+            159.73995971679688,
+            549.8441162109375,
+            193.47598266601562,
+            557.8441162109375
+          ]
+        },
+        {
+          "native_text": "Netherlands",
+          "bbox": [
+            157.29995727539062,
+            558.6441650390625,
+            195.91598510742188,
+            566.6441650390625
+          ]
+        },
+        {
+          "native_text": "Steelmaking, Chemical Production",
+          "bbox": [
+            211.8399658203125,
+            541.0441284179688,
+            323.48004150390625,
+            549.0441284179688
+          ]
+        },
+        {
+          "native_text": "6.5",
+          "bbox": [
+            358.36004638671875,
+            541.0441284179688,
+            368.36004638671875,
+            549.0441284179688
+          ]
+        },
+        {
+          "native_text": "Pipeline, Ship Under Evaluation 2026−2030",
+          "bbox": [
+            392.4720458984375,
+            541.0441284179688,
+            536.9521484375,
+            549.0441284179688
+          ]
+        },
+        {
+          "native_text": "21",
+          "bbox": [
+            39.69996643066406,
+            568.9141235351562,
+            47.69996643066406,
+            576.9141235351562
+          ]
+        },
+        {
+          "native_text": "Antwerp@C",
+          "bbox": [
+            83.69996643066406,
+            568.9141235351562,
+            124.36397552490234,
+            576.9141235351562
+          ]
+        },
+        {
+          "native_text": "Belgium",
+          "bbox": [
+            162.8519744873047,
+            568.9141235351562,
+            190.3719940185547,
+            576.9141235351562
+          ]
+        },
+        {
+          "native_text": "Hydrogen Production, Chemical",
+          "bbox": [
+            215.8199920654297,
+            568.9141235351562,
+            319.5000305175781,
+            576.9141235351562
+          ]
+        },
+        {
+          "native_text": "Production, Oil Refining",
+          "bbox": [
+            228.02996826171875,
+            577.714111328125,
+            307.29400634765625,
+            585.714111328125
+          ]
+        },
+        {
+          "native_text": "9.0",
+          "bbox": [
+            358.3599853515625,
+            568.9141235351562,
+            368.3599853515625,
+            576.9141235351562
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.8079833984375,
+            568.9141235351562,
+            427.99200439453125,
+            576.9141235351562
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2640075683594,
+            568.9141235351562,
+            489.0960388183594,
+            576.9141235351562
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47998046875,
+            577.714111328125,
+            487.89599609375,
+            585.714111328125
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099914550781,
+            568.9141235351562,
+            526.7099609375,
+            576.9141235351562
+          ]
+        },
+        {
+          "native_text": "22",
+          "bbox": [
+            39.699981689453125,
+            587.994140625,
+            47.699981689453125,
+            595.994140625
+          ]
+        },
+        {
+          "native_text": "Langskip",
+          "bbox": [
+            89.15998077392578,
+            587.994140625,
+            118.91197967529297,
+            595.994140625
+          ]
+        },
+        {
+          "native_text": "Norway",
+          "bbox": [
+            163.72998046875,
+            587.994140625,
+            189.489990234375,
+            595.994140625
+          ]
+        },
+        {
+          "native_text": "Waste Incineration, Cement Production",
+          "bbox": [
+            204.4099884033203,
+            587.994140625,
+            330.9140625,
+            595.994140625
+          ]
+        },
+        {
+          "native_text": "1.5−5.0",
+          "bbox": [
+            351.1060791015625,
+            587.994140625,
+            375.6100769042969,
+            595.994140625
+          ]
+        },
+        {
+          "native_text": "Pipeline, Ship",
+          "bbox": [
+            392.466064453125,
+            587.994140625,
+            437.3140869140625,
+            595.994140625
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2699890136719,
+            596.7941284179688,
+            489.1020202636719,
+            604.7941284179688
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47998046875,
+            605.5941162109375,
+            487.89599609375,
+            613.5941162109375
+          ]
+        },
+        {
+          "native_text": "2024−2030",
+          "bbox": [
+            500.4499816894531,
+            587.994140625,
+            536.9539794921875,
+            595.994140625
+          ]
+        },
+        {
+          "native_text": "23",
+          "bbox": [
+            39.699981689453125,
+            615.8641357421875,
+            47.699981689453125,
+            623.8641357421875
+          ]
+        },
+        {
+          "native_text": "Ravenna Hub",
+          "bbox": [
+            82.17198181152344,
+            615.8641357421875,
+            125.9079818725586,
+            623.8641357421875
+          ]
+        },
+        {
+          "native_text": "Italy",
+          "bbox": [
+            169.28997802734375,
+            615.8641357421875,
+            183.92999267578125,
+            623.8641357421875
+          ]
+        },
+        {
+          "native_text": "Hydrogen Production, Natural Gas Power",
+          "bbox": [
+            200.70599365234375,
+            615.8641357421875,
+            334.60205078125,
+            623.8641357421875
+          ]
+        },
+        {
+          "native_text": "4.0",
+          "bbox": [
+            358.35406494140625,
+            615.8641357421875,
+            368.35406494140625,
+            623.8641357421875
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80206298828125,
+            615.8641357421875,
+            427.986083984375,
+            623.8641357421875
+          ]
+        },
+        {
+          "native_text": "Depleted Oil &",
+          "bbox": [
+            445.0500793457031,
+            615.8641357421875,
+            494.3141174316406,
+            623.8641357421875
+          ]
+        },
+        {
+          "native_text": "Gas Reservoirs",
+          "bbox": [
+            445.3799743652344,
+            624.6641235351562,
+            493.9960021972656,
+            632.6641235351562
+          ]
+        },
+        {
+          "native_text": "2026",
+          "bbox": [
+            510.7099609375,
+            615.8641357421875,
+            526.7099609375,
+            623.8641357421875
+          ]
+        },
+        {
+          "native_text": "24",
+          "bbox": [
+            39.699951171875,
+            634.93408203125,
+            47.699951171875,
+            642.93408203125
+          ]
+        },
+        {
+          "native_text": "Abu Dhabi Cluster",
+          "bbox": [
+            73.83595275878906,
+            634.93408203125,
+            134.22796630859375,
+            642.93408203125
+          ]
+        },
+        {
+          "native_text": "United Arab",
+          "bbox": [
+            156.73196411132812,
+            634.93408203125,
+            196.46798706054688,
+            642.93408203125
+          ]
+        },
+        {
+          "native_text": "Emirates",
+          "bbox": [
+            162.40994262695312,
+            643.734130859375,
+            190.80197143554688,
+            651.734130859375
+          ]
+        },
+        {
+          "native_text": "Natural Gas Processing, Hydrogen",
+          "bbox": [
+            212.1499481201172,
+            634.93408203125,
+            323.166015625,
+            642.93408203125
+          ]
+        },
+        {
+          "native_text": "Production, Iron and Steel Production",
+          "bbox": [
+            207.1499481201172,
+            643.734130859375,
+            328.166015625,
+            651.734130859375
+          ]
+        },
+        {
+          "native_text": "2.7−5.0",
+          "bbox": [
+            351.1099548339844,
+            634.93408203125,
+            375.61395263671875,
+            642.93408203125
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.80596923828125,
+            634.93408203125,
+            427.989990234375,
+            642.93408203125
+          ]
+        },
+        {
+          "native_text": "EOR",
+          "bbox": [
+            461.6940002441406,
+            634.93408203125,
+            477.6780090332031,
+            642.93408203125
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7020263671875,
+            634.93408203125,
+            526.7020263671875,
+            642.93408203125
+          ]
+        },
+        {
+          "native_text": "25",
+          "bbox": [
+            39.699951171875,
+            654.0140991210938,
+            47.699951171875,
+            662.0140991210938
+          ]
+        },
+        {
+          "native_text": "CarbonNet",
+          "bbox": [
+            86.49995422363281,
+            654.0140991210938,
+            121.57196044921875,
+            662.0140991210938
+          ]
+        },
+        {
+          "native_text": "Australia",
+          "bbox": [
+            161.96994018554688,
+            654.0140991210938,
+            191.25796508789062,
+            662.0140991210938
+          ]
+        },
+        {
+          "native_text": "Natural Gas Processing, Hydrogen,",
+          "bbox": [
+            211.14596557617188,
+            654.0140991210938,
+            324.1620178222656,
+            662.0140991210938
+          ]
+        },
+        {
+          "native_text": "Fertilizers, Waste to Energy, DAC",
+          "bbox": [
+            212.3899383544922,
+            662.8140869140625,
+            322.9179992675781,
+            670.8140869140625
+          ]
+        },
+        {
+          "native_text": "2.0−5.0",
+          "bbox": [
+            351.10992431640625,
+            654.0140991210938,
+            375.6139221191406,
+            662.0140991210938
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            401.805908203125,
+            654.0140991210938,
+            427.98992919921875,
+            662.0140991210938
+          ]
+        },
+        {
+          "native_text": "Deep Saline",
+          "bbox": [
+            450.2699279785156,
+            662.8140869140625,
+            489.1019592285156,
+            670.8140869140625
+          ]
+        },
+        {
+          "native_text": "Formations",
+          "bbox": [
+            451.47991943359375,
+            671.6141357421875,
+            487.89593505859375,
+            679.6141357421875
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.7099304199219,
+            654.0140991210938,
+            526.7099609375,
+            662.0140991210938
+          ]
+        },
+        {
+          "native_text": "26",
+          "bbox": [
+            39.699920654296875,
+            681.8841552734375,
+            47.699920654296875,
+            689.8841552734375
+          ]
+        },
+        {
+          "native_text": "Xinjiang Junggar",
+          "bbox": [
+            76.38792419433594,
+            681.8841552734375,
+            131.67593383789062,
+            689.8841552734375
+          ]
+        },
+        {
+          "native_text": "Basin CCUS Hub",
+          "bbox": [
+            75.60992431640625,
+            690.6841430664062,
+            132.4659423828125,
+            698.6841430664062
+          ]
+        },
+        {
+          "native_text": "China",
+          "bbox": [
+            167.06991577148438,
+            681.8841552734375,
+            186.15792846679688,
+            689.8841552734375
+          ]
+        },
+        {
+          "native_text": "Coal Fired Power, Hydrogen Production,",
+          "bbox": [
+            201.92593383789062,
+            681.8841552734375,
+            333.3899841308594,
+            689.8841552734375
+          ]
+        },
+        {
+          "native_text": "Chemical Production",
+          "bbox": [
+            233.80990600585938,
+            690.6841430664062,
+            301.5059509277344,
+            698.6841430664062
+          ]
+        },
+        {
+          "native_text": "3.0",
+          "bbox": [
+            358.35992431640625,
+            681.8841552734375,
+            368.35992431640625,
+            689.8841552734375
+          ]
+        },
+        {
+          "native_text": "Pipeline, Tank",
+          "bbox": [
+            391.5919189453125,
+            681.8841552734375,
+            438.199951171875,
+            689.8841552734375
+          ]
+        },
+        {
+          "native_text": "Truck",
+          "bbox": [
+            405.34991455078125,
+            690.6841430664062,
+            424.43792724609375,
+            698.6841430664062
+          ]
+        },
+        {
+          "native_text": "EOR",
+          "bbox": [
+            461.6999206542969,
+            681.8841552734375,
+            477.6839294433594,
+            689.8841552734375
+          ]
+        },
+        {
+          "native_text": "2030",
+          "bbox": [
+            510.70794677734375,
+            681.8841552734375,
+            526.7079467773438,
+            689.8841552734375
+          ]
+        },
+        {
+          "native_text": "* Most data are obtained from the official websites of each project or the websites of the relevant competent department and GCCSI’s Global CCUS Status",
+          "bbox": [
+            39.699920654296875,
+            703.9541015625,
+            538.6171264648438,
+            711.9541015625
+          ]
+        },
+        {
+          "native_text": "Report 2021.",
+          "bbox": [
+            39.699920654296875,
+            712.754150390625,
+            81.45191955566406,
+            720.754150390625
+          ]
+        },
+        {
+          "native_text": "* The items in the table are only those with a clear implementation schedule, and some conceptual projects without substantive arrangement are not",
+          "bbox": [
+            39.699920654296875,
+            721.5541381835938,
+            538.6638793945312,
+            729.5541381835938
+          ]
+        },
+        {
+          "native_text": "listed here.",
+          "bbox": [
+            39.699920654296875,
+            730.3541259765625,
+            74.75592041015625,
+            738.3541259765625
+          ]
+        },
+        {
+          "native_text": " ",
+          "bbox": [
+            39.699920654296875,
+            741.1921997070312,
+            39.70241928100586,
+            741.2022094726562
+          ]
+        }
+      ],
+      "provenance": "Rows manually transcribed after native text/render inspection; normalized display whitespace is separate from untouched native line text. No numerical/unit correction. Source region and lines may include adjacent prose. Native PDF remains authoritative."
+    },
+    {
+      "id": "T002",
+      "physical_page": 5,
+      "source_bbox": [
+        35,
+        482,
+        555,
+        748
+      ],
+      "columns": [
+        "region",
+        "CO2_sources",
+        "potential_storage_code"
+      ],
+      "rows": [
+        [
+          "Xinjiang Junggar Basin",
+          "Chemical production, cement production, power generation, iron and steel production",
+          "Chemical utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane recovery; enhanced deep salt water recovery; enhanced shale gas recovery; deep saline formations storage; depleted oil and gas reservoirs storage"
+        ],
+        [
+          "Ordos Basin",
+          "Chemical production, power generation",
+          "Biological utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane recovery; enhanced deep salt water recovery; enhanced shale gas recovery; deep saline formations storage; depleted oil and gas reservoirs storage"
+        ],
+        [
+          "Songliao Basin",
+          "Chemical production, cement production, power generation, iron and steel production, oil refining, biofuel",
+          "Chemical utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane recovery; enhanced deep salt water recovery; enhanced shale gas recovery; deep saline formations storage; depleted oil and gas reservoirs storage"
+        ],
+        [
+          "Bohai Bay Basin",
+          "Chemical production, cement production, power generation, iron and steel production, oil refining, biofuel",
+          "EOR; in situ leaching of uranium; deep saline formations storage; depleted oil and gas reservoirs storage"
+        ],
+        [
+          "Pearl River Mouth Basin",
+          "Cement production, power generation, oil refining",
+          "EOR (offshore); enhanced geothermal production; deep saline formations storage (offshore); depleted oil and gas reservoirs storage (offshore)"
+        ],
+        [
+          "Sichuan Basin",
+          "Chemical production, cement production, power generation, iron and steel production, oil refining, biofuel",
+          "Enhanced natural gas recovery; enhanced shale gas recovery; deep saline formations storage; depleted oil and gas reservoirs storage"
+        ]
+      ],
+      "native_region_text": "OGCI  members  collectively  invest  over  7  billion  USD\neach year in low-carbon solutions, and CCUS is one of\nthe  top  priorities  of  OGCI.  OGCI  launched  the  CCUS\nKickstarter Project in 2019 to enable the CCUS industrial\nCCUS cluster project in China\nA CCUS cluster project provides the opportunity for CO2\nemitters  located  in  relatively  close  proximity  to  each\nother to join together to reduce large amounts of carbon\n   \nTable 2    Overview of the suggested CCUS cluster regions in China\nNo. Region\nCO2 sources\nPotential storage code\n1\nXinjiang\nJunggar\nBasin\nChemical production, cement production,\npower generation, iron and steel production\nChemical utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane recovery;\nenhanced deep salt water recovery; enhanced shale gas recovery; deep saline formations\nstorage; depleted oil and gas reservoirs storage\n2\nOrdos\nBasin\nChemical production, power generation\nBiological utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane\nrecovery; enhanced deep salt water recovery; enhanced shale gas recovery; deep saline\nformations storage; depleted oil and gas reservoirs storage\n3\nSongliao\nBasin\nChemical production, cement production,\npower generation, iron and steel production,\noil refining, biofuel\nChemical utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane recovery;\nenhanced deep salt water recovery; enhanced shale gas recovery; deep saline formations\nstorage; depleted oil and gas reservoirs storage\n4\nBohai\nBay\nBasin\nChemical production, cement production,\npower generation, iron and steel production,\noil refining, biofuel\nEOR; in situ leaching of uranium; deep saline formations storage; depleted oil and gas\nreservoirs storage\n5\nPearl\nRiver\nMouth\nBasin\nCement production, power generation, oil\nrefining\nEOR (offshore); enhanced geothermal production; deep saline formations storage (offshore);\ndepleted oil and gas reservoirs storage (offshore)\n6\nSichuan\nBasin\nChemical production, cement production,\npower generation, iron and steel production,\noil refining, biofuel\nEnhanced natural gas recovery; enhanced shale gas recovery; deep saline formations storage;\ndepleted oil and gas reservoirs storage\n ",
+      "native_lines": [
+        {
+          "native_text": "each year in low-carbon solutions, and CCUS is one of",
+          "bbox": [
+            39.70000076293945,
+            493.4367370605469,
+            283.1669616699219,
+            503.8967590332031
+          ]
+        },
+        {
+          "native_text": "the  top  priorities  of  OGCI.  OGCI  launched  the  CCUS",
+          "bbox": [
+            39.70000076293945,
+            505.4267272949219,
+            283.1669921875,
+            515.88671875
+          ]
+        },
+        {
+          "native_text": "Kickstarter Project in 2019 to enable the CCUS industrial",
+          "bbox": [
+            39.70000076293945,
+            517.4067993164062,
+            283.1774597167969,
+            527.8667602539062
+          ]
+        },
+        {
+          "native_text": "A CCUS cluster project provides the opportunity for CO2",
+          "bbox": [
+            295.19000244140625,
+            494.0667419433594,
+            538.6665649414062,
+            506.7132263183594
+          ]
+        },
+        {
+          "native_text": "emitters  located  in  relatively  close  proximity  to  each",
+          "bbox": [
+            295.19000244140625,
+            505.7367248535156,
+            538.6677856445312,
+            516.1967163085938
+          ]
+        },
+        {
+          "native_text": "other to join together to reduce large amounts of carbon",
+          "bbox": [
+            295.19000244140625,
+            517.4067993164062,
+            538.6886596679688,
+            527.8667602539062
+          ]
+        },
+        {
+          "native_text": "   ",
+          "bbox": [
+            39.69999694824219,
+            529.456787109375,
+            42.31999588012695,
+            539.916748046875
+          ]
+        },
+        {
+          "native_text": "Table 2    Overview of the suggested CCUS cluster regions in China",
+          "bbox": [
+            39.69999694824219,
+            543.735595703125,
+            272.6503601074219,
+            552.2415771484375
+          ]
+        },
+        {
+          "native_text": "No. Region",
+          "bbox": [
+            39.70000076293945,
+            558.8342895507812,
+            79.87600708007812,
+            566.8342895507812
+          ]
+        },
+        {
+          "native_text": "CO2 sources",
+          "bbox": [
+            137.35000610351562,
+            557.9743041992188,
+            177.2360076904297,
+            567.64599609375
+          ]
+        },
+        {
+          "native_text": "Potential storage code",
+          "bbox": [
+            348.75,
+            558.8342895507812,
+            419.31805419921875,
+            566.8342895507812
+          ]
+        },
+        {
+          "native_text": "1",
+          "bbox": [
+            39.70001220703125,
+            573.9743041992188,
+            43.70001220703125,
+            581.9743041992188
+          ]
+        },
+        {
+          "native_text": "Xinjiang",
+          "bbox": [
+            54.34801483154297,
+            573.9743041992188,
+            82.3160171508789,
+            581.9743041992188
+          ]
+        },
+        {
+          "native_text": "Junggar",
+          "bbox": [
+            55.68001174926758,
+            581.9743041992188,
+            81.00000762939453,
+            589.9743041992188
+          ]
+        },
+        {
+          "native_text": "Basin",
+          "bbox": [
+            59.240013122558594,
+            589.9743041992188,
+            77.44001770019531,
+            597.9743041992188
+          ]
+        },
+        {
+          "native_text": "Chemical production, cement production,",
+          "bbox": [
+            90.82001495361328,
+            573.9743041992188,
+            223.77207946777344,
+            581.9743041992188
+          ]
+        },
+        {
+          "native_text": "power generation, iron and steel production",
+          "bbox": [
+            87.59001159667969,
+            581.9743041992188,
+            226.99806213378906,
+            589.9743041992188
+          ]
+        },
+        {
+          "native_text": "Chemical utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane recovery;",
+          "bbox": [
+            237.6900177001953,
+            573.9722290039062,
+            538.3721313476562,
+            581.9743041992188
+          ]
+        },
+        {
+          "native_text": "enhanced deep salt water recovery; enhanced shale gas recovery; deep saline formations",
+          "bbox": [
+            247.00997924804688,
+            581.9743041992188,
+            529.0581665039062,
+            589.9743041992188
+          ]
+        },
+        {
+          "native_text": "storage; depleted oil and gas reservoirs storage",
+          "bbox": [
+            313.239990234375,
+            589.9743041992188,
+            462.83209228515625,
+            597.9743041992188
+          ]
+        },
+        {
+          "native_text": "2",
+          "bbox": [
+            39.699981689453125,
+            600.2542724609375,
+            43.699981689453125,
+            608.2542724609375
+          ]
+        },
+        {
+          "native_text": "Ordos",
+          "bbox": [
+            58.55598449707031,
+            600.2542724609375,
+            78.10798645019531,
+            608.2542724609375
+          ]
+        },
+        {
+          "native_text": "Basin",
+          "bbox": [
+            59.23998260498047,
+            608.2542724609375,
+            77.43998718261719,
+            616.2542724609375
+          ]
+        },
+        {
+          "native_text": "Chemical production, power generation",
+          "bbox": [
+            93.80998229980469,
+            600.2542724609375,
+            220.77005004882812,
+            608.2542724609375
+          ]
+        },
+        {
+          "native_text": "Biological utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane",
+          "bbox": [
+            252.44204711914062,
+            600.252197265625,
+            523.6160888671875,
+            608.2542724609375
+          ]
+        },
+        {
+          "native_text": "recovery; enhanced deep salt water recovery; enhanced shale gas recovery; deep saline",
+          "bbox": [
+            249.239990234375,
+            608.2542724609375,
+            526.8322143554688,
+            616.2542724609375
+          ]
+        },
+        {
+          "native_text": "formations storage; depleted oil and gas reservoirs storage",
+          "bbox": [
+            294.91998291015625,
+            616.2542724609375,
+            481.14410400390625,
+            624.2542724609375
+          ]
+        },
+        {
+          "native_text": "3",
+          "bbox": [
+            39.699981689453125,
+            626.5343017578125,
+            43.699981689453125,
+            634.5343017578125
+          ]
+        },
+        {
+          "native_text": "Songliao",
+          "bbox": [
+            54.131980895996094,
+            626.5343017578125,
+            82.55599212646484,
+            634.5343017578125
+          ]
+        },
+        {
+          "native_text": "Basin",
+          "bbox": [
+            59.23998260498047,
+            634.5343017578125,
+            77.43998718261719,
+            642.5343017578125
+          ]
+        },
+        {
+          "native_text": "Chemical production, cement production,",
+          "bbox": [
+            90.81998443603516,
+            626.5343017578125,
+            223.7720489501953,
+            634.5343017578125
+          ]
+        },
+        {
+          "native_text": "power generation, iron and steel production,",
+          "bbox": [
+            86.58998107910156,
+            634.5343017578125,
+            227.99803161621094,
+            642.5343017578125
+          ]
+        },
+        {
+          "native_text": "oil refining, biofuel",
+          "bbox": [
+            126.0999755859375,
+            642.5343017578125,
+            188.47601318359375,
+            650.5343017578125
+          ]
+        },
+        {
+          "native_text": "Chemical utilization; EOR; in situ leaching of uranium; enhanced coal-bed methane recovery;",
+          "bbox": [
+            237.68997192382812,
+            626.5322265625,
+            538.3721313476562,
+            634.5343017578125
+          ]
+        },
+        {
+          "native_text": "enhanced deep salt water recovery; enhanced shale gas recovery; deep saline formations",
+          "bbox": [
+            247.00997924804688,
+            634.5343017578125,
+            529.0581665039062,
+            642.5343017578125
+          ]
+        },
+        {
+          "native_text": "storage; depleted oil and gas reservoirs storage",
+          "bbox": [
+            313.239990234375,
+            642.5343017578125,
+            462.83209228515625,
+            650.5343017578125
+          ]
+        },
+        {
+          "native_text": "4",
+          "bbox": [
+            39.699981689453125,
+            652.8143310546875,
+            43.699981689453125,
+            660.8143310546875
+          ]
+        },
+        {
+          "native_text": "Bohai",
+          "bbox": [
+            58.78798294067383,
+            652.8143310546875,
+            77.87598419189453,
+            660.8143310546875
+          ]
+        },
+        {
+          "native_text": "Bay",
+          "bbox": [
+            61.89998245239258,
+            660.8143310546875,
+            74.77198028564453,
+            668.8143310546875
+          ]
+        },
+        {
+          "native_text": "Basin",
+          "bbox": [
+            59.23998260498047,
+            668.8143310546875,
+            77.43998718261719,
+            676.8143310546875
+          ]
+        },
+        {
+          "native_text": "Chemical production, cement production,",
+          "bbox": [
+            90.81998443603516,
+            652.8143310546875,
+            223.7720489501953,
+            660.8143310546875
+          ]
+        },
+        {
+          "native_text": "power generation, iron and steel production,",
+          "bbox": [
+            86.58998107910156,
+            660.8143310546875,
+            227.99803161621094,
+            668.8143310546875
+          ]
+        },
+        {
+          "native_text": "oil refining, biofuel",
+          "bbox": [
+            126.0999755859375,
+            668.8143310546875,
+            188.47601318359375,
+            676.8143310546875
+          ]
+        },
+        {
+          "native_text": "EOR; in situ leaching of uranium; deep saline formations storage; depleted oil and gas",
+          "bbox": [
+            250.0899658203125,
+            652.812255859375,
+            525.9781494140625,
+            660.8143310546875
+          ]
+        },
+        {
+          "native_text": "reservoirs storage",
+          "bbox": [
+            359.72998046875,
+            660.8143310546875,
+            416.33001708984375,
+            668.8143310546875
+          ]
+        },
+        {
+          "native_text": "5",
+          "bbox": [
+            39.699981689453125,
+            679.0842895507812,
+            43.699981689453125,
+            687.0842895507812
+          ]
+        },
+        {
+          "native_text": "Pearl",
+          "bbox": [
+            60.131980895996094,
+            679.0842895507812,
+            76.54798126220703,
+            687.0842895507812
+          ]
+        },
+        {
+          "native_text": "River",
+          "bbox": [
+            59.459983825683594,
+            687.0842895507812,
+            77.21199035644531,
+            695.0842895507812
+          ]
+        },
+        {
+          "native_text": "Mouth",
+          "bbox": [
+            57.66998291015625,
+            695.0842895507812,
+            78.99798583984375,
+            703.0842895507812
+          ]
+        },
+        {
+          "native_text": "Basin",
+          "bbox": [
+            59.23998260498047,
+            703.0842895507812,
+            77.43998718261719,
+            711.0842895507812
+          ]
+        },
+        {
+          "native_text": "Cement production, power generation, oil",
+          "bbox": [
+            90.47998046875,
+            679.0842895507812,
+            224.11204528808594,
+            687.0842895507812
+          ]
+        },
+        {
+          "native_text": "refining",
+          "bbox": [
+            144.63998413085938,
+            687.0842895507812,
+            169.94400024414062,
+            695.0842895507812
+          ]
+        },
+        {
+          "native_text": "EOR (offshore); enhanced geothermal production; deep saline formations storage (offshore);",
+          "bbox": [
+            239.63998413085938,
+            679.0842895507812,
+            536.4161376953125,
+            687.0842895507812
+          ]
+        },
+        {
+          "native_text": "depleted oil and gas reservoirs storage (offshore)",
+          "bbox": [
+            309.8999938964844,
+            687.0842895507812,
+            466.1720886230469,
+            695.0842895507812
+          ]
+        },
+        {
+          "native_text": "6",
+          "bbox": [
+            39.699981689453125,
+            713.3543090820312,
+            43.699981689453125,
+            721.3543090820312
+          ]
+        },
+        {
+          "native_text": "Sichuan",
+          "bbox": [
+            55.459983825683594,
+            713.3543090820312,
+            81.21198272705078,
+            721.3543090820312
+          ]
+        },
+        {
+          "native_text": "Basin",
+          "bbox": [
+            59.23998260498047,
+            721.3543090820312,
+            77.43998718261719,
+            729.3543090820312
+          ]
+        },
+        {
+          "native_text": "Chemical production, cement production,",
+          "bbox": [
+            90.81998443603516,
+            713.3543090820312,
+            223.7720489501953,
+            721.3543090820312
+          ]
+        },
+        {
+          "native_text": "power generation, iron and steel production,",
+          "bbox": [
+            86.58998107910156,
+            721.3543090820312,
+            227.99803161621094,
+            729.3543090820312
+          ]
+        },
+        {
+          "native_text": "oil refining, biofuel",
+          "bbox": [
+            126.0999755859375,
+            729.3543090820312,
+            188.47601318359375,
+            737.3543090820312
+          ]
+        },
+        {
+          "native_text": "Enhanced natural gas recovery; enhanced shale gas recovery; deep saline formations storage;",
+          "bbox": [
+            239.22998046875,
+            713.3543090820312,
+            536.8302001953125,
+            721.3543090820312
+          ]
+        },
+        {
+          "native_text": "depleted oil and gas reservoirs storage",
+          "bbox": [
+            326.8799743652344,
+            721.3543090820312,
+            449.1760559082031,
+            729.3543090820312
+          ]
+        },
+        {
+          "native_text": " ",
+          "bbox": [
+            39.699981689453125,
+            741.1923828125,
+            39.70248031616211,
+            741.202392578125
+          ]
+        }
+      ],
+      "provenance": "Rows manually transcribed after native text/render inspection; normalized display whitespace is separate from untouched native line text. No numerical/unit correction. Source region and lines may include adjacent prose. Native PDF remains authoritative."
+    },
+    {
+      "id": "T003",
+      "physical_page": 7,
+      "source_bbox": [
+        35,
+        70,
+        560,
+        169
+      ],
+      "columns": [
+        "name",
+        "total_investment_billion_CNY",
+        "capacity_expression_mw",
+        "commissioning_year",
+        "coastline_km",
+        "direct_sink_km",
+        "hub_km"
+      ],
+      "rows": [
+        {
+          "name": "Haifeng",
+          "total_investment_billion_CNY": 8.5,
+          "capacity_expression_mw": "2 × 1000",
+          "commissioning_year": "2015",
+          "coastline_km": "<1",
+          "direct_sink_km": 164.96,
+          "hub_km": 62.67
+        },
+        {
+          "name": "Jiahuwan",
+          "total_investment_billion_CNY": 8.83,
+          "capacity_expression_mw": "2 × 1000",
+          "commissioning_year": "2019",
+          "coastline_km": "<1",
+          "direct_sink_km": 122.3,
+          "hub_km": 52.11
+        },
+        {
+          "name": "Honghaiwan",
+          "total_investment_billion_CNY": 11,
+          "capacity_expression_mw": "4 × 600",
+          "commissioning_year": "2 units in 2008; 2 units in 2011",
+          "coastline_km": "<1",
+          "direct_sink_km": 118.56,
+          "hub_km": 5.05
+        }
+      ],
+      "native_region_text": "   \nTable 3    Basic information of the three coal-fired plants in Shanwei\nNo.\nPlant\nTotal investment/\n(RMB, billion)\nCapacity/\nMW\nCommissioning\nyear\nDistance from\ncoastline/km\nDistance from\nLF-2A/km\nDistance from CO2\ntreatment center/km\n1\nHaifeng Plant\n8.50\n2 × 1000\n2015\n<1\n164.96\n62.67\n2\nJiahuwan Plant\n8.83\n2 × 1000\n2019\n<1\n122.30\n52.11\n3\nHonghaiwan Plant\n11.00\n4 × 600\n2 units in 2008;\n2 units in 2011\n<1\n118.56\n5.05\n* The distance between CO2 treatment center and LF-2A structure is 113.56 km.",
+      "native_lines": [
+        {
+          "native_text": "Table 3    Basic information of the three coal-fired plants in Shanwei",
+          "bbox": [
+            39.699501037597656,
+            77.6055679321289,
+            273.9970703125,
+            86.11154174804688
+          ]
+        },
+        {
+          "native_text": "No.",
+          "bbox": [
+            39.70000076293945,
+            95.83427429199219,
+            51.47600173950195,
+            103.83427429199219
+          ]
+        },
+        {
+          "native_text": "Plant",
+          "bbox": [
+            96.43000030517578,
+            95.83427429199219,
+            112.85400390625,
+            103.83427429199219
+          ]
+        },
+        {
+          "native_text": "Total investment/",
+          "bbox": [
+            150.95999145507812,
+            91.83427429199219,
+            207.09603881835938,
+            99.83427429199219
+          ]
+        },
+        {
+          "native_text": "(RMB, billion)",
+          "bbox": [
+            155.04998779296875,
+            99.83427429199219,
+            203.010009765625,
+            107.83427429199219
+          ]
+        },
+        {
+          "native_text": "Capacity/",
+          "bbox": [
+            224.77999877929688,
+            91.83427429199219,
+            255.38803100585938,
+            99.83427429199219
+          ]
+        },
+        {
+          "native_text": "MW",
+          "bbox": [
+            232.75,
+            99.83427429199219,
+            247.406005859375,
+            107.83427429199219
+          ]
+        },
+        {
+          "native_text": "Commissioning",
+          "bbox": [
+            273.07000732421875,
+            91.83427429199219,
+            323.7020263671875,
+            99.83427429199219
+          ]
+        },
+        {
+          "native_text": "year",
+          "bbox": [
+            291.510009765625,
+            99.83427429199219,
+            305.26202392578125,
+            107.83427429199219
+          ]
+        },
+        {
+          "native_text": "Distance from",
+          "bbox": [
+            341.3800048828125,
+            91.83427429199219,
+            386.87603759765625,
+            99.83427429199219
+          ]
+        },
+        {
+          "native_text": "coastline/km",
+          "bbox": [
+            343.7200012207031,
+            99.83427429199219,
+            384.5440368652344,
+            107.83427429199219
+          ]
+        },
+        {
+          "native_text": "Distance from",
+          "bbox": [
+            404.55999755859375,
+            91.83427429199219,
+            450.0560302734375,
+            99.83427429199219
+          ]
+        },
+        {
+          "native_text": "LF-2A/km",
+          "bbox": [
+            410.2099914550781,
+            99.83427429199219,
+            444.4100036621094,
+            107.83427429199219
+          ]
+        },
+        {
+          "native_text": "Distance from CO2",
+          "bbox": [
+            468.0899963378906,
+            91.83427429199219,
+            529.489990234375,
+            101.5059814453125
+          ]
+        },
+        {
+          "native_text": "treatment center/km",
+          "bbox": [
+            466.739990234375,
+            99.83427429199219,
+            530.8440551757812,
+            107.83427429199219
+          ]
+        },
+        {
+          "native_text": "1",
+          "bbox": [
+            39.699981689453125,
+            113.97428894042969,
+            43.699981689453125,
+            121.97428894042969
+          ]
+        },
+        {
+          "native_text": "Haifeng Plant",
+          "bbox": [
+            82.55598449707031,
+            113.97428894042969,
+            126.72399139404297,
+            121.97428894042969
+          ]
+        },
+        {
+          "native_text": "8.50",
+          "bbox": [
+            172.0299835205078,
+            113.97428894042969,
+            186.0299835205078,
+            121.97428894042969
+          ]
+        },
+        {
+          "native_text": "2 × 1000",
+          "bbox": [
+            225.82998657226562,
+            113.97428894042969,
+            254.3300018310547,
+            121.97428894042969
+          ]
+        },
+        {
+          "native_text": "2015",
+          "bbox": [
+            290.37799072265625,
+            113.97428894042969,
+            306.37799072265625,
+            121.97428894042969
+          ]
+        },
+        {
+          "native_text": "<1",
+          "bbox": [
+            359.8800048828125,
+            113.97428894042969,
+            368.3840026855469,
+            121.97428894042969
+          ]
+        },
+        {
+          "native_text": "164.96",
+          "bbox": [
+            416.30999755859375,
+            113.97428894042969,
+            438.30999755859375,
+            121.97428894042969
+          ]
+        },
+        {
+          "native_text": "62.67",
+          "bbox": [
+            489.7900085449219,
+            113.97428894042969,
+            507.7900085449219,
+            121.97428894042969
+          ]
+        },
+        {
+          "native_text": "2",
+          "bbox": [
+            39.70001220703125,
+            128.2242889404297,
+            43.70001220703125,
+            136.2242889404297
+          ]
+        },
+        {
+          "native_text": "Jiahuwan Plant",
+          "bbox": [
+            80.33201599121094,
+            128.2242889404297,
+            128.94801330566406,
+            136.2242889404297
+          ]
+        },
+        {
+          "native_text": "8.83",
+          "bbox": [
+            172.03001403808594,
+            128.2242889404297,
+            186.03001403808594,
+            136.2242889404297
+          ]
+        },
+        {
+          "native_text": "2 × 1000",
+          "bbox": [
+            225.83001708984375,
+            128.2242889404297,
+            254.3300018310547,
+            136.2242889404297
+          ]
+        },
+        {
+          "native_text": "2019",
+          "bbox": [
+            290.37799072265625,
+            128.2242889404297,
+            306.37799072265625,
+            136.2242889404297
+          ]
+        },
+        {
+          "native_text": "<1",
+          "bbox": [
+            359.8800048828125,
+            128.2242889404297,
+            368.3840026855469,
+            136.2242889404297
+          ]
+        },
+        {
+          "native_text": "122.30",
+          "bbox": [
+            416.30999755859375,
+            128.2242889404297,
+            438.30999755859375,
+            136.2242889404297
+          ]
+        },
+        {
+          "native_text": "52.11",
+          "bbox": [
+            489.7900085449219,
+            128.2242889404297,
+            507.7900085449219,
+            136.2242889404297
+          ]
+        },
+        {
+          "native_text": "3",
+          "bbox": [
+            39.70001220703125,
+            144.6143035888672,
+            43.70001220703125,
+            152.6143035888672
+          ]
+        },
+        {
+          "native_text": "Honghaiwan Plant",
+          "bbox": [
+            74.99601745605469,
+            144.6143035888672,
+            134.27603149414062,
+            152.6143035888672
+          ]
+        },
+        {
+          "native_text": "11.00",
+          "bbox": [
+            170.0280303955078,
+            144.6143035888672,
+            188.0280303955078,
+            152.6143035888672
+          ]
+        },
+        {
+          "native_text": "4 × 600",
+          "bbox": [
+            227.82803344726562,
+            144.6143035888672,
+            252.33203125,
+            152.6143035888672
+          ]
+        },
+        {
+          "native_text": "2 units in 2008;",
+          "bbox": [
+            273.4000244140625,
+            140.6143035888672,
+            323.37603759765625,
+            148.6143035888672
+          ]
+        },
+        {
+          "native_text": "2 units in 2011",
+          "bbox": [
+            274.5000305175781,
+            148.6143035888672,
+            322.2600402832031,
+            156.6143035888672
+          ]
+        },
+        {
+          "native_text": "<1",
+          "bbox": [
+            359.8800354003906,
+            144.6143035888672,
+            368.384033203125,
+            152.6143035888672
+          ]
+        },
+        {
+          "native_text": "118.56",
+          "bbox": [
+            416.3100280761719,
+            144.6143035888672,
+            438.3100280761719,
+            152.6143035888672
+          ]
+        },
+        {
+          "native_text": "5.05",
+          "bbox": [
+            491.7900390625,
+            144.6143035888672,
+            505.7900390625,
+            152.6143035888672
+          ]
+        }
+      ],
+      "provenance": "Rows manually transcribed after native text/render inspection; normalized display whitespace is separate from untouched native line text. No numerical/unit correction. Source region and lines may include adjacent prose. Native PDF remains authoritative."
+    },
+    {
+      "id": "T004",
+      "physical_page": 8,
+      "source_bbox": [
+        35,
+        324,
+        560,
+        647
+      ],
+      "columns": [
+        "parameter",
+        "reference_value",
+        "source"
+      ],
+      "rows": [
+        [
+          "L",
+          "20 years",
+          "/"
+        ],
+        [
+          "r",
+          "12%",
+          "8% for general commercial projects; 12% for this higher-risk case"
+        ],
+        [
+          "I_c",
+          "1290 million CNY for Scenario I; 2580 million CNY for Scenario II",
+          "Zhu et al., 2015"
+        ],
+        [
+          "I_t",
+          "<50 km:400 million CNY; 50–100 km:700 million CNY; 100–200 km:1 billion CNY",
+          "Wei et al., 2015; one million tonne offshore pipeline reference"
+        ],
+        [
+          "I_s",
+          "431 billion CNY for Scenario I; 862 billion CNY for Scenario II",
+          "Liang et al., 2019"
+        ],
+        [
+          "O_n",
+          "51.60 CNY/t for Scenario I; 34.4 CNY/t for Scenario II",
+          "Bong et al., 2020; about 4% of total investment"
+        ],
+        [
+          "T_n",
+          "0–100 km:0.30 CNY/t/km; 100–150 km:0.25 CNY/t/km",
+          "Serpa et al., 2011"
+        ],
+        [
+          "S_n",
+          "60 CNY/t for Scenario I; 120 CNY/t for Scenario II",
+          "Liang et al., 2019"
+        ],
+        [
+          "Q_n",
+          "1 million t for Scenario I; 3 million t for Scenario II",
+          "/"
+        ],
+        [
+          "A_n",
+          "0.20 million t",
+          "Liang et al., 2019"
+        ]
+      ],
+      "native_region_text": "No.\nParameter\nReference Value\nSource\n1\nL\n20 years\n/\n2\nr\n12%\n8% for general commercial projects, considering the higher risk level of\nCCUS projects, 12% discount rate set for this case study\n3\nIc\n1290 million CNY for Scenario I\n2580 million CNY for Scenario II\nReference to Zhu’s research on modeling the investment of coal-fired\npower plant retrofit with CCS (Zhu et al., 2015)\n4\nIt\n<50 km: 400 million, CNY\nReference to Wei’s research on Cost analysis results of one million tonnes\nCCUS offshore transportation pipeline construction (Wei et al., 2015)\n50−100 km: 700 million, CNY\n100−200 km: 1 billion, CNY\n5\nIs\n431 billion CNY for Scenario I\n862 billion CNY for Scenario II\nReference to Liang’s research on the economic analysis of CCUS project\n(Liang et al., 2019)\n6\nOn\n51.60 CNY/t for Scenario I\n34.4 CNY/t for Scenario II\nReference to Bong’s research, the fixed operation and maintenance cost of\ncarbon capture projects is about 4% of the total investment (Bong et al.,\n2020)\n7\nTn\n0–100 km: 0.30, CNY/t/km\nReference to Serpa’s research on the economic analysis for CO2 pipeline\ntransportation operating cost (Serpa et al., 2011)\n100–150 km: 0.25, CNY/t/km\n8\nSn\n60 CNY/t for Scenario I\n120 CNY/t for Scenario II\nReference to Liang’s research (Liang et al., 2019)\n9\nQn\n1 million t for Scenario I\n/\n3 million t for Scenario II\n10\nAn\n0.20 million t\nReference to Liang’s research (Liang et al., 2019)\n \n   \nTable 5    Cost comparative analysis of individual CCUS projects and CCUS cluster projects: Scenario I, wherein\nItem\nCapture\ncapacity/\nmillion\ntonnes\nPipeline\nlength/\nkm\nCapital cost/ (million CNY)\nFixed operating and maintenance\ncost/(million CNY)\nNPV\n(Absolute\nValue)/\nCNY\nCost of\nCO2\navoidance/\n(CNY·\ntCO2−1)\nPercentage of\ncost Reduction\nin the cost of\nCO2 avoidance\nCapture\nfacilities\nTransportation\nfacilities\nStorage\nfacilities\nCapture\nTransportation Storage\nHaifeng\nPlant\n1\n164.96\n1290\n1000\n431\n51.6\n41.24\n60\n3863\n646.41\n26.39%",
+      "native_lines": [
+        {
+          "native_text": "1",
+          "bbox": [
+            56.5999755859375,
+            331.664306640625,
+            60.5999755859375,
+            339.664306640625
+          ]
+        },
+        {
+          "native_text": "L",
+          "bbox": [
+            104.26997375488281,
+            331.6622009277344,
+            108.71797180175781,
+            339.6622009277344
+          ]
+        },
+        {
+          "native_text": "20 years",
+          "bbox": [
+            210.32997131347656,
+            331.664306640625,
+            237.19398498535156,
+            339.664306640625
+          ]
+        },
+        {
+          "native_text": "/",
+          "bbox": [
+            432.219970703125,
+            331.664306640625,
+            434.43597412109375,
+            339.664306640625
+          ]
+        },
+        {
+          "native_text": "2",
+          "bbox": [
+            56.5999755859375,
+            345.0143127441406,
+            60.5999755859375,
+            353.0143127441406
+          ]
+        },
+        {
+          "native_text": "r",
+          "bbox": [
+            104.93997192382812,
+            345.01220703125,
+            108.05197143554688,
+            353.01220703125
+          ]
+        },
+        {
+          "native_text": "12%",
+          "bbox": [
+            216.42996215820312,
+            344.2160339355469,
+            231.08599853515625,
+            353.4000244140625
+          ]
+        },
+        {
+          "native_text": "8% for general commercial projects, considering the higher risk level of",
+          "bbox": [
+            318.25,
+            344.2160339355469,
+            548.4061279296875,
+            353.4000244140625
+          ]
+        },
+        {
+          "native_text": "CCUS projects, 12% discount rate set for this case study",
+          "bbox": [
+            342.9800109863281,
+            352.2160339355469,
+            523.6820678710938,
+            361.4000244140625
+          ]
+        },
+        {
+          "native_text": "3",
+          "bbox": [
+            56.600006103515625,
+            363.84429931640625,
+            60.600006103515625,
+            371.84429931640625
+          ]
+        },
+        {
+          "native_text": "Ic",
+          "bbox": [
+            103.93000793457031,
+            363.8421936035156,
+            109.07080841064453,
+            373.5159912109375
+          ]
+        },
+        {
+          "native_text": "1290 million CNY for Scenario I",
+          "bbox": [
+            170.80001831054688,
+            363.84429931640625,
+            276.7120361328125,
+            371.84429931640625
+          ]
+        },
+        {
+          "native_text": "2580 million CNY for Scenario II",
+          "bbox": [
+            169.47000122070312,
+            371.84429931640625,
+            278.0460510253906,
+            379.84429931640625
+          ]
+        },
+        {
+          "native_text": "Reference to Zhu’s research on modeling the investment of coal-fired",
+          "bbox": [
+            322.0299987792969,
+            363.84429931640625,
+            544.63818359375,
+            371.84429931640625
+          ]
+        },
+        {
+          "native_text": "power plant retrofit with CCS (Zhu et al., 2015)",
+          "bbox": [
+            356.739990234375,
+            371.84429931640625,
+            509.924072265625,
+            379.84429931640625
+          ]
+        },
+        {
+          "native_text": "4",
+          "bbox": [
+            56.5999755859375,
+            382.1242980957031,
+            60.5999755859375,
+            390.1242980957031
+          ]
+        },
+        {
+          "native_text": "It",
+          "bbox": [
+            104.38997650146484,
+            382.1221923828125,
+            108.60118103027344,
+            391.7959899902344
+          ]
+        },
+        {
+          "native_text": "<50 km: 400 million, CNY",
+          "bbox": [
+            180.3099822998047,
+            382.1242980957031,
+            267.20599365234375,
+            390.1242980957031
+          ]
+        },
+        {
+          "native_text": "Reference to Wei’s research on Cost analysis results of one million tonnes",
+          "bbox": [
+            314.469970703125,
+            382.1242980957031,
+            552.1741333007812,
+            390.1242980957031
+          ]
+        },
+        {
+          "native_text": "CCUS offshore transportation pipeline construction (Wei et al., 2015)",
+          "bbox": [
+            321.66998291015625,
+            390.1242980957031,
+            544.9939575195312,
+            398.1242980957031
+          ]
+        },
+        {
+          "native_text": "50−100 km: 700 million, CNY",
+          "bbox": [
+            174.30996704101562,
+            396.6142883300781,
+            273.20599365234375,
+            404.6142883300781
+          ]
+        },
+        {
+          "native_text": "100−200 km: 1 billion, CNY",
+          "bbox": [
+            177.4199676513672,
+            411.1142883300781,
+            270.0999755859375,
+            419.1142883300781
+          ]
+        },
+        {
+          "native_text": "5",
+          "bbox": [
+            56.59996795654297,
+            425.6242980957031,
+            60.59996795654297,
+            433.6242980957031
+          ]
+        },
+        {
+          "native_text": "Is",
+          "bbox": [
+            104.07997131347656,
+            425.6221923828125,
+            108.91837310791016,
+            435.2959899902344
+          ]
+        },
+        {
+          "native_text": "431 billion CNY for Scenario I",
+          "bbox": [
+            173.90997314453125,
+            425.6242980957031,
+            273.60601806640625,
+            433.6242980957031
+          ]
+        },
+        {
+          "native_text": "862 billion CNY for Scenario II",
+          "bbox": [
+            172.57997131347656,
+            433.6242980957031,
+            274.94000244140625,
+            441.6242980957031
+          ]
+        },
+        {
+          "native_text": "Reference to Liang’s research on the economic analysis of CCUS project",
+          "bbox": [
+            316.3699645996094,
+            425.6242980957031,
+            550.298095703125,
+            433.6242980957031
+          ]
+        },
+        {
+          "native_text": "(Liang et al., 2019)",
+          "bbox": [
+            402.5899658203125,
+            433.6242980957031,
+            464.0740051269531,
+            441.6242980957031
+          ]
+        },
+        {
+          "native_text": "6",
+          "bbox": [
+            56.600006103515625,
+            443.894287109375,
+            60.600006103515625,
+            451.894287109375
+          ]
+        },
+        {
+          "native_text": "On",
+          "bbox": [
+            102.21000671386719,
+            443.8921813964844,
+            110.79000854492188,
+            453.56451416015625
+          ]
+        },
+        {
+          "native_text": "51.60 CNY/t for Scenario I",
+          "bbox": [
+            180.1300048828125,
+            443.894287109375,
+            267.39404296875,
+            451.894287109375
+          ]
+        },
+        {
+          "native_text": "34.4 CNY/t for Scenario II",
+          "bbox": [
+            180.79000854492188,
+            451.894287109375,
+            266.7180480957031,
+            459.894287109375
+          ]
+        },
+        {
+          "native_text": "Reference to Bong’s research, the fixed operation and maintenance cost of",
+          "bbox": [
+            314.27001953125,
+            443.894287109375,
+            552.39013671875,
+            451.894287109375
+          ]
+        },
+        {
+          "native_text": "carbon capture projects is about 4% of the total investment (Bong et al.,",
+          "bbox": [
+            318.58001708984375,
+            451.09600830078125,
+            548.0780029296875,
+            460.2799987792969
+          ]
+        },
+        {
+          "native_text": "2020)",
+          "bbox": [
+            424.0,
+            459.894287109375,
+            442.66400146484375,
+            467.894287109375
+          ]
+        },
+        {
+          "native_text": "7",
+          "bbox": [
+            56.600006103515625,
+            470.1642761230469,
+            60.600006103515625,
+            478.1642761230469
+          ]
+        },
+        {
+          "native_text": "Tn",
+          "bbox": [
+            102.87001037597656,
+            470.16217041015625,
+            110.11801147460938,
+            479.8345031738281
+          ]
+        },
+        {
+          "native_text": "0–100 km: 0.30, CNY/t/km",
+          "bbox": [
+            179.67001342773438,
+            470.1642761230469,
+            267.84600830078125,
+            478.164306640625
+          ]
+        },
+        {
+          "native_text": "Reference to Serpa’s research on the economic analysis for CO2 pipeline",
+          "bbox": [
+            316.9700012207031,
+            470.164306640625,
+            549.68603515625,
+            479.83599853515625
+          ]
+        },
+        {
+          "native_text": "transportation operating cost (Serpa et al., 2011)",
+          "bbox": [
+            356.08001708984375,
+            478.164306640625,
+            510.5740051269531,
+            486.164306640625
+          ]
+        },
+        {
+          "native_text": "100–150 km: 0.25, CNY/t/km",
+          "bbox": [
+            175.67001342773438,
+            484.664306640625,
+            271.84600830078125,
+            492.664306640625
+          ]
+        },
+        {
+          "native_text": "8",
+          "bbox": [
+            56.59999084472656,
+            499.164306640625,
+            60.59999084472656,
+            507.164306640625
+          ]
+        },
+        {
+          "native_text": "Sn",
+          "bbox": [
+            103.09999084472656,
+            499.1622009277344,
+            109.9000015258789,
+            508.83453369140625
+          ]
+        },
+        {
+          "native_text": "60 CNY/t for Scenario I",
+          "bbox": [
+            185.1300048828125,
+            499.164306640625,
+            262.39404296875,
+            507.164306640625
+          ]
+        },
+        {
+          "native_text": "120 CNY/t for Scenario II",
+          "bbox": [
+            181.79000854492188,
+            507.164306640625,
+            265.7180480957031,
+            515.164306640625
+          ]
+        },
+        {
+          "native_text": "Reference to Liang’s research (Liang et al., 2019)",
+          "bbox": [
+            353.77001953125,
+            499.164306640625,
+            512.8839721679688,
+            507.164306640625
+          ]
+        },
+        {
+          "native_text": "9",
+          "bbox": [
+            56.600006103515625,
+            517.4443359375,
+            60.600006103515625,
+            525.4443359375
+          ]
+        },
+        {
+          "native_text": "Qn",
+          "bbox": [
+            102.21000671386719,
+            517.4422607421875,
+            110.79000854492188,
+            527.1145629882812
+          ]
+        },
+        {
+          "native_text": "1 million t for Scenario I",
+          "bbox": [
+            184.1300048828125,
+            517.4443359375,
+            263.3780517578125,
+            525.4443359375
+          ]
+        },
+        {
+          "native_text": "/",
+          "bbox": [
+            432.2200012207031,
+            517.4443359375,
+            434.4360046386719,
+            525.4443359375
+          ]
+        },
+        {
+          "native_text": "3 million t for Scenario II",
+          "bbox": [
+            182.8000030517578,
+            531.934326171875,
+            264.7120361328125,
+            539.934326171875
+          ]
+        },
+        {
+          "native_text": "10",
+          "bbox": [
+            56.600006103515625,
+            546.4443359375,
+            64.60000610351562,
+            554.4443359375
+          ]
+        },
+        {
+          "native_text": "An",
+          "bbox": [
+            102.66000366210938,
+            546.4422607421875,
+            110.34000396728516,
+            556.1145629882812
+          ]
+        },
+        {
+          "native_text": "0.20 million t",
+          "bbox": [
+            202.11000061035156,
+            546.4443359375,
+            245.40602111816406,
+            554.4443359375
+          ]
+        },
+        {
+          "native_text": "Reference to Liang’s research (Liang et al., 2019)",
+          "bbox": [
+            353.77001953125,
+            546.4443359375,
+            512.8839721679688,
+            554.4443359375
+          ]
+        },
+        {
+          "native_text": " ",
+          "bbox": [
+            56.600006103515625,
+            561.4923706054688,
+            56.60250473022461,
+            561.5023803710938
+          ]
+        },
+        {
+          "native_text": "   ",
+          "bbox": [
+            56.600006103515625,
+            561.5368041992188,
+            59.21500778198242,
+            571.9967651367188
+          ]
+        },
+        {
+          "native_text": "Table 5    Cost comparative analysis of individual CCUS projects and CCUS cluster projects: Scenario I, wherein",
+          "bbox": [
+            56.600006103515625,
+            575.8056030273438,
+            442.2725524902344,
+            584.3115844726562
+          ]
+        },
+        {
+          "native_text": "Item",
+          "bbox": [
+            56.599998474121094,
+            606.904296875,
+            71.24000549316406,
+            614.904296875
+          ]
+        },
+        {
+          "native_text": "Capture",
+          "bbox": [
+            103.11000061035156,
+            594.904296875,
+            128.406005859375,
+            602.904296875
+          ]
+        },
+        {
+          "native_text": "capacity/",
+          "bbox": [
+            101.3499984741211,
+            602.904296875,
+            130.1739959716797,
+            610.904296875
+          ]
+        },
+        {
+          "native_text": "million",
+          "bbox": [
+            104.22000122070312,
+            610.904296875,
+            127.30001831054688,
+            618.904296875
+          ]
+        },
+        {
+          "native_text": "tonnes",
+          "bbox": [
+            105.31999969482422,
+            618.904296875,
+            126.19200134277344,
+            626.904296875
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            138.6699981689453,
+            598.904296875,
+            164.85401916503906,
+            606.904296875
+          ]
+        },
+        {
+          "native_text": "length/",
+          "bbox": [
+            140.6699981689453,
+            606.904296875,
+            162.8620147705078,
+            614.904296875
+          ]
+        },
+        {
+          "native_text": "km",
+          "bbox": [
+            146.66000366210938,
+            614.904296875,
+            156.87600708007812,
+            622.904296875
+          ]
+        },
+        {
+          "native_text": "Capital cost/ (million CNY)",
+          "bbox": [
+            184.2100067138672,
+            594.0443115234375,
+            273.6500549316406,
+            602.0443115234375
+          ]
+        },
+        {
+          "native_text": "Fixed operating and maintenance",
+          "bbox": [
+            296.6600036621094,
+            590.0443115234375,
+            402.9640808105469,
+            598.0443115234375
+          ]
+        },
+        {
+          "native_text": "cost/(million CNY)",
+          "bbox": [
+            318.6300048828125,
+            598.0443115234375,
+            381.00604248046875,
+            606.0443115234375
+          ]
+        },
+        {
+          "native_text": "NPV",
+          "bbox": [
+            418.9800109863281,
+            594.904296875,
+            434.9800109863281,
+            602.904296875
+          ]
+        },
+        {
+          "native_text": "(Absolute",
+          "bbox": [
+            411.21002197265625,
+            602.904296875,
+            442.738037109375,
+            610.904296875
+          ]
+        },
+        {
+          "native_text": "Value)/",
+          "bbox": [
+            415.0000305175781,
+            610.904296875,
+            438.9600524902344,
+            618.904296875
+          ]
+        },
+        {
+          "native_text": "CNY",
+          "bbox": [
+            418.5400390625,
+            618.904296875,
+            435.4200439453125,
+            626.904296875
+          ]
+        },
+        {
+          "native_text": "Cost of",
+          "bbox": [
+            453.9000244140625,
+            590.0443115234375,
+            477.22003173828125,
+            598.0443115234375
+          ]
+        },
+        {
+          "native_text": "CO2",
+          "bbox": [
+            458.6100158691406,
+            598.0443115234375,
+            472.510009765625,
+            607.7160034179688
+          ]
+        },
+        {
+          "native_text": "avoidance/",
+          "bbox": [
+            448.2500305175781,
+            606.0443115234375,
+            482.8580627441406,
+            614.0443115234375
+          ]
+        },
+        {
+          "native_text": "(CNY·",
+          "bbox": [
+            454.4500427246094,
+            614.0443115234375,
+            476.6580505371094,
+            622.0443115234375
+          ]
+        },
+        {
+          "native_text": "tCO2−1)",
+          "bbox": [
+            452.98004150390625,
+            621.1707153320312,
+            478.1340026855469,
+            631.7160034179688
+          ]
+        },
+        {
+          "native_text": "Percentage of",
+          "bbox": [
+            497.7200012207031,
+            594.0443115234375,
+            541.4320068359375,
+            602.0443115234375
+          ]
+        },
+        {
+          "native_text": "cost Reduction",
+          "bbox": [
+            495.7099914550781,
+            602.0443115234375,
+            543.4299926757812,
+            610.0443115234375
+          ]
+        },
+        {
+          "native_text": "in the cost of",
+          "bbox": [
+            498.8199768066406,
+            610.0443115234375,
+            540.3319702148438,
+            618.0443115234375
+          ]
+        },
+        {
+          "native_text": "CO2 avoidance",
+          "bbox": [
+            495.41998291015625,
+            618.0443115234375,
+            543.7219848632812,
+            627.7160034179688
+          ]
+        },
+        {
+          "native_text": "Capture",
+          "bbox": [
+            175.12997436523438,
+            615.0443115234375,
+            200.42599487304688,
+            623.0443115234375
+          ]
+        },
+        {
+          "native_text": "facilities",
+          "bbox": [
+            174.02996826171875,
+            623.0443115234375,
+            201.51800537109375,
+            631.0443115234375
+          ]
+        },
+        {
+          "native_text": "Transportation",
+          "bbox": [
+            207.969970703125,
+            615.0443115234375,
+            255.0260009765625,
+            623.0443115234375
+          ]
+        },
+        {
+          "native_text": "facilities",
+          "bbox": [
+            217.7599639892578,
+            623.0443115234375,
+            245.2480010986328,
+            631.0443115234375
+          ]
+        },
+        {
+          "native_text": "Storage",
+          "bbox": [
+            260.449951171875,
+            615.0443115234375,
+            284.865966796875,
+            623.0443115234375
+          ]
+        },
+        {
+          "native_text": "facilities",
+          "bbox": [
+            258.9099426269531,
+            623.0443115234375,
+            286.3979797363281,
+            631.0443115234375
+          ]
+        },
+        {
+          "native_text": "Capture",
+          "bbox": [
+            296.00994873046875,
+            619.0443115234375,
+            321.30596923828125,
+            627.0443115234375
+          ]
+        },
+        {
+          "native_text": "Transportation Storage",
+          "bbox": [
+            328.85797119140625,
+            619.0443115234375,
+            405.74603271484375,
+            627.0443115234375
+          ]
+        },
+        {
+          "native_text": "Haifeng",
+          "bbox": [
+            56.599945068359375,
+            637.394287109375,
+            82.34394836425781,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "1",
+          "bbox": [
+            113.75994873046875,
+            637.394287109375,
+            117.75994873046875,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "164.96",
+          "bbox": [
+            140.7679443359375,
+            637.394287109375,
+            162.7679443359375,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "1290",
+          "bbox": [
+            179.77593994140625,
+            637.394287109375,
+            195.77593994140625,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "1000",
+          "bbox": [
+            223.49594116210938,
+            637.394287109375,
+            239.49594116210938,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "431",
+          "bbox": [
+            266.64794921875,
+            637.394287109375,
+            278.64794921875,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "51.6",
+          "bbox": [
+            301.65594482421875,
+            637.394287109375,
+            315.65594482421875,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "41.24",
+          "bbox": [
+            343.3839416503906,
+            637.394287109375,
+            361.3839416503906,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "60",
+          "bbox": [
+            389.53594970703125,
+            637.394287109375,
+            397.53594970703125,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "3863",
+          "bbox": [
+            418.9759521484375,
+            637.394287109375,
+            434.9759521484375,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "646.41",
+          "bbox": [
+            454.55194091796875,
+            637.394287109375,
+            476.55194091796875,
+            645.394287109375
+          ]
+        },
+        {
+          "native_text": "26.39%",
+          "bbox": [
+            507.23193359375,
+            636.5960083007812,
+            531.89599609375,
+            645.780029296875
+          ]
+        }
+      ],
+      "provenance": "Rows manually transcribed after native text/render inspection; normalized display whitespace is separate from untouched native line text. No numerical/unit correction. Source region and lines may include adjacent prose. Native PDF remains authoritative."
+    },
+    {
+      "id": "T005",
+      "physical_page": 8,
+      "source_bbox": [
+        35,
+        651,
+        560,
+        785
+      ],
+      "columns": [
+        "scenario",
+        "item",
+        "physical_page",
+        "gross_capture_Mt_y",
+        "pipeline_km",
+        "capture_capital_million_CNY",
+        "transport_capital_million_CNY",
+        "storage_capital_million_CNY",
+        "capture_OM_million_CNY",
+        "transport_OM_million_CNY",
+        "storage_OM_million_CNY",
+        "reported_NPV_number",
+        "cost_CNY_t_avoided",
+        "saving_table_percent",
+        "NPV_native_header",
+        "NPV_diagnostic_interpretation",
+        "saving_prose_percent"
+      ],
+      "rows": [
+        {
+          "scenario": "I",
+          "item": "Haifeng",
+          "physical_page": 8,
+          "gross_capture_Mt_y": 1,
+          "pipeline_km": 164.96,
+          "capture_capital_million_CNY": 1290,
+          "transport_capital_million_CNY": 1000,
+          "storage_capital_million_CNY": 431,
+          "capture_OM_million_CNY": 51.6,
+          "transport_OM_million_CNY": 41.24,
+          "storage_OM_million_CNY": 60,
+          "reported_NPV_number": 3863,
+          "cost_CNY_t_avoided": 646.41,
+          "saving_table_percent": 26.39,
+          "NPV_native_header": "CNY",
+          "NPV_diagnostic_interpretation": "Conditional million CNY for Table5; explicit million CNY for Table6. Native headers are preserved.",
+          "saving_prose_percent": 26.39
+        },
+        {
+          "scenario": "I",
+          "item": "Jiahuwan",
+          "physical_page": 8,
+          "gross_capture_Mt_y": 1,
+          "pipeline_km": 122.3,
+          "capture_capital_million_CNY": 1290,
+          "transport_capital_million_CNY": 1000,
+          "storage_capital_million_CNY": 431,
+          "capture_OM_million_CNY": 51.6,
+          "transport_OM_million_CNY": 30.58,
+          "storage_OM_million_CNY": 60,
+          "reported_NPV_number": 3400,
+          "cost_CNY_t_avoided": 568.82,
+          "saving_table_percent": 16.35,
+          "NPV_native_header": "CNY",
+          "NPV_diagnostic_interpretation": "Conditional million CNY for Table5; explicit million CNY for Table6. Native headers are preserved.",
+          "saving_prose_percent": 16.35
+        },
+        {
+          "scenario": "I",
+          "item": "Honghaiwan",
+          "physical_page": 8,
+          "gross_capture_Mt_y": 1,
+          "pipeline_km": 118.56,
+          "capture_capital_million_CNY": 1290,
+          "transport_capital_million_CNY": 1000,
+          "storage_capital_million_CNY": 431,
+          "capture_OM_million_CNY": 51.6,
+          "transport_OM_million_CNY": 29.64,
+          "storage_OM_million_CNY": 60,
+          "reported_NPV_number": 3392,
+          "cost_CNY_t_avoided": 567.66,
+          "saving_table_percent": 16.18,
+          "NPV_native_header": "CNY",
+          "NPV_diagnostic_interpretation": "Conditional million CNY for Table5; explicit million CNY for Table6. Native headers are preserved.",
+          "saving_prose_percent": 16.18
+        },
+        {
+          "scenario": "I",
+          "item": "Cluster",
+          "physical_page": 8,
+          "gross_capture_Mt_y": 3,
+          "pipeline_km": 228.23,
+          "capture_capital_million_CNY": 3870,
+          "transport_capital_million_CNY": 1500,
+          "storage_capital_million_CNY": 862,
+          "capture_OM_million_CNY": 1548,
+          "transport_OM_million_CNY": 171,
+          "storage_OM_million_CNY": 120,
+          "reported_NPV_number": 9240,
+          "cost_CNY_t_avoided": 475.81,
+          "saving_table_percent": null,
+          "NPV_native_header": "CNY",
+          "NPV_diagnostic_interpretation": "Conditional million CNY for Table5; explicit million CNY for Table6. Native headers are preserved.",
+          "saving_prose_percent": null
+        }
+      ],
+      "native_region_text": "Plant\nJiahuwan\nPlant\n1\n122.3\n1290\n1000\n431\n51.6\n30.58\n60\n3400\n568.82\n16.35%\nHonghaiwan\nPlant\n1\n118.56\n1290\n1000\n431\n51.6\n29.64\n60\n3392\n567.66\n16.18%\nCCUS\nCluster\nProject:\nScenario I\n3\n228.23\n3870\n1500\n862\n1548\n171\n120\n9240\n475.81\n/\nNote: the total emission reduction is 3 million tonnes.\n ",
+      "native_lines": [
+        {
+          "native_text": "Jiahuwan",
+          "bbox": [
+            56.5999755859375,
+            655.67431640625,
+            86.79197692871094,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "Plant",
+          "bbox": [
+            56.5999755859375,
+            663.67431640625,
+            73.02397918701172,
+            671.67431640625
+          ]
+        },
+        {
+          "native_text": "1",
+          "bbox": [
+            113.75997924804688,
+            655.67431640625,
+            117.75997924804688,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "122.3",
+          "bbox": [
+            142.76797485351562,
+            655.67431640625,
+            160.76797485351562,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "1290",
+          "bbox": [
+            179.77597045898438,
+            655.67431640625,
+            195.77597045898438,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "1000",
+          "bbox": [
+            223.4959716796875,
+            655.67431640625,
+            239.4959716796875,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "431",
+          "bbox": [
+            266.6479797363281,
+            655.67431640625,
+            278.6479797363281,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "51.6",
+          "bbox": [
+            301.6559753417969,
+            655.67431640625,
+            315.6559753417969,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "30.58",
+          "bbox": [
+            343.38397216796875,
+            655.67431640625,
+            361.38397216796875,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "60",
+          "bbox": [
+            389.5359802246094,
+            655.67431640625,
+            397.5359802246094,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "3400",
+          "bbox": [
+            418.9759826660156,
+            655.67431640625,
+            434.9759826660156,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "568.82",
+          "bbox": [
+            454.5519714355469,
+            655.67431640625,
+            476.5519714355469,
+            663.67431640625
+          ]
+        },
+        {
+          "native_text": "16.35%",
+          "bbox": [
+            507.2319641113281,
+            654.8760375976562,
+            531.89599609375,
+            664.06005859375
+          ]
+        },
+        {
+          "native_text": "Honghaiwan",
+          "bbox": [
+            56.5999755859375,
+            673.9443359375,
+            97.45597839355469,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "Plant",
+          "bbox": [
+            56.5999755859375,
+            681.9443359375,
+            73.02397918701172,
+            689.9443359375
+          ]
+        },
+        {
+          "native_text": "1",
+          "bbox": [
+            113.75997924804688,
+            673.9443359375,
+            117.75997924804688,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "118.56",
+          "bbox": [
+            140.76797485351562,
+            673.9443359375,
+            162.76797485351562,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "1290",
+          "bbox": [
+            179.77597045898438,
+            673.9443359375,
+            195.77597045898438,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "1000",
+          "bbox": [
+            223.4959716796875,
+            673.9443359375,
+            239.4959716796875,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "431",
+          "bbox": [
+            266.6479797363281,
+            673.9443359375,
+            278.6479797363281,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "51.6",
+          "bbox": [
+            301.6559753417969,
+            673.9443359375,
+            315.6559753417969,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "29.64",
+          "bbox": [
+            343.38397216796875,
+            673.9443359375,
+            361.38397216796875,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "60",
+          "bbox": [
+            389.5359802246094,
+            673.9443359375,
+            397.5359802246094,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "3392",
+          "bbox": [
+            418.9759826660156,
+            673.9443359375,
+            434.9759826660156,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "567.66",
+          "bbox": [
+            454.5519714355469,
+            673.9443359375,
+            476.5519714355469,
+            681.9443359375
+          ]
+        },
+        {
+          "native_text": "16.18%",
+          "bbox": [
+            507.2319641113281,
+            673.14599609375,
+            531.89599609375,
+            682.3300170898438
+          ]
+        },
+        {
+          "native_text": "CCUS",
+          "bbox": [
+            56.5999755859375,
+            690.8543090820312,
+            77.47997283935547,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "Cluster",
+          "bbox": [
+            56.5999755859375,
+            698.8543090820312,
+            79.67997741699219,
+            706.8543090820312
+          ]
+        },
+        {
+          "native_text": "Project:",
+          "bbox": [
+            56.5999755859375,
+            706.8543090820312,
+            81.44798278808594,
+            714.8543090820312
+          ]
+        },
+        {
+          "native_text": "Scenario I",
+          "bbox": [
+            56.5999755859375,
+            714.8543090820312,
+            89.22398376464844,
+            722.8543090820312
+          ]
+        },
+        {
+          "native_text": "3",
+          "bbox": [
+            113.75997924804688,
+            690.8543090820312,
+            117.75997924804688,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "228.23",
+          "bbox": [
+            140.76797485351562,
+            690.8543090820312,
+            162.76797485351562,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "3870",
+          "bbox": [
+            179.77597045898438,
+            690.8543090820312,
+            195.77597045898438,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "1500",
+          "bbox": [
+            223.4959716796875,
+            690.8543090820312,
+            239.4959716796875,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "862",
+          "bbox": [
+            266.6479797363281,
+            690.8543090820312,
+            278.6479797363281,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "1548",
+          "bbox": [
+            300.6559753417969,
+            690.8543090820312,
+            316.6559753417969,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "171",
+          "bbox": [
+            346.38397216796875,
+            690.8543090820312,
+            358.38397216796875,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "120",
+          "bbox": [
+            387.5359802246094,
+            690.8543090820312,
+            399.5359802246094,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "9240",
+          "bbox": [
+            418.9759826660156,
+            690.8543090820312,
+            434.9759826660156,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "475.81",
+          "bbox": [
+            454.5519714355469,
+            690.8543090820312,
+            476.5519714355469,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "/",
+          "bbox": [
+            518.4599609375,
+            690.8543090820312,
+            520.6759643554688,
+            698.8543090820312
+          ]
+        },
+        {
+          "native_text": "Note: the total emission reduction is 3 million tonnes.",
+          "bbox": [
+            56.5999755859375,
+            728.13427734375,
+            228.18405151367188,
+            736.13427734375
+          ]
+        },
+        {
+          "native_text": " ",
+          "bbox": [
+            56.5999755859375,
+            741.1923828125,
+            56.602474212646484,
+            741.202392578125
+          ]
+        }
+      ],
+      "provenance": "Rows manually transcribed after native text/render inspection; normalized display whitespace is separate from untouched native line text. No numerical/unit correction. Source region and lines may include adjacent prose. Native PDF remains authoritative."
+    },
+    {
+      "id": "T006",
+      "physical_page": 9,
+      "source_bbox": [
+        35,
+        60,
+        560,
+        274
+      ],
+      "columns": [
+        "scenario",
+        "item",
+        "physical_page",
+        "gross_capture_Mt_y",
+        "pipeline_km",
+        "capture_capital_million_CNY",
+        "transport_capital_million_CNY",
+        "storage_capital_million_CNY",
+        "capture_OM_million_CNY",
+        "transport_OM_million_CNY",
+        "storage_OM_million_CNY",
+        "reported_NPV_number",
+        "cost_CNY_t_avoided",
+        "saving_table_percent",
+        "NPV_native_header",
+        "NPV_diagnostic_interpretation",
+        "saving_prose_percent"
+      ],
+      "rows": [
+        {
+          "scenario": "II",
+          "item": "Haifeng",
+          "physical_page": 9,
+          "gross_capture_Mt_y": 3,
+          "pipeline_km": 164.96,
+          "capture_capital_million_CNY": 2580,
+          "transport_capital_million_CNY": 1000,
+          "storage_capital_million_CNY": 862,
+          "capture_OM_million_CNY": 103.2,
+          "transport_OM_million_CNY": 123.72,
+          "storage_OM_million_CNY": 120,
+          "reported_NPV_number": 7033.3,
+          "cost_CNY_t_avoided": 392.34,
+          "saving_table_percent": 24.04,
+          "NPV_native_header": "million CNY",
+          "NPV_diagnostic_interpretation": "Conditional million CNY for Table5; explicit million CNY for Table6. Native headers are preserved.",
+          "saving_prose_percent": 24.04
+        },
+        {
+          "scenario": "II",
+          "item": "Jiahuwan",
+          "physical_page": 9,
+          "gross_capture_Mt_y": 3,
+          "pipeline_km": 122.3,
+          "capture_capital_million_CNY": 2580,
+          "transport_capital_million_CNY": 1000,
+          "storage_capital_million_CNY": 862,
+          "capture_OM_million_CNY": 103.2,
+          "transport_OM_million_CNY": 91.73,
+          "storage_OM_million_CNY": 120,
+          "reported_NPV_number": 6024.96,
+          "cost_CNY_t_avoided": 336.09,
+          "saving_table_percent": 11.33,
+          "NPV_native_header": "million CNY",
+          "NPV_diagnostic_interpretation": "Conditional million CNY for Table5; explicit million CNY for Table6. Native headers are preserved.",
+          "saving_prose_percent": 11.33
+        },
+        {
+          "scenario": "II",
+          "item": "Honghaiwan",
+          "physical_page": 9,
+          "gross_capture_Mt_y": 3,
+          "pipeline_km": 118.56,
+          "capture_capital_million_CNY": 2580,
+          "transport_capital_million_CNY": 1000,
+          "storage_capital_million_CNY": 862,
+          "capture_OM_million_CNY": 103.2,
+          "transport_OM_million_CNY": 88.92,
+          "storage_OM_million_CNY": 120,
+          "reported_NPV_number": 6004.01,
+          "cost_CNY_t_avoided": 334.92,
+          "saving_table_percent": 10.93,
+          "NPV_native_header": "million CNY",
+          "NPV_diagnostic_interpretation": "Conditional million CNY for Table5; explicit million CNY for Table6. Native headers are preserved.",
+          "saving_prose_percent": 10.09
+        },
+        {
+          "scenario": "II",
+          "item": "Cluster",
+          "physical_page": 9,
+          "gross_capture_Mt_y": 9,
+          "pipeline_km": 228.23,
+          "capture_capital_million_CNY": 3870,
+          "transport_capital_million_CNY": 1500,
+          "storage_capital_million_CNY": 862,
+          "capture_OM_million_CNY": 1548,
+          "transport_OM_million_CNY": 171,
+          "storage_OM_million_CNY": 240,
+          "reported_NPV_number": 173632.2,
+          "cost_CNY_t_avoided": 298.02,
+          "saving_table_percent": null,
+          "NPV_native_header": "million CNY",
+          "NPV_diagnostic_interpretation": "Conditional million CNY for Table5; explicit million CNY for Table6. Native headers are preserved.",
+          "saving_prose_percent": null
+        }
+      ],
+      "native_region_text": "separately deployed 1 million tonnes of CO2 in the CCUS\nproject,  the  unit  emission  reduction  costs  were  646.41,\nmaximum cost reduction potential compared to the other\ntwo  power  plants.  This  is  mainly  because  the  Haifeng\n   \nTable 6    Cost comparative analysis of individual CCUS projects and CCUS cluster projects: Scenario II, wherein the total emission reduction is\n9 million tonnes\nItem\nCapture\ncapacity/\n(million\ntonnes)\nPipeline\nlength/\nkm\nCapital cost/million CNY\nFixed operating and maintenance\ncost/million CNY\nNPV\n(absolute\nvalue)/\n(million\nCNY)\nCost of\nCO2\navoidance/\n(CNY/\ntCO2−1)\nPercentage of\ncost reduction\nin the cost of\nCO2 avoidance\nCapture\nfacilities\nTransportation\nfacilities\nStorage\nfacilities\nCapture\nTransportation Storage\nHaifeng\n Plant\n3\n164.96\n2580\n1000\n862\n103.2\n123.72\n120\n7033.3\n392.34\n24.04%\nJiahuwan\n Plant\n3\n122.3\n2580\n1000\n862\n103.2\n91.73\n120\n6024.96\n336.09\n11.33%\nHonghaiwan\n Plant\n3\n118.56\n2580\n1000\n862\n103.2\n88.92\n120\n6004.01\n334.92\n10.93%\nCCUS\n Cluster\n Project:\n Scenario II\n9\n228.23\n3870\n1500\n862\n1548\n171\n240\n173632.2\n298.02\n/\n ",
+      "native_lines": [
+        {
+          "native_text": "separately deployed 1 million tonnes of CO2 in the CCUS",
+          "bbox": [
+            39.70000076293945,
+            251.07675170898438,
+            283.1764221191406,
+            263.7232360839844
+          ]
+        },
+        {
+          "native_text": "project,  the  unit  emission  reduction  costs  were  646.41,",
+          "bbox": [
+            39.70000076293945,
+            263.1267395019531,
+            283.21923828125,
+            273.5867614746094
+          ]
+        },
+        {
+          "native_text": "maximum cost reduction potential compared to the other",
+          "bbox": [
+            295.1900329589844,
+            251.12655639648438,
+            538.6467895507812,
+            261.5865783691406
+          ]
+        },
+        {
+          "native_text": "two  power  plants.  This  is  mainly  because  the  Haifeng",
+          "bbox": [
+            295.1900329589844,
+            263.2265319824219,
+            538.6990966796875,
+            273.6865539550781
+          ]
+        },
+        {
+          "native_text": "   ",
+          "bbox": [
+            39.69999694824219,
+            61.326759338378906,
+            42.31999588012695,
+            71.78675842285156
+          ]
+        },
+        {
+          "native_text": "Table 6    Cost comparative analysis of individual CCUS projects and CCUS cluster projects: Scenario II, wherein the total emission reduction is",
+          "bbox": [
+            39.69999694824219,
+            75.6055679321289,
+            531.8232421875,
+            84.11154174804688
+          ]
+        },
+        {
+          "native_text": "9 million tonnes",
+          "bbox": [
+            39.69999694824219,
+            86.1055679321289,
+            94.70419311523438,
+            94.57556915283203
+          ]
+        },
+        {
+          "native_text": "Item",
+          "bbox": [
+            39.70000076293945,
+            117.20426940917969,
+            54.34000015258789,
+            125.20426940917969
+          ]
+        },
+        {
+          "native_text": "Capture",
+          "bbox": [
+            88.1500015258789,
+            105.20426940917969,
+            113.44600677490234,
+            113.20426940917969
+          ]
+        },
+        {
+          "native_text": "capacity/",
+          "bbox": [
+            86.38999938964844,
+            113.20426940917969,
+            115.21400451660156,
+            121.20426940917969
+          ]
+        },
+        {
+          "native_text": "(million",
+          "bbox": [
+            87.93000030517578,
+            121.20426940917969,
+            113.67401885986328,
+            129.2042694091797
+          ]
+        },
+        {
+          "native_text": "tonnes)",
+          "bbox": [
+            89.02999877929688,
+            129.2042694091797,
+            112.56600189208984,
+            137.2042694091797
+          ]
+        },
+        {
+          "native_text": "Pipeline",
+          "bbox": [
+            120.80000305175781,
+            109.20426940917969,
+            146.98402404785156,
+            117.20426940917969
+          ]
+        },
+        {
+          "native_text": "length/",
+          "bbox": [
+            122.80000305175781,
+            117.20426940917969,
+            144.9920196533203,
+            125.20426940917969
+          ]
+        },
+        {
+          "native_text": "km",
+          "bbox": [
+            128.79000854492188,
+            125.20426940917969,
+            139.00601196289062,
+            133.2042694091797
+          ]
+        },
+        {
+          "native_text": "Capital cost/million CNY",
+          "bbox": [
+            171.760009765625,
+            104.33427429199219,
+            253.8720703125,
+            112.33427429199219
+          ]
+        },
+        {
+          "native_text": "Fixed operating and maintenance",
+          "bbox": [
+            281.8600158691406,
+            100.33427429199219,
+            388.1640930175781,
+            108.33427429199219
+          ]
+        },
+        {
+          "native_text": "cost/million CNY",
+          "bbox": [
+            306.4900207519531,
+            108.33427429199219,
+            363.5380554199219,
+            116.33427429199219
+          ]
+        },
+        {
+          "native_text": "NPV",
+          "bbox": [
+            403.3900146484375,
+            101.20426940917969,
+            419.3900146484375,
+            109.20426940917969
+          ]
+        },
+        {
+          "native_text": "(absolute",
+          "bbox": [
+            396.7400207519531,
+            109.20426940917969,
+            426.0360412597656,
+            117.20426940917969
+          ]
+        },
+        {
+          "native_text": "value)/",
+          "bbox": [
+            400.3000183105469,
+            117.20426940917969,
+            422.4840393066406,
+            125.20426940917969
+          ]
+        },
+        {
+          "native_text": "(million",
+          "bbox": [
+            398.52001953125,
+            125.20426940917969,
+            424.2640380859375,
+            133.2042694091797
+          ]
+        },
+        {
+          "native_text": "CNY)",
+          "bbox": [
+            401.6200256347656,
+            133.2042694091797,
+            421.1640319824219,
+            141.2042694091797
+          ]
+        },
+        {
+          "native_text": "Cost of",
+          "bbox": [
+            437.9200134277344,
+            100.33427429199219,
+            461.2400207519531,
+            108.33427429199219
+          ]
+        },
+        {
+          "native_text": "CO2",
+          "bbox": [
+            442.6200256347656,
+            108.33427429199219,
+            456.5299987792969,
+            118.0059814453125
+          ]
+        },
+        {
+          "native_text": "avoidance/",
+          "bbox": [
+            432.27001953125,
+            116.33427429199219,
+            466.8780517578125,
+            124.33427429199219
+          ]
+        },
+        {
+          "native_text": "(CNY/",
+          "bbox": [
+            438.70001220703125,
+            124.33427429199219,
+            460.46002197265625,
+            132.3342742919922
+          ]
+        },
+        {
+          "native_text": "tCO2−1)",
+          "bbox": [
+            437.0,
+            131.46067810058594,
+            462.15399169921875,
+            142.0059814453125
+          ]
+        },
+        {
+          "native_text": "Percentage of",
+          "bbox": [
+            481.17999267578125,
+            104.33427429199219,
+            524.8920288085938,
+            112.33427429199219
+          ]
+        },
+        {
+          "native_text": "cost reduction",
+          "bbox": [
+            480.5099792480469,
+            112.33427429199219,
+            525.5659790039062,
+            120.33427429199219
+          ]
+        },
+        {
+          "native_text": "in the cost of",
+          "bbox": [
+            482.27996826171875,
+            120.33427429199219,
+            523.7919921875,
+            128.3342742919922
+          ]
+        },
+        {
+          "native_text": "CO2 avoidance",
+          "bbox": [
+            478.88995361328125,
+            128.3342742919922,
+            527.1820678710938,
+            138.0059814453125
+          ]
+        },
+        {
+          "native_text": "Capture",
+          "bbox": [
+            156.8900146484375,
+            124.61430358886719,
+            182.18603515625,
+            132.6143035888672
+          ]
+        },
+        {
+          "native_text": "facilities",
+          "bbox": [
+            155.79000854492188,
+            132.6143035888672,
+            183.27804565429688,
+            140.6143035888672
+          ]
+        },
+        {
+          "native_text": "Transportation",
+          "bbox": [
+            189.29000854492188,
+            124.61430358886719,
+            236.34603881835938,
+            132.6143035888672
+          ]
+        },
+        {
+          "native_text": "facilities",
+          "bbox": [
+            199.07000732421875,
+            132.6143035888672,
+            226.55804443359375,
+            140.6143035888672
+          ]
+        },
+        {
+          "native_text": "Storage",
+          "bbox": [
+            243.8900146484375,
+            124.61430358886719,
+            268.3060302734375,
+            132.6143035888672
+          ]
+        },
+        {
+          "native_text": "facilities",
+          "bbox": [
+            242.3500213623047,
+            132.6143035888672,
+            269.8380432128906,
+            140.6143035888672
+          ]
+        },
+        {
+          "native_text": "Capture",
+          "bbox": [
+            284.1800231933594,
+            124.61430358886719,
+            309.4760437011719,
+            132.6143035888672
+          ]
+        },
+        {
+          "native_text": "Transportation Storage",
+          "bbox": [
+            316.5800476074219,
+            124.61430358886719,
+            390.5080871582031,
+            132.6143035888672
+          ]
+        },
+        {
+          "native_text": "Haifeng",
+          "bbox": [
+            39.70002746582031,
+            147.69432067871094,
+            65.44403076171875,
+            155.69432067871094
+          ]
+        },
+        {
+          "native_text": "　Plant",
+          "bbox": [
+            39.70002746582031,
+            154.92117309570312,
+            64.1240005493164,
+            163.6942596435547
+          ]
+        },
+        {
+          "native_text": "3",
+          "bbox": [
+            98.80000305175781,
+            147.6942596435547,
+            102.80000305175781,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "164.96",
+          "bbox": [
+            122.89600372314453,
+            147.6942596435547,
+            144.89599609375,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "2580",
+          "bbox": [
+            161.53599548339844,
+            147.6942596435547,
+            177.53599548339844,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "1000",
+          "bbox": [
+            204.8159942626953,
+            147.6942596435547,
+            220.8159942626953,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "862",
+          "bbox": [
+            250.08799743652344,
+            147.6942596435547,
+            262.0880126953125,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "103.2",
+          "bbox": [
+            287.8240051269531,
+            147.6942596435547,
+            305.8240051269531,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "123.72",
+          "bbox": [
+            329.10400390625,
+            147.6942596435547,
+            351.10400390625,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "120",
+          "bbox": [
+            372.2799987792969,
+            147.6942596435547,
+            384.2799987792969,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "7033.3",
+          "bbox": [
+            400.3840026855469,
+            147.6942596435547,
+            422.3840026855469,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "392.34",
+          "bbox": [
+            438.57598876953125,
+            147.6942596435547,
+            460.57598876953125,
+            155.6942596435547
+          ]
+        },
+        {
+          "native_text": "24.04%",
+          "bbox": [
+            490.7039794921875,
+            146.89598083496094,
+            515.365966796875,
+            156.07998657226562
+          ]
+        },
+        {
+          "native_text": "Jiahuwan",
+          "bbox": [
+            39.699981689453125,
+            165.9642791748047,
+            69.89198303222656,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "　Plant",
+          "bbox": [
+            39.699981689453125,
+            173.19113159179688,
+            64.1240005493164,
+            181.9642791748047
+          ]
+        },
+        {
+          "native_text": "3",
+          "bbox": [
+            98.80000305175781,
+            165.9642791748047,
+            102.80000305175781,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "122.3",
+          "bbox": [
+            124.89600372314453,
+            165.9642791748047,
+            142.89599609375,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "2580",
+          "bbox": [
+            161.53599548339844,
+            165.9642791748047,
+            177.53599548339844,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "1000",
+          "bbox": [
+            204.8159942626953,
+            165.9642791748047,
+            220.8159942626953,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "862",
+          "bbox": [
+            250.08799743652344,
+            165.9642791748047,
+            262.0880126953125,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "103.2",
+          "bbox": [
+            287.8240051269531,
+            165.9642791748047,
+            305.8240051269531,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "91.73",
+          "bbox": [
+            331.10400390625,
+            165.9642791748047,
+            349.10400390625,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "120",
+          "bbox": [
+            372.2799987792969,
+            165.9642791748047,
+            384.2799987792969,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "6024.96",
+          "bbox": [
+            398.3760070800781,
+            165.9642791748047,
+            424.3760070800781,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "336.09",
+          "bbox": [
+            438.5679931640625,
+            165.9642791748047,
+            460.5679931640625,
+            173.9642791748047
+          ]
+        },
+        {
+          "native_text": "11.33%",
+          "bbox": [
+            490.69598388671875,
+            165.16600036621094,
+            515.365966796875,
+            174.35000610351562
+          ]
+        },
+        {
+          "native_text": "Honghaiwan",
+          "bbox": [
+            39.699981689453125,
+            184.2443084716797,
+            80.55598449707031,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "　Plant",
+          "bbox": [
+            39.699981689453125,
+            191.47116088867188,
+            64.1240005493164,
+            200.2443084716797
+          ]
+        },
+        {
+          "native_text": "3",
+          "bbox": [
+            98.80000305175781,
+            184.2443084716797,
+            102.80000305175781,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "118.56",
+          "bbox": [
+            122.89600372314453,
+            184.2443084716797,
+            144.89599609375,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "2580",
+          "bbox": [
+            161.53599548339844,
+            184.2443084716797,
+            177.53599548339844,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "1000",
+          "bbox": [
+            204.8159942626953,
+            184.2443084716797,
+            220.8159942626953,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "862",
+          "bbox": [
+            250.08799743652344,
+            184.2443084716797,
+            262.0880126953125,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "103.2",
+          "bbox": [
+            287.8240051269531,
+            184.2443084716797,
+            305.8240051269531,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "88.92",
+          "bbox": [
+            331.10400390625,
+            184.2443084716797,
+            349.10400390625,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "120",
+          "bbox": [
+            372.2799987792969,
+            184.2443084716797,
+            384.2799987792969,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "6004.01",
+          "bbox": [
+            398.3760070800781,
+            184.2443084716797,
+            424.3760070800781,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "334.92",
+          "bbox": [
+            438.5679931640625,
+            184.2443084716797,
+            460.5679931640625,
+            192.2443084716797
+          ]
+        },
+        {
+          "native_text": "10.93%",
+          "bbox": [
+            490.69598388671875,
+            183.44602966308594,
+            515.365966796875,
+            192.63003540039062
+          ]
+        },
+        {
+          "native_text": "CCUS",
+          "bbox": [
+            39.699981689453125,
+            201.15428161621094,
+            60.57998275756836,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "　Cluster",
+          "bbox": [
+            39.699981689453125,
+            208.38113403320312,
+            70.77999877929688,
+            217.15428161621094
+          ]
+        },
+        {
+          "native_text": "　Project:",
+          "bbox": [
+            39.70000076293945,
+            216.38113403320312,
+            72.54801177978516,
+            225.15428161621094
+          ]
+        },
+        {
+          "native_text": "　Scenario II",
+          "bbox": [
+            39.70000076293945,
+            224.38113403320312,
+            82.98800659179688,
+            233.15428161621094
+          ]
+        },
+        {
+          "native_text": "9",
+          "bbox": [
+            98.80000305175781,
+            201.15428161621094,
+            102.80000305175781,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "228.23",
+          "bbox": [
+            122.89600372314453,
+            201.15428161621094,
+            144.89599609375,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "3870",
+          "bbox": [
+            161.53599548339844,
+            201.15428161621094,
+            177.53599548339844,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "1500",
+          "bbox": [
+            204.8159942626953,
+            201.15428161621094,
+            220.8159942626953,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "862",
+          "bbox": [
+            250.08799743652344,
+            201.15428161621094,
+            262.0880126953125,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "1548",
+          "bbox": [
+            288.8240051269531,
+            201.15428161621094,
+            304.8240051269531,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "171",
+          "bbox": [
+            334.10400390625,
+            201.15428161621094,
+            346.10400390625,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "240",
+          "bbox": [
+            372.2799987792969,
+            201.15428161621094,
+            384.2799987792969,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "173632.2",
+          "bbox": [
+            396.3760070800781,
+            201.15428161621094,
+            426.3760070800781,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "298.02",
+          "bbox": [
+            438.5679931640625,
+            201.15428161621094,
+            460.5679931640625,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": "/",
+          "bbox": [
+            501.92999267578125,
+            201.15428161621094,
+            504.14599609375,
+            209.15428161621094
+          ]
+        },
+        {
+          "native_text": " ",
+          "bbox": [
+            39.699981689453125,
+            236.99237060546875,
+            39.70248031616211,
+            237.0023651123047
+          ]
+        }
+      ],
+      "provenance": "Rows manually transcribed after native text/render inspection; normalized display whitespace is separate from untouched native line text. No numerical/unit correction. Source region and lines may include adjacent prose. Native PDF remains authoritative."
+    }
+  ]
+}

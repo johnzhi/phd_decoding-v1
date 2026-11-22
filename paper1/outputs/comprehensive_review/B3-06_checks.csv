@@ -1,0 +1,35 @@
+item,value,unit,scope
+annuity_end_year_1_to_20,7.4694436243275915,years,"Explicit diagnostic timing, not a verified native convention"
+discounted_year_0_to_20_factor,8.46944362432759,years,Conservative Eq1 gross-mass bound includes n=0
+literal_time_indices_count,21,count,n=0..20 has21 observations; not21 completed operating years
+abstract_to_body_larger_plant_rate_ratio,100.0,ratio,Native300 versus3Mt/y preserved; no corrected abstract value inserted
+I_standalone_mean,594.2966666666666,CNY/t avoided,"Equal-weight mean of printed unit costs, not captured-mass weighted system cost"
+I_mean_absolute_unit_saving,118.48666666666662,CNY/t avoided,No conversion to absolute cash savings without matched avoided-mass denominators
+I_mean_relative_unit_saving,19.93729282232779,percent,"Cost comparison only, not a GHG benefit"
+II_standalone_mean,354.45,CNY/t avoided,"Equal-weight mean of printed unit costs, not captured-mass weighted system cost"
+II_mean_absolute_unit_saving,56.43000000000001,CNY/t avoided,No conversion to absolute cash savings without matched avoided-mass denominators
+II_mean_relative_unit_saving,15.92044011849344,percent,"Cost comparison only, not a GHG benefit"
+cluster_scale_unit_cost_reduction,37.36575523843552,percent,Unit costs fall; relative clustering advantage falls19.94 to15.92% across cases
+II_cluster_required_discounted_avoided_mass,582.6192872961547,Mt,Explicit Table6 million CNY divided by CNY/t; no native value corrected
+II_cluster_liberal_discounted_gross_mass_bound,76.22499261894832,Mt,"All9Mt/y at every n=0..20, zero auxiliary emissions; already overgenerous"
+II_cluster_required_to_gross_PV_bound_ratio,7.643415463595923,ratio,Greater than1 rules out reconciliation within the stated positive-discount and nonnegative-auxiliary bounds
+II_cluster_even_undiscounted_gross_bound,189,Mt,"Conservative21 observations, still below required582.619Mt; not a native21-year case"
+II_cluster_required_mass_minimum_under_display_rounding,582.6093448536197,Mt,Allow native NPV +/-0.05M and cost +/-0.005; lower bound still exceeds liberal gross mass
+I_cluster_4percent_capture_capital_reference,154.8,million CNY/y,154.8 versus native1548; does not establish a decimal correction
+II_individual_literal_storage_unit_OM,360,million CNY/y,"Literal120CNY/t at3Mt/y implies360M, versus native120M; units/case boundary unresolved"
+storage_capital_billion_to_table_million_ratio,1000,ratio,Native Table4billion versus Table5/6million; no selection or repair
+II_cluster_capture_capital_over_individual_total,0.5,ratio,Undocumented scale treatment; not an established sharing benefit
+II_over_I_cluster_reported_capture_OM_ratio,1.0,ratio,Native same capture OPEX despite tripled capture; no inferred scaling law
+II_over_I_cluster_reported_transport_OM_ratio,1.0,ratio,Native same transport OPEX; flow allocation and route basis unknown
+II_over_I_cluster_reported_storage_OM_ratio,2.0,ratio,Only this cluster OPEX column doubles
+direct_disjoint_sum,405.82,km,"Conditional length accounting only; no actual route overlap, cost or permission inferred"
+feeder_disjoint_sum,119.83,km,"Conditional length accounting only; no actual route overlap, cost or permission inferred"
+shared_disjoint_physical_sum,233.39,km,"Conditional length accounting only; no actual route overlap, cost or permission inferred"
+sum_source_via_hub_paths,460.51000000000005,km,"Conditional length accounting only; no actual route overlap, cost or permission inferred"
+shared_disjoint_minus_table,5.159999999999997,km,"Conditional length accounting only; no actual route overlap, cost or permission inferred"
+omit_Honghaiwan_feeder_minus_table,0.10999999999998522,km,"Conditional length accounting only; no actual route overlap, cost or permission inferred"
+conditional_disjoint_physical_length_reduction,42.489280962002866,percent,Unique physical length under analyst assumption; not per-source travel-distance reduction
+conditional_equal_source_path_increase,13.476418116406297,percent,Equal-source path sum increases although conditional unique network length falls
+plants_total_installed_capacity,6400,MW,"Installed capacity not capacity factor, capture operation or dispatch"
+analyst_conventional_once_capital_unit_cost,29.23484750495759,CNY/t avoided,"Explicit100MCNY capital/10M annual OPEX/1Mt gross/.2Mt auxiliary, not a native case"
+analyst_literal_repeated_capital_unit_cost,137.5,CNY/t avoided,"Same analyst numbers, literal capital repeated n=0..20; finite discount factors cancel for constant inputs"

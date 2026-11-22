@@ -1,0 +1,14 @@
+{
+  "study_id": "B3-06",
+  "source_sha256": "7cbd9e221b60410beba9cfcac68d345d8fd1f4e92c35fe798623a495cad40326",
+  "limited_checks": 34,
+  "financial_rows": 8,
+  "savings_rounding_rows": 6,
+  "route_rows": 3,
+  "rounding_compatible_savings": 5,
+  "direct_bibliography_entries": 33,
+  "scoped_primary_citation_edges": 0,
+  "native_cashflow_GIS_reservoir_or_capture_model_reproduced": false,
+  "separate_supplement_inspected": false,
+  "limits": "Printed arithmetic, conditional financial timing/scale and route examples only. Necessary gross-mass bound assumes reported NPV is Eq1 discounted cost numerator; native definition remains unresolved. Raw 300, 1548, storage 431/862 billion, 173632.2, percentage variants and Table5 CNY header preserved. No native correction or accepted operating/GHG input."
+}

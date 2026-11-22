@@ -482,17 +482,17 @@ Preserve objective scaling/priority, printed Eq17 index, rate-stock horizon, cur
 
 Forty-five claims and 65 source/dependency records are mapped. Exact Lee2014pp1–3 and Zhang2019pp1,2,4 checks support scoped temporal/financial context and bring total citation edges to 33. They do not complete cited originals. 46 other direct originals, three named authorities and fourteen dependencies remain open. Accepted inputs/results and the combined 1.5 MPa HOLD are preserved.
 
-### B3-06 — Assessing-the-cost-reduction-potential-of-CCUS-cluster-projects-of-coal-fired-plants-in-Guangdong
+### B3-06 — Assessing the cost reduction potential of CCUS cluster projects of coal-fired plants in Guangdong Province in China
 
-. Identifier: 10.1007/s11707-022-1030-1. [PDF](../papers/B3-06.pdf).
+Liu, Zhang, Lan, Huang, Liang and Xia (2023), *Frontiers of Earth Science* 17(3), 844–855. DOI: 10.1007/s11707-022-1030-1. [PDF](../papers/B3-06.pdf). All twelve retained pages, three figures, six tables and the one numbered equation were read and visually inspected. **Comprehensive status: incomplete.** See the [item record](comprehensive_review/B3-06.md) and [Guangdong cluster findings](guangdong_clusters_comprehensive_findings.md).
 
-Reading stage: Targeted methods/results extraction (follow-up full-text review). Checked sections: Selected full-text passages; physical PDF pages 7,9.
+The body assumes 1/3 Mt/year captured per plant, giving 3/9 Mt/year clusters. Preserve the abstract's literal 300 Mt/year statement. Reported equal-weight mean savings of 118.49/56.43 CNY/t avoided and 19.94/15.92% reproduce; larger capture lowers unit cost but reduces the relative clustering advantage. Five plant-saving comparisons are rounding-compatible; Honghaiwan II prints 10.93% in the table and 10.09% in prose versus 11.01756% from the displayed costs.
 
-Cost comparison of three Guangdong coal-plant standalone versus shared capture/transport/storage projects. Scenarios assume1Mt/y or3Mt/y captured per plant, giving cluster totals3Mt/y and9Mt/y. Pipeline distances and shared facilities enter discounted unit-abatement-cost calculations.
+Table 4 storage billions versus Tables 5/6 millions, Table 5's CNY NPV header, native 1548 capture O&M, case-specific auxiliary emissions and nonuniform sharing rules remain unresolved. If the larger cluster's printed 173632.2 million CNY NPV is Equation 1's cost numerator, dividing by 298.02 CNY/t requires 582.619 Mt discounted avoided mass, exceeding a generous 76.225 Mt gross-capture bound. No decimal or unit correction is inferred. Conditional capital-once diagnostics reproduce only Haifeng's rounded NPV numbers, rather than the full native financial case.
 
-The cluster cost decreases from475.81 to298.02CNY/t when the assumed capture scale triples. Table6 reports scenario-specific reductions relative to individual projects, and explicitly assumes shared O&M grows by only twofold. Body/table rates resolve the implausible abstract300Mt/y statement for these scenarios.
+The 228.23 km shared route does not replay a naive disjoint feeder sum; source path length differs from unique network length. LF-2A >500 Mt is a static resource, with no native annual pressure/well series. Lumped auxiliary emissions and the 20 kt/year pilot do not supply a matched complete capture heat/electricity/liquefaction/cooling inventory. Historical project/policy schedules and qualitative risk/neutrality benefits remain qualified.
 
-Transfer limits: Scale economies in cost are not GHG reductions. Capture rates are assumed scenarios, not observed operation. Table6 monetary/NPV entries and source-wide O&M scaling need reconciliation before independent financial reproduction; no cost-to-emissions conversion is used. Abstract-rate error remains recorded rather than silently repaired.
+Thirty-four limited checks, eight financial rows, six savings-rounding rows and three route rows are saved. All 33 bibliography originals, eight named authorities and fourteen dependencies remain unverified; no scoped original edge was added. Native author/cited models and external assets remain open. No accepted operating/GHG input changes.
 
 ### B3-07 — Estimation of CO2 Transport Costs in South Korea Using a Techno-Economic Model
 

@@ -1,0 +1,7 @@
+scenario,plant,calculated_percent,lower_cost_rounding_percent,upper_cost_rounding_percent,table_percent,prose_percent,table_rounding_compatible,prose_rounding_compatible,scope
+I,Haifeng,26.39191844185579,26.390575567948883,26.393261294988513,26.39,26.39,True,True,Independent +/-0.005 CNY/t cost rounding and +/-0.005 percentage-point display rounding; not statistical uncertainty
+I,Jiahuwan,16.35139411413101,16.34977980538489,16.353008394497436,16.35,16.35,True,True,Independent +/-0.005 CNY/t cost rounding and +/-0.005 percentage-point display rounding; not statistical uncertainty
+I,Honghaiwan,16.180460134587605,16.17884102139503,16.18207921925783,16.18,16.18,True,True,Independent +/-0.005 CNY/t cost rounding and +/-0.005 percentage-point display rounding; not statistical uncertainty
+II,Haifeng,24.040373145740933,24.038130679139,24.042615555187396,24.04,24.04,True,True,Independent +/-0.005 CNY/t cost rounding and +/-0.005 percentage-point display rounding; not statistical uncertainty
+II,Jiahuwan,11.327323038471837,11.324516119434069,11.330129873993954,11.33,11.33,True,True,Independent +/-0.005 CNY/t cost rounding and +/-0.005 percentage-point display rounding; not statistical uncertainty
+II,Honghaiwan,11.01755643138661,11.014735082035754,11.020377696499228,10.93,10.09,False,False,Independent +/-0.005 CNY/t cost rounding and +/-0.005 percentage-point display rounding; not statistical uncertainty

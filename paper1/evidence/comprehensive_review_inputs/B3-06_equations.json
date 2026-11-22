@@ -1,0 +1,22 @@
+{
+  "study_id": "B3-06",
+  "source_sha256": "7cbd9e221b60410beba9cfcac68d345d8fd1f4e92c35fe798623a495cad40326",
+  "equations": [
+    {
+      "id": "E001",
+      "number": 1,
+      "pages": [
+        7
+      ],
+      "printed_transcription": "C = [sum_(n=0)^l (I_c + I_t + I_s + O_n + T_n + S_n)/(1+r)^n] / [sum_(n=0)^l (Q_n - A_n)/(1+r)^n]",
+      "source_bbox": [
+        340,
+        338,
+        561,
+        416
+      ],
+      "native_region_text": "C =\nl∑\nn=0\nIc + It + Is +On ++Tn +S n\n(1+r)n\nl∑\nn=0\nQn −An\n(1+r)n\n,\n(1)\ns the unit emission reduction cost (CNY/tCO);",
+      "provenance": "Literal numerator capital terms remain inside the annual sum; lower bound0 and l preserved. The lifetime prose uses L. Separate conventional once-at-zero calculations are diagnostics, not native repairs."
+    }
+  ]
+}
