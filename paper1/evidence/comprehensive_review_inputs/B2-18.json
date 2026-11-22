@@ -1,0 +1,312 @@
+{
+  "study_id": "B2-18",
+  "source_path": "papers/B2-18.pdf",
+  "source_sha256": "445b3e7214b5fcb2b5aabc4311846c979fd563f8f2184879b808736930d7489a",
+  "provenance": "Transcribed from retained native PDF, text and enlarged rendered figures. Physical pages used. No native external datasets, author code, GIS or IAM arrays acquired. Analyst examples are separate from accepted Paper 1 inputs.",
+  "source_locators": {
+    "stock_and_Fig2a_b_c": [
+      4,
+      5,
+      6
+    ],
+    "temperature": [
+      1,
+      6
+    ],
+    "coefficient": [
+      10
+    ],
+    "depth_and_density_prose": [
+      11
+    ],
+    "scenario_relations": [
+      12
+    ]
+  },
+  "quotes": {
+    "coefficient": "0.037 GtCO2 storage potential per 1,000 km3 of assessed sedimentary basin volume for a 50-year injectivity period including pressure-related injectivity considerations",
+    "density": "beyond which the overpressure compresses the gas, its density decreases rapidly",
+    "scenario": "cumulative summing all yearly values until the year 2100",
+    "extrapolation": "first-order spline interpolation extrapolating beyond the model horizon until 2300"
+  },
+  "bulk_coefficient_Gt_per_1000_km3": 0.037,
+  "coefficient_horizon_years": 50,
+  "stock_cases": [
+    {
+      "case": "technical",
+      "onshore_Gt": 5720,
+      "offshore_Gt": 6060,
+      "total_Gt": 11780
+    },
+    {
+      "case": "lower_sensitivity",
+      "onshore_Gt": 980,
+      "offshore_Gt": 300,
+      "total_Gt": 1290
+    },
+    {
+      "case": "central",
+      "onshore_Gt": 1010,
+      "offshore_Gt": 450,
+      "total_Gt": 1460
+    },
+    {
+      "case": "upper_sensitivity",
+      "onshore_Gt": 1830,
+      "offshore_Gt": 880,
+      "total_Gt": 2710
+    }
+  ],
+  "figure2a_rows": [
+    {
+      "layer": "technical",
+      "onshore_1000Gt": 5.7,
+      "offshore_1000Gt": 6.1
+    },
+    {
+      "layer": "protected",
+      "onshore_1000Gt": 5,
+      "offshore_1000Gt": 5.6
+    },
+    {
+      "layer": "EEZ",
+      "onshore_1000Gt": 5,
+      "offshore_1000Gt": 5
+    },
+    {
+      "layer": "polar",
+      "onshore_1000Gt": 4.6,
+      "offshore_1000Gt": 4
+    },
+    {
+      "layer": "seismic",
+      "onshore_1000Gt": 3.9,
+      "offshore_1000Gt": 4
+    },
+    {
+      "layer": "urban",
+      "onshore_1000Gt": 3.3,
+      "offshore_1000Gt": 3.9
+    },
+    {
+      "layer": "water",
+      "onshore_1000Gt": 3.3,
+      "offshore_1000Gt": 1.6
+    },
+    {
+      "layer": "storage_depth",
+      "onshore_1000Gt": 1,
+      "offshore_1000Gt": 0.5
+    },
+    {
+      "layer": "maritime",
+      "onshore_1000Gt": 1,
+      "offshore_1000Gt": 0.5
+    },
+    {
+      "layer": "terrestrial",
+      "onshore_1000Gt": 1,
+      "offshore_1000Gt": 0.5
+    },
+    {
+      "layer": "final",
+      "onshore_1000Gt": 1,
+      "offshore_1000Gt": 0.5
+    }
+  ],
+  "figure2c_regions": [
+    "Asia and Pacific",
+    "Latin America and Caribbean",
+    "Middle East and Africa",
+    "Developed economies",
+    "Eastern Europe and West-Central Asia"
+  ],
+  "figure2c_rings": [
+    {
+      "native_label": "Offshore",
+      "position": "top",
+      "ring": "outer_technical",
+      "values_Gt": [
+        1028,
+        751,
+        788,
+        2359,
+        775
+      ],
+      "figure2b_comparator_Gt": 6060
+    },
+    {
+      "native_label": "Offshore",
+      "position": "top",
+      "ring": "inner_central",
+      "values_Gt": [
+        53,
+        114,
+        355,
+        200,
+        272
+      ],
+      "figure2b_comparator_Gt": 450
+    },
+    {
+      "native_label": "Onshore",
+      "position": "bottom",
+      "ring": "outer_technical",
+      "values_Gt": [
+        606,
+        706,
+        1562,
+        1170,
+        1473
+      ],
+      "figure2b_comparator_Gt": 5720
+    },
+    {
+      "native_label": "Onshore",
+      "position": "bottom",
+      "ring": "inner_central",
+      "values_Gt": [
+        110,
+        83,
+        58,
+        175,
+        26
+      ],
+      "figure2b_comparator_Gt": 1010
+    }
+  ],
+  "TCRE_C_per_1000Gt": [
+    0.27,
+    0.45
+  ],
+  "sensitivity_stocks_Gt": [
+    1290,
+    1460,
+    2710
+  ],
+  "historical_capture_Mt_y": 49,
+  "net_zero_capture_Gt_y": 8.7,
+  "source_scale_up_quote": 175,
+  "analyst": {
+    "geometry_km2": 1,
+    "assessed_thickness_km": 1.5,
+    "stock_Gt": 1000,
+    "already_used_Gt": 100,
+    "example_NZ_used_Gt": 300,
+    "example_rate_Gt_y": 8.7,
+    "mask_weights": [
+      6,
+      3,
+      1,
+      2
+    ],
+    "masks": {
+      "A": [
+        0,
+        1
+      ],
+      "B": [
+        1,
+        2
+      ]
+    },
+    "emission_years": [
+      2030,
+      2040,
+      2050
+    ],
+    "emissions_Gt_y": [
+      10,
+      0,
+      -10
+    ],
+    "extrapolation_years": [
+      2090,
+      2100
+    ],
+    "rising_rates_Gt_y": [
+      8,
+      12
+    ],
+    "falling_rates_Gt_y": [
+      16,
+      12
+    ],
+    "depths_m": [
+      800,
+      1500,
+      2500
+    ],
+    "surface_pressures_MPa_absolute": [
+      0.101325,
+      1.0
+    ],
+    "surface_temperature_C": 15,
+    "geothermal_C_km": 25,
+    "hydrostatic_water_density_kg_m3": 1000,
+    "g_m_s2": 9.80665,
+    "leak_fraction_per_year": 0.0001,
+    "leak_years": [
+      100,
+      1000,
+      10000
+    ],
+    "scope": "All examples synthetic. The two surface absolute pressures are analyst alternatives; neither is inferred to be the native surface state. No source pressure field, reservoir or IAM scenario is reproduced."
+  },
+  "missing_native_inputs": {
+    "versioned_GIS_masks": null,
+    "ArcGIS_environment_and_CRS": null,
+    "country_region_crosswalk": null,
+    "author_code_commit_and_license": null,
+    "scenario_selection_and_arrays": null,
+    "exact_zero_or_no_crossing_handling": null,
+    "negative_rate_extrapolation_handling": null,
+    "surface_pressure_and_fluid_basis": null,
+    "supplementary_information": null,
+    "native_pressure_rate_timeseries": null,
+    "capture_to_ship_inventory": null
+  },
+  "external_assets": [
+    {
+      "type": "code",
+      "url": "https://github.com/gidden/2024_gidden_cstorage",
+      "pages": [
+        12
+      ],
+      "status": "advertised_in_native_PDF_not_retrieved"
+    },
+    {
+      "type": "data_record",
+      "url": "https://zenodo.org/records/15657543",
+      "pages": [
+        12
+      ],
+      "status": "advertised_not_retrieved"
+    },
+    {
+      "type": "data_DOI",
+      "url": "https://doi.org/10.5281/zenodo.15657542",
+      "pages": [
+        13
+      ],
+      "status": "R093_version_or_concept_correspondence_unverified"
+    },
+    {
+      "type": "explorer",
+      "url": "https://cdr.apps.ece.iiasa.ac.at/story/prudent-carbon-storage",
+      "pages": [
+        12
+      ],
+      "status": "advertised_not_retrieved"
+    },
+    {
+      "type": "SI_and_peer_review",
+      "url": "https://doi.org/10.1038/s41586-025-09423-y",
+      "pages": [
+        13
+      ],
+      "status": "advertised_not_retrieved"
+    }
+  ],
+  "external_retrieval": "paused_pending_requested_Chrome_connection"
+}

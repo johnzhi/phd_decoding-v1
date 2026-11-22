@@ -1,0 +1,7 @@
+depth_m,surface_MPa_absolute,temperature_C,pressure_MPa_absolute,density_kg_m3,surface_density_kg_m3,equal_mass_volume_reduction,scope
+800,0.101325,35.0,7.946645,387.05347961942243,1.8718497603166653,206.7759324626265,"Analyst hydrostatic pure-CO2 state; native surface pressure, fluids and density calculation unknown; not a field constraint"
+800,1.0,35.0,8.84532,650.0574151936278,19.499790219601298,33.33663633674307,"Analyst hydrostatic pure-CO2 state; native surface pressure, fluids and density calculation unknown; not a field constraint"
+1500,0.101325,52.5,14.8113,671.7880315691204,1.8718497603166653,358.88993113179794,"Analyst hydrostatic pure-CO2 state; native surface pressure, fluids and density calculation unknown; not a field constraint"
+1500,1.0,52.5,15.709975,695.2662154235959,19.499790219601298,35.65506129008047,"Analyst hydrostatic pure-CO2 state; native surface pressure, fluids and density calculation unknown; not a field constraint"
+2500,0.101325,77.5,24.61795,693.5615454960002,1.8718497603166653,370.52201528111357,"Analyst hydrostatic pure-CO2 state; native surface pressure, fluids and density calculation unknown; not a field constraint"
+2500,1.0,77.5,25.516625,705.8819024840625,19.499790219601298,36.19946135494863,"Analyst hydrostatic pure-CO2 state; native surface pressure, fluids and density calculation unknown; not a field constraint"

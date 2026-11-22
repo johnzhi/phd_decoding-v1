@@ -424,13 +424,13 @@ Transfer limits: The 44 limited checks, five resource interval rows and six synt
 
 ### B2-18 — A prudent planetary limit for geologic carbon storage
 
-See supplied first page. Identifier: 10.1038/s41586-025-09423-y. [PDF](../papers/B2-18.pdf).
+Gidden et al. (2025), Nature 645, 124–132 plus Methods. DOI: 10.1038/s41586-025-09423-y. [PDF](../papers/B2-18.pdf). All 13 retained physical pages were read as text and inspected as renders, with enlarged figures. **Comprehensive status: incomplete.** See the [item record](comprehensive_review/B2-18.md) and [scientific findings](prudent_storage_comprehensive_findings.md).
 
-Reading stage: Targeted sections and quantitative extraction. Checked sections: PDF pages 1, 2, 3, 4, 5, 8, 10.
+The central 1,460 Gt (1,290–2,710 Gt) risk-screened stock uses an explicitly pressure-aware borrowed coefficient, 0.037 Gt per 1,000 km³ of assessed bulk sediment for a 50-year injectivity period. This is not a site-specific annual rate or calibrated pressure history. SSP5 urban buffers, PGA hazard, water/formation depth, borders and other exclusions are conditional screens. Marginal layer losses depend on order.
 
-Risk-based geospatial screening estimates a central prudent planetary storage limit of 1460 GtCO2 with sensitivity 1290–2710 GtCO2.
+Figure 2c's native-labelled central offshore/onshore regional sums of 994/452 Gt do not reconcile with Figure 2b's 450/1,010 Gt; no labels or values are silently corrected. Temperature arithmetic is consistent under separate storage/TCRE assumptions. Density sign/surface state, Figure 3 units and scenario interpolation/extrapolation conventions remain open. Forty-one limited checks and disclosed synthetic components do not reproduce native GIS/IAM outputs.
 
-Transfer limits: This is a precautionary scenario-dependent estimate, not a legal universal quota or site injection rate. Exclusions and conversion assumptions must accompany it.
+All 93 printed bibliography entries were read. R024 has one scoped exact Wei2021 original check; the other 92 originals and fourteen dependencies remain unverified. Explicit publisher SI, GitHub code, Zenodo data, the explorer and peer-review reports have not been retrieved while external research is paused. No accepted operating/GHG input or numerical result changes; the combined 1.5 MPa HOLD remains.
 
 ### B3-01 — Carbon dioxide capture and storage—liability for non-permanence under the UNFCCC
 

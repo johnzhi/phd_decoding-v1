@@ -1,0 +1,2971 @@
+{
+  "study_id": "B2-18",
+  "source_sha256": "445b3e7214b5fcb2b5aabc4311846c979fd563f8f2184879b808736930d7489a",
+  "review_date": "2026-11-22",
+  "overall_status": "incomplete",
+  "assessment": "All 13 retained main-PDF pages were text-read and inspected as full renders; four figure pages were enlarged. Four numbered figures with fourteen lettered panels, three schematic subplots within Fig 3a, all captions/legends, Methods and all 93 printed bibliography entries were inspected. Forty-one limited checks, four ring comparisons, six temperature rows, two synthetic mask orders, 400 synthetic extrapolation rows and six conditional pure-fluid states do not reproduce the native GIS/IAM/climate models. One exact selected original has scoped passage checks. Regional ring/case/unit, density basis, scenario conventions and unavailable native assets remain open. No accepted operating/GHG input added.",
+  "text_read_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "visually_inspected_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13
+  ],
+  "original_model_status": "native_ArcGIS_spatial_IAM_scenario_and_climate_models_not_reproduced_limited_components_only",
+  "supplement_status": "explicit_SI_public_code_Zenodo_data_explorer_and_peer_review_reports_advertised_not_retained_or_verified_no_embedded_files",
+  "sections": [
+    {
+      "id": "S001",
+      "pages": [
+        1
+      ],
+      "scope": "Identity, abstract, affiliations and provenance",
+      "assessment": "Matthew J. Gidden and ten coauthors; Nature 645 (2025), 124–132 plus online Methods. Received 14 August 2024, accepted 17 July 2025, published online 3 September 2025. DOI 10.1038/s41586-025-09423-y; CC BY 4.0 on page 9. The native PDF says modified publication 2025; its modification history remains unverified."
+    },
+    {
+      "id": "S002",
+      "pages": [
+        1,
+        2
+      ],
+      "scope": "Introduction: CCS/CDR, climate budgets and risk",
+      "assessment": "Read all net-zero/negative definitions, historical capture/resource estimates, EOR, alternative sinks and uncertain future demand. Preserve historical dates, stock/flow and abatement/removal boundaries; direct original support remains incomplete."
+    },
+    {
+      "id": "S003",
+      "pages": [
+        2
+      ],
+      "scope": "Limits to geologic carbon storage",
+      "assessment": "A normative harm-prevention resource assessment with sequential geospatial exclusion masks. The planetary limit is conditional on these choices, not a field maximum, legal quota or confidence-calibrated probability."
+    },
+    {
+      "id": "S004",
+      "pages": [
+        2
+      ],
+      "scope": "Geologic storage and geophysical risk",
+      "assessment": "Read geology/seal/fault/state screening, storage 1000–2500 m and ocean≤300 m central bounds. Main historic seismic wording differs from the probabilistic hazard metric specified in Methods."
+    },
+    {
+      "id": "S005",
+      "pages": [
+        2
+      ],
+      "scope": "Environmental and human risk",
+      "assessment": "Protected/polar regions and future built-up urban buffer 25 km. Methods specifies SSP5 urban 2100, not the largest-population SSP. Health mechanisms are cited qualitative risks, not calibrated failure or exposure models."
+    },
+    {
+      "id": "S006",
+      "pages": [
+        2,
+        4
+      ],
+      "scope": "Policy risk and transboundary storage",
+      "assessment": "Read European policy examples, EEZs, international-law opinions, London Protocol and contested boundaries. Historical policy snapshots and study assumptions are not verified current legal permissions."
+    },
+    {
+      "id": "S007",
+      "pages": [
+        4,
+        5,
+        6
+      ],
+      "scope": "A holistic risk assessment and Figure 2 caption",
+      "assessment": "Read initial 11800 Gt→1460 Gt(1290–2710), country heterogeneity, applied-order loss attribution and every Fig 2 panel/legend. Ring totals need native region/case reconciliation; no guessed relabelling."
+    },
+    {
+      "id": "S008",
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "scope": "Implications for future mitigation strategies",
+      "assessment": "Read all capture/CDR pathways, five persistent storage uses, net-zero/end-century scenario comparisons, relative-year versus calendar-year exceedance and temperature potential. Sensitivity ranges are not posterior probabilities."
+    },
+    {
+      "id": "S009",
+      "pages": [
+        6,
+        8
+      ],
+      "scope": "Robust strategies under uncertainty",
+      "assessment": "Read fairness, historic responsibility, GDP, CDR finance, mineralization, implementation/injectivity and climate-response limitations, and final policy recommendations. Recommendations are not optimized or operationally demonstrated policies."
+    },
+    {
+      "id": "S010",
+      "pages": [
+        8,
+        9,
+        12,
+        13
+      ],
+      "scope": "References and online content",
+      "assessment": "All 93 printed entries read with native line/page/column provenance. R024 exact Wei 2021 original selected passages checked. Other 92 direct originals remain unverified; malformed/incomplete author metadata retained literally."
+    },
+    {
+      "id": "S011",
+      "pages": [
+        10
+      ],
+      "scope": "Methods: Geospatial analysis and volumetric conversion",
+      "assessment": "Read global sediment polygons, GADM v 4.1,1° depth, closed-system pressure rationale and .037 Gt/1000 km³ for 50 years. Pressure is considered through a borrowed effective coefficient; no native basin-specific pressure/rate history is modeled here."
+    },
+    {
+      "id": "S012",
+      "pages": [
+        10,
+        11
+      ],
+      "scope": "Methods: protected, EEZ, polar and seismic layers",
+      "assessment": "Read WDPA May 2024, EEZ clipping/joint regimes, ±66.5° and GEM/USGS hazard thresholds. All masks require versioned native inputs/CRS/resampling to reproduce."
+    },
+    {
+      "id": "S013",
+      "pages": [
+        11
+      ],
+      "scope": "Methods: population, ocean depth, storage depth and disputes",
+      "assessment": "Read SSP5/2100 buffers 25/5 km, >121000 mixed-status wells, ocean 300 m(100–500), mean sediment depths 1.9/2.5 km, central formation 1000–2500 m and contested/war-like areas. Native thermodynamic surface basis and density prose remain unresolved."
+    },
+    {
+      "id": "S014",
+      "pages": [
+        11,
+        12
+      ],
+      "scope": "Methods: transboundary assumptions and sensitivity calculations",
+      "assessment": "Central terrestrial 6 nautical-mile buffer each side, sensitivity 0/12 nm; plume may reach farther. Each layer applied sequentially, layer sensitivity replaces that layer after previous central layers; native combined-case construction requires code/SI."
+    },
+    {
+      "id": "S015",
+      "pages": [
+        12
+      ],
+      "scope": "Methods: scenario analysis and regional allocation",
+      "assessment": "AR6 Emissions|CO2 and Carbon Sequestration|CCS, pyam annual interpolation, cumulative sums through 2100, first sign-crossing net-zero year, remaining-stock/rate years, scipy slinear extrapolation through 2300 and R5 region analysis. Exact-zero, noncrossing, negative-rate and endpoint conventions require native code."
+    },
+    {
+      "id": "S016",
+      "pages": [
+        12,
+        13
+      ],
+      "scope": "Data/code availability, acknowledgements, contributions and disclosures",
+      "assessment": "Read exact GitHub/Zenodo/explorer URLs, ArcGIS Pro workflow, funding, author roles, no declared competing interests, SI and advertised peer-review reports. Public availability statements do not establish local retrieval, version correspondence, license for all inputs or independent reproduction."
+    }
+  ],
+  "visuals": [
+    {
+      "id": "F001",
+      "pages": [
+        3
+      ],
+      "object": "Fig 1a global sedimentary basins",
+      "inspection": "Inspected enlarged map, on/offshore brown/blue technical-versus-assessed shades, polar circles, national boundaries, EEZs and basemap attribution. No polygon digitization or individual-cell safety validation."
+    },
+    {
+      "id": "F002",
+      "pages": [
+        3
+      ],
+      "object": "Fig 1b North America exclusion overlay and caption",
+      "inspection": "Inspected every legend key including urban 2100, PGA>.115 g, water<300 m, sediment depth>1 km, protected areas and layered hatch/fill. Captions describe remaining yellow-dotted/light-blue regions. Dense overlaps do not prove precise local eligibility."
+    },
+    {
+      "id": "F003",
+      "pages": [
+        5,
+        6
+      ],
+      "object": "Fig 2a sequential potential reductions",
+      "inspection": "Eleven rows including baseline and final; on/offshore retained values and reductions, unitsGtCO2 x 10^-3, sensitivity bars and caption read. Source typo Siesmic retained where native. Marginal layer contributions depend on order; zero at one-decimal display is not zero actual loss."
+    },
+    {
+      "id": "F004",
+      "pages": [
+        5,
+        6
+      ],
+      "object": "Fig 2b total technical/lower/central/upper scenarios",
+      "inspection": "Read 11.78=5.72+6.06;1.29 versus .98+.30;1.46=1.01+.45;2.71=1.83+.88 in thousandGt. Lower mismatch is compatible with rounding; sensitivities not statistical CIs."
+    },
+    {
+      "id": "F005",
+      "pages": [
+        5,
+        6
+      ],
+      "object": "Fig 2c two regional doughnuts",
+      "inspection": "Enlarged and transcribed all 20 integer labels by five region colours, preserving top Offshore/bottom Onshore and outer technical/inner central. Totals 5701/994/5517/452 Gt need native mapping to Fig 2b 6060/450/5720/1010; no automatic swap/correction."
+    },
+    {
+      "id": "F006",
+      "pages": [
+        5,
+        6
+      ],
+      "object": "Fig 2d offshore choropleth",
+      "inspection": "Inspected seven Gt bins 0–.6,.7–2,2.1–3.7,3.8–7.1,7.2–14.4,14.5–32.2,32.3–53.2 and map/caption. No precise country value inferred from a colour bin."
+    },
+    {
+      "id": "F007",
+      "pages": [
+        5,
+        6
+      ],
+      "object": "Fig 2e onshore choropleth",
+      "inspection": "Inspected seven Gt bins 0–1.3,1.4–4.5,4.6–10.2,10.3–22.3,22.4–52.9,53–87.6,87.7–218 and map/caption. Absolute stock, not annual flow."
+    },
+    {
+      "id": "F008",
+      "pages": [
+        5,
+        6
+      ],
+      "object": "Fig 2f bivariate loss map",
+      "inspection": "Inspected low/high two-axis legend, blue high absolute/low percentage, red converse and purple both high. Percent loss and absolute Gt loss are distinct; no country raster reconstructed."
+    },
+    {
+      "id": "F009",
+      "pages": [
+        7
+      ],
+      "object": "Fig 3a three schematic time axes",
+      "inspection": "Net CO2 emissions, annual injection and cumulative stock, four drawdown/stabilize and fossil-dependence strategies, net-zero line and half/quarter thresholds inspected. Schematic trajectories are not native IAM datasets."
+    },
+    {
+      "id": "F010",
+      "pages": [
+        7
+      ],
+      "object": "Fig 3b split violins and background stock thresholds",
+      "inspection": "Read four temperature categories, NZ versus 2100 halves, medians/IQR/full ranges, existing-field purple/onshore yellow/offshore red/above-limit grey. Caption 1000 Gt plus axis extra x 10^6 annotation needs native unit convention; do not multiply both into an invented stock."
+    },
+    {
+      "id": "F011",
+      "pages": [
+        7
+      ],
+      "object": "Fig 3c constant-NZ-rate remaining years",
+      "inspection": "Read all four category rows, three resource thresholds, relative-year axis, IQR bars and 5–95% whiskers. Negative/short remaining years and scenario population need exact inputs; no plot-derived medians used as model inputs."
+    },
+    {
+      "id": "F012",
+      "pages": [
+        7
+      ],
+      "object": "Fig 3d extrapolated calendar-year exceedance",
+      "inspection": "Same categories/thresholds with calendar-year axis and percentile legend; Methods extends terminal rates using slinear to 2300. Extrapolated demand is not a validated multi-century forecast or failure probability."
+    },
+    {
+      "id": "F013",
+      "pages": [
+        8
+      ],
+      "object": "Fig 4a territorial historical responsibility versus prudent stock",
+      "inspection": "Read logx kt/capita 1990–2019 and logyGt, country codes, regional colours, GDP/capita$1000 dot sizes and wedges. Absolute storage and per-capita emissions are mixed normalizations; dotted quadrant boundaries are not fitted causal thresholds."
+    },
+    {
+      "id": "F014",
+      "pages": [
+        8
+      ],
+      "object": "Fig 4b extracted carbon-major emissions versus prudent stock",
+      "inspection": "Read same axes except fossil-extraction embodied emissions and carbonmajors.org source, sparse country labels, GDP/region legend and full caption. SI Table 5 mapping, GDP year, extraction allocation and numeric native points remain unverified."
+    }
+  ],
+  "equations": [
+    {
+      "id": "E001",
+      "pages": [
+        10
+      ],
+      "printed": "Analyst transcription: M=c*Vbulk/1000, c=.037 Gt per 1000 km³",
+      "check": "Dimensional conversion gives .037 kg/m 3 bulk, not CO2 density; borrowed 50-year pressure constraint does not produce a field-specific annual cap."
+    },
+    {
+      "id": "E002",
+      "pages": [
+        10,
+        12
+      ],
+      "printed": "Analyst set transcription: remaining cells=D minus union(exclusion masks); each layer debit weighted over previously remaining cells",
+      "check": "Two synthetic mask orders and exhaustive test confirm attribution dependence with identical final union under fixed masks and weights. Native GIS resampling/geometry/weights not reproduced."
+    },
+    {
+      "id": "E003",
+      "pages": [
+        12
+      ],
+      "printed": "Analyst sensitivity transcription: replace layer-k threshold after central previous layers",
+      "check": "Not a derivative, independent full-baseline marginal, joint probability or proof of simultaneous worst/best bounds. Exact final combination requires SI/code."
+    },
+    {
+      "id": "E004",
+      "pages": [
+        6
+      ],
+      "printed": "Analyst transcription: deltaT=MnetCDR*TCRE/1000",
+      "check": "Six stock/response corners reproduce .35–1.2 combined envelope and conditional .657 central. Assumes reversible linear response and all stock used for net CDR."
+    },
+    {
+      "id": "E005",
+      "pages": [
+        6
+      ],
+      "printed": "Analyst allocation transcription: MnetCDR=f*Mavailable,0≤f≤1",
+      "check": "Fossil CCS and residual offsets compete for stock; synthetic 50% allocation halves temperature potential, not capture efficiency."
+    },
+    {
+      "id": "E006",
+      "pages": [
+        12
+      ],
+      "printed": "Analyst transcription: S(t)=sum over yearly q(t), with q in Gt/y and implicit 1 year step",
+      "check": "Source explicitly annual cumulative sum; not summing irregular five/ten-year data without interpolation, nor silently replacing with trapezoidal integration."
+    },
+    {
+      "id": "E007",
+      "pages": [
+        12
+      ],
+      "printed": "Analyst crossing transcription: first annual positive-to-negative emissions crossing",
+      "check": "Synthetic linear emissions have exact zero 2040 and first negative 2041. Native treatment of exact zero/plateaus/no crossing remains unknown."
+    },
+    {
+      "id": "E008",
+      "pages": [
+        12
+      ],
+      "printed": "Analyst transcription: yearsremaining=(stock-SNZ)/qNZ",
+      "check": "Dimensions years; requires positiveq and remainingstock. Uses scenario-paired values, not ratio of unpaired medians. Zero/negative-rate and already-exceeded handling not supplied."
+    },
+    {
+      "id": "E009",
+      "pages": [
+        12
+      ],
+      "printed": "Analyst terminal-segment relation q(2100+k)=q 2100+s*k; slinear through 2300",
+      "check": "Synthetic 12 Gt/y with slope±.4: rising threshold 2144 versus flat 2175; falling raw rates eventually negative. Native floors/censoring/slopes not verified."
+    },
+    {
+      "id": "E010",
+      "pages": [
+        12
+      ],
+      "printed": "Analyst arithmetic sum: S(2100+n)=S2100+n*q 2100+s*n(n+1)/2",
+      "check": "Closed-form agrees with 400 disclosed annual synthetic rows for two cases. No native IAM trajectories or geographic constraints reproduced."
+    },
+    {
+      "id": "E011",
+      "pages": [
+        11
+      ],
+      "printed": "Equal-mass identity rho=m/V",
+      "check": "Literal density decreases while compression reduces volume is internally inconsistent for fixed mass; flags prose, not proof of native code failure."
+    },
+    {
+      "id": "E012",
+      "pages": [
+        11
+      ],
+      "printed": "Analyst geothermal/hydrostatic relations T=15+25*z_km; p=p_surface+rho_water*g*z",
+      "check": "Native thermal assumptions combined with explicitly analyst water density, gravity and two absolute surface pressures; six pure-fluid EOS states only. Native 30/36 volume claims cannot be adjudicated without state basis."
+    },
+    {
+      "id": "E013",
+      "pages": [
+        2
+      ],
+      "printed": "Analyst isolated-cohort retention R(t)=(1-lambda)^t",
+      "check": "Source .01%/yr threshold used only in a disclosed constant-leakage diagnostic. No native climate counterfactual, dynamic injection or field-retention model reproduced."
+    },
+    {
+      "id": "E014",
+      "pages": [
+        4
+      ],
+      "printed": "Analyst reported scale ratio 8.7 Gt/y divided by 49 Mt/y",
+      "check": "177.55 literal;175 lies within rounded-input interval 174.75–180.41. Do not declare definite arithmetic error; historical capture capacity is not measured storage flow."
+    }
+  ],
+  "variables": [
+    {
+      "id": "V001",
+      "pages": [
+        1,
+        4,
+        5
+      ],
+      "name": "Technical/prudent potential",
+      "unit": "GtCO2 cumulative",
+      "assumption": "11800 mainprose versus 11780 display; central 1460/lower 1290/upper 2710. No annuallimit or legal allocation."
+    },
+    {
+      "id": "V002",
+      "pages": [
+        10
+      ],
+      "name": "Assessed sedimentary volume",
+      "unit": "km3 bulk",
+      "assumption": "Remaining area times depth window using 1° grid; not pore volume alone."
+    },
+    {
+      "id": "V003",
+      "pages": [
+        10
+      ],
+      "name": "Effective coefficient",
+      "unit": "Gt per1000km3; .037kg/m3 bulk",
+      "assumption": "Includes borrowed pressure and 50-year assumptions; native regional calibration, pressure shares and state density unresolved."
+    },
+    {
+      "id": "V004",
+      "pages": [
+        10,
+        11
+      ],
+      "name": "Surface masks, depth and buffers",
+      "unit": "km,m,degree,nauticalmile",
+      "assumption": "Protected/EEZ/polar/seismic/SSP5 urban/water/storage/dispute/border choices; normative central bounds, not failure probabilities."
+    },
+    {
+      "id": "V005",
+      "pages": [
+        11
+      ],
+      "name": "Seismic hazard",
+      "unit": "g; chance over50years",
+      "assumption": ">10% chance of exceeding.115 g/.401 g; PGA hazard not source failure probability or historical earthquake severity."
+    },
+    {
+      "id": "V006",
+      "pages": [
+        11
+      ],
+      "name": "Urban area",
+      "unit": "SSP5 built-up extent in2100",
+      "assumption": "25 km central/5 km relaxed; not a universal plume/health distance."
+    },
+    {
+      "id": "V007",
+      "pages": [
+        11
+      ],
+      "name": "Water depth versus formation burial depth",
+      "unit": "m or km",
+      "assumption": "300 m water limit differs from 1000–2500 m storage depth; existing O&G points include nonoperating states."
+    },
+    {
+      "id": "V008",
+      "pages": [
+        11
+      ],
+      "name": "Temperature/density/surface state",
+      "unit": "°C,kg/m3,MPa absolute",
+      "assumption": "Native 15°C/25°C/km; surface pressure unspecified. Analyst.101325/1 MPa and hydrostatics explicitly alternatives."
+    },
+    {
+      "id": "V009",
+      "pages": [
+        12
+      ],
+      "name": "CO2 emission/injection trajectories",
+      "unit": "Gt/y after unit reconciliation",
+      "assumption": "AR6 Emissions|CO2 versus Carbon Sequestration|CCS; yearly interpolation, not captured=avoided=removed."
+    },
+    {
+      "id": "V010",
+      "pages": [
+        12
+      ],
+      "name": "Time and threshold variables",
+      "unit": "calendar year; years after NZ",
+      "assumption": "Annualsum until 2100, extrapolation to 2300; crossedthreshold convention and sample filters open."
+    },
+    {
+      "id": "V011",
+      "pages": [
+        6
+      ],
+      "name": "TCRE and reversibility",
+      "unit": "°C per1000GtCO2",
+      "assumption": "Central.45/lowerlikely.27, storage sensitivity separate; linear symmetric response assumption explicitly qualified."
+    },
+    {
+      "id": "V012",
+      "pages": [
+        8
+      ],
+      "name": "Historical responsibility/GDP",
+      "unit": "ktCO2/capita1990–2019;US$1000/capita",
+      "assumption": "Territorial/extraction accounting; yabsoluteGt, dot sizeGDP; no financial transfer or causality model."
+    },
+    {
+      "id": "V013",
+      "pages": [
+        5,
+        6,
+        7
+      ],
+      "name": "Sensitivities and scenario quantiles",
+      "unit": "Gt;IQR;5–95%",
+      "assumption": "Resource sensitivities are not confidence intervals; scenario distributions are not probabilities of real-world storage failure."
+    },
+    {
+      "id": "V014",
+      "pages": [
+        1,
+        2,
+        6
+      ],
+      "name": "Historical capture/basalt/leakage",
+      "unit": "Mt/y;Gt cumulative;%/y",
+      "assumption": "Historical 49/416 capacity, basalt 10^-4 Gt cumulative,.01% leakthreshold different denominators/horizons."
+    }
+  ],
+  "claims": [
+    {
+      "id": "C001",
+      "pages": [
+        1
+      ],
+      "claim": "1460 Gt(1290–2710) prudent planetary limit and .7°C(.35–1.2) temperature drawdown.",
+      "assessment": "Conditional risk screens and climate response; rounded arithmetic corroborated, native spatial/IAM/climate outputs not reproduced.",
+      "reference_ids": [
+        "R001",
+        "R002",
+        "R003",
+        "R004"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C002",
+      "pages": [
+        1
+      ],
+      "claim": "Net-zero CO2 and negative/net-zero GHG milestones have distinct temperature implications.",
+      "assessment": "Read and distinguish gross sources/removals, ZEC and non-CO2 gases; originals incomplete.",
+      "reference_ids": [
+        "R005",
+        "R006",
+        "R007",
+        "R008",
+        "R009"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C003",
+      "pages": [
+        1
+      ],
+      "claim": "49 Mt/y operating capture and 416 Mt/y planned/construction.",
+      "assessment": "Historical 2024 capture capacities, not measured current injection or contracted availability.",
+      "reference_ids": [
+        "R010"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C004",
+      "pages": [
+        1
+      ],
+      "claim": "Operational EOR results overall in net-positive emissions.",
+      "assessment": "Native cites 2025 EarthArXiv preprint, not reproduced LCI; no universal EOR climate factor accepted.",
+      "reference_ids": [
+        "R011"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C005",
+      "pages": [
+        1
+      ],
+      "claim": "Scientific 10000–40000 Gt and industry 14000 Gt,13400 undiscovered.",
+      "assessment": "Resource categories and uncertainty distinct; not pressure-constrained annual service.",
+      "reference_ids": [
+        "R003",
+        "R004",
+        "R012"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C006",
+      "pages": [
+        1
+      ],
+      "claim": "Just 253 Mt economically viable.",
+      "assessment": "Literal Mt retained; no silent Gt correction without original 2022 case.",
+      "reference_ids": [
+        "R013"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C007",
+      "pages": [
+        1
+      ],
+      "claim": "Forestry/construction/soils diversify storage with lower durability.",
+      "assessment": "Cited alternative sinks and human/environmental reversal; native comparative model not verified.",
+      "reference_ids": [
+        "R014"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C008",
+      "pages": [
+        1,
+        2
+      ],
+      "claim": "Overshoot and mitigation choices may require up to 2000 Gt, more under climate uncertainty.",
+      "assessment": "Scenario-dependent demand, not assured storage or single forecast.",
+      "reference_ids": [
+        "R015",
+        "R016",
+        "R017"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C009",
+      "pages": [
+        2
+      ],
+      "claim": "Annual leakage>.01% can negate climate benefits.",
+      "assessment": "Requires original climate/horizon/counterfactual; constant-cohort arithmetic is not validation of this universal threshold.",
+      "reference_ids": [
+        "R018",
+        "R019"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C010",
+      "pages": [
+        2
+      ],
+      "claim": "Seepage, aquifer contamination, public acceptance and project/geopolitical risks constrain availability.",
+      "assessment": "Qualitative mechanisms, no calibrated joint distribution or field risk limit.",
+      "reference_ids": [
+        "R020",
+        "R021",
+        "R022"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C011",
+      "pages": [
+        2
+      ],
+      "claim": "Harm-prevention and due-diligence norms motivate global risk screening.",
+      "assessment": "Normative legal interpretation; exact originals/current application unverified.",
+      "reference_ids": [
+        "R023"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C012",
+      "pages": [
+        2
+      ],
+      "claim": "Previous global/regional technical estimates do not combine this risk variety.",
+      "assessment": "R024 exact Wei original supports earlier basin-scale volumetric assessment, not exhaustive novelty proof across all sources.",
+      "reference_ids": [
+        "R003",
+        "R024",
+        "R025",
+        "R026"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C013",
+      "pages": [
+        2
+      ],
+      "claim": "Treat storage as consumable intergenerational common resource and minimize avoidable fossil dependence.",
+      "assessment": "Author framing/recommendation, no optimal allocation derived.",
+      "reference_ids": [
+        "R027"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C014",
+      "pages": [
+        2
+      ],
+      "claim": "Pore volume, depth, seal, tectonics and basin type are suitability criteria.",
+      "assessment": "Read literature-backed screening, not actual permitted field service.",
+      "reference_ids": [
+        "R028",
+        "R029"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C015",
+      "pages": [
+        2,
+        11
+      ],
+      "claim": "Central storage depth 1–2.5 km ensures suitable state and limits deep fault risk.",
+      "assessment": "Normative global screen; local temperature/pressure/fault data absent. Lower/upper universality not established.",
+      "reference_ids": [
+        "R030"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C016",
+      "pages": [
+        2,
+        11
+      ],
+      "claim": "Injection pressure can reactivate faults; moderate seismic zones excluded.",
+      "assessment": "Main historical language versus Methods probabilistic hazard must be distinguished; not injection failure probability.",
+      "reference_ids": [
+        "R031",
+        "R032",
+        "R076",
+        "R077",
+        "R078"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C017",
+      "pages": [
+        2
+      ],
+      "claim": "Groundwater acidification may mobilize metals/sulfate/chloride with impurity interactions.",
+      "assessment": "Cited mechanisms, no actual purity, toxicology or aquifer-exposure model verified.",
+      "reference_ids": [
+        "R033",
+        "R034"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C018",
+      "pages": [
+        2
+      ],
+      "claim": "Protected/polar regions and future settlement buffers reduce environmental/human risk.",
+      "assessment": "Policies and 25 km norm are not calibrated risk attenuation factors.",
+      "reference_ids": [
+        "R074",
+        "R079",
+        "R080",
+        "R081"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C019",
+      "pages": [
+        2
+      ],
+      "claim": "CCS remains politically contested; some European bans/restrictions exist.",
+      "assessment": "Historical snapshot, SI Table 4 not retained; no present legal status inferred.",
+      "reference_ids": [
+        "R035",
+        "R036"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C020",
+      "pages": [
+        4
+      ],
+      "claim": "Few bilateral transboundary allowances and EEZ storage assumptions.",
+      "assessment": "Historical legal account under uncertainty; originals,2026 current law and specific projects not verified.",
+      "reference_ids": [
+        "R037",
+        "R038",
+        "R039"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C021",
+      "pages": [
+        4
+      ],
+      "claim": "11800 Gt→1460 Gt(1290–2710),~70%onshore/~30%offshore.",
+      "assessment": "Fig 2b central split 1010/450 supports approximate 70/30; native GIS and sensitivity construction unverified.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C022",
+      "pages": [
+        4
+      ],
+      "claim": "Russia/USA/China/Brazil/Australia retain high resources; Saudi/COD/Kazakhstan relatively robust.",
+      "assessment": "Author spatial results; no native country arrays or map digitization substituted.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C023",
+      "pages": [
+        4
+      ],
+      "claim": "India/Norway/Canada/EU strongly affected; depth/water restrictions largest applied-order effects.",
+      "assessment": "Country stock versus fraction and conditional ordering matter; not standalone causal contributions.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C024",
+      "pages": [
+        5,
+        6
+      ],
+      "claim": "Fig 2 regional technical and central resources by IPCC region.",
+      "assessment": "All 20 native labels transcribed. Offshore 994 versus 450 and Onshore 452 versus 1010 Gt central comparisons exceed rounding; label/case/region mapping open.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C025",
+      "pages": [
+        4
+      ],
+      "claim": "Hydrogen/synthetic fuel, BECCS, point-source CCS and DACCS roles differ.",
+      "assessment": "No complete matched-case capture heat/electricity inventory or net-removal LCI supplied.",
+      "reference_ids": [
+        "R040",
+        "R041",
+        "R042",
+        "R043",
+        "R044",
+        "R045",
+        "R046"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C026",
+      "pages": [
+        4
+      ],
+      "claim": "Regional storage deployment varies by capacity/infrastructure detail.",
+      "assessment": "IAM crosswalk and region aggregation essential; not global perfect fungibility.",
+      "reference_ids": [
+        "R047"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C027",
+      "pages": [
+        4
+      ],
+      "claim": "Geologic durability generally exceeds land-based removals.",
+      "assessment": "Context, not a site-specific permanent-retention multiplier.",
+      "reference_ids": [
+        "R048"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C028",
+      "pages": [
+        4,
+        7
+      ],
+      "claim": "Five persistent purposes include residual fossil/other CO2/non-CO2 offsets, net negative CO2 and net zero GHGs.",
+      "assessment": "Different climate/mass accounting roles compete for finite storage, not additive temperature credits.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C029",
+      "pages": [
+        4,
+        7
+      ],
+      "claim": "Nearly all 2°C-and-lower scenarios retain at least 50% margin at net zero.",
+      "assessment": "Author scenario distribution; sample filters/native arrays/units unavailable locally.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C030",
+      "pages": [
+        4
+      ],
+      "claim": "1.5°C no/limited overshoot at 2050–55 needs 8.7(5.9–13)Gt/y and 175 fold scale-up.",
+      "assessment": "175 compatible with display rounding; capture capacity denominator versus injection demand still needs boundary qualification.",
+      "reference_ids": [
+        "R049"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C031",
+      "pages": [
+        4,
+        7
+      ],
+      "claim": "More than 75% scenarios breach in 250 years at constant NZ rates; averages~150 versus 120 years.",
+      "assessment": "Scenario-paired stock/rate calculation, not physical-failure probability. Native NZ dates/distributions not reproduced.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C032",
+      "pages": [
+        4,
+        7
+      ],
+      "claim": "2100 storage 15(11–18)Gt/y,>50%Asia scenarios breach this century.",
+      "assessment": "Author extrapolation/regional claim; SI8–12 and native arrays unavailable, not verified forecast.",
+      "reference_ids": [
+        "R050",
+        "R051"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C033",
+      "pages": [
+        4,
+        6,
+        7
+      ],
+      "claim": "Nearly all scenarios exceed current O&G-basin stock by 2125 and planetary limit before 2200.",
+      "assessment": "Depends terminal slinear extension to 2300; percentiles differ from absolute all-scenario universal assertion.",
+      "reference_ids": [
+        "R052"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C034",
+      "pages": [
+        6
+      ],
+      "claim": "TCRE.45 yields~.7°C(.6–1.2) if all prudent stock used for CDR.",
+      "assessment": "Computed.657/.5805/1.2195°C; climate reversibility assumption, not a native climate simulation.",
+      "reference_ids": [
+        "R053"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C035",
+      "pages": [
+        6
+      ],
+      "claim": "Lower likely TCRE.27 yields~.4°C(.35–.7).",
+      "assessment": "Computed.3942/.3483/.7317°C; abstract.35–1.2 combines corners, not inconsistent uncertainty intervals.",
+      "reference_ids": [
+        "R053"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C036",
+      "pages": [
+        6
+      ],
+      "claim": "Fossil CCS and residual offsets reduce possible CDR temperature reversal proportionally.",
+      "assessment": "Disclosed linear stock allocation only; actual climate response asymmetric/uncertain.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C037",
+      "pages": [
+        6,
+        8
+      ],
+      "claim": "Historic responsibility, remaining storage and GDP differ across countries.",
+      "assessment": "Fig 4absolute-vs-percapita/log normalizations and date/boundary choices; no causal/equity optimum inferred.",
+      "reference_ids": [
+        "R066"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C038",
+      "pages": [
+        6
+      ],
+      "claim": "Transfers to storage-rich countries could generate billions/trillions and inequality.",
+      "assessment": "Cited prospective social/financial statement, not native trade/price result.",
+      "reference_ids": [
+        "R054",
+        "R062",
+        "R063"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C039",
+      "pages": [
+        6
+      ],
+      "claim": "Sovereign funds can support near-term CDR; incumbents should be incentivized to inject.",
+      "assessment": "Author recommendation; financing/behavior/model not implemented.",
+      "reference_ids": [
+        "R055"
+      ],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C040",
+      "pages": [
+        6
+      ],
+      "claim": "Basalt mineralization may expand beyond assessed sensitivities;10^-4 Gt stored since 2014.",
+      "assessment": "0.1 Mt cumulative, not annual capacity. Different geological medium remains uncertain/site-specific.",
+      "reference_ids": [
+        "R056",
+        "R057",
+        "R058",
+        "R059",
+        "R060"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C041",
+      "pages": [
+        6
+      ],
+      "claim": "Governance, equity, characterization time/cost and explicit injection feasibility not modeled.",
+      "assessment": "Authors acknowledge limitations; preserve alongside aggregate 50-year pressure coefficient, not no-pressure characterization.",
+      "reference_ids": [
+        "R016",
+        "R021",
+        "R047",
+        "R061",
+        "R062",
+        "R063",
+        "R064"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C042",
+      "pages": [
+        8
+      ],
+      "claim": "Climate positive/negative asymmetry and zero-emissions commitment may reduce reversal potential.",
+      "assessment": "No native coupled climate response reproduced.",
+      "reference_ids": [
+        "R006",
+        "R015",
+        "R053",
+        "R065"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C043",
+      "pages": [
+        8
+      ],
+      "claim": "Prioritize emissions reductions, transparent storage plans and intergenerational trade-offs.",
+      "assessment": "Recommendation under assumed resource/risk/climate cases, not inevitable single scenario prediction.",
+      "reference_ids": [],
+      "kind": "author_recommendation"
+    },
+    {
+      "id": "C044",
+      "pages": [
+        10
+      ],
+      "claim": "Mature, stable, cold/underpressured sedimentary basins/depleted fields/saline aquifers preferred.",
+      "assessment": "Geology-based screening, not public pressure-rate calibration.",
+      "reference_ids": [
+        "R020",
+        "R028",
+        "R029",
+        "R067",
+        "R070"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C045",
+      "pages": [
+        10
+      ],
+      "claim": "Abandoned well cement/integrity risks despite suitable basins.",
+      "assessment": "Read mechanism; not explicitly surveyed/modeled all legacy wells.",
+      "reference_ids": [
+        "R068"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C046",
+      "pages": [
+        10
+      ],
+      "claim": "Global basin boundaries, GADM v 4.1 and 1°depth grid underpin volume.",
+      "assessment": "Native GIS masks/versions/CRS/environment not retained.",
+      "reference_ids": [
+        "R069",
+        "R072"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C047",
+      "pages": [
+        10
+      ],
+      "claim": "Closed-system pressure limits justify lower effective storage coefficient.",
+      "assessment": "Read direct pressure rationale and 50-year period; original R3/R71/R73 values/derivation unverified.",
+      "reference_ids": [
+        "R003",
+        "R071",
+        "R073"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C048",
+      "pages": [
+        10
+      ],
+      "claim": "Coefficient .037 Gt/1000 km³ includes pressure-related injectivity considerations.",
+      "assessment": "Dimensional component checked. Not fluid density, per-well rate or universal 50-year annual acceptance profile.",
+      "reference_ids": [
+        "R003",
+        "R073"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C049",
+      "pages": [
+        10,
+        12
+      ],
+      "claim": "Sequential exclusion losses depend on order.",
+      "assessment": "Fixed-mask toy verifies distinction between marginal debit and final union; native raster/geometry output unreproduced.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C050",
+      "pages": [
+        10
+      ],
+      "claim": "WDPA 293692 protected sites as of May 2024 excluded.",
+      "assessment": "Dataset date and policy definition preserved; actual polygons not retrieved.",
+      "reference_ids": [
+        "R074"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C051",
+      "pages": [
+        10
+      ],
+      "claim": "EEZ 200 nm retained; overlaps/joint regimes excluded.",
+      "assessment": "Normative study boundary, not claim no legal possibility outside EEZ under all regimes.",
+      "reference_ids": [
+        "R075"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C052",
+      "pages": [
+        10
+      ],
+      "claim": "Polar regions beyond 66.5°excluded owing to ecology/access/cost.",
+      "assessment": "Normative all-polar mask, no measured local feasibility or universal physical barrier.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C053",
+      "pages": [
+        11
+      ],
+      "claim": "GEM probabilistic PGA>.115/.401 g,10%chance in 50 years.",
+      "assessment": "Hazard cutoffs differ from actual injection-induced failure probabilities; exact central/sensitivity implementation needs SI.",
+      "reference_ids": [
+        "R076",
+        "R077",
+        "R078"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C054",
+      "pages": [
+        11
+      ],
+      "claim": "SSP5 fossil-fuelled development 2100 built-up urban area with 25/5 km buffers.",
+      "assessment": "Not SSP3 or mathematically largest population. Main high-population wording not substituted for Methods.",
+      "reference_ids": [
+        "R079",
+        "R080",
+        "R081"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C055",
+      "pages": [
+        11
+      ],
+      "claim": "Deepwater hydrocarbon capability exists but cost/risk motivates 300 m water limit.",
+      "assessment": "Brazil 2000 m/Deepwater Horizon 1500 m examples not pressure-safe maximum, operating availability or field LCI.",
+      "reference_ids": [
+        "R082",
+        "R083"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C056",
+      "pages": [
+        11
+      ],
+      "claim": ">121000 offshore points:70%≤100 m,>90%≤300 m,95%≤500 m.",
+      "assessment": "Mixed discovered/abandoned/depleted/exploration observations; no 121000 working injection wells inferred.",
+      "reference_ids": [
+        "R084",
+        "R085",
+        "R086",
+        "R087",
+        "R088"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C057",
+      "pages": [
+        11
+      ],
+      "claim": "Compression density decreases yet volume 30 times less at 800 m;36 times from 1.5 km constant.",
+      "assessment": "Fixed-mass density sign question. Six analyst EOS states show strong surface pressure dependence; no automatic 30/36 correction.",
+      "reference_ids": [
+        "R089"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C058",
+      "pages": [
+        11
+      ],
+      "claim": "Mapped means 1.9 km onshore/2.5 km offshore; few 1°cells>5 km, literature 800 m–4 km.",
+      "assessment": "Different mean and depth screen quantities. SI depth review/full raster unavailable.",
+      "reference_ids": [
+        "R072"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C059",
+      "pages": [
+        11
+      ],
+      "claim": "Contested/war-like areas including South China Sea excluded.",
+      "assessment": "Study case choice not verified ownership/current legal authority.",
+      "reference_ids": [
+        "R090"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C060",
+      "pages": [
+        11,
+        12
+      ],
+      "claim": "Terrestrial 6 nm buffer each side central;0/12 nm sensitivities; pressure plume farther.",
+      "assessment": "6 nm=11.112 km; marine 12 nm rule used as an analogy, not native pressure radius.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C061",
+      "pages": [
+        12
+      ],
+      "claim": "Per-country onshore administrative/offshore EEZ, existing O&G basins and R5 aggregations.",
+      "assessment": "No native country-region matrix or complete assets reproduced.",
+      "reference_ids": [
+        "R084",
+        "R087"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C062",
+      "pages": [
+        12
+      ],
+      "claim": "AR6 scenario Emissions|CO2 and Carbon Sequestration|CCS with pyam interpolate.",
+      "assessment": "Annual summation and net-zero extraction depend on unit/year/filter conventions; code unverified.",
+      "reference_ids": [
+        "R091",
+        "R092"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C063",
+      "pages": [
+        12
+      ],
+      "claim": "Remaining stock/rate at NZ and slinear extrapolation to 2300 determine breaches.",
+      "assessment": "Limited synthetic components checked; no author trajectories, negative floor or censoring reproduced.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C064",
+      "pages": [
+        12
+      ],
+      "claim": "Data available in SI/Zenodo record 15657543, code on GitHub, explorer and ArcGIS workflow.",
+      "assessment": "Exact URL preserved, assets not retrieved; R93 DOI 15657542 could be concept/version relation, not assumed error.",
+      "reference_ids": [
+        "R093"
+      ],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C065",
+      "pages": [
+        13
+      ],
+      "claim": "No competing interests; named funding/contributions; SI and peer-review reports available.",
+      "assessment": "Read disclosure statements, not independent investigation; reports/assets unavailable locally.",
+      "reference_ids": [],
+      "kind": "author_statement"
+    },
+    {
+      "id": "C066",
+      "pages": [
+        1,
+        6,
+        10,
+        12
+      ],
+      "claim": "Paper 1 must distinguish borrowed pressure-aware cumulative resource from validated annual field service.",
+      "assessment": "No new public reservoir timeseries, complete capture-to-ship inventory, retention factor or accepted numerical input. Existing combined 1.5 MPa HOLD preserved.",
+      "reference_ids": [],
+      "kind": "audit_scope_implication"
+    }
+  ],
+  "references": [
+    {
+      "id": "R001",
+      "pages": [
+        8
+      ],
+      "citation": "Riahi, K. et al. in Climate Change 2022: Mitigation of Climate Change (eds Shukla, P. R. et al.) Ch. 3 (Cambridge Univ. Press, 2022); https://doi.org/10.1017/9781009157926.005.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        8
+      ],
+      "citation": "Clarke, L. et al. in Climate Change 2022: Mitigation of Climate Change (eds Shukla, P. R. et al.) Ch. 6 (Cambridge Univ. Press, 2022); https://doi.org/10.1017/9781009157926.008.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        8
+      ],
+      "citation": "Kearns, J. et al. Developing a consistent database for regional geologic CO2 storage capacity worldwide. Energy Procedia 114, 4697–4709 (2017).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C005",
+        "C012",
+        "C047",
+        "C048"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        8
+      ],
+      "citation": "Baines, S. et al. CO2 Storage Resource Catalogue—Cycle 3 Report (Oil and Gas Climate Initiative, 2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        8
+      ],
+      "citation": "Damon, et al. An integrated approach to quantifying uncertainties in the remaining carbon budget. Commun. Earth Environ. 2, 7 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        8
+      ],
+      "citation": "Palazzo, et al. The Zero Emissions Commitment and climate stabilization. Front. Sci. 1, 1170744 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002",
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        8
+      ],
+      "citation": "Arias, P. A. et al. Technical Summary. In Climate Change 2021: The Physical Science Basis (eds Masson-Delmotte, V. et al.) (Cambridge Univ. Press, 2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        8
+      ],
+      "citation": "Metz, B., Davidson, O., de Coninck, H. & Loos, M. IPCC Special Report on Carbon Dioxide Capture and Storage (IPCC, 2005).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        8
+      ],
+      "citation": "Matters Relating to the Global Stocktake under the Paris Agreement (UNFCCC, 2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        8
+      ],
+      "citation": "The Global Status of CCS: 2024 (Global CCS Institute, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        8
+      ],
+      "citation": "Gasos, A., Pini, R., Becattini, V., & Mazzotti, M. Enhanced oil recovery using carbon dioxide directly captured from air does not enable carbon-neutral oil. Preprint at EarthArXiv https://doi.org/10.31223/X55X4S (2025).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        8
+      ],
+      "citation": "Selosse, S. & Ricci, O. Carbon capture and storage: lessons from a storage potential and localization analysis. Appl. Energy 188, 32–44 (2017).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        8
+      ],
+      "citation": "Steyn, M., Oglesby, J., Turan, G., Zapantis, A. & Gebremedhin, R. Global Status of CCS 2022 (Global CCS Institute, 2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        8
+      ],
+      "citation": "Churkina, G. et al. Buildings as a global carbon sink. Nat. Sustain. 3, 269–276 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        8
+      ],
+      "citation": "Schleussner, Carl-Friedrich, et al. Overconfidence in climate overshoot. Nature 634, 366–373 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        8
+      ],
+      "citation": "Lane, J., Greig, C. & Garnett, A. Uncertain storage prospects create a conundrum for carbon capture and storage ambitions. Nat. Clim. Change 11, 925–936 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        8
+      ],
+      "citation": "Grant, N., Hawkes, A., Mittal, S. & Gambhir, A. The policy implications of an uncertain carbon dioxide removal potential. Joule 5, 2593–2605 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        9
+      ],
+      "citation": "Hepple, R. P. & Benson, S. M. Geologic storage of carbon dioxide as a climate change mitigation strategy: performance requirements and the implications of surface seepage. Environ. Geol. 47, 576–585 (2005).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        9
+      ],
+      "citation": "Krevor, S. et al. Subsurface carbon dioxide and hydrogen storage for a sustainable energy future. Nat. Rev. Earth Environ. 4, 102–118 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        9
+      ],
+      "citation": "Benson, S. et al. in IPCC Special Report on Carbon Dioxide Capture and Storage (eds Metz, B. et al.) Ch. 5 (Cambridge Univ. Press, 2005).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        9
+      ],
+      "citation": "Kazlou, T., Cherp, A. & Jewell, J. Feasible deployment of carbon capture and storage and the requirements of climate targets. Nat. Clim. Chang. 14, 1047–1055 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        9
+      ],
+      "citation": "Romeiro, V. & Parente, V. Carbon capture and storage and the UNFCCC: recommendations to address trans-boundary issues. Low Carbon Econ. 03, 130–136 (2012).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        9
+      ],
+      "citation": "Stuart-Smith, R. F., Rajamani, L., Rogelj, J. & Wetzer, T. Legal limits to the use of CO2 removal. Science 382, 772–774 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        9
+      ],
+      "citation": "Wei, Y.-M. et al. A proposed global layout of carbon capture and storage in line with a 2 °C climate target. Nat. Clim. Change 11, 112–118 (2021).",
+      "role": "Exact Wei 2021/B2-16 original pp 1,8 text and renders checked: earlier global onshore volumetric basins/DOE framework and domestic matching, not pressure-limited field service or complete risk screening.",
+      "verification_status": "primary_text_checked_selected_passages_only",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        9
+      ],
+      "citation": "Zhang, Y., Jackson, C. & Krevor, S. The feasibility of reaching gigatonne scale CO2 storage by mid-century. Nat. Commun. 15, 6913 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        9
+      ],
+      "citation": "Goodman, A. et al. U.S. DOE methodology for the development of geologic storage potential for carbon dioxide at the national and regional scale. Int. J. Greenh. Gas Control 5, 952–965 (2011).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        9
+      ],
+      "citation": "Shindell, D. & Rogelj, J. Preserving carbon dioxide removal to serve critical needs. Nat. Clim. Change https://doi.org/10.1038/s41558-025-02251-y (2025).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        9
+      ],
+      "citation": "Bachu, S. Sequestration of CO2 in geological media: criteria and approach for site selection in response to climate change. Energy Convers. Manag. 41, 953–970 (2000).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        9
+      ],
+      "citation": "Kaldi, J. G. & Gibson-Poole, C. M. (eds.). Storage capacity estimation, site selection and characterisation for CO2 storage projects. Report No. RPT08-1001 (CO2CRC, 2008).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        9
+      ],
+      "citation": "Raza, A. et al. A screening criterion for selection of suitable CO2 storage sites. J. Nat. Gas Sci. Eng. 28, 317–327 (2016).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C015"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R030"
+    },
+    {
+      "id": "R031",
+      "pages": [
+        9
+      ],
+      "citation": "Nicol, A., Carne, R., Gerstenberger, M. & Christophersen, A. Induced seismicity and its implications for CO2 storage risk. Energy Procedia 4, 3699–3706 (2011).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R031"
+    },
+    {
+      "id": "R032",
+      "pages": [
+        9
+      ],
+      "citation": "The severity of an earthquake. USGS https://pubs.usgs.gov/gip/earthq4/severitygip.html (1989).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R032"
+    },
+    {
+      "id": "R033",
+      "pages": [
+        9
+      ],
+      "citation": "Mehlhorn, J., Byrne, J. M., Kappler, A. & Planer-Friedrich, B. Time and temperature dependency of carbon dioxide triggered metal (loid) mobilization in soil. Appl. Geochem. 74, 122–137 (2016).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R033"
+    },
+    {
+      "id": "R034",
+      "pages": [
+        9
+      ],
+      "citation": "Knauss, K. G., Johnson, J. W. & Steefel, C. I. Evaluation of the impact of CO2, co-contaminant gas, aqueous fluid and reservoir rock interactions on the geologic sequestration of CO2. Chem. Geol. 217, 339–350 (2005).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R034"
+    },
+    {
+      "id": "R035",
+      "pages": [
+        9
+      ],
+      "citation": "Pianta, S., Rinscheid, A. & Weber, E. U. Carbon capture and storage in the United States: perceptions, preferences, and lessons for policy. Energy Policy 151, 112149 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R035"
+    },
+    {
+      "id": "R036",
+      "pages": [
+        9
+      ],
+      "citation": "Arning, K. et al. Same or different? Insights on public perception and acceptance of carbon capture and storage or utilization in Germany. Energy Policy 125, 235–249 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R036"
+    },
+    {
+      "id": "R037",
+      "pages": [
+        9
+      ],
+      "citation": "Request for an Advisory Opinion Submitted by the Commission of Small Island States on Climate Change and International Law (International Tribunal for the Law of the Sea, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R037"
+    },
+    {
+      "id": "R038",
+      "pages": [
+        9
+      ],
+      "citation": "Garrett, J. & McCoy, S. Carbon capture and storage and the London Protocol: recent efforts to enable transboundary CO2 transfer. Energy Procedia 37, 7747–7755 (2013).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R038"
+    },
+    {
+      "id": "R039",
+      "pages": [
+        9
+      ],
+      "citation": "Status of IMO Treaties (International Maritime Organization, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R039"
+    },
+    {
+      "id": "R040",
+      "pages": [
+        9
+      ],
+      "citation": "Larson, E., Li, Z. & Williams, R. in Global Energy Assessment: Toward A Sustainable Future Ch. 12 (Cambridge Univ. Press, 2012).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R040"
+    },
+    {
+      "id": "R041",
+      "pages": [
+        9
+      ],
+      "citation": "Muratori, M. et al. EMF-33 insights on bioenergy with carbon capture and storage (BECCS). Climatic Change 163, 1621–1637 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R041"
+    },
+    {
+      "id": "R042",
+      "pages": [
+        9
+      ],
+      "citation": "Bui, M. et al. Carbon capture and storage (CCS): the way forward. Energy Environ. Sci. 11, 1062–1176 (2018).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R042"
+    },
+    {
+      "id": "R043",
+      "pages": [
+        9
+      ],
+      "citation": "Fuhrman, J. et al. The role of direct air capture and negative emissions technologies in the shared socioeconomic pathways towards +1.5 °C and +2 °C futures. Environ. Res. Lett. 16, 114012 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R043"
+    },
+    {
+      "id": "R044",
+      "pages": [
+        9
+      ],
+      "citation": "Strefler, J. et al. Carbon dioxide removal technologies are not born equal. Environ. Res. Lett. 16, 074021 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R044"
+    },
+    {
+      "id": "R045",
+      "pages": [
+        9
+      ],
+      "citation": "Gidden, M. J. et al. Fairness and feasibility in deep mitigation pathways with novel carbon dioxide removal considering institutional capacity to mitigate. Environ. Res. Lett. 18, 074006 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R045"
+    },
+    {
+      "id": "R046",
+      "pages": [
+        9
+      ],
+      "citation": "Gambhir, A. & Tavoni, M. Direct air carbon capture and sequestration: how it works and how it could contribute to climate-change mitigation. One Earth 1, 405–409 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R046"
+    },
+    {
+      "id": "R047",
+      "pages": [
+        9
+      ],
+      "citation": "Grant, N., Gambhir, A., Mittal, S., Greig, C. & Köberle, A. C. Enhancing the realism of decarbonisation scenarios with practicable regional constraints on CO2 storage capacity. Int. J. Greenh. Gas Control 120, 103766 (2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R047"
+    },
+    {
+      "id": "R048",
+      "pages": [
+        9
+      ],
+      "citation": "Smith, S. M. et al. The State of Carbon Dioxide Removal 1st edn (The State of Carbon Dioxide Removal, 2023); https://www.stateofcdr.org.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C027"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R048"
+    },
+    {
+      "id": "R049",
+      "pages": [
+        9
+      ],
+      "citation": "Crude Oil Production (Indicator) (OECD, 2024); https://doi.org/10.1787/4747b431-en.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C030"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R049"
+    },
+    {
+      "id": "R050",
+      "pages": [
+        9
+      ],
+      "citation": "den Elzen, M. G. J. et al. Updated nationally determined contributions collectively raise ambition levels but need strengthening further to keep Paris goals within reach. Mitig. Adapt. Strateg. Glob. Change 27, 33 (2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C032"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R050"
+    },
+    {
+      "id": "R051",
+      "pages": [
+        9
+      ],
+      "citation": "Höhne, N. et al. Wave of net zero emission targets opens window to meeting the Paris Agreement. Nat. Clim. Change 11, 820–822 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C032"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R051"
+    },
+    {
+      "id": "R052",
+      "pages": [
+        9
+      ],
+      "citation": "Rogelj, J. et al. A new scenario logic for the Paris Agreement long-term temperature goal. Nature 573, 357–363 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C033"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R052"
+    },
+    {
+      "id": "R053",
+      "pages": [
+        9
+      ],
+      "citation": "IPCC: Summary for Policymakers. In Climate Change 2021: The Physical Science Basis (eds Masson-Delmotte, V. et al.) (Cambridge Univ. Press, 2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C034",
+        "C035",
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R053"
+    },
+    {
+      "id": "R054",
+      "pages": [
+        9
+      ],
+      "citation": "Andreoni, P., Emmerling, J. & Tavoni, M. Inequality repercussions of financing negative emissions. Nat. Clim. Change 14, 48–54 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C038"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R054"
+    },
+    {
+      "id": "R055",
+      "pages": [
+        9
+      ],
+      "citation": "Nemet, G. F. et al. Near-term deployment of novel carbon removal to facilitate longer- term deployment. Joule 7, 2653–2659 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C039"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R055"
+    },
+    {
+      "id": "R056",
+      "pages": [
+        9
+      ],
+      "citation": "Khandoozi, S., Hazlett, R. & Fustic, M. A critical review of CO2 mineral trapping in sedimentary reservoirs—from theory to application: pertinent parameters, acceleration methods and evaluation workflow. Earth Sci. Rev. 244, 104515 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R056"
+    },
+    {
+      "id": "R057",
+      "pages": [
+        9
+      ],
+      "citation": "Azzolina, N. A. et al. CO2 storage associated with CO2 enhanced oil recovery: a statistical analysis of historical operations. Int. J. Greenh. Gas Control 37, 384–397 (2015).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R057"
+    },
+    {
+      "id": "R058",
+      "pages": [
+        9
+      ],
+      "citation": "Clark, D. E. et al. CarbFix2: CO2 and H2S mineralization during 3.5 years of continuous injection into basaltic rocks at more than 250 °C. Geochim. Cosmochim. Acta 279, 45–66 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R058"
+    },
+    {
+      "id": "R059",
+      "pages": [
+        9
+      ],
+      "citation": "McGrail, B., Spane, F., Sullivan, E., Bacon, D. & Hund, G. The Wallula basalt sequestration pilot project. Energy Procedia 4, 5653–5660 (2011).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R059"
+    },
+    {
+      "id": "R060",
+      "pages": [
+        9
+      ],
+      "citation": "Cao, X., Li, Q., Xu, L. & Tan, Y. A review of in situ carbon mineralization in basalt. J. Rock Mech. Geotech. Eng. https://doi.org/10.1016/j.jrmge.2023.11.010 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R060"
+    },
+    {
+      "id": "R061",
+      "pages": [
+        9
+      ],
+      "citation": "Mace, M. J., Fyson, C. L., Schaeffer, M. & Hare, W. L. Large-scale carbon dioxide removal to meet the 1.5 °C limit: key governance gaps, challenges and priority responses. Glob. Policy 12, 67–81 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R061"
+    },
+    {
+      "id": "R062",
+      "pages": [
+        9
+      ],
+      "citation": "Medvecky, F., Lacey, J. & Ashworth, P. Examining the role of carbon capture and storage through an ethical lens. Sci. Eng. Ethics 20, 1111–1128 (2014).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C038",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R062"
+    },
+    {
+      "id": "R063",
+      "pages": [
+        9
+      ],
+      "citation": "Fyson, C. L., Baur, S., Gidden, M. & Schleussner, C.-F. Fair-share carbon dioxide removal increases major emitter responsibility. Nat. Clim. Change 10, 836–841 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C038",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R063"
+    },
+    {
+      "id": "R064",
+      "pages": [
+        9
+      ],
+      "citation": "Ringrose, P. S. & Meckel, T. A. Maturing global CO2 storage resources on offshore continental margins to achieve 2DS emissions reductions. Sci. Rep. 9, 17944 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R064"
+    },
+    {
+      "id": "R065",
+      "pages": [
+        9
+      ],
+      "citation": "Zickfeld, K., Azevedo, D., Mathesius, S. & Matthews, H. D. Asymmetry in the climate– carbon cycle response to positive and negative CO2 emissions. Nat. Clim. Change 11, 613–617 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R065"
+    },
+    {
+      "id": "R066",
+      "pages": [
+        9
+      ],
+      "citation": "Gütschow, J. et al. The PRIMAP-hist national historical emissions time series. Earth Syst. Sci. Data 8, 571–603 (2016).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C037"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R066"
+    },
+    {
+      "id": "R067",
+      "pages": [
+        12
+      ],
+      "citation": "Furre, A.-K., Eiken, O., Alnes, H., Vevatne, J. N. & Kiær, A. F. 20 years of monitoring CO2- injection at Sleipner. Energy Procedia 114, 3916–3926 (2017).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R067"
+    },
+    {
+      "id": "R068",
+      "pages": [
+        12
+      ],
+      "citation": "Benedictus, T. et al. Long Term Integrity of CO2 Storage—Well Abandonment (IEAGHG, 2009).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C045"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R068"
+    },
+    {
+      "id": "R069",
+      "pages": [
+        12
+      ],
+      "citation": "Evenick, J. C. Glimpses into Earth’s history using a revised global sedimentary basin map. Earth Sci. Rev. 215, 103564 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C046"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R069"
+    },
+    {
+      "id": "R070",
+      "pages": [
+        12
+      ],
+      "citation": "Bradshaw, J. et al. The potential for geological sequestration of CO2 in Australia: preliminary findings and implications for new gas field development. APPEA J. 42, 25–46 (2002).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R070"
+    },
+    {
+      "id": "R071",
+      "pages": [
+        12
+      ],
+      "citation": "Development of Storage Coefficients for CO2 Storage in Deep Saline Formations (IEAGHG, 2009).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C047"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R071"
+    },
+    {
+      "id": "R072",
+      "pages": [
+        12
+      ],
+      "citation": "Laske, G., Masters, G., Ma, Z. & Pasyanos, M. Update on CRUST1. 0—a 1-degree global model of Earth’s crust. Geophys. Res. Abstr. 15, 2658 (2013).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C046",
+        "C058"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R072"
+    },
+    {
+      "id": "R073",
+      "pages": [
+        12
+      ],
+      "citation": "Szulczewski, M. L., MacMinn, C. W., Herzog, H. J. & Juanes, R. Lifetime of carbon capture and storage as a climate-change mitigation technology. Proc. Natl Acad. Sci. USA 109, 5185–5189 (2012).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C047",
+        "C048"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R073"
+    },
+    {
+      "id": "R074",
+      "pages": [
+        12
+      ],
+      "citation": "Protected Planet: The World Database on Protected Areas (WDPA) (UNEP-WCMC and IUCN, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C050"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R074"
+    },
+    {
+      "id": "R075",
+      "pages": [
+        12
+      ],
+      "citation": "Maritime Boundaries Geodatabase (Flanders Marine Institute, 2023); https://doi.org/ 10.14284/628.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C051"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R075"
+    },
+    {
+      "id": "R076",
+      "pages": [
+        12
+      ],
+      "citation": "Michie, E. A. H. & Braathen, A. How displacement analysis may aid fault risking strategies for CO2 storage. Basin Res. 36, e12807 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016",
+        "C053"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R076"
+    },
+    {
+      "id": "R077",
+      "pages": [
+        12
+      ],
+      "citation": "Johnson, K. et al. Global seismic hazard map. Zenodo https://doi.org/10.5281/zenodo. 8409647 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016",
+        "C053"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R077"
+    },
+    {
+      "id": "R078",
+      "pages": [
+        12
+      ],
+      "citation": "Wald, D. J., Quitoriano, V., Heaton, T. H. & Kanamori, H. Relationships between peak ground acceleration, peak ground velocity, and modified Mercalli intensity in California. Earthq. Spectra 15, 557–564 (1999).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016",
+        "C053"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R078"
+    },
+    {
+      "id": "R079",
+      "pages": [
+        12
+      ],
+      "citation": "Damen, K., Faaij, A. & Turkenburg, W. Health, safety and environmental risks of underground CO2 storage—overview of mechanisms and current knowledge. Climatic Change 74, 289–318 (2006).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C054"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R079"
+    },
+    {
+      "id": "R080",
+      "pages": [
+        12
+      ],
+      "citation": "Gao, J. & O’Neill, B. C. Mapping global urban land for the 21st century with data-driven simulations and Shared Socioeconomic Pathways. Nat. Commun. 11, 2302 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C054"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R080"
+    },
+    {
+      "id": "R081",
+      "pages": [
+        12
+      ],
+      "citation": "O’Neill, B. C. et al. The roads ahead: narratives for shared socioeconomic pathways describing world futures in the 21st century. Glob. Environ. Change https://doi.org/ 10.1016/j.gloenvcha.2015.01.004 (2015).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C054"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R081"
+    },
+    {
+      "id": "R082",
+      "pages": [
+        12
+      ],
+      "citation": "Bruhn, C. H. et al. Campos and Santos basins: 40 years of reservoir characterization and management of shallow-to ultra-deep water, post-and pre-salt reservoirs-Historical overview and future challenges. In Offshore Technology Conference Brasil D011S006R001 (OTC, 2017).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C055"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R082"
+    },
+    {
+      "id": "R083",
+      "pages": [
+        13
+      ],
+      "citation": "Beyer, J., Trannum, H. C., Bakke, T., Hodson, P. V. & Collier, T. K. Environmental effects of the Deepwater Horizon oil spill: a review. Mar. Pollut. Bull. 110, 28–51 (2016).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C055"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R083"
+    },
+    {
+      "id": "R084",
+      "pages": [
+        13
+      ],
+      "citation": "Global Oil and Gas Extraction Tracker (Global Energy Monitor, 2025).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056",
+        "C061"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R084"
+    },
+    {
+      "id": "R085",
+      "pages": [
+        13
+      ],
+      "citation": "Omara, M. et al. Developing a spatially explicit global oil and gas infrastructure database for characterizing methane emission sources at high resolution. Earth Syst. Sci. Data 15, 3761–3790 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R085"
+    },
+    {
+      "id": "R086",
+      "pages": [
+        13
+      ],
+      "citation": "Sabbatino, M. et al. Global Oil & Gas Features Database (National Energy Technology Laboratory, 2017); https://doi.org/10.18141/1427300.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R086"
+    },
+    {
+      "id": "R087",
+      "pages": [
+        13
+      ],
+      "citation": "Global Oil and Gas Extraction Tracker (Global Energy Monitor, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056",
+        "C061"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R087"
+    },
+    {
+      "id": "R088",
+      "pages": [
+        13
+      ],
+      "citation": "Zhang, G. et al. Giant discoveries of oil and gas fields in global deepwaters in the past 40 years and the prospect of exploration. J. Nat. Gas Geosci. 4, 1–28 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R088"
+    },
+    {
+      "id": "R089",
+      "pages": [
+        13
+      ],
+      "citation": "Project, T. T., De Reuck, K., Angus, S. & Armstrong, B. International Thermodynamic Tables of the Fluid State: Carbon Dioxide (Pergamon Press, 1976).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C057"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R089"
+    },
+    {
+      "id": "R090",
+      "pages": [
+        13
+      ],
+      "citation": "Hasan, M. M., Alam, M. W., Jian, H. & Chowdhury, K. M. A. Protracted maritime boundary disputes and maritime laws. J. Int. Marit. Saf. Environ. Aff. Shipp. 2, 89–96 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C059"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R090"
+    },
+    {
+      "id": "R091",
+      "pages": [
+        13
+      ],
+      "citation": "Byers, E. et al. AR6 scenarios database. Zenodo https://doi.org/10.5281/zenodo.5886912 (2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C062"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R091"
+    },
+    {
+      "id": "R092",
+      "pages": [
+        13
+      ],
+      "citation": "Huppmann, D. et al. pyam: analysis and visualisation of integrated assessment and macro-energy scenarios. Open Res. Eur. 1, 74 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C062"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R092"
+    },
+    {
+      "id": "R093",
+      "pages": [
+        13
+      ],
+      "citation": "Gidden, M. & Joshi, S. Supplemental Data for Gidden et al 2025: a prudent planetary limit for geologic carbon storage. Zenodo https://doi.org/10.5281/zenodo.15657542 (2025).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C064"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R093"
+    },
+    {
+      "id": "D01",
+      "pages": [
+        10,
+        12
+      ],
+      "citation": "GADM v4.1 administrative boundaries, gadm.org",
+      "role": "Native unnumbered data authority; exact downloaded version/license and geometry unverified.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D02",
+      "pages": [
+        12
+      ],
+      "citation": "ArcGIS Pro version, projection, topology, raster/resampling and geoprocessing environment",
+      "role": "Explicit software, missing execution environment and full nativeworkflow correspondence.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D03",
+      "pages": [
+        12
+      ],
+      "citation": "scipy slinear extrapolation and code environment",
+      "role": "Explicit unnumbered library; native version, endpointknots, negative floors and noncrossing censoring unverified.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D04",
+      "pages": [
+        8
+      ],
+      "citation": "Carbon Majors downloads and GDP/population normalization",
+      "role": "Unnumbered dataset source; year, allocation, matched-country rows and license unverified.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D05",
+      "pages": [
+        2,
+        10,
+        11,
+        12
+      ],
+      "citation": "Paris Agreement, UNCLOS, biodiversity framework and London Protocol legal instruments",
+      "role": "Named institutional/legal authorities supplement numbered citations; exact historical/current legal texts and study interpretation unverified.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D06",
+      "pages": [
+        2,
+        4,
+        6,
+        10,
+        11,
+        12,
+        13
+      ],
+      "citation": "Publisher supplementary information: Tables1–7 and Figures1–13 mentioned",
+      "role": "At least these cited objects; full manifest/version/count not established. No local original SI.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D07",
+      "pages": [
+        12,
+        13
+      ],
+      "citation": "GitHub gidden/2024_gidden_cstorage version/license/dependencies",
+      "role": "Advertised code not retrieved/executed; commits/licenses/mask/script correspondence unverified.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D08",
+      "pages": [
+        12,
+        13
+      ],
+      "citation": "Zenodo record15657543 versus R093 DOI15657542",
+      "role": "Advertised generateddata; concept/version correspondence, countries/regions, scenario arrays andprovenance unverified.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D09",
+      "pages": [
+        12
+      ],
+      "citation": "Interactive IIASA prudent-carbon-storage explorer",
+      "role": "Advertised interface not visited; not a substitute for originalmachine-readable data/code.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D10",
+      "pages": [
+        9,
+        13
+      ],
+      "citation": "Modified-publication note and advertised peer-review reports",
+      "role": "Native p 9 modified publication 2025; correction/version history andpeer-review attachments unverified.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D11",
+      "pages": [
+        10
+      ],
+      "citation": "Pressure coefficient original derivation/calibration, 50-year applicability and regionaltransferability",
+      "role": "Audit requirement for resource/annual-rate interpretation; no assumed native calibrated reservoir response.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D12",
+      "pages": [
+        11
+      ],
+      "citation": "Native density surfacepressure/fluidstate and thermodynamic table correspondence",
+      "role": "Essential missing assumptions before adjudicating 30/36 volume ratios; conditional analyst EOS is not the author model.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D13",
+      "pages": [
+        12
+      ],
+      "citation": "Native AR6 sample filters, year/unit conversion, interpolation, zero crossing and threshold handling",
+      "role": "Required for precise scenario quantiles/remainingyears; no original arrays locally.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    },
+    {
+      "id": "D14",
+      "pages": [
+        1,
+        2,
+        6,
+        10,
+        12
+      ],
+      "citation": "Field annual service, full capture-to-ship inventory and long-term net-retention boundary",
+      "role": "Paper 1 audit requirement, not claimed author asset. No unsupported invented inputs or climate credits.",
+      "verification_status": "unverified_dependency_or_audit_requirement",
+      "claim_links": []
+    }
+  ],
+  "issues": [
+    {
+      "id": "I001",
+      "pages": [
+        1,
+        2,
+        4,
+        6,
+        10
+      ],
+      "status": "open",
+      "finding": "Normative cumulative potential and borrowed 50-year pressure coefficient do not establish native field annual limits.",
+      "action": "Preserve stock/rate and aggregation boundaries; obtain site-specificpressure-rate-temperature/calibration/operatinglimits."
+    },
+    {
+      "id": "I002",
+      "pages": [
+        5,
+        6
+      ],
+      "status": "open",
+      "finding": "Fig 2c native-labelled offshore/onshore inner sums 994/452 Gt conflict with Fig 2b 450/1010 beyond rounding; outertotalsalso differ.",
+      "action": "Retain all 20 labels; require country/regioncrosswalk, sourcearrays and publication version beforeusing regionalshares. No guessed swap or correction."
+    },
+    {
+      "id": "I003",
+      "pages": [
+        7
+      ],
+      "status": "open",
+      "finding": "Fig 3b caption 1000 Gt plus axisx 10^6 annotation has unresolved display-unit convention.",
+      "action": "Inspect native code/arrayunits. Do not apply bothmultipliers ordeclare nativearrayerror fromdisplayalone."
+    },
+    {
+      "id": "I004",
+      "pages": [
+        11
+      ],
+      "status": "open",
+      "finding": "Compression density-decrease prose conflicts with fixed-mass volume reduction;30/36 factors lack surface-state basis.",
+      "action": "Verify original 1976 tables and native pressure/thermal/fluid assumptions; synthetic 1 atm/10 bar examples are not source corrections."
+    },
+    {
+      "id": "I005",
+      "pages": [
+        10,
+        12
+      ],
+      "status": "open",
+      "finding": "Spatial masks, buffers and layer loss sensitivities depend on method/order; joint bounds unverified.",
+      "action": "Acquire exactversions/CRS/ArcGIS environment, full sequential sensitivity and final case implementation."
+    },
+    {
+      "id": "I006",
+      "pages": [
+        2,
+        11
+      ],
+      "status": "open",
+      "finding": "Seismic historic wording versus probabilistic 50-year PGA hazard; no calibrated risk probability.",
+      "action": "Use Methods metric andrequire originalGEM/USGS/threshold cases; do not convert to failure or retention distribution."
+    },
+    {
+      "id": "I007",
+      "pages": [
+        2,
+        11
+      ],
+      "status": "open",
+      "finding": "SSP5 urban mask and 25 km policy buffer are not universalhealth/plumeradius or highest population projection.",
+      "action": "Preserve exact SSP/year, test stated 5 kmrelaxation only with native inputs."
+    },
+    {
+      "id": "I008",
+      "pages": [
+        10,
+        11,
+        12
+      ],
+      "status": "open",
+      "finding": "EEZ/disputedareas/terrestrial 6 nm assumptions andJan 2024 LondonProtocol snapshot not current legal permission.",
+      "action": "Exact legal/institutional originals, currentlaw and specific transboundary pressure plume agreements remainopen."
+    },
+    {
+      "id": "I009",
+      "pages": [
+        12
+      ],
+      "status": "open",
+      "finding": "Scenario annualunit/initialyear, exact zero, negative/no-crossing and sample filters not established.",
+      "action": "Obtain versioned native AR6 selection/pyamcode; compare paired scenario results ratherthan unpaired median ratios."
+    },
+    {
+      "id": "I010",
+      "pages": [
+        12
+      ],
+      "status": "open",
+      "finding": "slinear extensionuntil 2300 can create invalidnegative storage with a falling terminal slope in an unconstrained example.",
+      "action": "Inspect actual native slope/floor/censoring; do not accuse authors of negative injection without code. Distinguish forecastfrom extrapolation."
+    },
+    {
+      "id": "I011",
+      "pages": [
+        6,
+        8
+      ],
+      "status": "open",
+      "finding": "Temperature ceiling assumeslinear reversible climate response and all resource usedfornetCDR.",
+      "action": "Preserve .27/.45 responsecases and competingfossil/residual allocation; no field retention or universal warming reversal credit."
+    },
+    {
+      "id": "I012",
+      "pages": [
+        1,
+        2,
+        4,
+        6
+      ],
+      "status": "open",
+      "finding": "Historical capture capacities, literal 253 Mt viability, basaltcumulative andleakthreshold are different uncertain boundaries.",
+      "action": "Retain exact units/dates;175 compatible with rounding. Verify originals andno current operational/retention promotion."
+    },
+    {
+      "id": "I013",
+      "pages": [
+        8,
+        9,
+        12,
+        13
+      ],
+      "status": "open",
+      "finding": "Only one of 93 direct originals has selected passage checks; explicit SI/code/data/peer review assets not retrieved.",
+      "action": "Follow exact version/licence/provenance chains after requested Chrome connection. Do not mark public advertisement as reproduced."
+    },
+    {
+      "id": "I014",
+      "pages": [
+        8
+      ],
+      "status": "open",
+      "finding": "Responsibility/GDP/absolute-stock graphic and finance/fairness recommendations are not causal allocation or route optimization.",
+      "action": "Obtain exact denominators/dates/country arrays; treat recommendations as proposed policy."
+    },
+    {
+      "id": "I015",
+      "pages": [
+        9,
+        12,
+        13
+      ],
+      "status": "open",
+      "finding": "Native modified-publication note and different Zenodo IDs require version correspondence, not guessederror.",
+      "action": "Preserve hash/native citations; verify actual publication revision and data record/concept/version chain."
+    },
+    {
+      "id": "I016",
+      "pages": [
+        1,
+        6,
+        10,
+        12
+      ],
+      "status": "open",
+      "finding": "No matched-case capture-to-ship heat/electricity/cooling/supplier inventory or native pressure timeseries supplied.",
+      "action": "Exclude unsupported utility/rate/GHG inputs; keep Paper 1 empirical requirements and existing 1.5 MPa HOLD."
+    }
+  ],
+  "equations_absence": "No numbered main-PDF equations or tables identified. The following are explicitly labelled analyst transcriptions of prose relations and accounting diagnostics; they are not claimed to be equations printed by the authors.",
+  "supplements": "No embedded files. Publisher SI is explicitly referenced: at least Tables 1–7 and Figures 1–13; the complete manifest is not established locally. Page 12 advertises GitHub code, Zenodo record 15657543 and an IIASA explorer; R093 prints DOI 15657542. Peer-review reports are advertised on page 13. None has been retrieved or inspected under the user pause pending a Chrome connection. No online absence is inferred and no author was contacted.",
+  "reproduction": "audit_prudent_storage.py retains 41 limited checks, four regional ring comparisons, six temperature rows, two synthetic mask orders, 400 synthetic extrapolation rows and six conditional pure-fluid states. Eight tests include exhaustive 256 mask pairs in two orders and closed-form annual-sum comparisons. These verify source arithmetic and disclosed analyst components only. No native ArcGIS masks, country resources, IAM sample or trajectories, climate response, field pressure model or complete LCI has been independently reproduced.",
+  "paper1_use": "Use the conditional cumulative resource and competition between fossil CCS, residual offsets and net CDR as literature context. Acknowledge the borrowed pressure-aware 50-year coefficient while retaining the absence of basin-specific annual service. Preserve regional figure, density/state, scenario/extrapolation and provenance questions. No accepted operating/GHG input or current numerical result changed. The existing combined 1.5 MPa HOLD is preserved.",
+  "next_steps": "Continue B3-01 locally. Retrieve exact SI and versioned code/data/GIS/scenario assets, and verify the other 92 direct originals and fourteen dependencies when external research resumes. Resolve publication/data versions and native case, region, unit, state and threshold conventions. Independently reproduce sufficient lawful cases before comprehensive closure. Keep the goal active and the paper incomplete."
+}

@@ -1,0 +1,3402 @@
+{
+  "study_id": "B2-18",
+  "source_sha256": "445b3e7214b5fcb2b5aabc4311846c979fd563f8f2184879b808736930d7489a",
+  "provenance": "All 93 native bibliography entries were read in text and rendered pages. Page, column and line geometry retained; native metadata are not silently corrected. Only expressly recorded selected originals receive passage checks.",
+  "entries": [
+    {
+      "id": "R001",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "1. Riahi, K. et al. in Climate Change 2022: Mitigation of Climate Change (eds Shukla, P. R.",
+        "et al.) Ch. 3 (Cambridge Univ. Press, 2022); https://doi.org/10.1017/9781009157926.005."
+      ],
+      "line_bboxes": [
+        [
+          306.1418151855469,
+          488.1546325683594,
+          550.7139282226562,
+          496.3446350097656
+        ],
+        [
+          320.3138122558594,
+          496.1706237792969,
+          554.6258544921875,
+          504.3606262207031
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Riahi, K. et al. in Climate Change 2022: Mitigation of Climate Change (eds Shukla, P. R. et al.) Ch. 3 (Cambridge Univ. Press, 2022); https://doi.org/10.1017/9781009157926.005.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R001"
+    },
+    {
+      "id": "R002",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "2. Clarke, L. et al. in Climate Change 2022: Mitigation of Climate Change (eds Shukla, P. R.",
+        "et al.) Ch. 6 (Cambridge Univ. Press, 2022); https://doi.org/10.1017/9781009157926.008."
+      ],
+      "line_bboxes": [
+        [
+          306.141845703125,
+          504.1866149902344,
+          554.621826171875,
+          512.3766479492188
+        ],
+        [
+          320.3138427734375,
+          512.20263671875,
+          554.8658447265625,
+          520.3926391601562
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Clarke, L. et al. in Climate Change 2022: Mitigation of Climate Change (eds Shukla, P. R. et al.) Ch. 6 (Cambridge Univ. Press, 2022); https://doi.org/10.1017/9781009157926.008.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R002"
+    },
+    {
+      "id": "R003",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "3. Kearns, J. et al. Developing a consistent database for regional geologic CO2 storage",
+        "capacity worldwide. Energy Procedia 114, 4697–4709 (2017)."
+      ],
+      "line_bboxes": [
+        [
+          306.1418151855469,
+          520.2186279296875,
+          546.0455932617188,
+          529.0078125
+        ],
+        [
+          320.3135681152344,
+          528.1486206054688,
+          482.6549987792969,
+          536.4286499023438
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Kearns, J. et al. Developing a consistent database for regional geologic CO2 storage capacity worldwide. Energy Procedia 114, 4697–4709 (2017).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C005",
+        "C012",
+        "C047",
+        "C048"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R003"
+    },
+    {
+      "id": "R004",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "4. Baines, S. et al. CO2 Storage Resource Catalogue—Cycle 3 Report (Oil and Gas Climate",
+        "Initiative, 2022)."
+      ],
+      "line_bboxes": [
+        [
+          306.1415710449219,
+          536.254638671875,
+          553.8777465820312,
+          545.0418701171875
+        ],
+        [
+          320.3108215332031,
+          544.2726440429688,
+          363.3068542480469,
+          552.462646484375
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Baines, S. et al. CO2 Storage Resource Catalogue—Cycle 3 Report (Oil and Gas Climate Initiative, 2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C001",
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R004"
+    },
+    {
+      "id": "R005",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "5. Damon, et al. An integrated approach to quantifying uncertainties in the remaining",
+        "carbon budget. Commun. Earth Environ. 2, 7 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.1388244628906,
+          552.2886962890625,
+          544.1239013671875,
+          560.4786987304688
+        ],
+        [
+          320.3108215332031,
+          560.2146606445312,
+          459.0728454589844,
+          568.4946899414062
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Damon, et al. An integrated approach to quantifying uncertainties in the remaining carbon budget. Commun. Earth Environ. 2, 7 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R005"
+    },
+    {
+      "id": "R006",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "6. Palazzo, et al. The Zero Emissions Commitment and climate stabilization. Front. Sci. 1,",
+        "1170744 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          306.1388244628906,
+          568.2306518554688,
+          551.1548461914062,
+          576.5106811523438
+        ],
+        [
+          320.3108215332031,
+          576.336669921875,
+          362.1728210449219,
+          584.5266723632812
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Palazzo, et al. The Zero Emissions Commitment and climate stabilization. Front. Sci. 1, 1170744 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002",
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R006"
+    },
+    {
+      "id": "R007",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "7. Arias, P. A. et al. Technical Summary. In Climate Change 2021: The Physical Science Basis",
+        "(eds Masson-Delmotte, V. et al.) (Cambridge Univ. Press, 2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.1388244628906,
+          584.3526611328125,
+          558.7868041992188,
+          592.5426635742188
+        ],
+        [
+          320.310791015625,
+          592.3687133789062,
+          488.2027587890625,
+          600.5587158203125
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Arias, P. A. et al. Technical Summary. In Climate Change 2021: The Physical Science Basis (eds Masson-Delmotte, V. et al.) (Cambridge Univ. Press, 2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R007"
+    },
+    {
+      "id": "R008",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "8. Metz, B., Davidson, O., de Coninck, H. & Loos, M. IPCC Special Report on Carbon Dioxide",
+        "Capture and Storage (IPCC, 2005)."
+      ],
+      "line_bboxes": [
+        [
+          306.1387939453125,
+          600.3847045898438,
+          558.233642578125,
+          608.57470703125
+        ],
+        [
+          320.310791015625,
+          608.4006958007812,
+          413.7248229980469,
+          616.5906982421875
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Metz, B., Davidson, O., de Coninck, H. & Loos, M. IPCC Special Report on Carbon Dioxide Capture and Storage (IPCC, 2005).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R008"
+    },
+    {
+      "id": "R009",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "9. Matters Relating to the Global Stocktake under the Paris Agreement (UNFCCC, 2023)."
+      ],
+      "line_bboxes": [
+        [
+          306.1387939453125,
+          616.416748046875,
+          547.4586791992188,
+          624.6067504882812
+        ]
+      ],
+      "line_pages": [
+        8
+      ],
+      "citation": "Matters Relating to the Global Stocktake under the Paris Agreement (UNFCCC, 2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C002"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R009"
+    },
+    {
+      "id": "R010",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "10. The Global Status of CCS: 2024 (Global CCS Institute, 2024)."
+      ],
+      "line_bboxes": [
+        [
+          306.1387939453125,
+          624.4327392578125,
+          483.0368957519531,
+          632.6227416992188
+        ]
+      ],
+      "line_pages": [
+        8
+      ],
+      "citation": "The Global Status of CCS: 2024 (Global CCS Institute, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C003"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R010"
+    },
+    {
+      "id": "R011",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "11. Gasos, A., Pini, R., Becattini, V., & Mazzotti, M. Enhanced oil recovery using carbon dioxide",
+        "directly captured from air does not enable carbon-neutral oil. Preprint at EarthArXiv",
+        "https://doi.org/10.31223/X55X4S (2025)."
+      ],
+      "line_bboxes": [
+        [
+          306.1387939453125,
+          632.44873046875,
+          562.3742065429688,
+          640.6387329101562
+        ],
+        [
+          320.310791015625,
+          640.4647216796875,
+          547.1588134765625,
+          648.6547241210938
+        ],
+        [
+          320.310791015625,
+          648.480712890625,
+          429.03021240234375,
+          656.6707153320312
+        ]
+      ],
+      "line_pages": [
+        8,
+        8,
+        8
+      ],
+      "citation": "Gasos, A., Pini, R., Becattini, V., & Mazzotti, M. Enhanced oil recovery using carbon dioxide directly captured from air does not enable carbon-neutral oil. Preprint at EarthArXiv https://doi.org/10.31223/X55X4S (2025).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C004"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R011"
+    },
+    {
+      "id": "R012",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "12. Selosse, S. & Ricci, O. Carbon capture and storage: lessons from a storage potential and",
+        "localization analysis. Appl. Energy 188, 32–44 (2017)."
+      ],
+      "line_bboxes": [
+        [
+          306.1387939453125,
+          656.4967651367188,
+          558.1567993164062,
+          664.686767578125
+        ],
+        [
+          320.310791015625,
+          664.4227294921875,
+          462.02484130859375,
+          672.7027587890625
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Selosse, S. & Ricci, O. Carbon capture and storage: lessons from a storage potential and localization analysis. Appl. Energy 188, 32–44 (2017).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C005"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R012"
+    },
+    {
+      "id": "R013",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "13. Steyn, M., Oglesby, J., Turan, G., Zapantis, A. & Gebremedhin, R. Global Status of CCS",
+        "2022 (Global CCS Institute, 2022)."
+      ],
+      "line_bboxes": [
+        [
+          306.1388244628906,
+          672.5287475585938,
+          550.290283203125,
+          680.71875
+        ],
+        [
+          320.3108215332031,
+          680.5447387695312,
+          412.39288330078125,
+          688.7347412109375
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Steyn, M., Oglesby, J., Turan, G., Zapantis, A. & Gebremedhin, R. Global Status of CCS 2022 (Global CCS Institute, 2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C006"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R013"
+    },
+    {
+      "id": "R014",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "14. Churkina, G. et al. Buildings as a global carbon sink. Nat. Sustain. 3, 269–276 (2020)."
+      ],
+      "line_bboxes": [
+        [
+          306.1388244628906,
+          688.470703125,
+          545.8026733398438,
+          696.750732421875
+        ]
+      ],
+      "line_pages": [
+        8
+      ],
+      "citation": "Churkina, G. et al. Buildings as a global carbon sink. Nat. Sustain. 3, 269–276 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C007"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R014"
+    },
+    {
+      "id": "R015",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "15. Schleussner, Carl-Friedrich, et al. Overconfidence in climate overshoot. Nature 634,",
+        "366–373 (2024)."
+      ],
+      "line_bboxes": [
+        [
+          306.1388244628906,
+          696.4866943359375,
+          548.0948486328125,
+          704.7667236328125
+        ],
+        [
+          320.310791015625,
+          704.5927124023438,
+          364.36883544921875,
+          712.78271484375
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Schleussner, Carl-Friedrich, et al. Overconfidence in climate overshoot. Nature 634, 366–373 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R015"
+    },
+    {
+      "id": "R016",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "16. Lane, J., Greig, C. & Garnett, A. Uncertain storage prospects create a conundrum for",
+        "carbon capture and storage ambitions. Nat. Clim. Change 11, 925–936 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.1387939453125,
+          712.6087646484375,
+          547.1646728515625,
+          720.7987670898438
+        ],
+        [
+          320.310791015625,
+          720.5347290039062,
+          527.9888305664062,
+          728.8147583007812
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Lane, J., Greig, C. & Garnett, A. Uncertain storage prospects create a conundrum for carbon capture and storage ambitions. Nat. Clim. Change 11, 925–936 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R016"
+    },
+    {
+      "id": "R017",
+      "pages": [
+        8
+      ],
+      "native_lines": [
+        "17. Grant, N., Hawkes, A., Mittal, S. & Gambhir, A. The policy implications of an uncertain",
+        "carbon dioxide removal potential. Joule 5, 2593–2605 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.1387939453125,
+          728.6407470703125,
+          549.029052734375,
+          736.8307495117188
+        ],
+        [
+          320.310791015625,
+          736.5667114257812,
+          484.932861328125,
+          744.8467407226562
+        ]
+      ],
+      "line_pages": [
+        8,
+        8
+      ],
+      "citation": "Grant, N., Hawkes, A., Mittal, S. & Gambhir, A. The policy implications of an uncertain carbon dioxide removal potential. Joule 5, 2593–2605 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C008"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R017"
+    },
+    {
+      "id": "R018",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "18. Hepple, R. P. & Benson, S. M. Geologic storage of carbon dioxide as a climate change",
+        "mitigation strategy: performance requirements and the implications of surface seepage.",
+        "Environ. Geol. 47, 576–585 (2005)."
+      ],
+      "line_bboxes": [
+        [
+          39.685001373291016,
+          47.189796447753906,
+          283.548828125,
+          55.379798889160156
+        ],
+        [
+          53.85700225830078,
+          55.205787658691406,
+          293.171630859375,
+          63.395790100097656
+        ],
+        [
+          53.85700225830078,
+          63.131778717041016,
+          147.09100341796875,
+          71.41178131103516
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Hepple, R. P. & Benson, S. M. Geologic storage of carbon dioxide as a climate change mitigation strategy: performance requirements and the implications of surface seepage. Environ. Geol. 47, 576–585 (2005).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R018"
+    },
+    {
+      "id": "R019",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "19. Krevor, S. et al. Subsurface carbon dioxide and hydrogen storage for a sustainable energy",
+        "future. Nat. Rev. Earth Environ. 4, 102–118 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          39.67900085449219,
+          71.2377700805664,
+          295.91064453125,
+          79.42777252197266
+        ],
+        [
+          53.85100173950195,
+          79.16376495361328,
+          183.90696716308594,
+          87.44376373291016
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Krevor, S. et al. Subsurface carbon dioxide and hydrogen storage for a sustainable energy future. Nat. Rev. Earth Environ. 4, 102–118 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C009"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R019"
+    },
+    {
+      "id": "R020",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "20.\t Benson, S. et al. in IPCC Special Report on Carbon Dioxide Capture and Storage",
+        "(eds Metz, B. et al.) Ch. 5 (Cambridge Univ. Press, 2005)."
+      ],
+      "line_bboxes": [
+        [
+          39.678993225097656,
+          87.2697525024414,
+          267.9849853515625,
+          95.45975494384766
+        ],
+        [
+          53.850982666015625,
+          95.2857437133789,
+          204.6495361328125,
+          103.47574615478516
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Benson, S. et al. in IPCC Special Report on Carbon Dioxide Capture and Storage (eds Metz, B. et al.) Ch. 5 (Cambridge Univ. Press, 2005).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R020"
+    },
+    {
+      "id": "R021",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "21. Kazlou, T., Cherp, A. & Jewell, J. Feasible deployment of carbon capture and storage and",
+        "the requirements of climate targets. Nat. Clim. Chang. 14, 1047–1055 (2024)."
+      ],
+      "line_bboxes": [
+        [
+          39.67898178100586,
+          103.3017349243164,
+          291.9668884277344,
+          111.49173736572266
+        ],
+        [
+          53.850982666015625,
+          111.22772979736328,
+          258.69696044921875,
+          119.50772857666016
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Kazlou, T., Cherp, A. & Jewell, J. Feasible deployment of carbon capture and storage and the requirements of climate targets. Nat. Clim. Chang. 14, 1047–1055 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R021"
+    },
+    {
+      "id": "R022",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "22.\t Romeiro, V. & Parente, V. Carbon capture and storage and the UNFCCC: recommendations",
+        "to address trans-boundary issues. Low Carbon Econ. 03, 130–136 (2012)."
+      ],
+      "line_bboxes": [
+        [
+          39.678985595703125,
+          119.3337173461914,
+          295.8315124511719,
+          127.52371978759766
+        ],
+        [
+          53.85098648071289,
+          127.25971221923828,
+          246.2943572998047,
+          135.53970336914062
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Romeiro, V. & Parente, V. Carbon capture and storage and the UNFCCC: recommendations to address trans-boundary issues. Low Carbon Econ. 03, 130–136 (2012).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C010"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R022"
+    },
+    {
+      "id": "R023",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "23.\t Stuart-Smith, R. F., Rajamani, L., Rogelj, J. & Wetzer, T. Legal limits to the use of CO2",
+        "removal. Science 382, 772–774 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          39.6729736328125,
+          135.36570739746094,
+          276.83599853515625,
+          144.16213989257812
+        ],
+        [
+          53.858001708984375,
+          143.30279541015625,
+          157.26797485351562,
+          151.58279418945312
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Stuart-Smith, R. F., Rajamani, L., Rogelj, J. & Wetzer, T. Legal limits to the use of CO2 removal. Science 382, 772–774 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C011"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R023"
+    },
+    {
+      "id": "R024",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "24.\t Wei, Y.-M. et al. A proposed global layout of carbon capture and storage in line with a 2 °C",
+        "climate target. Nat. Clim. Change 11, 112–118 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          39.68000030517578,
+          151.40879821777344,
+          294.7477111816406,
+          159.59878540039062
+        ],
+        [
+          53.85200119018555,
+          159.33477783203125,
+          190.9399871826172,
+          167.61477661132812
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Wei, Y.-M. et al. A proposed global layout of carbon capture and storage in line with a 2 °C climate target. Nat. Clim. Change 11, 112–118 (2021).",
+      "role": "Exact Wei 2021/B2-16 original pp 1,8 text and renders checked: earlier global onshore volumetric basins/DOE framework and domestic matching, not pressure-limited field service or complete risk screening.",
+      "verification_status": "primary_text_checked_selected_passages_only",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R024"
+    },
+    {
+      "id": "R025",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "25.\t Zhang, Y., Jackson, C. & Krevor, S. The feasibility of reaching gigatonne scale CO2 storage",
+        "by mid-century. Nat. Commun. 15, 6913 (2024)."
+      ],
+      "line_bboxes": [
+        [
+          39.68000793457031,
+          167.44078063964844,
+          294.3815002441406,
+          176.23001098632812
+        ],
+        [
+          53.8594970703125,
+          175.37078857421875,
+          180.44146728515625,
+          183.65078735351562
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Zhang, Y., Jackson, C. & Krevor, S. The feasibility of reaching gigatonne scale CO2 storage by mid-century. Nat. Commun. 15, 6913 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R025"
+    },
+    {
+      "id": "R026",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "26.\t Goodman, A. et al. U.S. DOE methodology for the development of geologic storage",
+        "potential for carbon dioxide at the national and regional scale. Int. J. Greenh. Gas Control",
+        "5, 952–965 (2011)."
+      ],
+      "line_bboxes": [
+        [
+          39.6875,
+          183.47679138183594,
+          279.503173828125,
+          191.66677856445312
+        ],
+        [
+          53.859500885009766,
+          191.49278259277344,
+          293.91949462890625,
+          199.68276977539062
+        ],
+        [
+          53.8594970703125,
+          199.41876220703125,
+          102.7535171508789,
+          207.69876098632812
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Goodman, A. et al. U.S. DOE methodology for the development of geologic storage potential for carbon dioxide at the national and regional scale. Int. J. Greenh. Gas Control 5, 952–965 (2011).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C012"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R026"
+    },
+    {
+      "id": "R027",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "27. Shindell, D. & Rogelj, J. Preserving carbon dioxide removal to serve critical needs. Nat. Clim.",
+        "Change https://doi.org/10.1038/s41558-025-02251-y (2025)."
+      ],
+      "line_bboxes": [
+        [
+          39.687496185302734,
+          207.52476501464844,
+          296.3969421386719,
+          215.71475219726562
+        ],
+        [
+          53.8594970703125,
+          215.54075622558594,
+          214.93551635742188,
+          223.73074340820312
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Shindell, D. & Rogelj, J. Preserving carbon dioxide removal to serve critical needs. Nat. Clim. Change https://doi.org/10.1038/s41558-025-02251-y (2025).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C013"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R027"
+    },
+    {
+      "id": "R028",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "28.\t Bachu, S. Sequestration of CO2 in geological media: criteria and approach for site",
+        "selection in response to climate change. Energy Convers. Manag. 41, 953–970 (2000)."
+      ],
+      "line_bboxes": [
+        [
+          39.6875,
+          223.55674743652344,
+          274.2035827636719,
+          232.34915161132812
+        ],
+        [
+          53.85969543457031,
+          231.48992919921875,
+          285.78973388671875,
+          239.76992797851562
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Bachu, S. Sequestration of CO2 in geological media: criteria and approach for site selection in response to climate change. Energy Convers. Manag. 41, 953–970 (2000).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R028"
+    },
+    {
+      "id": "R029",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "29.\t Kaldi, J. G. & Gibson-Poole, C. M. (eds.). Storage capacity estimation, site selection and",
+        "characterisation for CO2 storage projects. Report No. RPT08-1001 (CO2CRC, 2008)."
+      ],
+      "line_bboxes": [
+        [
+          39.68768310546875,
+          239.59593200683594,
+          287.8235168457031,
+          247.78591918945312
+        ],
+        [
+          53.859683990478516,
+          247.61192321777344,
+          277.9386291503906,
+          256.3999938964844
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Kaldi, J. G. & Gibson-Poole, C. M. (eds.). Storage capacity estimation, site selection and characterisation for CO2 storage projects. Report No. RPT08-1001 (CO2CRC, 2008).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C014",
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R029"
+    },
+    {
+      "id": "R030",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "30.\t Raza, A. et al. A screening criterion for selection of suitable CO2 storage sites. J. Nat. Gas",
+        "Sci. Eng. 28, 317–327 (2016)."
+      ],
+      "line_bboxes": [
+        [
+          39.68470001220703,
+          255.63084411621094,
+          291.7327575683594,
+          264.4171447753906
+        ],
+        [
+          53.85679626464844,
+          263.55780029296875,
+          129.5888214111328,
+          271.8377990722656
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Raza, A. et al. A screening criterion for selection of suitable CO2 storage sites. J. Nat. Gas Sci. Eng. 28, 317–327 (2016).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C015"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R030"
+    },
+    {
+      "id": "R031",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "31. Nicol, A., Carne, R., Gerstenberger, M. & Christophersen, A. Induced seismicity and its",
+        "implications for CO2 storage risk. Energy Procedia 4, 3699–3706 (2011)."
+      ],
+      "line_bboxes": [
+        [
+          39.67879867553711,
+          271.6637878417969,
+          285.6961364746094,
+          279.8537902832031
+        ],
+        [
+          53.850799560546875,
+          279.59283447265625,
+          245.06488037109375,
+          288.468017578125
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Nicol, A., Carne, R., Gerstenberger, M. & Christophersen, A. Induced seismicity and its implications for CO2 storage risk. Energy Procedia 4, 3699–3706 (2011).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R031"
+    },
+    {
+      "id": "R032",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "32.\t The severity of an earthquake. USGS https://pubs.usgs.gov/gip/earthq4/severitygip.html",
+        "(1989)."
+      ],
+      "line_bboxes": [
+        [
+          39.684906005859375,
+          287.6988220214844,
+          293.3288269042969,
+          295.8888244628906
+        ],
+        [
+          53.856895446777344,
+          295.7148132324219,
+          72.16829681396484,
+          303.9048156738281
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "The severity of an earthquake. USGS https://pubs.usgs.gov/gip/earthq4/severitygip.html (1989).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R032"
+    },
+    {
+      "id": "R033",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "33.\t Mehlhorn, J., Byrne, J. M., Kappler, A. & Planer-Friedrich, B. Time and temperature",
+        "dependency of carbon dioxide triggered metal (loid) mobilization in soil. Appl. Geochem.",
+        "74, 122–137 (2016)."
+      ],
+      "line_bboxes": [
+        [
+          39.68489456176758,
+          303.7308044433594,
+          272.96478271484375,
+          311.9208068847656
+        ],
+        [
+          53.856895446777344,
+          311.7467956542969,
+          295.6748962402344,
+          319.9367980957031
+        ],
+        [
+          53.856903076171875,
+          319.67279052734375,
+          103.63291931152344,
+          327.9527893066406
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Mehlhorn, J., Byrne, J. M., Kappler, A. & Planer-Friedrich, B. Time and temperature dependency of carbon dioxide triggered metal (loid) mobilization in soil. Appl. Geochem. 74, 122–137 (2016).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R033"
+    },
+    {
+      "id": "R034",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "34.\t Knauss, K. G., Johnson, J. W. & Steefel, C. I. Evaluation of the impact of CO2,",
+        "co-contaminant gas, aqueous fluid and reservoir rock interactions on the geologic",
+        "sequestration of CO2. Chem. Geol. 217, 339–350 (2005)."
+      ],
+      "line_bboxes": [
+        [
+          39.684898376464844,
+          327.7787780761719,
+          256.2372131347656,
+          336.5700378417969
+        ],
+        [
+          53.857208251953125,
+          335.8008117675781,
+          276.69586181640625,
+          343.9908142089844
+        ],
+        [
+          53.857208251953125,
+          343.72882080078125,
+          205.88490295410156,
+          352.6040344238281
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Knauss, K. G., Johnson, J. W. & Steefel, C. I. Evaluation of the impact of CO2, co-contaminant gas, aqueous fluid and reservoir rock interactions on the geologic sequestration of CO2. Chem. Geol. 217, 339–350 (2005).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C017"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R034"
+    },
+    {
+      "id": "R035",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "35.\t Pianta, S., Rinscheid, A. & Weber, E. U. Carbon capture and storage in the United States:",
+        "perceptions, preferences, and lessons for policy. Energy Policy 151, 112149 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          39.67890930175781,
+          351.8348083496094,
+          289.650146484375,
+          360.0248107910156
+        ],
+        [
+          53.85091018676758,
+          359.76080322265625,
+          271.3448791503906,
+          368.0408020019531
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Pianta, S., Rinscheid, A. & Weber, E. U. Carbon capture and storage in the United States: perceptions, preferences, and lessons for policy. Energy Policy 151, 112149 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R035"
+    },
+    {
+      "id": "R036",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "36.\t Arning, K. et al. Same or different? Insights on public perception and acceptance of",
+        "carbon capture and storage or utilization in Germany. Energy Policy 125, 235–249",
+        "(2019)."
+      ],
+      "line_bboxes": [
+        [
+          39.67890930175781,
+          367.8667907714844,
+          285.9327392578125,
+          376.0567932128906
+        ],
+        [
+          53.85091018676758,
+          375.79278564453125,
+          279.6123352050781,
+          384.0727844238281
+        ],
+        [
+          53.85090637207031,
+          383.8987731933594,
+          72.82891082763672,
+          392.0887756347656
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Arning, K. et al. Same or different? Insights on public perception and acceptance of carbon capture and storage or utilization in Germany. Energy Policy 125, 235–249 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C019"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R036"
+    },
+    {
+      "id": "R037",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "37. Request for an Advisory Opinion Submitted by the Commission of Small Island States",
+        "on Climate Change and International Law (International Tribunal for the Law of the Sea,",
+        "2024)."
+      ],
+      "line_bboxes": [
+        [
+          39.67890548706055,
+          391.9147644042969,
+          283.5848693847656,
+          400.1047668457031
+        ],
+        [
+          53.85089111328125,
+          399.9307556152344,
+          284.28857421875,
+          408.1207580566406
+        ],
+        [
+          53.85089111328125,
+          407.9467468261719,
+          71.22090148925781,
+          416.1367492675781
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Request for an Advisory Opinion Submitted by the Commission of Small Island States on Climate Change and International Law (International Tribunal for the Law of the Sea, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R037"
+    },
+    {
+      "id": "R038",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "38.\t Garrett, J. & McCoy, S. Carbon capture and storage and the London Protocol: recent efforts",
+        "to enable transboundary CO2 transfer. Energy Procedia 37, 7747–7755 (2013)."
+      ],
+      "line_bboxes": [
+        [
+          39.678890228271484,
+          415.9627380371094,
+          295.3563232421875,
+          424.1527404785156
+        ],
+        [
+          53.85089111328125,
+          423.8988342285156,
+          259.4181823730469,
+          432.77410888671875
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Garrett, J. & McCoy, S. Carbon capture and storage and the London Protocol: recent efforts to enable transboundary CO2 transfer. Energy Procedia 37, 7747–7755 (2013).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R038"
+    },
+    {
+      "id": "R039",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "39.\t Status of IMO Treaties (International Maritime Organization, 2024)."
+      ],
+      "line_bboxes": [
+        [
+          39.68620300292969,
+          432.00482177734375,
+          231.8175506591797,
+          440.19482421875
+        ]
+      ],
+      "line_pages": [
+        9
+      ],
+      "citation": "Status of IMO Treaties (International Maritime Organization, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C020"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R039"
+    },
+    {
+      "id": "R040",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "40.\t Larson, E., Li, Z. & Williams, R. in Global Energy Assessment: Toward A Sustainable Future",
+        "Ch. 12 (Cambridge Univ. Press, 2012)."
+      ],
+      "line_bboxes": [
+        [
+          39.68620300292969,
+          440.02081298828125,
+          292.17822265625,
+          448.2108154296875
+        ],
+        [
+          53.85821533203125,
+          448.03680419921875,
+          153.30221557617188,
+          456.226806640625
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Larson, E., Li, Z. & Williams, R. in Global Energy Assessment: Toward A Sustainable Future Ch. 12 (Cambridge Univ. Press, 2012).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R040"
+    },
+    {
+      "id": "R041",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "41. Muratori, M. et al. EMF-33 insights on bioenergy with carbon capture and storage (BECCS).",
+        "Climatic Change 163, 1621–1637 (2020)."
+      ],
+      "line_bboxes": [
+        [
+          39.686214447021484,
+          456.05279541015625,
+          295.7433776855469,
+          464.2427978515625
+        ],
+        [
+          53.85821533203125,
+          463.9787902832031,
+          160.77760314941406,
+          472.2587890625
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Muratori, M. et al. EMF-33 insights on bioenergy with carbon capture and storage (BECCS). Climatic Change 163, 1621–1637 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R041"
+    },
+    {
+      "id": "R042",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "42.\t Bui, M. et al. Carbon capture and storage (CCS): the way forward. Energy Environ. Sci. 11,",
+        "1062–1176 (2018)."
+      ],
+      "line_bboxes": [
+        [
+          39.68022155761719,
+          471.9947814941406,
+          292.3522033691406,
+          480.2747802734375
+        ],
+        [
+          53.85223388671875,
+          480.10076904296875,
+          100.78966522216797,
+          488.290771484375
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Bui, M. et al. Carbon capture and storage (CCS): the way forward. Energy Environ. Sci. 11, 1062–1176 (2018).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R042"
+    },
+    {
+      "id": "R043",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "43.\t Fuhrman, J. et al. The role of direct air capture and negative emissions technologies in the",
+        "shared socioeconomic pathways towards +1.5 °C and +2 °C futures. Environ. Res. Lett. 16,",
+        "114012 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          39.680233001708984,
+          488.11676025390625,
+          296.00250244140625,
+          496.3067626953125
+        ],
+        [
+          53.85223388671875,
+          496.0427551269531,
+          292.4842224121094,
+          504.32275390625
+        ],
+        [
+          53.85223388671875,
+          504.14874267578125,
+          90.89025115966797,
+          512.3387451171875
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Fuhrman, J. et al. The role of direct air capture and negative emissions technologies in the shared socioeconomic pathways towards +1.5 °C and +2 °C futures. Environ. Res. Lett. 16, 114012 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R043"
+    },
+    {
+      "id": "R044",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "44.\t Strefler, J. et al. Carbon dioxide removal technologies are not born equal. Environ. Res.",
+        "Lett. 16, 074021 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          39.680233001708984,
+          512.164794921875,
+          287.51190185546875,
+          520.3547973632812
+        ],
+        [
+          53.85223388671875,
+          520.0907592773438,
+          115.0162582397461,
+          528.3707885742188
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Strefler, J. et al. Carbon dioxide removal technologies are not born equal. Environ. Res. Lett. 16, 074021 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R044"
+    },
+    {
+      "id": "R045",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "45.\t Gidden, M. J. et al. Fairness and feasibility in deep mitigation pathways with novel carbon",
+        "dioxide removal considering institutional capacity to mitigate. Environ. Res. Lett. 18,",
+        "074006 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          39.68023681640625,
+          528.19677734375,
+          293.98529052734375,
+          536.3867797851562
+        ],
+        [
+          53.852237701416016,
+          536.1227416992188,
+          280.1361999511719,
+          544.4027709960938
+        ],
+        [
+          53.85223388671875,
+          544.228759765625,
+          96.1102523803711,
+          552.4187622070312
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Gidden, M. J. et al. Fairness and feasibility in deep mitigation pathways with novel carbon dioxide removal considering institutional capacity to mitigate. Environ. Res. Lett. 18, 074006 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R045"
+    },
+    {
+      "id": "R046",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "46.\t Gambhir, A. & Tavoni, M. Direct air carbon capture and sequestration: how it works and",
+        "how it could contribute to climate-change mitigation. One Earth 1, 405–409 (2019)."
+      ],
+      "line_bboxes": [
+        [
+          306.1342468261719,
+          47.176734924316406,
+          554.1741943359375,
+          55.366737365722656
+        ],
+        [
+          320.3062438964844,
+          55.102725982666016,
+          544.382080078125,
+          63.382728576660156
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Gambhir, A. & Tavoni, M. Direct air carbon capture and sequestration: how it works and how it could contribute to climate-change mitigation. One Earth 1, 405–409 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C025"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R046"
+    },
+    {
+      "id": "R047",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "47. Grant, N., Gambhir, A., Mittal, S., Greig, C. & Köberle, A. C. Enhancing the realism of",
+        "decarbonisation scenarios with practicable regional constraints on CO2 storage capacity.",
+        "Int. J. Greenh. Gas Control 120, 103766 (2022)."
+      ],
+      "line_bboxes": [
+        [
+          306.1342468261719,
+          63.208717346191406,
+          544.730224609375,
+          71.39871978759766
+        ],
+        [
+          320.3062438964844,
+          71.2247085571289,
+          561.807373046875,
+          80.02616119384766
+        ],
+        [
+          320.31329345703125,
+          79.16693878173828,
+          444.72332763671875,
+          87.44693756103516
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Grant, N., Gambhir, A., Mittal, S., Greig, C. & Köberle, A. C. Enhancing the realism of decarbonisation scenarios with practicable regional constraints on CO2 storage capacity. Int. J. Greenh. Gas Control 120, 103766 (2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C026",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R047"
+    },
+    {
+      "id": "R048",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "48.\t Smith, S. M. et al. The State of Carbon Dioxide Removal 1st edn (The State of Carbon",
+        "Dioxide Removal, 2023); https://www.stateofcdr.org."
+      ],
+      "line_bboxes": [
+        [
+          306.14129638671875,
+          87.2729263305664,
+          545.79931640625,
+          95.46292877197266
+        ],
+        [
+          320.31329345703125,
+          95.2889175415039,
+          461.9906921386719,
+          103.47891998291016
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Smith, S. M. et al. The State of Carbon Dioxide Removal 1st edn (The State of Carbon Dioxide Removal, 2023); https://www.stateofcdr.org.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C027"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R048"
+    },
+    {
+      "id": "R049",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "49.\t Crude Oil Production (Indicator) (OECD, 2024); https://doi.org/10.1787/4747b431-en."
+      ],
+      "line_bboxes": [
+        [
+          306.14129638671875,
+          103.3049087524414,
+          544.1859741210938,
+          111.49491119384766
+        ]
+      ],
+      "line_pages": [
+        9
+      ],
+      "citation": "Crude Oil Production (Indicator) (OECD, 2024); https://doi.org/10.1787/4747b431-en.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C030"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R049"
+    },
+    {
+      "id": "R050",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "50.\t den Elzen, M. G. J. et al. Updated nationally determined contributions collectively raise",
+        "ambition levels but need strengthening further to keep Paris goals within reach. Mitig. Adapt.",
+        "Strateg. Glob. Change 27, 33 (2022)."
+      ],
+      "line_bboxes": [
+        [
+          306.14129638671875,
+          111.3208999633789,
+          554.6990966796875,
+          119.51090240478516
+        ],
+        [
+          320.31329345703125,
+          119.3368911743164,
+          562.8272705078125,
+          127.52689361572266
+        ],
+        [
+          320.31329345703125,
+          127.26288604736328,
+          418.4127502441406,
+          135.54287719726562
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "den Elzen, M. G. J. et al. Updated nationally determined contributions collectively raise ambition levels but need strengthening further to keep Paris goals within reach. Mitig. Adapt. Strateg. Glob. Change 27, 33 (2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C032"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R050"
+    },
+    {
+      "id": "R051",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "51. Höhne, N. et al. Wave of net zero emission targets opens window to meeting the Paris",
+        "Agreement. Nat. Clim. Change 11, 820–822 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.1413269042969,
+          135.36888122558594,
+          550.5585327148438,
+          143.55886840820312
+        ],
+        [
+          320.3133239746094,
+          143.29486083984375,
+          454.8934020996094,
+          151.57485961914062
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Höhne, N. et al. Wave of net zero emission targets opens window to meeting the Paris Agreement. Nat. Clim. Change 11, 820–822 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C032"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R051"
+    },
+    {
+      "id": "R052",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "52.\t Rogelj, J. et al. A new scenario logic for the Paris Agreement long-term temperature goal.",
+        "Nature 573, 357–363 (2019)."
+      ],
+      "line_bboxes": [
+        [
+          306.1413269042969,
+          151.40086364746094,
+          560.8370971679688,
+          159.59085083007812
+        ],
+        [
+          320.3133239746094,
+          159.32684326171875,
+          395.7873840332031,
+          167.60684204101562
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Rogelj, J. et al. A new scenario logic for the Paris Agreement long-term temperature goal. Nature 573, 357–363 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C033"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R052"
+    },
+    {
+      "id": "R053",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "53.\t IPCC: Summary for Policymakers. In Climate Change 2021: The Physical Science Basis",
+        "(eds Masson-Delmotte, V. et al.) (Cambridge Univ. Press, 2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.141357421875,
+          167.43284606933594,
+          551.2593994140625,
+          175.62283325195312
+        ],
+        [
+          320.3133544921875,
+          175.44883728027344,
+          488.205322265625,
+          183.63882446289062
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "IPCC: Summary for Policymakers. In Climate Change 2021: The Physical Science Basis (eds Masson-Delmotte, V. et al.) (Cambridge Univ. Press, 2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C034",
+        "C035",
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R053"
+    },
+    {
+      "id": "R054",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "54.\t Andreoni, P., Emmerling, J. & Tavoni, M. Inequality repercussions of financing negative",
+        "emissions. Nat. Clim. Change 14, 48–54 (2024)."
+      ],
+      "line_bboxes": [
+        [
+          306.141357421875,
+          183.46482849121094,
+          552.78857421875,
+          191.65481567382812
+        ],
+        [
+          320.3133544921875,
+          191.39080810546875,
+          447.1834411621094,
+          199.67080688476562
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Andreoni, P., Emmerling, J. & Tavoni, M. Inequality repercussions of financing negative emissions. Nat. Clim. Change 14, 48–54 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C038"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R054"
+    },
+    {
+      "id": "R055",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "55.\t Nemet, G. F. et al. Near-term deployment of novel carbon removal to facilitate longer-",
+        "term deployment. Joule 7, 2653–2659 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          306.1413879394531,
+          199.49681091308594,
+          551.5714111328125,
+          207.68679809570312
+        ],
+        [
+          320.3133850097656,
+          207.42279052734375,
+          443.1154479980469,
+          215.70278930664062
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Nemet, G. F. et al. Near-term deployment of novel carbon removal to facilitate longer- term deployment. Joule 7, 2653–2659 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C039"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R055"
+    },
+    {
+      "id": "R056",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "56.\t Khandoozi, S., Hazlett, R. & Fustic, M. A critical review of CO2 mineral trapping in",
+        "sedimentary reservoirs—from theory to application: pertinent parameters, acceleration",
+        "methods and evaluation workflow. Earth Sci. Rev. 244, 104515 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          306.1413879394531,
+          215.52879333496094,
+          536.81201171875,
+          224.33200073242188
+        ],
+        [
+          320.31396484375,
+          223.56285095214844,
+          556.6712646484375,
+          231.75283813476562
+        ],
+        [
+          320.31396484375,
+          231.48883056640625,
+          506.8479919433594,
+          239.76882934570312
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Khandoozi, S., Hazlett, R. & Fustic, M. A critical review of CO2 mineral trapping in sedimentary reservoirs—from theory to application: pertinent parameters, acceleration methods and evaluation workflow. Earth Sci. Rev. 244, 104515 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R056"
+    },
+    {
+      "id": "R057",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "57. Azzolina, N. A. et al. CO2 storage associated with CO2 enhanced oil recovery: a statistical",
+        "analysis of historical operations. Int. J. Greenh. Gas Control 37, 384–397 (2015)."
+      ],
+      "line_bboxes": [
+        [
+          306.1419677734375,
+          239.59483337402344,
+          559.2216186523438,
+          248.38314819335938
+        ],
+        [
+          320.3135986328125,
+          247.52392578125,
+          532.4495849609375,
+          255.80392456054688
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Azzolina, N. A. et al. CO2 storage associated with CO2 enhanced oil recovery: a statistical analysis of historical operations. Int. J. Greenh. Gas Control 37, 384–397 (2015).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R057"
+    },
+    {
+      "id": "R058",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "58.\t Clark, D. E. et al. CarbFix2: CO2 and H2S mineralization during 3.5 years of continuous",
+        "injection into basaltic rocks at more than 250 °C. Geochim. Cosmochim. Acta 279, 45–66",
+        "(2020)."
+      ],
+      "line_bboxes": [
+        [
+          306.1416015625,
+          255.6299285888672,
+          550.0587158203125,
+          264.4171447753906
+        ],
+        [
+          320.31268310546875,
+          263.55780029296875,
+          560.2467651367188,
+          271.8377990722656
+        ],
+        [
+          320.3127136230469,
+          271.6637878417969,
+          340.14874267578125,
+          279.8537902832031
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Clark, D. E. et al. CarbFix2: CO2 and H2S mineralization during 3.5 years of continuous injection into basaltic rocks at more than 250 °C. Geochim. Cosmochim. Acta 279, 45–66 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R058"
+    },
+    {
+      "id": "R059",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "59.\t McGrail, B., Spane, F., Sullivan, E., Bacon, D. & Hund, G. The Wallula basalt sequestration",
+        "pilot project. Energy Procedia 4, 5653–5660 (2011)."
+      ],
+      "line_bboxes": [
+        [
+          306.1407165527344,
+          279.6797790527344,
+          558.278564453125,
+          287.8697814941406
+        ],
+        [
+          320.3127136230469,
+          287.60577392578125,
+          457.8507385253906,
+          295.8857727050781
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "McGrail, B., Spane, F., Sullivan, E., Bacon, D. & Hund, G. The Wallula basalt sequestration pilot project. Energy Procedia 4, 5653–5660 (2011).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R059"
+    },
+    {
+      "id": "R060",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "60.\t Cao, X., Li, Q., Xu, L. & Tan, Y. A review of in situ carbon mineralization in basalt. J. Rock",
+        "Mech. Geotech. Eng. https://doi.org/10.1016/j.jrmge.2023.11.010 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          306.1407470703125,
+          295.7117614746094,
+          552.6105346679688,
+          303.9017639160156
+        ],
+        [
+          320.312744140625,
+          303.7277526855469,
+          512.3252563476562,
+          311.9177551269531
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Cao, X., Li, Q., Xu, L. & Tan, Y. A review of in situ carbon mineralization in basalt. J. Rock Mech. Geotech. Eng. https://doi.org/10.1016/j.jrmge.2023.11.010 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C040"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R060"
+    },
+    {
+      "id": "R061",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "61. Mace, M. J., Fyson, C. L., Schaeffer, M. & Hare, W. L. Large-scale carbon dioxide removal",
+        "to meet the 1.5 °C limit: key governance gaps, challenges and priority responses.",
+        "Glob. Policy 12, 67–81 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.1407470703125,
+          311.7437438964844,
+          556.2085571289062,
+          319.9337463378906
+        ],
+        [
+          320.312744140625,
+          319.7597351074219,
+          538.220703125,
+          327.9497375488281
+        ],
+        [
+          320.312744140625,
+          327.68572998046875,
+          397.06475830078125,
+          335.9657287597656
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Mace, M. J., Fyson, C. L., Schaeffer, M. & Hare, W. L. Large-scale carbon dioxide removal to meet the 1.5 °C limit: key governance gaps, challenges and priority responses. Glob. Policy 12, 67–81 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R061"
+    },
+    {
+      "id": "R062",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "62.\t Medvecky, F., Lacey, J. & Ashworth, P. Examining the role of carbon capture and storage",
+        "through an ethical lens. Sci. Eng. Ethics 20, 1111–1128 (2014)."
+      ],
+      "line_bboxes": [
+        [
+          306.1347351074219,
+          335.7917175292969,
+          556.3153686523438,
+          343.9817199707031
+        ],
+        [
+          320.3067321777344,
+          343.71771240234375,
+          480.80609130859375,
+          351.9977111816406
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Medvecky, F., Lacey, J. & Ashworth, P. Examining the role of carbon capture and storage through an ethical lens. Sci. Eng. Ethics 20, 1111–1128 (2014).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C038",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R062"
+    },
+    {
+      "id": "R063",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "63.\t Fyson, C. L., Baur, S., Gidden, M. & Schleussner, C.-F. Fair-share carbon dioxide removal",
+        "increases major emitter responsibility. Nat. Clim. Change 10, 836–841 (2020)."
+      ],
+      "line_bboxes": [
+        [
+          306.1287536621094,
+          351.8236999511719,
+          555.4580078125,
+          360.0137023925781
+        ],
+        [
+          320.3007507324219,
+          359.74969482421875,
+          528.0506591796875,
+          368.0296936035156
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Fyson, C. L., Baur, S., Gidden, M. & Schleussner, C.-F. Fair-share carbon dioxide removal increases major emitter responsibility. Nat. Clim. Change 10, 836–841 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C038",
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R063"
+    },
+    {
+      "id": "R064",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "64.\t Ringrose, P. S. & Meckel, T. A. Maturing global CO2 storage resources on offshore",
+        "continental margins to achieve 2DS emissions reductions. Sci. Rep. 9, 17944 (2019)."
+      ],
+      "line_bboxes": [
+        [
+          306.12274169921875,
+          367.8556823730469,
+          538.2915649414062,
+          376.655029296875
+        ],
+        [
+          320.31756591796875,
+          375.7958068847656,
+          544.58544921875,
+          384.0758056640625
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Ringrose, P. S. & Meckel, T. A. Maturing global CO2 storage resources on offshore continental margins to achieve 2DS emissions reductions. Sci. Rep. 9, 17944 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C041"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R064"
+    },
+    {
+      "id": "R065",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "65.\t Zickfeld, K., Azevedo, D., Mathesius, S. & Matthews, H. D. Asymmetry in the climate–",
+        "carbon cycle response to positive and negative CO2 emissions. Nat. Clim. Change 11,",
+        "613–617 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.14556884765625,
+          383.90179443359375,
+          546.4755859375,
+          392.091796875
+        ],
+        [
+          320.31756591796875,
+          391.830810546875,
+          549.26220703125,
+          400.7060241699219
+        ],
+        [
+          320.31414794921875,
+          399.9367980957031,
+          361.2635192871094,
+          408.1268005371094
+        ]
+      ],
+      "line_pages": [
+        9,
+        9,
+        9
+      ],
+      "citation": "Zickfeld, K., Azevedo, D., Mathesius, S. & Matthews, H. D. Asymmetry in the climate– carbon cycle response to positive and negative CO2 emissions. Nat. Clim. Change 11, 613–617 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C042"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R065"
+    },
+    {
+      "id": "R066",
+      "pages": [
+        9
+      ],
+      "native_lines": [
+        "66.\t Gütschow, J. et al. The PRIMAP-hist national historical emissions time series. Earth Syst.",
+        "Sci. Data 8, 571–603 (2016)."
+      ],
+      "line_bboxes": [
+        [
+          306.14215087890625,
+          407.9527893066406,
+          555.1079711914062,
+          416.1427917480469
+        ],
+        [
+          320.31414794921875,
+          415.8787841796875,
+          394.2701416015625,
+          424.1587829589844
+        ]
+      ],
+      "line_pages": [
+        9,
+        9
+      ],
+      "citation": "Gütschow, J. et al. The PRIMAP-hist national historical emissions time series. Earth Syst. Sci. Data 8, 571–603 (2016).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C037"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R066"
+    },
+    {
+      "id": "R067",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "67. Furre, A.-K., Eiken, O., Alnes, H., Vevatne, J. N. & Kiær, A. F. 20 years of monitoring CO2-",
+        "injection at Sleipner. Energy Procedia 114, 3916–3926 (2017)."
+      ],
+      "line_bboxes": [
+        [
+          306.1416931152344,
+          448.3546142578125,
+          549.1289672851562,
+          457.13983154296875
+        ],
+        [
+          320.31292724609375,
+          456.2806091308594,
+          477.5915222167969,
+          464.56060791015625
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Furre, A.-K., Eiken, O., Alnes, H., Vevatne, J. N. & Kiær, A. F. 20 years of monitoring CO2- injection at Sleipner. Energy Procedia 114, 3916–3926 (2017).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R067"
+    },
+    {
+      "id": "R068",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "68.\t Benedictus, T. et al. Long Term Integrity of CO2 Storage—Well Abandonment (IEAGHG, 2009)."
+      ],
+      "line_bboxes": [
+        [
+          306.14093017578125,
+          464.3865966796875,
+          561.2608032226562,
+          473.173828125
+        ]
+      ],
+      "line_pages": [
+        12
+      ],
+      "citation": "Benedictus, T. et al. Long Term Integrity of CO2 Storage—Well Abandonment (IEAGHG, 2009).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C045"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R068"
+    },
+    {
+      "id": "R069",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "69.\t Evenick, J. C. Glimpses into Earth’s history using a revised global sedimentary basin map.",
+        "Earth Sci. Rev. 215, 103564 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          306.14080810546875,
+          472.40460205078125,
+          560.0309448242188,
+          480.5946044921875
+        ],
+        [
+          320.31280517578125,
+          480.3305969238281,
+          411.4648132324219,
+          488.610595703125
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Evenick, J. C. Glimpses into Earth’s history using a revised global sedimentary basin map. Earth Sci. Rev. 215, 103564 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C046"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R069"
+    },
+    {
+      "id": "R070",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "70.\t Bradshaw, J. et al. The potential for geological sequestration of CO2 in Australia: preliminary",
+        "findings and implications for new gas field development. APPEA J. 42, 25–46 (2002)."
+      ],
+      "line_bboxes": [
+        [
+          306.14080810546875,
+          488.43658447265625,
+          561.628662109375,
+          497.2248229980469
+        ],
+        [
+          320.3146057128906,
+          496.3656005859375,
+          541.5046997070312,
+          504.6455993652344
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Bradshaw, J. et al. The potential for geological sequestration of CO2 in Australia: preliminary findings and implications for new gas field development. APPEA J. 42, 25–46 (2002).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C044"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R070"
+    },
+    {
+      "id": "R071",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "71. Development of Storage Coefficients for CO2 Storage in Deep Saline Formations",
+        "(IEAGHG, 2009)."
+      ],
+      "line_bboxes": [
+        [
+          306.14263916015625,
+          504.4715881347656,
+          535.267333984375,
+          513.2588500976562
+        ],
+        [
+          320.3172912597656,
+          512.4896240234375,
+          364.95733642578125,
+          520.6796264648438
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Development of Storage Coefficients for CO2 Storage in Deep Saline Formations (IEAGHG, 2009).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C047"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R071"
+    },
+    {
+      "id": "R072",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "72.\t Laske, G., Masters, G., Ma, Z. & Pasyanos, M. Update on CRUST1. 0—a 1-degree global",
+        "model of Earth’s crust. Geophys. Res. Abstr. 15, 2658 (2013)."
+      ],
+      "line_bboxes": [
+        [
+          306.1452941894531,
+          520.505615234375,
+          549.4747924804688,
+          528.6956176757812
+        ],
+        [
+          320.3172912597656,
+          528.431640625,
+          480.3733215332031,
+          536.711669921875
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Laske, G., Masters, G., Ma, Z. & Pasyanos, M. Update on CRUST1. 0—a 1-degree global model of Earth’s crust. Geophys. Res. Abstr. 15, 2658 (2013).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C046",
+        "C058"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R072"
+    },
+    {
+      "id": "R073",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "73.\t Szulczewski, M. L., MacMinn, C. W., Herzog, H. J. & Juanes, R. Lifetime of carbon capture",
+        "and storage as a climate-change mitigation technology. Proc. Natl Acad. Sci. USA 109,",
+        "5185–5189 (2012)."
+      ],
+      "line_bboxes": [
+        [
+          306.1392822265625,
+          536.5376586914062,
+          557.4301147460938,
+          544.7276611328125
+        ],
+        [
+          320.311279296875,
+          544.463623046875,
+          553.6273803710938,
+          552.74365234375
+        ],
+        [
+          320.31134033203125,
+          552.5697021484375,
+          368.3887634277344,
+          560.7597045898438
+        ]
+      ],
+      "line_pages": [
+        12,
+        12,
+        12
+      ],
+      "citation": "Szulczewski, M. L., MacMinn, C. W., Herzog, H. J. & Juanes, R. Lifetime of carbon capture and storage as a climate-change mitigation technology. Proc. Natl Acad. Sci. USA 109, 5185–5189 (2012).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C047",
+        "C048"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R073"
+    },
+    {
+      "id": "R074",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "74.\t Protected Planet: The World Database on Protected Areas (WDPA) (UNEP-WCMC and",
+        "IUCN, 2024)."
+      ],
+      "line_bboxes": [
+        [
+          306.13934326171875,
+          560.585693359375,
+          545.9954223632812,
+          568.7756958007812
+        ],
+        [
+          320.31134033203125,
+          568.6016845703125,
+          354.745361328125,
+          576.7916870117188
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Protected Planet: The World Database on Protected Areas (WDPA) (UNEP-WCMC and IUCN, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C050"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R074"
+    },
+    {
+      "id": "R075",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "75.\t Maritime Boundaries Geodatabase (Flanders Marine Institute, 2023); https://doi.org/",
+        "10.14284/628."
+      ],
+      "line_bboxes": [
+        [
+          306.13934326171875,
+          576.61767578125,
+          547.0873413085938,
+          584.8076782226562
+        ],
+        [
+          320.31134033203125,
+          584.6336669921875,
+          357.5473327636719,
+          592.8236694335938
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Maritime Boundaries Geodatabase (Flanders Marine Institute, 2023); https://doi.org/ 10.14284/628.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C051"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R075"
+    },
+    {
+      "id": "R076",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "76.\t Michie, E. A. H. & Braathen, A. How displacement analysis may aid fault risking strategies",
+        "for CO2 storage. Basin Res. 36, e12807 (2024)."
+      ],
+      "line_bboxes": [
+        [
+          306.13934326171875,
+          592.6497192382812,
+          559.5313110351562,
+          600.8397216796875
+        ],
+        [
+          320.31134033203125,
+          600.5875854492188,
+          443.1085510253906,
+          609.462890625
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Michie, E. A. H. & Braathen, A. How displacement analysis may aid fault risking strategies for CO2 storage. Basin Res. 36, e12807 (2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016",
+        "C053"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R076"
+    },
+    {
+      "id": "R077",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "77. Johnson, K. et al. Global seismic hazard map. Zenodo https://doi.org/10.5281/zenodo.",
+        "8409647 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          306.1405029296875,
+          608.6936645507812,
+          551.8645629882812,
+          616.8836669921875
+        ],
+        [
+          320.3125305175781,
+          616.7096557617188,
+          365.7625732421875,
+          624.899658203125
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Johnson, K. et al. Global seismic hazard map. Zenodo https://doi.org/10.5281/zenodo. 8409647 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016",
+        "C053"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R077"
+    },
+    {
+      "id": "R078",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "78.\t Wald, D. J., Quitoriano, V., Heaton, T. H. & Kanamori, H. Relationships between peak",
+        "ground acceleration, peak ground velocity, and modified Mercalli intensity in California.",
+        "Earthq. Spectra 15, 557–564 (1999)."
+      ],
+      "line_bboxes": [
+        [
+          306.1405334472656,
+          624.7256469726562,
+          543.7225341796875,
+          632.9156494140625
+        ],
+        [
+          320.3125305175781,
+          632.74169921875,
+          558.0305786132812,
+          640.9317016601562
+        ],
+        [
+          320.3125305175781,
+          640.6676635742188,
+          414.9620056152344,
+          648.9476928710938
+        ]
+      ],
+      "line_pages": [
+        12,
+        12,
+        12
+      ],
+      "citation": "Wald, D. J., Quitoriano, V., Heaton, T. H. & Kanamori, H. Relationships between peak ground acceleration, peak ground velocity, and modified Mercalli intensity in California. Earthq. Spectra 15, 557–564 (1999).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C016",
+        "C053"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R078"
+    },
+    {
+      "id": "R079",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "79. Damen, K., Faaij, A. & Turkenburg, W. Health, safety and environmental risks of underground",
+        "CO2 storage—overview of mechanisms and current knowledge. Climatic Change 74,",
+        "289–318 (2006)."
+      ],
+      "line_bboxes": [
+        [
+          306.1345520019531,
+          648.773681640625,
+          562.7958984375,
+          656.9636840820312
+        ],
+        [
+          320.3065490722656,
+          656.7066040039062,
+          549.0119018554688,
+          665.5818481445312
+        ],
+        [
+          320.31585693359375,
+          664.8126220703125,
+          363.59332275390625,
+          673.0026245117188
+        ]
+      ],
+      "line_pages": [
+        12,
+        12,
+        12
+      ],
+      "citation": "Damen, K., Faaij, A. & Turkenburg, W. Health, safety and environmental risks of underground CO2 storage—overview of mechanisms and current knowledge. Climatic Change 74, 289–318 (2006).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C054"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R079"
+    },
+    {
+      "id": "R080",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "80.\t Gao, J. & O’Neill, B. C. Mapping global urban land for the 21st century with data-driven",
+        "simulations and Shared Socioeconomic Pathways. Nat. Commun. 11, 2302 (2020)."
+      ],
+      "line_bboxes": [
+        [
+          306.14385986328125,
+          672.82861328125,
+          552.3118286132812,
+          681.0186157226562
+        ],
+        [
+          320.31585693359375,
+          680.754638671875,
+          540.7677612304688,
+          689.03466796875
+        ]
+      ],
+      "line_pages": [
+        12,
+        12
+      ],
+      "citation": "Gao, J. & O’Neill, B. C. Mapping global urban land for the 21st century with data-driven simulations and Shared Socioeconomic Pathways. Nat. Commun. 11, 2302 (2020).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C054"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R080"
+    },
+    {
+      "id": "R081",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "81. O’Neill, B. C. et al. The roads ahead: narratives for shared socioeconomic pathways",
+        "describing world futures in the 21st century. Glob. Environ. Change https://doi.org/",
+        "10.1016/j.gloenvcha.2015.01.004 (2015)."
+      ],
+      "line_bboxes": [
+        [
+          306.13787841796875,
+          688.8606567382812,
+          544.2957763671875,
+          697.0506591796875
+        ],
+        [
+          320.30987548828125,
+          696.8766479492188,
+          543.7678833007812,
+          705.066650390625
+        ],
+        [
+          320.3098449707031,
+          704.8926391601562,
+          427.4997863769531,
+          713.0826416015625
+        ]
+      ],
+      "line_pages": [
+        12,
+        12,
+        12
+      ],
+      "citation": "O’Neill, B. C. et al. The roads ahead: narratives for shared socioeconomic pathways describing world futures in the 21st century. Glob. Environ. Change https://doi.org/ 10.1016/j.gloenvcha.2015.01.004 (2015).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C018",
+        "C054"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R081"
+    },
+    {
+      "id": "R082",
+      "pages": [
+        12
+      ],
+      "native_lines": [
+        "82.\t Bruhn, C. H. et al. Campos and Santos basins: 40 years of reservoir characterization",
+        "and management of shallow-to ultra-deep water, post-and pre-salt reservoirs-Historical",
+        "overview and future challenges. In Offshore Technology Conference Brasil D011S006R001",
+        "(OTC, 2017)."
+      ],
+      "line_bboxes": [
+        [
+          306.1378479003906,
+          712.9086303710938,
+          547.1578979492188,
+          721.0986328125
+        ],
+        [
+          320.30987548828125,
+          720.9246215820312,
+          556.7879028320312,
+          729.1146240234375
+        ],
+        [
+          320.30987548828125,
+          728.9406127929688,
+          562.8610229492188,
+          737.130615234375
+        ],
+        [
+          320.30987548828125,
+          736.9566650390625,
+          352.7159118652344,
+          745.1466674804688
+        ]
+      ],
+      "line_pages": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "citation": "Bruhn, C. H. et al. Campos and Santos basins: 40 years of reservoir characterization and management of shallow-to ultra-deep water, post-and pre-salt reservoirs-Historical overview and future challenges. In Offshore Technology Conference Brasil D011S006R001 (OTC, 2017).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C055"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R082"
+    },
+    {
+      "id": "R083",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "83.\t Beyer, J., Trannum, H. C., Bakke, T., Hodson, P. V. & Collier, T. K. Environmental effects of",
+        "the Deepwater Horizon oil spill: a review. Mar. Pollut. Bull. 110, 28–51 (2016)."
+      ],
+      "line_bboxes": [
+        [
+          39.685001373291016,
+          47.189796447753906,
+          288.4449157714844,
+          55.379798889160156
+        ],
+        [
+          53.85700225830078,
+          55.115787506103516,
+          255.7329864501953,
+          63.395790100097656
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Beyer, J., Trannum, H. C., Bakke, T., Hodson, P. V. & Collier, T. K. Environmental effects of the Deepwater Horizon oil spill: a review. Mar. Pollut. Bull. 110, 28–51 (2016).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C055"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R083"
+    },
+    {
+      "id": "R084",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "84.\t Global Oil and Gas Extraction Tracker (Global Energy Monitor, 2025)."
+      ],
+      "line_bboxes": [
+        [
+          39.68501281738281,
+          63.221778869628906,
+          237.3543701171875,
+          71.41178131103516
+        ]
+      ],
+      "line_pages": [
+        13
+      ],
+      "citation": "Global Oil and Gas Extraction Tracker (Global Energy Monitor, 2025).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056",
+        "C061"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R084"
+    },
+    {
+      "id": "R085",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "85.\t Omara, M. et al. Developing a spatially explicit global oil and gas infrastructure database",
+        "for characterizing methane emission sources at high resolution. Earth Syst. Sci. Data 15,",
+        "3761–3790 (2023)."
+      ],
+      "line_bboxes": [
+        [
+          39.68501281738281,
+          71.2377700805664,
+          293.2646484375,
+          79.42777252197266
+        ],
+        [
+          53.85701370239258,
+          79.16376495361328,
+          290.1910095214844,
+          87.44376373291016
+        ],
+        [
+          53.857025146484375,
+          87.2697525024414,
+          103.78902435302734,
+          95.45975494384766
+        ]
+      ],
+      "line_pages": [
+        13,
+        13,
+        13
+      ],
+      "citation": "Omara, M. et al. Developing a spatially explicit global oil and gas infrastructure database for characterizing methane emission sources at high resolution. Earth Syst. Sci. Data 15, 3761–3790 (2023).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R085"
+    },
+    {
+      "id": "R086",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "86.\t Sabbatino, M. et al. Global Oil & Gas Features Database (National Energy Technology",
+        "Laboratory, 2017); https://doi.org/10.18141/1427300."
+      ],
+      "line_bboxes": [
+        [
+          39.68502426147461,
+          95.2857437133789,
+          282.07891845703125,
+          103.47574615478516
+        ],
+        [
+          53.857025146484375,
+          103.3017349243164,
+          192.61302185058594,
+          111.49173736572266
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Sabbatino, M. et al. Global Oil & Gas Features Database (National Energy Technology Laboratory, 2017); https://doi.org/10.18141/1427300.",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R086"
+    },
+    {
+      "id": "R087",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "87. Global Oil and Gas Extraction Tracker (Global Energy Monitor, 2024)."
+      ],
+      "line_bboxes": [
+        [
+          39.685028076171875,
+          111.3177261352539,
+          237.32437133789062,
+          119.50772857666016
+        ]
+      ],
+      "line_pages": [
+        13
+      ],
+      "citation": "Global Oil and Gas Extraction Tracker (Global Energy Monitor, 2024).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056",
+        "C061"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R087"
+    },
+    {
+      "id": "R088",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "88.\t Zhang, G. et al. Giant discoveries of oil and gas fields in global deepwaters in the past",
+        "40 years and the prospect of exploration. J. Nat. Gas Geosci. 4, 1–28 (2019)."
+      ],
+      "line_bboxes": [
+        [
+          39.68502426147461,
+          119.3337173461914,
+          284.18609619140625,
+          127.52371978759766
+        ],
+        [
+          53.857025146484375,
+          127.25971221923828,
+          255.33700561523438,
+          135.53970336914062
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Zhang, G. et al. Giant discoveries of oil and gas fields in global deepwaters in the past 40 years and the prospect of exploration. J. Nat. Gas Geosci. 4, 1–28 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C056"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R088"
+    },
+    {
+      "id": "R089",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "89.\t Project, T. T., De Reuck, K., Angus, S. & Armstrong, B. International Thermodynamic Tables",
+        "of the Fluid State: Carbon Dioxide (Pergamon Press, 1976)."
+      ],
+      "line_bboxes": [
+        [
+          39.67901611328125,
+          135.36570739746094,
+          294.4324035644531,
+          143.55569458007812
+        ],
+        [
+          53.851016998291016,
+          143.38169860839844,
+          208.73434448242188,
+          151.57168579101562
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Project, T. T., De Reuck, K., Angus, S. & Armstrong, B. International Thermodynamic Tables of the Fluid State: Carbon Dioxide (Pergamon Press, 1976).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C057"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R089"
+    },
+    {
+      "id": "R090",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "90.\t Hasan, M. M., Alam, M. W., Jian, H. & Chowdhury, K. M. A. Protracted maritime boundary",
+        "disputes and maritime laws. J. Int. Marit. Saf. Environ. Aff. Shipp. 2, 89–96 (2019)."
+      ],
+      "line_bboxes": [
+        [
+          39.67901611328125,
+          151.39768981933594,
+          290.1603088378906,
+          159.58767700195312
+        ],
+        [
+          53.851016998291016,
+          159.32366943359375,
+          268.83697509765625,
+          167.60366821289062
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Hasan, M. M., Alam, M. W., Jian, H. & Chowdhury, K. M. A. Protracted maritime boundary disputes and maritime laws. J. Int. Marit. Saf. Environ. Aff. Shipp. 2, 89–96 (2019).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C059"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R090"
+    },
+    {
+      "id": "R091",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "91. Byers, E. et al. AR6 scenarios database. Zenodo https://doi.org/10.5281/zenodo.5886912",
+        "(2022)."
+      ],
+      "line_bboxes": [
+        [
+          39.67301940917969,
+          167.42967224121094,
+          290.982421875,
+          175.61965942382812
+        ],
+        [
+          53.84501647949219,
+          175.44566345214844,
+          72.94902801513672,
+          183.63565063476562
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Byers, E. et al. AR6 scenarios database. Zenodo https://doi.org/10.5281/zenodo.5886912 (2022).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C062"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R091"
+    },
+    {
+      "id": "R092",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "92.\t Huppmann, D. et al. pyam: analysis and visualisation of integrated assessment and",
+        "macro-energy scenarios. Open Res. Eur. 1, 74 (2021)."
+      ],
+      "line_bboxes": [
+        [
+          39.67301559448242,
+          183.46165466308594,
+          276.9926452636719,
+          191.65164184570312
+        ],
+        [
+          53.84501647949219,
+          191.38763427734375,
+          193.7043914794922,
+          199.66763305664062
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Huppmann, D. et al. pyam: analysis and visualisation of integrated assessment and macro-energy scenarios. Open Res. Eur. 1, 74 (2021).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C062"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R092"
+    },
+    {
+      "id": "R093",
+      "pages": [
+        13
+      ],
+      "native_lines": [
+        "93.\t Gidden, M. & Joshi, S. Supplemental Data for Gidden et al 2025: a prudent planetary limit",
+        "for geologic carbon storage. Zenodo https://doi.org/10.5281/zenodo.15657542 (2025)."
+      ],
+      "line_bboxes": [
+        [
+          39.67301940917969,
+          199.49363708496094,
+          294.2246398925781,
+          207.68362426757812
+        ],
+        [
+          53.84502029418945,
+          207.50962829589844,
+          284.7731018066406,
+          215.69961547851562
+        ]
+      ],
+      "line_pages": [
+        13,
+        13
+      ],
+      "citation": "Gidden, M. & Joshi, S. Supplemental Data for Gidden et al 2025: a prudent planetary limit for geologic carbon storage. Zenodo https://doi.org/10.5281/zenodo.15657542 (2025).",
+      "role": "Printed source for linked claims or methods; bibliography reading is not verification of the original.",
+      "verification_status": "unverified_original",
+      "claim_links": [
+        "C064"
+      ],
+      "native_line_record": "evidence/comprehensive_review_inputs/B2-18_bibliography.json#R093"
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "study_id": "B2-18",
+  "checks": 41,
+  "ring_rows": 4,
+  "temperature_rows": 6,
+  "mask_sequences": [
+    {
+      "order": [
+        "A",
+        "B"
+      ],
+      "steps": [
+        {
+          "layer": "A",
+          "removed": 9,
+          "remaining": 3
+        },
+        {
+          "layer": "B",
+          "removed": 1,
+          "remaining": 2
+        }
+      ]
+    },
+    {
+      "order": [
+        "B",
+        "A"
+      ],
+      "steps": [
+        {
+          "layer": "B",
+          "removed": 4,
+          "remaining": 8
+        },
+        {
+          "layer": "A",
+          "removed": 6,
+          "remaining": 2
+        }
+      ]
+    }
+  ],
+  "synthetic_scenario_rows": 400,
+  "conditional_state_rows": 6,
+  "all_ring_comparisons_rounding_compatible": false,
+  "source_sha256": "445b3e7214b5fcb2b5aabc4311846c979fd563f8f2184879b808736930d7489a",
+  "original_GIS_IAM_models_reproduced": false,
+  "limits": "Limited printed arithmetic and disclosed synthetic components. Native GIS masks, scenario arrays, code/SI, density basis, field pressure/rates, full utilities and climate response remain unverified. No operating/GHG input accepted."
+}

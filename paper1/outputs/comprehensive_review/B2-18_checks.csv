@@ -1,0 +1,42 @@
+item,value,unit,scope
+technical_component_sum,11780,Gt,"Printed Fig2b components, no guessed correction"
+technical_sum_minus_total,0,Gt,All totals/components rounded to .01 thousand Gt; 10 Gt lower-case difference is rounding compatible
+lower_sensitivity_component_sum,1280,Gt,"Printed Fig2b components, no guessed correction"
+lower_sensitivity_sum_minus_total,-10,Gt,All totals/components rounded to .01 thousand Gt; 10 Gt lower-case difference is rounding compatible
+central_component_sum,1460,Gt,"Printed Fig2b components, no guessed correction"
+central_sum_minus_total,0,Gt,All totals/components rounded to .01 thousand Gt; 10 Gt lower-case difference is rounding compatible
+upper_sensitivity_component_sum,2710,Gt,"Printed Fig2b components, no guessed correction"
+upper_sensitivity_sum_minus_total,0,Gt,All totals/components rounded to .01 thousand Gt; 10 Gt lower-case difference is rounding compatible
+central_onshore_fraction,69.17808219178082,%,Rounded display values support approximate 70/30 split
+central_remaining_fraction,12.39388794567063,%,"Stock ratio, not acceptance probability or annual availability"
+Fig2c_top_outer_technical_sum,5701,Gt,"Enlarged native labels, not author dataset reproduction"
+Fig2c_top_inner_central_sum,994,Gt,"Enlarged native labels, not author dataset reproduction"
+Fig2c_bottom_outer_technical_sum,5517,Gt,"Enlarged native labels, not author dataset reproduction"
+Fig2c_bottom_inner_central_sum,452,Gt,"Enlarged native labels, not author dataset reproduction"
+Fig2c_technical_total,11218,Gt,Five-region sums may omit territories; mapping not acquired
+Fig2c_central_total,1446,Gt,Not silently reconciled to 1460 Gt
+bulk_coefficient_kg_m3,0.037,kg/m3 bulk,Effective aggregate coefficient includes borrowed pressure/50-year assumptions; not fluid density
+bulk_coefficient_t_km3,37000.0,t/km3 bulk,No pore fraction or new annual control inferred
+analyst_geometry_stock,55499.99999999999,t,Synthetic 1km2 x 1.5km assessed sediment volume only
+analyst_geometry_50yr_equivalent,1109.9999999999998,t/y,"Arithmetic period average, NOT a pressure-constrained annual limit"
+central_temperature_half_stock_for_CDR,0.3285,degC,"Disclosed 50% stock allocation, not actual climate outcome"
+historical_scale_ratio,177.55102040816325,ratio,"Rounded 2024 capture capacity denominator, not observed injection flow"
+historical_scale_rounding_low,174.74747474747474,ratio,Assumes nearest .1Gt and1Mt rounding; source175 lies inside interval
+historical_scale_rounding_high,180.41237113402062,ratio,No definite source175 arithmetic error established
+basalt_cumulative,0.1,Mt,"Cumulative since2014, not an annual operating limit"
+central_border_buffer,11.112,km each side,"Normative6nautical-mile terrestrial buffer, pressure plume may extend farther"
+border_sensitivity,22.224,km each side,Full12nautical-mile sensitivity
+analyst_remaining_at_NZ,133.33333333333334,years,Synthetic300Gt already used; not native scenario median
+analyst_first_negative_year,2041,year,"Strict first integer negative convention, exact zero at2040 excluded; native convention unverified"
+analyst_sum_standalone_mask_removals,13,synthetic weight,Overlapping masks double-count if standalone removals added
+analyst_union_removed,10,synthetic weight,Union final exclusion independent of order only for same fixed masks/weights
+analyst_rising_crossing,2144,calendar year,"Synthetic >= threshold, cumulative annual sum; no native scenario replication"
+analyst_rising_rate_2300,92.0,Gt/y,"Raw first-order extrapolation, no unreported floor"
+analyst_rising_cumulative_2300,10540.0,Gt,"Negative extrapolation illustrates missing-policy question, not proof native code allows negative storage"
+analyst_falling_crossing,not_crossed,calendar year,"Synthetic >= threshold, cumulative annual sum; no native scenario replication"
+analyst_falling_rate_2300,-68.0,Gt/y,"Raw first-order extrapolation, no unreported floor"
+analyst_falling_cumulative_2300,-5540.0,Gt,"Negative extrapolation illustrates missing-policy question, not proof native code allows negative storage"
+analyst_flat_remaining,75.0,years,Flat endpoint rate differs from rising extrapolation
+analyst_retained_after_100,99.00493386913719,%,"Single deposited cohort, constant compound leakage only; not continuous-injection/climate or measured-retention model"
+analyst_retained_after_1000,90.48328935585562,%,"Single deposited cohort, constant compound leakage only; not continuous-injection/climate or measured-retention model"
+analyst_retained_after_10000,36.786104643297044,%,"Single deposited cohort, constant compound leakage only; not continuous-injection/climate or measured-retention model"

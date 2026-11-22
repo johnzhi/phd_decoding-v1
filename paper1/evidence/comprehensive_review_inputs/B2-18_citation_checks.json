@@ -1,0 +1,20 @@
+{
+  "study_id": "B2-18",
+  "source_sha256": "445b3e7214b5fcb2b5aabc4311846c979fd563f8f2184879b808736930d7489a",
+  "external_retrieval": "paused_pending_requested_Chrome_connection",
+  "edges": [
+    {
+      "reference_id": "R024",
+      "cited_study": "B2-16",
+      "source_sha256": "ba2c448e350c1ccfd5f9acdf9f6458d41706e25736ea1b0fee00ee47a07428f0",
+      "doi": "10.1038/s41558-020-00960-0",
+      "targeted_pages": [
+        1,
+        8
+      ],
+      "inspection": "Exact title/authors/DOI matched; selected retained-original text and rendered pages inspected locally. No external retrieval.",
+      "supported": "Earlier globally distributed onshore basin resource assessment using a high-level DOE volumetric framework:794 basins including 614 saline and 180 EOR; three parameter cases. This supports B2-18 p 2 citation as earlier technical assessment, not exhaustive proof of novelty.",
+      "unresolved": "Original explicitly applies domestic matching and prohibits cross-border transportation. Its resource estimates do not establish native field pressure-constrainedannual service, complete precautionaryrisk/GISfilters or a complete utility/climateinventory. Originalmodel/SI/source chain remainsincomplete."
+    }
+  ]
+}

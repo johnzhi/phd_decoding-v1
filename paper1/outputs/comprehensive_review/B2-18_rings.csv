@@ -1,0 +1,5 @@
+native_label,position,ring,figure2b_comparator_Gt,sum_Gt,gap_Gt,rounding_compatible,scope
+Offshore,top,outer_technical,6060,5701,-359,False,Native label preserved; require region/case/label crosswalk and arrays; no automatic ring swap or correction
+Offshore,top,inner_central,450,994,544,False,Native label preserved; require region/case/label crosswalk and arrays; no automatic ring swap or correction
+Onshore,bottom,outer_technical,5720,5517,-203,False,Native label preserved; require region/case/label crosswalk and arrays; no automatic ring swap or correction
+Onshore,bottom,inner_central,1010,452,-558,False,Native label preserved; require region/case/label crosswalk and arrays; no automatic ring swap or correction
